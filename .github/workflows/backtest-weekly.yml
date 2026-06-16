@@ -1,0 +1,54 @@
+name: 回测证据周更
+
+# 每周一北京 09:00(01:00 UTC)刷新 backtest.json(3 年真实数据测核心规则的命中率/盈亏比)。
+# best-effort:被 Yahoo 限流也不崩——backtest.py 全失败时不写、不覆盖旧证据;
+# 用 [skip ci] 静默提交,次日 08:07 的 daily-board 会自动带上新证据,不单独触发部署/飞书。
+on:
+  schedule:
+    - cron: "0 1 * * 1"       # 周一 01:00 UTC = 北京 09:00
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: backtest
+  cancel-in-progress: false
+
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 跑回测;被限流/全失败时 backtest.py 会打印"无信号"并不写文件,旧 backtest.json 原样保留
+      - name: 跑 3 年回测(允许失败)
+        run: |
+          python backtest.py || echo "::warning::backtest.py 异常(可能被限流),保留上一份 backtest.json"
+
+      - name: 提交 backtest.json(若有更新)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/backtest.json
+          if git diff --cached --quiet; then
+            echo "backtest.json 无变化,跳过提交"
+          else
+            git commit -m "chore: 周更回测证据 $(date +%F) [skip ci]"
+            git pull --rebase origin main || true
+            git push origin HEAD:main
+          fi

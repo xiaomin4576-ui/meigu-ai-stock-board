@@ -8,16 +8,40 @@
      · 同一标的同时只持一仓(解决后再开新仓)
    输出:命中率 / 止损率 / 超时率 / 平均盈亏 / 实际 R:R → state/backtest.json
 ⚠️ 诚实警告:测试标的是 AI 大牛市里的赢家,结果被行情严重美化,不代表未来,更非 90%。"""
-import json, os, datetime
+import json, os, time, datetime
+import requests
 import yfinance as yf
 
 DIR = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(DIR, "state")
 TARGET, STOP, MAXHOLD = 0.25, 0.10, 126
+UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+      "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36")
+
+
+def _session():
+    """带浏览器 UA 的 session,降低 GitHub Actions 数据中心 IP 被 Yahoo 限流概率。"""
+    s = requests.Session()
+    s.headers.update({"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9"})
+    return s
+
+
+_SESS = _session()
 
 
 def backtest_one(tk):
-    df = yf.Ticker(tk).history(period="3y", interval="1d", auto_adjust=True)
+    # 简单重试:限流时退避重试 2 次(总 3 次),仍失败抛出由 main 记 err 跳过
+    df = None
+    for i in range(3):
+        try:
+            df = yf.Ticker(tk, session=_SESS).history(period="3y", interval="1d", auto_adjust=True)
+            if df is not None and len(df) > 0:
+                break
+        except Exception:
+            pass
+        time.sleep(2.0 * (2 ** i))
+    if df is None or len(df) == 0:
+        raise RuntimeError("行情为空(可能被限流)")
     c = df["Close"].dropna()
     lo = df["Low"].dropna()
     hi = df["High"].dropna()
