@@ -1,0 +1,22 @@
+{
+  "title": "美股 AI 科技股早报",
+  "horizon_label": "6-12 个月(长期)",
+  "horizon_days": 270,
+  "target_aggressive_pct": 60,
+  "min_periods_for_calibration": 5,
+  "benchmark": "QQQ",
+  "stocks": [
+    {"ticker": "NVDA", "name": "英伟达", "role": "算力 GPU 龙头"},
+    {"ticker": "AVGO", "name": "博通",   "role": "AI 定制芯片/网络"},
+    {"ticker": "TSM",  "name": "台积电", "role": "AI 晶圆代工"},
+    {"ticker": "AMD",  "name": "超微",   "role": "GPU/AI 加速器"},
+    {"ticker": "MU",   "name": "美光",   "role": "HBM 存储(海力士同类)"},
+    {"ticker": "MRVL", "name": "迈威尔", "role": "光 DSP/定制芯片"},
+    {"ticker": "ANET", "name": "Arista", "role": "AI 数据中心交换机"},
+    {"ticker": "CRDO", "name": "Credo",  "role": "AI 网络连接 AEC"},
+    {"ticker": "COHR", "name": "相干",   "role": "光模块/光通信"},
+    {"ticker": "VRT",  "name": "Vertiv", "role": "AI 数据中心供电散热"},
+    {"ticker": "QQQ",  "name": "纳指100 ETF", "role": "大盘基准"}
+  ],
+  "_note": "前十随大市场动态变化:每次跑早报时 Claude 按市值/AI相关度/热度评估是否需要换标的,改这里的 stocks 数组即可。QQQ 固定作基准。"
+}

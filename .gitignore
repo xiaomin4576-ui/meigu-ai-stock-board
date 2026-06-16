@@ -1,0 +1,12 @@
+# 不入库的本地/运行时产物
+state/cron.log
+__pycache__/
+*.pyc
+.DS_Store
+# docs/ 由 workflow 每次重建(开头就 rm -rf docs),仓库只保留 .nojekyll 占位
+docs/*
+!docs/.nojekyll
+# 安全:任何含 webhook/secret 的本地文件一律排除,绝不进公开仓
+*webhook*
+*secret*
+.vibe-trading/

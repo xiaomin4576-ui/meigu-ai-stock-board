@@ -1,0 +1,276 @@
+name: 美股AI股票早报 · 构建并部署 Pages
+
+# 触发:每天北京 08:07(美股盘后,避开整点 cron 拥堵)自动跑;手动可触发;
+# push main 便于 Routine commit 新 calls_*.json 后自动重建看板。
+on:
+  schedule:
+    - cron: "7 0 * * *"        # 00:07 UTC = 北京 08:07(避开整点排队延迟)
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+# Pages 部署所需最小权限:写仓库(提交 state/)+ 写 Pages + OIDC 身份令牌
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# 同一时刻只跑一份 Pages 部署,防并发部署打架
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  TZ: Asia/Shanghai           # 全程北京时间,保证日期与脚本内 timezone(+8) 一致
+
+jobs:
+  # ---------------- 构建 + 提交 + 上传 Pages 工件 ----------------
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 安装 Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 拉行情:fetch_data.py 已内化容错(重试+UA/session+整体失败回退复用上一份真实 data),
+      # 永远 exit 0;|| echo 仅作双保险,绝不中断后续步骤。
+      - name: 拉取行情数据(允许失败)
+        run: |
+          python fetch_data.py || echo "::warning::fetch_data.py 异常,沿用已有 data_*.json 继续"
+
+      - name: 复盘校准
+        run: python verify.py
+
+      - name: 渲染当日看板
+        run: python build_board.py
+
+      - name: 生成历史归档
+        run: python build_archive.py
+
+      # 把 state/ 的 HTML 组织进 docs/(Pages 发布根)。验证过:落地页=最新一期+注入归档入口,
+      # archive.html=归档页(保持干净),全部 board 副本同目录以保相对链接闭环,.nojekyll 关 Jekyll。
+      - name: 组织 Pages 站点到 docs/
+        run: |
+          set -euo pipefail
+          STATE="state"
+          DOCS="docs"
+          rm -rf "$DOCS"; mkdir -p "$DOCS"
+
+          # 1) 关闭 Jekyll(下划线/特殊文件不被吞)
+          touch "$DOCS/.nojekyll"
+
+          # 2) 所有每期看板原样拷进 docs/(归档页相对链接引用它们,必须同目录)
+          cp "$STATE"/ai_stock_board_*.html "$DOCS"/ 2>/dev/null || { echo "❌ 没有任何 ai_stock_board_*.html,中止"; exit 1; }
+
+          # 3) 归档页 state/index.html → docs/archive.html
+          if [ -f "$STATE/index.html" ]; then
+            cp "$STATE/index.html" "$DOCS/archive.html"
+          else
+            echo "⚠️ 缺 state/index.html(归档页),archive.html 将缺失(不阻断)"
+          fi
+
+          # 4) 落地页 = 最新一期看板(ls -t 取改动时间最新,稳过拼日期)
+          LATEST=$(ls -t "$STATE"/ai_stock_board_*.html | head -1)
+          echo "📄 落地页采用最新一期: $(basename "$LATEST")"
+          cp "$LATEST" "$DOCS/index.html"
+
+          # 5) 仅在 docs 落地页副本顶部注入「📚 历史归档」入口(build_board 未含此链接;
+          #    只改 docs/index.html,不动 state 原文件、不动 archive.html;幂等)
+          python3 - "$DOCS/index.html" <<'PY'
+          import sys
+          path = sys.argv[1]
+          nav = ('<div class="navbar" style="max-width:1280px;margin:0 auto 12px;text-align:right">'
+                 '<a href="archive.html" style="color:#60a5fa;text-decoration:none;font-weight:700;font-size:13px;'
+                 'background:rgba(96,165,250,.1);border:1px solid rgba(96,165,250,.3);border-radius:10px;padding:6px 14px">'
+                 '📚 历史归档</a></div>')
+          html = open(path, encoding="utf-8").read()
+          anchor = '<div class="wrap">'
+          if anchor in html and 'class="navbar"' not in html:
+              html = html.replace(anchor, anchor + nav, 1)
+              open(path, "w", encoding="utf-8").write(html)
+              print("✅ 已注入 历史归档 入口")
+          else:
+              print("ℹ️ 跳过注入(锚点缺失或已存在)")
+          PY
+
+          # 6) 校验产物
+          echo "=== docs/ 内容 ==="; ls -la "$DOCS"
+          [ -f "$DOCS/index.html" ]   || { echo "❌ docs/index.html 缺失"; exit 1; }
+          [ -f "$DOCS/.nojekyll" ]    || { echo "❌ .nojekyll 缺失"; exit 1; }
+          grep -q 'class="navbar"' "$DOCS/index.html" && echo "✅ 落地页含归档入口" || echo "⚠️ 落地页未注入归档入口"
+          echo "✅ docs/ 组织完成,可上传 Pages"
+
+      # 提交 state/(台账+数据,需累积以支撑复盘记分卡)。docs/ 不入库(纯 artifact 部署)。
+      # github-actions bot 身份 + [skip ci] 防触发自身死循环;先 rebase 避免与 Routine 竞态导致非快进;无变化则跳过。
+      - name: 提交 state/ 回 main
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || true
+          git add state/
+          if git diff --cached --quiet; then
+            echo "无变化,跳过提交"
+          else
+            BJ_DATE=$(date +%F)
+            git commit -m "chore: 自动更新美股AI早报 ${BJ_DATE} [skip ci]"
+            git push origin HEAD:main
+          fi
+
+      - name: 配置 Pages
+        uses: actions/configure-pages@v4
+
+      - name: 上传 Pages 工件
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs
+
+  # ---------------- 部署到 GitHub Pages ----------------
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 部署到 Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: 打印站点地址
+        run: echo "📡 看板已上线:${{ steps.deployment.outputs.page_url }}"
+
+  # ---------------- 推送飞书卡片(独立 job,失败不影响部署)----------------
+  notify:
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # secret 缺失则整个 job 静默跳过,绝不报错
+      - name: 检查飞书 webhook 是否配置
+        id: gate
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+        run: |
+          if [ -z "$FEISHU_WEBHOOK" ]; then
+            echo "未配置 FEISHU_WEBHOOK,跳过飞书推送"
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # 用 Python 从 state/calls_*.json + data_*.json 直接 json.dump 生成飞书 interactive 卡片 payload,
+      # 写到 /tmp/feishu_payload.json —— 彻底规避 shell 转义中文/HTML/范围符的地狱(已对真实种子验证产出合法 JSON)。
+      - name: 生成飞书卡片 payload
+        if: steps.gate.outputs.ok == 'true'
+        env:
+          PAGES_URL: ${{ needs.deploy.outputs.page_url }}
+        run: |
+          cat > /tmp/feishu_card.py <<'PYEOF'
+          # -*- coding: utf-8 -*-
+          import json, os, glob, re
+          STATE = "state"
+
+          def jload(p, d=None):
+              return json.load(open(p, encoding="utf-8")) if os.path.exists(p) else d
+
+          def strip_html(s):
+              return re.sub(r"<[^>]+>", "", s or "").strip()
+
+          files = sorted(glob.glob(os.path.join(STATE, "calls_*.json")))
+          if not files:
+              raise SystemExit("无 calls_*.json,跳过")
+          calls = jload(files[-1])
+          m = re.search(r"calls_(\d{4}-\d{2}-\d{2})\.json", os.path.basename(files[-1]))
+          date = m.group(1) if m else "未知"
+          data = (jload(os.path.join(STATE, f"data_{date}.json"), {}) or {}).get("stocks", {})
+
+          stocks = calls.get("stocks", {})
+          ranking = calls.get("ranking") or list(stocks.keys())
+          top3 = [tk for tk in ranking if tk in stocks][:3]
+
+          market = strip_html(calls.get("market", ""))
+          if len(market) > 160:
+              market = market[:158] + "…"
+
+          medal = ["🥇", "🥈", "🥉"]
+          lines = []
+          for i, tk in enumerate(top3):
+              a = stocks.get(tk, {})
+              name = (data.get(tk, {}) or {}).get("name", "")
+              price = (data.get(tk, {}) or {}).get("price")
+              px = f"  现价 ${price}" if price is not None else ""
+              lines.append(
+                  f"{medal[i]} **{tk}** {name}{px}\n"
+                  f"　🎯 建议买入价 **${a.get('buy','—')}** ｜ 📈 目标价 **${a.get('tgt','—')}** ｜ "
+                  f"💰 预期收益 **{a.get('ret','—')}**（{a.get('sig','—')}·置信 {a.get('conf','?')}/10）"
+              )
+          top_md = "\n".join(lines) if lines else "（暂无研判）"
+
+          pages_url = os.environ.get("PAGES_URL", "").strip() or "https://xiaomin4576-ui.github.io/meigu-ai-stock-board/"
+
+          payload = {
+              "msg_type": "interactive",
+              "card": {
+                  "config": {"wide_screen_mode": True},
+                  "header": {"template": "blue",
+                             "title": {"tag": "plain_text", "content": "📡 美股AI科技股早报"}},
+                  "elements": [
+                      {"tag": "div", "text": {"tag": "lark_md",
+                          "content": f"**📅 {date}** · 长期 6-12 月视角 · 数据 yfinance · Claude 研判"}},
+                      {"tag": "hr"},
+                      {"tag": "div", "text": {"tag": "lark_md", "content": f"🌡 **市场体制:** {market}"}},
+                      {"tag": "hr"},
+                      {"tag": "div", "text": {"tag": "lark_md", "content": f"🏆 **买点 Top3:**\n{top_md}"}},
+                      {"tag": "action", "actions": [
+                          {"tag": "button",
+                           "text": {"tag": "plain_text", "content": "📊 打开完整看板"},
+                           "type": "primary", "url": pages_url}]},
+                      {"tag": "note", "elements": [
+                          {"tag": "plain_text",
+                           "content": "仅供研究/学习,非投资建议 · 赚钱靠风控不靠高胜率"}]},
+                  ],
+              },
+          }
+          with open("/tmp/feishu_payload.json", "w", encoding="utf-8") as f:
+              json.dump(payload, f, ensure_ascii=False)
+          print("payload 已生成,Top3:", top3, "日期:", date)
+          PYEOF
+          python /tmp/feishu_card.py
+
+      # POST 飞书,校验返回 code:0;continue-on-error 让飞书挂了不拖累已成功的部署
+      - name: 推送飞书
+        if: steps.gate.outputs.ok == 'true'
+        continue-on-error: true
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+        run: |
+          RESP=$(curl -s -X POST "$FEISHU_WEBHOOK" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d @/tmp/feishu_payload.json)
+          echo "飞书返回:$RESP"
+          CODE=$(echo "$RESP" | python -c "import sys,json; print(json.load(sys.stdin).get('code', -1))" 2>/dev/null || echo "-1")
+          if [ "$CODE" != "0" ]; then
+            echo "::error::飞书推送失败,code=$CODE"
+            exit 1
+          fi
+          echo "✅ 飞书推送成功"

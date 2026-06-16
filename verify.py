@@ -1,0 +1,103 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""④ 自动验证 + 校准:读 state/predictions.jsonl(历史各期预测)+ yfinance 真实价。
+· 即时可达性校验(最新一期):买入价是否在近20交易日真实成交区间内、目标隐含涨幅是否过激。
+· 历史复盘(过往各期):买入区间是否被触及、距目标完成度、方向胜率、到期实际收益 vs 预测。
+· 记分卡 + 校准建议 → state/verification.json,供看板与 Claude 出建议时读用。"""
+import json, os, datetime
+import yfinance as yf
+
+DIR = os.path.dirname(os.path.abspath(__file__))
+STATE = os.path.join(DIR, "state")
+LEDGER = os.path.join(STATE, "predictions.jsonl")
+OUT = os.path.join(STATE, "verification.json")
+TODAY = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).date().isoformat()  # 北京时间
+
+
+def main():
+    cfg = json.load(open(os.path.join(DIR, "config.json"), encoding="utf-8"))
+    recs = []
+    if os.path.exists(LEDGER):
+        for ln in open(LEDGER, encoding="utf-8"):
+            ln = ln.strip()
+            if ln:
+                try:
+                    recs.append(json.loads(ln))
+                except Exception:
+                    pass
+    latest = max((r["date"] for r in recs), default=None)
+    cache = {}
+
+    def ohlc(tk):
+        if tk not in cache:
+            cache[tk] = yf.Ticker(tk).history(period="1y", interval="1d", auto_adjust=True)
+        return cache[tk]
+
+    feasibility, review = {}, []
+    for r in recs:
+        tk = r["ticker"]
+        try:
+            df = ohlc(tk); cur = float(df["Close"].dropna().iloc[-1])
+        except Exception:
+            continue
+        bl, bh, tl, th = r.get("buy_low"), r.get("buy_high"), r.get("target_low"), r.get("target_high")
+        buy_mid = (bl + bh) / 2 if bl and bh else None
+        tgt_mid = (tl + th) / 2 if tl and th else None
+        if r["date"] == latest:
+            low20 = float(df["Low"].dropna().tail(20).min()); high20 = float(df["High"].dropna().tail(20).max())
+            reach = bool(bl and bh and bl <= high20 and bh >= low20)
+            note = ("✅ 可达(近20日区间覆盖买入价)" if reach else
+                    ("⚠️ 买入价低于近20日低点,可能挂不上" if (bl and low20 > bh) else
+                     ("⚠️ 买入价高于近20日高点,等同追高" if (bh and high20 < bl) else "—")))
+            implied = round((tgt_mid / cur - 1) * 100, 1) if tgt_mid else None
+            feasibility[tk] = {"cur": round(cur, 2), "buy_reachable": reach, "note": note,
+                               "recent20_low": round(low20, 2), "recent20_high": round(high20, 2),
+                               "target_implied_move_pct": implied,
+                               "target_aggressive": bool(implied is not None and implied > cfg["target_aggressive_pct"])}
+        else:
+            since = df[df.index.date >= datetime.date.fromisoformat(r["date"])]
+            lows = since["Low"].dropna() if len(since) else None
+            entry_hit = bool(bh and lows is not None and len(lows) and float(lows.min()) <= bh) if lows is not None else None
+            progress = round((cur - buy_mid) / (tgt_mid - buy_mid) * 100, 1) if (buy_mid and tgt_mid and tgt_mid != buy_mid) else None
+            matured = TODAY >= r.get("eval_date", "9999")
+            realized = round((cur / buy_mid - 1) * 100, 1) if buy_mid else None
+            direction_ok = bool(cur >= r["price_at_call"]) if str(r.get("signal", "")).startswith("买入") else None
+            review.append({"date": r["date"], "ticker": tk, "signal": r.get("signal"),
+                           "price_at_call": r["price_at_call"], "cur": round(cur, 2),
+                           "entry_hit": entry_hit, "direction_ok": direction_ok,
+                           "progress_to_target_pct": progress, "matured": matured,
+                           "realized_return_pct": realized})
+
+    sc = {"n_open": len(review)}
+    if review:
+        eh = [x["entry_hit"] for x in review if x["entry_hit"] is not None]
+        dr = [x["direction_ok"] for x in review if x["direction_ok"] is not None]
+        pr = [x["progress_to_target_pct"] for x in review if x["progress_to_target_pct"] is not None]
+        mat = [x for x in review if x["matured"] and x["realized_return_pct"] is not None]
+        sc.update({"entry_hit_rate": round(100 * sum(eh) / len(eh)) if eh else None,
+                   "direction_win_rate": round(100 * sum(dr) / len(dr)) if dr else None,
+                   "avg_progress_to_target_pct": round(sum(pr) / len(pr), 1) if pr else None,
+                   "matured_n": len(mat),
+                   "matured_avg_realized_pct": round(sum(x["realized_return_pct"] for x in mat) / len(mat), 1) if mat else None})
+
+    n_hist = len({r["date"] for r in recs} - {latest})
+    need = cfg["min_periods_for_calibration"]
+    if n_hist < need:
+        calib = f"历史 {n_hist} 期(<{need}),校准积累中:每天累积一期,满 {need} 期后给出量化校准系数。"
+    else:
+        ap = sc.get("avg_progress_to_target_pct")
+        calib = (f"过往平均仅完成目标 {ap}% → 目标价偏激进,建议本期收窄。" if (ap is not None and ap < 20)
+                 else f"过往平均完成目标 {ap}% → 目标价偏保守,可适度上调。" if (ap is not None and ap > 80)
+                 else f"目标价校准良好(平均完成度 {ap}%)。")
+
+    json.dump({"asof": TODAY, "latest_call_date": latest, "feasibility": feasibility,
+               "review": review, "scorecard": sc, "calibration": calib},
+              open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    bad = [tk for tk, v in feasibility.items() if not v["buy_reachable"] or v["target_aggressive"]]
+    print(json.dumps({"feasibility_checked": len(feasibility), "需关注": bad,
+                      "review_open": len(review), "scorecard": sc, "calibration": calib},
+                     ensure_ascii=False, indent=2))
+
+
+if __name__ == "__main__":
+    main()

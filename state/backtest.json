@@ -1,0 +1,36 @@
+{
+  "asof": "2026-06-16",
+  "rule": "上升趋势(>MA200)回调至MA50附近入场,目标+25%/止损-10%,持有≤126日",
+  "universe": [
+    "NVDA",
+    "AVGO",
+    "TSM",
+    "AMD",
+    "MU",
+    "MRVL",
+    "ANET",
+    "CRDO",
+    "COHR",
+    "VRT"
+  ],
+  "lookback": "3y",
+  "signals": 97,
+  "per_stock_signals": {
+    "NVDA": 8,
+    "AVGO": 14,
+    "TSM": 12,
+    "AMD": 7,
+    "MU": 6,
+    "MRVL": 9,
+    "ANET": 11,
+    "CRDO": 8,
+    "COHR": 11,
+    "VRT": 11
+  },
+  "win_rate_pct": 42,
+  "stopped_pct": 52,
+  "timeout_pct": 6,
+  "avg_trade_return_pct": 5.8,
+  "realized_rr": 2.5,
+  "caveat": "测试标的为AI大牛市赢家,存在幸存者/行情偏差,结果被严重美化;不代表未来表现,绝非承诺胜率。"
+}
