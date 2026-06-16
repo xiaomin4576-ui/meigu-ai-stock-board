@@ -177,6 +177,16 @@ def main():
 
     # 整体严重失败 → 回退复用最近一份真实 data,绝不用空数据覆盖
     if ok < max(1, int(total * DEGRADE_RATIO)):
+        # 优先:磁盘上已有的【今日】文件若本身是真实的(如 Routine/上一跑已抓到),限流时一律保留不覆盖
+        if os.path.exists(path):
+            try:
+                cur = json.load(open(path, encoding="utf-8"))
+                cur_ok = sum(1 for v in cur.get("stocks", {}).values() if "price" in v)
+                if cur_ok >= max(1, int(total * DEGRADE_RATIO)):
+                    print(f"⚠️ 本次抓取受限({ok}/{total}),但磁盘已有今日真实数据({cur_ok}/{total}),保留不覆盖 → {path}")
+                    return
+            except Exception:
+                pass
         last, ddate = _load_last_good()
         if last:
             for v in last.get("stocks", {}).values():
