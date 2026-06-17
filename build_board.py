@@ -126,7 +126,7 @@ def card(i, tk, d, a):
         news_html = f'<div class="news">📰 {items}</div>'
     return f"""
 <div class="card" style="border-top:3px solid {color}{';opacity:.92' if tk=='QQQ' else ''}">
-  <div class="hd"><span class="rk">{MEDALS[i]}</span><span class="tk">{tk}</span>
+  <div class="hd"><span class="rk">{MEDALS[i] if i < len(MEDALS) else str(i + 1) + "."}</span><span class="tk">{tk}</span>
     <span class="nm">{d.get('name','')}</span><span class="badge">{d.get('role','')}</span>
     <span class="sig" style="color:{color}">{sig}</span><span class="score">评分 {sc}</span><span class="conf">置信 {a.get('conf','?')}/10</span></div>
   <div class="px"><span class="now">${d.get('price','—')}</span>
@@ -158,23 +158,42 @@ def latest_calls():
     return jload(latest), (m.group(1) if m else "未知")
 
 
-def freshness_banner(calls_date):
-    """研判新鲜度横幅:研判与数据是否同一天;过期则醒目提醒重新跑研判。"""
+def freshness_banner(calls_date, data_meta=None):
+    """新鲜度横幅:分别如实标注【研判】与【行情数据】是否为今日。
+    研判过期 → 提醒刷新研判;行情降级(限流复用旧数据)→ 明确警示价格非当日实时。
+    绝不在数据已降级时谎称『数据均为今日』(诚实底线)。"""
+    data_meta = data_meta or {}
+    degraded = bool(data_meta.get("degraded"))
+    # —— 研判新鲜度 ——
     if calls_date == TODAY:
-        return (f'<div class="fresh ok">🟢 研判与数据均为今日(<b>{TODAY}</b>)· Claude 当期研判</div>')
-    try:
-        d0 = datetime.date.fromisoformat(calls_date)
-        days = (datetime.date.fromisoformat(TODAY) - d0).days
-    except Exception:
-        days = "?"
-    return (f'<div class="fresh stale">🟠 <b>数据已更新到今日 {TODAY}</b>,但<b>研判仍是 {calls_date}({days} 天前)</b>——'
-            f'价格/催化剂可能已变动,买入价与目标价请仅作参考。'
-            f'<b style="color:#fbbf24">如需最新研判,在 Claude 里说「跑美股AI早报」即可刷新。</b></div>')
+        research = f"🟢 研判为今日(<b>{TODAY}</b>)· Claude 当期研判"
+        cls = "ok"
+    else:
+        try:
+            days = (datetime.date.fromisoformat(TODAY) - datetime.date.fromisoformat(calls_date)).days
+        except Exception:
+            days = "?"
+        research = (f"🟠 <b>研判仍是 {calls_date}({days} 天前)</b>——买入价/目标价请仅作参考,"
+                    f"在 Claude 里说「跑美股AI早报 / 刷新云端美股看板」即可刷新")
+        cls = "stale"
+    # —— 行情数据新鲜度 ——
+    if degraded:
+        cls = "stale"
+        note = data_meta.get("banner") or "云端取数受限,已复用最近一期真实行情"
+        data_line = f"<br>🟠 <b>行情数据降级:</b>{note}——<b>价格非当日实时</b>,买卖价据此推演,请留意。"
+    else:
+        data_line = " · 行情数据为今日真实抓取"
+    return f'<div class="fresh {cls}">{research}{data_line}</div>'
 
 
 def main():
     cfg = jload(os.path.join(DIR, "config.json"))
-    data = jload(os.path.join(STATE, f"data_{TODAY}.json"), {}).get("stocks", {})
+    data_full = jload(os.path.join(STATE, f"data_{TODAY}.json"), {})
+    data = data_full.get("stocks", {})
+    data_meta = data_full.get("meta", {})
+    # 诚实防护:当日数据整份缺失/无任何价格时,也不许横幅谎称"今日真实抓取"
+    if not any(isinstance(v, dict) and "price" in v for v in data.values()) and not data_meta.get("degraded"):
+        data_meta = {"degraded": True, "banner": f"无 {TODAY} 当日行情数据(抓取失败且无可复用),展示的是最近一期研判"}
     calls, calls_date = latest_calls()
     v = jload(os.path.join(STATE, "verification.json"))
     if not calls:
@@ -230,7 +249,7 @@ body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;colo
 <div class="sub">AI 产业链上下游核心 {len(cfg['stocks'])-1} 票 + {cfg['benchmark']} 基准 · 长期 {cfg['horizon_label']} 视角 · 数据 yfinance(截至最近收盘) · Claude 研判</div>
 <div class="market">🌎 <b style="color:#60a5fa">大盘与板块:</b>{calls.get('market','')}</div>
 <div class="rankbar">🏆 <b>买点吸引力排序:</b>{rank_str}</div></div>
-{freshness_banner(calls_date)}
+{freshness_banner(calls_date, data_meta)}
 {evidence_section(data)}
 {review_section(v)}
 <div class="grid">{cards}</div>

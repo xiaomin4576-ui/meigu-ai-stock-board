@@ -31,17 +31,21 @@
 ```
 meigu-ai-stock-board/
 ├── README.md
+├── SKILL.md                      技能说明书(策略框架 + 手动/云端触发 + 诚实底线)
 ├── requirements.txt              yfinance / pandas / requests
 ├── .gitignore                    排除 cron.log / __pycache__ / 任何 webhook|secret 文件
 ├── config.json                   股票池(11 支)+ horizon/阈值
-├── fetch_data.py                 ① yfinance 拉行情+券商一致+财报日+新闻(CI 容错版)
+├── fetch_data.py                 ① yfinance 拉行情+券商一致+财报日+新闻(CI 容错版:限流不覆盖真实数据)
 ├── verify.py                     ④ 复盘校准 → state/verification.json
 ├── log_today.py                  ③ 研判落台账 → state/predictions.jsonl(幂等)
-├── build_board.py                ⑤ 渲染看板 → state/ai_stock_board_<日期>.html(latest_calls 复用 + freshness_banner)
+├── build_board.py                ⑤ 渲染看板 → state/ai_stock_board_<日期>.html(latest_calls 复用 + 研判/行情双新鲜度横幅)
 ├── build_archive.py              ⑥ 归档 → state/index.html
-├── backtest.py                   ⑦ 3 年回测 → state/backtest.json(手动/低频跑,不进每日 cron)
+├── backtest.py                   ⑦ 3 年回测 → state/backtest.json(由 backtest-weekly.yml 周更)
+├── cloud_prep.sh                 云端手动刷新·准备:git pull + 抓真实数据 + 复盘
+├── cloud_publish.sh              云端手动刷新·发布:落台账 + commit + push(触发 Actions 重建)
 ├── .github/workflows/
-│   └── daily-board.yml           轨道 B+C:fetch→verify→build→archive→组织 docs→部署 Pages→飞书
+│   ├── daily-board.yml           每天 08:07:fetch→verify→build→archive→组织 docs→部署 Pages→飞书
+│   └── backtest-weekly.yml       每周一 09:00:刷新 backtest.json 回测证据(best-effort)
 ├── state/                        产物/数据(由 Routine + Actions 共同写入,入库累积以支撑复盘)
 │   ├── data_<日期>.json
 │   ├── calls_<日期>.json         ★研判核心
