@@ -25,7 +25,7 @@ def main():
                     recs.append(json.loads(ln))
                 except Exception:
                     pass
-    latest = max((r["date"] for r in recs), default=None)
+    latest = max((r.get("date") for r in recs if r.get("date")), default=None)
     cache = {}
 
     def ohlc(tk):
@@ -35,7 +35,9 @@ def main():
 
     feasibility, review = {}, []
     for r in recs:
-        tk = r["ticker"]
+        tk, rdate = r.get("ticker"), r.get("date")
+        if not tk or not rdate:   # 跳过缺关键字段的台账行,避免 KeyError 中断整次复盘
+            continue
         try:
             df = ohlc(tk); cur = float(df["Close"].dropna().iloc[-1])
         except Exception:
@@ -43,7 +45,8 @@ def main():
         bl, bh, tl, th = r.get("buy_low"), r.get("buy_high"), r.get("target_low"), r.get("target_high")
         buy_mid = (bl + bh) / 2 if bl and bh else None
         tgt_mid = (tl + th) / 2 if tl and th else None
-        if r["date"] == latest:
+        is_buy = str(r.get("signal", "")).startswith("买入")
+        if rdate == latest:
             low20 = float(df["Low"].dropna().tail(20).min()); high20 = float(df["High"].dropna().tail(20).max())
             reach = bool(bl and bh and bl <= high20 and bh >= low20)
             note = ("✅ 可达(近20日区间覆盖买入价)" if reach else
@@ -55,20 +58,26 @@ def main():
                                "target_implied_move_pct": implied,
                                "target_aggressive": bool(implied is not None and implied > cfg["target_aggressive_pct"])}
         else:
-            since = df[df.index.date >= datetime.date.fromisoformat(r["date"])]
+            since = df[df.index.date >= datetime.date.fromisoformat(rdate)]
             lows = since["Low"].dropna() if len(since) else None
-            entry_hit = bool(bh and lows is not None and len(lows) and float(lows.min()) <= bh) if lows is not None else None
-            progress = round((cur - buy_mid) / (tgt_mid - buy_mid) * 100, 1) if (buy_mid and tgt_mid and tgt_mid != buy_mid) else None
+            # entry_hit 仅对"买入"信号有意义:买入区间下沿是否被真实触及(挂单能否成交入场)
+            entry_hit = (bool(bh and lows is not None and len(lows) and float(lows.min()) <= bh)
+                         if (is_buy and lows is not None) else None)
+            entered = bool(is_buy and entry_hit)   # 真实入场 = 买入信号 且 买入价被触及
             matured = TODAY >= r.get("eval_date", "9999")
-            realized = round((cur / buy_mid - 1) * 100, 1) if buy_mid else None
-            direction_ok = bool(cur >= r["price_at_call"]) if str(r.get("signal", "")).startswith("买入") else None
-            review.append({"date": r["date"], "ticker": tk, "signal": r.get("signal"),
-                           "price_at_call": r["price_at_call"], "cur": round(cur, 2),
-                           "entry_hit": entry_hit, "direction_ok": direction_ok,
+            # 方向/进度/到期收益:只对"真实入场"的买入仓计算,绝不给观望票或未入场的票虚报收益
+            direction_ok = bool(cur >= buy_mid) if (entered and buy_mid) else None
+            progress = (round((cur - buy_mid) / (tgt_mid - buy_mid) * 100, 1)
+                        if (entered and buy_mid and tgt_mid and tgt_mid != buy_mid) else None)
+            realized = round((cur / buy_mid - 1) * 100, 1) if (entered and buy_mid) else None
+            review.append({"date": rdate, "ticker": tk, "signal": r.get("signal"),
+                           "price_at_call": r.get("price_at_call"), "cur": round(cur, 2),
+                           "entry_hit": entry_hit, "entered": entered, "direction_ok": direction_ok,
                            "progress_to_target_pct": progress, "matured": matured,
                            "realized_return_pct": realized})
 
-    sc = {"n_open": len(review)}
+    sc = {"n_open": len(review),
+          "basis": "胜率/进度/到期收益仅统计【买入信号且买入价被真实触及(入场)】的仓位;观望、回避、买入价未触及(未入场)一律不计入,绝不虚报。"}
     if review:
         eh = [x["entry_hit"] for x in review if x["entry_hit"] is not None]
         dr = [x["direction_ok"] for x in review if x["direction_ok"] is not None]
@@ -80,7 +89,7 @@ def main():
                    "matured_n": len(mat),
                    "matured_avg_realized_pct": round(sum(x["realized_return_pct"] for x in mat) / len(mat), 1) if mat else None})
 
-    n_hist = len({r["date"] for r in recs} - {latest})
+    n_hist = len({r.get("date") for r in recs if r.get("date")} - {latest})
     need = cfg["min_periods_for_calibration"]
     if n_hist < need:
         calib = f"历史 {n_hist} 期(<{need}),校准积累中:每天累积一期,满 {need} 期后给出量化校准系数。"
