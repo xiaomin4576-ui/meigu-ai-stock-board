@@ -52,6 +52,18 @@ jobs:
       - name: 复盘校准
         run: python verify.py
 
+      # 全自动 Claude 研判(需 secret;未配则自动跳过,看板沿用最近一期研判+橙色"研判过期"标注)
+      - name: Claude 云端研判
+        env:
+          RESEARCH_API_KEY: ${{ secrets.RESEARCH_API_KEY }}
+          RESEARCH_AUTH_TOKEN: ${{ secrets.RESEARCH_AUTH_TOKEN }}
+          RESEARCH_BASE_URL: ${{ secrets.RESEARCH_BASE_URL }}
+          RESEARCH_MODEL: ${{ secrets.RESEARCH_MODEL }}
+        run: python research.py || echo "::warning::云端研判失败,沿用最近一期研判"
+
+      - name: 研判落台账(复盘闭环)
+        run: python log_today.py || echo "::warning::log_today 失败(不阻断)"
+
       - name: 渲染当日看板
         run: python build_board.py
 
