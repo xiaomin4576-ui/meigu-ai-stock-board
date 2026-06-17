@@ -26,7 +26,7 @@ TODAY = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).da
 API_KEY = (os.environ.get("RESEARCH_API_KEY") or "").strip()
 AUTH_TOKEN = (os.environ.get("RESEARCH_AUTH_TOKEN") or "").strip()
 BASE_URL = ((os.environ.get("RESEARCH_BASE_URL") or "https://api.anthropic.com").strip().rstrip("/"))
-MODEL = (os.environ.get("RESEARCH_MODEL") or "claude-sonnet-4-5").strip()
+MODEL = (os.environ.get("RESEARCH_MODEL") or "claude-sonnet-4-6").strip()
 
 SYSTEM = """你是华尔街二级市场交易员 + buy-side 分析师,做美股 AI 产业链长期(6-12 个月)研判。
 严格依据下面的【策略框架】,对给定的 11 支标的各给:① 买入建议(买入/观望/回避)+ 建议买入价区间 ② 6-12 月目标价区间 + 预期收益%。
