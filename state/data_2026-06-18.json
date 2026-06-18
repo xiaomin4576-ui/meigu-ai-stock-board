@@ -45,7 +45,8 @@
         }
       ],
       "stale": true,
-      "stale_date": "2026-06-17"
+      "stale_date": "2026-06-16",
+      "market": "US"
     },
     "AVGO": {
       "name": "博通",
@@ -91,7 +92,8 @@
         }
       ],
       "stale": true,
-      "stale_date": "2026-06-17"
+      "stale_date": "2026-06-16",
+      "market": "US"
     },
     "TSM": {
       "name": "台积电",
@@ -137,7 +139,8 @@
         }
       ],
       "stale": true,
-      "stale_date": "2026-06-17"
+      "stale_date": "2026-06-16",
+      "market": "US"
     },
     "AMD": {
       "name": "超微",
@@ -183,7 +186,8 @@
         }
       ],
       "stale": true,
-      "stale_date": "2026-06-17"
+      "stale_date": "2026-06-16",
+      "market": "US"
     },
     "MU": {
       "name": "美光",
@@ -229,7 +233,8 @@
         }
       ],
       "stale": true,
-      "stale_date": "2026-06-17"
+      "stale_date": "2026-06-16",
+      "market": "US"
     },
     "MRVL": {
       "name": "迈威尔",
@@ -275,7 +280,8 @@
         }
       ],
       "stale": true,
-      "stale_date": "2026-06-17"
+      "stale_date": "2026-06-16",
+      "market": "US"
     },
     "ANET": {
       "name": "Arista",
@@ -321,7 +327,8 @@
         }
       ],
       "stale": true,
-      "stale_date": "2026-06-17"
+      "stale_date": "2026-06-16",
+      "market": "US"
     },
     "CRDO": {
       "name": "Credo",
@@ -367,7 +374,8 @@
         }
       ],
       "stale": true,
-      "stale_date": "2026-06-17"
+      "stale_date": "2026-06-16",
+      "market": "US"
     },
     "COHR": {
       "name": "相干",
@@ -413,7 +421,8 @@
         }
       ],
       "stale": true,
-      "stale_date": "2026-06-17"
+      "stale_date": "2026-06-16",
+      "market": "US"
     },
     "VRT": {
       "name": "Vertiv",
@@ -459,25 +468,89 @@
         }
       ],
       "stale": true,
-      "stale_date": "2026-06-17"
+      "stale_date": "2026-06-16",
+      "market": "US"
     },
     "600522.SS": {
       "name": "中天科技",
       "role": "光纤光缆/海缆·算力配套",
       "market": "CN",
-      "error": "抓取失败: 重试3次仍失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connectio"
+      "price": 57.32,
+      "m1": 26.2,
+      "m3": 119.4,
+      "m6": 240.2,
+      "fromhi": 0.0,
+      "hi": 57.32,
+      "lo": 13.2,
+      "ma50": 40.23,
+      "ma200": 24.93,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "cn_rating": "买入",
+        "n_analysts": 0,
+        "cn_reports_total": 98,
+        "fwd_pe": 10.6,
+        "rating": null,
+        "rating_mean": null
+      },
+      "earnings_date": null,
+      "news": []
     },
     "688981.SS": {
       "name": "中芯国际",
       "role": "大陆晶圆代工龙头",
       "market": "CN",
-      "error": "抓取失败: 重试3次仍失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connectio"
+      "price": 138.94,
+      "m1": 3.8,
+      "m3": 31.1,
+      "m6": 18.5,
+      "fromhi": -10.9,
+      "hi": 156.0,
+      "lo": 81.28,
+      "ma50": 121.66,
+      "ma200": 117.12,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "cn_rating": "买入",
+        "n_analysts": 1,
+        "cn_reports_total": 104,
+        "fwd_pe": 118.7,
+        "rating": null,
+        "rating_mean": null
+      },
+      "earnings_date": null,
+      "news": []
     },
     "688256.SS": {
       "name": "寒武纪",
       "role": "国产 AI 芯片龙头",
       "market": "CN",
-      "error": "抓取失败: 重试3次仍失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connectio"
+      "price": 1495.74,
+      "m1": 9.8,
+      "m3": 106.6,
+      "m6": 57.4,
+      "fromhi": 0.0,
+      "hi": 1495.74,
+      "lo": 350.34,
+      "ma50": 1146.92,
+      "ma200": 930.15,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "cn_rating": "买入",
+        "n_analysts": 0,
+        "cn_reports_total": 40,
+        "fwd_pe": 130.2,
+        "rating": null,
+        "rating_mean": null
+      },
+      "earnings_date": null,
+      "news": []
     },
     "QQQ": {
       "name": "纳指100 ETF",
@@ -523,13 +596,14 @@
         }
       ],
       "stale": true,
-      "stale_date": "2026-06-17"
+      "stale_date": "2026-06-16",
+      "market": "US"
     }
   },
   "meta": {
     "degraded": true,
-    "fresh": 0,
-    "have": 11,
+    "fresh": 3,
+    "have": 14,
     "total": 14,
     "stale_tickers": [
       "NVDA",
@@ -544,6 +618,6 @@
       "VRT",
       "QQQ"
     ],
-    "banner": "11/14 支复用历史真实收盘(取数受限:NVDA、AVGO、TSM、AMD、MU、MRVL、ANET、CRDO、COHR、VRT、QQQ),其余 0/14 为最近真值;价格全真实、非编造,但部分非当日"
+    "banner": "美股 11 支复用 6-16 真实收盘(取数受限),A 股 3 支为真实抓取值;价格全真实、非编造"
   }
 }
