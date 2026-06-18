@@ -45,8 +45,7 @@
         }
       ],
       "stale": true,
-      "stale_date": "2026-06-16",
-      "market": "US"
+      "stale_date": "2026-06-17"
     },
     "AVGO": {
       "name": "博通",
@@ -92,8 +91,7 @@
         }
       ],
       "stale": true,
-      "stale_date": "2026-06-16",
-      "market": "US"
+      "stale_date": "2026-06-17"
     },
     "TSM": {
       "name": "台积电",
@@ -139,8 +137,7 @@
         }
       ],
       "stale": true,
-      "stale_date": "2026-06-16",
-      "market": "US"
+      "stale_date": "2026-06-17"
     },
     "AMD": {
       "name": "超微",
@@ -186,8 +183,7 @@
         }
       ],
       "stale": true,
-      "stale_date": "2026-06-16",
-      "market": "US"
+      "stale_date": "2026-06-17"
     },
     "MU": {
       "name": "美光",
@@ -233,8 +229,7 @@
         }
       ],
       "stale": true,
-      "stale_date": "2026-06-16",
-      "market": "US"
+      "stale_date": "2026-06-17"
     },
     "MRVL": {
       "name": "迈威尔",
@@ -280,8 +275,7 @@
         }
       ],
       "stale": true,
-      "stale_date": "2026-06-16",
-      "market": "US"
+      "stale_date": "2026-06-17"
     },
     "ANET": {
       "name": "Arista",
@@ -327,8 +321,7 @@
         }
       ],
       "stale": true,
-      "stale_date": "2026-06-16",
-      "market": "US"
+      "stale_date": "2026-06-17"
     },
     "CRDO": {
       "name": "Credo",
@@ -374,8 +367,7 @@
         }
       ],
       "stale": true,
-      "stale_date": "2026-06-16",
-      "market": "US"
+      "stale_date": "2026-06-17"
     },
     "COHR": {
       "name": "相干",
@@ -421,8 +413,7 @@
         }
       ],
       "stale": true,
-      "stale_date": "2026-06-16",
-      "market": "US"
+      "stale_date": "2026-06-17"
     },
     "VRT": {
       "name": "Vertiv",
@@ -468,146 +459,25 @@
         }
       ],
       "stale": true,
-      "stale_date": "2026-06-16",
-      "market": "US"
+      "stale_date": "2026-06-17"
     },
     "600522.SS": {
       "name": "中天科技",
       "role": "光纤光缆/海缆·算力配套",
       "market": "CN",
-      "price": 57.32,
-      "m1": 26.2,
-      "m3": 119.4,
-      "m6": 240.2,
-      "fromhi": 0.0,
-      "hi": 57.32,
-      "lo": 13.2,
-      "ma50": 40.23,
-      "ma200": 24.93,
-      "analyst": {
-        "target_mean": null,
-        "target_low": null,
-        "target_high": null,
-        "cn_rating": "买入",
-        "n_analysts": 0,
-        "cn_reports_total": 98,
-        "fwd_pe": 10.6,
-        "rating": null,
-        "rating_mean": null
-      },
-      "earnings_date": null,
-      "news": [
-        {
-          "title": "放量飙升！600522逆市新高",
-          "pub": "证券时报",
-          "url": "http://finance.eastmoney.com/a/202606083763695558.html",
-          "date": "2026-06-08"
-        },
-        {
-          "title": "600522，中标15亿元光纤大单",
-          "pub": "上海证券报",
-          "url": "http://finance.eastmoney.com/a/202606063762573330.html",
-          "date": "2026-06-06"
-        },
-        {
-          "title": "600522，成交“天量”！",
-          "pub": "证券时报",
-          "url": "http://finance.eastmoney.com/a/202605123734506153.html",
-          "date": "2026-05-12"
-        }
-      ]
+      "error": "抓取失败: 重试3次仍失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connectio"
     },
     "688981.SS": {
       "name": "中芯国际",
       "role": "大陆晶圆代工龙头",
       "market": "CN",
-      "price": 138.94,
-      "m1": 3.8,
-      "m3": 31.1,
-      "m6": 18.5,
-      "fromhi": -10.9,
-      "hi": 156.0,
-      "lo": 81.28,
-      "ma50": 121.66,
-      "ma200": 117.12,
-      "analyst": {
-        "target_mean": null,
-        "target_low": null,
-        "target_high": null,
-        "cn_rating": "买入",
-        "n_analysts": 1,
-        "cn_reports_total": 104,
-        "fwd_pe": 118.7,
-        "rating": null,
-        "rating_mean": null
-      },
-      "earnings_date": null,
-      "news": [
-        {
-          "title": "A股，两大板块掀涨停潮！688347、688981，双双新高",
-          "pub": "证券时报",
-          "url": "http://finance.eastmoney.com/a/202605253748209673.html",
-          "date": "2026-05-25"
-        },
-        {
-          "title": "上证早知道｜300054 半导体抛光液获突破性进展；688981 机构大买6.81亿元；300851披露重组预案 今日复牌",
-          "pub": "上海证券报",
-          "url": "http://finance.eastmoney.com/a/202605263748592631.html",
-          "date": "2026-05-26"
-        },
-        {
-          "title": "中芯国际688981.SH)：2026年一季报净利润为13.61亿元",
-          "pub": "界面新闻",
-          "url": "http://finance.eastmoney.com/a/202605153738233271.html",
-          "date": "2026-05-15"
-        }
-      ]
+      "error": "抓取失败: 重试3次仍失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connectio"
     },
     "688256.SS": {
       "name": "寒武纪",
       "role": "国产 AI 芯片龙头",
       "market": "CN",
-      "price": 1495.74,
-      "m1": 9.8,
-      "m3": 106.6,
-      "m6": 57.4,
-      "fromhi": 0.0,
-      "hi": 1495.74,
-      "lo": 350.34,
-      "ma50": 1146.92,
-      "ma200": 930.15,
-      "analyst": {
-        "target_mean": null,
-        "target_low": null,
-        "target_high": null,
-        "cn_rating": "买入",
-        "n_analysts": 0,
-        "cn_reports_total": 40,
-        "fwd_pe": 130.2,
-        "rating": null,
-        "rating_mean": null
-      },
-      "earnings_date": null,
-      "news": [
-        {
-          "title": "34只科创板股6月12日大宗交易平台发生交易",
-          "pub": "证券时报网",
-          "url": "http://finance.eastmoney.com/a/202606153770819423.html",
-          "date": "2026-06-15"
-        },
-        {
-          "title": "91股受融资客青睐，净买入超亿元",
-          "pub": "证券时报网",
-          "url": "http://finance.eastmoney.com/a/202606183775614592.html",
-          "date": "2026-06-18"
-        },
-        {
-          "title": "杠杆资金净买入居前的科创板股名单",
-          "pub": "证券时报网",
-          "url": "http://finance.eastmoney.com/a/202606183775481278.html",
-          "date": "2026-06-18"
-        }
-      ]
+      "error": "抓取失败: 重试3次仍失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connectio"
     },
     "QQQ": {
       "name": "纳指100 ETF",
@@ -653,14 +523,13 @@
         }
       ],
       "stale": true,
-      "stale_date": "2026-06-16",
-      "market": "US"
+      "stale_date": "2026-06-17"
     }
   },
   "meta": {
     "degraded": true,
-    "fresh": 3,
-    "have": 14,
+    "fresh": 0,
+    "have": 11,
     "total": 14,
     "stale_tickers": [
       "NVDA",
@@ -675,6 +544,6 @@
       "VRT",
       "QQQ"
     ],
-    "banner": "美股 11 支复用 6-16 真实收盘(本地取数受限),A 股 3 支为当日真值;价格全真实、非编造"
+    "banner": "部分行情取数受限:0/14 当日实时,11 支复用最近真实值(NVDA、AVGO、TSM、AMD、MU、MRVL、ANET、CRDO、COHR、VRT、QQQ)——价格仍真实但非当日"
   }
 }
