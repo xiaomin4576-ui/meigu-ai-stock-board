@@ -428,14 +428,14 @@
       "name": "中天科技",
       "role": "光纤光缆/海缆·算力配套",
       "market": "CN",
-      "price": 57.22,
-      "m1": 26.0,
-      "m3": 119.1,
-      "m6": 239.6,
+      "price": 57.1,
+      "m1": 25.7,
+      "m3": 118.6,
+      "m6": 238.9,
       "fromhi": 0.0,
-      "hi": 57.22,
+      "hi": 57.1,
       "lo": 13.2,
-      "ma50": 40.23,
+      "ma50": 40.22,
       "ma200": 24.93,
       "analyst": {
         "target_mean": null,
@@ -474,15 +474,15 @@
       "name": "中芯国际",
       "role": "大陆晶圆代工龙头",
       "market": "CN",
-      "price": 138.94,
-      "m1": 3.8,
-      "m3": 31.1,
-      "m6": 18.5,
-      "fromhi": -10.9,
+      "price": 141.48,
+      "m1": 5.7,
+      "m3": 33.4,
+      "m6": 20.7,
+      "fromhi": -9.3,
       "hi": 156.0,
       "lo": 81.28,
-      "ma50": 121.66,
-      "ma200": 117.12,
+      "ma50": 121.71,
+      "ma200": 117.14,
       "analyst": {
         "target_mean": null,
         "target_low": null,
@@ -495,7 +495,26 @@
         "rating_mean": null
       },
       "earnings_date": null,
-      "news": []
+      "news": [
+        {
+          "title": "A股，两大板块掀涨停潮！688347、688981，双双新高",
+          "pub": "证券时报",
+          "url": "http://finance.eastmoney.com/a/202605253748209673.html",
+          "date": "2026-05-25"
+        },
+        {
+          "title": "上证早知道｜300054 半导体抛光液获突破性进展；688981 机构大买6.81亿元；300851披露重组预案 今日复牌",
+          "pub": "上海证券报",
+          "url": "http://finance.eastmoney.com/a/202605263748592631.html",
+          "date": "2026-05-26"
+        },
+        {
+          "title": "中芯国际688981.SH)：2026年一季报净利润为13.61亿元",
+          "pub": "界面新闻",
+          "url": "http://finance.eastmoney.com/a/202605153738233271.html",
+          "date": "2026-05-15"
+        }
+      ]
     },
     "688256.SS": {
       "name": "寒武纪",
@@ -601,14 +620,13 @@
   },
   "meta": {
     "degraded": true,
-    "fresh": 3,
+    "fresh": 4,
     "have": 14,
     "total": 14,
     "stale_tickers": [
       "NVDA",
       "AVGO",
       "TSM",
-      "AMD",
       "MU",
       "MRVL",
       "ANET",
@@ -617,6 +635,6 @@
       "VRT",
       "QQQ"
     ],
-    "banner": "11/14 支复用历史真实收盘(取数受限:NVDA、AVGO、TSM、AMD、MU、MRVL、ANET、CRDO、COHR、VRT、QQQ),其余 3/14 为最近真值;价格全真实、非编造,但部分非当日"
+    "banner": "10/14 支复用历史真实收盘(取数受限:NVDA、AVGO、TSM、MU、MRVL、ANET、CRDO、COHR、VRT、QQQ),其余 4/14 为最近真值;价格全真实、非编造,但部分非当日"
   }
 }
