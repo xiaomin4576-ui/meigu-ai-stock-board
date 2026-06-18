@@ -7,7 +7,9 @@ import json, os, re, datetime
 
 DIR = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(DIR, "state")
-TODAY = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).date().isoformat()  # 北京时间
+_BJ_NOW = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8)))  # 北京时间
+TODAY = _BJ_NOW.date().isoformat()
+BUILD_TS = _BJ_NOW.strftime("%Y-%m-%d %H:%M")  # 本页生成的北京时刻(给"最后更新")
 MEDALS = ["🥇", "🥈", "🥉", "④", "⑤", "⑥", "⑦", "⑧", "⑨", "⑩", "⑪", "⑫"]
 
 
@@ -215,12 +217,16 @@ def main():
     cards = "".join(card(i, tk, data.get(tk, {}), calls["stocks"][tk]) for i, tk in enumerate(order) if tk in calls["stocks"])
     rank_str = " ＞ ".join(data.get(tk, {}).get("name", tk) for tk in order)
     html = f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0"><title>{cfg['title']} · {TODAY}</title><style>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
+<meta http-equiv="refresh" content="1800">
+<title>{cfg['title']} · {TODAY}</title><style>
 *{{margin:0;padding:0;box-sizing:border-box}}
 body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;color:#e2e8f0;line-height:1.6;padding:20px}}
 .wrap{{max-width:1280px;margin:0 auto}}
 .header{{background:linear-gradient(135deg,#1e293b,#0f172a);border:1px solid #334155;border-radius:16px;padding:24px 28px;margin-bottom:16px}}
 .header h1{{font-size:26px;font-weight:900;color:#60a5fa}}.sub{{font-size:13px;color:#94a3b8;margin-top:6px}}
+.updated{{margin-top:8px;font-size:12px;color:#7c8aa3;background:rgba(96,165,250,.06);border-radius:8px;padding:6px 12px}}.updated b{{color:#cbd5e1}}.updated a{{color:#60a5fa;text-decoration:none;font-weight:700}}
 .market{{margin-top:14px;padding:14px 16px;background:rgba(96,165,250,.08);border-radius:10px;font-size:13.5px;color:#cbd5e1}}
 .rankbar{{margin-top:12px;padding:12px 16px;background:rgba(251,191,36,.08);border:1px solid rgba(251,191,36,.2);border-radius:10px;font-size:13px}}.rankbar b{{color:#fbbf24}}
 .fresh{{border-radius:12px;padding:11px 16px;margin-bottom:16px;font-size:12.5px;line-height:1.7}}
@@ -260,6 +266,7 @@ body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;colo
 </style></head><body><div class="wrap">
 <div class="header"><h1>📡 {cfg['title']} · {TODAY}</h1>
 <div class="sub">美股 AI 核心 {sum(1 for s in cfg['stocks'] if s.get('market') != 'CN' and s['ticker'] != cfg['benchmark'])} 票 + 🇨🇳 A 股补充 {sum(1 for s in cfg['stocks'] if s.get('market') == 'CN')} 票 + {cfg['benchmark']} 基准 · 长期 {cfg['horizon_label']} 视角 · 数据 yfinance+akshare(真实行情) · AI 研判</div>
+<div class="updated">🕐 本页生成:<b>{BUILD_TS}</b> 北京 · 每天 08:07 云端自动更新 · 本页每 30 分钟自动刷新 · <a href="javascript:location.reload()">🔄 立即刷新最新</a></div>
 <div class="market">🌎 <b style="color:#60a5fa">大盘与板块:</b>{calls.get('market','')}</div>
 <div class="rankbar">🏆 <b>买点吸引力排序:</b>{rank_str}</div></div>
 {freshness_banner(calls_date, data_meta)}
