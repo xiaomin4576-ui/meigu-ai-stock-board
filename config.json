@@ -1,5 +1,5 @@
 {
-  "title": "美股 AI 科技股早报 · 含 A 股补充",
+  "title": "美股 AI 科技股早报 · 含 A股/港股补充",
   "horizon_label": "6-12 个月(长期)",
   "horizon_days": 270,
   "target_aggressive_pct": 60,
@@ -9,7 +9,6 @@
     {"ticker": "NVDA", "name": "英伟达", "role": "算力 GPU 龙头"},
     {"ticker": "AVGO", "name": "博通",   "role": "AI 定制芯片/网络"},
     {"ticker": "TSM",  "name": "台积电", "role": "AI 晶圆代工"},
-    {"ticker": "AMD",  "name": "超微",   "role": "GPU/AI 加速器"},
     {"ticker": "MU",   "name": "美光",   "role": "HBM 存储(海力士同类)"},
     {"ticker": "MRVL", "name": "迈威尔", "role": "光 DSP/定制芯片"},
     {"ticker": "ANET", "name": "Arista", "role": "AI 数据中心交换机"},
@@ -19,7 +18,8 @@
     {"ticker": "600522.SS", "name": "中天科技", "role": "光纤光缆/海缆·算力配套", "market": "CN"},
     {"ticker": "688981.SS", "name": "中芯国际", "role": "大陆晶圆代工龙头", "market": "CN"},
     {"ticker": "688256.SS", "name": "寒武纪",   "role": "国产 AI 芯片龙头", "market": "CN"},
+    {"ticker": "2513.HK", "name": "智谱", "role": "国产大模型 GLM", "market": "HK"},
     {"ticker": "QQQ",  "name": "纳指100 ETF", "role": "大盘基准"}
   ],
-  "_note": "美股 10 票为核心,A 股 3 票(600522/688981/688256,market=CN)为补充——策略规格与美股一致。前十随大市场动态变化:改 stocks 数组即可。QQQ 固定作基准。A 股的机构共识用 akshare 东财评级+研报覆盖补(yfinance 无 A 股一致目标价)。"
+  "_note": "美股核心 + A股(market=CN,akshare东财数据)+ 港股(market=HK,yfinance有一致目标价)补充——同规格。看板按市场分组排版(美股驱动在前→A股→港股,因A/港大多跟随美股)。A股机构共识用 akshare 东财评级+研报覆盖;港股/美股用 yfinance 券商一致。QQQ 固定基准。"
 }

@@ -114,8 +114,9 @@ def card(i, tk, d, a):
     sp_str = "+".join(f"{k}{v}" for k, v in sp.items())
     an = d.get("analyst", {}) or {}
     tm = an.get("target_mean")
-    is_cn = d.get("market") == "CN"
-    cs = "¥" if is_cn else "$"              # A 股人民币、美股美元,价格符号如实
+    mkt = d.get("market", "US")
+    is_cn, is_hk = mkt == "CN", mkt == "HK"
+    cs = "¥" if is_cn else ("HK$" if is_hk else "$")   # A股¥、港股HK$、美股$,如实
     # 机构共识行 + 我 vs 共识
     if tm:
         mymid = _mid(a.get("tgt"))
@@ -125,7 +126,7 @@ def card(i, tk, d, a):
             cmp_html = (f'<b style="color:#fbbf24">我高于共识 {diff:+.0f}%</b>' if diff > 10
                         else f'<b style="color:#60a5fa">我低于共识 {diff:+.0f}%</b>' if diff < -10
                         else '<b style="color:#94a3b8">≈共识</b>')
-        cons = (f'🏛 机构共识 一致目标 <b style="color:#2dd4bf">${f0(tm)}</b>(低{f0(an.get("target_low"))}/高{f0(an.get("target_high"))})'
+        cons = (f'🏛 机构共识 一致目标 <b style="color:#2dd4bf">{cs}{f0(tm)}</b>(低{f0(an.get("target_low"))}/高{f0(an.get("target_high"))})'
                 f' · {an.get("rating","")} · {an.get("n_analysts","?")}家 · 前瞻PE {an.get("fwd_pe","?")} ｜ {cmp_html}')
     elif is_cn:
         cons = (f'🏛 机构共识(A股·东财研报) 评级 <b style="color:#2dd4bf">{an.get("cn_rating", "—")}</b>'
@@ -141,7 +142,7 @@ def card(i, tk, d, a):
         news_html = f'<div class="news">📰 {items}</div>'
     return f"""
 <div class="card" style="border-top:3px solid {color}{';opacity:.92' if tk=='QQQ' else ''}">
-  <div class="hd"><span class="rk">{MEDALS[i] if i < len(MEDALS) else str(i + 1) + "."}</span><span class="tk">{('🇨🇳 ' if is_cn else '') + tk.replace('.SS', '').replace('.SZ', '')}</span>
+  <div class="hd"><span class="rk">{MEDALS[i] if i < len(MEDALS) else str(i + 1) + "."}</span><span class="tk">{('🇨🇳 ' if is_cn else '🇭🇰 ' if is_hk else '') + tk.replace('.SS', '').replace('.SZ', '').replace('.HK', '')}</span>
     <span class="nm">{d.get('name','')}</span><span class="badge">{d.get('role','')}</span>
     <span class="sig" style="color:{color}">{sig}</span><span class="score">评分 {sc}</span><span class="conf">置信 {a.get('conf','?')}/10</span></div>
   <div class="px"><span class="now">{cs}{d.get('price','—')}</span>
@@ -214,12 +215,24 @@ def main():
     if not calls:
         raise SystemExit(f"缺 calls_*.json(Claude 研判)。先让 Claude 生成首期研判再渲染。")
     order = calls.get("ranking") or list(calls["stocks"].keys())
-    cards = "".join(card(i, tk, data.get(tk, {}), calls["stocks"][tk]) for i, tk in enumerate(order) if tk in calls["stocks"])
+    # 按市场分组排版:美股(全球定价、引领)在前 → A 股 → 港股,因 A/港大多跟随美股,分组后看 A/港更直观。
+    # 奖牌(🥇🥈🥉/序号)用【全局排名】位置,组内仍按总排名顺序。
+    MKT = [("US", "🇺🇸 美股核心 · AI 产业链驱动(全球定价,引领 A 股 / 港股)"),
+           ("CN", "🇨🇳 A 股 · 跟随美股的国产算力 / AI 链"),
+           ("HK", "🇭🇰 港股 · 国产 AI")]
+    mkt_of = lambda tk: (data.get(tk, {}) or {}).get("market", "US")
+    cards = ""
+    for mk, title in MKT:
+        grp = [tk for tk in order if tk in calls["stocks"] and mkt_of(tk) == mk]
+        if not grp:
+            continue
+        cards += f'<div class="section">{title}<span class="scnt">{len(grp)} 支</span></div><div class="grid">'
+        cards += "".join(card(order.index(tk), tk, data.get(tk, {}), calls["stocks"][tk]) for tk in grp)
+        cards += '</div>'
     rank_str = " ＞ ".join(data.get(tk, {}).get("name", tk) for tk in order)
     html = f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
-<meta http-equiv="refresh" content="1800">
 <title>{cfg['title']} · {TODAY}</title><style>
 *{{margin:0;padding:0;box-sizing:border-box}}
 body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;color:#e2e8f0;line-height:1.6;padding:20px}}
@@ -239,7 +252,9 @@ body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;colo
 .stat{{background:rgba(51,65,85,.35);border-radius:10px;padding:8px 10px;text-align:center}}
 .sl{{font-size:10.5px;color:#94a3b8;margin-bottom:3px}}.sv{{font-size:18px;font-weight:800;color:#e2e8f0}}
 .rv-line{{font-size:12.5px;color:#cbd5e1;margin-top:6px}}
-.grid{{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}}
+.grid{{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-bottom:18px}}
+.section{{display:flex;align-items:center;gap:10px;font-size:16px;font-weight:800;color:#e2e8f0;margin:6px 0 12px;padding:10px 14px;background:linear-gradient(90deg,rgba(96,165,250,.14),transparent);border-left:4px solid #60a5fa;border-radius:8px}}
+.section .scnt{{font-size:12px;font-weight:600;color:#94a3b8;background:rgba(148,163,184,.15);padding:2px 10px;border-radius:10px}}
 .card{{background:#111a2e;border:1px solid #334155;border-radius:14px;padding:16px 18px}}
 .hd{{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px}}
 .rk{{font-size:18px}}.tk{{font-size:18px;font-weight:900;color:#f1f5f9}}.nm{{color:#94a3b8;font-size:13px}}
@@ -266,13 +281,13 @@ body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;colo
 </style></head><body><div class="wrap">
 <div class="header"><h1>📡 {cfg['title']} · {TODAY}</h1>
 <div class="sub">美股 AI 核心 {sum(1 for s in cfg['stocks'] if s.get('market') != 'CN' and s['ticker'] != cfg['benchmark'])} 票 + 🇨🇳 A 股补充 {sum(1 for s in cfg['stocks'] if s.get('market') == 'CN')} 票 + {cfg['benchmark']} 基准 · 长期 {cfg['horizon_label']} 视角 · 数据 yfinance+akshare(真实行情) · AI 研判</div>
-<div class="updated">🕐 本页生成:<b>{BUILD_TS}</b> 北京 · 每天 08:07 云端自动更新 · 本页每 30 分钟自动刷新 · <a href="javascript:location.reload()">🔄 立即刷新最新</a></div>
+<div class="updated">🕐 本页生成:<b>{BUILD_TS}</b> 北京 · 每天 08:07 云端自动更新 · 想看最新点这里 👉 <a href="javascript:location.reload(true)">🔄 手动刷新</a></div>
 <div class="market">🌎 <b style="color:#60a5fa">大盘与板块:</b>{calls.get('market','')}</div>
 <div class="rankbar">🏆 <b>买点吸引力排序:</b>{rank_str}</div></div>
 {freshness_banner(calls_date, data_meta)}
 {evidence_section(data)}
 {review_section(v)}
-<div class="grid">{cards}</div>
+{cards}
 {audit_section(data)}
 <div class="foot">两个核心指标 = ① 买入建议+建议买入价　② 6-12月目标价+预期收益　·　预测台账自动复盘校准<br>
 数据 yfinance 真实行情 · 研判由 Claude 基于价格/动量/均线+AI产业链结构生成(未用 DeepSeek)<br>

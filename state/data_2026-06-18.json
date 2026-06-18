@@ -142,53 +142,6 @@
       "stale_date": "2026-06-16",
       "market": "US"
     },
-    "AMD": {
-      "name": "超微",
-      "role": "GPU/AI 加速器",
-      "price": 511.57,
-      "m1": 14.8,
-      "m3": 164.5,
-      "m6": 131.0,
-      "fromhi": -5.7,
-      "hi": 542.52,
-      "lo": 126.39,
-      "ma50": 386.78,
-      "ma200": 253.93,
-      "analyst": {
-        "target_mean": 486.33334,
-        "target_low": 225.0,
-        "target_high": 665.0,
-        "rating": "strong_buy",
-        "rating_mean": 1.45098,
-        "n_analysts": 48,
-        "fwd_pe": 41.8,
-        "ttm_pe": 181.8
-      },
-      "earnings_date": "2026-08-04",
-      "news": [
-        {
-          "title": "Chip stocks surge, oil slides closer to $80 on US-Iran deal, Fox to acquire Roku",
-          "pub": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/chip-stocks-surge-oil-slides-closer-to-80-on-us-iran-deal-fox-to-acquire-roku-195425964.html",
-          "date": "2026-06-15"
-        },
-        {
-          "title": "Why Did AMD, WULF, AMAT Stocks Jump To 52-Week Highs?",
-          "pub": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/why-did-amd-wulf-amat-stocks-jump-to-52-week-highs/cZKWQisR7E4",
-          "date": "2026-06-16"
-        },
-        {
-          "title": "Intel gets a $170 billion AI reason to matter again",
-          "pub": "TheStreet",
-          "url": "https://www.thestreet.com/investing/intel-gets-a-170-billion-ai-reason-to-matter-again",
-          "date": "2026-06-16"
-        }
-      ],
-      "stale": true,
-      "stale_date": "2026-06-16",
-      "market": "US"
-    },
     "MU": {
       "name": "美光",
       "role": "HBM 存储(海力士同类)",
@@ -570,6 +523,33 @@
       },
       "earnings_date": null,
       "news": []
+    },
+    "2513.HK": {
+      "name": "智谱",
+      "role": "国产大模型 GLM",
+      "market": "HK",
+      "price": 1894.0,
+      "m1": null,
+      "m3": null,
+      "m6": null,
+      "fromhi": null,
+      "hi": null,
+      "lo": null,
+      "ma50": null,
+      "ma200": null,
+      "analyst": {
+        "target_mean": 1281.2,
+        "target_low": null,
+        "target_high": null,
+        "rating": "strong_buy",
+        "rating_mean": null,
+        "n_analysts": 15,
+        "fwd_pe": null,
+        "ttm_pe": null
+      },
+      "earnings_date": null,
+      "news": [],
+      "partial": true
     },
     "QQQ": {
       "name": "纳指100 ETF",
