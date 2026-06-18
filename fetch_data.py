@@ -241,24 +241,19 @@ def fetch_one(s, sess):
 
 
 def _last_good_stock(tk):
-    """逐支回退:从最近一份(排除今天)含该支真实价的 data 里取出该支记录,标 stale + 日期。
-    绝不用空数据覆盖,且一支失败不牵连其它支(美股被限流时 A 股仍用当日新值)。"""
-    today_path = os.path.join(STATE, f"data_{TODAY}.json")
+    """逐支回退:从最近一份(【含】今天已提交的文件)含该支真实价的 data 里取该支记录 + 来源日期。
+    关键:必须包含今天的文件——A 股在 GitHub Actions 抓不到(东财拒海外IP),靠复用我本地推的真实值自愈;
+    fetch_data 在末尾才写盘,故回退时读到的今天文件是上一次提交的真实版本,不会读到半成品。"""
     files = sorted(glob.glob(os.path.join(STATE, "data_*.json")), reverse=True)
     for fp in files:
-        if os.path.abspath(fp) == os.path.abspath(today_path):
-            continue
         try:
             st = json.load(open(fp, encoding="utf-8")).get("stocks", {})
             r = st.get(tk)
             if r and "price" in r:
-                r = dict(r)
-                r["stale"] = True
-                r["stale_date"] = os.path.basename(fp)[5:15]
-                return r
+                return dict(r), os.path.basename(fp)[5:15]
         except Exception:
             continue
-    return None
+    return None, None
 
 
 def main():
@@ -278,26 +273,29 @@ def main():
         print(f"  {tk}: 价 {rec.get('price','?')} · 共识 {an.get('target_mean') or an.get('cn_rating') or '?'} · 新闻 {len(rec.get('news', []))}条")
         time.sleep(random.uniform(*GAP))
 
-    # 逐支回退:本次没抓到价的,各自复用最近一期真实值(不牵连已抓到的支)
-    stale = []
+    # 逐支回退:本次没抓到价的,各自复用最近一份真实值(含今天已提交的文件)。
+    # 来源是更早日期 → 标 stale;来源就是今天(我本地推的真值,如 A 股)→ 视为当日真值不标 stale。
     for tk, rec in list(stocks.items()):
         if "price" not in rec:
-            lg = _last_good_stock(tk)
+            lg, src = _last_good_stock(tk)
             if lg:
+                if src and src < TODAY:
+                    lg["stale"] = True
+                    lg["stale_date"] = src
                 stocks[tk] = lg
-                stale.append(tk)
     total = len(stocks)
-    fresh = sum(1 for v in stocks.values() if "price" in v and not v.get("stale"))
     have = sum(1 for v in stocks.values() if "price" in v)
-    degraded = len(stale) > 0
-    meta = {"degraded": degraded, "fresh": fresh, "have": have, "total": total, "stale_tickers": stale}
+    stale_tk = [tk for tk, v in stocks.items() if v.get("stale")]
+    fresh = sum(1 for v in stocks.values() if "price" in v and not v.get("stale"))
+    degraded = len(stale_tk) > 0
+    meta = {"degraded": degraded, "fresh": fresh, "have": have, "total": total, "stale_tickers": stale_tk}
     if degraded:
-        meta["banner"] = (f"部分行情取数受限:{fresh}/{total} 当日实时,{len(stale)} 支复用最近真实值"
-                          f"({'、'.join(stale)})——价格仍真实但非当日")
+        meta["banner"] = (f"{len(stale_tk)}/{total} 支复用历史真实收盘(取数受限:{'、'.join(stale_tk)}),"
+                          f"其余 {fresh}/{total} 为最近真值;价格全真实、非编造,但部分非当日")
     out = {"asof": TODAY, "stocks": stocks, "meta": meta}
     path = os.path.join(STATE, f"data_{TODAY}.json")
     json.dump(out, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-    print(f"{'⚠️ 部分降级' if degraded else '✅'} 当日实时 {fresh}/{total},共有价 {have}/{total} → {path}")
+    print(f"{'⚠️ 部分降级' if degraded else '✅'} 有价 {have}/{total}(当日真值 {fresh},复用历史 {len(stale_tk)}) → {path}")
 
 
 if __name__ == "__main__":
