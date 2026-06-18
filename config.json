@@ -1,5 +1,5 @@
 {
-  "title": "美股 AI 科技股早报",
+  "title": "美股 AI 科技股早报 · 含 A 股补充",
   "horizon_label": "6-12 个月(长期)",
   "horizon_days": 270,
   "target_aggressive_pct": 60,
@@ -16,7 +16,10 @@
     {"ticker": "CRDO", "name": "Credo",  "role": "AI 网络连接 AEC"},
     {"ticker": "COHR", "name": "相干",   "role": "光模块/光通信"},
     {"ticker": "VRT",  "name": "Vertiv", "role": "AI 数据中心供电散热"},
+    {"ticker": "600522.SS", "name": "中天科技", "role": "光纤光缆/海缆·算力配套", "market": "CN"},
+    {"ticker": "688981.SS", "name": "中芯国际", "role": "大陆晶圆代工龙头", "market": "CN"},
+    {"ticker": "688256.SS", "name": "寒武纪",   "role": "国产 AI 芯片龙头", "market": "CN"},
     {"ticker": "QQQ",  "name": "纳指100 ETF", "role": "大盘基准"}
   ],
-  "_note": "前十随大市场动态变化:每次跑早报时 Claude 按市值/AI相关度/热度评估是否需要换标的,改这里的 stocks 数组即可。QQQ 固定作基准。"
+  "_note": "美股 10 票为核心,A 股 3 票(600522/688981/688256,market=CN)为补充——策略规格与美股一致。前十随大市场动态变化:改 stocks 数组即可。QQQ 固定作基准。A 股的机构共识用 akshare 东财评级+研报覆盖补(yfinance 无 A 股一致目标价)。"
 }

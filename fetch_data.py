@@ -94,10 +94,112 @@ def get_earnings_date(t):
         return None
 
 
+def with_no_proxy(fn):
+    """临时禁用 HTTP(S) 代理执行 fn —— A 股数据源(东方财富)需直连,本机代理是给 Claude 访问用的。
+    云端(GitHub Actions 无代理)下为无害空操作。执行后恢复原代理环境(不影响 yfinance/Yahoo)。"""
+    keys = ["HTTP_PROXY", "HTTPS_PROXY", "http_proxy", "https_proxy", "ALL_PROXY", "all_proxy"]
+    saved = {k: os.environ.pop(k) for k in keys if k in os.environ}
+    old_no = os.environ.get("NO_PROXY")
+    os.environ["NO_PROXY"] = "*"
+    try:
+        return fn()
+    finally:
+        os.environ.pop("NO_PROXY", None)
+        if old_no is not None:
+            os.environ["NO_PROXY"] = old_no
+        os.environ.update(saved)
+
+
+def cn_consensus(code):
+    """A 股机构共识(akshare 东财研报):东财评级(近批众数)+ 近一月研报数(覆盖广度)+ 2026 前瞻PE(中位)。
+    yfinance 无 A 股一致目标价/评级,用东财研报补。best-effort,失败返回空。"""
+    try:
+        import akshare as ak
+        from collections import Counter
+        import statistics
+        df = with_no_proxy(lambda: ak.stock_research_report_em(symbol=code))
+        if df is None or len(df) == 0:
+            return {}
+        ratings = [r for r in (df["东财评级"].dropna().tolist() if "东财评级" in df.columns else []) if r]
+        rating = Counter(ratings).most_common(1)[0][0] if ratings else None
+        n_recent = None
+        if "近一月个股研报数" in df.columns and len(df):
+            try:
+                n_recent = int(df["近一月个股研报数"].iloc[0])
+            except Exception:
+                n_recent = None
+        fwd_pe = None
+        pe_col = next((c for c in df.columns if "2026" in c and "市盈率" in c), None)
+        if pe_col:
+            pes = [float(x) for x in df[pe_col].tolist() if str(x).replace(".", "").replace("-", "").isdigit() and float(x) > 0]
+            if pes:
+                fwd_pe = round(statistics.median(pes), 1)
+        return {"rating": rating, "n_recent_reports": n_recent, "total_reports": int(len(df)), "fwd_pe": fwd_pe}
+    except Exception as e:
+        print(f"    {code} akshare 机构数据失败(不致命): {str(e)[:60]}")
+        return {}
+
+
+def cn_news(code, k=3):
+    """A 股新闻催化剂(akshare 东财个股新闻),禁代理直连。失败返回空。"""
+    try:
+        import akshare as ak
+        df = with_no_proxy(lambda: ak.stock_news_em(symbol=code))
+        if df is None or len(df) == 0:
+            return []
+        out = []
+        for _, r in df.head(k).iterrows():
+            title = str(r.get("新闻标题", "") or "")[:90]
+            url = r.get("新闻链接", "") or ""
+            pub = r.get("文章来源", "") or "东方财富"
+            date = str(r.get("发布时间", "") or "")[:10]
+            if title and url:
+                out.append({"title": title, "pub": str(pub), "url": url, "date": date})
+        return out
+    except Exception:
+        return []
+
+
+def fetch_one_cn(s):
+    """A 股抓取:全程 akshare 直连(行情/技术 + 机构共识 + 新闻),不依赖 Yahoo。
+    行情拿不到则抛异常,由上层走逐支回退。"""
+    tk = s["ticker"]
+    code = tk.split(".")[0]
+    rec = {"name": s["name"], "role": s["role"], "market": "CN"}
+    import akshare as ak
+
+    def _hist():
+        return with_no_proxy(lambda: ak.stock_zh_a_hist(symbol=code, period="daily", adjust="qfq"))
+
+    df = _with_retry(_hist, tk)
+    if df is None or "收盘" not in df.columns or len(df) < 30:
+        raise RuntimeError("A股行情不足")
+    c = df["收盘"].astype(float).dropna()
+    n = len(c)
+    last = float(c.iloc[-1])
+    back = lambda d: float(c.iloc[-d - 1]) if n > d else None
+    ma = lambda k: round(float(c.tail(k).mean()), 2) if n >= k else None
+    win = c.tail(250)
+    hi, lo = round(float(win.max()), 2), round(float(win.min()), 2)
+    rec.update({
+        "price": round(last, 2),
+        "m1": pct(last, back(21)), "m3": pct(last, back(63)), "m6": pct(last, back(126)),
+        "fromhi": pct(last, hi), "hi": hi, "lo": lo, "ma50": ma(50), "ma200": ma(200),
+    })
+    cn = cn_consensus(code)
+    rec["analyst"] = {"target_mean": None, "target_low": None, "target_high": None,
+                      "cn_rating": cn.get("rating"), "n_analysts": cn.get("n_recent_reports"),
+                      "cn_reports_total": cn.get("total_reports"), "fwd_pe": cn.get("fwd_pe"),
+                      "rating": None, "rating_mean": None}
+    rec["earnings_date"] = None
+    rec["news"] = cn_news(code, 3)
+    return rec
+
+
 def fetch_one(s, sess):
     """单支抓取(套重试)。返回完整 rec(含 price);行情拿不到则抛异常由 _with_retry 处理。"""
     tk = s["ticker"]
-    rec = {"name": s["name"], "role": s["role"]}
+    rec = {"name": s["name"], "role": s["role"], "market": s.get("market", "US")}
 
     def _core():
         t = yf.Ticker(tk, session=sess)  # 直接给 Ticker 传 session
@@ -138,22 +240,25 @@ def fetch_one(s, sess):
     return rec
 
 
-def _load_last_good():
-    """扫 state 找最近一份真实健康的 data(排除今天的文件)。文件名带北京日期,字典序=时间序。"""
+def _last_good_stock(tk):
+    """逐支回退:从最近一份(排除今天)含该支真实价的 data 里取出该支记录,标 stale + 日期。
+    绝不用空数据覆盖,且一支失败不牵连其它支(美股被限流时 A 股仍用当日新值)。"""
     today_path = os.path.join(STATE, f"data_{TODAY}.json")
     files = sorted(glob.glob(os.path.join(STATE, "data_*.json")), reverse=True)
     for fp in files:
         if os.path.abspath(fp) == os.path.abspath(today_path):
             continue
         try:
-            d = json.load(open(fp, encoding="utf-8"))
-            st = d.get("stocks", {})
-            ok = sum(1 for v in st.values() if "price" in v)
-            if st and ok >= max(1, int(len(st) * DEGRADE_RATIO)):
-                return d, d.get("asof") or os.path.basename(fp)[5:15]
+            st = json.load(open(fp, encoding="utf-8")).get("stocks", {})
+            r = st.get(tk)
+            if r and "price" in r:
+                r = dict(r)
+                r["stale"] = True
+                r["stale_date"] = os.path.basename(fp)[5:15]
+                return r
         except Exception:
             continue
-    return None, None
+    return None
 
 
 def main():
@@ -164,56 +269,35 @@ def main():
     for s in cfg["stocks"]:
         tk = s["ticker"]
         try:
-            rec = fetch_one(s, sess)
+            rec = fetch_one_cn(s) if s.get("market") == "CN" else fetch_one(s, sess)  # A股走akshare,美股走yfinance
         except Exception as e:
-            rec = {"name": s["name"], "role": s["role"], "error": f"抓取失败: {str(e)[:80]}"}
+            rec = {"name": s["name"], "role": s["role"], "market": s.get("market", "US"),
+                   "error": f"抓取失败: {str(e)[:80]}"}
         stocks[tk] = rec
-        print(f"  {tk}: 价 {rec.get('price','?')} · 一致目标 {rec.get('analyst',{}).get('target_mean','?')} · {rec.get('analyst',{}).get('rating','?')} · 新闻 {len(rec.get('news',[]))}条")
+        an = rec.get("analyst", {}) or {}
+        print(f"  {tk}: 价 {rec.get('price','?')} · 共识 {an.get('target_mean') or an.get('cn_rating') or '?'} · 新闻 {len(rec.get('news', []))}条")
         time.sleep(random.uniform(*GAP))
 
+    # 逐支回退:本次没抓到价的,各自复用最近一期真实值(不牵连已抓到的支)
+    stale = []
+    for tk, rec in list(stocks.items()):
+        if "price" not in rec:
+            lg = _last_good_stock(tk)
+            if lg:
+                stocks[tk] = lg
+                stale.append(tk)
     total = len(stocks)
-    ok = sum(1 for v in stocks.values() if "price" in v)
+    fresh = sum(1 for v in stocks.values() if "price" in v and not v.get("stale"))
+    have = sum(1 for v in stocks.values() if "price" in v)
+    degraded = len(stale) > 0
+    meta = {"degraded": degraded, "fresh": fresh, "have": have, "total": total, "stale_tickers": stale}
+    if degraded:
+        meta["banner"] = (f"部分行情取数受限:{fresh}/{total} 当日实时,{len(stale)} 支复用最近真实值"
+                          f"({'、'.join(stale)})——价格仍真实但非当日")
+    out = {"asof": TODAY, "stocks": stocks, "meta": meta}
     path = os.path.join(STATE, f"data_{TODAY}.json")
-
-    # 整体严重失败 → 回退复用最近一份真实 data,绝不用空数据覆盖
-    if ok < max(1, int(total * DEGRADE_RATIO)):
-        # 优先:磁盘上已有的【今日】文件若本身是真实的(如 Routine/上一跑已抓到),限流时一律保留不覆盖
-        if os.path.exists(path):
-            try:
-                cur = json.load(open(path, encoding="utf-8"))
-                cur_ok = sum(1 for v in cur.get("stocks", {}).values() if "price" in v)
-                if cur_ok >= max(1, int(total * DEGRADE_RATIO)):
-                    print(f"⚠️ 本次抓取受限({ok}/{total}),但磁盘已有今日真实数据({cur_ok}/{total}),保留不覆盖 → {path}")
-                    return
-            except Exception:
-                pass
-        last, ddate = _load_last_good()
-        if last:
-            for v in last.get("stocks", {}).values():
-                v["stale"] = True
-            out = {
-                "asof": TODAY,
-                "stocks": last["stocks"],
-                "meta": {
-                    "degraded": True, "data_date": ddate, "ok": ok, "total": total,
-                    "banner": f"数据为 {ddate} 日(云端取数受限,当日仅 {ok}/{total} 支抓取成功,已复用最近一期真实行情)",
-                },
-            }
-            json.dump(out, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-            print(f"⚠️ 云端取数受限({ok}/{total}),已回退复用 {ddate} 日真实数据 → {path}")
-            return
-        out = {"asof": TODAY, "stocks": stocks,
-               "meta": {"degraded": True, "data_date": None, "ok": ok, "total": total,
-                        "banner": f"云端取数受限({ok}/{total}),且无历史数据可回退"}}
-        json.dump(out, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-        print(f"⚠️ 云端取数受限且无可回退数据,写入残缺结果 → {path}")
-        return
-
-    # 正常路径:与原逻辑一致(顶层只多一个可选 meta,schema 不变)
-    out = {"asof": TODAY, "stocks": stocks,
-           "meta": {"degraded": False, "data_date": TODAY, "ok": ok, "total": total}}
     json.dump(out, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-    print(f"✅ 已拉取 {ok}/{total} 支(行情+机构一致+财报日+新闻) → {path}")
+    print(f"{'⚠️ 部分降级' if degraded else '✅'} 当日实时 {fresh}/{total},共有价 {have}/{total} → {path}")
 
 
 if __name__ == "__main__":

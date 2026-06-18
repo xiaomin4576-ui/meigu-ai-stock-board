@@ -62,13 +62,20 @@ def factor_score(d):
     px, ma50, ma200, m3, fromhi = d.get("price"), d.get("ma50"), d.get("ma200"), d.get("m3"), d.get("fromhi")
     an = d.get("analyst", {}) or {}
     tm, rm = an.get("target_mean"), an.get("rating_mean")
+    cn_rating = an.get("cn_rating")  # A股东财评级:yfinance 无 A 股一致目标价时,以机构评级作共识代理(保证 A 股评分与美股同口径)
+    CN_UP = {"强烈推荐": 26, "买入": 24, "推荐": 22, "增持": 16, "持有": 8, "中性": 8}
+    CN_RT = {"强烈推荐": 15, "买入": 14, "推荐": 13, "增持": 10, "持有": 6, "中性": 6}
     p = {}
     p["趋势"] = 25 if (px and ma200 and px > ma200 and ma50 and px > ma50) else (13 if (px and ma200 and px > ma200) else 0)
-    up = ((tm / px - 1) * 100) if (tm and px) else 0
-    p["共识上行"] = int(max(0, min(30, up)))
+    if tm and px:
+        p["共识上行"] = int(max(0, min(30, (tm / px - 1) * 100)))
+    elif cn_rating:
+        p["共识上行"] = CN_UP.get(cn_rating, 12)
+    else:
+        p["共识上行"] = 0
     p["回调健康"] = 15 if (fromhi is not None and -22 <= fromhi <= -6) else (8 if (fromhi is not None and fromhi < -6) else 5)
     p["动量"] = 12 if (m3 is not None and 5 <= m3 <= 60) else (4 if (m3 is not None and m3 > 60) else (6 if (m3 is not None and -10 < m3 < 5) else 3))
-    p["评级"] = int(max(0, min(15, (3 - rm) / 2 * 15))) if rm else 8
+    p["评级"] = int(max(0, min(15, (3 - rm) / 2 * 15))) if rm else (CN_RT.get(cn_rating, 8) if cn_rating else 8)
     return sum(p.values()), p
 
 
@@ -105,6 +112,8 @@ def card(i, tk, d, a):
     sp_str = "+".join(f"{k}{v}" for k, v in sp.items())
     an = d.get("analyst", {}) or {}
     tm = an.get("target_mean")
+    is_cn = d.get("market") == "CN"
+    cs = "¥" if is_cn else "$"              # A 股人民币、美股美元,价格符号如实
     # 机构共识行 + 我 vs 共识
     if tm:
         mymid = _mid(a.get("tgt"))
@@ -116,6 +125,10 @@ def card(i, tk, d, a):
                         else '<b style="color:#94a3b8">≈共识</b>')
         cons = (f'🏛 机构共识 一致目标 <b style="color:#2dd4bf">${f0(tm)}</b>(低{f0(an.get("target_low"))}/高{f0(an.get("target_high"))})'
                 f' · {an.get("rating","")} · {an.get("n_analysts","?")}家 · 前瞻PE {an.get("fwd_pe","?")} ｜ {cmp_html}')
+    elif is_cn:
+        cons = (f'🏛 机构共识(A股·东财研报) 评级 <b style="color:#2dd4bf">{an.get("cn_rating", "—")}</b>'
+                f' · 近一月 {an.get("n_analysts", "?")} 份研报(在档 {an.get("cn_reports_total", "?")}) · 前瞻PE {an.get("fwd_pe", "?")}'
+                f' ｜ <span style="color:#94a3b8">A股无单一一致目标价,以评级+盈利预测校准</span>')
     else:
         cons = "🏛 ETF·大盘基准(无个股一致目标)"
     earn = f'　📅 下次财报 {d.get("earnings_date")}' if d.get("earnings_date") else ""
@@ -126,20 +139,20 @@ def card(i, tk, d, a):
         news_html = f'<div class="news">📰 {items}</div>'
     return f"""
 <div class="card" style="border-top:3px solid {color}{';opacity:.92' if tk=='QQQ' else ''}">
-  <div class="hd"><span class="rk">{MEDALS[i] if i < len(MEDALS) else str(i + 1) + "."}</span><span class="tk">{tk}</span>
+  <div class="hd"><span class="rk">{MEDALS[i] if i < len(MEDALS) else str(i + 1) + "."}</span><span class="tk">{('🇨🇳 ' if is_cn else '') + tk.replace('.SS', '').replace('.SZ', '')}</span>
     <span class="nm">{d.get('name','')}</span><span class="badge">{d.get('role','')}</span>
     <span class="sig" style="color:{color}">{sig}</span><span class="score">评分 {sc}</span><span class="conf">置信 {a.get('conf','?')}/10</span></div>
-  <div class="px"><span class="now">${d.get('price','—')}</span>
+  <div class="px"><span class="now">{cs}{d.get('price','—')}</span>
     <span class="mom">近1月 {mom(d.get('m1'))} ｜ 近3月 {mom(d.get('m3'))} ｜ 近6月 {mom(d.get('m6'))} ｜ 距52周高 {(str(d.get('fromhi'))+'%') if d.get('fromhi') is not None else '—'}</span></div>
   <div class="kpis">
-    <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">${a.get('buy','')}</div></div>
-    <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">${a.get('tgt','')}</div></div>
+    <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">{cs}{a.get('buy','')}</div></div>
+    <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">{cs}{a.get('tgt','')}</div></div>
     <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">{a.get('ret','')}</div></div></div>
   <div class="cons">{cons}{earn}</div>
-  <div class="rr">🛡 风控 止损 -10%(≈${stop}) · 风险收益比 <b>{rr if rr is not None else '—'}:1</b>{rrflag}　·　📊 评分 {sc}/100 = {sp_str}</div>
+  <div class="rr">🛡 风控 止损 -10%(≈{cs}{stop}) · 风险收益比 <b>{rr if rr is not None else '—'}:1</b>{rrflag}　·　📊 评分 {sc}/100 = {sp_str}</div>
   <div class="th">💡 {a.get('th','')}</div>
   {news_html}
-  <div class="rk2">⚠️ 风险:{a.get('rk','')}　·　52周 ${d.get('lo','')}–${d.get('hi','')}　·　MA50 ${d.get('ma50','')} / MA200 ${d.get('ma200','')}</div>
+  <div class="rk2">⚠️ 风险:{a.get('rk','')}　·　52周 {cs}{d.get('lo','')}–{cs}{d.get('hi','')}　·　MA50 {cs}{d.get('ma50','')} / MA200 {cs}{d.get('ma200','')}</div>
 </div>"""
 
 
@@ -246,7 +259,7 @@ body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;colo
 .foot{{text-align:center;font-size:11px;color:#475569;margin-top:18px;line-height:1.8}}
 </style></head><body><div class="wrap">
 <div class="header"><h1>📡 {cfg['title']} · {TODAY}</h1>
-<div class="sub">AI 产业链上下游核心 {len(cfg['stocks'])-1} 票 + {cfg['benchmark']} 基准 · 长期 {cfg['horizon_label']} 视角 · 数据 yfinance(截至最近收盘) · Claude 研判</div>
+<div class="sub">美股 AI 核心 {sum(1 for s in cfg['stocks'] if s.get('market') != 'CN' and s['ticker'] != cfg['benchmark'])} 票 + 🇨🇳 A 股补充 {sum(1 for s in cfg['stocks'] if s.get('market') == 'CN')} 票 + {cfg['benchmark']} 基准 · 长期 {cfg['horizon_label']} 视角 · 数据 yfinance+akshare(真实行情) · AI 研判</div>
 <div class="market">🌎 <b style="color:#60a5fa">大盘与板块:</b>{calls.get('market','')}</div>
 <div class="rankbar">🏆 <b>买点吸引力排序:</b>{rank_str}</div></div>
 {freshness_banner(calls_date, data_meta)}
