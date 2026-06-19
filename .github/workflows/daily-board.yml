@@ -4,7 +4,13 @@ name: 美股AI股票早报 · 构建并部署 Pages
 # push main 便于 Routine commit 新 calls_*.json 后自动重建看板。
 on:
   schedule:
-    - cron: "7 0 * * *"        # 00:07 UTC = 北京 08:07(避开整点排队延迟)
+    # GitHub 免费定时常被延迟数小时甚至跳过,故全天错峰多点冗余,提高"打开即当日"的命中率。
+    # 用非整点分钟(避开 :00 拥堵)。时间为 UTC,括号注北京。
+    - cron: "7 0 * * *"        # 08:07 北京(美股盘后首选)
+    - cron: "37 1 * * *"       # 09:37 北京
+    - cron: "23 3 * * *"       # 11:23 北京
+    - cron: "47 6 * * *"       # 14:47 北京
+    - cron: "17 11 * * *"      # 19:17 北京(傍晚再保一次)
   workflow_dispatch: {}
   push:
     branches: [main]
