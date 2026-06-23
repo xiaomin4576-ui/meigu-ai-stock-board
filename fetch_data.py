@@ -322,10 +322,10 @@ def main():
         try:
             if mk == "CN":
                 rec = fetch_one_cn(s)              # A股走 akshare 东财(yfinance无A股一致数据)
-            elif TD_KEY:
-                rec = td_fetch_one(s, sess)        # 美股/港股优先 Twelve Data(云端稳定不限流)
+            elif mk == "US" and TD_KEY:
+                rec = td_fetch_one(s, sess)        # 美股走 Twelve Data(免费档仅美股,云端稳定不限流)
             else:
-                rec = fetch_one(s, sess)           # 无 TD key → yfinance(数据中心IP常被限流)
+                rec = fetch_one(s, sess)           # 港股/无TD key → yfinance(best-effort,可能被限)
         except Exception as e:
             rec = {"name": s["name"], "role": s["role"], "market": mk, "error": f"抓取失败: {str(e)[:80]}"}
         stocks[tk] = rec
