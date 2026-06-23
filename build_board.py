@@ -133,7 +133,8 @@ def card(i, tk, d, a):
                 f' · 近一月 {an.get("n_analysts", "?")} 份研报(在档 {an.get("cn_reports_total", "?")}) · 前瞻PE {an.get("fwd_pe", "?")}'
                 f' ｜ <span style="color:#94a3b8">A股无单一一致目标价,以评级+盈利预测校准</span>')
     else:
-        cons = "🏛 ETF·大盘基准(无个股一致目标)"
+        cons = ("🏛 ETF·大盘基准(无个股一致目标)" if tk == "QQQ"
+                else "🏛 券商一致目标暂缺(取数受限,价格/技术面正常)")
     earn = f'　📅 下次财报 {d.get("earnings_date")}' if d.get("earnings_date") else ""
     news = (d.get("news") or [])[:2]
     news_html = ""

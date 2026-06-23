@@ -52,6 +52,8 @@ jobs:
       # 拉行情:fetch_data.py 已内化容错(重试+UA/session+整体失败回退复用上一份真实 data),
       # 永远 exit 0;|| echo 仅作双保险,绝不中断后续步骤。
       - name: 拉取行情数据(允许失败)
+        env:
+          TD_API_KEY: ${{ secrets.TD_API_KEY }}   # Twelve Data 行情API(云端稳定取数,配了就走TD,没配回落yfinance)
         run: |
           python fetch_data.py || echo "::warning::fetch_data.py 异常,沿用已有 data_*.json 继续"
 
@@ -98,14 +100,13 @@ jobs:
             echo "⚠️ 缺 state/index.html(归档页),archive.html 将缺失(不阻断)"
           fi
 
-          # 4) 落地页 = 最新一期看板(ls -t 取改动时间最新,稳过拼日期)
+          # 4) 最新一期看板 → docs/board.html(真正的内容页)
           LATEST=$(ls -t "$STATE"/ai_stock_board_*.html | head -1)
-          echo "📄 落地页采用最新一期: $(basename "$LATEST")"
-          cp "$LATEST" "$DOCS/index.html"
+          echo "📄 看板采用最新一期: $(basename "$LATEST")"
+          cp "$LATEST" "$DOCS/board.html"
 
-          # 5) 仅在 docs 落地页副本顶部注入「📚 历史归档」入口(build_board 未含此链接;
-          #    只改 docs/index.html,不动 state 原文件、不动 archive.html;幂等)
-          python3 - "$DOCS/index.html" <<'PY'
+          # 5) 在 board.html 顶部注入「📚 历史归档」入口(幂等)
+          python3 - "$DOCS/board.html" <<'PY'
           import sys
           path = sys.argv[1]
           nav = ('<div class="navbar" style="max-width:1280px;margin:0 auto 12px;text-align:right">'
@@ -119,14 +120,29 @@ jobs:
               open(path, "w", encoding="utf-8").write(html)
               print("✅ 已注入 历史归档 入口")
           else:
-              print("ℹ️ 跳过注入(锚点缺失或已存在)")
+              print("ℹ️ 跳过注入")
           PY
+
+          # 5b) docs/index.html = 防缓存跳转页:每次打开用新时间戳加载 board.html,绕过浏览器/CDN缓存
+          #     → 用户打开收藏链接永远拿到最新构建,不再卡旧缓存。
+          cat > "$DOCS/index.html" <<'HTML'
+          <!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width,initial-scale=1.0">
+          <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
+          <title>美股 AI 科技股早报</title></head>
+          <body style="margin:0;background:#0b1120;color:#94a3b8;font-family:-apple-system,'PingFang SC',sans-serif;text-align:center;padding-top:80px">
+          📡 正在加载最新看板…
+          <script>location.replace('board.html?t=' + Date.now());</script>
+          </body></html>
+          HTML
 
           # 6) 校验产物
           echo "=== docs/ 内容 ==="; ls -la "$DOCS"
           [ -f "$DOCS/index.html" ]   || { echo "❌ docs/index.html 缺失"; exit 1; }
           [ -f "$DOCS/.nojekyll" ]    || { echo "❌ .nojekyll 缺失"; exit 1; }
-          grep -q 'class="navbar"' "$DOCS/index.html" && echo "✅ 落地页含归档入口" || echo "⚠️ 落地页未注入归档入口"
+          [ -f "$DOCS/board.html" ]   || { echo "❌ docs/board.html 缺失"; exit 1; }
+          grep -q "location.replace" "$DOCS/index.html" && echo "✅ index 为防缓存跳转页" || echo "⚠️ index 跳转缺失"
+          grep -q 'class="navbar"' "$DOCS/board.html" && echo "✅ 看板含归档入口" || echo "⚠️ 看板未注入归档入口"
           echo "✅ docs/ 组织完成,可上传 Pages"
 
       # 提交 state/(台账+数据,需累积以支撑复盘记分卡)。docs/ 不入库(纯 artifact 部署)。
