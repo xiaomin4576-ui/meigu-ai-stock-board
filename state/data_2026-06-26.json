@@ -1,0 +1,451 @@
+{
+  "asof": "2026-06-26",
+  "stocks": {
+    "NVDA": {
+      "name": "英伟达",
+      "role": "算力 GPU 龙头",
+      "market": "US",
+      "price": 196.14,
+      "m1": -8.7,
+      "m3": 9.8,
+      "m6": 6.8,
+      "fromhi": -17.1,
+      "hi": 236.54,
+      "lo": 151.49,
+      "ma50": 210.22,
+      "ma200": 190.53,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "rating": null,
+        "rating_mean": null,
+        "n_analysts": null,
+        "fwd_pe": null,
+        "ttm_pe": null
+      },
+      "earnings_date": null,
+      "news": []
+    },
+    "AVGO": {
+      "name": "博通",
+      "role": "AI 定制芯片/网络",
+      "market": "US",
+      "price": 384.18,
+      "m1": -9.0,
+      "m3": 20.5,
+      "m6": 12.5,
+      "fromhi": -22.4,
+      "hi": 495.0,
+      "lo": 262.66,
+      "ma50": 412.7,
+      "ma200": 361.2,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "rating": null,
+        "rating_mean": null,
+        "n_analysts": null,
+        "fwd_pe": null,
+        "ttm_pe": null
+      },
+      "earnings_date": null,
+      "news": []
+    },
+    "TSM": {
+      "name": "台积电",
+      "role": "AI 晶圆代工",
+      "market": "US",
+      "price": 442.26,
+      "m1": 7.3,
+      "m3": 27.2,
+      "m6": 50.8,
+      "fromhi": -7.2,
+      "hi": 476.79,
+      "lo": 221.18,
+      "ma50": 411.64,
+      "ma200": 339.3,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "rating": null,
+        "rating_mean": null,
+        "n_analysts": null,
+        "fwd_pe": null,
+        "ttm_pe": null
+      },
+      "earnings_date": null,
+      "news": []
+    },
+    "MU": {
+      "name": "美光",
+      "role": "HBM 存储(海力士同类)",
+      "market": "US",
+      "price": 1206.34,
+      "m1": 34.7,
+      "m3": 215.7,
+      "m6": 336.1,
+      "fromhi": -3.9,
+      "hi": 1254.71,
+      "lo": 103.38,
+      "ma50": 788.47,
+      "ma200": 420.81,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "rating": null,
+        "rating_mean": null,
+        "n_analysts": null,
+        "fwd_pe": null,
+        "ttm_pe": null
+      },
+      "earnings_date": null,
+      "news": []
+    },
+    "MRVL": {
+      "name": "迈威尔",
+      "role": "光 DSP/定制芯片",
+      "market": "US",
+      "price": 279.93,
+      "m1": 34.4,
+      "m3": 184.3,
+      "m6": 230.1,
+      "fromhi": -15.1,
+      "hi": 329.88,
+      "lo": 61.44,
+      "ma50": 210.54,
+      "ma200": 117.5,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "rating": null,
+        "rating_mean": null,
+        "n_analysts": null,
+        "fwd_pe": null,
+        "ttm_pe": null
+      },
+      "earnings_date": null,
+      "news": []
+    },
+    "ANET": {
+      "name": "Arista",
+      "role": "AI 数据中心交换机",
+      "market": "US",
+      "price": 168.3,
+      "m1": 6.5,
+      "m3": 24.7,
+      "m6": 28.7,
+      "fromhi": -6.4,
+      "hi": 179.8,
+      "lo": 97.14,
+      "ma50": 159.88,
+      "ma200": 142.7,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "rating": null,
+        "rating_mean": null,
+        "n_analysts": null,
+        "fwd_pe": null,
+        "ttm_pe": null
+      },
+      "earnings_date": null,
+      "news": []
+    },
+    "CRDO": {
+      "name": "Credo",
+      "role": "AI 网络连接 AEC",
+      "market": "US",
+      "price": 272.44,
+      "m1": 22.9,
+      "m3": 162.2,
+      "m6": 81.7,
+      "fromhi": -11.7,
+      "hi": 308.67,
+      "lo": 84.25,
+      "ma50": 209.22,
+      "ma200": 156.45,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "rating": null,
+        "rating_mean": null,
+        "n_analysts": null,
+        "fwd_pe": null,
+        "ttm_pe": null
+      },
+      "earnings_date": null,
+      "news": []
+    },
+    "COHR": {
+      "name": "相干",
+      "role": "光模块/光通信",
+      "market": "US",
+      "price": 399.51,
+      "m1": 4.8,
+      "m3": 46.9,
+      "m6": 109.2,
+      "fromhi": -9.2,
+      "hi": 440.0,
+      "lo": 84.35,
+      "ma50": 364.95,
+      "ma200": 229.99,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "rating": null,
+        "rating_mean": null,
+        "n_analysts": null,
+        "fwd_pe": null,
+        "ttm_pe": null
+      },
+      "earnings_date": null,
+      "news": []
+    },
+    "VRT": {
+      "name": "Vertiv",
+      "role": "AI 数据中心供电散热",
+      "market": "US",
+      "price": 326.63,
+      "m1": 0.8,
+      "m3": 18.3,
+      "m6": 96.5,
+      "fromhi": -14.0,
+      "hi": 379.94,
+      "lo": 110.06,
+      "ma50": 324.06,
+      "ma200": 228.05,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "rating": null,
+        "rating_mean": null,
+        "n_analysts": null,
+        "fwd_pe": null,
+        "ttm_pe": null
+      },
+      "earnings_date": null,
+      "news": []
+    },
+    "600522.SS": {
+      "name": "中天科技",
+      "role": "光纤光缆/海缆·算力配套",
+      "market": "CN",
+      "price": 61.89,
+      "m1": 41.2,
+      "m3": 139.0,
+      "m6": 259.4,
+      "fromhi": 0.0,
+      "hi": 61.89,
+      "lo": 13.2,
+      "ma50": 41.42,
+      "ma200": 25.38,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "cn_rating": "买入",
+        "n_analysts": 0,
+        "cn_reports_total": 98,
+        "fwd_pe": 10.6,
+        "rating": null,
+        "rating_mean": null
+      },
+      "earnings_date": null,
+      "news": [
+        {
+          "title": "放量飙升！600522逆市新高",
+          "pub": "证券时报",
+          "url": "http://finance.eastmoney.com/a/202606083763695558.html",
+          "date": "2026-06-08"
+        },
+        {
+          "title": "600522，中标15亿元光纤大单",
+          "pub": "上海证券报",
+          "url": "http://finance.eastmoney.com/a/202606063762573330.html",
+          "date": "2026-06-06"
+        },
+        {
+          "title": "600522，成交“天量”！",
+          "pub": "证券时报",
+          "url": "http://finance.eastmoney.com/a/202605123734506153.html",
+          "date": "2026-05-12"
+        }
+      ],
+      "stale": true,
+      "stale_date": "2026-06-25"
+    },
+    "688981.SS": {
+      "name": "中芯国际",
+      "role": "大陆晶圆代工龙头",
+      "market": "CN",
+      "price": 142.52,
+      "m1": 8.5,
+      "m3": 34.5,
+      "m6": 22.5,
+      "fromhi": -8.6,
+      "hi": 156.0,
+      "lo": 81.28,
+      "ma50": 123.53,
+      "ma200": 117.69,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "cn_rating": "买入",
+        "n_analysts": 0,
+        "cn_reports_total": 104,
+        "fwd_pe": 118.7,
+        "rating": null,
+        "rating_mean": null
+      },
+      "earnings_date": null,
+      "news": [
+        {
+          "title": "A股，两大板块掀涨停潮！688347、688981，双双新高",
+          "pub": "证券时报",
+          "url": "http://finance.eastmoney.com/a/202605253748209673.html",
+          "date": "2026-05-25"
+        },
+        {
+          "title": "上证早知道｜300054 半导体抛光液获突破性进展；688981 机构大买6.81亿元；300851披露重组预案 今日复牌",
+          "pub": "上海证券报",
+          "url": "http://finance.eastmoney.com/a/202605263748592631.html",
+          "date": "2026-05-26"
+        },
+        {
+          "title": "中芯国际688981.SH)：2026年一季报净利润为13.61亿元",
+          "pub": "界面新闻",
+          "url": "http://finance.eastmoney.com/a/202605153738233271.html",
+          "date": "2026-05-15"
+        }
+      ],
+      "stale": true,
+      "stale_date": "2026-06-25"
+    },
+    "688256.SS": {
+      "name": "寒武纪",
+      "role": "国产 AI 芯片龙头",
+      "market": "CN",
+      "price": 1430.3,
+      "m1": 11.2,
+      "m3": 105.8,
+      "m6": 50.1,
+      "fromhi": -5.1,
+      "hi": 1507.46,
+      "lo": 350.34,
+      "ma50": 1174.3,
+      "ma200": 938.13,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "cn_rating": "买入",
+        "n_analysts": 0,
+        "cn_reports_total": 40,
+        "fwd_pe": 130.2,
+        "rating": null,
+        "rating_mean": null
+      },
+      "earnings_date": null,
+      "news": [
+        {
+          "title": "北京“万亿市值”再添一员，智谱之后下一个是谁？",
+          "pub": "新京报",
+          "url": "http://finance.eastmoney.com/a/202606223778264924.html",
+          "date": "2026-06-22"
+        },
+        {
+          "title": "10只科创板股大宗交易成交超千万元",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202606223778411379.html",
+          "date": "2026-06-22"
+        },
+        {
+          "title": "274.26亿元主力资金今日撤离电子板块",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202606223778098927.html",
+          "date": "2026-06-22"
+        }
+      ],
+      "stale": true,
+      "stale_date": "2026-06-25"
+    },
+    "2513.HK": {
+      "name": "智谱",
+      "role": "国产大模型 GLM",
+      "market": "HK",
+      "price": 1894.0,
+      "m1": null,
+      "m3": null,
+      "m6": null,
+      "fromhi": null,
+      "hi": null,
+      "lo": null,
+      "ma50": null,
+      "ma200": null,
+      "analyst": {
+        "target_mean": 1281.2,
+        "target_low": null,
+        "target_high": null,
+        "rating": "strong_buy",
+        "rating_mean": null,
+        "n_analysts": 15,
+        "fwd_pe": null,
+        "ttm_pe": null
+      },
+      "earnings_date": null,
+      "news": [],
+      "partial": true,
+      "stale": true,
+      "stale_date": "2026-06-25"
+    },
+    "QQQ": {
+      "name": "纳指100 ETF",
+      "role": "大盘基准",
+      "market": "US",
+      "price": 717.66,
+      "m1": -1.7,
+      "m3": 22.1,
+      "m6": 15.9,
+      "fromhi": -4.1,
+      "hi": 748.65,
+      "lo": 544.54,
+      "ma50": 701.44,
+      "ma200": 631.53,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "rating": null,
+        "rating_mean": null,
+        "n_analysts": null,
+        "fwd_pe": null,
+        "ttm_pe": null
+      },
+      "earnings_date": null,
+      "news": []
+    }
+  },
+  "meta": {
+    "degraded": true,
+    "fresh": 10,
+    "have": 14,
+    "total": 14,
+    "stale_tickers": [
+      "600522.SS",
+      "688981.SS",
+      "688256.SS",
+      "2513.HK"
+    ],
+    "banner": "4/14 支复用历史真实收盘(取数受限:600522.SS、688981.SS、688256.SS、2513.HK),其余 10/14 为最近真值;价格全真实、非编造,但部分非当日"
+  }
+}
