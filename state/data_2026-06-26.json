@@ -379,6 +379,52 @@
       "stale": true,
       "stale_date": "2026-06-25"
     },
+    "688052.SS": {
+      "name": "纳芯微",
+      "role": "模拟/信号链芯片",
+      "market": "CN",
+      "price": 283.59,
+      "m1": 7.8,
+      "m3": 81.6,
+      "m6": 86.5,
+      "fromhi": -5.5,
+      "hi": 300.0,
+      "lo": 139.02,
+      "ma50": 226.38,
+      "ma200": 183.72,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "cn_rating": "买入",
+        "n_analysts": 0,
+        "cn_reports_total": 52,
+        "fwd_pe": 123.2,
+        "rating": null,
+        "rating_mean": null
+      },
+      "earnings_date": null,
+      "news": [
+        {
+          "title": "纳芯微2026年激励计划：拟向528名激励对象授予46万股，授予价139.87元/股",
+          "pub": "财中社",
+          "url": "http://finance.eastmoney.com/a/202606223778266920.html",
+          "date": "2026-06-22"
+        },
+        {
+          "title": "6月23日科创板主力资金净流出180.25亿元",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202606233779783155.html",
+          "date": "2026-06-23"
+        },
+        {
+          "title": "275只科创板股融资余额环比增加",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202606243780573259.html",
+          "date": "2026-06-24"
+        }
+      ]
+    },
     "2513.HK": {
       "name": "智谱",
       "role": "国产大模型 GLM",
@@ -437,15 +483,15 @@
   },
   "meta": {
     "degraded": true,
-    "fresh": 10,
-    "have": 14,
-    "total": 14,
+    "fresh": 11,
+    "have": 15,
+    "total": 15,
     "stale_tickers": [
       "600522.SS",
       "688981.SS",
       "688256.SS",
       "2513.HK"
     ],
-    "banner": "4/14 支复用历史真实收盘(取数受限:600522.SS、688981.SS、688256.SS、2513.HK),其余 10/14 为最近真值;价格全真实、非编造,但部分非当日"
+    "banner": "4/15 支复用历史(600522.SS、688981.SS、688256.SS、2513.HK),其余当日真值;价格全真实"
   }
 }
