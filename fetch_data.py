@@ -314,21 +314,44 @@ def cn_unlock_map(horizon_days=210):
         return {}
 
 
+def _cn_close(code):
+    """A股前复权日收盘 Series,多源回退:东财 stock_zh_a_hist → 新浪 stock_zh_a_daily → 腾讯 stock_zh_a_hist_tx。
+    东财行情接口(push2his)本机/云端都常 RemoteDisconnected,单源易抓空;多源择一成功即拿到当日真值。"""
+    import akshare as ak
+    pref = ("sh" if code[0] == "6" else "sz") + code     # 新浪/腾讯需交易所前缀
+
+    def s_em():
+        df = with_no_proxy(lambda: ak.stock_zh_a_hist(symbol=code, period="daily", adjust="qfq"))
+        return df["收盘"].astype(float).dropna() if (df is not None and "收盘" in df.columns and len(df) >= 30) else None
+
+    def s_sina():
+        df = with_no_proxy(lambda: ak.stock_zh_a_daily(symbol=pref, adjust="qfq"))
+        return df["close"].astype(float).dropna() if (df is not None and "close" in df.columns and len(df) >= 30) else None
+
+    def s_tx():
+        df = with_no_proxy(lambda: ak.stock_zh_a_hist_tx(symbol=pref, adjust="qfq"))
+        return df["close"].astype(float).dropna() if (df is not None and "close" in df.columns and len(df) >= 30) else None
+
+    for name, fn in (("东财", s_em), ("新浪", s_sina), ("腾讯", s_tx)):
+        try:
+            c = fn()
+            if c is not None and len(c) >= 30:
+                return c
+        except Exception:
+            continue
+    return None
+
+
 def fetch_one_cn(s):
     """A 股抓取:全程 akshare 直连(行情/技术 + 机构共识 + 新闻),不依赖 Yahoo。
     行情拿不到则抛异常,由上层走逐支回退。"""
     tk = s["ticker"]
     code = tk.split(".")[0]
     rec = {"name": s["name"], "role": s["role"], "market": "CN"}
-    import akshare as ak
 
-    def _hist():
-        return with_no_proxy(lambda: ak.stock_zh_a_hist(symbol=code, period="daily", adjust="qfq"))
-
-    df = _with_retry(_hist, tk)
-    if df is None or "收盘" not in df.columns or len(df) < 30:
-        raise RuntimeError("A股行情不足")
-    c = df["收盘"].astype(float).dropna()
+    c = _with_retry(lambda: _cn_close(code), tk)         # 多源回退拿前复权收盘
+    if c is None or len(c) < 30:
+        raise RuntimeError("A股行情不足(三源均失败)")
     n = len(c)
     last = float(c.iloc[-1])
     back = lambda d: float(c.iloc[-d - 1]) if n > d else None

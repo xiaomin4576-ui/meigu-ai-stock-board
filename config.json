@@ -19,8 +19,9 @@
     {"ticker": "688981.SS", "name": "中芯国际", "role": "大陆晶圆代工龙头", "market": "CN"},
     {"ticker": "688256.SS", "name": "寒武纪",   "role": "国产 AI 芯片龙头", "market": "CN"},
     {"ticker": "688052.SS", "name": "纳芯微",   "role": "模拟/信号链芯片(国产替代)", "market": "CN"},
+    {"ticker": "001309.SZ", "name": "德明利",   "role": "存储主控/模组(SSD/eMMC·AI存储链)", "market": "CN"},
+    {"ticker": "300005.SZ", "name": "探路者",   "role": "Micro-LED显示驱动芯片+户外(双主业转型)", "market": "CN"},
     {"ticker": "6869.HK", "name": "长飞光纤", "role": "光纤光缆/光模块(AI光互联)", "market": "HK"},
-    {"ticker": "6082.HK", "name": "壁仞科技", "role": "国产 GPU/AI 芯片(对标英伟达)", "market": "HK"},
     {"ticker": "QQQ",  "name": "纳指100 ETF", "role": "大盘基准"}
   ],
   "_note": "美股核心 + A股(market=CN,akshare东财数据)+ 港股(market=HK,yfinance有一致目标价)补充——同规格。看板按市场分组排版(美股驱动在前→A股→港股,因A/港大多跟随美股)。A股机构共识用 akshare 东财评级+研报覆盖;港股/美股用 yfinance 券商一致。QQQ 固定基准。"

@@ -254,7 +254,7 @@
       "m6": 248.6,
       "fromhi": -10.0,
       "hi": 68.1,
-      "lo": 13.22,
+      "lo": 13.24,
       "ma50": 43.45,
       "ma200": 26.11,
       "vol": 87.4,
@@ -306,7 +306,7 @@
       "name": "中芯国际",
       "role": "大陆晶圆代工龙头",
       "market": "CN",
-      "price": 148.77,
+      "price": 148.76,
       "m1": 1.7,
       "m3": 49.9,
       "m6": 31.6,
@@ -315,7 +315,7 @@
       "lo": 81.28,
       "ma50": 126.62,
       "ma200": 118.63,
-      "vol": 66.1,
+      "vol": 66.2,
       "analyst": {
         "target_mean": null,
         "target_low": null,
@@ -323,7 +323,7 @@
         "cn_rating": "买入",
         "n_analysts": 0,
         "cn_reports_total": 104,
-        "fwd_pe": 192.0,
+        "fwd_pe": 191.9,
         "eps_2026": 0.775,
         "eps_2027": 0.93,
         "eps_growth": 20.0,
@@ -364,16 +364,16 @@
       "name": "寒武纪",
       "role": "国产 AI 芯片龙头",
       "market": "CN",
-      "price": 1445.02,
-      "m1": 7.8,
-      "m3": 109.6,
-      "m6": 61.8,
-      "fromhi": -4.1,
+      "price": 1458.0,
+      "m1": 8.8,
+      "m3": 111.4,
+      "m6": 63.2,
+      "fromhi": -3.3,
       "hi": 1507.46,
-      "lo": 350.34,
-      "ma50": 1213.37,
-      "ma200": 947.77,
-      "vol": 79.2,
+      "lo": 351.06,
+      "ma50": 1213.7,
+      "ma200": 948.09,
+      "vol": 78.6,
       "analyst": {
         "target_mean": null,
         "target_low": null,
@@ -381,7 +381,7 @@
         "cn_rating": "买入",
         "n_analysts": 0,
         "cn_reports_total": 40,
-        "fwd_pe": 169.7,
+        "fwd_pe": 171.2,
         "eps_2026": 8.515,
         "eps_2027": 17.055,
         "eps_growth": 100.3,
@@ -398,21 +398,21 @@
       },
       "news": [
         {
+          "title": "中国AI 50概念下跌4.76%，主力资金净流出46股",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202606263784844569.html",
+          "date": "2026-06-26"
+        },
+        {
           "title": "北京“万亿市值”再添一员，智谱之后下一个是谁？",
           "pub": "新京报",
           "url": "http://finance.eastmoney.com/a/202606223778264924.html",
           "date": "2026-06-22"
         },
         {
-          "title": "6月25日科创板主力资金净流入24.64亿元",
+          "title": "电子行业资金流出榜：工业富联等106股净流出资金超亿元",
           "pub": "证券时报网",
-          "url": "http://finance.eastmoney.com/a/202606253783104647.html",
-          "date": "2026-06-25"
-        },
-        {
-          "title": "杠杆资金大手笔净买入的科创板股曝光",
-          "pub": "证券时报网",
-          "url": "http://finance.eastmoney.com/a/202606263783840042.html",
+          "url": "http://finance.eastmoney.com/a/202606263784827195.html",
           "date": "2026-06-26"
         }
       ],
@@ -462,16 +462,136 @@
           "date": "2026-06-22"
         },
         {
+          "title": "科创板资金动向：12股主力资金净流入超亿元",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202606263784817571.html",
+          "date": "2026-06-26"
+        },
+        {
           "title": "6月23日科创板主力资金净流出180.25亿元",
           "pub": "证券时报网",
           "url": "http://finance.eastmoney.com/a/202606233779783155.html",
           "date": "2026-06-23"
+        }
+      ],
+      "unlock": null
+    },
+    "001309.SZ": {
+      "name": "德明利",
+      "role": "存储主控/模组(SSD/eMMC·AI存储链)",
+      "market": "CN",
+      "price": 951.0,
+      "m1": 43.0,
+      "m3": 172.3,
+      "m6": 366.4,
+      "fromhi": 0.0,
+      "hi": 951.0,
+      "lo": 79.05,
+      "ma50": 632.62,
+      "ma200": 335.74,
+      "vol": 81.7,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "cn_rating": "买入",
+        "n_analysts": 0,
+        "cn_reports_total": 21,
+        "fwd_pe": 197.3,
+        "eps_2026": 4.82,
+        "eps_2027": 5.0,
+        "eps_growth": 3.7,
+        "sector": "半导体",
+        "rating": null,
+        "rating_mean": null
+      },
+      "earnings_date": null,
+      "quality": {
+        "roe": 50.52,
+        "ocf_ps": -1.0615,
+        "gross_margin": null,
+        "period": "2026-03-31"
+      },
+      "news": [
+        {
+          "title": "新晋A股第6！001309午后涨停",
+          "pub": "证券时报",
+          "url": "http://finance.eastmoney.com/a/202606253783129346.html",
+          "date": "2026-06-25"
         },
         {
-          "title": "275只科创板股融资余额环比增加",
+          "title": "德明利001309龙虎榜数据06-25)",
+          "pub": "东方财富Choice数据",
+          "url": "http://finance.eastmoney.com/a/202606253783084092.html",
+          "date": "2026-06-25"
+        },
+        {
+          "title": "6月25日龙虎榜净买入额前10个股",
+          "pub": "南方财经网",
+          "url": "http://finance.eastmoney.com/a/202606253783133519.html",
+          "date": "2026-06-25"
+        }
+      ],
+      "unlock": {
+        "date": "2026-07-23",
+        "pct_float": 1.1,
+        "mktcap_yi": 17.3
+      }
+    },
+    "300005.SZ": {
+      "name": "探路者",
+      "role": "Micro-LED显示驱动芯片+户外(双主业转型)",
+      "market": "CN",
+      "price": 23.21,
+      "m1": 52.9,
+      "m3": 84.6,
+      "m6": 131.2,
+      "fromhi": 0.0,
+      "hi": 23.21,
+      "lo": 8.2,
+      "ma50": 16.07,
+      "ma200": 12.62,
+      "vol": 97.3,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "cn_rating": "增持",
+        "n_analysts": 0,
+        "cn_reports_total": 11,
+        "fwd_pe": 133.4,
+        "eps_2026": 0.174,
+        "eps_2027": 0.23,
+        "eps_growth": 32.2,
+        "sector": "服装家纺",
+        "rating": null,
+        "rating_mean": null
+      },
+      "earnings_date": null,
+      "quality": {
+        "roe": 2.76,
+        "ocf_ps": -0.0463,
+        "gross_margin": null,
+        "period": "2026-03-31"
+      },
+      "news": [
+        {
+          "title": "探路者300005龙虎榜数据06-25",
+          "pub": "东方财富Choice数据",
+          "url": "http://finance.eastmoney.com/a/202606253783086855.html",
+          "date": "2026-06-25"
+        },
+        {
+          "title": "探路者连续3个交易日收盘价格涨幅偏离值累计超30%",
+          "pub": "财中社",
+          "url": "http://finance.eastmoney.com/a/202606253783126118.html",
+          "date": "2026-06-25"
+        },
+        {
+          "title": "今日突破五日均线个股一览",
           "pub": "证券时报网",
-          "url": "http://finance.eastmoney.com/a/202606243780573259.html",
-          "date": "2026-06-24"
+          "url": "http://finance.eastmoney.com/a/202606233779767944.html",
+          "date": "2026-06-23"
         }
       ],
       "unlock": null
@@ -499,31 +619,6 @@
       },
       "earnings_date": null,
       "news": []
-    },
-    "6082.HK": {
-      "name": "壁仞科技",
-      "role": "国产 GPU/AI 芯片(对标英伟达)",
-      "market": "HK",
-      "price": 68.0,
-      "m1": null,
-      "m3": null,
-      "m6": null,
-      "fromhi": -3.9,
-      "hi": 70.75,
-      "lo": 27.32,
-      "ma50": null,
-      "ma200": null,
-      "analyst": {
-        "target_mean": null,
-        "cn_rating": null,
-        "n_analysts": null,
-        "fwd_pe": null,
-        "rating": null,
-        "rating_mean": null
-      },
-      "earnings_date": null,
-      "news": [],
-      "partial": true
     },
     "QQQ": {
       "name": "纳指100 ETF",
@@ -555,9 +650,9 @@
   },
   "meta": {
     "degraded": false,
-    "fresh": 16,
-    "have": 16,
-    "total": 16,
+    "fresh": 17,
+    "have": 17,
+    "total": 17,
     "stale_tickers": []
   }
 }
