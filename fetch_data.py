@@ -281,6 +281,7 @@ def td_fetch_one(s, sess):
     an = {"target_mean": None, "target_low": None, "target_high": None, "rating": None,
           "rating_mean": None, "n_analysts": None, "fwd_pe": None, "ttm_pe": None}
     rec["earnings_date"] = None
+    rec["news"] = []
     try:
         t = yf.Ticker(tk, session=sess)
         info = t.info or {}
@@ -289,10 +290,10 @@ def td_fetch_one(s, sess):
                    "rating_mean": info.get("recommendationMean"), "n_analysts": info.get("numberOfAnalystOpinions"),
                    "fwd_pe": round(info.get("forwardPE"), 1) if info.get("forwardPE") else None})
         rec["earnings_date"] = get_earnings_date(t)   # 尽力补美股财报日(yfinance,云端常被限)
+        rec["news"] = get_news(t, 3)                  # 美股新闻催化剂(之前 TD 路径漏了,现补回)
     except Exception:
         pass
     rec["analyst"] = an
-    rec["news"] = []
     return rec
 
 

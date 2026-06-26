@@ -53,10 +53,14 @@ def audit_section(data):
     news = sum(1 for v in data.values() if v.get("news"))
     earn = sum(1 for v in data.values() if v.get("earnings_date"))
     missing = [tk for tk, v in data.items() if v.get("error")]
+    cons_gap = cons < (n - 1) * 0.5   # 券商一致覆盖偏低(扣掉 QQQ)
+    note = ('⚠️ <b style="color:#fbbf24">券商一致覆盖偏低</b>——这些票目标价<b>未经券商一致数字校准</b>(美股 TD 免费档无共识/港股/A股取数受限);评分仅按可算因子计,缺失因子已标"不可算",不静默补分。'
+            if cons_gap else
+            'ℹ️ 券商一致/新闻/财报日已尽力抓取(美股 yfinance、A股东财业绩预约)。web 深度信源待 web 工具恢复后补。')
     return (f'<div class="audit"><b>📋 数据 / 覆盖审计:</b>'
-            f'行情 {px}/{n} · 券商一致 {cons}/{n}(QQQ 无个股) · 新闻催化剂 {news}/{n} · 财报日 {earn}/{n}'
-            + (f' · ⚠️ 抓取失败:{"、".join(missing)}' if missing else ' · 全部成功')
-            + '<br><span style="color:#64748b">ℹ️ web_search 深度信源(更多催化剂/评级变动事件)本期未启用(web 工具暂不可用),已用 yfinance 真实信源(新闻链接+券商一致+财报日)顶上。</span></div>')
+            f'行情 {px}/{n} · 券商一致 {cons}/{n}(QQQ及无覆盖标的除外) · 新闻催化剂 {news}/{n} · 财报日 {earn}/{n}'
+            + (f' · ⚠️ 抓取失败:{"、".join(missing)}' if missing else '')
+            + f'<br><span style="color:#64748b">{note}</span></div>')
 
 
 def factor_score(d):
@@ -67,18 +71,33 @@ def factor_score(d):
     cn_rating = an.get("cn_rating")  # A股东财评级:yfinance 无 A 股一致目标价时,以机构评级作共识代理(保证 A 股评分与美股同口径)
     CN_UP = {"强烈推荐": 26, "买入": 24, "推荐": 22, "增持": 16, "持有": 8, "中性": 8}
     CN_RT = {"强烈推荐": 15, "买入": 14, "推荐": 13, "增持": 10, "持有": 6, "中性": 6}
-    p = {}
-    p["趋势"] = 25 if (px and ma200 and px > ma200 and ma50 and px > ma50) else (13 if (px and ma200 and px > ma200) else 0)
-    if tm and px:
+    # 诚实化:数据缺失的因子记入 miss(不可计算),不静默计0/白送分混入排序
+    p, miss = {}, []
+    if px and ma200:                                            # 趋势:需 价+MA200
+        p["趋势"] = 25 if (px > ma200 and ma50 and px > ma50) else (13 if px > ma200 else 0)
+    else:
+        miss.append("趋势")
+    if tm and px:                                              # 共识上行:需券商一致目标 或 A股评级
         p["共识上行"] = int(max(0, min(30, (tm / px - 1) * 100)))
     elif cn_rating:
         p["共识上行"] = CN_UP.get(cn_rating, 12)
     else:
-        p["共识上行"] = 0
-    p["回调健康"] = 15 if (fromhi is not None and -22 <= fromhi <= -6) else (8 if (fromhi is not None and fromhi < -6) else 5)
-    p["动量"] = 12 if (m3 is not None and 5 <= m3 <= 60) else (4 if (m3 is not None and m3 > 60) else (6 if (m3 is not None and -10 < m3 < 5) else 3))
-    p["评级"] = int(max(0, min(15, (3 - rm) / 2 * 15))) if rm else (CN_RT.get(cn_rating, 8) if cn_rating else 8)
-    return sum(p.values()), p
+        miss.append("共识上行")                                  # 无任何共识锚 → 不可计算(原静默给0)
+    if fromhi is not None:                                     # 回调健康:需 距52周高
+        p["回调健康"] = 15 if (-22 <= fromhi <= -6) else (8 if fromhi < -6 else 5)
+    else:
+        miss.append("回调健康")
+    if m3 is not None:                                         # 动量:需 近3月
+        p["动量"] = 12 if (5 <= m3 <= 60) else (4 if m3 > 60 else (6 if -10 < m3 < 5 else 3))
+    else:
+        miss.append("动量")
+    if rm:                                                     # 评级:需 券商rating_mean 或 A股东财评级
+        p["评级"] = int(max(0, min(15, (3 - rm) / 2 * 15)))
+    elif cn_rating:
+        p["评级"] = CN_RT.get(cn_rating, 8)
+    else:
+        miss.append("评级")                                     # 无评级 → 不可计算(原白送8分)
+    return sum(p.values()), p, miss
 
 
 def regime_line(data):
@@ -106,7 +125,10 @@ def card(i, tk, d, a):
     color = "#4ade80" if sig.startswith("买入") else ("#fbbf24" if "观望" in sig else "#94a3b8")
     mom = lambda x: f'<span style="color:{"#4ade80" if (x or 0)>=0 else "#f87171"}">{x:+.1f}%</span>' if x is not None else "—"
     f0 = lambda x: f"{x:.0f}" if x is not None else "?"
-    sc, sp = factor_score(d)
+    sc, sp, miss = factor_score(d)
+    cov = len(sp)                                  # 可算因子数(满5)
+    low_data = len(miss) >= 3                       # 多数因子不可计算 → 数据不足,不给确定评分
+    miss_note = f"(缺:{'、'.join(miss)}不可算)" if miss else ""
     em, tgm = _mid(a.get("buy")), _mid(a.get("tgt"))
     rr = round((tgm / em - 1) / 0.10, 1) if (em and tgm and em > 0) else None
     stop = round(em * 0.90) if em else None
@@ -145,7 +167,7 @@ def card(i, tk, d, a):
 <div class="card" style="border-top:3px solid {color}{';opacity:.92' if tk=='QQQ' else ''}">
   <div class="hd"><span class="rk">{MEDALS[i] if i < len(MEDALS) else str(i + 1) + "."}</span><span class="tk">{('🇨🇳 ' if is_cn else '🇭🇰 ' if is_hk else '') + tk.replace('.SS', '').replace('.SZ', '').replace('.HK', '')}</span>
     <span class="nm">{d.get('name','')}</span><span class="badge">{d.get('role','')}</span>
-    <span class="sig" style="color:{color}">{sig}</span><span class="score">评分 {sc}</span><span class="conf">置信 {a.get('conf','?')}/10</span></div>
+    <span class="sig" style="color:{color}">{sig}</span>{'<span class="score" style="color:#cbd5e1;background:rgba(148,163,184,.18)">数据不足·暂不评分</span>' if low_data else f'<span class="score">评分 {sc}({cov}/5因子)</span>'}<span class="conf">置信 {a.get('conf','?')}/10</span></div>
   <div class="px"><span class="now">{cs}{d.get('price','—')}</span>
     <span class="mom">近1月 {mom(d.get('m1'))} ｜ 近3月 {mom(d.get('m3'))} ｜ 近6月 {mom(d.get('m6'))} ｜ 距52周高 {(str(d.get('fromhi'))+'%') if d.get('fromhi') is not None else '—'}</span></div>
   <div class="kpis">
@@ -153,7 +175,7 @@ def card(i, tk, d, a):
     <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">{cs}{a.get('tgt','')}</div></div>
     <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">{a.get('ret','')}</div></div></div>
   <div class="cons">{cons}{earn}</div>
-  <div class="rr">🛡 风控 止损 -10%(≈{cs}{stop}) · 风险收益比 <b>{rr if rr is not None else '—'}:1</b>{rrflag}　·　📊 评分 {sc}/100 = {sp_str}</div>
+  <div class="rr">🛡 风控 止损 -10%(≈{cs}{stop}) · 风险收益比 <b>{rr if rr is not None else '—'}:1</b>{rrflag}　·　📊 {'数据不足·目标价为题材推演非可复算估值' if low_data else f'评分 {sc}/100({cov}/5因子) = {sp_str}{miss_note}'}</div>
   <div class="th">💡 {a.get('th','')}</div>
   {news_html}
   <div class="rk2">⚠️ 风险:{a.get('rk','')}　·　52周 {cs}{d.get('lo','')}–{cs}{d.get('hi','')}　·　MA50 {cs}{d.get('ma50','')} / MA200 {cs}{d.get('ma200','')}</div>
