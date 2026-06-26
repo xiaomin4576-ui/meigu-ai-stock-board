@@ -55,6 +55,7 @@ jobs:
       - name: 拉取行情数据(允许失败)
         env:
           TD_API_KEY: ${{ secrets.TD_API_KEY }}   # Twelve Data 行情API(云端稳定取数,配了就走TD,没配回落yfinance)
+          FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}  # Finnhub 美股共识/评级/财报日/财务指标(配了美股升9/9完整评分,没配维持技术分,不影响)
         run: |
           python fetch_data.py || echo "::warning::fetch_data.py 异常,沿用已有 data_*.json 继续"
 

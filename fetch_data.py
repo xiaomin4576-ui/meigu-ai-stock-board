@@ -28,6 +28,8 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
 # Twelve Data 行情 API:云端稳定取数(不像 Yahoo 限流数据中心 IP),需 secret TD_API_KEY(免费档)
 TD_KEY = (os.environ.get("TD_API_KEY") or "").strip()
 TD_BASE = "https://api.twelvedata.com"
+FINNHUB_KEY = (os.environ.get("FINNHUB_KEY") or "").strip()   # 美股共识/评级/财报日/财务指标(云端IP可达,非Yahoo黑名单);留空则美股维持"技术分"现状,不影响
+FH_BASE = "https://finnhub.io/api/v1"
 
 
 def _session():
@@ -108,6 +110,68 @@ def get_earnings_date(t):
         return str(ed) if ed else None
     except Exception:
         return None
+
+
+_CN_RATE_FROM_RATIO = lambda br: ("买入" if br >= 0.7 else "增持" if br >= 0.5 else "持有" if br >= 0.3 else "中性")
+
+
+def us_finnhub(symbol, sess=None):
+    """美股用 Finnhub 免费档补强(env 设 FINNHUB_KEY 才启用;云端 IP 可达、非 Yahoo 黑名单)。
+    免费档可取:① 分析师评级趋势(recommendation)→ rating_mean(1-5,与yf同口径)+买入占比作"共识上行"代理(免费档无目标价)
+    ② 财报日历(calendar/earnings)→ 下次财报日 ③ 财务指标(metric:roeTTM/grossMarginTTM/peTTM/epsGrowthTTMYoy)→ 质量+估值PEG。
+    返回扁平 dict(字段缺则不含);任何子调用失败都跳过、不致命。60 次/分。"""
+    if not FINNHUB_KEY:
+        return {}
+    s = sess or _session()
+    out = {}
+
+    def fh(path, **params):
+        params["token"] = FINNHUB_KEY
+        r = s.get(f"{FH_BASE}{path}", params=params, timeout=15)
+        return r.json() if r.status_code == 200 else None
+
+    # ① 分析师评级趋势
+    try:
+        rec = fh("/stock/recommendation", symbol=symbol)
+        if isinstance(rec, list) and rec:
+            r0 = rec[0]   # 最新一期在前
+            sb, b, h, sl, ss = (r0.get("strongBuy", 0) or 0, r0.get("buy", 0) or 0,
+                                r0.get("hold", 0) or 0, r0.get("sell", 0) or 0, r0.get("strongSell", 0) or 0)
+            tot = sb + b + h + sl + ss
+            if tot:
+                out["rating_mean"] = round((sb * 1 + b * 2 + h * 3 + sl * 4 + ss * 5) / tot, 2)  # 1=强买…5=强卖
+                out["n_analysts"] = tot
+                out["cn_rating"] = _CN_RATE_FROM_RATIO((sb + b) / tot)   # 买入占比→评级词,喂"共识上行"因子
+                out["rec_buy_ratio"] = round((sb + b) / tot, 2)
+    except Exception:
+        pass
+    # ② 财报日历(取今天起最近一个未来财报日)
+    try:
+        d0 = datetime.date.fromisoformat(TODAY)
+        cal = fh("/calendar/earnings", symbol=symbol,
+                 **{"from": d0.isoformat(), "to": (d0 + datetime.timedelta(days=150)).isoformat()})
+        ec = (cal or {}).get("earningsCalendar") or []
+        fut = sorted(e["date"] for e in ec if e.get("date") and e["date"] >= TODAY)
+        if fut:
+            out["earnings_date"] = fut[0]
+    except Exception:
+        pass
+    # ③ 财务指标 → 质量 + 估值PEG
+    try:
+        m = fh("/stock/metric", symbol=symbol, metric="all")
+        met = (m or {}).get("metric") or {}
+        roe = met.get("roeTTM")
+        gm = met.get("grossMarginTTM")
+        pe = met.get("peTTM") or met.get("peExclExtraTTM") or met.get("peBasicExclExtraTTM")
+        epsg = met.get("epsGrowthTTMYoy")
+        if roe is not None or gm is not None:
+            out["roe"], out["gross_margin"] = roe, gm
+        if pe and epsg is not None:
+            out["fwd_pe"] = round(float(pe), 1)        # 免费档无 forward,用 TTM PE 代理
+            out["eps_growth"] = round(float(epsg), 1)
+    except Exception:
+        pass
+    return out
 
 
 def with_no_proxy(fn):
@@ -429,6 +493,29 @@ def td_fetch_one(s, sess):
         rec["news"] = get_news(t, 3)                  # 美股新闻催化剂(之前 TD 路径漏了,现补回)
     except Exception:
         pass
+    # Finnhub 补强(美股,云端可达不限流):评级/财报日/质量/估值——把美股从"技术分"升到完整"评分"。
+    # 优先级高于 yfinance(后者云端常限流返回 None);仅在配了 FINNHUB_KEY 时生效,否则维持现状。
+    if FINNHUB_KEY and market == "US" and tk != "QQQ":
+        fh = us_finnhub(tk, sess)
+        if fh.get("rating_mean") is not None:
+            an["rating_mean"] = fh["rating_mean"]
+        if fh.get("n_analysts"):
+            an["n_analysts"] = fh["n_analysts"]
+        if fh.get("cn_rating") and not an.get("target_mean"):   # 无目标价时,用评级词作"共识上行"代理
+            an["cn_rating"] = fh["cn_rating"]
+        if fh.get("rec_buy_ratio") is not None:
+            an["rec_buy_ratio"] = fh["rec_buy_ratio"]
+        if fh.get("fwd_pe") is not None and not an.get("fwd_pe"):
+            an["fwd_pe"] = fh["fwd_pe"]
+        if fh.get("eps_growth") is not None:
+            an["eps_growth"] = fh["eps_growth"]
+        if fh.get("earnings_date") and not rec.get("earnings_date"):
+            rec["earnings_date"] = fh["earnings_date"]
+        if fh.get("roe") is not None or fh.get("gross_margin") is not None:
+            rec["quality"] = {"roe": fh.get("roe"), "ocf_ps": None,
+                              "gross_margin": fh.get("gross_margin"), "period": "TTM·Finnhub"}
+        if any(k in fh for k in ("rating_mean", "cn_rating", "fwd_pe")):
+            an["consensus_src"] = "Finnhub"
     rec["analyst"] = an
     return rec
 
