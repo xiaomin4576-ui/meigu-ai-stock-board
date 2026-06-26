@@ -63,41 +63,45 @@ def audit_section(data):
             + f'<br><span style="color:#64748b">{note}</span></div>')
 
 
+FACTOR_W = {"趋势": 20, "共识上行": 22, "回调健康": 12, "动量": 12, "评级": 12, "估值PEG": 22}  # 权重和=100
+
+
 def factor_score(d):
-    """透明多因子打分 0-100(规则化,非拍脑袋):趋势+共识上行+回调健康+动量(惩罚过热)+券商评级。"""
+    """归一化多因子模型:各因子打 0-1 × 权重,缺失因子记入 miss(不计入),按 present 权重重标到 /100。
+    因子:趋势/共识上行/回调健康/动量/评级/估值PEG。诚实:数据缺则该因子"不可计算",绝不静默补分。
+    返回 (总分0-100, 各因子折算贡献dict, 不可计算因子名list)。"""
     px, ma50, ma200, m3, fromhi = d.get("price"), d.get("ma50"), d.get("ma200"), d.get("m3"), d.get("fromhi")
     an = d.get("analyst", {}) or {}
-    tm, rm = an.get("target_mean"), an.get("rating_mean")
-    cn_rating = an.get("cn_rating")  # A股东财评级:yfinance 无 A 股一致目标价时,以机构评级作共识代理(保证 A 股评分与美股同口径)
-    CN_UP = {"强烈推荐": 26, "买入": 24, "推荐": 22, "增持": 16, "持有": 8, "中性": 8}
-    CN_RT = {"强烈推荐": 15, "买入": 14, "推荐": 13, "增持": 10, "持有": 6, "中性": 6}
-    # 诚实化:数据缺失的因子记入 miss(不可计算),不静默计0/白送分混入排序
-    p, miss = {}, []
-    if px and ma200:                                            # 趋势:需 价+MA200
-        p["趋势"] = 25 if (px > ma200 and ma50 and px > ma50) else (13 if px > ma200 else 0)
-    else:
-        miss.append("趋势")
-    if tm and px:                                              # 共识上行:需券商一致目标 或 A股评级
-        p["共识上行"] = int(max(0, min(30, (tm / px - 1) * 100)))
+    tm, rm, cn_rating = an.get("target_mean"), an.get("rating_mean"), an.get("cn_rating")
+    fwd_pe, eps_growth = an.get("fwd_pe"), an.get("eps_growth")
+    CN_UP = {"强烈推荐": 0.9, "买入": 0.8, "推荐": 0.75, "增持": 0.5, "持有": 0.3, "中性": 0.3}
+    CN_RT = {"强烈推荐": 1.0, "买入": 0.9, "推荐": 0.85, "增持": 0.6, "持有": 0.4, "中性": 0.4}
+    f = {}   # 因子名 -> 归一化 0-1(只放可算的)
+    if px and ma200:                                          # 趋势
+        f["趋势"] = 1.0 if (px > ma200 and ma50 and px > ma50) else (0.5 if px > ma200 else 0.0)
+    if tm and px:                                            # 共识上行(美股/港股一致目标隐含涨幅)
+        f["共识上行"] = max(0.0, min(1.0, (tm / px - 1) * 100 / 30))
+    elif cn_rating:                                          # A股用东财评级作共识代理
+        f["共识上行"] = CN_UP.get(cn_rating, 0.4)
+    if fromhi is not None:                                   # 回调健康
+        f["回调健康"] = 1.0 if (-22 <= fromhi <= -6) else (0.6 if fromhi < -22 else 0.4)
+    if m3 is not None:                                       # 动量(过热惩罚)
+        f["动量"] = 1.0 if 5 <= m3 <= 40 else (0.5 if 40 < m3 <= 90 else (0.2 if m3 > 90 else (0.5 if -10 < m3 < 5 else 0.2)))
+    if rm:                                                   # 评级
+        f["评级"] = max(0.0, min(1.0, (3 - rm) / 2))
     elif cn_rating:
-        p["共识上行"] = CN_UP.get(cn_rating, 12)
-    else:
-        miss.append("共识上行")                                  # 无任何共识锚 → 不可计算(原静默给0)
-    if fromhi is not None:                                     # 回调健康:需 距52周高
-        p["回调健康"] = 15 if (-22 <= fromhi <= -6) else (8 if fromhi < -6 else 5)
-    else:
-        miss.append("回调健康")
-    if m3 is not None:                                         # 动量:需 近3月
-        p["动量"] = 12 if (5 <= m3 <= 60) else (4 if m3 > 60 else (6 if -10 < m3 < 5 else 3))
-    else:
-        miss.append("动量")
-    if rm:                                                     # 评级:需 券商rating_mean 或 A股东财评级
-        p["评级"] = int(max(0, min(15, (3 - rm) / 2 * 15)))
-    elif cn_rating:
-        p["评级"] = CN_RT.get(cn_rating, 8)
-    else:
-        miss.append("评级")                                     # 无评级 → 不可计算(原白送8分)
-    return sum(p.values()), p, miss
+        f["评级"] = CN_RT.get(cn_rating, 0.5)
+    if fwd_pe and eps_growth is not None:                    # 估值PEG(PE÷EPS增速,低=好;不增长还高PE=差)
+        if eps_growth <= 0:
+            f["估值PEG"] = 0.1
+        else:
+            peg = fwd_pe / eps_growth
+            f["估值PEG"] = 1.0 if peg <= 1 else (0.7 if peg <= 2 else (0.4 if peg <= 4 else (0.15 if peg <= 8 else 0.0)))
+    miss = [k for k in FACTOR_W if k not in f]
+    wsum = sum(FACTOR_W[k] for k in f)
+    score = round(sum(f[k] * FACTOR_W[k] for k in f) / wsum * 100) if wsum else 0
+    breakdown = {k: round(f[k] * FACTOR_W[k]) for k in f}    # 各因子折算后贡献分
+    return score, breakdown, miss
 
 
 def regime_line(data):
@@ -126,9 +130,11 @@ def card(i, tk, d, a):
     mom = lambda x: f'<span style="color:{"#4ade80" if (x or 0)>=0 else "#f87171"}">{x:+.1f}%</span>' if x is not None else "—"
     f0 = lambda x: f"{x:.0f}" if x is not None else "?"
     sc, sp, miss = factor_score(d)
-    cov = len(sp)                                  # 可算因子数(满5)
-    low_data = len(miss) >= 3                       # 多数因子不可计算 → 数据不足,不给确定评分
-    miss_note = f"(缺:{'、'.join(miss)}不可算)" if miss else ""
+    cov = len(sp)                                  # 可算因子数(满6)
+    low_data = cov <= 2                             # 可算因子≤2 → 数据不足,不给确定评分
+    miss_note = f"(缺:{'、'.join(miss)})" if miss else ""
+    tech_only = {"共识上行", "评级", "估值PEG"}.issubset(set(miss))   # 基本面三因子全缺 → 仅技术面,不冒充满分评分
+    score_lbl = "技术分" if tech_only else "评分"
     em, tgm = _mid(a.get("buy")), _mid(a.get("tgt"))
     rr = round((tgm / em - 1) / 0.10, 1) if (em and tgm and em > 0) else None
     stop = round(em * 0.90) if em else None
@@ -178,7 +184,7 @@ def card(i, tk, d, a):
 <div class="card" style="border-top:3px solid {color}{';opacity:.92' if tk=='QQQ' else ''}">
   <div class="hd"><span class="rk">{MEDALS[i] if i < len(MEDALS) else str(i + 1) + "."}</span><span class="tk">{('🇨🇳 ' if is_cn else '🇭🇰 ' if is_hk else '') + tk.replace('.SS', '').replace('.SZ', '').replace('.HK', '')}</span>
     <span class="nm">{d.get('name','')}</span><span class="badge">{d.get('role','')}</span>
-    <span class="sig" style="color:{color}">{sig}</span>{'<span class="score" style="color:#cbd5e1;background:rgba(148,163,184,.18)">数据不足·暂不评分</span>' if low_data else f'<span class="score">评分 {sc}({cov}/5因子)</span>'}<span class="conf">置信 {a.get('conf','?')}/10</span></div>
+    <span class="sig" style="color:{color}">{sig}</span>{'<span class="score" style="color:#cbd5e1;background:rgba(148,163,184,.18)">数据不足·暂不评分</span>' if low_data else f'<span class="score">{score_lbl} {sc}({cov}/6因子{"·仅技术面" if tech_only else ""})</span>'}<span class="conf">置信 {a.get('conf','?')}/10</span></div>
   <div class="px"><span class="now">{cs}{d.get('price','—')}</span>
     <span class="mom">近1月 {mom(d.get('m1'))} ｜ 近3月 {mom(d.get('m3'))} ｜ 近6月 {mom(d.get('m6'))} ｜ 距52周高 {(str(d.get('fromhi'))+'%') if d.get('fromhi') is not None else '—'}</span></div>
   <div class="kpis">
@@ -186,7 +192,7 @@ def card(i, tk, d, a):
     <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">{cs}{a.get('tgt','')}</div></div>
     <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">{a.get('ret','')}</div></div></div>
   <div class="cons">{cons}{earn}</div>
-  <div class="rr">🛡 风控 止损 -10%(≈{cs}{stop}) · 风险收益比 <b>{rr if rr is not None else '—'}:1</b>{rrflag}　·　📊 {'数据不足·目标价为题材推演非可复算估值' if low_data else f'评分 {sc}/100({cov}/5因子) = {sp_str}{miss_note}'}</div>
+  <div class="rr">🛡 风控 止损 -10%(≈{cs}{stop}) · 风险收益比 <b>{rr if rr is not None else '—'}:1</b>{rrflag}　·　📊 {'数据不足·目标价为题材推演非可复算估值' if low_data else f'{score_lbl} {sc}/100({cov}/6因子{"·仅技术面,估值/共识未评" if tech_only else ""}) = {sp_str}{miss_note}'}</div>
   <div class="th">💡 {a.get('th','')}</div>
   {news_html}
   <div class="rk2">⚠️ 风险:{a.get('rk','')}　·　52周 {cs}{d.get('lo','')}–{cs}{d.get('hi','')}　·　MA50 {cs}{d.get('ma50','')} / MA200 {cs}{d.get('ma200','')}</div>
