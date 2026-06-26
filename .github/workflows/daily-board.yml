@@ -33,6 +33,7 @@ jobs:
   # ---------------- 构建 + 提交 + 上传 Pages 工件 ----------------
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15        # 防卡死:超时自动失败,释放 concurrency:pages(否则后续 run 永久排队、看板僵死)
     steps:
       - name: 检出仓库
         uses: actions/checkout@v4
@@ -180,6 +181,7 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    timeout-minutes: 10        # 防卡死:Pages 部署超时自动失败,不长期占用 concurrency
     outputs:
       page_url: ${{ steps.deployment.outputs.page_url }}
     environment:
@@ -197,6 +199,7 @@ jobs:
   notify:
     needs: [build, deploy]
     runs-on: ubuntu-latest
+    timeout-minutes: 5         # 防卡死:飞书推送超时自动失败
     steps:
       - name: 检出仓库
         uses: actions/checkout@v4
