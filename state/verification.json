@@ -93,12 +93,12 @@
       "target_aggressive": false
     },
     "688981.SS": {
-      "cur": 147.15,
+      "cur": 151.58,
       "buy_reachable": true,
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 120.0,
       "recent20_high": 158.66,
-      "target_implied_move_pct": 17.2,
+      "target_implied_move_pct": 13.8,
       "target_aggressive": false
     },
     "600522.SS": {
@@ -111,48 +111,48 @@
       "target_aggressive": false
     },
     "688256.SS": {
-      "cur": 1440.01,
+      "cur": 1477.54,
       "buy_reachable": true,
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 1199.0,
       "recent20_high": 1540.0,
-      "target_implied_move_pct": 12.8,
+      "target_implied_move_pct": 10.0,
       "target_aggressive": false
     },
     "2513.HK": {
-      "cur": 2062.0,
+      "cur": 2044.0,
       "buy_reachable": true,
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 1011.0,
       "recent20_high": 2980.0,
-      "target_implied_move_pct": -17.6,
+      "target_implied_move_pct": -16.8,
       "target_aggressive": false
     },
     "688052.SS": {
-      "cur": 282.68,
+      "cur": 280.74,
       "buy_reachable": true,
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 219.99,
       "recent20_high": 307.29,
-      "target_implied_move_pct": 11.4,
+      "target_implied_move_pct": 12.2,
       "target_aggressive": false
     },
     "6869.HK": {
-      "cur": 244.2,
+      "cur": 248.8,
       "buy_reachable": true,
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 202.0,
       "recent20_high": 305.0,
-      "target_implied_move_pct": 20.8,
+      "target_implied_move_pct": 18.6,
       "target_aggressive": false
     },
     "6082.HK": {
-      "cur": 58.65,
+      "cur": 58.55,
       "buy_reachable": true,
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 47.36,
       "recent20_high": 70.75,
-      "target_implied_move_pct": 40.7,
+      "target_implied_move_pct": 40.9,
       "target_aggressive": false
     }
   },
@@ -448,13 +448,13 @@
       "ticker": "688981.SS",
       "signal": "买入",
       "price_at_call": 138.94,
-      "cur": 147.15,
+      "cur": 151.58,
       "entry_hit": true,
       "entered": true,
       "direction_ok": true,
-      "progress_to_target_pct": 34.2,
+      "progress_to_target_pct": 45.7,
       "matured": false,
-      "realized_return_pct": 9.8
+      "realized_return_pct": 13.1
     },
     {
       "date": "2026-06-18",
@@ -474,7 +474,7 @@
       "ticker": "688256.SS",
       "signal": "观望",
       "price_at_call": 1495.74,
-      "cur": 1440.01,
+      "cur": 1477.54,
       "entry_hit": null,
       "entered": false,
       "direction_ok": null,
@@ -487,7 +487,7 @@
       "ticker": "2513.HK",
       "signal": "观望",
       "price_at_call": 1894.0,
-      "cur": 2062.0,
+      "cur": 2044.0,
       "entry_hit": null,
       "entered": false,
       "direction_ok": null,
@@ -501,7 +501,7 @@
     "basis": "胜率/进度/到期收益仅统计【买入信号且买入价被真实触及(入场)】的仓位;观望、回避、买入价未触及(未入场)一律不计入,绝不虚报。",
     "entry_hit_rate": 100,
     "direction_win_rate": 73,
-    "avg_progress_to_target_pct": 6.4,
+    "avg_progress_to_target_pct": 7.5,
     "matured_n": 0,
     "matured_avg_realized_pct": null
   },
