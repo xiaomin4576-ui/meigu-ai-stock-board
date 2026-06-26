@@ -419,6 +419,30 @@
         }
       ]
     },
+    "6869.HK": {
+      "name": "长飞光纤",
+      "role": "光纤光缆/光模块",
+      "market": "HK",
+      "price": 250.0,
+      "m1": 21.2,
+      "m3": 71.4,
+      "m6": 551.4,
+      "fromhi": -13.1,
+      "hi": 287.6,
+      "lo": 16.71,
+      "ma50": 234.15,
+      "ma200": 117.22,
+      "analyst": {
+        "target_mean": null,
+        "cn_rating": null,
+        "n_analysts": null,
+        "fwd_pe": null,
+        "rating": null,
+        "rating_mean": null
+      },
+      "earnings_date": null,
+      "news": []
+    },
     "2513.HK": {
       "name": "智谱",
       "role": "国产大模型 GLM",
@@ -477,12 +501,12 @@
   },
   "meta": {
     "degraded": true,
-    "fresh": 14,
-    "have": 15,
-    "total": 15,
+    "fresh": 15,
+    "have": 16,
+    "total": 16,
     "stale_tickers": [
       "2513.HK"
     ],
-    "banner": "1/15 支复用历史真实收盘(取数受限:2513.HK),其余 14/15 为最近真值;价格全真实、非编造,但部分非当日"
+    "banner": "1/16 支复用历史(2513.HK),其余当日真值;价格全真实"
   }
 }
