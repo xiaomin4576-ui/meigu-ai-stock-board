@@ -131,13 +131,28 @@ def cn_consensus(code):
                 n_recent = int(df["近一月个股研报数"].iloc[0])
             except Exception:
                 n_recent = None
-        fwd_pe = None
-        pe_col = next((c for c in df.columns if "2026" in c and "市盈率" in c), None)
-        if pe_col:
-            pes = [float(x) for x in df[pe_col].tolist() if str(x).replace(".", "").replace("-", "").isdigit() and float(x) > 0]
-            if pes:
-                fwd_pe = round(statistics.median(pes), 1)
-        return {"rating": rating, "n_recent_reports": n_recent, "total_reports": int(len(df)), "fwd_pe": fwd_pe}
+        cols = list(df.columns)
+
+        def med_col(y):
+            col = next((c for c in cols if y in c and "收益" in c), None)  # 2026/2027-盈利预测-收益 = EPS预测
+            if not col:
+                return None
+            vals = []
+            for x in df[col].tolist():
+                try:
+                    f = float(x)
+                    if f > 0:
+                        vals.append(f)
+                except Exception:
+                    pass
+            return round(statistics.median(vals), 3) if vals else None
+
+        eps_2026, eps_2027 = med_col("2026"), med_col("2027")
+        sector = str(df.iloc[0]["行业"]) if "行业" in cols and len(df) else None
+        # 注:研报里的"市盈率"列是各报告发布时按【当时股价】算的,股价大涨后严重失真,故不用;
+        # 真·前瞻PE 由上层 fetch_one_cn 用【当日价 ÷ EPS预测】算。
+        return {"rating": rating, "n_recent_reports": n_recent, "total_reports": int(len(df)),
+                "eps_2026": eps_2026, "eps_2027": eps_2027, "sector": sector}
     except Exception as e:
         print(f"    {code} akshare 机构数据失败(不致命): {str(e)[:60]}")
         return {}
@@ -233,9 +248,13 @@ def fetch_one_cn(s):
         "fromhi": pct(last, hi), "hi": hi, "lo": lo, "ma50": ma(50), "ma200": ma(200),
     })
     cn = cn_consensus(code)
+    eps26, eps27 = cn.get("eps_2026"), cn.get("eps_2027")
+    fwd_pe = round(last / eps26, 1) if (eps26 and last) else None              # 真·当日前瞻PE(报告PE列失真,弃用)
+    eps_growth = round((eps27 / eps26 - 1) * 100, 1) if (eps26 and eps27) else None  # 26→27 EPS 增速
     rec["analyst"] = {"target_mean": None, "target_low": None, "target_high": None,
                       "cn_rating": cn.get("rating"), "n_analysts": cn.get("n_recent_reports"),
-                      "cn_reports_total": cn.get("total_reports"), "fwd_pe": cn.get("fwd_pe"),
+                      "cn_reports_total": cn.get("total_reports"), "fwd_pe": fwd_pe,
+                      "eps_2026": eps26, "eps_2027": eps27, "eps_growth": eps_growth, "sector": cn.get("sector"),
                       "rating": None, "rating_mean": None}
     rec["earnings_date"] = None
     rec["news"] = cn_news(code, 3)
