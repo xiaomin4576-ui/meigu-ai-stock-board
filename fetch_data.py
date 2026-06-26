@@ -163,6 +163,49 @@ def cn_news(code, k=3):
         return []
 
 
+def _cn_next_period():
+    """按今天选最可能"即将披露"的报告期末(YYYYMMDD)。披露滞后报告期末约1-2月。"""
+    d = datetime.date.fromisoformat(TODAY)
+    y, m = d.year, d.month
+    if m <= 4:
+        return f"{y}0331"     # 一季报(4月底前后披露)
+    if m <= 8:
+        return f"{y}0630"     # 中报(7-8月披露)
+    if m <= 10:
+        return f"{y}0930"     # 三季报(10月披露)
+    return f"{y}1231"         # 年报(次年3-4月披露)
+
+
+def cn_earnings_map():
+    """A股业绩预约披露日历(akshare 东财 stock_yysj_em):返回 {6位代码: 'YYYY-MM-DD'}。
+    优先实际披露时间,否则用首次预约时间。一次拉全表查多只,禁代理。best-effort。"""
+    try:
+        import akshare as ak
+        period = _cn_next_period()
+        df = with_no_proxy(lambda: ak.stock_yysj_em(symbol="沪深A股", date=period))
+        if df is None or len(df) == 0:
+            return {}
+        cols = list(df.columns)
+        cc = next((c for c in cols if "代码" in c), None)
+        sc = "首次预约时间" if "首次预约时间" in cols else None
+        ac = "实际披露时间" if "实际披露时间" in cols else None
+        out = {}
+        for _, r in df.iterrows():
+            code = str(r[cc]).zfill(6)
+            d = None
+            if ac and str(r.get(ac))[:1].isdigit():
+                d = str(r.get(ac))[:10]
+            elif sc and str(r.get(sc))[:1].isdigit():
+                d = str(r.get(sc))[:10]
+            if d and len(d) == 10 and d[4] == "-":
+                out[code] = d
+        print(f"  A股业绩预约日历({period}):{len(out)} 只有披露日")
+        return out
+    except Exception as e:
+        print(f"  A股业绩预约日历失败(不致命): {str(e)[:60]}")
+        return {}
+
+
 def fetch_one_cn(s):
     """A 股抓取:全程 akshare 直连(行情/技术 + 机构共识 + 新闻),不依赖 Yahoo。
     行情拿不到则抛异常,由上层走逐支回退。"""
@@ -237,16 +280,18 @@ def td_fetch_one(s, sess):
     # 券商一致:yfinance 尽力补(云端常被限,拿不到留 None,不致命)
     an = {"target_mean": None, "target_low": None, "target_high": None, "rating": None,
           "rating_mean": None, "n_analysts": None, "fwd_pe": None, "ttm_pe": None}
+    rec["earnings_date"] = None
     try:
-        info = yf.Ticker(tk, session=sess).info or {}
+        t = yf.Ticker(tk, session=sess)
+        info = t.info or {}
         an.update({"target_mean": info.get("targetMeanPrice"), "target_low": info.get("targetLowPrice"),
                    "target_high": info.get("targetHighPrice"), "rating": info.get("recommendationKey"),
                    "rating_mean": info.get("recommendationMean"), "n_analysts": info.get("numberOfAnalystOpinions"),
                    "fwd_pe": round(info.get("forwardPE"), 1) if info.get("forwardPE") else None})
+        rec["earnings_date"] = get_earnings_date(t)   # 尽力补美股财报日(yfinance,云端常被限)
     except Exception:
         pass
     rec["analyst"] = an
-    rec["earnings_date"] = None
     rec["news"] = []
     return rec
 
@@ -344,6 +389,16 @@ def main():
                     lg["stale"] = True
                     lg["stale_date"] = src
                 stocks[tk] = lg
+
+    # A股财报日:从业绩预约披露日历批量补(一次拉表查所有A股,akshare东财)。云端连不上则保留既有值。
+    cn_tks = [s["ticker"] for s in cfg["stocks"] if s.get("market") == "CN"]
+    if cn_tks:
+        emap = cn_earnings_map()
+        for tk in cn_tks:
+            code = tk.split(".")[0]
+            if emap.get(code) and tk in stocks:
+                stocks[tk]["earnings_date"] = emap[code]
+
     total = len(stocks)
     have = sum(1 for v in stocks.values() if "price" in v)
     stale_tk = [tk for tk, v in stocks.items() if v.get("stale")]
