@@ -234,6 +234,48 @@ def cn_earnings_map():
         return {}
 
 
+def cn_unlock_map(horizon_days=210):
+    """A股限售解禁哨兵(akshare 东财 stock_restricted_release_detail_em):一次拉全市场未来~6个月解禁明细,
+    返回 {6位代码: {"date":'YYYY-MM-DD',"pct_float":占流通市值比例%,"mktcap_yi":市值亿}}(每只取最近一次)。
+    解禁=次新股最大的二元下行风险(限售盘到期抛压);老股/已过解禁的票则无,等于消除一个隐忧。best-effort、禁代理。"""
+    try:
+        import akshare as ak
+        d0 = datetime.date.fromisoformat(TODAY)
+        d1 = (d0 + datetime.timedelta(days=horizon_days))
+        df = with_no_proxy(lambda: ak.stock_restricted_release_detail_em(
+            start_date=d0.strftime("%Y%m%d"), end_date=d1.strftime("%Y%m%d")))
+        if df is None or len(df) == 0:
+            return {}
+        cc = next((c for c in df.columns if "代码" in c), None)
+        dc = next((c for c in df.columns if "解禁时间" in c), None)
+        pc = next((c for c in df.columns if "占解禁前流通" in c or ("占" in c and "流通" in c)), None)
+        mc = next((c for c in df.columns if "实际解禁市值" in c or ("市值" in c and "解禁" in c)), None)
+        out = {}
+        for _, r in df.iterrows():
+            code = str(r[cc]).zfill(6)
+            dt = str(r[dc])[:10]
+            if not (len(dt) == 10 and dt[4] == "-"):
+                continue
+            if code in out and out[code]["date"] <= dt:   # 只留最近一次未来解禁
+                continue
+            pv = r.get(pc) if pc else None
+            try:
+                pv = round(float(pv) * 100, 1) if (pv is not None and float(pv) < 1) else (round(float(pv), 1) if pv is not None else None)
+            except Exception:
+                pv = None
+            mv = None
+            try:
+                mv = round(float(r.get(mc)) / 1e8, 1) if mc and r.get(mc) is not None else None
+            except Exception:
+                pass
+            out[code] = {"date": dt, "pct_float": pv, "mktcap_yi": mv}
+        print(f"  A股解禁哨兵(未来{horizon_days}天):全市场 {len(out)} 只有解禁")
+        return out
+    except Exception as e:
+        print(f"  A股解禁哨兵失败(不致命): {str(e)[:60]}")
+        return {}
+
+
 def fetch_one_cn(s):
     """A 股抓取:全程 akshare 直连(行情/技术 + 机构共识 + 新闻),不依赖 Yahoo。
     行情拿不到则抛异常,由上层走逐支回退。"""
@@ -427,10 +469,13 @@ def main():
     cn_tks = [s["ticker"] for s in cfg["stocks"] if s.get("market") == "CN"]
     if cn_tks:
         emap = cn_earnings_map()
+        umap = cn_unlock_map()                      # A股解禁哨兵(全市场未来6个月)
         for tk in cn_tks:
             code = tk.split(".")[0]
             if emap.get(code) and tk in stocks:
                 stocks[tk]["earnings_date"] = emap[code]
+            if tk in stocks:
+                stocks[tk]["unlock"] = umap.get(code)   # 无未来解禁则 None(=消除隐忧)
 
     total = len(stocks)
     have = sum(1 for v in stocks.values() if "price" in v)

@@ -180,6 +180,22 @@ def card(i, tk, d, a, bench_m3=None):
         except Exception:
             pass
     earn = f'　📅 下次财报 {ed}{earn_soon}' if ed else ""
+    # A股限售解禁哨兵:未来6个月有解禁→标二元抛压;占流通≥3%或≤60天加重警示
+    unlock_html = ""
+    ul = d.get("unlock")
+    if ul and ul.get("date"):
+        try:
+            _ud = (datetime.date.fromisoformat(str(ul["date"])[:10]) - datetime.date.fromisoformat(TODAY)).days
+            pf = ul.get("pct_float")
+            heavy = (pf is not None and pf >= 3) or (0 <= _ud <= 60)
+            sev = ';font-weight:700' if heavy else ''
+            extra = f"占流通{pf}%" if pf is not None else ""
+            mv = f"·{ul['mktcap_yi']}亿" if ul.get("mktcap_yi") else ""
+            unlock_html = f'　🔓 <span style="color:#f59e0b{sev}">{_ud}天后解禁{extra}{mv}{"·抛压临近" if heavy else ""}</span>'
+        except Exception:
+            pass
+    elif is_cn:
+        unlock_html = '　🔓 <span style="color:#64748b">近6月无解禁(已消除限售抛压隐忧)</span>'
     news = (d.get("news") or [])[:2]
     news_html = ""
     if news:
@@ -196,7 +212,7 @@ def card(i, tk, d, a, bench_m3=None):
     <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">{cs}{a.get('buy','')}</div></div>
     <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">{cs}{a.get('tgt','')}</div></div>
     <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">{a.get('ret','')}</div></div></div>
-  <div class="cons">{cons}{earn}</div>
+  <div class="cons">{cons}{earn}{unlock_html}</div>
   <div class="rr">🛡 风控 止损 -10%(≈{cs}{stop}) · 风险收益比 <b>{rr if rr is not None else '—'}:1</b>{rrflag}　·　📊 {'数据不足·目标价为题材推演非可复算估值' if low_data else f'{score_lbl} {sc}/100({cov}/8因子{"·仅技术面,估值/共识未评" if tech_only else ""}) = {sp_str}{miss_note}'}</div>
   <div class="th">💡 {a.get('th','')}</div>
   {news_html}
