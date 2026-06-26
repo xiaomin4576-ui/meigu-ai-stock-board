@@ -147,19 +147,26 @@ jobs:
 
       # 提交 state/(台账+数据,需累积以支撑复盘记分卡)。docs/ 不入库(纯 artifact 部署)。
       # github-actions bot 身份 + [skip ci] 防触发自身死循环;先 rebase 避免与 Routine 竞态导致非快进;无变化则跳过。
-      - name: 提交 state/ 回 main
+      # 非关键步骤:部署用的是 docs/ 工件,不是回写的 state。故 continue-on-error,
+      # 即使 push 回写被并发推进打败(非快进),也【绝不阻断后续 Pages 部署】。
+      - name: 提交 state/ 回 main(非关键·失败不阻断部署)
+        continue-on-error: true
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main || true
           git add state/
           if git diff --cached --quiet; then
-            echo "无变化,跳过提交"
-          else
-            BJ_DATE=$(date +%F)
-            git commit -m "chore: 自动更新美股AI早报 ${BJ_DATE} [skip ci]"
-            git push origin HEAD:main
+            echo "无变化,跳过提交"; exit 0
           fi
+          git commit -m "chore: 自动更新美股AI早报 $(date +%F) [skip ci]"
+          for i in 1 2 3; do
+            if git push origin HEAD:main; then echo "✅ state 已回写"; exit 0; fi
+            echo "push 被拒(远端已推进),拉取合并重试 $i"
+            git fetch origin main || true
+            git merge -s ours -m "merge: 保留本次 state 回写" origin/main || true
+            sleep 2
+          done
+          echo "::warning::state 回写让步(下次自动追上),不阻断部署"
 
       - name: 配置 Pages
         uses: actions/configure-pages@v4
