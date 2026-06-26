@@ -66,6 +66,19 @@ def pct(cur, ref):
         return None
 
 
+def ann_vol(closes, win=20):
+    """近 win 日收盘的日收益年化波动率(%)。长期视角下低波动更优(次新/抛物线票波动高)。"""
+    try:
+        import statistics
+        cl = [float(x) for x in list(closes)][-(win + 1):]
+        if len(cl) < 10:
+            return None
+        rets = [cl[i] / cl[i - 1] - 1 for i in range(1, len(cl)) if cl[i - 1]]
+        return round(statistics.pstdev(rets) * (252 ** 0.5) * 100, 1) if len(rets) >= 8 else None
+    except Exception:
+        return None
+
+
 def get_news(t, k=3):
     out = []
     try:
@@ -245,7 +258,7 @@ def fetch_one_cn(s):
     rec.update({
         "price": round(last, 2),
         "m1": pct(last, back(21)), "m3": pct(last, back(63)), "m6": pct(last, back(126)),
-        "fromhi": pct(last, hi), "hi": hi, "lo": lo, "ma50": ma(50), "ma200": ma(200),
+        "fromhi": pct(last, hi), "hi": hi, "lo": lo, "ma50": ma(50), "ma200": ma(200), "vol": ann_vol(c),
     })
     cn = cn_consensus(code)
     eps26, eps27 = cn.get("eps_2026"), cn.get("eps_2027")
@@ -295,7 +308,7 @@ def td_fetch_one(s, sess):
     hi, lo = round(max(highs[-250:]), 2), round(min(lows[-250:]), 2)
     rec.update({"price": round(last, 2),
                 "m1": pct(last, back(21)), "m3": pct(last, back(63)), "m6": pct(last, back(126)),
-                "fromhi": pct(last, hi), "hi": hi, "lo": lo, "ma50": ma(50), "ma200": ma(200)})
+                "fromhi": pct(last, hi), "hi": hi, "lo": lo, "ma50": ma(50), "ma200": ma(200), "vol": ann_vol(closes)})
     # 券商一致:yfinance 尽力补(云端常被限,拿不到留 None,不致命)
     an = {"target_mean": None, "target_low": None, "target_high": None, "rating": None,
           "rating_mean": None, "n_analysts": None, "fwd_pe": None, "ttm_pe": None}
@@ -334,7 +347,7 @@ def fetch_one(s, sess):
         r = {
             "price": round(last, 2),
             "m1": pct(last, back(21)), "m3": pct(last, back(63)), "m6": pct(last, back(126)),
-            "fromhi": pct(last, hi), "hi": hi, "lo": lo, "ma50": ma(50), "ma200": ma(200),
+            "fromhi": pct(last, hi), "hi": hi, "lo": lo, "ma50": ma(50), "ma200": ma(200), "vol": ann_vol(c),
         }
         info = {}
         try:

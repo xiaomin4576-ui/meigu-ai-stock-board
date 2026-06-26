@@ -63,14 +63,14 @@ def audit_section(data):
             + f'<br><span style="color:#64748b">{note}</span></div>')
 
 
-FACTOR_W = {"趋势": 20, "共识上行": 22, "回调健康": 12, "动量": 12, "评级": 12, "估值PEG": 22}  # 权重和=100
+FACTOR_W = {"趋势": 16, "共识上行": 18, "回调健康": 10, "动量": 10, "评级": 10, "估值PEG": 18, "相对强弱": 10, "波动率": 8}  # 和=100
 
 
-def factor_score(d):
+def factor_score(d, bench_m3=None):
     """归一化多因子模型:各因子打 0-1 × 权重,缺失因子记入 miss(不计入),按 present 权重重标到 /100。
     因子:趋势/共识上行/回调健康/动量/评级/估值PEG。诚实:数据缺则该因子"不可计算",绝不静默补分。
     返回 (总分0-100, 各因子折算贡献dict, 不可计算因子名list)。"""
-    px, ma50, ma200, m3, fromhi = d.get("price"), d.get("ma50"), d.get("ma200"), d.get("m3"), d.get("fromhi")
+    px, ma50, ma200, m3, fromhi, vol = d.get("price"), d.get("ma50"), d.get("ma200"), d.get("m3"), d.get("fromhi"), d.get("vol")
     an = d.get("analyst", {}) or {}
     tm, rm, cn_rating = an.get("target_mean"), an.get("rating_mean"), an.get("cn_rating")
     fwd_pe, eps_growth = an.get("fwd_pe"), an.get("eps_growth")
@@ -97,6 +97,11 @@ def factor_score(d):
         else:
             peg = fwd_pe / eps_growth
             f["估值PEG"] = 1.0 if peg <= 1 else (0.7 if peg <= 2 else (0.4 if peg <= 4 else (0.15 if peg <= 8 else 0.0)))
+    if m3 is not None and bench_m3 is not None:             # 相对强弱:个股近3月 − 大盘(QQQ)近3月
+        rs = m3 - bench_m3
+        f["相对强弱"] = 1.0 if rs >= 20 else (0.75 if rs >= 5 else (0.5 if rs >= -5 else (0.3 if rs >= -20 else 0.1)))
+    if vol is not None:                                     # 波动率:年化波动,低=好(长期视角,次新/抛物线波动高扣分)
+        f["波动率"] = 1.0 if vol < 30 else (0.7 if vol < 50 else (0.4 if vol < 80 else 0.15))
     miss = [k for k in FACTOR_W if k not in f]
     wsum = sum(FACTOR_W[k] for k in f)
     score = round(sum(f[k] * FACTOR_W[k] for k in f) / wsum * 100) if wsum else 0
@@ -124,14 +129,14 @@ def evidence_section(data):
     return f'<div class="evid"><div class="ev-reg">{regime_line(data)}</div><div class="ev-bt">{bt_html}</div></div>'
 
 
-def card(i, tk, d, a):
+def card(i, tk, d, a, bench_m3=None):
     sig = a.get("sig", "")
     color = "#4ade80" if sig.startswith("买入") else ("#fbbf24" if "观望" in sig else "#94a3b8")
     mom = lambda x: f'<span style="color:{"#4ade80" if (x or 0)>=0 else "#f87171"}">{x:+.1f}%</span>' if x is not None else "—"
     f0 = lambda x: f"{x:.0f}" if x is not None else "?"
-    sc, sp, miss = factor_score(d)
-    cov = len(sp)                                  # 可算因子数(满6)
-    low_data = cov <= 2                             # 可算因子≤2 → 数据不足,不给确定评分
+    sc, sp, miss = factor_score(d, bench_m3)
+    cov = len(sp)                                  # 可算因子数(满8)
+    low_data = cov <= 3                             # 可算因子≤3 → 数据不足,不给确定评分
     miss_note = f"(缺:{'、'.join(miss)})" if miss else ""
     tech_only = {"共识上行", "评级", "估值PEG"}.issubset(set(miss))   # 基本面三因子全缺 → 仅技术面,不冒充满分评分
     score_lbl = "技术分" if tech_only else "评分"
@@ -184,7 +189,7 @@ def card(i, tk, d, a):
 <div class="card" style="border-top:3px solid {color}{';opacity:.92' if tk=='QQQ' else ''}">
   <div class="hd"><span class="rk">{MEDALS[i] if i < len(MEDALS) else str(i + 1) + "."}</span><span class="tk">{('🇨🇳 ' if is_cn else '🇭🇰 ' if is_hk else '') + tk.replace('.SS', '').replace('.SZ', '').replace('.HK', '')}</span>
     <span class="nm">{d.get('name','')}</span><span class="badge">{d.get('role','')}</span>
-    <span class="sig" style="color:{color}">{sig}</span>{'<span class="score" style="color:#cbd5e1;background:rgba(148,163,184,.18)">数据不足·暂不评分</span>' if low_data else f'<span class="score">{score_lbl} {sc}({cov}/6因子{"·仅技术面" if tech_only else ""})</span>'}<span class="conf">置信 {a.get('conf','?')}/10</span></div>
+    <span class="sig" style="color:{color}">{sig}</span>{'<span class="score" style="color:#cbd5e1;background:rgba(148,163,184,.18)">数据不足·暂不评分</span>' if low_data else f'<span class="score">{score_lbl} {sc}({cov}/8因子{"·仅技术面" if tech_only else ""})</span>'}<span class="conf">置信 {a.get('conf','?')}/10</span></div>
   <div class="px"><span class="now">{cs}{d.get('price','—')}</span>
     <span class="mom">近1月 {mom(d.get('m1'))} ｜ 近3月 {mom(d.get('m3'))} ｜ 近6月 {mom(d.get('m6'))} ｜ 距52周高 {(str(d.get('fromhi'))+'%') if d.get('fromhi') is not None else '—'}</span></div>
   <div class="kpis">
@@ -192,7 +197,7 @@ def card(i, tk, d, a):
     <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">{cs}{a.get('tgt','')}</div></div>
     <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">{a.get('ret','')}</div></div></div>
   <div class="cons">{cons}{earn}</div>
-  <div class="rr">🛡 风控 止损 -10%(≈{cs}{stop}) · 风险收益比 <b>{rr if rr is not None else '—'}:1</b>{rrflag}　·　📊 {'数据不足·目标价为题材推演非可复算估值' if low_data else f'{score_lbl} {sc}/100({cov}/6因子{"·仅技术面,估值/共识未评" if tech_only else ""}) = {sp_str}{miss_note}'}</div>
+  <div class="rr">🛡 风控 止损 -10%(≈{cs}{stop}) · 风险收益比 <b>{rr if rr is not None else '—'}:1</b>{rrflag}　·　📊 {'数据不足·目标价为题材推演非可复算估值' if low_data else f'{score_lbl} {sc}/100({cov}/8因子{"·仅技术面,估值/共识未评" if tech_only else ""}) = {sp_str}{miss_note}'}</div>
   <div class="th">💡 {a.get('th','')}</div>
   {news_html}
   <div class="rk2">⚠️ 风险:{a.get('rk','')}　·　52周 {cs}{d.get('lo','')}–{cs}{d.get('hi','')}　·　MA50 {cs}{d.get('ma50','')} / MA200 {cs}{d.get('ma200','')}</div>
@@ -255,6 +260,7 @@ def main():
     if not calls:
         raise SystemExit(f"缺 calls_*.json(Claude 研判)。先让 Claude 生成首期研判再渲染。")
     order = calls.get("ranking") or list(calls["stocks"].keys())
+    bench_m3 = (data.get("QQQ", {}) or {}).get("m3")     # 相对强弱基准:QQQ 近3月
     # 按市场分组排版:美股(全球定价、引领)在前 → A 股 → 港股,因 A/港大多跟随美股,分组后看 A/港更直观。
     # 奖牌(🥇🥈🥉/序号)用【全局排名】位置,组内仍按总排名顺序。
     MKT = [("US", "🇺🇸 美股核心 · AI 产业链驱动(全球定价,引领 A 股 / 港股)"),
@@ -267,7 +273,7 @@ def main():
         if not grp:
             continue
         cards += f'<div class="section">{title}<span class="scnt">{len(grp)} 支</span></div><div class="grid">'
-        cards += "".join(card(order.index(tk), tk, data.get(tk, {}), calls["stocks"][tk]) for tk in grp)
+        cards += "".join(card(order.index(tk), tk, data.get(tk, {}), calls["stocks"][tk], bench_m3) for tk in grp)
         cards += '</div>'
     rank_str = " ＞ ".join(data.get(tk, {}).get("name", tk) for tk in order)
     html = f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
