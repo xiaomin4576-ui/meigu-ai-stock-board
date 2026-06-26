@@ -63,7 +63,7 @@ def audit_section(data):
             + f'<br><span style="color:#64748b">{note}</span></div>')
 
 
-FACTOR_W = {"趋势": 16, "共识上行": 18, "回调健康": 10, "动量": 10, "评级": 10, "估值PEG": 18, "相对强弱": 10, "波动率": 8}  # 和=100
+FACTOR_W = {"趋势": 16, "共识上行": 18, "回调健康": 10, "动量": 10, "评级": 10, "估值PEG": 18, "相对强弱": 10, "波动率": 8, "质量": 12}  # 归一化按present权重重标,绝对和不影响最终分
 
 
 def factor_score(d, bench_m3=None):
@@ -102,6 +102,17 @@ def factor_score(d, bench_m3=None):
         f["相对强弱"] = 1.0 if rs >= 20 else (0.75 if rs >= 5 else (0.5 if rs >= -5 else (0.3 if rs >= -20 else 0.1)))
     if vol is not None:                                     # 波动率:年化波动,低=好(长期视角,次新/抛物线波动高扣分)
         f["波动率"] = 1.0 if vol < 30 else (0.7 if vol < 50 else (0.4 if vol < 80 else 0.15))
+    q = d.get("quality") or {}                              # 质量:盈利能力ROE + 现金含量(经营现金流符号)+ 定价权毛利
+    roe, ocf, gm = q.get("roe"), q.get("ocf_ps"), q.get("gross_margin")
+    qs = []
+    if roe is not None:                                     # ROE 为单季值,阈值按季度口径
+        qs.append(1.0 if roe > 8 else (0.85 if roe >= 5 else (0.6 if roe >= 2 else (0.35 if roe >= 0 else 0.1))))
+    if ocf is not None:                                     # 经营现金流:正=盈利有现金支撑,负=烧钱(次新股常见)重扣
+        qs.append(1.0 if ocf > 0 else (0.5 if ocf == 0 else 0.25))
+    if gm is not None:                                      # 毛利率:定价权
+        qs.append(1.0 if gm > 50 else (0.8 if gm >= 35 else (0.55 if gm >= 20 else 0.3)))
+    if qs:
+        f["质量"] = sum(qs) / len(qs)
     miss = [k for k in FACTOR_W if k not in f]
     wsum = sum(FACTOR_W[k] for k in f)
     score = round(sum(f[k] * FACTOR_W[k] for k in f) / wsum * 100) if wsum else 0
@@ -205,7 +216,7 @@ def card(i, tk, d, a, bench_m3=None):
 <div class="card" style="border-top:3px solid {color}{';opacity:.92' if tk=='QQQ' else ''}">
   <div class="hd"><span class="rk">{MEDALS[i] if i < len(MEDALS) else str(i + 1) + "."}</span><span class="tk">{('🇨🇳 ' if is_cn else '🇭🇰 ' if is_hk else '') + tk.replace('.SS', '').replace('.SZ', '').replace('.HK', '')}</span>
     <span class="nm">{d.get('name','')}</span><span class="badge">{d.get('role','')}</span>
-    <span class="sig" style="color:{color}">{sig}</span>{'<span class="score" style="color:#cbd5e1;background:rgba(148,163,184,.18)">数据不足·暂不评分</span>' if low_data else f'<span class="score">{score_lbl} {sc}({cov}/8因子{"·仅技术面" if tech_only else ""})</span>'}<span class="conf">置信 {a.get('conf','?')}/10</span></div>
+    <span class="sig" style="color:{color}">{sig}</span>{'<span class="score" style="color:#cbd5e1;background:rgba(148,163,184,.18)">数据不足·暂不评分</span>' if low_data else f'<span class="score">{score_lbl} {sc}({cov}/9因子{"·仅技术面" if tech_only else ""})</span>'}<span class="conf">置信 {a.get('conf','?')}/10</span></div>
   <div class="px"><span class="now">{cs}{d.get('price','—')}</span>
     <span class="mom">近1月 {mom(d.get('m1'))} ｜ 近3月 {mom(d.get('m3'))} ｜ 近6月 {mom(d.get('m6'))} ｜ 距52周高 {(str(d.get('fromhi'))+'%') if d.get('fromhi') is not None else '—'}</span></div>
   <div class="kpis">
@@ -213,7 +224,7 @@ def card(i, tk, d, a, bench_m3=None):
     <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">{cs}{a.get('tgt','')}</div></div>
     <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">{a.get('ret','')}</div></div></div>
   <div class="cons">{cons}{earn}{unlock_html}</div>
-  <div class="rr">🛡 风控 止损 -10%(≈{cs}{stop}) · 风险收益比 <b>{rr if rr is not None else '—'}:1</b>{rrflag}　·　📊 {'数据不足·目标价为题材推演非可复算估值' if low_data else f'{score_lbl} {sc}/100({cov}/8因子{"·仅技术面,估值/共识未评" if tech_only else ""}) = {sp_str}{miss_note}'}</div>
+  <div class="rr">🛡 风控 止损 -10%(≈{cs}{stop}) · 风险收益比 <b>{rr if rr is not None else '—'}:1</b>{rrflag}　·　📊 {'数据不足·目标价为题材推演非可复算估值' if low_data else f'{score_lbl} {sc}/100({cov}/9因子{"·仅技术面,估值/共识未评" if tech_only else ""}) = {sp_str}{miss_note}'}</div>
   <div class="th">💡 {a.get('th','')}</div>
   {news_html}
   <div class="rk2">⚠️ 风险:{a.get('rk','')}　·　52周 {cs}{d.get('lo','')}–{cs}{d.get('hi','')}　·　MA50 {cs}{d.get('ma50','')} / MA200 {cs}{d.get('ma200','')}</div>

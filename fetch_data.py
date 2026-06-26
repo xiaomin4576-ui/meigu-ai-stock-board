@@ -234,6 +234,44 @@ def cn_earnings_map():
         return {}
 
 
+def cn_quality(code):
+    """A股财务质量(akshare 东财 stock_financial_analysis_indicator):取最近一期 ROE/每股经营现金流/毛利率(毛利缺则回溯年报)。
+    质量 = 盈利能力(ROE)+ 现金含量(经营现金流符号)+ 定价权(毛利)。次新股常 ROE 低/现金流为负 → 如实低分,不美化。best-effort、禁代理。"""
+    try:
+        import akshare as ak
+        y0 = str(datetime.date.fromisoformat(TODAY).year - 1)
+        df = with_no_proxy(lambda: ak.stock_financial_analysis_indicator(symbol=code, start_year=y0))
+        if df is None or len(df) == 0 or "日期" not in df.columns:
+            return {}
+        df = df.sort_values("日期")
+
+        def col(row, key):
+            for c in df.columns:
+                if key in c:
+                    try:
+                        v = float(row.get(c))
+                        return v if v == v else None      # 过滤 nan
+                    except Exception:
+                        return None
+            return None
+
+        last = df.iloc[-1]
+        roe = col(last, "净资产收益率")
+        ocf = col(last, "每股经营性现金流")
+        gm = None
+        for _, r in df.iloc[::-1].iterrows():             # 毛利当季常空,回溯最近非空(年报)
+            v = col(r, "销售毛利率")
+            if v is not None:
+                gm = v
+                break
+        if roe is None and ocf is None and gm is None:
+            return {}
+        return {"roe": roe, "ocf_ps": ocf, "gross_margin": gm, "period": str(last["日期"])}
+    except Exception as e:
+        print(f"  A股质量失败(不致命): {str(e)[:60]}")
+        return {}
+
+
 def cn_unlock_map(horizon_days=210):
     """A股限售解禁哨兵(akshare 东财 stock_restricted_release_detail_em):一次拉全市场未来~6个月解禁明细,
     返回 {6位代码: {"date":'YYYY-MM-DD',"pct_float":占流通市值比例%,"mktcap_yi":市值亿}}(每只取最近一次)。
@@ -312,6 +350,7 @@ def fetch_one_cn(s):
                       "eps_2026": eps26, "eps_2027": eps27, "eps_growth": eps_growth, "sector": cn.get("sector"),
                       "rating": None, "rating_mean": None}
     rec["earnings_date"] = None
+    rec["quality"] = cn_quality(code)     # 财务质量:ROE/经营现金流/毛利(进质量因子)
     rec["news"] = cn_news(code, 3)
     return rec
 
