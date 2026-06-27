@@ -6,23 +6,104 @@
   "min_periods_for_calibration": 5,
   "benchmark": "QQQ",
   "stocks": [
-    {"ticker": "NVDA", "name": "英伟达", "role": "算力 GPU 龙头"},
-    {"ticker": "AVGO", "name": "博通",   "role": "AI 定制芯片/网络"},
-    {"ticker": "TSM",  "name": "台积电", "role": "AI 晶圆代工"},
-    {"ticker": "MU",   "name": "美光",   "role": "HBM 存储(海力士同类)"},
-    {"ticker": "MRVL", "name": "迈威尔", "role": "光 DSP/定制芯片"},
-    {"ticker": "ANET", "name": "Arista", "role": "AI 数据中心交换机"},
-    {"ticker": "CRDO", "name": "Credo",  "role": "AI 网络连接 AEC"},
-    {"ticker": "COHR", "name": "相干",   "role": "光模块/光通信"},
-    {"ticker": "VRT",  "name": "Vertiv", "role": "AI 数据中心供电散热"},
-    {"ticker": "600522.SS", "name": "中天科技", "role": "光纤光缆/海缆·算力配套", "market": "CN"},
-    {"ticker": "688981.SS", "name": "中芯国际", "role": "大陆晶圆代工龙头", "market": "CN"},
-    {"ticker": "688256.SS", "name": "寒武纪",   "role": "国产 AI 芯片龙头", "market": "CN"},
-    {"ticker": "688052.SS", "name": "纳芯微",   "role": "模拟/信号链芯片(国产替代)", "market": "CN"},
-    {"ticker": "001309.SZ", "name": "德明利",   "role": "存储主控/模组(SSD/eMMC·AI存储链)", "market": "CN"},
-    {"ticker": "300005.SZ", "name": "探路者",   "role": "Micro-LED显示驱动芯片+户外(双主业转型)", "market": "CN"},
-    {"ticker": "6869.HK", "name": "长飞光纤", "role": "光纤光缆/光模块(AI光互联)", "market": "HK"},
-    {"ticker": "QQQ",  "name": "纳指100 ETF", "role": "大盘基准"}
+    {
+      "ticker": "NVDA",
+      "name": "英伟达",
+      "role": "算力 GPU 龙头"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "博通",
+      "role": "AI 定制芯片/网络"
+    },
+    {
+      "ticker": "TSM",
+      "name": "台积电",
+      "role": "AI 晶圆代工"
+    },
+    {
+      "ticker": "MU",
+      "name": "美光",
+      "role": "HBM 存储(海力士同类)"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "迈威尔",
+      "role": "光 DSP/定制芯片"
+    },
+    {
+      "ticker": "ANET",
+      "name": "Arista",
+      "role": "AI 数据中心交换机"
+    },
+    {
+      "ticker": "CRDO",
+      "name": "Credo",
+      "role": "AI 网络连接 AEC"
+    },
+    {
+      "ticker": "COHR",
+      "name": "相干",
+      "role": "光模块/光通信"
+    },
+    {
+      "ticker": "VRT",
+      "name": "Vertiv",
+      "role": "AI 数据中心供电散热"
+    },
+    {
+      "ticker": "600522.SS",
+      "name": "中天科技",
+      "role": "光纤光缆/海缆·算力配套",
+      "market": "CN"
+    },
+    {
+      "ticker": "688981.SS",
+      "name": "中芯国际",
+      "role": "大陆晶圆代工龙头",
+      "market": "CN"
+    },
+    {
+      "ticker": "688256.SS",
+      "name": "寒武纪",
+      "role": "国产 AI 芯片龙头",
+      "market": "CN"
+    },
+    {
+      "ticker": "688052.SS",
+      "name": "纳芯微",
+      "role": "模拟/信号链芯片(国产替代)",
+      "market": "CN"
+    },
+    {
+      "ticker": "001309.SZ",
+      "name": "德明利",
+      "role": "存储主控/模组(SSD/eMMC·AI存储链)",
+      "market": "CN"
+    },
+    {
+      "ticker": "300005.SZ",
+      "name": "探路者",
+      "role": "Micro-LED显示驱动芯片+户外(双主业转型)",
+      "market": "CN"
+    },
+    {
+      "ticker": "603986.SS",
+      "name": "兆易创新",
+      "role": "NOR Flash/MCU/利基存储(国产存储龙头)",
+      "market": "CN"
+    },
+    {
+      "ticker": "6869.HK",
+      "name": "长飞光纤",
+      "role": "光纤光缆/光模块(AI光互联)",
+      "market": "HK"
+    },
+    {
+      "ticker": "QQQ",
+      "name": "纳指100 ETF",
+      "role": "大盘基准"
+    }
   ],
   "_note": "美股核心 + A股(market=CN,akshare东财数据)+ 港股(market=HK,yfinance有一致目标价)补充——同规格。看板按市场分组排版(美股驱动在前→A股→港股,因A/港大多跟随美股)。A股机构共识用 akshare 东财评级+研报覆盖;港股/美股用 yfinance 券商一致。QQQ 固定基准。"
 }
