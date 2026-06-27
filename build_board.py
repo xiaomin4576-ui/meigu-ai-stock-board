@@ -182,8 +182,8 @@ def card(i, tk, d, a, bench_m3=None):
     elif an.get("consensus_src") == "Finnhub":
         # 美股 Finnhub 免费档共识(无目标价,用评级趋势 + 财务指标校准)
         q = d.get("quality") or {}
-        qstr = ((f' · ROE {q.get("roe")}%' if q.get("roe") is not None else "")
-                + (f' · 毛利 {q.get("gross_margin")}%' if q.get("gross_margin") is not None else ""))
+        qstr = ((f' · ROE {round(q["roe"], 1)}%' if q.get("roe") is not None else "")
+                + (f' · 毛利 {round(q["gross_margin"], 1)}%' if q.get("gross_margin") is not None else ""))
         pe_str = f' · PE {an.get("fwd_pe","?")}' + (f'(增{an.get("eps_growth")}%)' if an.get("eps_growth") is not None else "")
         cons = (f'🏛 分析师共识(Finnhub) 评级 <b style="color:#2dd4bf">{an.get("cn_rating","—")}</b>'
                 f' · 买入占比 {int(round((an.get("rec_buy_ratio") or 0) * 100))}% · {an.get("n_analysts","?")}家'

@@ -165,7 +165,8 @@ def us_finnhub(symbol, sess=None):
         pe = met.get("peTTM") or met.get("peExclExtraTTM") or met.get("peBasicExclExtraTTM")
         epsg = met.get("epsGrowthTTMYoy")
         if roe is not None or gm is not None:
-            out["roe"], out["gross_margin"] = roe, gm
+            out["roe"] = round(float(roe), 1) if roe is not None else None
+            out["gross_margin"] = round(float(gm), 1) if gm is not None else None
         if pe and epsg is not None:
             out["fwd_pe"] = round(float(pe), 1)        # 免费档无 forward,用 TTM PE 代理
             out["eps_growth"] = round(float(epsg), 1)
