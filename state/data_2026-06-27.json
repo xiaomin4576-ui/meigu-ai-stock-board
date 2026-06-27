@@ -743,6 +743,64 @@
       ],
       "unlock": null
     },
+    "002384.SZ": {
+      "name": "东山精密",
+      "role": "PCB/FPC精密制造(果链+AI服务器PCB)",
+      "market": "CN",
+      "price": 260.32,
+      "m1": 16.5,
+      "m3": 142.1,
+      "m6": 225.0,
+      "fromhi": -5.6,
+      "hi": 275.8,
+      "lo": 34.83,
+      "ma50": 212.23,
+      "ma200": 113.83,
+      "vol": 92.3,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "cn_rating": "买入",
+        "n_analysts": 0,
+        "cn_reports_total": 111,
+        "fwd_pe": 125.8,
+        "eps_2026": 2.07,
+        "eps_2027": 2.715,
+        "eps_growth": 31.2,
+        "sector": "元件",
+        "rating": null,
+        "rating_mean": null
+      },
+      "earnings_date": null,
+      "quality": {
+        "roe": 4.9,
+        "ocf_ps": 0.6151,
+        "gross_margin": null,
+        "period": "2026-03-31"
+      },
+      "news": [
+        {
+          "title": "300308、002384、600487，融资客大举买入",
+          "pub": "数据宝",
+          "url": "http://finance.eastmoney.com/a/202606213777044854.html",
+          "date": "2026-06-21"
+        },
+        {
+          "title": "002384，拟投资81亿元“追光”",
+          "pub": "上海证券报",
+          "url": "http://finance.eastmoney.com/a/202606163773374489.html",
+          "date": "2026-06-16"
+        },
+        {
+          "title": "002384，超44亿元主力资金净流入！",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202606153771719626.html",
+          "date": "2026-06-15"
+        }
+      ],
+      "unlock": null
+    },
     "6869.HK": {
       "name": "长飞光纤",
       "role": "光纤光缆/光模块",
@@ -799,12 +857,12 @@
   },
   "meta": {
     "degraded": true,
-    "fresh": 17,
-    "have": 18,
-    "total": 18,
+    "fresh": 18,
+    "have": 19,
+    "total": 19,
     "stale_tickers": [
       "6869.HK"
     ],
-    "banner": "1/18 支复用历史真实收盘(取数受限:6869.HK),其余 17/18 为最近真值;价格全真实、非编造,但部分非当日"
+    "banner": "1/19 支复用历史真实收盘(取数受限:6869.HK),其余 18/19 为最近真值;价格全真实、非编造,但部分非当日"
   }
 }
