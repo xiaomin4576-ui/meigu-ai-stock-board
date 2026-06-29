@@ -1,0 +1,868 @@
+{
+  "asof": "2026-06-30",
+  "stocks": {
+    "NVDA": {
+      "name": "英伟达",
+      "role": "算力 GPU 龙头",
+      "market": "US",
+      "price": 193.05,
+      "m1": -9.9,
+      "m3": 15.2,
+      "m6": 2.4,
+      "fromhi": -18.4,
+      "hi": 236.54,
+      "lo": 151.49,
+      "ma50": 209.98,
+      "ma200": 190.72,
+      "vol": 45.7,
+      "earnings_date": "2026-08-25",
+      "news": [],
+      "quality": {
+        "roe": 111.7,
+        "ocf_ps": null,
+        "gross_margin": 74.2,
+        "period": "TTM·Finnhub"
+      },
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "rating": null,
+        "rating_mean": 1.74,
+        "n_analysts": 68,
+        "fwd_pe": 29.6,
+        "ttm_pe": null,
+        "cn_rating": "买入",
+        "rec_buy_ratio": 0.93,
+        "eps_growth": 110.3,
+        "consensus_src": "Finnhub"
+      }
+    },
+    "AVGO": {
+      "name": "博通",
+      "role": "AI 定制芯片/网络",
+      "market": "US",
+      "price": 370.55,
+      "m1": -13.1,
+      "m3": 23.2,
+      "m6": 5.8,
+      "fromhi": -25.1,
+      "hi": 495.0,
+      "lo": 262.66,
+      "ma50": 411.41,
+      "ma200": 361.32,
+      "vol": 71.4,
+      "earnings_date": "2026-09-02",
+      "news": [],
+      "quality": {
+        "roe": 36.4,
+        "ocf_ps": null,
+        "gross_margin": 68.3,
+        "period": "TTM·Finnhub"
+      },
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "rating": null,
+        "rating_mean": 1.77,
+        "n_analysts": 56,
+        "fwd_pe": 59.2,
+        "ttm_pe": null,
+        "cn_rating": "买入",
+        "rec_buy_ratio": 0.93,
+        "eps_growth": 125.8,
+        "consensus_src": "Finnhub"
+      }
+    },
+    "TSM": {
+      "name": "台积电",
+      "role": "AI 晶圆代工",
+      "market": "US",
+      "price": 451.11,
+      "m1": 6.2,
+      "m3": 38.1,
+      "m6": 51.0,
+      "fromhi": -5.4,
+      "hi": 476.79,
+      "lo": 221.18,
+      "ma50": 414.4,
+      "ma200": 341.12,
+      "vol": 57.0,
+      "earnings_date": "2026-07-15",
+      "news": [],
+      "quality": {
+        "roe": 36.9,
+        "ocf_ps": null,
+        "gross_margin": 61.9,
+        "period": "TTM·Finnhub"
+      },
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "rating": null,
+        "rating_mean": 1.79,
+        "n_analysts": 42,
+        "fwd_pe": 31.5,
+        "ttm_pe": null,
+        "cn_rating": "买入",
+        "rec_buy_ratio": 0.95,
+        "eps_growth": 47.3,
+        "consensus_src": "Finnhub"
+      }
+    },
+    "MU": {
+      "name": "美光",
+      "role": "HBM 存储(海力士同类)",
+      "market": "US",
+      "price": 1121.42,
+      "m1": 21.4,
+      "m3": 213.9,
+      "m6": 291.2,
+      "fromhi": -10.6,
+      "hi": 1255.0,
+      "lo": 103.38,
+      "ma50": 815.42,
+      "ma200": 430.74,
+      "vol": 126.9,
+      "earnings_date": "2026-09-21",
+      "news": [],
+      "quality": {
+        "roe": 40.8,
+        "ocf_ps": null,
+        "gross_margin": 58.4,
+        "period": "TTM·Finnhub"
+      },
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "rating": null,
+        "rating_mean": 1.76,
+        "n_analysts": 55,
+        "fwd_pe": 53.0,
+        "ttm_pe": null,
+        "cn_rating": "买入",
+        "rec_buy_ratio": 0.93,
+        "eps_growth": 412.1,
+        "consensus_src": "Finnhub"
+      }
+    },
+    "MRVL": {
+      "name": "迈威尔",
+      "role": "光 DSP/定制芯片",
+      "market": "US",
+      "price": 271.78,
+      "m1": 32.7,
+      "m3": 186.4,
+      "m6": 214.2,
+      "fromhi": -17.6,
+      "hi": 329.88,
+      "lo": 61.44,
+      "ma50": 215.98,
+      "ma200": 119.53,
+      "vol": 160.7,
+      "earnings_date": "2026-08-26",
+      "news": [],
+      "quality": {
+        "roe": 16.8,
+        "ocf_ps": null,
+        "gross_margin": 51.5,
+        "period": "TTM·Finnhub"
+      },
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "rating": null,
+        "rating_mean": 1.88,
+        "n_analysts": 49,
+        "fwd_pe": null,
+        "ttm_pe": null,
+        "cn_rating": "买入",
+        "rec_buy_ratio": 0.86,
+        "consensus_src": "Finnhub"
+      }
+    },
+    "ANET": {
+      "name": "Arista",
+      "role": "AI 数据中心交换机",
+      "market": "US",
+      "price": 163.94,
+      "m1": 5.6,
+      "m3": 35.7,
+      "m6": 25.4,
+      "fromhi": -8.8,
+      "hi": 179.8,
+      "lo": 97.14,
+      "ma50": 159.94,
+      "ma200": 142.83,
+      "vol": 60.9,
+      "earnings_date": "2026-08-03",
+      "news": [],
+      "quality": {
+        "roe": 30.6,
+        "ocf_ps": null,
+        "gross_margin": 63.5,
+        "period": "TTM·Finnhub"
+      },
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "rating": null,
+        "rating_mean": 1.82,
+        "n_analysts": 34,
+        "fwd_pe": 53.3,
+        "ttm_pe": null,
+        "cn_rating": "买入",
+        "rec_buy_ratio": 0.91,
+        "eps_growth": 23.5,
+        "consensus_src": "Finnhub"
+      }
+    },
+    "CRDO": {
+      "name": "Credo",
+      "role": "AI 网络连接 AEC",
+      "market": "US",
+      "price": 244.39,
+      "m1": 9.9,
+      "m3": 156.6,
+      "m6": 62.7,
+      "fromhi": -20.8,
+      "hi": 308.67,
+      "lo": 84.25,
+      "ma50": 212.23,
+      "ma200": 157.27,
+      "vol": 104.2,
+      "earnings_date": "2026-09-01",
+      "news": [],
+      "quality": {
+        "roe": 31.6,
+        "ocf_ps": null,
+        "gross_margin": 68.0,
+        "period": "TTM·Finnhub"
+      },
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "rating": null,
+        "rating_mean": 1.7,
+        "n_analysts": 27,
+        "fwd_pe": 94.0,
+        "ttm_pe": null,
+        "cn_rating": "买入",
+        "rec_buy_ratio": 0.93,
+        "eps_growth": 793.6,
+        "consensus_src": "Finnhub"
+      }
+    },
+    "COHR": {
+      "name": "相干",
+      "role": "光模块/光通信",
+      "market": "US",
+      "price": 381.45,
+      "m1": 1.2,
+      "m3": 56.7,
+      "m6": 99.3,
+      "fromhi": -13.3,
+      "hi": 440.0,
+      "lo": 84.35,
+      "ma50": 367.62,
+      "ma200": 232.83,
+      "vol": 113.4,
+      "earnings_date": "2026-08-11",
+      "news": [],
+      "quality": {
+        "roe": 5.3,
+        "ocf_ps": null,
+        "gross_margin": 36.8,
+        "period": "TTM·Finnhub"
+      },
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "rating": null,
+        "rating_mean": 2.0,
+        "n_analysts": 29,
+        "fwd_pe": 154.0,
+        "ttm_pe": null,
+        "cn_rating": "买入",
+        "rec_buy_ratio": 0.76,
+        "eps_growth": 275.5,
+        "consensus_src": "Finnhub"
+      }
+    },
+    "VRT": {
+      "name": "Vertiv",
+      "role": "AI 数据中心供电散热",
+      "market": "US",
+      "price": 305.66,
+      "m1": -2.7,
+      "m3": 21.7,
+      "m6": 83.2,
+      "fromhi": -19.6,
+      "hi": 379.94,
+      "lo": 110.06,
+      "ma50": 324.32,
+      "ma200": 229.78,
+      "vol": 75.6,
+      "earnings_date": "2026-07-28",
+      "news": [],
+      "quality": {
+        "roe": 42.1,
+        "ocf_ps": null,
+        "gross_margin": 37.1,
+        "period": "TTM·Finnhub"
+      },
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "rating": null,
+        "rating_mean": 1.94,
+        "n_analysts": 34,
+        "fwd_pe": 74.9,
+        "ttm_pe": null,
+        "cn_rating": "买入",
+        "rec_buy_ratio": 0.85,
+        "eps_growth": 131.0,
+        "consensus_src": "Finnhub"
+      }
+    },
+    "600522.SS": {
+      "name": "中天科技",
+      "role": "光纤光缆/海缆·算力配套",
+      "market": "CN",
+      "price": 58.84,
+      "m1": 45.2,
+      "m3": 112.6,
+      "m6": 249.4,
+      "fromhi": -13.6,
+      "hi": 68.1,
+      "lo": 13.22,
+      "ma50": 44.06,
+      "ma200": 26.32,
+      "vol": 89.7,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "cn_rating": "买入",
+        "n_analysts": 0,
+        "cn_reports_total": 98,
+        "fwd_pe": 41.1,
+        "eps_2026": 1.43,
+        "eps_2027": 1.45,
+        "eps_growth": 1.4,
+        "sector": "通信设备",
+        "rating": null,
+        "rating_mean": null
+      },
+      "earnings_date": "2026-08-28",
+      "quality": {
+        "roe": 2.42,
+        "ocf_ps": -0.5709,
+        "gross_margin": null,
+        "period": "2026-03-31"
+      },
+      "news": [
+        {
+          "title": "放量飙升！600522逆市新高",
+          "pub": "证券时报",
+          "url": "http://finance.eastmoney.com/a/202606083763695558.html",
+          "date": "2026-06-08"
+        },
+        {
+          "title": "600522，中标15亿元光纤大单",
+          "pub": "上海证券报",
+          "url": "http://finance.eastmoney.com/a/202606063762573330.html",
+          "date": "2026-06-06"
+        },
+        {
+          "title": "可控核聚变概念爆发 8股涨停",
+          "pub": "中国经营报",
+          "url": "http://finance.eastmoney.com/a/202606293786906884.html",
+          "date": "2026-06-29"
+        }
+      ],
+      "unlock": null
+    },
+    "688981.SS": {
+      "name": "中芯国际",
+      "role": "大陆晶圆代工龙头",
+      "market": "CN",
+      "price": 151.0,
+      "m1": -1.8,
+      "m3": 51.0,
+      "m6": 36.4,
+      "fromhi": -3.7,
+      "hi": 156.86,
+      "lo": 81.28,
+      "ma50": 127.61,
+      "ma200": 118.92,
+      "vol": 57.8,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "cn_rating": "买入",
+        "n_analysts": 0,
+        "cn_reports_total": 104,
+        "fwd_pe": 194.8,
+        "eps_2026": 0.775,
+        "eps_2027": 0.93,
+        "eps_growth": 20.0,
+        "sector": "半导体",
+        "rating": null,
+        "rating_mean": null
+      },
+      "earnings_date": "2026-08-28",
+      "quality": {
+        "roe": 0.91,
+        "ocf_ps": 0.6413,
+        "gross_margin": null,
+        "period": "2026-03-31"
+      },
+      "news": [
+        {
+          "title": "A股，两大板块掀涨停潮！688347、688981，双双新高",
+          "pub": "证券时报",
+          "url": "http://finance.eastmoney.com/a/202605253748209673.html",
+          "date": "2026-05-25"
+        },
+        {
+          "title": "上证早知道｜300054 半导体抛光液获突破性进展；688981 机构大买6.81亿元；300851披露重组预案 今日复牌",
+          "pub": "上海证券报",
+          "url": "http://finance.eastmoney.com/a/202605263748592631.html",
+          "date": "2026-05-26"
+        },
+        {
+          "title": "中芯国际：国家集成电路基金持有公司A股3.57亿股 占A股总股本14.03%",
+          "pub": "财联社",
+          "url": "http://finance.eastmoney.com/a/202606243781554825.html",
+          "date": "2026-06-24"
+        }
+      ],
+      "unlock": null
+    },
+    "688256.SS": {
+      "name": "寒武纪",
+      "role": "国产 AI 芯片龙头",
+      "market": "CN",
+      "price": 1482.0,
+      "m1": 6.5,
+      "m3": 112.8,
+      "m6": 73.5,
+      "fromhi": -1.7,
+      "hi": 1507.46,
+      "lo": 350.34,
+      "ma50": 1226.62,
+      "ma200": 950.79,
+      "vol": 75.4,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "cn_rating": "买入",
+        "n_analysts": 0,
+        "cn_reports_total": 40,
+        "fwd_pe": 174.0,
+        "eps_2026": 8.515,
+        "eps_2027": 17.055,
+        "eps_growth": 100.3,
+        "sector": "半导体",
+        "rating": null,
+        "rating_mean": null
+      },
+      "earnings_date": "2026-08-08",
+      "quality": {
+        "roe": 7.87,
+        "ocf_ps": 1.9777,
+        "gross_margin": null,
+        "period": "2026-03-31"
+      },
+      "news": [
+        {
+          "title": "科创板资金动向：44股主力资金净流入超亿元",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202606293786728354.html",
+          "date": "2026-06-29"
+        },
+        {
+          "title": "电子行业今日净流出资金147.94亿元，长电科技等77股净流出资金超亿元",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202606293786684962.html",
+          "date": "2026-06-29"
+        },
+        {
+          "title": "中国AI 50概念下跌4.76%，主力资金净流出46股",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202606263784844569.html",
+          "date": "2026-06-26"
+        }
+      ],
+      "unlock": null
+    },
+    "688052.SS": {
+      "name": "纳芯微",
+      "role": "模拟/信号链芯片(国产替代)",
+      "market": "CN",
+      "price": 268.3,
+      "m1": 0.9,
+      "m3": 64.5,
+      "m6": 81.1,
+      "fromhi": -10.6,
+      "hi": 300.0,
+      "lo": 139.02,
+      "ma50": 228.45,
+      "ma200": 184.09,
+      "vol": 68.2,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "cn_rating": "买入",
+        "n_analysts": 0,
+        "cn_reports_total": 52,
+        "fwd_pe": 255.5,
+        "eps_2026": 1.05,
+        "eps_2027": 1.61,
+        "eps_growth": 53.3,
+        "sector": "半导体",
+        "rating": null,
+        "rating_mean": null
+      },
+      "earnings_date": "2026-08-28",
+      "quality": {
+        "roe": -0.47,
+        "ocf_ps": -1.1863,
+        "gross_margin": null,
+        "period": "2026-03-31"
+      },
+      "news": [
+        {
+          "title": "纳芯微2026年激励计划：拟向528名激励对象授予46万股，授予价139.87元/股",
+          "pub": "财中社",
+          "url": "http://finance.eastmoney.com/a/202606223778266920.html",
+          "date": "2026-06-22"
+        },
+        {
+          "title": "科创板资金动向：12股主力资金净流入超亿元",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202606263784817571.html",
+          "date": "2026-06-26"
+        },
+        {
+          "title": "科创板平均股价64.64元，36股股价超300元",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202606293786684331.html",
+          "date": "2026-06-29"
+        }
+      ],
+      "unlock": null
+    },
+    "001309.SZ": {
+      "name": "德明利",
+      "role": "存储主控/模组(SSD/eMMC·AI存储链)",
+      "market": "CN",
+      "price": 970.0,
+      "m1": 47.6,
+      "m3": 158.8,
+      "m6": 387.2,
+      "fromhi": 0.0,
+      "hi": 970.0,
+      "lo": 78.73,
+      "ma50": 642.01,
+      "ma200": 339.99,
+      "vol": 80.0,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "cn_rating": "买入",
+        "n_analysts": 0,
+        "cn_reports_total": 21,
+        "fwd_pe": 201.2,
+        "eps_2026": 4.82,
+        "eps_2027": 5.0,
+        "eps_growth": 3.7,
+        "sector": "半导体",
+        "rating": null,
+        "rating_mean": null
+      },
+      "earnings_date": null,
+      "quality": {
+        "roe": 50.52,
+        "ocf_ps": -1.0615,
+        "gross_margin": null,
+        "period": "2026-03-31"
+      },
+      "news": [
+        {
+          "title": "新晋A股第6！001309午后涨停",
+          "pub": "证券时报",
+          "url": "http://finance.eastmoney.com/a/202606253783129346.html",
+          "date": "2026-06-25"
+        },
+        {
+          "title": "德明利001309龙虎榜数据06-25)",
+          "pub": "东方财富Choice数据",
+          "url": "http://finance.eastmoney.com/a/202606253783084092.html",
+          "date": "2026-06-25"
+        },
+        {
+          "title": "14只个股大宗交易超5000万元",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202606293787025690.html",
+          "date": "2026-06-29"
+        }
+      ],
+      "unlock": {
+        "date": "2026-07-23",
+        "pct_float": 1.1,
+        "mktcap_yi": 17.7
+      }
+    },
+    "300005.SZ": {
+      "name": "探路者",
+      "role": "Micro-LED显示驱动芯片+户外(双主业转型)",
+      "market": "CN",
+      "price": 22.29,
+      "m1": 46.6,
+      "m3": 67.0,
+      "m6": 125.4,
+      "fromhi": -4.0,
+      "hi": 23.21,
+      "lo": 8.2,
+      "ma50": 16.23,
+      "ma200": 12.69,
+      "vol": 99.3,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "cn_rating": "增持",
+        "n_analysts": 0,
+        "cn_reports_total": 11,
+        "fwd_pe": 128.1,
+        "eps_2026": 0.174,
+        "eps_2027": 0.23,
+        "eps_growth": 32.2,
+        "sector": "服装家纺",
+        "rating": null,
+        "rating_mean": null
+      },
+      "earnings_date": null,
+      "quality": {
+        "roe": 2.76,
+        "ocf_ps": -0.0463,
+        "gross_margin": null,
+        "period": "2026-03-31"
+      },
+      "news": [
+        {
+          "title": "探路者300005龙虎榜数据06-25",
+          "pub": "东方财富Choice数据",
+          "url": "http://finance.eastmoney.com/a/202606253783086855.html",
+          "date": "2026-06-25"
+        },
+        {
+          "title": "探路者：控股股东通域众合解除与百益钎顺一致行动关系 表决权降至13.65%",
+          "pub": "财中社",
+          "url": "http://finance.eastmoney.com/a/202606293786833143.html",
+          "date": "2026-06-29"
+        },
+        {
+          "title": "探路者连续3个交易日收盘价格涨幅偏离值累计超30%",
+          "pub": "财中社",
+          "url": "http://finance.eastmoney.com/a/202606253783126118.html",
+          "date": "2026-06-25"
+        }
+      ],
+      "unlock": null
+    },
+    "603986.SS": {
+      "name": "兆易创新",
+      "role": "NOR Flash/MCU/利基存储(国产存储龙头)",
+      "market": "CN",
+      "price": 840.0,
+      "m1": 73.9,
+      "m3": 202.5,
+      "m6": 326.2,
+      "fromhi": 0.0,
+      "hi": 840.0,
+      "lo": 113.49,
+      "ma50": 452.65,
+      "ma200": 289.98,
+      "vol": 89.6,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "cn_rating": "买入",
+        "n_analysts": 1,
+        "cn_reports_total": 222,
+        "fwd_pe": 266.7,
+        "eps_2026": 3.15,
+        "eps_2027": 3.91,
+        "eps_growth": 24.1,
+        "sector": "半导体",
+        "rating": null,
+        "rating_mean": null
+      },
+      "earnings_date": "2026-08-19",
+      "quality": {
+        "roe": 5.78,
+        "ocf_ps": 2.5432,
+        "gross_margin": null,
+        "period": "2026-03-31"
+      },
+      "news": [
+        {
+          "title": "深夜，603986提示：股价可能快速回落",
+          "pub": "中国基金报",
+          "url": "http://finance.eastmoney.com/a/202606293787064232.html",
+          "date": "2026-06-29"
+        },
+        {
+          "title": "成交额第一！603986尾盘冲击涨停",
+          "pub": "证券时报",
+          "url": "http://finance.eastmoney.com/a/202606293786693810.html",
+          "date": "2026-06-29"
+        },
+        {
+          "title": "成交超300亿元，603986，A股第一",
+          "pub": "上海证券报",
+          "url": "http://finance.eastmoney.com/a/202606293786428027.html",
+          "date": "2026-06-29"
+        }
+      ],
+      "unlock": null
+    },
+    "002384.SZ": {
+      "name": "东山精密",
+      "role": "PCB/FPC精密制造(果链+AI服务器PCB)",
+      "market": "CN",
+      "price": 249.59,
+      "m1": 14.0,
+      "m3": 130.7,
+      "m6": 219.3,
+      "fromhi": -9.5,
+      "hi": 275.8,
+      "lo": 36.3,
+      "ma50": 214.3,
+      "ma200": 114.79,
+      "vol": 93.2,
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "cn_rating": "买入",
+        "n_analysts": 0,
+        "cn_reports_total": 111,
+        "fwd_pe": 120.6,
+        "eps_2026": 2.07,
+        "eps_2027": 2.715,
+        "eps_growth": 31.2,
+        "sector": "元件",
+        "rating": null,
+        "rating_mean": null
+      },
+      "earnings_date": null,
+      "quality": {
+        "roe": 4.9,
+        "ocf_ps": 0.6151,
+        "gross_margin": null,
+        "period": "2026-03-31"
+      },
+      "news": [
+        {
+          "title": "300308、002384、600487，融资客大举买入",
+          "pub": "数据宝",
+          "url": "http://finance.eastmoney.com/a/202606213777044854.html",
+          "date": "2026-06-21"
+        },
+        {
+          "title": "002384，拟投资81亿元“追光”",
+          "pub": "上海证券报",
+          "url": "http://finance.eastmoney.com/a/202606163773374489.html",
+          "date": "2026-06-16"
+        },
+        {
+          "title": "002384，超44亿元主力资金净流入！",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202606153771719626.html",
+          "date": "2026-06-15"
+        }
+      ],
+      "unlock": null
+    },
+    "6869.HK": {
+      "name": "长飞光纤",
+      "role": "光纤光缆/光模块",
+      "market": "HK",
+      "price": 250.0,
+      "m1": 21.2,
+      "m3": 71.4,
+      "m6": 551.4,
+      "fromhi": -13.1,
+      "hi": 287.6,
+      "lo": 16.71,
+      "ma50": 234.15,
+      "ma200": 117.22,
+      "analyst": {
+        "target_mean": null,
+        "cn_rating": null,
+        "n_analysts": null,
+        "fwd_pe": null,
+        "rating": null,
+        "rating_mean": null
+      },
+      "earnings_date": null,
+      "news": [],
+      "stale": true,
+      "stale_date": "2026-06-29"
+    },
+    "QQQ": {
+      "name": "纳指100 ETF",
+      "role": "大盘基准",
+      "market": "US",
+      "price": 720.58,
+      "m1": -2.0,
+      "m3": 28.1,
+      "m6": 15.5,
+      "fromhi": -3.8,
+      "hi": 748.65,
+      "lo": 544.66,
+      "ma50": 704.4,
+      "ma200": 632.85,
+      "vol": 32.1,
+      "earnings_date": null,
+      "news": [],
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "rating": null,
+        "rating_mean": null,
+        "n_analysts": null,
+        "fwd_pe": null,
+        "ttm_pe": null
+      }
+    }
+  },
+  "meta": {
+    "degraded": true,
+    "fresh": 18,
+    "have": 19,
+    "total": 19,
+    "stale_tickers": [
+      "6869.HK"
+    ],
+    "banner": "1/19 支复用历史真实收盘(取数受限:6869.HK),其余 18/19 为最近真值;价格全真实、非编造,但部分非当日"
+  }
+}
