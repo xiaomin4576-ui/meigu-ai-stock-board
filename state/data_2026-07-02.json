@@ -343,7 +343,7 @@
       "m6": 180.8,
       "fromhi": -24.3,
       "hi": 68.1,
-      "lo": 13.42,
+      "lo": 13.43,
       "ma50": 45.74,
       "ma200": 26.92,
       "vol": 92.4,
@@ -363,7 +363,12 @@
         "rating_mean": null
       },
       "earnings_date": "2026-08-28",
-      "quality": {},
+      "quality": {
+        "roe": 2.42,
+        "ocf_ps": -0.5709,
+        "gross_margin": null,
+        "period": "2026-03-31"
+      },
       "news": [
         {
           "title": "放量飙升！600522逆市新高",
@@ -416,7 +421,12 @@
         "rating_mean": null
       },
       "earnings_date": "2026-08-28",
-      "quality": {},
+      "quality": {
+        "roe": 0.91,
+        "ocf_ps": 0.6413,
+        "gross_margin": null,
+        "period": "2026-03-31"
+      },
       "news": [
         {
           "title": "A股，两大板块掀涨停潮！688347、688981，双双新高",
@@ -667,10 +677,10 @@
           "date": "2026-06-29"
         },
         {
-          "title": "探路者连续3个交易日收盘价格涨幅偏离值累计超30%",
-          "pub": "财中社",
-          "url": "http://finance.eastmoney.com/a/202606253783126118.html",
-          "date": "2026-06-25"
+          "title": "纺织服饰行业今日净流入资金6.22亿元，龙头股份等5股净流入资金超5000万元",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202607023792004758.html",
+          "date": "2026-07-02"
         }
       ],
       "unlock": null
