@@ -83,6 +83,9 @@ jobs:
       # 把 state/ 的 HTML 组织进 docs/(Pages 发布根)。验证过:落地页=最新一期+注入归档入口,
       # archive.html=归档页(保持干净),全部 board 副本同目录以保相对链接闭环,.nojekyll 关 Jekyll。
       - name: 组织 Pages 站点到 docs/
+        env:
+          BOARD_PASSWORD: ${{ secrets.BOARD_PASSWORD }}   # 配了则加密看板(输密码才看),没配则公开
+          ENABLE_CNAME: ${{ vars.ENABLE_CNAME }}          # DNS 生效后设仓库变量=1 即绑定 andy4576.com
         run: |
           set -euo pipefail
           STATE="state"
@@ -91,6 +94,9 @@ jobs:
 
           # 1) 关闭 Jekyll(下划线/特殊文件不被吞)
           touch "$DOCS/.nojekyll"
+
+          # 1b) 自定义域名:DNS 生效后再激活(改 ENABLE_CNAME=1)。过早绑定会导致 github.io 重定向到未生效域名而打不开。
+          if [ "${ENABLE_CNAME:-0}" = "1" ]; then echo "andy4576.com" > "$DOCS/CNAME"; echo "🌐 已绑定 andy4576.com"; fi
 
           # 2) 所有每期看板原样拷进 docs/(归档页相对链接引用它们,必须同目录)
           cp "$STATE"/ai_stock_board_*.html "$DOCS"/ 2>/dev/null || { echo "❌ 没有任何 ai_stock_board_*.html,中止"; exit 1; }
@@ -145,6 +151,20 @@ jobs:
           [ -f "$DOCS/board.html" ]   || { echo "❌ docs/board.html 缺失"; exit 1; }
           grep -q "location.replace" "$DOCS/index.html" && echo "✅ index 为防缓存跳转页" || echo "⚠️ index 跳转缺失"
           grep -q 'class="navbar"' "$DOCS/board.html" && echo "✅ 看板含归档入口" || echo "⚠️ 看板未注入归档入口"
+
+          # 7) 密码保护:加密所有内容页(board + archive + 每期看板),index.html 跳转页保持明文。
+          #    这样直连任何历史看板文件也要密码,堵住绕过。未配 BOARD_PASSWORD 则公开。
+          if [ -n "${BOARD_PASSWORD:-}" ]; then
+            pip install --quiet cryptography 2>/dev/null || pip3 install --quiet cryptography
+            for f in "$DOCS"/*.html; do
+              [ "$(basename "$f")" = "index.html" ] && continue
+              python3 encrypt_board.py "$f" "$f"
+            done
+            grep -q '兆易\|台积电\|建议买入价' "$DOCS/board.html" && { echo "❌ 加密后仍有明文,中止"; exit 1; }
+            echo "🔒 已加密全部内容页(密码保护),index 跳转页保持明文"
+          else
+            echo "ℹ️ 未配 BOARD_PASSWORD → 看板公开(无密码)"
+          fi
           echo "✅ docs/ 组织完成,可上传 Pages"
 
       # 提交 state/(台账+数据,需累积以支撑复盘记分卡)。docs/ 不入库(纯 artifact 部署)。
