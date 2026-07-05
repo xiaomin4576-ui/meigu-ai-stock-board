@@ -154,16 +154,10 @@ jobs:
           grep -q "location.replace" "$DOCS/index.html" && echo "✅ index 为防缓存跳转页" || echo "⚠️ index 跳转缺失"
           grep -q 'class="navbar"' "$DOCS/board.html" && echo "✅ 看板含归档入口" || echo "⚠️ 看板未注入归档入口"
 
-          # 6b) 注入"更新按钮"触发凭证:把占位符替换成真 token,只进 docs/(随后被加密),不入库 → 不泄露。
+          # 6b) 注入"更新按钮"触发凭证:占位符替换成真 token,只进 docs/(随后被加密),不入库 → 不泄露。用单行 python 避免 heredoc 破坏 YAML。
           if [ -n "${DISPATCH_TOKEN:-}" ]; then
             for f in "$DOCS"/*.html; do
-              DTFILE="$f" python3 - <<'PY'
-import os
-p=os.environ["DTFILE"]; t=os.environ.get("DISPATCH_TOKEN","")
-h=open(p,encoding="utf-8").read()
-if "__DISPATCH_TOKEN__" in h:
-    open(p,"w",encoding="utf-8").write(h.replace("__DISPATCH_TOKEN__", t))
-PY
+              DTFILE="$f" python3 -c "import os; p=os.environ['DTFILE']; h=open(p,encoding='utf-8').read(); open(p,'w',encoding='utf-8').write(h.replace('__DISPATCH_TOKEN__', os.environ.get('DISPATCH_TOKEN',''))) if '__DISPATCH_TOKEN__' in h else None"
             done
             echo "🔑 已注入更新触发凭证到 docs/(将随内容一起加密)"
           else
