@@ -63,13 +63,14 @@ jobs:
         run: python verify.py
 
       # 全自动 Claude 研判(需 secret;未配则自动跳过,看板沿用最近一期研判+橙色"研判过期"标注)
-      - name: Claude 云端研判
+      # DeepSeek 研判:只在【手动点更新 / workflow_dispatch】时跑,定时 cron 不做研判(用户要求不自动研判)。
+      # 生成当日 calls_<date>.json;失败则沿用最近一期研判、不阻断部署。
+      - name: DeepSeek 研判(仅手动触发)
+        if: github.event_name == 'workflow_dispatch'
         env:
-          RESEARCH_API_KEY: ${{ secrets.RESEARCH_API_KEY }}
-          RESEARCH_AUTH_TOKEN: ${{ secrets.RESEARCH_AUTH_TOKEN }}
-          RESEARCH_BASE_URL: ${{ secrets.RESEARCH_BASE_URL }}
-          RESEARCH_MODEL: ${{ secrets.RESEARCH_MODEL }}
-        run: python research.py || echo "::warning::云端研判失败,沿用最近一期研判"
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_BASE_URL: ${{ secrets.DEEPSEEK_BASE_URL }}
+        run: pip install --quiet requests 2>/dev/null; python research_ds.py || echo "::warning::DeepSeek 研判失败,沿用最近一期研判"
 
       - name: 研判落台账(复盘闭环)
         run: python log_today.py || echo "::warning::log_today 失败(不阻断)"
@@ -86,6 +87,7 @@ jobs:
         env:
           BOARD_PASSWORD: ${{ secrets.BOARD_PASSWORD }}   # 配了则加密看板(输密码才看),没配则公开
           ENABLE_CNAME: ${{ vars.ENABLE_CNAME }}          # DNS 生效后设仓库变量=1 即绑定 andy4576.com
+          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}   # 更新按钮的触发凭证(fine-grained PAT,仅注入 docs 加密版)
         run: |
           set -euo pipefail
           STATE="state"
@@ -151,6 +153,22 @@ jobs:
           [ -f "$DOCS/board.html" ]   || { echo "❌ docs/board.html 缺失"; exit 1; }
           grep -q "location.replace" "$DOCS/index.html" && echo "✅ index 为防缓存跳转页" || echo "⚠️ index 跳转缺失"
           grep -q 'class="navbar"' "$DOCS/board.html" && echo "✅ 看板含归档入口" || echo "⚠️ 看板未注入归档入口"
+
+          # 6b) 注入"更新按钮"触发凭证:把占位符替换成真 token,只进 docs/(随后被加密),不入库 → 不泄露。
+          if [ -n "${DISPATCH_TOKEN:-}" ]; then
+            for f in "$DOCS"/*.html; do
+              DTFILE="$f" python3 - <<'PY'
+import os
+p=os.environ["DTFILE"]; t=os.environ.get("DISPATCH_TOKEN","")
+h=open(p,encoding="utf-8").read()
+if "__DISPATCH_TOKEN__" in h:
+    open(p,"w",encoding="utf-8").write(h.replace("__DISPATCH_TOKEN__", t))
+PY
+            done
+            echo "🔑 已注入更新触发凭证到 docs/(将随内容一起加密)"
+          else
+            echo "ℹ️ 未配 DISPATCH_TOKEN → 更新按钮显示'未配置'(不影响其余功能)"
+          fi
 
           # 7) 密码保护:加密所有内容页(board + archive + 每期看板),index.html 跳转页保持明文。
           #    这样直连任何历史看板文件也要密码,堵住绕过。未配 BOARD_PASSWORD 则公开。

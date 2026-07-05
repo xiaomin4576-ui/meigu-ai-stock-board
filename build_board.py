@@ -365,7 +365,19 @@ body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;colo
 </style></head><body><div class="wrap">
 <div class="header"><h1>📡 {cfg['title']} · {TODAY}</h1>
 <div class="sub">美股 AI 核心 {sum(1 for s in cfg['stocks'] if s.get('market') != 'CN' and s['ticker'] != cfg['benchmark'])} 票 + 🇨🇳 A 股补充 {sum(1 for s in cfg['stocks'] if s.get('market') == 'CN')} 票 + {cfg['benchmark']} 基准 · 长期 {cfg['horizon_label']} 视角 · 数据 yfinance+akshare(真实行情) · AI 研判</div>
-<div class="updated">🕐 本页生成:<b>{BUILD_TS}</b> 北京 · 每天 08:07 云端自动更新 · 想看最新点这里 👉 <a href="javascript:location.reload(true)">🔄 手动刷新</a></div>
+<div class="updated">🕐 本页生成:<b>{BUILD_TS}</b> 北京 · <a href="javascript:location.reload(true)">🔄 手动刷新</a> · <button onclick="triggerUpd()" style="background:#2563eb;color:#fff;border:none;border-radius:8px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer">🔁 更新研判</button><span id="updmsg" style="color:#94a3b8;font-size:12px;margin-left:6px"></span></div>
+<script>
+const DT="__DISPATCH_TOKEN__";
+async function triggerUpd(){{
+  const m=document.getElementById('updmsg');
+  if(!DT||DT.indexOf('__DISPATCH')>=0){{m.textContent='更新触发未配置';return;}}
+  m.textContent='触发中…';
+  try{{
+    const r=await fetch('https://api.github.com/repos/xiaomin4576-ui/meigu-ai-stock-board/actions/workflows/daily-board.yml/dispatches',{{method:'POST',headers:{{'Authorization':'Bearer '+DT,'Accept':'application/vnd.github+json'}},body:JSON.stringify({{ref:'main'}})}});
+    m.textContent = r.status===204 ? '✅ 已触发 DeepSeek 重新研判,约3-5分钟后完成 → 到时点「手动刷新」看最新' : '❌ 触发失败('+r.status+')';
+  }}catch(e){{m.textContent='❌ 网络出错';}}
+}}
+</script>
 <div class="market">🌎 <b style="color:#60a5fa">大盘与板块:</b>{calls.get('market','')}</div>
 <div class="rankbar">🏆 <b>买点吸引力排序:</b>{rank_str}</div></div>
 {freshness_banner(calls_date, data_meta)}
