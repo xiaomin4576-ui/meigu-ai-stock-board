@@ -1,11 +1,11 @@
 {
   "asof": "2026-07-06",
-  "latest_call_date": "2026-07-05",
+  "latest_call_date": "2026-07-06",
   "feasibility": {
     "NVDA": {
       "cur": 194.83,
-      "buy_reachable": true,
-      "note": "✅ 可达(近20日区间覆盖买入价)",
+      "buy_reachable": false,
+      "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 189.8,
       "recent20_high": 221.6,
       "target_implied_move_pct": 30.9,
@@ -22,11 +22,11 @@
     },
     "TSM": {
       "cur": 434.16,
-      "buy_reachable": false,
-      "note": "⚠️ 买入价低于近20日低点,可能挂不上",
+      "buy_reachable": true,
+      "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 404.56,
       "recent20_high": 479.0,
-      "target_implied_move_pct": 12.9,
+      "target_implied_move_pct": 16.3,
       "target_aggressive": false
     },
     "MU": {
@@ -35,7 +35,7 @@
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 854.35,
       "recent20_high": 1255.0,
-      "target_implied_move_pct": 20.4,
+      "target_implied_move_pct": 33.3,
       "target_aggressive": false
     },
     "MRVL": {
@@ -44,7 +44,7 @@
       "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 237.2,
       "recent20_high": 329.88,
-      "target_implied_move_pct": 22.3,
+      "target_implied_move_pct": 4.0,
       "target_aggressive": false
     },
     "ANET": {
@@ -58,8 +58,8 @@
     },
     "CRDO": {
       "cur": 241.91,
-      "buy_reachable": true,
-      "note": "✅ 可达(近20日区间覆盖买入价)",
+      "buy_reachable": false,
+      "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 200.0,
       "recent20_high": 308.67,
       "target_implied_move_pct": 24.0,
@@ -71,7 +71,7 @@
       "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 325.66,
       "recent20_high": 439.68,
-      "target_implied_move_pct": 12.5,
+      "target_implied_move_pct": 5.0,
       "target_aggressive": false
     },
     "VRT": {
@@ -80,7 +80,7 @@
       "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 275.12,
       "recent20_high": 358.54,
-      "target_implied_move_pct": 14.8,
+      "target_implied_move_pct": 6.5,
       "target_aggressive": false
     },
     "600522.SS": {
@@ -89,7 +89,7 @@
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 44.0,
       "recent20_high": 68.1,
-      "target_implied_move_pct": 16.5,
+      "target_implied_move_pct": 27.4,
       "target_aggressive": false
     },
     "688981.SS": {
@@ -98,7 +98,7 @@
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 120.0,
       "recent20_high": 166.88,
-      "target_implied_move_pct": 12.3,
+      "target_implied_move_pct": 8.7,
       "target_aggressive": false
     },
     "688256.SS": {
@@ -116,7 +116,7 @@
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 219.99,
       "recent20_high": 307.29,
-      "target_implied_move_pct": 22.6,
+      "target_implied_move_pct": 14.8,
       "target_aggressive": false
     },
     "001309.SZ": {
@@ -139,11 +139,11 @@
     },
     "603986.SS": {
       "cur": 677.77,
-      "buy_reachable": false,
-      "note": "⚠️ 买入价低于近20日低点,可能挂不上",
+      "buy_reachable": true,
+      "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 451.0,
       "recent20_high": 846.66,
-      "target_implied_move_pct": -18.9,
+      "target_implied_move_pct": 3.3,
       "target_aggressive": false
     },
     "002384.SZ": {
@@ -157,11 +157,11 @@
     },
     "6869.HK": {
       "cur": 201.2,
-      "buy_reachable": true,
-      "note": "✅ 可达(近20日区间覆盖买入价)",
+      "buy_reachable": false,
+      "note": "—",
       "recent20_low": 190.0,
       "recent20_high": 304.48,
-      "target_implied_move_pct": 36.7,
+      "target_implied_move_pct": null,
       "target_aggressive": false
     },
     "QQQ": {
@@ -1708,10 +1708,257 @@
       "progress_to_target_pct": null,
       "matured": false,
       "realized_return_pct": null
+    },
+    {
+      "date": "2026-07-05",
+      "ticker": "NVDA",
+      "signal": "买入",
+      "price_at_call": 194.83,
+      "cur": 194.83,
+      "entry_hit": null,
+      "entered": false,
+      "direction_ok": null,
+      "progress_to_target_pct": null,
+      "matured": false,
+      "realized_return_pct": null
+    },
+    {
+      "date": "2026-07-05",
+      "ticker": "AVGO",
+      "signal": "买入",
+      "price_at_call": 360.45,
+      "cur": 360.45,
+      "entry_hit": null,
+      "entered": false,
+      "direction_ok": null,
+      "progress_to_target_pct": null,
+      "matured": false,
+      "realized_return_pct": null
+    },
+    {
+      "date": "2026-07-05",
+      "ticker": "TSM",
+      "signal": "买入",
+      "price_at_call": 434.16,
+      "cur": 434.16,
+      "entry_hit": null,
+      "entered": false,
+      "direction_ok": null,
+      "progress_to_target_pct": null,
+      "matured": false,
+      "realized_return_pct": null
+    },
+    {
+      "date": "2026-07-05",
+      "ticker": "MU",
+      "signal": "买入",
+      "price_at_call": 975.56,
+      "cur": 975.56,
+      "entry_hit": null,
+      "entered": false,
+      "direction_ok": null,
+      "progress_to_target_pct": null,
+      "matured": false,
+      "realized_return_pct": null
+    },
+    {
+      "date": "2026-07-05",
+      "ticker": "MRVL",
+      "signal": "买入",
+      "price_at_call": 245.29,
+      "cur": 245.29,
+      "entry_hit": null,
+      "entered": false,
+      "direction_ok": null,
+      "progress_to_target_pct": null,
+      "matured": false,
+      "realized_return_pct": null
+    },
+    {
+      "date": "2026-07-05",
+      "ticker": "ANET",
+      "signal": "买入",
+      "price_at_call": 159.99,
+      "cur": 159.99,
+      "entry_hit": null,
+      "entered": false,
+      "direction_ok": null,
+      "progress_to_target_pct": null,
+      "matured": false,
+      "realized_return_pct": null
+    },
+    {
+      "date": "2026-07-05",
+      "ticker": "CRDO",
+      "signal": "买入",
+      "price_at_call": 241.91,
+      "cur": 241.91,
+      "entry_hit": null,
+      "entered": false,
+      "direction_ok": null,
+      "progress_to_target_pct": null,
+      "matured": false,
+      "realized_return_pct": null
+    },
+    {
+      "date": "2026-07-05",
+      "ticker": "COHR",
+      "signal": "买入",
+      "price_at_call": 333.36,
+      "cur": 333.36,
+      "entry_hit": null,
+      "entered": false,
+      "direction_ok": null,
+      "progress_to_target_pct": null,
+      "matured": false,
+      "realized_return_pct": null
+    },
+    {
+      "date": "2026-07-05",
+      "ticker": "VRT",
+      "signal": "观望",
+      "price_at_call": 300.53,
+      "cur": 300.53,
+      "entry_hit": null,
+      "entered": false,
+      "direction_ok": null,
+      "progress_to_target_pct": null,
+      "matured": false,
+      "realized_return_pct": null
+    },
+    {
+      "date": "2026-07-05",
+      "ticker": "600522.SS",
+      "signal": "观望",
+      "price_at_call": 50.22,
+      "cur": 50.22,
+      "entry_hit": null,
+      "entered": false,
+      "direction_ok": null,
+      "progress_to_target_pct": null,
+      "matured": false,
+      "realized_return_pct": null
+    },
+    {
+      "date": "2026-07-05",
+      "ticker": "688981.SS",
+      "signal": "观望",
+      "price_at_call": 140.31,
+      "cur": 140.31,
+      "entry_hit": null,
+      "entered": false,
+      "direction_ok": null,
+      "progress_to_target_pct": null,
+      "matured": false,
+      "realized_return_pct": null
+    },
+    {
+      "date": "2026-07-05",
+      "ticker": "688256.SS",
+      "signal": "观望",
+      "price_at_call": 1353.0,
+      "cur": 1353.0,
+      "entry_hit": null,
+      "entered": false,
+      "direction_ok": null,
+      "progress_to_target_pct": null,
+      "matured": false,
+      "realized_return_pct": null
+    },
+    {
+      "date": "2026-07-05",
+      "ticker": "688052.SS",
+      "signal": "买入",
+      "price_at_call": 257.0,
+      "cur": 257.0,
+      "entry_hit": null,
+      "entered": false,
+      "direction_ok": null,
+      "progress_to_target_pct": null,
+      "matured": false,
+      "realized_return_pct": null
+    },
+    {
+      "date": "2026-07-05",
+      "ticker": "001309.SZ",
+      "signal": "观望",
+      "price_at_call": 881.91,
+      "cur": 881.91,
+      "entry_hit": null,
+      "entered": false,
+      "direction_ok": null,
+      "progress_to_target_pct": null,
+      "matured": false,
+      "realized_return_pct": null
+    },
+    {
+      "date": "2026-07-05",
+      "ticker": "300005.SZ",
+      "signal": "观望",
+      "price_at_call": 23.65,
+      "cur": 23.65,
+      "entry_hit": null,
+      "entered": false,
+      "direction_ok": null,
+      "progress_to_target_pct": null,
+      "matured": false,
+      "realized_return_pct": null
+    },
+    {
+      "date": "2026-07-05",
+      "ticker": "603986.SS",
+      "signal": "观望",
+      "price_at_call": 677.77,
+      "cur": 677.77,
+      "entry_hit": null,
+      "entered": false,
+      "direction_ok": null,
+      "progress_to_target_pct": null,
+      "matured": false,
+      "realized_return_pct": null
+    },
+    {
+      "date": "2026-07-05",
+      "ticker": "002384.SZ",
+      "signal": "观望",
+      "price_at_call": 232.73,
+      "cur": 232.73,
+      "entry_hit": null,
+      "entered": false,
+      "direction_ok": null,
+      "progress_to_target_pct": null,
+      "matured": false,
+      "realized_return_pct": null
+    },
+    {
+      "date": "2026-07-05",
+      "ticker": "6869.HK",
+      "signal": "观望",
+      "price_at_call": 250.0,
+      "cur": 201.2,
+      "entry_hit": null,
+      "entered": false,
+      "direction_ok": null,
+      "progress_to_target_pct": null,
+      "matured": false,
+      "realized_return_pct": null
+    },
+    {
+      "date": "2026-07-05",
+      "ticker": "QQQ",
+      "signal": "观望",
+      "price_at_call": 712.6,
+      "cur": 712.6,
+      "entry_hit": null,
+      "entered": false,
+      "direction_ok": null,
+      "progress_to_target_pct": null,
+      "matured": false,
+      "realized_return_pct": null
     }
   ],
   "scorecard": {
-    "n_open": 118,
+    "n_open": 137,
     "basis": "胜率/进度/到期收益仅统计【买入信号且买入价被真实触及(入场)】的仓位;观望、回避、买入价未触及(未入场)一律不计入,绝不虚报。",
     "entry_hit_rate": 76,
     "direction_win_rate": 41,

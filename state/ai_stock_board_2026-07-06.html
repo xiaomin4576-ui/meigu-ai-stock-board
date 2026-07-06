@@ -23,6 +23,12 @@ body{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;color
 .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-bottom:18px}
 .section{display:flex;align-items:center;gap:10px;font-size:16px;font-weight:800;color:#e2e8f0;margin:6px 0 12px;padding:10px 14px;background:linear-gradient(90deg,rgba(96,165,250,.14),transparent);border-left:4px solid #60a5fa;border-radius:8px}
 .section .scnt{font-size:12px;font-weight:600;color:#94a3b8;background:rgba(148,163,184,.15);padding:2px 10px;border-radius:10px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 16px;position:sticky;top:0;z-index:20;background:#0b1120;padding:10px 0}
+.tab{font-size:14.5px;font-weight:800;color:#94a3b8;background:#111a2e;border:1px solid #334155;border-radius:11px;padding:9px 18px;cursor:pointer;transition:all .12s;font-family:inherit}
+.tab:hover{color:#cbd5e1;border-color:#475569}
+.tab.active{color:#fff;background:linear-gradient(135deg,#2563eb,#1d4ed8);border-color:#2563eb;box-shadow:0 2px 10px rgba(37,99,235,.35)}
+.tab .tc{font-size:11px;background:rgba(255,255,255,.22);border-radius:8px;padding:1px 7px;margin-left:6px}
+.pane.hide{display:none}
 .card{background:#111a2e;border:1px solid #334155;border-radius:14px;padding:16px 18px}
 .hd{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px}
 .rk{font-size:18px}.tk{font-size:18px;font-weight:900;color:#f1f5f9}.nm{color:#94a3b8;font-size:13px}
@@ -49,7 +55,7 @@ body{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;color
 </style></head><body><div class="wrap">
 <div class="header"><h1>📡 美股 AI 科技股早报 · 含 A股/港股补充 · 2026-07-06</h1>
 <div class="sub">美股 AI 核心 10 票 + 🇨🇳 A 股补充 8 票 + QQQ 基准 · 长期 6-12 个月(长期) 视角 · 数据 yfinance+akshare(真实行情) · AI 研判</div>
-<div class="updated">🕐 本页生成:<b>2026-07-06 07:34</b> 北京 · <a href="javascript:location.reload(true)">🔄 手动刷新</a> · <button onclick="triggerUpd()" style="background:#2563eb;color:#fff;border:none;border-radius:8px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer">🔁 更新研判</button><span id="updmsg" style="color:#94a3b8;font-size:12px;margin-left:6px"></span></div>
+<div class="updated">🕐 本页生成:<b>2026-07-06 08:35</b> 北京 · <a href="javascript:location.reload(true)">🔄 手动刷新</a> · <button onclick="triggerUpd()" style="background:#2563eb;color:#fff;border:none;border-radius:8px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer">🔁 更新研判</button><span id="updmsg" style="color:#94a3b8;font-size:12px;margin-left:6px"></span></div>
 <script>
 const DT="__DISPATCH_TOKEN__";
 async function triggerUpd(){
@@ -61,13 +67,20 @@ async function triggerUpd(){
     m.textContent = r.status===204 ? '✅ 已触发 DeepSeek 重新研判,约3-5分钟后完成 → 到时点「手动刷新」看最新' : '❌ 触发失败('+r.status+')';
   }catch(e){m.textContent='❌ 网络出错';}
 }
+document.addEventListener('click',function(e){
+  var b=e.target.closest('.tab'); if(!b)return;
+  document.querySelectorAll('.tab').forEach(function(x){x.classList.remove('active');});
+  b.classList.add('active');
+  var t=b.dataset.tab;
+  document.querySelectorAll('.pane').forEach(function(p){p.classList.toggle('hide', t!=='all' && p.dataset.mkt!==t);});
+});
 </script>
 <div class="market">🌎 <b style="color:#60a5fa">大盘与板块:</b><b>DeepSeek 引擎研判(2026-07-06)。</b>本期 买入8 / 观望11 / 回避0。买入=回调到位且 R:R≥2 的纪律买点;观望=趋势好但位置/估值偏高,等回踩 MA50;回避=抛物线顶+估值透支。研判对标 Finnhub/东财评级,禁幽灵共识,利空新闻已纳入。仅研究示范,非投资建议。</div>
 <div class="rankbar">🏆 <b>买点吸引力排序:</b>台积电 ＞ 美光 ＞ 英伟达 ＞ 博通 ＞ 迈威尔 ＞ Arista ＞ Credo ＞ 中天科技 ＞ 纳指100 ETF ＞ Vertiv ＞ 中芯国际 ＞ 寒武纪 ＞ 纳芯微 ＞ 德明利 ＞ 兆易创新 ＞ 东山精密 ＞ 长飞光纤 ＞ 探路者 ＞ 相干</div></div>
 <div class="fresh stale">🟢 研判为今日(<b>2026-07-06</b>)· Claude 当期研判<br>🟠 <b>行情数据降级:</b>1/19 支复用历史真实收盘(取数受限:6869.HK),其余 18/19 为最近真值;价格全真实、非编造,但部分非当日——<b>价格非当日实时</b>,买卖价据此推演,请留意。</div>
 <div class="evid"><div class="ev-reg">🌡 市场体制:<b>顺势 risk-on</b> · QQQ 站上 200日线 · 成分 18/19 在 200日线上</div><div class="ev-bt">📊 <b>策略回测(过去 3y 真实数据,97 次信号):</b> 命中率 <b style="color:#fbbf24">42%</b> · 止损 52% · 实际盈亏比 <b style="color:#4ade80">2.5:1</b> · 每笔均值 5.8%<br><span style="color:#94a3b8">→ 命中率仅 42%(<b style="color:#f87171">绝非 90%</b>),靠 2.5:1 盈亏比才正期望——<b>赚钱靠风控不靠高胜率</b>。测试标的为AI大牛市赢家,存在幸存者/行情偏差,结果被严重美化;不代表未来表现,绝非承诺胜率。</span></div></div>
-<div class="review"><div class="rv-h">🔍 复盘与校准 <span class="rv-sub">预测台账 → 自动验证 → 校准(越用越准)</span></div><div class="stats"><div class="stat"><div class="sl">历史在评期数</div><div class="sv">118</div></div><div class="stat"><div class="sl">买入触及率</div><div class="sv">76%</div></div><div class="stat"><div class="sl">方向胜率</div><div class="sv">41%</div></div><div class="stat"><div class="sl">平均目标完成度</div><div class="sv">-1.8%</div></div><div class="stat"><div class="sl">已到期·实际</div><div class="sv" style="font-size:14px">未到期</div></div></div><div class="rv-line">📏 <b>即时可达性校验:</b>本期 <b style="color:#4ade80">10/19</b> 支建议买入价落在【真实近20日成交区间·可达】，<b style="color:#fbbf24">需关注:AVGO、TSM、MRVL、COHR、VRT、001309.SZ、603986.SS、002384.SZ、QQQ</b></div><div class="rv-line">⚙️ <b>校准:</b>过往平均仅完成目标 -1.8% → 目标价偏激进,建议本期收窄。</div></div>
-<div class="section">🇺🇸 美股核心 · AI 产业链驱动(全球定价,引领 A 股 / 港股)<span class="scnt">10 支</span></div><div class="grid">
+<div class="review"><div class="rv-h">🔍 复盘与校准 <span class="rv-sub">预测台账 → 自动验证 → 校准(越用越准)</span></div><div class="stats"><div class="stat"><div class="sl">历史在评期数</div><div class="sv">137</div></div><div class="stat"><div class="sl">买入触及率</div><div class="sv">76%</div></div><div class="stat"><div class="sl">方向胜率</div><div class="sv">41%</div></div><div class="stat"><div class="sl">平均目标完成度</div><div class="sv">-1.8%</div></div><div class="stat"><div class="sl">已到期·实际</div><div class="sv" style="font-size:14px">未到期</div></div></div><div class="rv-line">📏 <b>即时可达性校验:</b>本期 <b style="color:#4ade80">9/19</b> 支建议买入价落在【真实近20日成交区间·可达】，<b style="color:#fbbf24">需关注:NVDA、AVGO、MRVL、CRDO、COHR、VRT、001309.SZ、002384.SZ、6869.HK、QQQ</b></div><div class="rv-line">⚙️ <b>校准:</b>过往平均仅完成目标 -1.8% → 目标价偏激进,建议本期收窄。</div></div>
+<div class="tabs"><button class="tab active" data-tab="all">📊 全部</button><button class="tab" data-tab="US">🇺🇸 美股<span class="tc">10</span></button><button class="tab" data-tab="CN">🇨🇳 A 股<span class="tc">8</span></button><button class="tab" data-tab="HK">🇭🇰 港股<span class="tc">1</span></button></div><div class="pane" data-mkt="US"><div class="section">🇺🇸 美股核心 · AI 产业链驱动(全球定价,引领 A 股 / 港股)<span class="scnt">10 支</span></div><div class="grid">
 <div class="card" style="border-top:3px solid #4ade80">
   <div class="hd"><span class="rk">🥇</span><span class="tk">TSM</span>
     <span class="nm">台积电</span><span class="badge">AI 晶圆代工</span>
@@ -227,7 +240,7 @@ async function triggerUpd(){
   <div class="th">💡 股价回调至MA200附近（236.79）且距高点-24.2%，估值消化后PEG约0.5（PE139.1/增速275.5%），具备均值回归潜力。Finnhub评级2.0（买入占比76%），财报8月11日，等待催化剂。建议在250-280区间（MA200附近）分批建仓，目标价330-370（前高附近），预期收益约30%。</div>
   
   <div class="rk2">⚠️ 风险:高波动（年化102.7%），前瞻PE 139.1仍偏高，若财报不及预期或AI资本开支放缓，可能进一步回调。当前价格333.36未充分回踩支撑，建议观望等待更佳买点。　·　52周 $84.35–$440.0　·　MA50 $369.02 / MA200 $236.79</div>
-</div></div><div class="section">🇨🇳 A 股 · 跟随美股的国产算力 / AI 链<span class="scnt">8 支</span></div><div class="grid">
+</div></div></div><div class="pane" data-mkt="CN"><div class="section">🇨🇳 A 股 · 跟随美股的国产算力 / AI 链<span class="scnt">8 支</span></div><div class="grid">
 <div class="card" style="border-top:3px solid #4ade80">
   <div class="hd"><span class="rk">⑧</span><span class="tk">🇨🇳 600522</span>
     <span class="nm">中天科技</span><span class="badge">光纤光缆/海缆·算力配套</span>
@@ -355,7 +368,7 @@ async function triggerUpd(){
   <div class="th">💡 Micro-LED概念催化，近6月涨幅117%但距高点仅-3.2%，动量过热。东财评级增持，但前瞻PE 135.9极高，PEG超4，透支预期。建议等待回调至MA50一线（16.94）或更深回调再介入，当前不追高。</div>
   <div class="news">📰 <a href="http://finance.eastmoney.com/a/202606253783086855.html" target="_blank">探路者300005龙虎榜数据06-25…</a> <span class="src">[东方财富Choice数据·2026-06-25]</span>　<a href="http://finance.eastmoney.com/a/202606293786833143.html" target="_blank">探路者：控股股东通域众合解除与百益钎顺一致行动关系 表决权降至13.65%…</a> <span class="src">[财中社·2026-06-29]</span></div>
   <div class="rk2">⚠️ 风险:高估值（前瞻PE 135.9）且盈利薄弱（ROE 2.76%），若Micro-LED进展不及预期，股价回调风险大。近6月涨幅过大，获利盘抛压。控股股东关系变动带来不确定性。　·　52周 ¥8.27–¥24.43　·　MA50 ¥16.94 / MA200 ¥12.97</div>
-</div></div><div class="section">🇭🇰 港股 · 国产 AI<span class="scnt">1 支</span></div><div class="grid">
+</div></div></div><div class="pane" data-mkt="HK"><div class="section">🇭🇰 港股 · 国产 AI<span class="scnt">1 支</span></div><div class="grid">
 <div class="card" style="border-top:3px solid #fbbf24">
   <div class="hd"><span class="rk">17.</span><span class="tk">🇭🇰 6869</span>
     <span class="nm">长飞光纤</span><span class="badge">光纤光缆/光模块</span>
@@ -371,7 +384,7 @@ async function triggerUpd(){
   <div class="th">💡 长飞光纤近6月涨幅551.4%，股价250.0远高于MA200（117.22），动量过热。虽距52周高-13.1%，但缺乏共识评级与基本面数据，无法验证估值合理性。PEG无法计算，且无财报催化剂。建议等待回调至MA50（234.15）附近或基本面明朗后再评估。</div>
   
   <div class="rk2">⚠️ 风险:主要风险：1）股价已大幅上涨，回调压力大；2）无券商覆盖，信息不透明；3）行业竞争加剧或需求不及预期；4）港股流动性风险。　·　52周 HK$16.71–HK$287.6　·　MA50 HK$234.15 / MA200 HK$117.22</div>
-</div></div>
+</div></div></div>
 <div class="audit"><b>📋 数据 / 覆盖审计:</b>行情 19/19 · 券商一致 17/19(QQQ及无覆盖标的除外) · 新闻催化剂 8/19 · 财报日 17/19<br><span style="color:#64748b">ℹ️ 券商一致/新闻/财报日已尽力抓取(美股 yfinance、A股东财业绩预约)。web 深度信源待 web 工具恢复后补。</span></div>
 <div class="foot">两个核心指标 = ① 买入建议+建议买入价　② 6-12月目标价+预期收益　·　预测台账自动复盘校准<br>
 数据 yfinance 真实行情 · 研判由 Claude 基于价格/动量/均线+AI产业链结构生成(未用 DeepSeek)<br>
