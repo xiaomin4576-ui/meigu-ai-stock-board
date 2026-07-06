@@ -305,14 +305,18 @@ def main():
            ("CN", "🇨🇳 A 股 · 跟随美股的国产算力 / AI 链"),
            ("HK", "🇭🇰 港股 · 国产 AI")]
     mkt_of = lambda tk: (data.get(tk, {}) or {}).get("market", "US")
-    cards = ""
+    TAB_LABEL = {"US": "🇺🇸 美股", "CN": "🇨🇳 A 股", "HK": "🇭🇰 港股"}
+    panes = ""
+    tabbtns = '<button class="tab active" data-tab="all">📊 全部</button>'
     for mk, title in MKT:
         grp = [tk for tk in order if tk in calls["stocks"] and mkt_of(tk) == mk]
         if not grp:
             continue
-        cards += f'<div class="section">{title}<span class="scnt">{len(grp)} 支</span></div><div class="grid">'
-        cards += "".join(card(order.index(tk), tk, data.get(tk, {}), calls["stocks"][tk], bench_m3) for tk in grp)
-        cards += '</div>'
+        tabbtns += f'<button class="tab" data-tab="{mk}">{TAB_LABEL[mk]}<span class="tc">{len(grp)}</span></button>'
+        panes += f'<div class="pane" data-mkt="{mk}"><div class="section">{title}<span class="scnt">{len(grp)} 支</span></div><div class="grid">'
+        panes += "".join(card(order.index(tk), tk, data.get(tk, {}), calls["stocks"][tk], bench_m3) for tk in grp)
+        panes += '</div></div>'
+    cards = f'<div class="tabs">{tabbtns}</div>{panes}'
     rank_str = " ＞ ".join(data.get(tk, {}).get("name", tk) for tk in order)
     html = f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -339,6 +343,12 @@ body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;colo
 .grid{{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-bottom:18px}}
 .section{{display:flex;align-items:center;gap:10px;font-size:16px;font-weight:800;color:#e2e8f0;margin:6px 0 12px;padding:10px 14px;background:linear-gradient(90deg,rgba(96,165,250,.14),transparent);border-left:4px solid #60a5fa;border-radius:8px}}
 .section .scnt{{font-size:12px;font-weight:600;color:#94a3b8;background:rgba(148,163,184,.15);padding:2px 10px;border-radius:10px}}
+.tabs{{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 16px;position:sticky;top:0;z-index:20;background:#0b1120;padding:10px 0}}
+.tab{{font-size:14.5px;font-weight:800;color:#94a3b8;background:#111a2e;border:1px solid #334155;border-radius:11px;padding:9px 18px;cursor:pointer;transition:all .12s;font-family:inherit}}
+.tab:hover{{color:#cbd5e1;border-color:#475569}}
+.tab.active{{color:#fff;background:linear-gradient(135deg,#2563eb,#1d4ed8);border-color:#2563eb;box-shadow:0 2px 10px rgba(37,99,235,.35)}}
+.tab .tc{{font-size:11px;background:rgba(255,255,255,.22);border-radius:8px;padding:1px 7px;margin-left:6px}}
+.pane.hide{{display:none}}
 .card{{background:#111a2e;border:1px solid #334155;border-radius:14px;padding:16px 18px}}
 .hd{{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px}}
 .rk{{font-size:18px}}.tk{{font-size:18px;font-weight:900;color:#f1f5f9}}.nm{{color:#94a3b8;font-size:13px}}
@@ -377,6 +387,13 @@ async function triggerUpd(){{
     m.textContent = r.status===204 ? '✅ 已触发 DeepSeek 重新研判,约3-5分钟后完成 → 到时点「手动刷新」看最新' : '❌ 触发失败('+r.status+')';
   }}catch(e){{m.textContent='❌ 网络出错';}}
 }}
+document.addEventListener('click',function(e){{
+  var b=e.target.closest('.tab'); if(!b)return;
+  document.querySelectorAll('.tab').forEach(function(x){{x.classList.remove('active');}});
+  b.classList.add('active');
+  var t=b.dataset.tab;
+  document.querySelectorAll('.pane').forEach(function(p){{p.classList.toggle('hide', t!=='all' && p.dataset.mkt!==t);}});
+}});
 </script>
 <div class="market">🌎 <b style="color:#60a5fa">大盘与板块:</b>{calls.get('market','')}</div>
 <div class="rankbar">🏆 <b>买点吸引力排序:</b>{rank_str}</div></div>
