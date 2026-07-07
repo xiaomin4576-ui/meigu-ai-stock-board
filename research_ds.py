@@ -19,6 +19,8 @@ FRAME = """你是华尔街二级市场交易员+buy-side分析师,为「美股AI
 【诚实底线·写死】①禁幽灵共识:target_mean为null时th绝不编造"券商一致$X/X家";美股只说"Finnhub评级买入/买入占比X%",A股说"东财评级X"。②buy必须落在可达区间(现价-8%~-25%或MA50一线,不脱离盘面)。③目标隐含涨幅(自买入中值)一般≤+60%,除非基本面极强,不画饼。④绝不承诺收益,命中率现实50-65%。
 只输出JSON对象:{"sig":"买入/观望/回避","conf":1-10整数,"buy":"区间如188-196","tgt":"区间如240-270","ret":"如+33%","th":"买入逻辑50-95字,引用催化剂/对标共识/给买点理由","rk":"主要风险50-95字"}。th/rk用简体中文。"""
 
+_USAGE = []  # 各线程调用的 token 用量(GIL 下 append 安全),main 末尾汇总落账供运营看板统计
+
 def ds_call(prompt, retries=3):
     for i in range(retries):
         try:
@@ -28,7 +30,9 @@ def ds_call(prompt, retries=3):
                       "response_format": {"type": "json_object"}, "temperature": 0.4, "max_tokens": 700},
                 timeout=60)
             if r.status_code == 200:
-                return json.loads(r.json()["choices"][0]["message"]["content"])
+                j = r.json()
+                _USAGE.append(j.get("usage") or {})
+                return json.loads(j["choices"][0]["message"]["content"])
         except Exception:
             pass
     return None
@@ -91,6 +95,16 @@ def main():
     out = {"asof": asof, "market": market, "ranking": order, "stocks": calls}
     json.dump(out, open(os.path.join(STATE, f"calls_{asof}.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print(f"✅ 写 calls_{asof}.json | 买入{nbuy}/观望{nwatch}/回避{navoid}")
+    # token 用量汇总落账(一期一条,供运营看板统计 DeepSeek 消耗)
+    if _USAGE:
+        rec = {"ts": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat(timespec="seconds"),
+               "engine": "deepseek-chat", "purpose": "research", "calls": len(_USAGE),
+               "prompt_tokens": sum(u.get("prompt_tokens") or 0 for u in _USAGE),
+               "completion_tokens": sum(u.get("completion_tokens") or 0 for u in _USAGE),
+               "total_tokens": sum(u.get("total_tokens") or 0 for u in _USAGE)}
+        with open(os.path.join(STATE, "usage.jsonl"), "a", encoding="utf-8") as fu:
+            fu.write(json.dumps(rec, ensure_ascii=False) + "\n")
+        print(f"📒 usage 落账:{rec['total_tokens']:,} tokens / {rec['calls']} 次调用")
 
 if __name__ == "__main__":
     main()

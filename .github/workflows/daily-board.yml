@@ -33,7 +33,7 @@ jobs:
   # ---------------- 构建 + 提交 + 上传 Pages 工件 ----------------
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15        # 防卡死:超时自动失败,释放 concurrency:pages(否则后续 run 永久排队、看板僵死)
+    timeout-minutes: 20        # 防卡死:超时自动失败,释放 concurrency:pages(否则后续 run 永久排队、看板僵死);头条管线加入后 15→20
     steps:
       - name: 检出仓库
         uses: actions/checkout@v4
@@ -62,6 +62,19 @@ jobs:
       - name: 复盘校准
         run: python verify.py
 
+      # 全球头条:采集(Finnhub+东财环球+RSS)→ DeepSeek 双档筛编(宏观/地缘+科技,带传导链)。
+      # 每天自动跑(单次调用成本极低);双双容错——失败沿用最近一期头条(渲染层自动复用+新鲜度横幅),绝不阻断。
+      - name: 全球头条采集(允许失败)
+        env:
+          FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
+        run: python fetch_news.py || echo "::warning::fetch_news 异常,沿用已有 news_raw"
+
+      - name: 全球头条研判(DeepSeek·允许失败)
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_BASE_URL: ${{ secrets.DEEPSEEK_BASE_URL }}
+        run: python research_news_ds.py || echo "::warning::头条研判失败,沿用最近一期"
+
       # 全自动 Claude 研判(需 secret;未配则自动跳过,看板沿用最近一期研判+橙色"研判过期"标注)
       # DeepSeek 研判:只在【手动点更新 / workflow_dispatch】时跑,定时 cron 不做研判(用户要求不自动研判)。
       # 生成当日 calls_<date>.json;失败则沿用最近一期研判、不阻断部署。
@@ -78,6 +91,9 @@ jobs:
       - name: 渲染当日看板
         run: python build_board.py
 
+      - name: 渲染全球头条页(允许失败)
+        run: python build_news.py || echo "::warning::build_news 失败(头条页沿用旧版或缺席,不阻断)"
+
       - name: 生成历史归档
         run: python build_archive.py
 
@@ -88,7 +104,8 @@ jobs:
           BOARD_PASSWORD: ${{ secrets.BOARD_PASSWORD }}   # 配了则加密看板(输密码才看),没配则公开
           ENABLE_CNAME: ${{ vars.ENABLE_CNAME }}          # DNS 生效后设仓库变量=1 即绑定 andy4576.com
           DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}   # 更新按钮的触发凭证(fine-grained PAT,仅注入 docs 加密版)
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }} # 盘势问答引擎凭证(仅注入 docs 加密版,且仅在加密开启时)
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }} # 盘势问答引擎凭证(仅注入 docs 加密版,且仅在加密开启时)+ 运营看板余额查询
+          GITHUB_TOKEN: ${{ github.token }}                # 运营看板统计构建健康度用(只读 Actions runs)
         run: |
           set -euo pipefail
           STATE="state"
@@ -148,6 +165,11 @@ jobs:
           else
             echo "⚠️ 同光镜像失败(不阻断部署)"
           fi
+
+          # 5d) 运营看板(镜像完同光后统计其语料)+ 全球头条页 → docs 顶层(随后进统一加密循环,锁 8888)
+          TG_DIR="/tmp/tg/docs" python3 build_ops.py || echo "⚠️ build_ops 失败(不阻断)"
+          if [ -f "$STATE/ops.html" ]; then cp "$STATE/ops.html" "$DOCS/ops.html"; echo "📊 运营看板已就位"; fi
+          if [ -f "$STATE/news.html" ]; then cp "$STATE/news.html" "$DOCS/news.html"; echo "🌍 全球头条页已就位"; fi
 
           # 6) 校验产物
           echo "=== docs/ 内容 ==="; ls -la "$DOCS"

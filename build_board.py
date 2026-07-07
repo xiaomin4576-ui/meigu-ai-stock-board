@@ -301,12 +301,26 @@ def qa_ctx(data, calls, calls_date, v):
             "目标价": a.get("tgt"), "预期收益": a.get("ret"),
             "逻辑": a.get("th"), "风险": a.get("rk"),
         }
+    # 第三路语料:最新「全球市场头条」(宏观/地缘+科技双档,含传导链)——有则嵌入,无则如实缺席
+    news_ctx = None
+    import glob as _glob
+    nfiles = [f for f in sorted(_glob.glob(os.path.join(STATE, "news_*.json")))
+              if re.search(r"news_\d{4}-\d{2}-\d{2}\.json$", f)]
+    if nfiles:
+        try:
+            nj = jload(nfiles[-1])
+            news_ctx = {"date": nj.get("asof"),
+                        "条目": [f"[{'宏观' if it.get('cat')=='macro' else '科技'}] {it.get('title')} | 传导:{it.get('chain')}"
+                               for it in nj.get("items", [])[:12]]}
+        except Exception:
+            pass
     return {
         "asof": calls_date,
         "大盘": re.sub(r"<[^>]+>", "", calls.get("market", "")),
         "复盘记分卡": {"入场触及率%": sc.get("entry_hit_rate"), "方向胜率%": sc.get("direction_win_rate"),
                   "平均目标完成度%": sc.get("avg_progress_to_target_pct"),
                   "口径": "仅统计买入信号且买入价真实触及的仓位"},
+        "全球头条": news_ctx,
         "标的": stocks,
     }
 
@@ -318,6 +332,14 @@ QA_TMPL = """
 <div class="qa">
  <div class="qa-h" onclick="qaToggle()">🤖 盘势问答<span class="qa-sub">基于本期看板研判 + 同光AI早报要闻 · DeepSeek 引擎 · 输密码者可用</span><span id="qa-arrow" style="margin-left:auto">▸</span></div>
  <div class="qa-body hide" id="qa-body">
+  <div class="qa-basis" onclick="qaBasisToggle()">ℹ️ 回答依据(点开看问答基于什么逻辑、关联了哪些数据)</div>
+  <div class="qa-basis-body hide" id="qa-basis-body">
+   <b>每次回答喂给引擎三路语料 + 一套写死纪律:</b><br>
+   ① <b>本期看板语境(页内嵌)</b>:19 票真实行情(价/动量/MA50/MA200/波动/财报日)+ 本期研判(信号/买入价/目标价/逻辑/风险)+ 复盘记分卡(入场触及率/方向胜率/目标完成度);<br>
+   ② <b>同光AI早报要闻(实时拉取)</b>:Top5/Tier0/质量≥8 的最新 24 条,带「这意味着」决策洞察;<br>
+   ③ <b>全球市场头条(页内嵌)</b>:宏观/地缘+科技双档最新一期,带「事件→美股→A股」传导链;<br>
+   <b>纪律</b>:只答有据可依的、缺的直说"语料未覆盖"、"何时回转"必须转成【观察条件+信号+三情景时间量级】而非预测日期、绝不编造价格/券商目标价、末尾固定免责。每条回答下方会标注本次实际用到的语料。
+  </div>
   <div class="qa-chips">
    <button class="chip" onclick="qaAsk('看板里A股这几只普遍在跌,这轮回调大概什么时候能企稳回转?给出要观察的价位信号、催化剂和乐观/中性/悲观三种情景。')">📉 A股何时企稳?</button>
    <button class="chip" onclick="qaAsk('寒武纪最近在往下掉,现在该怎么办?出现什么信号说明趋势扭转?')">🇨🇳 寒武纪怎么办?</button>
@@ -337,6 +359,7 @@ const QACTX=@QACTX@;
 let QAHIST=[], QABUSY=false, TGCACHE=null;
 function qel(i){return document.getElementById(i);}
 function qaToggle(){const b=qel('qa-body');b.classList.toggle('hide');qel('qa-arrow').textContent=b.classList.contains('hide')?'▸':'▾';}
+function qaBasisToggle(){qel('qa-basis-body').classList.toggle('hide');}
 function qaEsc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 function qaMd(s){
   let h=qaEsc(s).replace(/\\*\\*([^*]+)\\*\\*/g,'<b>$1</b>');
@@ -376,7 +399,7 @@ async function qaSend(){
   const abox=qaBubble('qa-a','<span class="qa-wait">🤖 研判中…</span>');
   try{
     const tg=await tgNews();
-    const sys='你是一名华尔街二级市场交易员+buy-side分析师,长期跟踪美股AI产业链与A股/港股算力链,现在回答看板主人的盘势问题。硬性纪律:\\n1) 只基于给到的【看板数据】(价格真实)与【同光早报要闻】回答;语料没有的信息直说"语料未覆盖",绝不编造价格/日期/券商目标价。\\n2) 遇到"何时回转/何时企稳"类问题:未来无法预测——必须转化为【条件与信号】:给出要观察的关键价位(如站回MA50/跌破MA200)、催化剂(财报日/产业事件)、并给乐观/中性/悲观三情景的大致时间量级,明说这是情景推演不是预测。\\n3) 结论先行、分点、简洁;引用数据注明出处(看板asof日期/同光早报日期)。\\n4) 末尾固定一句:仅研究示范,非投资建议。用中文回答。';
+    const sys='你是一名华尔街二级市场交易员+buy-side分析师,长期跟踪美股AI产业链与A股/港股算力链,现在回答看板主人的盘势问题。硬性纪律:\\n1) 只基于给到的【看板数据】(价格真实,内含"全球头条"字段=宏观/地缘+科技双档带传导链)与【同光早报要闻】回答;语料没有的信息直说"语料未覆盖",绝不编造价格/日期/券商目标价。\\n2) 遇到"何时回转/何时企稳"类问题:未来无法预测——必须转化为【条件与信号】:给出要观察的关键价位(如站回MA50/跌破MA200)、催化剂(财报日/产业事件/头条里的宏观变量)、并给乐观/中性/悲观三情景的大致时间量级,明说这是情景推演不是预测。\\n3) 结论先行、分点、简洁;引用数据注明出处(看板asof日期/同光早报日期/头条日期)。\\n4) 末尾固定一句:仅研究示范,非投资建议。用中文回答。';
     const ctxblk='【看板数据(asof '+QACTX.asof+',价格为真实抓取)】\\n'+JSON.stringify(QACTX)+(tg?('\\n\\n【'+tg+'】'):'\\n\\n(同光早报语料本次不可用,仅基于看板数据回答)');
     const msgs=[{role:'system',content:sys}];
     QAHIST.slice(-3).forEach(function(h){msgs.push({role:'user',content:h.q});msgs.push({role:'assistant',content:h.a});});
@@ -403,7 +426,12 @@ async function qaSend(){
       }
     }
     if(!ans){abox.innerHTML='❌ 未收到回答,请重试';}
-    else{QAHIST.push({q:q,a:ans});if(QAHIST.length>6)QAHIST.shift();abox.scrollIntoView({block:'nearest'});}
+    else{
+      QAHIST.push({q:q,a:ans});if(QAHIST.length>6)QAHIST.shift();
+      const nw=QACTX['全球头条'];
+      abox.innerHTML+='<div class="qa-src">📎 本次依据:看板研判('+QACTX.asof+'·19票+记分卡) · 同光要闻'+(tg?'✓':'✗不可用')+' · 全球头条'+(nw&&nw['条目']&&nw['条目'].length?('✓('+nw.date+'·'+nw['条目'].length+'条)'):'✗暂无')+'</div>';
+      abox.scrollIntoView({block:'nearest'});
+    }
   }catch(e){abox.innerHTML='❌ 网络出错:'+qaEsc(String(e));}
   finally{QABUSY=false;qel('qa-send').disabled=false;}
 }
@@ -529,10 +557,15 @@ body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;colo
 #qa-send{{background:#2563eb;color:#fff;border:none;border-radius:10px;padding:9px 18px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit}}
 #qa-send:disabled{{opacity:.5;cursor:default}}
 .qa-foot{{font-size:10.5px;color:#64748b;margin-top:8px;line-height:1.6}}
+.qa-basis{{font-size:11.5px;color:#93c5fd;cursor:pointer;margin-bottom:8px;user-select:none}}
+.qa-basis:hover{{text-decoration:underline}}
+.qa-basis-body{{font-size:11.5px;color:#94a3b8;background:rgba(51,65,85,.25);border:1px solid #334155;border-radius:10px;padding:10px 13px;margin-bottom:10px;line-height:1.8}}
+.qa-basis-body.hide{{display:none}}
+.qa-src{{font-size:10.5px;color:#64748b;border-top:1px dashed rgba(100,116,139,.4);margin-top:8px;padding-top:6px}}
 </style></head><body><div class="wrap">
 <div class="header"><h1>📡 {cfg['title']} · {TODAY}</h1>
 <div class="sub">美股 AI 核心 {sum(1 for s in cfg['stocks'] if s.get('market') != 'CN' and s['ticker'] != cfg['benchmark'])} 票 + 🇨🇳 A 股补充 {sum(1 for s in cfg['stocks'] if s.get('market') == 'CN')} 票 + {cfg['benchmark']} 基准 · 长期 {cfg['horizon_label']} 视角 · 数据 yfinance+akshare(真实行情) · AI 研判</div>
-<div class="updated">🕐 本页生成:<b>{BUILD_TS}</b> 北京 · <a href="javascript:location.reload(true)">🔄 手动刷新</a> · <button onclick="triggerUpd()" style="background:#2563eb;color:#fff;border:none;border-radius:8px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer">🔁 更新研判</button><span id="updmsg" style="color:#94a3b8;font-size:12px;margin-left:6px"></span></div>
+<div class="updated">🕐 本页生成:<b>{BUILD_TS}</b> 北京 · <a href="news.html">🌍 全球头条</a> · <a href="ops.html">📊 运营看板</a> · <a href="javascript:location.reload(true)">🔄 手动刷新</a> · <button onclick="triggerUpd()" style="background:#2563eb;color:#fff;border:none;border-radius:8px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer">🔁 更新研判</button><span id="updmsg" style="color:#94a3b8;font-size:12px;margin-left:6px"></span></div>
 <script>
 const DT="__DISPATCH_TOKEN__";
 async function triggerUpd(){{
