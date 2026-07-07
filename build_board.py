@@ -362,7 +362,7 @@ async function tgNews(){
   }catch(e){TGCACHE='';}
   return TGCACHE;
 }
-function qaAsk(q){qel('qa-in').value=q;qaSend();}
+function qaAsk(q){if(QABUSY)return;qel('qa-in').value=q;qaSend();}
 function qaBubble(cls,html){
   const d=document.createElement('div');d.className='qa-m '+cls;d.innerHTML=html;
   qel('qa-log').appendChild(d);d.scrollIntoView({block:'nearest'});return d;
@@ -414,7 +414,10 @@ qel('qa-in').addEventListener('keydown',function(e){if(e.key==='Enter'&&!e.shift
 def qa_block(data, calls, calls_date, v):
     import json as _json
     ctx = qa_ctx(data, calls, calls_date, v)
-    return QA_TMPL.replace("@QACTX@", _json.dumps(ctx, ensure_ascii=False))
+    # '</' 必须转义:th/rk 是逐日再生成的模型文本,一旦哪天出现字面量 '</script' 会提前终止内联脚本、
+    # 研判数据裸露成乱码且 CI 拦不住(审查发现的潜在碎页风险,JSON 语义不变)
+    payload = _json.dumps(ctx, ensure_ascii=False).replace("</", "<\\/")
+    return QA_TMPL.replace("@QACTX@", payload)
 
 
 def main():
