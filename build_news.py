@@ -12,6 +12,7 @@ TODAY = _BJ.date().isoformat()
 BUILD_TS = _BJ.strftime("%Y-%m-%d %H:%M")
 
 CAT = {"macro": ("🌍 宏观 / 地缘", "影响美股整体:利率 · 关税 · 地缘 · 大宗 · 政策", "#60a5fa"),
+       "oil": ("🛢️ 全球石油 / 能源", "OPEC+ · 油价 · LNG/天然气 · 能源巨头 · 传导视角:莫桑比克/东非能源经营(联合能源 Union)", "#f97316"),
        "tech": ("🤖 科技 / AI 产业", "影响科技板块:财报 · 芯片管制 · AI 监管 · 产业链", "#34d399")}
 
 
@@ -65,7 +66,7 @@ def main():
             pass
         fresh = f'<div class="fresh stale">🟠 <b>头条仍是 {news_date}({days} 天前)</b>——今日采集/研判未跑通,内容仅供参考</div>'
     secs = ""
-    for cat in ("macro", "tech"):
+    for cat in ("macro", "oil", "tech"):
         grp = [it for it in items if it.get("cat") == cat]
         title, sub, color = CAT[cat]
         secs += f'<div class="section" style="border-left-color:{color}">{title}<span class="ssub">{sub}</span><span class="scnt">{len(grp)} 条</span></div>'
@@ -101,7 +102,7 @@ body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;colo
 .foot{{text-align:center;font-size:11px;color:#475569;margin-top:20px;line-height:1.8}}
 </style></head><body><div class="wrap">
 <div class="header"><h1>🌍 全球市场头条 · {news_date}</h1>
-<div class="sub">传导链视角:国际局势 → 美股 → A股 · 双档 10-15 条 · 信源 Finnhub / 东财环球 / 财经RSS(真实链接可溯源)</div>
+<div class="sub">传导链视角:国际局势 → 美股 → A股 · 油气市场 → 莫桑比克/东非经营 · 三档 15-21 条 · 信源 Finnhub / 东财环球 / OilPrice / 财经RSS(真实链接可溯源)</div>
 <div class="nav"><a href="index.html">🏠 首页</a><a href="board.html">📡 股票看板</a><a href="ops.html">📊 运营看板</a><span style="color:#7c8aa3">🕐 本页生成 {BUILD_TS} 北京</span></div></div>
 {fresh}
 {secs}

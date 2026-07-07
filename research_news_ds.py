@@ -14,12 +14,13 @@ KEY = (os.environ.get("DEEPSEEK_API_KEY") or "").strip()
 BASE = (os.environ.get("DEEPSEEK_BASE_URL") or "https://api.deepseek.com/v1").rstrip("/")
 TODAY = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).date().isoformat()
 
-PROMPT = """你是华尔街宏观+科技双栖分析师,为「全球市场头条」看板从候选新闻里筛编今日头条。读者是跟踪美股AI产业链+A股算力链的交易者,传导逻辑:国际局势→美股→A股。
-【任务】从下面候选新闻中筛选并输出 JSON 对象:{"items":[...]},共 10-15 条,分两档:
-- cat="macro":宏观/地缘档 5-8 条——美联储/利率/通胀、关税/贸易、地缘冲突、油价/大宗、重大政策选举,凡影响美股整体的。
-- cat="tech":科技/AI 产业档 5-8 条——大厂财报/指引、芯片与出口管制、AI 监管、算力产业链大事,凡影响科技板块的。
-【每条字段】{"cat":"macro/tech","title":"中文标题≤30字","brief":"两句内中文摘要≤80字","chain":"传导链:事件→对美股的含义→映射到A股哪条链,≤70字","impact":1-10整数(市场影响力),"source":"来源名","url":"原文链接原样保留","ts":"时间原样保留"}
-【硬纪律】① 只能基于候选列表改写,绝不虚构事件/数字;标题摘要忠于原文。② 同一事件多条只留最重要一条。③ 按 impact 降序。④ url/source/ts 原样带回,禁改。⑤ 候选里够不出某档 5 条就少给,直说,不凑数。
+PROMPT = """你是华尔街宏观+科技+能源三栖分析师,为「全球市场头条」看板从候选新闻里筛编今日头条。读者两类:①跟踪美股AI产业链+A股算力链的交易者(传导:国际局势→美股→A股);②在莫桑比克经营油气/能源业务的联合能源Union公司(传导:全球油气市场→莫桑比克/东非经营)。
+【任务】从下面候选新闻中筛选并输出 JSON 对象:{"items":[...]},共 15-21 条,分三档:
+- cat="macro":宏观/地缘档 5-7 条——美联储/利率/通胀、关税/贸易、地缘冲突、重大政策选举,凡影响美股整体的。
+- cat="oil":全球石油/能源档 5-7 条——OPEC+产量与油价(Brent/WTI)、天然气/LNG市场、能源巨头动向(道达尔/埃克森等)、供应链与航运(霍尔木兹/苏伊士)、非洲尤其莫桑比克/东非油气项目(Rovuma、Cabo Delgado LNG 等),凡影响全球油气市场的。
+- cat="tech":科技/AI 产业档 5-7 条——大厂财报/指引、芯片与出口管制、AI 监管、算力产业链大事,凡影响科技板块的。
+【每条字段】{"cat":"macro/oil/tech","title":"中文标题≤30字","brief":"两句内中文摘要≤80字","chain":"传导链≤70字——macro/tech档:事件→对美股的含义→映射A股哪条链;oil档:事件→油价/LNG走向→对莫桑比克·东非能源经营的含义","impact":1-10整数(市场影响力),"source":"来源名","url":"原文链接原样保留","ts":"时间原样保留"}
+【硬纪律】① 只能基于候选列表改写,绝不虚构事件/数字;标题摘要忠于原文。② 同一事件多条只留最重要一条;地缘事件若同时影响油市(如海峡遇袭),macro 与 oil 只入一档、按主要影响归档。③ 各档内按 impact 降序。④ url/source/ts 原样带回,禁改。⑤ 候选里够不出某档 5 条就少给,直说,不凑数。
 【候选新闻】
 """
 
@@ -83,9 +84,10 @@ def main():
         return
     # url 白名单兜底:「原样带回」不能只靠提示词,不在候选集内的链接一律置空(渲染层降级为纯来源名)
     valid_urls = {c.get("url") for c in cands if c.get("url")}
-    CAT_ALIAS = {"macro": "macro", "宏观": "macro", "tech": "tech", "科技": "tech"}
+    CAT_ALIAS = {"macro": "macro", "宏观": "macro", "tech": "tech", "科技": "tech",
+                 "oil": "oil", "石油": "oil", "能源": "oil", "energy": "oil"}
     items = []
-    for it in result["items"][:15]:
+    for it in result["items"][:21]:
         cat = CAT_ALIAS.get(str(it.get("cat", "")).strip().lower()) or CAT_ALIAS.get(str(it.get("cat", "")).strip())
         if not cat or not it.get("title"):
             continue
@@ -102,8 +104,8 @@ def main():
            "items": items}
     path = os.path.join(STATE, f"news_{TODAY}.json")
     json.dump(out, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    macro_n = sum(1 for i in items if i["cat"] == "macro")
-    print(f"✅ 头条 {len(items)} 条(宏观{macro_n}/科技{len(items)-macro_n})→ {path}")
+    n = lambda c: sum(1 for i in items if i["cat"] == c)
+    print(f"✅ 头条 {len(items)} 条(宏观{n('macro')}/石油{n('oil')}/科技{n('tech')})→ {path}")
 
 
 if __name__ == "__main__":

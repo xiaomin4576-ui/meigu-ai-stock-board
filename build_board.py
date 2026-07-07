@@ -309,9 +309,10 @@ def qa_ctx(data, calls, calls_date, v):
     if nfiles:
         try:
             nj = jload(nfiles[-1])
+            _cat_zh = {"macro": "宏观", "oil": "石油", "tech": "科技"}
             news_ctx = {"date": nj.get("asof"),
-                        "条目": [f"[{'宏观' if it.get('cat')=='macro' else '科技'}] {it.get('title')} | 传导:{it.get('chain')}"
-                               for it in nj.get("items", [])[:12]]}
+                        "条目": [f"[{_cat_zh.get(it.get('cat'), '其他')}] {it.get('title')} | 传导:{it.get('chain')}"
+                               for it in nj.get("items", [])[:15]]}
         except Exception:
             pass
     return {

@@ -101,6 +101,9 @@ RSS_FEEDS = [
     ("CNBC World", "https://www.cnbc.com/id/100727362/device/rss/rss.html"),
     ("CNBC Tech", "https://www.cnbc.com/id/19854910/device/rss/rss.html"),
     ("Yahoo Finance", "https://finance.yahoo.com/news/rssindex"),
+    # 石油/能源档专用信源(莫桑比克联合能源Union视角;失败照常单路容错)
+    ("OilPrice", "https://oilprice.com/rss/main"),
+    ("CNBC Energy", "https://www.cnbc.com/id/19836768/device/rss/rss.html"),
 ]
 
 
