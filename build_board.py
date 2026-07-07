@@ -564,7 +564,7 @@ body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;colo
 .qa-basis-body.hide{{display:none}}
 .qa-src{{font-size:10.5px;color:#64748b;border-top:1px dashed rgba(100,116,139,.4);margin-top:8px;padding-top:6px}}
 </style></head><body><div class="wrap">
-<div class="header"><h1>📡 {cfg['title']} · {TODAY}</h1>
+<div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#c8a562;margin-bottom:8px">LUMORA · 同光科技</div><h1>📡 {cfg['title']} · {TODAY}</h1>
 <div class="sub">美股 AI 核心 {sum(1 for s in cfg['stocks'] if s.get('market') != 'CN' and s['ticker'] != cfg['benchmark'])} 票 + 🇨🇳 A 股补充 {sum(1 for s in cfg['stocks'] if s.get('market') == 'CN')} 票 + {cfg['benchmark']} 基准 · 长期 {cfg['horizon_label']} 视角 · 数据 yfinance+akshare(真实行情) · AI 研判</div>
 <div class="updated">🕐 本页生成:<b>{BUILD_TS}</b> 北京 · <a href="news.html">🌍 全球头条</a> · <a href="ops.html">📊 运营看板</a> · <a href="javascript:location.reload(true)">🔄 手动刷新</a> · <button onclick="triggerUpd()" style="background:#2563eb;color:#fff;border:none;border-radius:8px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer">🔁 更新研判</button><span id="updmsg" style="color:#94a3b8;font-size:12px;margin-left:6px"></span></div>
 <script>

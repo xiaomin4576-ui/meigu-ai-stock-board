@@ -142,7 +142,7 @@ def main():
     html = f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<title>运营看板 · {TODAY}</title><style>
+<title>同光科技 · 运营看板 · {TODAY}</title><style>
 *{{margin:0;padding:0;box-sizing:border-box}}
 body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;color:#e2e8f0;line-height:1.6;padding:20px}}
 .wrap{{max-width:980px;margin:0 auto}}
@@ -161,7 +161,7 @@ body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;colo
 .honest{{background:rgba(251,146,60,.07);border:1px solid rgba(251,146,60,.25);border-radius:13px;padding:13px 17px;margin-top:14px;font-size:12px;color:#fed7aa;line-height:1.8}}
 .foot{{text-align:center;font-size:11px;color:#475569;margin-top:18px}}
 </style></head><body><div class="wrap">
-<div class="header"><h1>📊 运营看板 · {TODAY}</h1>
+<div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#c8a562;margin-bottom:8px">LUMORA · 同光科技</div><h1>📊 运营看板 · {TODAY}</h1>
 <div class="sub">全站数据资产 · 构建健康度 · AI 引擎消耗 —— 每次构建自动更新</div>
 <div class="nav"><a href="index.html">🏠 首页</a><a href="board.html">📡 股票看板</a><a href="news.html">🌍 全球头条</a><span style="color:#7c8aa3">🕐 本页生成 {BUILD_TS} 北京</span></div></div>
 <div class="gridp">

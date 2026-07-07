@@ -11,7 +11,13 @@ on:
     - cron: "23 3 * * *"       # 11:23 北京
     - cron: "47 6 * * *"       # 14:47 北京
     - cron: "17 11 * * *"      # 19:17 北京(傍晚再保一次)
-  workflow_dispatch: {}
+    - cron: "37 13 * * *"      # 21:37 北京(晚间:美股盘前/欧洲盘中,头条再新一轮)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "full=完整(含DeepSeek个股研判) / news=只刷新头条不动研判"
+        required: false
+        default: "full"
   push:
     branches: [main]
 
@@ -78,8 +84,8 @@ jobs:
       # 全自动 Claude 研判(需 secret;未配则自动跳过,看板沿用最近一期研判+橙色"研判过期"标注)
       # DeepSeek 研判:只在【手动点更新 / workflow_dispatch】时跑,定时 cron 不做研判(用户要求不自动研判)。
       # 生成当日 calls_<date>.json;失败则沿用最近一期研判、不阻断部署。
-      - name: DeepSeek 研判(仅手动触发)
-        if: github.event_name == 'workflow_dispatch'
+      - name: DeepSeek 研判(仅手动触发,mode=news 时跳过——头条刷新不动个股研判)
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.mode != 'news'
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           DEEPSEEK_BASE_URL: ${{ secrets.DEEPSEEK_BASE_URL }}
@@ -114,6 +120,9 @@ jobs:
 
           # 1) 关闭 Jekyll(下划线/特殊文件不被吞)
           touch "$DOCS/.nojekyll"
+
+          # 1a) 谢绝搜索引擎收录(用户确认:私用站,不要被"搜AI"搜出来;门户与各页另有 noindex meta 双保险)
+          printf 'User-agent: *\nDisallow: /\n' > "$DOCS/robots.txt"
 
           # 1b) 自定义域名:DNS 生效后再激活(改 ENABLE_CNAME=1)。过早绑定会导致 github.io 重定向到未生效域名而打不开。
           if [ "${ENABLE_CNAME:-0}" = "1" ]; then echo "andy4576.com" > "$DOCS/CNAME"; echo "🌐 已绑定 andy4576.com"; fi

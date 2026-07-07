@@ -22,7 +22,8 @@ def encrypt(html: str, password: str) -> str:
 GATE = r"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<title>美股 AI 早报 · 需要密码</title>
+<title>同光科技 · 需要访问密码</title>
+<meta name="robots" content="noindex,nofollow">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;color:#e2e8f0;

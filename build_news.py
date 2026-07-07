@@ -77,7 +77,7 @@ def main():
     html = f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache">
-<title>全球市场头条 · {news_date}</title><style>
+<title>同光科技 · 全球市场头条 · {news_date}</title><style>
 *{{margin:0;padding:0;box-sizing:border-box}}
 body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;color:#e2e8f0;line-height:1.6;padding:20px}}
 .wrap{{max-width:980px;margin:0 auto}}
@@ -101,9 +101,21 @@ body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;colo
 .isrc{{font-size:11px;color:#64748b;margin-top:7px}}.isrc a{{color:#93c5fd;text-decoration:none}}
 .foot{{text-align:center;font-size:11px;color:#475569;margin-top:20px;line-height:1.8}}
 </style></head><body><div class="wrap">
-<div class="header"><h1>🌍 全球市场头条 · {news_date}</h1>
+<div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#c8a562;margin-bottom:8px">LUMORA · 同光科技</div><h1>🌍 全球市场头条 · {news_date}</h1>
 <div class="sub">传导链视角:国际局势 → 美股 → A股 · 油气市场 → 莫桑比克/东非经营 · 三档 15-21 条 · 信源 Finnhub / 东财环球 / OilPrice / 财经RSS(真实链接可溯源)</div>
-<div class="nav"><a href="index.html">🏠 首页</a><a href="board.html">📡 股票看板</a><a href="ops.html">📊 运营看板</a><span style="color:#7c8aa3">🕐 本页生成 {BUILD_TS} 北京</span></div></div>
+<div class="nav"><a href="index.html">🏠 首页</a><a href="board.html">📡 股票看板</a><a href="ops.html">📊 运营看板</a><button onclick="newsUpd()" style="background:#f97316;color:#fff;border:none;border-radius:8px;padding:4px 12px;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit">🔁 刷新头条</button><span id="nupd" style="color:#94a3b8;font-size:12px;margin-left:6px"></span><span style="color:#7c8aa3;margin-left:8px">🕐 本页生成 {BUILD_TS} 北京</span></div></div>
+<script>
+const DT="__DISPATCH_TOKEN__";
+async function newsUpd(){{
+  const m=document.getElementById('nupd');
+  if(!DT||DT.indexOf('__DISPATCH')>=0){{m.textContent='刷新触发未配置';return;}}
+  m.textContent='触发中…';
+  try{{
+    const r=await fetch('https://api.github.com/repos/xiaomin4576-ui/meigu-ai-stock-board/actions/workflows/daily-board.yml/dispatches',{{method:'POST',headers:{{'Authorization':'Bearer '+DT,'Accept':'application/vnd.github+json'}},body:JSON.stringify({{ref:'main',inputs:{{mode:'news'}}}})}});
+    m.textContent = r.status===204 ? '✅ 已触发重抓头条(不动个股研判),约5分钟后刷新本页看最新' : '❌ 触发失败('+r.status+')';
+  }}catch(e){{m.textContent='❌ 网络出错';}}
+}}
+</script>
 {fresh}
 {secs}
 <div class="foot">头条由 AI 从真实信源筛编,「传导链」为推演视角非事实断言 · 仅研究/学习用途,<b>非投资建议</b></div>
