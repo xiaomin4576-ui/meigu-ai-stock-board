@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
+<title>Andy · AI 情报站</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,"PingFang SC",sans-serif;color:#e6ecf7;
+background:radial-gradient(1100px 560px at 72% -12%,#17233f 0%,#0a0e1a 58%);min-height:100vh;
+display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 20px}
+.wrap{max-width:920px;width:100%}
+.head{text-align:center;margin-bottom:44px}
+.brand{font-size:13px;letter-spacing:5px;color:#8ea2c6;text-transform:uppercase;font-weight:700}
+.head h1{font-size:40px;font-weight:900;margin-top:12px;letter-spacing:1px;
+background:linear-gradient(120deg,#60a5fa,#a78bfa);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.head p{font-size:14.5px;color:#94a3b8;margin-top:12px}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+@media(max-width:680px){.cards{grid-template-columns:1fr}.head h1{font-size:32px}}
+.card{position:relative;display:block;text-decoration:none;color:inherit;overflow:hidden;
+background:linear-gradient(145deg,#141d33,#0e1626);border:1px solid #26324c;border-radius:20px;
+padding:30px 28px;transition:transform .18s,border-color .18s,box-shadow .18s}
+.card:hover{transform:translateY(-4px);border-color:#3b4a6b;box-shadow:0 16px 40px rgba(0,0,0,.35)}
+.card::after{content:"";position:absolute;right:-50px;top:-50px;width:180px;height:180px;border-radius:50%;
+opacity:.5;filter:blur(6px)}
+.card.daily::after{background:radial-gradient(circle,rgba(96,165,250,.22),transparent 70%)}
+.card.stock::after{background:radial-gradient(circle,rgba(52,211,153,.2),transparent 70%)}
+.ic{font-size:38px;line-height:1}
+.tag{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.5px;margin-top:16px;padding:4px 11px;border-radius:20px}
+.card.daily .tag{background:rgba(96,165,250,.14);color:#93c5fd}
+.card.stock .tag{background:rgba(52,211,153,.14);color:#6ee7b7}
+.card h2{font-size:23px;font-weight:800;margin-top:14px;letter-spacing:.5px}
+.card .desc{font-size:13.5px;color:#9aa8c2;margin-top:10px;line-height:1.7}
+.card .go{display:flex;align-items:center;gap:6px;margin-top:22px;font-size:14px;font-weight:700}
+.card.daily .go{color:#60a5fa}.card.stock .go{color:#34d399}
+.card .go .arrow{transition:transform .18s}.card:hover .go .arrow{transform:translateX(5px)}
+.lock{font-size:11px;color:#7c8aa3;margin-top:6px}
+.foot{text-align:center;margin-top:44px;font-size:11.5px;color:#5d6d8a;line-height:1.9}
+</style></head><body>
+<div class="wrap">
+  <div class="head">
+    <div class="brand">Andy · AI Intelligence</div>
+    <h1>AI 情报站</h1>
+    <p>每日 AI 行业情报 &nbsp;·&nbsp; 全球 AI 产业链股票研判 &nbsp;·&nbsp; 一站直达</p>
+  </div>
+  <div class="cards">
+    <a class="card daily" href="tongguang/">
+      <div class="ic">📰</div>
+      <span class="tag">每日更新 · 181 信源</span>
+      <h2>同光企业 AI 早报</h2>
+      <div class="desc">每天精选全球 AI 行业情报,阅读库式看板 —— 按视图/维度/公司筛选,含质量分与「这意味着」决策洞察。</div>
+      <div class="go">进入早报 <span class="arrow">→</span></div>
+    </a>
+    <a class="card stock" href="board.html">
+      <div class="ic">📈</div>
+      <span class="tag">美股 · A股 · 港股</span>
+      <h2>AI 股票看板</h2>
+      <div class="desc">跟踪 AI 产业链 19 只核心标的,每只给买入建议 + 6-12 月目标价 + 9 因子评分,可一键 AI 重研判。</div>
+      <div class="go">进入看板 <span class="arrow">→</span></div>
+      <div class="lock">🔒 需访问密码</div>
+    </a>
+  </div>
+  <div class="foot">
+    andy4576.com &nbsp;·&nbsp; 仅供研究与学习,非投资建议<br>
+    数据源:公开行业信源 + akshare / Finnhub 真实行情 &nbsp;·&nbsp; AI 研判
+  </div>
+</div>
+</body></html>

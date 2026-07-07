@@ -120,6 +120,9 @@ jobs:
           import sys
           path = sys.argv[1]
           nav = ('<div class="navbar" style="max-width:1280px;margin:0 auto 12px;text-align:right">'
+                 '<a href="index.html" style="color:#a78bfa;text-decoration:none;font-weight:700;font-size:13px;'
+                 'background:rgba(167,139,250,.1);border:1px solid rgba(167,139,250,.3);border-radius:10px;padding:6px 14px;margin-right:8px">'
+                 '🏠 首页</a>'
                  '<a href="archive.html" style="color:#60a5fa;text-decoration:none;font-weight:700;font-size:13px;'
                  'background:rgba(96,165,250,.1);border:1px solid rgba(96,165,250,.3);border-radius:10px;padding:6px 14px">'
                  '📚 历史归档</a></div>')
@@ -133,18 +136,17 @@ jobs:
               print("ℹ️ 跳过注入")
           PY
 
-          # 5b) docs/index.html = 防缓存跳转页:每次打开用新时间戳加载 board.html,绕过浏览器/CDN缓存
-          #     → 用户打开收藏链接永远拿到最新构建,不再卡旧缓存。
-          cat > "$DOCS/index.html" <<'HTML'
-          <!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width,initial-scale=1.0">
-          <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
-          <title>美股 AI 科技股早报</title></head>
-          <body style="margin:0;background:#0b1120;color:#94a3b8;font-family:-apple-system,'PingFang SC',sans-serif;text-align:center;padding-top:80px">
-          📡 正在加载最新看板…
-          <script>location.replace('board.html?t=' + Date.now());</script>
-          </body></html>
-          HTML
+          # 5b) docs/index.html = 门户首页(两板块入口:同光早报 + 股票看板)。公开、不加密。
+          cp portal.html "$DOCS/index.html"
+          echo "🏠 门户首页已就位"
+
+          # 5c) 镜像同光早报到 docs/tongguang/(公开仓库,无需 token;每次构建拉最新保持同步)。相对路径,镜像到子目录不破坏。
+          rm -rf "$DOCS/tongguang"; mkdir -p "$DOCS/tongguang"
+          if git clone --depth 1 -q https://github.com/xiaomin4576-ui/tongguang-ai-daily /tmp/tg 2>/dev/null && [ -d /tmp/tg/docs ]; then
+            cp -r /tmp/tg/docs/. "$DOCS/tongguang/" && echo "📰 已镜像同光早报到 /tongguang($(find "$DOCS/tongguang" -type f | wc -l | tr -d ' ') 文件)"
+          else
+            echo "⚠️ 同光镜像失败(不阻断部署)"
+          fi
 
           # 6) 校验产物
           echo "=== docs/ 内容 ==="; ls -la "$DOCS"
