@@ -25,19 +25,23 @@ PROMPT = """你是华尔街宏观+科技双栖分析师,为「全球市场头条
 
 
 def ds_call(prompt):
-    for _ in range(3):
+    import time
+    for i in range(3):
         try:
             r = requests.post(BASE + "/chat/completions",
                 headers={"Authorization": f"Bearer {KEY}", "Content-Type": "application/json"},
                 json={"model": "deepseek-chat", "messages": [{"role": "user", "content": prompt}],
                       "response_format": {"type": "json_object"}, "temperature": 0.3, "max_tokens": 3000},
-                timeout=90)
+                timeout=150)
             if r.status_code == 200:
                 j = r.json()
                 usage = j.get("usage", {})
                 return json.loads(j["choices"][0]["message"]["content"]), usage
-        except Exception:
-            pass
+            # 非200要留痕(不打印key):首次CI失败被静默吞了88秒,毫无线索——诊断输出是止损的一半
+            print(f"  尝试{i+1}: HTTP {r.status_code} {r.text[:150]}")
+        except Exception as e:
+            print(f"  尝试{i+1}: 异常 {repr(e)[:150]}")
+        time.sleep(5)
     return None, None
 
 

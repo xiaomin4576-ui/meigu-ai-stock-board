@@ -49,12 +49,16 @@ def stat_meigu():
         except Exception:
             pass
     d = lambda fs, pat: (re.search(pat, os.path.basename(fs[-1])).group(1) if fs else "—")
-    return {"行情快照": f"{len(datas)} 份 · {total_bytes//1024} KB · 最新 {d(datas, r'data_(.*)\.json')}",
+    # 正则先算好再进 f-string——Python 3.11(CI)的 f-string 表达式不允许反斜杠(3.12+ 才放开,本机 3.14 测不出)
+    latest_data = d(datas, r"data_(.*)\.json")
+    latest_call = d(calls, r"calls_(.*)\.json")
+    latest_news = d(newses, r"news_(.*)\.json")
+    return {"行情快照": f"{len(datas)} 份 · {total_bytes//1024} KB · 最新 {latest_data}",
             "数据覆盖率": cov,
-            "研判期数": f"{len(calls)} 期 · 最新 {d(calls, r'calls_(.*)\.json')}",
+            "研判期数": f"{len(calls)} 期 · 最新 {latest_call}",
             "预测台账": f"{n_pred} 条(复盘校准依据)",
             "看板归档": f"{len(boards)} 期",
-            "全球头条": (f"{len(newses)} 期 · 最新 {d(newses, r'news_(.*)\.json')}" if newses else "尚无(首期待生成)")}
+            "全球头条": (f"{len(newses)} 期 · 最新 {latest_news}" if newses else "尚无(首期待生成)")}
 
 
 def stat_tongguang():
