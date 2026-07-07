@@ -88,6 +88,7 @@ jobs:
           BOARD_PASSWORD: ${{ secrets.BOARD_PASSWORD }}   # 配了则加密看板(输密码才看),没配则公开
           ENABLE_CNAME: ${{ vars.ENABLE_CNAME }}          # DNS 生效后设仓库变量=1 即绑定 andy4576.com
           DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}   # 更新按钮的触发凭证(fine-grained PAT,仅注入 docs 加密版)
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }} # 盘势问答引擎凭证(仅注入 docs 加密版,且仅在加密开启时)
         run: |
           set -euo pipefail
           STATE="state"
@@ -166,6 +167,17 @@ jobs:
             echo "ℹ️ 未配 DISPATCH_TOKEN → 更新按钮显示'未配置'(不影响其余功能)"
           fi
 
+          # 6c) 注入"盘势问答"引擎凭证(DeepSeek):同 6b 占位符模式,但多一道门——只在加密开启时注入,
+          #     确保凭证永远只存在于密文页里;未开加密则问答显示"未配置",绝不明文上线。
+          if [ -n "${DEEPSEEK_API_KEY:-}" ] && [ -n "${BOARD_PASSWORD:-}" ]; then
+            for f in "$DOCS"/*.html; do
+              DTFILE="$f" python3 -c "import os; p=os.environ['DTFILE']; h=open(p,encoding='utf-8').read(); open(p,'w',encoding='utf-8').write(h.replace('__QA_KEY__', os.environ.get('DEEPSEEK_API_KEY',''))) if '__QA_KEY__' in h else None"
+            done
+            echo "🔑 已注入问答引擎凭证到 docs/(将随内容一起加密)"
+          else
+            echo "ℹ️ 问答凭证未注入(缺 DEEPSEEK_API_KEY 或未开加密)→ 问答面板显示'未配置'"
+          fi
+
           # 7) 密码保护:加密所有内容页(board + archive + 每期看板),index.html 跳转页保持明文。
           #    这样直连任何历史看板文件也要密码,堵住绕过。未配 BOARD_PASSWORD 则公开。
           if [ -n "${BOARD_PASSWORD:-}" ]; then
@@ -175,7 +187,15 @@ jobs:
               python3 encrypt_board.py "$f" "$f"
             done
             grep -q '兆易\|台积电\|建议买入价' "$DOCS/board.html" && { echo "❌ 加密后仍有明文,中止"; exit 1; }
-            echo "🔒 已加密全部内容页(密码保护),index 跳转页保持明文"
+            # 双保险:任何凭证若在 docs 顶层页面留有明文(加密失效/漏加密),立即中止,绝不上线。
+            # 注意 set -e 下 grep 无匹配返回 1 会误杀脚本,必须用 if 形式。
+            if [ -n "${DEEPSEEK_API_KEY:-}" ] && grep -qF "${DEEPSEEK_API_KEY}" "$DOCS"/*.html 2>/dev/null; then
+              echo "❌ 问答凭证明文泄露,中止"; exit 1
+            fi
+            if [ -n "${DISPATCH_TOKEN:-}" ] && grep -qF "${DISPATCH_TOKEN}" "$DOCS"/*.html 2>/dev/null; then
+              echo "❌ 更新触发凭证明文泄露,中止"; exit 1
+            fi
+            echo "🔒 已加密全部内容页(密码保护+凭证零明文),index 跳转页保持明文"
           else
             echo "ℹ️ 未配 BOARD_PASSWORD → 看板公开(无密码)"
           fi

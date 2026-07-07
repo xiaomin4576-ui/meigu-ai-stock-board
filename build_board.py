@@ -285,6 +285,138 @@ def freshness_banner(calls_date, data_meta=None):
     return f'<div class="fresh {cls}">{research}{data_line}</div>'
 
 
+def qa_ctx(data, calls, calls_date, v):
+    """给「盘势问答」组装紧凑语境:本期 19 票真实行情+研判+复盘记分卡。
+    嵌进看板页,问答时与同光早报要闻一起喂给 DeepSeek——只答有据可依的,不编数字。"""
+    sc = (v or {}).get("scorecard", {})
+    stocks = {}
+    for tk, a in calls["stocks"].items():
+        d = data.get(tk, {})
+        stocks[tk] = {
+            "名": d.get("name", tk), "市场": d.get("market", "US"), "价": d.get("price"),
+            "涨1月%": d.get("m1"), "涨3月%": d.get("m3"), "涨6月%": d.get("m6"),
+            "距52周高%": d.get("fromhi"), "MA50": d.get("ma50"), "MA200": d.get("ma200"),
+            "年化波动%": d.get("vol"), "财报": d.get("earnings_date"),
+            "信号": a.get("sig"), "置信": a.get("conf"), "买入价": a.get("buy"),
+            "目标价": a.get("tgt"), "预期收益": a.get("ret"),
+            "逻辑": a.get("th"), "风险": a.get("rk"),
+        }
+    return {
+        "asof": calls_date,
+        "大盘": re.sub(r"<[^>]+>", "", calls.get("market", "")),
+        "复盘记分卡": {"入场触及率%": sc.get("entry_hit_rate"), "方向胜率%": sc.get("direction_win_rate"),
+                  "平均目标完成度%": sc.get("avg_progress_to_target_pct"),
+                  "口径": "仅统计买入信号且买入价真实触及的仓位"},
+        "标的": stocks,
+    }
+
+
+# 「盘势问答」面板:纯前端直连 DeepSeek(已实测 api.deepseek.com 允许 andy4576.com 的浏览器 CORS)。
+# 凭证走 __QA_KEY__ 占位符,与 __DISPATCH_TOKEN__ 同一套防泄露模式:CI 只注入 docs 加密版,不入库。
+# 语料 = 页内嵌的本期看板语境(@QACTX@) + 按需同源拉取 /tongguang/data/index.json 的同光早报要闻。
+QA_TMPL = """
+<div class="qa">
+ <div class="qa-h" onclick="qaToggle()">🤖 盘势问答<span class="qa-sub">基于本期看板研判 + 同光AI早报要闻 · DeepSeek 引擎 · 输密码者可用</span><span id="qa-arrow" style="margin-left:auto">▸</span></div>
+ <div class="qa-body hide" id="qa-body">
+  <div class="qa-chips">
+   <button class="chip" onclick="qaAsk('看板里A股这几只普遍在跌,这轮回调大概什么时候能企稳回转?给出要观察的价位信号、催化剂和乐观/中性/悲观三种情景。')">📉 A股何时企稳?</button>
+   <button class="chip" onclick="qaAsk('寒武纪最近在往下掉,现在该怎么办?出现什么信号说明趋势扭转?')">🇨🇳 寒武纪怎么办?</button>
+   <button class="chip" onclick="qaAsk('结合同光早报的AI行业最新动向,美股AI链现在优先配置谁,为什么?')">🇺🇸 美股AI链配谁?</button>
+  </div>
+  <div class="qa-log" id="qa-log"></div>
+  <div class="qa-inrow">
+   <textarea id="qa-in" rows="2" placeholder="问点什么…例如:这波下跌趋势大概什么时候可能扭转?(Enter 发送,Shift+Enter 换行)"></textarea>
+   <button id="qa-send" onclick="qaSend()">发送</button>
+  </div>
+  <div class="qa-foot">⚠️ 回答由 AI 基于本页真实数据与同光早报生成,仅研究示范、<b>非投资建议</b>;未来无法被预测,"何时回转"只能给<b>条件与信号</b>,不是承诺。</div>
+ </div>
+</div>
+<script>
+const QK="__QA_KEY__";
+const QACTX=@QACTX@;
+let QAHIST=[], QABUSY=false, TGCACHE=null;
+function qel(i){return document.getElementById(i);}
+function qaToggle(){const b=qel('qa-body');b.classList.toggle('hide');qel('qa-arrow').textContent=b.classList.contains('hide')?'▸':'▾';}
+function qaEsc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function qaMd(s){
+  let h=qaEsc(s).replace(/\\*\\*([^*]+)\\*\\*/g,'<b>$1</b>');
+  return h.split('\\n').map(function(l){
+    if(/^[-•] /.test(l))return '<div class="qa-li">• '+l.slice(2)+'</div>';
+    if(/^#{1,4} /.test(l))return '<div class="qa-hd">'+l.replace(/^#{1,4} /,'')+'</div>';
+    return l?('<div>'+l+'</div>'):'';
+  }).join('');
+}
+async function tgNews(){
+  if(TGCACHE!==null)return TGCACHE;
+  try{
+    const r=await fetch('tongguang/data/index.json');
+    const j=await r.json();
+    const arts=(j.articles||[]).slice().sort(function(a,b){return String(b.date).localeCompare(String(a.date));});
+    const picked=[];
+    for(const a of arts){
+      if(picked.length>=24)break;
+      if(a.is_top5||a.is_tier0||(a.quality_score||0)>=8)
+        picked.push('['+a.date+'] '+a.title+(a.meaning?(' → 这意味着'+String(a.meaning)):''));
+    }
+    TGCACHE=picked.length?('同光企业AI早报要闻(AI行业前沿信号,最新在前,语料截至 '+(arts[0]?arts[0].date:'?')+'):\\n- '+picked.join('\\n- ')):'';
+  }catch(e){TGCACHE='';}
+  return TGCACHE;
+}
+function qaAsk(q){qel('qa-in').value=q;qaSend();}
+function qaBubble(cls,html){
+  const d=document.createElement('div');d.className='qa-m '+cls;d.innerHTML=html;
+  qel('qa-log').appendChild(d);d.scrollIntoView({block:'nearest'});return d;
+}
+async function qaSend(){
+  const q=qel('qa-in').value.trim();
+  if(!q||QABUSY)return;
+  if(!QK||QK.indexOf('__QA_KEY')>=0){qaBubble('qa-a','⚠️ 问答引擎未配置(本地预览版无凭证,线上 andy4576.com 输密码后可用)。');return;}
+  QABUSY=true;qel('qa-send').disabled=true;qel('qa-in').value='';
+  qaBubble('qa-u',qaEsc(q));
+  const abox=qaBubble('qa-a','<span class="qa-wait">🤖 研判中…</span>');
+  try{
+    const tg=await tgNews();
+    const sys='你是一名华尔街二级市场交易员+buy-side分析师,长期跟踪美股AI产业链与A股/港股算力链,现在回答看板主人的盘势问题。硬性纪律:\\n1) 只基于给到的【看板数据】(价格真实)与【同光早报要闻】回答;语料没有的信息直说"语料未覆盖",绝不编造价格/日期/券商目标价。\\n2) 遇到"何时回转/何时企稳"类问题:未来无法预测——必须转化为【条件与信号】:给出要观察的关键价位(如站回MA50/跌破MA200)、催化剂(财报日/产业事件)、并给乐观/中性/悲观三情景的大致时间量级,明说这是情景推演不是预测。\\n3) 结论先行、分点、简洁;引用数据注明出处(看板asof日期/同光早报日期)。\\n4) 末尾固定一句:仅研究示范,非投资建议。用中文回答。';
+    const ctxblk='【看板数据(asof '+QACTX.asof+',价格为真实抓取)】\\n'+JSON.stringify(QACTX)+(tg?('\\n\\n【'+tg+'】'):'\\n\\n(同光早报语料本次不可用,仅基于看板数据回答)');
+    const msgs=[{role:'system',content:sys}];
+    QAHIST.slice(-3).forEach(function(h){msgs.push({role:'user',content:h.q});msgs.push({role:'assistant',content:h.a});});
+    msgs.push({role:'user',content:ctxblk+'\\n\\n【问题】'+q});
+    const resp=await fetch('https://api.deepseek.com/v1/chat/completions',{method:'POST',
+      headers:{'Content-Type':'application/json','Authorization':'Bearer '+QK},
+      body:JSON.stringify({model:'deepseek-chat',messages:msgs,stream:true,temperature:0.3,max_tokens:1500})});
+    if(!resp.ok){abox.innerHTML='❌ 引擎返回 '+resp.status+'(密钥失效或限流,稍后再试)';return;}
+    const rd=resp.body.getReader(),dec=new TextDecoder();let buf='',ans='';
+    while(true){
+      const c=await rd.read();if(c.done)break;
+      buf+=dec.decode(c.value,{stream:true});
+      let i;
+      while((i=buf.indexOf('\\n'))>=0){
+        const line=buf.slice(0,i).trim();buf=buf.slice(i+1);
+        if(line.indexOf('data:')!==0)continue;
+        const dta=line.slice(5).trim();
+        if(dta==='[DONE]')continue;
+        try{
+          const j=JSON.parse(dta);
+          const t=j.choices&&j.choices[0]&&j.choices[0].delta&&j.choices[0].delta.content;
+          if(t){ans+=t;abox.innerHTML=qaMd(ans);}
+        }catch(e){}
+      }
+    }
+    if(!ans){abox.innerHTML='❌ 未收到回答,请重试';}
+    else{QAHIST.push({q:q,a:ans});if(QAHIST.length>6)QAHIST.shift();abox.scrollIntoView({block:'nearest'});}
+  }catch(e){abox.innerHTML='❌ 网络出错:'+qaEsc(String(e));}
+  finally{QABUSY=false;qel('qa-send').disabled=false;}
+}
+qel('qa-in').addEventListener('keydown',function(e){if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();qaSend();}});
+</script>"""
+
+
+def qa_block(data, calls, calls_date, v):
+    import json as _json
+    ctx = qa_ctx(data, calls, calls_date, v)
+    return QA_TMPL.replace("@QACTX@", _json.dumps(ctx, ensure_ascii=False))
+
+
 def main():
     cfg = jload(os.path.join(DIR, "config.json"))
     data_full = jload(os.path.join(STATE, f"data_{TODAY}.json"), {})
@@ -372,6 +504,28 @@ body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;colo
 .news a{{color:#93c5fd;text-decoration:none}}.news a:hover{{text-decoration:underline}}.src{{color:#64748b;font-size:10px}}
 .rk2{{font-size:11.5px;color:#7c8aa3}}
 .foot{{text-align:center;font-size:11px;color:#475569;margin-top:18px;line-height:1.8}}
+.qa{{background:#0f1a30;border:1px solid #2a3a5a;border-radius:14px;margin-bottom:16px;overflow:hidden}}
+.qa-h{{display:flex;align-items:center;gap:10px;font-size:15px;font-weight:800;color:#a5b4fc;padding:13px 18px;cursor:pointer;user-select:none}}
+.qa-h:hover{{background:rgba(96,165,250,.06)}}
+.qa-sub{{font-size:11px;font-weight:400;color:#64748b}}
+.qa-body{{padding:0 18px 14px}}
+.qa-body.hide{{display:none}}
+.qa-chips{{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}}
+.chip{{font-size:12px;color:#93c5fd;background:rgba(96,165,250,.1);border:1px solid rgba(96,165,250,.3);border-radius:16px;padding:5px 12px;cursor:pointer;font-family:inherit}}
+.chip:hover{{background:rgba(96,165,250,.2)}}
+.qa-log{{display:flex;flex-direction:column;gap:8px;max-height:420px;overflow-y:auto;margin-bottom:10px}}
+.qa-m{{font-size:13px;line-height:1.7;border-radius:12px;padding:9px 13px;max-width:88%}}
+.qa-u{{align-self:flex-end;background:rgba(37,99,235,.25);color:#dbeafe;border:1px solid rgba(96,165,250,.3)}}
+.qa-a{{align-self:flex-start;background:rgba(51,65,85,.35);color:#e2e8f0;border:1px solid #334155}}
+.qa-li{{padding-left:6px}}
+.qa-hd{{font-weight:800;color:#93c5fd;margin-top:4px}}
+.qa-wait{{color:#94a3b8;font-size:12px}}
+.qa-inrow{{display:flex;gap:8px;align-items:flex-end}}
+.qa-inrow textarea{{flex:1;background:#111a2e;border:1px solid #334155;border-radius:10px;color:#e2e8f0;font-size:13px;font-family:inherit;padding:9px 12px;resize:vertical;line-height:1.5}}
+.qa-inrow textarea:focus{{outline:none;border-color:#2563eb}}
+#qa-send{{background:#2563eb;color:#fff;border:none;border-radius:10px;padding:9px 18px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit}}
+#qa-send:disabled{{opacity:.5;cursor:default}}
+.qa-foot{{font-size:10.5px;color:#64748b;margin-top:8px;line-height:1.6}}
 </style></head><body><div class="wrap">
 <div class="header"><h1>📡 {cfg['title']} · {TODAY}</h1>
 <div class="sub">美股 AI 核心 {sum(1 for s in cfg['stocks'] if s.get('market') != 'CN' and s['ticker'] != cfg['benchmark'])} 票 + 🇨🇳 A 股补充 {sum(1 for s in cfg['stocks'] if s.get('market') == 'CN')} 票 + {cfg['benchmark']} 基准 · 长期 {cfg['horizon_label']} 视角 · 数据 yfinance+akshare(真实行情) · AI 研判</div>
@@ -398,6 +552,7 @@ document.addEventListener('click',function(e){{
 <div class="market">🌎 <b style="color:#60a5fa">大盘与板块:</b>{calls.get('market','')}</div>
 <div class="rankbar">🏆 <b>买点吸引力排序:</b>{rank_str}</div></div>
 {freshness_banner(calls_date, data_meta)}
+{qa_block(data, calls, calls_date, v)}
 {evidence_section(data)}
 {review_section(v)}
 {cards}
