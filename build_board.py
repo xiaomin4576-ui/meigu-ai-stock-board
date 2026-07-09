@@ -330,9 +330,9 @@ def qa_ctx(data, calls, calls_date, v):
 # 凭证走 __QA_KEY__ 占位符,与 __DISPATCH_TOKEN__ 同一套防泄露模式:CI 只注入 docs 加密版,不入库。
 # 语料 = 页内嵌的本期看板语境(@QACTX@) + 按需同源拉取 /tongguang/data/index.json 的同光早报要闻。
 QA_TMPL = """
-<div class="qa">
- <div class="qa-h" onclick="qaToggle()">🤖 盘势问答<span class="qa-sub">基于本期看板研判 + 同光AI早报要闻 · DeepSeek 引擎 · 输密码者可用</span><span id="qa-arrow" style="margin-left:auto">▸</span></div>
- <div class="qa-body hide" id="qa-body">
+<div class="qa" id="qa-panel">
+ <div class="qa-h" onclick="qaToggle()"><span class="qa-ico">💬</span>盘势问答<span class="qa-new">AI</span><span class="qa-sub">问"这波下跌何时扭转"这类问题 · 基于本期研判+同光要闻+全球头条 · DeepSeek 引擎</span><span id="qa-arrow" style="margin-left:auto">▾</span></div>
+ <div class="qa-body" id="qa-body">
   <div class="qa-basis" onclick="qaBasisToggle()">ℹ️ 回答依据(点开看问答基于什么逻辑、关联了哪些数据)</div>
   <div class="qa-basis-body hide" id="qa-basis-body">
    <b>每次回答喂给引擎三路语料 + 一套写死纪律:</b><br>
@@ -354,6 +354,7 @@ QA_TMPL = """
   <div class="qa-foot">⚠️ 回答由 AI 基于本页真实数据与同光早报生成,仅研究示范、<b>非投资建议</b>;未来无法被预测,"何时回转"只能给<b>条件与信号</b>,不是承诺。</div>
  </div>
 </div>
+<button id="qa-fab" onclick="qaFab()">💬 盘势问答</button>
 <script>
 const QK="__QA_KEY__";
 const QACTX=@QACTX@;
@@ -361,6 +362,14 @@ let QAHIST=[], QABUSY=false, TGCACHE=null;
 function qel(i){return document.getElementById(i);}
 function qaToggle(){const b=qel('qa-body');b.classList.toggle('hide');qel('qa-arrow').textContent=b.classList.contains('hide')?'▸':'▾';}
 function qaBasisToggle(){qel('qa-basis-body').classList.toggle('hide');}
+function qaFab(){
+  const b=qel('qa-body');
+  if(b.classList.contains('hide'))qaToggle();
+  qel('qa-panel').scrollIntoView({behavior:'smooth',block:'start'});
+  setTimeout(function(){qel('qa-in').focus();},450);
+}
+// 面板在视口内时收起悬浮球,避免重复入口
+new IntersectionObserver(function(es){qel('qa-fab').style.display=es[0].isIntersecting?'none':'block';}).observe(qel('qa-panel'));
 function qaEsc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 function qaMd(s){
   let h=qaEsc(s).replace(/\\*\\*([^*]+)\\*\\*/g,'<b>$1</b>');
@@ -536,10 +545,16 @@ body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;colo
 .news a{{color:#93c5fd;text-decoration:none}}.news a:hover{{text-decoration:underline}}.src{{color:#64748b;font-size:10px}}
 .rk2{{font-size:11.5px;color:#7c8aa3}}
 .foot{{text-align:center;font-size:11px;color:#475569;margin-top:18px;line-height:1.8}}
-.qa{{background:#0f1a30;border:1px solid #2a3a5a;border-radius:14px;margin-bottom:16px;overflow:hidden}}
-.qa-h{{display:flex;align-items:center;gap:10px;font-size:15px;font-weight:800;color:#a5b4fc;padding:13px 18px;cursor:pointer;user-select:none}}
-.qa-h:hover{{background:rgba(96,165,250,.06)}}
-.qa-sub{{font-size:11px;font-weight:400;color:#64748b}}
+.qa{{background:linear-gradient(135deg,rgba(200,165,98,.12),rgba(37,99,235,.06)),#101b33;border:1px solid rgba(200,165,98,.5);border-radius:14px;margin-bottom:16px;overflow:hidden;box-shadow:0 0 22px rgba(200,165,98,.10)}}
+.qa-h{{display:flex;align-items:center;gap:10px;font-size:16.5px;font-weight:900;color:#efe0bd;padding:14px 18px;cursor:pointer;user-select:none}}
+.qa-h:hover{{background:rgba(200,165,98,.08)}}
+.qa-ico{{font-size:20px}}
+.qa-new{{font-size:10px;font-weight:800;letter-spacing:1px;color:#0b1120;background:linear-gradient(120deg,#e5c987,#c8a562);border-radius:8px;padding:2px 8px}}
+.qa-sub{{font-size:11px;font-weight:400;color:#9c8f72}}
+#qa-fab{{position:fixed;right:22px;bottom:22px;z-index:60;display:none;border:none;cursor:pointer;font-family:inherit;
+ font-size:14px;font-weight:800;color:#0b1120;background:linear-gradient(120deg,#e5c987,#c8a562);
+ border-radius:999px;padding:13px 22px;box-shadow:0 6px 24px rgba(200,165,98,.45)}}
+#qa-fab:hover{{transform:translateY(-2px);box-shadow:0 10px 30px rgba(200,165,98,.55)}}
 .qa-body{{padding:0 18px 14px}}
 .qa-body.hide{{display:none}}
 .qa-chips{{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}}
