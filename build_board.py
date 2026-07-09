@@ -338,7 +338,8 @@ QA_TMPL = """
    <b>每次回答喂给引擎三路语料 + 一套写死纪律:</b><br>
    ① <b>本期看板语境(页内嵌)</b>:19 票真实行情(价/动量/MA50/MA200/波动/财报日)+ 本期研判(信号/买入价/目标价/逻辑/风险)+ 复盘记分卡(入场触及率/方向胜率/目标完成度);<br>
    ② <b>同光AI早报要闻(实时拉取)</b>:Top5/Tier0/质量≥8 的最新 24 条,带「这意味着」决策洞察;<br>
-   ③ <b>全球市场头条(页内嵌)</b>:宏观/地缘+科技双档最新一期,带「事件→美股→A股」传导链;<br>
+   ③ <b>全球市场头条(页内嵌)</b>:宏观/石油/科技三档最新一期,带传导链;<br>
+   ④ <b>实时行情工具(按需现抓)</b>:问最新价/市值/今日涨跌或质疑数据时,AI 自动实时抓取——A股/港股走腾讯行情、美股走 Finnhub,回答会同时给"实时 vs 看板快照"两套数字并解释差异;<br>
    <b>纪律</b>:只答有据可依的、缺的直说"语料未覆盖"、"何时回转"必须转成【观察条件+信号+三情景时间量级】而非预测日期、绝不编造价格/券商目标价、末尾固定免责。每条回答下方会标注本次实际用到的语料。
   </div>
   <div class="qa-chips">
@@ -357,8 +358,51 @@ QA_TMPL = """
 <button id="qa-fab" onclick="qaFab()">💬 盘势问答</button>
 <script>
 const QK="__QA_KEY__";
+const FHK="__FH_KEY__";
 const QACTX=@QACTX@;
 let QAHIST=[], QABUSY=false, TGCACHE=null;
+// ===== 实时行情工具(function calling):A股/港股走腾讯行情(script注入,免key免CORS),美股走 Finnhub =====
+const QATOOLS=[{type:"function",function:{name:"get_realtime_quote",
+  description:"实时抓取标的当前行情:现价/涨跌%/今日高低/总市值(A股为亿元人民币,港股约亿港元,美股为百万美元)。凡用户问最新价格/市值/今天涨跌,或质疑看板数据、要求核实数字时,必须先调用本工具再回答。",
+  parameters:{type:"object",properties:{symbols:{type:"array",items:{type:"string"},
+    description:"标的代码,用看板写法:A股如 688256.SS / 001309.SZ,港股如 6869.HK,美股如 NVDA。最多8只。"}},required:["symbols"]}}}];
+function tcode(s){
+  if(/\\.SS$/.test(s))return "sh"+s.split(".")[0];
+  if(/\\.SZ$/.test(s))return "sz"+s.split(".")[0];
+  if(/\\.HK$/.test(s))return "hk"+s.split(".")[0].padStart(5,"0");
+  return null;
+}
+async function toolQuote(symbols){
+  const out={},codes=[],owners=[];
+  (symbols||[]).slice(0,8).forEach(function(s){const c=tcode(s);if(c){codes.push(c);owners.push(s);}});
+  if(codes.length){
+    await new Promise(function(res){
+      const sc=document.createElement("script");sc.charset="GBK";
+      sc.src="https://qt.gtimg.cn/q="+codes.join(",")+"&_="+Date.now();
+      sc.onload=res;sc.onerror=res;document.head.appendChild(sc);
+    });
+    codes.forEach(function(c,i){
+      const v=window["v_"+c];
+      if(v&&v.length>50){
+        const f=v.split("~"),hk=c.indexOf("hk")===0;
+        out[owners[i]]={名称:f[1],现价:f[3],昨收:f[4],今开:f[5],涨跌pct:f[32],今日最高:f[33],今日最低:f[34],
+          总市值:(f[45]?(f[45]+(hk?"亿港元(约)":"亿元")):"未提供"),行情时间:f[30],来源:"腾讯实时行情"};
+      }else out[owners[i]]={错误:"实时抓取失败,请以看板快照为准"};
+    });
+  }
+  for(const s of (symbols||[]).slice(0,8)){
+    if(tcode(s))continue;
+    if(!FHK||FHK.indexOf("__FH_KEY")>=0){out[s]={错误:"美股实时凭证未配置,请以看板快照为准"};continue;}
+    try{
+      const q=await(await fetch("https://finnhub.io/api/v1/quote?symbol="+s+"&token="+FHK)).json();
+      let mc=null;
+      try{const p=await(await fetch("https://finnhub.io/api/v1/stock/profile2?symbol="+s+"&token="+FHK)).json();mc=p.marketCapitalization;}catch(e){}
+      out[s]={现价:q.c,昨收:q.pc,今开:q.o,涨跌pct:q.dp,今日最高:q.h,今日最低:q.l,
+        总市值:(mc?(Math.round(mc)+"百万美元"):"未提供"),来源:"Finnhub实时"};
+    }catch(e){out[s]={错误:"实时抓取失败,请以看板快照为准"};}
+  }
+  return out;
+}
 function qel(i){return document.getElementById(i);}
 function qaToggle(){const b=qel('qa-body');b.classList.toggle('hide');qel('qa-arrow').textContent=b.classList.contains('hide')?'▸':'▾';}
 function qaBasisToggle(){qel('qa-basis-body').classList.toggle('hide');}
@@ -409,11 +453,38 @@ async function qaSend(){
   const abox=qaBubble('qa-a','<span class="qa-wait">🤖 研判中…</span>');
   try{
     const tg=await tgNews();
-    const sys='你是一名华尔街二级市场交易员+buy-side分析师,长期跟踪美股AI产业链与A股/港股算力链,现在回答看板主人的盘势问题。硬性纪律:\\n1) 只基于给到的【看板数据】(价格真实,内含"全球头条"字段=宏观/地缘+科技双档带传导链)与【同光早报要闻】回答;语料没有的信息直说"语料未覆盖",绝不编造价格/日期/券商目标价。\\n2) 遇到"何时回转/何时企稳"类问题:未来无法预测——必须转化为【条件与信号】:给出要观察的关键价位(如站回MA50/跌破MA200)、催化剂(财报日/产业事件/头条里的宏观变量)、并给乐观/中性/悲观三情景的大致时间量级,明说这是情景推演不是预测。\\n3) 结论先行、分点、简洁;引用数据注明出处(看板asof日期/同光早报日期/头条日期)。\\n4) 末尾固定一句:仅研究示范,非投资建议。用中文回答。';
-    const ctxblk='【看板数据(asof '+QACTX.asof+',价格为真实抓取)】\\n'+JSON.stringify(QACTX)+(tg?('\\n\\n【'+tg+'】'):'\\n\\n(同光早报语料本次不可用,仅基于看板数据回答)');
+    const sys='你是一名华尔街二级市场交易员+buy-side分析师,长期跟踪美股AI产业链与A股/港股算力链,现在回答看板主人的盘势问题。硬性纪律:\\n1) 你有一个 get_realtime_quote 工具能抓标的的实时行情/市值——凡用户问最新价格/市值/今天涨跌,或质疑看板数据、要求核实/扒最新数据时,【必须先调用工具】拿实时数再回答,并同时给出"实时(刚抓取,标注行情时间)"与"看板快照(asof日期)"两套数字、解释差异原因(如盘中涨跌)。\\n2) 其余信息只基于给到的【看板数据】(内含"全球头条"字段)与【同光早报要闻】;语料和工具都覆盖不到的直说"无法核实",绝不编造价格/日期/券商目标价。\\n3) 遇到"何时回转/何时企稳"类问题:未来无法预测——必须转化为【条件与信号】:关键价位(站回MA50/跌破MA200)、催化剂(财报日/头条宏观变量)、乐观/中性/悲观三情景时间量级,明说是情景推演不是预测。\\n4) 结论先行、分点、简洁;引用数据注明出处与时点。\\n5) 末尾固定一句:仅研究示范,非投资建议。用中文回答。';
+    const ctxblk='【看板数据(asof '+QACTX.asof+',为快照非实时;实时请调工具)】\\n'+JSON.stringify(QACTX)+(tg?('\\n\\n【'+tg+'】'):'\\n\\n(同光早报语料本次不可用)');
     const msgs=[{role:'system',content:sys}];
     QAHIST.slice(-3).forEach(function(h){msgs.push({role:'user',content:h.q});msgs.push({role:'assistant',content:h.a});});
     msgs.push({role:'user',content:ctxblk+'\\n\\n【问题】'+q});
+    // ―― 第一轮:让引擎决定要不要抓实时数据(非流式,带工具) ――
+    let liveNote='';
+    const r1=await fetch('https://api.deepseek.com/v1/chat/completions',{method:'POST',
+      headers:{'Content-Type':'application/json','Authorization':'Bearer '+QK},
+      body:JSON.stringify({model:'deepseek-chat',messages:msgs,tools:QATOOLS,temperature:0.3,max_tokens:1500})});
+    if(!r1.ok){abox.innerHTML='❌ 引擎返回 '+r1.status+'(密钥失效或限流,稍后再试)';return;}
+    const j1=await r1.json();
+    const m1=j1.choices&&j1.choices[0]&&j1.choices[0].message;
+    if(m1&&m1.tool_calls&&m1.tool_calls.length){
+      msgs.push(m1);
+      for(const tc of m1.tool_calls){
+        let args={};try{args=JSON.parse(tc.function.arguments||'{}');}catch(e){}
+        const syms=args.symbols||[];
+        abox.innerHTML='<span class="qa-wait">🔧 正在实时抓取 '+syms.join('、')+' 行情…</span>';
+        const res=await toolQuote(syms);
+        liveNote=' · 实时行情✓('+syms.length+'只·刚抓取)';
+        msgs.push({role:'tool',tool_call_id:tc.id,content:JSON.stringify(res)});
+      }
+      abox.innerHTML='<span class="qa-wait">🤖 已拿到实时数据,研判中…</span>';
+    }else if(m1&&m1.content){
+      // 引擎判断无需实时数据,第一轮已给出完整回答
+      const ans1=m1.content;
+      abox.innerHTML=qaMd(ans1)+'<div class="qa-src">📎 本次依据:看板研判('+QACTX.asof+'·19票+记分卡) · 同光要闻'+(tg?'✓':'✗')+' · 全球头条'+((QACTX['全球头条']&&QACTX['全球头条']['条目'])?'✓':'✗')+' · 未动用实时抓取</div>';
+      QAHIST.push({q:q,a:ans1});if(QAHIST.length>6)QAHIST.shift();
+      return;
+    }
+    // ―― 第二轮:携带实时数据流式作答 ――
     const resp=await fetch('https://api.deepseek.com/v1/chat/completions',{method:'POST',
       headers:{'Content-Type':'application/json','Authorization':'Bearer '+QK},
       body:JSON.stringify({model:'deepseek-chat',messages:msgs,stream:true,temperature:0.3,max_tokens:1500})});
@@ -439,7 +510,7 @@ async function qaSend(){
     else{
       QAHIST.push({q:q,a:ans});if(QAHIST.length>6)QAHIST.shift();
       const nw=QACTX['全球头条'];
-      abox.innerHTML+='<div class="qa-src">📎 本次依据:看板研判('+QACTX.asof+'·19票+记分卡) · 同光要闻'+(tg?'✓':'✗不可用')+' · 全球头条'+(nw&&nw['条目']&&nw['条目'].length?('✓('+nw.date+'·'+nw['条目'].length+'条)'):'✗暂无')+'</div>';
+      abox.innerHTML+='<div class="qa-src">📎 本次依据:看板研判('+QACTX.asof+'·19票+记分卡) · 同光要闻'+(tg?'✓':'✗不可用')+' · 全球头条'+(nw&&nw['条目']&&nw['条目'].length?('✓('+nw.date+'·'+nw['条目'].length+'条)'):'✗暂无')+liveNote+'</div>';
       abox.scrollIntoView({block:'nearest'});
     }
   }catch(e){abox.innerHTML='❌ 网络出错:'+qaEsc(String(e));}
