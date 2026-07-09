@@ -581,17 +581,32 @@ body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;colo
 </style></head><body><div class="wrap">
 <div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#c8a562;margin-bottom:8px">LUMORA · 同光科技</div><h1>📡 {cfg['title']} · {TODAY}</h1>
 <div class="sub">美股 AI 核心 {sum(1 for s in cfg['stocks'] if s.get('market') != 'CN' and s['ticker'] != cfg['benchmark'])} 票 + 🇨🇳 A 股补充 {sum(1 for s in cfg['stocks'] if s.get('market') == 'CN')} 票 + {cfg['benchmark']} 基准 · 长期 {cfg['horizon_label']} 视角 · 数据 yfinance+akshare(真实行情) · AI 研判</div>
-<div class="updated">🕐 本页生成:<b>{BUILD_TS}</b> 北京 · <a href="news.html">🌍 全球头条</a> · <a href="ops.html">📊 运营看板</a> · <a href="javascript:location.reload(true)">🔄 手动刷新</a> · <button onclick="triggerUpd()" style="background:#2563eb;color:#fff;border:none;border-radius:8px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer">🔁 更新研判</button><span id="updmsg" style="color:#94a3b8;font-size:12px;margin-left:6px"></span></div>
+<div class="updated">🕐 本页生成:<b>{BUILD_TS}</b> 北京 · <a href="news.html">🌍 全球头条</a> · <a href="ops.html">📊 运营看板</a> · <a href="javascript:void(0)" onclick="location.href='board.html?t='+Date.now()">🔄 手动刷新</a> · <button id="updbtn" onclick="triggerUpd()" style="background:#2563eb;color:#fff;border:none;border-radius:8px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer">🔁 更新研判</button><span id="updmsg" style="color:#94a3b8;font-size:12px;margin-left:6px"></span></div>
 <script>
 const DT="__DISPATCH_TOKEN__";
 async function triggerUpd(){{
-  const m=document.getElementById('updmsg');
+  const m=document.getElementById('updmsg'),btn=document.getElementById('updbtn');
   if(!DT||DT.indexOf('__DISPATCH')>=0){{m.textContent='更新触发未配置';return;}}
-  m.textContent='触发中…';
+  btn.disabled=true;btn.style.opacity=.5;m.textContent='触发中…';
   try{{
     const r=await fetch('https://api.github.com/repos/xiaomin4576-ui/meigu-ai-stock-board/actions/workflows/daily-board.yml/dispatches',{{method:'POST',headers:{{'Authorization':'Bearer '+DT,'Accept':'application/vnd.github+json'}},body:JSON.stringify({{ref:'main'}})}});
-    m.textContent = r.status===204 ? '✅ 已触发 DeepSeek 重新研判,约3-5分钟后完成 → 到时点「手动刷新」看最新' : '❌ 触发失败('+r.status+')';
-  }}catch(e){{m.textContent='❌ 网络出错';}}
+    if(r.status!==204){{m.textContent='❌ 触发失败('+r.status+')';btn.disabled=false;btn.style.opacity=1;return;}}
+    m.textContent='✅ 已触发,云端构建中(一般5-15分钟,请勿重复点击)…';
+    const t0=Date.now();
+    // 用同一凭证轮询构建状态:完成后给"点此加载最新"(自带绕缓存),别再让用户瞎猜好没好
+    const timer=setInterval(async function(){{
+      try{{
+        const rr=await fetch('https://api.github.com/repos/xiaomin4576-ui/meigu-ai-stock-board/actions/runs?event=workflow_dispatch&per_page=1',{{headers:{{'Authorization':'Bearer '+DT,'Accept':'application/vnd.github+json'}}}});
+        const j=await rr.json();const run=j.workflow_runs&&j.workflow_runs[0];
+        const mins=Math.max(1,Math.round((Date.now()-t0)/60000));
+        if(run&&run.status==='completed'&&new Date(run.created_at).getTime()>t0-120000){{
+          clearInterval(timer);btn.disabled=false;btn.style.opacity=1;
+          if(run.conclusion==='success'){{m.innerHTML='🎉 新研判已上线!<a href="javascript:void(0)" onclick="location.href=\\'board.html?t=\\'+Date.now()" style="color:#4ade80;font-weight:800">点此加载最新看板</a>';}}
+          else{{m.textContent='⚠️ 云端构建结束('+run.conclusion+'),稍等片刻再点一次';}}
+        }}else{{m.textContent='⏳ 云端构建中… 已等 '+mins+' 分钟(一般5-15分钟,完成会在这里提示)';}}
+      }}catch(e){{}}
+    }},20000);
+  }}catch(e){{m.textContent='❌ 网络出错';btn.disabled=false;btn.style.opacity=1;}}
 }}
 document.addEventListener('click',function(e){{
   var b=e.target.closest('.tab'); if(!b)return;

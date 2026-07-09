@@ -112,7 +112,21 @@ async function newsUpd(){{
   m.textContent='触发中…';
   try{{
     const r=await fetch('https://api.github.com/repos/xiaomin4576-ui/meigu-ai-stock-board/actions/workflows/daily-board.yml/dispatches',{{method:'POST',headers:{{'Authorization':'Bearer '+DT,'Accept':'application/vnd.github+json'}},body:JSON.stringify({{ref:'main',inputs:{{mode:'news'}}}})}});
-    m.textContent = r.status===204 ? '✅ 已触发重抓头条(不动个股研判),约5分钟后刷新本页看最新' : '❌ 触发失败('+r.status+')';
+    if(r.status!==204){{m.textContent='❌ 触发失败('+r.status+')';return;}}
+    m.textContent='✅ 已触发,云端构建中(一般5-15分钟)…';
+    const t0=Date.now();
+    const timer=setInterval(async function(){{
+      try{{
+        const rr=await fetch('https://api.github.com/repos/xiaomin4576-ui/meigu-ai-stock-board/actions/runs?event=workflow_dispatch&per_page=1',{{headers:{{'Authorization':'Bearer '+DT,'Accept':'application/vnd.github+json'}}}});
+        const j=await rr.json();const run=j.workflow_runs&&j.workflow_runs[0];
+        const mins=Math.max(1,Math.round((Date.now()-t0)/60000));
+        if(run&&run.status==='completed'&&new Date(run.created_at).getTime()>t0-120000){{
+          clearInterval(timer);
+          if(run.conclusion==='success'){{m.innerHTML='🎉 最新头条已上线!<a href="javascript:void(0)" onclick="location.href=\\'news.html?t=\\'+Date.now()" style="color:#4ade80;font-weight:800">点此加载</a>';}}
+          else{{m.textContent='⚠️ 构建结束('+run.conclusion+'),稍后再试';}}
+        }}else{{m.textContent='⏳ 云端构建中… 已等 '+mins+' 分钟';}}
+      }}catch(e){{}}
+    }},20000);
   }}catch(e){{m.textContent='❌ 网络出错';}}
 }}
 </script>
