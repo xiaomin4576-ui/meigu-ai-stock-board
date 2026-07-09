@@ -1,0 +1,528 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
+<title>同光科技 · AI 股票看板 · 2026-07-09</title><style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;color:#e2e8f0;line-height:1.6;padding:20px}
+.wrap{max-width:1280px;margin:0 auto}
+.header{background:linear-gradient(135deg,#1e293b,#0f172a);border:1px solid #334155;border-radius:16px;padding:24px 28px;margin-bottom:16px}
+.header h1{font-size:26px;font-weight:900;color:#60a5fa}.sub{font-size:13px;color:#94a3b8;margin-top:6px}
+.updated{margin-top:8px;font-size:12px;color:#7c8aa3;background:rgba(96,165,250,.06);border-radius:8px;padding:6px 12px}.updated b{color:#cbd5e1}.updated a{color:#60a5fa;text-decoration:none;font-weight:700}
+.market{margin-top:14px;padding:14px 16px;background:rgba(96,165,250,.08);border-radius:10px;font-size:13.5px;color:#cbd5e1}
+.rankbar{margin-top:12px;padding:12px 16px;background:rgba(251,191,36,.08);border:1px solid rgba(251,191,36,.2);border-radius:10px;font-size:13px}.rankbar b{color:#fbbf24}
+.fresh{border-radius:12px;padding:11px 16px;margin-bottom:16px;font-size:12.5px;line-height:1.7}
+.fresh.ok{background:rgba(74,222,128,.08);border:1px solid rgba(74,222,128,.25);color:#bbf7d0}
+.fresh.stale{background:rgba(251,146,60,.1);border:1px solid rgba(251,146,60,.35);color:#fed7aa}
+.review{background:#0f1a30;border:1px solid #2a3a5a;border-radius:14px;padding:16px 18px;margin-bottom:16px}
+.rv-h{font-size:16px;font-weight:800;color:#a5b4fc;margin-bottom:10px}.rv-sub{font-size:11px;color:#64748b;font-weight:400;margin-left:6px}
+.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:10px}
+@media(max-width:860px){.stats{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}}
+.stat{background:rgba(51,65,85,.35);border-radius:10px;padding:8px 10px;text-align:center}
+.sl{font-size:10.5px;color:#94a3b8;margin-bottom:3px}.sv{font-size:18px;font-weight:800;color:#e2e8f0}
+.rv-line{font-size:12.5px;color:#cbd5e1;margin-top:6px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-bottom:18px}
+.section{display:flex;align-items:center;gap:10px;font-size:16px;font-weight:800;color:#e2e8f0;margin:6px 0 12px;padding:10px 14px;background:linear-gradient(90deg,rgba(96,165,250,.14),transparent);border-left:4px solid #60a5fa;border-radius:8px}
+.section .scnt{font-size:12px;font-weight:600;color:#94a3b8;background:rgba(148,163,184,.15);padding:2px 10px;border-radius:10px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 16px;position:sticky;top:0;z-index:20;background:#0b1120;padding:10px 0}
+.tab{font-size:14.5px;font-weight:800;color:#94a3b8;background:#111a2e;border:1px solid #334155;border-radius:11px;padding:9px 18px;cursor:pointer;transition:all .12s;font-family:inherit}
+.tab:hover{color:#cbd5e1;border-color:#475569}
+.tab.active{color:#fff;background:linear-gradient(135deg,#2563eb,#1d4ed8);border-color:#2563eb;box-shadow:0 2px 10px rgba(37,99,235,.35)}
+.tab .tc{font-size:11px;background:rgba(255,255,255,.22);border-radius:8px;padding:1px 7px;margin-left:6px}
+.pane.hide{display:none}
+.card{background:#111a2e;border:1px solid #334155;border-radius:14px;padding:16px 18px}
+.hd{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.rk{font-size:18px}.tk{font-size:18px;font-weight:900;color:#f1f5f9}.nm{color:#94a3b8;font-size:13px}
+.badge{font-size:11px;padding:2px 9px;border-radius:10px;background:rgba(96,165,250,.15);color:#93c5fd}
+.sig{margin-left:auto;font-weight:800;font-size:14px}
+.conf{font-size:10.5px;color:#a5b4fc;background:rgba(165,180,252,.13);padding:2px 8px;border-radius:10px;margin-left:8px}
+.score{font-size:10.5px;color:#fbbf24;background:rgba(251,191,36,.12);padding:2px 8px;border-radius:10px;margin-left:6px}
+.rr{font-size:11.5px;color:#cbd5e1;background:rgba(248,113,113,.07);border-radius:8px;padding:6px 10px;margin-top:6px}
+.evid{background:#0f1a30;border:1px solid #2a3a5a;border-radius:14px;padding:14px 18px;margin-bottom:16px;font-size:12.5px;line-height:1.85}
+.ev-reg{color:#a5b4fc;font-weight:700;margin-bottom:6px}.ev-bt{color:#cbd5e1}
+.audit{font-size:11.5px;color:#94a3b8;background:rgba(51,65,85,.25);border:1px solid #334155;border-radius:12px;padding:12px 16px;margin-top:16px;line-height:1.8}
+.px{display:flex;align-items:baseline;gap:12px;margin-bottom:12px;flex-wrap:wrap}
+.now{font-size:26px;font-weight:900;color:#f8fafc}.mom{font-size:12px;color:#94a3b8}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:10px}
+.kpi{background:rgba(51,65,85,.35);border-radius:10px;padding:10px;text-align:center}
+.kl{font-size:11px;color:#94a3b8;margin-bottom:4px}
+.kv{font-size:16px;font-weight:800}.kv.buy{color:#4ade80}.kv.tgt{color:#2dd4bf}.kv.ret{color:#fbbf24}
+.cons{font-size:12px;color:#cbd5e1;background:rgba(45,212,191,.07);border-radius:8px;padding:7px 10px;margin-top:6px}
+.th{font-size:13px;color:#dbeafe;padding:8px 0 4px;border-top:1px solid rgba(51,65,85,.5);margin-top:6px}
+.news{font-size:11.5px;color:#94a3b8;line-height:1.8;margin-bottom:4px}
+.news a{color:#93c5fd;text-decoration:none}.news a:hover{text-decoration:underline}.src{color:#64748b;font-size:10px}
+.rk2{font-size:11.5px;color:#7c8aa3}
+.foot{text-align:center;font-size:11px;color:#475569;margin-top:18px;line-height:1.8}
+.qa{background:#0f1a30;border:1px solid #2a3a5a;border-radius:14px;margin-bottom:16px;overflow:hidden}
+.qa-h{display:flex;align-items:center;gap:10px;font-size:15px;font-weight:800;color:#a5b4fc;padding:13px 18px;cursor:pointer;user-select:none}
+.qa-h:hover{background:rgba(96,165,250,.06)}
+.qa-sub{font-size:11px;font-weight:400;color:#64748b}
+.qa-body{padding:0 18px 14px}
+.qa-body.hide{display:none}
+.qa-chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.chip{font-size:12px;color:#93c5fd;background:rgba(96,165,250,.1);border:1px solid rgba(96,165,250,.3);border-radius:16px;padding:5px 12px;cursor:pointer;font-family:inherit}
+.chip:hover{background:rgba(96,165,250,.2)}
+.qa-log{display:flex;flex-direction:column;gap:8px;max-height:420px;overflow-y:auto;margin-bottom:10px}
+.qa-m{font-size:13px;line-height:1.7;border-radius:12px;padding:9px 13px;max-width:88%}
+.qa-u{align-self:flex-end;background:rgba(37,99,235,.25);color:#dbeafe;border:1px solid rgba(96,165,250,.3)}
+.qa-a{align-self:flex-start;background:rgba(51,65,85,.35);color:#e2e8f0;border:1px solid #334155}
+.qa-li{padding-left:6px}
+.qa-hd{font-weight:800;color:#93c5fd;margin-top:4px}
+.qa-wait{color:#94a3b8;font-size:12px}
+.qa-inrow{display:flex;gap:8px;align-items:flex-end}
+.qa-inrow textarea{flex:1;background:#111a2e;border:1px solid #334155;border-radius:10px;color:#e2e8f0;font-size:13px;font-family:inherit;padding:9px 12px;resize:vertical;line-height:1.5}
+.qa-inrow textarea:focus{outline:none;border-color:#2563eb}
+#qa-send{background:#2563eb;color:#fff;border:none;border-radius:10px;padding:9px 18px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit}
+#qa-send:disabled{opacity:.5;cursor:default}
+.qa-foot{font-size:10.5px;color:#64748b;margin-top:8px;line-height:1.6}
+.qa-basis{font-size:11.5px;color:#93c5fd;cursor:pointer;margin-bottom:8px;user-select:none}
+.qa-basis:hover{text-decoration:underline}
+.qa-basis-body{font-size:11.5px;color:#94a3b8;background:rgba(51,65,85,.25);border:1px solid #334155;border-radius:10px;padding:10px 13px;margin-bottom:10px;line-height:1.8}
+.qa-basis-body.hide{display:none}
+.qa-src{font-size:10.5px;color:#64748b;border-top:1px dashed rgba(100,116,139,.4);margin-top:8px;padding-top:6px}
+</style></head><body><div class="wrap">
+<div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#c8a562;margin-bottom:8px">LUMORA · 同光科技</div><h1>📡 同光科技 · AI 股票看板 · 2026-07-09</h1>
+<div class="sub">美股 AI 核心 10 票 + 🇨🇳 A 股补充 8 票 + QQQ 基准 · 长期 6-12 个月(长期) 视角 · 数据 yfinance+akshare(真实行情) · AI 研判</div>
+<div class="updated">🕐 本页生成:<b>2026-07-09 08:31</b> 北京 · <a href="news.html">🌍 全球头条</a> · <a href="ops.html">📊 运营看板</a> · <a href="javascript:location.reload(true)">🔄 手动刷新</a> · <button onclick="triggerUpd()" style="background:#2563eb;color:#fff;border:none;border-radius:8px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer">🔁 更新研判</button><span id="updmsg" style="color:#94a3b8;font-size:12px;margin-left:6px"></span></div>
+<script>
+const DT="__DISPATCH_TOKEN__";
+async function triggerUpd(){
+  const m=document.getElementById('updmsg');
+  if(!DT||DT.indexOf('__DISPATCH')>=0){m.textContent='更新触发未配置';return;}
+  m.textContent='触发中…';
+  try{
+    const r=await fetch('https://api.github.com/repos/xiaomin4576-ui/meigu-ai-stock-board/actions/workflows/daily-board.yml/dispatches',{method:'POST',headers:{'Authorization':'Bearer '+DT,'Accept':'application/vnd.github+json'},body:JSON.stringify({ref:'main'})});
+    m.textContent = r.status===204 ? '✅ 已触发 DeepSeek 重新研判,约3-5分钟后完成 → 到时点「手动刷新」看最新' : '❌ 触发失败('+r.status+')';
+  }catch(e){m.textContent='❌ 网络出错';}
+}
+document.addEventListener('click',function(e){
+  var b=e.target.closest('.tab'); if(!b)return;
+  document.querySelectorAll('.tab').forEach(function(x){x.classList.remove('active');});
+  b.classList.add('active');
+  var t=b.dataset.tab;
+  document.querySelectorAll('.pane').forEach(function(p){p.classList.toggle('hide', t!=='all' && p.dataset.mkt!==t);});
+});
+</script>
+<div class="market">🌎 <b style="color:#60a5fa">大盘与板块:</b><b>Claude 引擎当期研判(2026-07-07,两阶段:逐票研判→对抗验证定稿)。</b>本期 买入3 / 观望16 / 回避0。市场体制顺风:QQQ 722.8 &gt; MA50(709)&gt; MA200(635),m3 +22%作全池相对强弱基准。复盘校准:历史预测平均仅完成目标 15.8% → 本期目标价全面收窄(单票预期收益压至 +7~28%),买点一律给回踩支撑、不追高。纪律要点:台积电财报 7/16 临近(9天)标⚠️二元风险降观望;ANET/CRDO 隔夜跳涨脱离买区、按纪律不追;A股八票普遍高波动,均值回归买点为主;美股共识为 Finnhub 评级(免费档无券商目标价,目标为技术/估值推演),A股为东财评级+EPS预测,长飞数据不足仅技术面。仅研究示范,非投资建议。</div>
+<div class="rankbar">🏆 <b>买点吸引力排序:</b>英伟达 ＞ 美光 ＞ 迈威尔 ＞ 台积电 ＞ 中芯国际 ＞ Arista ＞ 纳指100 ETF ＞ Vertiv ＞ 博通 ＞ 寒武纪 ＞ Credo ＞ 相干 ＞ 东山精密 ＞ 中天科技 ＞ 纳芯微 ＞ 探路者 ＞ 兆易创新 ＞ 德明利 ＞ 长飞光纤</div></div>
+<div class="fresh stale">🟠 <b>研判仍是 2026-07-07(2 天前)</b>——买入价/目标价请仅作参考,在 Claude 里说「跑美股AI早报 / 刷新云端美股看板」即可刷新<br>🟠 <b>行情数据降级:</b>1/19 支复用历史真实收盘(取数受限:6869.HK),其余 18/19 为最近真值;价格全真实、非编造,但部分非当日——<b>价格非当日实时</b>,买卖价据此推演,请留意。</div>
+
+<div class="qa">
+ <div class="qa-h" onclick="qaToggle()">🤖 盘势问答<span class="qa-sub">基于本期看板研判 + 同光AI早报要闻 · DeepSeek 引擎 · 输密码者可用</span><span id="qa-arrow" style="margin-left:auto">▸</span></div>
+ <div class="qa-body hide" id="qa-body">
+  <div class="qa-basis" onclick="qaBasisToggle()">ℹ️ 回答依据(点开看问答基于什么逻辑、关联了哪些数据)</div>
+  <div class="qa-basis-body hide" id="qa-basis-body">
+   <b>每次回答喂给引擎三路语料 + 一套写死纪律:</b><br>
+   ① <b>本期看板语境(页内嵌)</b>:19 票真实行情(价/动量/MA50/MA200/波动/财报日)+ 本期研判(信号/买入价/目标价/逻辑/风险)+ 复盘记分卡(入场触及率/方向胜率/目标完成度);<br>
+   ② <b>同光AI早报要闻(实时拉取)</b>:Top5/Tier0/质量≥8 的最新 24 条,带「这意味着」决策洞察;<br>
+   ③ <b>全球市场头条(页内嵌)</b>:宏观/地缘+科技双档最新一期,带「事件→美股→A股」传导链;<br>
+   <b>纪律</b>:只答有据可依的、缺的直说"语料未覆盖"、"何时回转"必须转成【观察条件+信号+三情景时间量级】而非预测日期、绝不编造价格/券商目标价、末尾固定免责。每条回答下方会标注本次实际用到的语料。
+  </div>
+  <div class="qa-chips">
+   <button class="chip" onclick="qaAsk('看板里A股这几只普遍在跌,这轮回调大概什么时候能企稳回转?给出要观察的价位信号、催化剂和乐观/中性/悲观三种情景。')">📉 A股何时企稳?</button>
+   <button class="chip" onclick="qaAsk('寒武纪最近在往下掉,现在该怎么办?出现什么信号说明趋势扭转?')">🇨🇳 寒武纪怎么办?</button>
+   <button class="chip" onclick="qaAsk('结合同光早报的AI行业最新动向,美股AI链现在优先配置谁,为什么?')">🇺🇸 美股AI链配谁?</button>
+  </div>
+  <div class="qa-log" id="qa-log"></div>
+  <div class="qa-inrow">
+   <textarea id="qa-in" rows="2" placeholder="问点什么…例如:这波下跌趋势大概什么时候可能扭转?(Enter 发送,Shift+Enter 换行)"></textarea>
+   <button id="qa-send" onclick="qaSend()">发送</button>
+  </div>
+  <div class="qa-foot">⚠️ 回答由 AI 基于本页真实数据与同光早报生成,仅研究示范、<b>非投资建议</b>;未来无法被预测,"何时回转"只能给<b>条件与信号</b>,不是承诺。</div>
+ </div>
+</div>
+<script>
+const QK="__QA_KEY__";
+const QACTX={"asof": "2026-07-07", "大盘": "Claude 引擎当期研判(2026-07-07,两阶段:逐票研判→对抗验证定稿)。本期 买入3 / 观望16 / 回避0。市场体制顺风:QQQ 722.8 &gt; MA50(709)&gt; MA200(635),m3 +22%作全池相对强弱基准。复盘校准:历史预测平均仅完成目标 15.8% → 本期目标价全面收窄(单票预期收益压至 +7~28%),买点一律给回踩支撑、不追高。纪律要点:台积电财报 7/16 临近(9天)标⚠️二元风险降观望;ANET/CRDO 隔夜跳涨脱离买区、按纪律不追;A股八票普遍高波动,均值回归买点为主;美股共识为 Finnhub 评级(免费档无券商目标价,目标为技术/估值推演),A股为东财评级+EPS预测,长飞数据不足仅技术面。仅研究示范,非投资建议。", "复盘记分卡": {"入场触及率%": 61, "方向胜率%": 97, "平均目标完成度%": 23.1, "口径": "仅统计买入信号且买入价真实触及的仓位"}, "全球头条": {"date": "2026-07-07", "条目": ["[宏观] 伊朗袭击霍尔木兹海峡商船，油价上涨 | 传导:事件→美股能源板块波动→A股石油开采链", "[宏观] 特朗普赴土耳其，北约因俄攻击和美不耐烦承压 | 传导:事件→地缘风险影响美股情绪→A股军工链", "[宏观] 马克龙下榻酒店附近爆炸，爱丽舍宫称其无恙 | 传导:事件→地缘风险升温→A股避险资产链", "[宏观] 俄称欧盟为能源“去俄化”多花3万亿欧元 | 传导:事件→欧洲能源成本上升→A股能源替代链", "[宏观] 联合国报告：2025年全球FDI结束下滑 | 传导:事件→全球投资回暖利好美股→A股外资偏好链", "[宏观] 在岸人民币兑美元收盘报6.7956 | 传导:事件→人民币贬值影响A股外资流向→A股出口链", "[宏观] 港交所上半年IPO集资额同比增92% | 传导:事件→港股活跃映射A股情绪→A股券商链", "[石油] 伊朗袭击霍尔木兹海峡商船，油价上涨 | 传导:事件→油价短期冲高→莫桑比克LNG项目受益", "[石油] 俄称欧盟为能源“去俄化”多花3万亿欧元 | 传导:事件→欧洲能源成本上升→利好非洲LNG出口", "[石油] 油轮投资者担忧马六甲海峡成为下一个收费战场 | 传导:事件→航运成本上升→东非油气出口成本增加", "[石油] 欧盟拍卖碳配额，每吨80.11欧元 | 传导:事件→碳价高位→推升油气项目成本，但利好清洁能源", "[石油] 印尼火山喷发，火山灰柱高约1400米 | 传导:事件→可能影响航运路线→东非油气运输暂无直接冲击", "[科技] 英伟达下一代AI机架系统延迟至2028年 | 传导:事件→英伟达股价承压→A股算力链（光模块/服务器）", "[科技] 微软裁员4800人，Xbox部门重组 | 传导:事件→科技巨头裁员信号→A股游戏/云产业链", "[科技] 中国AI模型获美国公司青睐，OpenAI成本飙升 | 传导:事件→利好中国AI企业→A股AI应用/算力链"]}, "标的": {"NVDA": {"名": "英伟达", "市场": "US", "价": 204.12, "涨1月%": -0.5, "涨3月%": 14.6, "涨6月%": 8.5, "距52周高%": -13.7, "MA50": 209.52, "MA200": 191.4, "年化波动%": 35.0, "财报": "2026-08-25", "信号": "买入", "置信": 6, "买入价": "188–196", "目标价": "218–232", "预期收益": "+17%", "逻辑": "现价195.55回踩至MA200(191.03)关键支撑区，前瞻PE29.5、EPS增速110.3%、PEG约0.27极低估值，Finnhub评级均值1.74(强买)、买入占比0.93、覆盖68家共识极强；无券商目标价可校准，目标218–232为技术(52周高236.54下方)+估值(龙头理应享溢价)推演，务实收窄不追前高；催化剂为8/25财报，距今50天暂无二元风险。", "风险": "m3仅+10.9%明显跑输QQQ(+22%)、短线已破MA50(209.8)趋势走弱，年化波动39.5%高；若跌破MA200(191)则技术走坏、回补52周低157.34下行空间大；AI资本开支/关税及需求预期变化为长期扰动。"}, "MU": {"名": "美光", "市场": "US", "价": 948.8, "涨1月%": 9.8, "涨3月%": 151.3, "涨6月%": 204.0, "距52周高%": -24.4, "MA50": 880.21, "MA200": 456.27, "年化波动%": 116.5, "财报": "2026-09-21", "信号": "买入", "置信": 6, "买入价": "850–910", "目标价": "1080–1180", "预期收益": "+28%", "逻辑": "强势多头排列(现价975>MA50852>MA200444),m3=+165%相对强度碾压QQQ+22%,HBM/内存超周期驱动EPS增速700%、前瞻PE仅21.8不贵、评级均值1.76(55家覆盖/买入占比0.93);但已抛物线且波动132%,故买点严限回踩MA50(850–910)不追高。目标1080–1180靠前瞻PE21.8×高EPS及52周高1255下方阻力自推,无券商目标价可校准,目标为技术/估值推演。", "风险": "年化波动132%极高、6月已涨233%属抛物线,内存周期若见顶或HBM需求预期回摆则回撤剧烈;距52周高仍-22%显示已开始降温;高杠杆EPS增速基于周期低基数,PEG机械偏低具误导性;追高买入尾部风险大。"}, "MRVL": {"名": "迈威尔", "市场": "US", "价": 231.71, "涨1月%": -12.1, "涨3月%": 111.8, "涨6月%": 156.8, "距52周高%": -29.8, "MA50": 228.12, "MA200": 125.12, "年化波动%": 105.7, "财报": "2026-08-26", "信号": "买入", "置信": 6, "买入价": "218–232", "目标价": "268–290", "预期收益": "+24%", "逻辑": "多头排列(现价249.27>MA50 223.63>MA200 122.63)+ m3/m6抛物线(+130%/+183%)远跑赢QQQ(+22%),Finnhub评级均值1.88、买入占比0.86、49家覆盖背书;但过热高波动票不追高,买点等回踩MA50(218–232);前瞻PE缺、无券商目标价可校准,目标268–290系技术/估值推演(不冲52周高329.88强阻力)。", "风险": "年化波动124.5%极高,已从52周高回撤-25.6%且m1=-15.6%仍在降温,抛物线随时深蹲;AI/数据中心资本开支预期若转弱则回撤放大;前瞻PE/EPS增速缺失,估值锚不完整。"}, "TSM": {"名": "台积电", "市场": "US", "价": 436.98, "涨1月%": 5.3, "涨3月%": 26.5, "涨6月%": 35.6, "距52周高%": -8.8, "MA50": 422.48, "MA200": 346.66, "年化波动%": 61.4, "财报": "2026-07-16", "信号": "观望", "置信": 6, "买入价": "415–425", "目标价": "470–495", "预期收益": "+15%", "逻辑": "趋势多头(现价434 > MA50=419.5 > MA200=344),3/6月+27/+45%跑赢QQQ(m3=+22%),相对强弱占优;共识口径评级均值1.79、买入占比0.95、覆盖42家、前瞻PE33.1对EPS增速47.3%即PEG≈0.70估值不贵,ROE36.9/毛利61.9优质;但财报2026-07-16仅9天临近构成二元风险,故不追高、买点压至回踩MA50一带(415–425),目标按前瞻PE略扩至历史区间上沿+回踩52周高479自推。无券商目标价可校准,目标为技术/估值推演。", "风险": "7月16日财报临近(9天)为最大二元风险,不及预期或指引偏软可快速回踩MA50甚至MA200;年化波动63.6%高,代工资本开支/关税与地缘(台海)扰动;若财报后跳空则买点失效。"}, "688981.SS": {"名": "中芯国际", "市场": "CN", "价": 152.1, "涨1月%": 24.8, "涨3月%": 65.7, "涨6月%": 23.6, "距52周高%": -4.2, "MA50": 133.55, "MA200": 120.7, "年化波动%": 58.0, "财报": "2026-08-28", "信号": "观望", "置信": 6, "买入价": "128–133", "目标价": "150–160", "预期收益": "+19%", "逻辑": "趋势健康(现价143.99站上MA50=131.14/MA200=120.03),3月+49.2%大幅跑赢QQQ(+22%)、6月+16.5%,东财\"买入\"+104篇研报覆盖,催化为半导体板块涨停潮+国产替代(抛光液突破)+寒武纪破万亿带动板块情绪;但前瞻PE高达181.0、EPS27增速仅约20%,PEG≈9属极度高估,当前140已距52周高仅-11.7%且短期动量透支,买点应等回踩MA50(~131)而非追高,目标150-160为技术/估值推演(逼近52周高158.82的阻力),无券商目标价可校准。", "风险": "估值极贵(前瞻PE181/PEG≈9),年化波动63.9%极高,板块情绪驱动(涨停潮+寒武纪破万亿)一旦退潮易急跌,追高128以上则R:R不足;8-28财报为二元事件。"}, "ANET": {"名": "Arista", "市场": "US", "价": 181.05, "涨1月%": 17.4, "涨3月%": 35.5, "涨6月%": 32.0, "距52周高%": -0.1, "MA50": 159.67, "MA200": 143.56, "年化波动%": 65.8, "财报": "2026-08-04", "信号": "观望", "置信": 6, "买入价": "158–166", "目标价": "180–192", "预期收益": "+15%", "逻辑": "07-07 单日+8.3%跳涨至173.28,脱离原MA50(159.8)买区——隔夜大涨后追高违反纪律;趋势多头(现价>MA50>MA200)、m3+28.1%跑赢QQQ,共识偏多(Finnhub评级均值1.82/买入占比0.91/覆盖34家),但前瞻PE54.1、PEG≈2.3不便宜;等回踩158–166(原MA50支撑带)再介入。目标180–192为前高179.8上方温和修复区;无券商目标价可校准,目标为技术/估值推演。", "风险": "8月3日财报二元事件;前瞻PE54.1偏贵,AI以太网订单增速或毛利不及预期易杀估值;单日跳涨后短线回吐风险;白盒交换机与NVDA网络生态竞争分流;跌破MA200(143)趋势转弱。"}, "QQQ": {"名": "纳指100 ETF", "市场": "US", "价": 711.44, "涨1月%": 0.9, "涨3月%": 20.9, "涨6月%": 15.1, "距52周高%": -5.0, "MA50": 712.62, "MA200": 636.77, "年化波动%": 30.0, "财报": null, "信号": "观望", "置信": 6, "买入价": "690–712", "目标价": "745–760", "预期收益": "+7%", "逻辑": "QQQ为大盘基准仅给体制读数不做个股买卖:现价722.82贴MA50(709.15)、远在MA200(634.93)之上=多头结构未破,3月+22%动能强但1月-4.5%显示短期回踩,距52周高仅-4.8%上方空间有限;无券商数据/无目标价可校准,745–760目标为技术推演(前高748.65+小幅新高),体制偏多但追高性价比低,回踩MA50一带再择机。", "风险": "作为基准本身无个股alpha;1月-4.5%回调若跌破MA50(709)则打开向MA200补跌空间;年化波动33.8%偏高,估值处高位对利率/财报季敏感,顶部区间上行空间受限。"}, "VRT": {"名": "Vertiv", "市场": "US", "价": 317.81, "涨1月%": 5.8, "涨3月%": 21.2, "涨6月%": 82.7, "距52周高%": -16.4, "MA50": 324.43, "MA200": 235.11, "年化波动%": 85.9, "财报": "2026-08-05", "信号": "观望", "置信": 6, "买入价": "285–305", "目标价": "340–370", "预期收益": "+20%", "逻辑": "现价318.47跌破MA50(324.6)但稳守MA200(232.48),长期AI数据中心电力/散热主线未破;共识口径评级均值1.94、买入占比0.85、34家覆盖,前瞻PE73.3配EPS增速131%→PEG约0.56估值不贵;但m3仅+15.9%跑输QQQ(+22%)、年化波动85.2%偏高、8-05财报22天后临近,故先观望等回踩285–305支撑区分批,不追高;无券商目标价可校准,目标340–370为技术(重夺MA50+逼近52周高379.94)/估值(前瞻PE×EPS)推演。", "风险": "年化波动85.2%高波动;m3跑输QQQ、现价已跌破MA50显中期趋势走弱;8-05财报为二元风险(EPS增速131%高基数,不及预期易急杀);前瞻PE73.3绝对估值偏高,若AI资本开支预期降温杀估值空间大;跌破MA200(232.48)则长期逻辑动摇。"}, "AVGO": {"名": "博通", "市场": "US", "价": 388.69, "涨1月%": 0.8, "涨3月%": 16.4, "涨6月%": 13.2, "距52周高%": -21.5, "MA50": 406.79, "MA200": 361.86, "年化波动%": 51.6, "财报": "2026-09-02", "信号": "观望", "置信": 5, "买入价": "330–348", "目标价": "398–418", "预期收益": "+17%", "逻辑": "趋势破位:现价373.9已跌破MA50(409.43)、仅贴MA200(361.45),1月-25.2%重挫且3月+15%跑输QQQ(+22%),相对强弱走弱、68%高波动;基本面仍强(Finnhub评级均值1.77、买入占比0.93、覆盖56家、前瞻PE58.5对EPS增速125.8%→PEG约0.47估值不贵),但无券商目标价可校准,目标398-418为技术/估值推演(回补MA50上方且较前瞻PE隐含区间保守收窄);当下不追高,等回踩330-348或站稳MA50再介入。", "风险": "趋势已破MA50、若失守MA200(361.45)则打开下探269.58前低空间;68%年化波动放大回撤;跑输QQQ显示资金相对回避;9-2财报前无明确催化,若AI资本开支预期降温估值有杀PE风险。"}, "688256.SS": {"名": "寒武纪", "市场": "CN", "价": 1413.55, "涨1月%": 13.1, "涨3月%": 105.5, "涨6月%": 59.8, "距52周高%": -11.4, "MA50": 1301.72, "MA200": 967.44, "年化波动%": 79.1, "财报": "2026-08-08", "信号": "观望", "置信": 5, "买入价": "1270–1330", "目标价": "1500–1620", "预期收益": "+20%", "逻辑": "东财买入评级/研报40篇、前瞻PE158.9且EPS27增速100.3%(PEG~1.6)、经营现金流每股1.98转正,基本面配置国产AI算力龙头逻辑成立;但m3+105%/m6+57%呈抛物线过热、年化波动82%,现价1353已在MA50(1271.81)上方6.4%,策略上只等回踩MA50(1270-1330)企稳再介入、不追高;无券商目标价可校准,目标1500-1620为技术(52周高1595.55阻力)+估值推演。", "风险": "深夜公告提示股价可能存在下跌风险(官方风险提示,罕见);抛物线走势+82%极端波动,高位回撤空间大;万亿市值+PE158.9估值极高,一旦增速证伪或情绪退潮杀估值凶;科创板首只万亿股关注度过高易被资金博弈。"}, "CRDO": {"名": "Credo", "市场": "US", "价": 258.69, "涨1月%": 25.0, "涨3月%": 142.2, "涨6月%": 84.5, "距52周高%": -16.2, "MA50": 221.36, "MA200": 160.07, "年化波动%": 115.5, "财报": "2026-09-01", "信号": "观望", "置信": 5, "买入价": "205–218", "目标价": "255–280", "预期收益": "+27%", "逻辑": "CRDO趋势极强(现价241.9站上MA50=217/MA200=159,3月劲涨152%跑赢QQQ),AI数据中心互连需求叠加EPS增速793.6%高成长,共识极佳(评级均值1.7、买入占比93%、覆盖27家);但前瞻PE95.5属高估、年化波动110.8%极端、距52周高-21.6%显示已见回落,现价处抛物线过热区不宜追高,买点须等回踩MA50(217附近)-现价下方区间;无券商目标价可校准,目标255-280为技术/估值推演(回踩后弹向52周高308下方的务实区间)。", "风险": "年化波动110.8%极端高、前瞻PE95.5估值透支,一旦AI互连需求预期或EPS超高增速证伪即剧烈回调;抛物线拉升后已从高点回落21.6%,追高易套;9月1日财报为下一二元催化点。"}, "COHR": {"名": "相干", "市场": "US", "价": 317.05, "涨1月%": -15.9, "涨3月%": 24.3, "涨6月%": 70.1, "距52周高%": -27.9, "MA50": 367.87, "MA200": 240.05, "年化波动%": 95.1, "财报": "2026-08-11", "信号": "观望", "置信": 5, "买入价": "300–325", "目标价": "360–400", "预期收益": "+22%", "逻辑": "COHR长期趋势完好(现价335.7远高于MA200=236.79),6月+78.4%/3月+34.5%跑赢QQQ(+22%),Finnhub评级均值2.0、买入占比0.76、覆盖29家背书;但1月急跌-21.9%已跌破MA50(-9.7%)、距52周高-24.2%,叠加前瞻PE 139.1极贵(EPS增速275.5%难持续、PEG约0.5系高增速失真)、年化波动102.7%全组最高,不宜追高;等回踩300–325支撑区确认企稳再介入。目标360–400为技术/估值推演(回补MA50至前高区间),无券商目标价可校准(target_mean全null)。", "风险": "年化波动102.7%极端,估值前瞻PE139.1透支、275.5%EPS增速不可持续存杀估值风险;1月-21.9%已破MA50,短期趋势转弱可能续跌探MA200;08-11财报为二元催化,不及预期或加速回落。"}, "002384.SZ": {"名": "东山精密", "市场": "CN", "价": 237.56, "涨1月%": 11.5, "涨3月%": 114.9, "涨6月%": 176.6, "距52周高%": -13.9, "MA50": 224.4, "MA200": 120.92, "年化波动%": 84.6, "财报": "2026-08-22", "信号": "观望", "置信": 4, "买入价": "212–222", "目标价": "258–272", "预期收益": "+22%", "逻辑": "趋势极强(现价224.46>MA50 221.27>MA200 118.35多头排列)、m3+125%/m6+184%远跑赢QQQ+22%,果链+AI服务器PCB双主线,东财\"买入\"/研报111篇背书,催化为龙虎榜连续+融资客大举买入;但m6抛物线过热、距52周高仅-15.6%、年化波动88.4%,PEG~3.6(前瞻PE112.4÷EPS增速31.2%)极贵、ROE仅4.9%,不追高,买点等回踩MA50(约212–222);无券商目标价可校准,目标258–272为技术(反弹前高附近)/估值推演,已按历史仅完成15.5%纪律务实收窄。", "风险": "抛物线暴涨后均值回归/回撤风险大(m6+184%、波动88.4%);龙虎榜连续+融资客大举买入=游资拥挤交易+高杠杆资金,一旦情绪逆转易踩踏;PEG~3.6估值透支、ROE低;若跌破MA50 221转弱看MA200。"}, "600522.SS": {"名": "中天科技", "市场": "CN", "价": 44.86, "涨1月%": -9.4, "涨3月%": 46.3, "涨6月%": 142.5, "距52周高%": -34.1, "MA50": 46.9, "MA200": 27.56, "年化波动%": 84.9, "财报": "2026-08-28", "信号": "观望", "置信": 4, "买入价": "46–48", "目标价": "52–56", "预期收益": "+15%", "逻辑": "趋势多头(现价48.03>MA50 46.12>MA200 27.09)但m3+66.9%/m6+154.7%、年化波动93%已抛物线过热,东财\"买入\"评级+98篇研报口径偏乐观却无单一券商目标价可校准;前瞻PE35.1对EPS27增速仅1.4%→PEG约25严重高估、ROE2.42、经营现金流每股-0.57为负,基本面不支撑当前估值;7月3日特大单净流出36.49亿元+已距52周高-26.3%,故不追高、等回踩MA50企稳;目标52–56为技术(前高压力)+估值推演,无券商目标价可校准。", "风险": "抛物线过热叠加93%极高波动,7月3日特大单净流出36.49亿元显示主力资金离场,若跌破MA50(46.12)则回补涨幅空间大;PEG约25、经营现金流为负,基本面无法支撑高估值,存戴维斯双杀风险;8月28日财报若不及预期加速回落。"}, "688052.SS": {"名": "纳芯微", "市场": "CN", "价": 249.19, "涨1月%": 11.4, "涨3月%": 67.6, "涨6月%": 52.9, "距52周高%": -16.9, "MA50": 241.59, "MA200": 186.87, "年化波动%": 65.4, "财报": "2026-08-28", "信号": "观望", "置信": 4, "买入价": "234–244", "目标价": "275–298", "预期收益": "+20%", "逻辑": "纳芯微站上MA50(236.75)/MA200(185.71)双均线、3月涨73.8%大幅跑赢QQQ(+22%),资金面催化强(主力连续5日净流入+融资客净买入),东财\"买入\"评级/研报52篇(无单一券商目标价);但前瞻PE 244.8、EPS增速53.3%→PEG≈4.6估值极贵,ROE与经营现金流双负、烧钱,属抛物线过热高波动票——目标为技术/估值推演(回踩MA50后看反弹至前高300附近,务实压至298以内),无券商目标价可校准。", "风险": "3月+73.8%抛物线过热+年化波动72.7%,回调风险高;融资盘拥挤(融资客净买入)是回调放大器;PEG≈4.6估值极端,ROE-0.47/经营现金流每股-1.19双负、持续烧钱;距52周高仅-14.3%追高空间有限;若跌破MA50(236.75)趋势转弱。"}, "300005.SZ": {"名": "探路者", "市场": "CN", "价": 20.68, "涨1月%": 39.7, "涨3月%": 44.3, "涨6月%": 89.0, "距52周高%": -15.3, "MA50": 17.37, "MA200": 13.16, "年化波动%": 105.4, "财报": "2026-08-29", "信号": "观望", "置信": 4, "买入价": "19–21", "目标价": "26–29", "预期收益": "+38%", "逻辑": "探路者抛物线过热(1/3/6月+58/59/117%、年化波动95.8%、MA50溢价+40%、贴顶-3.2%),纯题材/资金驱动(龙虎榜游资博弈),而基本面严重背离——东财仅\"增持\"/研报11篇、前瞻PE135.9、PEG约4.22(极贵)、ROE仅2.76、经营现金流每股为负,东财仍归服装家纺、Micro-LED芯片转型未兑现;无券商目标价可校准,26-29目标为技术/估值推演(前顶24.43上方有限空间×务实收窄),仅当回踩MA50区间(19-21)才具技术性介入价值,当前贴顶不追高。", "风险": "Micro-LED转型仅题材未兑现、随时证伪杀估值;控股股东解除一致行动关系削弱治理确定性;龙虎榜游资博弈、95.8%极端波动下贴顶随时急跌;PEG4.22+ROE2.76+经营现金流为负,估值无基本面支撑,一旦资金退潮可回落至MA50甚至更深。"}, "603986.SS": {"名": "兆易创新", "市场": "CN", "价": 603.17, "涨1月%": 27.2, "涨3月%": 142.5, "涨6月%": 172.1, "距52周高%": -28.2, "MA50": 508.27, "MA200": 308.72, "年化波动%": 101.9, "财报": "2026-08-19", "信号": "观望", "置信": 4, "买入价": "480–510", "目标价": "720–760", "预期收益": "+45%", "逻辑": "现价654.29处于抛物线末端(1/3/6月+37.7/+185.1/+213.6%,远超QQQ m3=+22%),年化波动104%极端过热,估值前瞻PE215×EPS增速仅24%→PEG~9严重透支;东财\"买入\"、研报222篇但无券商目标价可校准(target_mean全null),目标为技术/估值推演——参考MA50=489一带回踩支撑与半导体景气修复,给480–510回踩区间才有正R:R,现价追高无风险收益比;经营现金流每股2.54为正是唯一质地支撑。", "风险": "①股价可能快速回落/连续跌停(近期多次封跌停、深夜风险提示),PEG~9透支下杀空间大;②年化波动104%极端,单日振幅可吞没数月涨幅;③距MA50仍有约28%空间,回踩前不确定性高;④财报2026-08-19临近前情绪脆弱。"}, "001309.SZ": {"名": "德明利", "市场": "CN", "价": 825.0, "涨1月%": 40.3, "涨3月%": 134.4, "涨6月%": 280.1, "距52周高%": -14.9, "MA50": 693.19, "MA200": 367.48, "年化波动%": 86.3, "财报": "2026-08-25", "信号": "观望", "置信": 3, "买入价": "671–720", "目标价": "780–860", "预期收益": "+18%", "逻辑": "德明利半导体存储,东财评级买入/研报21篇但前瞻PE高达183、EPS26→27增速仅3.7%(PEG≈49估值严重透支)、经营现金流每股-1.06为负——质量硬伤明确;1/3/6月+42.5/+132.3/+340.4%抛物线远跑赢QQQ(m3+22%),现价881距MA50(671)高出31%属极度超买,策略框架抛物线过热强制降级观望、买点只给回踩MA50不追高;A股无单一券商目标价,目标为技术/估值推演(回踩企稳后阻力区,非追高),仅在671–720回踩支撑区分批试探。", "风险": "利空明确:\"涨停后炸板\"为短线见顶信号;年化波动87.7%极高,前瞻PE183+PEG≈49估值无支撑,经营现金流为负,一旦回踩不止于MA50、跌破MA200(355.8)则趋势彻底破坏;新晋高价股龙虎榜游资特征,回撤幅度可能远超-10%。"}, "6869.HK": {"名": "长飞光纤", "市场": "HK", "价": 250.0, "涨1月%": 21.2, "涨3月%": 71.4, "涨6月%": 551.4, "距52周高%": -13.1, "MA50": 234.15, "MA200": 117.22, "年化波动%": null, "财报": null, "信号": "观望", "置信": 3, "买入价": "225–235", "目标价": "265–285", "预期收益": "+20%", "逻辑": "数据不足·仅技术面:长飞光纤港股现价250(⚠stale复用历史收盘,非当日实时)强势多头排列——站上MA50(234.15)且远高于MA200(117.22),3/6月狂涨71.4%/551.4%属抛物线过热区,距52周高287.6仅-13.1%;港股无analyst/quality共识、无财报日、年化波动缺,无券商目标价可校准,目标265–285纯技术面推演(回踩MA50一带230建仓、看前高287.6附近);过热+数据缺失下只宜观望,不追高。", "风险": "数据质量硬伤:现价系stale复用历史值,可能已严重偏离真实盘口;6月累涨551%的抛物线走势极易急速回撤,-13.1%距高点意味随时可能补跌;无财报日/无机构覆盖/无波动率,基本面与催化剂完全不可验证;港股流动性与情绪波动大。"}}};
+let QAHIST=[], QABUSY=false, TGCACHE=null;
+function qel(i){return document.getElementById(i);}
+function qaToggle(){const b=qel('qa-body');b.classList.toggle('hide');qel('qa-arrow').textContent=b.classList.contains('hide')?'▸':'▾';}
+function qaBasisToggle(){qel('qa-basis-body').classList.toggle('hide');}
+function qaEsc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function qaMd(s){
+  let h=qaEsc(s).replace(/\*\*([^*]+)\*\*/g,'<b>$1</b>');
+  return h.split('\n').map(function(l){
+    if(/^[-•] /.test(l))return '<div class="qa-li">• '+l.slice(2)+'</div>';
+    if(/^#{1,4} /.test(l))return '<div class="qa-hd">'+l.replace(/^#{1,4} /,'')+'</div>';
+    return l?('<div>'+l+'</div>'):'';
+  }).join('');
+}
+async function tgNews(){
+  if(TGCACHE!==null)return TGCACHE;
+  try{
+    const r=await fetch('tongguang/data/index.json');
+    const j=await r.json();
+    const arts=(j.articles||[]).slice().sort(function(a,b){return String(b.date).localeCompare(String(a.date));});
+    const picked=[];
+    for(const a of arts){
+      if(picked.length>=24)break;
+      if(a.is_top5||a.is_tier0||(a.quality_score||0)>=8)
+        picked.push('['+a.date+'] '+a.title+(a.meaning?(' → 这意味着'+String(a.meaning)):''));
+    }
+    TGCACHE=picked.length?('同光企业AI早报要闻(AI行业前沿信号,最新在前,语料截至 '+(arts[0]?arts[0].date:'?')+'):\n- '+picked.join('\n- ')):'';
+  }catch(e){TGCACHE='';}
+  return TGCACHE;
+}
+function qaAsk(q){if(QABUSY)return;qel('qa-in').value=q;qaSend();}
+function qaBubble(cls,html){
+  const d=document.createElement('div');d.className='qa-m '+cls;d.innerHTML=html;
+  qel('qa-log').appendChild(d);d.scrollIntoView({block:'nearest'});return d;
+}
+async function qaSend(){
+  const q=qel('qa-in').value.trim();
+  if(!q||QABUSY)return;
+  if(!QK||QK.indexOf('__QA_KEY')>=0){qaBubble('qa-a','⚠️ 问答引擎未配置(本地预览版无凭证,线上 andy4576.com 输密码后可用)。');return;}
+  QABUSY=true;qel('qa-send').disabled=true;qel('qa-in').value='';
+  qaBubble('qa-u',qaEsc(q));
+  const abox=qaBubble('qa-a','<span class="qa-wait">🤖 研判中…</span>');
+  try{
+    const tg=await tgNews();
+    const sys='你是一名华尔街二级市场交易员+buy-side分析师,长期跟踪美股AI产业链与A股/港股算力链,现在回答看板主人的盘势问题。硬性纪律:\n1) 只基于给到的【看板数据】(价格真实,内含"全球头条"字段=宏观/地缘+科技双档带传导链)与【同光早报要闻】回答;语料没有的信息直说"语料未覆盖",绝不编造价格/日期/券商目标价。\n2) 遇到"何时回转/何时企稳"类问题:未来无法预测——必须转化为【条件与信号】:给出要观察的关键价位(如站回MA50/跌破MA200)、催化剂(财报日/产业事件/头条里的宏观变量)、并给乐观/中性/悲观三情景的大致时间量级,明说这是情景推演不是预测。\n3) 结论先行、分点、简洁;引用数据注明出处(看板asof日期/同光早报日期/头条日期)。\n4) 末尾固定一句:仅研究示范,非投资建议。用中文回答。';
+    const ctxblk='【看板数据(asof '+QACTX.asof+',价格为真实抓取)】\n'+JSON.stringify(QACTX)+(tg?('\n\n【'+tg+'】'):'\n\n(同光早报语料本次不可用,仅基于看板数据回答)');
+    const msgs=[{role:'system',content:sys}];
+    QAHIST.slice(-3).forEach(function(h){msgs.push({role:'user',content:h.q});msgs.push({role:'assistant',content:h.a});});
+    msgs.push({role:'user',content:ctxblk+'\n\n【问题】'+q});
+    const resp=await fetch('https://api.deepseek.com/v1/chat/completions',{method:'POST',
+      headers:{'Content-Type':'application/json','Authorization':'Bearer '+QK},
+      body:JSON.stringify({model:'deepseek-chat',messages:msgs,stream:true,temperature:0.3,max_tokens:1500})});
+    if(!resp.ok){abox.innerHTML='❌ 引擎返回 '+resp.status+'(密钥失效或限流,稍后再试)';return;}
+    const rd=resp.body.getReader(),dec=new TextDecoder();let buf='',ans='';
+    while(true){
+      const c=await rd.read();if(c.done)break;
+      buf+=dec.decode(c.value,{stream:true});
+      let i;
+      while((i=buf.indexOf('\n'))>=0){
+        const line=buf.slice(0,i).trim();buf=buf.slice(i+1);
+        if(line.indexOf('data:')!==0)continue;
+        const dta=line.slice(5).trim();
+        if(dta==='[DONE]')continue;
+        try{
+          const j=JSON.parse(dta);
+          const t=j.choices&&j.choices[0]&&j.choices[0].delta&&j.choices[0].delta.content;
+          if(t){ans+=t;abox.innerHTML=qaMd(ans);}
+        }catch(e){}
+      }
+    }
+    if(!ans){abox.innerHTML='❌ 未收到回答,请重试';}
+    else{
+      QAHIST.push({q:q,a:ans});if(QAHIST.length>6)QAHIST.shift();
+      const nw=QACTX['全球头条'];
+      abox.innerHTML+='<div class="qa-src">📎 本次依据:看板研判('+QACTX.asof+'·19票+记分卡) · 同光要闻'+(tg?'✓':'✗不可用')+' · 全球头条'+(nw&&nw['条目']&&nw['条目'].length?('✓('+nw.date+'·'+nw['条目'].length+'条)'):'✗暂无')+'</div>';
+      abox.scrollIntoView({block:'nearest'});
+    }
+  }catch(e){abox.innerHTML='❌ 网络出错:'+qaEsc(String(e));}
+  finally{QABUSY=false;qel('qa-send').disabled=false;}
+}
+qel('qa-in').addEventListener('keydown',function(e){if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();qaSend();}});
+</script>
+<div class="evid"><div class="ev-reg">🌡 市场体制:<b>顺势 risk-on</b> · QQQ 站上 200日线 · 成分 19/19 在 200日线上</div><div class="ev-bt">📊 <b>策略回测(过去 3y 真实数据,97 次信号):</b> 命中率 <b style="color:#fbbf24">42%</b> · 止损 52% · 实际盈亏比 <b style="color:#4ade80">2.5:1</b> · 每笔均值 5.8%<br><span style="color:#94a3b8">→ 命中率仅 42%(<b style="color:#f87171">绝非 90%</b>),靠 2.5:1 盈亏比才正期望——<b>赚钱靠风控不靠高胜率</b>。测试标的为AI大牛市赢家,存在幸存者/行情偏差,结果被严重美化;不代表未来表现,绝非承诺胜率。</span></div></div>
+<div class="review"><div class="rv-h">🔍 复盘与校准 <span class="rv-sub">预测台账 → 自动验证 → 校准(越用越准)</span></div><div class="stats"><div class="stat"><div class="sl">历史在评期数</div><div class="sv">156</div></div><div class="stat"><div class="sl">买入触及率</div><div class="sv">61%</div></div><div class="stat"><div class="sl">方向胜率</div><div class="sv">97%</div></div><div class="stat"><div class="sl">平均目标完成度</div><div class="sv">23.1%</div></div><div class="stat"><div class="sl">已到期·实际</div><div class="sv" style="font-size:14px">未到期</div></div></div><div class="rv-line">📏 <b>即时可达性校验:</b>本期 <b style="color:#4ade80">17/19</b> 支建议买入价落在【真实近20日成交区间·可达】，<b style="color:#fbbf24">需关注:AVGO、6869.HK</b></div><div class="rv-line">⚙️ <b>校准:</b>目标价校准良好(平均完成度 23.1%)。</div></div>
+<div class="tabs"><button class="tab active" data-tab="all">📊 全部</button><button class="tab" data-tab="US">🇺🇸 美股<span class="tc">10</span></button><button class="tab" data-tab="CN">🇨🇳 A 股<span class="tc">8</span></button><button class="tab" data-tab="HK">🇭🇰 港股<span class="tc">1</span></button></div><div class="pane" data-mkt="US"><div class="section">🇺🇸 美股核心 · AI 产业链驱动(全球定价,引领 A 股 / 港股)<span class="scnt">10 支</span></div><div class="grid">
+<div class="card" style="border-top:3px solid #4ade80">
+  <div class="hd"><span class="rk">🥇</span><span class="tk">NVDA</span>
+    <span class="nm">英伟达</span><span class="badge">算力 GPU 龙头</span>
+    <span class="sig" style="color:#4ade80">买入</span><span class="score">评分 78(9/9因子)</span><span class="conf">置信 6/10</span></div>
+  <div class="px"><span class="now">$204.12</span>
+    <span class="mom">近1月 <span style="color:#f87171">-0.5%</span> ｜ 近3月 <span style="color:#4ade80">+14.6%</span> ｜ 近6月 <span style="color:#4ade80">+8.5%</span> ｜ 距52周高 -13.7%</span></div>
+  <div class="kpis">
+    <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">$188–196</div></div>
+    <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">$218–232</div></div>
+    <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">+17%</div></div></div>
+  <div class="cons">🏛 分析师共识(Finnhub) 评级 <b style="color:#2dd4bf">买入</b> · 买入占比 93% · 69家 · PE 30.1(增110.3%) · ROE 111.7% · 毛利 74.2% ｜ <span style="color:#94a3b8">Finnhub 免费档(无目标价,以评级+财务指标校准)</span>　📅 下次财报 2026-08-25</div>
+  <div class="rr">🛡 风控 止损 -10%(≈$173) · 风险收益比 <b>1.7:1</b> <span style="color:#f59e0b">⚠️R:R偏低,不符买入纪律</span>　·　📊 评分 78/100(9/9因子) = 趋势8+共识上行14+回调健康10+动量10+评级6+估值PEG18+相对强弱3+波动率6+质量12</div>
+  <div class="th">💡 现价195.55回踩至MA200(191.03)关键支撑区，前瞻PE29.5、EPS增速110.3%、PEG约0.27极低估值，Finnhub评级均值1.74(强买)、买入占比0.93、覆盖68家共识极强；无券商目标价可校准，目标218–232为技术(52周高236.54下方)+估值(龙头理应享溢价)推演，务实收窄不追前高；催化剂为8/25财报，距今50天暂无二元风险。</div>
+  
+  <div class="rk2">⚠️ 风险:m3仅+10.9%明显跑输QQQ(+22%)、短线已破MA50(209.8)趋势走弱，年化波动39.5%高；若跌破MA200(191)则技术走坏、回补52周低157.34下行空间大；AI资本开支/关税及需求预期变化为长期扰动。　·　52周 $161.61–$236.54　·　MA50 $209.52 / MA200 $191.4</div>
+</div>
+<div class="card" style="border-top:3px solid #4ade80">
+  <div class="hd"><span class="rk">🥈</span><span class="tk">MU</span>
+    <span class="nm">美光</span><span class="badge">HBM 存储(海力士同类)</span>
+    <span class="sig" style="color:#4ade80">买入</span><span class="score">评分 76(9/9因子)</span><span class="conf">置信 6/10</span></div>
+  <div class="px"><span class="now">$948.8</span>
+    <span class="mom">近1月 <span style="color:#4ade80">+9.8%</span> ｜ 近3月 <span style="color:#4ade80">+151.3%</span> ｜ 近6月 <span style="color:#4ade80">+204.0%</span> ｜ 距52周高 -24.4%</span></div>
+  <div class="kpis">
+    <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">$850–910</div></div>
+    <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">$1080–1180</div></div>
+    <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">+28%</div></div></div>
+  <div class="cons">🏛 分析师共识(Finnhub) 评级 <b style="color:#2dd4bf">买入</b> · 买入占比 91% · 56家 · PE 20.7(增700.7%) · ROE 70.5% · 毛利 72.6% ｜ <span style="color:#94a3b8">Finnhub 免费档(无目标价,以评级+财务指标校准)</span>　📅 下次财报 2026-09-21</div>
+  <div class="rr">🛡 风控 止损 -10%(≈$792) · 风险收益比 <b>2.8:1</b>　·　📊 评分 76/100(9/9因子) = 趋势16+共识上行14+回调健康6+动量2+评级6+估值PEG18+相对强弱10+波动率1+质量12</div>
+  <div class="th">💡 强势多头排列(现价975>MA50852>MA200444),m3=+165%相对强度碾压QQQ+22%,HBM/内存超周期驱动EPS增速700%、前瞻PE仅21.8不贵、评级均值1.76(55家覆盖/买入占比0.93);但已抛物线且波动132%,故买点严限回踩MA50(850–910)不追高。目标1080–1180靠前瞻PE21.8×高EPS及52周高1255下方阻力自推,无券商目标价可校准,目标为技术/估值推演。</div>
+  
+  <div class="rk2">⚠️ 风险:年化波动132%极高、6月已涨233%属抛物线,内存周期若见顶或HBM需求预期回摆则回撤剧烈;距52周高仍-22%显示已开始降温;高杠杆EPS增速基于周期低基数,PEG机械偏低具误导性;追高买入尾部风险大。　·　52周 $103.38–$1255.0　·　MA50 $880.21 / MA200 $456.27</div>
+</div>
+<div class="card" style="border-top:3px solid #4ade80">
+  <div class="hd"><span class="rk">🥉</span><span class="tk">MRVL</span>
+    <span class="nm">迈威尔</span><span class="badge">光 DSP/定制芯片</span>
+    <span class="sig" style="color:#4ade80">买入</span><span class="score">评分 71(8/9因子)</span><span class="conf">置信 6/10</span></div>
+  <div class="px"><span class="now">$231.71</span>
+    <span class="mom">近1月 <span style="color:#f87171">-12.1%</span> ｜ 近3月 <span style="color:#4ade80">+111.8%</span> ｜ 近6月 <span style="color:#4ade80">+156.8%</span> ｜ 距52周高 -29.8%</span></div>
+  <div class="kpis">
+    <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">$218–232</div></div>
+    <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">$268–290</div></div>
+    <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">+24%</div></div></div>
+  <div class="cons">🏛 分析师共识(Finnhub) 评级 <b style="color:#2dd4bf">买入</b> · 买入占比 86% · 50家 · PE None · ROE 16.8% · 毛利 51.5% ｜ <span style="color:#94a3b8">Finnhub 免费档(无目标价,以评级+财务指标校准)</span>　📅 下次财报 2026-08-26</div>
+  <div class="rr">🛡 风控 止损 -10%(≈$202) · 风险收益比 <b>2.4:1</b>　·　📊 评分 71/100(8/9因子) = 趋势16+共识上行14+回调健康6+动量2+评级6+相对强弱10+波动率1+质量12(缺:估值PEG)</div>
+  <div class="th">💡 多头排列(现价249.27>MA50 223.63>MA200 122.63)+ m3/m6抛物线(+130%/+183%)远跑赢QQQ(+22%),Finnhub评级均值1.88、买入占比0.86、49家覆盖背书;但过热高波动票不追高,买点等回踩MA50(218–232);前瞻PE缺、无券商目标价可校准,目标268–290系技术/估值推演(不冲52周高329.88强阻力)。</div>
+  
+  <div class="rk2">⚠️ 风险:年化波动124.5%极高,已从52周高回撤-25.6%且m1=-15.6%仍在降温,抛物线随时深蹲;AI/数据中心资本开支预期若转弱则回撤放大;前瞻PE/EPS增速缺失,估值锚不完整。　·　52周 $61.44–$329.88　·　MA50 $228.12 / MA200 $125.12</div>
+</div>
+<div class="card" style="border-top:3px solid #fbbf24">
+  <div class="hd"><span class="rk">④</span><span class="tk">TSM</span>
+    <span class="nm">台积电</span><span class="badge">AI 晶圆代工</span>
+    <span class="sig" style="color:#fbbf24">观望</span><span class="score">评分 87(9/9因子)</span><span class="conf">置信 6/10</span></div>
+  <div class="px"><span class="now">$436.98</span>
+    <span class="mom">近1月 <span style="color:#4ade80">+5.3%</span> ｜ 近3月 <span style="color:#4ade80">+26.5%</span> ｜ 近6月 <span style="color:#4ade80">+35.6%</span> ｜ 距52周高 -8.8%</span></div>
+  <div class="kpis">
+    <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">$415–425</div></div>
+    <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">$470–495</div></div>
+    <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">+15%</div></div></div>
+  <div class="cons">🏛 分析师共识(Finnhub) 评级 <b style="color:#2dd4bf">买入</b> · 买入占比 95% · 43家 · PE 32.8(增47.3%) · ROE 36.9% · 毛利 61.9% ｜ <span style="color:#94a3b8">Finnhub 免费档(无目标价,以评级+财务指标校准)</span>　📅 下次财报 2026-07-16 <span style="color:#f59e0b;font-weight:700">⚠️ 财报 7 天后·二元风险,不宜追高</span></div>
+  <div class="rr">🛡 风控 止损 -10%(≈$378) · 风险收益比 <b>1.5:1</b> <span style="color:#f59e0b">⚠️R:R偏低,不符买入纪律</span>　·　📊 评分 87/100(9/9因子) = 趋势16+共识上行14+回调健康10+动量10+评级6+估值PEG18+相对强弱8+波动率3+质量12</div>
+  <div class="th">💡 趋势多头(现价434 > MA50=419.5 > MA200=344),3/6月+27/+45%跑赢QQQ(m3=+22%),相对强弱占优;共识口径评级均值1.79、买入占比0.95、覆盖42家、前瞻PE33.1对EPS增速47.3%即PEG≈0.70估值不贵,ROE36.9/毛利61.9优质;但财报2026-07-16仅9天临近构成二元风险,故不追高、买点压至回踩MA50一带(415–425),目标按前瞻PE略扩至历史区间上沿+回踩52周高479自推。无券商目标价可校准,目标为技术/估值推演。</div>
+  
+  <div class="rk2">⚠️ 风险:7月16日财报临近(9天)为最大二元风险,不及预期或指引偏软可快速回踩MA50甚至MA200;年化波动63.6%高,代工资本开支/关税与地缘(台海)扰动;若财报后跳空则买点失效。　·　52周 $223.7–$479.0　·　MA50 $422.48 / MA200 $346.66</div>
+</div>
+<div class="card" style="border-top:3px solid #fbbf24">
+  <div class="hd"><span class="rk">⑥</span><span class="tk">ANET</span>
+    <span class="nm">Arista</span><span class="badge">AI 数据中心交换机</span>
+    <span class="sig" style="color:#fbbf24">观望</span><span class="score">评分 72(9/9因子)</span><span class="conf">置信 6/10</span></div>
+  <div class="px"><span class="now">$181.05</span>
+    <span class="mom">近1月 <span style="color:#4ade80">+17.4%</span> ｜ 近3月 <span style="color:#4ade80">+35.5%</span> ｜ 近6月 <span style="color:#4ade80">+32.0%</span> ｜ 距52周高 -0.1%</span></div>
+  <div class="kpis">
+    <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">$158–166</div></div>
+    <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">$180–192</div></div>
+    <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">+15%</div></div></div>
+  <div class="cons">🏛 分析师共识(Finnhub) 评级 <b style="color:#2dd4bf">买入</b> · 买入占比 94% · 34家 · PE 56.3(增23.5%) · ROE 30.6% · 毛利 63.5% ｜ <span style="color:#94a3b8">Finnhub 免费档(无目标价,以评级+财务指标校准)</span>　📅 下次财报 2026-08-04</div>
+  <div class="rr">🛡 风控 止损 -10%(≈$146) · 风险收益比 <b>1.5:1</b> <span style="color:#f59e0b">⚠️R:R偏低,不符买入纪律</span>　·　📊 评分 72/100(9/9因子) = 趋势16+共识上行14+回调健康4+动量10+评级6+估值PEG7+相对强弱8+波动率3+质量12</div>
+  <div class="th">💡 07-07 单日+8.3%跳涨至173.28,脱离原MA50(159.8)买区——隔夜大涨后追高违反纪律;趋势多头(现价>MA50>MA200)、m3+28.1%跑赢QQQ,共识偏多(Finnhub评级均值1.82/买入占比0.91/覆盖34家),但前瞻PE54.1、PEG≈2.3不便宜;等回踩158–166(原MA50支撑带)再介入。目标180–192为前高179.8上方温和修复区;无券商目标价可校准,目标为技术/估值推演。</div>
+  
+  <div class="rk2">⚠️ 风险:8月3日财报二元事件;前瞻PE54.1偏贵,AI以太网订单增速或毛利不及预期易杀估值;单日跳涨后短线回吐风险;白盒交换机与NVDA网络生态竞争分流;跌破MA200(143)趋势转弱。　·　52周 $102.68–$181.27　·　MA50 $159.67 / MA200 $143.56</div>
+</div>
+<div class="card" style="border-top:3px solid #fbbf24;opacity:.92">
+  <div class="hd"><span class="rk">⑦</span><span class="tk">QQQ</span>
+    <span class="nm">纳指100 ETF</span><span class="badge">大盘基准</span>
+    <span class="sig" style="color:#fbbf24">观望</span><span class="score">技术分 60(5/9因子·仅技术面)</span><span class="conf">置信 6/10</span></div>
+  <div class="px"><span class="now">$711.44</span>
+    <span class="mom">近1月 <span style="color:#4ade80">+0.9%</span> ｜ 近3月 <span style="color:#4ade80">+20.9%</span> ｜ 近6月 <span style="color:#4ade80">+15.1%</span> ｜ 距52周高 -5.0%</span></div>
+  <div class="kpis">
+    <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">$690–712</div></div>
+    <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">$745–760</div></div>
+    <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">+7%</div></div></div>
+  <div class="cons">🏛 ETF·大盘基准(无个股一致目标)</div>
+  <div class="rr">🛡 风控 止损 -10%(≈$631) · 风险收益比 <b>0.7:1</b> <span style="color:#f59e0b">⚠️R:R偏低,不符买入纪律</span>　·　📊 技术分 60/100(5/9因子·仅技术面,估值/共识未评) = 趋势8+回调健康4+动量10+相对强弱5+波动率6(缺:共识上行、评级、估值PEG、质量)</div>
+  <div class="th">💡 QQQ为大盘基准仅给体制读数不做个股买卖:现价722.82贴MA50(709.15)、远在MA200(634.93)之上=多头结构未破,3月+22%动能强但1月-4.5%显示短期回踩,距52周高仅-4.8%上方空间有限;无券商数据/无目标价可校准,745–760目标为技术推演(前高748.65+小幅新高),体制偏多但追高性价比低,回踩MA50一带再择机。</div>
+  
+  <div class="rk2">⚠️ 风险:作为基准本身无个股alpha;1月-4.5%回调若跌破MA50(709)则打开向MA200补跌空间;年化波动33.8%偏高,估值处高位对利率/财报季敏感,顶部区间上行空间受限。　·　52周 $551.56–$748.65　·　MA50 $712.62 / MA200 $636.77</div>
+</div>
+<div class="card" style="border-top:3px solid #fbbf24">
+  <div class="hd"><span class="rk">⑧</span><span class="tk">VRT</span>
+    <span class="nm">Vertiv</span><span class="badge">AI 数据中心供电散热</span>
+    <span class="sig" style="color:#fbbf24">观望</span><span class="score">评分 74(9/9因子)</span><span class="conf">置信 6/10</span></div>
+  <div class="px"><span class="now">$317.81</span>
+    <span class="mom">近1月 <span style="color:#4ade80">+5.8%</span> ｜ 近3月 <span style="color:#4ade80">+21.2%</span> ｜ 近6月 <span style="color:#4ade80">+82.7%</span> ｜ 距52周高 -16.4%</span></div>
+  <div class="kpis">
+    <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">$285–305</div></div>
+    <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">$340–370</div></div>
+    <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">+20%</div></div></div>
+  <div class="cons">🏛 分析师共识(Finnhub) 评级 <b style="color:#2dd4bf">买入</b> · 买入占比 85% · 34家 · PE 74.6(增131.0%) · ROE 42.1% · 毛利 37.1% ｜ <span style="color:#94a3b8">Finnhub 免费档(无目标价,以评级+财务指标校准)</span>　📅 下次财报 2026-08-05</div>
+  <div class="rr">🛡 风控 止损 -10%(≈$266) · 风险收益比 <b>2.0:1</b>　·　📊 评分 74/100(9/9因子) = 趋势8+共识上行14+回调健康10+动量10+评级6+估值PEG18+相对强弱5+波动率1+质量11</div>
+  <div class="th">💡 现价318.47跌破MA50(324.6)但稳守MA200(232.48),长期AI数据中心电力/散热主线未破;共识口径评级均值1.94、买入占比0.85、34家覆盖,前瞻PE73.3配EPS增速131%→PEG约0.56估值不贵;但m3仅+15.9%跑输QQQ(+22%)、年化波动85.2%偏高、8-05财报22天后临近,故先观望等回踩285–305支撑区分批,不追高;无券商目标价可校准,目标340–370为技术(重夺MA50+逼近52周高379.94)/估值(前瞻PE×EPS)推演。</div>
+  
+  <div class="rk2">⚠️ 风险:年化波动85.2%高波动;m3跑输QQQ、现价已跌破MA50显中期趋势走弱;8-05财报为二元风险(EPS增速131%高基数,不及预期易急杀);前瞻PE73.3绝对估值偏高,若AI资本开支预期降温杀估值空间大;跌破MA200(232.48)则长期逻辑动摇。　·　52周 $110.06–$379.94　·　MA50 $324.43 / MA200 $235.11</div>
+</div>
+<div class="card" style="border-top:3px solid #fbbf24">
+  <div class="hd"><span class="rk">⑨</span><span class="tk">AVGO</span>
+    <span class="nm">博通</span><span class="badge">AI 定制芯片/网络</span>
+    <span class="sig" style="color:#fbbf24">观望</span><span class="score">评分 77(9/9因子)</span><span class="conf">置信 5/10</span></div>
+  <div class="px"><span class="now">$388.69</span>
+    <span class="mom">近1月 <span style="color:#4ade80">+0.8%</span> ｜ 近3月 <span style="color:#4ade80">+16.4%</span> ｜ 近6月 <span style="color:#4ade80">+13.2%</span> ｜ 距52周高 -21.5%</span></div>
+  <div class="kpis">
+    <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">$330–348</div></div>
+    <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">$398–418</div></div>
+    <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">+17%</div></div></div>
+  <div class="cons">🏛 分析师共识(Finnhub) 评级 <b style="color:#2dd4bf">买入</b> · 买入占比 91% · 57家 · PE 63.4(增125.8%) · ROE 36.4% · 毛利 68.3% ｜ <span style="color:#94a3b8">Finnhub 免费档(无目标价,以评级+财务指标校准)</span>　📅 下次财报 2026-09-02</div>
+  <div class="rr">🛡 风控 止损 -10%(≈$305) · 风险收益比 <b>2.0:1</b>　·　📊 评分 77/100(9/9因子) = 趋势8+共识上行14+回调健康10+动量10+评级6+估值PEG18+相对强弱5+波动率3+质量12</div>
+  <div class="th">💡 趋势破位:现价373.9已跌破MA50(409.43)、仅贴MA200(361.45),1月-25.2%重挫且3月+15%跑输QQQ(+22%),相对强弱走弱、68%高波动;基本面仍强(Finnhub评级均值1.77、买入占比0.93、覆盖56家、前瞻PE58.5对EPS增速125.8%→PEG约0.47估值不贵),但无券商目标价可校准,目标398-418为技术/估值推演(回补MA50上方且较前瞻PE隐含区间保守收窄);当下不追高,等回踩330-348或站稳MA50再介入。</div>
+  
+  <div class="rk2">⚠️ 风险:趋势已破MA50、若失守MA200(361.45)则打开下探269.58前低空间;68%年化波动放大回撤;跑输QQQ显示资金相对回避;9-2财报前无明确催化,若AI资本开支预期降温估值有杀PE风险。　·　52周 $269.58–$495.0　·　MA50 $406.79 / MA200 $361.86</div>
+</div>
+<div class="card" style="border-top:3px solid #fbbf24">
+  <div class="hd"><span class="rk">⑪</span><span class="tk">CRDO</span>
+    <span class="nm">Credo</span><span class="badge">AI 网络连接 AEC</span>
+    <span class="sig" style="color:#fbbf24">观望</span><span class="score">评分 80(9/9因子)</span><span class="conf">置信 5/10</span></div>
+  <div class="px"><span class="now">$258.69</span>
+    <span class="mom">近1月 <span style="color:#4ade80">+25.0%</span> ｜ 近3月 <span style="color:#4ade80">+142.2%</span> ｜ 近6月 <span style="color:#4ade80">+84.5%</span> ｜ 距52周高 -16.2%</span></div>
+  <div class="kpis">
+    <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">$205–218</div></div>
+    <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">$255–280</div></div>
+    <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">+27%</div></div></div>
+  <div class="cons">🏛 分析师共识(Finnhub) 评级 <b style="color:#2dd4bf">买入</b> · 买入占比 93% · 28家 · PE 102.1(增793.6%) · ROE 31.6% · 毛利 68.0% ｜ <span style="color:#94a3b8">Finnhub 免费档(无目标价,以评级+财务指标校准)</span>　📅 下次财报 2026-09-01</div>
+  <div class="rr">🛡 风控 止损 -10%(≈$190) · 风险收益比 <b>2.6:1</b>　·　📊 评分 80/100(9/9因子) = 趋势16+共识上行14+回调健康10+动量2+评级6+估值PEG18+相对强弱10+波动率1+质量12</div>
+  <div class="th">💡 CRDO趋势极强(现价241.9站上MA50=217/MA200=159,3月劲涨152%跑赢QQQ),AI数据中心互连需求叠加EPS增速793.6%高成长,共识极佳(评级均值1.7、买入占比93%、覆盖27家);但前瞻PE95.5属高估、年化波动110.8%极端、距52周高-21.6%显示已见回落,现价处抛物线过热区不宜追高,买点须等回踩MA50(217附近)-现价下方区间;无券商目标价可校准,目标255-280为技术/估值推演(回踩后弹向52周高308下方的务实区间)。</div>
+  
+  <div class="rk2">⚠️ 风险:年化波动110.8%极端高、前瞻PE95.5估值透支,一旦AI互连需求预期或EPS超高增速证伪即剧烈回调;抛物线拉升后已从高点回落21.6%,追高易套;9月1日财报为下一二元催化点。　·　52周 $86.48–$308.67　·　MA50 $221.36 / MA200 $160.07</div>
+</div>
+<div class="card" style="border-top:3px solid #fbbf24">
+  <div class="hd"><span class="rk">⑫</span><span class="tk">COHR</span>
+    <span class="nm">相干</span><span class="badge">光模块/光通信</span>
+    <span class="sig" style="color:#fbbf24">观望</span><span class="score">评分 69(9/9因子)</span><span class="conf">置信 5/10</span></div>
+  <div class="px"><span class="now">$317.05</span>
+    <span class="mom">近1月 <span style="color:#f87171">-15.9%</span> ｜ 近3月 <span style="color:#4ade80">+24.3%</span> ｜ 近6月 <span style="color:#4ade80">+70.1%</span> ｜ 距52周高 -27.9%</span></div>
+  <div class="kpis">
+    <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">$300–325</div></div>
+    <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">$360–400</div></div>
+    <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">+22%</div></div></div>
+  <div class="cons">🏛 分析师共识(Finnhub) 评级 <b style="color:#2dd4bf">买入</b> · 买入占比 77% · 30家 · PE 134.2(增275.5%) · ROE 5.3% · 毛利 36.8% ｜ <span style="color:#94a3b8">Finnhub 免费档(无目标价,以评级+财务指标校准)</span>　📅 下次财报 2026-08-11</div>
+  <div class="rr">🛡 风控 止损 -10%(≈$281) · 风险收益比 <b>2.2:1</b>　·　📊 评分 69/100(9/9因子) = 趋势8+共识上行14+回调健康6+动量10+评级5+估值PEG18+相对强弱5+波动率1+质量10</div>
+  <div class="th">💡 COHR长期趋势完好(现价335.7远高于MA200=236.79),6月+78.4%/3月+34.5%跑赢QQQ(+22%),Finnhub评级均值2.0、买入占比0.76、覆盖29家背书;但1月急跌-21.9%已跌破MA50(-9.7%)、距52周高-24.2%,叠加前瞻PE 139.1极贵(EPS增速275.5%难持续、PEG约0.5系高增速失真)、年化波动102.7%全组最高,不宜追高;等回踩300–325支撑区确认企稳再介入。目标360–400为技术/估值推演(回补MA50至前高区间),无券商目标价可校准(target_mean全null)。</div>
+  
+  <div class="rk2">⚠️ 风险:年化波动102.7%极端,估值前瞻PE139.1透支、275.5%EPS增速不可持续存杀估值风险;1月-21.9%已破MA50,短期趋势转弱可能续跌探MA200;08-11财报为二元催化,不及预期或加速回落。　·　52周 $84.35–$440.0　·　MA50 $367.87 / MA200 $240.05</div>
+</div></div></div><div class="pane" data-mkt="CN"><div class="section">🇨🇳 A 股 · 跟随美股的国产算力 / AI 链<span class="scnt">8 支</span></div><div class="grid">
+<div class="card" style="border-top:3px solid #fbbf24">
+  <div class="hd"><span class="rk">⑤</span><span class="tk">🇨🇳 688981</span>
+    <span class="nm">中芯国际</span><span class="badge">大陆晶圆代工龙头</span>
+    <span class="sig" style="color:#fbbf24">观望</span><span class="score">评分 62(9/9因子)</span><span class="conf">置信 6/10</span></div>
+  <div class="px"><span class="now">¥152.1</span>
+    <span class="mom">近1月 <span style="color:#4ade80">+24.8%</span> ｜ 近3月 <span style="color:#4ade80">+65.7%</span> ｜ 近6月 <span style="color:#4ade80">+23.6%</span> ｜ 距52周高 -4.2%</span></div>
+  <div class="kpis">
+    <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">¥128–133</div></div>
+    <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">¥150–160</div></div>
+    <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">+19%</div></div></div>
+  <div class="cons">🏛 机构共识(A股·东财研报) 评级 <b style="color:#2dd4bf">买入</b> · 近一月 0 份(在档 104) · 前瞻PE <b>196.3</b> · 盈利预测 26EPS¥0.775/27¥0.93(增20.0%) ｜ <span style="color:#94a3b8">A股以评级+前瞻PE/EPS校准(无单一一致目标价)</span>　📅 下次财报 2026-08-28　🔓 <span style="color:#64748b">近6月无解禁(已消除限售抛压隐忧)</span></div>
+  <div class="rr">🛡 风控 止损 -10%(≈¥117) · 风险收益比 <b>1.9:1</b> <span style="color:#f59e0b">⚠️R:R偏低,不符买入纪律</span>　·　📊 评分 62/100(9/9因子) = 趋势16+共识上行14+回调健康4+动量5+评级9+估值PEG0+相对强弱10+波动率3+质量8</div>
+  <div class="th">💡 趋势健康(现价143.99站上MA50=131.14/MA200=120.03),3月+49.2%大幅跑赢QQQ(+22%)、6月+16.5%,东财"买入"+104篇研报覆盖,催化为半导体板块涨停潮+国产替代(抛光液突破)+寒武纪破万亿带动板块情绪;但前瞻PE高达181.0、EPS27增速仅约20%,PEG≈9属极度高估,当前140已距52周高仅-11.7%且短期动量透支,买点应等回踩MA50(~131)而非追高,目标150-160为技术/估值推演(逼近52周高158.82的阻力),无券商目标价可校准。</div>
+  <div class="news">📰 <a href="http://finance.eastmoney.com/a/202607093798821359.html" target="_blank">精测电子拟购子公司上海精测部分股权 | 速读公告…</a> <span class="src">[财联社·2026-07-09]</span>　<a href="http://finance.eastmoney.com/a/202607083798408272.html" target="_blank">7月8日科创板主力资金净流出42.81亿元…</a> <span class="src">[证券时报网·2026-07-08]</span></div>
+  <div class="rk2">⚠️ 风险:估值极贵(前瞻PE181/PEG≈9),年化波动63.9%极高,板块情绪驱动(涨停潮+寒武纪破万亿)一旦退潮易急跌,追高128以上则R:R不足;8-28财报为二元事件。　·　52周 ¥81.28–¥158.82　·　MA50 ¥133.55 / MA200 ¥120.7</div>
+</div>
+<div class="card" style="border-top:3px solid #fbbf24">
+  <div class="hd"><span class="rk">⑩</span><span class="tk">🇨🇳 688256</span>
+    <span class="nm">寒武纪</span><span class="badge">国产 AI 芯片龙头</span>
+    <span class="sig" style="color:#fbbf24">观望</span><span class="score">评分 79(9/9因子)</span><span class="conf">置信 5/10</span></div>
+  <div class="px"><span class="now">¥1413.55</span>
+    <span class="mom">近1月 <span style="color:#4ade80">+13.1%</span> ｜ 近3月 <span style="color:#4ade80">+105.5%</span> ｜ 近6月 <span style="color:#4ade80">+59.8%</span> ｜ 距52周高 -11.4%</span></div>
+  <div class="kpis">
+    <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">¥1270–1330</div></div>
+    <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">¥1500–1620</div></div>
+    <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">+20%</div></div></div>
+  <div class="cons">🏛 机构共识(A股·东财研报) 评级 <b style="color:#2dd4bf">买入</b> · 近一月 0 份(在档 40) · 前瞻PE <b>166.0</b> · 盈利预测 26EPS¥8.515/27¥17.055(增100.3%) ｜ <span style="color:#94a3b8">A股以评级+前瞻PE/EPS校准(无单一一致目标价)</span>　📅 下次财报 2026-08-08　🔓 <span style="color:#64748b">近6月无解禁(已消除限售抛压隐忧)</span></div>
+  <div class="rr">🛡 风控 止损 -10%(≈¥1170) · 风险收益比 <b>2.0:1</b>　·　📊 评分 79/100(9/9因子) = 趋势16+共识上行14+回调健康10+动量2+评级9+估值PEG13+相对强弱10+波动率3+质量11</div>
+  <div class="th">💡 东财买入评级/研报40篇、前瞻PE158.9且EPS27增速100.3%(PEG~1.6)、经营现金流每股1.98转正,基本面配置国产AI算力龙头逻辑成立;但m3+105%/m6+57%呈抛物线过热、年化波动82%,现价1353已在MA50(1271.81)上方6.4%,策略上只等回踩MA50(1270-1330)企稳再介入、不追高;无券商目标价可校准,目标1500-1620为技术(52周高1595.55阻力)+估值推演。</div>
+  <div class="news">📰 <a href="http://finance.eastmoney.com/a/202606303788724640.html" target="_blank">深夜，688256提示：股价可能存在下跌风险…</a> <span class="src">[中国基金报·2026-06-30]</span>　<a href="http://finance.eastmoney.com/a/202607083798408272.html" target="_blank">7月8日科创板主力资金净流出42.81亿元…</a> <span class="src">[证券时报网·2026-07-08]</span></div>
+  <div class="rk2">⚠️ 风险:深夜公告提示股价可能存在下跌风险(官方风险提示,罕见);抛物线走势+82%极端波动,高位回撤空间大;万亿市值+PE158.9估值极高,一旦增速证伪或情绪退潮杀估值凶;科创板首只万亿股关注度过高易被资金博弈。　·　52周 ¥351.06–¥1595.55　·　MA50 ¥1301.72 / MA200 ¥967.44</div>
+</div>
+<div class="card" style="border-top:3px solid #fbbf24">
+  <div class="hd"><span class="rk">13.</span><span class="tk">🇨🇳 002384</span>
+    <span class="nm">东山精密</span><span class="badge">PCB/FPC精密制造(果链+AI服务器PCB)</span>
+    <span class="sig" style="color:#fbbf24">观望</span><span class="score">评分 71(9/9因子)</span><span class="conf">置信 4/10</span></div>
+  <div class="px"><span class="now">¥237.56</span>
+    <span class="mom">近1月 <span style="color:#4ade80">+11.5%</span> ｜ 近3月 <span style="color:#4ade80">+114.9%</span> ｜ 近6月 <span style="color:#4ade80">+176.6%</span> ｜ 距52周高 -13.9%</span></div>
+  <div class="kpis">
+    <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">¥212–222</div></div>
+    <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">¥258–272</div></div>
+    <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">+22%</div></div></div>
+  <div class="cons">🏛 机构共识(A股·东财研报) 评级 <b style="color:#2dd4bf">买入</b> · 近一月 0 份(在档 111) · 前瞻PE <b>114.8</b> · 盈利预测 26EPS¥2.07/27¥2.715(增31.2%) ｜ <span style="color:#94a3b8">A股以评级+前瞻PE/EPS校准(无单一一致目标价)</span>　📅 下次财报 2026-08-22　🔓 <span style="color:#64748b">近6月无解禁(已消除限售抛压隐忧)</span></div>
+  <div class="rr">🛡 风控 止损 -10%(≈¥195) · 风险收益比 <b>2.2:1</b>　·　📊 评分 71/100(9/9因子) = 趋势16+共识上行14+回调健康10+动量2+评级9+估值PEG7+相对强弱10+波动率1+质量10</div>
+  <div class="th">💡 趋势极强(现价224.46>MA50 221.27>MA200 118.35多头排列)、m3+125%/m6+184%远跑赢QQQ+22%,果链+AI服务器PCB双主线,东财"买入"/研报111篇背书,催化为龙虎榜连续+融资客大举买入;但m6抛物线过热、距52周高仅-15.6%、年化波动88.4%,PEG~3.6(前瞻PE112.4÷EPS增速31.2%)极贵、ROE仅4.9%,不追高,买点等回踩MA50(约212–222);无券商目标价可校准,目标258–272为技术(反弹前高附近)/估值推演,已按历史仅完成15.5%纪律务实收窄。</div>
+  <div class="news">📰 <a href="http://finance.eastmoney.com/a/202607073796804475.html" target="_blank">午后异动！002384，大幅拉升…</a> <span class="src">[证券时报·2026-07-07]</span>　<a href="http://finance.eastmoney.com/a/202607033793567713.html" target="_blank">东山精密002384龙虎榜数据07-03…</a> <span class="src">[东方财富Choice数据·2026-07-03]</span></div>
+  <div class="rk2">⚠️ 风险:抛物线暴涨后均值回归/回撤风险大(m6+184%、波动88.4%);龙虎榜连续+融资客大举买入=游资拥挤交易+高杠杆资金,一旦情绪逆转易踩踏;PEG~3.6估值透支、ROE低;若跌破MA50 221转弱看MA200。　·　52周 ¥37.58–¥275.8　·　MA50 ¥224.4 / MA200 ¥120.92</div>
+</div>
+<div class="card" style="border-top:3px solid #fbbf24">
+  <div class="hd"><span class="rk">14.</span><span class="tk">🇨🇳 600522</span>
+    <span class="nm">中天科技</span><span class="badge">光纤光缆/海缆·算力配套</span>
+    <span class="sig" style="color:#fbbf24">观望</span><span class="score">评分 52(9/9因子)</span><span class="conf">置信 4/10</span></div>
+  <div class="px"><span class="now">¥44.86</span>
+    <span class="mom">近1月 <span style="color:#f87171">-9.4%</span> ｜ 近3月 <span style="color:#4ade80">+46.3%</span> ｜ 近6月 <span style="color:#4ade80">+142.5%</span> ｜ 距52周高 -34.1%</span></div>
+  <div class="kpis">
+    <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">¥46–48</div></div>
+    <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">¥52–56</div></div>
+    <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">+15%</div></div></div>
+  <div class="cons">🏛 机构共识(A股·东财研报) 评级 <b style="color:#2dd4bf">买入</b> · 近一月 0 份(在档 98) · 前瞻PE <b>31.4</b> · 盈利预测 26EPS¥1.43/27¥1.45(增1.4%) ｜ <span style="color:#94a3b8">A股以评级+前瞻PE/EPS校准(无单一一致目标价)</span>　📅 下次财报 2026-08-28　🔓 <span style="color:#64748b">近6月无解禁(已消除限售抛压隐忧)</span></div>
+  <div class="rr">🛡 风控 止损 -10%(≈¥42) · 风险收益比 <b>1.5:1</b> <span style="color:#f59e0b">⚠️R:R偏低,不符买入纪律</span>　·　📊 评分 52/100(9/9因子) = 趋势8+共识上行14+回调健康6+动量5+评级9+估值PEG0+相对强弱10+波动率1+质量5</div>
+  <div class="th">💡 趋势多头(现价48.03>MA50 46.12>MA200 27.09)但m3+66.9%/m6+154.7%、年化波动93%已抛物线过热,东财"买入"评级+98篇研报口径偏乐观却无单一券商目标价可校准;前瞻PE35.1对EPS27增速仅1.4%→PEG约25严重高估、ROE2.42、经营现金流每股-0.57为负,基本面不支撑当前估值;7月3日特大单净流出36.49亿元+已距52周高-26.3%,故不追高、等回踩MA50企稳;目标52–56为技术(前高压力)+估值推演,无券商目标价可校准。</div>
+  <div class="news">📰 <a href="http://finance.eastmoney.com/a/202606083763695558.html" target="_blank">放量飙升！600522逆市新高…</a> <span class="src">[证券时报·2026-06-08]</span>　<a href="http://finance.eastmoney.com/a/202606063762573330.html" target="_blank">600522，中标15亿元光纤大单…</a> <span class="src">[上海证券报·2026-06-06]</span></div>
+  <div class="rk2">⚠️ 风险:抛物线过热叠加93%极高波动,7月3日特大单净流出36.49亿元显示主力资金离场,若跌破MA50(46.12)则回补涨幅空间大;PEG约25、经营现金流为负,基本面无法支撑高估值,存戴维斯双杀风险;8月28日财报若不及预期加速回落。　·　52周 ¥13.72–¥68.1　·　MA50 ¥46.9 / MA200 ¥27.56</div>
+</div>
+<div class="card" style="border-top:3px solid #fbbf24">
+  <div class="hd"><span class="rk">15.</span><span class="tk">🇨🇳 688052</span>
+    <span class="nm">纳芯微</span><span class="badge">模拟/信号链芯片(国产替代)</span>
+    <span class="sig" style="color:#fbbf24">观望</span><span class="score">评分 65(9/9因子)</span><span class="conf">置信 4/10</span></div>
+  <div class="px"><span class="now">¥249.19</span>
+    <span class="mom">近1月 <span style="color:#4ade80">+11.4%</span> ｜ 近3月 <span style="color:#4ade80">+67.6%</span> ｜ 近6月 <span style="color:#4ade80">+52.9%</span> ｜ 距52周高 -16.9%</span></div>
+  <div class="kpis">
+    <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">¥234–244</div></div>
+    <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">¥275–298</div></div>
+    <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">+20%</div></div></div>
+  <div class="cons">🏛 机构共识(A股·东财研报) 评级 <b style="color:#2dd4bf">买入</b> · 近一月 0 份(在档 52) · 前瞻PE <b>237.3</b> · 盈利预测 26EPS¥1.05/27¥1.61(增53.3%) ｜ <span style="color:#94a3b8">A股以评级+前瞻PE/EPS校准(无单一一致目标价)</span>　📅 下次财报 2026-08-28　🔓 <span style="color:#64748b">近6月无解禁(已消除限售抛压隐忧)</span></div>
+  <div class="rr">🛡 风控 止损 -10%(≈¥215) · 风险收益比 <b>2.0:1</b>　·　📊 评分 65/100(9/9因子) = 趋势16+共识上行14+回调健康10+动量5+评级9+估值PEG3+相对强弱10+波动率3+质量2</div>
+  <div class="th">💡 纳芯微站上MA50(236.75)/MA200(185.71)双均线、3月涨73.8%大幅跑赢QQQ(+22%),资金面催化强(主力连续5日净流入+融资客净买入),东财"买入"评级/研报52篇(无单一券商目标价);但前瞻PE 244.8、EPS增速53.3%→PEG≈4.6估值极贵,ROE与经营现金流双负、烧钱,属抛物线过热高波动票——目标为技术/估值推演(回踩MA50后看反弹至前高300附近,务实压至298以内),无券商目标价可校准。</div>
+  <div class="news">📰 <a href="http://finance.eastmoney.com/a/202607063795176581.html" target="_blank">强势股追踪 主力资金连续5日净流入173股…</a> <span class="src">[证券时报网·2026-07-06]</span>　<a href="http://finance.eastmoney.com/a/202607023792009567.html" target="_blank">强势股追踪 主力资金连续5日净流入78股…</a> <span class="src">[证券时报网·2026-07-02]</span></div>
+  <div class="rk2">⚠️ 风险:3月+73.8%抛物线过热+年化波动72.7%,回调风险高;融资盘拥挤(融资客净买入)是回调放大器;PEG≈4.6估值极端,ROE-0.47/经营现金流每股-1.19双负、持续烧钱;距52周高仅-14.3%追高空间有限;若跌破MA50(236.75)趋势转弱。　·　52周 ¥139.02–¥300.0　·　MA50 ¥241.59 / MA200 ¥186.87</div>
+</div>
+<div class="card" style="border-top:3px solid #fbbf24">
+  <div class="hd"><span class="rk">16.</span><span class="tk">🇨🇳 300005</span>
+    <span class="nm">探路者</span><span class="badge">Micro-LED显示驱动芯片+户外(双主业转型)</span>
+    <span class="sig" style="color:#fbbf24">观望</span><span class="score">评分 62(9/9因子)</span><span class="conf">置信 4/10</span></div>
+  <div class="px"><span class="now">¥20.68</span>
+    <span class="mom">近1月 <span style="color:#4ade80">+39.7%</span> ｜ 近3月 <span style="color:#4ade80">+44.3%</span> ｜ 近6月 <span style="color:#4ade80">+89.0%</span> ｜ 距52周高 -15.3%</span></div>
+  <div class="kpis">
+    <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">¥19–21</div></div>
+    <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">¥26–29</div></div>
+    <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">+38%</div></div></div>
+  <div class="cons">🏛 机构共识(A股·东财研报) 评级 <b style="color:#2dd4bf">增持</b> · 近一月 0 份(在档 11) · 前瞻PE <b>118.9</b> · 盈利预测 26EPS¥0.174/27¥0.23(增32.2%) ｜ <span style="color:#94a3b8">A股以评级+前瞻PE/EPS校准(无单一一致目标价)</span>　📅 下次财报 2026-08-29　🔓 <span style="color:#64748b">近6月无解禁(已消除限售抛压隐忧)</span></div>
+  <div class="rr">🛡 风控 止损 -10%(≈¥18) · 风险收益比 <b>3.8:1</b>　·　📊 评分 62/100(9/9因子) = 趋势16+共识上行9+回调健康10+动量5+评级6+估值PEG7+相对强弱10+波动率1+质量5</div>
+  <div class="th">💡 探路者抛物线过热(1/3/6月+58/59/117%、年化波动95.8%、MA50溢价+40%、贴顶-3.2%),纯题材/资金驱动(龙虎榜游资博弈),而基本面严重背离——东财仅"增持"/研报11篇、前瞻PE135.9、PEG约4.22(极贵)、ROE仅2.76、经营现金流每股为负,东财仍归服装家纺、Micro-LED芯片转型未兑现;无券商目标价可校准,26-29目标为技术/估值推演(前顶24.43上方有限空间×务实收窄),仅当回踩MA50区间(19-21)才具技术性介入价值,当前贴顶不追高。</div>
+  <div class="news">📰 <a href="http://finance.eastmoney.com/a/202606253783086855.html" target="_blank">探路者300005龙虎榜数据06-25…</a> <span class="src">[东方财富Choice数据·2026-06-25]</span>　<a href="http://finance.eastmoney.com/a/202607073796750627.html" target="_blank">强势股追踪 主力资金连续5日净流入172股…</a> <span class="src">[证券时报网·2026-07-07]</span></div>
+  <div class="rk2">⚠️ 风险:Micro-LED转型仅题材未兑现、随时证伪杀估值;控股股东解除一致行动关系削弱治理确定性;龙虎榜游资博弈、95.8%极端波动下贴顶随时急跌;PEG4.22+ROE2.76+经营现金流为负,估值无基本面支撑,一旦资金退潮可回落至MA50甚至更深。　·　52周 ¥8.27–¥24.43　·　MA50 ¥17.37 / MA200 ¥13.16</div>
+</div>
+<div class="card" style="border-top:3px solid #fbbf24">
+  <div class="hd"><span class="rk">17.</span><span class="tk">🇨🇳 603986</span>
+    <span class="nm">兆易创新</span><span class="badge">NOR Flash/MCU/利基存储(国产存储龙头)</span>
+    <span class="sig" style="color:#fbbf24">观望</span><span class="score">评分 65(9/9因子)</span><span class="conf">置信 4/10</span></div>
+  <div class="px"><span class="now">¥603.17</span>
+    <span class="mom">近1月 <span style="color:#4ade80">+27.2%</span> ｜ 近3月 <span style="color:#4ade80">+142.5%</span> ｜ 近6月 <span style="color:#4ade80">+172.1%</span> ｜ 距52周高 -28.2%</span></div>
+  <div class="kpis">
+    <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">¥480–510</div></div>
+    <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">¥720–760</div></div>
+    <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">+45%</div></div></div>
+  <div class="cons">🏛 机构共识(A股·东财研报) 评级 <b style="color:#2dd4bf">买入</b> · 近一月 1 份(在档 222) · 前瞻PE <b>191.5</b> · 盈利预测 26EPS¥3.15/27¥3.91(增24.1%) ｜ <span style="color:#94a3b8">A股以评级+前瞻PE/EPS校准(无单一一致目标价)</span>　📅 下次财报 2026-08-19　🔓 <span style="color:#64748b">近6月无解禁(已消除限售抛压隐忧)</span></div>
+  <div class="rr">🛡 风控 止损 -10%(≈¥446) · 风险收益比 <b>4.9:1</b>　·　📊 评分 65/100(9/9因子) = 趋势16+共识上行14+回调健康6+动量2+评级9+估值PEG3+相对强弱10+波动率1+质量11</div>
+  <div class="th">💡 现价654.29处于抛物线末端(1/3/6月+37.7/+185.1/+213.6%,远超QQQ m3=+22%),年化波动104%极端过热,估值前瞻PE215×EPS增速仅24%→PEG~9严重透支;东财"买入"、研报222篇但无券商目标价可校准(target_mean全null),目标为技术/估值推演——参考MA50=489一带回踩支撑与半导体景气修复,给480–510回踩区间才有正R:R,现价追高无风险收益比;经营现金流每股2.54为正是唯一质地支撑。</div>
+  <div class="news">📰 <a href="http://finance.eastmoney.com/a/202607023791791934.html" target="_blank">603986，封跌停…</a> <span class="src">[中国基金报·2026-07-02]</span>　<a href="http://finance.eastmoney.com/a/202607023791983140.html" target="_blank">突变！002371、603986跌停…</a> <span class="src">[证券时报·2026-07-02]</span></div>
+  <div class="rk2">⚠️ 风险:①股价可能快速回落/连续跌停(近期多次封跌停、深夜风险提示),PEG~9透支下杀空间大;②年化波动104%极端,单日振幅可吞没数月涨幅;③距MA50仍有约28%空间,回踩前不确定性高;④财报2026-08-19临近前情绪脆弱。　·　52周 ¥114.07–¥840.0　·　MA50 ¥508.27 / MA200 ¥308.72</div>
+</div>
+<div class="card" style="border-top:3px solid #fbbf24">
+  <div class="hd"><span class="rk">18.</span><span class="tk">🇨🇳 001309</span>
+    <span class="nm">德明利</span><span class="badge">存储主控/模组(SSD/eMMC·AI存储链)</span>
+    <span class="sig" style="color:#fbbf24">观望</span><span class="score">评分 63(9/9因子)</span><span class="conf">置信 3/10</span></div>
+  <div class="px"><span class="now">¥825.0</span>
+    <span class="mom">近1月 <span style="color:#4ade80">+40.3%</span> ｜ 近3月 <span style="color:#4ade80">+134.4%</span> ｜ 近6月 <span style="color:#4ade80">+280.1%</span> ｜ 距52周高 -14.9%</span></div>
+  <div class="kpis">
+    <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">¥671–720</div></div>
+    <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">¥780–860</div></div>
+    <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">+18%</div></div></div>
+  <div class="cons">🏛 机构共识(A股·东财研报) 评级 <b style="color:#2dd4bf">买入</b> · 近一月 0 份(在档 21) · 前瞻PE <b>171.2</b> · 盈利预测 26EPS¥4.82/27¥5.0(增3.7%) ｜ <span style="color:#94a3b8">A股以评级+前瞻PE/EPS校准(无单一一致目标价)</span>　📅 下次财报 2026-08-25　🔓 <span style="color:#f59e0b;font-weight:700">14天后解禁占流通1.1%·15.0亿·抛压临近</span></div>
+  <div class="rr">🛡 风控 止损 -10%(≈¥626) · 风险收益比 <b>1.8:1</b> <span style="color:#f59e0b">⚠️R:R偏低,不符买入纪律</span>　·　📊 评分 63/100(9/9因子) = 趋势16+共识上行14+回调健康10+动量2+评级9+估值PEG0+相对强弱10+波动率1+质量8</div>
+  <div class="th">💡 德明利半导体存储,东财评级买入/研报21篇但前瞻PE高达183、EPS26→27增速仅3.7%(PEG≈49估值严重透支)、经营现金流每股-1.06为负——质量硬伤明确;1/3/6月+42.5/+132.3/+340.4%抛物线远跑赢QQQ(m3+22%),现价881距MA50(671)高出31%属极度超买,策略框架抛物线过热强制降级观望、买点只给回踩MA50不追高;A股无单一券商目标价,目标为技术/估值推演(回踩企稳后阻力区,非追高),仅在671–720回踩支撑区分批试探。</div>
+  <div class="news">📰 <a href="http://finance.eastmoney.com/a/202606253783129346.html" target="_blank">新晋A股第6！001309午后涨停…</a> <span class="src">[证券时报·2026-06-25]</span>　<a href="http://finance.eastmoney.com/a/202606253783084092.html" target="_blank">德明利001309龙虎榜数据06-25)…</a> <span class="src">[东方财富Choice数据·2026-06-25]</span></div>
+  <div class="rk2">⚠️ 风险:利空明确:"涨停后炸板"为短线见顶信号;年化波动87.7%极高,前瞻PE183+PEG≈49估值无支撑,经营现金流为负,一旦回踩不止于MA50、跌破MA200(355.8)则趋势彻底破坏;新晋高价股龙虎榜游资特征,回撤幅度可能远超-10%。　·　52周 ¥79.05–¥970.0　·　MA50 ¥693.19 / MA200 ¥367.48</div>
+</div></div></div><div class="pane" data-mkt="HK"><div class="section">🇭🇰 港股 · 国产 AI<span class="scnt">1 支</span></div><div class="grid">
+<div class="card" style="border-top:3px solid #fbbf24">
+  <div class="hd"><span class="rk">19.</span><span class="tk">🇭🇰 6869</span>
+    <span class="nm">长飞光纤</span><span class="badge">光纤光缆/光模块</span>
+    <span class="sig" style="color:#fbbf24">观望</span><span class="score">技术分 89(4/9因子·仅技术面)</span><span class="conf">置信 3/10</span></div>
+  <div class="px"><span class="now">HK$250.0</span>
+    <span class="mom">近1月 <span style="color:#4ade80">+21.2%</span> ｜ 近3月 <span style="color:#4ade80">+71.4%</span> ｜ 近6月 <span style="color:#4ade80">+551.4%</span> ｜ 距52周高 -13.1%</span></div>
+  <div class="kpis">
+    <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">HK$225–235</div></div>
+    <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">HK$265–285</div></div>
+    <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">+20%</div></div></div>
+  <div class="cons">🏛 券商一致目标暂缺(取数受限,价格/技术面正常)</div>
+  <div class="rr">🛡 风控 止损 -10%(≈HK$207) · 风险收益比 <b>2.0:1</b>　·　📊 技术分 89/100(4/9因子·仅技术面,估值/共识未评) = 趋势16+回调健康10+动量5+相对强弱10(缺:共识上行、评级、估值PEG、波动率、质量)</div>
+  <div class="th">💡 数据不足·仅技术面:长飞光纤港股现价250(⚠stale复用历史收盘,非当日实时)强势多头排列——站上MA50(234.15)且远高于MA200(117.22),3/6月狂涨71.4%/551.4%属抛物线过热区,距52周高287.6仅-13.1%;港股无analyst/quality共识、无财报日、年化波动缺,无券商目标价可校准,目标265–285纯技术面推演(回踩MA50一带230建仓、看前高287.6附近);过热+数据缺失下只宜观望,不追高。</div>
+  
+  <div class="rk2">⚠️ 风险:数据质量硬伤:现价系stale复用历史值,可能已严重偏离真实盘口;6月累涨551%的抛物线走势极易急速回撤,-13.1%距高点意味随时可能补跌;无财报日/无机构覆盖/无波动率,基本面与催化剂完全不可验证;港股流动性与情绪波动大。　·　52周 HK$16.71–HK$287.6　·　MA50 HK$234.15 / MA200 HK$117.22</div>
+</div></div></div>
+<div class="audit"><b>📋 数据 / 覆盖审计:</b>行情 19/19 · 券商一致 17/19(QQQ及无覆盖标的除外) · 新闻催化剂 8/19 · 财报日 17/19<br><span style="color:#64748b">ℹ️ 券商一致/新闻/财报日已尽力抓取(美股 yfinance、A股东财业绩预约)。web 深度信源待 web 工具恢复后补。</span></div>
+<div class="foot">两个核心指标 = ① 买入建议+建议买入价　② 6-12月目标价+预期收益　·　预测台账自动复盘校准<br>
+数据 yfinance 真实行情 · 研判由 Claude 基于价格/动量/均线+AI产业链结构生成(未用 DeepSeek)<br>
+⚠️ 仅供研究/学习,<b>非投资建议</b>。回测命中率约 42%(<b>非 90%</b>),正期望靠 ~2.5:1 盈亏比——<b>赚钱靠风控不靠高胜率</b>;目标价为技术面+共识+催化剂推演,不代表未来,实际交易请自负风险。</div>
+</div></body></html>
