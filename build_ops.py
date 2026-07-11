@@ -41,11 +41,18 @@ def stat_meigu():
     total_bytes = sum(os.path.getsize(f) for f in datas)
     ledger = os.path.join(STATE, "predictions.jsonl")
     n_pred = sum(1 for _ in open(ledger, encoding="utf-8")) if os.path.exists(ledger) else 0
-    cov = "—"
+    cov, stale_line = "—", None
     if datas:
         try:
-            meta = json.load(open(datas[-1], encoding="utf-8")).get("meta", {})
+            dd = json.load(open(datas[-1], encoding="utf-8"))
+            meta = dd.get("meta", {})
             cov = f"{meta.get('fresh','?')}/{meta.get('total','?')} 当日真值"
+            # 体检口径:覆盖率不许掩盖冻结票——stale 票显式列出复用起始日(长飞曾冻结15期无人察觉)
+            st = []
+            for tk in meta.get("stale_tickers", []):
+                sd = (dd.get("stocks", {}).get(tk, {}) or {}).get("stale_date", "?")
+                st.append(f"{tk}(复用自{sd})")
+            stale_line = "、".join(st) if st else None
         except Exception:
             pass
     d = lambda fs, pat: (re.search(pat, os.path.basename(fs[-1])).group(1) if fs else "—")
@@ -53,12 +60,20 @@ def stat_meigu():
     latest_data = d(datas, r"data_(.*)\.json")
     latest_call = d(calls, r"calls_(.*)\.json")
     latest_news = d(newses, r"news_(.*)\.json")
-    return {"行情快照": f"{len(datas)} 份 · {total_bytes//1024} KB · 最新 {latest_data}",
+    ret = {"行情快照": f"{len(datas)} 份 · {total_bytes//1024} KB · 最新 {latest_data}",
             "数据覆盖率": cov,
             "研判期数": f"{len(calls)} 期 · 最新 {latest_call}",
             "预测台账": f"{n_pred} 条(复盘校准依据)",
             "看板归档": f"{len(boards)} 期",
             "全球头条": (f"{len(newses)} 期 · 最新 {latest_news}" if newses else "尚无(首期待生成)")}
+    if stale_line:
+        ret["⚠️ 复用票告警"] = stale_line
+    raws = [f for f in sorted(glob.glob(os.path.join(STATE, "news_raw_*.json")))
+            if re.search(r"news_raw_\d{4}-\d{2}-\d{2}\.json$", f)]
+    if raws:
+        # 头条出片率 = 成品期数/采集期数(体检:07-08~10三天"有抓取无成品"曾静默,此指标让断档一眼可见)
+        ret["头条出片率"] = f"{len(newses)}/{len(raws)}(成品/采集)"
+    return ret
 
 
 def stat_tongguang():
@@ -116,7 +131,8 @@ def stat_deepseek():
         for k, (tk, c) in tot.items():
             if c:
                 label = {"research": "个股研判", "news": "头条研判"}.get(k, k)
-                out[f"{label}消耗"] = f"{tk:,} tokens / {c} 次"
+                out[f"{label}消耗"] = f"{tk:,} tokens / {c} 条账目"
+        out["口径"] = "research 类一条账目=一期(含≤19次底层调用,取数受限票跳过);news 类含失败/截断也落账"
     else:
         out["已落账调用"] = "暂无记录(usage.jsonl 自本功能上线起累积)"
     key = (os.environ.get("DEEPSEEK_API_KEY") or "").strip()
@@ -172,7 +188,7 @@ body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;colo
 </div>
 <div class="honest"><b>诚实披露——这些指标当前做不了:</b><br>
 · <b>访问量/访客数</b>:静态站需接第三方统计(GoatCounter 免费),用户选择暂缓;要开时注册后一行代码接入。<br>
-· <b>Claude 研判 token</b>:Anthropic 不提供用量查询接口,Claude 亲研部分无法自动进表。<br>
+· <b>Claude 研判 token</b>:Claude 亲研走 Claude Code 订阅,订阅侧无用量查询接口(Anthropic 的 Usage API 仅面向 API 组织),故无法自动进表。<br>
 · <b>盘势问答全站消耗</b>:问答无后端(浏览器直连 DeepSeek),无法汇总所有访问者的用量。</div>
 <div class="foot">仅站务运营指标,不含任何投资内容</div>
 </div></body></html>"""

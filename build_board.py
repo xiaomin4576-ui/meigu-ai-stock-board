@@ -49,6 +49,10 @@ def _mid(s):
 def audit_section(data):
     n = len(data)
     px = sum(1 for v in data.values() if v.get("price") is not None)
+    # 口径拆分:体检指出"行情19/19"把冻结复用也算进覆盖,掩盖了长飞冻结15期——当日真值与复用分开示人
+    px_fresh = sum(1 for v in data.values() if v.get("price") is not None and not v.get("stale"))
+    px_stale = [f"{tk}(复用自{v.get('stale_date','?')})" for tk, v in data.items()
+                if v.get("price") is not None and v.get("stale")]
     cons = sum(1 for v in data.values() if (v.get("analyst") or {}) and
                ((v["analyst"].get("target_mean")) or v["analyst"].get("consensus_src") == "Finnhub" or v["analyst"].get("cn_rating")))
     news = sum(1 for v in data.values() if v.get("news"))
@@ -59,7 +63,7 @@ def audit_section(data):
             if cons_gap else
             'ℹ️ 券商一致/新闻/财报日已尽力抓取(美股 yfinance、A股东财业绩预约)。web 深度信源待 web 工具恢复后补。')
     return (f'<div class="audit"><b>📋 数据 / 覆盖审计:</b>'
-            f'行情 {px}/{n} · 券商一致 {cons}/{n}(QQQ及无覆盖标的除外) · 新闻催化剂 {news}/{n} · 财报日 {earn}/{n}'
+            f'行情 {px_fresh}/{n} 当日真值{f" + {len(px_stale)} 复用({chr(12289).join(px_stale)})" if px_stale else ""} · 券商一致 {cons}/{n}(QQQ为ETF无评级;取数受限标的如实缺) · 新闻催化剂 {news}/{n} · 财报日 {earn}/{n}'
             + (f' · ⚠️ 抓取失败:{"、".join(missing)}' if missing else '')
             + f'<br><span style="color:#64748b">{note}</span></div>')
 
@@ -235,7 +239,7 @@ def card(i, tk, d, a, bench_m3=None):
     <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">{cs}{a.get('tgt','')}</div></div>
     <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">{a.get('ret','')}</div></div></div>
   <div class="cons">{cons}{earn}{unlock_html}</div>
-  <div class="rr">🛡 风控 止损 -10%(≈{cs}{stop}) · 风险收益比 <b>{rr if rr is not None else '—'}:1</b>{rrflag}　·　📊 {'数据不足·目标价为题材推演非可复算估值' if low_data else f'{score_lbl} {sc}/100({cov}/9因子{"·仅技术面,估值/共识未评" if tech_only else ""}) = {sp_str}{miss_note}'}</div>
+  <div class="rr">🛡 风控 止损 -10%(≈{(cs + str(stop)) if stop is not None else '—'}) · 风险收益比 <b>{rr if rr is not None else '—'}:1</b>{rrflag}　·　📊 {'数据不足·目标价为题材推演非可复算估值' if low_data else f'{score_lbl} {sc}/100({cov}/9因子{"·仅技术面,估值/共识未评" if tech_only else ""}) = {sp_str}{miss_note}'}</div>
   <div class="th">💡 {a.get('th','')}</div>
   {news_html}
   <div class="rk2">⚠️ 风险:{a.get('rk','')}　·　52周 {cs}{d.get('lo','')}–{cs}{d.get('hi','')}　·　MA50 {cs}{d.get('ma50','')} / MA200 {cs}{d.get('ma200','')}</div>
@@ -542,6 +546,9 @@ def main():
     if not calls:
         raise SystemExit(f"缺 calls_*.json(Claude 研判)。先让 Claude 生成首期研判再渲染。")
     order = calls.get("ranking") or list(calls["stocks"].keys())
+    # 页脚引擎声明按当期实况动态生成(体检:此前写死"未用DeepSeek"与大盘区"DeepSeek引擎研判"同页互斥)
+    engine_line = ("本期研判引擎:DeepSeek(云端自动/按钮触发)" if "DeepSeek" in (calls.get("market") or "")
+                   else "本期研判引擎:Claude(亲研)")
     bench_m3 = (data.get("QQQ", {}) or {}).get("m3")     # 相对强弱基准:QQQ 近3月
     # 按市场分组排版:美股(全球定价、引领)在前 → A 股 → 港股,因 A/港大多跟随美股,分组后看 A/港更直观。
     # 奖牌(🥇🥈🥉/序号)用【全局排名】位置,组内仍按总排名顺序。
@@ -696,7 +703,7 @@ document.addEventListener('click',function(e){{
 {cards}
 {audit_section(data)}
 <div class="foot">两个核心指标 = ① 买入建议+建议买入价　② 6-12月目标价+预期收益　·　预测台账自动复盘校准<br>
-数据 yfinance 真实行情 · 研判由 Claude 基于价格/动量/均线+AI产业链结构生成(未用 DeepSeek)<br>
+数据 yfinance+akshare+腾讯行情(真实抓取) · {engine_line}<br>
 ⚠️ 仅供研究/学习,<b>非投资建议</b>。回测命中率约 42%(<b>非 90%</b>),正期望靠 ~2.5:1 盈亏比——<b>赚钱靠风控不靠高胜率</b>;目标价为技术面+共识+催化剂推演,不代表未来,实际交易请自负风险。</div>
 </div></body></html>"""
     os.makedirs(STATE, exist_ok=True)

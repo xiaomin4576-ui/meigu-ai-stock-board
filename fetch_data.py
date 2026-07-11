@@ -443,6 +443,47 @@ def fetch_one_cn(s):
     return rec
 
 
+def hk_tencent_fetch(s):
+    """港股兜底:腾讯日K(web.ifzq.gtimg.cn,免key,本机/云端都可达)取前复权日线算全套技术面。
+    背景:yfinance 对 6869.HK 自 2026-06-26 起连续取数失败,冻结价 250 挂了 15 期(真实已跌到 159.8,
+    虚高 56%,研判叙事被带反)——体检抓出的高危,此兜底根治。共识/新闻港股本就 best-effort,置空如实。"""
+    tk = s["ticker"]
+    code = "hk" + tk.split(".")[0].zfill(5)
+    rec = {"name": s["name"], "role": s["role"], "market": "HK"}
+
+    def _kline():
+        r = requests.get("https://web.ifzq.gtimg.cn/appstock/app/hkfqkline/get",
+                         params={"param": f"{code},day,,,320,qfq"},
+                         headers={"User-Agent": UA}, timeout=20)
+        node = r.json()["data"][code]
+        k = node.get("qfqday") or node.get("day")
+        if not k or len(k) < 30:
+            raise RuntimeError("腾讯港股K线不足")
+        return k
+
+    k = _with_retry(_kline, f"腾讯HK:{code}")
+    closes = [float(row[2]) for row in k]                 # 行格式 [日期,开,收,高,低,量,…]
+    n = len(closes)
+    last = closes[-1]
+    back = lambda d: closes[-d - 1] if n > d else None
+    ma = lambda w: round(sum(closes[-w:]) / w, 2) if n >= w else None
+    win = closes[-250:]
+    hi, lo = round(max(win), 2), round(min(win), 2)
+    import statistics
+    rets = [closes[i] / closes[i - 1] - 1 for i in range(max(1, n - 250), n)]
+    vol = round(statistics.stdev(rets) * (252 ** 0.5) * 100, 1) if len(rets) > 20 else None
+    rec.update({
+        "price": round(last, 2),
+        "m1": pct(last, back(21)), "m3": pct(last, back(63)), "m6": pct(last, back(126)),
+        "fromhi": pct(last, hi), "hi": hi, "lo": lo, "ma50": ma(50), "ma200": ma(200), "vol": vol,
+        "analyst": {"target_mean": None, "cn_rating": None, "n_analysts": None,
+                    "fwd_pe": None, "rating": None, "rating_mean": None},
+        "quality": None, "earnings_date": None, "news": [],
+        "px_src": "腾讯日K(qfq)",
+    })
+    return rec
+
+
 def _td_symbol(tk, market):
     """Twelve Data 符号:港股用 <code>:HKEX,美股原样。"""
     if market == "HK":
@@ -594,8 +635,13 @@ def main():
                 rec = fetch_one_cn(s)              # A股走 akshare 东财(yfinance无A股一致数据)
             elif mk == "US" and TD_KEY:
                 rec = td_fetch_one(s, sess)        # 美股走 Twelve Data(免费档仅美股,云端稳定不限流)
+            elif mk == "HK":
+                try:
+                    rec = fetch_one(s, sess)       # 港股先试 yfinance(能拿到券商一致时更全)
+                except Exception:
+                    rec = hk_tencent_fetch(s)      # 失败走腾讯日K兜底(长飞曾冻结15期,高危修复)
             else:
-                rec = fetch_one(s, sess)           # 港股/无TD key → yfinance(best-effort,可能被限)
+                rec = fetch_one(s, sess)           # 无TD key 美股 → yfinance(best-effort,可能被限)
         except Exception as e:
             rec = {"name": s["name"], "role": s["role"], "market": mk, "error": f"抓取失败: {str(e)[:80]}"}
         stocks[tk] = rec
@@ -612,7 +658,9 @@ def main():
             if lg:
                 if src and src < TODAY:
                     lg["stale"] = True
-                    lg["stale_date"] = src
+                    # 口径修正:stale_date=真实最后成功取数日,不许随复用逐日"滑动"
+                    # (长飞冻结15期时曾被滑成"昨天",把06-26旧价伪装成新鲜——体检抓出)
+                    lg["stale_date"] = lg.get("stale_date") or src
                 stocks[tk] = lg
 
     # A股财报日:从业绩预约披露日历批量补(一次拉表查所有A股,akshare东财)。云端连不上则保留既有值。

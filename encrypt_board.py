@@ -9,14 +9,29 @@ from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 
 ITERS = 250000
 
-def encrypt(html: str, password: str) -> str:
+def section_of(path: str) -> str:
+    """按输出文件名给密码门标注正确板块名——此前所有门都写死「美股 AI 科技股早报」,
+    访客在头条/运营页门口看到股票标题会困惑(体检发现)。"""
+    b = os.path.basename(path)
+    if b == "news.html":
+        return "全球市场头条"
+    if b == "ops.html":
+        return "运营看板"
+    if b == "archive.html":
+        return "看板归档"
+    if b.startswith("ai_stock_board_") or b == "board.html":
+        return "AI 股票看板"
+    return "LUMORA · 同光科技"
+
+
+def encrypt(html: str, password: str, section: str = "AI 股票看板") -> str:
     salt = os.urandom(16)
     iv = os.urandom(12)
     key = hashlib.pbkdf2_hmac("sha256", password.encode("utf-8"), salt, ITERS, 32)
     ct = AESGCM(key).encrypt(iv, html.encode("utf-8"), None)   # 密文含 16 字节 GCM tag
     b64 = lambda b: base64.b64encode(b).decode()
     blob = json.dumps({"s": b64(salt), "i": b64(iv), "c": b64(ct), "n": ITERS})
-    return GATE.replace("/*__BLOB__*/", blob)
+    return GATE.replace("/*__BLOB__*/", blob).replace("__SECTION__", section)
 
 # 解密门页:输密码 → WebCrypto 解密 → document.write 还原整张看板
 GATE = r"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
@@ -44,8 +59,8 @@ button:active{background:#1d4ed8}
 </style></head><body>
 <div class="box">
  <div class="ic">🔒</div>
- <h1>美股 AI 科技股早报</h1>
- <p>此看板受密码保护,请输入访问密码</p>
+ <h1>__SECTION__</h1>
+ <p>LUMORA · 同光科技 · 此页受密码保护,请输入访问密码</p>
  <form id="f"><input id="pw" type="password" inputmode="numeric" placeholder="密码" autofocus autocomplete="off"/>
  <button type="submit">进入看板</button></form>
  <div class="err" id="err"></div>
@@ -79,5 +94,5 @@ if __name__ == "__main__":
         open(dst, "w", encoding="utf-8").write(html)
         print(f"ℹ️ 未设 BOARD_PASSWORD,{dst} 未加密(公开)")
     else:
-        open(dst, "w", encoding="utf-8").write(encrypt(html, pw))
-        print(f"🔒 已加密 {dst}(密码保护)")
+        open(dst, "w", encoding="utf-8").write(encrypt(html, pw, section_of(dst)))
+        print(f"🔒 已加密 {dst}(密码保护·门标「{section_of(dst)}」)")
