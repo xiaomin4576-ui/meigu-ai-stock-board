@@ -803,17 +803,18 @@
     },
     "6869.HK": {
       "name": "长飞光纤",
-      "role": "光纤光缆/光模块",
+      "role": "光纤光缆/光模块(AI光互联)",
       "market": "HK",
-      "price": 250.0,
-      "m1": 21.2,
-      "m3": 71.4,
-      "m6": 551.4,
-      "fromhi": -13.1,
-      "hi": 287.6,
-      "lo": 16.71,
-      "ma50": 234.15,
-      "ma200": 117.22,
+      "price": 159.8,
+      "m1": -37.3,
+      "m3": -28.8,
+      "m6": 211.1,
+      "fromhi": -44.4,
+      "hi": 287.26,
+      "lo": 18.64,
+      "ma50": 228.02,
+      "ma200": 123.21,
+      "vol": 122.8,
       "analyst": {
         "target_mean": null,
         "cn_rating": null,
@@ -822,10 +823,10 @@
         "rating": null,
         "rating_mean": null
       },
+      "quality": null,
       "earnings_date": null,
       "news": [],
-      "stale": true,
-      "stale_date": "2026-07-10"
+      "px_src": "腾讯日K(qfq)"
     },
     "QQQ": {
       "name": "纳指100 ETF",
@@ -856,13 +857,10 @@
     }
   },
   "meta": {
-    "degraded": true,
-    "fresh": 18,
+    "degraded": false,
+    "fresh": 19,
     "have": 19,
     "total": 19,
-    "stale_tickers": [
-      "6869.HK"
-    ],
-    "banner": "1/19 支复用历史真实收盘(取数受限:6869.HK),其余 18/19 为最近真值;价格全真实、非编造,但部分非当日"
+    "stale_tickers": []
   }
 }

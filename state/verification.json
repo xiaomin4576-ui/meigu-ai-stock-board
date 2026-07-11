@@ -4,11 +4,11 @@
   "feasibility": {
     "NVDA": {
       "cur": 210.96,
-      "buy_reachable": true,
-      "note": "✅ 可达(近20日区间覆盖买入价)",
+      "buy_reachable": false,
+      "note": "—",
       "recent20_low": 189.8,
       "recent20_high": 213.99,
-      "target_implied_move_pct": 20.9,
+      "target_implied_move_pct": null,
       "target_aggressive": false
     },
     "AVGO": {
@@ -17,33 +17,33 @@
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 356.43,
       "recent20_high": 414.64,
-      "target_implied_move_pct": 10.0,
+      "target_implied_move_pct": 16.3,
       "target_aggressive": false
     },
     "TSM": {
       "cur": 434.11,
-      "buy_reachable": true,
-      "note": "✅ 可达(近20日区间覆盖买入价)",
+      "buy_reachable": false,
+      "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 408.86,
       "recent20_high": 479.0,
-      "target_implied_move_pct": 15.2,
+      "target_implied_move_pct": 19.8,
       "target_aggressive": false
     },
     "MU": {
       "cur": 979.3,
       "buy_reachable": false,
-      "note": "—",
+      "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 891.66,
       "recent20_high": 1254.81,
-      "target_implied_move_pct": null,
+      "target_implied_move_pct": 20.0,
       "target_aggressive": false
     },
     "MRVL": {
       "cur": 235.81,
       "buy_reachable": false,
       "note": "⚠️ 买入价低于近20日低点,可能挂不上",
-      "recent20_low": 222.94,
-      "recent20_high": 329.88,
+      "recent20_low": 222.89,
+      "recent20_high": 329.8,
       "target_implied_move_pct": 27.2,
       "target_aggressive": false
     },
@@ -62,7 +62,7 @@
       "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 225.66,
       "recent20_high": 308.67,
-      "target_implied_move_pct": 16.4,
+      "target_implied_move_pct": 14.4,
       "target_aggressive": false
     },
     "COHR": {
@@ -71,7 +71,7 @@
       "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 304.07,
       "recent20_high": 439.68,
-      "target_implied_move_pct": 0.2,
+      "target_implied_move_pct": 10.9,
       "target_aggressive": false
     },
     "VRT": {
@@ -80,7 +80,7 @@
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 283.34,
       "recent20_high": 358.54,
-      "target_implied_move_pct": 14.5,
+      "target_implied_move_pct": 19.2,
       "target_aggressive": false
     },
     "600522.SS": {
@@ -89,7 +89,7 @@
       "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 43.28,
       "recent20_high": 68.1,
-      "target_implied_move_pct": 17.6,
+      "target_implied_move_pct": 15.4,
       "target_aggressive": false
     },
     "688981.SS": {
@@ -98,7 +98,7 @@
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 124.37,
       "recent20_high": 176.34,
-      "target_implied_move_pct": -8.0,
+      "target_implied_move_pct": -1.9,
       "target_aggressive": false
     },
     "688256.SS": {
@@ -113,19 +113,19 @@
     "688052.SS": {
       "cur": 250.6,
       "buy_reachable": false,
-      "note": "⚠️ 买入价低于近20日低点,可能挂不上",
+      "note": "—",
       "recent20_low": 232.6,
       "recent20_high": 307.29,
-      "target_implied_move_pct": 17.7,
+      "target_implied_move_pct": null,
       "target_aggressive": false
     },
     "001309.SZ": {
       "cur": 799.98,
-      "buy_reachable": false,
-      "note": "—",
+      "buy_reachable": true,
+      "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 608.14,
       "recent20_high": 980.0,
-      "target_implied_move_pct": null,
+      "target_implied_move_pct": 16.9,
       "target_aggressive": false
     },
     "300005.SZ": {
@@ -139,11 +139,11 @@
     },
     "603986.SS": {
       "cur": 612.0,
-      "buy_reachable": false,
-      "note": "⚠️ 买入价低于近20日低点,可能挂不上",
+      "buy_reachable": true,
+      "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 476.66,
       "recent20_high": 846.66,
-      "target_implied_move_pct": -18.3,
+      "target_implied_move_pct": 6.2,
       "target_aggressive": false
     },
     "002384.SZ": {
@@ -157,11 +157,11 @@
     },
     "6869.HK": {
       "cur": 159.8,
-      "buy_reachable": true,
-      "note": "✅ 可达(近20日区间覆盖买入价)",
+      "buy_reachable": false,
+      "note": "—",
       "recent20_low": 146.0,
       "recent20_high": 304.48,
-      "target_implied_move_pct": 59.6,
+      "target_implied_move_pct": null,
       "target_aggressive": false
     },
     "QQQ": {
