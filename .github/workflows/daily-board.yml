@@ -70,6 +70,9 @@ jobs:
 
       # 全球头条:采集(Finnhub+东财环球+RSS)→ DeepSeek 双档筛编(宏观/地缘+科技,带传导链)。
       # 每天自动跑(单次调用成本极低);双双容错——失败沿用最近一期头条(渲染层自动复用+新鲜度横幅),绝不阻断。
+      - name: 宏观快线采集(允许失败)
+        run: python fetch_macro.py || echo "::warning::fetch_macro 异常,沿用最近一期宏观快线"
+
       - name: 全球头条采集(允许失败)
         env:
           FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}

@@ -16,6 +16,46 @@ CAT = {"macro": ("🌍 宏观 / 地缘", "影响美股整体:利率 · 关税 ·
        "tech": ("🤖 科技 / AI 产业", "影响科技板块:财报 · 芯片管制 · AI 监管 · 产业链", "#34d399")}
 
 
+def macro_panel():
+    """「📅 宏观快线」条:美国宏观(BLS官方)+中美利差+黄金原油实时+社融——蒸馏自艾丽框架的
+    '数据三点对照+跨资产观察'缺口补齐。缺哪块显哪块,过期标注,绝不冒充。"""
+    files = [f for f in sorted(glob.glob(os.path.join(STATE, "macro_*.json")))
+             if re.search(r"macro_\d{4}-\d{2}-\d{2}\.json$", f)]
+    if not files:
+        return ""
+    m = json.load(open(files[-1], encoding="utf-8"))
+    b = m.get("blocks", {})
+    cells = []
+    us = b.get("美国宏观", {})
+    if "error" not in us:
+        for k in ("非农新增(千人)", "失业率%", "CPI同比%"):
+            v = us.get(k)
+            if v:
+                arrow = "" if v.get("前值") is None else (" ↑" if v["值"] > v["前值"] else (" ↓" if v["值"] < v["前值"] else " →"))
+                cells.append(f'<div class="mcell"><div class="mk">{esc(k)}<span class="mp">{esc(v.get("期",""))}</span></div>'
+                             f'<div class="mv">{esc(v["值"])}{arrow}</div><div class="ms">前值 {esc(v.get("前值","—"))}</div></div>')
+    r = b.get("中美利率", {})
+    if "error" not in r and r.get("美10Y%"):
+        cells.append(f'<div class="mcell"><div class="mk">美/中 10Y<span class="mp">{esc(r.get("日期",""))}</span></div>'
+                     f'<div class="mv">{esc(r["美10Y%"])} / {esc(r["中10Y%"])}</div><div class="ms">利差 {esc(r.get("利差bp","—"))}bp</div></div>')
+    c = b.get("大宗实时", {})
+    for name in ("纽约黄金", "纽约原油"):
+        v = c.get(name) if "error" not in c else None
+        if v:
+            cells.append(f'<div class="mcell"><div class="mk">{esc(name)}<span class="mp">实时</span></div>'
+                         f'<div class="mv">{esc(v["价"])}</div><div class="ms">{"+" if v["涨跌%"]>=0 else ""}{esc(v["涨跌%"])}%</div></div>')
+    s = b.get("中国社融", {})
+    if "error" not in s and s.get("社融增量(亿)") is not None:
+        cells.append(f'<div class="mcell"><div class="mk">中国社融增量<span class="mp">{esc(s.get("数据月份",""))}·滞后源</span></div>'
+                     f'<div class="mv">{esc(s["社融增量(亿)"])}亿</div><div class="ms">贷款 {esc(s.get("其中人民币贷款(亿)","—"))}亿</div></div>')
+    if not cells:
+        return ""
+    stale = "" if m.get("asof") == TODAY else f'<span style="color:#fbbf24">(数据抓取于 {esc(m.get("asof"))})</span>'
+    return (f'<div class="macro"><div class="mtitle">📅 宏观快线 {stale}'
+            f'<span class="msub">BLS官方 · 中债/美债 · 腾讯外盘 · 三点对照(实际/前值;预期无免费可靠源如实缺)</span></div>'
+            f'<div class="mgrid">{"".join(cells)}</div></div>')
+
+
 def latest_news():
     p = os.path.join(STATE, f"news_{TODAY}.json")
     if os.path.exists(p):
@@ -100,6 +140,15 @@ body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;colo
 .ichain{{font-size:12.5px;color:#fde68a;background:rgba(251,191,36,.07);border:1px solid rgba(251,191,36,.18);border-radius:9px;padding:7px 11px;margin-top:8px}}
 .isrc{{font-size:11px;color:#64748b;margin-top:7px}}.isrc a{{color:#93c5fd;text-decoration:none}}
 .foot{{text-align:center;font-size:11px;color:#475569;margin-top:20px;line-height:1.8}}
+.macro{{background:#101b33;border:1px solid rgba(96,165,250,.35);border-radius:13px;padding:13px 16px;margin-bottom:14px}}
+.mtitle{{font-size:14px;font-weight:800;color:#93c5fd;margin-bottom:9px}}
+.msub{{font-size:10.5px;font-weight:400;color:#64748b;margin-left:8px}}
+.mgrid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(138px,1fr));gap:8px}}
+.mcell{{background:rgba(51,65,85,.3);border-radius:9px;padding:8px 10px}}
+.mk{{font-size:10.5px;color:#94a3b8}}
+.mp{{font-size:9px;color:#64748b;margin-left:4px}}
+.mv{{font-size:16px;font-weight:800;color:#f1f5f9;margin-top:2px}}
+.ms{{font-size:10px;color:#7c8aa3}}
 </style></head><body><div class="wrap">
 <div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#c8a562;margin-bottom:8px">LUMORA · 同光科技</div><h1>🌍 全球市场头条 · {news_date}</h1>
 <div class="sub">传导链视角:国际局势 → 美股 → A股 · 油气市场 → 莫桑比克/东非经营 · 三档 15-21 条 · 信源 Finnhub / 东财环球 / OilPrice / 财经RSS(真实链接可溯源)</div>
@@ -131,6 +180,7 @@ async function newsUpd(){{
 }}
 </script>
 {fresh}
+{macro_panel()}
 {secs}
 <div class="foot">头条由 AI 从真实信源筛编,「传导链」为推演视角非事实断言 · 仅研究/学习用途,<b>非投资建议</b></div>
 </div></body></html>"""

@@ -1,0 +1,140 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""宏观快线采集:为看板/头条/问答补「宏观数据+跨资产」层。
+来源蒸馏自「艾丽的无废话财经」研判框架 gap 分析(2026-07):她的核心信息优势=宏观数据三点对照
+(实际/预期/前值)+ 跨资产资金流观察,而我们底座此前只有个股行情/共识/新闻,缺宏观层——本脚本补齐。
+【源选型(全部实测,按数据真实性规则)】
+  ① 美国宏观 = BLS 官方 API(labor.gov 一手,免key;非农就业/失业率/CPI)——弃用了 akshare 金十镜像(已停更于2025-09)。
+     注:市场"预期值"无免费可靠源,如实缺,只给 实际+前值+同比,不编。
+  ② 中美国债收益率 = akshare bond_zh_u_rate(中债/美债官方口径,日频)。
+  ③ 黄金/原油实时 = 腾讯外盘 hf_GC/hf_CL(免key)。
+  ④ 中国社融 = akshare macro_china_shrzgm(金十镜像,常滞后1-2月,页面如实标注数据月份)。
+逐项容错:任一源失败该项置空并留 error,绝不编造;输出 state/macro_<北京日期>.json。"""
+import os, json, ssl, datetime, urllib.request
+
+DIR = os.path.dirname(os.path.abspath(__file__))
+STATE = os.path.join(DIR, "state")
+TODAY = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).date().isoformat()
+
+
+def _ctx():
+    try:
+        import certifi
+        return ssl.create_default_context(cafile=certifi.where())
+    except Exception:
+        return ssl.create_default_context()
+
+
+def with_no_proxy(fn):
+    keys = ["HTTP_PROXY", "HTTPS_PROXY", "http_proxy", "https_proxy", "ALL_PROXY", "all_proxy"]
+    saved = {k: os.environ.pop(k) for k in keys if k in os.environ}
+    old_no = os.environ.get("NO_PROXY")
+    os.environ["NO_PROXY"] = "*"
+    try:
+        return fn()
+    finally:
+        os.environ.pop("NO_PROXY", None)
+        if old_no is not None:
+            os.environ["NO_PROXY"] = old_no
+        os.environ.update(saved)
+
+
+def us_bls():
+    """BLS 官方:非农就业(算环比新增)、失业率、CPI(算同比)。v1 免key,限额宽裕(日6跑够用)。"""
+    yr = datetime.date.today().year
+    body = json.dumps({"seriesid": ["CES0000000001", "LNS14000000", "CUSR0000SA0"],
+                       "startyear": str(yr - 1), "endyear": str(yr)}).encode()
+    req = urllib.request.Request("https://api.bls.gov/publicAPI/v1/timeseries/data/", data=body,
+                                 headers={"Content-Type": "application/json", "User-Agent": "macro-fetcher"})
+    with urllib.request.urlopen(req, timeout=30, context=_ctx()) as r:
+        d = json.loads(r.read())
+    if d.get("status") != "REQUEST_SUCCEEDED":
+        raise RuntimeError(str(d.get("message"))[:100])
+    out = {}
+    for s in d["Results"]["series"]:
+        rows = [x for x in s["data"] if x.get("period", "").startswith("M")]
+        rows.sort(key=lambda x: (x["year"], x["period"]), reverse=True)
+        sid = s["seriesID"]
+        if not rows:
+            continue
+        cur = rows[0]
+        label = f"{cur['year']}-{cur['period'][1:]}"
+        if sid == "CES0000000001" and len(rows) >= 2:
+            add = int(float(cur["value"]) - float(rows[1]["value"]))
+            prev_add = int(float(rows[1]["value"]) - float(rows[2]["value"])) if len(rows) >= 3 else None
+            out["非农新增(千人)"] = {"值": add, "前值": prev_add, "期": label}
+        elif sid == "LNS14000000":
+            out["失业率%"] = {"值": float(cur["value"]),
+                            "前值": float(rows[1]["value"]) if len(rows) >= 2 else None, "期": label}
+        elif sid == "CUSR0000SA0" and len(rows) >= 13:
+            yoy = round((float(cur["value"]) / float(rows[12]["value"]) - 1) * 100, 1)
+            prev_yoy = round((float(rows[1]["value"]) / float(rows[13]["value"]) - 1) * 100, 1) if len(rows) >= 14 else None
+            out["CPI同比%"] = {"值": yoy, "前值": prev_yoy, "期": label}
+    out["源"] = "BLS官方(实际/前值;市场预期无免费可靠源,如实缺)"
+    return out
+
+
+def bond_rates():
+    """中美10Y国债收益率与利差(中债/美债官方口径,akshare 日频)。"""
+    import akshare as ak
+    start = (datetime.date.today() - datetime.timedelta(days=20)).strftime("%Y%m%d")
+    df = with_no_proxy(lambda: ak.bond_zh_us_rate(start_date=start))
+    row = df.dropna(subset=["美国国债收益率10年"]).iloc[-1]
+    return {"美10Y%": float(row["美国国债收益率10年"]), "中10Y%": float(row["中国国债收益率10年"]),
+            "利差bp": round((float(row["美国国债收益率10年"]) - float(row["中国国债收益率10年"])) * 100),
+            "日期": str(row["日期"]), "源": "中债/美债官方口径"}
+
+
+def commodities():
+    """黄金/原油实时(腾讯外盘,免key)。"""
+    req = urllib.request.Request("https://qt.gtimg.cn/q=hf_GC,hf_CL",
+                                 headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=15, context=_ctx()) as r:
+        txt = r.read().decode("gbk", "ignore")
+    out = {}
+    for line in txt.split(";"):
+        if "hf_GC" in line and "=" in line:
+            f = line.split('"')[1].split(",")
+            out["纽约黄金"] = {"价": float(f[0]), "涨跌%": float(f[1]), "时间": f[6] + " " + f[12]}
+        if "hf_CL" in line and "=" in line:
+            f = line.split('"')[1].split(",")
+            out["纽约原油"] = {"价": float(f[0]), "涨跌%": float(f[1]), "时间": f[6] + " " + f[12]}
+    if not out:
+        raise RuntimeError("腾讯外盘无数据")
+    out["源"] = "腾讯外盘实时"
+    return out
+
+
+def cn_shrz():
+    """中国社融增量(金十镜像,常滞后1-2月——数据月份如实标注,绝不冒充最新)。"""
+    import akshare as ak
+    df = with_no_proxy(lambda: ak.macro_china_shrzgm())
+    row = df.iloc[-1]
+    return {"社融增量(亿)": int(row["社会融资规模增量"]), "其中人民币贷款(亿)": int(row["其中-人民币贷款"]),
+            "数据月份": str(row["月份"]), "源": "央行口径·金十镜像(注意滞后)"}
+
+
+def main():
+    os.makedirs(STATE, exist_ok=True)
+    out = {"asof": TODAY,
+           "fetched_at": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat(timespec="minutes"),
+           "blocks": {}}
+    for name, fn in [("美国宏观", us_bls), ("中美利率", bond_rates), ("大宗实时", commodities), ("中国社融", cn_shrz)]:
+        try:
+            out["blocks"][name] = fn()
+            print(f"  {name} ✓")
+        except Exception as e:
+            out["blocks"][name] = {"error": f"{repr(e)[:90]}"}
+            print(f"  {name} ✗ {repr(e)[:80]}")
+    ok = sum(1 for v in out["blocks"].values() if "error" not in v)
+    path = os.path.join(STATE, f"macro_{TODAY}.json")
+    # 诚实防护:全部失败时不落盘,渲染层自动复用最近一期(带日期)
+    if ok == 0 and not os.path.exists(path):
+        print("⚠️ 宏观快线全部失败,不落盘")
+        return
+    json.dump(out, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"✅ 宏观快线 {ok}/4 → {path}")
+
+
+if __name__ == "__main__":
+    main()
