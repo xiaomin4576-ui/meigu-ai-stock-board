@@ -8,7 +8,7 @@
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 189.8,
       "recent20_high": 213.99,
-      "target_implied_move_pct": 20.9,
+      "target_implied_move_pct": 28.0,
       "target_aggressive": false
     },
     "AVGO": {
@@ -17,7 +17,7 @@
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 356.43,
       "recent20_high": 414.64,
-      "target_implied_move_pct": 18.8,
+      "target_implied_move_pct": 25.0,
       "target_aggressive": false
     },
     "TSM": {
@@ -32,10 +32,10 @@
     "MU": {
       "cur": 979.3,
       "buy_reachable": false,
-      "note": "⚠️ 买入价低于近20日低点,可能挂不上",
+      "note": "—",
       "recent20_low": 891.66,
       "recent20_high": 1254.81,
-      "target_implied_move_pct": 20.0,
+      "target_implied_move_pct": null,
       "target_aggressive": false
     },
     "MRVL": {
@@ -44,7 +44,7 @@
       "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 222.89,
       "recent20_high": 329.8,
-      "target_implied_move_pct": 27.2,
+      "target_implied_move_pct": 25.1,
       "target_aggressive": false
     },
     "ANET": {
@@ -62,7 +62,7 @@
       "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 225.66,
       "recent20_high": 308.67,
-      "target_implied_move_pct": -1.1,
+      "target_implied_move_pct": 16.4,
       "target_aggressive": false
     },
     "COHR": {
@@ -71,7 +71,7 @@
       "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 304.07,
       "recent20_high": 439.68,
-      "target_implied_move_pct": 23.3,
+      "target_implied_move_pct": 0.2,
       "target_aggressive": false
     },
     "VRT": {
@@ -80,7 +80,7 @@
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 283.34,
       "recent20_high": 358.54,
-      "target_implied_move_pct": 12.9,
+      "target_implied_move_pct": 11.3,
       "target_aggressive": false
     },
     "600522.SS": {
@@ -98,7 +98,7 @@
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 124.89,
       "recent20_high": 176.34,
-      "target_implied_move_pct": 11.6,
+      "target_implied_move_pct": 3.9,
       "target_aggressive": false
     },
     "688256.SS": {
@@ -112,11 +112,11 @@
     },
     "688052.SS": {
       "cur": 238.78,
-      "buy_reachable": false,
-      "note": "⚠️ 买入价低于近20日低点,可能挂不上",
+      "buy_reachable": true,
+      "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 232.6,
       "recent20_high": 307.29,
-      "target_implied_move_pct": 6.8,
+      "target_implied_move_pct": 23.5,
       "target_aggressive": false
     },
     "001309.SZ": {
@@ -134,7 +134,7 @@
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 14.64,
       "recent20_high": 25.74,
-      "target_implied_move_pct": 26.6,
+      "target_implied_move_pct": 34.6,
       "target_aggressive": false
     },
     "603986.SS": {
@@ -143,25 +143,34 @@
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 476.66,
       "recent20_high": 846.66,
-      "target_implied_move_pct": 18.0,
+      "target_implied_move_pct": 30.7,
       "target_aggressive": false
     },
     "002384.SZ": {
       "cur": 236.7,
-      "buy_reachable": false,
-      "note": "—",
+      "buy_reachable": true,
+      "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 204.0,
       "recent20_high": 277.6,
-      "target_implied_move_pct": null,
+      "target_implied_move_pct": 16.2,
       "target_aggressive": false
     },
     "6869.HK": {
-      "cur": 138.1,
+      "cur": 139.7,
       "buy_reachable": false,
-      "note": "⚠️ 买入价低于近20日低点,可能挂不上",
+      "note": "—",
       "recent20_low": 133.7,
       "recent20_high": 304.48,
-      "target_implied_move_pct": 1.4,
+      "target_implied_move_pct": null,
+      "target_aggressive": false
+    },
+    "0700.HK": {
+      "cur": 457.6,
+      "buy_reachable": true,
+      "note": "✅ 可达(近20日区间覆盖买入价)",
+      "recent20_low": 411.0,
+      "recent20_high": 485.0,
+      "target_implied_move_pct": 25.7,
       "target_aggressive": false
     },
     "QQQ": {
@@ -505,7 +514,7 @@
       "ticker": "2513.HK",
       "signal": "观望",
       "price_at_call": 1894.0,
-      "cur": 1615.0,
+      "cur": 1645.0,
       "entry_hit": null,
       "entered": false,
       "direction_ok": null,
@@ -687,7 +696,7 @@
       "ticker": "2513.HK",
       "signal": "观望",
       "price_at_call": 1894.0,
-      "cur": 1615.0,
+      "cur": 1645.0,
       "entry_hit": null,
       "entered": false,
       "direction_ok": null,
@@ -713,7 +722,7 @@
       "ticker": "6869.HK",
       "signal": "观望",
       "price_at_call": 250.0,
-      "cur": 138.1,
+      "cur": 139.7,
       "entry_hit": null,
       "entered": false,
       "direction_ok": null,
@@ -947,7 +956,7 @@
       "ticker": "6869.HK",
       "signal": "观望",
       "price_at_call": 250.0,
-      "cur": 138.1,
+      "cur": 139.7,
       "entry_hit": null,
       "entered": false,
       "direction_ok": null,
@@ -1155,7 +1164,7 @@
       "ticker": "6869.HK",
       "signal": "观望",
       "price_at_call": 250.0,
-      "cur": 138.1,
+      "cur": 139.7,
       "entry_hit": null,
       "entered": false,
       "direction_ok": null,
@@ -1402,7 +1411,7 @@
       "ticker": "6869.HK",
       "signal": "观望",
       "price_at_call": 250.0,
-      "cur": 138.1,
+      "cur": 139.7,
       "entry_hit": null,
       "entered": false,
       "direction_ok": null,
@@ -1688,7 +1697,7 @@
       "ticker": "6869.HK",
       "signal": "观望",
       "price_at_call": 250.0,
-      "cur": 138.1,
+      "cur": 139.7,
       "entry_hit": null,
       "entered": false,
       "direction_ok": null,
@@ -1935,7 +1944,7 @@
       "ticker": "6869.HK",
       "signal": "观望",
       "price_at_call": 250.0,
-      "cur": 138.1,
+      "cur": 139.7,
       "entry_hit": null,
       "entered": false,
       "direction_ok": null,
@@ -2182,7 +2191,7 @@
       "ticker": "6869.HK",
       "signal": "观望",
       "price_at_call": 250.0,
-      "cur": 138.1,
+      "cur": 139.7,
       "entry_hit": null,
       "entered": false,
       "direction_ok": null,
@@ -2442,7 +2451,7 @@
       "ticker": "6869.HK",
       "signal": "观望",
       "price_at_call": 250.0,
-      "cur": 138.1,
+      "cur": 139.7,
       "entry_hit": null,
       "entered": false,
       "direction_ok": null,
@@ -2676,7 +2685,7 @@
       "ticker": "6869.HK",
       "signal": "观望",
       "price_at_call": 250.0,
-      "cur": 138.1,
+      "cur": 139.7,
       "entry_hit": null,
       "entered": false,
       "direction_ok": null,
@@ -2923,7 +2932,7 @@
       "ticker": "6869.HK",
       "signal": "观望",
       "price_at_call": 159.8,
-      "cur": 138.1,
+      "cur": 139.7,
       "entry_hit": null,
       "entered": false,
       "direction_ok": null,
@@ -3170,7 +3179,7 @@
       "ticker": "6869.HK",
       "signal": "观望",
       "price_at_call": 159.8,
-      "cur": 138.1,
+      "cur": 139.7,
       "entry_hit": null,
       "entered": false,
       "direction_ok": null,
