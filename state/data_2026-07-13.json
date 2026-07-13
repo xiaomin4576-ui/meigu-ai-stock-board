@@ -511,16 +511,16 @@
       "name": "纳芯微",
       "role": "模拟/信号链芯片(国产替代)",
       "market": "CN",
-      "price": 241.57,
-      "m1": 1.8,
-      "m3": 57.4,
-      "m6": 49.2,
-      "fromhi": -19.5,
+      "price": 250.6,
+      "m1": 4.4,
+      "m3": 59.7,
+      "m6": 55.2,
+      "fromhi": -16.5,
       "hi": 300.0,
       "lo": 139.02,
-      "ma50": 245.44,
-      "ma200": 188.02,
-      "vol": 67.7,
+      "ma50": 244.32,
+      "ma200": 187.67,
+      "vol": 66.4,
       "analyst": {
         "target_mean": null,
         "target_low": null,
@@ -528,7 +528,7 @@
         "cn_rating": "买入",
         "n_analysts": 0,
         "cn_reports_total": 52,
-        "fwd_pe": 230.1,
+        "fwd_pe": 238.7,
         "eps_2026": 1.05,
         "eps_2027": 1.61,
         "eps_growth": 53.3,
@@ -603,28 +603,28 @@
       },
       "news": [
         {
+          "title": "银行股，逆市拉升！001309 跌停",
+          "pub": "中国基金报",
+          "url": "http://finance.eastmoney.com/a/202607133803443987.html",
+          "date": "2026-07-13"
+        },
+        {
           "title": "新晋A股第6！001309午后涨停",
           "pub": "证券时报",
           "url": "http://finance.eastmoney.com/a/202606253783129346.html",
           "date": "2026-06-25"
         },
         {
-          "title": "8只个股大宗交易超5000万元",
-          "pub": "证券时报网",
-          "url": "http://finance.eastmoney.com/a/202607103802182117.html",
-          "date": "2026-07-10"
-        },
-        {
-          "title": "394.82亿元主力资金今日撤离电子板块",
-          "pub": "证券时报网",
-          "url": "http://finance.eastmoney.com/a/202607103801943120.html",
-          "date": "2026-07-10"
+          "title": "7月13日午评：深成指半日下挫2.61% 两市超4500只个股下跌",
+          "pub": "央广财经",
+          "url": "http://finance.eastmoney.com/a/202607133803593476.html",
+          "date": "2026-07-13"
         }
       ],
       "unlock": {
         "date": "2026-07-23",
         "pct_float": 1.1,
-        "mktcap_yi": 14.6
+        "mktcap_yi": 13.1
       }
     },
     "300005.SZ": {
@@ -747,16 +747,16 @@
       "name": "东山精密",
       "role": "PCB/FPC精密制造(果链+AI服务器PCB)",
       "market": "CN",
-      "price": 237.21,
-      "m1": 12.4,
-      "m3": 79.8,
-      "m6": 171.4,
-      "fromhi": -14.0,
+      "price": 242.3,
+      "m1": 14.1,
+      "m3": 102.1,
+      "m6": 175.3,
+      "fromhi": -12.1,
       "hi": 275.8,
       "lo": 39.6,
-      "ma50": 228.05,
-      "ma200": 123.64,
-      "vol": 92.8,
+      "ma50": 226.98,
+      "ma200": 122.79,
+      "vol": 92.6,
       "analyst": {
         "target_mean": null,
         "target_low": null,
@@ -764,7 +764,7 @@
         "cn_rating": "买入",
         "n_analysts": 0,
         "cn_reports_total": 111,
-        "fwd_pe": 114.6,
+        "fwd_pe": 117.1,
         "eps_2026": 2.07,
         "eps_2027": 2.715,
         "eps_growth": 31.2,
@@ -805,16 +805,43 @@
       "name": "长飞光纤",
       "role": "光纤光缆/光模块(AI光互联)",
       "market": "HK",
-      "price": 136.0,
-      "m1": -41.1,
-      "m3": -43.3,
-      "m6": 161.2,
-      "fromhi": -52.7,
+      "price": 138.5,
+      "m1": -40.1,
+      "m3": -42.3,
+      "m6": 166.0,
+      "fromhi": -51.8,
       "hi": 287.26,
       "lo": 18.64,
-      "ma50": 226.21,
-      "ma200": 123.64,
-      "vol": 123.9,
+      "ma50": 226.26,
+      "ma200": 123.65,
+      "vol": 123.7,
+      "analyst": {
+        "target_mean": null,
+        "cn_rating": null,
+        "n_analysts": null,
+        "fwd_pe": null,
+        "rating": null,
+        "rating_mean": null
+      },
+      "quality": null,
+      "earnings_date": null,
+      "news": [],
+      "px_src": "腾讯日K(qfq)"
+    },
+    "0700.HK": {
+      "name": "腾讯控股",
+      "role": "混元大模型/AI云/游戏(AI应用+算力需求侧)",
+      "market": "HK",
+      "price": 457.8,
+      "m1": -1.7,
+      "m3": -9.0,
+      "m6": -25.9,
+      "fromhi": -31.9,
+      "hi": 672.2,
+      "lo": 411.8,
+      "ma50": 449.85,
+      "ma200": 548.92,
+      "vol": 31.2,
       "analyst": {
         "target_mean": null,
         "cn_rating": null,
@@ -858,9 +885,9 @@
   },
   "meta": {
     "degraded": false,
-    "fresh": 19,
-    "have": 19,
-    "total": 19,
+    "fresh": 20,
+    "have": 20,
+    "total": 20,
     "stale_tickers": []
   }
 }
