@@ -267,7 +267,9 @@ jobs:
             if git push origin HEAD:main; then echo "✅ state 已回写"; exit 0; fi
             echo "push 被拒(远端已推进),拉取合并重试 $i"
             git fetch origin main || true
-            git merge -s ours -m "merge: 保留本次 state 回写" origin/main || true
+            # -X ours(选项)而非 -s ours(整树覆盖):state冲突偏本次回写,但保留远端新代码——
+            # 2026-07-13 实翻车:-s ours 曾把刚推上main的 research_ds 宏观注入整树回滚(cron从旧checkout出发赛跑失败后覆盖)
+            git merge -X ours -m "merge: state回写(保留远端代码)" origin/main || git merge --abort || true
             sleep 2
           done
           echo "::warning::state 回写让步(下次自动追上),不阻断部署"
