@@ -43,7 +43,7 @@ def clean_range(s):
 def clean_ret(s):
     m = re.search(r"[+\-]?\d+%", str(s)); return m.group(0) if m else str(s)
 
-def judge_one(tk, s, bench):
+def judge_one(tk, s, bench, macro_line=""):
     if tk == "QQQ":
         return tk, {"sig": "观望", "conf": 5, "buy": "—", "tgt": "—", "ret": "—",
                     "th": "纳指100 ETF·大盘基准,反映美股科技整体风险偏好,是成分股研判的顺势背景。",
@@ -60,7 +60,7 @@ def judge_one(tk, s, bench):
             f"财报日{s.get('earnings_date')} 解禁{json.dumps(s.get('unlock'),ensure_ascii=False)} QQQ近3月{bench}% "
             f"新闻{json.dumps([n.get('title','')[:34] for n in (s.get('news') or [])[:2]],ensure_ascii=False)} "
             f"{'⚠️数据复用历史(非当日),保守' if s.get('stale') else '当日真值'}")
-    v = ds_call(f"{FRAME}\n\n【真实数据({TODAY})】\n{data}")
+    v = ds_call(f"{FRAME}{macro_line}\n\n【真实数据({TODAY})】\n{data}")
     if not v or not v.get("sig"):
         return tk, {"sig": "观望", "conf": 3, "buy": "—", "tgt": "—", "ret": "—",
                     "th": "本期研判引擎未返回有效结果,暂按观望;数据见卡片行情/评分。", "rk": "研判缺失,请刷新重试或人工复核。"}
@@ -74,11 +74,24 @@ def main():
     f = sorted(glob.glob(os.path.join(STATE, "data_2026-*.json")))[-1]
     data = json.load(open(f, encoding="utf-8")); stocks = data["stocks"]; asof = data.get("asof", TODAY)
     bench = (stocks.get("QQQ", {}) or {}).get("m3")
-    print(f"DeepSeek 研判 {len(stocks)} 只(asof {asof})…")
+    # 宏观环境注入(2026-07 补齐的研判维度):BLS非农/失业率/CPI(实际vs前值)+中美利差+黄金原油。
+    # 成长股估值对利率/通胀极敏感,此前研判引擎对宏观环境全盲——只看个股面,回调期容易把"利率驱动的
+    # 体制转换"误读成"健康回踩"。给到引擎作为共享环境,不改9因子数学。
+    macro_line = ""
+    mfiles = [x for x in sorted(glob.glob(os.path.join(STATE, "macro_*.json")))
+              if re.search(r"macro_\d{4}-\d{2}-\d{2}\.json$", x)]
+    if mfiles:
+        try:
+            mj = json.load(open(mfiles[-1], encoding="utf-8"))
+            macro_line = ("\n【宏观环境(真实数据,研判时纳入:通胀/利率方向影响成长股估值,数据用'实际vs前值'看边际)】"
+                          + json.dumps(mj.get("blocks", {}), ensure_ascii=False)[:900])
+        except Exception:
+            pass
+    print(f"DeepSeek 研判 {len(stocks)} 只(asof {asof}{',含宏观环境' if macro_line else ''})…")
     items = list(stocks.items())
     calls = {}
     with ThreadPoolExecutor(max_workers=6) as ex:
-        for tk, c in ex.map(lambda kv: judge_one(kv[0], kv[1], bench), items):
+        for tk, c in ex.map(lambda kv: judge_one(kv[0], kv[1], bench, macro_line), items):
             calls[tk] = c
     # 排序:买入>观望>回避,组内 conf 降序再评分降序;QQQ 插买入组后
     SR = {"买入": 0, "观望": 1, "回避": 2}
