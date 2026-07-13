@@ -73,6 +73,15 @@ def stat_meigu():
     if raws:
         # 头条出片率 = 成品期数/采集期数(体检:07-08~10三天"有抓取无成品"曾静默,此指标让断档一眼可见)
         ret["头条出片率"] = f"{len(newses)}/{len(raws)}(成品/采集)"
+    macros = [f for f in sorted(glob.glob(os.path.join(STATE, "macro_*.json")))
+              if re.search(r"macro_\d{4}-\d{2}-\d{2}\.json$", f)]
+    if macros:
+        try:
+            mb = json.load(open(macros[-1], encoding="utf-8")).get("blocks", {})
+            ok = sum(1 for v in mb.values() if "error" not in v)
+            ret["宏观快线"] = f"{len(macros)} 期 · 最新 {os.path.basename(macros[-1])[6:16]} · 本期 {ok}/4 源成功"
+        except Exception:
+            ret["宏观快线"] = f"{len(macros)} 期"
     return ret
 
 

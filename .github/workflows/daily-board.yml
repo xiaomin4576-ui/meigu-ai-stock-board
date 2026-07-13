@@ -167,8 +167,10 @@ jobs:
               print("ℹ️ 跳过注入")
           PY
 
-          # 5b) docs/index.html = 门户首页(两板块入口:同光早报 + 股票看板)。公开、不加密。
+          # 5b) docs/index.html = 门户首页(四板块入口)。公开、不加密。
           cp portal.html "$DOCS/index.html"
+          # 门户注入宏观快线一行(公开数据;脚本内兜底:无数据清空占位符,绝不留占位符上线)
+          python3 inject_portal_macro.py "$DOCS/index.html" || echo "⚠️ 门户宏观条注入失败(不阻断)"
           echo "🏠 门户首页已就位"
 
           # 5c) 镜像同光早报到 docs/tongguang/(公开仓库,无需 token;每次构建拉最新保持同步)。相对路径,镜像到子目录不破坏。

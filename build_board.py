@@ -145,7 +145,39 @@ def evidence_section(data):
     return f'<div class="evid"><div class="ev-reg">{regime_line(data)}</div><div class="ev-bt">{bt_html}</div></div>'
 
 
-def card(i, tk, d, a, bench_m3=None):
+def macro_strip():
+    """看板顶部宏观快线条(与头条页同源 state/macro_*.json,紧凑单行版)——体制判断的另一条腿。"""
+    import glob as _g
+    files = [f for f in sorted(_g.glob(os.path.join(STATE, "macro_*.json")))
+             if re.search(r"macro_\d{4}-\d{2}-\d{2}\.json$", f)]
+    if not files:
+        return ""
+    m = jload(files[-1]) or {}
+    b = m.get("blocks", {})
+    bits = []
+    us = b.get("美国宏观", {})
+    if "error" not in us:
+        for k, lbl in (("非农新增(千人)", "非农新增"), ("失业率%", "失业率"), ("CPI同比%", "CPI同比")):
+            v = us.get(k)
+            if v:
+                bits.append(f"{lbl} <b>{v['值']}</b>(前值{v.get('前值','—')})")
+    r = b.get("中美利率", {})
+    if "error" not in r and r.get("美10Y%"):
+        bits.append(f"美/中10Y <b>{r['美10Y%']}/{r['中10Y%']}</b>(差{r.get('利差bp','—')}bp)")
+    c = b.get("大宗实时", {})
+    if "error" not in c:
+        for name, lbl in (("纽约黄金", "金"), ("纽约原油", "油")):
+            v = c.get(name)
+            if v:
+                bits.append(f"{lbl} <b>{v['价']}</b>({'+' if v['涨跌%']>=0 else ''}{v['涨跌%']}%)")
+    if not bits:
+        return ""
+    stale = "" if m.get("asof") == TODAY else f'<span style="color:#fbbf24">(抓取于{m.get("asof")})</span>'
+    return (f'<div class="mstrip">📅 <b style="color:#93c5fd">宏观快线</b>{stale} · ' + " · ".join(bits)
+            + ' <span style="color:#64748b;font-size:10px">BLS官方/中债美债/腾讯外盘 · 实际vs前值(预期无免费源如实缺)</span></div>')
+
+
+def card(i, tk, d, a, bench_m3=None, hist=None):
     sig = a.get("sig", "")
     color = "#4ade80" if sig.startswith("买入") else ("#fbbf24" if "观望" in sig else "#94a3b8")
     mom = lambda x: f'<span style="color:{"#4ade80" if (x or 0)>=0 else "#f87171"}">{x:+.1f}%</span>' if x is not None else "—"
@@ -243,7 +275,49 @@ def card(i, tk, d, a, bench_m3=None):
   <div class="th">💡 {a.get('th','')}</div>
   {news_html}
   <div class="rk2">⚠️ 风险:{a.get('rk','')}　·　52周 {cs}{d.get('lo','')}–{cs}{d.get('hi','')}　·　MA50 {cs}{d.get('ma50','')} / MA200 {cs}{d.get('ma200','')}</div>
+  {xtra_block(tk, d, a, sp, miss, cs, hist)}
 </div>"""
+
+
+def xtra_block(tk, d, a, sp, miss, cs, hist):
+    """卡片「展开完整数据」面板(用户需求:固定呈现有限,点开看全)。
+    全部来自已有真实数据,不新增取数:9因子逐项明细/基本面与共识全字段/数据来源与新鲜度/该票历史研判台账。"""
+    an = d.get("analyst", {}) or {}
+    q = d.get("quality", {}) or {}
+    rows = []
+    # ① 9因子逐项
+    frows = "".join(f'<tr><td>{k}</td><td>{("贡献 "+str(sp[k])+" / 满"+str(w)) if k in sp else "<span style=color:#f59e0b>不可算(数据缺)</span>"}</td></tr>'
+                    for k, w in FACTOR_W.items())
+    rows.append(f'<div class="xsec"><div class="xh">🧮 9因子逐项明细</div><table class="xt">{frows}</table></div>')
+    # ② 基本面与共识全字段
+    peg = None
+    if an.get("fwd_pe") and an.get("eps_growth"):
+        peg = round(an["fwd_pe"] / an["eps_growth"], 2) if an["eps_growth"] > 0 else "增速≤0"
+    kv = [("前瞻PE", an.get("fwd_pe")), ("EPS增速%", an.get("eps_growth")), ("PEG", peg),
+          ("EPS 2026/2027", f"{an.get('eps_2026','—')} / {an.get('eps_2027','—')}" if an.get("eps_2026") else None),
+          ("评级均值(1强买~5强卖)", an.get("rating_mean")), ("买入占比", an.get("rec_buy_ratio")),
+          ("覆盖分析师", an.get("n_analysts")), ("研报数(东财)", an.get("cn_reports_total")),
+          ("券商一致目标价", an.get("target_mean")), ("ROE%", q.get("roe")),
+          ("经营现金流/股", q.get("ocf_ps")), ("毛利率%", q.get("gross_margin")),
+          ("年化波动%", d.get("vol"))]
+    krows = "".join(f"<tr><td>{k}</td><td>{v}</td></tr>" for k, v in kv if v is not None)
+    rows.append(f'<div class="xsec"><div class="xh">🏛 基本面 / 共识全字段</div><table class="xt">{krows or "<tr><td colspan=2>该票暂无基本面数据(如实缺)</td></tr>"}</table></div>')
+    # ③ 数据来源与新鲜度
+    src = d.get("px_src") or ("Twelve Data" if d.get("market", "US") == "US" else ("akshare东财三源" if d.get("market") == "CN" else "yfinance"))
+    fresh = f'⚠️ 复用历史真值(最后成功 {d.get("stale_date","?")})' if d.get("stale") else "✅ 当日真值"
+    rows.append(f'<div class="xsec"><div class="xh">📡 数据来源</div><div class="xp">行情源:{src} · {fresh}'
+                + (f' · 财报日 {d.get("earnings_date")}' if d.get("earnings_date") else "") + "</div></div>")
+    # ④ 历史研判台账(复盘视角:当时怎么判、当时什么价)
+    if hist:
+        hrows = "".join(f"<tr><td>{h.get('date','')}</td><td>{h.get('signal','')}</td>"
+                        f"<td>{h.get('buy_low','—')}–{h.get('buy_high','—')}</td>"
+                        f"<td>{h.get('target_low','—')}–{h.get('target_high','—')}</td>"
+                        f"<td>{cs}{h.get('price_at_call','—')}</td></tr>" for h in hist)
+        rows.append(f'<div class="xsec"><div class="xh">📒 历史研判台账(近{len(hist)}期,复盘依据)</div>'
+                    f'<table class="xt"><tr><th>日期</th><th>信号</th><th>买入区</th><th>目标区</th><th>研判时价</th></tr>{hrows}</table></div>')
+    return ('<div class="xbtn" onclick="var x=this.nextElementSibling;x.classList.toggle(\'hide\');'
+            'this.textContent=x.classList.contains(\'hide\')?\'▾ 展开该票完整数据\':\'▴ 收起完整数据\';">▾ 展开该票完整数据</div>'
+            f'<div class="xtra hide">{"".join(rows)}</div>')
 
 
 def latest_calls():
@@ -562,6 +636,18 @@ def main():
     engine_line = ("本期研判引擎:DeepSeek(云端自动/按钮触发)" if "DeepSeek" in (calls.get("market") or "")
                    else "本期研判引擎:Claude(亲研)")
     bench_m3 = (data.get("QQQ", {}) or {}).get("m3")     # 相对强弱基准:QQQ 近3月
+    # 每票历史研判台账(近5期)——卡片展开面板用,给"当时怎么判/什么价"的复盘视角
+    hist_map = {}
+    lp = os.path.join(STATE, "predictions.jsonl")
+    if os.path.exists(lp):
+        for ln in open(lp, encoding="utf-8"):
+            try:
+                r = json.loads(ln)
+                hist_map.setdefault(r.get("ticker"), []).append(r)
+            except Exception:
+                continue
+        for tk in hist_map:
+            hist_map[tk] = sorted(hist_map[tk], key=lambda x: x.get("date", ""))[-5:]
     # 按市场分组排版:美股(全球定价、引领)在前 → A 股 → 港股,因 A/港大多跟随美股,分组后看 A/港更直观。
     # 奖牌(🥇🥈🥉/序号)用【全局排名】位置,组内仍按总排名顺序。
     MKT = [("US", "🇺🇸 美股核心 · AI 产业链驱动(全球定价,引领 A 股 / 港股)"),
@@ -577,7 +663,7 @@ def main():
             continue
         tabbtns += f'<button class="tab" data-tab="{mk}">{TAB_LABEL[mk]}<span class="tc">{len(grp)}</span></button>'
         panes += f'<div class="pane" data-mkt="{mk}"><div class="section">{title}<span class="scnt">{len(grp)} 支</span></div><div class="grid">'
-        panes += "".join(card(order.index(tk), tk, data.get(tk, {}), calls["stocks"][tk], bench_m3) for tk in grp)
+        panes += "".join(card(order.index(tk), tk, data.get(tk, {}), calls["stocks"][tk], bench_m3, hist_map.get(tk)) for tk in grp)
         panes += '</div></div>'
     cards = f'<div class="tabs">{tabbtns}</div>{panes}'
     rank_str = " ＞ ".join(data.get(tk, {}).get("name", tk) for tk in order)
@@ -668,6 +754,18 @@ body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;colo
 .qa-basis-body{{font-size:11.5px;color:#94a3b8;background:rgba(51,65,85,.25);border:1px solid #334155;border-radius:10px;padding:10px 13px;margin-bottom:10px;line-height:1.8}}
 .qa-basis-body.hide{{display:none}}
 .qa-src{{font-size:10.5px;color:#64748b;border-top:1px dashed rgba(100,116,139,.4);margin-top:8px;padding-top:6px}}
+.mstrip{{background:#101b33;border:1px solid rgba(96,165,250,.3);border-radius:11px;padding:9px 14px;margin-bottom:14px;font-size:12px;color:#cbd5e1;line-height:1.9}}
+.mstrip b{{color:#f1f5f9}}
+.xbtn{{margin-top:9px;font-size:11.5px;font-weight:700;color:#93c5fd;cursor:pointer;user-select:none;border-top:1px dashed rgba(51,65,85,.6);padding-top:7px}}
+.xbtn:hover{{text-decoration:underline}}
+.xtra{{margin-top:8px}}
+.xtra.hide{{display:none}}
+.xsec{{margin-bottom:9px}}
+.xh{{font-size:11px;font-weight:800;color:#a5b4fc;margin-bottom:4px}}
+.xp{{font-size:11px;color:#cbd5e1}}
+.xt{{width:100%;border-collapse:collapse;font-size:10.5px;color:#cbd5e1}}
+.xt td,.xt th{{border:1px solid rgba(51,65,85,.55);padding:3px 7px;text-align:left}}
+.xt th{{color:#94a3b8;background:rgba(51,65,85,.3);font-weight:600}}
 </style></head><body><div class="wrap">
 <div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#c8a562;margin-bottom:8px">LUMORA · 同光科技</div><h1>📡 {cfg['title']} · {TODAY}</h1>
 <div class="sub">美股 AI 核心 {sum(1 for s in cfg['stocks'] if s.get('market') != 'CN' and s['ticker'] != cfg['benchmark'])} 票 + 🇨🇳 A 股补充 {sum(1 for s in cfg['stocks'] if s.get('market') == 'CN')} 票 + {cfg['benchmark']} 基准 · 长期 {cfg['horizon_label']} 视角 · 数据 yfinance+akshare(真实行情) · AI 研判</div>
@@ -709,6 +807,7 @@ document.addEventListener('click',function(e){{
 <div class="market">🌎 <b style="color:#60a5fa">大盘与板块:</b>{calls.get('market','')}</div>
 <div class="rankbar">🏆 <b>买点吸引力排序:</b>{rank_str}</div></div>
 {freshness_banner(calls_date, data_meta)}
+{macro_strip()}
 {qa_block(data, calls, calls_date, v)}
 {evidence_section(data)}
 {review_section(v)}
