@@ -44,7 +44,7 @@
       "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 215.28,
       "recent20_high": 329.8,
-      "target_implied_move_pct": 21.8,
+      "target_implied_move_pct": 17.2,
       "target_aggressive": false
     },
     "ANET": {
@@ -125,7 +125,7 @@
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 633.2,
       "recent20_high": 980.0,
-      "target_implied_move_pct": 15.5,
+      "target_implied_move_pct": 22.3,
       "target_aggressive": false
     },
     "300005.SZ": {
@@ -165,7 +165,7 @@
       "target_aggressive": false
     },
     "0700.HK": {
-      "cur": 456.4,
+      "cur": 456.2,
       "buy_reachable": true,
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 411.0,
@@ -3439,11 +3439,11 @@
       "ticker": "0700.HK",
       "signal": "买入",
       "price_at_call": 457.6,
-      "cur": 456.4,
+      "cur": 456.2,
       "entry_hit": true,
       "entered": true,
       "direction_ok": true,
-      "progress_to_target_pct": 12.5,
+      "progress_to_target_pct": 12.3,
       "matured": false,
       "realized_return_pct": 3.8
     },
@@ -3467,9 +3467,9 @@
     "entry_hit_rate": 51,
     "direction_win_rate": 87,
     "avg_progress_to_target_pct": 18.0,
-    "avg_pace_ratio": 5.05,
+    "avg_pace_ratio": 5.03,
     "matured_n": 0,
     "matured_avg_realized_pct": null
   },
-  "calibration": "到期样本 0 期(<5),目标价终值【暂不可校准】——14 期在途预测均未走完 270 天窗口,当前平均进度 18.0% 属半程未实现 · 在途节奏 pace=5.05(≈1踩点/<0.6落后/>1.4超前),【不作收窄依据】。当下可校准的是买点:入场触及率 51% 偏低 → 下期对上期未触及的票按现价重锚最近结构支撑、收窄买区折让。"
+  "calibration": "到期样本 0 期(<5),目标价终值【暂不可校准】——14 期在途预测均未走完 270 天窗口,当前平均进度 18.0% 属半程未实现 · 在途节奏 pace=5.03(≈1踩点/<0.6落后/>1.4超前),【不作收窄依据】。当下可校准的是买点:入场触及率 51% 偏低 → 下期对上期未触及的票按现价重锚最近结构支撑、收窄买区折让。"
 }
