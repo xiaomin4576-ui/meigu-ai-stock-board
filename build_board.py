@@ -17,12 +17,101 @@ def jload(p, default=None):
     return json.load(open(p, encoding="utf-8")) if os.path.exists(p) else default
 
 
+def _load_scorecard_hist():
+    """读 scorecard_history.jsonl(verify.py 逐日替换式累积)最近 30 期——表盘进化曲线的数据源"""
+    p = os.path.join(STATE, "scorecard_history.jsonl")
+    rows = []
+    if os.path.exists(p):
+        for ln in open(p, encoding="utf-8"):
+            try:
+                rows.append(json.loads(ln))
+            except Exception:
+                continue
+    rows.sort(key=lambda r: r.get("date", ""))
+    return rows[-30:]
+
+
+def _gauge_tier(val, kind):
+    """分档:(css类, 弧色, 档名)。pace 盘 ≥1.0 绿/0.7-0.99 黄/<0.7 红;百分比盘 ≥70 绿/50-69 黄/<50 红"""
+    if val is None:
+        return "g-yellow", "#fbbf24", "无数据"
+    if kind == "pace":
+        if val >= 1.0:
+            return "g-green", "#4ade80", "优秀档"
+        return ("g-yellow", "#fbbf24", "及格档") if val >= 0.7 else ("g-red", "#f87171", "待改进档")
+    if val >= 70:
+        return "g-green", "#4ade80", "优秀档"
+    return ("g-yellow", "#fbbf24", "及格档") if val >= 50 else ("g-red", "#f87171", "待改进档")
+
+
+def _gauge_spark(vals, dates, kind, base, color):
+    """进化 sparkline:最近30期 polyline + 末点发光圆 + 基准虚线;<2期诚实显示累积中"""
+    n = len(vals)
+    if n < 2:
+        return f'<div class="gcold">进化曲线累积中 · 第 {n} 期</div>'
+    pad = 0.2 if kind == "pace" else 5
+    span = vals + ([base] if base is not None else [])
+    lo, hi = min(span) - pad, max(span) + pad
+    W, H = 300, 36
+    xs = [i * (W - 8) / (n - 1) + 4 for i in range(n)]
+    ys = [H - 3 - (v - lo) / (hi - lo) * (H - 6) for v in vals]
+    pts = " ".join(f"{x:.1f},{y:.1f}" for x, y in zip(xs, ys))
+    base_line = ""
+    if base is not None:
+        by = H - 3 - (base - lo) / (hi - lo) * (H - 6)
+        base_col = "rgba(238,242,249,.2)" if kind == "pace" else "rgba(74,222,128,.25)"
+        base_line = f'<line x1="0" y1="{by:.1f}" x2="{W}" y2="{by:.1f}" stroke="{base_col}" stroke-dasharray="3 3" vector-effect="non-scaling-stroke"/>'
+    return (f'<svg class="gspark" viewBox="0 0 {W} {H}" preserveAspectRatio="none">{base_line}'
+            f'<polyline points="{pts}" fill="none" stroke="rgba(157,177,201,.9)" stroke-width="1.5" vector-effect="non-scaling-stroke"/>'
+            f'<circle cx="{xs[-1]:.1f}" cy="{ys[-1]:.1f}" r="2.5" fill="{color}" style="filter:drop-shadow(0 0 4px {color})"/></svg>'
+            f'<div class="gdates"><span>{dates[0]}</span><span>{dates[-1]}</span></div>')
+
+
+def _gauge_card(label, note, val, kind, hist_vals, hist_dates, base):
+    """单个 270° SVG 环形表盘(Python 算好 dasharray 静态内联,零 JS)。pace 盘量程 0-2.0×,>2 弧满+▲"""
+    tier_cls, arc_c, tier_name = _gauge_tier(val, kind)
+    over_html = ""
+    if val is None:
+        num, unit, vdisp = "—", "", 0.0
+    elif kind == "pace":
+        vdisp = min(float(val), 2.0) / 2 * 100
+        num, unit = f"{val:.1f}", "×"
+        if val > 2:
+            over_html = '<span class="gup">▲</span>'
+    else:
+        vdisp = max(0.0, min(100.0, float(val)))
+        num, unit = f"{val:.0f}", "%"
+    d = "M 26.06 93.94 A 48 48 0 1 1 93.94 93.94"
+    tick = '<line x1="60" y1="4" x2="60" y2="12" stroke="rgba(238,242,249,.5)" stroke-width="2"/>' if kind == "pace" else ""
+    spark = _gauge_spark(hist_vals, hist_dates, kind, base, arc_c)
+    return (f'<div class="gcard {tier_cls}" role="img" aria-label="{label} {num}{unit},{tier_name}">'
+            f'<div class="gwrap"><svg class="gsvg" viewBox="0 0 120 120">'
+            f'<path class="gbase" d="{d}"/>'
+            f'<path class="garc" d="{d}" pathLength="100" stroke-dasharray="{vdisp:.1f} 100" stroke-dashoffset="{vdisp:.1f}"/>'
+            f'{tick}</svg>'
+            f'<div class="gnum">{num}<span class="gunit">{unit}</span>{over_html}</div></div>'
+            f'<div class="glabel">{label}</div><div class="gnote">{note}</div>{spark}</div>')
+
+
 def review_section(v):
     if not v:
         return ""
     sc, feas, calib = v.get("scorecard", {}), v.get("feasibility", {}), v.get("calibration", "")
     n_open = sc.get("n_open", 0)
     stat = lambda l, val, suf="": f'<div class="stat"><div class="sl">{l}</div><div class="sv">{(str(val)+suf) if val is not None else "—"}</div></div>'
+    gauges = ""
+    if n_open > 0:
+        hist = _load_scorecard_hist()
+        hv = lambda k: [r[k] for r in hist if r.get(k) is not None]
+        hd = lambda k: [r.get("date", "")[5:] for r in hist if r.get(k) is not None]
+        g1 = _gauge_card("方向胜率", f"已入场仓位 · n={n_open}", sc.get("direction_win_rate"), "pct",
+                         hv("direction_win_rate"), hd("direction_win_rate"), 70)
+        g2 = _gauge_card("入场触及率", "买入价被触及占比", sc.get("entry_hit_rate"), "pct",
+                         hv("entry_hit_rate"), hd("entry_hit_rate"), None)
+        g3 = _gauge_card("在途节奏", "1.0×=赶上时间", sc.get("avg_pace_ratio"), "pace",
+                         hv("avg_pace_ratio"), hd("avg_pace_ratio"), 1.0)
+        gauges = ('<div class="rv-h">🎯 预测能力仪表盘 <span class="rv-sub">自动进化=校准闭环反哺(已接通),趋势看曲线,不承诺胜率必升 · 数据源 scorecard_history 逐日累积</span></div>'
+                  f'<div class="gauges">{g1}{g2}{g3}</div>')
     if n_open > 0:
         mat = f'{sc.get("matured_n",0)}期/{sc.get("matured_avg_realized_pct")}%' if sc.get("matured_n") else "未到期"
         scorecard = "".join([stat("历史在评期数", n_open), stat("买入触及率", sc.get("entry_hit_rate"), "%"),
@@ -30,12 +119,13 @@ def review_section(v):
                              stat("平均目标完成度", sc.get("avg_progress_to_target_pct"), "%"),
                              f'<div class="stat"><div class="sl">已到期·实际</div><div class="sv" style="font-size:14px">{mat}</div></div>'])
     else:
-        scorecard = '<div class="stat" style="grid-column:1/-1"><div class="sl">历史复盘</div><div class="sv" style="font-size:13px;color:#94a3b8">首期 · 从明日起每天自动累积命中/完成度/到期收益</div></div>'
+        scorecard = '<div class="stat" style="grid-column:1/-1"><div class="sl">历史复盘</div><div class="sv" style="font-size:14px;color:#94a6c4">首期 · 从明日起每天自动累积命中/完成度/到期收益</div></div>'
     bad = [tk for tk, f in feas.items() if not f.get("buy_reachable") or f.get("target_aggressive")]
     ok = len(feas) - len(bad)
     fl = (f'本期 <b style="color:#4ade80">{ok}/{len(feas)}</b> 支建议买入价落在【真实近20日成交区间·可达】'
           + ("，目标价隐含涨幅均在合理区(无激进项)" if not bad else f'，<b style="color:#fbbf24">需关注:{"、".join(bad)}</b>'))
-    return (f'<div class="review"><div class="rv-h">🔍 复盘与校准 <span class="rv-sub">预测台账 → 自动验证 → 校准(越用越准)</span></div>'
+    return (f'<div class="review">{gauges}'
+            f'<div class="rv-h">🔍 复盘与校准 <span class="rv-sub">预测台账 → 自动验证 → 校准(越用越准)</span></div>'
             f'<div class="stats">{scorecard}</div>'
             f'<div class="rv-line">📏 <b>即时可达性校验:</b>{fl}</div>'
             f'<div class="rv-line">⚙️ <b>校准:</b>{calib}</div></div>')
@@ -65,7 +155,7 @@ def audit_section(data):
     return (f'<div class="audit"><b>📋 数据 / 覆盖审计:</b>'
             f'行情 {px_fresh}/{n} 当日真值{f" + {len(px_stale)} 复用({chr(12289).join(px_stale)})" if px_stale else ""} · 券商一致 {cons}/{n}(QQQ为ETF无评级;取数受限标的如实缺) · 新闻催化剂 {news}/{n} · 财报日 {earn}/{n}'
             + (f' · ⚠️ 抓取失败:{"、".join(missing)}' if missing else '')
-            + f'<br><span style="color:#64748b">{note}</span></div>')
+            + f'<br><span style="color:#94a6c4">{note}</span></div>')
 
 
 FACTOR_W = {"趋势": 16, "共识上行": 18, "回调健康": 10, "动量": 10, "评级": 10, "估值PEG": 18, "相对强弱": 10, "波动率": 8, "质量": 12}  # 归一化按present权重重标,绝对和不影响最终分
@@ -149,7 +239,7 @@ def evidence_section(data):
         bt_html = (f'📊 <b>策略回测(过去 {bt.get("lookback","3y")} 真实数据,{bt.get("signals")} 次信号):</b> '
                    f'命中率 <b style="color:#fbbf24">{bt.get("win_rate_pct")}%</b> · 止损 {bt.get("stopped_pct")}% · '
                    f'实际盈亏比 <b style="color:#4ade80">{bt.get("realized_rr")}:1</b> · 每笔均值 {bt.get("avg_trade_return_pct")}%<br>'
-                   f'<span style="color:#94a3b8">→ 命中率仅 {bt.get("win_rate_pct")}%(<b style="color:#f87171">绝非 90%</b>),靠 {bt.get("realized_rr")}:1 盈亏比才正期望——<b>赚钱靠风控不靠高胜率</b>。{bt.get("caveat","")}</span>')
+                   f'<span style="color:#94a6c4">→ 命中率仅 {bt.get("win_rate_pct")}%(<b style="color:#ff8080">绝非 90%</b>),靠 {bt.get("realized_rr")}:1 盈亏比才正期望——<b>赚钱靠风控不靠高胜率</b>。{bt.get("caveat","")}</span>')
     return f'<div class="evid"><div class="ev-reg">{regime_line(data)}</div><div class="ev-bt">{bt_html}</div></div>'
 
 
@@ -181,14 +271,14 @@ def macro_strip():
     if not bits:
         return ""
     stale = "" if m.get("asof") == TODAY else f'<span style="color:#fbbf24">(抓取于{m.get("asof")})</span>'
-    return (f'<div class="mstrip">📅 <b style="color:#93c5fd">宏观快线</b>{stale} · ' + " · ".join(bits)
-            + ' <span style="color:#64748b;font-size:10px">BLS官方/中债美债/腾讯外盘 · 实际vs前值(预期无免费源如实缺)</span></div>')
+    return (f'<div class="mstrip">📅 <b style="color:#7ab8ff">宏观快线</b>{stale} · ' + " · ".join(bits)
+            + ' <span style="color:#94a6c4;font-size:12px">BLS官方/中债美债/腾讯外盘 · 实际vs前值(预期无免费源如实缺)</span></div>')
 
 
 def card(i, tk, d, a, bench_m3=None, hist=None):
     sig = a.get("sig", "")
-    color = "#4ade80" if sig.startswith("买入") else ("#fbbf24" if "观望" in sig else "#94a3b8")
-    mom = lambda x: f'<span style="color:{"#4ade80" if (x or 0)>=0 else "#f87171"}">{x:+.1f}%</span>' if x is not None else "—"
+    color = "#4ade80" if sig.startswith("买入") else ("#fbbf24" if "观望" in sig else "#94a6c4")
+    mom = lambda x: f'<span style="color:{"#4ade80" if (x or 0)>=0 else "#ff8080"}">{x:+.1f}%</span>' if x is not None else "—"
     f0 = lambda x: f"{x:.0f}" if x is not None else "?"
     sc, sp, miss = factor_score(d, bench_m3)
     cov = len(sp)                                  # 可算因子数(满8)
@@ -199,7 +289,7 @@ def card(i, tk, d, a, bench_m3=None, hist=None):
     em, tgm = _mid(a.get("buy")), _mid(a.get("tgt"))
     rr = round((tgm / em - 1) / 0.10, 1) if (em and tgm and em > 0) else None
     stop = round(em * 0.90) if em else None
-    rrflag = "" if (rr is None or rr >= 2) else ' <span style="color:#f59e0b">⚠️R:R偏低,不符买入纪律</span>'
+    rrflag = "" if (rr is None or rr >= 2) else ' <span style="color:#fbbf24">⚠️R:R偏低,不符买入纪律</span>'
     sp_str = "+".join(f"{k}{v}" for k, v in sp.items())
     an = d.get("analyst", {}) or {}
     tm = an.get("target_mean")
@@ -213,26 +303,26 @@ def card(i, tk, d, a, bench_m3=None, hist=None):
         if mymid:
             diff = (mymid / tm - 1) * 100
             cmp_html = (f'<b style="color:#fbbf24">我高于共识 {diff:+.0f}%</b>' if diff > 10
-                        else f'<b style="color:#60a5fa">我低于共识 {diff:+.0f}%</b>' if diff < -10
-                        else '<b style="color:#94a3b8">≈共识</b>')
-        cons = (f'🏛 机构共识 一致目标 <b style="color:#2dd4bf">{cs}{f0(tm)}</b>(低{f0(an.get("target_low"))}/高{f0(an.get("target_high"))})'
+                        else f'<b style="color:#7ab8ff">我低于共识 {diff:+.0f}%</b>' if diff < -10
+                        else '<b style="color:#94a6c4">≈共识</b>')
+        cons = (f'🏛 机构共识 一致目标 <b style="color:#33d6c5">{cs}{f0(tm)}</b>(低{f0(an.get("target_low"))}/高{f0(an.get("target_high"))})'
                 f' · {an.get("rating","")} · {an.get("n_analysts","?")}家 · 前瞻PE {an.get("fwd_pe","?")} ｜ {cmp_html}')
     elif is_cn:
         eps_str = (f' · 盈利预测 26EPS¥{an.get("eps_2026")}/27¥{an.get("eps_2027")}(增{an.get("eps_growth")}%)'
                    if an.get("eps_2026") else "")
-        cons = (f'🏛 机构共识(A股·东财研报) 评级 <b style="color:#2dd4bf">{an.get("cn_rating", "—")}</b>'
+        cons = (f'🏛 机构共识(A股·东财研报) 评级 <b style="color:#33d6c5">{an.get("cn_rating", "—")}</b>'
                 f' · 近一月 {an.get("n_analysts", "?")} 份(在档 {an.get("cn_reports_total", "?")}) · 前瞻PE <b>{an.get("fwd_pe", "?")}</b>{eps_str}'
-                f' ｜ <span style="color:#94a3b8">A股以评级+前瞻PE/EPS校准(无单一一致目标价)</span>')
+                f' ｜ <span style="color:#94a6c4">A股以评级+前瞻PE/EPS校准(无单一一致目标价)</span>')
     elif an.get("consensus_src") == "Finnhub":
         # 美股 Finnhub 免费档共识(无目标价,用评级趋势 + 财务指标校准)
         q = d.get("quality") or {}
         qstr = ((f' · ROE {round(q["roe"], 1)}%' if q.get("roe") is not None else "")
                 + (f' · 毛利 {round(q["gross_margin"], 1)}%' if q.get("gross_margin") is not None else ""))
         pe_str = f' · PE {an.get("fwd_pe","?")}' + (f'(增{an.get("eps_growth")}%)' if an.get("eps_growth") is not None else "")
-        cons = (f'🏛 分析师共识(Finnhub) 评级 <b style="color:#2dd4bf">{an.get("cn_rating","—")}</b>'
+        cons = (f'🏛 分析师共识(Finnhub) 评级 <b style="color:#33d6c5">{an.get("cn_rating","—")}</b>'
                 f' · 买入占比 {int(round((an.get("rec_buy_ratio") or 0) * 100))}% · {an.get("n_analysts","?")}家'
                 f'{pe_str}{qstr}'
-                f' ｜ <span style="color:#94a3b8">Finnhub 免费档(无目标价,以评级+财务指标校准)</span>')
+                f' ｜ <span style="color:#94a6c4">Finnhub 免费档(无目标价,以评级+财务指标校准)</span>')
     else:
         cons = ("🏛 ETF·大盘基准(无个股一致目标)" if tk == "QQQ"
                 else "🏛 券商一致目标暂缺(取数受限,价格/技术面正常)")
@@ -242,7 +332,7 @@ def card(i, tk, d, a, bench_m3=None, hist=None):
         try:
             _dd = (datetime.date.fromisoformat(str(ed)[:10]) - datetime.date.fromisoformat(TODAY)).days
             if 0 <= _dd <= 14:
-                earn_soon = f' <span style="color:#f59e0b;font-weight:700">⚠️ 财报 {_dd} 天后·二元风险,不宜追高</span>'
+                earn_soon = f' <span style="color:#fbbf24;font-weight:700">⚠️ 财报 {_dd} 天后·二元风险,不宜追高</span>'
         except Exception:
             pass
     earn = f'　📅 下次财报 {ed}{earn_soon}' if ed else ""
@@ -257,11 +347,11 @@ def card(i, tk, d, a, bench_m3=None, hist=None):
             sev = ';font-weight:700' if heavy else ''
             extra = f"占流通{pf}%" if pf is not None else ""
             mv = f"·{ul['mktcap_yi']}亿" if ul.get("mktcap_yi") else ""
-            unlock_html = f'　🔓 <span style="color:#f59e0b{sev}">{_ud}天后解禁{extra}{mv}{"·抛压临近" if heavy else ""}</span>'
+            unlock_html = f'　🔓 <span style="color:#fbbf24{sev}">{_ud}天后解禁{extra}{mv}{"·抛压临近" if heavy else ""}</span>'
         except Exception:
             pass
     elif is_cn:
-        unlock_html = '　🔓 <span style="color:#64748b">近6月无解禁(已消除限售抛压隐忧)</span>'
+        unlock_html = '　🔓 <span style="color:#94a6c4">近6月无解禁(已消除限售抛压隐忧)</span>'
     news = (d.get("news") or [])[:2]
     news_html = ""
     if news:
@@ -271,7 +361,7 @@ def card(i, tk, d, a, bench_m3=None, hist=None):
 <div class="card" style="border-top:3px solid {color}{';opacity:.92' if tk=='QQQ' else ''}">
   <div class="hd"><span class="rk">{MEDALS[i] if i < len(MEDALS) else str(i + 1) + "."}</span><span class="tk">{('🇨🇳 ' if is_cn else '🇭🇰 ' if is_hk else '') + tk.replace('.SS', '').replace('.SZ', '').replace('.HK', '')}</span>
     <span class="nm">{d.get('name','')}</span><span class="badge">{d.get('role','')}</span>
-    <span class="sig" style="color:{color}">{sig}</span>{'<span class="score" style="color:#cbd5e1;background:rgba(148,163,184,.18)">数据不足·暂不评分</span>' if low_data else f'<span class="score">{score_lbl} {sc}({cov}/9因子{"·仅技术面" if tech_only else ""})</span>'}<span class="conf">置信 {a.get('conf','?')}/10</span></div>
+    <span class="sig" style="color:{color}">{sig}</span>{'<span class="score" style="color:#c9d5e8;background:rgba(148,163,184,.18)">数据不足·暂不评分</span>' if low_data else f'<span class="score">{score_lbl} {sc}({cov}/9因子{"·仅技术面" if tech_only else ""})</span>'}<span class="conf">置信 {a.get('conf','?')}/10</span></div>
   <div class="px"><span class="now">{cs}{d.get('price','—')}</span>
     <span class="mom">近1月 {mom(d.get('m1'))} ｜ 近3月 {mom(d.get('m3'))} ｜ 近6月 {mom(d.get('m6'))} ｜ 距52周高 {(str(d.get('fromhi'))+'%') if d.get('fromhi') is not None else '—'}</span></div>
   <div class="kpis">
@@ -294,7 +384,7 @@ def xtra_block(tk, d, a, sp, miss, cs, hist):
     q = d.get("quality", {}) or {}
     rows = []
     # ① 9因子逐项
-    frows = "".join(f'<tr><td>{k}</td><td>{("贡献 "+str(sp[k])+" / 满"+str(w)) if k in sp else "<span style=color:#f59e0b>不可算(数据缺)</span>"}</td></tr>'
+    frows = "".join(f'<tr><td>{k}</td><td>{("贡献 "+str(sp[k])+" / 满"+str(w)) if k in sp else "<span style=color:#fbbf24>不可算(数据缺)</span>"}</td></tr>'
                     for k, w in FACTOR_W.items())
     rows.append(f'<div class="xsec"><div class="xh">🧮 9因子逐项明细</div><table class="xt">{frows}</table></div>')
     # ② 基本面与共识全字段
@@ -717,106 +807,129 @@ def main():
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
 <title>{cfg['title']} · {TODAY}</title><style>
 *{{margin:0;padding:0;box-sizing:border-box}}
-body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;color:#e2e8f0;line-height:1.6;padding:20px}}
+body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0a1020;color:#f2f6fc;line-height:1.6;padding:20px}}
+body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(1100px 520px at 50% -8%,rgba(226,192,126,.10),transparent 62%),radial-gradient(800px 400px at 85% 110%,rgba(122,184,255,.06),transparent 60%)}}
+@media(max-width:640px){{body::before{{background:radial-gradient(550px 260px at 50% -8%,rgba(226,192,126,.10),transparent 62%),radial-gradient(400px 200px at 85% 110%,rgba(122,184,255,.06),transparent 60%)}}}}
 .wrap{{max-width:1280px;margin:0 auto}}
-.header{{background:linear-gradient(135deg,#1e293b,#0f172a);border:1px solid #334155;border-radius:16px;padding:24px 28px;margin-bottom:16px}}
-.header h1{{font-size:26px;font-weight:900;color:#60a5fa}}.sub{{font-size:13px;color:#94a3b8;margin-top:6px}}
-.updated{{margin-top:8px;font-size:12px;color:#7c8aa3;background:rgba(96,165,250,.06);border-radius:8px;padding:6px 12px}}.updated b{{color:#cbd5e1}}.updated a{{color:#60a5fa;text-decoration:none;font-weight:700}}
-.market{{margin-top:14px;padding:14px 16px;background:rgba(96,165,250,.08);border-radius:10px;font-size:13.5px;color:#cbd5e1}}
-.rankbar{{margin-top:12px;padding:12px 16px;background:rgba(251,191,36,.08);border:1px solid rgba(251,191,36,.2);border-radius:10px;font-size:13px}}.rankbar b{{color:#fbbf24}}
-.fresh{{border-radius:12px;padding:11px 16px;margin-bottom:16px;font-size:12.5px;line-height:1.7}}
-.fresh.ok{{background:rgba(74,222,128,.08);border:1px solid rgba(74,222,128,.25);color:#bbf7d0}}
-.fresh.stale{{background:rgba(251,146,60,.1);border:1px solid rgba(251,146,60,.35);color:#fed7aa}}
-.review{{background:#0f1a30;border:1px solid #2a3a5a;border-radius:14px;padding:16px 18px;margin-bottom:16px}}
-.rv-h{{font-size:16px;font-weight:800;color:#a5b4fc;margin-bottom:10px}}.rv-sub{{font-size:11px;color:#64748b;font-weight:400;margin-left:6px}}
+.header{{background:linear-gradient(135deg,#1c2a4a,#101b33);border:1px solid #2f4166;border-radius:16px;padding:24px 28px;margin-bottom:16px}}
+.header h1{{font-size:26px;font-weight:900;color:#7ab8ff}}.sub{{font-size:14px;color:#94a6c4;margin-top:6px}}
+.updated{{margin-top:8px;font-size:12px;color:#94a6c4;background:rgba(96,165,250,.06);border-radius:8px;padding:6px 12px}}.updated b{{color:#c9d5e8}}.updated a{{color:#7ab8ff;text-decoration:none;font-weight:700}}
+.market{{margin-top:14px;padding:14px 16px;background:rgba(96,165,250,.08);border-radius:10px;font-size:14px;color:#c9d5e8}}
+.rankbar{{margin-top:12px;padding:12px 16px;background:rgba(251,191,36,.08);border:1px solid rgba(251,191,36,.2);border-radius:10px;font-size:14px}}.rankbar b{{color:#fbbf24}}
+.fresh{{border-radius:12px;padding:11px 16px;margin-bottom:16px;font-size:14px;line-height:1.7}}
+.fresh.ok{{background:rgba(74,222,128,.08);border:1px solid rgba(74,222,128,.25);color:#4ade80}}
+.fresh.stale{{background:rgba(251,146,60,.1);border:1px solid rgba(251,146,60,.35);color:#fbbf24}}
+.review{{background:#101b33;border:1px solid #2f4166;border-radius:14px;padding:16px 18px;margin-bottom:16px}}
+.rv-h{{font-size:16px;font-weight:800;color:#33d6c5;margin-bottom:10px}}.rv-sub{{font-size:12px;color:#94a6c4;font-weight:400;margin-left:6px}}
 .stats{{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:10px}}
 @media(max-width:860px){{.stats{{grid-template-columns:repeat(2,1fr)}}.grid{{grid-template-columns:1fr}}}}
 .stat{{background:rgba(51,65,85,.35);border-radius:10px;padding:8px 10px;text-align:center}}
-.sl{{font-size:10.5px;color:#94a3b8;margin-bottom:3px}}.sv{{font-size:18px;font-weight:800;color:#e2e8f0}}
-.rv-line{{font-size:12.5px;color:#cbd5e1;margin-top:6px}}
+.sl{{font-size:12px;color:#94a6c4;margin-bottom:3px}}.sv{{font-size:18px;font-weight:800;color:#f2f6fc}}
+.rv-line{{font-size:14px;color:#c9d5e8;margin-top:6px}}
 .grid{{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-bottom:18px}}
-.section{{display:flex;align-items:center;gap:10px;font-size:16px;font-weight:800;color:#e2e8f0;margin:6px 0 12px;padding:10px 14px;background:linear-gradient(90deg,rgba(96,165,250,.14),transparent);border-left:4px solid #60a5fa;border-radius:8px}}
-.section .scnt{{font-size:12px;font-weight:600;color:#94a3b8;background:rgba(148,163,184,.15);padding:2px 10px;border-radius:10px}}
-.tabs{{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 16px;position:sticky;top:0;z-index:20;background:#0b1120;padding:10px 0}}
-.tab{{font-size:14.5px;font-weight:800;color:#94a3b8;background:#111a2e;border:1px solid #334155;border-radius:11px;padding:9px 18px;cursor:pointer;transition:all .12s;font-family:inherit}}
-.tab:hover{{color:#cbd5e1;border-color:#475569}}
+.section{{display:flex;align-items:center;gap:10px;font-size:16px;font-weight:800;color:#f2f6fc;margin:6px 0 12px;padding:10px 14px;background:linear-gradient(90deg,rgba(96,165,250,.14),transparent);border-left:4px solid #7ab8ff;border-radius:8px}}
+.section .scnt{{font-size:12px;font-weight:600;color:#94a6c4;background:rgba(148,163,184,.15);padding:2px 10px;border-radius:10px}}
+.tabs{{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 16px;position:sticky;top:0;z-index:20;background:#0a1020;padding:10px 0}}
+.tab{{font-size:14.5px;font-weight:800;color:#94a6c4;background:#1c2a4a;border:1px solid #2f4166;border-radius:11px;padding:9px 18px;cursor:pointer;transition:all .12s;font-family:inherit}}
+.tab:hover{{color:#c9d5e8;border-color:#94a6c4}}
 .tab.active{{color:#fff;background:linear-gradient(135deg,#2563eb,#1d4ed8);border-color:#2563eb;box-shadow:0 2px 10px rgba(37,99,235,.35)}}
-.tab .tc{{font-size:11px;background:rgba(255,255,255,.22);border-radius:8px;padding:1px 7px;margin-left:6px}}
+.tab .tc{{font-size:12px;background:rgba(255,255,255,.22);border-radius:8px;padding:1px 7px;margin-left:6px}}
 .pane.hide{{display:none}}
-.card{{background:#111a2e;border:1px solid #334155;border-radius:14px;padding:16px 18px}}
+.card{{background:#1c2a4a;border:1px solid #2f4166;border-radius:14px;padding:16px 18px}}
 .hd{{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px}}
-.rk{{font-size:18px}}.tk{{font-size:18px;font-weight:900;color:#f1f5f9}}.nm{{color:#94a3b8;font-size:13px}}
-.badge{{font-size:11px;padding:2px 9px;border-radius:10px;background:rgba(96,165,250,.15);color:#93c5fd}}
+.rk{{font-size:18px}}.tk{{font-size:18px;font-weight:900;color:#f2f6fc}}.nm{{color:#94a6c4;font-size:14px}}
+.badge{{font-size:12px;padding:2px 9px;border-radius:10px;background:rgba(96,165,250,.15);color:#7ab8ff}}
 .sig{{margin-left:auto;font-weight:800;font-size:14px}}
-.conf{{font-size:10.5px;color:#a5b4fc;background:rgba(165,180,252,.13);padding:2px 8px;border-radius:10px;margin-left:8px}}
-.score{{font-size:10.5px;color:#fbbf24;background:rgba(251,191,36,.12);padding:2px 8px;border-radius:10px;margin-left:6px}}
-.rr{{font-size:11.5px;color:#cbd5e1;background:rgba(248,113,113,.07);border-radius:8px;padding:6px 10px;margin-top:6px}}
-.evid{{background:#0f1a30;border:1px solid #2a3a5a;border-radius:14px;padding:14px 18px;margin-bottom:16px;font-size:12.5px;line-height:1.85}}
-.ev-reg{{color:#a5b4fc;font-weight:700;margin-bottom:6px}}.ev-bt{{color:#cbd5e1}}
-.audit{{font-size:11.5px;color:#94a3b8;background:rgba(51,65,85,.25);border:1px solid #334155;border-radius:12px;padding:12px 16px;margin-top:16px;line-height:1.8}}
+.conf{{font-size:12px;color:#33d6c5;background:rgba(165,180,252,.13);padding:2px 8px;border-radius:10px;margin-left:8px}}
+.score{{font-size:12px;color:#fbbf24;background:rgba(251,191,36,.12);padding:2px 8px;border-radius:10px;margin-left:6px}}
+.rr{{font-size:12px;color:#c9d5e8;background:rgba(248,113,113,.07);border-radius:8px;padding:6px 10px;margin-top:6px}}
+.evid{{background:#101b33;border:1px solid #2f4166;border-radius:14px;padding:14px 18px;margin-bottom:16px;font-size:14px;line-height:1.85}}
+.ev-reg{{color:#33d6c5;font-weight:700;margin-bottom:6px}}.ev-bt{{color:#c9d5e8}}
+.audit{{font-size:12px;color:#94a6c4;background:rgba(51,65,85,.25);border:1px solid #2f4166;border-radius:12px;padding:12px 16px;margin-top:16px;line-height:1.8}}
 .px{{display:flex;align-items:baseline;gap:12px;margin-bottom:12px;flex-wrap:wrap}}
-.now{{font-size:26px;font-weight:900;color:#f8fafc}}.mom{{font-size:12px;color:#94a3b8}}
+.now{{font-size:26px;font-weight:900;color:#f2f6fc}}.mom{{font-size:12px;color:#94a6c4}}
 .kpis{{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:10px}}
 .kpi{{background:rgba(51,65,85,.35);border-radius:10px;padding:10px;text-align:center}}
-.kl{{font-size:11px;color:#94a3b8;margin-bottom:4px}}
-.kv{{font-size:16px;font-weight:800}}.kv.buy{{color:#4ade80}}.kv.tgt{{color:#2dd4bf}}.kv.ret{{color:#fbbf24}}
-.cons{{font-size:12px;color:#cbd5e1;background:rgba(45,212,191,.07);border-radius:8px;padding:7px 10px;margin-top:6px}}
-.th{{font-size:13px;color:#dbeafe;padding:8px 0 4px;border-top:1px solid rgba(51,65,85,.5);margin-top:6px}}
-.news{{font-size:11.5px;color:#94a3b8;line-height:1.8;margin-bottom:4px}}
-.news a{{color:#93c5fd;text-decoration:none}}.news a:hover{{text-decoration:underline}}.src{{color:#64748b;font-size:10px}}
-.rk2{{font-size:11.5px;color:#7c8aa3}}
-.foot{{text-align:center;font-size:11px;color:#475569;margin-top:18px;line-height:1.8}}
+.kl{{font-size:12px;color:#94a6c4;margin-bottom:4px}}
+.kv{{font-size:16px;font-weight:800}}.kv.buy{{color:#4ade80}}.kv.tgt{{color:#33d6c5}}.kv.ret{{color:#fbbf24}}
+.cons{{font-size:12px;color:#c9d5e8;background:rgba(45,212,191,.07);border-radius:8px;padding:7px 10px;margin-top:6px}}
+.th{{font-size:14px;color:#c9d5e8;padding:8px 0 4px;border-top:1px solid rgba(51,65,85,.5);margin-top:6px}}
+.news{{font-size:12px;color:#94a6c4;line-height:1.8;margin-bottom:4px}}
+.news a{{color:#7ab8ff;text-decoration:none}}.news a:hover{{text-decoration:underline}}.src{{color:#94a6c4;font-size:12px}}
+.rk2{{font-size:12px;color:#94a6c4}}
+.foot{{text-align:center;font-size:12px;color:#94a6c4;margin-top:18px;line-height:1.8}}
 .qa{{background:linear-gradient(135deg,rgba(200,165,98,.12),rgba(37,99,235,.06)),#101b33;border:1px solid rgba(200,165,98,.5);border-radius:14px;margin-bottom:16px;overflow:hidden;box-shadow:0 0 22px rgba(200,165,98,.10)}}
-.qa-h{{display:flex;align-items:center;gap:10px;font-size:16.5px;font-weight:900;color:#efe0bd;padding:14px 18px;cursor:pointer;user-select:none}}
+.qa-h{{display:flex;align-items:center;gap:10px;font-size:16.5px;font-weight:900;color:#e2c07e;padding:14px 18px;cursor:pointer;user-select:none}}
 .qa-h:hover{{background:rgba(200,165,98,.08)}}
 .qa-ico{{font-size:20px}}
-.qa-new{{font-size:10px;font-weight:800;letter-spacing:1px;color:#0b1120;background:linear-gradient(120deg,#e5c987,#c8a562);border-radius:8px;padding:2px 8px}}
-.qa-sub{{font-size:11px;font-weight:400;color:#9c8f72}}
+.qa-new{{font-size:12px;font-weight:800;letter-spacing:1px;color:#0a1020;background:linear-gradient(120deg,#f0d9a8,#e2c07e);border-radius:8px;padding:2px 8px}}
+.qa-sub{{font-size:12px;font-weight:400;color:#94a6c4}}
 #qa-fab{{position:fixed;right:22px;bottom:22px;z-index:60;display:none;border:none;cursor:pointer;font-family:inherit;
- font-size:14px;font-weight:800;color:#0b1120;background:linear-gradient(120deg,#e5c987,#c8a562);
+ font-size:14px;font-weight:800;color:#0a1020;background:linear-gradient(120deg,#f0d9a8,#e2c07e);
  border-radius:999px;padding:13px 22px;box-shadow:0 6px 24px rgba(200,165,98,.45)}}
 #qa-fab:hover{{transform:translateY(-2px);box-shadow:0 10px 30px rgba(200,165,98,.55)}}
 .qa-body{{padding:0 18px 14px}}
 .qa-body.hide{{display:none}}
 .qa-chips{{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}}
-.chip{{font-size:12px;color:#93c5fd;background:rgba(96,165,250,.1);border:1px solid rgba(96,165,250,.3);border-radius:16px;padding:5px 12px;cursor:pointer;font-family:inherit}}
+.chip{{font-size:12px;color:#7ab8ff;background:rgba(96,165,250,.1);border:1px solid rgba(96,165,250,.3);border-radius:16px;padding:5px 12px;cursor:pointer;font-family:inherit}}
 .chip:hover{{background:rgba(96,165,250,.2)}}
 .qa-log{{display:flex;flex-direction:column;gap:8px;max-height:420px;overflow-y:auto;margin-bottom:10px}}
-.qa-m{{font-size:13px;line-height:1.7;border-radius:12px;padding:9px 13px;max-width:88%}}
-.qa-u{{align-self:flex-end;background:rgba(37,99,235,.25);color:#dbeafe;border:1px solid rgba(96,165,250,.3)}}
-.qa-a{{align-self:flex-start;background:rgba(51,65,85,.35);color:#e2e8f0;border:1px solid #334155}}
+.qa-m{{font-size:14px;line-height:1.7;border-radius:12px;padding:9px 13px;max-width:88%}}
+.qa-u{{align-self:flex-end;background:rgba(37,99,235,.25);color:#c9d5e8;border:1px solid rgba(96,165,250,.3)}}
+.qa-a{{align-self:flex-start;background:rgba(51,65,85,.35);color:#f2f6fc;border:1px solid #2f4166}}
 .qa-li{{padding-left:6px}}
-.qa-hd{{font-weight:800;color:#93c5fd;margin-top:4px}}
-.qa-wait{{color:#94a3b8;font-size:12px}}
+.qa-hd{{font-weight:800;color:#7ab8ff;margin-top:4px}}
+.qa-wait{{color:#94a6c4;font-size:12px}}
 .qa-inrow{{display:flex;gap:8px;align-items:flex-end}}
-.qa-inrow textarea{{flex:1;background:#111a2e;border:1px solid #334155;border-radius:10px;color:#e2e8f0;font-size:13px;font-family:inherit;padding:9px 12px;resize:vertical;line-height:1.5}}
+.qa-inrow textarea{{flex:1;background:#1c2a4a;border:1px solid #2f4166;border-radius:10px;color:#f2f6fc;font-size:14px;font-family:inherit;padding:9px 12px;resize:vertical;line-height:1.5}}
 .qa-inrow textarea:focus{{outline:none;border-color:#2563eb}}
-#qa-send{{background:#2563eb;color:#fff;border:none;border-radius:10px;padding:9px 18px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit}}
+#qa-send{{background:#2563eb;color:#fff;border:none;border-radius:10px;padding:9px 18px;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit}}
 #qa-send:disabled{{opacity:.5;cursor:default}}
-.qa-foot{{font-size:10.5px;color:#64748b;margin-top:8px;line-height:1.6}}
-.qa-basis{{font-size:11.5px;color:#93c5fd;cursor:pointer;margin-bottom:8px;user-select:none}}
+.qa-foot{{font-size:12px;color:#94a6c4;margin-top:8px;line-height:1.6}}
+.qa-basis{{font-size:12px;color:#7ab8ff;cursor:pointer;margin-bottom:8px;user-select:none}}
 .qa-basis:hover{{text-decoration:underline}}
-.qa-basis-body{{font-size:11.5px;color:#94a3b8;background:rgba(51,65,85,.25);border:1px solid #334155;border-radius:10px;padding:10px 13px;margin-bottom:10px;line-height:1.8}}
+.qa-basis-body{{font-size:12px;color:#94a6c4;background:rgba(51,65,85,.25);border:1px solid #2f4166;border-radius:10px;padding:10px 13px;margin-bottom:10px;line-height:1.8}}
 .qa-basis-body.hide{{display:none}}
-.qa-src{{font-size:10.5px;color:#64748b;border-top:1px dashed rgba(100,116,139,.4);margin-top:8px;padding-top:6px}}
-.qa-verify,.qa-ok,.qa-warn{{font-size:10.5px;display:block;margin-top:3px;line-height:1.6}}
-.qa-verify{{color:#94a3b8}}.qa-ok{{color:#4ade80}}.qa-warn{{color:#fbbf24}}
-.mstrip{{background:#101b33;border:1px solid rgba(96,165,250,.3);border-radius:11px;padding:9px 14px;margin-bottom:14px;font-size:12px;color:#cbd5e1;line-height:1.9}}
-.mstrip b{{color:#f1f5f9}}
-.xbtn{{margin-top:9px;font-size:11.5px;font-weight:700;color:#93c5fd;cursor:pointer;user-select:none;border-top:1px dashed rgba(51,65,85,.6);padding-top:7px}}
+.qa-src{{font-size:12px;color:#94a6c4;border-top:1px dashed rgba(100,116,139,.4);margin-top:8px;padding-top:6px}}
+.qa-verify,.qa-ok,.qa-warn{{font-size:12px;display:block;margin-top:3px;line-height:1.6}}
+.qa-verify{{color:#94a6c4}}.qa-ok{{color:#4ade80}}.qa-warn{{color:#fbbf24}}
+.mstrip{{background:#101b33;border:1px solid rgba(96,165,250,.3);border-radius:11px;padding:9px 14px;margin-bottom:14px;font-size:12px;color:#c9d5e8;line-height:1.9}}
+.mstrip b{{color:#f2f6fc}}
+.xbtn{{margin-top:9px;font-size:12px;font-weight:700;color:#7ab8ff;cursor:pointer;user-select:none;border-top:1px dashed rgba(51,65,85,.6);padding-top:7px}}
 .xbtn:hover{{text-decoration:underline}}
 .xtra{{margin-top:8px}}
 .xtra.hide{{display:none}}
 .xsec{{margin-bottom:9px}}
-.xh{{font-size:11px;font-weight:800;color:#a5b4fc;margin-bottom:4px}}
-.xp{{font-size:11px;color:#cbd5e1}}
-.xt{{width:100%;border-collapse:collapse;font-size:10.5px;color:#cbd5e1}}
+.xh{{font-size:12px;font-weight:800;color:#33d6c5;margin-bottom:4px}}
+.xp{{font-size:12px;color:#c9d5e8}}
+.xt{{width:100%;border-collapse:collapse;font-size:12px;color:#c9d5e8}}
 .xt td,.xt th{{border:1px solid rgba(51,65,85,.55);padding:3px 7px;text-align:left}}
-.xt th{{color:#94a3b8;background:rgba(51,65,85,.3);font-weight:600}}
+.xt th{{color:#94a6c4;background:rgba(51,65,85,.3);font-weight:600}}
+.card,.review,.evid,.header{{border-top-color:rgba(226,192,126,.35)}}
+.now{{text-shadow:0 0 14px rgba(226,192,126,.35)}}
+.now,.kv,.sv,.mv,.stat,.kpi,.xt{{font-variant-numeric:tabular-nums}}
+.gauges{{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:14px}}
+.gcard{{background:#1c2a4a;border:1px solid #2f4166;border-top-color:rgba(226,192,126,.35);border-radius:14px;padding:18px 14px 14px;text-align:center}}
+.gwrap{{position:relative;width:132px;margin:0 auto}}
+.gsvg{{display:block;width:100%;height:auto}}
+.gbase{{fill:none;stroke:rgba(148,163,184,.15);stroke-width:10;stroke-linecap:round}}
+.garc{{fill:none;stroke:currentColor;stroke-width:10;stroke-linecap:round;filter:drop-shadow(0 0 4px currentColor);animation:gfill .9s cubic-bezier(.22,1,.36,1) .2s forwards}}
+@keyframes gfill{{to{{stroke-dashoffset:0}}}}
+.g-green{{color:#4ade80}}.g-yellow{{color:#fbbf24}}.g-red{{color:#f87171}}
+.gnum{{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.2}}
+.g-red .gnum{{color:#ff8f8f}}
+.gunit{{font-size:14px;opacity:.7;margin-left:1px}}
+.gup{{font-size:12px;color:#4ade80;margin-left:2px}}
+.glabel{{font-size:12px;color:#94a6c4;margin-top:-24px;position:relative}}
+.gnote{{font-size:11px;color:#94a6c4;margin-top:2px}}
+.gspark{{display:block;width:100%;height:36px;margin-top:8px}}
+.gdates{{display:flex;justify-content:space-between;font-size:10px;color:#94a6c4;margin-top:2px}}
+.gcold{{font-size:11px;color:#94a6c4;margin-top:10px}}
+@media(max-width:480px){{.gauges{{gap:8px}}.gcard{{padding:12px 6px 10px}}.gwrap{{width:100%;max-width:104px}}.gnum{{font-size:22px}}.gunit{{font-size:12px}}.gnote{{display:none}}.gspark{{height:32px}}}}
 </style></head><body><div class="wrap">
-<div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#c8a562;margin-bottom:8px">LUMORA · 同光科技</div><h1>📡 {cfg['title']} · {TODAY}</h1>
+<div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#e2c07e;margin-bottom:8px">LUMORA · 同光科技</div><h1>📡 {cfg['title']} · {TODAY}</h1>
 <div class="sub">美股 AI 核心 {sum(1 for s in cfg['stocks'] if s.get('market') != 'CN' and s['ticker'] != cfg['benchmark'])} 票 + 🇨🇳 A 股补充 {sum(1 for s in cfg['stocks'] if s.get('market') == 'CN')} 票 + {cfg['benchmark']} 基准 · 长期 {cfg['horizon_label']} 视角 · 数据 yfinance+akshare(真实行情) · AI 研判</div>
-<div class="updated">🕐 本页生成:<b>{BUILD_TS}</b> 北京 · <a href="news.html">🌍 全球头条</a> · <a href="ops.html">📊 运营看板</a> · <a href="javascript:void(0)" onclick="location.href='board.html?t='+Date.now()">🔄 手动刷新</a> · <button id="updbtn" onclick="triggerUpd()" style="background:#2563eb;color:#fff;border:none;border-radius:8px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer">🔁 更新研判</button><span id="updmsg" style="color:#94a3b8;font-size:12px;margin-left:6px"></span></div>
+<div class="updated">🕐 本页生成:<b>{BUILD_TS}</b> 北京 · <a href="news.html">🌍 全球头条</a> · <a href="ops.html">📊 运营看板</a> · <a href="javascript:void(0)" onclick="location.href='board.html?t='+Date.now()">🔄 手动刷新</a> · <button id="updbtn" onclick="triggerUpd()" style="background:#2563eb;color:#fff;border:none;border-radius:8px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer">🔁 更新研判</button><span id="updmsg" style="color:#94a6c4;font-size:12px;margin-left:6px"></span></div>
 <script>
 const DT="__DISPATCH_TOKEN__";
 async function triggerUpd(){{
@@ -851,7 +964,7 @@ document.addEventListener('click',function(e){{
   document.querySelectorAll('.pane').forEach(function(p){{p.classList.toggle('hide', t!=='all' && p.dataset.mkt!==t);}});
 }});
 </script>
-<div class="market">🌎 <b style="color:#60a5fa">大盘与板块:</b>{calls.get('market','')}</div>
+<div class="market">🌎 <b style="color:#7ab8ff">大盘与板块:</b>{calls.get('market','')}</div>
 <div class="rankbar">🏆 <b>买点吸引力排序:</b>{rank_str}</div></div>
 {freshness_banner(calls_date, data_meta)}
 {macro_strip()}

@@ -11,9 +11,9 @@ _BJ = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8)))
 TODAY = _BJ.date().isoformat()
 BUILD_TS = _BJ.strftime("%Y-%m-%d %H:%M")
 
-CAT = {"macro": ("🌍 宏观 / 地缘", "影响美股整体:利率 · 关税 · 地缘 · 大宗 · 政策", "#60a5fa"),
+CAT = {"macro": ("🌍 宏观 / 地缘", "影响美股整体:利率 · 关税 · 地缘 · 大宗 · 政策", "#7ab8ff"),
        "oil": ("🛢️ 全球石油 / 能源", "OPEC+ · 油价 · LNG/天然气 · 能源巨头 · 传导视角:莫桑比克/东非能源经营(联合能源 Union)", "#f97316"),
-       "tech": ("🤖 科技 / AI 产业", "影响科技板块:财报 · 芯片管制 · AI 监管 · 产业链", "#34d399")}
+       "tech": ("🤖 科技 / AI 产业", "影响科技板块:财报 · 芯片管制 · AI 监管 · 产业链", "#4ade80")}
 
 
 def macro_panel():
@@ -119,40 +119,44 @@ def main():
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache">
 <title>同光科技 · 全球市场头条 · {news_date}</title><style>
 *{{margin:0;padding:0;box-sizing:border-box}}
-body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;color:#e2e8f0;line-height:1.6;padding:20px}}
+body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0a1020;color:#f2f6fc;line-height:1.6;padding:20px}}
+body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(1100px 520px at 50% -8%,rgba(226,192,126,.10),transparent 62%),radial-gradient(800px 400px at 85% 110%,rgba(122,184,255,.06),transparent 60%)}}
+@media(max-width:640px){{body::before{{background:radial-gradient(550px 260px at 50% -8%,rgba(226,192,126,.10),transparent 62%),radial-gradient(400px 200px at 85% 110%,rgba(122,184,255,.06),transparent 60%)}}}}
 .wrap{{max-width:980px;margin:0 auto}}
-.header{{background:linear-gradient(135deg,#1e293b,#0f172a);border:1px solid #334155;border-radius:16px;padding:24px 28px;margin-bottom:16px}}
-.header h1{{font-size:24px;font-weight:900;color:#60a5fa}}
-.sub{{font-size:13px;color:#94a3b8;margin-top:6px}}
-.nav{{margin-top:10px;font-size:12.5px}}.nav a{{color:#60a5fa;text-decoration:none;font-weight:700;margin-right:14px}}
-.fresh{{border-radius:12px;padding:11px 16px;margin-bottom:16px;font-size:12.5px}}
-.fresh.ok{{background:rgba(74,222,128,.08);border:1px solid rgba(74,222,128,.25);color:#bbf7d0}}
-.fresh.stale{{background:rgba(251,146,60,.1);border:1px solid rgba(251,146,60,.35);color:#fed7aa}}
-.section{{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:16px;font-weight:800;margin:18px 0 12px;padding:10px 14px;background:linear-gradient(90deg,rgba(96,165,250,.12),transparent);border-left:4px solid #60a5fa;border-radius:8px}}
-.ssub{{font-size:11px;font-weight:400;color:#64748b}}
-.scnt{{margin-left:auto;font-size:12px;font-weight:600;color:#94a3b8;background:rgba(148,163,184,.15);padding:2px 10px;border-radius:10px}}
-.item{{background:#111a2e;border:1px solid #334155;border-radius:13px;padding:14px 17px;margin-bottom:10px}}
+.header{{background:linear-gradient(135deg,#1c2a4a,#101b33);border:1px solid #2f4166;border-radius:16px;padding:24px 28px;margin-bottom:16px}}
+.header h1{{font-size:24px;font-weight:900;color:#7ab8ff}}
+.sub{{font-size:14px;color:#94a6c4;margin-top:6px}}
+.nav{{margin-top:10px;font-size:14px}}.nav a{{color:#7ab8ff;text-decoration:none;font-weight:700;margin-right:14px}}
+.fresh{{border-radius:12px;padding:11px 16px;margin-bottom:16px;font-size:14px}}
+.fresh.ok{{background:rgba(74,222,128,.08);border:1px solid rgba(74,222,128,.25);color:#4ade80}}
+.fresh.stale{{background:rgba(251,146,60,.1);border:1px solid rgba(251,146,60,.35);color:#fbbf24}}
+.section{{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:16px;font-weight:800;margin:18px 0 12px;padding:10px 14px;background:linear-gradient(90deg,rgba(96,165,250,.12),transparent);border-left:4px solid #7ab8ff;border-radius:8px}}
+.ssub{{font-size:12px;font-weight:400;color:#94a6c4}}
+.scnt{{margin-left:auto;font-size:12px;font-weight:600;color:#94a6c4;background:rgba(148,163,184,.15);padding:2px 10px;border-radius:10px}}
+.item{{background:#1c2a4a;border:1px solid #2f4166;border-radius:13px;padding:14px 17px;margin-bottom:10px}}
 .ihd{{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}}
-.irk{{font-size:13px;font-weight:900;color:#fbbf24;background:rgba(251,191,36,.12);border-radius:8px;padding:1px 8px}}
-.ittl{{font-size:15.5px;font-weight:800;color:#f1f5f9;flex:1;min-width:200px}}
-.imp{{font-size:10.5px;color:#a5b4fc;background:rgba(165,180,252,.13);padding:2px 8px;border-radius:10px}}
-.ibrief{{font-size:13px;color:#cbd5e1;margin-top:6px}}
-.ichain{{font-size:12.5px;color:#fde68a;background:rgba(251,191,36,.07);border:1px solid rgba(251,191,36,.18);border-radius:9px;padding:7px 11px;margin-top:8px}}
-.isrc{{font-size:11px;color:#64748b;margin-top:7px}}.isrc a{{color:#93c5fd;text-decoration:none}}
-.foot{{text-align:center;font-size:11px;color:#475569;margin-top:20px;line-height:1.8}}
+.irk{{font-size:14px;font-weight:900;color:#fbbf24;background:rgba(251,191,36,.12);border-radius:8px;padding:1px 8px}}
+.ittl{{font-size:15.5px;font-weight:800;color:#f2f6fc;flex:1;min-width:200px}}
+.imp{{font-size:12px;color:#33d6c5;background:rgba(165,180,252,.13);padding:2px 8px;border-radius:10px}}
+.ibrief{{font-size:14px;color:#c9d5e8;margin-top:6px}}
+.ichain{{font-size:14px;color:#fbbf24;background:rgba(251,191,36,.07);border:1px solid rgba(251,191,36,.18);border-radius:9px;padding:7px 11px;margin-top:8px}}
+.isrc{{font-size:12px;color:#94a6c4;margin-top:7px}}.isrc a{{color:#7ab8ff;text-decoration:none}}
+.foot{{text-align:center;font-size:12px;color:#94a6c4;margin-top:20px;line-height:1.8}}
 .macro{{background:#101b33;border:1px solid rgba(96,165,250,.35);border-radius:13px;padding:13px 16px;margin-bottom:14px}}
-.mtitle{{font-size:14px;font-weight:800;color:#93c5fd;margin-bottom:9px}}
-.msub{{font-size:10.5px;font-weight:400;color:#64748b;margin-left:8px}}
+.mtitle{{font-size:14px;font-weight:800;color:#7ab8ff;margin-bottom:9px}}
+.msub{{font-size:12px;font-weight:400;color:#94a6c4;margin-left:8px}}
 .mgrid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(138px,1fr));gap:8px}}
 .mcell{{background:rgba(51,65,85,.3);border-radius:9px;padding:8px 10px}}
-.mk{{font-size:10.5px;color:#94a3b8}}
-.mp{{font-size:9px;color:#64748b;margin-left:4px}}
-.mv{{font-size:16px;font-weight:800;color:#f1f5f9;margin-top:2px}}
-.ms{{font-size:10px;color:#7c8aa3}}
+.mk{{font-size:12px;color:#94a6c4}}
+.mp{{font-size:9px;color:#94a6c4;margin-left:4px}}
+.mv{{font-size:16px;font-weight:800;color:#f2f6fc;margin-top:2px}}
+.ms{{font-size:12px;color:#94a6c4}}
+.item,.header,.macro{{border-top-color:rgba(226,192,126,.35)}}
+.mv{{font-variant-numeric:tabular-nums}}
 </style></head><body><div class="wrap">
-<div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#c8a562;margin-bottom:8px">LUMORA · 同光科技</div><h1>🌍 全球市场头条 · {news_date}</h1>
+<div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#e2c07e;margin-bottom:8px">LUMORA · 同光科技</div><h1>🌍 全球市场头条 · {news_date}</h1>
 <div class="sub">传导链视角:国际局势 → 美股 → A股 · 油气市场 → 莫桑比克/东非经营 · 三档 15-21 条 · 信源 Finnhub / 东财环球 / OilPrice / 财经RSS(真实链接可溯源)</div>
-<div class="nav"><a href="index.html">🏠 首页</a><a href="board.html">📡 股票看板</a><a href="ops.html">📊 运营看板</a><button onclick="newsUpd()" style="background:#f97316;color:#fff;border:none;border-radius:8px;padding:4px 12px;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit">🔁 刷新头条</button><span id="nupd" style="color:#94a3b8;font-size:12px;margin-left:6px"></span><span style="color:#7c8aa3;margin-left:8px">🕐 本页生成 {BUILD_TS} 北京</span></div></div>
+<div class="nav"><a href="home.html">🏠 首页</a><a href="board.html">📡 股票看板</a><a href="ops.html">📊 运营看板</a><button onclick="newsUpd()" style="background:#f97316;color:#fff;border:none;border-radius:8px;padding:4px 12px;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit">🔁 刷新头条</button><span id="nupd" style="color:#94a6c4;font-size:12px;margin-left:6px"></span><span style="color:#94a6c4;margin-left:8px">🕐 本页生成 {BUILD_TS} 北京</span></div></div>
 <script>
 const DT="__DISPATCH_TOKEN__";
 async function newsUpd(){{

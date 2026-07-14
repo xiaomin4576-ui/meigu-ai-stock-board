@@ -127,6 +127,21 @@ def main():
     json.dump({"asof": TODAY, "latest_call_date": latest, "feasibility": feasibility,
                "review": review, "scorecard": sc, "calibration": calib},
               open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    # 记分卡历史逐日累积(替换式:同日重跑覆盖当日行)——表盘"进化曲线"的数据源,
+    # 让"方向胜率/入场率是否越用越准"从口号变成可见的趋势线(闭环已接通,这里是它的仪表)
+    hist_p = os.path.join(STATE, "scorecard_history.jsonl")
+    kept = []
+    if os.path.exists(hist_p):
+        for ln in open(hist_p, encoding="utf-8"):
+            try:
+                if json.loads(ln).get("date") != TODAY:
+                    kept.append(ln.strip())
+            except Exception:
+                continue
+    kept.append(json.dumps({"date": TODAY, **{k: sc.get(k) for k in
+                ("entry_hit_rate", "direction_win_rate", "avg_pace_ratio", "matured_n", "n_open")}},
+                ensure_ascii=False))
+    open(hist_p, "w", encoding="utf-8").write("\n".join(kept) + "\n")
     bad = [tk for tk, v in feasibility.items() if not v["buy_reachable"] or v["target_aggressive"]]
     print(json.dumps({"feasibility_checked": len(feasibility), "需关注": bad,
                       "review_open": len(review), "scorecard": sc, "calibration": calib},

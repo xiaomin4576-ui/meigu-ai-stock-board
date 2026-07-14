@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """门户宏观条注入:把 __MACRO_STRIP__ 占位符替换为最新宏观快线一行(公开数据:金/油/美10Y/CPI)。
-取不到数据则清空占位符,绝不留占位符上线。CI 在 cp portal.html → docs/index.html 后调用。
+取不到数据则清空占位符,绝不留占位符上线。CI 在 cp portal.html → docs/home.html 后调用(home 随后加密,由光之门 index.html 解密直出)。
 (独立成脚本而非 workflow 内 heredoc:YAML 块里的 heredoc Python 必带缩进 → IndentationError,已知坑。)"""
 import json, glob, re, sys
 
-TARGET = sys.argv[1] if len(sys.argv) > 1 else "docs/index.html"
+TARGET = sys.argv[1] if len(sys.argv) > 1 else "docs/home.html"
 strip = ""
 fs = [f for f in sorted(glob.glob("state/macro_*.json")) if re.search(r"macro_\d{4}-\d{2}-\d{2}\.json$", f)]
 if fs:

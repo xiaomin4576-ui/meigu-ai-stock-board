@@ -151,11 +151,11 @@ jobs:
           import sys
           path = sys.argv[1]
           nav = ('<div class="navbar" style="max-width:1280px;margin:0 auto 12px;text-align:right">'
-                 '<a href="index.html" style="color:#a78bfa;text-decoration:none;font-weight:700;font-size:13px;'
-                 'background:rgba(167,139,250,.1);border:1px solid rgba(167,139,250,.3);border-radius:10px;padding:6px 14px;margin-right:8px">'
+                 '<a href="home.html" style="color:#33d6c5;text-decoration:none;font-weight:700;font-size:13px;'
+                 'background:rgba(51,214,197,.1);border:1px solid rgba(51,214,197,.3);border-radius:10px;padding:6px 14px;margin-right:8px">'
                  '🏠 首页</a>'
-                 '<a href="archive.html" style="color:#60a5fa;text-decoration:none;font-weight:700;font-size:13px;'
-                 'background:rgba(96,165,250,.1);border:1px solid rgba(96,165,250,.3);border-radius:10px;padding:6px 14px">'
+                 '<a href="archive.html" style="color:#7ab8ff;text-decoration:none;font-weight:700;font-size:13px;'
+                 'background:rgba(122,184,255,.1);border:1px solid rgba(122,184,255,.3);border-radius:10px;padding:6px 14px">'
                  '📚 历史归档</a></div>')
           html = open(path, encoding="utf-8").read()
           anchor = '<div class="wrap">'
@@ -167,11 +167,11 @@ jobs:
               print("ℹ️ 跳过注入")
           PY
 
-          # 5b) docs/index.html = 门户首页(四板块入口)。公开、不加密。
-          cp portal.html "$DOCS/index.html"
+          # 5b) docs/home.html = 门户首页(四板块入口)。随后进加密循环;由光之门 index.html 输密码后解密直出。
+          cp portal.html "$DOCS/home.html"
           # 门户注入宏观快线一行(公开数据;脚本内兜底:无数据清空占位符,绝不留占位符上线)
-          python3 inject_portal_macro.py "$DOCS/index.html" || echo "⚠️ 门户宏观条注入失败(不阻断)"
-          echo "🏠 门户首页已就位"
+          python3 inject_portal_macro.py "$DOCS/home.html" || echo "⚠️ 门户宏观条注入失败(不阻断)"
+          echo "🏠 门户首页(home)已就位"
 
           # 5c) 镜像同光早报到 docs/tongguang/(公开仓库,无需 token;每次构建拉最新保持同步)。相对路径,镜像到子目录不破坏。
           rm -rf "$DOCS/tongguang"; mkdir -p "$DOCS/tongguang"
@@ -188,10 +188,9 @@ jobs:
 
           # 6) 校验产物
           echo "=== docs/ 内容 ==="; ls -la "$DOCS"
-          [ -f "$DOCS/index.html" ]   || { echo "❌ docs/index.html 缺失"; exit 1; }
+          [ -f "$DOCS/home.html" ]    || { echo "❌ docs/home.html(门户首页)缺失"; exit 1; }
           [ -f "$DOCS/.nojekyll" ]    || { echo "❌ .nojekyll 缺失"; exit 1; }
           [ -f "$DOCS/board.html" ]   || { echo "❌ docs/board.html 缺失"; exit 1; }
-          grep -q "location.replace" "$DOCS/index.html" && echo "✅ index 为防缓存跳转页" || echo "⚠️ index 跳转缺失"
           grep -q 'class="navbar"' "$DOCS/board.html" && echo "✅ 看板含归档入口" || echo "⚠️ 看板未注入归档入口"
 
           # 6b) 注入"更新按钮"触发凭证:占位符替换成真 token,只进 docs/(随后被加密),不入库 → 不泄露。用单行 python 避免 heredoc 破坏 YAML。
@@ -223,15 +222,30 @@ jobs:
             echo "🔑 已注入实时行情凭证到 docs/(将随内容一起加密)"
           fi
 
-          # 7) 密码保护:加密所有内容页(board + archive + 每期看板),index.html 跳转页保持明文。
-          #    这样直连任何历史看板文件也要密码,堵住绕过。未配 BOARD_PASSWORD 则公开。
+          # 6e) ✨ 光之门:读【明文 home】生成 docs/index.html —— 品牌闪屏 + 密码校验 + 时光隧道解锁。
+          #     内嵌 home 密文 blob(PBKDF2+AES-GCM,与其它加密页同格式);输对密码本地解密→隧道→直出 home。
+          #     执行时机关键:凭证注入之后(home 已就绪)、加密循环之前(build_gate 需明文 home)。
+          #     未配 BOARD_PASSWORD → build_gate 落 home 明文到 index.html(公开,无门)。
+          if [ -n "${BOARD_PASSWORD:-}" ]; then pip install --quiet cryptography 2>/dev/null || pip3 install --quiet cryptography; fi
+          python3 build_gate.py "$DOCS/home.html" "$DOCS/index.html"
+          [ -f "$DOCS/index.html" ] || { echo "❌ 光之门 index.html 生成失败"; exit 1; }
+          if [ -n "${BOARD_PASSWORD:-}" ]; then
+            grep -q 'playTunnel' "$DOCS/index.html" && echo "✨ 光之门 index.html 已生成(密码校验+时光隧道)" || { echo "❌ index.html 非光之门(缺隧道逻辑),中止"; exit 1; }
+          fi
+
+          # 7) 密码保护:加密所有内容页(home + board + archive + 每期看板),光之门 index.html 保持明文(内嵌 home 密文)。
+          #    这样直连任何内容页也要密码,堵住绕过。未配 BOARD_PASSWORD 则公开。
           if [ -n "${BOARD_PASSWORD:-}" ]; then
             pip install --quiet cryptography 2>/dev/null || pip3 install --quiet cryptography
             for f in "$DOCS"/*.html; do
               [ "$(basename "$f")" = "index.html" ] && continue
               python3 encrypt_board.py "$f" "$f"
             done
-            grep -q '兆易\|台积电\|建议买入价' "$DOCS/board.html" && { echo "❌ 加密后仍有明文,中止"; exit 1; }
+            grep -q '兆易\|台积电\|建议买入价' "$DOCS/board.html" && { echo "❌ board 加密后仍有明文,中止"; exit 1; }
+            # home 门户:加密后不得残留四板块明文标题(证明 home 已真加密)
+            if grep -q '企业 AI 早报' "$DOCS/home.html"; then echo "❌ home 加密后仍有明文,中止"; exit 1; fi
+            # 光之门:加密循环后 index.html 必须仍是明文光之门(未被误加密,否则用户看不到密码框)
+            if ! grep -q 'playTunnel' "$DOCS/index.html"; then echo "❌ 光之门 index.html 被误加密,中止"; exit 1; fi
             # 双保险:任何凭证若在 docs 顶层页面留有明文(加密失效/漏加密),立即中止,绝不上线。
             # 注意 set -e 下 grep 无匹配返回 1 会误杀脚本,必须用 if 形式。
             if [ -n "${DEEPSEEK_API_KEY:-}" ] && grep -qF "${DEEPSEEK_API_KEY}" "$DOCS"/*.html 2>/dev/null; then
@@ -243,7 +257,7 @@ jobs:
             if [ -n "${FINNHUB_KEY:-}" ] && grep -qF "${FINNHUB_KEY}" "$DOCS"/*.html 2>/dev/null; then
               echo "❌ 实时行情凭证明文泄露,中止"; exit 1
             fi
-            echo "🔒 已加密全部内容页(密码保护+凭证零明文),index 跳转页保持明文"
+            echo "🔒 已加密全部内容页(home+board+news+ops+归档,凭证零明文),光之门 index.html 保持明文"
           else
             echo "ℹ️ 未配 BOARD_PASSWORD → 看板公开(无密码)"
           fi

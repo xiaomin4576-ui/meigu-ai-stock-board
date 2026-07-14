@@ -21,6 +21,8 @@ def section_of(path: str) -> str:
         return "看板归档"
     if b.startswith("ai_stock_board_") or b == "board.html":
         return "AI 股票看板"
+    if b == "home.html":
+        return "LUMORA · 同光科技"          # 门户首页(四板块入口),经光之门进入
     return "LUMORA · 同光科技"
 
 
@@ -41,21 +43,21 @@ GATE = r"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
 <meta name="robots" content="noindex,nofollow">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;color:#e2e8f0;
+body{font-family:-apple-system,"PingFang SC",sans-serif;background:#0a1020;color:#f2f6fc;
 min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px}
-.box{background:linear-gradient(135deg,#1e293b,#0f172a);border:1px solid #334155;border-radius:16px;
+.box{background:linear-gradient(135deg,#1c2a4a,#101b33);border:1px solid #2f4166;border-radius:16px;
 padding:34px 30px;max-width:360px;width:100%;text-align:center}
 .ic{font-size:34px;margin-bottom:10px}
-h1{font-size:19px;font-weight:800;color:#60a5fa;margin-bottom:6px}
-p{font-size:13px;color:#94a3b8;margin-bottom:20px}
-input{width:100%;padding:12px 14px;font-size:16px;border-radius:10px;border:1px solid #334155;
-background:#0b1120;color:#e2e8f0;outline:none;text-align:center;letter-spacing:2px}
-input:focus{border-color:#60a5fa}
+h1{font-size:19px;font-weight:800;color:#7ab8ff;margin-bottom:6px}
+p{font-size:14px;color:#94a6c4;margin-bottom:20px}
+input{width:100%;padding:12px 14px;font-size:16px;border-radius:10px;border:1px solid #2f4166;
+background:#0a1020;color:#f2f6fc;outline:none;text-align:center;letter-spacing:2px}
+input:focus{border-color:#7ab8ff}
 button{width:100%;margin-top:12px;padding:12px;font-size:15px;font-weight:700;border:none;border-radius:10px;
 background:#2563eb;color:#fff;cursor:pointer}
 button:active{background:#1d4ed8}
-.err{color:#f87171;font-size:12.5px;margin-top:10px;min-height:16px}
-.hint{color:#475569;font-size:11px;margin-top:16px}
+.err{color:#ff8080;font-size:14px;margin-top:10px;min-height:16px}
+.hint{color:#94a6c4;font-size:12px;margin-top:16px}
 </style></head><body>
 <div class="box">
  <div class="ic">🔒</div>
@@ -69,18 +71,31 @@ button:active{background:#1d4ed8}
 <script>
 const DATA=/*__BLOB__*/;
 const b2a=b=>Uint8Array.from(atob(b),c=>c.charCodeAt(0));
+async function tryDecrypt(pw){
+  const enc=new TextEncoder();
+  const km=await crypto.subtle.importKey('raw',enc.encode(pw),'PBKDF2',false,['deriveKey']);
+  const key=await crypto.subtle.deriveKey(
+    {name:'PBKDF2',salt:b2a(DATA.s),iterations:DATA.n,hash:'SHA-256'},
+    km,{name:'AES-GCM',length:256},false,['decrypt']);
+  const pt=await crypto.subtle.decrypt({name:'AES-GCM',iv:b2a(DATA.i)},key,b2a(DATA.c));
+  return new TextDecoder().decode(pt);
+}
+// 全站通行:光之门主页输一次密码存 sessionStorage,各加密页自动解——不再每页各输一遍
+(async function(){
+  const saved=sessionStorage.getItem('lumora-pass');
+  if(!saved)return;
+  try{
+    const html=await tryDecrypt(saved);
+    document.open();document.write(html);document.close();
+  }catch(ex){ sessionStorage.removeItem('lumora-pass'); }
+})();
 document.getElementById('f').addEventListener('submit',async e=>{
   e.preventDefault();
   const err=document.getElementById('err'); err.textContent='解密中…';
   const pw=document.getElementById('pw').value;
   try{
-    const enc=new TextEncoder();
-    const km=await crypto.subtle.importKey('raw',enc.encode(pw),'PBKDF2',false,['deriveKey']);
-    const key=await crypto.subtle.deriveKey(
-      {name:'PBKDF2',salt:b2a(DATA.s),iterations:DATA.n,hash:'SHA-256'},
-      km,{name:'AES-GCM',length:256},false,['decrypt']);
-    const pt=await crypto.subtle.decrypt({name:'AES-GCM',iv:b2a(DATA.i)},key,b2a(DATA.c));
-    const html=new TextDecoder().decode(pt);
+    const html=await tryDecrypt(pw);
+    sessionStorage.setItem('lumora-pass',pw);
     document.open();document.write(html);document.close();
   }catch(ex){ err.textContent='密码错误'; }
 });

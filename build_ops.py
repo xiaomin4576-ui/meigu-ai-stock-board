@@ -169,31 +169,35 @@ def main():
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <title>同光科技 · 运营看板 · {TODAY}</title><style>
 *{{margin:0;padding:0;box-sizing:border-box}}
-body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;color:#e2e8f0;line-height:1.6;padding:20px}}
+body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0a1020;color:#f2f6fc;line-height:1.6;padding:20px}}
+body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(1100px 520px at 50% -8%,rgba(226,192,126,.10),transparent 62%),radial-gradient(800px 400px at 85% 110%,rgba(122,184,255,.06),transparent 60%)}}
+@media(max-width:640px){{body::before{{background:radial-gradient(550px 260px at 50% -8%,rgba(226,192,126,.10),transparent 62%),radial-gradient(400px 200px at 85% 110%,rgba(122,184,255,.06),transparent 60%)}}}}
 .wrap{{max-width:980px;margin:0 auto}}
-.header{{background:linear-gradient(135deg,#1e293b,#0f172a);border:1px solid #334155;border-radius:16px;padding:24px 28px;margin-bottom:16px}}
-.header h1{{font-size:24px;font-weight:900;color:#a78bfa}}
-.sub{{font-size:13px;color:#94a3b8;margin-top:6px}}
-.nav{{margin-top:10px;font-size:12.5px}}.nav a{{color:#60a5fa;text-decoration:none;font-weight:700;margin-right:14px}}
+.header{{background:linear-gradient(135deg,#1c2a4a,#101b33);border:1px solid #2f4166;border-radius:16px;padding:24px 28px;margin-bottom:16px}}
+.header h1{{font-size:24px;font-weight:900;color:#33d6c5}}
+.sub{{font-size:14px;color:#94a6c4;margin-top:6px}}
+.nav{{margin-top:10px;font-size:14px}}.nav a{{color:#7ab8ff;text-decoration:none;font-weight:700;margin-right:14px}}
 .gridp{{display:grid;grid-template-columns:1fr 1fr;gap:14px}}
 @media(max-width:760px){{.gridp{{grid-template-columns:1fr}}}}
-.panel{{background:#111a2e;border:1px solid #334155;border-radius:14px;padding:16px 18px}}
+.panel{{background:#1c2a4a;border:1px solid #2f4166;border-radius:14px;padding:16px 18px}}
 .ph{{font-size:15px;font-weight:800;margin-bottom:10px}}
-.row{{display:flex;justify-content:space-between;gap:12px;font-size:12.5px;padding:5px 0;border-bottom:1px dashed rgba(51,65,85,.5)}}
+.row{{display:flex;justify-content:space-between;gap:12px;font-size:14px;padding:5px 0;border-bottom:1px dashed rgba(51,65,85,.5)}}
 .row:last-of-type{{border-bottom:none}}
-.k{{color:#94a3b8;white-space:nowrap}}.v{{color:#e2e8f0;text-align:right}}
-.note{{font-size:11px;color:#64748b;margin-top:8px;line-height:1.7}}
-.honest{{background:rgba(251,146,60,.07);border:1px solid rgba(251,146,60,.25);border-radius:13px;padding:13px 17px;margin-top:14px;font-size:12px;color:#fed7aa;line-height:1.8}}
-.foot{{text-align:center;font-size:11px;color:#475569;margin-top:18px}}
+.k{{color:#94a6c4;white-space:nowrap}}.v{{color:#f2f6fc;text-align:right}}
+.note{{font-size:12px;color:#94a6c4;margin-top:8px;line-height:1.7}}
+.honest{{background:rgba(251,146,60,.07);border:1px solid rgba(251,146,60,.25);border-radius:13px;padding:13px 17px;margin-top:14px;font-size:12px;color:#fbbf24;line-height:1.8}}
+.foot{{text-align:center;font-size:12px;color:#94a6c4;margin-top:18px}}
+.panel,.header{{border-top-color:rgba(226,192,126,.35)}}
+.v{{font-variant-numeric:tabular-nums}}
 </style></head><body><div class="wrap">
-<div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#c8a562;margin-bottom:8px">LUMORA · 同光科技</div><h1>📊 运营看板 · {TODAY}</h1>
+<div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#e2c07e;margin-bottom:8px">LUMORA · 同光科技</div><h1>📊 运营看板 · {TODAY}</h1>
 <div class="sub">全站数据资产 · 构建健康度 · AI 引擎消耗 —— 每次构建自动更新</div>
-<div class="nav"><a href="index.html">🏠 首页</a><a href="board.html">📡 股票看板</a><a href="news.html">🌍 全球头条</a><span style="color:#7c8aa3">🕐 本页生成 {BUILD_TS} 北京</span></div></div>
+<div class="nav"><a href="home.html">🏠 首页</a><a href="board.html">📡 股票看板</a><a href="news.html">🌍 全球头条</a><span style="color:#94a6c4">🕐 本页生成 {BUILD_TS} 北京</span></div></div>
 <div class="gridp">
-{sec("📡 美股AI看板 · 数据资产", "#34d399", stat_meigu())}
-{sec("📰 同光AI早报 · 语料资产", "#60a5fa", stat_tongguang())}
+{sec("📡 美股AI看板 · 数据资产", "#4ade80", stat_meigu())}
+{sec("📰 同光AI早报 · 语料资产", "#7ab8ff", stat_tongguang())}
 {sec("⚙️ 构建健康度(GitHub Actions)", "#fbbf24", stat_actions(), "免费档 cron 有延迟/跳过属平台特性;成功率含被后续运行顶替的取消")}
-{sec("🤖 DeepSeek 引擎消耗", "#a78bfa", stat_deepseek(), "覆盖:🔁更新研判(19票)+ 头条研判;盘势问答为浏览器直连,token 只在各自设备本地可见")}
+{sec("🤖 DeepSeek 引擎消耗", "#33d6c5", stat_deepseek(), "覆盖:🔁更新研判(19票)+ 头条研判;盘势问答为浏览器直连,token 只在各自设备本地可见")}
 </div>
 <div class="honest"><b>诚实披露——这些指标当前做不了:</b><br>
 · <b>访问量/访客数</b>:静态站需接第三方统计(GoatCounter 免费),用户选择暂缓;要开时注册后一行代码接入。<br>
