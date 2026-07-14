@@ -95,7 +95,15 @@ def stat_tongguang():
                 arts = j.get("articles", [])
                 reps = j.get("reports", [])
                 latest = max((a.get("date", "") for a in arts), default="—")
-                return {"文章库": f"{len(arts)} 篇(181 信源)", "早报期数": f"{len(reps)} 期",
+                # 信源池数动态读 sources.json _meta.totalSources(去掉写死的"181";读不到则不谎报数字)
+                src_n = None
+                try:
+                    sp = os.path.join(base, "..", "sources.json")
+                    src_n = (json.load(open(sp, encoding="utf-8")).get("_meta") or {}).get("totalSources")
+                except Exception:
+                    pass
+                lib = f"{len(arts)} 篇" + (f"(信源池 {src_n} 源)" if src_n else "")
+                return {"文章库": lib, "早报期数": f"{len(reps)} 期",
                         "最新早报": latest, "语料体积": f"{os.path.getsize(p)//1024} KB(问答语料源)"}
             except Exception:
                 pass
