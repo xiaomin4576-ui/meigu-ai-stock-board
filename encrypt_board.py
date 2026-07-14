@@ -17,6 +17,8 @@ def section_of(path: str) -> str:
         return "全球市场头条"
     if b == "ops.html":
         return "运营看板"
+    if b == "africa.html":
+        return "非洲科技脉搏"
     if b == "archive.html":
         return "看板归档"
     if b.startswith("ai_stock_board_") or b == "board.html":
@@ -41,6 +43,8 @@ GATE = r"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <title>同光科技 · 需要访问密码</title>
 <meta name="robots" content="noindex,nofollow">
+<script>/* 防闪:已通行(sessionStorage有pass)则首帧就隐藏密码框、显"解锁中",绝不闪现密码环节 */
+try{if(sessionStorage.getItem('lumora-pass'))document.documentElement.className='unlocking';}catch(e){}</script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,"PingFang SC",sans-serif;background:#0a1020;color:#f2f6fc;
@@ -58,7 +62,14 @@ background:#2563eb;color:#fff;cursor:pointer}
 button:active{background:#1d4ed8}
 .err{color:#ff8080;font-size:14px;margin-top:10px;min-height:16px}
 .hint{color:#94a6c4;font-size:12px;margin-top:16px}
+/* 防闪:unlocking 态隐藏密码框、显解锁 spinner(已通行时首帧即生效) */
+.unlocking .box{display:none}
+#loader{display:none;position:fixed;inset:0;flex-direction:column;align-items:center;justify-content:center;gap:14px;color:#94a6c4;font-size:14px;letter-spacing:1px}
+.unlocking #loader{display:flex}
+#loader .sp{width:28px;height:28px;border:2px solid rgba(226,192,126,.22);border-top-color:#e2c07e;border-radius:50%;animation:ldsp .7s linear infinite}
+@keyframes ldsp{to{transform:rotate(360deg)}}
 </style></head><body>
+<div id="loader"><div class="sp"></div>解锁中…</div>
 <div class="box">
  <div class="ic">🔒</div>
  <h1>__SECTION__</h1>
@@ -87,7 +98,7 @@ async function tryDecrypt(pw){
   try{
     const html=await tryDecrypt(saved);
     document.open();document.write(html);document.close();
-  }catch(ex){ sessionStorage.removeItem('lumora-pass'); }
+  }catch(ex){ sessionStorage.removeItem('lumora-pass'); document.documentElement.classList.remove('unlocking'); }
 })();
 document.getElementById('f').addEventListener('submit',async e=>{
   e.preventDefault();

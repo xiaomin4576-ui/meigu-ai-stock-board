@@ -111,7 +111,7 @@ background:linear-gradient(135deg,#e3c37f,#c8a562);display:flex;align-items:cent
   <div class="brand">LUMORA</div>
   <div class="sub">同 光 科 技</div>
   <div class="ray"></div>
-  <div class="slogan">企业 AI 情报 · 全球市场头条 · AI 产业链股票研判</div>
+  <div class="slogan">全球 AI 情报 · 全球市场头条 · 非洲科技脉搏 · AI 产业链股票研判</div>
   <form class="gate" id="f" autocomplete="off">
     <input id="pw" type="password" inputmode="numeric" placeholder="输入访问密码" autofocus autocomplete="off"/>
     <button id="go" type="submit" aria-label="进入">

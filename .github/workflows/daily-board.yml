@@ -103,6 +103,9 @@ jobs:
       - name: 渲染全球头条页(允许失败)
         run: python build_news.py || echo "::warning::build_news 失败(头条页沿用旧版或缺席,不阻断)"
 
+      - name: 非洲科技脉搏采集+渲染(允许失败)
+        run: python fetch_africa.py && python build_africa.py || echo "::warning::非洲科技板块生成失败(沿用旧版或缺席,不阻断)"
+
       - name: 生成历史归档
         run: python build_archive.py
 
@@ -185,6 +188,7 @@ jobs:
           TG_DIR="/tmp/tg/docs" python3 build_ops.py || echo "⚠️ build_ops 失败(不阻断)"
           if [ -f "$STATE/ops.html" ]; then cp "$STATE/ops.html" "$DOCS/ops.html"; echo "📊 运营看板已就位"; fi
           if [ -f "$STATE/news.html" ]; then cp "$STATE/news.html" "$DOCS/news.html"; echo "🌍 全球头条页已就位"; fi
+          if [ -f "$STATE/africa.html" ]; then cp "$STATE/africa.html" "$DOCS/africa.html"; echo "📡 非洲科技脉搏已就位"; fi
 
           # 6) 校验产物
           echo "=== docs/ 内容 ==="; ls -la "$DOCS"

@@ -31,9 +31,11 @@ opacity:.5;filter:blur(6px)}
 .card.stock .tag{background:rgba(52,211,153,.14);color:#4ade80}
 .card.news::after{background:radial-gradient(circle,rgba(251,191,36,.18),transparent 70%)}
 .card.ops::after{background:radial-gradient(circle,rgba(167,139,250,.18),transparent 70%)}
+.card.africa::after{background:radial-gradient(circle,rgba(226,192,126,.22),transparent 70%)}
 .card.news .tag{background:rgba(251,191,36,.12);color:#fbbf24}
 .card.ops .tag{background:rgba(167,139,250,.14);color:#33d6c5}
-.card.news .go{color:#fbbf24}.card.ops .go{color:#33d6c5}
+.card.africa .tag{background:rgba(226,192,126,.14);color:#e2c07e}
+.card.news .go{color:#fbbf24}.card.ops .go{color:#33d6c5}.card.africa .go{color:#e2c07e}
 .card h2{font-size:23px;font-weight:800;margin-top:14px;letter-spacing:.5px}
 .card .desc{font-size:14px;color:#94a6c4;margin-top:10px;line-height:1.7}
 .card .go{display:flex;align-items:center;gap:6px;margin-top:22px;font-size:14px;font-weight:700}
@@ -50,14 +52,14 @@ opacity:.5;filter:blur(6px)}
   <div class="head">
     <div class="brand">LUMORA</div>
     <h1>同光科技 · Lumora Technologies</h1>
-    <p>企业 AI 情报 &nbsp;·&nbsp; 全球市场头条 &nbsp;·&nbsp; AI 产业链股票研判 &nbsp;·&nbsp; 一站直达</p>
+    <p>全球 AI 情报 &nbsp;·&nbsp; 全球市场头条 &nbsp;·&nbsp; 非洲科技脉搏 &nbsp;·&nbsp; AI 产业链股票研判</p>
     <div class="mstrip">__MACRO_STRIP__</div>
   </div>
   <div class="cards">
     <a class="card daily" href="tongguang/">
       <div class="ic">📰</div>
-      <span class="tag">每日更新 · 181 信源</span>
-      <h2>企业 AI 早报</h2>
+      <span class="tag">每日更新 · 181 信源池</span>
+      <h2>全球 AI 早报</h2>
       <div class="desc">每天精选全球 AI 行业情报,阅读库式看板 —— 按视图/维度/公司筛选,含质量分与「这意味着」决策洞察。</div>
       <div class="go">进入早报 <span class="arrow">→</span></div>
     </a>
@@ -75,6 +77,14 @@ opacity:.5;filter:blur(6px)}
       <h2>全球市场头条</h2>
       <div class="desc">每日三档 15-21 条影响市场的全球头条,每条带传导链注解(美股→A股 / 油气→莫桑比克能源经营),信源可溯。</div>
       <div class="go">看今日头条 <span class="arrow">→</span></div>
+      <div class="lock">🔒 需访问密码</div>
+    </a>
+    <a class="card africa" href="africa.html">
+      <div class="ic">📡</div>
+      <span class="tag">莫桑比克视角 · 泛非科技</span>
+      <h2>非洲科技脉搏</h2>
+      <div class="desc">同光立足莫桑比克,跟踪整个非洲大陆科技与 AI 的一举一动 —— TechCabal / Techpoint / Condia 等本地媒体实时抓取,AI 前沿单列,链接直达原文可溯。</div>
+      <div class="go">看非洲脉搏 <span class="arrow">→</span></div>
       <div class="lock">🔒 需访问密码</div>
     </a>
     <a class="card ops" href="ops.html">
