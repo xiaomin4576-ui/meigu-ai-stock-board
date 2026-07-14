@@ -84,8 +84,12 @@ def factor_score(d, bench_m3=None):
     f = {}   # 因子名 -> 归一化 0-1(只放可算的)
     if px and ma200:                                          # 趋势
         f["趋势"] = 1.0 if (px > ma200 and ma50 and px > ma50) else (0.5 if px > ma200 else 0.0)
-    if tm and px:                                            # 共识上行(美股/港股一致目标隐含涨幅)
+    if tm and px:                                            # 共识上行(有券商一致目标→隐含涨幅)
         f["共识上行"] = max(0.0, min(1.0, (tm / px - 1) * 100 / 30))
+    elif an.get("consensus_src") == "Finnhub" and an.get("rec_buy_ratio") is not None:
+        # 美股无券商目标价(Finnhub免费档)时,用【连续】买入占比映射(0.5→0、0.95→1),
+        # 恢复横向区分度——此前塌成 cn_rating→0.8 常数,9只美股std=0.00(体检确诊的最高权因子失效)
+        f["共识上行"] = max(0.0, min(1.0, (an.get("rec_buy_ratio") - 0.5) / 0.45))
     elif cn_rating:                                          # A股用东财评级作共识代理
         f["共识上行"] = CN_UP.get(cn_rating, 0.4)
     if fromhi is not None:                                   # 回调健康
@@ -99,6 +103,10 @@ def factor_score(d, bench_m3=None):
     if fwd_pe and eps_growth is not None:                    # 估值PEG(PE÷EPS增速,低=好;不增长还高PE=差)
         if eps_growth <= 0:
             f["估值PEG"] = 0.1
+        elif eps_growth > 150:
+            # 超高增速多为周期低基数一次性跳升(如存储 MU TTM +700%),PEG 机械偏低会误判"极度便宜"
+            # →给中性,不刷满分(体检确诊的后视口径污染;A股用真forward EPS不受此限,仅美股TTM口径需封)
+            f["估值PEG"] = 0.5
         else:
             peg = fwd_pe / eps_growth
             f["估值PEG"] = 1.0 if peg <= 1 else (0.7 if peg <= 2 else (0.4 if peg <= 4 else (0.15 if peg <= 8 else 0.0)))

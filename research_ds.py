@@ -43,7 +43,39 @@ def clean_range(s):
 def clean_ret(s):
     m = re.search(r"[+\-]?\d+%", str(s)); return m.group(0) if m else str(s)
 
-def judge_one(tk, s, bench, macro_line=""):
+def _nums(s):
+    return re.findall(r"\d+(?:\.\d+)?", str(s or ""))
+def _mid(s):
+    n = _nums(s); return (float(n[0]) + float(n[-1])) / 2 if n else None
+def _top(s):
+    n = _nums(s); return float(n[-1]) if n else None
+def _bot(s):
+    n = _nums(s); return float(n[0]) if n else None
+
+def validate_call(tk, c, s):
+    """确定性护栏(体检确诊:FRAME 六规则靠单次LLM自觉,违规率26%)——落账前核不变量,
+    违规则【安全降级】为观望+留空+注明(不冒险自动改数字),堵'买在现价上方/目标≤现价/
+    风险补偿不足'这类低级错直穿台账。返回(修正后call, 违规原因或None)。"""
+    px = s.get("price")
+    if not px or c.get("sig") not in ("买入", "观望"):
+        return c, None
+    if c.get("buy") in (None, "—", "无", "-", "–"):
+        return c, None
+    bt, tl, tm = _top(c.get("buy")), _bot(c.get("tgt")), _mid(c.get("tgt"))
+    viol = None
+    if bt and bt / px - 1 > 0.005:
+        viol = "买区上沿高于现价(追涨)"
+    elif tl and tl <= px:
+        viol = "目标下沿≤现价(无上行空间)"
+    elif tm and tm < px * 1.10:
+        viol = "目标中值不足现价+10%(风险补偿不够)"
+    if viol:
+        c = dict(c)
+        c.update({"sig": "观望", "buy": "—", "tgt": "—", "ret": "—",
+                  "th": f"[护栏降级·{viol}] " + str(c.get("th", ""))[:70]})
+    return c, viol
+
+def judge_one(tk, s, bench, macro_line="", hint="", score=None):
     if tk == "QQQ":
         return tk, {"sig": "观望", "conf": 5, "buy": "—", "tgt": "—", "ret": "—",
                     "th": "纳指100 ETF·大盘基准,反映美股科技整体风险偏好,是成分股研判的顺势背景。",
@@ -54,13 +86,13 @@ def judge_one(tk, s, bench, macro_line=""):
             if a.get("consensus_src") == "Finnhub" else (f"东财评级{a.get('cn_rating')}" if a.get("cn_rating") else "无共识"))
     data = (f"{s.get('name')} {tk} | {s.get('role')} | 市场{s.get('market','US')} | 币种{cur}\n"
             f"现价{s.get('price')} 近1/3/6月{s.get('m1')}/{s.get('m3')}/{s.get('m6')}% 距52周高{s.get('fromhi')}% 52周{s.get('lo')}–{s.get('hi')}\n"
-            f"MA20 {s.get('ma20')}/MA50 {s.get('ma50')}/MA200 {s.get('ma200')} 年化波动{s.get('vol')}% 9因子评分{s.get('score','?')}\n"
+            f"MA20 {s.get('ma20')}/MA50 {s.get('ma50')}/MA200 {s.get('ma200')} 年化波动{s.get('vol')}% 9因子评分{score if score is not None else s.get('score','?')}(第二意见,与你研判冲突时须解释)\n"
             f"共识:{cons} target_mean={a.get('target_mean')}\n"
             f"前瞻PE {a.get('fwd_pe')} EPS增速{a.get('eps_growth')}% EPS26/27 {a.get('eps_2026')}/{a.get('eps_2027')} ROE {q.get('roe')} 经营现金流/股{q.get('ocf_ps')}\n"
             f"财报日{s.get('earnings_date')} 解禁{json.dumps(s.get('unlock'),ensure_ascii=False)} QQQ近3月{bench}% "
             f"新闻{json.dumps([n.get('title','')[:34] for n in (s.get('news') or [])[:2]],ensure_ascii=False)} "
             f"{'⚠️数据复用历史(非当日),保守' if s.get('stale') else '当日真值'}")
-    v = ds_call(f"{FRAME}{macro_line}\n\n【真实数据({TODAY})】\n{data}")
+    v = ds_call(f"{FRAME}{macro_line}{hint}\n\n【真实数据({TODAY})】\n{data}")
     if not v or not v.get("sig"):
         return tk, {"sig": "观望", "conf": 3, "buy": "—", "tgt": "—", "ret": "—",
                     "th": "本期研判引擎未返回有效结果,暂按观望;数据见卡片行情/评分。", "rk": "研判缺失,请刷新重试或人工复核。"}
@@ -87,12 +119,60 @@ def main():
                           + json.dumps(mj.get("blocks", {}), ensure_ascii=False)[:900])
         except Exception:
             pass
-    print(f"DeepSeek 研判 {len(stocks)} 只(asof {asof}{',含宏观环境' if macro_line else ''})…")
+    # 校准闭环接通(体检确诊命脉:此前 verification.json 算了却没人读、"越用越准"空转):
+    # ①9因子评分作"第二意见"喂进研判 ②读上期复盘→全局校准纪律+逐票"买区挂不上/方向做反"提示注入。
+    calib_line, hint_map, score_map = "", {}, {}
+    try:
+        from build_board import factor_score
+        for tk, s in stocks.items():
+            if tk == "QQQ":
+                continue
+            try:
+                score_map[tk] = factor_score(s, bench)[0]
+            except Exception:
+                pass
+    except Exception:
+        pass
+    try:
+        vj = json.load(open(os.path.join(STATE, "verification.json"), encoding="utf-8"))
+        if vj.get("calibration"):
+            calib_line = "\n【全局校准纪律(上期复盘,据此微调别重犯)】" + vj["calibration"]
+        feas = vj.get("feasibility", {})
+        latest_rev = {}
+        for x in vj.get("review", []):
+            latest_rev[x["ticker"]] = x          # review 累积,末次覆盖=最近一期
+        for tk in stocks:
+            parts = []
+            fz = feas.get(tk)
+            if fz and fz.get("buy_reachable") is False:
+                parts.append(f"上期买区挂不上({str(fz.get('note',''))[:40]})→本期按现价重锚更近结构支撑、收窄折让")
+            rv = latest_rev.get(tk)
+            if rv:
+                if rv.get("signal") == "买入" and rv.get("entry_hit") is False:
+                    parts.append("上期'买入'但买区未触及(没入场)→买区偏深,收窄")
+                if rv.get("direction_ok") is False:
+                    parts.append("上期方向做反→复核趋势别硬扛")
+            if parts:
+                hint_map[tk] = "\n【本票上期复盘·据此纠偏】" + " ; ".join(parts)
+    except Exception:
+        pass
+    print(f"DeepSeek 研判 {len(stocks)} 只(asof {asof}{',含宏观' if macro_line else ''}{',接校准闭环' if calib_line else ''})…")
     items = list(stocks.items())
     calls = {}
     with ThreadPoolExecutor(max_workers=6) as ex:
-        for tk, c in ex.map(lambda kv: judge_one(kv[0], kv[1], bench, macro_line), items):
+        for tk, c in ex.map(lambda kv: judge_one(kv[0], kv[1], bench, macro_line + calib_line,
+                                                  hint_map.get(kv[0], ""), score_map.get(kv[0])), items):
             calls[tk] = c
+    # 确定性护栏:落账前核 FRAME 不变量,违规安全降级(体检:此前违规率26%直穿台账)
+    n_viol = 0
+    for tk in list(calls):
+        if tk == "QQQ":
+            continue
+        calls[tk], viol = validate_call(tk, calls[tk], stocks.get(tk, {}))
+        if viol:
+            n_viol += 1
+    if n_viol:
+        print(f"🛡 护栏拦截并降级 {n_viol} 条违规研判(买在现价上方/目标≤现价类)")
     # 排序:买入>观望>回避,组内 conf 降序再评分降序;QQQ 插买入组后
     SR = {"买入": 0, "观望": 1, "回避": 2}
     sc = lambda tk: stocks.get(tk, {}).get("score", 0) or 0

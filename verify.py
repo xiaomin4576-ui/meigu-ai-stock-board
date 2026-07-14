@@ -78,26 +78,51 @@ def main():
 
     sc = {"n_open": len(review),
           "basis": "胜率/进度/到期收益仅统计【买入信号且买入价被真实触及(入场)】的仓位;观望、回避、买入价未触及(未入场)一律不计入,绝不虚报。"}
+    HORIZON = cfg.get("horizon_days", 270)
     if review:
         eh = [x["entry_hit"] for x in review if x["entry_hit"] is not None]
         dr = [x["direction_ok"] for x in review if x["direction_ok"] is not None]
         pr = [x["progress_to_target_pct"] for x in review if x["progress_to_target_pct"] is not None]
         mat = [x for x in review if x["matured"] and x["realized_return_pct"] is not None]
+        # pace_ratio:把进度按"已过时间占horizon比"归一化——≈1踩点、<0.6落后、>1.4超前。
+        # 取代把在途裸进度当到期成绩(方向胜率高时,裸进度低只是时间没到,拿它压目标=误伤未兑现上行)。
+        paces = []
+        for x in review:
+            if x["progress_to_target_pct"] is None:
+                continue
+            try:
+                elapsed = (datetime.date.fromisoformat(TODAY) - datetime.date.fromisoformat(x["date"])).days
+            except Exception:
+                continue
+            frac = max(elapsed, 1) / HORIZON
+            paces.append(x["progress_to_target_pct"] / 100 / frac)
         sc.update({"entry_hit_rate": round(100 * sum(eh) / len(eh)) if eh else None,
                    "direction_win_rate": round(100 * sum(dr) / len(dr)) if dr else None,
                    "avg_progress_to_target_pct": round(sum(pr) / len(pr), 1) if pr else None,
+                   "avg_pace_ratio": round(sum(paces) / len(paces), 2) if paces else None,
                    "matured_n": len(mat),
                    "matured_avg_realized_pct": round(sum(x["realized_return_pct"] for x in mat) / len(mat), 1) if mat else None})
 
     n_hist = len({r.get("date") for r in recs if r.get("date")} - {latest})
     need = cfg["min_periods_for_calibration"]
-    if n_hist < need:
-        calib = f"历史 {n_hist} 期(<{need}),校准积累中:每天累积一期,满 {need} 期后给出量化校准系数。"
+    mat_n = sc.get("matured_n", 0)
+    ap = sc.get("avg_progress_to_target_pct")
+    pace = sc.get("avg_pace_ratio")
+    ehr = sc.get("entry_hit_rate")
+    if mat_n >= need:
+        # 只有【到期样本】够了才做真·目标价校准(用已实现收益,不用在途进度)
+        mar = sc.get("matured_avg_realized_pct")
+        calib = (f"到期 {mat_n} 期 · 实际收益均值 {mar}% → 目标价"
+                 + ("偏激进,下期收窄" if (mar is not None and mar < 25)
+                    else "兑现良好,维持" if (mar is not None and mar <= 60) else "偏保守,可上调") + "。")
     else:
-        ap = sc.get("avg_progress_to_target_pct")
-        calib = (f"过往平均仅完成目标 {ap}% → 目标价偏激进,建议本期收窄。" if (ap is not None and ap < 20)
-                 else f"过往平均完成目标 {ap}% → 目标价偏保守,可适度上调。" if (ap is not None and ap > 80)
-                 else f"目标价校准良好(平均完成度 {ap}%)。")
+        # matured 不足:目标价终值【暂不可校准】,绝不用在途 progress 反推激进度(会机械压低未兑现的目标)。
+        # 改为反馈【当下就能校准的买点】:入场触及率(买区挂不挂得上),这是可立即改进的杠杆。
+        buy_hint = ("偏低 → 下期对上期未触及的票按现价重锚最近结构支撑、收窄买区折让" if (ehr is not None and ehr < 65)
+                    else "良好")
+        pace_hint = f" · 在途节奏 pace={pace}(≈1踩点/<0.6落后/>1.4超前)" if pace is not None else ""
+        calib = (f"到期样本 {mat_n} 期(<{need}),目标价终值【暂不可校准】——{n_hist} 期在途预测均未走完 {HORIZON} 天窗口,"
+                 f"当前平均进度 {ap}% 属半程未实现{pace_hint},【不作收窄依据】。当下可校准的是买点:入场触及率 {ehr}% {buy_hint}。")
 
     json.dump({"asof": TODAY, "latest_call_date": latest, "feasibility": feasibility,
                "review": review, "scorecard": sc, "calibration": calib},
