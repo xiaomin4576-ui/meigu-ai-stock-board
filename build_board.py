@@ -274,7 +274,7 @@ def card(i, tk, d, a, bench_m3=None, hist=None):
   <div class="rr">🛡 风控 止损 -10%(≈{(cs + str(stop)) if stop is not None else '—'}) · 风险收益比 <b>{rr if rr is not None else '—'}:1</b>{rrflag}　·　📊 {'数据不足·目标价为题材推演非可复算估值' if low_data else f'{score_lbl} {sc}/100({cov}/9因子{"·仅技术面,估值/共识未评" if tech_only else ""}) = {sp_str}{miss_note}'}</div>
   <div class="th">💡 {a.get('th','')}</div>
   {news_html}
-  <div class="rk2">⚠️ 风险:{a.get('rk','')}　·　52周 {cs}{d.get('lo','')}–{cs}{d.get('hi','')}　·　MA50 {cs}{d.get('ma50','')} / MA200 {cs}{d.get('ma200','')}</div>
+  <div class="rk2">⚠️ 风险:{a.get('rk','')}　·　52周 {cs}{d.get('lo','')}–{cs}{d.get('hi','')}　·　MA20 {cs}{d.get('ma20','—')} / MA50 {cs}{d.get('ma50','')} / MA200 {cs}{d.get('ma200','')}</div>
   {xtra_block(tk, d, a, sp, miss, cs, hist)}
 </div>"""
 

@@ -426,7 +426,7 @@ def fetch_one_cn(s):
     rec.update({
         "price": round(last, 2),
         "m1": pct(last, back(21)), "m3": pct(last, back(63)), "m6": pct(last, back(126)),
-        "fromhi": pct(last, hi), "hi": hi, "lo": lo, "ma50": ma(50), "ma200": ma(200), "vol": ann_vol(c),
+        "fromhi": pct(last, hi), "hi": hi, "lo": lo, "ma20": ma(20), "ma50": ma(50), "ma200": ma(200), "vol": ann_vol(c),
     })
     cn = cn_consensus(code)
     eps26, eps27 = cn.get("eps_2026"), cn.get("eps_2027")
@@ -475,7 +475,7 @@ def hk_tencent_fetch(s):
     rec.update({
         "price": round(last, 2),
         "m1": pct(last, back(21)), "m3": pct(last, back(63)), "m6": pct(last, back(126)),
-        "fromhi": pct(last, hi), "hi": hi, "lo": lo, "ma50": ma(50), "ma200": ma(200), "vol": vol,
+        "fromhi": pct(last, hi), "hi": hi, "lo": lo, "ma20": ma(20), "ma50": ma(50), "ma200": ma(200), "vol": vol,
         "analyst": {"target_mean": None, "cn_rating": None, "n_analysts": None,
                     "fwd_pe": None, "rating": None, "rating_mean": None},
         "quality": None, "earnings_date": None, "news": [],
@@ -518,7 +518,7 @@ def td_fetch_one(s, sess):
     hi, lo = round(max(highs[-250:]), 2), round(min(lows[-250:]), 2)
     rec.update({"price": round(last, 2),
                 "m1": pct(last, back(21)), "m3": pct(last, back(63)), "m6": pct(last, back(126)),
-                "fromhi": pct(last, hi), "hi": hi, "lo": lo, "ma50": ma(50), "ma200": ma(200), "vol": ann_vol(closes)})
+                "fromhi": pct(last, hi), "hi": hi, "lo": lo, "ma20": ma(20), "ma50": ma(50), "ma200": ma(200), "vol": ann_vol(closes)})
     # 券商一致:yfinance 尽力补(云端常被限,拿不到留 None,不致命)
     an = {"target_mean": None, "target_low": None, "target_high": None, "rating": None,
           "rating_mean": None, "n_analysts": None, "fwd_pe": None, "ttm_pe": None}
@@ -580,7 +580,7 @@ def fetch_one(s, sess):
         r = {
             "price": round(last, 2),
             "m1": pct(last, back(21)), "m3": pct(last, back(63)), "m6": pct(last, back(126)),
-            "fromhi": pct(last, hi), "hi": hi, "lo": lo, "ma50": ma(50), "ma200": ma(200), "vol": ann_vol(c),
+            "fromhi": pct(last, hi), "hi": hi, "lo": lo, "ma20": ma(20), "ma50": ma(50), "ma200": ma(200), "vol": ann_vol(c),
         }
         info = {}
         try:
