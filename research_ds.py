@@ -175,7 +175,9 @@ def main():
         print(f"🛡 护栏拦截并降级 {n_viol} 条违规研判(买在现价上方/目标≤现价类)")
     # 排序:买入>观望>回避,组内 conf 降序再评分降序;QQQ 插买入组后
     SR = {"买入": 0, "观望": 1, "回避": 2}
-    sc = lambda tk: stocks.get(tk, {}).get("score", 0) or 0
+    # 审计修复:原 tiebreak 读 stocks['score'] —— data json 无此字段,恒取默认 0,"评分降序"是死代码(评分从不影响排序)。
+    # 改用上文已算好的 score_map(9 因子总分),让评分真正参与同信号同置信度时的排序。
+    sc = lambda tk: score_map.get(tk, 0) or 0
     order = sorted([t for t in calls if t != "QQQ"], key=lambda t: (SR.get(calls[t]["sig"], 1), -calls[t]["conf"], -sc(t)))
     ins = sum(1 for t in order if calls[t]["sig"] == "买入")
     order.insert(ins, "QQQ")

@@ -104,17 +104,18 @@ def review_section(v):
         hist = _load_scorecard_hist()
         hv = lambda k: [r[k] for r in hist if r.get(k) is not None]
         hd = lambda k: [r.get("date", "")[5:] for r in hist if r.get(k) is not None]
-        g1 = _gauge_card("方向胜率", f"已入场仓位 · n={n_open}", sc.get("direction_win_rate"), "pct",
+        n_entered = sc.get("n_entered", n_open)
+        g1 = _gauge_card("方向胜率", f"在途方向·入场 n={n_entered}", sc.get("direction_win_rate"), "pct",
                          hv("direction_win_rate"), hd("direction_win_rate"), 70)
         g2 = _gauge_card("入场触及率", "买入价被触及占比", sc.get("entry_hit_rate"), "pct",
                          hv("entry_hit_rate"), hd("entry_hit_rate"), None)
         g3 = _gauge_card("在途节奏", "1.0×=赶上时间", sc.get("avg_pace_ratio"), "pace",
                          hv("avg_pace_ratio"), hd("avg_pace_ratio"), 1.0)
-        gauges = ('<div class="rv-h">🎯 预测能力仪表盘 <span class="rv-sub">自动进化=校准闭环反哺(已接通),趋势看曲线,不承诺胜率必升 · 数据源 scorecard_history 逐日累积</span></div>'
+        gauges = ('<div class="rv-h">🎯 预测能力仪表盘 <span class="rv-sub">方向胜率=在途现价≥买入中值占比(未兑现·非到期成绩,别与下方回测命中率42%混);节奏已剔嫩仓、胜率已排除QQQ基准 · 校准闭环反哺,趋势看曲线不承诺胜率必升 · 源 scorecard_history 逐日累积</span></div>'
                   f'<div class="gauges">{g1}{g2}{g3}</div>')
     if n_open > 0:
         mat = f'{sc.get("matured_n",0)}期/{sc.get("matured_avg_realized_pct")}%' if sc.get("matured_n") else "未到期"
-        scorecard = "".join([stat("历史在评期数", n_open), stat("买入触及率", sc.get("entry_hit_rate"), "%"),
+        scorecard = "".join([stat("历史在评期数", sc.get("n_periods", n_open)), stat("买入触及率", sc.get("entry_hit_rate"), "%"),
                              stat("方向胜率", sc.get("direction_win_rate"), "%"),
                              stat("平均目标完成度", sc.get("avg_progress_to_target_pct"), "%"),
                              f'<div class="stat"><div class="sl">已到期·实际</div><div class="sv" style="font-size:14px">{mat}</div></div>'])

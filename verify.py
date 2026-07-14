@@ -7,6 +7,14 @@
 import json, os, datetime
 import yfinance as yf
 
+def _median(a):
+    """中位数——pace 用它而非均值,免被少数快仓拉偏,更代表'典型在途节奏'(审计建议)。"""
+    if not a:
+        return None
+    b = sorted(a); n = len(b); m = n // 2
+    return b[m] if n % 2 else (b[m - 1] + b[m]) / 2
+
+
 DIR = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(DIR, "state")
 LEDGER = os.path.join(STATE, "predictions.jsonl")
@@ -16,6 +24,10 @@ TODAY = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).da
 
 def main():
     cfg = json.load(open(os.path.join(DIR, "config.json"), encoding="utf-8"))
+    # 审计修复:基准 ETF(QQQ 等)只作相对强弱对比锚,绝不当选股仓计入复盘——
+    # 否则其"买入/底仓"信号会漏进入场集,污染方向胜率/入场率分母(实测虚高胜率)。
+    BENCH = set(cfg.get("benchmarks") or ["QQQ"])
+    PACE_MIN_DAYS = int(cfg.get("pace_min_days", 14))  # 嫩仓 pace 会炸表(1天仓 elapsed→几十×),低于此天数不计入在途节奏
     recs = []
     if os.path.exists(LEDGER):
         for ln in open(LEDGER, encoding="utf-8"):
@@ -37,6 +49,8 @@ def main():
     for r in recs:
         tk, rdate = r.get("ticker"), r.get("date")
         if not tk or not rdate:   # 跳过缺关键字段的台账行,避免 KeyError 中断整次复盘
+            continue
+        if tk in BENCH:           # 基准锚(QQQ)不进可达性/记分卡,只在别处作对比基准
             continue
         try:
             df = ohlc(tk); cur = float(df["Close"].dropna().iloc[-1])
@@ -77,7 +91,9 @@ def main():
                            "realized_return_pct": realized})
 
     sc = {"n_open": len(review),
-          "basis": "胜率/进度/到期收益仅统计【买入信号且买入价被真实触及(入场)】的仓位;观望、回避、买入价未触及(未入场)一律不计入,绝不虚报。"}
+          "n_entered": sum(1 for x in review if x.get("entered")),   # 真实入场样本数=方向胜率/收益的分母(审计:此前用 n_open 贴错'已入场仓位'标签)
+          "n_periods": len({x["date"] for x in review}),             # 历史在评的不同预测期数(distinct dates)
+          "basis": "胜率/进度/到期收益仅统计【买入信号且买入价被真实触及(入场)】的仓位;观望、回避、买入价未触及(未入场)一律不计入,绝不虚报。基准 ETF(QQQ)不计入。"}
     HORIZON = cfg.get("horizon_days", 270)
     if review:
         eh = [x["entry_hit"] for x in review if x["entry_hit"] is not None]
@@ -94,12 +110,14 @@ def main():
                 elapsed = (datetime.date.fromisoformat(TODAY) - datetime.date.fromisoformat(x["date"])).days
             except Exception:
                 continue
-            frac = max(elapsed, 1) / HORIZON
+            if elapsed < PACE_MIN_DAYS:   # 审计修复:嫩仓 progress/(极小时间占比) 会炸到几十×,污染均值,剔除
+                continue
+            frac = elapsed / HORIZON
             paces.append(x["progress_to_target_pct"] / 100 / frac)
         sc.update({"entry_hit_rate": round(100 * sum(eh) / len(eh)) if eh else None,
                    "direction_win_rate": round(100 * sum(dr) / len(dr)) if dr else None,
                    "avg_progress_to_target_pct": round(sum(pr) / len(pr), 1) if pr else None,
-                   "avg_pace_ratio": round(sum(paces) / len(paces), 2) if paces else None,
+                   "avg_pace_ratio": round(_median(paces), 2) if paces else None,   # 中位数:免被快仓拉偏(嫩仓已剔)
                    "matured_n": len(mat),
                    "matured_avg_realized_pct": round(sum(x["realized_return_pct"] for x in mat) / len(mat), 1) if mat else None})
 

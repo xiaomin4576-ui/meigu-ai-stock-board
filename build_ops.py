@@ -145,13 +145,18 @@ def stat_deepseek():
     else:
         out["已落账调用"] = "暂无记录(usage.jsonl 自本功能上线起累积)"
     key = (os.environ.get("DEEPSEEK_API_KEY") or "").strip()
-    if key:
+    # 审计安全修复:余额是敏感项,必须【双门】——仅当 BOARD_PASSWORD 也在(产物会被加密)才渲染。
+    # 堵住"设了 key 却漏设密码 → daily-board 走公开分支 → 余额明文上公网"的误配路径(此前只凭 key 一道门)。
+    pw_set = bool((os.environ.get("BOARD_PASSWORD") or "").strip())
+    if key and pw_set:
         try:
             j = _api("https://api.deepseek.com/user/balance", key)
             bi = (j.get("balance_infos") or [{}])[0]
             out["账户余额"] = f"{bi.get('total_balance','?')} {bi.get('currency','')}"
         except Exception:
             out["账户余额"] = "查询失败(不影响功能)"
+    elif key and not pw_set:
+        out["账户余额"] = "已隐藏(未开密码保护时敏感项不渲染)"
     else:
         out["账户余额"] = "本地构建无 key 未查询"
     return out
