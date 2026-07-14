@@ -104,6 +104,11 @@ RSS_FEEDS = [
     # 石油/能源档专用信源(莫桑比克联合能源Union视角;失败照常单路容错)
     ("OilPrice", "https://oilprice.com/rss/main"),
     ("CNBC Energy", "https://www.cnbc.com/id/19836768/device/rss/rss.html"),
+    # 2026-07 扩:原油气源(OilPrice/CNBC)偏全球通用,抓不到莫桑比克/东非天然气专项。补:
+    ("Offshore Energy", "https://www.offshore-energy.biz/feed/"),          # LNG/FLNG/上游项目(Golar/TotalEnergies等)
+    ("Energy Capital & Power", "https://energycapitalpower.com/feed/"),    # 非洲能源专业媒体
+    # Google News 定向聚合:莫桑比克/东非天然气(Rovuma/Cabo Delgado/坦桑LNG)——联合能源 Union 核心关切,全网匹配
+    ("莫桑东非能源·聚合", "https://news.google.com/rss/search?q=(Mozambique+OR+%22East+Africa%22+OR+Rovuma+OR+%22Cabo+Delgado%22+OR+Tanzania)+(gas+OR+LNG+OR+oil+OR+energy)+when:14d&hl=en-US&gl=US&ceid=US:en"),
 ]
 
 

@@ -16,7 +16,7 @@ def section_of(path: str) -> str:
     if b == "news.html":
         return "全球市场头条"
     if b == "ops.html":
-        return "运营看板"
+        return "运营看板 · 管理员登录"
     if b == "africa.html":
         return "非洲科技脉搏"
     if b == "archive.html":
@@ -28,14 +28,15 @@ def section_of(path: str) -> str:
     return "LUMORA · 同光科技"
 
 
-def encrypt(html: str, password: str, section: str = "AI 股票看板") -> str:
+def encrypt(html: str, password: str, section: str = "AI 股票看板", skey: str = "lumora-pass") -> str:
     salt = os.urandom(16)
     iv = os.urandom(12)
     key = hashlib.pbkdf2_hmac("sha256", password.encode("utf-8"), salt, ITERS, 32)
     ct = AESGCM(key).encrypt(iv, html.encode("utf-8"), None)   # 密文含 16 字节 GCM tag
     b64 = lambda b: base64.b64encode(b).decode()
     blob = json.dumps({"s": b64(salt), "i": b64(iv), "c": b64(ct), "n": ITERS})
-    return GATE.replace("/*__BLOB__*/", blob).replace("__SECTION__", section)
+    # skey=sessionStorage 键:普通页用 lumora-pass(站点通行 8888),运营看板用 lumora-admin(独立管理员密码,不共享通行)
+    return GATE.replace("/*__BLOB__*/", blob).replace("__SECTION__", section).replace("__SKEY__", skey)
 
 # 解密门页:输密码 → WebCrypto 解密 → document.write 还原整张看板
 GATE = r"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
@@ -44,7 +45,7 @@ GATE = r"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
 <title>同光科技 · 需要访问密码</title>
 <meta name="robots" content="noindex,nofollow">
 <script>/* 防闪:已通行(sessionStorage有pass)则首帧就隐藏密码框、显"解锁中",绝不闪现密码环节 */
-try{if(sessionStorage.getItem('lumora-pass'))document.documentElement.className='unlocking';}catch(e){}</script>
+try{if(sessionStorage.getItem('__SKEY__'))document.documentElement.className='unlocking';}catch(e){}</script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,"PingFang SC",sans-serif;background:#0a1020;color:#f2f6fc;
@@ -81,6 +82,7 @@ button:active{background:#1d4ed8}
 </div>
 <script>
 const DATA=/*__BLOB__*/;
+const SKEY='__SKEY__';  /* 普通页 lumora-pass(通行8888);运营看板 lumora-admin(独立管理员密码,不共享) */
 const b2a=b=>Uint8Array.from(atob(b),c=>c.charCodeAt(0));
 async function tryDecrypt(pw){
   const enc=new TextEncoder();
@@ -93,12 +95,12 @@ async function tryDecrypt(pw){
 }
 // 全站通行:光之门主页输一次密码存 sessionStorage,各加密页自动解——不再每页各输一遍
 (async function(){
-  const saved=sessionStorage.getItem('lumora-pass');
+  const saved=sessionStorage.getItem(SKEY);
   if(!saved)return;
   try{
     const html=await tryDecrypt(saved);
     document.open();document.write(html);document.close();
-  }catch(ex){ sessionStorage.removeItem('lumora-pass'); document.documentElement.classList.remove('unlocking'); }
+  }catch(ex){ sessionStorage.removeItem(SKEY); document.documentElement.classList.remove('unlocking'); }
 })();
 document.getElementById('f').addEventListener('submit',async e=>{
   e.preventDefault();
@@ -106,19 +108,22 @@ document.getElementById('f').addEventListener('submit',async e=>{
   const pw=document.getElementById('pw').value;
   try{
     const html=await tryDecrypt(pw);
-    sessionStorage.setItem('lumora-pass',pw);
+    try{ sessionStorage.setItem(SKEY,pw); }catch(e){}
     document.open();document.write(html);document.close();
   }catch(ex){ err.textContent='密码错误'; }
 });
 </script></body></html>"""
 
 if __name__ == "__main__":
+    # 用法:python3 encrypt_board.py <src> <dst> [skey]
+    # skey 省略=lumora-pass(站点通行 8888);传 lumora-admin=运营看板独立管理员(密码走 BOARD_PASSWORD env,CI 会临时置为 OPS_PASSWORD)
     src, dst = sys.argv[1], sys.argv[2]
+    skey = sys.argv[3] if len(sys.argv) > 3 else "lumora-pass"
     pw = (os.environ.get("BOARD_PASSWORD") or "").strip()
     html = open(src, encoding="utf-8").read()
     if not pw:
         open(dst, "w", encoding="utf-8").write(html)
         print(f"ℹ️ 未设 BOARD_PASSWORD,{dst} 未加密(公开)")
     else:
-        open(dst, "w", encoding="utf-8").write(encrypt(html, pw, section_of(dst)))
-        print(f"🔒 已加密 {dst}(密码保护·门标「{section_of(dst)}」)")
+        open(dst, "w", encoding="utf-8").write(encrypt(html, pw, section_of(dst), skey))
+        print(f"🔒 已加密 {dst}(密码保护·门标「{section_of(dst)}」·键 {skey})")

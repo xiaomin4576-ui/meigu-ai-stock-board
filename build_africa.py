@@ -119,7 +119,7 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 </div>
 {body}
 <div class="foot">
-  数据源:<b>TechCabal · Disrupt Africa · Techpoint Africa · IT News Africa · TechAfrica News · Condia</b> 等非洲本地科技媒体 RSS(每次构建实时抓取,链接直达原文可溯)<br>
+  数据源:<b>TechCabal · Techpoint · IT News Africa · TechAfrica News · Condia · ITWeb Africa</b> 等非洲本地科技媒体 + <b>Club of Mozambique · Zimbabwe Situation · African Business</b>(区域综合·只取科技)+ <b>Google News 定向聚合</b>(中非基建/数据中心跨源),每次构建实时抓取,链接直达原文可溯<br>
   采集时间 {esc(fetched)} 北京 · 仅供研究与学习,非投资建议 · LUMORA · 同光科技
 </div>
 </div>

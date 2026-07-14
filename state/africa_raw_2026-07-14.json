@@ -1,6 +1,6 @@
 {
  "asof": "2026-07-14",
- "fetched_at": "2026-07-14T20:11+08:00",
+ "fetched_at": "2026-07-14T20:48+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -9,13 +9,46 @@
    "Techpoint Africa": 20,
    "IT News Africa": 11,
    "TechAfrica News": 12,
-   "Condia": 20
+   "Condia": 25,
+   "ITWeb Africa": 25,
+   "Club of Mozambique": 0,
+   "Zimbabwe Situation": 0,
+   "African Business": 1,
+   "非洲科技·聚合": 9,
+   "中非科技·聚合": 16
   },
-  "total": 45,
-  "ai_flagged": 14,
+  "total": 60,
+  "ai_flagged": 15,
   "countries": 5
  },
  "items": [
+  {
+   "title": "Cloudflare Introduces AI-Powered Bot Defense Engine Precursor",
+   "brief": "Cloudflare, Inc.,  the leading connectivity cloud company, announced the general availability of Precursor, a next-generation, continuous behavioral validation engine for bot management. Built directly on ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/07/14/cloudflare-introduces-ai-powered-bot-defense-engine-precursor/",
+   "date": "Tue, 14 Jul 2026 12:39:10 +0000",
+   "country": null,
+   "is_ai": true
+  },
+  {
+   "title": "Neurovia AI Strengthens Leadership Team with Three Senior Executive Appointments",
+   "brief": "Robo.ai Inc.  announced a series of senior executive appointments in its subsidiary Neurovia AI, an AI visual data processing and compression technology company. Mr. Khalifa ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/07/14/neurovia-ai-strengthens-leadership-team-with-three-senior-executive-appointments/",
+   "date": "Tue, 14 Jul 2026 12:33:48 +0000",
+   "country": null,
+   "is_ai": true
+  },
+  {
+   "title": "RAKBANK and Mastercard Renew Partnership to Advance Digital Payments",
+   "brief": "RAKBANK  and Mastercard  renewed their collaboration agreement to support continued payments innovation by delivering enhanced solutions across retail, business and wholesale banking. Building on their ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/07/14/rakbank-and-mastercard-renew-partnership-to-advance-digital-payments/",
+   "date": "Tue, 14 Jul 2026 12:26:42 +0000",
+   "country": null,
+   "is_ai": false
+  },
   {
    "title": "Supercell offers African game studios grants worth up to $200,000",
    "brief": "Supercell will select three to five studios for the inaugural cohort. Applications close on August 9, shortlisted studios will be notified in October, and funding is expected to begin in December.",
@@ -32,6 +65,15 @@
    "url": "https://techpoint.africa/brandpress/all-on-launches-the-2026-off-grid-energy-challenge-to-accelerate-clean-energy-innovation-in-nigeria/",
    "date": "Tue, 14 Jul 2026 12:00:00 +0000",
    "country": "🇳🇬 尼日利亚",
+   "is_ai": false
+  },
+  {
+   "title": "SA records over 2 000 weekly cyber attacks",
+   "brief": "SA remained among Africa's most targeted countries for cyber attacks in June, according to Check Point Software Technologies.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/sa-records-over-2-000-weekly-cyber-attacks/WnpNgM21dgm7VrGd",
+   "date": "Tue, 14 Jul 2026 13:40:05 +0200",
+   "country": null,
    "is_ai": false
   },
   {
@@ -71,6 +113,15 @@
    "is_ai": false
   },
   {
+   "title": "Job cuts at smartphone maker Oppo South Africa",
+   "brief": "As part of a review of its operating structure process, the company says a limited number of roles have been affected.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/job-cuts-at-smartphone-maker-oppo-south-africa/JBwErvn3zVx76Db2",
+   "date": "Tue, 14 Jul 2026 12:29:19 +0200",
+   "country": "🇿🇦 南非",
+   "is_ai": false
+  },
+  {
    "title": "GETESA and Huawei Partner to Upgrade Equatorial Guinea’s Telecom Network",
    "brief": "Equatorial Guinea’s state-owned telecommunications operator GETESA  has signed a collaboration agreement with Huawei  to optimise the country’s national telecommunications network as part of efforts to ......",
    "source": "TechAfrica News",
@@ -78,6 +129,24 @@
    "date": "Tue, 14 Jul 2026 10:26:23 +0000",
    "country": null,
    "is_ai": false
+  },
+  {
+   "title": "Crypto regulations ‘unconstitutional, bypass Parly’",
+   "brief": "National Treasury's draft crypto regulations strip property rights and contradict the central bank's own vision, Luno argues.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/crypto-regulations-unconstitutional-bypass-parly/rW1xLv5n1LR7Rk6m",
+   "date": "Tue, 14 Jul 2026 12:17:01 +0200",
+   "country": null,
+   "is_ai": false
+  },
+  {
+   "title": "Woolworths unveils AI-powered meal planning assistant",
+   "brief": "Woolworths brings AI into the kitchen with My Woolies Chef, a food assistant designed to help customers plan meals, find recipes and shop ingredients through its app.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/woolworths-unveils-ai-powered-meal-planning-assistant/DZQ587V83OwqzXy2",
+   "date": "Tue, 14 Jul 2026 12:09:00 +0200",
+   "country": null,
+   "is_ai": true
   },
   {
    "title": "Madagascar Becomes Third African Country to Test Direct-to-Cell Satellite Technology",
@@ -89,12 +158,39 @@
    "is_ai": true
   },
   {
+   "title": "Green colonialism and Africa’s renewable energy push: pathways to sustainable green technology partnerships",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNZkpVdkluaUJQUkdabTB5WVNobHVoWkU3enBycjN1OVVaYWxxdkNMZ3JNbHRwMFB0MGsyYkRoWU5RRVdpNmE2c3JjWDBxTkdGblhEbThvcVB6R3FjeVdLc2dDOHIzLUtEZFRTV3hERDU3aDNCb2tBTWttY2ZoQU",
+   "source": "APRI – Africa Policy Research Institute·聚合",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZkpVdkluaUJQUkdabTB5WVNobHVoWkU3enBycjN1OVVaYWxxdkNMZ3JNbHRwMFB0MGsyYkRoWU5RRVdpNmE2c3JjWDBxTkdGblhEbThvcVB6R3FjeVdLc2dDOHIzLUtEZFRTV3hERDU3aDNCb2tBTWttY2ZoQUdnUjV5OXBYNEVSM3RvV0RfeFdaa0lpTU1LY09fMk5QeE5jcU9xcmIxU0RqT1NheFkxNDhZbWhDV0JWUG15U0hJOGtpaEk0?oc=5",
+   "date": "Tue, 14 Jul 2026 10:03:56 GMT",
+   "country": null,
+   "is_ai": false
+  },
+  {
+   "title": "Does GenAI perpetuate gender inequality in tech?",
+   "brief": "Women are less likely to use GenAI tools than men, and female-dominated occupations face higher displacement risk, warns Cliffe Dekker Hofmeyr.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/does-genai-perpetuate-gender-inequality-in-tech/G98YdMLGBOD7X2PD",
+   "date": "Tue, 14 Jul 2026 12:01:00 +0200",
+   "country": null,
+   "is_ai": true
+  },
+  {
    "title": "Nigerian Bitcoin Researcher Heritage Falodun Proposes Tage_Root, a Trust-Minimized Bitcoin Layer 2 Framework for Exploring Bridge Challenges and BTC-Denominated Yield",
    "brief": "Tage_Root: Trust-Minimized Bitcoin Layer 2, Solving Bridge Problem & Pricing...",
    "source": "Techpoint Africa",
    "url": "https://techpoint.africa/brandpress/nigerian-bitcoin-researcher-heritage-falodun-proposes-tage_root/",
    "date": "Tue, 14 Jul 2026 09:59:05 +0000",
    "country": "🇳🇬 尼日利亚",
+   "is_ai": false
+  },
+  {
+   "title": "Gauteng ignored AG warning before job portal breach",
+   "brief": "The e-Government department failed to implement a recommended security measure before the breach exposed applicants’ data.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/gauteng-ignored-ag-warning-before-job-portal-breach/Pero3MZ31O3qQb6m",
+   "date": "Tue, 14 Jul 2026 11:33:00 +0200",
+   "country": null,
    "is_ai": false
   },
   {
@@ -116,12 +212,57 @@
    "is_ai": false
   },
   {
+   "title": "Paratus Botswana, Eutelsat showcase resilient connectivity and redefine how mining connects in southern Africa",
+   "brief": "Paratus Botswana, in partnership with Eutelsat, participated in the Future of Mining Summit 2026, demonstrating how resilient, integrated networks support mining transformation.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/paratus-botswana-eutelsat-showcase-resilient-connectivity-and-redefine-how-mining-connects-in-southern-africa/dgp45qaB8yAvX9l8",
+   "date": "Tue, 14 Jul 2026 11:10:00 +0200",
+   "country": null,
+   "is_ai": false
+  },
+  {
+   "title": "Your vendor knows where your data lives. Do you?",
+   "brief": "Many South African companies have no clear picture of where their data lives, which jurisdiction governs it or what happens if something goes wrong, says Richard Frost, head of technology solutions and consulting at Arma",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/your-vendor-knows-where-your-data-lives-do-you/WnxpE74YZWXMV8XL",
+   "date": "Tue, 14 Jul 2026 11:08:00 +0200",
+   "country": "🇿🇦 南非",
+   "is_ai": false
+  },
+  {
+   "title": "What is quantum safe resilience",
+   "brief": "Quantum computing will sever the cryptographic foundations that protect backups, authenticate identities and validate data integrity.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/what-is-quantum-safe-resilience/LPp6VMrBOAeMDKQz",
+   "date": "Tue, 14 Jul 2026 11:06:00 +0200",
+   "country": null,
+   "is_ai": false
+  },
+  {
+   "title": "The Please Call Me millions: The cast of characters",
+   "brief": "From a disbarred advocate, to offshore funds and Cyprus shell companies, ITWeb unpacks the people behind the Please Call Me litigation.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/the-please-call-me-millions-the-cast-of-characters/KWEBb7yL4AevmRjO",
+   "date": "Tue, 14 Jul 2026 11:05:00 +0200",
+   "country": null,
+   "is_ai": false
+  },
+  {
    "title": "Nigeria and Hong Kong Sign Landmark Double Taxation Agreement",
    "brief": "Nigeria and the Hong Kong Special Administrative Region (HKSAR) of the People’s Republic of China have signed a landmark Agreement for the Elimination of Double ......",
    "source": "TechAfrica News",
    "url": "https://techafricanews.com/2026/07/14/nigeria-and-hong-kong-sign-landmark-double-taxation-agreement/",
    "date": "Tue, 14 Jul 2026 09:04:40 +0000",
    "country": "🇳🇬 尼日利亚",
+   "is_ai": false
+  },
+  {
+   "title": "ITWeb investigation: Makate says Black Rock was Elsdon's ‘alter ego’",
+   "brief": "A deep dive into the funding saga behind the Please Call Me settlement – starting with Nkosana Makate’s claim that Black Rock Mining was a facade for businessman Errol Elsdon.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/itweb-investigation-makate-says-black-rock-was-elsdons-alter-ego/PmxVEMKEG1OvQY85",
+   "date": "Tue, 14 Jul 2026 11:03:00 +0200",
+   "country": null,
    "is_ai": false
   },
   {
@@ -161,29 +302,11 @@
    "is_ai": true
   },
   {
-   "title": "AmiViz Partners Cyberhaven to Expand AI and Data Security Across Middle East",
-   "brief": "AmiViz,  the Middle East’s leading cybersecurity and AI-focused value-added distributor, announced a strategic partnership with Cyberhaven  to bring the company’s industry-leading Unified AI & Data ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/07/14/amiviz-partners-cyberhaven-to-expand-ai-and-data-security-across-middle-east/",
-   "date": "Tue, 14 Jul 2026 07:29:20 +0000",
-   "country": null,
-   "is_ai": true
-  },
-  {
-   "title": "Ericsson Delivers Resilient Second Quarter 2026 Results",
-   "brief": "Ericsson  reported a resilient financial performance for the second quarter of 2026, maintaining strong profitability despite a decline in sales, as disciplined execution and improved ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/07/14/ericsson-delivers-resilient-second-quarter-2026-results/",
-   "date": "Tue, 14 Jul 2026 07:19:58 +0000",
-   "country": null,
-   "is_ai": false
-  },
-  {
-   "title": "Mastercard and Flash Partner to Expand Digital Financial Inclusion in DRC",
-   "brief": "Mastercard  and Flash,  a fintech company in the Democratic Republic of the Congo (DRC), announced a strategic collaboration whereby Flash will issue physical and virtual ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/07/14/mastercard-and-flash-partner-to-expand-digital-financial-inclusion-in-drc/",
-   "date": "Tue, 14 Jul 2026 07:11:17 +0000",
+   "title": "Samsung Becomes a Sisvel Wi-Fi Multimode Pool Licensee and Licensor",
+   "brief": "Samsung Electronics has signed up as a licensee of the Sisvel Wi-Fi Multimode pool and has also become a licensor under the programme.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/samsung-becomes-a-sisvel-wi-fi-multimode-pool-licensee-and-licensor/nWJad7bNlAW7bjO1",
+   "date": "Tue, 14 Jul 2026 09:09:00 +0200",
    "country": null,
    "is_ai": false
   },
@@ -197,6 +320,15 @@
    "is_ai": false
   },
   {
+   "title": "Execution, not visibility, is biggest security gap, says ITR Technology",
+   "brief": "Companies are spending more on security but remain more exposed than ever, with credential abuse and third-party breaches driving the majority of attacks.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/execution-not-visibility-is-biggest-security-gap-says-itr-technology/KPNG878N9mRq4mwD",
+   "date": "Tue, 14 Jul 2026 08:35:00 +0200",
+   "country": null,
+   "is_ai": false
+  },
+  {
    "title": "👨🏿‍🚀TechCabal Daily – Openview and watch ads",
    "brief": "In today's edition: eMedia launches Openview Stream || OPPO opens its fifth store in Egypt || Yas secures $307 million investment from EBRD || Kenyan court raises the standard on SIM-swap fraud",
    "source": "TechCabal",
@@ -206,12 +338,66 @@
    "is_ai": false
   },
   {
+   "title": "Huawei and Apple Get Boost in China From Memory Crisis, IDC Says",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPZUJBRXdQUWZRWVgzR3ZNWUctZGRsNkF6YVg4YjM1aE83UU56cC12ZDVyaTNKTEFxWE9vX0V2REs2RzE4cjhYTUdwdVh0blpjdDJiTDJHV0hrRmwxc2lwakU2eXBMNkxYbDl3N3hCWlNDeHd2RXpJNndsYVhEYl",
+   "source": "Bloomberg.com·聚合",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZUJBRXdQUWZRWVgzR3ZNWUctZGRsNkF6YVg4YjM1aE83UU56cC12ZDVyaTNKTEFxWE9vX0V2REs2RzE4cjhYTUdwdVh0blpjdDJiTDJHV0hrRmwxc2lwakU2eXBMNkxYbDl3N3hCWlNDeHd2RXpJNndsYVhEYlFCYzNNNEpVeDNNVUgtWUh5RVpfcXlWTnhHLVl2SXZ5YTBHM1VxUmpZSC1reVYxU1pGSDZIZEY?oc=5",
+   "date": "Tue, 14 Jul 2026 04:11:00 GMT",
+   "country": null,
+   "is_ai": false
+  },
+  {
+   "title": "Huawei advances global energy transition with digital power solutions",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQRmE3cTFvVWdDR2hRcldwOU5IczQyZ0tyTVZaVFJYdUpibUZyN18xNU9sLWExd3J1cUhlZ2tTSFRUUGwxaHJ0c3ZVWk56Y0YwOS1oYmpZNk9vOU1tOHhCSXI4OTdiR243T0hPbUJuR05BelBIUzRjLWdrdy1Bd1",
+   "source": "Crypto Briefing·聚合",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRmE3cTFvVWdDR2hRcldwOU5IczQyZ0tyTVZaVFJYdUpibUZyN18xNU9sLWExd3J1cUhlZ2tTSFRUUGwxaHJ0c3ZVWk56Y0YwOS1oYmpZNk9vOU1tOHhCSXI4OTdiR243T0hPbUJuR05BelBIUzRjLWdrdy1Bd1FtbFhaTEc4OXNoRFdDd0dRN1h0eGJVODlqMTF0WHprQQ?oc=5",
+   "date": "Mon, 13 Jul 2026 23:06:02 GMT",
+   "country": null,
+   "is_ai": false
+  },
+  {
    "title": "Kenyan court holds banks, telcos liable over $34,000 SIM swap fraud",
    "brief": "Mercy Wairimu Kariuki woke up on the morning of February 8, 2022, to a stream of alerts showing that KES 4.4 million ($34,000) had been withdrawn from her Diamond Trust Bank (DTB) account overnight, two days after frauds",
    "source": "TechCabal",
    "url": "https://techcabal.com/2026/07/13/kenyan-court-holds-banks-telcos-liable-over-sim-swap-fraud/",
    "date": "Mon, 13 Jul 2026 14:12:13 +0000",
    "country": "🇰🇪 肯尼亚",
+   "is_ai": false
+  },
+  {
+   "title": "Raxio raises more capital as Africa data center demand surges",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaXV5aVlLMzlUTDYtdmlpUlAtZFo1WjkzVk1BM1owekVIb0FrYURCMnhtb2pmNV9taUxnOG5SdUN6VWx4Rm1mQl9ZZXpNWEptNGZOYmRWcHdpSWNQTzkxMmdoU0NCbGRqdS05V3ZXcVpudnI1QWZRQmxtRTdrWH",
+   "source": "Connecting Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaXV5aVlLMzlUTDYtdmlpUlAtZFo1WjkzVk1BM1owekVIb0FrYURCMnhtb2pmNV9taUxnOG5SdUN6VWx4Rm1mQl9ZZXpNWEptNGZOYmRWcHdpSWNQTzkxMmdoU0NCbGRqdS05V3ZXcVpudnI1QWZRQmxtRTdrWHJUSTlXRUM4U3RTWnJqYkhpZW12TWUzRkJkYVNWaEU2Q2IzV2w2VWl5dnNIUmM?oc=5",
+   "date": "Mon, 13 Jul 2026 14:11:21 GMT",
+   "country": null,
+   "is_ai": true
+  },
+  {
+   "title": "GirlCode opens registration for 2026 Pan-African Hackathon",
+   "brief": "Applications for GirlCode's 12th annual Pan-African Hackathon – with events across six countries in August and September – close on 31 July.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/girlcode-opens-registration-for-2026-pan-african-hackathon/j5alrMQAwVRMpYQk",
+   "date": "Mon, 13 Jul 2026 15:03:35 +0200",
+   "country": null,
+   "is_ai": false
+  },
+  {
+   "title": "Nigerian drone startup with $11 billion in assets challenges foreign defense reliance across Africa",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZTE5MlMyU1lVX29rTElicFhBNnNTS2dGckd0dEdtUzFhTEdLV2xoajMyNF9idnFTYmVTeGxjN2VxdEJyVDJJOEhjdXk2Y3kwSm5XaHczZU5kUVpaWlR1X3ZmUExTX2taQnRLQlJzeUZpNExQMTlJWXVDRTJZN1",
+   "source": "Business Insider Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZTE5MlMyU1lVX29rTElicFhBNnNTS2dGckd0dEdtUzFhTEdLV2xoajMyNF9idnFTYmVTeGxjN2VxdEJyVDJJOEhjdXk2Y3kwSm5XaHczZU5kUVpaWlR1X3ZmUExTX2taQnRLQlJzeUZpNExQMTlJWXVDRTJZN1A3YUxTNkNQTnpOV0tjd0ZjQzAxS0FzNlZGVVFsb1JlLU5OTldFTlFiQ3h5eUJXYXhsaldRT0k1a2Z3aXNBWEZ1VUVBem5rQ255cFlkQnJQNVRGbEl1MlNDWlQ?oc=5",
+   "date": "Mon, 13 Jul 2026 12:45:21 GMT",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false
+  },
+  {
+   "title": "Top ICT tenders: Home Affairs locks down authentication, access control",
+   "brief": "The State Information Technology Agency is calling for a system that will legally bind users to transactions.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/top-ict-tenders-home-affairs-locks-down-authentication-access-control/nWJadMbNlpWMbjO1",
+   "date": "Mon, 13 Jul 2026 14:07:44 +0200",
+   "country": null,
    "is_ai": false
   },
   {
@@ -229,6 +415,15 @@
    "source": "Techpoint Africa",
    "url": "https://techpoint.africa/feature/ismail-eleburuike-is-building-schooltry/",
    "date": "Mon, 13 Jul 2026 11:30:56 +0000",
+   "country": null,
+   "is_ai": false
+  },
+  {
+   "title": "Raxio Tops US$380 Million in Committed Capital as Roha and Meridiam Boost Stakes Amid Sixfold Growth Surge for its African Data Centres",
+   "brief": "Raxio Group, Africa's most expansive data centre platform, surpassed US$380 million in committed capital as shareholders Meridiam and Roha increased their support for the company’s next phase of growth following a sixfol",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/raxio-tops-us380-million-in-committed-capital-as-roha-and-meridiam-boost-stakes-amid-sixfold-growth-surge-for-its-african-data-centres/GxwQDq1D36aMlPVo",
+   "date": "Mon, 13 Jul 2026 12:54:00 +0200",
    "country": null,
    "is_ai": false
   },
@@ -287,12 +482,39 @@
    "is_ai": false
   },
   {
+   "title": "SunFintech Partners Flutterwave to Strengthen Cross-Border Payments in Africa",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNRTBoNUNvb1BycGNjMS1tV1prMVdSa2J4TkZJQjFaTXZRc2MyMjBobFBib25STFhUMk9QcUdEcDUzaTREMHVUVHEzUmVhYXJUTnNURnNNTUFoeHdZZ2tmTU1zc2JLSDMxRWxDX3lvRXJnV3lPTGhyaGYycGJXcW",
+   "source": "TechAfrica News·聚合",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRTBoNUNvb1BycGNjMS1tV1prMVdSa2J4TkZJQjFaTXZRc2MyMjBobFBib25STFhUMk9QcUdEcDUzaTREMHVUVHEzUmVhYXJUTnNURnNNTUFoeHdZZ2tmTU1zc2JLSDMxRWxDX3lvRXJnV3lPTGhyaGYycGJXcWw3RE81V05BZ3Z2cndyZEZOX2RBeElyVVR3akwycjBLOXhGQ2xOM21CdzVFNkRLUmgtT1RiN0FxX1U?oc=5",
+   "date": "Mon, 13 Jul 2026 08:30:54 GMT",
+   "country": null,
+   "is_ai": false
+  },
+  {
    "title": "Your AI KYC tool won’t save you in an audit",
    "brief": "Directive 11 is live. SARS is chasing R44 billion in unpaid taxes from companies still holding state contracts. A cabinet minister just lost her job over undisclosed benefits. The regulatory environment in South Africa h",
    "source": "IT News Africa",
    "url": "https://www.itnewsafrica.com/2026/07/your-ai-kyc-tool-wont-save-you-in-an-audit/",
    "date": "Mon, 13 Jul 2026 08:22:00 +0000",
    "country": "🇿🇦 南非",
+   "is_ai": true
+  },
+  {
+   "title": "Africa's US$3.6+ Billion Data Center Market 2026-2031: Analysis of Substantial Growth Prospects and Strategic Initiatives",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYzAzTVppZl9GZUE0N0xObWFza2NrT1k4bXhNa3pzZ0pwdUk5SVFTWDlXSzV6c1hTdnZ3dTRETlAxSDlTV01oRnYtZDg1ODFaMDFqZDNUVFZQYWpWYzdMNjNseTRJVFpKTDMwMm5UeTBxbHhnNE1kSTRrekVCTl",
+   "source": "Yahoo Finance·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYzAzTVppZl9GZUE0N0xObWFza2NrT1k4bXhNa3pzZ0pwdUk5SVFTWDlXSzV6c1hTdnZ3dTRETlAxSDlTV01oRnYtZDg1ODFaMDFqZDNUVFZQYWpWYzdMNjNseTRJVFpKTDMwMm5UeTBxbHhnNE1kSTRrekVCTlgtUFF2VnJRYWh0Z0c4?oc=5",
+   "date": "Mon, 13 Jul 2026 08:09:00 GMT",
+   "country": null,
+   "is_ai": true
+  },
+  {
+   "title": "Fast-tracking AI: Linking data, governance, easy access",
+   "brief": "Artificial intelligence agents can both read data and write actions, meaning security and governance are critically important.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/fast-tracking-ai-linking-data-governance-easy-access/8OKdWMDX26NMbznQ",
+   "date": "Mon, 13 Jul 2026 09:08:34 +0200",
+   "country": null,
    "is_ai": true
   },
   {
@@ -338,87 +560,6 @@
    "url": "https://thecondia.com/xoom-flutterwave-paypal-partnership/",
    "date": "Fri, 10 Jul 2026 16:30:25 +0000",
    "country": "🇳🇬 尼日利亚",
-   "is_ai": false
-  },
-  {
-   "title": "Why Gigbanc lost Africa’s cross-border payments race",
-   "brief": "Despite raising over $1 million and onboarding over 150,000 customers, the fintech is shutting down due to high infrastructure and compliance costs.",
-   "source": "Condia",
-   "url": "https://thecondia.com/gigbanc-shutdown-cross-border-payments/",
-   "date": "Fri, 10 Jul 2026 14:16:04 +0000",
-   "country": null,
-   "is_ai": false
-  },
-  {
-   "title": "OPay Champions AI-Powered Digital Finance at Digital PayExpo 2026",
-   "brief": "OPay reaffirmed its position as one of Nigeria's leading fintech...",
-   "source": "Techpoint Africa",
-   "url": "https://techpoint.africa/brandpress/opay-champions-ai-powered-digital-finance-at-digital-payexpo-2026/",
-   "date": "Fri, 10 Jul 2026 09:13:19 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": true
-  },
-  {
-   "title": "AI Is Forcing Banks to Rebuild Their Entire Cyber Architecture",
-   "brief": "Artificial intelligence is forcing financial institutions to rethink the foundations of cybersecurity as increasingly sophisticated AI-generated fraud exposes the limitations of traditional security systems. While deepfa",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/07/ai-is-forcing-banks-to-rebuild-their-entire-cyber-architecture/",
-   "date": "Fri, 10 Jul 2026 09:11:29 +0000",
-   "country": null,
-   "is_ai": true
-  },
-  {
-   "title": "From Hearing Aids to Smart Wearables: The Digital Evolution of Hearing Devices",
-   "brief": "From bulky early devices that simply made all sound louder, many hearing aids today have evolved into sleek, virtually invisible wearables powered by personalised, adaptive AI. These devices go far beyond amplification, ",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/07/from-hearing-aids-to-smart-wearables-the-digital-evolution-of-hearing-devices/",
-   "date": "Fri, 10 Jul 2026 09:02:04 +0000",
-   "country": null,
-   "is_ai": true
-  },
-  {
-   "title": "The office is everywhere now – so are the risks",
-   "brief": "The modern workplace extends beyond traditional office walls. It now exists in coffee shops, spare bedrooms, airport lounges, and co-working spaces. Hybrid and remote work have provided flexibility, productivity, and acc",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/07/the-office-is-everywhere-now-so-are-the-risks/",
-   "date": "Fri, 10 Jul 2026 08:35:11 +0000",
-   "country": null,
-   "is_ai": true
-  },
-  {
-   "title": "Absa Deepens BYD Alliance as South Africa’s Electric Vehicle Market Surges",
-   "brief": "South Africa’s transition to new energy vehicles (NEVs) is gathering momentum, prompting Absa and BYD Auto South Africa to expand their strategic partnership first established in 2025. The enhanced collaboration reinforc",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/07/absa-deepens-byd-alliance-as-south-africas-electric-vehicle-market-surges/",
-   "date": "Fri, 10 Jul 2026 08:31:21 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": false
-  },
-  {
-   "title": "Xoom, a PayPal Service, and Flutterwave Enable Direct Money Transfers to Nigeria",
-   "brief": "Flutterwave, Africa’s leading payments technology company, today announced a collaboration with Xoom, PayPal’s international digital money transfer service, to enable fast transfers into Nigeria, one of the world’s faste",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/07/xoom-a-paypal-service-and-flutterwave-enable-direct-money-transfers-to-nigeria/",
-   "date": "Fri, 10 Jul 2026 08:24:58 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false
-  },
-  {
-   "title": "The bank of the future will need to serve people and the AI agents acting for them",
-   "brief": "For years, digital banking has been measured by access. Ensuring clients can open an account without visiting a branch, transact from a phone, or get help outside normal banking hours shaped the first wave of banking dig",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/07/the-bank-of-the-future-will-need-to-serve-people-and-the-ai-agents-acting-for-them/",
-   "date": "Fri, 10 Jul 2026 08:19:41 +0000",
-   "country": null,
-   "is_ai": true
-  },
-  {
-   "title": "Ghana opens 5G rollout to MTN and Telecel, ends exclusive model",
-   "brief": "On Techpoint Digest, we discuss MTN and Telecel taking a shot at Ghana's 5G rollout, Uber and Bolt fares may rise under new Kenyan rules, and Safaricom's new ownership era faces its first test.",
-   "source": "Techpoint Africa",
-   "url": "https://techpoint.africa/insight/techpoint-digest-1385/",
-   "date": "Fri, 10 Jul 2026 07:00:00 +0000",
-   "country": "🇰🇪 肯尼亚",
    "is_ai": false
   }
  ]

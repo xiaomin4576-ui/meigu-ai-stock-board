@@ -2,9 +2,12 @@
 # -*- coding: utf-8 -*-
 """非洲科技脉搏采集:为「非洲科技早报」板块抓取整个非洲的科技 / AI 动态。
 同光科技在莫桑比克,需跟踪非洲大陆科技与 AI 的一举一动。
-信源=非洲本地科技媒体 RSS(逐路容错,一路挂不影响其余;均已实测可达):
-  TechCabal / Moonshot(泛非·尼日利亚)、Disrupt Africa(创业)、Techpoint Africa(尼日利亚)、
-  IT News Africa(泛非企业科技)、TechAfrica News、Condia(原 Benjamindada·金融科技)。
+信源(逐路容错,一路挂不影响其余;均已实测可达):
+  ① 专业科技媒体(全收):TechCabal/Moonshot、Disrupt Africa、Techpoint Africa、IT News Africa、
+     TechAfrica News、Condia、ITWeb Africa
+  ② 区域综合源(只留科技条目):Club of Mozambique(同光所在地)、Zimbabwe Situation、African Business
+  ③ Google News 定向聚合(全网匹配,补中非基建/数据中心/南部非洲跨源新闻):非洲科技、中非科技两路
+  (2026-07 扩:原 7 源覆盖不到中非基建/南部非洲,漏了"中国援建津巴布韦数据中心"央视级新闻,故补②③)
 去重 + 按时间排序后写 state/africa_raw_<北京日期>.json。
 诚实纪律:只存真实抓到的条目与来源链接,抓不到就少,绝不编造(数据真实性规则)。"""
 import os, re, json, ssl, html, datetime, urllib.request
@@ -13,8 +16,8 @@ DIR = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(DIR, "state")
 TODAY = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).date().isoformat()
 
-# 实测可达的非洲科技媒体 RSS(2026-07 验证;死源自动跳过)
-FEEDS = [
+# 专业科技媒体 RSS(全部条目收;2026-07 实测可达,死源自动跳过)
+TECH_FEEDS = [
     ("TechCabal", "https://techcabal.com/feed/"),
     ("Moonshot·TechCabal", "https://techcabal.com/category/moonshot/feed/"),
     ("Disrupt Africa", "https://disrupt-africa.com/feed/"),
@@ -22,7 +25,25 @@ FEEDS = [
     ("IT News Africa", "https://www.itnewsafrica.com/feed/"),
     ("TechAfrica News", "https://techafricanews.com/feed/"),
     ("Condia", "https://www.benjamindada.com/rss/"),
+    ("ITWeb Africa", "https://itweb.africa/rss"),
 ]
+# 区域/综合源:补莫桑比克(同光所在地)/津巴布韦/中非基建覆盖,但【只留科技相关条目】,免非科技新闻污染。
+# (缘起:2026-07 用户指出"中国援建津巴布韦数据中心"央视级新闻被漏——纯英语科技创业媒体覆盖不到中非基建与南部非洲)
+GENERAL_FEEDS = [
+    ("Club of Mozambique", "https://clubofmozambique.com/feed/"),
+    ("Zimbabwe Situation", "https://www.zimbabwesituation.com/feed/"),
+    ("African Business", "https://african.business/feed"),
+    # Google News 定向聚合(全网匹配,不受单一媒体最近条目限制;补中非基建/数据中心/南部非洲这类跨源新闻)
+    ("非洲科技·聚合", "https://news.google.com/rss/search?q=Africa+(technology+OR+AI+OR+%22data+center%22+OR+startup+OR+fintech+OR+telecom)+when:7d&hl=en-US&gl=US&ceid=US:en"),
+    ("中非科技·聚合", "https://news.google.com/rss/search?q=(China+Africa+OR+Huawei+OR+Mozambique+OR+Zimbabwe)+(technology+OR+digital+OR+%22data+center%22+OR+telecom+OR+internet)+when:14d&hl=en-US&gl=US&ceid=US:en"),
+]
+# 科技强相关词(综合源【只在标题】匹配才收,确保"非洲科技脉搏"不掺非科技新闻——弱词如 payment/platform/app
+# 会误收蜂蜜出口/世界杯/讣告,已剔除;保留高置信科技信号)
+TECH_KW = ["data cent", "data centre", "数据中心", "technology", "digital", "artificial intel", "telecom",
+           "fintech", "5g", "4g", "fibre", "fiber", "broadband", "cloud comput", "huawei", "zte",
+           "startup", "software", "mobile money", "e-commerce", "semiconductor", "satellite", "starlink",
+           "cyber", "crypto", "blockchain", "科技", "数字经济", "artificial intelligence", "gpu", "smartphone",
+           "undersea cable", "connectivity", "electric vehicle", " 5g", "internet ", "chatgpt", "openai"]
 
 # 非洲国家/地区识别(标题+摘要命中→标国旗,莫桑比克与南部非洲优先展示)
 COUNTRIES = [
@@ -69,11 +90,12 @@ def _clean(s):
 
 
 def _parse_date(s):
-    """RSS pubDate → date 对象(排序用);解析不出返回 None。"""
+    """RSS pubDate → tz-aware datetime(排序用);统一 aware 免 naive/aware 混排崩溃(Google News 用 GMT)。"""
     s = (s or "").strip()
-    for fmt in ("%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S %Z", "%Y-%m-%dT%H:%M:%S%z"):
+    for fmt in ("%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S %Z", "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%SZ"):
         try:
-            return datetime.datetime.strptime(s, fmt)
+            dt = datetime.datetime.strptime(s, fmt)
+            return dt if dt.tzinfo else dt.replace(tzinfo=datetime.timezone.utc)
         except Exception:
             continue
     return None
@@ -86,11 +108,11 @@ def tag_of(text):
     return country, is_ai
 
 
-def src_rss(name, url):
+def src_rss(name, url, tech_only=False):
     out = []
     try:
         xml = _get(url)
-        for m in re.findall(r"<item>(.*?)</item>", xml, re.S)[:20]:
+        for m in re.findall(r"<item>(.*?)</item>", xml, re.S)[:25]:
             t = re.search(r"<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>", m, re.S)
             l = re.search(r"<link>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</link>", m, re.S)
             d = re.search(r"<pubDate>(.*?)</pubDate>", m, re.S)
@@ -99,8 +121,19 @@ def src_rss(name, url):
             if not title:
                 continue
             brief = _clean(desc.group(1))[:220] if desc else ""
+            if tech_only and not any(k in (title + " " + brief).lower() for k in TECH_KW):
+                continue   # 综合源:标题+摘要命中【强】科技词才留(强词表已剔弱词,不误收讣告/蜂蜜/世界杯)
+            # Google News 聚合:标题是"标题 - 真实媒体",<source>标签有真实源名——提取,显示真实出处
+            disp_src = name
+            sm = re.search(r"<source[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</source>", m, re.S)
+            if sm and "聚合" in name:
+                real = _clean(sm.group(1))
+                if real:
+                    disp_src = f"{real}·聚合"
+                    if title.endswith(" - " + real):
+                        title = title[: -(len(real) + 3)].strip()
             country, is_ai = tag_of(title + " " + brief)
-            out.append({"title": title, "brief": brief, "source": name,
+            out.append({"title": title, "brief": brief, "source": disp_src,
                         "url": (l.group(1).strip() if l else ""),
                         "date": (d.group(1).strip() if d else ""),
                         "country": country, "is_ai": is_ai})
@@ -116,11 +149,16 @@ def _norm(t):
 def main():
     os.makedirs(STATE, exist_ok=True)
     cands, counts = [], {}
-    for name, url in FEEDS:
-        items = src_rss(name, url)
+    for name, url in TECH_FEEDS:
+        items = src_rss(name, url, tech_only=False)
         counts[name] = len(items)
         cands += items
         print(f"  {name}: {len(items)} 条")
+    for name, url in GENERAL_FEEDS:
+        items = src_rss(name, url, tech_only=True)   # 综合源过滤只留科技
+        counts[name] = len(items)
+        cands += items
+        print(f"  {name}(科技过滤): {len(items)} 条")
     # 标题归一化去重
     seen, dedup = set(), []
     for it in cands:
@@ -131,7 +169,7 @@ def main():
         dedup.append(it)
     # 按发布时间倒序(解析不出日期的排最后)
     dedup.sort(key=lambda x: (_parse_date(x["date"]) or datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)), reverse=True)
-    dedup = dedup[:45]
+    dedup = dedup[:60]
     n_ai = sum(1 for x in dedup if x["is_ai"])
     n_ctry = len({x["country"] for x in dedup if x["country"]})
     out = {"asof": TODAY,

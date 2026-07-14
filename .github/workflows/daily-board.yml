@@ -114,6 +114,7 @@ jobs:
       - name: 组织 Pages 站点到 docs/
         env:
           BOARD_PASSWORD: ${{ secrets.BOARD_PASSWORD }}   # 配了则加密看板(输密码才看),没配则公开
+          OPS_PASSWORD: ${{ secrets.OPS_PASSWORD }}        # 运营看板独立管理员密码(不共享站点通行;独立 sessionStorage 键 lumora-admin)
           ENABLE_CNAME: ${{ vars.ENABLE_CNAME }}          # DNS 生效后设仓库变量=1 即绑定 andy4576.com
           DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}   # 更新按钮的触发凭证(fine-grained PAT,仅注入 docs 加密版)
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }} # 盘势问答引擎凭证(仅注入 docs 加密版,且仅在加密开启时)+ 运营看板余额查询
@@ -241,13 +242,28 @@ jobs:
           #    这样直连任何内容页也要密码,堵住绕过。未配 BOARD_PASSWORD 则公开。
           if [ -n "${BOARD_PASSWORD:-}" ]; then
             pip install --quiet cryptography 2>/dev/null || pip3 install --quiet cryptography
+            # 站点内容页用通行密码 8888 加密(键 lumora-pass);index.html 光之门保持明文;ops.html 单独走管理员密码
             for f in "$DOCS"/*.html; do
-              [ "$(basename "$f")" = "index.html" ] && continue
+              bn="$(basename "$f")"
+              [ "$bn" = "index.html" ] && continue
+              [ "$bn" = "ops.html" ] && continue
               python3 encrypt_board.py "$f" "$f"
             done
+            # 运营看板:独立【管理员密码】加密 + 独立 sessionStorage 键 lumora-admin(不与站点 8888 通行共享,输 8888 也进不去)
+            if [ -f "$DOCS/ops.html" ]; then
+              if [ -n "${OPS_PASSWORD:-}" ]; then
+                BOARD_PASSWORD="$OPS_PASSWORD" python3 encrypt_board.py "$DOCS/ops.html" "$DOCS/ops.html" lumora-admin
+                echo "🔐 运营看板已用【管理员密码】加密(独立键 lumora-admin)"
+              else
+                python3 encrypt_board.py "$DOCS/ops.html" "$DOCS/ops.html"   # 未配 OPS_PASSWORD:退用站点密码,绝不明文上线(余额敏感)
+                echo "⚠️ 未配 OPS_PASSWORD,运营看板退用站点密码加密"
+              fi
+            fi
             grep -q '兆易\|台积电\|建议买入价' "$DOCS/board.html" && { echo "❌ board 加密后仍有明文,中止"; exit 1; }
-            # home 门户:加密后不得残留四板块明文标题(证明 home 已真加密)
-            if grep -q '企业 AI 早报' "$DOCS/home.html"; then echo "❌ home 加密后仍有明文,中止"; exit 1; fi
+            # home 门户:加密后不得残留板块明文标题(证明 home 已真加密)
+            if grep -q '全球 AI 早报' "$DOCS/home.html"; then echo "❌ home 加密后仍有明文,中止"; exit 1; fi
+            # 运营看板:加密后不得残留明文(余额敏感),且门用 lumora-admin 键
+            if [ -f "$DOCS/ops.html" ] && grep -q '问答语料源\|账户余额' "$DOCS/ops.html"; then echo "❌ ops 加密后仍有明文,中止"; exit 1; fi
             # 光之门:加密循环后 index.html 必须仍是明文光之门(未被误加密,否则用户看不到密码框)
             if ! grep -q 'playTunnel' "$DOCS/index.html"; then echo "❌ 光之门 index.html 被误加密,中止"; exit 1; fi
             # 双保险:任何凭证若在 docs 顶层页面留有明文(加密失效/漏加密),立即中止,绝不上线。

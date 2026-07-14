@@ -156,7 +156,7 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 </style></head><body><div class="wrap">
 <div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#e2c07e;margin-bottom:8px">LUMORA · 同光科技</div><h1>🌍 全球市场头条 · {news_date}</h1>
 <div class="sub">传导链视角:国际局势 → 美股 → A股 · 油气市场 → 莫桑比克/东非经营 · 三档 15-21 条 · 信源 Finnhub / 东财环球 / OilPrice / 财经RSS(真实链接可溯源)</div>
-<div class="nav"><a href="home.html">🏠 首页</a><a href="board.html">📡 股票看板</a><a href="africa.html">🌍 非洲科技</a><a href="ops.html">📊 运营看板</a><button onclick="newsUpd()" style="background:#f97316;color:#fff;border:none;border-radius:8px;padding:4px 12px;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit">🔁 刷新头条</button><span id="nupd" style="color:#94a6c4;font-size:12px;margin-left:6px"></span><span style="color:#94a6c4;margin-left:8px">🕐 本页生成 {BUILD_TS} 北京</span></div></div>
+<div class="nav"><a href="home.html">🏠 首页</a><a href="board.html">📡 股票看板</a><a href="africa.html">🌍 非洲科技</a><button onclick="newsUpd()" style="background:#f97316;color:#fff;border:none;border-radius:8px;padding:4px 12px;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit">🔁 刷新头条</button><span id="nupd" style="color:#94a6c4;font-size:12px;margin-left:6px"></span><span style="color:#94a6c4;margin-left:8px">🕐 本页生成 {BUILD_TS} 北京</span></div></div>
 <script>
 const DT="__DISPATCH_TOKEN__";
 async function newsUpd(){{
