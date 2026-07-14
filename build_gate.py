@@ -174,7 +174,7 @@ function playTunnel(html){
   let ctx=null; try{ctx=cv.getContext('2d');}catch(e){}
   let done=false;
   const inject=()=>{ if(done)return; done=true; injectHome(html); };
-  setTimeout(inject,2400); // 兜底:rAF 被后台节流也保证进站
+  setTimeout(inject,3600); // 兜底:rAF 被后台节流也保证进站(须晚于放慢后的正常 inject ~2.5s)
 
   if(reduce||!ctx){ // 降级:一层白幕淡入后直出
     cv.style.display='block';cv.style.background='#fff';cv.style.transition='opacity 0s';cv.style.opacity='0';
@@ -196,6 +196,9 @@ function playTunnel(html){
     P[i]={a:a,r0:maxR*(0.75+Math.random()*0.5),swirl:(Math.random()-0.5)*1.2,
       col:COLS[i],alpha:0.5+Math.random()*0.4,px:cx+Math.cos(a)*maxR,py:cy+Math.sin(a)*maxR};}
   const easeInCubic=p=>p*p*p, easeOutCubic=p=>1-Math.pow(1-p,3), easeOutQuart=p=>1-Math.pow(1-p,4);
+  // 时序常量(放慢汇聚→合束,让"多束光旋着汇成一束"看得清;原~1.9s→现~2.8s):
+  // CONV=汇聚时长(原900) · PEND=粒子收尽 · BEAM_S/D=合束起点/时长(原900/400) · BLOOM_S/D=绽开起点/时长
+  const CONV=1800,PEND=2350,ABSORB=550,BEAM_S=1500,BEAM_D=1000,BLOOM_S=2350,BLOOM_D=480;
   const t0=performance.now();
   function frame(now){
     const t=now-t0;
@@ -203,11 +206,11 @@ function playTunnel(html){
     ctx.globalCompositeOperation='source-over';
     ctx.fillStyle='rgba(7,13,26,.22)';ctx.fillRect(0,0,w,h);
     ctx.globalCompositeOperation='lighter';
-    // 阶段 A+B:粒子旋着汇聚
-    if(t<1300){
-      const p=easeInCubic(Math.min(t/900,1));
+    // 阶段 A+B:粒子旋着汇聚(放慢,swirl 拖尾更明显)
+    if(t<PEND){
+      const p=easeInCubic(Math.min(t/CONV,1));
       for(let i=0;i<N;i++){const pt=P[i];
-        const shrink=t<900?1:Math.max(0,1-(t-900)/250);
+        const shrink=t<CONV?1:Math.max(0,1-(t-CONV)/ABSORB);
         const r=pt.r0*(1-p)*shrink;
         const a=pt.a+pt.swirl*(1-p);
         const x=cx+Math.cos(a)*r,y=cy+Math.sin(a)*r;
@@ -216,21 +219,21 @@ function playTunnel(html){
           ctx.lineWidth=1+1.5*(1-r/maxR);ctx.stroke();}
         pt.px=x;pt.py=y;}
     }
-    // 阶段 B:合成一束水平光(金/蓝/白三层)
-    if(t>900&&t<1400){
-      const q=easeOutCubic(Math.min((t-900)/400,1)),half=q*w/2;
+    // 阶段 B:合成一束水平光(金/蓝/白三层)——放慢,横向拉伸看得清
+    if(t>BEAM_S&&t<BLOOM_S+200){
+      const q=easeOutCubic(Math.min((t-BEAM_S)/BEAM_D,1)),half=q*w/2;
       const beam=(lw,c)=>{ctx.beginPath();ctx.moveTo(cx-half,cy);ctx.lineTo(cx+half,cy);
         ctx.strokeStyle=c;ctx.lineWidth=lw;ctx.lineCap='round';ctx.stroke();};
       beam(5,'rgba(200,165,98,.5)');beam(3,'rgba(125,184,255,.6)');beam(1.5,'rgba(255,255,255,.95)');
     }
     // 中心光核
-    const R=14*Math.min(t/900,1)+(t>900?14*Math.min((t-900)/400,1):0);
+    const R=14*Math.min(t/CONV,1)+(t>CONV?14*Math.min((t-CONV)/BEAM_D,1):0);
     if(R>0){const grd=ctx.createRadialGradient(cx,cy,0,cx,cy,R);
       grd.addColorStop(0,'rgba(255,255,255,.95)');grd.addColorStop(.5,'rgba(226,192,126,.7)');grd.addColorStop(1,'rgba(226,192,126,0)');
       ctx.fillStyle=grd;ctx.beginPath();ctx.arc(cx,cy,R,0,TAU);ctx.fill();}
     // 阶段 C:绽开满屏白
-    if(t>1300){
-      const q=easeOutQuart(Math.min((t-1300)/350,1));
+    if(t>BLOOM_S){
+      const q=easeOutQuart(Math.min((t-BLOOM_S)/BLOOM_D,1));
       const rad=30+q*diag;
       const wg=ctx.createRadialGradient(cx,cy,0,cx,cy,rad);
       wg.addColorStop(0,'rgba(255,255,255,1)');wg.addColorStop(1,'rgba(255,255,255,0)');
