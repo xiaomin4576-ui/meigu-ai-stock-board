@@ -367,14 +367,17 @@ def qa_ctx(data, calls, calls_date, v):
     """给「盘势问答」组装紧凑语境:本期 19 票真实行情+研判+复盘记分卡。
     嵌进看板页,问答时与同光早报要闻一起喂给 DeepSeek——只答有据可依的,不编数字。"""
     sc = (v or {}).get("scorecard", {})
+    bench_m3 = (data.get("QQQ", {}) or {}).get("m3")   # 9因子相对强弱基准
     stocks = {}
     for tk, a in calls["stocks"].items():
         d = data.get(tk, {})
+        fscore, _fsp, fmiss = factor_score(d, bench_m3)   # 与卡片同款9因子评分,喂进语料(问"评分"能答准)
         stocks[tk] = {
             "名": d.get("name", tk), "市场": d.get("market", "US"), "价": d.get("price"),
             "涨1月%": d.get("m1"), "涨3月%": d.get("m3"), "涨6月%": d.get("m6"),
             "距52周高%": d.get("fromhi"), "MA50": d.get("ma50"), "MA200": d.get("ma200"),
             "年化波动%": d.get("vol"), "财报": d.get("earnings_date"),
+            "9因子评分": fscore, "评分覆盖": f"{9-len(fmiss)}/9因子" + ("·仅技术面" if len(fmiss) >= 3 else ""),
             "信号": a.get("sig"), "置信": a.get("conf"), "买入价": a.get("buy"),
             "目标价": a.get("tgt"), "预期收益": a.get("ret"),
             "逻辑": a.get("th"), "风险": a.get("rk"),
@@ -424,13 +427,12 @@ QA_TMPL = """
  <div class="qa-body" id="qa-body">
   <div class="qa-basis" onclick="qaBasisToggle()">ℹ️ 回答依据(点开看问答基于什么逻辑、关联了哪些数据)</div>
   <div class="qa-basis-body hide" id="qa-basis-body">
-   <b>每次回答喂给引擎三路语料 + 一套写死纪律:</b><br>
-   ① <b>本期看板语境(页内嵌)</b>:19 票真实行情(价/动量/MA50/MA200/波动/财报日)+ 本期研判(信号/买入价/目标价/逻辑/风险)+ 复盘记分卡(入场触及率/方向胜率/目标完成度);<br>
-   ② <b>同光AI早报要闻(实时拉取)</b>:Top5/Tier0/质量≥8 的最新 24 条,带「这意味着」决策洞察;<br>
-   ③ <b>全球市场头条(页内嵌)</b>:宏观/石油/科技三档最新一期,带传导链;<br>
-   ④ <b>实时行情工具(按需现抓)</b>:问最新价/市值/今日涨跌或质疑数据时,AI 自动实时抓取——A股/港股走腾讯行情、美股走 Finnhub,回答会同时给"实时 vs 看板快照"两套数字并解释差异;<br>
-   ⑤ <b>宏观快线(页内嵌)</b>:BLS官方非农/失业率/CPI(实际vs前值)、中美10Y利差、黄金原油实时、社融——宏观问题的数据锚;<br>
-   <b>纪律</b>:只答有据可依的、缺的直说"语料未覆盖"、"何时回转"必须转成【观察条件+信号+三情景时间量级】而非预测日期、绝不编造价格/券商目标价、末尾固定免责。每条回答下方会标注本次实际用到的语料。
+   <b>这是一个多步 AI 智能体(agent),不是单轮问答。它这样工作:</b><br>
+   <b>内嵌语境(每次都有)</b>:本期全池真实行情(价/动量/MA50/MA200/波动/财报日)+ 研判(信号/买卖点/逻辑/风险)+ 复盘记分卡 + 宏观快线(BLS非农/失业率/CPI实际vs前值、中美10Y利差、黄金原油、社融)+ 全球头条三档传导链。<br>
+   <b>可调用的工具(按需,多步编排)</b>:① 🔧 <b>实时行情</b>——问最新价/市值/今日涨跌或质疑数据时自动现抓(A股/港股腾讯、美股Finnhub),给"实时 vs 看板快照"两套数并解释差异;② 🔍 <b>同光早报全库检索</b>——问AI行业/某公司/政策监管时,按关键词从近千篇情报里检索最相关的。它会「看了一个工具结果再决定要不要调下一个」,最多推理 5 步。<br>
+   <b>⭐ 自我校验</b>:每条回答出来后,自动再跑一轮「数据溯源核查」——逐个核对回答里的数字/日期能否在语料或工具结果里找到出处,通过标🔍绿、有无据数据标⚠️黄提示你谨慎。<br>
+   <b>记忆</b>:本设备保留最近几轮问答(跨刷新/跨会话)。<br>
+   <b>纪律</b>:只答有据可依的、缺的直说"无法核实"、"何时回转"必转成【观察条件+信号+三情景时间量级】而非预测日期、绝不编造价格/券商目标价、末尾固定免责。
   </div>
   <div class="qa-chips">
    <button class="chip" onclick="qaAsk('看板里A股这几只普遍在跌,这轮回调大概什么时候能企稳回转?给出要观察的价位信号、催化剂和乐观/中性/悲观三种情景。')">📉 A股何时企稳?</button>
@@ -453,9 +455,14 @@ const QACTX=@QACTX@;
 let QAHIST=[], QABUSY=false, TGCACHE=null;
 // ===== 实时行情工具(function calling):A股/港股走腾讯行情(script注入,免key免CORS),美股走 Finnhub =====
 const QATOOLS=[{type:"function",function:{name:"get_realtime_quote",
-  description:"实时抓取标的当前行情:现价/涨跌%/今日高低/总市值(A股为亿元人民币,港股约亿港元,美股为百万美元)。凡用户问最新价格/市值/今天涨跌,或质疑看板数据、要求核实数字时,必须先调用本工具再回答。",
+  description:"实时抓取标的当前行情:现价/涨跌%/今日高低/总市值(A股为亿元人民币,港股约亿港元,美股为百万美元)。凡用户问最新价格/市值/今天涨跌,或质疑看板数据、要求核实数字时,必须先调用本工具再回答。可一次传多只做横向对比。",
   parameters:{type:"object",properties:{symbols:{type:"array",items:{type:"string"},
-    description:"标的代码,用看板写法:A股如 688256.SS / 001309.SZ,港股如 6869.HK,美股如 NVDA。最多8只。"}},required:["symbols"]}}}];
+    description:"标的代码,用看板写法:A股如 688256.SS / 001309.SZ,港股如 6869.HK / 0700.HK,美股如 NVDA。最多8只。"}},required:["symbols"]}}},
+  {type:"function",function:{name:"search_briefing",
+  description:"检索『同光企业AI早报』全库(近千篇AI行业情报,每条含标题/摘要/公司/质量分/『这意味着』决策洞察/原文链接)。凡问到AI行业动态、某公司或技术进展、产业链事件、政策监管、行业趋势时调用,按关键词检索最相关的若干条。比页内嵌语料覆盖更广、更精准。",
+  parameters:{type:"object",properties:{
+    keywords:{type:"array",items:{type:"string"},description:'检索关键词,如 ["英伟达","出口管制"] 或 ["寒武纪"] 或 ["稳定币","监管"]'},
+    limit:{type:"integer",description:"返回条数,默认12,最多20"}},required:["keywords"]}}}];
 function tcode(s){
   if(/\\.SS$/.test(s))return "sh"+s.split(".")[0];
   if(/\\.SZ$/.test(s))return "sz"+s.split(".")[0];
@@ -492,6 +499,61 @@ async function toolQuote(symbols){
     }catch(e){out[s]={错误:"实时抓取失败,请以看板快照为准"};}
   }
   return out;
+}
+// ===== 工具:同光早报全库检索(同源 fetch,可靠) =====
+let BRIEFALL=null;
+async function loadBriefing(){
+  if(BRIEFALL!==null)return BRIEFALL;
+  try{const j=await(await fetch('tongguang/data/index.json')).json();BRIEFALL=j.articles||[];}
+  catch(e){BRIEFALL=[];}
+  return BRIEFALL;
+}
+function fmtBrief(a){return '['+a.date+'] '+(a.title||'')+(a.meaning?(' → '+a.meaning):'')+(a.url?(' 〔'+a.url+'〕'):'');}
+async function toolBriefing(keywords,limit){
+  const arts=await loadBriefing();
+  if(!arts.length)return{错误:'同光早报语料本次不可用'};
+  const kws=(keywords||[]).map(function(k){return String(k).toLowerCase();});
+  function score(a){
+    const t=((a.title||'')+(a.summary||'')+(a.meaning||'')+((a.companies||[]).join(''))+((a.keywords||[]).join(''))).toLowerCase();
+    let s=0;kws.forEach(function(k){if(k&&t.indexOf(k)>=0)s++;});return s;
+  }
+  let hits=arts.map(function(a){return{a:a,s:score(a)};}).filter(function(x){return x.s>0;});
+  hits.sort(function(x,y){return (y.s-x.s)||String(y.a.date).localeCompare(String(x.a.date));});
+  const lim=Math.min(limit||12,20);
+  if(!hits.length){
+    const recent=arts.slice().sort(function(a,b){return String(b.date).localeCompare(String(a.date));}).slice(0,8);
+    return{提示:'关键词无精确命中,返回最新要闻',条目:recent.map(fmtBrief)};
+  }
+  return{命中:hits.length,语料截至:arts.reduce(function(m,a){return a.date>m?a.date:m;},''),条目:hits.slice(0,lim).map(function(x){return fmtBrief(x.a);})};
+}
+async function dispatchTool(name,args){
+  try{
+    if(name==='get_realtime_quote')return await toolQuote(args.symbols||[]);
+    if(name==='search_briefing')return await toolBriefing(args.keywords||[],args.limit);
+  }catch(e){return{错误:'工具执行异常:'+String(e).slice(0,80)};}
+  return{错误:'未知工具 '+name};
+}
+// ===== 记忆:localStorage 持久化(跨刷新/跨会话) =====
+function qaLoadHist(){try{QAHIST=JSON.parse(localStorage.getItem('lumora-qa-hist')||'[]')||[];}catch(e){QAHIST=[];}}
+function qaSaveHist(){try{localStorage.setItem('lumora-qa-hist',JSON.stringify(QAHIST.slice(-6)));}catch(e){}}
+// ===== 自我校验轮:核查回答里的数字/日期能否溯源到语料与工具结果(降幻觉,金融最值) =====
+async function qaVerify(baseMsgs,ans,abox){
+  try{
+    const vmsgs=baseMsgs.slice(1).concat([  // 去掉原 system,带上全部语料+工具结果
+      {role:'assistant',content:ans},
+      {role:'user',content:'逐一核对上面这条回答里出现的每个具体数字/价格/日期/百分比。判定规则:能在此前对话的【看板数据或工具结果】里找到对应出处的一律【有据】,绝不列入 issues;只有【完全找不到出处、或与语料明显矛盾】的才算无据。常识推理/情景推演/区间目标价估计都算有据,不列入。把无据的点列入 issues(每条写:该数字+为何无据,≤20字)。若全部有据→必须返回 {"ok":true,"issues":[]}。只返回JSON。'}
+    ]);
+    const r=await fetch('https://api.deepseek.com/v1/chat/completions',{method:'POST',
+      headers:{'Content-Type':'application/json','Authorization':'Bearer '+QK},
+      body:JSON.stringify({model:'deepseek-chat',messages:[{role:'system',content:'你只做事实溯源核查,只返回JSON。'}].concat(vmsgs),response_format:{type:'json_object'},temperature:0,max_tokens:400})});
+    const el=abox.querySelector('.qa-verify');
+    if(!r.ok){if(el)el.remove();return;}
+    const v=JSON.parse((await r.json()).choices[0].message.content);
+    if(el){
+      if(v.ok){el.className='qa-ok';el.textContent='🔍 自校验通过:引用的数据均可溯源';}
+      else{el.className='qa-warn';el.textContent='⚠️ 自校验提示(以下数据点未能溯源,请谨慎):'+(v.issues||[]).slice(0,3).map(function(x){return String(x);}).join('；');}
+    }
+  }catch(e){const el=abox.querySelector('.qa-verify');if(el)el.remove();}
 }
 function qel(i){return document.getElementById(i);}
 function qaToggle(){const b=qel('qa-body');b.classList.toggle('hide');qel('qa-arrow').textContent=b.classList.contains('hide')?'▸':'▾';}
@@ -540,73 +602,48 @@ async function qaSend(){
   if(!QK||QK.indexOf('__QA_KEY')>=0){qaBubble('qa-a','⚠️ 问答引擎未配置(本地预览版无凭证,线上 andy4576.com 输密码后可用)。');return;}
   QABUSY=true;qel('qa-send').disabled=true;qel('qa-in').value='';
   qaBubble('qa-u',qaEsc(q));
-  const abox=qaBubble('qa-a','<span class="qa-wait">🤖 研判中…</span>');
+  const abox=qaBubble('qa-a','<span class="qa-wait">🤔 研判中…</span>');
   try{
-    const tg=await tgNews();
-    const sys='你是一名华尔街二级市场交易员+buy-side分析师,长期跟踪美股AI产业链与A股/港股算力链,现在回答看板主人的盘势问题。硬性纪律:\\n1) 你有一个 get_realtime_quote 工具能抓标的的实时行情/市值——凡用户问最新价格/市值/今天涨跌,或质疑看板数据、要求核实/扒最新数据时,【必须先调用工具】拿实时数再回答,并同时给出"实时(刚抓取,标注行情时间)"与"看板快照(asof日期)"两套数字、解释差异原因(如盘中涨跌)。\\n2) 其余信息只基于给到的【看板数据】(内含"全球头条"字段)与【同光早报要闻】;语料和工具都覆盖不到的直说"无法核实",绝不编造价格/日期/券商目标价。\\n3) 遇到"何时回转/何时企稳"类问题:未来无法预测——必须转化为【条件与信号】:关键价位(站回MA50/跌破MA200)、催化剂(财报日/头条宏观变量)、乐观/中性/悲观三情景时间量级,明说是情景推演不是预测。\\n4) 分析透镜(可用的推理方法,非事实):①宏观数据用"实际vs前值"对照并看边际变化(语境内含"宏观快线"字段:BLS非农/失业率/CPI、中美10Y利差、黄金原油实时、社融);②大事件按"事件本身→市场反应→政策意图"三层递进;③跨资产资金流视角(美元资产/黄金/加密的轮动);④要人表态(美联储主席/财长/央行)是高权重信号。\\n5) 结论先行、分点、简洁;引用数据注明出处与时点。\\n6) 末尾固定一句:仅研究示范,非投资建议。用中文回答。';
-    const ctxblk='【看板数据(asof '+QACTX.asof+',为快照非实时;实时请调工具)】\\n'+JSON.stringify(QACTX)+(tg?('\\n\\n【'+tg+'】'):'\\n\\n(同光早报语料本次不可用)');
+    const sys='你是一名华尔街二级市场交易员+buy-side分析师,长期跟踪美股AI产业链与A股/港股算力链,以「无废话」直给结论的方式回答看板主人的盘势问题。\\n【你有两个工具,可多步编排(看了一个结果再决定要不要调另一个)】\\n· get_realtime_quote:抓标的实时行情/市值——问最新价/市值/今日涨跌、或质疑看板数据、要核实时【必调】,并同时给"实时(标行情时间)vs 看板快照(asof)"两套数并解释差异。可一次多只做对比。\\n· search_briefing:检索同光AI早报全库——问到AI行业动态/某公司或技术进展/政策监管/产业链事件时调用,按关键词检索。\\n【看板数据(内嵌)已含】每票近1/3/6月涨幅、距52周高、52周高低、MA50/MA200、年化波动、9因子评分、买卖点研判、复盘记分卡,以及"宏观快线"(BLS非农/失业率/CPI实际vs前值、中美10Y利差、黄金原油、社融)与"全球头条"。历史走势/回撤/宏观类问题优先用这些已有字段,不足再调工具。\\n【硬性纪律】\\n1) 只基于内嵌语料与工具结果回答;两者都覆盖不到的直说"无法核实",绝不编造价格/日期/券商目标价。\\n2) "何时回转/企稳"类:未来不可预测→转成【条件与信号】:关键价位(站回MA50/跌破MA200)、催化剂(财报日/宏观变量)、乐观/中性/悲观三情景时间量级,明说是情景推演。\\n3) 分析透镜(方法非事实):宏观用"实际vs前值"看边际;大事件按"事件→市场反应→政策意图"三层递进;跨资产资金流(美元/黄金/加密轮动);要人表态(美联储主席/财长/央行)高权重。\\n4) 结论先行、分点、简洁、注明出处与时点。回答末尾会自动跑一轮数据溯源自校验,所以务必只用有据可查的数字。\\n5) 末尾固定:仅研究示范,非投资建议。用中文。';
     const msgs=[{role:'system',content:sys}];
     QAHIST.slice(-3).forEach(function(h){msgs.push({role:'user',content:h.q});msgs.push({role:'assistant',content:h.a});});
-    msgs.push({role:'user',content:ctxblk+'\\n\\n【问题】'+q});
-    // ―― 第一轮:让引擎决定要不要抓实时数据(非流式,带工具) ――
-    let liveNote='';
-    const r1=await fetch('https://api.deepseek.com/v1/chat/completions',{method:'POST',
-      headers:{'Content-Type':'application/json','Authorization':'Bearer '+QK},
-      body:JSON.stringify({model:'deepseek-chat',messages:msgs,tools:QATOOLS,temperature:0.3,max_tokens:1500})});
-    if(!r1.ok){abox.innerHTML='❌ 引擎返回 '+r1.status+'(密钥失效或限流,稍后再试)';return;}
-    const j1=await r1.json();
-    const m1=j1.choices&&j1.choices[0]&&j1.choices[0].message;
-    if(m1&&m1.tool_calls&&m1.tool_calls.length){
-      msgs.push(m1);
-      for(const tc of m1.tool_calls){
-        let args={};try{args=JSON.parse(tc.function.arguments||'{}');}catch(e){}
-        const syms=args.symbols||[];
-        abox.innerHTML='<span class="qa-wait">🔧 正在实时抓取 '+syms.join('、')+' 行情…</span>';
-        const res=await toolQuote(syms);
-        liveNote=' · 实时行情✓('+syms.length+'只·刚抓取)';
-        msgs.push({role:'tool',tool_call_id:tc.id,content:JSON.stringify(res)});
+    msgs.push({role:'user',content:'【看板数据(asof '+QACTX.asof+',含研判/记分卡/宏观快线/全球头条,为快照)】\\n'+JSON.stringify(QACTX)+'\\n\\n【问题】'+q});
+    // ―― ReAct 多步循环:看板核心内嵌 + 按需调工具,最多5步 ――
+    const used=[];let finalAns=null;
+    for(let step=0;step<5;step++){
+      if(step>0)abox.innerHTML='<span class="qa-wait">🤔 第 '+(step+1)+' 步推理…</span>';
+      const r=await fetch('https://api.deepseek.com/v1/chat/completions',{method:'POST',
+        headers:{'Content-Type':'application/json','Authorization':'Bearer '+QK},
+        body:JSON.stringify({model:'deepseek-chat',messages:msgs,tools:QATOOLS,temperature:0.3,max_tokens:1600})});
+      if(!r.ok){abox.innerHTML='❌ 引擎返回 '+r.status+'(密钥失效或限流,稍后再试)';return;}
+      const m=(await r.json()).choices[0].message;
+      if(m.tool_calls&&m.tool_calls.length){
+        msgs.push(m);
+        for(const tc of m.tool_calls){
+          const nm=tc.function.name;let args={};try{args=JSON.parse(tc.function.arguments||'{}');}catch(e){}
+          const label=nm==='get_realtime_quote'?('🔧 实时抓取 '+((args.symbols||[]).join('、'))):('🔍 检索同光早报 '+((args.keywords||[]).join('/')));
+          abox.innerHTML='<span class="qa-wait">'+label+' …</span>';
+          const res=await dispatchTool(nm,args);used.push(nm);
+          msgs.push({role:'tool',tool_call_id:tc.id,content:JSON.stringify(res)});
+        }
+        continue;
       }
-      abox.innerHTML='<span class="qa-wait">🤖 已拿到实时数据,研判中…</span>';
-    }else if(m1&&m1.content){
-      // 引擎判断无需实时数据,第一轮已给出完整回答
-      const ans1=m1.content;
-      abox.innerHTML=qaMd(ans1)+'<div class="qa-src">📎 本次依据:看板研判('+QACTX.asof+'·19票+记分卡) · 同光要闻'+(tg?'✓':'✗')+' · 全球头条'+((QACTX['全球头条']&&QACTX['全球头条']['条目'])?'✓':'✗')+' · 未动用实时抓取</div>';
-      QAHIST.push({q:q,a:ans1});if(QAHIST.length>6)QAHIST.shift();
-      return;
+      finalAns=m.content||'';break;
     }
-    // ―― 第二轮:携带实时数据流式作答 ――
-    const resp=await fetch('https://api.deepseek.com/v1/chat/completions',{method:'POST',
-      headers:{'Content-Type':'application/json','Authorization':'Bearer '+QK},
-      body:JSON.stringify({model:'deepseek-chat',messages:msgs,stream:true,temperature:0.3,max_tokens:1500})});
-    if(!resp.ok){abox.innerHTML='❌ 引擎返回 '+resp.status+'(密钥失效或限流,稍后再试)';return;}
-    const rd=resp.body.getReader(),dec=new TextDecoder();let buf='',ans='';
-    while(true){
-      const c=await rd.read();if(c.done)break;
-      buf+=dec.decode(c.value,{stream:true});
-      let i;
-      while((i=buf.indexOf('\\n'))>=0){
-        const line=buf.slice(0,i).trim();buf=buf.slice(i+1);
-        if(line.indexOf('data:')!==0)continue;
-        const dta=line.slice(5).trim();
-        if(dta==='[DONE]')continue;
-        try{
-          const j=JSON.parse(dta);
-          const t=j.choices&&j.choices[0]&&j.choices[0].delta&&j.choices[0].delta.content;
-          if(t){ans+=t;abox.innerHTML=qaMd(ans);}
-        }catch(e){}
-      }
-    }
-    if(!ans){abox.innerHTML='❌ 未收到回答,请重试';}
-    else{
-      QAHIST.push({q:q,a:ans});if(QAHIST.length>6)QAHIST.shift();
-      const nw=QACTX['全球头条'];
-      abox.innerHTML+='<div class="qa-src">📎 本次依据:看板研判('+QACTX.asof+'·19票+记分卡) · 同光要闻'+(tg?'✓':'✗不可用')+' · 全球头条'+(nw&&nw['条目']&&nw['条目'].length?('✓('+nw.date+'·'+nw['条目'].length+'条)'):'✗暂无')+liveNote+'</div>';
-      abox.scrollIntoView({block:'nearest'});
-    }
+    if(finalAns===null)finalAns='(多步推理已达上限,请把问题拆细一点重问)';
+    const uq=used.filter(function(x){return x==='get_realtime_quote';}).length;
+    const ub=used.filter(function(x){return x==='search_briefing';}).length;
+    const nw=QACTX['全球头条'];
+    const src='<div class="qa-src">📎 依据:看板研判('+QACTX.asof+') · 宏观快线'+(QACTX['宏观快线']?'✓':'✗')+' · 全球头条'+((nw&&nw['条目']&&nw['条目'].length)?'✓':'✗')+(uq?(' · 实时行情✓×'+uq):'')+(ub?(' · 同光检索✓×'+ub):'')+((!uq&&!ub)?' · 未调用工具':'')+'</div>';
+    abox.innerHTML=qaMd(finalAns)+src+'<span class="qa-verify">🔍 数据溯源自校验中…</span>';
+    abox.scrollIntoView({block:'nearest'});
+    QAHIST.push({q:q,a:finalAns});if(QAHIST.length>6)QAHIST.shift();qaSaveHist();
+    qaVerify(msgs,finalAns,abox);
   }catch(e){abox.innerHTML='❌ 网络出错:'+qaEsc(String(e));}
   finally{QABUSY=false;qel('qa-send').disabled=false;}
 }
 qel('qa-in').addEventListener('keydown',function(e){if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();qaSend();}});
+qaLoadHist();
 </script>"""
 
 
@@ -754,6 +791,8 @@ body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0b1120;colo
 .qa-basis-body{{font-size:11.5px;color:#94a3b8;background:rgba(51,65,85,.25);border:1px solid #334155;border-radius:10px;padding:10px 13px;margin-bottom:10px;line-height:1.8}}
 .qa-basis-body.hide{{display:none}}
 .qa-src{{font-size:10.5px;color:#64748b;border-top:1px dashed rgba(100,116,139,.4);margin-top:8px;padding-top:6px}}
+.qa-verify,.qa-ok,.qa-warn{{font-size:10.5px;display:block;margin-top:3px;line-height:1.6}}
+.qa-verify{{color:#94a3b8}}.qa-ok{{color:#4ade80}}.qa-warn{{color:#fbbf24}}
 .mstrip{{background:#101b33;border:1px solid rgba(96,165,250,.3);border-radius:11px;padding:9px 14px;margin-bottom:14px;font-size:12px;color:#cbd5e1;line-height:1.9}}
 .mstrip b{{color:#f1f5f9}}
 .xbtn{{margin-top:9px;font-size:11.5px;font-weight:700;color:#93c5fd;cursor:pointer;user-select:none;border-top:1px dashed rgba(51,65,85,.6);padding-top:7px}}
