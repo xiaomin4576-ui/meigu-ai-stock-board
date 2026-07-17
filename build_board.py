@@ -146,6 +146,34 @@ def _mid(s):
     return (float(nums[0]) + float(nums[1])) / 2 if len(nums) >= 2 else (float(nums[0]) if nums else None)
 
 
+def valuation_line(d, a):
+    """目标价的基本面估值交叉验证(2026-07 审计第二批):金融教授指'目标价是画前高线、无基本面锚'。
+    用 forward PE + 一致 EPS 增速给目标价一个【启发式估值锚】:现估值贵不贵(PEG=1 参照)、目标价隐含 PE 是否还站得住。
+    诚实边界:PEG=1(合理PE≈增速)是 Lynch 启发式、非 DCF/EV-EBITDA(那需更全财务数据管线,见 METRICS 第二批待办);
+    TTM 高基数增速封顶 40(与评分同口径,免一次性跳升把估值判贱)。缺 fwd_pe/增速则不显示(不硬凑)。"""
+    an = d.get("analyst", {}) or {}
+    fpe, eg, px = an.get("fwd_pe"), an.get("eps_growth"), d.get("price")
+    if not (fpe and eg is not None and px):
+        return ""
+    if eg <= 0:
+        return ('💰 <b>估值锚:</b>现 fwdPE ' + str(fpe) +
+                ' · 增速≤0 无 PEG 估值锚,目标价须由题材/周期反转驱动 <span style="color:#94a6c4">(非DCF)</span>')
+    g_fair = min(eg, 40)                              # 合理PE参照(增速封顶,免TTM高基数把估值判太贱)
+    ratio = fpe / g_fair
+    verdict = ('<b style="color:#4ade80">偏便宜</b>' if ratio <= 0.8 else
+               '<b style="color:#ff8080">偏贵</b>' if ratio >= 1.5 else '<b style="color:#fbbf24">估值合理</b>')
+    tgm = _mid(a.get("tgt"))
+    tgt_str = ""
+    if tgm and tgm > 0:
+        tgt_fpe = round(fpe * tgm / px, 1)
+        ok = tgt_fpe <= g_fair * 1.5
+        tgt_str = (f' · 目标价隐含 fwdPE <b>{tgt_fpe}</b> → '
+                   + ('<span style="color:#4ade80">仍在合理区</span>' if ok else '<span style="color:#fbbf24">偏高,须增长兑现</span>'))
+    cap_note = f"(增速{eg:.0f}%封顶{g_fair:.0f})" if eg > g_fair else ""
+    return (f'💰 <b>估值锚:</b>现 fwdPE {fpe} vs 增长合理PE~{round(g_fair)}{cap_note} → {verdict}{tgt_str} '
+            f'<span style="color:#94a6c4">(PEG=1启发式·非DCF)</span>')
+
+
 def audit_section(data):
     n = len(data)
     px = sum(1 for v in data.values() if v.get("price") is not None)
@@ -459,6 +487,7 @@ def card(i, tk, d, a, bench_m3=None, hist=None):
     sc, sp, miss = factor_score(d, bench_m3)
     cov = 9 - len(miss)                            # 可算【原始】因子数(满9);sp 已按共线分组≈6项,不能用 len(sp)
     low_data = cov <= 3                             # 可算因子≤3 → 数据不足,不给确定评分
+    val_html = valuation_line(d, a)                # 第二批:目标价的基本面估值锚(启发式,给"画前高线"一个估值交叉验证)
     miss_note = f"(缺:{'、'.join(miss)})" if miss else ""
     tech_only = {"共识上行", "评级", "估值PEG"}.issubset(set(miss))   # 基本面三因子全缺 → 仅技术面,不冒充满分评分
     score_lbl = "技术分" if tech_only else "评分"
@@ -551,6 +580,7 @@ def card(i, tk, d, a, bench_m3=None, hist=None):
     <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">{a.get('ret','')}</div></div></div>
   <div class="cons">{cons}{earn}{unlock_html}</div>
   <div class="rr">🛡 风控 止损 {stop_lbl}(≈{(cs + str(stop)) if stop is not None else '—'}) · 风险收益比 <b>{rr if rr is not None else '—'}:1</b>{rrflag}　·　📊 {'数据不足·目标价为题材推演非可复算估值' if low_data else f'{score_lbl} {sc}/100({cov}/9因子{"·仅技术面,估值/共识未评" if tech_only else ""}) = {sp_str}{miss_note}'}</div>
+  {f'<div class="valn">{val_html}</div>' if val_html else ''}
   <div class="th">💡 {a.get('th','')}</div>
   {news_html}
   <div class="rk2">⚠️ 风险:{a.get('rk','')}　·　52周 {cs}{d.get('lo','')}–{cs}{d.get('hi','')}　·　MA20 {cs}{d.get('ma20','—')} / MA50 {cs}{d.get('ma50','')} / MA200 {cs}{d.get('ma200','')}</div>
@@ -1084,6 +1114,7 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 .kl{{font-size:12px;color:#94a6c4;margin-bottom:4px}}
 .kv{{font-size:16px;font-weight:800}}.kv.buy{{color:#4ade80}}.kv.tgt{{color:#33d6c5}}.kv.ret{{color:#fbbf24}}
 .cons{{font-size:12px;color:#c9d5e8;background:rgba(45,212,191,.07);border-radius:8px;padding:7px 10px;margin-top:6px}}
+.valn{{font-size:12px;color:#c9d5e8;background:rgba(51,214,197,.06);border-radius:8px;padding:6px 10px;margin-top:6px}}
 .th{{font-size:14px;color:#c9d5e8;padding:8px 0 4px;border-top:1px solid rgba(51,65,85,.5);margin-top:6px}}
 .news{{font-size:12px;color:#94a6c4;line-height:1.8;margin-bottom:4px}}
 .news a{{color:#7ab8ff;text-decoration:none}}.news a:hover{{text-decoration:underline}}.src{{color:#94a6c4;font-size:12px}}
