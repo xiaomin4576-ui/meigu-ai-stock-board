@@ -337,14 +337,28 @@ def evidence_section(data):
     bt = jload(os.path.join(STATE, "backtest.json"))
     bt_html = ""
     if bt:
-        # 审计F3:回测是静态历史结果(asof/规则/universe 与现行池及分档FRAME不同),必须动态标注口径边界,
-        # 不许以"本策略实测"的面目示人(此前未标日期、universe 还含已清退的 AMD)
+        # 第二批:回测已改测【现行分档策略】(含交易成本+跳空穿止损+置信区间+分年度),不再是错配的旧简化规则。
         uni_n = len(bt.get("universe") or [])
-        bt_html = (f'📊 <b>策略回测(测于 {bt.get("asof","?")} · 过去 {bt.get("lookback","3y")} 真实数据 · {bt.get("signals")} 次信号):</b> '
-                   f'命中率 <b style="color:#fbbf24">{bt.get("win_rate_pct")}%</b> · 止损 {bt.get("stopped_pct")}% · '
-                   f'实际盈亏比 <b style="color:#4ade80">{bt.get("realized_rr")}:1</b> · 每笔均值 {bt.get("avg_trade_return_pct")}%<br>'
-                   f'<span style="color:#94a6c4">→ 命中率仅 {bt.get("win_rate_pct")}%(<b style="color:#ff8080">绝非 90%</b>),靠 {bt.get("realized_rr")}:1 盈亏比才正期望——<b>赚钱靠风控不靠高胜率</b>。{bt.get("caveat","")}'
-                   f'<br>⚠️ 口径:规则「{bt.get("rule","")}」为可回测简化版,仅覆盖当时美股 {uni_n} 票(含后已调出标的),≠ 现行 19 票池与分档买点框架;用途是<b>证伪"高胜率"承诺</b>,非当前策略实测。</span>')
+        ci = bt.get("win_rate_ci95") or [None, None]
+        ci_str = f'（95%CI {ci[0]}–{ci[1]}%）' if ci[0] is not None else ""
+        py = bt.get("per_year_win_rate") or {}
+        py_str = " · ".join(f'{y}:{v.get("win_rate")}%' for y, v in sorted(py.items())) if py else ""
+        sharpe = bt.get("per_trade_sharpe"); mc = bt.get("max_consecutive_losses"); gap = bt.get("gap_slippage_trades")
+        is_current = bt.get("strategy") == "current_tiered"
+        head = ("📊 <b>现行分档策略回测(过去 {lb} 真实数据 · {n} 笔机械信号 · 测于 {asof}):</b> "
+                if is_current else "📊 <b>策略回测(过去 {lb} · {n} 次信号 · 测于 {asof}):</b> ").format(
+                    lb=bt.get("lookback", "5y"), n=bt.get("signals"), asof=bt.get("asof", "?"))
+        bt_html = (head +
+                   f'命中率 <b style="color:#fbbf24">{bt.get("win_rate_pct")}%</b>{ci_str} · 止损 {bt.get("stopped_pct")}% · '
+                   f'实际盈亏比 <b style="color:#4ade80">{bt.get("realized_rr")}:1</b> · 每笔均值 {bt.get("avg_trade_return_pct")}% · '
+                   f'每笔夏普 {sharpe} · 最大连亏 {mc} 笔<br>'
+                   + (f'<span style="color:#c9d5e8">分年度命中(看体制依赖):{py_str}</span><br>' if py_str else "")
+                   + f'<span style="color:#94a6c4">→ 命中率仅 <b style="color:#ff8080">{bt.get("win_rate_pct")}%</b>(绝非 90%),'
+                   f'靠 {bt.get("realized_rr")}:1 盈亏比才正期望——<b>赚钱靠风控不靠高胜率</b>;含往返成本 {bt.get("tx_cost_pct","?")}%、'
+                   f'{gap} 笔跳空穿止损按开盘成交(建模一字跌停/缺口不可按止损价成交)。'
+                   f'<br>⚠️ 边界:①池为当前 {uni_n} 只 AI 赢家,幸存者/牛市偏差严重美化;②只测<b>机械规则骨架</b>'
+                   f'(入场/分档止损/R:R目标/持有),LLM 逐票信号与目标价<b>无法历史重放</b>,非整套研判背书;'
+                   f'③规则事前设定近似样本外、非严格 walk-forward。用途是给规则边际一个<b>可证伪的下限</b>。</span>')
     return f'<div class="evid"><div class="ev-reg">{regime_line(data)}</div><div class="ev-bt">{bt_html}</div></div>'
 
 

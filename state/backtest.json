@@ -1,36 +1,86 @@
 {
-  "asof": "2026-06-16",
-  "rule": "上升趋势(>MA200)回调至MA50附近入场,目标+25%/止损-10%,持有≤126日",
+  "asof": "2026-07-17",
+  "strategy": "current_tiered",
+  "rule": "上升趋势(>MA200)回踩至结构支撑(强势档锚MA20/破位档锚MA50)入场·分档止损(强势-6%/破位-10%)·目标按R:R2.5反推·持有≤270日·扣往返成本0.2%·跳空穿止损按开盘成交",
   "universe": [
     "NVDA",
     "AVGO",
     "TSM",
-    "AMD",
     "MU",
     "MRVL",
     "ANET",
     "CRDO",
     "COHR",
-    "VRT"
+    "VRT",
+    "600522.SS",
+    "688981.SS",
+    "688256.SS",
+    "688052.SS",
+    "001309.SZ",
+    "300005.SZ",
+    "603986.SS",
+    "002384.SZ",
+    "6869.HK",
+    "0700.HK"
   ],
-  "lookback": "3y",
-  "signals": 97,
+  "lookback": "5y",
+  "horizon_days": 270,
+  "signals": 562,
   "per_stock_signals": {
-    "NVDA": 8,
-    "AVGO": 14,
-    "TSM": 12,
-    "AMD": 7,
-    "MU": 6,
-    "MRVL": 9,
-    "ANET": 11,
-    "CRDO": 8,
-    "COHR": 11,
-    "VRT": 11
+    "NVDA": 35,
+    "AVGO": 42,
+    "TSM": 36,
+    "MU": 31,
+    "MRVL": 26,
+    "ANET": 40,
+    "CRDO": 31,
+    "COHR": 30,
+    "VRT": 34,
+    "600522.SS": 24,
+    "688981.SS": 29,
+    "688256.SS": 29,
+    "688052.SS": 16,
+    "001309.SZ": 24,
+    "300005.SZ": 27,
+    "603986.SS": 25,
+    "002384.SZ": 28,
+    "6869.HK": 28,
+    "0700.HK": 27
   },
-  "win_rate_pct": 42,
-  "stopped_pct": 52,
-  "timeout_pct": 6,
-  "avg_trade_return_pct": 5.8,
-  "realized_rr": 2.5,
-  "caveat": "测试标的为AI大牛市赢家,存在幸存者/行情偏差,结果被严重美化;不代表未来表现,绝非承诺胜率。"
+  "win_rate_pct": 40,
+  "win_rate_ci95": [
+    36,
+    44
+  ],
+  "stopped_pct": 59,
+  "timeout_pct": 1,
+  "avg_trade_return_pct": 2.3,
+  "realized_rr": 2.27,
+  "per_trade_sharpe": 0.19,
+  "max_consecutive_losses": 12,
+  "gap_slippage_trades": 44,
+  "tx_cost_pct": 0.2,
+  "per_year_win_rate": {
+    "2022": {
+      "n": 33,
+      "win_rate": 21
+    },
+    "2023": {
+      "n": 129,
+      "win_rate": 40
+    },
+    "2024": {
+      "n": 150,
+      "win_rate": 41
+    },
+    "2025": {
+      "n": 159,
+      "win_rate": 48
+    },
+    "2026": {
+      "n": 91,
+      "win_rate": 32
+    }
+  },
+  "caveat": "幸存者/牛市偏差:池为当前AI赢家,历史被美化,绝非未来更非高胜率；且本回测只测【机械规则骨架(入场/分档止损/R:R目标/持有)】,LLM逐票信号与目标价无法历史重放,不代表整套研判；A股涨跌停/T+1仅以'跳空穿止损按开盘成交'近似,规则为事前设定近似样本外但非严格walk-forward。"
 }

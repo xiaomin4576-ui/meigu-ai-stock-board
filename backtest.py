@@ -1,116 +1,171 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""⑦ 历史回测:用真实 3 年 yfinance 数据,测本策略【核心规则】的实际表现,
-   用证据代替"承诺精准度"。规则(本 skill 的简化可回测版):
-     · 上升趋势(收盘 > MA200)中
-     · 回调到 MA50 附近(收盘在 MA50 的 -2%~+5%)→ 入场
-     · 目标 +25% / 止损 -10%(R:R = 2.5:1),最长持有 126 个交易日(~6月)
-     · 同一标的同时只持一仓(解决后再开新仓)
-   输出:命中率 / 止损率 / 超时率 / 平均盈亏 / 实际 R:R → state/backtest.json
-⚠️ 诚实警告:测试标的是 AI 大牛市里的赢家,结果被行情严重美化,不代表未来,更非 90%。"""
-import json, os, time, datetime
-import requests
-import yfinance as yf
+"""⑦ 历史回测(2026-07 指标审计第二批:改测【现行分档策略】,替换此前错配的 MA50 简化规则)。
+   金融教授关切"现行策略零回测"——本脚本用真实 ~5 年 yfinance 数据,尽量忠实地回测当前看板在用的规则骨架:
+     · 趋势过滤:收盘 > MA200(上升趋势)
+     · 买点:回踩到结构支撑(强势档=价>MA20→锚 MA20;破位档→锚 MA50)附近入场
+     · 分档止损:强势档 -6% / 破位档 -10%(与 build_board 卡片同口径)
+     · 目标:按 R:R=2.5 反推(强势档 +15% / 破位档 +25%),持有 ≤ 270 交易日(现行长期视角)
+     · 交易成本:每笔往返 -0.20%(手续费+滑点近似)
+     · 跳空穿止损按【当日开盘价】成交(建模"一字跌停/跳空缺口 止损无法在止损价成交"的真实损失)
+   产出:命中率(+95%置信区间)/止损率/超时率/平均盈亏/实际R:R/每笔夏普/最大连亏/分年度胜率 → state/backtest.json
+   ⚠️ 三重诚实边界(务必随结果展示):
+     ① 幸存者/行情偏差:池=当前 AI 牛市赢家,历史被严重美化,绝非未来、绝非高胜率;
+     ② 规则骨架 ≠ 全系统:LLM 逐票信号与目标价【无法历史重放】,本回测只测机械的入场/止损/目标/持有骨架,
+        用途是给"规则的边际"一个可证伪的下限,不是给整套研判背书;
+     ③ 规则为事前设定(未在本段数据上调参),故全期结果近似样本外,但仍非严格 walk-forward 调参检验。"""
+import json, os, datetime, math, warnings
+warnings.filterwarnings("ignore")
 
 DIR = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(DIR, "state")
-TARGET, STOP, MAXHOLD = 0.25, 0.10, 126
-UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-      "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36")
+HORIZON = 270            # 现行长期持有窗口(交易日近似)
+RR = 2.5                 # 目标按 R:R=2.5 反推(与页面自述盈亏比一致)
+TX = 0.002               # 每笔往返交易成本(手续费+滑点近似)
+COOLDOWN = 20            # 平仓后冷却交易日,避免同票重叠开仓
+STRONG_STOP, WEAK_STOP = 0.06, 0.10
 
 
-def _session():
-    """带浏览器 UA 的 session,降低 GitHub Actions 数据中心 IP 被 Yahoo 限流概率。"""
-    s = requests.Session()
-    s.headers.update({"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9"})
-    return s
+def _limit_of(tk):
+    """A股/创业板/科创板 日涨跌停幅度(用于诚实标注;68/30 为 20%,主板 10%)。"""
+    if tk.endswith((".SS", ".SZ")):
+        code = tk.split(".")[0]
+        return 0.20 if code[:2] in ("68", "30") else 0.10
+    return None
 
 
-_SESS = _session()
-
-
-def backtest_one(tk):
-    # 简单重试:限流时退避重试 2 次(总 3 次),仍失败抛出由 main 记 err 跳过
-    df = None
-    for i in range(3):
-        try:
-            df = yf.Ticker(tk, session=_SESS).history(period="3y", interval="1d", auto_adjust=True)
-            if df is not None and len(df) > 0:
-                break
-        except Exception:
-            pass
-        time.sleep(2.0 * (2 ** i))
-    if df is None or len(df) == 0:
-        raise RuntimeError("行情为空(可能被限流)")
-    c = df["Close"].dropna()
-    lo = df["Low"].dropna()
-    hi = df["High"].dropna()
-    if len(c) < 250:
-        return []
-    ma50 = c.rolling(50).mean()
-    ma200 = c.rolling(200).mean()
-    trades, i, n = [], 200, len(c)
+def backtest_one(tk, close, open_, low, high, ma20, ma50, ma200):
+    trades = []
+    n = len(close)
+    i = 200
     while i < n - 1:
-        px = float(c.iloc[i])
-        m50, m200 = float(ma50.iloc[i]), float(ma200.iloc[i])
-        if m50 != m50 or m200 != m200:  # NaN
+        px, m20, m50, m200 = close[i], ma20[i], ma50[i], ma200[i]
+        if any(x != x for x in (px, m20, m50, m200)):   # NaN
             i += 1; continue
-        # 上升趋势 + 回调到 MA50 附近
-        if px > m200 and (m50 * 0.98) <= px <= (m50 * 1.05):
+        strong = px > m20
+        anchor = m20 if strong else m50
+        # 上升趋势 + 回踩到锚定支撑附近(支撑上方 0~6% 视为"到位可挂单入场")
+        if px > m200 and anchor <= px <= anchor * 1.06:
             entry = px
-            tgt, stp = entry * (1 + TARGET), entry * (1 - STOP)
-            outcome = None
-            for j in range(i + 1, min(i + 1 + MAXHOLD, n)):
-                if float(lo.iloc[j]) <= stp:
-                    outcome = ("loss", -STOP); break
-                if float(hi.iloc[j]) >= tgt:
-                    outcome = ("win", TARGET); break
+            stop_rate = STRONG_STOP if strong else WEAK_STOP
+            stp = entry * (1 - stop_rate)
+            tgt = entry * (1 + RR * stop_rate)          # R:R=2.5 → 强势+15%/破位+25%
+            outcome, gap = None, False
+            for j in range(i + 1, min(i + 1 + HORIZON, n)):
+                oj, lj, hj = open_[j], low[j], high[j]
+                if lj <= stp:                            # 触及止损
+                    fill = min(oj, stp) if oj == oj else stp   # 跳空:开盘已在止损下方→按开盘(更差)成交
+                    if fill < stp:
+                        gap = True
+                    outcome = ("loss", fill / entry - 1); break
+                if hj >= tgt:                            # 触及目标(保守按目标价成交)
+                    outcome = ("win", tgt / entry - 1); break
             if outcome is None:
-                outcome = ("timeout", float(c.iloc[min(i + MAXHOLD, n - 1)]) / entry - 1)
-            trades.append(outcome)
-            i = min(i + MAXHOLD, n - 1) if outcome[0] == "timeout" else i + 30  # 冷却,避免重叠
+                outcome = ("timeout", close[min(i + HORIZON, n - 1)] / entry - 1)
+            ret = outcome[1] - TX                        # 扣交易成本
+            trades.append({"year": None, "kind": outcome[0], "ret": ret, "gap": gap, "idx": i})
+            i = (min(i + HORIZON, n - 1) if outcome[0] == "timeout" else i + COOLDOWN)
         else:
             i += 1
     return trades
 
 
+def _wilson_ci(k, n, z=1.96):
+    """胜率的 Wilson 95% 置信区间(小样本更稳)。"""
+    if n == 0:
+        return [None, None]
+    p = k / n
+    d = 1 + z * z / n
+    c = p + z * z / (2 * n)
+    hw = z * math.sqrt(p * (1 - p) / n + z * z / (4 * n * n))
+    return [round(100 * (c - hw) / d), round(100 * (c + hw) / d)]
+
+
 def main():
     cfg = json.load(open(os.path.join(DIR, "config.json"), encoding="utf-8"))
-    tickers = [s["ticker"] for s in cfg["stocks"] if s["ticker"] != cfg.get("benchmark")]
-    allt = []
-    per = {}
+    bench = cfg.get("benchmark")
+    tickers = [s["ticker"] for s in cfg["stocks"] if s["ticker"] != bench]
+    import yfinance as yf
+    import pandas as pd
+    raw = yf.download(tickers, period="5y", interval="1d", progress=False, auto_adjust=True)
+    if raw is None or len(raw) == 0:
+        # 取数全挂:绝不用空结果覆盖上期(规则9)
+        if os.path.exists(os.path.join(STATE, "backtest.json")):
+            print("⚠️ 回测取数全挂,保留上期 backtest.json 不覆盖"); return
+        print("⚠️ 回测取数全挂且无上期,跳过"); return
+
+    allt, per, dates_idx = [], {}, None
     for tk in tickers:
         try:
-            t = backtest_one(tk)
+            c = raw["Close"][tk].dropna()
+            if len(c) < 300:
+                per[tk] = "数据不足"; continue
+            idx = c.index
+            o = raw["Open"][tk].reindex(idx).tolist()
+            lo = raw["Low"][tk].reindex(idx).tolist()
+            hi = raw["High"][tk].reindex(idx).tolist()
+            cl = c.tolist()
+            ma20 = c.rolling(20).mean().tolist()
+            ma50 = c.rolling(50).mean().tolist()
+            ma200 = c.rolling(200).mean().tolist()
+            t = backtest_one(tk, cl, o, lo, hi, ma20, ma50, ma200)
+            for x in t:
+                x["year"] = idx[x["idx"]].year
             per[tk] = len(t)
             allt += t
         except Exception as e:
-            per[tk] = f"err:{str(e)[:40]}"
+            per[tk] = f"err:{str(e)[:30]}"
+
     n = len(allt)
     if n == 0:
-        print("无信号"); return
-    wins = [r for r in allt if r[0] == "win"]
-    losses = [r for r in allt if r[0] == "loss"]
-    tos = [r for r in allt if r[0] == "timeout"]
-    rets = [r[1] for r in allt]
+        if os.path.exists(os.path.join(STATE, "backtest.json")):
+            print("⚠️ 无信号,保留上期不覆盖"); return
+        print("⚠️ 无信号"); return
+
+    wins = [x for x in allt if x["kind"] == "win"]
+    losses = [x for x in allt if x["kind"] == "loss"]
+    tos = [x for x in allt if x["kind"] == "timeout"]
+    rets = [x["ret"] for x in allt]
     win_rate = round(100 * len(wins) / n)
     avg = round(100 * sum(rets) / n, 1)
-    # 实际盈亏比:平均盈利 / 平均亏损绝对值
-    avg_win = (sum(r[1] for r in wins) / len(wins)) if wins else 0
-    avg_loss = (sum(r[1] for r in losses) / len(losses)) if losses else 0
+    avg_win = (sum(x["ret"] for x in wins) / len(wins)) if wins else 0
+    avg_loss = (sum(x["ret"] for x in losses) / len(losses)) if losses else 0
     rr = round(abs(avg_win / avg_loss), 2) if avg_loss else None
+    # 每笔夏普(平均/标准差,非年化)+ 最大连亏
+    mean_r = sum(rets) / n
+    std_r = (sum((r - mean_r) ** 2 for r in rets) / n) ** 0.5
+    sharpe = round(mean_r / std_r, 2) if std_r else None
+    mc, cur = 0, 0
+    for x in allt:
+        cur = cur + 1 if x["kind"] == "loss" else 0
+        mc = max(mc, cur)
+    # 分年度胜率(看跨体制稳定性)
+    years = sorted({x["year"] for x in allt})
+    per_year = {}
+    for y in years:
+        yl = [x for x in allt if x["year"] == y]
+        yw = [x for x in yl if x["kind"] == "win"]
+        per_year[str(y)] = {"n": len(yl), "win_rate": round(100 * len(yw) / len(yl)) if yl else None}
+    gap_n = sum(1 for x in losses if x["gap"])
+
     out = {
         "asof": datetime.date.today().isoformat(),
-        "rule": f"上升趋势(>MA200)回调至MA50附近入场,目标+{int(TARGET*100)}%/止损-{int(STOP*100)}%,持有≤{MAXHOLD}日",
-        "universe": tickers, "lookback": "3y", "signals": n, "per_stock_signals": per,
-        "win_rate_pct": win_rate, "stopped_pct": round(100 * len(losses) / n),
-        "timeout_pct": round(100 * len(tos) / n), "avg_trade_return_pct": avg,
-        "realized_rr": rr,
-        "caveat": "测试标的为AI大牛市赢家,存在幸存者/行情偏差,结果被严重美化;不代表未来表现,绝非承诺胜率。",
+        "strategy": "current_tiered",
+        "rule": "上升趋势(>MA200)回踩至结构支撑(强势档锚MA20/破位档锚MA50)入场·分档止损(强势-6%/破位-10%)·目标按R:R2.5反推·持有≤270日·扣往返成本0.2%·跳空穿止损按开盘成交",
+        "universe": tickers, "lookback": "5y", "horizon_days": HORIZON, "signals": n, "per_stock_signals": per,
+        "win_rate_pct": win_rate, "win_rate_ci95": _wilson_ci(len(wins), n),
+        "stopped_pct": round(100 * len(losses) / n), "timeout_pct": round(100 * len(tos) / n),
+        "avg_trade_return_pct": avg, "realized_rr": rr, "per_trade_sharpe": sharpe,
+        "max_consecutive_losses": mc, "gap_slippage_trades": gap_n, "tx_cost_pct": round(TX * 100, 2),
+        "per_year_win_rate": per_year,
+        "caveat": ("幸存者/牛市偏差:池为当前AI赢家,历史被美化,绝非未来更非高胜率；且本回测只测【机械规则骨架"
+                   "(入场/分档止损/R:R目标/持有)】,LLM逐票信号与目标价无法历史重放,不代表整套研判；A股涨跌停/T+1"
+                   "仅以'跳空穿止损按开盘成交'近似,规则为事前设定近似样本外但非严格walk-forward。"),
     }
     os.makedirs(STATE, exist_ok=True)
     json.dump(out, open(os.path.join(STATE, "backtest.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-    print(json.dumps({k: out[k] for k in ["signals", "win_rate_pct", "stopped_pct", "timeout_pct", "avg_trade_return_pct", "realized_rr"]}, ensure_ascii=False, indent=2))
+    print(f"✅ 现行分档策略回测:{n}笔·命中{win_rate}%(CI{out['win_rate_ci95']})·止损{out['stopped_pct']}%·"
+          f"R:R{rr}·每笔夏普{sharpe}·最大连亏{mc}·跳空滑点{gap_n}笔·分年度{ {y:per_year[y]['win_rate'] for y in per_year} }")
     print("⚠️", out["caveat"])
 
 
