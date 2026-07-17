@@ -595,7 +595,12 @@
         "rating_mean": null
       },
       "earnings_date": null,
-      "quality": {},
+      "quality": {
+        "roe": -0.47,
+        "ocf_ps": -1.1863,
+        "gross_margin": null,
+        "period": "2026-03-31"
+      },
       "news": [
         {
           "title": "96只科创板股票跻身百元股阵营",
@@ -626,13 +631,13 @@
       "chg1d": -10.0,
       "m1": -24.4,
       "m3": 7.1,
-      "m6": 115.0,
+      "m6": 114.8,
       "fromhi": -44.7,
       "hi": 970.0,
-      "lo": 78.73,
+      "lo": 79.05,
       "ma20": 808.28,
       "ma50": 717.1,
-      "ma200": 388.42,
+      "ma200": 388.51,
       "vol": 111.7,
       "analyst": {
         "target_mean": null,
