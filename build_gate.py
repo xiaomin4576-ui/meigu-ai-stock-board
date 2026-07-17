@@ -186,6 +186,7 @@ function playTunnel(html){
   const dpr=Math.min(devicePixelRatio||1,mobile?1.5:2);
   const w=innerWidth,h=innerHeight;
   cv.style.display='block';cv.width=w*dpr;cv.height=h*dpr;
+  cv.style.width=w+'px';cv.style.height=h+'px';   // 必须锁死CSS显示尺寸=视口:否则canvas按w*dpr的属性宽布局(手机dpr>1时比屏宽、锚左溢右),汇聚点cx=w/2会视觉偏右(电脑dpr=1不显)
   ctx.scale(dpr,dpr);
   const cx=w/2,cy=h/2,maxR=Math.sqrt(w*w+h*h)/2,diag=maxR*2;
   const N=mobile?120:220,TAU=Math.PI*2;
