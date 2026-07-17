@@ -11,9 +11,12 @@ _BJ = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8)))
 TODAY = _BJ.date().isoformat()
 BUILD_TS = _BJ.strftime("%Y-%m-%d %H:%M")
 
-CAT = {"macro": ("🌍 宏观 / 地缘", "影响美股整体:利率 · 关税 · 地缘 · 大宗 · 政策", "#7ab8ff"),
-       "oil": ("🛢️ 全球石油 / 能源", "OPEC+ · 油价 · LNG/天然气 · 能源巨头 · 传导视角:莫桑比克/东非能源经营(联合能源 Union)", "#f97316"),
-       "tech": ("🤖 科技 / AI 产业", "影响科技板块:财报 · 芯片管制 · AI 监管 · 产业链", "#4ade80")}
+CAT = {"macro": ("🏦 宏观", "利率 · 通胀 · 就业 · 关税/贸易 · 央行/财政 · 官方数据", "#7ab8ff"),
+       "geo": ("🌍 地缘", "地缘冲突 · 大国博弈 · 制裁 · 选举 · 地区局势", "#a78bfa"),
+       "oil": ("🛢️ 石油", "OPEC+ · 原油价 Brent/WTI · 石油巨头 · 炼油与航运(霍尔木兹/苏伊士)", "#f97316"),
+       "gas": ("🔥 天然气", "LNG · 天然气价 Henry Hub/TTF · 莫桑比克/东非气田(Rovuma/Cabo Delgado)· 联合能源 Union", "#fbbf24"),
+       "tech": ("💻 科技", "大厂财报 · 半导体/芯片管制 · 硬件 · 云与企业软件(非纯AI)", "#4ade80"),
+       "ai": ("🤖 AI", "模型/能力 · AI 监管治理 · 算力与 AI 基建 · AI 投融资与落地", "#33d6c5")}
 
 
 def macro_panel():
@@ -135,7 +138,7 @@ def main():
         fresh = f'<div class="fresh stale">🟠 <b>头条仍是 {news_date}({days} 天前)</b>——今日采集/研判未跑通,内容仅供参考</div>'
     secs = ""
     cat_counts = {}
-    for cat in ("macro", "oil", "tech"):
+    for cat in ("macro", "geo", "oil", "gas", "tech", "ai"):
         # 审计F19:序号徽章(irk)承载"档内影响力排名"语义(研判 prompt 硬纪律"各档内按 impact 降序"),
         # 但 items 按模型返回原序未必已排序 → 渲染前按 impact 稳定降序,让徽章排名恒与影响力一致。
         grp = sorted([it for it in items if it.get("cat") == cat], key=lambda it: -(it.get("impact") or 0))
@@ -148,17 +151,23 @@ def main():
             block += '<div class="item"><div class="ibrief">今日该档无够格条目(不凑数,诚实留空)</div></div>'
         # 每档包一层 cat-block,供左侧档位筛选 show/hide
         secs += f'<div class="cat-block" data-cat="{cat}">{block}</div>'
-    # 左侧档位筛选侧栏(客户端筛选,按需聚焦某一档)
-    nm = cat_counts.get("macro", 0)
-    noil = cat_counts.get("oil", 0)
-    ntech = cat_counts.get("tech", 0)
-    n_all = nm + noil + ntech
+    # 左侧档位筛选侧栏(客户端筛选,按需聚焦某一档;六档:宏观/地缘/石油/天然气/科技/AI)
+    cm = cat_counts.get("macro", 0)
+    cg = cat_counts.get("geo", 0)
+    co = cat_counts.get("oil", 0)
+    cga = cat_counts.get("gas", 0)
+    ct = cat_counts.get("tech", 0)
+    ca = cat_counts.get("ai", 0)
+    n_all = cm + cg + co + cga + ct + ca
     side = (f'<aside class="side"><h4>📊 档位筛选</h4><ul class="filist">'
             f'<li class="fi active" data-f="all">📰 全部<span>{n_all}</span></li>'
-            f'<li class="fi" data-f="macro">🌍 宏观/地缘<span>{nm}</span></li>'
-            f'<li class="fi" data-f="oil">🛢️ 石油/能源<span>{noil}</span></li>'
-            f'<li class="fi" data-f="tech">🤖 科技/AI<span>{ntech}</span></li>'
-            f'</ul><div class="snote">按档位聚焦当前关注 · 点"全部"恢复<br>传导链视角:事件 → 美股 / A股 / 莫桑比克·东非</div></aside>')
+            f'<li class="fi" data-f="macro">🏦 宏观<span>{cm}</span></li>'
+            f'<li class="fi" data-f="geo">🌍 地缘<span>{cg}</span></li>'
+            f'<li class="fi" data-f="oil">🛢️ 石油<span>{co}</span></li>'
+            f'<li class="fi" data-f="gas">🔥 天然气<span>{cga}</span></li>'
+            f'<li class="fi" data-f="tech">💻 科技<span>{ct}</span></li>'
+            f'<li class="fi" data-f="ai">🤖 AI<span>{ca}</span></li>'
+            f'</ul><div class="snote">按档位聚焦 · 点"全部"恢复<br>石油与天然气分列(能源两大子类)<br>传导链:事件 → 美股/A股 · 油气 → 莫桑比克·东非</div></aside>')
     html = f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache">
@@ -210,7 +219,7 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 .mv{{font-variant-numeric:tabular-nums}}
 </style></head><body><div class="wrap">
 <div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#e2c07e;margin-bottom:8px">LUMORA · 同光科技</div><h1>🌍 全球市场头条 · {news_date}</h1>
-<div class="sub">传导链视角:国际局势 → 美股 → A股 · 油气市场 → 莫桑比克/东非经营 · 三档 15-21 条 · 信源 Finnhub / 东财环球 / OilPrice / CNBC / 谷歌定向聚合 等(真实链接可溯源)</div>
+<div class="sub">传导链视角:国际局势 → 美股 → A股 · 油气市场 → 莫桑比克/东非经营 · 六档(宏观/地缘/石油/天然气/科技/AI)15-24 条 · 信源 Finnhub / 东财环球 / OilPrice / CNBC / 谷歌定向聚合 等(真实链接可溯源)</div>
 <div class="nav"><a href="home.html">🏠 首页</a><button onclick="newsUpd()" style="background:#f97316;color:#fff;border:none;border-radius:8px;padding:4px 12px;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit">🔁 刷新头条</button><span id="nupd" style="color:#94a6c4;font-size:12px;margin-left:6px"></span><span style="color:#94a6c4;margin-left:8px">🕐 本页生成 {BUILD_TS} 北京</span></div></div>
 <script>
 const DT="__DISPATCH_TOKEN__";

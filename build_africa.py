@@ -36,6 +36,37 @@ def _region_of(country):
     return REGION.get(country, "__none")
 
 
+def _year_of(it):
+    """条目年份(时段筛选用):历史归档带 year 字段;当日抓取从 date 里提 20xx。"""
+    if it.get("year"):
+        try:
+            return int(it["year"])
+        except Exception:
+            pass
+    m = re.search(r"(20\d{2})", str(it.get("date") or ""))
+    return int(m.group(1)) if m else None
+
+
+def _norm2(t):
+    """去重归一化(合并历史+当日时按标题去重)。"""
+    return re.sub(r"[^a-z0-9一-鿿]", "", str(t or "").lower())[:64]
+
+
+def _sortable(it):
+    """统一成 YYYY-MM-DD 供排序:历史归档是 ISO;当日抓取是 RSS pubDate;都解析不出用年份兜底。"""
+    d = str(it.get("date") or "")
+    m = re.search(r"(20\d{2})-(\d{2})-(\d{2})", d)
+    if m:
+        return m.group(0)
+    for fmt in ("%a, %d %b %Y %H:%M:%S %Z", "%a, %d %b %Y %H:%M:%S %z", "%Y-%m-%dT%H:%M:%S%z"):
+        try:
+            return datetime.datetime.strptime(d.strip(), fmt).strftime("%Y-%m-%d")
+        except Exception:
+            continue
+    y = _year_of(it)
+    return f"{y}-00-00" if y else "0000-00-00"
+
+
 def esc(s):
     return _html.escape(str(s or ""), quote=True)
 
@@ -72,6 +103,7 @@ def _cat_of(it):
 def _card(it):
     country = it.get("country") or ""
     reg = _region_of(country)                     # 大区筛选维度(南部非洲/东非/北非/西非/__none)
+    yr = _year_of(it) or ""                        # 时段筛选维度(2026最近/2025/2024)
     cat = _cat_of(it)
     tags = ""
     if country:
@@ -87,7 +119,7 @@ def _card(it):
     title_html = f'<a href="{esc(url)}" target="_blank" rel="noopener">{title} ↗</a>' if url.startswith("http") else title
     brief_text = _strip_tags(it.get("brief"))
     brief = f'<div class="bf">{esc(brief_text)}</div>' if brief_text else ""
-    return (f'<div class="item" data-cat="{cat}" data-region="{esc(reg)}">'
+    return (f'<div class="item" data-cat="{cat}" data-region="{esc(reg)}" data-year="{yr}">'
             f'<div class="meta">{tags}<span class="sc">{src}</span><span class="dt">{date}</span></div>'
             f'<div class="ti">{title_html}</div>{brief}</div>')
 
@@ -95,28 +127,42 @@ def _card(it):
 def main():
     files = sorted(glob.glob(os.path.join(STATE, "africa_raw_*.json")))
     data = json.load(open(files[-1], encoding="utf-8")) if files else {"items": [], "meta": {}}
-    items = data.get("items", [])
+    cur = data.get("items", [])
     meta = data.get("meta", {})
     asof = data.get("asof", TODAY)
     fetched = data.get("fetched_at", "")
 
-    # 分类:AI 基建单列置顶(数据中心/海缆/骨干网——最具"股票需求侧"关联);其余 AI 次之;非 AI 全景最后
+    # 合并【2024/2025 历史回填 + 当日抓取】,按标题去重(当日优先),解决非洲数据太薄(fetch_africa_history.py 生成归档)
+    hist = []
+    hpath = os.path.join(STATE, "africa_history.json")
+    if os.path.exists(hpath):
+        try:
+            hist = json.load(open(hpath, encoding="utf-8")).get("items", [])
+        except Exception:
+            hist = []
+    seen, items = set(), []
+    for it in cur + hist:                 # 当日在前 → 去重优先保留当日版本
+        k = _norm2(it.get("title"))
+        if not k or k in seen:
+            continue
+        seen.add(k)
+        items.append(it)
+
+    # 分类计数(全量)
     infra_items = [x for x in items if x.get("is_aiinfra")]
     ai_items = [x for x in items if x.get("is_ai") and not x.get("is_aiinfra")]
     rest = [x for x in items if not x.get("is_ai") and not x.get("is_aiinfra")]
-    # 莫桑比克/南部非洲优先置顶(同光所在地)
-    def _prior_key(x):
-        c = x.get("country") or ""
-        return 0 if any(c.startswith(p.split()[0]) for p in PRIOR) else 1
-    rest.sort(key=_prior_key)
-
-    ordered = infra_items + ai_items + rest
+    # 展示排序:按日期新→旧(当日/近期在前,历史在后)
+    ordered = sorted(items, key=_sortable, reverse=True)
     cards = "".join(_card(x) for x in ordered) if ordered else ""
 
     n_all = len(items)
     n_infra = len(infra_items)
     n_ai = len(ai_items)
     n_rest = len(rest)
+    n_hist = len(hist)
+    # 时段(年份)分布,供时段侧栏(含当日 2026 与历史 2025/2024)
+    year_counts = Counter(_year_of(x) for x in items if _year_of(x))
 
     # 大区侧栏(按非洲大区聚合,比逐国更清晰):统计各大区条目数;无国家归"泛非洲/未分国"
     reg_counts = Counter(_region_of(x.get("country") or "") for x in items)
@@ -125,6 +171,13 @@ def main():
         f'<li class="fi" data-region="{rg}">{REGION_ICON.get(rg, "🌍")} {rg}<span>{reg_counts.get(rg, 0)}</span></li>'
         for rg in REGION_ORDER)
     none_html = (f'<li class="fi" data-region="__none">🌐 泛非洲 / 未分国<span>{n_none}</span></li>') if n_none else ""
+
+    # 时段侧栏:年份新→旧(最新年=当日"最近");无年份条目不进筛选桶但"全部时段"含之
+    years_sorted = sorted(year_counts.keys(), reverse=True)
+    newest_year = years_sorted[0] if years_sorted else None
+    year_html = "".join(
+        f'<li class="fi" data-year="{y}">{"🕐 " + str(y) + " · 最近" if y == newest_year else "📅 " + str(y)}<span>{year_counts[y]}</span></li>'
+        for y in years_sorted)
 
     side = (f'<aside class="side">'
             f'<h4>🔎 分类</h4><ul class="filist" id="catlist">'
@@ -138,20 +191,25 @@ def main():
             f'<li class="fi active" data-region="all">🌍 全部地区<span>{n_all}</span></li>'
             f'{reg_html}{none_html}'
             f'</ul><div class="snote">🧭 南部非洲(莫桑比克/南非/安哥拉/赞比亚/津巴布韦)= 同光所在,优先关注</div>'
+            f'<h4 style="margin-top:16px">🕐 时段</h4><ul class="filist" id="yearlist">'
+            f'<li class="fi active" data-year="all">🌐 全部时段<span>{n_all}</span></li>'
+            f'{year_html}'
+            f'</ul><div class="snote">2024 / 2025 为历史回填(Google News 按年检索,{n_hist} 条)——补非洲当日数据太薄</div>'
             f'</aside>')
 
     if not items:
         main_col = ('<div class="empty" style="grid-column:1/-1;padding:40px">暂无非洲科技数据(采集失败或首次运行)。'
                     '数据源=非洲本地科技媒体 RSS,下次构建自动补齐。</div>')
     else:
-        main_col = (f'<div class="resbar">显示 <b id="viscount">{n_all}</b> 条 · 点左侧【分类】或【地区】聚焦</div>'
+        main_col = (f'<div class="resbar">显示 <b id="viscount">{n_all}</b> 条 · 点左侧【分类】【地区】【时段】任意组合聚焦</div>'
                     f'<div class="grid" id="cards">{cards}</div>'
-                    f'<div class="empty" id="emptymsg" style="display:none">该筛选组合下无匹配条目,换个分类或国家试试</div>')
+                    f'<div class="empty" id="emptymsg" style="display:none">该筛选组合下无匹配条目,换个分类/地区/时段试试</div>')
 
-    n_total = meta.get("total", len(items))
-    n_ai_meta = meta.get("ai_flagged", len([x for x in items if x.get("is_ai")]))
-    n_infra_meta = meta.get("aiinfra_flagged", n_infra)
-    n_ctry = meta.get("countries", len({x.get("country") for x in items if x.get("country")}))
+    # KPI 用合并后(含历史回填)全量口径
+    n_total = n_all
+    n_ai_meta = len([x for x in items if x.get("is_ai")])
+    n_infra_meta = n_infra
+    n_ctry = len({x.get("country") for x in items if x.get("country")})
 
     html_out = f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -204,8 +262,8 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 <div class="nav"><a href="home.html">🏠 首页</a><span class="ts">🕐 {BUILD_TS} 北京</span></div>
 <div class="header">
   <h1>🌍 非洲科技脉搏</h1>
-  <div class="sub">同光科技立足莫桑比克 · 跟踪整个非洲大陆科技与 AI 的一举一动 · 数据源为非洲本地科技媒体(真实可溯)</div>
-  <div class="kpis"><div class="kpi"><b>{n_total}</b><span>今日条目</span></div><div class="kpi"><b>{n_infra_meta}</b><span>🏗️ AI 基建</span></div><div class="kpi"><b>{n_ai_meta}</b><span>🤖 AI / 前沿</span></div><div class="kpi"><b>{n_ctry}</b><span>覆盖国家</span></div></div>
+  <div class="sub">同光科技立足莫桑比克 · 跟踪整个非洲大陆科技与 AI 的一举一动 · 当日非洲本地媒体 RSS + 2024/2025 历史回填(Google News 按年检索),真实可溯</div>
+  <div class="kpis"><div class="kpi"><b>{n_total}</b><span>总条目 · 含24/25</span></div><div class="kpi"><b>{n_infra_meta}</b><span>🏗️ AI 基建</span></div><div class="kpi"><b>{n_ai_meta}</b><span>🤖 AI / 前沿</span></div><div class="kpi"><b>{n_ctry}</b><span>覆盖国家</span></div></div>
 </div>
 <div class="layout">
 {side}
@@ -219,7 +277,7 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 </div>
 </div>
 <script>
-var curCat='all', curReg='all';
+var curCat='all', curReg='all', curYear='all';
 function _setActive(listId,li){{
   var ul=document.getElementById(listId); if(!ul)return;
   ul.querySelectorAll('.fi').forEach(function(x){{x.classList.remove('active');}});
@@ -230,7 +288,8 @@ function _applyFilter(){{
   document.querySelectorAll('.item').forEach(function(it){{
     var okc=(curCat==='all'||it.getAttribute('data-cat')===curCat);
     var okt=(curReg==='all'||it.getAttribute('data-region')===curReg);
-    var show=okc&&okt; it.style.display=show?'':'none'; if(show)n++;
+    var oky=(curYear==='all'||it.getAttribute('data-year')===curYear);
+    var show=okc&&okt&&oky; it.style.display=show?'':'none'; if(show)n++;
   }});
   var vc=document.getElementById('viscount'); if(vc)vc.textContent=n;
   var em=document.getElementById('emptymsg'); if(em)em.style.display=n?'none':'';
@@ -239,6 +298,7 @@ document.addEventListener('click',function(e){{
   var li=e.target.closest?e.target.closest('.fi'):null; if(!li)return;
   if(li.hasAttribute('data-cat')){{ curCat=li.getAttribute('data-cat'); _setActive('catlist',li); }}
   else if(li.hasAttribute('data-region')){{ curReg=li.getAttribute('data-region'); _setActive('reglist',li); }}
+  else if(li.hasAttribute('data-year')){{ curYear=li.getAttribute('data-year'); _setActive('yearlist',li); }}
   _applyFilter();
 }});
 </script>
