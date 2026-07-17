@@ -1,6 +1,6 @@
 {
  "asof": "2026-07-17",
- "fetched_at": "2026-07-17T14:02+08:00",
+ "fetched_at": "2026-07-17T15:26+08:00",
  "meta": {
   "counts": {
    "TechCabal": 0,
@@ -14,15 +14,75 @@
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 1,
-   "非洲科技·聚合": 9,
+   "非洲科技·聚合": 10,
    "中非科技·聚合": 14
   },
   "total": 60,
-  "ai_flagged": 18,
+  "ai_flagged": 15,
   "aiinfra_flagged": 3,
-  "countries": 9
+  "countries": 8
  },
  "items": [
+  {
+   "title": "Kenya Dispatches 18 ICT Officers to China to Advance Digital Trade and E-Commerce Cooperation",
+   "brief": "Kenya has dispatched a delegation of 18 officers from the State Department for ICT and the Digital Economy  to participate in the 2026 Silk Road ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/07/17/kenya-dispatches-18-ict-officers-to-china-to-advance-digital-trade-and-e-commerce-cooperation/",
+   "date": "Fri, 17 Jul 2026 07:19:39 +0000",
+   "country": "🇰🇪 肯尼亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Communications Authority Expands Digital Access with Computer Donations to Siaya Schools",
+   "brief": "The Communications Authority of Kenya (CA)  has donated computers to Komora Vocational Training Centre and St. Benedict’s Konya Secondary School in Siaya County as part ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/07/17/communications-authority-expands-digital-access-with-computer-donations-to-siaya-schools/",
+   "date": "Fri, 17 Jul 2026 07:14:58 +0000",
+   "country": "🇰🇪 肯尼亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "US Expands Côte d’Ivoire Tech Footprint with Starlink Approval and $170m Data Centre Project",
+   "brief": "Assistant Secretary of State for African Affairs Frank R. Garcia announced July 16 at the U.S. Embassy that Starlink  will be providing high-speed internet services ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/07/17/us-expands-cote-divoire-tech-footprint-with-starlink-approval-and-170m-data-centre-project/",
+   "date": "Fri, 17 Jul 2026 07:09:39 +0000",
+   "country": "🇨🇮 科特迪瓦",
+   "is_ai": false,
+   "is_aiinfra": true
+  },
+  {
+   "title": "Why SMEs must regularly re-examine cyber measures",
+   "brief": "It is much easier for hackers to target hundreds of smaller businesses with weaker defences than trying to breach one heavily-fortified enterprise.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/why-smes-must-regularly-re-examine-cyber-measures/dgp45MaB8WVqX9l8",
+   "date": "Fri, 17 Jul 2026 09:02:29 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Nigeria’s central bank to track every retail dollar",
+   "brief": "On Techpoint Digest, we discuss how complaints against Kenyan digital lenders are on the rise, how the CBN wants to track every retail dollar, and how Prosus is selling its final Delivery Hero stake.",
+   "source": "Techpoint Africa",
+   "url": "https://techpoint.africa/insight/techpoint-digest-1390/",
+   "date": "Fri, 17 Jul 2026 07:00:00 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "South Africa’s $46-Billion Money Manager Cuts AI Bets, Buys India Rebound",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQYTMzQWNhZThweElJaDUzTTBaN0F1OVZvdWpCYnRpNlVGU25XX01JRVc3X01IY2x5VXAwWHEtcWxjZ0d5aW9pRlNXc2UxRGFZR1dmaElFdEUzTEx6Z1hMb2NPYlFxMFRYaUQ0WElQNUVRLVRyaTVDR0RnMXBoYl",
+   "source": "Bloomberg.com·聚合",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYTMzQWNhZThweElJaDUzTTBaN0F1OVZvdWpCYnRpNlVGU25XX01JRVc3X01IY2x5VXAwWHEtcWxjZ0d5aW9pRlNXc2UxRGFZR1dmaElFdEUzTEx6Z1hMb2NPYlFxMFRYaUQ0WElQNUVRLVRyaTVDR0RnMXBoYlZQZHk0ZFJfdnN2UzVDdlc0QUdPcW02bFVPY1Q3cGU2YkZkWFZFZkNn?oc=5",
+   "date": "Fri, 17 Jul 2026 05:48:00 GMT",
+   "country": "🇿🇦 南非",
+   "is_ai": true,
+   "is_aiinfra": false
+  },
   {
    "title": "Vercel acquires Stakpak, its second African acquisition in a month",
    "brief": "Vercel acquires another African startup, Stakpak in its bid to build an infrastructure layer for AI-powered software.",
@@ -41,6 +101,16 @@
    "date": "Thu, 16 Jul 2026 17:32:21 GMT",
    "country": null,
    "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "NetApp Acquires DataPelago, Making Data AI-Ready at the Infrastructure Layer",
+   "brief": "NetApp® (NASDAQ: NTAP), the Intelligent Data Infrastructure company, today announced it has acquired DataPelago, a California-based AI data infrastructure company recognized for its innovative approach to eliminating dat",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/netapp-acquires-datapelago-making-data-ai-ready-at-the-infrastructure-layer/LPp6V7rBO8L7DKQz",
+   "date": "Thu, 16 Jul 2026 18:30:00 +0200",
+   "country": null,
+   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -154,6 +224,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "Huawei’s purpose-built tourism LLM shines in Xi’an",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE5wSzRqR25aakVnSkRRMEthWTJIdEk1M2hNSnU4NU5KYVpINWdneFprblUzeU1qWmJUZl9WWTJRNjZZbW9LWm03cFUyajNfeWVoazljc2hXa2RHdi1vT1Z3TlhLamxMTHc0NkZWVWRKLWJjMXNjcTZzaDBsaw?oc=",
+   "source": "Total Telecom·聚合",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wSzRqR25aakVnSkRRMEthWTJIdEk1M2hNSnU4NU5KYVpINWdneFprblUzeU1qWmJUZl9WWTJRNjZZbW9LWm03cFUyajNfeWVoazljc2hXa2RHdi1vT1Z3TlhLamxMTHc0NkZWVWRKLWJjMXNjcTZzaDBsaw?oc=5",
+   "date": "Thu, 16 Jul 2026 12:29:25 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
    "title": "Cell C Tops South Africa’s Telecom Industry for Network Quality in DataEQ 2026 Index",
    "brief": "An independent read of more than 652,000 public consumer conversations places Cell C among the industry’s strongest performers on customer experience and alone at the ......",
    "source": "TechAfrica News",
@@ -161,36 +241,6 @@
    "date": "Thu, 16 Jul 2026 12:04:51 +0000",
    "country": "🇿🇦 南非",
    "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Airtel Kenya Expands Retail Presence in Mombasa with New Customer Experience Hubs",
-   "brief": "Airtel Kenya  has expanded its retail footprint in Mombasa with the opening of new customer experience stores designed to provide customers with easier access to ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/07/16/airtel-kenya-expands-retail-presence-in-mombasa-with-new-customer-experience-hubs/",
-   "date": "Thu, 16 Jul 2026 11:58:25 +0000",
-   "country": "🇰🇪 肯尼亚",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Kenya and China Partnership to Expand Global Opportunities for African Digital Creators",
-   "brief": "Kenya’s Cabinet Secretary for Information, Communications and the Digital Economy,  William Kabogo Gitau, has announced a new partnership aimed at creating global opportunities for young ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/07/16/kenya-and-china-partnership-to-expand-global-opportunities-for-african-digital-creators/",
-   "date": "Thu, 16 Jul 2026 11:49:12 +0000",
-   "country": "🇰🇪 肯尼亚",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Airtel Money Zambia Appoints Kelvin Ndhlovu as Managing Director",
-   "brief": "Airtel Mobile Commerce Zambia Limited (Airtel Money)  has announced the appointment of Kelvin Ndhlovu as its new Managing Director, effective 1 July 2026. He succeeds ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/07/16/airtel-money-zambia-appoints-kelvin-ndhlovu-as-managing-director/",
-   "date": "Thu, 16 Jul 2026 11:45:45 +0000",
-   "country": "🇿🇲 赞比亚",
-   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -234,6 +284,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "Circus Commences Operations with Ukrainian Ground Forces",
+   "brief": "Circus SE (WKN: A2YN35 / ISIN: DE000A2YN355 / XETRA: CA1), today announces the commencement of live operations of its robotic-based troop supply technology with the 3rd Army Corps of the Ukrainian Ground Forces in the Ky",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/circus-commences-operations-with-ukrainian-ground-forces/KjlyrvwBkYBqk6am",
+   "date": "Thu, 16 Jul 2026 12:04:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "Revenue slips at Broadband Infraco as SITA exit bites",
    "brief": "The state-owned broadband infrastructure provider ended the 2025/26 financial year below its revenue target.",
    "source": "ITWeb Africa",
@@ -261,26 +321,6 @@
    "date": "Thu, 16 Jul 2026 11:35:00 +0200",
    "country": "🇿🇦 南非",
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Snode achieves ISO/IEC 42001 certification for responsible AI governance",
-   "brief": "The company achieved this certification against ISO/IEC 42001:2023, the International Standards Organisation’s standard for AI, following an independent assessment by SanCert.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/snode-achieves-isoiec-42001-certification-for-responsible-ai-governance/DZQ587V83D9qzXy2",
-   "date": "Thu, 16 Jul 2026 11:06:00 +0200",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Why your mobile network could become your next financial platform",
-   "brief": "The average GIGS customer redirects around R200 a month simply by not re-buying data they'd already paid for.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/why-your-mobile-network-could-become-your-next-financial-platform/KzQenqjyXODMZd2r",
-   "date": "Thu, 16 Jul 2026 11:04:00 +0200",
-   "country": null,
-   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -582,46 +622,6 @@
    "country": "🇪🇹 埃塞俄比亚",
    "is_ai": false,
    "is_aiinfra": false
-  },
-  {
-   "title": "FNB’s nav» Turns 10 with New Youth and Payroll Solutions for South Africans",
-   "brief": "For the past decade, FNB’s nav» ecosystem has evolved from a financial management tool into a comprehensive platform designed to help South Africans navigate life’s biggest financial decisions. Marking its tenth annivers",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/07/fnbs-nav-turns-10-with-new-youth-and-payroll-solutions-for-south-africans/",
-   "date": "Tue, 14 Jul 2026 18:03:39 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Zeepay’s dedicated e-money licence revoked over unbacked balances",
-   "brief": "The Bank of Ghana has revoked Zeepay Ghana Limited’s Dedicated Electronic Money Issuer license effective immediately on July 14, 2026.",
-   "source": "Condia",
-   "url": "https://thecondia.com/zeepays-demi-licence-revoked-unbacked-balances-bank-ghana/",
-   "date": "Tue, 14 Jul 2026 17:54:11 +0000",
-   "country": "🇬🇭 加纳",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "WSO2’s Africa Growth Strategy and the Agentic Enterprise Opportunity",
-   "brief": "As organizations across Africa accelerate modernization, many are moving beyond basic transformation toward building AI-enabled, agentic enterprises. WSO2 is expanding its presence across the continent to help enterprise",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/07/wso2s-africa-growth-strategy-and-the-agentic-enterprise-opportunity/",
-   "date": "Tue, 14 Jul 2026 16:36:00 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Middle East & Africa Data Center Construction Market",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi0gJBVV95cUxPZG9YTmtVRnpYbXdFR1dvTzZKVjJURUtydXY3MWhNckg0M09IbktPZUpmR0FuQWlLc1lWT3VMTDRqTjIwTGhkWmMyRW11a3pnQmJWdEhlR2VWLUpjLVJYRDBkdEZ1SGhLa01qT01yS2oyYWZBNm5HSzdFdE52Rj",
-   "source": "GlobeNewswire·聚合",
-   "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxPZG9YTmtVRnpYbXdFR1dvTzZKVjJURUtydXY3MWhNckg0M09IbktPZUpmR0FuQWlLc1lWT3VMTDRqTjIwTGhkWmMyRW11a3pnQmJWdEhlR2VWLUpjLVJYRDBkdEZ1SGhLa01qT01yS2oyYWZBNm5HSzdFdE52Rjg3dE5JN2s1U2QyRl9jaUw2QTlIVFpIQnJmQ2xUMnBxWVBrZnF0cHdfelRQZUk1RjFBMmdtRVNaTWc1am51WF9hMG1FTm9qWnUxNWNCWUNla0tILWRlUjNTS21NN040THhLNTZ3WVQwN3pNZktIT3k1ZVZUbnBZRWF5SmI3SGFZS2paSS1FaHRpV2J5aXRMYk01Z0djdWhUemJGTjQ2SFNZOUdTMnF3c3AzWEN3MmJhWDZpZ0RJYTNINUg0WVhpZnRfdDFBVE84UmxEQjZTQUFqN2txUQ?oc=5",
-   "date": "Tue, 14 Jul 2026 13:41:44 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": true
   }
  ]
 }
