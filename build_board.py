@@ -147,31 +147,46 @@ def _mid(s):
 
 
 def valuation_line(d, a):
-    """目标价的基本面估值交叉验证(2026-07 审计第二批):金融教授指'目标价是画前高线、无基本面锚'。
-    用 forward PE + 一致 EPS 增速给目标价一个【启发式估值锚】:现估值贵不贵(PEG=1 参照)、目标价隐含 PE 是否还站得住。
-    诚实边界:PEG=1(合理PE≈增速)是 Lynch 启发式、非 DCF/EV-EBITDA(那需更全财务数据管线,见 METRICS 第二批待办);
-    TTM 高基数增速封顶 40(与评分同口径,免一次性跳升把估值判贱)。缺 fwd_pe/增速则不显示(不硬凑)。"""
+    """目标价的基本面估值交叉验证(第二批·2026-07 配 Finnhub 后升级为多维):金融教授指'目标价是画前高线、无基本面锚'。
+    美股(有 Finnhub 完整财务)用【真前瞻PE + EV/EBITDA + FCF收益率 + 前瞻PEG + 反推市场隐含增长】多维估值;
+    A股/港股(无美股财报源)退回 forwardPE÷增速的 PEG 启发式。均给目标价隐含前瞻PE 判是否站得住。
+    诚实边界:EV/EBITDA·FCF 为 TTM 口径、PEG=1 为启发式参照,均非严格 DCF 终值折现;缺数据则该维不显示不硬凑。"""
     an = d.get("analyst", {}) or {}
     fpe, eg, px = an.get("fwd_pe"), an.get("eps_growth"), d.get("price")
-    if not (fpe and eg is not None and px):
+    ev, fcfy, fpeg = an.get("ev_ebitda"), an.get("fcf_yield"), an.get("forward_peg")
+    if not (fpe and px):
         return ""
-    if eg <= 0:
-        return ('💰 <b>估值锚:</b>现 fwdPE ' + str(fpe) +
-                ' · 增速≤0 无 PEG 估值锚,目标价须由题材/周期反转驱动 <span style="color:#94a6c4">(非DCF)</span>')
-    g_fair = min(eg, 40)                              # 合理PE参照(增速封顶,免TTM高基数把估值判太贱)
-    ratio = fpe / g_fair
-    verdict = ('<b style="color:#4ade80">偏便宜</b>' if ratio <= 0.8 else
-               '<b style="color:#ff8080">偏贵</b>' if ratio >= 1.5 else '<b style="color:#fbbf24">估值合理</b>')
-    tgm = _mid(a.get("tgt"))
+    rich = ev is not None                              # 有 EV/EBITDA = 美股完整财务口径
+    # 综合 PEG 判定:前瞻PEG(Finnhub)优先,否则 forwardPE÷封顶增速
+    peg_val = fpeg if fpeg is not None else (round(fpe / min(eg, 40), 2) if (eg and eg > 0) else None)
+    verdict = ('<b style="color:#4ade80">偏便宜</b>' if (peg_val is not None and peg_val <= 0.8) else
+               '<b style="color:#ff8080">偏贵</b>' if (peg_val is not None and peg_val >= 1.5) else
+               '<b style="color:#fbbf24">估值合理</b>' if peg_val is not None else '<b>增速缺</b>')
+    metrics = [f'前瞻PE {fpe}']
+    if ev is not None:
+        metrics.append(f'EV/EBITDA {ev}')
+    if fcfy is not None:
+        metrics.append(f'FCF收益率 {fcfy}%')
+    if peg_val is not None:
+        metrics.append(f'前瞻PEG {peg_val}')
+    mline = ' · '.join(metrics)
+    imp = ""                                            # 反推市场隐含增长(PEG=1:市场定价的增长≈前瞻PE)
+    if eg is not None and eg > 0:
+        gap = ("市场定价保守·有预期差空间" if eg > fpe * 1.3 else
+               "市场定价乐观·须增长兑现" if eg < fpe * 0.7 else "市场定价与一致预期基本吻合")
+        imp = f'<br><span style="color:#94a6c4">→ 市场隐含增长≈{round(fpe)}%(PEG=1) vs 一致 {eg:.0f}% → {gap}</span>'
+    tgm = _mid(a.get("tgt"))                            # 目标价隐含前瞻PE
     tgt_str = ""
     if tgm and tgm > 0:
         tgt_fpe = round(fpe * tgm / px, 1)
-        ok = tgt_fpe <= g_fair * 1.5
-        tgt_str = (f' · 目标价隐含 fwdPE <b>{tgt_fpe}</b> → '
-                   + ('<span style="color:#4ade80">仍在合理区</span>' if ok else '<span style="color:#fbbf24">偏高,须增长兑现</span>'))
-    cap_note = f"(增速{eg:.0f}%封顶{g_fair:.0f})" if eg > g_fair else ""
-    return (f'💰 <b>估值锚:</b>现 fwdPE {fpe} vs 增长合理PE~{round(g_fair)}{cap_note} → {verdict}{tgt_str} '
-            f'<span style="color:#94a6c4">(PEG=1启发式·非DCF)</span>')
+        cap_g = min(eg, 40) if (eg and eg > 0) else None
+        ok = cap_g and tgt_fpe <= cap_g * 1.5
+        tgt_str = (f' · 目标价隐含前瞻PE <b>{tgt_fpe}</b> → '
+                   + ('<span style="color:#4ade80">合理区</span>' if ok else '<span style="color:#fbbf24">偏高须兑现</span>'))
+    tag = "实测多维" if rich else "PEG启发式"
+    note = "EV/EBITDA·FCF为TTM口径,非DCF终值折现" if rich else "PEG=1启发式·非DCF·美股财报源可补更全"
+    return (f'💰 <b>估值锚({tag}):</b>{mline} → {verdict}{tgt_str} '
+            f'<span style="color:#94a6c4">({note})</span>{imp}')
 
 
 def audit_section(data):

@@ -6,9 +6,11 @@ __pycache__/
 # docs/ 由 workflow 每次重建(开头就 rm -rf docs),仓库只保留 .nojekyll 占位
 docs/*
 !docs/.nojekyll
-# 安全:任何含 webhook/secret 的本地文件一律排除,绝不进公开仓
+# 安全:任何含 webhook/secret/API key 的本地文件一律排除,绝不进公开仓
 *webhook*
 *secret*
+.env
+.env.*
 .vibe-trading/
 # 运营看板含 DeepSeek 余额等账户信息:只进 docs 加密版,绝不入公开仓(state其余照常入库)
 state/ops.html

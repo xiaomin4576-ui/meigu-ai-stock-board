@@ -156,20 +156,29 @@ def us_finnhub(symbol, sess=None):
             out["earnings_date"] = fut[0]
     except Exception:
         pass
-    # ③ 财务指标 → 质量 + 估值PEG
+    # ③ 财务指标 → 质量 + 估值(2026-07 第二批:实测 Finnhub 免费档【有】真 forwardPE/EV-EBITDA/FCF/市值,补全)
     try:
         m = fh("/stock/metric", symbol=symbol, metric="all")
         met = (m or {}).get("metric") or {}
         roe = met.get("roeTTM")
         gm = met.get("grossMarginTTM")
-        pe = met.get("peTTM") or met.get("peExclExtraTTM") or met.get("peBasicExclExtraTTM")
+        # 优先真 forwardPE(旧代码误以为免费档无 forward、拿 peTTM 代理;实测有),回退 peTTM
+        fpe = met.get("forwardPE") or met.get("peTTM") or met.get("peExclExtraTTM") or met.get("peBasicExclExtraTTM")
         epsg = met.get("epsGrowthTTMYoy")
         if roe is not None or gm is not None:
             out["roe"] = round(float(roe), 1) if roe is not None else None
             out["gross_margin"] = round(float(gm), 1) if gm is not None else None
-        if pe and epsg is not None:
-            out["fwd_pe"] = round(float(pe), 1)        # 免费档无 forward,用 TTM PE 代理
+        if fpe and epsg is not None:
+            out["fwd_pe"] = round(float(fpe), 1)       # 真·前瞻PE(有则用,替代旧TTM代理)
             out["eps_growth"] = round(float(epsg), 1)
+        # 完整估值维度(替代"只有PEG"):EV/EBITDA、FCF收益率、市值(size)、前瞻PEG——缺则 None 不硬凑
+        ev_eb = met.get("evEbitdaTTM")
+        pfcf = met.get("pfcfShareTTM")
+        mcap = met.get("marketCapitalization")
+        out["ev_ebitda"] = round(float(ev_eb), 1) if ev_eb else None
+        out["fcf_yield"] = round(100.0 / float(pfcf), 2) if (pfcf and float(pfcf) > 0) else None  # FCF收益率=1/(价/每股FCF)
+        out["market_cap"] = round(float(mcap)) if mcap else None                                   # 单位:百万(美元;TSM等ADR可能本币,size按对数分档弱化)
+        out["forward_peg"] = round(float(met.get("forwardPEG")), 2) if met.get("forwardPEG") else None
     except Exception:
         pass
     return out
