@@ -130,6 +130,19 @@ def main():
                    "avg_pace_ratio": round(_median(paces), 2) if paces else None,   # 中位数:免被快仓拉偏(嫩仓已剔)
                    "matured_n": len(mat),
                    "matured_avg_realized_pct": round(sum(x["realized_return_pct"] for x in mat) / len(mat), 1) if mat else None})
+        # 审计第一批·校准诚实化:上面的 dr 是逐(日,票)快照——同一票跨期被重复计入=【伪重复 pseudo-replication】,
+        # 非独立观测,虚增样本量且带自相关,胜率不能当统计结论。补【按票去重】独立口径:每票只取最近一次入场快照。
+        entered_dir = [x for x in review if x.get("entered") and x.get("direction_ok") is not None]
+        latest_by_tk = {}
+        for x in sorted(entered_dir, key=lambda z: z["date"]):
+            latest_by_tk[x["ticker"]] = x          # 按日期升序后写覆盖→每票保留最近一次
+        dr_u = [x["direction_ok"] for x in latest_by_tk.values()]
+        sc["n_entered_unique"] = len(latest_by_tk)     # 独立样本量(去重后的票数,远小于 n_entered)
+        sc["direction_win_rate_unique"] = round(100 * sum(dr_u) / len(dr_u)) if dr_u else None
+        sc["verified"] = bool(len(mat) >= cfg.get("min_periods_for_calibration", 5))   # 到期样本达标才算"经统计验证"
+        sc["basis"] += ("｜⚠️方向胜率为【在途·未到期】值:在途口径含同票逐日快照(伪重复非独立),另附【按票去重】"
+                        f"独立口径 n={sc['n_entered_unique']};到期样本 matured_n={len(mat)},"
+                        f"未达 {cfg.get('min_periods_for_calibration', 5)} 期前一律不构成'系统准不准'的统计结论。")
 
     n_hist = len({r.get("date") for r in recs if r.get("date")} - {latest})
     need = cfg["min_periods_for_calibration"]

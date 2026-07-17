@@ -65,6 +65,11 @@ jobs:
         run: |
           python fetch_data.py || echo "::warning::fetch_data.py 异常,沿用已有 data_*.json 继续"
 
+      # 组合层风险(2026-07 指标审计第一批):独立算AI科技口集中度/相关矩阵/组合波动beta回撤,
+      # 供看板"组合层风险面板"+研判引擎注入。yfinance批量历史,失败保留上期不落空(不阻断)。
+      - name: 组合层风险度量(允许失败)
+        run: python portfolio_risk.py || echo "::warning::portfolio_risk.py 异常,沿用上期 portfolio_risk.json"
+
       - name: 复盘校准
         run: python verify.py
 

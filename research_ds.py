@@ -131,6 +131,20 @@ def main():
                           "④金/油/天然气跨资产)】" + json.dumps(mj.get("blocks", {}), ensure_ascii=False)[:1500])
         except Exception:
             pass
+    # 组合层集中度注入(2026-07 指标审计第一批·金融教授关切):本池有意 100% 押 AI 科技口,
+    # 是单一主题集中押注——引擎研判个股时须知道"美股 AI 一旦叙事逆转会同步齐跌",风控落在仓位与跨市配比。
+    port_line = ""
+    try:
+        pj = json.load(open(os.path.join(STATE, "portfolio_risk.json"), encoding="utf-8"))
+        if pj.get("matrix"):
+            port_line = ("\n【组合层集中度(全池实测·研判纳入)】本池 {n} 只有意 100% 押 AI 科技口,等权组合 β{b} 放大大盘、"
+                         "年化波动 {v}%;美股簇内相关 {u}(一荣俱荣一损俱损)、A/港簇 {c}、跨市仅 {x}(时段错位略滞后)。"
+                         "研判个股时记住:这是单一 AI 资本开支叙事的集中押注,叙事逆转美股 AI 会同步回撤——"
+                         "个股买卖点之外,真实风控在单票仓位与美股/A港配比,不是靠行业分散。").format(
+                n=len(pj.get("included", [])), b=pj.get("portfolio_beta_vs_bench"), v=pj.get("portfolio_vol_ann_pct"),
+                u=pj.get("avg_corr_us"), c=pj.get("avg_corr_cnhk"), x=pj.get("avg_corr_cross"))
+    except Exception:
+        pass
     # 校准闭环接通(体检确诊命脉:此前 verification.json 算了却没人读、"越用越准"空转):
     # ①9因子评分作"第二意见"喂进研判 ②读上期复盘→全局校准纪律+逐票"买区挂不上/方向做反"提示注入。
     calib_line, hint_map, score_map = "", {}, {}
@@ -184,7 +198,7 @@ def main():
     items = list(stocks.items())
     calls = {}
     with ThreadPoolExecutor(max_workers=6) as ex:
-        for tk, c in ex.map(lambda kv: judge_one(kv[0], kv[1], bench, macro_line + calib_line,
+        for tk, c in ex.map(lambda kv: judge_one(kv[0], kv[1], bench, macro_line + port_line + calib_line,
                                                   hint_map.get(kv[0], ""), score_map.get(kv[0])), items):
             calls[tk] = c
     # 确定性护栏:落账前核 FRAME 不变量,违规安全降级(体检:此前违规率26%直穿台账)
@@ -197,12 +211,12 @@ def main():
             n_viol += 1
     if n_viol:
         print(f"🛡 护栏拦截并降级 {n_viol} 条违规研判(买在现价上方/目标≤现价类)")
-    # 排序:买入>观望>回避,组内 conf 降序再评分降序;QQQ 插买入组后
+    # 排序:买入>观望>回避,组内【9因子评分】降序再 conf;QQQ 插买入组后
     SR = {"买入": 0, "观望": 1, "回避": 2}
-    # 审计修复:原 tiebreak 读 stocks['score'] —— data json 无此字段,恒取默认 0,"评分降序"是死代码(评分从不影响排序)。
-    # 改用上文已算好的 score_map(9 因子总分),让评分真正参与同信号同置信度时的排序。
+    # 审计第一批:同信号内主排序键改为【可复现的9因子评分】、conf(引擎自报未校准的黑箱)降为末位 tiebreak——
+    # 让量化因子分真正拍板排序,而非被 LLM 自报置信度盖过(此前 conf 在前,金融教授指'因子只是装饰')。
     sc = lambda tk: score_map.get(tk, 0) or 0
-    order = sorted([t for t in calls if t != "QQQ"], key=lambda t: (SR.get(calls[t]["sig"], 1), -calls[t]["conf"], -sc(t)))
+    order = sorted([t for t in calls if t != "QQQ"], key=lambda t: (SR.get(calls[t]["sig"], 1), -sc(t), -calls[t]["conf"]))
     ins = sum(1 for t in order if calls[t]["sig"] == "买入")
     order.insert(ins, "QQQ")
     nbuy = sum(1 for t in calls if calls[t]["sig"] == "买入")

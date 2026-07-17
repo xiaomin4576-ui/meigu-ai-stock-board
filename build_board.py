@@ -98,6 +98,9 @@ def review_section(v):
         return ""
     sc, feas, calib = v.get("scorecard", {}), v.get("feasibility", {}), v.get("calibration", "")
     n_open = sc.get("n_open", 0)
+    n_uni = sc.get("n_entered_unique")                      # 按票去重的独立样本量
+    dwr_uni = sc.get("direction_win_rate_unique")           # 独立方向胜率(每票只取最近一次)
+    verified = sc.get("verified")                           # 到期样本达标=经统计验证
     stat = lambda l, val, suf="": f'<div class="stat"><div class="sl">{l}</div><div class="sv">{(str(val)+suf) if val is not None else "—"}</div></div>'
     gauges = ""
     if n_open > 0:
@@ -105,18 +108,24 @@ def review_section(v):
         hv = lambda k: [r[k] for r in hist if r.get(k) is not None]
         hd = lambda k: [r.get("date", "")[5:] for r in hist if r.get(k) is not None]
         n_entered = sc.get("n_entered", n_open)
-        g1 = _gauge_card("方向胜率", f"在途方向·入场 n={n_entered}", sc.get("direction_win_rate"), "pct",
+        g1 = _gauge_card("方向胜率", f"在途 n={n_entered}·去重 n={n_uni}", sc.get("direction_win_rate"), "pct",
                          hv("direction_win_rate"), hd("direction_win_rate"), 70)
         g2 = _gauge_card("入场触及率", "买入价被触及占比", sc.get("entry_hit_rate"), "pct",
                          hv("entry_hit_rate"), hd("entry_hit_rate"), None)
         g3 = _gauge_card("在途节奏", "1.0×=赶上时间", sc.get("avg_pace_ratio"), "pace",
                          hv("avg_pace_ratio"), hd("avg_pace_ratio"), 1.0)
+        # 审计第一批·校准诚实化:matured 未达标时,醒目声明"未经到期验证",并把在途(含伪重复)与按票去重独立口径并列
+        unver = "" if verified else (
+            f'<div class="rv-unver">⚠️ <b>方向胜率尚未经到期验证</b>(到期样本 matured={sc.get("matured_n",0)},长期持有窗口下首批预测尚未走完)。'
+            f'表盘 <b>{sc.get("direction_win_rate")}%</b> 为<b>在途·含同票逐日快照(伪重复非独立)</b>;'
+            f'按票去重的独立口径仅 <b>{dwr_uni}%</b>(n={n_uni})。到期样本达标前,胜率<b>不构成"系统准不准"的统计结论</b>,买入信号请自行判断。</div>')
         gauges = ('<div class="rv-h">🎯 预测能力仪表盘 <span class="rv-sub">方向胜率=在途现价≥买入中值占比(未兑现·非到期成绩,与下方回测命中率口径不同,别混读);节奏已剔嫩仓、胜率已排除QQQ基准 · 校准闭环反哺,趋势看曲线不承诺胜率必升 · 源 scorecard_history 逐日累积</span></div>'
-                  f'<div class="gauges">{g1}{g2}{g3}</div>')
+                  + unver + f'<div class="gauges">{g1}{g2}{g3}</div>')
     if n_open > 0:
         mat = f'{sc.get("matured_n",0)}期/{sc.get("matured_avg_realized_pct")}%' if sc.get("matured_n") else "未到期"
         scorecard = "".join([stat("历史在评期数", sc.get("n_periods", n_open)), stat("买入触及率", sc.get("entry_hit_rate"), "%"),
-                             stat("方向胜率", sc.get("direction_win_rate"), "%"),
+                             stat("方向胜率·在途", sc.get("direction_win_rate"), "%"),
+                             stat(f"方向胜率·去重(n={n_uni})", dwr_uni, "%"),
                              stat("平均目标完成度", sc.get("avg_progress_to_target_pct"), "%"),
                              f'<div class="stat"><div class="sl">已到期·实际</div><div class="sv" style="font-size:14px">{mat}</div></div>'])
     else:
@@ -159,13 +168,18 @@ def audit_section(data):
             + f'<br><span style="color:#94a6c4">{note}</span></div>')
 
 
-FACTOR_W = {"趋势": 16, "共识上行": 18, "回调健康": 10, "动量": 10, "评级": 10, "估值PEG": 18, "相对强弱": 10, "波动率": 8, "质量": 12}  # 归一化按present权重重标,绝对和不影响最终分
+FACTOR_W = {"趋势": 16, "共识上行": 18, "回调健康": 10, "动量": 10, "评级": 10, "估值PEG": 18, "相对强弱": 10, "波动率": 8, "质量": 12}  # 保留9因子清单:用于缺失(miss)/覆盖(N/9)口径,用户能对上
+# 共线因子分组(2026-07 审计):同组只算一次(组内均值×组权重),去双重计数;其余因子独立。
+FACTOR_GROUPS = {"分析师": ["共识上行", "评级"], "动量趋势": ["动量", "相对强弱"]}
+GROUP_W = {"分析师": 20, "动量趋势": 16}
+STANDALONE_W = {"趋势": 16, "回调健康": 10, "估值PEG": 18, "波动率": 10, "质量": 14}
 
 
 def factor_score(d, bench_m3=None):
-    """归一化多因子模型:各因子打 0-1 × 权重,缺失因子记入 miss(不计入),按 present 权重重标到 /100。
-    因子:趋势/共识上行/回调健康/动量/评级/估值PEG。诚实:数据缺则该因子"不可计算",绝不静默补分。
-    返回 (总分0-100, 各因子折算贡献dict, 不可计算因子名list)。"""
+    """归一化多因子模型:9 因子各打 0-1,按【共线分组】折算(分析师=共识上行+评级、动量趋势=动量+相对强弱 各取组内均值,
+    去双重计数),缺失因子记入 miss 不静默补分,按 present 权重重标到 /100。
+    因子:趋势/共识上行/回调健康/动量/评级/估值PEG/相对强弱/波动率/质量。
+    返回 (总分0-100, 分组折算贡献dict约6项, 不可计算的原始因子名list)。IC 加权待到期样本积累后启用。"""
     px, ma50, ma200, m3, fromhi, vol = d.get("price"), d.get("ma50"), d.get("ma200"), d.get("m3"), d.get("fromhi"), d.get("vol")
     an = d.get("analyst", {}) or {}
     tm, rm, cn_rating = an.get("target_mean"), an.get("rating_mean"), an.get("cn_rating")
@@ -217,11 +231,96 @@ def factor_score(d, bench_m3=None):
         qs.append(1.0 if gm > 50 else (0.8 if gm >= 35 else (0.55 if gm >= 20 else 0.3)))
     if qs:
         f["质量"] = sum(qs) / len(qs)
+    # 共线因子分组打分(2026-07 指标审计第一批·去双重计数):实测 共识上行~评级 r≈0.76、动量~相对强弱 r≈0.57,
+    # 同组取【组内均值×组权重】只算一次,避免分析师情绪/动量被双计;其余因子独立。IC 加权待到期样本(matured≥5)后启用。
     miss = [k for k in FACTOR_W if k not in f]
-    wsum = sum(FACTOR_W[k] for k in f)
-    score = round(sum(f[k] * FACTOR_W[k] for k in f) / wsum * 100) if wsum else 0
-    breakdown = {k: round(f[k] * FACTOR_W[k]) for k in f}    # 各因子折算后贡献分
-    return score, breakdown, miss
+    contrib, wsum, total = {}, 0.0, 0.0
+    for g, members in FACTOR_GROUPS.items():
+        present = [m for m in members if m in f]
+        if present:
+            gv = sum(f[m] for m in present) / len(present)   # 组内均值(共线→不叠加)
+            contrib[g] = round(gv * GROUP_W[g]); wsum += GROUP_W[g]; total += gv * GROUP_W[g]
+    for k, w in STANDALONE_W.items():
+        if k in f:
+            contrib[k] = round(f[k] * w); wsum += w; total += f[k] * w
+    score = round(total / wsum * 100) if wsum else 0
+    return score, contrib, miss
+
+
+def portfolio_risk_section():
+    """组合层风险面板(2026-07 指标审计第一批·金融教授核心关切):本池【有意】100% 押 AI 科技口,
+    不做分散——此处如实【量化暴露】这份集中:两两收益相关矩阵+分散化比率+组合波动/beta/回撤+子段集中度。
+    数据源 state/portfolio_risk.json(portfolio_risk.py 独立算,取数失败保留上期不落空)。"""
+    pr = jload(os.path.join(STATE, "portfolio_risk.json")) or {}
+    if not pr or not pr.get("matrix"):
+        if pr.get("degraded"):
+            return ('<div class="prisk"><div class="pr-h">🧭 组合层风险 · 单一 AI 科技口集中押注</div>'
+                    '<div class="pr-na">本期组合相关性数据取数失败——如实标注不可用,不以旧值冒充。</div></div>')
+        return ""
+    inc = pr["included"]; mat = pr["matrix"]; nm = pr.get("names", {})
+    short = lambda t: t.replace(".SS", "").replace(".SZ", "").replace(".HK", "")
+    fnum = lambda x: "—" if x is None else f"{x}"
+
+    def hcol(c):  # 相关性→色:低=绿(有分散)、高=红(齐涨齐跌)
+        c = max(0.0, min(1.0, float(c))); h = 130 * (1 - c)
+        return f"hsl({h:.0f},55%,42%)"
+
+    # KPI 行
+    dr = pr.get("diversification_ratio")
+    kpis = [
+        ("平均两两相关", fnum(pr.get("avg_corr_overall")), "全池·剔基准", ""),
+        ("分散化比率", fnum(dr), "≈1=几乎无分散,越大越有效", "#4ade80" if (dr and dr >= 1.4) else "#fbbf24"),
+        ("组合年化波动", (fnum(pr.get("portfolio_vol_ann_pct")) + "%"), "等权·单一主题偏高", "#fbbf24"),
+        ("β vs QQQ", fnum(pr.get("portfolio_beta_vs_bench")), ">1=放大大盘波动", ""),
+        ("年内最大回撤", (fnum(pr.get("portfolio_max_drawdown_pct")) + "%"), "等权组合", "#ff8080"),
+    ]
+    kpi_html = "".join(
+        f'<div class="pr-kpi"><div class="pr-kv" style="{("color:" + col) if col else ""}">{val}</div>'
+        f'<div class="pr-kl">{lbl}</div><div class="pr-kn">{note}</div></div>'
+        for lbl, val, note, col in kpis)
+
+    # 簇结构诚实解读(实测:美股簇内高、跨市低=天然错位提供真实分散)
+    cu, cc, cx = pr.get("avg_corr_us"), pr.get("avg_corr_cnhk"), pr.get("avg_corr_cross")
+    cluster = (f'<div class="pr-cluster">簇内相关实测:<b>美股簇 {fnum(cu)}</b>(内部齐涨齐跌) · '
+               f'<b>A/港簇 {fnum(cc)}</b> · <b>跨市 {fnum(cx)}</b>(时段错位→天然弱相关)。'
+               f'→ <b>美股 AI 内部是高相关的集中押注,而美股↔A/港的跨市低相关提供了本池唯一的真实分散</b>('
+               f'分散化比率 {fnum(dr)} 即由此而来);这是有意的 AI 科技口下注,风控靠仓位与跨市配比、不靠行业分散。</div>')
+
+    # 子段集中度条
+    seg = pr.get("segment_share_pct", {})
+    seg_bars = "".join(
+        f'<div class="pr-seg"><div class="pr-seg-l">{k}</div>'
+        f'<div class="pr-seg-bar"><div class="pr-seg-fill" style="width:{v}%"></div></div>'
+        f'<div class="pr-seg-v">{v}%</div></div>'
+        for k, v in sorted(seg.items(), key=lambda kv: -kv[1]))
+
+    # 相关性热力图(19×19,横向可滚)
+    head = '<th class="pr-cnr"></th>' + "".join(f'<th class="pr-ct">{short(t)}</th>' for t in inc)
+    body = ""
+    for a in inc:
+        cells = ""
+        for b in inc:
+            c = mat[a][b]
+            if a == b:
+                cells += '<td class="pr-cell pr-diag"></td>'
+            else:
+                txt = (f"{c:.2f}"[1:] if c >= 0 else f"{c:.1f}")   # .49 / -0.1
+                cells += f'<td class="pr-cell" style="background:{hcol(c)}" title="{short(a)}×{short(b)}={c}">{txt}</td>'
+        body += f'<tr><th class="pr-rt" title="{nm.get(a, a)}">{short(a)}</th>{cells}</tr>'
+    heat = (f'<div class="pr-heat-wrap"><table class="pr-heat"><thead><tr>{head}</tr></thead>'
+            f'<tbody>{body}</tbody></table></div>'
+            '<div class="pr-legend">相关性 <span class="pr-lg" style="background:hsl(130,55%,42%)"></span>低(有分散)'
+            ' → <span class="pr-lg" style="background:hsl(65,55%,42%)"></span>中 → '
+            '<span class="pr-lg" style="background:hsl(0,55%,42%)"></span>高(齐涨齐跌)</div>')
+
+    return (f'<div class="prisk"><div class="pr-h">🧭 组合层风险 · 单一 AI 科技口集中押注'
+            f'<span class="pr-sub">过去约1年日收益 · {len(inc)}票等权剔基准 · 共同{pr.get("window_days","?")}交易日</span></div>'
+            f'<div class="pr-kpis">{kpi_html}</div>{cluster}'
+            f'<div class="pr-seg-wrap"><div class="pr-seg-h">AI 子段集中度(等权占比 · HHI {pr.get("hhi","?")})</div>{seg_bars}</div>'
+            f'{heat}'
+            f'<div class="pr-note">⚠️ 本面板只【量化暴露】集中度、不做分散:池子是有意的 AI 科技口押注。'
+            f'解读——组合 β{fnum(pr.get("portfolio_beta_vs_bench"))} 放大大盘、年化波动 {fnum(pr.get("portfolio_vol_ann_pct"))}% 偏高,'
+            f'一旦"AI 资本开支"叙事逆转,美股簇会齐跌(跨市 A/港略滞后);故单票仓位与美股/A港配比才是本池的风控主阀。</div></div>')
 
 
 def regime_line(data):
@@ -344,7 +443,7 @@ def card(i, tk, d, a, bench_m3=None, hist=None):
     mom = lambda x: f'<span style="color:{"#4ade80" if (x or 0)>=0 else "#ff8080"}">{x:+.1f}%</span>' if x is not None else "—"
     f0 = lambda x: f"{x:.0f}" if x is not None else "?"
     sc, sp, miss = factor_score(d, bench_m3)
-    cov = len(sp)                                  # 可算因子数(满9)
+    cov = 9 - len(miss)                            # 可算【原始】因子数(满9);sp 已按共线分组≈6项,不能用 len(sp)
     low_data = cov <= 3                             # 可算因子≤3 → 数据不足,不给确定评分
     miss_note = f"(缺:{'、'.join(miss)})" if miss else ""
     tech_only = {"共识上行", "评级", "估值PEG"}.issubset(set(miss))   # 基本面三因子全缺 → 仅技术面,不冒充满分评分
@@ -918,6 +1017,7 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 .stat{{background:rgba(51,65,85,.35);border-radius:10px;padding:8px 10px;text-align:center}}
 .sl{{font-size:12px;color:#94a6c4;margin-bottom:3px}}.sv{{font-size:18px;font-weight:800;color:#f2f6fc}}
 .rv-line{{font-size:14px;color:#c9d5e8;margin-top:6px}}
+.rv-unver{{font-size:12.5px;color:#c9d5e8;line-height:1.65;background:rgba(251,191,36,.09);border:1px solid rgba(251,191,36,.35);border-radius:8px;padding:9px 12px;margin-bottom:12px}}.rv-unver b{{color:#fbbf24}}
 .grid{{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-bottom:18px}}
 .section{{display:flex;align-items:center;gap:10px;font-size:16px;font-weight:800;color:#f2f6fc;margin:6px 0 12px;padding:10px 14px;background:linear-gradient(90deg,rgba(96,165,250,.14),transparent);border-left:4px solid #7ab8ff;border-radius:8px}}
 .section .scnt{{font-size:12px;font-weight:600;color:#94a6c4;background:rgba(148,163,184,.15);padding:2px 10px;border-radius:10px}}
@@ -937,6 +1037,31 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 .rr{{font-size:12px;color:#c9d5e8;background:rgba(248,113,113,.07);border-radius:8px;padding:6px 10px;margin-top:6px}}
 .evid{{background:#101b33;border:1px solid #2f4166;border-radius:14px;padding:14px 18px;margin-bottom:16px;font-size:14px;line-height:1.85}}
 .ev-reg{{color:#33d6c5;font-weight:700;margin-bottom:6px}}.ev-bt{{color:#c9d5e8}}
+/* 组合层风险面板 */
+.prisk{{background:#101b33;border:1px solid #2f4166;border-radius:14px;padding:15px 18px;margin-bottom:16px}}
+.pr-h{{font-size:16px;font-weight:800;color:#e2c07e;margin-bottom:12px}}.pr-sub{{font-size:12px;color:#94a6c4;font-weight:400;margin-left:8px}}
+.pr-na{{color:#94a6c4;font-size:13px}}
+.pr-kpis{{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:12px}}
+.pr-kpi{{background:#0a1020;border:1px solid #2f4166;border-radius:10px;padding:9px 8px;text-align:center}}
+.pr-kv{{font-size:20px;font-weight:800;color:#f2f6fc;font-variant-numeric:tabular-nums;line-height:1.1}}
+.pr-kl{{font-size:12px;color:#c9d5e8;margin-top:3px;font-weight:600}}.pr-kn{{font-size:10.5px;color:#94a6c4;margin-top:2px;line-height:1.3}}
+.pr-cluster{{font-size:13px;color:#c9d5e8;line-height:1.75;background:#0a1020;border-left:3px solid #33d6c5;border-radius:0 8px 8px 0;padding:9px 12px;margin-bottom:12px}}
+.pr-cluster b{{color:#f2f6fc}}
+.pr-seg-wrap{{margin-bottom:12px}}.pr-seg-h{{font-size:12.5px;color:#94a6c4;margin-bottom:6px}}
+.pr-seg{{display:flex;align-items:center;gap:8px;margin-bottom:4px;font-size:12px}}
+.pr-seg-l{{flex:0 0 200px;color:#c9d5e8}}.pr-seg-bar{{flex:1;height:9px;background:#0a1020;border-radius:5px;overflow:hidden}}
+.pr-seg-fill{{height:100%;background:linear-gradient(90deg,#2563eb,#33d6c5);border-radius:5px}}.pr-seg-v{{flex:0 0 42px;text-align:right;color:#94a6c4;font-variant-numeric:tabular-nums}}
+.pr-heat-wrap{{overflow-x:auto;margin-bottom:6px}}
+.pr-heat{{border-collapse:collapse;font-size:9px;margin:0 auto}}
+.pr-heat th{{font-weight:600;color:#94a6c4;font-size:9px;padding:1px}}
+.pr-ct{{writing-mode:vertical-rl;transform:rotate(180deg);height:38px;white-space:nowrap}}
+.pr-rt{{text-align:right;padding-right:4px!important;color:#c9d5e8;white-space:nowrap}}
+.pr-cell{{width:22px;height:20px;text-align:center;color:#fff;font-variant-numeric:tabular-nums;border:1px solid #0a1020}}
+.pr-diag{{background:#33415580}}
+.pr-legend{{font-size:11px;color:#94a6c4;text-align:center;margin-bottom:8px}}
+.pr-lg{{display:inline-block;width:12px;height:10px;border-radius:2px;vertical-align:middle;margin:0 2px}}
+.pr-note{{font-size:11.5px;color:#94a6c4;line-height:1.6;background:#0a1020;border-radius:8px;padding:9px 12px}}
+@media(max-width:640px){{.pr-kpis{{grid-template-columns:repeat(2,1fr)}}.pr-seg-l{{flex-basis:130px}}}}
 .audit{{font-size:12px;color:#94a6c4;background:rgba(51,65,85,.25);border:1px solid #2f4166;border-radius:12px;padding:12px 16px;margin-top:16px;line-height:1.8}}
 .px{{display:flex;align-items:baseline;gap:12px;margin-bottom:12px;flex-wrap:wrap}}
 .now{{font-size:26px;font-weight:900;color:#f2f6fc}}.mom{{font-size:12px;color:#94a6c4}}
@@ -1072,6 +1197,7 @@ document.addEventListener('click',function(e){{
 {qa_block(data, calls, calls_date, v)}
 {evidence_section(data)}
 {review_section(v)}
+{portfolio_risk_section()}
 {cards}
 {audit_section(data)}
 <div class="foot">两个核心指标 = ① 买入建议+建议买入价　② 6-12月目标价+预期收益　·　预测台账自动复盘校准<br>
