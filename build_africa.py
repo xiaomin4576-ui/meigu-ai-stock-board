@@ -122,7 +122,7 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 .foot b{{color:#c9d5e8}}
 </style></head><body>
 <div class="wrap">
-<div class="nav"><a href="home.html">🏠 首页</a><a class="o" href="board.html">📈 股票看板</a><a class="o" href="news.html">🌍 全球头条</a><a class="o" href="tongguang/">📰 全球AI早报</a><span class="ts">🕐 {BUILD_TS} 北京</span></div>
+<div class="nav"><a href="home.html">🏠 首页</a><span class="ts">🕐 {BUILD_TS} 北京</span></div>
 <div class="header">
   <h1>🌍 非洲科技脉搏</h1>
   <div class="sub">同光科技立足莫桑比克 · 跟踪整个非洲大陆科技与 AI 的一举一动 · 数据源为非洲本地科技媒体(真实可溯)</div>
