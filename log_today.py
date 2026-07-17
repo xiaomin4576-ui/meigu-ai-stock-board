@@ -41,15 +41,30 @@ def main():
                 pass
             kept.append(ln)
     eval_date = (datetime.date.fromisoformat(TODAY) + datetime.timedelta(days=cfg["horizon_days"])).isoformat()
+    # 2026-07:同时记【纯规则信号】(与LLM并排,后续相对QQQ超额裁决)。规则信号=机械可复现,从data算,不依赖LLM。
+    import build_board as B
+    bench_m3 = (data.get("QQQ", {}) or {}).get("m3")
     n = 0
     for tk, a in calls["stocks"].items():
         bl, bh = rng(a.get("buy")); tl, th = rng(a.get("tgt"))
+        d = data.get(tk, {})
+        rsig = None
+        if tk != cfg.get("benchmark"):
+            try:
+                _sc, _sp, _miss = B.factor_score(d, bench_m3)
+                rsig = B.rules_signal(d, _sc, (9 - len(_miss)) <= 3)
+            except Exception:
+                rsig = None
         kept.append(json.dumps({
             "date": TODAY, "ticker": tk,
-            "price_at_call": data.get(tk, {}).get("price"),
+            "price_at_call": d.get("price"),
             "signal": a.get("sig"), "buy_low": bl, "buy_high": bh,
             "target_low": tl, "target_high": th, "exp_return": a.get("ret"),
             "eval_date": eval_date,
+            # 并排的纯规则信号(裁决用)
+            "rule_signal": rsig["sig"] if rsig else None,
+            "rule_buy_low": rsig["buy_low"] if rsig else None, "rule_buy_high": rsig["buy_high"] if rsig else None,
+            "rule_target_low": rsig["tgt_low"] if rsig else None, "rule_target_high": rsig["tgt_high"] if rsig else None,
         }, ensure_ascii=False))
         n += 1
     with open(LEDGER, "w", encoding="utf-8") as f:

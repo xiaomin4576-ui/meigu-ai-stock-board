@@ -6,6 +6,7 @@
 · 记分卡 + 校准建议 → state/verification.json,供看板与 Claude 出建议时读用。"""
 import json, os, datetime
 import yfinance as yf
+import pandas as _pd
 
 def _median(a):
     """中位数——pace 用它而非均值,免被少数快仓拉偏,更代表'典型在途节奏'(审计建议)。"""
@@ -94,6 +95,43 @@ def main():
                            "progress_to_target_pct": progress, "matured": matured,
                            "realized_return_pct": realized})
 
+    # 相对QQQ超额裁判(2026-07:LLM 黑箱 vs 纯规则,谁的【买入】信号跑赢指数)。用超额滤掉大盘beta,
+    # 分 20交易日(~1月)/60交易日(~1季)滚动窗口。规则信号从台账有 rule_signal 的行起累积(今日起)。
+    def fwd_excess(tk, call_date, ndays):
+        try:
+            s = ohlc(tk)["Close"].dropna(); q = ohlc("QQQ")["Close"].dropna()
+            cd = _pd.Timestamp(call_date)
+            if s.index.tz is not None:
+                cd = cd.tz_localize(s.index.tz)
+            si = s.index.searchsorted(cd); qi = q.index.searchsorted(cd)
+            if si + ndays >= len(s) or qi + ndays >= len(q):   # 未到 ndays / 越界
+                return None
+            sr = float(s.iloc[si + ndays]) / float(s.iloc[si]) - 1
+            qr = float(q.iloc[qi + ndays]) / float(q.iloc[qi]) - 1
+            return (sr - qr) * 100
+        except Exception:
+            return None
+
+    excess = {"llm": {20: [], 60: []}, "rule": {20: [], 60: []}}
+    for r in recs:
+        tk, cd = r.get("ticker"), r.get("date")
+        if not tk or tk in BENCH or not cd:
+            continue
+        for eng, sigk in (("llm", "signal"), ("rule", "rule_signal")):
+            if str(r.get(sigk, "")).startswith("买入"):   # 只统计【买入】信号(真取了仓位)
+                for nd in (20, 60):
+                    e = fwd_excess(tk, cd, nd)
+                    if e is not None:
+                        excess[eng][nd].append(e)
+    _avg = lambda a: round(sum(a) / len(a), 1) if a else None
+    rel_qqq = {
+        "llm_1m": _avg(excess["llm"][20]), "llm_1m_n": len(excess["llm"][20]),
+        "rule_1m": _avg(excess["rule"][20]), "rule_1m_n": len(excess["rule"][20]),
+        "llm_3m": _avg(excess["llm"][60]), "llm_3m_n": len(excess["llm"][60]),
+        "rule_3m": _avg(excess["rule"][60]), "rule_3m_n": len(excess["rule"][60]),
+        "basis": "买入信号持有 N 交易日相对 QQQ 的超额收益均值(滤大盘beta);规则信号自台账有 rule_signal 起累积。样本小时仅供观察、非结论。",
+    }
+
     # 审计F9(规则9"空结果绝不落盘"):有历史台账在评、本次却一条复盘都没算出(yfinance 全挂)时,
     # 绝不用空复盘覆盖 verification.json / 追加空史行——否则看板复盘区会退化成"首期"、把全部历史藏起来。
     hist_dates = {r.get("date") for r in recs if r.get("date")} - {latest}
@@ -140,6 +178,7 @@ def main():
         sc["n_entered_unique"] = len(latest_by_tk)     # 独立样本量(去重后的票数,远小于 n_entered)
         sc["direction_win_rate_unique"] = round(100 * sum(dr_u) / len(dr_u)) if dr_u else None
         sc["verified"] = bool(len(mat) >= cfg.get("min_periods_for_calibration", 5))   # 到期样本达标才算"经统计验证"
+        sc["rel_qqq"] = rel_qqq                          # 相对QQQ超额裁判(LLM vs 规则)
         sc["basis"] += ("｜⚠️方向胜率为【在途·未到期】值:在途口径含同票逐日快照(伪重复非独立),另附【按票去重】"
                         f"独立口径 n={sc['n_entered_unique']};到期样本 matured_n={len(mat)},"
                         f"未达 {cfg.get('min_periods_for_calibration', 5)} 期前一律不构成'系统准不准'的统计结论。")

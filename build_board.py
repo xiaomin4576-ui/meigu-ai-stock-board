@@ -134,10 +134,23 @@ def review_section(v):
     ok = len(feas) - len(bad)
     fl = (f'本期 <b style="color:#4ade80">{ok}/{len(feas)}</b> 支建议买入价落在【真实近20日成交区间·可达】'
           + ("，目标价隐含涨幅均在合理区(无激进项)" if not bad else f'，<b style="color:#fbbf24">需关注:{"、".join(bad)}</b>'))
+    # 相对QQQ超额裁判(引擎黑箱 vs 纯规则,谁的买入跑赢指数)——数据驱动,几个月后谁稳定赢切谁
+    rq = sc.get("rel_qqq") or {}
+    def _ex(v, n):
+        if v is None:
+            return f'<span style="color:#94a6c4">—(n{n})</span>'
+        return f'<b style="color:{"#4ade80" if v >= 0 else "#ff8080"}">{v:+.1f}%</b><span style="color:#94a6c4">(n{n})</span>'
+    rq_line = ""
+    if rq:
+        rq_line = (f'<div class="rv-line">⚖️ <b>相对QQQ超额〔裁判·引擎 vs 规则并排〕:</b>'
+                   f'近1月 引擎 {_ex(rq.get("llm_1m"), rq.get("llm_1m_n", 0))} / 规则 {_ex(rq.get("rule_1m"), rq.get("rule_1m_n", 0))}'
+                   f' · 近1季 引擎 {_ex(rq.get("llm_3m"), rq.get("llm_3m_n", 0))} / 规则 {_ex(rq.get("rule_3m"), rq.get("rule_3m_n", 0))}'
+                   f' <span style="color:#94a6c4">(买入信号持有N日相对QQQ的超额,滤大盘beta;规则信号自今日起累积,样本小仅供观察非结论——攒够谁稳定赢就切谁拍板)</span></div>')
     return (f'<div class="review">{gauges}'
             f'<div class="rv-h">🔍 复盘与校准 <span class="rv-sub">预测台账 → 自动验证 → 校准(越用越准)</span></div>'
             f'<div class="stats">{scorecard}</div>'
             f'<div class="rv-line">📏 <b>即时可达性校验:</b>{fl}</div>'
+            f'{rq_line}'
             f'<div class="rv-line">⚙️ <b>校准:</b>{calib}</div></div>')
 
 
@@ -288,6 +301,38 @@ def factor_score(d, bench_m3=None):
             contrib[k] = round(f[k] * w); wsum += w; total += f[k] * w
     score = round(total / wsum * 100) if wsum else 0
     return score, contrib, miss
+
+
+def rules_signal(d, sc, low_data):
+    """纯规则/因子信号(2026-07:与 DeepSeek 黑箱【并排】跑,后续用相对QQQ超额裁决谁拍板)。
+    完全机械可复现、与 backtest.py 同口径:趋势(>MA200)+9因子评分 定信号;买区锚结构支撑(强势档MA20/破位档MA50);
+    分档止损(强势-6%/破位-10%);目标按 R:R=2.5 反推。数据不足则不出信号(观望·不硬判)。
+    返回 {sig, buy_low, buy_high, tgt_low, tgt_high, stop_rate, reason}。"""
+    px, ma20, ma50, ma200, m3 = d.get("price"), d.get("ma20"), d.get("ma50"), d.get("ma200"), d.get("m3")
+    if low_data or not (px and ma200):
+        return {"sig": "观望", "buy_low": None, "buy_high": None, "tgt_low": None, "tgt_high": None,
+                "stop_rate": None, "reason": "数据不足·规则不硬判"}
+    strong = bool(ma20 and px > ma20)
+    stop_rate = 0.06 if strong else 0.10
+    anchor = (ma20 if strong else ma50) or ma200                 # 结构支撑锚
+    uptrend = px > ma200
+    overheat = (m3 is not None and m3 > 90)                       # 抛物线过热
+    # 买区:锚在【支撑与现价的较低者】,4%带,恒满足 buy_low<buy_high≤现价(反追涨;现价已破支撑则买在现价下方)
+    ref = min(anchor, px)
+    buy_high = round(min(ref * 1.01, px), 2)
+    buy_low = round(buy_high * 0.96, 2)
+    buy_mid = (buy_low + buy_high) / 2
+    tgt_mid = buy_mid * (1 + 2.5 * stop_rate)                     # R:R=2.5 反推目标
+    tgt_low, tgt_high = round(tgt_mid * 0.97, 2), round(tgt_mid * 1.03, 2)
+    if (not uptrend) or sc < 45 or overheat:
+        reason = ("跌破MA200" if not uptrend else ("评分低" if sc < 45 else "动量过热"))
+        return {"sig": "回避", "buy_low": None, "buy_high": None, "tgt_low": None, "tgt_high": None,
+                "stop_rate": stop_rate, "reason": reason}
+    if sc >= 60 and px <= anchor * 1.10:                          # 趋势好+评分够+离支撑不远(挂得上单)
+        return {"sig": "买入", "buy_low": buy_low, "buy_high": buy_high, "tgt_low": tgt_low, "tgt_high": tgt_high,
+                "stop_rate": stop_rate, "reason": "趋势+评分+回踩到位"}
+    return {"sig": "观望", "buy_low": buy_low, "buy_high": buy_high, "tgt_low": tgt_low, "tgt_high": tgt_high,
+            "stop_rate": stop_rate, "reason": ("估值/位置偏高等回踩" if sc >= 60 else "评分中等")}
 
 
 def portfolio_risk_section():
@@ -503,6 +548,7 @@ def card(i, tk, d, a, bench_m3=None, hist=None):
     cov = 9 - len(miss)                            # 可算【原始】因子数(满9);sp 已按共线分组≈6项,不能用 len(sp)
     low_data = cov <= 3                             # 可算因子≤3 → 数据不足,不给确定评分
     val_html = valuation_line(d, a)                # 第二批:目标价的基本面估值锚(启发式,给"画前高线"一个估值交叉验证)
+    rsig = rules_signal(d, sc, low_data) if tk != "QQQ" else None   # 纯规则信号(与LLM并排;rules_html 待 cs 定义后拼)
     miss_note = f"(缺:{'、'.join(miss)})" if miss else ""
     tech_only = {"共识上行", "评级", "估值PEG"}.issubset(set(miss))   # 基本面三因子全缺 → 仅技术面,不冒充满分评分
     score_lbl = "技术分" if tech_only else "评分"
@@ -521,6 +567,15 @@ def card(i, tk, d, a, bench_m3=None, hist=None):
     mkt = d.get("market", "US")
     is_cn, is_hk = mkt == "CN", mkt == "HK"
     cs = "¥" if is_cn else ("HK$" if is_hk else "$")   # A股¥、港股HK$、美股$,如实
+    rules_html = ""                                    # 纯规则信号行(cs 已就绪,拼展示)
+    if rsig:
+        _rc = {"买入": "#4ade80", "观望": "#fbbf24", "回避": "#94a6c4"}.get(rsig["sig"], "#94a6c4")
+        _bz = (f' · 买区 {cs}{rsig["buy_low"]}–{cs}{rsig["buy_high"]} → 目标 {cs}{rsig["tgt_low"]}–{cs}{rsig["tgt_high"]}'
+               if rsig["buy_low"] else "")
+        _st = f' · 止损 -{rsig["stop_rate"] * 100:.0f}%' if rsig["stop_rate"] else ""
+        _diff = "" if str(a.get("sig", "")).startswith(rsig["sig"]) else ' <span style="color:#7ab8ff">≠引擎</span>'
+        rules_html = (f'🤖 <b>规则信号:</b><b style="color:{_rc}">{rsig["sig"]}</b>{_diff}{_bz}{_st} '
+                      f'<span style="color:#94a6c4">({rsig["reason"]};机械可复现·可回测,与上方引擎研判并排,后续用相对QQQ超额裁决)</span>')
     # 机构共识行 + 我 vs 共识
     if tm:
         mymid = _mid(a.get("tgt"))
@@ -594,6 +649,7 @@ def card(i, tk, d, a, bench_m3=None, hist=None):
     <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">{cs}{a.get('tgt','')}</div></div>
     <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">{a.get('ret','')}</div></div></div>
   <div class="cons">{cons}{earn}{unlock_html}</div>
+  {f'<div class="rsig">{rules_html}</div>' if rules_html else ''}
   <div class="rr">🛡 风控 止损 {stop_lbl}(≈{(cs + str(stop)) if stop is not None else '—'}) · 风险收益比 <b>{rr if rr is not None else '—'}:1</b>{rrflag}　·　📊 {'数据不足·目标价为题材推演非可复算估值' if low_data else f'{score_lbl} {sc}/100({cov}/9因子{"·仅技术面,估值/共识未评" if tech_only else ""}) = {sp_str}{miss_note}'}</div>
   {f'<div class="valn">{val_html}</div>' if val_html else ''}
   <div class="th">💡 {a.get('th','')}</div>
@@ -1139,6 +1195,7 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 .kl{{font-size:12px;color:#94a6c4;margin-bottom:4px}}
 .kv{{font-size:16px;font-weight:800}}.kv.buy{{color:#4ade80}}.kv.tgt{{color:#33d6c5}}.kv.ret{{color:#fbbf24}}
 .cons{{font-size:12px;color:#c9d5e8;background:rgba(45,212,191,.07);border-radius:8px;padding:7px 10px;margin-top:6px}}
+.rsig{{font-size:12px;color:#c9d5e8;background:rgba(122,184,255,.07);border:1px dashed rgba(122,184,255,.3);border-radius:8px;padding:6px 10px;margin-top:6px}}
 .valn{{font-size:12px;color:#c9d5e8;background:rgba(51,214,197,.06);border-radius:8px;padding:6px 10px;margin-top:6px}}
 .th{{font-size:14px;color:#c9d5e8;padding:8px 0 4px;border-top:1px solid rgba(51,65,85,.5);margin-top:6px}}
 .news{{font-size:12px;color:#94a6c4;line-height:1.8;margin-bottom:4px}}
