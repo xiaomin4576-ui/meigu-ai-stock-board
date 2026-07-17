@@ -786,6 +786,11 @@ QA_TMPL = """
    <button class="chip" onclick="qaAsk('结合同光早报的AI行业最新动向,美股AI链现在优先配置谁,为什么?')">🇺🇸 美股AI链配谁?</button>
   </div>
   <div class="qa-log" id="qa-log"></div>
+  <div class="qa-attach">
+    <span class="qa-atbtn" onclick="qaRefToggle()">📎 附参考资料/长文</span>
+    <span id="qa-ref-ind" class="qa-atind"></span>
+  </div>
+  <textarea id="qa-ref" class="qa-ref" rows="3" placeholder="把要分析的材料粘这里(研报片段/公司公告/一段数据/别处的观点…)——它会和你的提问【分开】喂给引擎,引擎读着这段材料回答。清空即不带。" style="display:none" oninput="qaRefInd()"></textarea>
   <div class="qa-inrow">
    <textarea id="qa-in" rows="2" placeholder="问点什么…例如:这波下跌趋势大概什么时候可能扭转?(Enter 发送,Shift+Enter 换行)"></textarea>
    <button id="qa-send" onclick="qaSend()">发送</button>
@@ -929,6 +934,9 @@ function qaMd(s){
 // 审计F33:tgNews()/TGCACHE 死代码已删——同光要闻常备嵌入的旧职责早被 search_briefing 按需检索取代,
 // 全文件无任何调用点,残留物还让面板副标题把"同光要闻"说成常备语料(与实际不符)。
 function qaAsk(q){if(QABUSY)return;qel('qa-in').value=q;qaSend();}
+// 参考资料区(粘研报/长文作分析素材,与问题分开喂):展开/收起 + 内容指示
+function qaRefToggle(){var e=qel('qa-ref');if(!e)return;var show=e.style.display==='none';e.style.display=show?'block':'none';if(show)e.focus();qaRefInd();}
+function qaRefInd(){var e=qel('qa-ref'),i=qel('qa-ref-ind');if(!e||!i)return;var n=e.value.trim().length;i.textContent=n?('已附 '+n+' 字'):'';}
 function qaBubble(cls,html){
   const d=document.createElement('div');d.className='qa-m '+cls;d.innerHTML=html;
   qel('qa-log').appendChild(d);d.scrollIntoView({block:'nearest'});return d;
@@ -944,7 +952,9 @@ async function qaSend(){
     const sys='你是一名华尔街二级市场交易员+buy-side分析师,长期跟踪美股AI产业链与A股/港股算力链,以「无废话」直给结论的方式回答看板主人的盘势问题。\\n【你有两个工具,可多步编排(看了一个结果再决定要不要调另一个)】\\n· get_realtime_quote:抓标的实时行情/市值——问最新价/市值/今日涨跌、或质疑看板数据、要核实时【必调】,并同时给"实时(标行情时间)vs 看板行情快照(行情日)"两套数并解释差异。可一次多只做对比。\\n· search_briefing:检索同光AI早报全库——问到AI行业动态/某公司或技术进展/政策监管/产业链事件时调用,按关键词检索。\\n【看板数据(内嵌)已含】每票近1/3/6月涨幅、距52周高、52周高低、MA50/MA200、年化波动、9因子评分、买卖点研判、复盘记分卡,以及"宏观快线"(BLS非农/失业率/CPI实际vs前值、中美10Y利差、黄金原油、社融)与"全球头条"。历史走势/回撤/宏观类问题优先用这些已有字段,不足再调工具。\\n【硬性纪律】\\n1) 只基于内嵌语料与工具结果回答;两者都覆盖不到的直说"无法核实",绝不编造价格/日期/券商目标价。凡某标的『行情新鲜度』标为"复用…非当日实时"或整体"行情整体"为降级,引用其价格时必须向用户声明该价非当日实时。\\n2) "何时回转/企稳"类:未来不可预测→转成【条件与信号】:关键价位(站回MA50/跌破MA200)、催化剂(财报日/宏观变量)、乐观/中性/悲观三情景时间量级,明说是情景推演。\\n3) 分析透镜(方法非事实):宏观用"实际vs前值"看边际;大事件按"事件→市场反应→政策意图"三层递进;跨资产资金流(美元/黄金/加密轮动);要人表态(美联储主席/财长/央行)高权重。\\n4) 结论先行、分点、简洁、注明出处与时点。回答末尾会自动跑一轮数据溯源自校验,所以务必只用有据可查的数字。\\n5) 末尾固定:仅研究示范,非投资建议。用中文。';
     const msgs=[{role:'system',content:sys}];
     QAHIST.slice(-3).forEach(function(h){msgs.push({role:'user',content:h.q});msgs.push({role:'assistant',content:h.a});});
-    msgs.push({role:'user',content:'【看板数据(研判日 '+QACTX['研判日']+' · 行情日 '+QACTX['行情日']+',含研判/记分卡/宏观快线/全球头条,为快照)】\\n'+JSON.stringify(QACTX)+'\\n\\n【问题】'+q});
+    var _ref=(qel('qa-ref')&&qel('qa-ref').value.trim())||'';   // 用户粘的参考资料:和看板数据、问题分开喂,引擎据此分析
+    var _refb=_ref?('【用户提供的参考资料(据此分析;注明哪些结论来自这段材料而非看板数据,材料与看板冲突时以看板真实数据为准并指出)】\\n'+_ref.slice(0,6000)+'\\n\\n'):'';
+    msgs.push({role:'user',content:_refb+'【看板数据(研判日 '+QACTX['研判日']+' · 行情日 '+QACTX['行情日']+',含研判/记分卡/宏观快线/全球头条,为快照)】\\n'+JSON.stringify(QACTX)+'\\n\\n【问题】'+q});
     // ―― ReAct 多步循环:看板核心内嵌 + 按需调工具,最多5步 ――
     const used=[];let finalAns=null;
     for(let step=0;step<5;step++){
@@ -1157,6 +1167,12 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 .qa-li{{padding-left:6px}}
 .qa-hd{{font-weight:800;color:#7ab8ff;margin-top:4px}}
 .qa-wait{{color:#94a6c4;font-size:12px}}
+.qa-attach{{display:flex;align-items:center;gap:8px;margin-bottom:6px}}
+.qa-atbtn{{font-size:12px;color:#7ab8ff;cursor:pointer;user-select:none;border:1px dashed #2f4166;border-radius:8px;padding:3px 10px}}
+.qa-atbtn:hover{{border-color:#2563eb;background:rgba(37,99,235,.08)}}
+.qa-atind{{font-size:11px;color:#4ade80}}
+.qa-ref{{width:100%;box-sizing:border-box;background:#0a1020;border:1px solid #2f4166;border-radius:10px;color:#c9d5e8;font-size:13px;font-family:inherit;padding:9px 12px;resize:vertical;line-height:1.5;margin-bottom:8px}}
+.qa-ref:focus{{outline:none;border-color:#33d6c5}}
 .qa-inrow{{display:flex;gap:8px;align-items:flex-end}}
 .qa-inrow textarea{{flex:1;background:#1c2a4a;border:1px solid #2f4166;border-radius:10px;color:#f2f6fc;font-size:14px;font-family:inherit;padding:9px 12px;resize:vertical;line-height:1.5}}
 .qa-inrow textarea:focus{{outline:none;border-color:#2563eb}}
