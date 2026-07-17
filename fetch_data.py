@@ -425,7 +425,7 @@ def fetch_one_cn(s):
     hi, lo = round(float(win.max()), 2), round(float(win.min()), 2)
     rec.update({
         "price": round(last, 2),
-        "m1": pct(last, back(21)), "m3": pct(last, back(63)), "m6": pct(last, back(126)),
+        "chg1d": pct(last, back(1)), "m1": pct(last, back(21)), "m3": pct(last, back(63)), "m6": pct(last, back(126)),
         "fromhi": pct(last, hi), "hi": hi, "lo": lo, "ma20": ma(20), "ma50": ma(50), "ma200": ma(200), "vol": ann_vol(c),
     })
     cn = cn_consensus(code)
@@ -474,7 +474,7 @@ def hk_tencent_fetch(s):
     vol = round(statistics.stdev(rets) * (252 ** 0.5) * 100, 1) if len(rets) > 20 else None
     rec.update({
         "price": round(last, 2),
-        "m1": pct(last, back(21)), "m3": pct(last, back(63)), "m6": pct(last, back(126)),
+        "chg1d": pct(last, back(1)), "m1": pct(last, back(21)), "m3": pct(last, back(63)), "m6": pct(last, back(126)),
         "fromhi": pct(last, hi), "hi": hi, "lo": lo, "ma20": ma(20), "ma50": ma(50), "ma200": ma(200), "vol": vol,
         "analyst": {"target_mean": None, "cn_rating": None, "n_analysts": None,
                     "fwd_pe": None, "rating": None, "rating_mean": None},
@@ -517,7 +517,7 @@ def td_fetch_one(s, sess):
     ma = lambda k: round(sum(closes[-k:]) / k, 2) if n >= k else None
     hi, lo = round(max(highs[-250:]), 2), round(min(lows[-250:]), 2)
     rec.update({"price": round(last, 2),
-                "m1": pct(last, back(21)), "m3": pct(last, back(63)), "m6": pct(last, back(126)),
+                "chg1d": pct(last, back(1)), "m1": pct(last, back(21)), "m3": pct(last, back(63)), "m6": pct(last, back(126)),
                 "fromhi": pct(last, hi), "hi": hi, "lo": lo, "ma20": ma(20), "ma50": ma(50), "ma200": ma(200), "vol": ann_vol(closes)})
     # 券商一致:yfinance 尽力补(云端常被限,拿不到留 None,不致命)
     an = {"target_mean": None, "target_low": None, "target_high": None, "rating": None,
@@ -579,7 +579,7 @@ def fetch_one(s, sess):
         hi, lo = round(float(c.max()), 2), round(float(c.min()), 2)
         r = {
             "price": round(last, 2),
-            "m1": pct(last, back(21)), "m3": pct(last, back(63)), "m6": pct(last, back(126)),
+            "chg1d": pct(last, back(1)), "m1": pct(last, back(21)), "m3": pct(last, back(63)), "m6": pct(last, back(126)),
             "fromhi": pct(last, hi), "hi": hi, "lo": lo, "ma20": ma(20), "ma50": ma(50), "ma200": ma(200), "vol": ann_vol(c),
         }
         info = {}

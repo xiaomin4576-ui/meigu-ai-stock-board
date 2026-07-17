@@ -31,6 +31,8 @@ def _card(it):
     tags = ""
     if country:
         tags += f'<span class="ct">{esc(country)}</span>'
+    if it.get("is_aiinfra"):
+        tags += '<span class="infra">🏗️ AI基建</span>'
     if it.get("is_ai"):
         tags += '<span class="ai">🤖 AI</span>'
     src = esc(it.get("source"))
@@ -52,26 +54,33 @@ def main():
     asof = data.get("asof", TODAY)
     fetched = data.get("fetched_at", "")
 
-    ai_items = [x for x in items if x.get("is_ai")]
-    rest = [x for x in items if not x.get("is_ai")]
+    # AI 基建单列置顶(数据中心/海缆/骨干网——最具"股票需求侧"关联的一档);其余 AI 次之;非 AI 全景最后
+    infra_items = [x for x in items if x.get("is_aiinfra")]
+    ai_items = [x for x in items if x.get("is_ai") and not x.get("is_aiinfra")]
+    rest = [x for x in items if not x.get("is_ai") and not x.get("is_aiinfra")]
     # 莫桑比克/南部非洲优先置顶(同光所在地)
     PRIOR = ("🇲🇿", "🇿🇦", "🇦🇴", "🇿🇲", "🇿🇼")
     rest.sort(key=lambda x: 0 if (x.get("country") or "")[:1] and any((x.get("country") or "").startswith(p) for p in PRIOR) else 1)
 
-    ai_html = ("".join(_card(x) for x in ai_items)) if ai_items else '<div class="empty">本期无 AI 前沿条目命中</div>'
+    infra_html = ("".join(_card(x) for x in infra_items)) if infra_items else '<div class="empty">本期无 AI 基建(数据中心/海缆/骨干网)条目命中</div>'
+    ai_html = ("".join(_card(x) for x in ai_items)) if ai_items else '<div class="empty">本期无其它 AI 前沿条目命中</div>'
     rest_html = ("".join(_card(x) for x in rest)) if rest else '<div class="empty">暂无更多条目</div>'
 
     if not items:
         body = ('<div class="empty" style="grid-column:1/-1;padding:40px">暂无非洲科技数据(采集失败或首次运行)。'
                 '数据源=非洲本地科技媒体 RSS,下次构建自动补齐。</div>')
     else:
-        body = (f'<div class="sec">🤖 AI / 前沿科技 <span class="cnt">{len(ai_items)}</span></div>'
+        body = (f'<div class="sec">🏗️ AI 基建 · 数据中心 / 海缆 / 骨干网 <span class="cnt">{len(infra_items)}</span>'
+                f'<span class="secnote">非洲数据中心/海缆 buildout = 光互联/光模块需求侧,与看板 长飞·中天 存在需求侧关联</span></div>'
+                f'<div class="grid">{infra_html}</div>'
+                f'<div class="sec">🤖 AI / 前沿科技 <span class="cnt">{len(ai_items)}</span></div>'
                 f'<div class="grid">{ai_html}</div>'
                 f'<div class="sec">📡 非洲科技全景(莫桑比克 / 南部非洲优先) <span class="cnt">{len(rest)}</span></div>'
                 f'<div class="grid">{rest_html}</div>')
 
     n_total = meta.get("total", len(items))
-    n_ai = meta.get("ai_flagged", len(ai_items))
+    n_ai = meta.get("ai_flagged", len([x for x in items if x.get("is_ai")]))
+    n_infra = meta.get("aiinfra_flagged", len(infra_items))
     n_ctry = meta.get("countries", 0)
 
     html_out = f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
@@ -101,6 +110,8 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 .item .meta{{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:11.5px;margin-bottom:7px}}
 .ct{{color:#fbbf24;background:rgba(251,191,36,.12);border-radius:20px;padding:2px 9px;font-weight:700}}
 .ai{{color:#4ade80;background:rgba(74,222,128,.14);border-radius:20px;padding:2px 9px;font-weight:700}}
+.infra{{color:#e2c07e;background:rgba(226,192,126,.15);border-radius:20px;padding:2px 9px;font-weight:700}}
+.sec .secnote{{font-size:11.5px;color:#94a6c4;font-weight:400;margin-left:8px}}
 .sc{{color:#7ab8ff;font-weight:600}}
 .dt{{color:#94a6c4;margin-left:auto}}
 .item .ti{{font-size:14.5px;font-weight:700;color:#f2f6fc;line-height:1.5}}
@@ -115,7 +126,7 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 <div class="header">
   <h1>🌍 非洲科技脉搏</h1>
   <div class="sub">同光科技立足莫桑比克 · 跟踪整个非洲大陆科技与 AI 的一举一动 · 数据源为非洲本地科技媒体(真实可溯)</div>
-  <div class="kpis"><div class="kpi"><b>{n_total}</b><span>今日条目</span></div><div class="kpi"><b>{n_ai}</b><span>AI / 前沿</span></div><div class="kpi"><b>{n_ctry}</b><span>覆盖国家</span></div></div>
+  <div class="kpis"><div class="kpi"><b>{n_total}</b><span>今日条目</span></div><div class="kpi"><b>{n_infra}</b><span>🏗️ AI 基建</span></div><div class="kpi"><b>{n_ai}</b><span>🤖 AI / 前沿</span></div><div class="kpi"><b>{n_ctry}</b><span>覆盖国家</span></div></div>
 </div>
 {body}
 <div class="foot">

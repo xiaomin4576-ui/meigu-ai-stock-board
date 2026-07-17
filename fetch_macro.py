@@ -86,23 +86,67 @@ def bond_rates():
 
 
 def commodities():
-    """黄金/原油实时(腾讯外盘,免key)。"""
-    req = urllib.request.Request("https://qt.gtimg.cn/q=hf_GC,hf_CL",
+    """黄金/原油/天然气实时(腾讯外盘,免key)。2026-07 加天然气 Henry Hub(hf_NG)——能源档/莫桑LNG视角。"""
+    req = urllib.request.Request("https://qt.gtimg.cn/q=hf_GC,hf_CL,hf_NG",
                                  headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=15, context=_ctx()) as r:
         txt = r.read().decode("gbk", "ignore")
     out = {}
+    sym = {"hf_GC": "纽约黄金", "hf_CL": "纽约原油", "hf_NG": "美天然气"}
     for line in txt.split(";"):
-        if "hf_GC" in line and "=" in line:
-            f = line.split('"')[1].split(",")
-            out["纽约黄金"] = {"价": float(f[0]), "涨跌%": float(f[1]), "时间": f[6] + " " + f[12]}
-        if "hf_CL" in line and "=" in line:
-            f = line.split('"')[1].split(",")
-            out["纽约原油"] = {"价": float(f[0]), "涨跌%": float(f[1]), "时间": f[6] + " " + f[12]}
+        for code, name in sym.items():
+            if code in line and "=" in line:
+                f = line.split('"')[1].split(",")
+                out[name] = {"价": float(f[0]), "涨跌%": float(f[1]), "时间": f[6] + " " + f[12]}
     if not out:
         raise RuntimeError("腾讯外盘无数据")
-    out["源"] = "腾讯外盘实时"
+    out["源"] = "腾讯外盘实时(金/油/气)"
     return out
+
+
+# 2026 年 FOMC 议息会议【决议日】(美联储预定日历,公开且提前一年公布,稳定;含"距下次约N天"作二元风险提示)
+FOMC_2026 = ["2026-01-28", "2026-03-18", "2026-04-29", "2026-06-17",
+             "2026-07-29", "2026-09-16", "2026-10-28", "2026-12-16"]
+
+
+def usa_fed():
+    """美联储政策利率 = 纽约联储 EFFR(有效联邦基金利率,官方口径、免key、日更)+ 下次 FOMC 倒计时。
+    利率是成长股(AI科技)估值的贴现率之锚,直接影响 PE 倍数——研判必须看它,而非只看市场端的10Y。"""
+    req = urllib.request.Request("https://markets.newyorkfed.org/api/rates/unsecured/effr/last/2.json",
+                                 headers={"User-Agent": "macro-fetcher"})
+    with urllib.request.urlopen(req, timeout=20, context=_ctx()) as r:
+        d = json.loads(r.read())
+    rows = d.get("refRates", [])
+    if not rows:
+        raise RuntimeError("NY Fed EFFR 无数据")
+    cur = rows[0]
+    prev = rows[1] if len(rows) > 1 else {}
+    out = {"EFFR%": cur.get("percentRate"), "前值%": prev.get("percentRate"),
+           "日期": cur.get("effectiveDate"), "源": "纽约联储官方(EFFR,免key日更)"}
+    # 下次 FOMC 决议倒计时(<14 天 → 二元风险不宜追高,与财报日同类哨兵)
+    today = datetime.date.fromisoformat(TODAY)
+    fut = [datetime.date.fromisoformat(x) for x in FOMC_2026 if datetime.date.fromisoformat(x) >= today]
+    if fut:
+        out["下次FOMC"] = fut[0].isoformat()
+        out["距FOMC天"] = (fut[0] - today).days
+    return out
+
+
+def caixin_pmi():
+    """财新制造业PMI(akshare index_pmi_man_cx,活源,月更)——统计局官方PMI的金十镜像已冻结于2025-08,
+    故用财新(独立民间调查,更覆盖中小/出口企业,50荣枯线)作中国制造周期领先指标。禁代理直连。"""
+    import akshare as ak
+    df = with_no_proxy(lambda: ak.index_pmi_man_cx())
+    df = df.dropna(subset=["制造业PMI"])
+    if len(df) == 0:
+        raise RuntimeError("财新PMI无数据")
+    last = df.iloc[-1]
+    prev = df.iloc[-2] if len(df) >= 2 else {}
+    val = float(last["制造业PMI"])
+    pv = float(prev["制造业PMI"]) if len(df) >= 2 else None
+    return {"财新制造业PMI": round(val, 1), "前值": round(pv, 1) if pv is not None else None,
+            "荣枯": "扩张" if val >= 50 else "收缩", "数据月份": str(last["日期"])[:7],
+            "源": "财新/标普(民间调查,月更;统计局官方PMI金十源已冻结故改用财新)"}
 
 
 def cn_shrz():
@@ -119,7 +163,10 @@ def main():
     out = {"asof": TODAY,
            "fetched_at": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat(timespec="minutes"),
            "blocks": {}}
-    for name, fn in [("美国宏观", us_bls), ("中美利率", bond_rates), ("大宗实时", commodities), ("中国社融", cn_shrz)]:
+    # 2026-07 扩:美联储政策(EFFR+FOMC)、财新制造业PMI——补齐"利率锚+中国制造周期"两个研判维度
+    srcs = [("美国宏观", us_bls), ("美联储政策", usa_fed), ("中美利率", bond_rates),
+            ("大宗实时", commodities), ("中国制造业", caixin_pmi), ("中国社融", cn_shrz)]
+    for name, fn in srcs:
         try:
             out["blocks"][name] = fn()
             print(f"  {name} ✓")
@@ -133,7 +180,7 @@ def main():
         print("⚠️ 宏观快线全部失败,不落盘")
         return
     json.dump(out, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print(f"✅ 宏观快线 {ok}/4 → {path}")
+    print(f"✅ 宏观快线 {ok}/{len(srcs)} → {path}")
 
 
 if __name__ == "__main__":

@@ -15,8 +15,12 @@ if fs:
         mj = json.load(open(fs[-1], encoding="utf-8"))
         b = mj.get("blocks", {})
         bits = []
+        # 联邦基金利率放最前(进站一眼看利率环境;成长股估值锚)
+        fed = b.get("美联储政策", {})
+        if "error" not in fed and fed.get("EFFR%") is not None:
+            bits.append(f"联邦基金 <b>{fed['EFFR%']}%</b>")
         c = b.get("大宗实时", {})
-        for name, lbl in (("纽约黄金", "金"), ("纽约原油", "油")):
+        for name, lbl in (("纽约黄金", "金"), ("纽约原油", "油"), ("美天然气", "气")):
             v = c.get(name) if "error" not in c else None
             if v:
                 bits.append(f"{lbl} <b>{v['价']}</b>")
@@ -34,7 +38,7 @@ if fs:
             # 审计F12:board/news 的宏观条过期都标日期,门户此前不标——同口径补齐,复用旧数据不许伪装新鲜
             asof = mj.get("asof")
             stale_note = f"(数据 {asof})" if (asof and asof != TODAY) else ""
-            strip = "📅 " + " · ".join(bits) + stale_note + " <span style='font-size:10px'>(BLS / 中债美债 / 腾讯外盘)</span>"
+            strip = "📅 " + " · ".join(bits) + stale_note + " <span style='font-size:10px'>(纽约联储 / BLS / 中债美债 / 腾讯外盘)</span>"
     except Exception:
         pass
 # 信源池数动态化(审计F12):去硬编码 181,读 sources.json 真值;读不到绝不谎报数字

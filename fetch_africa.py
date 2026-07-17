@@ -68,6 +68,12 @@ COUNTRIES = [
 AI_KW = ["ai ", " ai", "artificial intelligence", "machine learning", "llm", "genai",
          "generative", "chatgpt", "openai", "anthropic", "data center", "gpu", "chatbot",
          "automation", "算法", "人工智能", "大模型", "deepseek", "nvidia"]
+# AI 基础设施建设关键词(物理基建信号:数据中心/海缆/骨干网/超算/落地站/电力配套)——2026-07 用户要求单列。
+# 意义:非洲 AI 数据中心/海缆 buildout = 光互联/光模块需求侧,与看板 A/港股 长飞·中天(光纤光缆)存在需求侧关联,
+# 是"非洲板块→股票研判"的一条弱信号链(数据中心扩建→上游光缆/光模块订单)。
+AIINFRA_KW = ["data center", "data centre", "数据中心", "undersea cable", "subsea cable", "海缆", "submarine cable",
+              "hyperscale", "gpu cluster", "supercomput", "超算", "colocation", "landing station", "落地站",
+              "internet exchange", "ixp", "backbone", "骨干网", "cloud region", "megawatt", " mw ", "green hydrogen"]
 
 
 def _ssl_ctx():
@@ -105,7 +111,8 @@ def tag_of(text):
     t = text.lower()
     country = next((c for c, kws in COUNTRIES if any(k in t for k in kws)), None)
     is_ai = any(k in t for k in AI_KW)
-    return country, is_ai
+    is_aiinfra = any(k in t for k in AIINFRA_KW)   # AI 基建(数据中心/海缆/骨干网…)——单列因子
+    return country, is_ai, is_aiinfra
 
 
 def src_rss(name, url, tech_only=False):
@@ -132,11 +139,11 @@ def src_rss(name, url, tech_only=False):
                     disp_src = f"{real}·聚合"
                     if title.endswith(" - " + real):
                         title = title[: -(len(real) + 3)].strip()
-            country, is_ai = tag_of(title + " " + brief)
+            country, is_ai, is_aiinfra = tag_of(title + " " + brief)
             out.append({"title": title, "brief": brief, "source": disp_src,
                         "url": (l.group(1).strip() if l else ""),
                         "date": (d.group(1).strip() if d else ""),
-                        "country": country, "is_ai": is_ai})
+                        "country": country, "is_ai": is_ai, "is_aiinfra": is_aiinfra})
     except Exception as e:
         print(f"  {name} 失败:{e}")
     return out
@@ -171,10 +178,11 @@ def main():
     dedup.sort(key=lambda x: (_parse_date(x["date"]) or datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)), reverse=True)
     dedup = dedup[:60]
     n_ai = sum(1 for x in dedup if x["is_ai"])
+    n_infra = sum(1 for x in dedup if x.get("is_aiinfra"))
     n_ctry = len({x["country"] for x in dedup if x["country"]})
     out = {"asof": TODAY,
            "fetched_at": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat(timespec="minutes"),
-           "meta": {"counts": counts, "total": len(dedup), "ai_flagged": n_ai, "countries": n_ctry},
+           "meta": {"counts": counts, "total": len(dedup), "ai_flagged": n_ai, "aiinfra_flagged": n_infra, "countries": n_ctry},
            "items": dedup}
     path = os.path.join(STATE, f"africa_raw_{TODAY}.json")
     # 诚实防护:本次 0 条不覆盖已有真值

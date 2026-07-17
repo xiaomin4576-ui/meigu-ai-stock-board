@@ -124,8 +124,11 @@ def main():
     if mfiles:
         try:
             mj = json.load(open(mfiles[-1], encoding="utf-8"))
-            macro_line = ("\n【宏观环境(真实数据,研判时纳入:通胀/利率方向影响成长股估值,数据用'实际vs前值'看边际)】"
-                          + json.dumps(mj.get("blocks", {}), ensure_ascii=False)[:900])
+            # 2026-07 扩维:除通胀/长端利率外,新增【美联储政策利率EFFR+FOMC倒计时】(贴现率之锚,成长股PE命门;
+            # 距FOMC<14天=二元风险不宜追高)与【财新制造业PMI】(50荣枯线,中国制造/算力/半导体景气领先指标,A股用)。
+            macro_line = ("\n【宏观环境(真实数据,研判纳入:①美联储EFFR与下次FOMC——利率是AI成长股估值贴现锚,升/临会前不宜追高;"
+                          "②CPI/非农实际vs前值看通胀边际;③财新制造业PMI≥50扩张利好A股算力/半导体链、<50收缩需谨慎;"
+                          "④金/油/天然气跨资产)】" + json.dumps(mj.get("blocks", {}), ensure_ascii=False)[:1500])
         except Exception:
             pass
     # 校准闭环接通(体检确诊命脉:此前 verification.json 算了却没人读、"越用越准"空转):
@@ -165,6 +168,18 @@ def main():
                 hint_map[tk] = "\n【本票上期复盘·据此纠偏】" + " ; ".join(parts)
     except Exception:
         pass
+    # 隔夜美股AI链 → A股/港股盘前映射注入(2026-07):美股隔夜收盘先于A/港开盘,是当日算力链情绪的重要先行;
+    # 只注入 A/港票(美股本身就是隔夜主体)。数据来自各票 chg1d(单日涨跌)。
+    _us_ai = [stocks.get(t, {}).get("chg1d") for t in ["NVDA", "AVGO", "TSM", "MU", "MRVL", "ANET", "CRDO", "COHR", "VRT"]]
+    _us_ai = [c for c in _us_ai if c is not None]
+    if _us_ai:
+        _ov = round(sum(_us_ai) / len(_us_ai), 2)
+        _tone = ("强势→今日A/港算力链有跟涨情绪,但已贴顶/抛物线的不追高" if _ov >= 1.5
+                 else ("承压→今日A/港算力链或跟跌,观望优先、等回踩支撑" if _ov <= -1.5 else "涨跌互现→今日或分化,别做方向性重仓假设"))
+        _ov_line = f"\n【隔夜美股AI链·盘前先行(仅供当日情绪参考,不改长期研判)】美股AI核心{len(_us_ai)}票隔夜均值{_ov:+.2f}%,{_tone}"
+        for _tk, _s in stocks.items():
+            if _s.get("market") in ("CN", "HK") and _tk != "QQQ":
+                hint_map[_tk] = hint_map.get(_tk, "") + _ov_line
     print(f"DeepSeek 研判 {len(stocks)} 只(asof {asof}{',含宏观' if macro_line else ''}{',接校准闭环' if calib_line else ''})…")
     items = list(stocks.items())
     calls = {}

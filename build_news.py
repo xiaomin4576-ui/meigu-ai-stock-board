@@ -26,6 +26,12 @@ def macro_panel():
     m = json.load(open(files[-1], encoding="utf-8"))
     b = m.get("blocks", {})
     cells = []
+    # 美联储政策利率 EFFR + 下次FOMC(利率是成长股估值锚,放最前)
+    fed = b.get("美联储政策", {})
+    if "error" not in fed and fed.get("EFFR%") is not None:
+        fomc_note = f'距FOMC {esc(fed.get("距FOMC天"))}天' if fed.get("距FOMC天") is not None else esc(fed.get("下次FOMC", ""))
+        cells.append(f'<div class="mcell"><div class="mk">联邦基金利率<span class="mp">{esc(fed.get("日期",""))}</span></div>'
+                     f'<div class="mv">{esc(fed["EFFR%"])}%</div><div class="ms">前值 {esc(fed.get("前值%","—"))}% · {fomc_note}</div></div>')
     us = b.get("美国宏观", {})
     if "error" not in us:
         for k in ("非农新增(千人)", "失业率%", "CPI同比%"):
@@ -38,8 +44,13 @@ def macro_panel():
     if "error" not in r and r.get("美10Y%"):
         cells.append(f'<div class="mcell"><div class="mk">美/中 10Y<span class="mp">{esc(r.get("日期",""))}</span></div>'
                      f'<div class="mv">{esc(r["美10Y%"])} / {esc(r["中10Y%"])}</div><div class="ms">利差 {esc(r.get("利差bp","—"))}bp</div></div>')
+    # 财新制造业PMI(中国制造/算力景气领先指标,50荣枯线)
+    pmi = b.get("中国制造业", {})
+    if "error" not in pmi and pmi.get("财新制造业PMI") is not None:
+        cells.append(f'<div class="mcell"><div class="mk">财新制造业PMI<span class="mp">{esc(pmi.get("数据月份",""))}</span></div>'
+                     f'<div class="mv">{esc(pmi["财新制造业PMI"])}</div><div class="ms">{esc(pmi.get("荣枯",""))} · 前值 {esc(pmi.get("前值","—"))}</div></div>')
     c = b.get("大宗实时", {})
-    for name in ("纽约黄金", "纽约原油"):
+    for name in ("纽约黄金", "纽约原油", "美天然气"):
         v = c.get(name) if "error" not in c else None
         if v:
             cells.append(f'<div class="mcell"><div class="mk">{esc(name)}<span class="mp">实时</span></div>'
@@ -52,7 +63,7 @@ def macro_panel():
         return ""
     stale = "" if m.get("asof") == TODAY else f'<span style="color:#fbbf24">(数据抓取于 {esc(m.get("asof"))})</span>'
     return (f'<div class="macro"><div class="mtitle">📅 宏观快线 {stale}'
-            f'<span class="msub">BLS官方 · 中债/美债 · 腾讯外盘 · 三点对照(实际/前值;预期无免费可靠源如实缺)</span></div>'
+            f'<span class="msub">纽约联储(EFFR)· BLS · 中债/美债 · 财新PMI · 腾讯外盘(金/油/气)· 三点对照(实际/前值;预期无免费源如实缺)</span></div>'
             f'<div class="mgrid">{"".join(cells)}</div></div>')
 
 

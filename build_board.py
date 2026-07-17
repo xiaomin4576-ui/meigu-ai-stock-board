@@ -259,6 +259,11 @@ def macro_strip():
     m = jload(files[-1]) or {}
     b = m.get("blocks", {})
     bits = []
+    # 美联储政策利率(贴现率之锚,成长股估值命门)+ FOMC倒计时,放最前——比市场端10Y更靠近政策
+    fed = b.get("美联储政策", {})
+    if "error" not in fed and fed.get("EFFR%") is not None:
+        fomc = f'<span style="color:#fbbf24">·FOMC {fed["距FOMC天"]}天后</span>' if (fed.get("距FOMC天") is not None and fed["距FOMC天"] <= 14) else (f'·下次FOMC {fed.get("下次FOMC","")}' if fed.get("下次FOMC") else "")
+        bits.append(f'联邦基金 <b>{fed["EFFR%"]}%</b>(前值{fed.get("前值%","—")}){fomc}')
     us = b.get("美国宏观", {})
     if "error" not in us:
         for k, lbl in (("非农新增(千人)", "非农新增"), ("失业率%", "失业率"), ("CPI同比%", "CPI同比")):
@@ -270,9 +275,14 @@ def macro_strip():
     r = b.get("中美利率", {})
     if "error" not in r and r.get("美10Y%"):
         bits.append(f"美/中10Y <b>{r['美10Y%']}/{r['中10Y%']}</b>(差{r.get('利差bp','—')}bp)")
+    # 财新制造业PMI(中国制造/算力/半导体景气领先指标,50荣枯线)——A股链研判用
+    pmi = b.get("中国制造业", {})
+    if "error" not in pmi and pmi.get("财新制造业PMI") is not None:
+        col = "#4ade80" if pmi["财新制造业PMI"] >= 50 else "#ff8080"
+        bits.append(f'财新PMI <b style="color:{col}">{pmi["财新制造业PMI"]}</b>({pmi.get("荣枯","")}<span style="color:#94a6c4">·{pmi.get("数据月份","")}</span>)')
     c = b.get("大宗实时", {})
     if "error" not in c:
-        for name, lbl in (("纽约黄金", "金"), ("纽约原油", "油")):
+        for name, lbl in (("纽约黄金", "金"), ("纽约原油", "油"), ("美天然气", "气")):
             v = c.get(name)
             if v:
                 bits.append(f"{lbl} <b>{v['价']}</b>({'+' if v['涨跌%']>=0 else ''}{v['涨跌%']}%)")
@@ -280,7 +290,52 @@ def macro_strip():
         return ""
     stale = "" if m.get("asof") == TODAY else f'<span style="color:#fbbf24">(抓取于{m.get("asof")})</span>'
     return (f'<div class="mstrip">📅 <b style="color:#7ab8ff">宏观快线</b>{stale} · ' + " · ".join(bits)
-            + ' <span style="color:#94a6c4;font-size:12px">BLS官方/中债美债/腾讯外盘 · 实际vs前值(预期无免费源如实缺)</span></div>')
+            + ' <span style="color:#94a6c4;font-size:12px">纽约联储/BLS/中债美债/财新/腾讯外盘 · 实际vs前值(预期无免费源如实缺)</span></div>')
+
+
+# 美股→A股映射链(隔夜美股某环节涨跌→A股对应标的的顺势回声,用于盘前速览的"具体标的映射")
+US2CN_ECHO = {"CRDO": "中天/长飞·光互联", "COHR": "中天/长飞·光模块", "MRVL": "中天·光DSP",
+              "MU": "兆易/德明利·存储", "TSM": "中芯国际·晶圆代工", "NVDA": "寒武纪·算力芯片", "AVGO": "寒武纪/中芯·定制芯片"}
+US_AI_CORE = ["NVDA", "AVGO", "TSM", "MU", "MRVL", "ANET", "CRDO", "COHR", "VRT"]
+
+
+def premarket_section(data):
+    """今日盘前速览(A股开盘前参考):隔夜美股AI链强弱 → 今日A股算力/半导体链方向【倾向】。
+    美股隔夜收盘(北京凌晨)先于 A/港股开盘(北京 9:30/9:30),盘前打开看板即得隔夜映射。
+    诚实:映射是【概率倾向非承诺】,A股还受自身政策/情绪/资金/涨跌停影响,只作参考锚,不替代个股研判。"""
+    chgs = [(tk, (data.get(tk, {}) or {}).get("chg1d")) for tk in US_AI_CORE]
+    chgs = [(tk, c) for tk, c in chgs if c is not None]
+    if len(chgs) < 4:               # 隔夜数据不足不硬凑(诚实缺席)
+        return ""
+    nm = lambda tk: (data.get(tk, {}) or {}).get("name", tk)
+    avg = round(sum(c for _, c in chgs) / len(chgs), 2)
+    up = sum(1 for _, c in chgs if c > 0)
+    ordered = sorted(chgs, key=lambda x: -x[1])
+    lead, lag = ordered[0], ordered[-1]
+    qqq = (data.get("QQQ", {}) or {}).get("chg1d")
+    any_stale = any((data.get(tk, {}) or {}).get("stale") for tk, _ in chgs)
+    if avg >= 1.5:
+        bias, bcol, note = "偏多", "#4ade80", "隔夜美股AI链强势,今日A股光模块/CPO/算力/半导体链有跟涨动能;回调到位的标的可积极,但已抛物线贴顶的仍按纪律不追高"
+    elif avg <= -1.5:
+        bias, bcol, note = "偏空", "#ff8080", "隔夜美股AI链承压,今日A股算力链或跟跌;观望为宜、不追高,等回踩结构支撑再看"
+    else:
+        bias, bcol, note = "中性/分化", "#fbbf24", "隔夜美股AI链涨跌互现,今日A股或分化,看个股与板块轮动、不做方向性重仓假设"
+    mv = lambda c: f'<span style="color:{"#4ade80" if c >= 0 else "#ff8080"}">{c:+.1f}%</span>'
+    echoes = []
+    for tk, c in (lead, lag):
+        if tk in US2CN_ECHO:
+            echoes.append(f'{nm(tk)} {mv(c)} → <b style="color:#c9d5e8">{US2CN_ECHO[tk]}</b>')
+    echo_html = ('　·　'.join(echoes)) if echoes else ""
+    stale_note = '<span style="color:#fbbf24">(基于最近一次收盘·非当日实时)</span>' if any_stale else ""
+    return (f'<div class="premkt">'
+            f'<div class="pm-h">🌅 今日盘前速览 <span class="pm-tag" style="background:{bcol}">今日A股倾向:{bias}</span>'
+            f'<span class="pm-sub">隔夜美股→今日A股算力链 · 开盘前参考{stale_note}</span></div>'
+            f'<div class="pm-body">隔夜美股AI核心 <b>{len(chgs)}</b> 票均值 {mv(avg)}(<b style="color:#4ade80">{up}涨</b>/<b style="color:#ff8080">{len(chgs)-up}跌</b>)'
+            + (f' · 纳指QQQ {mv(qqq)}' if qqq is not None else "")
+            + f'　｜　领涨 {nm(lead[0])} {mv(lead[1])} · 领跌 {nm(lag[0])} {mv(lag[1])}</div>'
+            + (f'<div class="pm-echo">🔗 隔夜映射:{echo_html}</div>' if echo_html else "")
+            + f'<div class="pm-note">📌 {note}<br><span style="color:#94a6c4">映射为概率倾向、非承诺;A股另受政策/情绪/涨跌停影响,请结合各卡研判与开盘竞价。</span></div>'
+            + '</div>')
 
 
 def card(i, tk, d, a, bench_m3=None, hist=None):
@@ -376,7 +431,7 @@ def card(i, tk, d, a, bench_m3=None, hist=None):
     <span class="nm">{d.get('name','')}</span><span class="badge">{d.get('role','')}</span>
     <span class="sig" style="color:{color}">{sig}</span>{'<span class="score" style="color:#c9d5e8;background:rgba(148,163,184,.18)">数据不足·暂不评分</span>' if low_data else f'<span class="score">{score_lbl} {sc}({cov}/9因子{"·仅技术面" if tech_only else ""})</span>'}<span class="conf" title="引擎自报置信度,未经统计校准,仅作同信号内排序参考">置信 {a.get('conf','?')}/10</span></div>
   <div class="px"><span class="now">{cs}{d.get('price','—')}</span>
-    <span class="mom">近1月 {mom(d.get('m1'))} ｜ 近3月 {mom(d.get('m3'))} ｜ 近6月 {mom(d.get('m6'))} ｜ 距52周高 {(str(d.get('fromhi'))+'%') if d.get('fromhi') is not None else '—'}</span></div>
+    <span class="mom">单日 {mom(d.get('chg1d'))} ｜ 近1月 {mom(d.get('m1'))} ｜ 近3月 {mom(d.get('m3'))} ｜ 近6月 {mom(d.get('m6'))} ｜ 距52周高 {(str(d.get('fromhi'))+'%') if d.get('fromhi') is not None else '—'}</span></div>
   <div class="kpis">
     <div class="kpi"><div class="kl">🎯 建议买入价</div><div class="kv buy">{cs}{a.get('buy','')}</div></div>
     <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">{cs}{a.get('tgt','')}</div></div>
@@ -496,7 +551,7 @@ def qa_ctx(data, calls, calls_date, v):
             "名": d.get("name", tk), "市场": d.get("market", "US"), "价": d.get("price"),
             # 审计F28:问答语料此前不拆当日真值/复用——一旦复发冻结事故(长飞前科),问答会把旧价当当日报给用户
             "行情新鲜度": (f"复用自{d.get('stale_date','?')}·非当日实时" if d.get("stale") else "当日真值"),
-            "涨1月%": d.get("m1"), "涨3月%": d.get("m3"), "涨6月%": d.get("m6"),
+            "单日涨跌%": d.get("chg1d"), "涨1月%": d.get("m1"), "涨3月%": d.get("m3"), "涨6月%": d.get("m6"),
             "距52周高%": d.get("fromhi"), "52周高": d.get("hi"), "52周低": d.get("lo"),   # 审计F29:补 hi/lo(系统提示宣称语料含52周高低,实际此前缺→诱导编数)
             "MA50": d.get("ma50"), "MA200": d.get("ma200"),
             "年化波动%": d.get("vol"), "财报": d.get("earnings_date"),
@@ -561,7 +616,7 @@ QA_TMPL = """
   <div class="qa-basis" onclick="qaBasisToggle()">ℹ️ 回答依据(点开看问答基于什么逻辑、关联了哪些数据)</div>
   <div class="qa-basis-body hide" id="qa-basis-body">
    <b>这是一个多步 AI 智能体(agent),不是单轮问答。它这样工作:</b><br>
-   <b>内嵌语境(每次都有)</b>:本期全池真实行情(价/动量/MA50/MA200/波动/财报日)+ 研判(信号/买卖点/逻辑/风险)+ 复盘记分卡 + 宏观快线(BLS非农/失业率/CPI实际vs前值、中美10Y利差、黄金原油、社融)+ 全球头条三档传导链。<br>
+   <b>内嵌语境(每次都有)</b>:本期全池真实行情(价/动量/MA50/MA200/波动/财报日)+ 研判(信号/买卖点/逻辑/风险)+ 复盘记分卡 + 宏观快线(美联储EFFR+下次FOMC、BLS非农/失业率/CPI实际vs前值、中美10Y利差、财新制造业PMI、黄金/原油/天然气、社融)+ 全球头条三档传导链。<br>
    <b>可调用的工具(按需,多步编排)</b>:① 🔧 <b>实时行情</b>——问最新价/市值/今日涨跌或质疑数据时自动现抓(A股/港股腾讯、美股Finnhub),给"实时 vs 看板快照"两套数并解释差异;② 🔍 <b>同光早报全库检索</b>——问AI行业/某公司/政策监管时,按关键词从近千篇情报里检索最相关的。它会「看了一个工具结果再决定要不要调下一个」,最多推理 5 步。<br>
    <b>⭐ 自我校验</b>:每条回答出来后,自动再跑一轮「数据溯源核查」——逐个核对回答里的数字/日期能否在语料或工具结果里找到出处,通过标🔍绿、有无据数据标⚠️黄提示你谨慎。<br>
    <b>记忆</b>:本设备保留最近几轮问答(跨刷新/跨会话)。<br>
@@ -932,6 +987,14 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 .qa-verify{{color:#94a6c4}}.qa-ok{{color:#4ade80}}.qa-warn{{color:#fbbf24}}
 .mstrip{{background:#101b33;border:1px solid rgba(96,165,250,.3);border-radius:11px;padding:9px 14px;margin-bottom:14px;font-size:12px;color:#c9d5e8;line-height:1.9}}
 .mstrip b{{color:#f2f6fc}}
+.premkt{{background:linear-gradient(135deg,rgba(226,192,126,.08),rgba(96,165,250,.05)),#101b33;border:1px solid rgba(226,192,126,.35);border-radius:13px;padding:13px 16px;margin-bottom:14px}}
+.pm-h{{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:15px;font-weight:800;color:#e2c07e;margin-bottom:8px}}
+.pm-tag{{font-size:12px;font-weight:800;color:#0a1020;border-radius:8px;padding:2px 10px}}
+.pm-sub{{font-size:12px;font-weight:400;color:#94a6c4}}
+.pm-body{{font-size:13.5px;color:#c9d5e8;line-height:1.9}}.pm-body b{{color:#f2f6fc}}
+.pm-echo{{font-size:12.5px;color:#94a6c4;margin-top:6px;background:rgba(51,65,85,.28);border-radius:8px;padding:6px 10px}}
+.pm-note{{font-size:12.5px;color:#c9d5e8;margin-top:7px;line-height:1.7}}
+.premkt,.mstrip{{font-variant-numeric:tabular-nums}}
 .xbtn{{margin-top:9px;font-size:12px;font-weight:700;color:#7ab8ff;cursor:pointer;user-select:none;border-top:1px dashed rgba(51,65,85,.6);padding-top:7px}}
 .xbtn:hover{{text-decoration:underline}}
 .xtra{{margin-top:8px}}
@@ -1005,6 +1068,7 @@ document.addEventListener('click',function(e){{
 <div class="rankbar">🏆 <b>买点吸引力排序:</b>{rank_str}</div></div>
 {freshness_banner(calls_date, data_meta)}
 {macro_strip()}
+{premarket_section(data)}
 {qa_block(data, calls, calls_date, v)}
 {evidence_section(data)}
 {review_section(v)}
