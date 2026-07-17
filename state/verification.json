@@ -3741,7 +3741,18 @@
     "matured_avg_realized_pct": null,
     "n_entered_unique": 14,
     "direction_win_rate_unique": 36,
-    "verified": false
+    "verified": false,
+    "rel_qqq": {
+      "llm_1m": 2.0,
+      "llm_1m_n": 5,
+      "rule_1m": null,
+      "rule_1m_n": 0,
+      "llm_3m": null,
+      "llm_3m_n": 0,
+      "rule_3m": null,
+      "rule_3m_n": 0,
+      "basis": "买入信号持有 N 交易日相对 QQQ 的超额收益均值(滤大盘beta);规则信号自台账有 rule_signal 起累积。样本小时仅供观察、非结论。"
+    }
   },
   "calibration": "到期样本 0 期(<5),目标价终值【暂不可校准】——16 期在途预测均未走完 270 天窗口,当前平均进度 -3.1% 属半程未实现 · 在途节奏 pace=0.15(≈1踩点/<0.6落后/>1.4超前),【不作收窄依据】。当下可校准的是买点:入场触及率 76% 良好。"
 }
