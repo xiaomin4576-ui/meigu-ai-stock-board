@@ -1,6 +1,6 @@
 {
  "asof": "2026-07-17",
- "fetched_at": "2026-07-17T12:51+08:00",
+ "fetched_at": "2026-07-17T13:03+08:00",
  "meta": {
   "counts": {
    "TechCabal": 0,
@@ -14,11 +14,12 @@
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 1,
-   "非洲科技·聚合": 11,
+   "非洲科技·聚合": 10,
    "中非科技·聚合": 15
   },
   "total": 60,
-  "ai_flagged": 17,
+  "ai_flagged": 18,
+  "aiinfra_flagged": 2,
   "countries": 9
  },
  "items": [
@@ -29,7 +30,8 @@
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcmNrSngtVVNaZGQ1QTRpUW00bWU2eTcwbWhmNkZwemhKOGVrTlhxM3ljbHVFYUlOY3RYSXd3TVdqNkljeTRiXzZIZ3JOVjVRcVIwNW15WjVxUEtxWXdCN3VVampRdmpHQUIwX2x6bnNyMHd0ODQ2Qk9TR2s0eC05UGdESEYwaGFwOTNXM0NncU1CMGdndFdXa1VrcEFWR01sd2VKZ1IxTk9pQVhnNkVtNjFiQWd3d3Q1RElaUNIBvAFBVV95cUxNcmNrSngtVVNaZGQ1QTRpUW00bWU2eTcwbWhmNkZwemhKOGVrTlhxM3ljbHVFYUlOY3RYSXd3TVdqNkljeTRiXzZIZ3JOVjVRcVIwNW15WjVxUEtxWXdCN3VVampRdmpHQUIwX2x6bnNyMHd0ODQ2Qk9TR2s0eC05UGdESEYwaGFwOTNXM0NncU1CMGdndFdXa1VrcEFWR01sd2VKZ1IxTk9pQVhnNkVtNjFiQWd3d3Q1RElaUA?oc=5",
    "date": "Fri, 17 Jul 2026 01:00:05 GMT",
    "country": null,
-   "is_ai": true
+   "is_ai": true,
+   "is_aiinfra": false
   },
   {
    "title": "Vercel acquires Stakpak, its second African acquisition in a month",
@@ -38,7 +40,8 @@
    "url": "https://thecondia.com/vercel-stakpak-acquisition-ai/",
    "date": "Thu, 16 Jul 2026 18:25:23 +0000",
    "country": null,
-   "is_ai": true
+   "is_ai": true,
+   "is_aiinfra": false
   },
   {
    "title": "Huawei could become a DRAM fabber",
@@ -47,7 +50,8 @@
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbjRSQnExOVdtanE2QklfU29UUVFrYld0UW4yRl9NV2VGR20tOHFOTWo4eDkyUThXRkU1aV9aQXg4aWtWTWl4MlRGY1VsTUxtWlM3bl9wZll5Z2JLQk9jbDdLMjdtWmI3ajZWdERySEhEeE9TUmhlM1ZfUTdoWUJDeE9BTVFoMDNGeXZVSzB6NnZNTUU?oc=5",
    "date": "Thu, 16 Jul 2026 17:32:21 GMT",
    "country": null,
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "How Launch Africa is investing through Africa’s venture capital reset",
@@ -56,7 +60,8 @@
    "url": "https://thecondia.com/launch-africa-early-stage-investing/",
    "date": "Thu, 16 Jul 2026 15:48:22 +0000",
    "country": null,
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Nigerian Fintech Unicorn Moniepoint Appoints Rose Muturi as Kenya CEO",
@@ -65,7 +70,8 @@
    "url": "https://techafricanews.com/2026/07/16/nigerian-fintech-unicorn-moniepoint-appoints-rose-muturi-as-kenya-ceo/",
    "date": "Thu, 16 Jul 2026 15:43:21 +0000",
    "country": "🇳🇬 尼日利亚",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Ethio Telecom Eyes Strategic Partnership with Inspur to Accelerate Digital Transformation",
@@ -74,7 +80,8 @@
    "url": "https://techafricanews.com/2026/07/16/ethio-telecom-eyes-strategic-partnership-with-inspur-to-accelerate-digital-transformation/",
    "date": "Thu, 16 Jul 2026 15:17:03 +0000",
    "country": "🇪🇹 埃塞俄比亚",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "MoneyGram, Figure Markets and Range Join Stellar Network as Tier 1 Validators",
@@ -83,7 +90,8 @@
    "url": "https://techafricanews.com/2026/07/16/moneygram-figure-markets-and-range-join-stellar-network-as-tier-1-validators/",
    "date": "Thu, 16 Jul 2026 15:06:41 +0000",
    "country": null,
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "BoC Partners Scale to Launch Virtual Prepaid Mastercard for Africa’s Creators",
@@ -92,7 +100,8 @@
    "url": "https://techafricanews.com/2026/07/16/boc-partners-scale-to-launch-virtual-prepaid-mastercard-for-africas-creators/",
    "date": "Thu, 16 Jul 2026 14:55:55 +0000",
    "country": null,
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Uganda strengthens cybersecurity defense with updated framework",
@@ -101,7 +110,8 @@
    "url": "https://thecondia.com/uganda-cybersecurity/",
    "date": "Thu, 16 Jul 2026 14:49:35 +0000",
    "country": "🇺🇬 乌干达",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Stanbic Bank Kenya Names Former Safaricom Executive Michael Mutiga as CEO",
@@ -110,7 +120,8 @@
    "url": "https://techafricanews.com/2026/07/16/stanbic-bank-kenya-names-former-safaricom-executive-michael-mutiga-as-ceo/",
    "date": "Thu, 16 Jul 2026 14:46:51 +0000",
    "country": "🇰🇪 肯尼亚",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Wema Bank Strengthens Fintech Ecosystem Through Strategic Partner Engagement",
@@ -119,7 +130,8 @@
    "url": "https://techpoint.africa/brandpress/wema-bank-strengthens-fintech-ecosystem-through-strategic-partner-engagement/",
    "date": "Thu, 16 Jul 2026 14:11:41 +0000",
    "country": "🇳🇬 尼日利亚",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Mozambique Graduates 30 Drone Pilots to Strengthen Disaster Response",
@@ -128,7 +140,8 @@
    "url": "https://techafricanews.com/2026/07/16/mozambique-graduates-30-drone-pilots-to-strengthen-disaster-response/",
    "date": "Thu, 16 Jul 2026 13:31:55 +0000",
    "country": "🇲🇿 莫桑比克",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "UK and Kenya Launch Talks on Digital Trade Pact to Boost Tech and Cross-Border Commerce",
@@ -137,7 +150,8 @@
    "url": "https://techafricanews.com/2026/07/16/uk-and-kenya-launch-talks-on-digital-trade-pact-to-boost-tech-and-cross-border-commerce/",
    "date": "Thu, 16 Jul 2026 13:19:58 +0000",
    "country": "🇰🇪 肯尼亚",
-   "is_ai": true
+   "is_ai": true,
+   "is_aiinfra": false
   },
   {
    "title": "Paystack and Pesalink Expand Partnership to Enable Direct Bank Payments on Checkout in Kenya",
@@ -146,7 +160,8 @@
    "url": "https://techafricanews.com/2026/07/16/paystack-and-pesalink-expand-partnership-to-enable-direct-bank-payments-on-checkout-in-kenya/",
    "date": "Thu, 16 Jul 2026 13:06:28 +0000",
    "country": "🇰🇪 肯尼亚",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Cell C Tops South Africa’s Telecom Industry for Network Quality in DataEQ 2026 Index",
@@ -155,7 +170,8 @@
    "url": "https://techafricanews.com/2026/07/16/cell-c-tops-south-africas-telecom-industry-for-network-quality-in-dataeq-2026-index/",
    "date": "Thu, 16 Jul 2026 12:04:51 +0000",
    "country": "🇿🇦 南非",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Airtel Kenya Expands Retail Presence in Mombasa with New Customer Experience Hubs",
@@ -164,7 +180,8 @@
    "url": "https://techafricanews.com/2026/07/16/airtel-kenya-expands-retail-presence-in-mombasa-with-new-customer-experience-hubs/",
    "date": "Thu, 16 Jul 2026 11:58:25 +0000",
    "country": "🇰🇪 肯尼亚",
-   "is_ai": true
+   "is_ai": true,
+   "is_aiinfra": false
   },
   {
    "title": "Kenya and China Partnership to Expand Global Opportunities for African Digital Creators",
@@ -173,7 +190,8 @@
    "url": "https://techafricanews.com/2026/07/16/kenya-and-china-partnership-to-expand-global-opportunities-for-african-digital-creators/",
    "date": "Thu, 16 Jul 2026 11:49:12 +0000",
    "country": "🇰🇪 肯尼亚",
-   "is_ai": true
+   "is_ai": true,
+   "is_aiinfra": false
   },
   {
    "title": "Airtel Money Zambia Appoints Kelvin Ndhlovu as Managing Director",
@@ -182,7 +200,8 @@
    "url": "https://techafricanews.com/2026/07/16/airtel-money-zambia-appoints-kelvin-ndhlovu-as-managing-director/",
    "date": "Thu, 16 Jul 2026 11:45:45 +0000",
    "country": "🇿🇲 赞比亚",
-   "is_ai": true
+   "is_ai": true,
+   "is_aiinfra": false
   },
   {
    "title": "Business services job opportunities on the rise",
@@ -191,7 +210,8 @@
    "url": "https://www.itweb.co.za/article/business-services-job-opportunities-on-the-rise/P3gQ2MGAobVvnRD1",
    "date": "Thu, 16 Jul 2026 12:45:00 +0200",
    "country": null,
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "How One Diverse Ltd is Redefining Lagos’ Skyline with Akoka’s Largest Mall",
@@ -200,7 +220,8 @@
    "url": "https://techpoint.africa/brandpress/how-one-diverse-ltd-is-redefining-lagos-skyline-with-akokas-largest-mall/",
    "date": "Thu, 16 Jul 2026 10:35:19 +0000",
    "country": "🇳🇬 尼日利亚",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Banks face stricter AI scrutiny as regulator sharpens focus",
@@ -209,7 +230,8 @@
    "url": "https://www.itweb.co.za/article/banks-face-stricter-ai-scrutiny-as-regulator-sharpens-focus/xnklOqz14OzM4Ymz",
    "date": "Thu, 16 Jul 2026 12:22:23 +0200",
    "country": null,
-   "is_ai": true
+   "is_ai": true,
+   "is_aiinfra": false
   },
   {
    "title": "Infinix Officially Launches the HOT 70 Pro in Nigeria with Active Matrix Cube, IP68 Water Resistance and 5G",
@@ -218,7 +240,8 @@
    "url": "https://techpoint.africa/brandpress/infinix-officially-launches-the-hot-70-pro-in-nigeria/",
    "date": "Thu, 16 Jul 2026 10:05:40 +0000",
    "country": "🇳🇬 尼日利亚",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Revenue slips at Broadband Infraco as SITA exit bites",
@@ -227,7 +250,8 @@
    "url": "https://www.itweb.co.za/article/revenue-slips-at-broadband-infraco-as-sita-exit-bites/raYAyMorWOW7J38N",
    "date": "Thu, 16 Jul 2026 11:59:00 +0200",
    "country": null,
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Knife Capital backs local AI agent business",
@@ -236,7 +260,8 @@
    "url": "https://www.itweb.co.za/article/knife-capital-backs-local-ai-agent-business/4r1ly7R9kLYvpmda",
    "date": "Thu, 16 Jul 2026 11:51:32 +0200",
    "country": "🇿🇦 南非",
-   "is_ai": true
+   "is_ai": true,
+   "is_aiinfra": false
   },
   {
    "title": "TikTok tests AI-generated spam detection in SA",
@@ -245,7 +270,8 @@
    "url": "https://www.itweb.co.za/article/tiktok-tests-ai-generated-spam-detection-in-sa/KBpdgvpmGOO7LEew",
    "date": "Thu, 16 Jul 2026 11:35:00 +0200",
    "country": "🇿🇦 南非",
-   "is_ai": true
+   "is_ai": true,
+   "is_aiinfra": false
   },
   {
    "title": "Snode achieves ISO/IEC 42001 certification for responsible AI governance",
@@ -254,7 +280,8 @@
    "url": "https://www.itweb.co.za/article/snode-achieves-isoiec-42001-certification-for-responsible-ai-governance/DZQ587V83D9qzXy2",
    "date": "Thu, 16 Jul 2026 11:06:00 +0200",
    "country": null,
-   "is_ai": true
+   "is_ai": true,
+   "is_aiinfra": false
   },
   {
    "title": "Why your mobile network could become your next financial platform",
@@ -263,7 +290,8 @@
    "url": "https://www.itweb.co.za/article/why-your-mobile-network-could-become-your-next-financial-platform/KzQenqjyXODMZd2r",
    "date": "Thu, 16 Jul 2026 11:04:00 +0200",
    "country": null,
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "How small businesses are using AI to run their entire marketing operation",
@@ -272,7 +300,8 @@
    "url": "https://techpoint.africa/insight/small-businesses-marketing-operation/",
    "date": "Thu, 16 Jul 2026 08:38:57 +0000",
    "country": null,
-   "is_ai": true
+   "is_ai": true,
+   "is_aiinfra": false
   },
   {
    "title": "MultiChoice veteran leaves Canal+ Africa after 20 years",
@@ -281,7 +310,8 @@
    "url": "https://www.itweb.co.za/article/multichoice-veteran-leaves-canal-africa-after-20-years/Pero3MZ31nWqQb6m",
    "date": "Thu, 16 Jul 2026 10:25:25 +0200",
    "country": null,
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Before we ban: South Africa and the age-verification trap",
@@ -290,7 +320,8 @@
    "url": "https://www.itweb.co.za/article/before-we-ban-south-africa-and-the-age-verification-trap/lwrKxv3YPjwMmg1o",
    "date": "Thu, 16 Jul 2026 09:45:21 +0200",
    "country": "🇿🇦 南非",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "A New African AI Research Lab Publishes “Likelihood Is Not Truth,” A Founding Thesis Challenging Modern AI’s Core Objective",
@@ -299,16 +330,8 @@
    "url": "https://techpoint.africa/brandpress/a-new-african-ai-research-lab-publishes-likelihood-is-not-truth-a-founding-thesis/",
    "date": "Thu, 16 Jul 2026 07:33:04 +0000",
    "country": null,
-   "is_ai": true
-  },
-  {
-   "title": "Bezos’ latest win over Starlink didn’t happen in space, it happened in Elon Musk’s home country",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdGNqWGpEWGl3bEw3RnZyOFZOX09fY2hjWFBnQjNXWmt5czh4dWpZUUhMcE9PdUJfandpZXRQejZ5VnV6Z00zVUNJZVlGbnZXZEUzWVhXR1YwdXVMMDRXcnQzYjM0WjNoSzdBNlg2emdreUszR2p2czJGX3pLZD",
-   "source": "Business Insider Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdGNqWGpEWGl3bEw3RnZyOFZOX09fY2hjWFBnQjNXWmt5czh4dWpZUUhMcE9PdUJfandpZXRQejZ5VnV6Z00zVUNJZVlGbnZXZEUzWVhXR1YwdXVMMDRXcnQzYjM0WjNoSzdBNlg2emdreUszR2p2czJGX3pLZDEwMFN5czBOREJMY04xY3hvQTZ2NzBTQzhPcmZyU3lwU25VRWtRX0hqQ182UTBMN2ZoQmExNEppT1E3cEFxUnZHRlZ5cGx5RHF1dEN2NHdhOHFSUnVQd2lrUQ?oc=5",
-   "date": "Thu, 16 Jul 2026 07:29:20 GMT",
-   "country": null,
-   "is_ai": false
+   "is_ai": true,
+   "is_aiinfra": false
   },
   {
    "title": "Rwanda launches eKash instant payments platform",
@@ -317,7 +340,8 @@
    "url": "https://techpoint.africa/insight/techpoint-digest-1389/",
    "date": "Thu, 16 Jul 2026 07:00:00 +0000",
    "country": "🇷🇼 卢旺达",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "In search of the green zone",
@@ -326,7 +350,8 @@
    "url": "https://www.itweb.co.za/article/in-search-of-the-green-zone/dgp45qaB8zVvX9l8",
    "date": "Thu, 16 Jul 2026 08:59:00 +0200",
    "country": null,
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "FNB nav» adds payroll, youth functions",
@@ -335,7 +360,8 @@
    "url": "https://www.itweb.co.za/article/fnb-nav-adds-payroll-youth-functions/Olx4zMkaxO8v56km",
    "date": "Thu, 16 Jul 2026 08:23:00 +0200",
    "country": null,
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Affordable streaming drives eMedia's FAST expansion",
@@ -344,7 +370,8 @@
    "url": "https://www.itweb.co.za/article/affordable-streaming-drives-emedias-fast-expansion/LPp6VMrBOKLMDKQz",
    "date": "Thu, 16 Jul 2026 08:19:00 +0200",
    "country": null,
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Sterling Bank, StarTimes Deepen Renewable Energy Partnership with Solar Financing Hubs Across Nigeria",
@@ -353,7 +380,8 @@
    "url": "https://techpoint.africa/brandpress/sterling-bank-startimes-deepen-renewable-energy-partnership-with-solar/",
    "date": "Wed, 15 Jul 2026 17:04:09 +0000",
    "country": "🇳🇬 尼日利亚",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Why Spiro is partnering with Kenya’s most successful football club",
@@ -362,7 +390,8 @@
    "url": "https://thecondia.com/why-spiro-is-partnering-with-kenyas-most-successful-football-club/",
    "date": "Wed, 15 Jul 2026 15:56:06 +0000",
    "country": "🇰🇪 肯尼亚",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "African SaaS Leader Becomes Seamless Technologies, Unveils AI and Financial Solutions",
@@ -371,7 +400,8 @@
    "url": "https://techpoint.africa/brandpress/african-saas-leader-becomes-seamless-technologies-unveils-ai-and-financial-solutions/",
    "date": "Wed, 15 Jul 2026 15:09:47 +0000",
    "country": null,
-   "is_ai": true
+   "is_ai": true,
+   "is_aiinfra": false
   },
   {
    "title": "Africa Data Center Construction Market 2026-2031 | Nigeria Leverages Solar and Wind Energy in Data Centers to Cut Carbon Footprint",
@@ -380,7 +410,8 @@
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSURIV21JVmtGMk5ZUU1DelllR21WMFhSQlcwV1F1OFdGZjh2Q2NMUDlUWDhqM193QnM0SGticUhWZTRQRGZmV3B2QnB3LUpqY2pDRjZQQlQ1NldHbmVjcEZxN29hMUt3VWN3N1Y4ZUprWFpJd3RjSGJHUko5V2M5SF9PYWxuS1FZeExoR2ZyWmpaOFhHUWI3aTBQUjFMTlE3?oc=5",
    "date": "Wed, 15 Jul 2026 14:02:00 GMT",
    "country": "🇳🇬 尼日利亚",
-   "is_ai": true
+   "is_ai": true,
+   "is_aiinfra": true
   },
   {
    "title": "Moniepoint taps former Branch Kenya CEO to head its Kenya operations",
@@ -389,7 +420,8 @@
    "url": "https://thecondia.com/rose-muthuri-moniepoint-kenya/",
    "date": "Wed, 15 Jul 2026 13:05:51 +0000",
    "country": "🇰🇪 肯尼亚",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Request for Expressions of Interest(Enterprise Support Organizations Capacity Development for Improved Start-ups Service Delivery in Nigeria Investment in Digital and Creative Enterprises (iDICE) Programme)",
@@ -398,7 +430,8 @@
    "url": "https://techpoint.africa/brandpress/request-for-expressions-of-interestenterprise-support-organizations-capacity-development-for-improved-start-ups-service-delivery-in-nigeria/",
    "date": "Wed, 15 Jul 2026 11:47:57 +0000",
    "country": "🇳🇬 尼日利亚",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "South Africa’s Cue raises $5 million to expand its  AI service agents",
@@ -407,7 +440,8 @@
    "url": "https://thecondia.com/cue-ai-raise-r82-million/",
    "date": "Wed, 15 Jul 2026 11:33:33 +0000",
    "country": "🇿🇦 南非",
-   "is_ai": true
+   "is_ai": true,
+   "is_aiinfra": false
   },
   {
    "title": "Request for Expressions of Interest(Design, organize, and implement (general and female focused) Tech Hackathons and InnovativeChallenges (Manage Competition, Implementation, Seed Capital and Follow up)Investment in Digital and Creative Enterprises (iDICE) Programme",
@@ -416,7 +450,8 @@
    "url": "https://techpoint.africa/brandpress/request-for-expressions-of-interestdesign-organize-and-implement/",
    "date": "Wed, 15 Jul 2026 11:31:25 +0000",
    "country": "🇳🇬 尼日利亚",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Bernard Beya appointed CEO of Liquid Intelligent Technologies DRC",
@@ -425,7 +460,8 @@
    "url": "https://www.itnewsafrica.com/2026/07/bernard-beya-appointed-ceo-of-liquid-intelligent-technologies-drc/",
    "date": "Wed, 15 Jul 2026 11:00:00 +0000",
    "country": null,
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Ethio Telecom, Huawei to accelerate digital transformation",
@@ -434,7 +470,8 @@
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbjVjSENfeHRySDdSN3ZMaS15ZXNQZkp4WnMwRml4THAzYTJTUWZ0d21xQ3FTUE5FaDZNeXpLUlVuWFdZU3dlQTdCekJOcjZMT2h3ZzB3LVdmX0otNUUtWWQ5SHNrVTFseDZRd0ZSX05oVGVwV3JnRjgzWUs0eXFvWHBiOHlfdERhcDNzRW9sLW45OGktekdDUTJXUnIxdnVweGRMcjl3?oc=5",
    "date": "Wed, 15 Jul 2026 10:59:09 GMT",
    "country": null,
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Nigerian Founder Jayaike Ndu Introduces Tend, a Platform for Local Business Discovery",
@@ -443,7 +480,8 @@
    "url": "https://techpoint.africa/brandpress/nigerian-founder-jayaike-ndu-introduces-tend-a-platform-for-local-business-discovery/",
    "date": "Wed, 15 Jul 2026 10:30:03 +0000",
    "country": "🇳🇬 尼日利亚",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Preparing Africa’s data centres for the demands of autonomous AI",
@@ -452,7 +490,8 @@
    "url": "https://www.itnewsafrica.com/2026/07/preparing-africas-data-centres-for-the-demands-of-autonomous-ai/",
    "date": "Wed, 15 Jul 2026 08:26:00 +0000",
    "country": null,
-   "is_ai": true
+   "is_ai": true,
+   "is_aiinfra": true
   },
   {
    "title": "Post-Quantum’s Algorithm - Classic McEliece - Achieves Global ISO Standardization to Protect the World From Quantum Cyber Attack",
@@ -461,7 +500,8 @@
    "url": "https://www.itweb.co.za/article/post-quantums-algorithm-classic-mceliece-achieves-global-iso-standardization-to-protect-the-world-from-quantum-cyber-attack/kYbe9MXbPgavAWpG",
    "date": "Wed, 15 Jul 2026 10:00:00 +0200",
    "country": null,
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Central Bank of Kenya approves 25 new loan apps",
@@ -470,7 +510,8 @@
    "url": "https://techpoint.africa/insight/techpoint-digest-1388/",
    "date": "Wed, 15 Jul 2026 07:00:00 +0000",
    "country": "🇰🇪 肯尼亚",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Deepfake fraud: $3.7B lost, 47% scams originated on social media platforms",
@@ -479,7 +520,8 @@
    "url": "https://www.itnewsafrica.com/2026/07/deepfake-fraud-3-7b-lost-47-scams-originated-on-social-media-platforms/",
    "date": "Wed, 15 Jul 2026 06:32:00 +0000",
    "country": null,
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "AI Is raising South Africa’s cybersecurity stakes",
@@ -488,7 +530,8 @@
    "url": "https://www.itnewsafrica.com/2026/07/ai-is-raising-south-africas-cybersecurity-stakes/",
    "date": "Wed, 15 Jul 2026 06:23:00 +0000",
    "country": "🇿🇦 南非",
-   "is_ai": true
+   "is_ai": true,
+   "is_aiinfra": false
   },
   {
    "title": "Rwanda designates eKash as national instant payment system",
@@ -497,7 +540,8 @@
    "url": "https://thecondia.com/rwanda-ekash-national-instant-payment-system/",
    "date": "Wed, 15 Jul 2026 05:44:00 +0000",
    "country": "🇷🇼 卢旺达",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Africa Startup Funding Holds Steady as Early-Stage Deals Dip",
@@ -506,7 +550,8 @@
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5jQzhJZmpmWlR4MDU5X212eDhnUXJ0VG9NNHhiY2JObmQ5cVpkV0hXRnpvNnZzNEJOVHdla3NGWkVuNVpZbE1pWTV6ZFhtZW9HZjB5eGwtazk1OWdDRDF5Z2JoVHNkTExUZFJSY3FiUQ?oc=5",
    "date": "Wed, 15 Jul 2026 02:34:00 GMT",
    "country": null,
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Tomorrow Foundation Expands 100 Million Learners Initiative to Equip Nigeria’s Youth for Future Economy",
@@ -515,7 +560,8 @@
    "url": "https://www.itnewsafrica.com/2026/07/tomorrow-foundation-expands-100-million-learners-initiative-to-equip-nigerias-youth-for-future-economy/",
    "date": "Tue, 14 Jul 2026 18:22:41 +0000",
    "country": "🇳🇬 尼日利亚",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Why omnichannel communication is becoming a critical defence against digital fraud",
@@ -524,7 +570,8 @@
    "url": "https://www.itnewsafrica.com/2026/07/why-omnichannel-communication-is-becoming-a-critical-defence-against-digital-fraud/",
    "date": "Tue, 14 Jul 2026 18:18:28 +0000",
    "country": null,
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "How One South African Startup Saved 200,000 Meals from Landfill in Just One Year",
@@ -533,7 +580,8 @@
    "url": "https://www.itnewsafrica.com/2026/07/how-one-south-african-startup-saved-200000-meals-from-landfill-in-just-one-year/",
    "date": "Tue, 14 Jul 2026 18:13:25 +0000",
    "country": "🇿🇦 南非",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Ethio telecom and Huawei Chart Next Phase of Ethiopia’s Digital Future",
@@ -542,7 +590,8 @@
    "url": "https://www.itnewsafrica.com/2026/07/ethio-telecom-and-huawei-chart-next-phase-of-ethiopias-digital-future/",
    "date": "Tue, 14 Jul 2026 18:08:14 +0000",
    "country": "🇪🇹 埃塞俄比亚",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "FNB’s nav» Turns 10 with New Youth and Payroll Solutions for South Africans",
@@ -551,7 +600,8 @@
    "url": "https://www.itnewsafrica.com/2026/07/fnbs-nav-turns-10-with-new-youth-and-payroll-solutions-for-south-africans/",
    "date": "Tue, 14 Jul 2026 18:03:39 +0000",
    "country": "🇿🇦 南非",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Zeepay’s dedicated e-money licence revoked over unbacked balances",
@@ -560,7 +610,18 @@
    "url": "https://thecondia.com/zeepays-demi-licence-revoked-unbacked-balances-bank-ghana/",
    "date": "Tue, 14 Jul 2026 17:54:11 +0000",
    "country": "🇬🇭 加纳",
-   "is_ai": false
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "WSO2’s Africa Growth Strategy and the Agentic Enterprise Opportunity",
+   "brief": "As organizations across Africa accelerate modernization, many are moving beyond basic transformation toward building AI-enabled, agentic enterprises. WSO2 is expanding its presence across the continent to help enterprise",
+   "source": "IT News Africa",
+   "url": "https://www.itnewsafrica.com/2026/07/wso2s-africa-growth-strategy-and-the-agentic-enterprise-opportunity/",
+   "date": "Tue, 14 Jul 2026 16:36:00 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
   }
  ]
 }
