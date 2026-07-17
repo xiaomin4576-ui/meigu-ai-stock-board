@@ -134,16 +134,31 @@ def main():
             pass
         fresh = f'<div class="fresh stale">🟠 <b>头条仍是 {news_date}({days} 天前)</b>——今日采集/研判未跑通,内容仅供参考</div>'
     secs = ""
+    cat_counts = {}
     for cat in ("macro", "oil", "tech"):
         # 审计F19:序号徽章(irk)承载"档内影响力排名"语义(研判 prompt 硬纪律"各档内按 impact 降序"),
         # 但 items 按模型返回原序未必已排序 → 渲染前按 impact 稳定降序,让徽章排名恒与影响力一致。
         grp = sorted([it for it in items if it.get("cat") == cat], key=lambda it: -(it.get("impact") or 0))
+        cat_counts[cat] = len(grp)
         title, sub, color = CAT[cat]
-        secs += f'<div class="section" style="border-left-color:{color}">{title}<span class="ssub">{sub}</span><span class="scnt">{len(grp)} 条</span></div>'
+        block = f'<div class="section" style="border-left-color:{color}">{title}<span class="ssub">{sub}</span><span class="scnt">{len(grp)} 条</span></div>'
         if grp:
-            secs += "".join(item_html(i + 1, it) for i, it in enumerate(grp))
+            block += "".join(item_html(i + 1, it) for i, it in enumerate(grp))
         else:
-            secs += '<div class="item"><div class="ibrief">今日该档无够格条目(不凑数,诚实留空)</div></div>'
+            block += '<div class="item"><div class="ibrief">今日该档无够格条目(不凑数,诚实留空)</div></div>'
+        # 每档包一层 cat-block,供左侧档位筛选 show/hide
+        secs += f'<div class="cat-block" data-cat="{cat}">{block}</div>'
+    # 左侧档位筛选侧栏(客户端筛选,按需聚焦某一档)
+    nm = cat_counts.get("macro", 0)
+    noil = cat_counts.get("oil", 0)
+    ntech = cat_counts.get("tech", 0)
+    n_all = nm + noil + ntech
+    side = (f'<aside class="side"><h4>📊 档位筛选</h4><ul class="filist">'
+            f'<li class="fi active" data-f="all">📰 全部<span>{n_all}</span></li>'
+            f'<li class="fi" data-f="macro">🌍 宏观/地缘<span>{nm}</span></li>'
+            f'<li class="fi" data-f="oil">🛢️ 石油/能源<span>{noil}</span></li>'
+            f'<li class="fi" data-f="tech">🤖 科技/AI<span>{ntech}</span></li>'
+            f'</ul><div class="snote">按档位聚焦当前关注 · 点"全部"恢复<br>传导链视角:事件 → 美股 / A股 / 莫桑比克·东非</div></aside>')
     html = f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache">
@@ -152,7 +167,17 @@ def main():
 body{{font-family:-apple-system,"PingFang SC",sans-serif;background:#0a1020;color:#f2f6fc;line-height:1.6;padding:20px}}
 body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(1100px 520px at 50% -8%,rgba(226,192,126,.10),transparent 62%),radial-gradient(800px 400px at 85% 110%,rgba(122,184,255,.06),transparent 60%)}}
 @media(max-width:640px){{body::before{{background:radial-gradient(550px 260px at 50% -8%,rgba(226,192,126,.10),transparent 62%),radial-gradient(400px 200px at 85% 110%,rgba(122,184,255,.06),transparent 60%)}}}}
-.wrap{{max-width:980px;margin:0 auto}}
+.wrap{{max-width:1180px;margin:0 auto}}
+.layout{{display:grid;grid-template-columns:200px 1fr;gap:20px;align-items:start}}
+.side{{position:sticky;top:16px;background:#101b33;border:1px solid #2f4166;border-radius:13px;padding:14px}}
+.side h4{{font-size:12px;color:#94a6c4;letter-spacing:.08em;margin-bottom:10px;font-weight:700}}
+.filist{{list-style:none;display:flex;flex-direction:column;gap:5px}}
+.fi{{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:13.5px;font-weight:600;color:#c9d5e8;background:#1c2a4a;border:1px solid #2f4166;border-radius:9px;padding:8px 11px;cursor:pointer;transition:all .15s}}
+.fi:hover{{background:#22345a;color:#f2f6fc}}
+.fi.active{{background:#e2c07e;color:#0a1020;border-color:#e2c07e}}
+.fi span{{font-size:11.5px;font-weight:700;opacity:.75}}
+.snote{{font-size:11px;color:#94a6c4;margin-top:12px;line-height:1.6}}
+@media(max-width:760px){{.layout{{grid-template-columns:1fr}}.side{{position:static}}.filist{{flex-direction:row;flex-wrap:wrap}}.fi{{flex:1;min-width:120px}}}}
 .header{{background:linear-gradient(135deg,#1c2a4a,#101b33);border:1px solid #2f4166;border-radius:16px;padding:24px 28px;margin-bottom:16px}}
 .header h1{{font-size:24px;font-weight:900;color:#7ab8ff}}
 .sub{{font-size:14px;color:#94a6c4;margin-top:6px}}
@@ -215,8 +240,24 @@ async function newsUpd(){{
 </script>
 {fresh}
 {macro_panel()}
+<div class="layout">
+{side}
+<div class="main-col">
 {secs}
 <div class="foot">头条由 AI 从真实信源筛编,「传导链」为推演视角非事实断言 · 仅研究/学习用途,<b>非投资建议</b></div>
+</div>
+</div>
+<script>
+document.addEventListener('click',function(e){{
+  var li=e.target.closest?e.target.closest('.fi'):null; if(!li)return;
+  var f=li.getAttribute('data-f');
+  document.querySelectorAll('.fi').forEach(function(x){{x.classList.remove('active');}});
+  li.classList.add('active');
+  document.querySelectorAll('.cat-block').forEach(function(b){{
+    b.style.display=(f==='all'||b.getAttribute('data-cat')===f)?'':'none';
+  }});
+}});
+</script>
 </div></body></html>"""
     out = os.path.join(STATE, "news.html")
     open(out, "w", encoding="utf-8").write(html)
