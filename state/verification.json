@@ -3508,6 +3508,19 @@
     },
     {
       "date": "2026-07-15",
+      "ticker": "AVGO",
+      "signal": "买入",
+      "price_at_call": 390.84,
+      "cur": 372.36,
+      "entry_hit": true,
+      "entered": true,
+      "direction_ok": false,
+      "progress_to_target_pct": -0.2,
+      "matured": false,
+      "realized_return_pct": -0.0
+    },
+    {
+      "date": "2026-07-15",
       "ticker": "TSM",
       "signal": "观望",
       "price_at_call": 420.09,
