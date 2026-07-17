@@ -1,14 +1,14 @@
 {
  "asof": "2026-07-17",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-07-17T16:45+08:00",
+ "generated_at": "2026-07-17T16:53+08:00",
  "items": [
   {
    "cat": "macro",
    "title": "油价因美伊冲突升级及红海威胁上涨",
-   "brief": "美伊连续第六天互相打击，伊朗威胁关闭红海，油价攀升。",
-   "chain": "美伊冲突升级→油价上涨→通胀担忧加剧→美联储或维持高利率，利空美股；A股石油板块受益，但算力链承压。",
-   "impact": 10,
+   "brief": "美伊敌对行动加剧，红海关闭威胁推高油价。",
+   "chain": "地缘冲突→油价上涨→美股能源板块受益，A股油气股联动；通胀担忧压制科技股。",
+   "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYnAzc0RfelUyaHNBcU5ERWVndUwxNkhxOC1sREo3M2xoeGp0Vko0MTREMXludzBTcG52UVpvSmpRdlpLV2FFU0VNT2cybFU2b3NjTkhUMkZKWlNZMmo0RWFDV0pfSEU1RDFtVURxQjAtRVBXeTB6VWZCNUpFUVRJRFRSRDA0NzJlN1d2bjl5T3VLZ2lxQndYZ29SUFB0Y05YUkxzd1pOSktyME9XMTFMVWRsVnhRV2RG?oc=5",
    "ts": "2026-07-17T01:31:00+00:00"
@@ -16,8 +16,8 @@
   {
    "cat": "macro",
    "title": "IEA警告霍尔木兹海峡若数周不开放将危及全球能源安全",
-   "brief": "IEA署长称霍尔木兹海峡关闭数周将危及全球能源安全。",
-   "chain": "霍尔木兹海峡受阻→全球石油供应风险→油价飙升→美股能源股涨但整体承压；A股油气链受益，但输入性通胀利空。",
+   "brief": "IEA署长称霍尔木兹海峡关闭数周将威胁全球能源安全。",
+   "chain": "海峡封锁风险→油价飙升预期→美股能源股上涨，A股油气及航运股受影响。",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPemtCTGQ0SDdIMFRmVlNYbkRuTDZHT194eDY1MzBrYVZyTzZNUlZvWDd5ZjFZRFdUeV8xbnJIb2wtSHZ2WGZFeHR1X3o2MjUtc0h1MUNkOERBdFZCVnVaMkJwaHVnbk9IaDJiVV9RRE82U3NwTmFrMDJuaFpnOUl1Y2Y2eWNaNXhLMjlRWk5uV0ZZMnVPV18zeTZPcTFWeWM4N1JiS01DSWRzT2Q1NzZ3Yk5ubm54TDUwUldyUkpkSjVjNUQxLTY1Q3ZLMA?oc=5",
@@ -25,70 +25,90 @@
   },
   {
    "cat": "macro",
-   "title": "纳斯达克100期货跌幅扩大至2%",
-   "brief": "美股期货持续走低，纳指期货跌2.09%，标普跌1%。",
-   "chain": "地缘冲突+科技股抛售→纳指期货大跌→美股科技板块承压→A股AI算力链跟跌。",
-   "impact": 9,
+   "title": "伊朗在美国连续第六天打击后发动新攻击",
+   "brief": "伊朗在美国连续第六天空袭后发动新一轮攻击。",
+   "chain": "美伊冲突持续升级→避险情绪升温→美股波动加剧，A股军工、黄金股受关注。",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRW1QZlpEY3pwOHJJaDF2S2JVZG81S2xuakhndThpb1lLREpreFBCRW1TWTlZeFBGTFRaUER1dWRUU2FlaDlYTU9Yc0hzY3Juby0xSlRxN24yMGZvQ0ktN1NYcjVtZHc5a3F6UXQ5Qnc3aWNDNV84MV8ybWkxemptWEtlS1plM0kxQVNoM3A5RkpkUlZGSEtYbVVTN2RtNkhwc3VWZThNazhDTGpt?oc=5",
+   "ts": "2026-07-17T03:50:00+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "美军完成对伊朗最新一轮打击，连续第六晚攻击",
+   "brief": "美军宣布完成对伊朗最新一轮打击，连续第六晚发动攻击。",
+   "chain": "军事行动持续→地缘风险溢价上升→美股承压，A股避险资产受追捧。",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcU5Ec2J3b2lDc21BVGR3cWYxV185VjZLdk9tTzlndk5Tc3hPblNOQXVZY3hrYjU3bW9Mek9yZXVFV2tUV2d1NThXTnZ5SkhucHh4X3VPTlkxdk9SX2FlTndvTWRRUnB4ak01QmFWVzQ2RzVaYk1pWU1VMElXRW5jaFM5czAzR2VWeF9neExJZlgwaDhvV2pJbWh4LWV1bWJ5bnRRZmVyckRhNFNwNkVjdEJGdlFYbHc4d2FBTEx0U0ZsRFVaT1RIUmNNWHlrdw?oc=5",
+   "ts": "2026-07-17T02:30:00+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "特朗普威胁对伊朗升级行动，或重蹈覆辙",
+   "brief": "特朗普威胁升级对伊行动，分析称可能重蹈覆辙。",
+   "chain": "政策不确定性→市场避险→美股波动，A股关注地缘风险传导。",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdnIySy12MVk2eUt1V3poZUtIbERIR0pMcHcwVGFUbW5CRlllQnFHU1FHYWNoNmh5YThaZGc1NHpId0pOVXZ0Z0Npb2xvZEZJaEJlaUlwSjBVaGw5WkJNWWlfckZfWVdNMGFucGVJUUE0Z1RzNXhRVklRUlhtUjgyYTMxY19DSEl2bkNiRTRjMjBKa0huQmVTUmtyNHZZNkdOdTJmY2daYVNMaTlJUEVEZC1LMFAxMjR1Tnc?oc=5",
+   "ts": "2026-07-16T20:25:00+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "美众院共和党推进特朗普为伊朗战争和选举改革的拨款计划",
+   "brief": "美国众议院共和党推进特朗普为伊朗战争和选举改革的拨款计划。",
+   "chain": "财政支出增加→赤字担忧→美债收益率上行，美股成长股承压，A股关注财政政策外溢。",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYW1SRVdSN09Ld296TUtRNjA3UGVjVGRFenVuOEQweFRZNjM0NUNkSktZY21KNEhhQllpMFd1cUtDeUVKclh1WmhtaV9IQWRUcThMZnRFRFVrNzJRSk5oR2VUXzlUWktfXzU0anQ3V0QwVEVTNlZibmlULVRiZFItcGFzNXVTLWx2SWw1ZERJa2V3cXZkbzFkRXo0LXJ4Zm1aY29RY200d2M3b0tOaU9NSFVabFdCRndISjZlbFB5UG9HcDdnRGN4bUlWQUI?oc=5",
+   "ts": "2026-07-16T22:49:04+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "纳斯达克100指数期货跌幅扩大至2%",
+   "brief": "美股期货持续走低，纳指期货跌超2%，标普跌1%。",
+   "chain": "地缘风险+科技股抛售→美股期货大跌→A股科技板块承压。",
+   "impact": 8,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202607173811048177.html",
    "ts": "2026-07-17 16:17:59"
   },
   {
-   "cat": "macro",
-   "title": "恐慌指数VIX创逾一周新高",
-   "brief": "VIX上涨1.7点至18.44，创逾一周新高。",
-   "chain": "地缘紧张+市场避险→VIX飙升→美股波动加剧→A股风险偏好下降。",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607173811064081.html",
-   "ts": "2026-07-17 16:34:37"
-  },
-  {
-   "cat": "macro",
-   "title": "黄金创六周最大周跌幅，中东战争引发通胀担忧",
-   "brief": "黄金因中东战争引发通胀担忧而下跌，创六周最大周跌幅。",
-   "chain": "中东战争→通胀预期上升→黄金避险属性减弱→美元走强→美股承压；A股黄金股波动。",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWE9UR3M4eEdZWDhiT2EyMnFxejhVbjV3Z3p3NGZaZmdwaXZHODI1MVh5dHY1YVNPVFBjZW81S2dDZzY3a3RTSi1SSkdReDBMOUFmSEVTVlhhcDZ0ZDY2RnJFVHRNLVBRMkJocXdOX1RpOGNqeUZrbzFlMW5SY0lsbXREaEhpOEFuQVlBZGtLZ1NNOTFsTVlqOFU0cUkwSmRjUlJXXzN0SHQ2SkluQ0E2bXFJWUk?oc=5",
-   "ts": "2026-07-17T03:34:00+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "美股因美国通胀数据疲软而上涨，中东局势受关注",
-   "brief": "美国通胀数据低于预期，股市上涨，但中东局势仍受关注。",
-   "chain": "通胀放缓→降息预期升温→美股上涨→A股外资流入预期增强。",
-   "impact": 7,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/news/asian-stocks-gain-drop-us-015011670.html",
-   "ts": "2026-07-15T21:12:40Z"
-  },
-  {
-   "cat": "macro",
-   "title": "特朗普在全国讲话中重申2020年选举舞弊指控，称中国干预",
-   "brief": "特朗普在讲话中重申2020年选举被操纵，并指控中国干预。",
-   "chain": "特朗普言论→政治不确定性→市场避险情绪→美股波动；A股关注中美关系。",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/16/trump-primetime-address-elections-2020.html",
-   "ts": "Fri, 17 Jul 2026 02:24:46 GMT"
-  },
-  {
    "cat": "oil",
    "title": "油价因美伊冲突威胁霍尔木兹海峡供应而上涨",
-   "brief": "美伊敌对行动威胁霍尔木兹海峡石油运输，油价攀升。",
-   "chain": "霍尔木兹海峡风险→供应中断担忧→油价上涨→莫桑比克LNG项目受益，但东非进口成本上升。",
-   "impact": 10,
+   "brief": "美伊敌对行动威胁霍尔木兹海峡供应，油价上涨。",
+   "chain": "海峡供应风险→油价上涨→莫桑比克LNG项目受益，但东非进口成本上升。",
+   "impact": 9,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/17/oil-price-today-brent-wti.html",
    "ts": "Fri, 17 Jul 2026 07:36:10 GMT"
   },
   {
    "cat": "oil",
-   "title": "BP和康菲石油将大规模投资伊拉克，美国试图削弱伊朗能源控制",
-   "brief": "BP和康菲石油计划投资伊拉克油田，美国旨在削弱伊朗能源影响力。",
-   "chain": "美国推动伊拉克投资→增加全球石油供应→缓解油价压力→莫桑比克LNG竞争加剧。",
+   "title": "分析：伊朗战争期间中国石油进口骤降，复苏前景如何？",
+   "brief": "中国石油进口因伊朗战争大幅下降，分析其复苏前景。",
+   "chain": "中国需求下降→全球油价承压→莫桑比克出口面临需求不确定性。",
    "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOLTI1OFgyZ3BIUU40N1NsczgyREZuR211NVlMQXAtdTVmOWduRF9YOEJPVHd1QkJsV0xhek9aenVtY2gyMWNPc2JyMzBvRnZIUC1mY0QzSFdqbkQyWThzTnJ6VDRVcUdHTWJfXzE5ZER3WHpTay12RlJQOTlpdUpXRmh2Q3ZVSDRzTEl3UE80WG0xSVc3eTN2LTNlbmxBbGpuQ1RVWkE5Q1JDNEMwdlhzUHdvWFJnc3JxX3RYd2l0QWYzWF9V?oc=5",
+   "ts": "2026-07-17T05:40:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "胡塞武装领导人威胁若沙特在也门升级将攻击其石油设施",
+   "brief": "胡塞武装威胁攻击沙特石油设施，回应沙特在也门的升级。",
+   "chain": "胡塞威胁→沙特供应风险→油价上涨，莫桑比克LNG出口受益。",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUGI2VTlhcVZDeTFzdlRiblJQdUhDSU5nLVRuNFJWdHZhZ3NjNF9OYWs5TDNfUF9jQVdsa1lIdWJUQ3Bub29ZQ28xWHlyUURrZnFnVVMzQkI4aWNCblVXUUNxanFOakIta0VEYlZZYWJYWno2SjRCZWVaNl94cEhfa0lEVlZnV09SSVBxMnI3R1F1WjZmdXFpNUhwWXhSbFU1X3VNRFB3QWNrdEU2RTNIVWI4eTdOSzhDeTdrOWNGbnVodw?oc=5",
+   "ts": "2026-07-16T15:51:09+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "BP和康菲石油将大力投资伊拉克，美国寻求削弱伊朗能源控制",
+   "brief": "BP和康菲石油计划大规模投资伊拉克，美国旨在削弱伊朗能源影响力。",
+   "chain": "伊拉克增产预期→全球供应增加→油价承压，莫桑比克竞争加剧。",
+   "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/17/bp-conocophillips-to-back-iraq-with-major-energy-investment-.html",
    "ts": "Fri, 17 Jul 2026 08:10:21 GMT"
@@ -96,8 +116,8 @@
   {
    "cat": "oil",
    "title": "雪佛龙将签署伊拉克West Qurna 2和Nassiriya油田谅解备忘录",
-   "brief": "雪佛龙与伊拉克签署油田开发谅解备忘录。",
-   "chain": "雪佛龙进军伊拉克→伊拉克产量提升→全球石油供应增加→油价承压，莫桑比克LNG项目竞争加剧。",
+   "brief": "雪佛龙即将与伊拉克签署West Qurna 2和Nassiriya油田的谅解备忘录。",
+   "chain": "雪佛龙扩大伊拉克布局→中东供应增加→油价承压，莫桑比克项目竞争加剧。",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRDRfcmVEbFFHdEVvTEpyTXFOYno3aUl6dFNPQnMtdF9GLXZENGNJSUNQZWdaX1g2OU9URTZOZWZmS09FRWV1TEhDR0pneVgyRXJ3SmdkQ2ZPYlhkQkJTam9FelJlQXBqZTZvZ3ctbnV0dWJmekY5RmFGSTZpQ0xTaElXMkU1Um00amgxeGw3d19FWVp0TXlGbFgta0tTdmUxSjNOMWhHSkp0NnRXOVlrWnp3?oc=5",
@@ -105,29 +125,9 @@
   },
   {
    "cat": "oil",
-   "title": "中国石油进口因伊朗战争而暴跌，能恢复多少？",
-   "brief": "伊朗战争导致中国石油进口大幅下降，分析未来恢复程度。",
-   "chain": "中国进口下降→全球需求减少→油价承压→莫桑比克LNG出口面临需求不确定性。",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOLTI1OFgyZ3BIUU40N1NsczgyREZuR211NVlMQXAtdTVmOWduRF9YOEJPVHd1QkJsV0xhek9aenVtY2gyMWNPc2JyMzBvRnZIUC1mY0QzSFdqbkQyWThzTnJ6VDRVcUdHTWJfXzE5ZER3WHpTay12RlJQOTlpdUpXRmh2Q3ZVSDRzTEl3UE80WG0xSVc3eTN2LTNlbmxBbGpuQ1RVWkE5Q1JDNEMwdlhzUHdvWFJnc3JxX3RYd2l0QWYzWF9V?oc=5",
-   "ts": "2026-07-17T05:40:00+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "胡塞武装威胁沙特石油设施，若利雅得在也门升级行动",
-   "brief": "胡塞武装领导人威胁攻击沙特石油设施，若沙特在也门升级。",
-   "chain": "胡塞威胁→沙特供应风险→油价上涨→莫桑比克LNG项目受益，但东非安全风险上升。",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUGI2VTlhcVZDeTFzdlRiblJQdUhDSU5nLVRuNFJWdHZhZ3NjNF9OYWs5TDNfUF9jQVdsa1lIdWJUQ3Bub29ZQ28xWHlyUURrZnFnVVMzQkI4aWNCblVXUUNxanFOakIta0VEYlZZYWJYWno2SjRCZWVaNl94cEhfa0lEVlZnV09SSVBxMnI3R1F1WjZmdXFpNUhwWXhSbFU1X3VNRFB3QWNrdEU2RTNIVWI4eTdOSzhDeTdrOWNGbnVodw?oc=5",
-   "ts": "2026-07-16T15:51:09+00:00"
-  },
-  {
-   "cat": "oil",
    "title": "能源观察：中国的石油堡垒",
-   "brief": "分析中国如何通过战略储备和多元化供应构建石油安全。",
-   "chain": "中国加强石油安全→减少对中东依赖→全球油市格局变化→莫桑比克LNG需关注中国需求。",
+   "brief": "分析中国构建石油堡垒的战略，应对供应中断。",
+   "chain": "中国战略储备增加→全球需求支撑→油价稳定，莫桑比克出口受益。",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMlRLNHVRb1ZKUjJqOVI4WnJHbWMtWEMybF95V19FN2ZEZURlN1JUVEs0aFIxOTRuUk5VR1lPLVY4NnFYUGtPYVI4SzVTSl9lZnBPbjZ1T2NrLVVCVzNPbGpVcTkzQk9OLW9pclpVMnNnTnZob3JJY0lXNG1jT2M3clJ6d3JYeUJLRjRONlU4ZlRQYmEzb1VzcGlBaEItaFM5d0V3?oc=5",
@@ -135,10 +135,10 @@
   },
   {
    "cat": "tech",
-   "title": "Alphabet股价下跌，因最强大AI模型Gemini 3.5 Pro延迟发布",
-   "brief": "Alphabet股价下跌，因报道其最强大AI模型Gemini 3.5 Pro延迟。",
-   "chain": "AI模型延迟→市场对谷歌AI竞争力担忧→科技股承压→A股AI算力链受情绪影响。",
-   "impact": 9,
+   "title": "Alphabet股价下跌，报道称其最强AI模型Gemini 3.5 Pro延迟",
+   "brief": "据报道谷歌最强AI模型Gemini 3.5 Pro延迟发布，Alphabet股价下跌。",
+   "chain": "AI模型延迟→科技股承压→A股AI产业链关注国产替代。",
+   "impact": 8,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/07/16/alphabet-stock-gemini-3-5-pro-ai.html",
    "ts": "Thu, 16 Jul 2026 19:07:42 GMT"
@@ -146,8 +146,8 @@
   {
    "cat": "tech",
    "title": "台积电第二季度利润飙升77%，将再投资1000亿美元在亚利桑那",
-   "brief": "台积电Q2利润增77%，宣布追加1000亿美元投资亚利桑那工厂。",
-   "chain": "台积电业绩超预期+扩产→AI芯片供应增加→美股半导体板块受益→A股算力链受提振。",
+   "brief": "台积电Q2利润同比增77%，并宣布在亚利桑那追加1000亿美元投资。",
+   "chain": "台积电业绩超预期+扩产→半导体景气确认→A股算力链受益。",
    "impact": 9,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/07/16/tsmc-second-quarter-profit-.html",
@@ -155,9 +155,9 @@
   },
   {
    "cat": "tech",
-   "title": "软银跌超9%，亚洲芯片股跟随华尔街AI抛售",
-   "brief": "软银股价大跌超9%，亚洲芯片股因华尔街AI抛售而下跌。",
-   "chain": "AI抛售蔓延→亚洲芯片股跟跌→美股科技板块承压→A股AI算力链调整。",
+   "title": "软银跌超9%，亚洲芯片股跟随美股AI抛售",
+   "brief": "软银股价大跌超9%，亚洲芯片股追随美股AI板块抛售。",
+   "chain": "AI抛售潮蔓延→芯片股承压→A股AI算力链短期调整。",
    "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/17/softbank-chip-stocks-asia-wall-street-ai-rout.html",
@@ -165,10 +165,10 @@
   },
   {
    "cat": "tech",
-   "title": "英伟达支持的Fireworks估值达175亿美元，企业寻求更便宜的AI模型",
-   "brief": "Fireworks AI获英伟达支持，估值175亿美元，企业转向低成本AI模型。",
-   "chain": "低成本AI模型需求增长→AI算力成本下降→利好AI应用端→A股AI应用链受益。",
-   "impact": 8,
+   "title": "英伟达支持的Fireworks估值达175亿美元，企业追求更便宜AI模型",
+   "brief": "英伟达支持的AI初创Fireworks估值达175亿美元，企业寻求低成本AI模型。",
+   "chain": "低成本AI模型需求增长→算力需求结构变化→A股关注推理芯片和边缘计算。",
+   "impact": 7,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/07/16/fireworks-nvidia-cloud-ai-startup-value.html",
    "ts": "Thu, 16 Jul 2026 13:00:02 GMT"
@@ -177,17 +177,17 @@
    "cat": "tech",
    "title": "英伟达发布新AI模型并扩展日本物理AI生态系统",
    "brief": "英伟达推出新AI模型，并扩大在日本物理AI领域的布局。",
-   "chain": "英伟达持续创新→AI算力需求增长→美股半导体受益→A股算力链关注英伟达产业链。",
-   "impact": 8,
+   "chain": "英伟达持续创新→AI算力需求增长→A股光模块、服务器产业链受益。",
+   "impact": 7,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/07/16/nvidia-reveals-new-ai-model-and-expands-japans-physical-ai-ecosystem.html",
    "ts": "Thu, 16 Jul 2026 16:08:29 GMT"
   },
   {
    "cat": "tech",
-   "title": "阿里巴巴和百度港股上涨，因与苹果AI合作",
-   "brief": "阿里和百度港股上涨，因报道与苹果达成AI合作。",
-   "chain": "苹果AI合作→中国科技巨头受益→港股科技股上涨→A股AI应用链受提振。",
+   "title": "阿里巴巴和百度港股因苹果AI合作传闻大涨",
+   "brief": "报道称苹果与阿里、百度合作AI，推动两者港股大涨。",
+   "chain": "苹果AI合作→中国AI巨头受益→A股AI应用和生态链关注。",
    "impact": 7,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/07/16/alibaba-baidu-shares-jump-apple-ai-partnership-.html",
@@ -195,9 +195,9 @@
   },
   {
    "cat": "tech",
-   "title": "中国初创公司Moonshot AI推出Kimi模型，称可与OpenAI和Anthropic竞争",
-   "brief": "Moonshot AI发布Kimi模型，声称性能媲美OpenAI和Anthropic。",
-   "chain": "国产AI模型突破→提升中国AI产业信心→A股AI算力链受益。",
+   "title": "中国初创Moonshot AI发布Kimi模型，称可与OpenAI和Anthropic竞争",
+   "brief": "中国AI初创Moonshot AI发布Kimi模型，声称性能媲美OpenAI和Anthropic。",
+   "chain": "国产大模型突破→AI产业竞争加剧→A股AI算力链和软件股受益。",
    "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic-china.html",
@@ -205,13 +205,13 @@
   },
   {
    "cat": "tech",
-   "title": "上海印发《进一步推动“AI+制造”发展的若干措施》",
-   "brief": "上海出台政策支持AI+制造，推动工业垂类大模型等核心技术攻关。",
-   "chain": "地方政策支持→AI产业化加速→A股AI应用和算力链受益。",
+   "title": "汇丰银行上调苹果评级至买入，目标价366美元",
+   "brief": "汇丰将苹果评级从持有上调至买入，目标价从260美元升至366美元。",
+   "chain": "苹果评级上调→科技股情绪提振→A股苹果产业链受益。",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607173811063849.html",
-   "ts": "2026-07-17 16:31:32"
+   "url": "https://finance.eastmoney.com/a/202607173811056273.html",
+   "ts": "2026-07-17 16:21:53"
   }
  ]
 }
