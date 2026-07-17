@@ -95,7 +95,15 @@ def main():
     if not KEY:
         print("ℹ️ 无 DEEPSEEK_API_KEY,保留最近一期头条(渲染层自动复用)")
         return
-    pool = cands[:70]
+    # 审计F21:按来源配额建候选池,不做整体 cands[:70] 硬截断——能源专项 RSS(OilPrice/Offshore Energy/
+    # 莫桑东非聚合等)在 fetch 去重序里排在 finnhub/东财之后,整体截断会把 oil 档信源饿死、专用能源覆盖沦为摆设。
+    # 行只含 idx+title(已瘦身)、max_tokens=6000,池容量放到 ~85 仍安全。
+    by_origin = {}
+    for c in cands:
+        by_origin.setdefault(c.get("origin", "rss"), []).append(c)
+    pool = (by_origin.get("finnhub", [])[:28] + by_origin.get("em", [])[:27] + by_origin.get("rss", [])[:30])
+    if not pool:                      # 兜底:万一无 origin 字段,退回原整体截断
+        pool = cands[:70]
     lines = []
     for i, c in enumerate(pool):
         # 喂给模型的候选行不带URL(模型只回 idx,链接由下面按编号回填)——URL又长又占输出,曾把回答撑爆截断
@@ -106,11 +114,26 @@ def main():
         return
     CAT_ALIAS = {"macro": "macro", "宏观": "macro", "tech": "tech", "科技": "tech",
                  "oil": "oil", "石油": "oil", "能源": "oil", "energy": "oil"}
-    items = []
+    items, seen_idx, seen_ttl = [], set(), set()
     for it in result["items"][:21]:
         cat = CAT_ALIAS.get(str(it.get("cat", "")).strip().lower()) or CAT_ALIAS.get(str(it.get("cat", "")).strip())
         if not cat or not it.get("title"):
             continue
+        # 审计F11:跨档查重程序化护栏——"同一事件只出现一次"此前只是 prompt 纪律,
+        # 模型重复回同一候选 idx / 同一标题时会重复上页,这里按 idx+归一化标题双键去重(先到保留)。
+        # F22 回归修正:标题键用【完整归一化标题】,不再截前24字符——同主题重日(如伊朗冲突衍生多条)
+        # 前缀高度相同,截断键会误杀不同事件;完整标题只对真正逐字相同的才碰撞。
+        ttl_key = "".join(ch for ch in str(it.get("title", "")).lower() if ch.isalnum())
+        try:
+            idx_key = int(it.get("idx"))
+        except Exception:
+            idx_key = None
+        if (idx_key is not None and idx_key in seen_idx) or (ttl_key and ttl_key in seen_ttl):
+            continue
+        if idx_key is not None:
+            seen_idx.add(idx_key)
+        if ttl_key:
+            seen_ttl.add(ttl_key)
         # 按 idx 从候选原样回填 url/source/ts:链接100%保真(模型从不经手),也不再需要白名单兜底
         src_c = {}
         try:

@@ -51,7 +51,14 @@ def stat_meigu():
             st = []
             for tk in meta.get("stale_tickers", []):
                 sd = (dd.get("stocks", {}).get(tk, {}) or {}).get("stale_date", "?")
-                st.append(f"{tk}(复用自{sd})")
+                warn = ""
+                try:
+                    # 审计F15(规则8):复用超3天要显式加重警示,别让冻结票在告警行里"平铺混过"
+                    days = (datetime.date.fromisoformat(TODAY) - datetime.date.fromisoformat(str(sd))).days
+                    warn = f"·已 {days} 天⚠️" if days >= 3 else f"·{days} 天"
+                except Exception:
+                    pass
+                st.append(f"{tk}(复用自{sd}{warn})")
             stale_line = "、".join(st) if st else None
         except Exception:
             pass

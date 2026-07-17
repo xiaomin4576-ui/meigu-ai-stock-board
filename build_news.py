@@ -74,11 +74,28 @@ def esc(s):
             .replace('"', "&quot;").replace("'", "&#39;"))
 
 
+def _bj_ts(ts):
+    """审计F20:发布时间混时区(finnhub 是 UTC ISO +00:00、东财已是北京、RSS 是 RFC822)显示时无标注易误读。
+    带时区的 ISO 一律转北京并标"北京";东财本地时间补"北京"标;解析不了的原样截断(不猜不谎标)。"""
+    s = str(ts or "").strip()
+    if not s:
+        return ""
+    if "T" in s:
+        try:
+            dt = datetime.datetime.fromisoformat(s.replace("Z", "+00:00"))
+            if dt.tzinfo is not None:
+                dt = dt.astimezone(datetime.timezone(datetime.timedelta(hours=8)))
+            return dt.strftime("%Y-%m-%d %H:%M") + " 北京"
+        except Exception:
+            pass
+    return s[:16] + (" 北京" if re.match(r"\d{4}-\d{2}-\d{2} ", s) else "")
+
+
 def item_html(rank, it):
     imp = it.get("impact") or "?"
     src = esc(it.get("source"))
     url = str(it.get("url") or "")
-    ts = esc(str(it.get("ts") or "")[:16])
+    ts = esc(_bj_ts(it.get("ts")))
     link = f'<a href="{esc(url)}" target="_blank" rel="noopener">{src} ↗</a>' if url.startswith("http") else src
     return f"""<div class="item">
   <div class="ihd"><span class="irk">{rank}</span><span class="ittl">{esc(it.get('title'))}</span><span class="imp">影响力 {imp}/10</span></div>
@@ -107,7 +124,9 @@ def main():
         fresh = f'<div class="fresh stale">🟠 <b>头条仍是 {news_date}({days} 天前)</b>——今日采集/研判未跑通,内容仅供参考</div>'
     secs = ""
     for cat in ("macro", "oil", "tech"):
-        grp = [it for it in items if it.get("cat") == cat]
+        # 审计F19:序号徽章(irk)承载"档内影响力排名"语义(研判 prompt 硬纪律"各档内按 impact 降序"),
+        # 但 items 按模型返回原序未必已排序 → 渲染前按 impact 稳定降序,让徽章排名恒与影响力一致。
+        grp = sorted([it for it in items if it.get("cat") == cat], key=lambda it: -(it.get("impact") or 0))
         title, sub, color = CAT[cat]
         secs += f'<div class="section" style="border-left-color:{color}">{title}<span class="ssub">{sub}</span><span class="scnt">{len(grp)} 条</span></div>'
         if grp:
@@ -155,7 +174,7 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 .mv{{font-variant-numeric:tabular-nums}}
 </style></head><body><div class="wrap">
 <div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#e2c07e;margin-bottom:8px">LUMORA · 同光科技</div><h1>🌍 全球市场头条 · {news_date}</h1>
-<div class="sub">传导链视角:国际局势 → 美股 → A股 · 油气市场 → 莫桑比克/东非经营 · 三档 15-21 条 · 信源 Finnhub / 东财环球 / OilPrice / 财经RSS(真实链接可溯源)</div>
+<div class="sub">传导链视角:国际局势 → 美股 → A股 · 油气市场 → 莫桑比克/东非经营 · 三档 15-21 条 · 信源 Finnhub / 东财环球 / OilPrice / CNBC / 谷歌定向聚合 等(真实链接可溯源)</div>
 <div class="nav"><a href="home.html">🏠 首页</a><a href="board.html">📡 股票看板</a><a href="africa.html">🌍 非洲科技</a><button onclick="newsUpd()" style="background:#f97316;color:#fff;border:none;border-radius:8px;padding:4px 12px;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit">🔁 刷新头条</button><span id="nupd" style="color:#94a6c4;font-size:12px;margin-left:6px"></span><span style="color:#94a6c4;margin-left:8px">🕐 本页生成 {BUILD_TS} 北京</span></div></div>
 <script>
 const DT="__DISPATCH_TOKEN__";

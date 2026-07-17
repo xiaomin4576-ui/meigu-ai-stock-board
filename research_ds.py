@@ -29,19 +29,28 @@ def ds_call(prompt, retries=3):
                 json={"model": "deepseek-chat", "messages": [{"role": "user", "content": prompt}],
                       "response_format": {"type": "json_object"}, "temperature": 0.4, "max_tokens": 700},
                 timeout=60)
-            if r.status_code == 200:
-                j = r.json()
-                _USAGE.append(j.get("usage") or {})
-                return json.loads(j["choices"][0]["message"]["content"])
-        except Exception:
-            pass
+            if r.status_code != 200:
+                # 审计F10:失败路径必须留痕(不打印key)——静默吞错曾让事故藏了三天(数据完整性规则12)
+                print(f"  ds_call 尝试{i+1}: HTTP {r.status_code} {r.text[:120]}")
+                continue
+            j = r.json()
+            _USAGE.append(j.get("usage") or {})   # 拿到响应即计费:截断/解析失败也真实消耗了 token,先落账
+            fin = (j.get("choices") or [{}])[0].get("finish_reason")
+            if fin == "length":
+                print(f"  ds_call 尝试{i+1}: 输出被截断(finish_reason=length)")
+                continue
+            return json.loads(j["choices"][0]["message"]["content"])
+        except Exception as e:
+            print(f"  ds_call 尝试{i+1}: 异常 {repr(e)[:120]}")
     return None
 
 def clean_range(s):
     s = re.sub(r"[\$¥]|HK\$", "", str(s)); s = re.sub(r"[（(].*", "", s).strip()
     return s.replace("-", "–").replace("—", "–")
 def clean_ret(s):
-    m = re.search(r"[+\-]?\d+%", str(s)); return m.group(0) if m else str(s)
+    # 审计F17:正则必须吃小数百分比——旧 r"[+\-]?\d+%" 对 "+20.6%" 只截到 "6%"、"-7.5%" 丢成 "5%"(连符号一起丢),
+    # 系统性污染旗舰指标"预期收益"(DeepSeek 常输出小数收益)。补 (?:\.\d+)? 捕获小数部分。
+    m = re.search(r"[+\-]?\d+(?:\.\d+)?%", str(s)); return m.group(0) if m else str(s)
 
 def _nums(s):
     return re.findall(r"\d+(?:\.\d+)?", str(s or ""))

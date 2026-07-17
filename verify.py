@@ -26,7 +26,9 @@ def main():
     cfg = json.load(open(os.path.join(DIR, "config.json"), encoding="utf-8"))
     # 审计修复:基准 ETF(QQQ 等)只作相对强弱对比锚,绝不当选股仓计入复盘——
     # 否则其"买入/底仓"信号会漏进入场集,污染方向胜率/入场率分母(实测虚高胜率)。
-    BENCH = set(cfg.get("benchmarks") or ["QQQ"])
+    # 审计F18:config.json 的键是单数 benchmark(:7),此前读复数 benchmarks → 恒取兜底 ["QQQ"](凑巧对);
+    # 兼容复数(未来多基准)+ 单数真值 + 兜底,读对配置不再靠巧合。
+    BENCH = set(cfg.get("benchmarks") or ([cfg["benchmark"]] if cfg.get("benchmark") else ["QQQ"]))
     PACE_MIN_DAYS = int(cfg.get("pace_min_days", 14))  # 嫩仓 pace 会炸表(1天仓 elapsed→几十×),低于此天数不计入在途节奏
     recs = []
     if os.path.exists(LEDGER):
@@ -61,6 +63,8 @@ def main():
         tgt_mid = (tl + th) / 2 if tl and th else None
         is_buy = str(r.get("signal", "")).startswith("买入")
         if rdate == latest:
+            if not (bl and bh):
+                continue   # 审计F8:无买区(观望留空/护栏降级"—")不做可达性判定,免得被记 False 误报"需关注"
             low20 = float(df["Low"].dropna().tail(20).min()); high20 = float(df["High"].dropna().tail(20).max())
             reach = bool(bl and bh and bl <= high20 and bh >= low20)
             note = ("✅ 可达(近20日区间覆盖买入价)" if reach else
@@ -90,6 +94,12 @@ def main():
                            "progress_to_target_pct": progress, "matured": matured,
                            "realized_return_pct": realized})
 
+    # 审计F9(规则9"空结果绝不落盘"):有历史台账在评、本次却一条复盘都没算出(yfinance 全挂)时,
+    # 绝不用空复盘覆盖 verification.json / 追加空史行——否则看板复盘区会退化成"首期"、把全部历史藏起来。
+    hist_dates = {r.get("date") for r in recs if r.get("date")} - {latest}
+    if hist_dates and not review:
+        print(json.dumps({"warning": "复盘取数全挂(0 行),保留上期 verification.json 不覆盖"}, ensure_ascii=False))
+        return
     sc = {"n_open": len(review),
           "n_entered": sum(1 for x in review if x.get("entered")),   # 真实入场样本数=方向胜率/收益的分母(审计:此前用 n_open 贴错'已入场仓位'标签)
           "n_periods": len({x["date"] for x in review}),             # 历史在评的不同预测期数(distinct dates)

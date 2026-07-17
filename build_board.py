@@ -111,7 +111,7 @@ def review_section(v):
                          hv("entry_hit_rate"), hd("entry_hit_rate"), None)
         g3 = _gauge_card("在途节奏", "1.0×=赶上时间", sc.get("avg_pace_ratio"), "pace",
                          hv("avg_pace_ratio"), hd("avg_pace_ratio"), 1.0)
-        gauges = ('<div class="rv-h">🎯 预测能力仪表盘 <span class="rv-sub">方向胜率=在途现价≥买入中值占比(未兑现·非到期成绩,别与下方回测命中率42%混);节奏已剔嫩仓、胜率已排除QQQ基准 · 校准闭环反哺,趋势看曲线不承诺胜率必升 · 源 scorecard_history 逐日累积</span></div>'
+        gauges = ('<div class="rv-h">🎯 预测能力仪表盘 <span class="rv-sub">方向胜率=在途现价≥买入中值占比(未兑现·非到期成绩,与下方回测命中率口径不同,别混读);节奏已剔嫩仓、胜率已排除QQQ基准 · 校准闭环反哺,趋势看曲线不承诺胜率必升 · 源 scorecard_history 逐日累积</span></div>'
                   f'<div class="gauges">{g1}{g2}{g3}</div>')
     if n_open > 0:
         mat = f'{sc.get("matured_n",0)}期/{sc.get("matured_avg_realized_pct")}%' if sc.get("matured_n") else "未到期"
@@ -226,21 +226,26 @@ def factor_score(d, bench_m3=None):
 
 def regime_line(data):
     q = data.get("QQQ", {})
-    n = sum(1 for v in data.values() if v.get("price"))
-    above = sum(1 for v in data.values() if (v.get("price") and v.get("ma200") and v["price"] > v["ma200"]))
+    # 审计F5:宽度分母剔除 QQQ 基准自身(基准既当锚又计成分,宽度被自证)
+    n = sum(1 for tk, v in data.items() if tk != "QQQ" and v.get("price"))
+    above = sum(1 for tk, v in data.items() if tk != "QQQ" and v.get("price") and v.get("ma200") and v["price"] > v["ma200"])
     q_up = bool(q.get("price") and q.get("ma200") and q["price"] > q["ma200"])
     reg = ("顺势 risk-on" if (q_up and above >= n * 0.7) else ("逆风 risk-off" if (not q_up or above < n * 0.4) else "中性/分化"))
-    return f'🌡 市场体制:<b>{reg}</b> · QQQ {"站上" if q_up else "跌破"} 200日线 · 成分 {above}/{n} 在 200日线上'
+    return f'🌡 市场体制:<b>{reg}</b> · QQQ {"站上" if q_up else "跌破"} 200日线 · 成分 {above}/{n} 在 200日线上(不含基准)'
 
 
 def evidence_section(data):
     bt = jload(os.path.join(STATE, "backtest.json"))
     bt_html = ""
     if bt:
-        bt_html = (f'📊 <b>策略回测(过去 {bt.get("lookback","3y")} 真实数据,{bt.get("signals")} 次信号):</b> '
+        # 审计F3:回测是静态历史结果(asof/规则/universe 与现行池及分档FRAME不同),必须动态标注口径边界,
+        # 不许以"本策略实测"的面目示人(此前未标日期、universe 还含已清退的 AMD)
+        uni_n = len(bt.get("universe") or [])
+        bt_html = (f'📊 <b>策略回测(测于 {bt.get("asof","?")} · 过去 {bt.get("lookback","3y")} 真实数据 · {bt.get("signals")} 次信号):</b> '
                    f'命中率 <b style="color:#fbbf24">{bt.get("win_rate_pct")}%</b> · 止损 {bt.get("stopped_pct")}% · '
                    f'实际盈亏比 <b style="color:#4ade80">{bt.get("realized_rr")}:1</b> · 每笔均值 {bt.get("avg_trade_return_pct")}%<br>'
-                   f'<span style="color:#94a6c4">→ 命中率仅 {bt.get("win_rate_pct")}%(<b style="color:#ff8080">绝非 90%</b>),靠 {bt.get("realized_rr")}:1 盈亏比才正期望——<b>赚钱靠风控不靠高胜率</b>。{bt.get("caveat","")}</span>')
+                   f'<span style="color:#94a6c4">→ 命中率仅 {bt.get("win_rate_pct")}%(<b style="color:#ff8080">绝非 90%</b>),靠 {bt.get("realized_rr")}:1 盈亏比才正期望——<b>赚钱靠风控不靠高胜率</b>。{bt.get("caveat","")}'
+                   f'<br>⚠️ 口径:规则「{bt.get("rule","")}」为可回测简化版,仅覆盖当时美股 {uni_n} 票(含后已调出标的),≠ 现行 19 票池与分档买点框架;用途是<b>证伪"高胜率"承诺</b>,非当前策略实测。</span>')
     return f'<div class="evid"><div class="ev-reg">{regime_line(data)}</div><div class="ev-bt">{bt_html}</div></div>'
 
 
@@ -259,7 +264,9 @@ def macro_strip():
         for k, lbl in (("非农新增(千人)", "非农新增"), ("失业率%", "失业率"), ("CPI同比%", "CPI同比")):
             v = us.get(k)
             if v:
-                bits.append(f"{lbl} <b>{v['值']}</b>(前值{v.get('前值','—')})")
+                # 审计F23:BLS 数据自带发布滞后(CPI 约两月),补数据月份免读者误当上月(与门户/头条同口径)
+                per = f'<span style="color:#94a6c4">·{v.get("期")}</span>' if v.get("期") else ""
+                bits.append(f"{lbl} <b>{v['值']}</b>(前值{v.get('前值','—')}){per}")
     r = b.get("中美利率", {})
     if "error" not in r and r.get("美10Y%"):
         bits.append(f"美/中10Y <b>{r['美10Y%']}/{r['中10Y%']}</b>(差{r.get('利差bp','—')}bp)")
@@ -282,14 +289,19 @@ def card(i, tk, d, a, bench_m3=None, hist=None):
     mom = lambda x: f'<span style="color:{"#4ade80" if (x or 0)>=0 else "#ff8080"}">{x:+.1f}%</span>' if x is not None else "—"
     f0 = lambda x: f"{x:.0f}" if x is not None else "?"
     sc, sp, miss = factor_score(d, bench_m3)
-    cov = len(sp)                                  # 可算因子数(满8)
+    cov = len(sp)                                  # 可算因子数(满9)
     low_data = cov <= 3                             # 可算因子≤3 → 数据不足,不给确定评分
     miss_note = f"(缺:{'、'.join(miss)})" if miss else ""
     tech_only = {"共识上行", "评级", "估值PEG"}.issubset(set(miss))   # 基本面三因子全缺 → 仅技术面,不冒充满分评分
     score_lbl = "技术分" if tech_only else "评分"
     em, tgm = _mid(a.get("buy")), _mid(a.get("tgt"))
-    rr = round((tgm / em - 1) / 0.10, 1) if (em and tgm and em > 0) else None
-    stop = round(em * 0.90) if em else None
+    # R:R/止损按 FRAME 档位口径复算(强势档=价>MA20 → -6%,否则破位档 -10%)——
+    # 此前统一按 -10%,强势票 R:R 被低算约 1.67×、会误标"R:R偏低"(2026-07-15 指标审计 F2)
+    strong = bool(d.get("price") and d.get("ma20") and d["price"] > d["ma20"])
+    stop_rate = 0.06 if strong else 0.10
+    rr = round((tgm / em - 1) / stop_rate, 1) if (em and tgm and em > 0) else None
+    stop = round(em * (1 - stop_rate), 2) if em else None
+    stop_lbl = f"-{stop_rate * 100:.0f}%({'强势档·跌破MA20' if strong else '破位档'})"
     rrflag = "" if (rr is None or rr >= 2) else ' <span style="color:#fbbf24">⚠️R:R偏低,不符买入纪律</span>'
     sp_str = "+".join(f"{k}{v}" for k, v in sp.items())
     an = d.get("analyst", {}) or {}
@@ -362,7 +374,7 @@ def card(i, tk, d, a, bench_m3=None, hist=None):
 <div class="card" style="border-top:3px solid {color}{';opacity:.92' if tk=='QQQ' else ''}">
   <div class="hd"><span class="rk">{MEDALS[i] if i < len(MEDALS) else str(i + 1) + "."}</span><span class="tk">{('🇨🇳 ' if is_cn else '🇭🇰 ' if is_hk else '') + tk.replace('.SS', '').replace('.SZ', '').replace('.HK', '')}</span>
     <span class="nm">{d.get('name','')}</span><span class="badge">{d.get('role','')}</span>
-    <span class="sig" style="color:{color}">{sig}</span>{'<span class="score" style="color:#c9d5e8;background:rgba(148,163,184,.18)">数据不足·暂不评分</span>' if low_data else f'<span class="score">{score_lbl} {sc}({cov}/9因子{"·仅技术面" if tech_only else ""})</span>'}<span class="conf">置信 {a.get('conf','?')}/10</span></div>
+    <span class="sig" style="color:{color}">{sig}</span>{'<span class="score" style="color:#c9d5e8;background:rgba(148,163,184,.18)">数据不足·暂不评分</span>' if low_data else f'<span class="score">{score_lbl} {sc}({cov}/9因子{"·仅技术面" if tech_only else ""})</span>'}<span class="conf" title="引擎自报置信度,未经统计校准,仅作同信号内排序参考">置信 {a.get('conf','?')}/10</span></div>
   <div class="px"><span class="now">{cs}{d.get('price','—')}</span>
     <span class="mom">近1月 {mom(d.get('m1'))} ｜ 近3月 {mom(d.get('m3'))} ｜ 近6月 {mom(d.get('m6'))} ｜ 距52周高 {(str(d.get('fromhi'))+'%') if d.get('fromhi') is not None else '—'}</span></div>
   <div class="kpis">
@@ -370,7 +382,7 @@ def card(i, tk, d, a, bench_m3=None, hist=None):
     <div class="kpi"><div class="kl">📈 我的6-12月目标价</div><div class="kv tgt">{cs}{a.get('tgt','')}</div></div>
     <div class="kpi"><div class="kl">💰 预期收益</div><div class="kv ret">{a.get('ret','')}</div></div></div>
   <div class="cons">{cons}{earn}{unlock_html}</div>
-  <div class="rr">🛡 风控 止损 -10%(≈{(cs + str(stop)) if stop is not None else '—'}) · 风险收益比 <b>{rr if rr is not None else '—'}:1</b>{rrflag}　·　📊 {'数据不足·目标价为题材推演非可复算估值' if low_data else f'{score_lbl} {sc}/100({cov}/9因子{"·仅技术面,估值/共识未评" if tech_only else ""}) = {sp_str}{miss_note}'}</div>
+  <div class="rr">🛡 风控 止损 {stop_lbl}(≈{(cs + str(stop)) if stop is not None else '—'}) · 风险收益比 <b>{rr if rr is not None else '—'}:1</b>{rrflag}　·　📊 {'数据不足·目标价为题材推演非可复算估值' if low_data else f'{score_lbl} {sc}/100({cov}/9因子{"·仅技术面,估值/共识未评" if tech_only else ""}) = {sp_str}{miss_note}'}</div>
   <div class="th">💡 {a.get('th','')}</div>
   {news_html}
   <div class="rk2">⚠️ 风险:{a.get('rk','')}　·　52周 {cs}{d.get('lo','')}–{cs}{d.get('hi','')}　·　MA20 {cs}{d.get('ma20','—')} / MA50 {cs}{d.get('ma50','')} / MA200 {cs}{d.get('ma200','')}</div>
@@ -391,7 +403,13 @@ def xtra_block(tk, d, a, sp, miss, cs, hist):
     # ② 基本面与共识全字段
     peg = None
     if an.get("fwd_pe") and an.get("eps_growth"):
-        peg = round(an["fwd_pe"] / an["eps_growth"], 2) if an["eps_growth"] > 0 else "增速≤0"
+        if an["eps_growth"] <= 0:
+            peg = "增速≤0"
+        else:
+            peg = round(an["fwd_pe"] / an["eps_growth"], 2)
+            if an["eps_growth"] > 150:
+                # 审计F6:主评分对 TTM 增速>150% 已封顶中性,面板原始 PEG(如 0.03)须同口径标注,免得两处打架
+                peg = f"{peg}(TTM高基数,评分按中性封顶)"
     kv = [("前瞻PE", an.get("fwd_pe")), ("EPS增速%", an.get("eps_growth")), ("PEG", peg),
           ("EPS 2026/2027", f"{an.get('eps_2026','—')} / {an.get('eps_2027','—')}" if an.get("eps_2026") else None),
           ("评级均值(1强买~5强卖)", an.get("rating_mean")), ("买入占比", an.get("rec_buy_ratio")),
@@ -471,12 +489,19 @@ def qa_ctx(data, calls, calls_date, v):
     for tk, a in calls["stocks"].items():
         d = data.get(tk, {})
         fscore, _fsp, fmiss = factor_score(d, bench_m3)   # 与卡片同款9因子评分,喂进语料(问"评分"能答准)
+        cov = 9 - len(fmiss)
+        low_data = cov <= 3                                              # 审计F27:与卡片同护栏——≤3因子不给确定分
+        tech_only = {"共识上行", "评级", "估值PEG"}.issubset(set(fmiss))    # 审计F27:与卡片同判定,不再用 len>=3 近似(会误标)
         stocks[tk] = {
             "名": d.get("name", tk), "市场": d.get("market", "US"), "价": d.get("price"),
+            # 审计F28:问答语料此前不拆当日真值/复用——一旦复发冻结事故(长飞前科),问答会把旧价当当日报给用户
+            "行情新鲜度": (f"复用自{d.get('stale_date','?')}·非当日实时" if d.get("stale") else "当日真值"),
             "涨1月%": d.get("m1"), "涨3月%": d.get("m3"), "涨6月%": d.get("m6"),
-            "距52周高%": d.get("fromhi"), "MA50": d.get("ma50"), "MA200": d.get("ma200"),
+            "距52周高%": d.get("fromhi"), "52周高": d.get("hi"), "52周低": d.get("lo"),   # 审计F29:补 hi/lo(系统提示宣称语料含52周高低,实际此前缺→诱导编数)
+            "MA50": d.get("ma50"), "MA200": d.get("ma200"),
             "年化波动%": d.get("vol"), "财报": d.get("earnings_date"),
-            "9因子评分": fscore, "评分覆盖": f"{9-len(fmiss)}/9因子" + ("·仅技术面" if len(fmiss) >= 3 else ""),
+            "9因子评分": (None if low_data else fscore),
+            "评分覆盖": ("数据不足·暂不评分" if low_data else f"{cov}/9因子" + ("·仅技术面" if tech_only else "")),
             "信号": a.get("sig"), "置信": a.get("conf"), "买入价": a.get("buy"),
             "目标价": a.get("tgt"), "预期收益": a.get("ret"),
             "逻辑": a.get("th"), "风险": a.get("rk"),
@@ -505,13 +530,22 @@ def qa_ctx(data, calls, calls_date, v):
             macro_ctx = {"date": mj.get("asof"), "数据": mj.get("blocks")}
         except Exception:
             pass
+    # 审计F30:研判日≠行情日时,单一 asof 把两个时点混为一谈,模型做「实时vs快照」对账会报错快照日期。
+    # 拆成研判日(calls_date)与行情日(TODAY=当日 data 文件);整体降级(有复用票)也在此声明。
+    degraded = any(isinstance(dd, dict) and dd.get("stale") for dd in data.values())
     return {
-        "asof": calls_date,
+        "研判日": calls_date,
+        "行情日": TODAY,
+        "行情整体": ("部分复用历史真值·非全部当日实时(见各标的『行情新鲜度』)" if degraded else "当日真实抓取"),
         "宏观快线": macro_ctx,
         "大盘": re.sub(r"<[^>]+>", "", calls.get("market", "")),
+        # 审计F31:口径句用 verify 的 basis 原文(它区分了触及率与胜率口径),并补样本量 n(此前只给百分比无分母)
         "复盘记分卡": {"入场触及率%": sc.get("entry_hit_rate"), "方向胜率%": sc.get("direction_win_rate"),
                   "平均目标完成度%": sc.get("avg_progress_to_target_pct"),
-                  "口径": "仅统计买入信号且买入价真实触及的仓位"},
+                  "在途节奏pace": sc.get("avg_pace_ratio"), "已到期样本数": sc.get("matured_n"),
+                  "已到期实际收益%": sc.get("matured_avg_realized_pct"),
+                  "入场样本n": sc.get("n_entered"), "历史在评期数": sc.get("n_periods"),
+                  "口径": (sc.get("basis") or "仅统计买入信号且买入价真实触及的仓位") + "(方向/进度/收益为在途值非到期成绩;QQQ基准不计入;pace为中位数、≈1为赶上时间)"},
         "全球头条": news_ctx,
         "标的": stocks,
     }
@@ -522,7 +556,7 @@ def qa_ctx(data, calls, calls_date, v):
 # 语料 = 页内嵌的本期看板语境(@QACTX@) + 按需同源拉取 /tongguang/data/index.json 的同光早报要闻。
 QA_TMPL = """
 <div class="qa" id="qa-panel">
- <div class="qa-h" onclick="qaToggle()"><span class="qa-ico">💬</span>盘势问答<span class="qa-new">AI</span><span class="qa-sub">问"这波下跌何时扭转"这类问题 · 基于本期研判+同光要闻+全球头条 · DeepSeek 引擎</span><span id="qa-arrow" style="margin-left:auto">▾</span></div>
+ <div class="qa-h" onclick="qaToggle()"><span class="qa-ico">💬</span>盘势问答<span class="qa-new">AI</span><span class="qa-sub">问"这波下跌何时扭转"这类问题 · 基于本期研判+全球头条,可按需检索同光要闻与实时行情 · DeepSeek 引擎</span><span id="qa-arrow" style="margin-left:auto">▾</span></div>
  <div class="qa-body" id="qa-body">
   <div class="qa-basis" onclick="qaBasisToggle()">ℹ️ 回答依据(点开看问答基于什么逻辑、关联了哪些数据)</div>
   <div class="qa-basis-body hide" id="qa-basis-body">
@@ -551,7 +585,7 @@ QA_TMPL = """
 const QK="__QA_KEY__";
 const FHK="__FH_KEY__";
 const QACTX=@QACTX@;
-let QAHIST=[], QABUSY=false, TGCACHE=null;
+let QAHIST=[], QABUSY=false;
 // ===== 实时行情工具(function calling):A股/港股走腾讯行情(script注入,免key免CORS),美股走 Finnhub =====
 const QATOOLS=[{type:"function",function:{name:"get_realtime_quote",
   description:"实时抓取标的当前行情:现价/涨跌%/今日高低/总市值(A股为亿元人民币,港股约亿港元,美股为百万美元)。凡用户问最新价格/市值/今天涨跌,或质疑看板数据、要求核实数字时,必须先调用本工具再回答。可一次传多只做横向对比。",
@@ -594,6 +628,7 @@ async function toolQuote(symbols){
       let mc=null;
       try{const p=await(await fetch("https://finnhub.io/api/v1/stock/profile2?symbol="+s+"&token="+FHK)).json();mc=p.marketCapitalization;}catch(e){}
       out[s]={现价:q.c,昨收:q.pc,今开:q.o,涨跌pct:q.dp,今日最高:q.h,今日最低:q.l,
+        行情时间:(q.t?new Date(q.t*1000).toISOString():"未提供"),  // 审计F34:补行情时间戳,与腾讯路对齐(系统提示要求"实时须标行情时间")
         总市值:(mc?(Math.round(mc)+"百万美元"):"未提供"),来源:"Finnhub实时"};
     }catch(e){out[s]={错误:"实时抓取失败,请以看板快照为准"};}
   }
@@ -644,15 +679,19 @@ async function qaVerify(baseMsgs,ans,abox){
     ]);
     const r=await fetch('https://api.deepseek.com/v1/chat/completions',{method:'POST',
       headers:{'Content-Type':'application/json','Authorization':'Bearer '+QK},
-      body:JSON.stringify({model:'deepseek-chat',messages:[{role:'system',content:'你只做事实溯源核查,只返回JSON。'}].concat(vmsgs),response_format:{type:'json_object'},temperature:0,max_tokens:400})});
+      // 审计F32:①带上 tools(历史含 tool_calls/tool 消息,不带 tools 参数部分模型会 400,恰是用过工具的回答最需校验);
+      // ②max_tokens 400→800(核查含多条 issues 时不够);temperature 0 + 只返回JSON,不会真调工具。
+      body:JSON.stringify({model:'deepseek-chat',messages:[{role:'system',content:'你只做事实溯源核查,只返回JSON,不调用任何工具。'}].concat(vmsgs),tools:QATOOLS,tool_choice:'none',response_format:{type:'json_object'},temperature:0,max_tokens:800})});
     const el=abox.querySelector('.qa-verify');
-    if(!r.ok){if(el)el.remove();return;}
+    // 审计F32:失败不再静默 remove(用户无法区分"没跑"与"跑过通过")——改标"未完成"提示自行核对
+    if(!r.ok){if(el){el.className='qa-warn';el.textContent='⚠️ 自校验未完成(引擎/网络),请自行核对回答中的数字';}return;}
     const v=JSON.parse((await r.json()).choices[0].message.content);
     if(el){
-      if(v.ok){el.className='qa-ok';el.textContent='🔍 自校验通过:引用的数据均可溯源';}
+      // 绿徽文案与核查白名单对齐(白名单豁免估计/情景推演,故不能宣称"全部数据均可溯源")
+      if(v.ok){el.className='qa-ok';el.textContent='🔍 自校验:行情/宏观/日期类数字已溯源(估计与情景推演不在核验范围)';}
       else{el.className='qa-warn';el.textContent='⚠️ 自校验提示(以下数据点未能溯源,请谨慎):'+(v.issues||[]).slice(0,3).map(function(x){return String(x);}).join('；');}
     }
-  }catch(e){const el=abox.querySelector('.qa-verify');if(el)el.remove();}
+  }catch(e){const el=abox.querySelector('.qa-verify');if(el){el.className='qa-warn';el.textContent='⚠️ 自校验未完成,请自行核对数字';}}
 }
 function qel(i){return document.getElementById(i);}
 function qaToggle(){const b=qel('qa-body');b.classList.toggle('hide');qel('qa-arrow').textContent=b.classList.contains('hide')?'▸':'▾';}
@@ -674,22 +713,8 @@ function qaMd(s){
     return l?('<div>'+l+'</div>'):'';
   }).join('');
 }
-async function tgNews(){
-  if(TGCACHE!==null)return TGCACHE;
-  try{
-    const r=await fetch('tongguang/data/index.json');
-    const j=await r.json();
-    const arts=(j.articles||[]).slice().sort(function(a,b){return String(b.date).localeCompare(String(a.date));});
-    const picked=[];
-    for(const a of arts){
-      if(picked.length>=24)break;
-      if(a.is_top5||a.is_tier0||(a.quality_score||0)>=8)
-        picked.push('['+a.date+'] '+a.title+(a.meaning?(' → 这意味着'+String(a.meaning)):''));
-    }
-    TGCACHE=picked.length?('同光企业AI早报要闻(AI行业前沿信号,最新在前,语料截至 '+(arts[0]?arts[0].date:'?')+'):\\n- '+picked.join('\\n- ')):'';
-  }catch(e){TGCACHE='';}
-  return TGCACHE;
-}
+// 审计F33:tgNews()/TGCACHE 死代码已删——同光要闻常备嵌入的旧职责早被 search_briefing 按需检索取代,
+// 全文件无任何调用点,残留物还让面板副标题把"同光要闻"说成常备语料(与实际不符)。
 function qaAsk(q){if(QABUSY)return;qel('qa-in').value=q;qaSend();}
 function qaBubble(cls,html){
   const d=document.createElement('div');d.className='qa-m '+cls;d.innerHTML=html;
@@ -703,10 +728,10 @@ async function qaSend(){
   qaBubble('qa-u',qaEsc(q));
   const abox=qaBubble('qa-a','<span class="qa-wait">🤔 研判中…</span>');
   try{
-    const sys='你是一名华尔街二级市场交易员+buy-side分析师,长期跟踪美股AI产业链与A股/港股算力链,以「无废话」直给结论的方式回答看板主人的盘势问题。\\n【你有两个工具,可多步编排(看了一个结果再决定要不要调另一个)】\\n· get_realtime_quote:抓标的实时行情/市值——问最新价/市值/今日涨跌、或质疑看板数据、要核实时【必调】,并同时给"实时(标行情时间)vs 看板快照(asof)"两套数并解释差异。可一次多只做对比。\\n· search_briefing:检索同光AI早报全库——问到AI行业动态/某公司或技术进展/政策监管/产业链事件时调用,按关键词检索。\\n【看板数据(内嵌)已含】每票近1/3/6月涨幅、距52周高、52周高低、MA50/MA200、年化波动、9因子评分、买卖点研判、复盘记分卡,以及"宏观快线"(BLS非农/失业率/CPI实际vs前值、中美10Y利差、黄金原油、社融)与"全球头条"。历史走势/回撤/宏观类问题优先用这些已有字段,不足再调工具。\\n【硬性纪律】\\n1) 只基于内嵌语料与工具结果回答;两者都覆盖不到的直说"无法核实",绝不编造价格/日期/券商目标价。\\n2) "何时回转/企稳"类:未来不可预测→转成【条件与信号】:关键价位(站回MA50/跌破MA200)、催化剂(财报日/宏观变量)、乐观/中性/悲观三情景时间量级,明说是情景推演。\\n3) 分析透镜(方法非事实):宏观用"实际vs前值"看边际;大事件按"事件→市场反应→政策意图"三层递进;跨资产资金流(美元/黄金/加密轮动);要人表态(美联储主席/财长/央行)高权重。\\n4) 结论先行、分点、简洁、注明出处与时点。回答末尾会自动跑一轮数据溯源自校验,所以务必只用有据可查的数字。\\n5) 末尾固定:仅研究示范,非投资建议。用中文。';
+    const sys='你是一名华尔街二级市场交易员+buy-side分析师,长期跟踪美股AI产业链与A股/港股算力链,以「无废话」直给结论的方式回答看板主人的盘势问题。\\n【你有两个工具,可多步编排(看了一个结果再决定要不要调另一个)】\\n· get_realtime_quote:抓标的实时行情/市值——问最新价/市值/今日涨跌、或质疑看板数据、要核实时【必调】,并同时给"实时(标行情时间)vs 看板行情快照(行情日)"两套数并解释差异。可一次多只做对比。\\n· search_briefing:检索同光AI早报全库——问到AI行业动态/某公司或技术进展/政策监管/产业链事件时调用,按关键词检索。\\n【看板数据(内嵌)已含】每票近1/3/6月涨幅、距52周高、52周高低、MA50/MA200、年化波动、9因子评分、买卖点研判、复盘记分卡,以及"宏观快线"(BLS非农/失业率/CPI实际vs前值、中美10Y利差、黄金原油、社融)与"全球头条"。历史走势/回撤/宏观类问题优先用这些已有字段,不足再调工具。\\n【硬性纪律】\\n1) 只基于内嵌语料与工具结果回答;两者都覆盖不到的直说"无法核实",绝不编造价格/日期/券商目标价。凡某标的『行情新鲜度』标为"复用…非当日实时"或整体"行情整体"为降级,引用其价格时必须向用户声明该价非当日实时。\\n2) "何时回转/企稳"类:未来不可预测→转成【条件与信号】:关键价位(站回MA50/跌破MA200)、催化剂(财报日/宏观变量)、乐观/中性/悲观三情景时间量级,明说是情景推演。\\n3) 分析透镜(方法非事实):宏观用"实际vs前值"看边际;大事件按"事件→市场反应→政策意图"三层递进;跨资产资金流(美元/黄金/加密轮动);要人表态(美联储主席/财长/央行)高权重。\\n4) 结论先行、分点、简洁、注明出处与时点。回答末尾会自动跑一轮数据溯源自校验,所以务必只用有据可查的数字。\\n5) 末尾固定:仅研究示范,非投资建议。用中文。';
     const msgs=[{role:'system',content:sys}];
     QAHIST.slice(-3).forEach(function(h){msgs.push({role:'user',content:h.q});msgs.push({role:'assistant',content:h.a});});
-    msgs.push({role:'user',content:'【看板数据(asof '+QACTX.asof+',含研判/记分卡/宏观快线/全球头条,为快照)】\\n'+JSON.stringify(QACTX)+'\\n\\n【问题】'+q});
+    msgs.push({role:'user',content:'【看板数据(研判日 '+QACTX['研判日']+' · 行情日 '+QACTX['行情日']+',含研判/记分卡/宏观快线/全球头条,为快照)】\\n'+JSON.stringify(QACTX)+'\\n\\n【问题】'+q});
     // ―― ReAct 多步循环:看板核心内嵌 + 按需调工具,最多5步 ――
     const used=[];let finalAns=null;
     for(let step=0;step<5;step++){
@@ -733,7 +758,7 @@ async function qaSend(){
     const uq=used.filter(function(x){return x==='get_realtime_quote';}).length;
     const ub=used.filter(function(x){return x==='search_briefing';}).length;
     const nw=QACTX['全球头条'];
-    const src='<div class="qa-src">📎 依据:看板研判('+QACTX.asof+') · 宏观快线'+(QACTX['宏观快线']?'✓':'✗')+' · 全球头条'+((nw&&nw['条目']&&nw['条目'].length)?'✓':'✗')+(uq?(' · 实时行情✓×'+uq):'')+(ub?(' · 同光检索✓×'+ub):'')+((!uq&&!ub)?' · 未调用工具':'')+'</div>';
+    const src='<div class="qa-src">📎 依据:看板研判('+QACTX['研判日']+')·行情'+QACTX['行情日']+' · 宏观快线'+(QACTX['宏观快线']?'✓':'✗')+' · 全球头条'+((nw&&nw['条目']&&nw['条目'].length)?'✓':'✗')+(uq?(' · 实时行情✓×'+uq):'')+(ub?(' · 同光检索✓×'+ub):'')+((!uq&&!ub)?' · 未调用工具':'')+'</div>';
     abox.innerHTML=qaMd(finalAns)+src+'<span class="qa-verify">🔍 数据溯源自校验中…</span>';
     abox.scrollIntoView({block:'nearest'});
     QAHIST.push({q:q,a:finalAns});if(QAHIST.length>6)QAHIST.shift();qaSaveHist();
@@ -790,6 +815,7 @@ def main():
            ("CN", "🇨🇳 A 股 · 跟随美股的国产算力 / AI 链"),
            ("HK", "🇭🇰 港股 · 国产 AI")]
     mkt_of = lambda tk: (data.get(tk, {}) or {}).get("market", "US")
+    bench = cfg.get("benchmark")
     TAB_LABEL = {"US": "🇺🇸 美股", "CN": "🇨🇳 A 股", "HK": "🇭🇰 港股"}
     panes = ""
     tabbtns = '<button class="tab active" data-tab="all">📊 全部</button>'
@@ -797,12 +823,22 @@ def main():
         grp = [tk for tk in order if tk in calls["stocks"] and mkt_of(tk) == mk]
         if not grp:
             continue
-        tabbtns += f'<button class="tab" data-tab="{mk}">{TAB_LABEL[mk]}<span class="tc">{len(grp)}</span></button>'
-        panes += f'<div class="pane" data-mkt="{mk}"><div class="section">{title}<span class="scnt">{len(grp)} 支</span></div><div class="grid">'
+        # 审计F26:计数剔除基准(QQQ)——与顶栏(F1)口径对齐,section 标题含"核心"却把基准并入"X支"会两张皮
+        core_n = sum(1 for tk in grp if tk != bench)
+        bench_suf = "+基准" if core_n != len(grp) else ""
+        tabbtns += f'<button class="tab" data-tab="{mk}">{TAB_LABEL[mk]}<span class="tc">{core_n}{bench_suf}</span></button>'
+        panes += f'<div class="pane" data-mkt="{mk}"><div class="section">{title}<span class="scnt">{core_n} 支{bench_suf}</span></div><div class="grid">'
         panes += "".join(card(order.index(tk), tk, data.get(tk, {}), calls["stocks"][tk], bench_m3, hist_map.get(tk)) for tk in grp)
         panes += '</div></div>'
     cards = f'<div class="tabs">{tabbtns}</div>{panes}'
     rank_str = " ＞ ".join(data.get(tk, {}).get("name", tk) for tk in order)
+    # 审计F25:页脚回测数字改读 backtest.json(与 F3/F4 口径统一)——backtest-weekly 每周重算会漂移,
+    # 写死 42%/2.5 届时与证据区自相矛盾;读不到则退化定性表述,绝不写死数字也不覆盖真值。
+    _bt = jload(os.path.join(STATE, "backtest.json")) or {}
+    _wr, _rr = _bt.get("win_rate_pct"), _bt.get("realized_rr")
+    bt_foot = (f"回测命中率约 {_wr}%(<b>非 90%</b>),正期望靠 ~{_rr}:1 盈亏比"
+               if (_wr is not None and _rr is not None)
+               else "回测命中率远低于九成直觉,<b>正期望靠盈亏比而非高胜率</b>")
     html = f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
@@ -929,7 +965,7 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 @media(max-width:480px){{.gauges{{gap:8px}}.gcard{{padding:12px 6px 10px}}.gwrap{{width:100%;max-width:104px}}.gnum{{font-size:22px}}.gunit{{font-size:12px}}.gnote{{display:none}}.gspark{{height:32px}}}}
 </style></head><body><div class="wrap">
 <div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#e2c07e;margin-bottom:8px">LUMORA · 同光科技</div><h1>📡 {cfg['title']} · {TODAY}</h1>
-<div class="sub">美股 AI 核心 {sum(1 for s in cfg['stocks'] if s.get('market') != 'CN' and s['ticker'] != cfg['benchmark'])} 票 + 🇨🇳 A 股补充 {sum(1 for s in cfg['stocks'] if s.get('market') == 'CN')} 票 + {cfg['benchmark']} 基准 · 长期 {cfg['horizon_label']} 视角 · 数据 yfinance+akshare(真实行情) · AI 研判</div>
+<div class="sub">美股 AI 核心 {sum(1 for s in cfg['stocks'] if s.get('market', 'US') == 'US' and s['ticker'] != cfg['benchmark'])} 票 + 🇨🇳 A 股 {sum(1 for s in cfg['stocks'] if s.get('market') == 'CN')} 票 + 🇭🇰 港股 {sum(1 for s in cfg['stocks'] if s.get('market') == 'HK')} 票 + {cfg['benchmark']} 基准 · 长期 {cfg['horizon_label']} 视角 · 数据 TwelveData/Finnhub+akshare+腾讯(真实行情) · AI 研判</div>
 <div class="updated">🕐 本页生成:<b>{BUILD_TS}</b> 北京 · <a href="news.html">🌍 全球头条</a> · <a href="africa.html">📡 非洲科技</a> · <a href="javascript:void(0)" onclick="location.href='board.html?t='+Date.now()">🔄 手动刷新</a> · <button id="updbtn" onclick="triggerUpd()" style="background:#2563eb;color:#fff;border:none;border-radius:8px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer">🔁 更新研判</button><span id="updmsg" style="color:#94a6c4;font-size:12px;margin-left:6px"></span></div>
 <script>
 const DT="__DISPATCH_TOKEN__";
@@ -975,8 +1011,8 @@ document.addEventListener('click',function(e){{
 {cards}
 {audit_section(data)}
 <div class="foot">两个核心指标 = ① 买入建议+建议买入价　② 6-12月目标价+预期收益　·　预测台账自动复盘校准<br>
-数据 yfinance+akshare+腾讯行情(真实抓取) · {engine_line}<br>
-⚠️ 仅供研究/学习,<b>非投资建议</b>。回测命中率约 42%(<b>非 90%</b>),正期望靠 ~2.5:1 盈亏比——<b>赚钱靠风控不靠高胜率</b>;目标价为技术面+共识+催化剂推演,不代表未来,实际交易请自负风险。</div>
+数据 TwelveData/Finnhub+akshare+腾讯行情(真实抓取) · {engine_line}<br>
+⚠️ 仅供研究/学习,<b>非投资建议</b>。{bt_foot}——<b>赚钱靠风控不靠高胜率</b>;目标价为技术面+共识+催化剂推演,不代表未来,实际交易请自负风险。</div>
 </div></body></html>"""
     os.makedirs(STATE, exist_ok=True)
     out = os.path.join(STATE, f"ai_stock_board_{TODAY}.html")
