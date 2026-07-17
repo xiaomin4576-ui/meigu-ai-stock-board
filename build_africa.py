@@ -13,8 +13,27 @@ _BJ = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8)))
 TODAY = _BJ.date().isoformat()
 BUILD_TS = _BJ.strftime("%Y-%m-%d %H:%M")
 
-# 南部非洲/莫桑比克优先(同光所在地)——用于国家侧栏置顶与卡片排序
+# 南部非洲/莫桑比克优先(同光所在地)——用于卡片排序
 PRIOR = ["🇲🇿 莫桑比克", "🇿🇦 南非", "🇦🇴 安哥拉", "🇿🇲 赞比亚", "🇿🇼 津巴布韦"]
+
+# 非洲大区归类(2026-07 用户要左侧按大区分类,比逐国更聚合清晰):国家(带国旗中文名)→ 大区
+REGION = {
+    "🇲🇿 莫桑比克": "南部非洲", "🇿🇦 南非": "南部非洲", "🇦🇴 安哥拉": "南部非洲",
+    "🇿🇲 赞比亚": "南部非洲", "🇿🇼 津巴布韦": "南部非洲",
+    "🇰🇪 肯尼亚": "东非", "🇪🇹 埃塞俄比亚": "东非", "🇹🇿 坦桑尼亚": "东非",
+    "🇷🇼 卢旺达": "东非", "🇺🇬 乌干达": "东非",
+    "🇪🇬 埃及": "北非", "🇲🇦 摩洛哥": "北非",
+    "🇳🇬 尼日利亚": "西非", "🇬🇭 加纳": "西非", "🇸🇳 塞内加尔": "西非", "🇨🇮 科特迪瓦": "西非",
+}
+REGION_ORDER = ["南部非洲", "东非", "北非", "西非"]  # 用户列的顺序;南部非洲=同光所在,优先
+REGION_ICON = {"南部非洲": "🧭", "东非": "🌅", "北非": "🏜️", "西非": "🌍"}
+
+
+def _region_of(country):
+    """国家 → 大区;无国家或未归类 → __none(泛非洲/未分国)。"""
+    if not country:
+        return "__none"
+    return REGION.get(country, "__none")
 
 
 def esc(s):
@@ -52,7 +71,7 @@ def _cat_of(it):
 
 def _card(it):
     country = it.get("country") or ""
-    cval = country if country else "__none"       # 无国家 → 归"泛非洲/未分国"桶
+    reg = _region_of(country)                     # 大区筛选维度(南部非洲/东非/北非/西非/__none)
     cat = _cat_of(it)
     tags = ""
     if country:
@@ -68,7 +87,7 @@ def _card(it):
     title_html = f'<a href="{esc(url)}" target="_blank" rel="noopener">{title} ↗</a>' if url.startswith("http") else title
     brief_text = _strip_tags(it.get("brief"))
     brief = f'<div class="bf">{esc(brief_text)}</div>' if brief_text else ""
-    return (f'<div class="item" data-cat="{cat}" data-country="{esc(cval)}">'
+    return (f'<div class="item" data-cat="{cat}" data-region="{esc(reg)}">'
             f'<div class="meta">{tags}<span class="sc">{src}</span><span class="dt">{date}</span></div>'
             f'<div class="ti">{title_html}</div>{brief}</div>')
 
@@ -99,19 +118,13 @@ def main():
     n_ai = len(ai_items)
     n_rest = len(rest)
 
-    # 国家侧栏:优先国家置顶,其余按 count 降序;无国家归"泛非洲/未分国"
-    ctry_counts = Counter((x.get("country") or "") for x in items)
-    n_none = ctry_counts.get("", 0)
-    named = [(c, n) for c, n in ctry_counts.items() if c]
-
-    def _ck(cn):
-        c = cn[0]
-        return (0, PRIOR.index(c)) if c in PRIOR else (1, -cn[1])
-
-    named.sort(key=_ck)
-    ctry_named_html = "".join(
-        f'<li class="fi" data-country="{esc(c)}">{esc(c)}<span>{n}</span></li>' for c, n in named)
-    none_html = (f'<li class="fi" data-country="__none">🌐 泛非洲 / 未分国<span>{n_none}</span></li>') if n_none else ""
+    # 大区侧栏(按非洲大区聚合,比逐国更清晰):统计各大区条目数;无国家归"泛非洲/未分国"
+    reg_counts = Counter(_region_of(x.get("country") or "") for x in items)
+    n_none = reg_counts.get("__none", 0)
+    reg_html = "".join(
+        f'<li class="fi" data-region="{rg}">{REGION_ICON.get(rg, "🌍")} {rg}<span>{reg_counts.get(rg, 0)}</span></li>'
+        for rg in REGION_ORDER)
+    none_html = (f'<li class="fi" data-region="__none">🌐 泛非洲 / 未分国<span>{n_none}</span></li>') if n_none else ""
 
     side = (f'<aside class="side">'
             f'<h4>🔎 分类</h4><ul class="filist" id="catlist">'
@@ -121,24 +134,24 @@ def main():
             f'<li class="fi" data-cat="rest">🌍 科技全景<span>{n_rest}</span></li>'
             f'</ul>'
             f'<div class="snote">🏗️ AI 基建(数据中心/海缆/骨干网)= 光互联/光模块需求侧,与看板 长飞·中天 存在需求侧关联</div>'
-            f'<h4 style="margin-top:16px">🌍 国家 / 地区</h4><ul class="filist" id="ctrylist">'
-            f'<li class="fi active" data-country="all">🌍 全部国家<span>{n_all}</span></li>'
-            f'{ctry_named_html}{none_html}'
-            f'</ul><div class="snote">莫桑比克 / 南部非洲优先(同光所在地)</div>'
+            f'<h4 style="margin-top:16px">🌍 地区(大区)</h4><ul class="filist" id="reglist">'
+            f'<li class="fi active" data-region="all">🌍 全部地区<span>{n_all}</span></li>'
+            f'{reg_html}{none_html}'
+            f'</ul><div class="snote">🧭 南部非洲(莫桑比克/南非/安哥拉/赞比亚/津巴布韦)= 同光所在,优先关注</div>'
             f'</aside>')
 
     if not items:
         main_col = ('<div class="empty" style="grid-column:1/-1;padding:40px">暂无非洲科技数据(采集失败或首次运行)。'
                     '数据源=非洲本地科技媒体 RSS,下次构建自动补齐。</div>')
     else:
-        main_col = (f'<div class="resbar">显示 <b id="viscount">{n_all}</b> 条 · 点左侧【分类】或【国家】聚焦</div>'
+        main_col = (f'<div class="resbar">显示 <b id="viscount">{n_all}</b> 条 · 点左侧【分类】或【地区】聚焦</div>'
                     f'<div class="grid" id="cards">{cards}</div>'
                     f'<div class="empty" id="emptymsg" style="display:none">该筛选组合下无匹配条目,换个分类或国家试试</div>')
 
     n_total = meta.get("total", len(items))
     n_ai_meta = meta.get("ai_flagged", len([x for x in items if x.get("is_ai")]))
     n_infra_meta = meta.get("aiinfra_flagged", n_infra)
-    n_ctry = meta.get("countries", len(named))
+    n_ctry = meta.get("countries", len({x.get("country") for x in items if x.get("country")}))
 
     html_out = f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -206,7 +219,7 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 </div>
 </div>
 <script>
-var curCat='all', curCtry='all';
+var curCat='all', curReg='all';
 function _setActive(listId,li){{
   var ul=document.getElementById(listId); if(!ul)return;
   ul.querySelectorAll('.fi').forEach(function(x){{x.classList.remove('active');}});
@@ -216,7 +229,7 @@ function _applyFilter(){{
   var n=0;
   document.querySelectorAll('.item').forEach(function(it){{
     var okc=(curCat==='all'||it.getAttribute('data-cat')===curCat);
-    var okt=(curCtry==='all'||it.getAttribute('data-country')===curCtry);
+    var okt=(curReg==='all'||it.getAttribute('data-region')===curReg);
     var show=okc&&okt; it.style.display=show?'':'none'; if(show)n++;
   }});
   var vc=document.getElementById('viscount'); if(vc)vc.textContent=n;
@@ -225,7 +238,7 @@ function _applyFilter(){{
 document.addEventListener('click',function(e){{
   var li=e.target.closest?e.target.closest('.fi'):null; if(!li)return;
   if(li.hasAttribute('data-cat')){{ curCat=li.getAttribute('data-cat'); _setActive('catlist',li); }}
-  else if(li.hasAttribute('data-country')){{ curCtry=li.getAttribute('data-country'); _setActive('ctrylist',li); }}
+  else if(li.hasAttribute('data-region')){{ curReg=li.getAttribute('data-region'); _setActive('reglist',li); }}
   _applyFilter();
 }});
 </script>
