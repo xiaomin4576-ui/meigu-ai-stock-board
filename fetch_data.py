@@ -560,6 +560,10 @@ def td_fetch_one(s, sess):
             an["fwd_pe"] = fh["fwd_pe"]
         if fh.get("eps_growth") is not None:
             an["eps_growth"] = fh["eps_growth"]
+        # 第二批:多维估值字段(EV/EBITDA·FCF收益率·市值·前瞻PEG)——此前合并只挑固定几个键,漏了这些新字段
+        for _vk in ("ev_ebitda", "fcf_yield", "market_cap", "forward_peg"):
+            if fh.get(_vk) is not None:
+                an[_vk] = fh[_vk]
         if fh.get("earnings_date") and not rec.get("earnings_date"):
             rec["earnings_date"] = fh["earnings_date"]
         if fh.get("roe") is not None or fh.get("gross_margin") is not None:

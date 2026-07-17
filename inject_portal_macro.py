@@ -19,21 +19,31 @@ if fs:
         fed = b.get("美联储政策", {})
         if "error" not in fed and fed.get("EFFR%") is not None:
             bits.append(f"联邦基金 <b>{fed['EFFR%']}%</b>")
+        # 涨跌方向(方案B·2026-07):金/油/气自带日内涨跌%,加绿红箭头,把"被动数字"变"市场体温计"(一眼risk-on/off)
+        def _chg(pct):
+            if pct is None:
+                return ""
+            up = pct >= 0
+            return (f"<span style='color:{'#4ade80' if up else '#ff8080'};font-size:11px'>"
+                    f" {'▲' if up else '▼'}{abs(pct):.2f}%</span>")
         c = b.get("大宗实时", {})
         for name, lbl in (("纽约黄金", "金"), ("纽约原油", "油"), ("美天然气", "气")):
             v = c.get(name) if "error" not in c else None
             if v:
-                bits.append(f"{lbl} <b>{v['价']}</b>")
+                bits.append(f"{lbl} <b>{v['价']}</b>{_chg(v.get('涨跌%'))}")
         r = b.get("中美利率", {})
-        if "error" not in r and r.get("美10Y%"):
+        if "error" not in r and r.get("美10Y%"):        # 利率是政策/长端水平值,不看日内%(方案B保持无箭头)
             bits.append(f"美10Y <b>{r['美10Y%']}%</b>")
         us = b.get("美国宏观", {})
         v = us.get("CPI同比%") if "error" not in us else None
         if v:
-            # 审计F23:CPI 自带约两月发布滞后(7月中页面上是5月数据),门户不标月份读者会误当上月——
-            # 补数据月份(与头条页 build_news 的逐格"期"标注同口径),缺"期"则不加括注
-            per = f"<span style='font-size:10px'>({v.get('期')})</span>" if v.get("期") else ""
-            bits.append(f"CPI同比 <b>{v['值']}%</b>{per}")
+            # 审计F23:CPI 有约两月发布滞后,标数据月份;方案B补【较前值】边际(通胀升/降对成长股方向相反,标出边际感)
+            prev, cur = v.get("前值"), v.get("值")
+            trend = ""
+            if prev is not None and cur is not None:
+                trend = ("·较前值%s回落" % prev if cur < prev else ("·较前值%s上升" % prev if cur > prev else ""))
+            per = f"<span style='font-size:10px'>({v.get('期','')}{trend})</span>" if (v.get("期") or trend) else ""
+            bits.append(f"CPI同比 <b>{cur}%</b>{per}")
         if bits:
             # 审计F12:board/news 的宏观条过期都标日期,门户此前不标——同口径补齐,复用旧数据不许伪装新鲜
             asof = mj.get("asof")
