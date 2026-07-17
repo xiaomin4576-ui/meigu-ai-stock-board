@@ -6,7 +6,17 @@
 body{font-family:-apple-system,"PingFang SC",sans-serif;background:#0a1020;color:#f2f6fc;line-height:1.6;padding:20px}
 body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(1100px 520px at 50% -8%,rgba(226,192,126,.10),transparent 62%),radial-gradient(800px 400px at 85% 110%,rgba(122,184,255,.06),transparent 60%)}
 @media(max-width:640px){body::before{background:radial-gradient(550px 260px at 50% -8%,rgba(226,192,126,.10),transparent 62%),radial-gradient(400px 200px at 85% 110%,rgba(122,184,255,.06),transparent 60%)}}
-.wrap{max-width:980px;margin:0 auto}
+.wrap{max-width:1180px;margin:0 auto}
+.layout{display:grid;grid-template-columns:200px 1fr;gap:20px;align-items:start}
+.side{position:sticky;top:16px;background:#101b33;border:1px solid #2f4166;border-radius:13px;padding:14px}
+.side h4{font-size:12px;color:#94a6c4;letter-spacing:.08em;margin-bottom:10px;font-weight:700}
+.filist{list-style:none;display:flex;flex-direction:column;gap:5px}
+.fi{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:13.5px;font-weight:600;color:#c9d5e8;background:#1c2a4a;border:1px solid #2f4166;border-radius:9px;padding:8px 11px;cursor:pointer;transition:all .15s}
+.fi:hover{background:#22345a;color:#f2f6fc}
+.fi.active{background:#e2c07e;color:#0a1020;border-color:#e2c07e}
+.fi span{font-size:11.5px;font-weight:700;opacity:.75}
+.snote{font-size:11px;color:#94a6c4;margin-top:12px;line-height:1.6}
+@media(max-width:760px){.layout{grid-template-columns:1fr}.side{position:static}.filist{flex-direction:row;flex-wrap:wrap}.fi{flex:1;min-width:120px}}
 .header{background:linear-gradient(135deg,#1c2a4a,#101b33);border:1px solid #2f4166;border-radius:16px;padding:24px 28px;margin-bottom:16px}
 .header h1{font-size:24px;font-weight:900;color:#7ab8ff}
 .sub{font-size:14px;color:#94a6c4;margin-top:6px}
@@ -40,7 +50,7 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;ba
 </style></head><body><div class="wrap">
 <div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#e2c07e;margin-bottom:8px">LUMORA · 同光科技</div><h1>🌍 全球市场头条 · 2026-07-17</h1>
 <div class="sub">传导链视角:国际局势 → 美股 → A股 · 油气市场 → 莫桑比克/东非经营 · 三档 15-21 条 · 信源 Finnhub / 东财环球 / OilPrice / CNBC / 谷歌定向聚合 等(真实链接可溯源)</div>
-<div class="nav"><a href="home.html">🏠 首页</a><button onclick="newsUpd()" style="background:#f97316;color:#fff;border:none;border-radius:8px;padding:4px 12px;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit">🔁 刷新头条</button><span id="nupd" style="color:#94a6c4;font-size:12px;margin-left:6px"></span><span style="color:#94a6c4;margin-left:8px">🕐 本页生成 2026-07-17 21:26 北京</span></div></div>
+<div class="nav"><a href="home.html">🏠 首页</a><button onclick="newsUpd()" style="background:#f97316;color:#fff;border:none;border-radius:8px;padding:4px 12px;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit">🔁 刷新头条</button><span id="nupd" style="color:#94a6c4;font-size:12px;margin-left:6px"></span><span style="color:#94a6c4;margin-left:8px">🕐 本页生成 2026-07-17 21:53 北京</span></div></div>
 <script>
 const DT="__DISPATCH_TOKEN__";
 async function newsUpd(){
@@ -67,113 +77,124 @@ async function newsUpd(){
   }catch(e){m.textContent='❌ 网络出错';}
 }
 </script>
-<div class="fresh ok">🟢 头条为今日(<b>2026-07-17</b>)· 引擎 deepseek-chat · 生成于 2026-07-17T21:26+08:00</div>
-<div class="macro"><div class="mtitle">📅 宏观快线 <span class="msub">纽约联储(EFFR)· BLS · 中债/美债 · 财新PMI · 腾讯外盘(金/油/气)· 三点对照(实际/前值;预期无免费源如实缺)</span></div><div class="mgrid"><div class="mcell"><div class="mk">联邦基金利率<span class="mp">2026-07-16</span></div><div class="mv">3.63%</div><div class="ms">前值 3.63% · 距FOMC 12天</div></div><div class="mcell"><div class="mk">美/中 10Y<span class="mp">2026-07-16</span></div><div class="mv">4.57 / 1.7437</div><div class="ms">利差 283bp</div></div><div class="mcell"><div class="mk">财新制造业PMI<span class="mp">2026-06</span></div><div class="mv">51.7</div><div class="ms">扩张 · 前值 51.8</div></div><div class="mcell"><div class="mk">纽约黄金<span class="mp">实时</span></div><div class="mv">3972.75</div><div class="ms">-0.48%</div></div><div class="mcell"><div class="mk">纽约原油<span class="mp">实时</span></div><div class="mv">80.97</div><div class="ms">+3.43%</div></div><div class="mcell"><div class="mk">美天然气<span class="mp">实时</span></div><div class="mv">2.87</div><div class="ms">+1.63%</div></div><div class="mcell"><div class="mk">中国社融增量<span class="mp">202604·滞后源</span></div><div class="mv">6245亿</div><div class="ms">贷款 -4006亿</div></div></div></div>
-<div class="section" style="border-left-color:#7ab8ff">🌍 宏观 / 地缘<span class="ssub">影响美股整体:利率 · 关税 · 地缘 · 大宗 · 政策</span><span class="scnt">7 条</span></div><div class="item">
-  <div class="ihd"><span class="irk">1</span><span class="ittl">美伊互袭基础设施，冲突风险升级</span><span class="imp">影响力 10/10</span></div>
-  <div class="ibrief">US and Iran each attack infrastructure in risky escalation, marking 6th consecutive night of US strikes.</div>
-  <div class="ichain">🔗 <b>传导链:</b>美伊冲突升级→避险情绪升温，美股承压→A股军工、黄金板块受关注</div>
+<div class="fresh ok">🟢 头条为今日(<b>2026-07-17</b>)· 引擎 deepseek-chat · 生成于 2026-07-17T21:53+08:00</div>
+<div class="macro"><div class="mtitle">📅 宏观快线 <span class="msub">纽约联储(EFFR)· BLS · 中债/美债 · 财新PMI · 腾讯外盘(金/油/气)· 三点对照(实际/前值;预期无免费源如实缺)</span></div><div class="mgrid"><div class="mcell"><div class="mk">联邦基金利率<span class="mp">2026-07-16</span></div><div class="mv">3.63%</div><div class="ms">前值 3.63% · 距FOMC 12天</div></div><div class="mcell"><div class="mk">非农新增(千人)<span class="mp">2026-06</span></div><div class="mv">57 ↓</div><div class="ms">前值 129</div></div><div class="mcell"><div class="mk">失业率%<span class="mp">2026-06</span></div><div class="mv">4.2 ↓</div><div class="ms">前值 4.3</div></div><div class="mcell"><div class="mk">CPI同比%<span class="mp">2026-06</span></div><div class="mv">3.5 ↓</div><div class="ms">前值 4.2</div></div><div class="mcell"><div class="mk">美/中 10Y<span class="mp">2026-07-16</span></div><div class="mv">4.57 / 1.7437</div><div class="ms">利差 283bp</div></div><div class="mcell"><div class="mk">财新制造业PMI<span class="mp">2026-06</span></div><div class="mv">51.7</div><div class="ms">扩张 · 前值 51.8</div></div><div class="mcell"><div class="mk">纽约黄金<span class="mp">实时</span></div><div class="mv">3996.37</div><div class="ms">+0.11%</div></div><div class="mcell"><div class="mk">纽约原油<span class="mp">实时</span></div><div class="mv">81.11</div><div class="ms">+3.62%</div></div><div class="mcell"><div class="mk">美天然气<span class="mp">实时</span></div><div class="mv">2.87</div><div class="ms">+1.77%</div></div><div class="mcell"><div class="mk">中国社融增量<span class="mp">202604·滞后源</span></div><div class="mv">6245亿</div><div class="ms">贷款 -4006亿</div></div></div></div>
+<div class="layout">
+<aside class="side"><h4>📊 档位筛选</h4><ul class="filist"><li class="fi active" data-f="all">📰 全部<span>20</span></li><li class="fi" data-f="macro">🌍 宏观/地缘<span>7</span></li><li class="fi" data-f="oil">🛢️ 石油/能源<span>6</span></li><li class="fi" data-f="tech">🤖 科技/AI<span>7</span></li></ul><div class="snote">按档位聚焦当前关注 · 点"全部"恢复<br>传导链视角:事件 → 美股 / A股 / 莫桑比克·东非</div></aside>
+<div class="main-col">
+<div class="cat-block" data-cat="macro"><div class="section" style="border-left-color:#7ab8ff">🌍 宏观 / 地缘<span class="ssub">影响美股整体:利率 · 关税 · 地缘 · 大宗 · 政策</span><span class="scnt">7 条</span></div><div class="item">
+  <div class="ihd"><span class="irk">1</span><span class="ittl">美伊互袭基础设施，局势升级</span><span class="imp">影响力 10/10</span></div>
+  <div class="ibrief">美国和伊朗互相攻击对方基础设施，冲突风险加剧。</div>
+  <div class="ichain">🔗 <b>传导链:</b>地缘冲突升级→避险情绪升温→美股承压，A股军工/黄金链受益</div>
   <div class="isrc"><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxNRW1QZlpEY3pwOHJJaDF2S2JVZG81S2xuakhndThpb1lLREpreFBCRW1TWTlZeFBGTFRaUER1dWRUU2FlaDlYTU9Yc0hzY3Juby0xSlRxN24yMGZvQ0ktN1NYcjVtZHc5a3F6UXQ5Qnc3aWNDNV84MV8ybWkxemptWEtlS1plM0kxQVNoM3A5RkpkUlZGSEtYbVVTN2RtNkhwc3VWZThNazhDTGpt?oc=5" target="_blank" rel="noopener">Reuters ↗</a> · 2026-07-17 11:50 北京</div>
 </div><div class="item">
-  <div class="ihd"><span class="irk">2</span><span class="ittl">美军连续第六晚打击伊朗，中东局势持续紧张</span><span class="imp">影响力 9/10</span></div>
-  <div class="ibrief">US military completes latest strikes on Iran, marking 6th consecutive night of attacks.</div>
-  <div class="ichain">🔗 <b>传导链:</b>美军持续打击伊朗→中东局势恶化→全球风险资产承压，美股波动加剧→A股避险情绪升温</div>
-  <div class="isrc"><a href="https://news.google.com/rss/articles/CBMizgFBVV95cUxNcU5Ec2J3b2lDc21BVGR3cWYxV185VjZLdk9tTzlndk5Tc3hPblNOQXVZY3hrYjU3bW9Mek9yZXVFV2tUV2d1NThXTnZ5SkhucHh4X3VPTlkxdk9SX2FlTndvTWRRUnB4ak01QmFWVzQ2RzVaYk1pWU1VMElXRW5jaFM5czAzR2VWeF9neExJZlgwaDhvV2pJbWh4LWV1bWJ5bnRRZmVyckRhNFNwNkVjdEJGdlFYbHc4d2FBTEx0U0ZsRFVaT1RIUmNNWHlrdw?oc=5" target="_blank" rel="noopener">Reuters ↗</a> · 2026-07-17 10:30 北京</div>
-</div><div class="item">
-  <div class="ihd"><span class="irk">3</span><span class="ittl">美国6月进口价格指数同比涨7.1%超预期</span><span class="imp">影响力 8/10</span></div>
-  <div class="ibrief">US import prices rise 0.3% in June, above expectations; import price index up 7.1% YoY.</div>
-  <div class="ichain">🔗 <b>传导链:</b>进口价格超预期上涨→通胀压力持续→美联储加息预期升温，美股承压→A股输入性通胀相关板块</div>
-  <div class="isrc"><a href="https://finance.eastmoney.com/a/202607173811266759.html" target="_blank" rel="noopener">东方财富·环球 ↗</a> · 2026-07-17 20:32 北京</div>
-</div><div class="item">
-  <div class="ihd"><span class="irk">4</span><span class="ittl">CNBC调查：经济前景恶化，特朗普受指责</span><span class="imp">影响力 7/10</span></div>
-  <div class="ibrief">Economic outlook worsening and Trump getting blamed, CNBC survey finds.</div>
-  <div class="ichain">🔗 <b>传导链:</b>经济前景恶化→市场对特朗普政策信心下降→美股承压，避险资产受青睐→A股防御性板块</div>
-  <div class="isrc"><a href="https://www.cnbc.com/2026/07/17/economic-outlook-is-worsening-and-trump-is-getting-blamed-cnbc-survey-finds.html" target="_blank" rel="noopener">CNBC World ↗</a> · Fri, 17 Jul 2026</div>
-</div><div class="item">
-  <div class="ihd"><span class="irk">5</span><span class="ittl">特朗普在全国讲话中重申2020年选举舞弊指控</span><span class="imp">影响力 6/10</span></div>
-  <div class="ibrief">Trump doubles down on 2020 election claims in national address, alleging China meddling.</div>
-  <div class="ichain">🔗 <b>传导链:</b>特朗普重申选举舞弊指控→政治不确定性上升→美股波动，中美关系紧张→A股自主可控板块</div>
-  <div class="isrc"><a href="https://www.cnbc.com/2026/07/16/trump-primetime-address-elections-2020.html" target="_blank" rel="noopener">CNBC World ↗</a> · Fri, 17 Jul 2026</div>
-</div><div class="item">
-  <div class="ihd"><span class="irk">6</span><span class="ittl">黄金上涨但周线或下跌，因通胀和加息担忧</span><span class="imp">影响力 6/10</span></div>
-  <div class="ibrief">Gold rises but heads for weekly loss on inflation and rate hike worries.</div>
-  <div class="ichain">🔗 <b>传导链:</b>通胀和加息担忧→黄金短期承压，但地缘风险提供支撑→避险情绪影响美股，A股黄金板块</div>
-  <div class="isrc"><a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxPWE9UR3M4eEdZWDhiT2EyMnFxejhVbjV3Z3p3NGZaZmdwaXZHODI1MVh5dHY1YVNPVFBjZW81S2dDZzY3a3RTSi1SSkdReDBMOUFmSEVTVlhhcDZ0ZDY2RnJFVHRNLVBRMkJocXdOX1RpOGNqeUZrbzFlMW5SY0lsbXREaEhpOEFuQVlBZGtLZ1NNOTFsTVlqOFU0cUkwSmRjUlJXXzN0SHQ2SkluQ0E2bXFJWUk?oc=5" target="_blank" rel="noopener">Reuters ↗</a> · 2026-07-17 11:34 北京</div>
-</div><div class="item">
-  <div class="ihd"><span class="irk">7</span><span class="ittl">欧盟推出银行改革方案以回应特朗普放松监管</span><span class="imp">影响力 5/10</span></div>
-  <div class="ibrief">EU launches banking reform package in response to Trump&#39;s deregulation.</div>
-  <div class="ichain">🔗 <b>传导链:</b>欧盟银行改革→全球金融监管分化→美股银行股承压，A股银行板块受外溢影响有限</div>
-  <div class="isrc"><a href="https://finance.eastmoney.com/a/202607173811306889.html" target="_blank" rel="noopener">东方财富·环球 ↗</a> · 2026-07-17 21:16 北京</div>
-</div><div class="section" style="border-left-color:#f97316">🛢️ 全球石油 / 能源<span class="ssub">OPEC+ · 油价 · LNG/天然气 · 能源巨头 · 传导视角:莫桑比克/东非能源经营(联合能源 Union)</span><span class="scnt">7 条</span></div><div class="item">
-  <div class="ihd"><span class="irk">1</span><span class="ittl">IEA警告霍尔木兹海峡若数周不开放将危及全球能源安全</span><span class="imp">影响力 10/10</span></div>
-  <div class="ibrief">IEA chief warns global energy security at risk if Strait of Hormuz does not open in weeks.</div>
-  <div class="ichain">🔗 <b>传导链:</b>霍尔木兹海峡通行量下降→油价飙升→莫桑比克LNG项目出口受阻，东非能源经营风险加剧</div>
-  <div class="isrc"><a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxPemtCTGQ0SDdIMFRmVlNYbkRuTDZHT194eDY1MzBrYVZyTzZNUlZvWDd5ZjFZRFdUeV8xbnJIb2wtSHZ2WGZFeHR1X3o2MjUtc0h1MUNkOERBdFZCVnVaMkJwaHVnbk9IaDJiVV9RRE82U3NwTmFrMDJuaFpnOUl1Y2Y2eWNaNXhLMjlRWk5uV0ZZMnVPV18zeTZPcTFWeWM4N1JiS01DSWRzT2Q1NzZ3Yk5ubm54TDUwUldyUkpkSjVjNUQxLTY1Q3ZLMA?oc=5" target="_blank" rel="noopener">Reuters ↗</a> · 2026-07-17 08:34 北京</div>
-</div><div class="item">
-  <div class="ihd"><span class="irk">2</span><span class="ittl">油价因美伊敌对行动和红海关闭威胁上涨</span><span class="imp">影响力 9/10</span></div>
-  <div class="ibrief">Oil rises on renewed US-Iran hostilities and threat of Red Sea closure.</div>
-  <div class="ichain">🔗 <b>传导链:</b>美伊冲突+红海威胁→油价上涨→莫桑比克油气出口成本增加，但高油价利好上游收益</div>
-  <div class="isrc"><a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYnAzc0RfelUyaHNBcU5ERWVndUwxNkhxOC1sREo3M2xoeGp0Vko0MTREMXludzBTcG52UVpvSmpRdlpLV2FFU0VNT2cybFU2b3NjTkhUMkZKWlNZMmo0RWFDV0pfSEU1RDFtVURxQjAtRVBXeTB6VWZCNUpFUVRJRFRSRDA0NzJlN1d2bjl5T3VLZ2lxQndYZ29SUFB0Y05YUkxzd1pOSktyME9XMTFMVWRsVnhRV2RG?oc=5" target="_blank" rel="noopener">Reuters ↗</a> · 2026-07-17 09:31 北京</div>
-</div><div class="item">
-  <div class="ihd"><span class="irk">3</span><span class="ittl">霍尔木兹海峡通行量因美伊冲突下降</span><span class="imp">影响力 9/10</span></div>
-  <div class="ibrief">Strait of Hormuz transits drop as US and Iran escalate attacks across Gulf.</div>
-  <div class="ichain">🔗 <b>传导链:</b>霍尔木兹海峡通行量下降→全球石油供应紧张→莫桑比克LNG出口面临运输瓶颈</div>
+  <div class="ihd"><span class="irk">2</span><span class="ittl">霍尔木兹海峡通行量骤降</span><span class="imp">影响力 10/10</span></div>
+  <div class="ibrief">美伊互袭导致霍尔木兹海峡通行量大幅下降，全球能源运输受阻。</div>
+  <div class="ichain">🔗 <b>传导链:</b>海峡通行量降→油价飙升→美股能源板块涨，A股油气链联动</div>
   <div class="isrc"><a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxOTVQyMmFIM0hOUXlUZjI0ZE1HNGRxWVVXS08yYmpuQkM5MXZ3YkMtLUhNWnZaejFRa3E2N0ltUzJuN1dtaWlRZDJpdFRBclIwRHlrNjRLbE9EYzlCQnNWZENmRk5XWmVFN3o0ZDBXaGh5R09rN2lWTHBBcFBFUzlWTzRaY3UySkZqR0g5VzNVUGY3MUZwc3k3R09ielFjZ21hVHV2bHRuUHl6V3YzcHdBZnFLdjhkY0M2Mmc?oc=5" target="_blank" rel="noopener">Reuters ↗</a> · 2026-07-17 14:31 北京</div>
 </div><div class="item">
-  <div class="ihd"><span class="irk">4</span><span class="ittl">科威特称伊朗袭击其海水淡化厂和电厂，油价上涨</span><span class="imp">影响力 8/10</span></div>
-  <div class="ibrief">Oil prices rise after Kuwait says Iran attacked water desalination and power plant.</div>
-  <div class="ichain">🔗 <b>传导链:</b>伊朗袭击科威特设施→中东供应风险加剧→油价上涨，莫桑比克能源项目安全担忧上升</div>
+  <div class="ihd"><span class="irk">3</span><span class="ittl">IEA警告：霍尔木兹若数周不通将危及全球能源安全</span><span class="imp">影响力 9/10</span></div>
+  <div class="ibrief">国际能源署署长称，若霍尔木兹海峡数周内不开放，全球能源安全将面临风险。</div>
+  <div class="ichain">🔗 <b>传导链:</b>IEA警告→油价恐慌性上涨→美股能源股受益，A股油气开采链关注</div>
+  <div class="isrc"><a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxPemtCTGQ0SDdIMFRmVlNYbkRuTDZHT194eDY1MzBrYVZyTzZNUlZvWDd5ZjFZRFdUeV8xbnJIb2wtSHZ2WGZFeHR1X3o2MjUtc0h1MUNkOERBdFZCVnVaMkJwaHVnbk9IaDJiVV9RRE82U3NwTmFrMDJuaFpnOUl1Y2Y2eWNaNXhLMjlRWk5uV0ZZMnVPV18zeTZPcTFWeWM4N1JiS01DSWRzT2Q1NzZ3Yk5ubm54TDUwUldyUkpkSjVjNUQxLTY1Q3ZLMA?oc=5" target="_blank" rel="noopener">Reuters ↗</a> · 2026-07-17 08:34 北京</div>
+</div><div class="item">
+  <div class="ihd"><span class="irk">4</span><span class="ittl">美国进口价格意外上涨，中国商品成本创2008年来新高</span><span class="imp">影响力 8/10</span></div>
+  <div class="ibrief">美国进口价格意外上涨，来自中国的商品成本升至2008年以来最高。</div>
+  <div class="ichain">🔗 <b>传导链:</b>进口成本升→通胀压力增→美联储加息预期升温，美股承压，A股出口链受抑</div>
+  <div class="isrc"><a href="https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html" target="_blank" rel="noopener">CNBC World ↗</a> · Fri, 17 Jul 2026</div>
+</div><div class="item">
+  <div class="ihd"><span class="irk">5</span><span class="ittl">CNBC调查：经济前景恶化，特朗普遭指责</span><span class="imp">影响力 7/10</span></div>
+  <div class="ibrief">CNBC调查显示经济前景恶化，特朗普因政策受到指责。</div>
+  <div class="ichain">🔗 <b>传导链:</b>经济前景恶化→市场信心下滑→美股调整，A股避险情绪升温</div>
+  <div class="isrc"><a href="https://www.cnbc.com/2026/07/17/economic-outlook-is-worsening-and-trump-is-getting-blamed-cnbc-survey-finds.html" target="_blank" rel="noopener">CNBC World ↗</a> · Fri, 17 Jul 2026</div>
+</div><div class="item">
+  <div class="ihd"><span class="irk">6</span><span class="ittl">金价上涨但周线或收跌，因通胀和加息担忧</span><span class="imp">影响力 6/10</span></div>
+  <div class="ibrief">黄金价格上涨，但受通胀和加息担忧影响，周线可能收跌。</div>
+  <div class="ichain">🔗 <b>传导链:</b>通胀加息担忧→金价短期承压→美股避险资产波动，A股黄金股震荡</div>
+  <div class="isrc"><a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxPWE9UR3M4eEdZWDhiT2EyMnFxejhVbjV3Z3p3NGZaZmdwaXZHODI1MVh5dHY1YVNPVFBjZW81S2dDZzY3a3RTSi1SSkdReDBMOUFmSEVTVlhhcDZ0ZDY2RnJFVHRNLVBRMkJocXdOX1RpOGNqeUZrbzFlMW5SY0lsbXREaEhpOEFuQVlBZGtLZ1NNOTFsTVlqOFU0cUkwSmRjUlJXXzN0SHQ2SkluQ0E2bXFJWUk?oc=5" target="_blank" rel="noopener">Reuters ↗</a> · 2026-07-17 11:34 北京</div>
+</div><div class="item">
+  <div class="ihd"><span class="irk">7</span><span class="ittl">特朗普全国讲话重申2020年选举舞弊指控，称中国干预</span><span class="imp">影响力 5/10</span></div>
+  <div class="ibrief">特朗普在讲话中重申2020年选举舞弊指控，并称中国干预。</div>
+  <div class="ichain">🔗 <b>传导链:</b>政治不确定性增加→市场波动加剧→美股承压，A股观望情绪浓</div>
+  <div class="isrc"><a href="https://www.cnbc.com/2026/07/16/trump-primetime-address-elections-2020.html" target="_blank" rel="noopener">CNBC World ↗</a> · Fri, 17 Jul 2026</div>
+</div></div><div class="cat-block" data-cat="oil"><div class="section" style="border-left-color:#f97316">🛢️ 全球石油 / 能源<span class="ssub">OPEC+ · 油价 · LNG/天然气 · 能源巨头 · 传导视角:莫桑比克/东非能源经营(联合能源 Union)</span><span class="scnt">6 条</span></div><div class="item">
+  <div class="ihd"><span class="irk">1</span><span class="ittl">油价因美伊冲突及红海关闭威胁上涨</span><span class="imp">影响力 10/10</span></div>
+  <div class="ibrief">美伊冲突升级及红海关闭威胁推动油价上涨。</div>
+  <div class="ichain">🔗 <b>传导链:</b>地缘冲突→油价上涨→莫桑比克LNG项目受益，但运输风险增加</div>
+  <div class="isrc"><a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYnAzc0RfelUyaHNBcU5ERWVndUwxNkhxOC1sREo3M2xoeGp0Vko0MTREMXludzBTcG52UVpvSmpRdlpLV2FFU0VNT2cybFU2b3NjTkhUMkZKWlNZMmo0RWFDV0pfSEU1RDFtVURxQjAtRVBXeTB6VWZCNUpFUVRJRFRSRDA0NzJlN1d2bjl5T3VLZ2lxQndYZ29SUFB0Y05YUkxzd1pOSktyME9XMTFMVWRsVnhRV2RG?oc=5" target="_blank" rel="noopener">Reuters ↗</a> · 2026-07-17 09:31 北京</div>
+</div><div class="item">
+  <div class="ihd"><span class="irk">2</span><span class="ittl">WTI原油突破81美元/桶，日内涨3.48%</span><span class="imp">影响力 9/10</span></div>
+  <div class="ibrief">WTI原油价格突破81美元/桶，日内涨幅达3.48%。</div>
+  <div class="ichain">🔗 <b>传导链:</b>油价飙升→全球油气市场紧张→莫桑比克油气项目盈利预期改善</div>
+  <div class="isrc"><a href="https://finance.eastmoney.com/a/202607173811303334.html" target="_blank" rel="noopener">东方财富·环球 ↗</a> · 2026-07-17 21:08 北京</div>
+</div><div class="item">
+  <div class="ihd"><span class="irk">3</span><span class="ittl">科威特称伊朗袭击海水淡化厂和电厂，油价上涨</span><span class="imp">影响力 9/10</span></div>
+  <div class="ibrief">科威特称伊朗袭击其海水淡化厂和电厂，推动油价进一步上涨。</div>
+  <div class="ichain">🔗 <b>传导链:</b>伊朗袭击科威特设施→供应中断担忧→油价上涨，东非油气出口受益</div>
   <div class="isrc"><a href="https://www.cnbc.com/2026/07/17/oil-price-today-brent-wti.html" target="_blank" rel="noopener">CNBC World ↗</a> · Fri, 17 Jul 2026</div>
 </div><div class="item">
-  <div class="ihd"><span class="irk">5</span><span class="ittl">伊朗战争期间中国石油进口骤降，复苏前景不明</span><span class="imp">影响力 7/10</span></div>
-  <div class="ibrief">China&#39;s oil imports plunge during Iran war; recovery uncertain.</div>
-  <div class="ichain">🔗 <b>传导链:</b>中国石油进口骤降→全球需求担忧→油价短期承压，但中东供应风险支撑长期油价→莫桑比克LNG项目需关注中国需求变化</div>
-  <div class="isrc"><a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxOLTI1OFgyZ3BIUU40N1NsczgyREZuR211NVlMQXAtdTVmOWduRF9YOEJPVHd1QkJsV0xhek9aenVtY2gyMWNPc2JyMzBvRnZIUC1mY0QzSFdqbkQyWThzTnJ6VDRVcUdHTWJfXzE5ZER3WHpTay12RlJQOTlpdUpXRmh2Q3ZVSDRzTEl3UE80WG0xSVc3eTN2LTNlbmxBbGpuQ1RVWkE5Q1JDNEMwdlhzUHdvWFJnc3JxX3RYd2l0QWYzWF9V?oc=5" target="_blank" rel="noopener">Reuters ↗</a> · 2026-07-17 13:40 北京</div>
+  <div class="ihd"><span class="irk">4</span><span class="ittl">伊朗战争导致中国石油进口骤降，复苏前景不明</span><span class="imp">影响力 8/10</span></div>
+  <div class="ibrief">伊朗战争使中国石油进口大幅下降，未来复苏程度不确定。</div>
+  <div class="ichain">🔗 <b>传导链:</b>中国进口下降→全球需求减弱→油价短期承压，但地缘溢价支撑</div>
+  <div class="isrc"><a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxOLTI1OFgyZ3BIUU40N1NsczgyREZuR211NVlMQXAtdTVmOWduRF9YOEJPVHd1QkJsV0xhek9aenVtY2gyMWNPc2JyMzBvRnZIUC1mY0QzSFdqbkQyWThzTnJ6VDRVcUdHTWJfXzE5ZER3WHpTay12RlJQOTlpdUpXRmh2Q3ZVSDRzTEl3UE80WG0xSVc3eTN2LTNlbmxBbGpuQ1RVWkE5Q1JDNEMwdlhzUHdvWFJnc3JxX3RYd2l0QWYzWF9V?oc=5" target="_blank" rel="noopener">Reuters ↗</a> · 2026-07-17 16:33 北京</div>
 </div><div class="item">
-  <div class="ihd"><span class="irk">6</span><span class="ittl">康菲石油从BP收购伊拉克油田42%股份，美国寻求削弱伊朗能源控制</span><span class="imp">影响力 6/10</span></div>
-  <div class="ibrief">ConocoPhillips to buy 42% stake in Iraqi unit from BP as U.S. seeks to weaken Iran&#39;s energy hold.</div>
-  <div class="ichain">🔗 <b>传导链:</b>美国推动伊拉克油田交易→削弱伊朗能源影响力→中东供应格局变化，莫桑比克可关注类似合作机会</div>
+  <div class="ihd"><span class="irk">5</span><span class="ittl">康菲石油从BP收购伊拉克油田42%股份，美国欲削弱伊朗能源控制</span><span class="imp">影响力 7/10</span></div>
+  <div class="ibrief">康菲石油收购BP在伊拉克油田的42%股份，美国意图削弱伊朗能源影响力。</div>
+  <div class="ichain">🔗 <b>传导链:</b>美国扩大中东能源布局→伊拉克产量或增→全球供应增加，莫桑比克竞争加剧</div>
   <div class="isrc"><a href="https://www.cnbc.com/2026/07/17/bp-conocophillips-to-back-iraq-with-major-energy-investment-.html" target="_blank" rel="noopener">CNBC World ↗</a> · Fri, 17 Jul 2026</div>
 </div><div class="item">
-  <div class="ihd"><span class="irk">7</span><span class="ittl">疑似海盗在亚丁湾劫持油轮</span><span class="imp">影响力 5/10</span></div>
-  <div class="ibrief">Suspected pirates seize tanker off Yemen coast in Gulf of Aden.</div>
-  <div class="ichain">🔗 <b>传导链:</b>亚丁湾海盗事件→红海航运风险上升→油价短期波动，莫桑比克能源运输需加强安保</div>
-  <div class="isrc"><a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxQeVFJX2dfYlJkR3pBRlZVa2Z2cUN5eWJYd251LWZCTml6QVZhU0ZGT2RnNVQ3RVkwVkpaS1dYa2ZZXzF3eG9XQURfWXpuZ0FuRTBxMVZfU1NZZk5MUlpFRDlnakpSb1BRRUc0U1ZhMktSdTNROE1NVEowMGhDTnVQRU1fOHlVMTYtblJHRFZxdXhtUjF1clZTRm9qRVItRWowVTJzOHZrY3lKeEJ4ZmlYQUQydUd0aVF0NVRZRFVBQU1WZGtROE95bzF2dFI?oc=5" target="_blank" rel="noopener">Reuters ↗</a> · 2026-07-17 18:12 北京</div>
-</div><div class="section" style="border-left-color:#4ade80">🤖 科技 / AI 产业<span class="ssub">影响科技板块:财报 · 芯片管制 · AI 监管 · 产业链</span><span class="scnt">7 条</span></div><div class="item">
-  <div class="ihd"><span class="irk">1</span><span class="ittl">纳斯达克100期货跌幅扩大至2%</span><span class="imp">影响力 8/10</span></div>
-  <div class="ibrief">Nasdaq 100 futures fall further to 2% as chip sell-off continues.</div>
-  <div class="ichain">🔗 <b>传导链:</b>芯片股抛售蔓延→纳指期货大跌→A股AI算力链承压，光模块、服务器等板块受拖累</div>
-  <div class="isrc"><a href="https://finance.eastmoney.com/a/202607173811293579.html" target="_blank" rel="noopener">东方财富·环球 ↗</a> · 2026-07-17 21:07 北京</div>
+  <div class="ihd"><span class="irk">6</span><span class="ittl">雪佛龙将与伊拉克签署西古尔纳2和纳西里耶油田谅解备忘录</span><span class="imp">影响力 6/10</span></div>
+  <div class="ibrief">雪佛龙计划与伊拉克签署两份油田谅解备忘录，扩大中东业务。</div>
+  <div class="ichain">🔗 <b>传导链:</b>雪佛龙进军伊拉克→中东产量预期增→全球供应宽松，莫桑比克LNG项目面临竞争</div>
+  <div class="isrc"><a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxPRDRfcmVEbFFHdEVvTEpyTXFOYno3aUl6dFNPQnMtdF9GLXZENGNJSUNQZWdaX1g2OU9URTZOZWZmS09FRWV1TEhDR0pneVgyRXJ3SmdkQ2ZPYlhkQkJTam9FelJlQXBqZTZvZ3ctbnV0dWJmekY5RmFGSTZpQ0xTaElXMkU1Um00amgxeGw3d19FWVp0TXlGbFgta0tTdmUxSjNOMWhHSkp0NnRXOVlrWnp3?oc=5" target="_blank" rel="noopener">Reuters ↗</a> · 2026-07-17 05:07 北京</div>
+</div></div><div class="cat-block" data-cat="tech"><div class="section" style="border-left-color:#4ade80">🤖 科技 / AI 产业<span class="ssub">影响科技板块:财报 · 芯片管制 · AI 监管 · 产业链</span><span class="scnt">7 条</span></div><div class="item">
+  <div class="ihd"><span class="irk">1</span><span class="ittl">费城半导体指数跌幅扩大至逾5%，进入技术性熊市</span><span class="imp">影响力 10/10</span></div>
+  <div class="ibrief">费城半导体指数跌幅超5%，较历史高点跌超20%，进入技术性熊市。</div>
+  <div class="ichain">🔗 <b>传导链:</b>芯片股暴跌→科技板块承压→美股AI链调整，A股算力链跟随下跌</div>
+  <div class="isrc"><a href="https://finance.eastmoney.com/a/202607173811322827.html" target="_blank" rel="noopener">东方财富·环球 ↗</a> · 2026-07-17 21:42 北京</div>
 </div><div class="item">
-  <div class="ihd"><span class="irk">2</span><span class="ittl">台积电拟在亚利桑那州追加投资1000亿美元</span><span class="imp">影响力 8/10</span></div>
-  <div class="ibrief">TSMC to invest additional $100 billion in Arizona after Q2 profit soars 77%.</div>
-  <div class="ichain">🔗 <b>传导链:</b>台积电加码美国建厂→全球芯片供应链重塑→利好美股半导体设备，A股国产替代逻辑强化</div>
-  <div class="isrc"><a href="https://www.cnbc.com/2026/07/16/tsmc-second-quarter-profit-.html" target="_blank" rel="noopener">CNBC Tech ↗</a> · Thu, 16 Jul 2026</div>
+  <div class="ihd"><span class="irk">2</span><span class="ittl">英伟达股价下跌4.33%，市值缩水至4.8万亿美元</span><span class="imp">影响力 10/10</span></div>
+  <div class="ibrief">英伟达股价下跌4.33%，市值降至4.8万亿美元，失去全球市值第一宝座。</div>
+  <div class="ichain">🔗 <b>传导链:</b>英伟达大跌→AI龙头估值回调→美股AI链受挫，A股光模块/算力链跟跌</div>
+  <div class="isrc"><a href="https://finance.eastmoney.com/a/202607173811324563.html" target="_blank" rel="noopener">东方财富·环球 ↗</a> · 2026-07-17 21:44 北京</div>
 </div><div class="item">
-  <div class="ihd"><span class="irk">3</span><span class="ittl">软银跌超9%，亚洲芯片股跟随美股AI抛售</span><span class="imp">影响力 7/10</span></div>
-  <div class="ibrief">SoftBank sinks over 9% as Asia chip stocks track Wall Street AI sell-off.</div>
-  <div class="ichain">🔗 <b>传导链:</b>美股AI抛售蔓延至亚洲→软银等芯片相关股大跌→A股AI算力链短期承压</div>
+  <div class="ihd"><span class="irk">3</span><span class="ittl">苹果市值反超英伟达，时隔3个月重返全球第一</span><span class="imp">影响力 9/10</span></div>
+  <div class="ibrief">苹果市值约4.9万亿美元，反超英伟达，重回全球市值第一。</div>
+  <div class="ichain">🔗 <b>传导链:</b>苹果逆势上涨→资金从AI转向消费电子→美股科技分化，A股苹果链受益</div>
+  <div class="isrc"><a href="https://finance.eastmoney.com/a/202607173811317865.html" target="_blank" rel="noopener">东方财富·环球 ↗</a> · 2026-07-17 21:35 北京</div>
+</div><div class="item">
+  <div class="ihd"><span class="irk">4</span><span class="ittl">奈飞股价一度大跌12%，创2022年4月以来最大跌幅</span><span class="imp">影响力 8/10</span></div>
+  <div class="ibrief">奈飞财报后股价一度大跌12%，投资者关注广告业务和用户增长。</div>
+  <div class="ichain">🔗 <b>传导链:</b>奈飞大跌→流媒体板块承压→美股科技股情绪恶化，A股传媒板块受拖累</div>
+  <div class="isrc"><a href="https://finance.eastmoney.com/a/202607173811316555.html" target="_blank" rel="noopener">东方财富·环球 ↗</a> · 2026-07-17 21:32 北京</div>
+</div><div class="item">
+  <div class="ihd"><span class="irk">5</span><span class="ittl">软银跌超9%，亚洲芯片股跟随美股AI抛售</span><span class="imp">影响力 8/10</span></div>
+  <div class="ibrief">软银股价下跌超9%，亚洲芯片股受美股AI抛售潮影响。</div>
+  <div class="ichain">🔗 <b>传导链:</b>软银大跌→全球科技股联动下跌→A股半导体板块承压</div>
   <div class="isrc"><a href="https://www.cnbc.com/2026/07/17/softbank-chip-stocks-asia-wall-street-ai-rout.html" target="_blank" rel="noopener">CNBC Tech ↗</a> · Fri, 17 Jul 2026</div>
 </div><div class="item">
-  <div class="ihd"><span class="irk">4</span><span class="ittl">Alphabet股价下跌，报道称其最强AI模型Gemini 3.5 Pro延迟</span><span class="imp">影响力 7/10</span></div>
-  <div class="ibrief">Alphabet shares fall on report its most powerful AI model Gemini 3.5 Pro is delayed.</div>
-  <div class="ichain">🔗 <b>传导链:</b>谷歌AI模型延迟→市场对AI进展担忧→美股科技股承压，A股AI概念短期调整</div>
+  <div class="ihd"><span class="irk">6</span><span class="ittl">台积电拟在亚利桑那追加投资1000亿美元，二季度利润飙升77%</span><span class="imp">影响力 7/10</span></div>
+  <div class="ibrief">台积电计划在亚利桑那州追加投资1000亿美元，二季度利润同比增长77%。</div>
+  <div class="ichain">🔗 <b>传导链:</b>台积电扩产→AI芯片供应增加→利好美股AI链，A股设备/材料链受益</div>
+  <div class="isrc"><a href="https://www.cnbc.com/2026/07/16/tsmc-second-quarter-profit-.html" target="_blank" rel="noopener">CNBC Tech ↗</a> · Thu, 16 Jul 2026</div>
+</div><div class="item">
+  <div class="ihd"><span class="irk">7</span><span class="ittl">Alphabet股价下跌，因最强AI模型Gemini 3.5 Pro延迟发布</span><span class="imp">影响力 6/10</span></div>
+  <div class="ibrief">Alphabet股价下跌，报道称其最强AI模型Gemini 3.5 Pro延迟发布。</div>
+  <div class="ichain">🔗 <b>传导链:</b>Gemini延迟→AI竞争格局变化→美股AI板块波动，A股AI应用链关注</div>
   <div class="isrc"><a href="https://www.cnbc.com/2026/07/16/alphabet-stock-gemini-3-5-pro-ai.html" target="_blank" rel="noopener">CNBC Tech ↗</a> · Thu, 16 Jul 2026</div>
-</div><div class="item">
-  <div class="ihd"><span class="irk">5</span><span class="ittl">美中AI对抗使ASML在销售与地缘政治间走钢丝</span><span class="imp">影响力 7/10</span></div>
-  <div class="ibrief">U.S.-China AI feud sees ASML walk tightrope between sales and geopolitics.</div>
-  <div class="ichain">🔗 <b>传导链:</b>美中AI对抗加剧→ASML出口受限→全球芯片设备供应紧张，利好美股设备商，A股光刻机国产替代</div>
-  <div class="isrc"><a href="https://www.cnbc.com/2026/07/17/us-china-ai-feud-asml-tightrope-sales-geopolitics.html" target="_blank" rel="noopener">CNBC World ↗</a> · Fri, 17 Jul 2026</div>
-</div><div class="item">
-  <div class="ihd"><span class="irk">6</span><span class="ittl">英伟达支持的Fireworks估值达175亿美元，企业寻求更便宜AI模型</span><span class="imp">影响力 6/10</span></div>
-  <div class="ibrief">Nvidia-backed Fireworks hits $17.5B valuation as companies pursue cheaper AI models.</div>
-  <div class="ichain">🔗 <b>传导链:</b>低成本AI模型需求增长→Fireworks估值飙升→利好美股AI基础设施，A股算力链关注性价比路线</div>
-  <div class="isrc"><a href="https://www.cnbc.com/2026/07/16/fireworks-nvidia-cloud-ai-startup-value.html" target="_blank" rel="noopener">CNBC Tech ↗</a> · Thu, 16 Jul 2026</div>
-</div><div class="item">
-  <div class="ihd"><span class="irk">7</span><span class="ittl">中国初创月之暗面发布Kimi模型，声称媲美OpenAI和Anthropic</span><span class="imp">影响力 6/10</span></div>
-  <div class="ibrief">Chinese startup Moonshot AI unveils Kimi model it says rivals OpenAI, Anthropic.</div>
-  <div class="ichain">🔗 <b>传导链:</b>中国AI模型突破→全球AI竞争加剧→美股AI龙头面临挑战，A股AI应用端受益</div>
-  <div class="isrc"><a href="https://www.cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic-china.html" target="_blank" rel="noopener">CNBC World ↗</a> · Fri, 17 Jul 2026</div>
-</div>
+</div></div>
 <div class="foot">头条由 AI 从真实信源筛编,「传导链」为推演视角非事实断言 · 仅研究/学习用途,<b>非投资建议</b></div>
+</div>
+</div>
+<script>
+document.addEventListener('click',function(e){
+  var li=e.target.closest?e.target.closest('.fi'):null; if(!li)return;
+  var f=li.getAttribute('data-f');
+  document.querySelectorAll('.fi').forEach(function(x){x.classList.remove('active');});
+  li.classList.add('active');
+  document.querySelectorAll('.cat-block').forEach(function(b){
+    b.style.display=(f==='all'||b.getAttribute('data-cat')===f)?'':'none';
+  });
+});
+</script>
 </div></body></html>
