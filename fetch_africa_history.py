@@ -80,18 +80,18 @@ def main():
 
     # 平衡配额:纯优先级排序会让 is_aiinfra(海缆/数据中心)刷满,失去 AI/金融科技/一般科技的多样性。
     # 改为 AI / AI基建 / 有国家(非AI非基建) 三类各取【新→旧】配额,再合并,保证历史归档跨类均衡。
-    def newest(lst, k):
-        return sorted(lst, key=lambda x: x.get("date") or "", reverse=True)[:k]
-    def by_year(lst, y):
-        return [x for x in lst if x.get("year") == y]
-    infra = [x for x in cand if x["is_aiinfra"]]
-    ai_only = [x for x in cand if x["is_ai"] and not x["is_aiinfra"]]
-    ctry_only = [x for x in cand if x["country"] and not x["is_ai"] and not x["is_aiinfra"]]
-    # 每类按【年份】再各取配额,保证 2024 与 2025 都覆盖(否则 newest 会被 2025 占满);三类互斥无需去重
+    # 按【月】分桶取配额(月内优先 AI基建>AI>有国家):保证 2024-2025 各月均匀覆盖 → 月度趋势图平滑。
+    # (曾按"每年取最新"→全挤各年下半年、趋势图有大空档;按月铺满才是对的。教训:趋势数据要按时间轴均匀采样。)
+    def prio(x):
+        return (0 if x["is_aiinfra"] else 1, 0 if x["is_ai"] else 1, 0 if x["country"] else 1)
+    by_month = {}
+    for x in cand:
+        d = x.get("date") or ""
+        if len(d) >= 7 and (x["is_ai"] or x["is_aiinfra"] or x["country"]):  # 只保留科技/AI相关
+            by_month.setdefault(d[:7], []).append(x)
     kept = []
-    for lst, per_year in ((ai_only, 30), (infra, 25), (ctry_only, 25)):
-        for y in (2024, 2025):
-            kept += newest(by_year(lst, y), per_year)
+    for ym in sorted(by_month.keys()):
+        kept += sorted(by_month[ym], key=prio)[:7]      # 每月最多 7 条,均匀铺满各月
     kept.sort(key=lambda x: x.get("date") or "", reverse=True)  # 最终按日期新→旧
 
     n_ai = sum(1 for x in kept if x["is_ai"])
