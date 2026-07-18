@@ -1,6 +1,6 @@
 {
  "asof": "2026-07-18",
- "fetched_at": "2026-07-18T13:44+08:00",
+ "fetched_at": "2026-07-18T16:32+08:00",
  "meta": {
   "counts": {
    "TechCabal": 0,
@@ -14,13 +14,13 @@
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 2,
    "African Business": 1,
-   "非洲科技·聚合": 11,
+   "非洲科技·聚合": 10,
    "中非科技·聚合": 14
   },
   "total": 60,
-  "ai_flagged": 22,
-  "aiinfra_flagged": 3,
-  "countries": 9
+  "ai_flagged": 21,
+  "aiinfra_flagged": 2,
+  "countries": 8
  },
  "items": [
   {
@@ -312,16 +312,6 @@
    "country": "🇺🇬 乌干达",
    "is_ai": true,
    "is_aiinfra": false
-  },
-  {
-   "title": "Telecom Egypt cancels Helios data center stake sale",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNeTZWTDk0WW9DMjdpdkVDa19HOXBUOWZSaFVLaExCZWVKNkUxa29leXpUWVZWVjRuWTJHTXZFd1ppWVU5MGg2WlBQbWI1UjV0U0lnbVE1dXdGX1Bqd1VGcVNQXzl4SjU0M0tIU2lTNlpmRDg4QklVWE5XV2wxUD",
-   "source": "Connecting Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeTZWTDk0WW9DMjdpdkVDa19HOXBUOWZSaFVLaExCZWVKNkUxa29leXpUWVZWVjRuWTJHTXZFd1ppWVU5MGg2WlBQbWI1UjV0U0lnbVE1dXdGX1Bqd1VGcVNQXzl4SjU0M0tIU2lTNlpmRDg4QklVWE5XV2wxUDhVWllwdTczb3BSQlpFQlNsYWVtN21iMHczV2wweFdIQQ?oc=5",
-   "date": "Fri, 17 Jul 2026 08:02:56 GMT",
-   "country": "🇪🇬 埃及",
-   "is_ai": true,
-   "is_aiinfra": true
   },
   {
    "title": "Why SMEs must regularly re-examine cyber measures",
@@ -622,6 +612,16 @@
    "country": null,
    "is_ai": true,
    "is_aiinfra": true
+  },
+  {
+   "title": "Post-Quantum’s Algorithm - Classic McEliece - Achieves Global ISO Standardization to Protect the World From Quantum Cyber Attack",
+   "brief": "It’s proven that today’s encryption is vulnerable to attack by a sufficiently mature quantum computer running Shor’s algorithm - a catastrophic event commonly known as Q-Day.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/post-quantums-algorithm-classic-mceliece-achieves-global-iso-standardization-to-protect-the-world-from-quantum-cyber-attack/kYbe9MXbPgavAWpG",
+   "date": "Wed, 15 Jul 2026 10:00:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
   }
  ]
 }
