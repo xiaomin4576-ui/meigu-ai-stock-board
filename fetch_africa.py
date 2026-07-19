@@ -63,6 +63,16 @@ COUNTRIES = [
     ("🇲🇦 摩洛哥", ["morocco", "casablanca"]),
     ("🇿🇲 赞比亚", ["zambia"]),
     ("🇿🇼 津巴布韦", ["zimbabwe"]),
+    ("🇲🇬 马达加斯加", ["madagascar", "antananarivo"]),
+    ("🇧🇼 博茨瓦纳", ["botswana", "gaborone"]),
+    ("🇳🇦 纳米比亚", ["namibia", "windhoek"]),
+    ("🇲🇼 马拉维", ["malawi"]),
+    ("🇹🇳 突尼斯", ["tunisia", "tunis"]),
+    ("🇩🇿 阿尔及利亚", ["algeria", "algiers"]),
+    ("🇧🇯 贝宁", ["benin", "cotonou"]),
+    ("🇲🇱 马里", ["mali", "bamako"]),
+    ("🇧🇫 布基纳法索", ["burkina faso", "ouagadougou"]),
+    ("🇹🇬 多哥", ["togo", "lome"]),
 ]
 # AI / 前沿科技关键词(命中→标 AI 档,优先展示)
 AI_KW = ["ai ", " ai", "artificial intelligence", "machine learning", "llm", "genai",

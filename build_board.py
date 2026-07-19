@@ -695,10 +695,13 @@ def xtra_block(tk, d, a, sp, miss, cs, hist):
                 + (f' · 财报日 {d.get("earnings_date")}' if d.get("earnings_date") else "") + "</div></div>")
     # ④ 历史研判台账(复盘视角:当时怎么判、当时什么价)
     if hist:
+        # QQQ/观望无买卖点时台账值为 JSON null → .get(k,默认)对存在的 null 键返回 None,须用 or 兜成'—'(堵'None–None')
+        def _bt(a, b):
+            return f"{a}–{b}" if (a is not None or b is not None) else "—"
         hrows = "".join(f"<tr><td>{h.get('date','')}</td><td>{h.get('signal','')}</td>"
-                        f"<td>{h.get('buy_low','—')}–{h.get('buy_high','—')}</td>"
-                        f"<td>{h.get('target_low','—')}–{h.get('target_high','—')}</td>"
-                        f"<td>{cs}{h.get('price_at_call','—')}</td></tr>" for h in hist)
+                        f"<td>{_bt(h.get('buy_low'), h.get('buy_high'))}</td>"
+                        f"<td>{_bt(h.get('target_low'), h.get('target_high'))}</td>"
+                        f"<td>{cs}{h.get('price_at_call') or '—'}</td></tr>" for h in hist)
         rows.append(f'<div class="xsec"><div class="xh">📒 历史研判台账(近{len(hist)}期,复盘依据)</div>'
                     f'<table class="xt"><tr><th>日期</th><th>信号</th><th>买入区</th><th>目标区</th><th>研判时价</th></tr>{hrows}</table></div>')
     return ('<div class="xbtn" onclick="var x=this.nextElementSibling;x.classList.toggle(\'hide\');'
@@ -721,15 +724,15 @@ def latest_calls():
     return jload(latest), (m.group(1) if m else "未知")
 
 
-def freshness_banner(calls_date, data_meta=None):
+def freshness_banner(calls_date, data_meta=None, engine="研判引擎"):
     """新鲜度横幅:分别如实标注【研判】与【行情数据】是否为今日。
     研判过期 → 提醒刷新研判;行情降级(限流复用旧数据)→ 明确警示价格非当日实时。
-    绝不在数据已降级时谎称『数据均为今日』(诚实底线)。"""
+    绝不在数据已降级时谎称『数据均为今日』(诚实底线)。engine 由调用方按 calls.market 传入,与页脚引擎行一致(堵一页两种引擎口径)。"""
     data_meta = data_meta or {}
     degraded = bool(data_meta.get("degraded"))
     # —— 研判新鲜度 ——
     if calls_date == TODAY:
-        research = f"🟢 研判为今日(<b>{TODAY}</b>)· Claude 当期研判"
+        research = f"🟢 研判为今日(<b>{TODAY}</b>)· {engine} 当期研判"
         cls = "ok"
     else:
         try:
@@ -737,7 +740,7 @@ def freshness_banner(calls_date, data_meta=None):
         except Exception:
             days = "?"
         research = (f"🟠 <b>研判仍是 {calls_date}({days} 天前)</b>——买入价/目标价请仅作参考,"
-                    f"在 Claude 里说「跑美股AI早报 / 刷新云端美股看板」即可刷新")
+                    f"点卡片区「🔁 更新研判」({engine})或在 Claude 里说「跑美股AI早报」即可刷新")
         cls = "stale"
     # —— 行情数据新鲜度 ——
     if degraded:
@@ -1149,7 +1152,7 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 .tabs{{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 16px;position:sticky;top:0;z-index:20;background:#0a1020;padding:10px 0}}
 .tab{{font-size:14.5px;font-weight:800;color:#94a6c4;background:#1c2a4a;border:1px solid #2f4166;border-radius:11px;padding:9px 18px;cursor:pointer;transition:all .12s;font-family:inherit}}
 .tab:hover{{color:#c9d5e8;border-color:#94a6c4}}
-.tab.active{{color:#fff;background:linear-gradient(135deg,#2563eb,#1d4ed8);border-color:#2563eb;box-shadow:0 2px 10px rgba(37,99,235,.35)}}
+.tab.active{{color:#0a1020;background:#e2c07e;border-color:#e2c07e;box-shadow:0 2px 10px rgba(226,192,126,.30)}}
 .tab .tc{{font-size:12px;background:rgba(255,255,255,.22);border-radius:8px;padding:1px 7px;margin-left:6px}}
 .pane.hide{{display:none}}
 .card{{background:#1c2a4a;border:1px solid #2f4166;border-radius:14px;padding:16px 18px}}
@@ -1324,7 +1327,7 @@ document.addEventListener('click',function(e){{
 </script>
 <div class="market">🌎 <b style="color:#7ab8ff">大盘与板块:</b>{calls.get('market','')}</div>
 <div class="rankbar">🏆 <b>买点吸引力排序:</b>{rank_str}</div></div>
-{freshness_banner(calls_date, data_meta)}
+{freshness_banner(calls_date, data_meta, "DeepSeek" if "DeepSeek" in (calls.get("market") or "") else "Claude")}
 {macro_strip()}
 {premarket_section(data)}
 {qa_block(data, calls, calls_date, v)}

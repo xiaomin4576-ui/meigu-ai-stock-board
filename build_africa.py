@@ -22,13 +22,14 @@ REGION = {
     # 东非(Eastern Africa)——莫桑比克(同光所在)、赞比亚、津巴布韦(UN 均属东非)+ 东非高原诸国
     "🇲🇿 莫桑比克": "东非", "🇰🇪 肯尼亚": "东非", "🇪🇹 埃塞俄比亚": "东非",
     "🇹🇿 坦桑尼亚": "东非", "🇷🇼 卢旺达": "东非", "🇺🇬 乌干达": "东非",
-    "🇿🇲 赞比亚": "东非", "🇿🇼 津巴布韦": "东非",
-    # 南部非洲(Southern Africa, UN)——数据里主要是南非
-    "🇿🇦 南非": "南部非洲",
+    "🇿🇲 赞比亚": "东非", "🇿🇼 津巴布韦": "东非", "🇲🇬 马达加斯加": "东非", "🇲🇼 马拉维": "东非",
+    # 南部非洲(Southern Africa, UN)——南非 + 纳米比亚/博茨瓦纳
+    "🇿🇦 南非": "南部非洲", "🇧🇼 博茨瓦纳": "南部非洲", "🇳🇦 纳米比亚": "南部非洲",
     # 北非
-    "🇪🇬 埃及": "北非", "🇲🇦 摩洛哥": "北非",
+    "🇪🇬 埃及": "北非", "🇲🇦 摩洛哥": "北非", "🇹🇳 突尼斯": "北非", "🇩🇿 阿尔及利亚": "北非",
     # 西非
     "🇳🇬 尼日利亚": "西非", "🇬🇭 加纳": "西非", "🇸🇳 塞内加尔": "西非", "🇨🇮 科特迪瓦": "西非",
+    "🇧🇯 贝宁": "西非", "🇲🇱 马里": "西非", "🇧🇫 布基纳法索": "西非", "🇹🇬 多哥": "西非",
     # 注:安哥拉(🇦🇴)UN 属中非(Middle Africa),数据罕见,不单列中非 → 落"泛非洲/未分国"
 }
 REGION_ORDER = ["东非", "南部非洲", "西非", "北非"]  # 东非=同光所在(莫桑比克),优先置顶
@@ -131,31 +132,31 @@ def _card(it):
 
 
 def _trend_svg(months, monthly):
-    """月度投入趋势·内联 SVG 堆叠柱状(零依赖):每月一柱,自下而上堆叠 AI基建/AI/一般。"""
+    """月度【样本构成】·内联 SVG 100%堆叠(零依赖):每月一柱恒满高,按当月三类(AI基建/AI/一般)占比分段。
+    (为何是占比不是绝对量:历史按月均匀采样每月≤7,绝对量恒定无意义;占比才能看出每月结构演变——审计建议。)"""
     if not months:
-        return '<div class="empty">暂无足够数据画趋势</div>'
-    W, H, PADL, PADB, PADT = 840, 250, 32, 44, 12
+        return '<div class="empty">暂无足够历史数据画趋势(需至少一整年回填)</div>'
+    W, H, PADL, PADB, PADT = 840, 220, 34, 44, 12
     plotW, plotH = W - PADL - 10, H - PADB - PADT
-    mx = max((monthly[m]["total"] for m in months), default=1) or 1
     bw = plotW / len(months)
     barw = min(bw * 0.7, 24)
     grid = []
     for g in range(5):
-        val = mx * g / 4
         y = PADT + plotH - (g / 4) * plotH
         grid.append(f'<line x1="{PADL}" y1="{y:.1f}" x2="{W - 10}" y2="{y:.1f}" stroke="#2f4166" stroke-width="0.5"/>'
-                    f'<text x="{PADL - 5}" y="{y + 3:.1f}" text-anchor="end" font-size="9" fill="#94a6c4">{val:.0f}</text>')
+                    f'<text x="{PADL - 5}" y="{y + 3:.1f}" text-anchor="end" font-size="9" fill="#94a6c4">{g * 25}%</text>')
     bars, labels = [], []
     for i, m in enumerate(months):
         d = monthly[m]
+        tot = d["total"] or 1
         x = PADL + i * bw + (bw - barw) / 2
         y = PADT + plotH
         for val, color in ((d["infra"], "#e2c07e"), (d["ai"], "#4ade80"), (d["gen"], "#7ab8ff")):
             if val <= 0:
                 continue
-            h = val / mx * plotH
+            h = val / tot * plotH                     # 占比:当月该类 / 当月总数,恒满高100%
             y -= h
-            bars.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{barw:.1f}" height="{h:.1f}" fill="{color}" rx="1.5"/>')
+            bars.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{barw:.1f}" height="{h:.1f}" fill="{color}" rx="1"/>')
         if m.endswith("-01") or m.endswith("-07") or i == 0 or i == len(months) - 1:
             labels.append(f'<text x="{PADL + i * bw + bw / 2:.1f}" y="{H - PADB + 15:.0f}" text-anchor="middle" '
                           f'font-size="8.5" fill="#94a6c4">{m}</text>')
@@ -241,15 +242,20 @@ def main():
     newest_yr = max(year_counts) if year_counts else None
     ykpi = ""
     for y in sorted(year_counts.keys(), reverse=True):
-        ytot = year_counts[y]
-        yai = sum(1 for x in items if _year_of(x) == y and (x.get("is_ai") or x.get("is_aiinfra")))
-        pct = round(yai / ytot * 100) if ytot else 0
-        lbl = f"{y} · 最近" if y == newest_yr else str(y)
-        ykpi += f'<div class="ycard"><div class="yy">{lbl}</div><div class="yn">{ytot}</div><div class="ys">AI/科技占 {pct}%</div></div>'
-    trend_html = (f'<div class="trend-hd">📈 非洲 AI / 科技投入趋势</div>'
-                  f'<div class="trend-sub">按月统计条目投入(当日 RSS + 2024/2025 Google News 历史回填,共 {n_all} 条)· 上图 · 下时间线</div>'
+        # 年度构成(不给"AI占比%"跨年比:历史是定向回填、当日是全量RSS,口径不同,占比不可比)
+        yitems = [x for x in items if _year_of(x) == y]
+        ytot = len(yitems)
+        yi = sum(1 for x in yitems if x.get("is_aiinfra"))
+        ya = sum(1 for x in yitems if x.get("is_ai") and not x.get("is_aiinfra"))
+        yg = ytot - yi - ya
+        lbl = f"{y} · 当日全量" if y == newest_yr else f"{y} · 定向回填"
+        ykpi += f'<div class="ycard"><div class="yy">{lbl}</div><div class="yn">{ytot}</div><div class="ys">🏗️{yi} · 🤖{ya} · 🌐{yg}</div></div>'
+    trend_html = (f'<div class="trend-hd">📈 非洲 AI / 科技投入趋势(样本)</div>'
+                  f'<div class="trend-sub">共 {n_all} 条 · 上图看月度结构演变、下时间线看具体事件。'
+                  f'<b style="color:#fbbf24">口径提示</b>:2024/2025 为按主题定向回填(每月均匀采样),2026 为当日全量 RSS——'
+                  f'条数与占比【不宜跨年直接比】,故上图用「占比构成」而非绝对量。</div>'
                   f'<div class="ygrid">{ykpi}</div>'
-                  f'<div class="chart-card"><div class="chart-t">📊 2024-2025 月度投入趋势(堆叠;当日快照口径不同,见下方时间线)</div>'
+                  f'<div class="chart-card"><div class="chart-t">📊 2024-2025 月度样本构成(每月三类占比 · 已排除当日快照年)</div>'
                   f'{_trend_svg(months_sorted, monthly)}'
                   f'<div class="clegend"><span><i style="background:#e2c07e"></i>🏗️ AI基建</span>'
                   f'<span><i style="background:#4ade80"></i>🤖 AI</span>'

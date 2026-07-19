@@ -156,6 +156,12 @@ def stat_deepseek():
             if c:
                 label = {"research": "个股研判", "news": "头条研判"}.get(k, k)
                 out[f"{label}消耗"] = f"{tk:,} tokens / {c} 条账目"
+        # 审计#8:只报token总量看不出成本/速率→补 ¥折算+日均(诚实标"粗估非账单":usage.jsonl 只有 total_tokens 无输入/输出拆分)
+        grand = sum(tk for tk, _c in tot.values())
+        days = max(1, (_BJ.date() - datetime.date(2026, 7, 7)).days)
+        yuan = grand / 1e6 * 2.0
+        out["💰 累计消耗·估算"] = f"{grand:,} tokens · 约 ¥{yuan:.1f}(按混合~¥2/百万token粗估上限,非官方账单)"
+        out["📅 日均"] = f"约 {grand // days:,} tokens/日 · ¥{yuan / days:.2f}/日(自 07-07 起 {days} 天均摊)"
         out["口径"] = "research 类一条账目=一期(含≤19次底层调用,取数受限票跳过);news 类含失败/截断也落账"
     else:
         out["已落账调用"] = "暂无记录(usage.jsonl 自本功能上线起累积)"
@@ -211,6 +217,7 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 .v{{font-variant-numeric:tabular-nums}}
 </style></head><body><div class="wrap">
 <div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#e2c07e;margin-bottom:8px">LUMORA · 同光科技</div><h1>📊 运营看板 · {TODAY}</h1>
+<div class="sub">🟢 站务健康度快照 · 本页随每次 CI 构建刷新 · 数据截至 <b style="color:#33d6c5">{BUILD_TS} 北京</b>(点上方版块链接跳转;无独立刷新,跟随 daily-board 构建)</div>
 <div class="sub">全站数据资产 · 构建健康度 · AI 引擎消耗 —— 每次构建自动更新</div>
 <div class="nav"><a href="home.html">🏠 首页</a><a href="board.html">📡 股票看板</a><a href="news.html">🌍 全球头条</a><a href="africa.html">📡 非洲科技</a><span style="color:#94a6c4">🕐 本页生成 {BUILD_TS} 北京</span></div></div>
 <div class="gridp">

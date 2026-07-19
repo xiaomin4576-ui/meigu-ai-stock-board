@@ -47,8 +47,11 @@ if fs:
         if bits:
             # 审计F12:board/news 的宏观条过期都标日期,门户此前不标——同口径补齐,复用旧数据不许伪装新鲜
             asof = mj.get("asof")
-            stale_note = f"(数据 {asof})" if (asof and asof != TODAY) else ""
-            strip = "📅 " + " · ".join(bits) + stale_note + " <span style='font-size:10px'>(纽约联储 / BLS / 中债美债 / 腾讯外盘)</span>"
+            stale_note = f"(行情数据 {asof})" if (asof and asof != TODAY) else ""
+            # 审计(2026-07全站):门户头条缺 as-of 时间戳,且未区分"实时报价 vs 月频数据"→ 补构建时间 + 口径说明
+            bj_ts = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).strftime("%m-%d %H:%M")
+            strip = ("📅 " + " · ".join(bits) + stale_note
+                     + f" <span style='font-size:10px'>· 截至 {bj_ts} 北京(金/油/气为实时报价、CPI 为月频官方数据)· 纽约联储 / BLS / 中债美债 / 腾讯外盘</span>")
     except Exception:
         pass
 # 信源池数动态化(审计F12):去硬编码 181,读 sources.json 真值;读不到绝不谎报数字
