@@ -1,25 +1,25 @@
 {
  "asof": "2026-07-19",
- "fetched_at": "2026-07-19T11:49+08:00",
+ "fetched_at": "2026-07-19T12:59+08:00",
  "meta": {
   "counts": {
    "TechCabal": 0,
    "Moonshot·TechCabal": 0,
    "Disrupt Africa": 10,
    "Techpoint Africa": 20,
-   "IT News Africa": 0,
+   "IT News Africa": 11,
    "TechAfrica News": 12,
    "Condia": 25,
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
-   "Zimbabwe Situation": 2,
+   "Zimbabwe Situation": 0,
    "African Business": 1,
    "非洲科技·聚合": 12,
    "中非科技·聚合": 15
   },
   "total": 60,
   "ai_flagged": 20,
-  "aiinfra_flagged": 1,
+  "aiinfra_flagged": 2,
   "countries": 8
  },
  "items": [
@@ -41,26 +41,6 @@
    "date": "Sat, 18 Jul 2026 19:49:47 +0000",
    "country": "🇰🇪 肯尼亚",
    "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Starlink kits gather dust at government rural hospitals as parent ministry dithers on subscription",
-   "brief": "Source: Starlink kits gather dust at government rural hospitals as parent ministry dithers on subscription –Newsday Zimbabwe HARARE, Jul. 17, (NewsDay Live) — Hundreds of Starlink kits installed at rural health centres u",
-   "source": "Zimbabwe Situation",
-   "url": "https://www.zimbabwesituation.com/news/starlink-kits-gather-dust-at-government-rural-hospitals-as-parent-ministry-dithers-on-subscription/",
-   "date": "Sat, 18 Jul 2026 03:37:41 +0000",
-   "country": "🇿🇼 津巴布韦",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "AI expert returns home to bridge digital skills gap",
-   "brief": "Source: AI expert returns home to bridge digital skills gap – herald Rutendo Nyeve, rutendo.nyeve@sundaynews.co.zw AFTER spending more than 20 years building a career in the United Kingdom’s technology sector, artificial",
-   "source": "Zimbabwe Situation",
-   "url": "https://www.zimbabwesituation.com/news/ai-expert-returns-home-to-bridge-digital-skills-gap/",
-   "date": "Sat, 18 Jul 2026 03:24:49 +0000",
-   "country": null,
-   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -604,6 +584,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "Bernard Beya appointed CEO of Liquid Intelligent Technologies DRC",
+   "brief": "Liquid Intelligent Technologies, a business of Cassava Technologies, has appointed Bernard Beya as Chief Executive Officer for its operations in the Democratic Republic of Congo (DRC), effective 1 April 2026. Cassava Tec",
+   "source": "IT News Africa",
+   "url": "https://www.itnewsafrica.com/2026/07/bernard-beya-appointed-ceo-of-liquid-intelligent-technologies-drc/",
+   "date": "Wed, 15 Jul 2026 11:00:00 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "Nigerian Founder Jayaike Ndu Introduces Tend, a Platform for Local Business Discovery",
    "brief": "Some of the most established businesses globally are invisible to...",
    "source": "Techpoint Africa",
@@ -612,6 +602,16 @@
    "country": "🇳🇬 尼日利亚",
    "is_ai": false,
    "is_aiinfra": false
+  },
+  {
+   "title": "Preparing Africa’s data centres for the demands of autonomous AI",
+   "brief": "Artificial Intelligence (AI) is no longer a futuristic concept; it is rapidly becoming the backbone of modern business and society. Yet the conversation cannot stop at ChatGPT and other chat-based tools. The next wave of",
+   "source": "IT News Africa",
+   "url": "https://www.itnewsafrica.com/2026/07/preparing-africas-data-centres-for-the-demands-of-autonomous-ai/",
+   "date": "Wed, 15 Jul 2026 08:26:00 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": true
   },
   {
    "title": "Post-Quantum’s Algorithm - Classic McEliece - Achieves Global ISO Standardization to Protect the World From Quantum Cyber Attack",
