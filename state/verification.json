@@ -8,25 +8,34 @@
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 189.8,
       "recent20_high": 213.99,
-      "target_implied_move_pct": 18.3,
+      "target_implied_move_pct": 15.9,
       "target_aggressive": false
     },
     "AVGO": {
       "cur": 370.83,
-      "buy_reachable": false,
-      "note": "⚠️ 买入价低于近20日低点,可能挂不上",
+      "buy_reachable": true,
+      "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 356.43,
       "recent20_high": 414.64,
-      "target_implied_move_pct": 10.6,
+      "target_implied_move_pct": 17.3,
+      "target_aggressive": false
+    },
+    "TSM": {
+      "cur": 398.37,
+      "buy_reachable": false,
+      "note": "⚠️ 买入价低于近20日低点,可能挂不上",
+      "recent20_low": 386.02,
+      "recent20_high": 479.0,
+      "target_implied_move_pct": 11.1,
       "target_aggressive": false
     },
     "MU": {
       "cur": 848.95,
-      "buy_reachable": true,
-      "note": "✅ 可达(近20日区间覆盖买入价)",
+      "buy_reachable": false,
+      "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 804.0,
       "recent20_high": 1254.81,
-      "target_implied_move_pct": 17.8,
+      "target_implied_move_pct": 14.8,
       "target_aggressive": false
     },
     "ANET": {
@@ -44,13 +53,13 @@
       "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 185.87,
       "recent20_high": 308.67,
-      "target_implied_move_pct": 18.4,
+      "target_implied_move_pct": 20.9,
       "target_aggressive": false
     },
     "COHR": {
       "cur": 277.6,
-      "buy_reachable": false,
-      "note": "⚠️ 买入价低于近20日低点,可能挂不上",
+      "buy_reachable": true,
+      "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 255.14,
       "recent20_high": 439.68,
       "target_implied_move_pct": 17.1,
@@ -62,7 +71,7 @@
       "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 272.93,
       "recent20_high": 358.54,
-      "target_implied_move_pct": 15.7,
+      "target_implied_move_pct": 17.4,
       "target_aggressive": false
     },
     "600522.SS": {
@@ -71,16 +80,16 @@
       "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 33.65,
       "recent20_high": 67.69,
-      "target_implied_move_pct": 18.9,
+      "target_implied_move_pct": 26.3,
       "target_aggressive": false
     },
     "688981.SS": {
       "cur": 139.88,
-      "buy_reachable": true,
-      "note": "✅ 可达(近20日区间覆盖买入价)",
+      "buy_reachable": false,
+      "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 135.26,
       "recent20_high": 176.34,
-      "target_implied_move_pct": 14.4,
+      "target_implied_move_pct": 12.6,
       "target_aggressive": false
     },
     "688256.SS": {
@@ -89,7 +98,7 @@
       "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 1156.0,
       "recent20_high": 1620.0,
-      "target_implied_move_pct": 26.0,
+      "target_implied_move_pct": 19.7,
       "target_aggressive": false
     },
     "688052.SS": {
@@ -98,7 +107,7 @@
       "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 196.59,
       "recent20_high": 307.29,
-      "target_implied_move_pct": 12.8,
+      "target_implied_move_pct": 20.3,
       "target_aggressive": false
     },
     "300005.SZ": {
@@ -107,7 +116,7 @@
       "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 14.87,
       "recent20_high": 25.74,
-      "target_implied_move_pct": 14.3,
+      "target_implied_move_pct": 24.4,
       "target_aggressive": false
     },
     "002384.SZ": {
@@ -116,7 +125,7 @@
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 204.0,
       "recent20_high": 280.08,
-      "target_implied_move_pct": 18.8,
+      "target_implied_move_pct": 11.6,
       "target_aggressive": false
     },
     "6869.HK": {
@@ -125,7 +134,7 @@
       "note": "⚠️ 买入价低于近20日低点,可能挂不上",
       "recent20_low": 129.5,
       "recent20_high": 304.48,
-      "target_implied_move_pct": 30.4,
+      "target_implied_move_pct": 22.7,
       "target_aggressive": false
     },
     "0700.HK": {
@@ -134,7 +143,7 @@
       "note": "✅ 可达(近20日区间覆盖买入价)",
       "recent20_low": 411.0,
       "recent20_high": 494.8,
-      "target_implied_move_pct": 18.1,
+      "target_implied_move_pct": 12.7,
       "target_aggressive": false
     }
   },
