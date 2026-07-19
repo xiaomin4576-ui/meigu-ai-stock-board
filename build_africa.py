@@ -383,7 +383,7 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 .tl-ti{{color:#c9d5e8;text-decoration:none}}.tl-ti:hover{{color:#7ab8ff}}
 </style></head><body>
 <div class="wrap">
-<div class="nav"><a href="home.html">🏠 首页</a><span class="ts">🕐 {BUILD_TS} 北京</span></div>
+<div class="nav"><a href="home.html">🏠 门户</a><span class="ts">🕐 {BUILD_TS} 北京</span></div>
 <div class="header">
   <h1>🌍 非洲科技脉搏</h1>
   <div class="sub">同光科技立足莫桑比克 · 跟踪整个非洲大陆科技与 AI 的一举一动 · 当日非洲本地媒体 RSS + 2024/2025 历史回填(Google News 按年检索),真实可溯</div>

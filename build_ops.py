@@ -219,7 +219,7 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 <div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#e2c07e;margin-bottom:8px">LUMORA · 同光科技</div><h1>📊 运营看板 · {TODAY}</h1>
 <div class="sub">🟢 站务健康度快照 · 本页随每次 CI 构建刷新 · 数据截至 <b style="color:#33d6c5">{BUILD_TS} 北京</b>(点上方版块链接跳转;无独立刷新,跟随 daily-board 构建)</div>
 <div class="sub">全站数据资产 · 构建健康度 · AI 引擎消耗 —— 每次构建自动更新</div>
-<div class="nav"><a href="home.html">🏠 首页</a><a href="board.html">📡 股票看板</a><a href="news.html">🌍 全球头条</a><a href="africa.html">📡 非洲科技</a><span style="color:#94a6c4">🕐 本页生成 {BUILD_TS} 北京</span></div></div>
+<div class="nav"><a href="home.html">🏠 门户</a><a href="board.html">📡 股票看板</a><a href="news.html">🌍 全球头条</a><a href="africa.html">📡 非洲科技</a><span style="color:#94a6c4">🕐 本页生成 {BUILD_TS} 北京</span></div></div>
 <div class="gridp">
 {sec("📡 美股AI看板 · 数据资产", "#4ade80", stat_meigu())}
 {sec("📰 同光AI早报 · 语料资产", "#7ab8ff", stat_tongguang())}

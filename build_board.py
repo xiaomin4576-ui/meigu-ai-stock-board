@@ -1290,7 +1290,7 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 </style></head><body><div class="wrap">
 <div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#e2c07e;margin-bottom:8px">LUMORA · 同光科技</div><h1>📡 {cfg['title']} · {TODAY}</h1>
 <div class="sub">美股 AI 核心 {sum(1 for s in cfg['stocks'] if s.get('market', 'US') == 'US' and s['ticker'] != cfg['benchmark'])} 票 + 🇨🇳 A 股 {sum(1 for s in cfg['stocks'] if s.get('market') == 'CN')} 票 + 🇭🇰 港股 {sum(1 for s in cfg['stocks'] if s.get('market') == 'HK')} 票 + {cfg['benchmark']} 基准 · 长期 {cfg['horizon_label']} 视角 · 数据 TwelveData/Finnhub+akshare+腾讯(真实行情) · AI 研判</div>
-<div class="updated">🕐 本页生成:<b>{BUILD_TS}</b> 北京 · <a href="home.html">🏠 首页</a> · <a href="javascript:void(0)" onclick="location.href='board.html?t='+Date.now()">🔄 手动刷新</a> · <button id="updbtn" onclick="triggerUpd()" style="background:#2563eb;color:#fff;border:none;border-radius:8px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer">🔁 更新研判</button><span id="updmsg" style="color:#94a6c4;font-size:12px;margin-left:6px"></span></div>
+<div class="updated">🕐 本页生成:<b>{BUILD_TS}</b> 北京 · <a href="home.html">🏠 门户</a> · <a href="javascript:void(0)" onclick="location.href='board.html?t='+Date.now()">🔄 手动刷新</a> · <button id="updbtn" onclick="triggerUpd()" style="background:#2563eb;color:#fff;border:none;border-radius:8px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer">🔁 更新研判</button><span id="updmsg" style="color:#94a6c4;font-size:12px;margin-left:6px"></span></div>
 <script>
 const DT="__DISPATCH_TOKEN__";
 async function triggerUpd(){{
