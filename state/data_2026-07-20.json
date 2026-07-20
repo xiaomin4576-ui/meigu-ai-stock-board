@@ -62,6 +62,12 @@
       "vol": 47.2,
       "earnings_date": "2026-09-02",
       "news": [],
+      "quality": {
+        "roe": 36.4,
+        "ocf_ps": null,
+        "gross_margin": 68.3,
+        "period": "TTM·Finnhub"
+      },
       "analyst": {
         "target_mean": null,
         "target_low": null,
@@ -69,10 +75,14 @@
         "rating": null,
         "rating_mean": 1.79,
         "n_analysts": 57,
-        "fwd_pe": null,
+        "fwd_pe": 23.2,
         "ttm_pe": null,
         "cn_rating": "买入",
         "rec_buy_ratio": 0.91,
+        "eps_growth": 125.8,
+        "ev_ebitda": 52.0,
+        "fcf_yield": 1.86,
+        "market_cap": 1764230,
         "consensus_src": "Finnhub"
       }
     },
@@ -379,16 +389,16 @@
       "market": "CN",
       "price": 32.22,
       "chg1d": -4.2,
-      "m1": -42.8,
-      "m3": 16.1,
-      "m6": 79.4,
-      "fromhi": -52.5,
-      "hi": 67.84,
-      "lo": 13.45,
-      "ma20": 49.35,
-      "ma50": 47.37,
-      "ma200": 28.27,
-      "vol": 87.5,
+      "m1": -42.7,
+      "m3": 15.8,
+      "m6": 77.9,
+      "fromhi": -52.4,
+      "hi": 67.69,
+      "lo": 13.64,
+      "ma20": 49.3,
+      "ma50": 47.34,
+      "ma200": 28.35,
+      "vol": 87.2,
       "analyst": {
         "target_mean": null,
         "target_low": null,
@@ -473,6 +483,12 @@
       },
       "news": [
         {
+          "title": "91只科创板股票跻身百元股阵营",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202607203813311866.html",
+          "date": "2026-07-20"
+        },
+        {
           "title": "电子行业资金流出榜：东山精密等106股净流出资金超亿元",
           "pub": "证券时报网",
           "url": "http://finance.eastmoney.com/a/202607173811077790.html",
@@ -483,12 +499,6 @@
           "pub": "证券时报网",
           "url": "http://finance.eastmoney.com/a/202607173811147743.html",
           "date": "2026-07-17"
-        },
-        {
-          "title": "今年以来105家公司完成定增，募资总额3751.21亿元",
-          "pub": "证券时报网",
-          "url": "http://finance.eastmoney.com/a/202607143805292226.html",
-          "date": "2026-07-14"
         }
       ],
       "unlock": null
@@ -500,14 +510,14 @@
       "price": 1209.0,
       "chg1d": 1.5,
       "m1": -19.8,
-      "m3": 38.0,
+      "m3": 37.9,
       "m6": 24.9,
       "fromhi": -24.2,
       "hi": 1595.55,
-      "lo": 350.34,
+      "lo": 351.06,
       "ma20": 1402.52,
       "ma50": 1347.21,
-      "ma200": 984.98,
+      "ma200": 985.21,
       "vol": 75.5,
       "analyst": {
         "target_mean": null,
@@ -539,16 +549,16 @@
           "date": "2026-06-30"
         },
         {
-          "title": "短线防风险 48只个股短期均线现死叉",
+          "title": "9只科创板个股主力资金净流入超亿元",
           "pub": "证券时报网",
-          "url": "http://finance.eastmoney.com/a/202607163808991544.html",
-          "date": "2026-07-16"
+          "url": "http://finance.eastmoney.com/a/202607203813313366.html",
+          "date": "2026-07-20"
         },
         {
-          "title": "短线防风险 50只个股短期均线现死叉",
+          "title": "电子行业今日净流出资金224.61亿元，长电科技等60股净流出资金超亿元",
           "pub": "证券时报网",
-          "url": "http://finance.eastmoney.com/a/202607163809021438.html",
-          "date": "2026-07-16"
+          "url": "http://finance.eastmoney.com/a/202607203813309951.html",
+          "date": "2026-07-20"
         }
       ],
       "unlock": null
@@ -593,22 +603,22 @@
       },
       "news": [
         {
+          "title": "91只科创板股票跻身百元股阵营",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202607203813311866.html",
+          "date": "2026-07-20"
+        },
+        {
+          "title": "深沪北百元股数量达193只，科创板股票占47.15%",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202607203813312285.html",
+          "date": "2026-07-20"
+        },
+        {
           "title": "96只科创板股票跻身百元股阵营",
           "pub": "证券时报网",
           "url": "http://finance.eastmoney.com/a/202607173811078977.html",
           "date": "2026-07-17"
-        },
-        {
-          "title": "汽车芯片概念下跌8.69%，主力资金净流出121股",
-          "pub": "证券时报网",
-          "url": "http://finance.eastmoney.com/a/202607173811084917.html",
-          "date": "2026-07-17"
-        },
-        {
-          "title": "科创板平均股价56.01元，30股股价超300元",
-          "pub": "证券时报网",
-          "url": "http://finance.eastmoney.com/a/202607163809083820.html",
-          "date": "2026-07-16"
         }
       ],
       "unlock": null
@@ -621,13 +631,13 @@
       "chg1d": -10.0,
       "m1": -32.2,
       "m3": -6.6,
-      "m6": 101.7,
+      "m6": 101.6,
       "fromhi": -50.2,
       "hi": 970.0,
-      "lo": 78.73,
+      "lo": 79.05,
       "ma20": 795.57,
       "ma50": 714.81,
-      "ma200": 390.21,
+      "ma200": 390.3,
       "vol": 114.3,
       "analyst": {
         "target_mean": null,
@@ -653,6 +663,12 @@
       },
       "news": [
         {
+          "title": "德明利001309龙虎榜数据07-20",
+          "pub": "东方财富Choice数据",
+          "url": "http://finance.eastmoney.com/a/202607203813295113.html",
+          "date": "2026-07-20"
+        },
+        {
           "title": "001309，第三个“一字”跌停",
           "pub": "华夏时报",
           "url": "http://finance.eastmoney.com/a/202607173810278576.html",
@@ -663,18 +679,12 @@
           "pub": "华夏时报",
           "url": "http://finance.eastmoney.com/a/202607163808747319.html",
           "date": "2026-07-16"
-        },
-        {
-          "title": "德明利001309龙虎榜数据07-15)",
-          "pub": "东方财富Choice数据",
-          "url": "http://finance.eastmoney.com/a/202607153807457413.html",
-          "date": "2026-07-15"
         }
       ],
       "unlock": {
         "date": "2026-07-23",
         "pct_float": 1.1,
-        "mktcap_yi": 9.8
+        "mktcap_yi": 8.8
       }
     },
     "300005.SZ": {
@@ -717,6 +727,12 @@
       },
       "news": [
         {
+          "title": "探路者300005龙虎榜数据07-20",
+          "pub": "东方财富Choice数据",
+          "url": "http://finance.eastmoney.com/a/202607203813294548.html",
+          "date": "2026-07-20"
+        },
+        {
           "title": "探路者300005龙虎榜数据07-17)",
           "pub": "东方财富Choice数据",
           "url": "http://finance.eastmoney.com/a/202607173811054576.html",
@@ -727,12 +743,6 @@
           "pub": "南方财经网",
           "url": "http://finance.eastmoney.com/a/202607173811110013.html",
           "date": "2026-07-17"
-        },
-        {
-          "title": "探路者连“吃”两个跌停 上半年业绩大幅预增 户外板块经营利润下降",
-          "pub": "深圳商报·读创",
-          "url": "http://finance.eastmoney.com/a/202607203812659862.html",
-          "date": "2026-07-20"
         }
       ],
       "unlock": null
@@ -744,14 +754,14 @@
       "price": 432.3,
       "chg1d": -6.7,
       "m1": -31.3,
-      "m3": 51.2,
-      "m6": 67.6,
+      "m3": 51.0,
+      "m6": 67.3,
       "fromhi": -48.5,
       "hi": 840.0,
-      "lo": 113.49,
+      "lo": 114.07,
       "ma20": 648.02,
-      "ma50": 544.97,
-      "ma200": 323.44,
+      "ma50": 545.01,
+      "ma200": 323.74,
       "vol": 111.2,
       "analyst": {
         "target_mean": null,
@@ -777,6 +787,12 @@
       },
       "news": [
         {
+          "title": "兆易创新603986龙虎榜数据07-20",
+          "pub": "东方财富Choice数据",
+          "url": "http://finance.eastmoney.com/a/202607203813329970.html",
+          "date": "2026-07-20"
+        },
+        {
           "title": "大牛股603986，跌停三次！殃及24万股民",
           "pub": "华夏时报",
           "url": "http://finance.eastmoney.com/a/202607133803739933.html",
@@ -787,12 +803,6 @@
           "pub": "证券时报",
           "url": "http://finance.eastmoney.com/a/202607093800059023.html",
           "date": "2026-07-09"
-        },
-        {
-          "title": "兆易创新603986龙虎榜数据07-10",
-          "pub": "东方财富Choice数据",
-          "url": "http://finance.eastmoney.com/a/202607103801890940.html",
-          "date": "2026-07-10"
         }
       ],
       "unlock": null
@@ -837,6 +847,12 @@
       },
       "news": [
         {
+          "title": "东山精密002384龙虎榜数据07-20",
+          "pub": "东方财富Choice数据",
+          "url": "http://finance.eastmoney.com/a/202607203813294283.html",
+          "date": "2026-07-20"
+        },
+        {
           "title": "东山精密002384龙虎榜数据07-14",
           "pub": "东方财富Choice数据",
           "url": "http://finance.eastmoney.com/a/202607143805620368.html",
@@ -847,12 +863,6 @@
           "pub": "证券时报",
           "url": "http://finance.eastmoney.com/a/202607143805796554.html",
           "date": "2026-07-14"
-        },
-        {
-          "title": "亚太股市午后集体大反攻！PCB板块狂飙，002384直线涨停，有股民直呼“东山再起就靠你”",
-          "pub": "华夏时报",
-          "url": "http://finance.eastmoney.com/a/202607143805458750.html",
-          "date": "2026-07-14"
         }
       ],
       "unlock": null
@@ -861,16 +871,16 @@
       "name": "长飞光纤",
       "role": "光纤光缆/光模块(AI光互联)",
       "market": "HK",
-      "price": 140.5,
-      "chg1d": 7.7,
-      "m1": -38.1,
-      "m3": -35.5,
-      "m6": 187.3,
-      "fromhi": -51.1,
+      "price": 141.0,
+      "chg1d": 8.1,
+      "m1": -37.8,
+      "m3": -35.2,
+      "m6": 188.3,
+      "fromhi": -50.9,
       "hi": 287.26,
       "lo": 18.98,
-      "ma20": 195.54,
-      "ma50": 218.96,
+      "ma20": 195.57,
+      "ma50": 218.97,
       "ma200": 125.93,
       "vol": 124.6,
       "analyst": {
@@ -890,16 +900,16 @@
       "name": "腾讯控股",
       "role": "混元大模型/AI云/游戏(AI应用+算力需求侧)",
       "market": "HK",
-      "price": 478.4,
-      "chg1d": 3.6,
-      "m1": 7.4,
-      "m3": -6.5,
-      "m6": -21.0,
-      "fromhi": -28.8,
+      "price": 477.8,
+      "chg1d": 3.5,
+      "m1": 7.3,
+      "m3": -6.6,
+      "m6": -21.1,
+      "fromhi": -28.9,
       "hi": 672.2,
       "lo": 411.8,
-      "ma20": 447.74,
-      "ma50": 450.36,
+      "ma20": 447.71,
+      "ma50": 450.34,
       "ma200": 544.65,
       "vol": 32.0,
       "analyst": {
