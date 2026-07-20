@@ -278,7 +278,7 @@ def _panorama_html(items):
                    f'<div class="vhd"><span class="vicon">{icon}</span><span class="vname">{esc(name)}</span>'
                    f'<span class="vcnt">{cnt}</span></div>'
                    f'<div class="vsub">{esc(sub)}</div>{latest}</div>')
-    vband = (f'<div class="strat-band"><div class="sb-title">🎯 同光三大战略赛道 · 按公司优先级</div>'
+    vband = (f'<div class="strat-band"><div class="sb-title">🎯 同光业务</div>'
              f'<div class="vgrid">{vcards}</div></div>')
 
     # 三层科技栈(子主题节点)
