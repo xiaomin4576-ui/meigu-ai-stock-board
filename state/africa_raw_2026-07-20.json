@@ -1,13 +1,13 @@
 {
- "asof": "2026-07-19",
- "fetched_at": "2026-07-19T22:44+08:00",
+ "asof": "2026-07-20",
+ "fetched_at": "2026-07-20T08:03+08:00",
  "meta": {
   "counts": {
    "TechCabal": 0,
    "Moonshot·TechCabal": 0,
    "Disrupt Africa": 10,
    "Techpoint Africa": 20,
-   "IT News Africa": 11,
+   "IT News Africa": 0,
    "TechAfrica News": 12,
    "Condia": 25,
    "ITWeb Africa": 25,
@@ -15,11 +15,11 @@
    "Zimbabwe Situation": 0,
    "African Business": 1,
    "非洲科技·聚合": 12,
-   "中非科技·聚合": 15
+   "中非科技·聚合": 14
   },
   "total": 60,
-  "ai_flagged": 20,
-  "aiinfra_flagged": 2,
+  "ai_flagged": 19,
+  "aiinfra_flagged": 1,
   "countries": 10
  },
  "items": [
@@ -408,7 +408,7 @@
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE5wSzRqR25aakVnSkRRMEthWTJIdEk1M2hNSnU4NU5KYVpINWdneFprblUzeU1qWmJUZl9WWTJRNjZZbW9LWm03cFUyajNfeWVoazljc2hXa2RHdi1vT1Z3TlhLamxMTHc0NkZWVWRKLWJjMXNjcTZzaDBsaw?oc=",
    "source": "Total Telecom·聚合",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wSzRqR25aakVnSkRRMEthWTJIdEk1M2hNSnU4NU5KYVpINWdneFprblUzeU1qWmJUZl9WWTJRNjZZbW9LWm03cFUyajNfeWVoazljc2hXa2RHdi1vT1Z3TlhLamxMTHc0NkZWVWRKLWJjMXNjcTZzaDBsaw?oc=5",
-   "date": "Thu, 16 Jul 2026 12:29:25 GMT",
+   "date": "Thu, 16 Jul 2026 12:29:06 GMT",
    "country": null,
    "is_ai": true,
    "is_aiinfra": false
@@ -584,16 +584,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Bernard Beya appointed CEO of Liquid Intelligent Technologies DRC",
-   "brief": "Liquid Intelligent Technologies, a business of Cassava Technologies, has appointed Bernard Beya as Chief Executive Officer for its operations in the Democratic Republic of Congo (DRC), effective 1 April 2026. Cassava Tec",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/07/bernard-beya-appointed-ceo-of-liquid-intelligent-technologies-drc/",
-   "date": "Wed, 15 Jul 2026 11:00:00 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Nigerian Founder Jayaike Ndu Introduces Tend, a Platform for Local Business Discovery",
    "brief": "Some of the most established businesses globally are invisible to...",
    "source": "Techpoint Africa",
@@ -604,22 +594,32 @@
    "is_aiinfra": false
   },
   {
-   "title": "Preparing Africa’s data centres for the demands of autonomous AI",
-   "brief": "Artificial Intelligence (AI) is no longer a futuristic concept; it is rapidly becoming the backbone of modern business and society. Yet the conversation cannot stop at ChatGPT and other chat-based tools. The next wave of",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/07/preparing-africas-data-centres-for-the-demands-of-autonomous-ai/",
-   "date": "Wed, 15 Jul 2026 08:26:00 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": true
-  },
-  {
    "title": "Post-Quantum’s Algorithm - Classic McEliece - Achieves Global ISO Standardization to Protect the World From Quantum Cyber Attack",
    "brief": "It’s proven that today’s encryption is vulnerable to attack by a sufficiently mature quantum computer running Shor’s algorithm - a catastrophic event commonly known as Q-Day.",
    "source": "ITWeb Africa",
    "url": "https://www.itweb.co.za/article/post-quantums-algorithm-classic-mceliece-achieves-global-iso-standardization-to-protect-the-world-from-quantum-cyber-attack/kYbe9MXbPgavAWpG",
    "date": "Wed, 15 Jul 2026 10:00:00 +0200",
    "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Central Bank of Kenya approves 25 new loan apps",
+   "brief": "On Techpoint Digest, we discuss Kenya licensing 25 more digital lenders, Malawi tightening data protection regulations, and Morocco reducing card payment fees.",
+   "source": "Techpoint Africa",
+   "url": "https://techpoint.africa/insight/techpoint-digest-1388/",
+   "date": "Wed, 15 Jul 2026 07:00:00 +0000",
+   "country": "🇰🇪 肯尼亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Rwanda designates eKash as national instant payment system",
+   "brief": "Rwanda has launched eKash as its national instant payment system, capping transaction fees at RWF 20 ($0.01).",
+   "source": "Condia",
+   "url": "https://thecondia.com/rwanda-ekash-national-instant-payment-system/",
+   "date": "Wed, 15 Jul 2026 05:44:00 +0000",
+   "country": "🇷🇼 卢旺达",
    "is_ai": false,
    "is_aiinfra": false
   }
