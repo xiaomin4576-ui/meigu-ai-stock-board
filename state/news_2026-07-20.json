@@ -1,197 +1,189 @@
 {
  "asof": "2026-07-20",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-07-20T17:49+08:00",
+ "generated_at": "2026-07-20T21:21+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 13,
-  "cluster_label": "伊朗/霍尔木兹",
+  "cross_day_suppressed": 5,
+  "cluster_label": "伊朗/海湾",
   "cluster_dropped": [
-   "美国连续第九夜打击伊朗，美军伤亡增加",
-   "美元因美伊冲突加剧而走弱"
+   "伊朗和美国扩大攻击，海湾航运受威胁",
+   "调解方提议10天停火以恢复美伊临时协议",
+   "美元因美伊冲突加剧而走低",
+   "美伊战争五个月，油价为何未疯狂"
   ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "geo",
-   "title": "美伊冲突第九天：美打击伊朗，两油轮在霍尔木兹爆炸",
-   "brief": "美国连续第九天打击伊朗；伊朗称两艘油轮在霍尔木兹海峡爆炸并失去动力。",
-   "chain": "地缘冲突升级→油价飙升风险→美股能源股受益，A股油气开采及航运板块联动",
-   "impact": 10,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbmtOemhMR1UtaVNoMENBMHltNEpKTWJNekRXUEtSa3hidndTM0VZVnRoTEJlV2ZENWtkYVFCUkJtSk8zdFhPeEJQSXRNMS1vWC03N2NJek14WklXdzhNZWkzMnZRUFpGcHg2OXotaHpyVW9jblFTYUM4U2lGcXFWa1NFbnZSQnpreVF6OXVhMW1oeHdIdkFNMjBJa09UZGgycjRkMjZ6Z1dxNC10enJIVDZJdlVSQjRxQlBZc05Tdw?oc=5",
-   "ts": "2026-07-20T01:49:00+00:00"
+   "title": "美军连续第九晚打击伊朗，伤亡上升",
+   "brief": "美国对伊朗进行第九晚连续打击，美军伤亡增加。",
+   "chain": "美伊冲突升级→避险情绪升温→美股承压，A股军工/避险板块受关注",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/20/us-iran-strait-of-hormuz-hostilities-casualties-.html",
+   "ts": "Mon, 20 Jul 2026 03:00:28 GMT"
   },
   {
-   "cat": "oil",
-   "title": "霍尔木兹海峡油轮稀少，LNG浮式储存增加",
-   "brief": "数据显示，进入霍尔木兹海峡装载的油轮稀少，LNG浮式储存量上升。",
-   "chain": "霍尔木兹通行受阻→原油及LNG供应紧张→油价气价上行，莫桑比克LNG项目受益于高气价",
-   "impact": 9,
+   "cat": "geo",
+   "title": "胡塞武装宣布对沙特实施海上封锁",
+   "brief": "也门胡塞武装称将对沙特阿拉伯实施海上封锁。",
+   "chain": "红海航运受阻→油价上涨风险→美股能源股受益，A股航运/石油板块波动",
+   "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcXJLRU1YX1JLOTBVdFVRLUlWNEh5N1BjVkNWQktyNkFaMXdSVTNGcklmNUJuckpzcVEtenNPX1E3TnRBQTF1REFyQmw0cEJLY1J1MW1Oc3JoaEIzdlBEWnNxX1F1OS03UWk5V3g3RVNLNS1iNFQ5bGdTdS1DWnFkU1VSSTR4WEJkRWhMcUIydkFJTndVYmJxTHR5Umw?oc=5",
-   "ts": "2026-07-19T23:16:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcUowRTU0M2hEUzRtdXAxY1FENjh0OWdXcEJlb2h4VlpBOVdGM2YzZ1BQSVhLMFQwOXhRN01aQ1poMVd5TTNRUHBZbV9jNWZRaGFaejU2ckpkNW5HUlZSdlJXWU5GNTlFU0NFUU9DYkJ1LXVFNHZBanlSemdrb3M1Vm80azBhNlRmTGRWbjQ2dEtkQVNfbTVNMUVReDIwYXB6aDNjN0pReHQ5S1BBUFl1NUc4Z1VyVHB4MWNnQ09JZw?oc=5",
+   "ts": "2026-07-20T12:34:07+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "一名美军在伊拉克北部阵亡",
+   "brief": "美国中央司令部确认一名美军在伊拉克北部遇袭身亡。",
+   "chain": "美军伤亡→中东局势紧张→避险情绪上升，美股承压，A股军工板块关注",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbWhlMjhBVDQ5MWpFeHNXcUZOcHF4S2NYVzlRRXo4WFhOTmRyWHI1elU3aGRKN21pVzJMTFpvQkIwak9yWnNVbERyNFpuUUhZYTR1SHA3UUJYSlc2MDNDSjhkaXROVFBuelhQbV8xSnlSYTl2Um5VOXNHQ0VqdXRzaEo2djloRWNuSXNaUm1kS2J5VkhvTC1qMDdkWmdmZlo4c3RVRjZ2WlVPUV9SR08yZktIYkNneHc?oc=5",
+   "ts": "2026-07-19T19:31:29+00:00"
   },
   {
    "cat": "macro",
-   "title": "美债收益率因中东紧张局势走高",
-   "brief": "10年期美债收益率上升，市场关注中东局势对经济的影响。",
-   "chain": "中东紧张推升避险情绪→美债收益率上行→美股AI高估值股承压，A股算力链情绪受抑",
-   "impact": 8,
+   "title": "美债收益率因中东紧张局势小幅走高",
+   "brief": "10年期美债收益率上升，市场关注中东局势。",
+   "chain": "避险情绪推升美债收益率→美股估值承压→A股成长股情绪传导",
+   "impact": 6,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/07/20/treasury-yields-wall-street-iran-war-tensions.html",
    "ts": "2026-07-20T09:25:54+00:00"
   },
   {
    "cat": "macro",
-   "title": "黄金持稳，市场评估中东升级与加息押注",
-   "brief": "黄金价格稳定，市场在评估中东局势升级与美联储加息预期之间的平衡。",
-   "chain": "避险需求与加息预期博弈→金价震荡→对美股AI高久期票估值分母影响中性偏空，A股算力链情绪传导",
-   "impact": 7,
+   "title": "黄金持稳，投资者权衡美伊风险与美联储信号",
+   "brief": "金价稳定，市场在美伊冲突与美联储政策信号间权衡。",
+   "chain": "避险与利率预期博弈→金价震荡→对美股AI高久期票估值分母影响，A股算力链情绪传导",
+   "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTFhCVlU1TTFYN2VLU1RZSk5va0EtOGxSclUtc2xMM2ZfSTVoSU9LOGVBZzg5NjdfakJNWFUzYUktd3FKX0ptZk5YU2dGWF9BR0xiSm9iS2NMN3pBTkx5RkRHc1BpbUlmQ21WQnVXamd3aFVmZVV3cnVJTjd3MHBmbFhSTmZid3ZZQUx3VWlBODB5TGliVnBma1dJZDl4dGxydTlyWjZB?oc=5",
    "ts": "2026-07-20T01:40:00+00:00"
   },
   {
    "cat": "oil",
-   "title": "油价因伊朗谈判希望而回落",
-   "brief": "伊朗表示可能基于国家利益进行谈判，油价回吐涨幅。",
-   "chain": "伊朗谈判信号缓解供应担忧→油价短期回落→莫桑比克油气项目短期承压，但长期供应风险仍存",
-   "impact": 8,
+   "title": "油价企稳，美伊谈判希望抵消胡塞威胁",
+   "brief": "油价在美伊谈判希望与胡塞威胁之间拉锯后企稳。",
+   "chain": "谈判进展与供应风险对冲→油价短期波动→莫桑比克LNG项目出口收益不确定性",
+   "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbDB0dzIyZzhDNXdvemNBWHdxR3dnWXcwVk4xM082SDRRTm9xel9yX3hJeFBDN1hyQXZpRlVWcElHNi13amFSaXFZLUEtYWpva20xcmFjLWt2TEc0QjFlMDJRMHFPZ3dpb0hZNlBib1ZMNk4xNXdPcmNfUHRpRzNzVDRtdmZlY2MydWVLdS1uVnZXSkdHZjlYelZOZ1M0SXlnVzlBSGFUUU43YlE?oc=5",
    "ts": "2026-07-20T00:16:00+00:00"
   },
   {
    "cat": "oil",
-   "title": "伊朗称可基于国家利益谈判，油价回吐涨幅",
-   "brief": "伊朗表示若基于国家利益可推进与美国谈判，油价回吐此前涨幅。",
-   "chain": "谈判希望缓解地缘溢价→油价短期下行→莫桑比克LNG项目短期估值承压",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/20/oil-prices-today-brent-wti-crude-us-iran-centcom-hormuz.html",
-   "ts": "Mon, 20 Jul 2026 08:59:44 GMT"
+   "title": "美国汽油价格因中东战事再破4美元",
+   "brief": "美国汽油均价突破4美元/加仑，受中东冲突影响。",
+   "chain": "成品油价格上涨→炼厂利润扩大→对莫桑比克原油出口有利",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdXhIclJnQVdaRk83S1liRGJRNEVxbGEwR1RUSEZoN1BsLUV2X3hvelVGNGtESkZNbFoybUhaQmYyRmlzWTNZdzhQVVNrdEhoU2NDdjBNOGpaU0ZsSU51cGtOV0laN280T3Z0T1NtTjdWeUV5UGN1RTQ0dDBLcXNET3lZOVljX1RPUDBGanZkQjY3cDFra01jbk9WeVBsX0RvQWhHbEEtZ1ZqNGtVckE?oc=5",
+   "ts": "2026-07-20T12:07:58+00:00"
   },
   {
    "cat": "oil",
-   "title": "WTI原油失守81美元/桶",
-   "brief": "WTI原油日内跌0.95%，失守81美元/桶关口。",
-   "chain": "伊朗谈判信号叠加需求担忧→油价下跌→莫桑比克油气项目短期收入预期下调",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607203813390254.html",
-   "ts": "2026-07-20 17:42:32"
-  },
-  {
-   "cat": "geo",
-   "title": "俄军猛攻基辅，北约警告俄攻击波罗的海将付出代价",
-   "brief": "俄罗斯猛烈炮击基辅，北约军事首长警告莫斯科若攻击波罗的海国家将遭受重大损失。",
-   "chain": "俄乌冲突升级→欧洲安全风险上升→避险情绪利好黄金，美股军工股受益，A股军工及能源链受关注",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/20/nato-russia-ukraine-war-missile-attacks-drone-europe-defense-.html",
-   "ts": "Mon, 20 Jul 2026 04:49:24 GMT"
-  },
-  {
-   "cat": "geo",
-   "title": "美军在伊拉克北部阵亡",
-   "brief": "美国中央司令部称一名美军士兵在伊拉克北部阵亡。",
-   "chain": "美军在中东伤亡增加→地缘风险溢价上升→油价短期偏强，美股能源股受益",
-   "impact": 6,
+   "title": "战争将炼油商推向崩溃边缘",
+   "brief": "伊朗战争导致炼油成本飙升，炼厂利润承压。",
+   "chain": "炼油瓶颈→成品油供应紧张→油价支撑，莫桑比克原油出口受益但炼厂投资风险上升",
+   "impact": 5,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbWhlMjhBVDQ5MWpFeHNXcUZOcHF4S2NYVzlRRXo4WFhOTmRyWHI1elU3aGRKN21pVzJMTFpvQkIwak9yWnNVbERyNFpuUUhZYTR1SHA3UUJYSlc2MDNDSjhkaXROVFBuelhQbV8xSnlSYTl2Um5VOXNHQ0VqdXRzaEo2djloRWNuSXNaUm1kS2J5VkhvTC1qMDdkWmdmZlo4c3RVRjZ2WlVPUV9SR08yZktIYkNneHc?oc=5",
-   "ts": "2026-07-19T19:31:29+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTdqTE9KRlVTVDlGTWlvRzd6Tml3aXU3ZVdMejV3Z1dsLVNfcVFKMWh5MTJ0THhSdXV3TjIybjVXT3hHYXQ1M29Yc2xFMVg0SnNmOEluU2FrdUNlTG56dTE1ZEVfZnI5NHdvbWQtSzZOZGNRbUtja1NBX1paSmh2Qmk1TGJCOVVjOVc4YVBfdlpIRHM5MWlzaG1rbjZ4dmpkNlNkRkpFeFdXcjQ?oc=5",
+   "ts": "2026-07-20T06:00:00+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "霍尔木兹海峡油轮稀少，LNG浮仓增加",
+   "brief": "数据显示进入霍尔木兹海峡的油轮减少，LNG浮式储存量上升。",
+   "chain": "霍尔木兹航运受阻→LNG供应紧张→TTF价格上行，利好莫桑比克LNG项目出口",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcXJLRU1YX1JLOTBVdFVRLUlWNEh5N1BjVkNWQktyNkFaMXdSVTNGcklmNUJuckpzcVEtenNPX1E3TnRBQTF1REFyQmw0cEJLY1J1MW1Oc3JoaEIzdlBEWnNxX1F1OS03UWk5V3g3RVNLNS1iNFQ5bGdTdS1DWnFkU1VSSTR4WEJkRWhMcUIydkFJTndVYmJxTHR5Umw?oc=5",
+   "ts": "2026-07-19T23:16:00+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "伊朗称可基于国家利益与美国谈判，油价回吐涨幅",
+   "brief": "伊朗表态可谈判后油价回落，但天然气市场仍关注供应风险。",
+   "chain": "谈判信号缓解部分供应担忧→气价短期承压→莫桑比克LNG项目需关注长期合同定价",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/20/oil-prices-today-brent-wti-crude-us-iran-centcom-hormuz.html",
+   "ts": "Mon, 20 Jul 2026 12:13:07 GMT"
   },
   {
    "cat": "tech",
    "title": "台积电加速亚利桑那工厂建设以抓住AI大趋势",
-   "brief": "台积电CFO表示正加速亚利桑那工厂建设，以抓住AI'大趋势'。",
-   "chain": "台积电美国扩产→AI芯片供应保障增强→利好美股AI硬件，A股算力链（光模块/服务器）受益",
+   "brief": "台积电CFO表示正加速美国亚利桑那工厂建设，以利用AI需求。",
+   "chain": "台积电扩产→AI芯片供应增加→利好美股AI硬件，A股半导体设备/材料链受益",
    "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/20/tsmc-arizona-fab-capacity-ai-chip-demand.html",
-   "ts": "Mon, 20 Jul 2026 05:55:54 GMT"
+   "ts": "Mon, 20 Jul 2026 12:34:57 GMT"
   },
   {
    "cat": "tech",
-   "title": "中际旭创获香港上市批准，股价大涨",
-   "brief": "中际旭创（Zhongji Innolight）获香港上市批准，股价大涨。",
-   "chain": "中际旭创港股上市→融资扩产光模块→利好A股算力链（光模块/CPO），美股AI硬件情绪提振",
+   "title": "谷歌和特斯拉将开启七巨头财报季",
+   "brief": "谷歌和特斯拉即将公布季度业绩，市场关注科技巨头表现。",
+   "chain": "科技巨头财报→指引影响美股情绪→A股科技板块联动",
    "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/20/-chinas-zhongji-innolight-sees-shares-surge-after-hong-kong-listing-approval-.html",
-   "ts": "Mon, 20 Jul 2026 04:09:38 GMT"
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/live/earnings-live-second-quarter-results-tesla-google-july-115324842.html",
+   "ts": "2026-07-20T11:53:24Z"
   },
   {
    "cat": "tech",
-   "title": "中国汽车市场销量暴跌20%，或创2021年来最差",
-   "brief": "中国汽车市场销量同比暴跌20%，预计将创2021年以来最差年度表现。",
-   "chain": "中国汽车需求疲软→消费电子及芯片需求承压→美股半导体及A股汽车电子链利空",
+   "title": "谷歌计划开发Frozen V2芯片以服务Gemini AI",
+   "brief": "据报道谷歌正开发新芯片，更高效运行Gemini AI模型。",
+   "chain": "谷歌自研芯片→AI算力竞争加剧→美股芯片股波动，A股算力链关注",
    "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/20/china-automotive-car-worst-year-sales-fall-20percent.html",
-   "ts": "Mon, 20 Jul 2026 08:43:40 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "炬芯科技端侧AI芯片推广及研发取得重大进展",
-   "brief": "炬芯科技公告端侧AI芯片已落地AI音频、智能穿戴等场景，存内计算NPU芯片推广效果显著。",
-   "chain": "端侧AI芯片突破→AI应用场景拓展→利好A股AI芯片及算力链，美股AI边缘计算标的受益",
-   "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607203813389728.html",
-   "ts": "2026-07-20 17:44:18"
+   "url": "https://finance.eastmoney.com/a/202607203813619554.html",
+   "ts": "2026-07-20 21:12:17"
   },
   {
-   "cat": "ai",
-   "title": "华为乾崑2026年研发投入预计超180亿元",
-   "brief": "华为乾崑宣布2026年预计研发投入超180亿元，算力规模29个月增长21倍。",
-   "chain": "华为加大AI研发投入→算力基础设施需求增长→利好A股算力链（服务器/光模块），美股AI硬件情绪提振",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607203813384192.html",
-   "ts": "2026-07-20 17:33:34"
-  },
-  {
-   "cat": "ai",
-   "title": "扬电科技子公司签署8.6亿元算力服务合同",
-   "brief": "扬电科技全资子公司与A客户签署8.6亿元算力服务合同，占2025年营收67%。",
-   "chain": "算力服务大单落地→AI算力需求持续高景气→利好A股算力链（IDC/服务器），美股AI基础设施受益",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607203813387671.html",
-   "ts": "2026-07-20 17:36:02"
-  },
-  {
-   "cat": "ai",
-   "title": "报告预计未来三年AI原生气候科技投融资升温",
-   "brief": "报告称中国气候科技产业正从'能源+装备'向融合算力、算法、数据升级，AI原生气候科技赛道投融资将升温。",
-   "chain": "AI+气候科技融合趋势→算力需求新增量→利好A股算力链及新能源，美股AI应用标的受益",
+   "cat": "tech",
+   "title": "摩根士丹利称内存股抛售是健康重置非周期拐点",
+   "brief": "摩根士丹利认为近期内存股下跌是健康调整，而非周期见顶。",
+   "chain": "内存股调整→芯片板块短期承压→A股存储芯片链情绪影响",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607203813375532.html",
-   "ts": "2026-07-20 17:25:29"
+   "url": "https://finance.eastmoney.com/a/202607203813586663.html",
+   "ts": "2026-07-20 20:46:25"
   },
   {
    "cat": "ai",
-   "title": "腾讯WorkBuddy 6月访问量破2000万",
-   "brief": "腾讯WorkBuddy在AI原生办公智能体市场6月单月访问量破2000万，位居市场前列。",
-   "chain": "AI办公应用用户增长→AI落地加速→利好A股AI应用及算力链，美股SaaS及AI标的受益",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607203813372266.html",
-   "ts": "2026-07-20 17:23:29"
+   "title": "AMD推出首款AI机架系统Helios，微软成新买家",
+   "brief": "AMD发布Helios AI系统，与英伟达竞争，微软成为新客户。",
+   "chain": "AMD AI硬件突破→挑战英伟达份额→美股AI硬件格局变化，A股AMD供应链受益",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/20/amd-helios-microsoft-ai-nvidia.html",
+   "ts": "Mon, 20 Jul 2026 13:00:01 GMT"
   },
   {
-   "cat": "macro",
-   "title": "中国平安：坚定支持资本市场发展",
-   "brief": "中国平安公告将发挥保险资金作为耐心资本的优势，坚定支持资本市场发展。",
-   "chain": "险资表态支持→A股市场信心提振→利好A股整体，尤其金融及高股息板块",
-   "impact": 6,
+   "cat": "ai",
+   "title": "微软将在Azure大规模部署AMD Helios用于AI推理",
+   "brief": "微软宣布在Azure云上部署AMD Helios机架，用于AI推理任务。",
+   "chain": "微软采用AMD方案→AI算力多元化→美股AMD利好，A股AMD封装/测试链关注",
+   "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607203813389420.html",
-   "ts": "2026-07-20 17:45:38"
+   "url": "https://finance.eastmoney.com/a/202607203813618470.html",
+   "ts": "2026-07-20 21:04:00"
+  },
+  {
+   "cat": "ai",
+   "title": "微软与AMD扩大长期战略合作",
+   "brief": "微软与AMD深化合作，部署下一代Instinct和EPYC处理器。",
+   "chain": "微软-AMD联盟强化→AI芯片竞争加剧→美股AMD/英伟达波动，A股算力链受益",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607203813594724.html",
+   "ts": "2026-07-20 21:02:31"
   }
  ]
 }
