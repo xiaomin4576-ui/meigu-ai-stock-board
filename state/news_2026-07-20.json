@@ -1,240 +1,179 @@
 {
  "asof": "2026-07-20",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-07-20T10:22+08:00",
+ "generated_at": "2026-07-20T11:34+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 19,
-  "cluster_label": "中东/伊拉克/伊朗",
+  "cross_day_suppressed": 17,
+  "cluster_label": "中东/伊朗/约旦",
   "cluster_dropped": [
-   "伊朗称袭击约旦境内美军，打死数十人",
+   "布伦特原油突破90美元，美伊冲突加剧",
    "两名美军在约旦遭伊朗袭击身亡",
-   "布伦特原油突破90美元，中东风险升温",
-   "海湾股市因美伊冲突下跌",
-   "一名美军在伊拉克北部阵亡"
+   "美元因美伊冲突走强，布油触及90美元",
+   "美国连续第九夜空袭伊朗，美军伤亡增加"
   ],
-  "backfilled": 8
+  "backfilled": 0
  },
  "items": [
   {
    "cat": "geo",
-   "title": "美军连续第7晚打击伊朗，中东局势升级",
-   "brief": "美军完成对伊朗的最新打击，连续第7晚发动攻击，中东紧张局势持续升级。",
-   "chain": "美伊冲突加剧→避险情绪升温→美股波动加大，A股军工/黄金链受关注",
+   "title": "美对伊朗发动第九天空袭，又一名美军确认死亡",
+   "brief": "美国对伊朗的军事打击进入第九天，又一名美军士兵在行动中丧生。冲突持续升级，中东局势急剧恶化。",
+   "chain": "美伊冲突升级→避险情绪升温，美股承压→A股军工、石油板块受关注",
    "impact": 10,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNd1Zpc0tXYzd1NVhsVFJ2VHRXTkl5ZTA0Y0I0Yk9TeFNKbFZoRWpEWTM0Y0NBdmlKUFJIMHlFRGdYWTNDZEF2THo1azkyV3JabU9GOUxGQ3hwY2pxOUJXVUVlaUxHeFpiNVFxYVA2NTZmMTNLOHY1b3JjTVJfT0piMnFoZ2ZicnVXUkdMWG5jY21MUUxLZnpKeDB0V2NqaEdyWHZBTzRXV18zQzhJek9tREx3MW8wcGVaa25MbExTV0tXZWZyd2x3X21ueGNUUQ?oc=5",
-   "ts": "2026-07-18T02:40:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbmtOemhMR1UtaVNoMENBMHltNEpKTWJNekRXUEtSa3hidndTM0VZVnRoTEJlV2ZENWtkYVFCUkJtSk8zdFhPeEJQSXRNMS1vWC03N2NJek14WklXdzhNZWkzMnZRUFpGcHg2OXotaHpyVW9jblFTYUM4U2lGcXFWa1NFbnZSQnpreVF6OXVhMW1oeHdIdkFNMjBJa09UZGgycjRkMjZ6Z1dxNC10enJIVDZJdlVSQjRxQlBZc05Tdw?oc=5",
+   "ts": "2026-07-20T01:49:00+00:00"
   },
   {
    "cat": "oil",
-   "title": "布伦特原油突破90美元，美伊互袭",
-   "brief": "布伦特原油价格突破90美元/桶，因美国和伊朗在中东加强军事打击。",
-   "chain": "油价飙升→全球通胀压力加大→莫桑比克油气项目受益，但运营风险上升",
-   "impact": 10,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbDB0dzIyZzhDNXdvemNBWHdxR3dnWXcwVk4xM082SDRRTm9xel9yX3hJeFBDN1hyQXZpRlVWcElHNi13amFSaXFZLUEtYWpva20xcmFjLWt2TEc0QjFlMDJRMHFPZ3dpb0hZNlBib1ZMNk4xNXdPcmNfUHRpRzNzVDRtdmZlY2MydWVLdS1uVnZXSkdHZjlYelZOZ1M0SXlnVzlBSGFUUU43YlE?oc=5",
-   "ts": "2026-07-20T00:16:00+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "霍尔木兹海峡油轮稀少，LNG浮仓增加",
-   "brief": "数据显示进入霍尔木兹海峡装载石油和LNG的油轮减少，浮式储存量上升。",
-   "chain": "霍尔木兹航运受阻→供应中断风险→油价气价上涨，莫桑比克LNG出口竞争力增强",
+   "title": "霍尔木兹海峡油轮通行减少，LNG浮仓增加",
+   "brief": "数据显示，进入霍尔木兹海峡装载原油的油轮减少，LNG浮式储存量上升，显示航运受阻。",
+   "chain": "霍尔木兹航运受阻→油价、气价上行风险→莫桑比克LNG出口或面临运输成本上升",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcXJLRU1YX1JLOTBVdFVRLUlWNEh5N1BjVkNWQktyNkFaMXdSVTNGcklmNUJuckpzcVEtenNPX1E3TnRBQTF1REFyQmw0cEJLY1J1MW1Oc3JoaEIzdlBEWnNxX1F1OS03UWk5V3g3RVNLNS1iNFQ5bGdTdS1DWnFkU1VSSTR4WEJkRWhMcUIydkFJTndVYmJxTHR5Umw?oc=5",
    "ts": "2026-07-19T23:16:00+00:00"
   },
   {
-   "cat": "geo",
-   "title": "伊朗最高领袖称特朗普签名'一文不值'",
-   "brief": "伊朗最高领袖哈梅内伊指责美国背信，称特朗普的签名毫无价值，外交僵局持续。",
-   "chain": "美伊外交无望→冲突持续→避险情绪支撑金价，美股能源/军工受益",
-   "impact": 8,
+   "cat": "macro",
+   "title": "亚洲股市因油价上涨和财报季表现犹豫",
+   "brief": "亚洲股市走势谨慎，因油价攀升至90美元上方，同时企业财报季开始，市场等待指引。",
+   "chain": "油价上涨+财报季不确定性→美股科技股面临成本压力→A股科技板块情绪受抑",
+   "impact": 7,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdzdnRWcydkxHbFRjbEdiRnZnMUFwclQ1N3ZwZTVHbWRKMTFNb21ldHhfNDRBaFF1VmRoRHpUTFJlREVhc0MwZUExOUlxcWlvejU0X256Q2J4MzE0QTVaWG42WGpMS0NVcWNzOXJqX1RQRjh1czFncm1DM2ZfWm9xT0pkSWxLeDZ2ZU1mOE9KQy1JMGFyMlRCamNBSjVWNExTUkRTNXVvX0w1YWREaXJCMmNVUXVZR2oxVlBLd0lWdnB1WFUt?oc=5",
-   "ts": "2026-07-18T23:35:18+00:00"
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNLXNOVkRxS1o3Q3pZUnR2TzZIVmRBbUs5MGZRYV9xRXJmVl8wUklWb0RfRjNETm5HR3Q3OEd1R3NZS0Nrc3Q0OGdQMDlVX041OGMybkpoZ0VWTFZ0Mlp4bGJmeXFUMzQ2NEpTdEFXbWh6eUNUQ1BXbkRRcHFUWnhLa3Fhdw?oc=5",
+   "ts": "2026-07-20T00:35:00+00:00"
   },
   {
-   "cat": "ai",
-   "title": "我国智能算力规模同比增长177%",
-   "brief": "工信部称我国智能算力规模达2185 EFLOPS，同比增长177%，AI基础设施高速扩张。",
-   "chain": "国内算力需求爆发→利好A股算力基建/服务器链→美股AI芯片需求预期同步提升",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607203812427155.html",
-   "ts": "2026-07-20 10:18:14"
-  },
-  {
-   "cat": "ai",
-   "title": "世界人工智能合作组织成立，AI板块大涨",
-   "brief": "世界人工智能合作组织成立，人工智能ETF大涨超4%，资金连续流入。",
-   "chain": "AI国际合作利好→提振AI产业信心→美股AI龙头受益，A股AI算力链情绪回暖",
+   "cat": "oil",
+   "title": "油气股持续走高，中国海油触及涨停",
+   "brief": "A股油气板块大涨，中国海油涨停，布油和WTI日内涨超3%，受中东冲突推动。",
+   "chain": "油价飙升→A股油气股大涨，但高油价可能抑制下游需求→莫桑比克油气资产价值提升",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607203812398163.html",
-   "ts": "2026-07-20 10:11:36"
+   "url": "https://finance.eastmoney.com/a/202607203812702134.html",
+   "ts": "2026-07-20 11:28:15"
   },
   {
    "cat": "tech",
    "title": "台积电加速亚利桑那工厂建设，押注AI趋势",
-   "brief": "台积电CFO表示正加速亚利桑那工厂建设，以抓住AI'大趋势'。",
-   "chain": "台积电扩产→AI芯片供应增加→利好美股AI硬件，A股半导体设备/材料链受益",
-   "impact": 7,
+   "brief": "台积电CFO表示，正在加速亚利桑那州工厂建设，以抓住人工智能'大趋势'带来的需求。",
+   "chain": "台积电扩产AI芯片产能→利好美股AI硬件供应链→A股算力链（光模块、服务器）受益",
+   "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/20/tsmc-arizona-fab-capacity-ai-chip-demand.html",
    "ts": "Mon, 20 Jul 2026 01:01:17 GMT"
   },
   {
-   "cat": "tech",
-   "title": "SK崔泰源：明年半导体需求至少增五成",
-   "brief": "SK集团会长崔泰源预计明年半导体需求增长至少50%，芯片设计ETF大涨。",
-   "chain": "半导体需求强劲→利好美股芯片股→A股半导体/算力链受提振",
+   "cat": "ai",
+   "title": "工信部将加快出台人工智能+软件行动方案",
+   "brief": "工信部表示将加快出台人工智能+软件行动方案，推动AI与软件产业深度融合。",
+   "chain": "中国AI政策利好→提振A股AI软件和算力板块情绪→美股AI中概股或受联动",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607203812401511.html",
-   "ts": "2026-07-20 10:13:57"
-  },
-  {
-   "cat": "macro",
-   "title": "前5月规上工业企业利润率创年内新高",
-   "brief": "工信部数据显示前5月规模以上工业企业营业收入利润率5.66%，为2024年以来最高。",
-   "chain": "企业盈利改善→经济复苏信号→利好美股中概及A股整体，但通胀担忧或压制成长股",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607203812405847.html",
-   "ts": "2026-07-20 10:15:20"
-  },
-  {
-   "cat": "macro",
-   "title": "上半年规上工业增加值同比增长5.4%",
-   "brief": "工信部公布上半年规模以上工业增加值同比增长5.4%，工业经济持续向好。",
-   "chain": "工业数据稳健→支撑A股周期板块→对美股影响中性偏正面",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607203812361063.html",
-   "ts": "2026-07-20 10:08:46"
+   "url": "https://finance.eastmoney.com/a/202607203812656384.html",
+   "ts": "2026-07-20 10:59:34"
   },
   {
    "cat": "ai",
-   "title": "制造业AI技术应用普及率超30%",
-   "brief": "工信部称上半年规模以上制造业企业AI技术应用普及率超过30%，AI落地加速。",
-   "chain": "AI工业化应用加速→利好AI软件/工业互联网→A股AI应用链受益",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607203812370648.html",
-   "ts": "2026-07-20 10:07:57"
-  },
-  {
-   "cat": "tech",
-   "title": "上半年我国集成电路出口额同比增88.7%",
-   "brief": "工信部数据显示上半年集成电路出口额同比增长88.7%，全球AI需求旺盛。",
-   "chain": "芯片出口强劲→全球半导体需求旺盛→利好美股芯片股，A股半导体链受提振",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607203812374375.html",
-   "ts": "2026-07-20 10:11:28"
-  },
-  {
-   "cat": "tech",
-   "title": "三星生物以18亿美元收购瑞士多肽集团",
-   "brief": "三星生物制剂以18亿美元全现金收购瑞士PolyPeptide Group，拓展CDMO业务。",
-   "chain": "生物制药并购活跃→利好美股生物科技板块→A股CXO链受情绪带动",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/20/samsung-biologics-polypeptide-group-deal-switzerland.html",
-   "ts": "Mon, 20 Jul 2026 02:12:11 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "住房成本成年轻选民首要政治议题",
-   "brief": "CNBC调查显示住房成本是年轻选民最关心的政治问题，可能影响选举政策。",
-   "chain": "住房成本高企→美联储降息预期受压制→美股利率敏感板块承压",
-   "impact": 4,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/19/housing-costs-election-young-voters-cnbc-survey-finds.html",
-   "ts": "Sun, 19 Jul 2026 12:00:01 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "上半年高技术制造业增加值增13.3%",
-   "brief": "工信部公布上半年规模以上装备制造业、高技术制造业增加值同比分别增长9.3%、13.3%。",
-   "chain": "中国制造业升级信号→利好美股半导体/工业板块→映射A股高端制造/半导体设备链",
+   "title": "AI板块轮动抢走财报季风头",
+   "brief": "AI相关股票表现强劲，从财报季中抢走市场关注，投资者聚焦AI增长前景。",
+   "chain": "AI板块受追捧→资金从传统科技股流向AI→A股AI算力链获情绪支撑",
    "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607203812388589.html",
-   "ts": "2026-07-20 10:12:45"
-  },
-  {
-   "cat": "macro",
-   "title": "沪深两市成交额突破1万亿元",
-   "brief": "7月20日早盘沪深两市成交额突破1万亿元，较前日放量超200亿元。",
-   "chain": "A股放量→市场情绪回暖→利好美股中概及A股科技板块",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607203812384433.html",
-   "ts": "2026-07-20 10:12:51"
-  },
-  {
-   "cat": "macro",
-   "title": "贵州茅台上调i茅台平台零售价",
-   "brief": "贵州茅台上调飞天茅台i茅台平台零售价及合同价，食品饮料ETF大涨超2.4%。",
-   "chain": "消费龙头提价→防御属性凸显→对美股AI成长股估值无直接传导",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607203812412559.html",
-   "ts": "2026-07-20 10:13:16"
-  },
-  {
-   "cat": "geo",
-   "title": "黎巴嫩总统将访美会晤特朗普",
-   "brief": "黎巴嫩总统Aoun计划访问白宫与特朗普会面，希望借美国向以色列施压。",
-   "chain": "黎以紧张局势外交斡旋→中东地缘风险缓和→对美股及A股影响中性偏正面",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOU4yVVlYeXdhdDFTY0pNZUZjSzRvWE1mWi1NcF9MVUI5Y3N3aTRrRzU2RnpCc2tzVV9LS21EQ1RPdUFDN0VnVURKZ0V5RTFScVUtTElSUlp3VU1xZE45UWY3ZmV6cnFmeEVFSE4yMEZ5UVFmVEFwczBtRzdoS3dyUGszV2V3anJEOTBOQ3l0bS16aU0zeU8tYUdwSzRBenlEZmVVT2oxNjZCU21mbkRzN1JIakN4UnoxRlpJWjVCNA?oc=5",
-   "ts": "2026-07-19T06:03:00+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "世界杯后油价成市场焦点",
-   "brief": "CNBC每日开盘：西班牙夺冠后，油价成为市场关注焦点。",
-   "chain": "地缘风险叠加OPEC+预期→油价波动→影响莫桑比克油气项目收益预期",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/20/cnbc-daily-open-spain-world-cup-us-iran-oil.html",
-   "ts": "Mon, 20 Jul 2026 01:31:47 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "AI轮动抢走财报季风头",
-   "brief": "CNBC分析：AI板块轮动从强劲的财报季中抢走关注，市场聚焦AI主题。",
-   "chain": "AI主题持续主导市场→资金从传统科技流向AI→映射A股AI算力链",
-   "impact": 8,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/07/18/the-ai-rotation-stole-the-spotlight-from-a-strong-start-to-earnings-season-.html",
    "ts": "Sat, 18 Jul 2026 16:33:19 GMT"
   },
   {
    "cat": "tech",
-   "title": "芯片股回调后仍看涨",
-   "brief": "分析师表示尽管某芯片股本月回调30%，仍保持看涨立场。",
-   "chain": "芯片股回调后价值显现→美股半导体板块有望反弹→映射A股半导体设备链",
+   "title": "三星生物以18亿美元现金收购瑞士PolyPeptide",
+   "brief": "三星生物制剂以18亿美元全现金收购瑞士PolyPeptide集团，扩大CDMO业务。",
+   "chain": "生物科技并购活跃→美股生物科技板块受提振→A股CXO板块情绪联动",
    "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/17/we-remain-bullish-on-this-chip-stock-despite-a-30percent-pullback-this-month.html",
-   "ts": "Fri, 17 Jul 2026 15:55:17 GMT"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/20/samsung-biologics-polypeptide-group-deal-switzerland.html",
+   "ts": "Mon, 20 Jul 2026 03:19:36 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "住房成本成为年轻选民首要政治议题",
+   "brief": "CNBC调查显示，住房成本是年轻选民最关心的政治议题，可能影响中期选举政策走向。",
+   "chain": "住房成本高企→美联储降息预期受压制→美股利率敏感板块承压→A股地产链情绪偏弱",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/19/housing-costs-election-young-voters-cnbc-survey-finds.html",
+   "ts": "Sun, 19 Jul 2026 12:00:01 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "黎巴嫩总统将访白宫，施压以色列",
+   "brief": "黎巴嫩总统奥恩计划与特朗普会面，希望美国对以色列施加压力，缓解黎以边境紧张。",
+   "chain": "黎以外交动态→中东局势不确定性→油价维持高位，避险情绪支撑黄金",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOU4yVVlYeXdhdDFTY0pNZUZjSzRvWE1mWi1NcF9MVUI5Y3N3aTRrRzU2RnpCc2tzVV9LS21EQ1RPdUFDN0VnVURKZ0V5RTFScVUtTElSUlp3VU1xZE45UWY3ZmV6cnFmeEVFSE4yMEZ5UVFmVEFwczBtRzdoS3dyUGszV2V3anJEOTBOQ3l0bS16aU0zeU8tYUdwSzRBenlEZmVVT2oxNjZCU21mbkRzN1JIakN4UnoxRlpJWjVCNA?oc=5",
+   "ts": "2026-07-19T06:03:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "伊朗最高领袖称特朗普签字'一文不值'",
+   "brief": "伊朗最高领袖哈梅内伊指责美国背信，称特朗普的签字毫无价值，暗示外交解决困难。",
+   "chain": "伊朗强硬表态→美伊冲突短期难缓和→油价高位运行，避险资产受益",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdzdnRWcydkxHbFRjbEdiRnZnMUFwclQ1N3ZwZTVHbWRKMTFNb21ldHhfNDRBaFF1VmRoRHpUTFJlREVhc0MwZUExOUlxcWlvejU0X256Q2J4MzE0QTVaWG42WGpMS0NVcWNzOXJqX1RQRjh1czFncm1DM2ZfWm9xT0pkSWxLeDZ2ZU1mOE9KQy1JMGFyMlRCamNBSjVWNExTUkRTNXVvX0w1YWREaXJCMmNVUXVZR2oxVlBLd0lWdnB1WFUt?oc=5",
+   "ts": "2026-07-18T23:35:18+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "中国海油盘中涨停，油气板块大涨",
+   "brief": "中国海油涨停，成交额超23亿元，油气板块受国际油价上涨带动集体走强。",
+   "chain": "油价上涨→A股油气股受益，但高油价或推升通胀→莫桑比克油气资产价值重估",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607203812706787.html",
+   "ts": "2026-07-20 11:31:02"
   },
   {
    "cat": "tech",
-   "title": "亚马逊Zoox因烟雾事故召回",
-   "brief": "亚马逊旗下Zoox因自动驾驶出租车驶入浓烟而发起软件召回。",
-   "chain": "自动驾驶安全事件→短期利空自动驾驶板块→对A股相关概念影响有限",
-   "impact": 4,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/17/amazon-zoox-recalls-robotaxi-smoke.html",
-   "ts": "Fri, 17 Jul 2026 14:42:04 GMT"
+   "title": "中际旭创成交额超300亿元，涨6.35%",
+   "brief": "中际旭创成交额突破300亿元，股价上涨6.35%，市场关注AI算力需求。",
+   "chain": "AI算力需求旺盛→光模块龙头受追捧→A股算力链情绪高涨",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607203812663947.html",
+   "ts": "2026-07-20 11:07:44"
+  },
+  {
+   "cat": "ai",
+   "title": "VITURE发布Auto Immersive 3D技术",
+   "brief": "在世界人工智能大会上，XR眼镜品牌VITURE发布全新Auto Immersive 3D技术，依托颈环实现沉浸式体验。",
+   "chain": "AI+XR技术突破→利好美股AR/VR产业链→A股消费电子和AI硬件概念受益",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607203812674252.html",
+   "ts": "2026-07-20 11:14:34"
+  },
+  {
+   "cat": "macro",
+   "title": "沪深两市成交额突破1.5万亿，放量近900亿",
+   "brief": "沪深两市成交额突破1.5万亿元，较上一交易日放量近900亿元，市场情绪活跃。",
+   "chain": "A股放量上涨→市场风险偏好提升→利好科技和AI板块，但需关注持续性",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607203812657592.html",
+   "ts": "2026-07-20 11:02:29"
+  },
+  {
+   "cat": "oil",
+   "title": "布伦特原油突破90美元，中东风险加剧",
+   "brief": "布伦特原油价格突破90美元，因美伊紧张局势升级，市场担忧供应中断。",
+   "chain": "美伊冲突→油价突破90美元→莫桑比克油气出口受益，但航运成本上升",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/20/oil-prices-today-brent-wti-crude-us-iran-centcom-hormuz.html",
+   "ts": "Mon, 20 Jul 2026 03:27:10 GMT"
   }
  ]
 }
