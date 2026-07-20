@@ -1,217 +1,240 @@
 {
  "asof": "2026-07-20",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-07-20T08:03+08:00",
+ "generated_at": "2026-07-20T10:22+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 19,
+  "cluster_label": "中东/伊拉克/伊朗",
+  "cluster_dropped": [
+   "伊朗称袭击约旦境内美军，打死数十人",
+   "两名美军在约旦遭伊朗袭击身亡",
+   "布伦特原油突破90美元，中东风险升温",
+   "海湾股市因美伊冲突下跌",
+   "一名美军在伊拉克北部阵亡"
+  ],
+  "backfilled": 8
+ },
  "items": [
   {
    "cat": "geo",
-   "title": "美伊冲突升级，美军再袭伊朗",
-   "brief": "美军在伊朗袭击导致两名士兵死亡后，对伊朗发动新一轮打击，冲突持续升级。",
-   "chain": "美伊冲突加剧→避险情绪升温→美股能源股上涨，A股军工/石油链受关注",
+   "title": "美军连续第7晚打击伊朗，中东局势升级",
+   "brief": "美军完成对伊朗的最新打击，连续第7晚发动攻击，中东紧张局势持续升级。",
+   "chain": "美伊冲突加剧→避险情绪升温→美股波动加大，A股军工/黄金链受关注",
    "impact": 10,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcmZSOG9seXNyMUFGTW1NMF9XWUVNYUZLczBFRWFTTDZZYnRjX081R3pnUzl6NTFVM053aG50T09hb2pMSlFxTGV6T2V0ZEZaRUFtNjVTSk01MWFrb05KcHdVdHZHMktERXlFVEdKTGFrTlo0cl9SY0hjb0dpb01rMDh6Z2l5MFoyWGI2VjA3cGx1UTN1T1RqU0RCeHVLdVlWUEJIU0dHaFl2SEpKN1AySUlMeUJPQVBtWUtPY1BHUUw5bGZxTEpCRQ?oc=5",
-   "ts": "2026-07-18T23:21:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNd1Zpc0tXYzd1NVhsVFJ2VHRXTkl5ZTA0Y0I0Yk9TeFNKbFZoRWpEWTM0Y0NBdmlKUFJIMHlFRGdYWTNDZEF2THo1azkyV3JabU9GOUxGQ3hwY2pxOUJXVUVlaUxHeFpiNVFxYVA2NTZmMTNLOHY1b3JjTVJfT0piMnFoZ2ZicnVXUkdMWG5jY21MUUxLZnpKeDB0V2NqaEdyWHZBTzRXV18zQzhJek9tREx3MW8wcGVaa25MbExTV0tXZWZyd2x3X21ueGNUUQ?oc=5",
+   "ts": "2026-07-18T02:40:00+00:00"
   },
   {
    "cat": "oil",
-   "title": "海湾原油出口激增但航运放缓",
-   "brief": "7月海湾原油出口量上升，但受美伊冲突影响，油轮运输速度放缓。",
-   "chain": "出口增加但航运受阻→短期油价波动加剧→莫桑比克油气出口或受益于替代航线需求",
+   "title": "布伦特原油突破90美元，美伊互袭",
+   "brief": "布伦特原油价格突破90美元/桶，因美国和伊朗在中东加强军事打击。",
+   "chain": "油价飙升→全球通胀压力加大→莫桑比克油气项目受益，但运营风险上升",
+   "impact": 10,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbDB0dzIyZzhDNXdvemNBWHdxR3dnWXcwVk4xM082SDRRTm9xel9yX3hJeFBDN1hyQXZpRlVWcElHNi13amFSaXFZLUEtYWpva20xcmFjLWt2TEc0QjFlMDJRMHFPZ3dpb0hZNlBib1ZMNk4xNXdPcmNfUHRpRzNzVDRtdmZlY2MydWVLdS1uVnZXSkdHZjlYelZOZ1M0SXlnVzlBSGFUUU43YlE?oc=5",
+   "ts": "2026-07-20T00:16:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "霍尔木兹海峡油轮稀少，LNG浮仓增加",
+   "brief": "数据显示进入霍尔木兹海峡装载石油和LNG的油轮减少，浮式储存量上升。",
+   "chain": "霍尔木兹航运受阻→供应中断风险→油价气价上涨，莫桑比克LNG出口竞争力增强",
    "impact": 9,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxON0s2bmk4NkZfVGZ5R2tpZzEwYXo4Ymhxb0lyYUlNQlR4X29mekhzS0RGUndSMllMbnpZTGdRYlRZV3NmT0dBNGFyOTkxSFNTZEJTcE05cWtoNzREYU16TW5IUGJ4Zm9qa0lkbUI5Rmg1X1dldEI4MnZJdjNLcTBjTlkyMnRPSzRaUGdtNG9hWFRkaExsV3B4S3ZTb3ptaGlmM2w1ZWcteU5Jc1RTSGFRVjJncHZZLXoxUFliWTFWdGhHWnlkSkRudQ?oc=5",
-   "ts": "2026-07-19T11:03:43+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "霍尔木兹油轮面临最坏情况",
-   "brief": "伊朗加强攻击船只，霍尔木兹海峡油轮面临严重威胁，航运风险飙升。",
-   "chain": "霍尔木兹航运风险→油价上涨风险→莫桑比克LNG出口需关注替代航线成本",
-   "impact": 9,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/17/iran-war-oil-tanker-strait-hormuz-traffic-attacks-trump.html",
-   "ts": "Sat, 18 Jul 2026 21:16:31 GMT"
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcXJLRU1YX1JLOTBVdFVRLUlWNEh5N1BjVkNWQktyNkFaMXdSVTNGcklmNUJuckpzcVEtenNPX1E3TnRBQTF1REFyQmw0cEJLY1J1MW1Oc3JoaEIzdlBEWnNxX1F1OS03UWk5V3g3RVNLNS1iNFQ5bGdTdS1DWnFkU1VSSTR4WEJkRWhMcUIydkFJTndVYmJxTHR5Umw?oc=5",
+   "ts": "2026-07-19T23:16:00+00:00"
   },
   {
    "cat": "geo",
-   "title": "两名美军在约旦遭伊朗袭击身亡",
-   "brief": "美国确认两名军人在约旦的伊朗袭击中丧生，中东局势急剧恶化。",
-   "chain": "美军伤亡→美国报复风险→全球避险情绪升温，美股承压，A股黄金/军工链受关注",
-   "impact": 10,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUVgwRnh4bGg5bXVrMEdSNXEydXpjb0dCTmQwQlV2MHlydHJTU05DcUxIbktrZW82aGUwZ2F4R2h6bkJXOEpFQy1DREthRVFySzUzNkpVMGNSdXdTMlVjVFR4ZTkyYlRqRTU4bEo1cHR1Y3RMSDJ0UV9Ed01tbnVZbUdyN29ZZWpqQU5VZDd3b3dkS0VlMVp5UUJSZHdPVUUzVjZGNmFHWUJOYWVFZDd0ekJnV293QTg?oc=5",
-   "ts": "2026-07-18T22:01:10+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "美联储主席Warsh面临通胀信誉考验",
-   "brief": "国会听证会后，美联储主席Warsh面临通胀管理信誉挑战，市场关注利率路径。",
-   "chain": "通胀压力+鹰派预期→美债收益率上行→美股估值承压，A股成长股受传导",
+   "title": "伊朗最高领袖称特朗普签名'一文不值'",
+   "brief": "伊朗最高领袖哈梅内伊指责美国背信，称特朗普的签名毫无价值，外交僵局持续。",
+   "chain": "美伊外交无望→冲突持续→避险情绪支撑金价，美股能源/军工受益",
    "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/15/fed-chairman-kevin-warsh-inflation-credibility-test-analysis.html",
-   "ts": "Fri, 17 Jul 2026 20:28:40 GMT"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdzdnRWcydkxHbFRjbEdiRnZnMUFwclQ1N3ZwZTVHbWRKMTFNb21ldHhfNDRBaFF1VmRoRHpUTFJlREVhc0MwZUExOUlxcWlvejU0X256Q2J4MzE0QTVaWG42WGpMS0NVcWNzOXJqX1RQRjh1czFncm1DM2ZfWm9xT0pkSWxLeDZ2ZU1mOE9KQy1JMGFyMlRCamNBSjVWNExTUkRTNXVvX0w1YWREaXJCMmNVUXVZR2oxVlBLd0lWdnB1WFUt?oc=5",
+   "ts": "2026-07-18T23:35:18+00:00"
   },
   {
-   "cat": "macro",
-   "title": "黄金创六周最大周跌幅",
-   "brief": "通胀担忧和加息预期导致黄金价格创下六周来最大单周跌幅。",
-   "chain": "通胀+加息预期→美元走强，黄金承压→避险资产配置调整，A股黄金股短期承压",
+   "cat": "ai",
+   "title": "我国智能算力规模同比增长177%",
+   "brief": "工信部称我国智能算力规模达2185 EFLOPS，同比增长177%，AI基础设施高速扩张。",
+   "chain": "国内算力需求爆发→利好A股算力基建/服务器链→美股AI芯片需求预期同步提升",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607203812427155.html",
+   "ts": "2026-07-20 10:18:14"
+  },
+  {
+   "cat": "ai",
+   "title": "世界人工智能合作组织成立，AI板块大涨",
+   "brief": "世界人工智能合作组织成立，人工智能ETF大涨超4%，资金连续流入。",
+   "chain": "AI国际合作利好→提振AI产业信心→美股AI龙头受益，A股AI算力链情绪回暖",
    "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWE9UR3M4eEdZWDhiT2EyMnFxejhVbjV3Z3p3NGZaZmdwaXZHODI1MVh5dHY1YVNPVFBjZW81S2dDZzY3a3RTSi1SSkdReDBMOUFmSEVTVlhhcDZ0ZDY2RnJFVHRNLVBRMkJocXdOX1RpOGNqeUZrbzFlMW5SY0lsbXREaEhpOEFuQVlBZGtLZ1NNOTFsTVlqOFU0cUkwSmRjUlJXXzN0SHQ2SkluQ0E2bXFJWUk?oc=5",
-   "ts": "2026-07-17T21:03:00+00:00"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607203812398163.html",
+   "ts": "2026-07-20 10:11:36"
   },
   {
    "cat": "tech",
-   "title": "全球股市因半导体抛售下跌",
-   "brief": "半导体板块暴跌拖累全球股市，同时中东局势推高油价。",
-   "chain": "半导体抛售→美股科技股下跌→A股算力/芯片链受情绪传导",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVTBUX2ZaNk9EY2M2SU5BaEw4VkRFXzF6OE1MeENrcVRwT1hnd2gtbzVDODJ3VUh2ZXdOYi03b2ZobHhhdlMzSE1fOWM0b3lWTlh1Q2VENEFFdHlKWmNuOVltd0R4X254aFM0SmNjZ3RIWVNqREU3OXlHSFNsUGtBUXYyUQ?oc=5",
-   "ts": "2026-07-17T22:51:35+00:00"
-  },
-  {
-   "cat": "tech",
-   "title": "台积电加速亚利桑那工厂建设",
-   "brief": "台积电CFO表示将加速亚利桑那工厂建设，以抓住AI大趋势。",
-   "chain": "台积电扩产→AI算力供应增加→利好美股AI硬件，A股半导体设备/材料链受益",
+   "title": "台积电加速亚利桑那工厂建设，押注AI趋势",
+   "brief": "台积电CFO表示正加速亚利桑那工厂建设，以抓住AI'大趋势'。",
+   "chain": "台积电扩产→AI芯片供应增加→利好美股AI硬件，A股半导体设备/材料链受益",
    "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/20/tsmc-arizona-fab-capacity-ai-chip-demand.html",
-   "ts": "Sun, 19 Jul 2026 23:42:33 GMT"
+   "ts": "Mon, 20 Jul 2026 01:01:17 GMT"
   },
   {
    "cat": "tech",
-   "title": "苹果与英伟达争夺市值第一",
-   "brief": "苹果和英伟达股价接近，竞争全球市值最高公司。",
-   "chain": "市值之争反映科技巨头地位→美股科技板块波动→A股苹果/英伟达供应链受关注",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/17/apple-nvidia-aapl-nvda-market-cap.html",
-   "ts": "Fri, 17 Jul 2026 20:22:41 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "白宫掌控前沿AI模型准入",
-   "brief": "白宫正主导前沿AI模型的访问权限，权力从科技巨头转移。",
-   "chain": "AI监管加强→影响AI模型商业化→美股AI公司面临政策风险，A股AI监管/安全概念受关注",
-   "impact": 8,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/17/white-house-ai-access-anthropic-openai.html",
-   "ts": "Fri, 17 Jul 2026 23:10:07 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "Anthropic与Meta洽谈算力收购",
-   "brief": "Anthropic正与Meta早期谈判，拟收购算力资源。",
-   "chain": "AI算力需求旺盛→算力资源价值凸显→美股AI基础设施受益，A股算力租赁/服务器链受关注",
+   "title": "SK崔泰源：明年半导体需求至少增五成",
+   "brief": "SK集团会长崔泰源预计明年半导体需求增长至少50%，芯片设计ETF大涨。",
+   "chain": "半导体需求强劲→利好美股芯片股→A股半导体/算力链受提振",
    "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/17/anthropic-meta-ai-compute.html",
-   "ts": "Fri, 17 Jul 2026 19:52:07 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607203812401511.html",
+   "ts": "2026-07-20 10:13:57"
   },
   {
-   "cat": "ai",
-   "title": "中国AI能力提升，开源权重模型受关注",
-   "brief": "中国AI水平进步，开源权重模型成为焦点，全球AI竞争格局变化。",
-   "chain": "中国AI进步→全球AI竞争加剧→美股AI公司面临挑战，A股国产AI/算力链受益",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic-china.html",
-   "ts": "Sat, 18 Jul 2026 01:03:47 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "习近平向发展中国家推介AI合作",
-   "brief": "习近平表示中国愿与发展中国家合作AI，警告安全过度扩张风险。",
-   "chain": "中国AI外交→推动全球AI合作→利好A股AI出海/一带一路链",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/17/x-china-ai-summit-risks-security.html",
-   "ts": "Fri, 17 Jul 2026 06:16:04 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "中信建投看好GPU/CPU/存储等算力环节",
-   "brief": "中信建投研报指出，Kimi K3发布，国产模型参与全球竞争，看好算力基础设施。",
-   "chain": "国产AI模型进步→算力需求增长→A股GPU/CPU/存储/算力租赁链受益",
+   "cat": "macro",
+   "title": "前5月规上工业企业利润率创年内新高",
+   "brief": "工信部数据显示前5月规模以上工业企业营业收入利润率5.66%，为2024年以来最高。",
+   "chain": "企业盈利改善→经济复苏信号→利好美股中概及A股整体，但通胀担忧或压制成长股",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607203811939034.html",
-   "ts": "2026-07-20 07:32:02"
-  },
-  {
-   "cat": "tech",
-   "title": "美中AI之争使ASML在销售与地缘间走钢丝",
-   "brief": "ASML在中美AI竞争中面临销售与地缘政治平衡的挑战。",
-   "chain": "出口管制风险→半导体设备供应受限→美股ASML承压，A股半导体国产替代链受益",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/17/us-china-ai-feud-asml-tightrope-sales-geopolitics.html",
-   "ts": "Fri, 17 Jul 2026 11:48:14 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "软银因亚洲芯片股抛售暴跌超9%",
-   "brief": "软银股价大跌，受亚洲芯片股跟随华尔街AI抛售影响。",
-   "chain": "芯片股抛售→科技股估值回调→美股科技板块调整，A股芯片/算力链受情绪传导",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/17/softbank-chip-stocks-asia-wall-street-ai-rout.html",
-   "ts": "Fri, 17 Jul 2026 08:02:18 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "SpaceX股价自纳入纳斯达克100后跌近23%",
-   "brief": "SpaceX股价自加入纳斯达克100指数后大幅下跌。",
-   "chain": "SpaceX股价下跌→太空概念股承压→美股科技板块分化，A股商业航天链受情绪影响",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/17/spacex-stock-starship-test-flight-aborted.html",
-   "ts": "Fri, 17 Jul 2026 20:33:34 GMT"
+   "url": "https://finance.eastmoney.com/a/202607203812405847.html",
+   "ts": "2026-07-20 10:15:20"
   },
   {
    "cat": "macro",
-   "title": "外资增持印度国债，股市遭抛售",
-   "brief": "外国投资者增持印度政府债券，但印度股市出现抛售。",
-   "chain": "外资流入印度债市→新兴市场资金流向变化→对A股资金面影响有限",
+   "title": "上半年规上工业增加值同比增长5.4%",
+   "brief": "工信部公布上半年规模以上工业增加值同比增长5.4%，工业经济持续向好。",
+   "chain": "工业数据稳健→支撑A股周期板块→对美股影响中性偏正面",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607203812361063.html",
+   "ts": "2026-07-20 10:08:46"
+  },
+  {
+   "cat": "ai",
+   "title": "制造业AI技术应用普及率超30%",
+   "brief": "工信部称上半年规模以上制造业企业AI技术应用普及率超过30%，AI落地加速。",
+   "chain": "AI工业化应用加速→利好AI软件/工业互联网→A股AI应用链受益",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607203812370648.html",
+   "ts": "2026-07-20 10:07:57"
+  },
+  {
+   "cat": "tech",
+   "title": "上半年我国集成电路出口额同比增88.7%",
+   "brief": "工信部数据显示上半年集成电路出口额同比增长88.7%，全球AI需求旺盛。",
+   "chain": "芯片出口强劲→全球半导体需求旺盛→利好美股芯片股，A股半导体链受提振",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607203812374375.html",
+   "ts": "2026-07-20 10:11:28"
+  },
+  {
+   "cat": "tech",
+   "title": "三星生物以18亿美元收购瑞士多肽集团",
+   "brief": "三星生物制剂以18亿美元全现金收购瑞士PolyPeptide Group，拓展CDMO业务。",
+   "chain": "生物制药并购活跃→利好美股生物科技板块→A股CXO链受情绪带动",
    "impact": 5,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/16/fii-buy-india-bonds-sell-nifty.html",
-   "ts": "Thu, 16 Jul 2026 08:01:32 GMT"
+   "url": "https://www.cnbc.com/2026/07/20/samsung-biologics-polypeptide-group-deal-switzerland.html",
+   "ts": "Mon, 20 Jul 2026 02:12:11 GMT"
   },
   {
    "cat": "macro",
-   "title": "日本债券市场重返活跃",
-   "brief": "日本债券市场在沉寂数十年后重新活跃，受央行政策影响。",
-   "chain": "日债活跃→全球利率环境变化→影响美股估值，A股外资流动受间接传导",
-   "impact": 5,
+   "title": "住房成本成年轻选民首要政治议题",
+   "brief": "CNBC调查显示住房成本是年轻选民最关心的政治问题，可能影响选举政策。",
+   "chain": "住房成本高企→美联储降息预期受压制→美股利率敏感板块承压",
+   "impact": 4,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/14/japan-bond-jgb-yields-.html",
-   "ts": "Wed, 15 Jul 2026 01:28:09 GMT"
+   "url": "https://www.cnbc.com/2026/07/19/housing-costs-election-young-voters-cnbc-survey-finds.html",
+   "ts": "Sun, 19 Jul 2026 12:00:01 GMT"
   },
   {
-   "cat": "geo",
-   "title": "特朗普提议将伊朗纳入对俄制裁法案",
-   "brief": "特朗普表示共和党应将伊朗加入针对俄罗斯的制裁法案。",
-   "chain": "对伊制裁扩大→地缘风险上升→油价上涨预期，A股石油链受关注",
+   "cat": "macro",
+   "title": "上半年高技术制造业增加值增13.3%",
+   "brief": "工信部公布上半年规模以上装备制造业、高技术制造业增加值同比分别增长9.3%、13.3%。",
+   "chain": "中国制造业升级信号→利好美股半导体/工业板块→映射A股高端制造/半导体设备链",
    "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMnFZbzUwRlM5eW5NN1JqbnNQcHdUdEsxRk11OEdEeEJ4RnltcERZSkl0dlVneU5mYlhURlN4R2F1TUliWjZ2dVZUX3dJS3JucHBEUG5hY04yUUgzWnF3SHVaNTBwb3o3cUdqNEVLWGttNjdqZ2lzSDJWQy1LeW1saG9xSjZxaXpzSFg1QzNWeG50MmtDRnpVb2NsNFlpRENJSjJ4ZTlfby0?oc=5",
-   "ts": "2026-07-19T12:11:49+00:00"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607203812388589.html",
+   "ts": "2026-07-20 10:12:45"
+  },
+  {
+   "cat": "macro",
+   "title": "沪深两市成交额突破1万亿元",
+   "brief": "7月20日早盘沪深两市成交额突破1万亿元，较前日放量超200亿元。",
+   "chain": "A股放量→市场情绪回暖→利好美股中概及A股科技板块",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607203812384433.html",
+   "ts": "2026-07-20 10:12:51"
+  },
+  {
+   "cat": "macro",
+   "title": "贵州茅台上调i茅台平台零售价",
+   "brief": "贵州茅台上调飞天茅台i茅台平台零售价及合同价，食品饮料ETF大涨超2.4%。",
+   "chain": "消费龙头提价→防御属性凸显→对美股AI成长股估值无直接传导",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607203812412559.html",
+   "ts": "2026-07-20 10:13:16"
   },
   {
    "cat": "geo",
-   "title": "以色列将获更多美加油机应对伊朗",
-   "brief": "以色列官员称将接收更多美国空中加油机，以应对伊朗袭击升级。",
-   "chain": "美以军事合作→中东局势紧张→避险情绪升温，美股军工股受益，A股军工链受关注",
+   "title": "黎巴嫩总统将访美会晤特朗普",
+   "brief": "黎巴嫩总统Aoun计划访问白宫与特朗普会面，希望借美国向以色列施压。",
+   "chain": "黎以紧张局势外交斡旋→中东地缘风险缓和→对美股及A股影响中性偏正面",
    "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOR28xNFpKXzVoWU9qY0YtNnBqZlh4ck9aeTZnc1VlOVVKaTczV2J1M1pqSmRwUFc1TnFIRU5wRktydXhhXzhSY1ctbDhzU3dkX3I0dEliRDFJWDNUaFkzUUFsMEg4NnV2SWFpOGFhdHdMRHc2SDc4NE0tcXhpZ0VUVGNTQUVQazZONGdlT3hvbm4tQ0RoaFNBVkZWR0pBTlhiRmNJMnl1RFdzWWRrQl83akkybFFRUy1odzdkdFFmTmhXbS1fNDNPcG9UY0RjeFk?oc=5",
-   "ts": "2026-07-19T11:51:03+00:00"
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOU4yVVlYeXdhdDFTY0pNZUZjSzRvWE1mWi1NcF9MVUI5Y3N3aTRrRzU2RnpCc2tzVV9LS21EQ1RPdUFDN0VnVURKZ0V5RTFScVUtTElSUlp3VU1xZE45UWY3ZmV6cnFmeEVFSE4yMEZ5UVFmVEFwczBtRzdoS3dyUGszV2V3anJEOTBOQ3l0bS16aU0zeU8tYUdwSzRBenlEZmVVT2oxNjZCU21mbkRzN1JIakN4UnoxRlpJWjVCNA?oc=5",
+   "ts": "2026-07-19T06:03:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "世界杯后油价成市场焦点",
+   "brief": "CNBC每日开盘：西班牙夺冠后，油价成为市场关注焦点。",
+   "chain": "地缘风险叠加OPEC+预期→油价波动→影响莫桑比克油气项目收益预期",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/20/cnbc-daily-open-spain-world-cup-us-iran-oil.html",
+   "ts": "Mon, 20 Jul 2026 01:31:47 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "AI轮动抢走财报季风头",
+   "brief": "CNBC分析：AI板块轮动从强劲的财报季中抢走关注，市场聚焦AI主题。",
+   "chain": "AI主题持续主导市场→资金从传统科技流向AI→映射A股AI算力链",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/18/the-ai-rotation-stole-the-spotlight-from-a-strong-start-to-earnings-season-.html",
+   "ts": "Sat, 18 Jul 2026 16:33:19 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "芯片股回调后仍看涨",
+   "brief": "分析师表示尽管某芯片股本月回调30%，仍保持看涨立场。",
+   "chain": "芯片股回调后价值显现→美股半导体板块有望反弹→映射A股半导体设备链",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/17/we-remain-bullish-on-this-chip-stock-despite-a-30percent-pullback-this-month.html",
+   "ts": "Fri, 17 Jul 2026 15:55:17 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "亚马逊Zoox因烟雾事故召回",
+   "brief": "亚马逊旗下Zoox因自动驾驶出租车驶入浓烟而发起软件召回。",
+   "chain": "自动驾驶安全事件→短期利空自动驾驶板块→对A股相关概念影响有限",
+   "impact": 4,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/17/amazon-zoox-recalls-robotaxi-smoke.html",
+   "ts": "Fri, 17 Jul 2026 14:42:04 GMT"
   }
  ]
 }
