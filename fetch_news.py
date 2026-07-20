@@ -144,13 +144,20 @@ def main():
         counts[label] = len(items)
         cands += items
         print(f"  {label}: {len(items)} 条")
-    # 标题归一化去重(保留先到的:finnhub → 东财 → rss)
-    seen, dedup = set(), []
+    # 标题归一化去重 + URL 去重(保留先到的:finnhub → 东财 → rss)
+    # URL 键必须有:Finnhub 与 RSS 常各带同一篇文章(同 Google News 跳转 URL、标题小改),
+    # 只按标题去重会漏——2026-07-19 实测同 URL 双入候选池,被 DeepSeek 各引一次重复上页 4 对。
+    seen, seen_u, dedup = set(), set(), []
     for it in cands:
         k = _norm(it["title"])
+        u = (it.get("url") or "").strip()
         if not k or k in seen:
             continue
+        if u and u in seen_u:
+            continue
         seen.add(k)
+        if u:
+            seen_u.add(u)
         dedup.append(it)
     out = {"asof": TODAY,
            "fetched_at": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat(timespec="minutes"),

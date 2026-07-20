@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """「全球市场头条」页渲染:读最新 state/news_<date>.json → state/news.html。
-双档布局(🌍宏观/地缘 → 🤖科技/AI 产业),每条带「传导链」高亮(事件→美股→A股)。
-新鲜度诚实标注:头条非今日则橙色横幅明示。CI 把 news.html 拷进 docs 顶层→自动进加密循环(锁 8888)。"""
+六档布局(宏观/地缘/石油/天然气/科技/AI),每条带「传导链」高亮(事件→美股→A股 · 油气→莫桑东非)。
+新鲜度诚实标注:头条非今日则橙色横幅明示;程序化事件簇护栏有动作时蓝色横幅透明披露(不静默裁撤)。
+CI 把 news.html 拷进 docs 顶层→自动进加密循环(锁 8888)。"""
 import os, re, json, glob, datetime
 
 DIR = os.path.dirname(os.path.abspath(__file__))
@@ -11,7 +12,9 @@ _BJ = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8)))
 TODAY = _BJ.date().isoformat()
 BUILD_TS = _BJ.strftime("%Y-%m-%d %H:%M")
 
-CAT = {"macro": ("🏦 宏观", "利率 · 通胀 · 就业 · 关税/贸易 · 央行/财政 · 官方数据", "#7ab8ff"),
+# 黄金/贵金属按 2026-07-19 四专家评审全票结论归宏观档显式抬升(避险·实际利率·央行购金/去美元化
+# 风向标),不另设第7档——候选日均≈1.5条撑不起独立档,单设=死板块+人为放大权重,违站点铁律。
+CAT = {"macro": ("🏦 宏观", "利率 · 通胀 · 就业 · 关税/贸易 · 央行/财政 · 官方数据 · 黄金/贵金属(避险·实际利率风向标)", "#7ab8ff"),
        "geo": ("🌍 地缘", "地缘冲突 · 大国博弈 · 制裁 · 选举 · 地区局势", "#a78bfa"),
        "oil": ("🛢️ 石油", "OPEC+ · 原油价 Brent/WTI · 石油巨头 · 炼油与航运(霍尔木兹/苏伊士)", "#f97316"),
        "gas": ("🔥 天然气", "LNG · 天然气价 Henry Hub/TTF · 莫桑比克/东非气田(Rovuma/Cabo Delgado)· 联合能源 Union", "#fbbf24"),
@@ -136,6 +139,20 @@ def main():
         except Exception:
             pass
         fresh = f'<div class="fresh stale">🟠 <b>头条仍是 {news_date}({days} 天前)</b>——今日采集/研判未跑通,内容仅供参考</div>'
+    # 程序化事件簇护栏透明披露(不静默裁撤——数据真实性铁律:凡有兜底/裁撤,页面必须可见)
+    g = news.get("guard") or {}
+    gdrop = g.get("cluster_dropped") or []
+    if gdrop or g.get("url_dups_dropped") or g.get("backfilled"):
+        parts = []
+        if g.get("url_dups_dropped"):
+            parts.append(f'同文重复去重 {esc(g.get("url_dups_dropped"))} 条')
+        if gdrop:
+            lbl = esc(g.get("cluster_label") or "热点")
+            parts.append(f'「{lbl}」事件簇超限裁撤 {len(gdrop)} 条(硬上限2:事件本身+市场传导各1)')
+        if g.get("backfilled"):
+            parts.append(f'回补其它主题 {esc(g.get("backfilled"))} 条')
+        fresh += ('<div class="fresh" style="background:rgba(122,184,255,.07);border:1px solid rgba(122,184,255,.25);color:#7ab8ff">'
+                  '🛡️ 程序化事件簇护栏:' + " · ".join(parts) + '</div>')
     secs = ""
     cat_counts = {}
     for cat in ("macro", "geo", "oil", "gas", "tech", "ai"):
@@ -167,7 +184,7 @@ def main():
             f'<li class="fi" data-f="gas">🔥 天然气<span>{cga}</span></li>'
             f'<li class="fi" data-f="tech">💻 科技<span>{ct}</span></li>'
             f'<li class="fi" data-f="ai">🤖 AI<span>{ca}</span></li>'
-            f'</ul><div class="snote">按档位聚焦 · 点"全部"恢复<br>石油与天然气分列(能源两大子类)<br>传导链:事件 → 美股/A股 · 油气 → 莫桑比克·东非</div></aside>')
+            f'</ul><div class="snote">按档位聚焦 · 点"全部"恢复<br>石油与天然气分列(能源两大子类)<br>黄金/贵金属归宏观档(避险·利率风向标)<br>传导链:事件 → 美股/A股 · 油气 → 莫桑比克·东非</div></aside>')
     html = f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache">
@@ -253,7 +270,7 @@ async function newsUpd(){{
 {side}
 <div class="main-col">
 {secs}
-<div class="foot">头条由 AI 从真实信源筛编,「传导链」为推演视角非事实断言 · 仅研究/学习用途,<b>非投资建议</b></div>
+<div class="foot">头条由 AI 从真实信源筛编,「传导链」为推演视角非事实断言 · 同一事件簇硬上限2条(程序化护栏强制)· 仅研究/学习用途,<b>非投资建议</b></div>
 </div>
 </div>
 <script>
