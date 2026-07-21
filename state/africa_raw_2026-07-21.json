@@ -1,6 +1,6 @@
 {
  "asof": "2026-07-21",
- "fetched_at": "2026-07-21T11:41+08:00",
+ "fetched_at": "2026-07-21T13:00+08:00",
  "meta": {
   "counts": {
    "TechCabal": 0,
@@ -12,7 +12,7 @@
    "Condia": 25,
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
-   "Zimbabwe Situation": 0,
+   "Zimbabwe Situation": 1,
    "African Business": 1,
    "非洲科技·聚合": 8,
    "中非科技·聚合": 13
@@ -20,9 +20,19 @@
   "total": 60,
   "ai_flagged": 20,
   "aiinfra_flagged": 2,
-  "countries": 6
+  "countries": 7
  },
  "items": [
+  {
+   "title": "Zim unveils US$340m broadband pipeline",
+   "brief": "Source: Zim unveils US$340m broadband pipeline – herald Oliver Kazunga-Senior Reporter ZIMBABWE has unveiled a US$340,1 million broadband investment pipeline projected to generate over US$3,8 billion in revenue, signalli",
+   "source": "Zimbabwe Situation",
+   "url": "https://www.zimbabwesituation.com/news/zim-unveils-us340m-broadband-pipeline/",
+   "date": "Tue, 21 Jul 2026 04:19:26 +0000",
+   "country": "🇿🇼 津巴布韦",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
   {
    "title": "FCCPC’s DEON Regulations back in force following court ruling",
    "brief": "Nigeria's FCCPC has resumed enforcing its DEON digital lending regulations after a court upheld the rules.",
@@ -611,16 +621,6 @@
    "date": "Thu, 16 Jul 2026 07:33:04 +0000",
    "country": null,
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Rwanda launches eKash instant payments platform",
-   "brief": "On Techpoint Digest, we discuss telecoms in Niger facing new regulatory scrutiny, Rwanda launching the eKash instant payment platform, and IHS Towers securing new funding for growth.",
-   "source": "Techpoint Africa",
-   "url": "https://techpoint.africa/insight/techpoint-digest-1389/",
-   "date": "Thu, 16 Jul 2026 07:00:00 +0000",
-   "country": "🇷🇼 卢旺达",
-   "is_ai": false,
    "is_aiinfra": false
   }
  ]
