@@ -1,52 +1,64 @@
 {
  "asof": "2026-07-21",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-07-21T20:48+08:00",
+ "generated_at": "2026-07-21T23:29+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 4,
+  "cross_day_suppressed": 2,
   "cluster_label": "伊朗/巴林/沙特",
   "cluster_dropped": [
-   "伊朗打击巴林和科威特，回应美空袭"
+   "美军完成对伊朗最新打击 连续第十晚攻击",
+   "伊朗称袭击了巴林的亚马逊基础设施",
+   "胡塞武装警告航运公司避开沙特港口"
   ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "geo",
-   "title": "美伊冲突升级，调停方推动10天停火",
-   "brief": "美国继续打击伊朗，胡塞武装威胁沙特航运，调停方推动10天停火协议。",
-   "chain": "美伊冲突升级→地缘风险加剧→避险情绪升温，美股承压，A股算力链受情绪传导",
+   "title": "美军连续第十晚打击伊朗 调解方提议停火十日",
+   "brief": "美军连续第十晚对伊朗发动打击，调解方提议美伊停火十日，同时胡塞武装威胁沙特航运。",
+   "chain": "美伊冲突升级→避险情绪升温→美股承压，A股军工/黄金链关注",
    "impact": 10,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/21/us-iran-war-trump-hormuz-houthis.html",
-   "ts": "Tue, 21 Jul 2026 11:39:17 GMT"
+   "ts": "Tue, 21 Jul 2026 13:00:19 GMT"
   },
   {
    "cat": "oil",
-   "title": "油价持稳，市场权衡新袭击与停火可能",
-   "brief": "油价在美伊新袭击与潜在停火间震荡，WTI涨2%至84.15美元。",
-   "chain": "美伊冲突持续→油价高位震荡→莫桑比克油气项目受益于高油价环境",
+   "title": "美油布油创6月中旬以来新高 盘中大涨3%",
+   "brief": "WTI原油触及85美元/桶，布伦特原油涨至91.895美元/桶，均创6月中旬以来新高。",
+   "chain": "美伊冲突+胡塞威胁→油价飙升→莫桑比克油气项目受益，但航运风险增加",
    "impact": 9,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNE0xMnZLYmlVcE1nLTJzaGpmMW5pWkZyRWY3c3I5YnJtMlZ2OFo4TTlZTnJTTnRlUmpRRnFmcnB3S1U0bmx6N0k0LVp5YUFqX2tJeUZxX3Y1YjJIOTN2YWFSbi14ZzJ4THhoTG9XMi1WenpMd1dwTVhGYnFrWlRZTF9MSG15d2dpUE9uQUlDbmNtY0E4YVNmOU1jdnVudnU4aWhIWjlPRnNMdUU?oc=5",
-   "ts": "2026-07-21T01:04:00+00:00"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607213816010859.html",
+   "ts": "2026-07-21 22:35:25"
   },
   {
    "cat": "macro",
-   "title": "贝森特：下半年增长3%并非不合理",
-   "brief": "美财长贝森特表示美国经济基础强劲，核心物价稳定，下半年增长3%并非不合理。",
-   "chain": "财长乐观表态→提振市场信心→利好美股，A股算力链受风险偏好提升传导",
+   "title": "美债收益率触及两个月高位 油价引发通胀担忧",
+   "brief": "美国10年和30年期国债收益率升至约两个月最高，因油价飙升引发通胀担忧。",
+   "chain": "油价上涨→通胀预期升温→美债收益率上行→美股AI高估值股承压，A股算力链情绪受抑",
    "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607213815828054.html",
-   "ts": "2026-07-21 20:17:30"
+   "url": "https://finance.eastmoney.com/a/202607213816025420.html",
+   "ts": "2026-07-21 22:51:40"
+  },
+  {
+   "cat": "oil",
+   "title": "沙特原油油轮因胡塞警告在红海掉头",
+   "brief": "胡塞武装开辟美伊战争新战线，沙特原油油轮在红海掉头。",
+   "chain": "胡塞威胁红海航运→原油供应风险→油价上行，莫桑比克油气出口或受益于替代路线",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQT0Jlc0k2UzBpUjR0R3ZWd2NKVzZVM2F6azd0VWk0WlYySWhpTU8zc2V2NTVWc3hWRzBYSUk2LXNTSzhoUnF1VUotZ1FhdTlMVE53TmtEUllYSThLU3hSU3hIRGRxZHFoaFZXM2VReGdxNGVVcGVOYXh4NTcwdHBpWkZqLWtCTHhOdjFIbWhJcExkcUo3amxFa0x3N3VadTVqbXh2LUxQYXV1Y05IM0N4QlVlUjNmWHM?oc=5",
+   "ts": "2026-07-21T14:36:22+00:00"
   },
   {
    "cat": "macro",
-   "title": "戴蒙：市场低估风险，不会买股票或国债",
-   "brief": "摩根大通CEO戴蒙表示市场低估风险，当前价格下不会买入股票或国债。",
-   "chain": "银行巨头看空→避险情绪升温→美股承压，A股算力链受风险偏好下降传导",
+   "title": "戴蒙称市场低估风险 不会买股票或国债",
+   "brief": "摩根大通CEO杰米·戴蒙表示市场低估风险，当前价格下他不会买入股票或国债。",
+   "chain": "戴蒙警告→市场风险偏好下降→美股承压，A股外资流向或受影响",
    "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/21/jpmorgan-chase-ceo-jamie-dimon-market-risk.html",
@@ -54,139 +66,119 @@
   },
   {
    "cat": "oil",
-   "title": "油轮在霍尔木兹海峡遭袭，船员弃船",
-   "brief": "一艘油轮在霍尔木兹海峡遭疑似导弹袭击，船员弃船，航运风险加剧。",
-   "chain": "霍尔木兹航运遇袭→供应中断风险→油价上行，莫桑比克油气出口受益于高油价",
+   "title": "油轮在霍尔木兹海峡遭疑似导弹袭击 船员弃船",
+   "brief": "一艘油轮在霍尔木兹海峡遭疑似导弹袭击，船员弃船，英国海上贸易组织报告。",
+   "chain": "霍尔木兹海峡遇袭→原油运输风险→油价上涨，莫桑比克LNG出口或面临航运保险成本上升",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZFNJNnRSVFd3TWVJMmtSMU9tcjNzLTZybXpmMkFxTm5Wb0VkMHVabm5qWVlyWWNabW85OXZsRVJ5YXhpa2xFOC1ZUlBrSTNwTE9tM2JTU2thdkJGOE9FY1gxb3A2dmhzQ241dE1VVjU3LWtpWnNweFJmNHB5d0pORlFtSWZrd1JsUFpDWXBPZl9YSzdVdUhzSzUyNFpSRXNOYkhvV0NaZko2NC1rUVM0X2xJOGN3MHB5bDdvQTFJcG0wR3dIWjZJSG5JN2xfMDQ?oc=5",
    "ts": "2026-07-21T02:28:00+00:00"
   },
   {
-   "cat": "gas",
-   "title": "阿布扎比批准62亿美元天然气项目",
-   "brief": "阿布扎比批准62亿美元天然气项目，以增加阿联酋天然气供应。",
-   "chain": "中东天然气增产→全球LNG供应增加→气价承压，莫桑比克LNG项目面临竞争",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/21/abu-dhabi-gas-project-uae-energy-supply.html",
-   "ts": "Tue, 21 Jul 2026 06:49:21 GMT"
-  },
-  {
-   "cat": "oil",
-   "title": "胡塞武装宣布对沙特实施海上封锁",
-   "brief": "也门胡塞武装宣布对沙特实施海上封锁，威胁红海航运。",
-   "chain": "红海封锁威胁→油轮绕行→运输成本上升，油价上行，莫桑比克油气出口受益",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcUowRTU0M2hEUzRtdXAxY1FENjh0OWdXcEJlb2h4VlpBOVdGM2YzZ1BQSVhLMFQwOXhRN01aQ1poMVd5TTNRUHBZbV9jNWZRaGFaejU2ckpkNW5HUlZSdlJXWU5GNTlFU0NFUU9DYkJ1LXVFNHZBanlSemdrb3M1Vm80azBhNlRmTGRWbjQ2dEtkQVNfbTVNMUVReDIwYXB6aDNjN0pReHQ5S1BBUFl1NUc4Z1VyVHB4MWNnQ09JZw?oc=5",
-   "ts": "2026-07-20T20:56:13+00:00"
-  },
-  {
    "cat": "macro",
-   "title": "美债收益率小幅波动，投资者评估地缘风险",
-   "brief": "美国国债收益率小幅波动，投资者持续评估地缘政治风险。",
-   "chain": "地缘风险推升避险→美债收益率低位→利好黄金，美股AI高久期票估值分母承压",
+   "title": "美国贸易代表暗示将对数十国加征新关税",
+   "brief": "美国贸易代表格里尔暗示即将对数十个国家采取关税行动，称'预计很快会有行动'。",
+   "chain": "关税威胁→全球贸易不确定性→美股出口相关板块承压，A股外贸链关注",
    "impact": 6,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/21/treasury-yields-bonds-iran-us-politics.html",
-   "ts": "Tue, 21 Jul 2026 11:55:08 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "微软与Mistral扩大AI合作，签数十亿欧元协议",
-   "brief": "微软与法国AI初创Mistral扩大合作，签署数十亿欧元欧洲AI基础设施协议。",
-   "chain": "巨头加码AI基建→算力需求增长→利好美股AI产业链，A股算力链受映射",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607213815849298.html",
-   "ts": "2026-07-21 20:35:28"
-  },
-  {
-   "cat": "ai",
-   "title": "北京下半年将新增智能算力5万P",
-   "brief": "北京经信局表示下半年将布局Token工厂，力争新增智能算力5万P。",
-   "chain": "地方政策加码算力→国内AI基建加速→利好A股算力链，美股AI情绪受提振",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607213815833730.html",
-   "ts": "2026-07-21 20:28:48"
-  },
-  {
-   "cat": "ai",
-   "title": "Nvidia披露持有Nebius 9.3%股份，股价飙升",
-   "brief": "Nvidia披露持有云服务商Nebius 9.3%股份，后者股价大涨。",
-   "chain": "Nvidia投资AI云→算力需求确认→利好美股AI产业链，A股算力链受映射",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/21/nebius-stock-nvidia-stake-neocloud.html",
-   "ts": "Tue, 21 Jul 2026 10:20:13 GMT"
+   "url": "https://www.cnbc.com/2026/07/21/trump-trade-tariffs-greer-section-301.html",
+   "ts": "Tue, 21 Jul 2026 13:38:59 GMT"
   },
   {
    "cat": "tech",
-   "title": "通用汽车业绩超预期，上调指引",
-   "brief": "通用汽车二季度业绩超预期，因消费者和定价韧性，上调全年指引。",
-   "chain": "消费韧性支撑车企盈利→美股整体情绪改善→A股算力链受风险偏好传导",
+   "title": "英伟达公布下一代AI Vera CPU 挑战AMD和英特尔",
+   "brief": "英伟达详细介绍了其下一代Vera CPU，专为AI设计，对AMD和英特尔构成挑战。",
+   "chain": "英伟达CPU发布→AI算力竞争加剧→美股芯片板块波动，A股算力链关注国产替代",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/21/nvidia-vera-cpu-ai-amd-intel.html",
+   "ts": "Tue, 21 Jul 2026 15:00:02 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "英特尔代工业务获首个公开客户 Fortinet签约",
+   "brief": "英特尔代工业务在CEO陈立武领导下获得首个公开客户，Fortinet签约生产安全芯片。",
+   "chain": "英特尔代工突破→芯片制造竞争格局变化→美股半导体板块，A股芯片制造链关注",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/21/intel-foundry-lands-fortinet-as-first-customer-for-security-chips.html",
+   "ts": "Tue, 21 Jul 2026 13:00:01 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "通用汽车盈利超预期 上调全年指引",
+   "brief": "通用汽车公布Q2盈利超预期，并上调全年业绩指引，得益于消费者韧性和定价能力。",
+   "chain": "GM财报超预期→汽车行业需求稳健→美股汽车板块，A股汽车链关注",
    "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/21/general-motors-gm-earnings-q2-2026.html",
-   "ts": "Tue, 21 Jul 2026 12:25:49 GMT"
+   "ts": "Tue, 21 Jul 2026 13:58:40 GMT"
   },
   {
    "cat": "tech",
-   "title": "三星股价上涨，机器人业务凸显物理AI布局",
-   "brief": "三星电子股价上涨，公司机器人业务进展凸显其在物理AI领域的布局。",
-   "chain": "三星布局物理AI→科技竞争加剧→利好美股AI硬件，A股算力链受映射",
+   "title": "三星电子股价上涨 机器人业务推动物理AI",
+   "brief": "三星电子股价上涨，因其机器人业务进展凸显向物理AI的转型。",
+   "chain": "三星机器人+AI→科技硬件需求→美股科技板块，A股机器人/AI硬件链关注",
    "impact": 5,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/21/samsung-electronics-sets-up-robotics-unit-amid-push-into-physical-ai-.html",
-   "ts": "Tue, 21 Jul 2026 06:30:00 GMT"
+   "ts": "Tue, 21 Jul 2026 14:04:35 GMT"
   },
   {
-   "cat": "tech",
-   "title": "Archer股价飙升20%，与Anduril发布军用飞行器",
-   "brief": "Archer Aviation与Anduril合作发布军用飞行器，股价飙升20%。",
-   "chain": "eVTOL军用突破→科技股热点扩散→美股情绪提振，A股低空经济概念受映射",
+   "cat": "ai",
+   "title": "谷歌扩展Gemini产品线 推出更便宜模型和新Mythos竞品",
+   "brief": "谷歌宣布扩展Gemini系列，包括更便宜的模型和新的Mythos竞争对手。",
+   "chain": "谷歌AI模型扩张→AI竞争加剧→美股AI板块，A股AI应用链关注",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/21/google-gemini-flash-ai-mythos-rival.html",
+   "ts": "Tue, 21 Jul 2026 15:00:02 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Nebius股价飙升13% 英伟达披露持有大量股份",
+   "brief": "Nebius股价大涨13%，因英伟达披露持有该云服务商大量股份。",
+   "chain": "英伟达投资Nebius→AI算力基础设施受关注→美股AI板块，A股算力链情绪提振",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/21/nebius-stock-nvidia-stake-neocloud.html",
+   "ts": "Tue, 21 Jul 2026 15:19:15 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "美国财长称可能因AI模型盗窃制裁中国",
+   "brief": "美国财长贝森特表示，美国可能因中国盗窃AI模型而实施制裁。",
+   "chain": "AI制裁威胁→中美科技脱钩风险→美股AI芯片股承压，A股AI国产替代链关注",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/21/bessent-china-ai-sanctions.html",
+   "ts": "Tue, 21 Jul 2026 14:14:52 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "特朗普政府AI安全机构负责人上任三个月后辞职",
+   "brief": "特朗普政府的人工智能安全机构负责人上任仅三个月后辞职。",
+   "chain": "AI安全政策不确定性→AI监管风险→美股AI板块，A股AI治理概念关注",
    "impact": 5,
    "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/20/archer-thunder-military-craft-anduril.html",
-   "ts": "Mon, 20 Jul 2026 20:02:29 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "北京将出台具身智能企业算力专项政策",
-   "brief": "北京经信局表示下半年将深入实施AI+行动计划，出台具身智能企业算力和数据集专项支持政策。",
-   "chain": "地方政策支持具身智能→算力需求增加→利好A股算力链，美股AI情绪受提振",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607213815846415.html",
-   "ts": "2026-07-21 20:33:02"
-  },
-  {
-   "cat": "ai",
-   "title": "OpenAI董事长：未来企业无需关注Token成本",
-   "brief": "OpenAI董事长泰勒表示，随着AI市场成熟，企业未来可能不再需要直接管理AI Token成本。",
-   "chain": "AI成本下降预期→应用普及加速→利好美股AI产业链，A股算力链受益于需求增长",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607213815827245.html",
-   "ts": "2026-07-21 20:13:31"
+   "url": "https://www.cnbc.com/2026/07/20/trumps-head-of-ai-safety-agency-caisi-resigns-after-months-on-job.html",
+   "ts": "Mon, 20 Jul 2026 20:26:20 GMT"
   },
   {
    "cat": "macro",
-   "title": "ADP数据：美国私营部门周均新增就业1.65万人",
-   "brief": "ADP数据显示截至7月4日四周，美国私营部门周均新增就业1.65万人。",
-   "chain": "就业增长放缓→美联储降息预期升温→利好美股，A股算力链受流动性宽松传导",
+   "title": "美元持稳 中东紧张与通胀数据相互抵消",
+   "brief": "美元指数持稳，投资者权衡中东紧张局势与较温和的通胀数据。",
+   "chain": "美元稳定→风险情绪复杂→美股震荡，A股外资流向待观察",
    "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607213815827987.html",
-   "ts": "2026-07-21 20:17:51"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVTNMOHhuSm5hVng5aTF1WUV1emN4ZjdEYlFCWlMtaUhoWWVTRTQ0NzdFNUotQnNIRFI1Sm5tWUlyLWZDZ1NnVGY3endKSktjMTMtVHNXU2E1UEtfS0U2UFZwX1NWbVdoYjhLaWpocVRmalNzLUh3aHI3cWFBVTBRanRIaXdSRzdLbnNEWFUtQS1CWW9hUlhIZUNRR2dCeXpCYVgxOVF5RVpGN0FRU203NTRxZGk?oc=5",
+   "ts": "2026-07-21T01:35:00+00:00"
   },
   {
    "cat": "oil",
-   "title": "中国对油市的下一意外：进口降、出口增？",
-   "brief": "分析称中国可能减少原油进口、增加成品油出口，影响全球油市供需。",
-   "chain": "中国需求变化→全球油价承压→莫桑比克油气出口面临价格压力",
+   "title": "中国对油市的下一步：进口降、成品油出口增？",
+   "brief": "分析中国可能减少原油进口、增加成品油出口，对油市构成新变量。",
+   "chain": "中国需求变化→油价承压→莫桑比克油气出口需关注中国需求结构",
    "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNNkVNby0tbVgtVUxCWFJyNVVXM2V4VUVOb0tDdlFLOUc4djJnRi1jTTBTNnY4T2doUVlYaWVyZkhHbU9CLTV2cDcwQzJTTGttdWIzZHpidkFiQ2RlSV9fbEFmcE9nVHlfQXRoUTFvOUFvUFJQQURsUkxFMUFWaXV6QnBYdmtrRTY2YlhYWk41clc4WlNTdUswYlZLNFBXeGlBQ0VvS0xWZ181cEdvdVF3djNLeUtwQ3VVMllwemJZNkRJTHc4cU9mXzAycGFWdUxkSy13MU1zTmZRdWc?oc=5",
@@ -194,23 +186,13 @@
   },
   {
    "cat": "gas",
-   "title": "日本考虑追加数千亿日元延续汽油补贴至10月",
-   "brief": "日本因资金短缺，考虑从储备基金中追加数千亿日元，将汽油补贴延续至10月。",
-   "chain": "日本补贴延续→抑制成品油价格→间接影响LNG需求，莫桑比克LNG出口竞争环境变化",
+   "title": "阿塞拜疆计划未来向欧洲供应绿色能源",
+   "brief": "阿塞拜疆总统表示计划未来向欧洲供应绿色能源，可能影响天然气竞争格局。",
+   "chain": "绿色能源替代→欧洲天然气需求长期承压→莫桑比克LNG项目需关注竞争",
    "impact": 4,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607213815825275.html",
-   "ts": "2026-07-21 20:07:09"
-  },
-  {
-   "cat": "tech",
-   "title": "中际旭创获港交所上市批准，股价大涨",
-   "brief": "中际旭创获得香港上市批准，股价大涨，公司为光模块龙头。",
-   "chain": "光模块龙头赴港上市→融资扩张→利好A股算力链，美股AI产业链受映射",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/20/-chinas-zhongji-innolight-sees-shares-surge-after-hong-kong-listing-approval-.html",
-   "ts": "Mon, 20 Jul 2026 04:09:38 GMT"
+   "url": "https://finance.eastmoney.com/a/202607213816007531.html",
+   "ts": "2026-07-21 22:30:47"
   }
  ]
 }
