@@ -1,94 +1,85 @@
 {
  "asof": "2026-07-22",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-07-22T09:55+08:00",
+ "generated_at": "2026-07-22T11:45+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 8,
+  "cross_day_suppressed": 5,
   "cluster_label": "伊朗",
   "cluster_dropped": [
+   "伊朗战争‘滞胀’溢价悄然累积",
    "五角大楼：伊朗战争已耗资375亿美元",
-   "伊朗警告保加利亚勿协助美军行动"
+   "伊朗警告保加利亚勿助美军行动"
   ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "伊朗战争‘滞胀’溢价悄然累积",
-   "brief": "分析指出伊朗冲突持续推高滞胀风险，市场开始计入长期通胀与增长放缓。",
-   "chain": "滞胀预期推高避险情绪→美股成长股估值承压→A股算力链情绪传导",
-   "impact": 9,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQTMyMnZRRjJYS0V2dU93T3pzeU9idk9xYzBLNjJ0WVRqTWQyUWZLQ3dkeEFjc21ZUXdYVThWZUlaSXZtblN3S1NHOWxfcWV1YWZjbzlzdWE4ZkRnYlZhWDZOLUdUZ1ZmX3B4M3dJcS1YN1JWVnpoTGJlR3dtQnJWOGVHR1l1bEk0S1J2OXJmQTNrSEJWS1ZwNUxoN19xSTVZczRSMHdQeXFaTUFBakxYbF9B?oc=5",
-   "ts": "2026-07-21T13:04:16+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "财政部今日举行重磅发布会",
-   "brief": "财政部将介绍上半年全国财政收支运行情况，市场关注财政政策信号。",
-   "chain": "财政数据影响市场对政策力度预期→间接影响美股风险偏好→A股顺周期板块",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607223816636961.html",
-   "ts": "2026-07-22 09:37:13"
-  },
-  {
-   "cat": "macro",
-   "title": "特朗普计划2028年起对仿制药加征高关税",
-   "brief": "特朗普拟对仿制药征收高额关税以刺激美国本土生产，2028年生效。",
-   "chain": "关税政策推高通胀预期→美联储降息预期降温→美股估值承压",
+   "title": "美银CEO警告通胀将困住美联储",
+   "brief": "美国银行CEO表示，通胀压力将迫使美联储陷入政策困境，无法轻易降息。",
+   "chain": "通胀顽固→美联储维持高利率→美股AI高估值股承压→A股算力链估值受抑制",
    "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/22/trump-generic-drugs-tariffs-medicine-trade-.html",
-   "ts": "Wed, 22 Jul 2026 01:17:37 GMT"
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/economy/articles/bank-america-ceo-sobering-verdict-033300805.html",
+   "ts": "2026-07-21T03:33:00Z"
   },
   {
    "cat": "macro",
-   "title": "日本6月进出口增速创近四年新高",
-   "brief": "日本6月进出口增速超预期，为2022年11月以来最快，显示贸易回暖。",
-   "chain": "日本贸易数据强劲→全球需求信号积极→利好美股科技出口链",
-   "impact": 6,
+   "title": "中东冲突推高油价，通胀担忧重燃",
+   "brief": "分析师指出，中东冲突持续推高油价，通胀担忧再度成为市场焦点。",
+   "chain": "油价上涨→通胀预期升温→美联储鹰派→美股成长股估值承压→A股算力链情绪传导",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/21/inflation-fears-return-as-iran-war-keeps-oil-prices-high-analysts.html",
+   "ts": "Tue, 21 Jul 2026 04:01:09 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "日本6月进出口增速创近三年新高",
+   "brief": "日本6月进出口增速为2022年11月以来最快，超出市场预期。",
+   "chain": "日本贸易数据强劲→全球贸易回暖信号→利好美股科技出口→A股出口链情绪提振",
+   "impact": 5,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/22/japan-june-exports-trade-data.html",
    "ts": "Wed, 22 Jul 2026 00:36:15 GMT"
   },
   {
    "cat": "geo",
-   "title": "黎巴嫩军队进入南部城镇检验停火协议",
-   "brief": "黎巴嫩军队在以色列撤军后进入南部，测试美国斡旋的停火协议。",
-   "chain": "中东停火进展若顺利→地缘风险缓和→油价承压",
-   "impact": 7,
+   "title": "美国宣布新一轮对伊朗打击，油价微涨",
+   "brief": "美国宣布对伊朗新一轮军事打击，油价小幅上涨。",
+   "chain": "美伊冲突升级→地缘风险溢价→美股能源股受益→A股油气板块联动",
+   "impact": 9,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNX2hGZ2YzcFQ1aXJWdnEyNUJYU1ZhdTlyWFY3ajVHWkpjNDRkZHRJSGhzYUtFQ2tJREpDM1BENm9SX2JQZlB4Y0lrUkp1Tnpvc00zRkV4TTBMdldZVm1RdW1sTHAzMUJwU212clU2LVhGMEx6aTRzbkw4NVJFUnFpc2t1dkVldThkRDVPSlEyNUNEc2sxRERieGlDazJqblliVU9NdnUzbXNLVWlMYnc0VUxXS0N6M1lyaXI3Q3UxNkJGNVk2R1FR?oc=5",
-   "ts": "2026-07-21T21:15:49+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVktKb0FFdG9HQ0VvZ0dKR2ozZExNVVZ5eU1Wc29kUmhBRHVQclVYNk14WXhfb0MxV2lyaEk2UDJLdGJOdk9sRjE2M3NaNXpmUVBOSTFTLVFHSTV0UnJKTG5fZm95czJacHdDVVU2cE8wd013R1B4M0RHcHF2YURVX3pmbENTbktzRzRfZ0htelRKU1hQNUp4Z3ZFNUV5RkZ1NFE3STNndlFVSVVFT0JHUWVudU1XXzcwQXc?oc=5",
+   "ts": "2026-07-22T00:26:00+00:00"
   },
   {
    "cat": "oil",
-   "title": "两艘沙特油轮在红海掉头躲避胡塞警告",
-   "brief": "两艘载有沙特原油的油轮在红海因胡塞武装警告而掉头，航运风险加剧。",
-   "chain": "红海航运受阻→短期油价上行风险→莫桑比克油气出口需关注绕行成本",
-   "impact": 9,
+   "title": "两艘沙特油轮在红海掉头，因胡塞警告",
+   "brief": "两艘载有沙特原油的油轮在红海掉头，此前胡塞武装警告航运公司避开沙特港口。",
+   "chain": "红海航运风险→原油供应中断担忧→油价上涨→莫桑比克油气出口受益",
+   "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVmdHTWJMUUNZTWRSakluQzVLdlpKd2dSQWpoYXhaRVl0OTQyYy1oeldnaWRmMXpkSy1OVjFSXzZHbWdzQmtCLVljcnZST3laUk50aThFel81QnZNS3I1TU10MzItWG1CdW1lMENtaWtMS3QwenREbEN2a1l0Ukh5TDNDazl6R0ppQVNQeUljSFJnUncwU1hnS09yZ21ydVR4WDNEZE1ObEUwcmVuazdOYWs3T2NNekdPVTVWcF9qdkkzUGR2SEo0?oc=5",
    "ts": "2026-07-21T14:20:45+00:00"
   },
   {
    "cat": "oil",
-   "title": "亚洲炼油商转向苏伊士运河运输沙特原油",
-   "brief": "因胡塞威胁，亚洲炼油商寻求通过苏伊士运河运输沙特原油，替代红海航线。",
-   "chain": "航线切换增加运输成本→支撑油价→东非油气出口或受益于替代路线需求",
-   "impact": 8,
+   "title": "亚洲炼油商拟经苏伊士运河运沙特油",
+   "brief": "亚洲炼油商考虑通过苏伊士运河运输沙特原油，以规避胡塞武装威胁。",
+   "chain": "航线调整→运输成本上升→油价支撑→莫桑比克LNG出口竞争力增强",
+   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQlp4ZjNPdFNVelczTnYxal9DRVN6YzN2clhXSmhILS1QQUFEVlJRbjdyVTZwbVAycU9FUkRmdlFwanl1N1lSYTZEZnFfY1Z0NXRPdUtScXJTWmhVbTNfRFUtOUZvUFJqTHQwa0J2UzZVbXpWdGVQcWpYS2xQY25STVFVdENfNDRCbnllZkh0LWtlTmcxb1VWSmlCWS1YY1Y2aVdGd3FFR0R5ZDdLRFhBaXRJTVBNaFU0TS1HSHhONldBdVdPM25R?oc=5",
    "ts": "2026-07-21T17:39:42+00:00"
   },
   {
    "cat": "oil",
-   "title": "贝森特：中国减少伊朗石油采购",
-   "brief": "美国财长贝森特表示中国已减少伊朗石油购买，或影响全球供应。",
-   "chain": "伊朗石油出口下降→供应收紧支撑油价→莫桑比克LNG项目竞争力提升",
-   "impact": 7,
+   "title": "贝森特：中国进口伊朗石油减少",
+   "brief": "美国财长贝森特表示，中国进口伊朗石油数量已下降。",
+   "chain": "伊朗石油出口减少→全球供应收紧→油价偏强→莫桑比克油气项目吸引力提升",
+   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaFFXRklIV0ZUMVlWS1NWOVZ3aVlfcFlQZHlDelZ0MmtISUdUQzFGTk10czFQR2laVm90MzBNa21tX2F1QWlUZDZhQmJ5WEFmbjVxSzYwM2Z5NDY3M2hPeEQ0Z3dNUDZGUE5VOHZkQXo2Zkt5SzRNS2xCSjFzLW1oVUZydjZCYnRmQUl2VUFPV0tvdmxEcjV1Yy0wSzdTeUN1alZPcy0wY3VrWTAtczc3TVNtMWdNRU9YQVRhcHVB?oc=5",
    "ts": "2026-07-21T12:26:09+00:00"
@@ -96,28 +87,28 @@
   {
    "cat": "oil",
    "title": "印度炼油商转向俄罗斯和拉美原油",
-   "brief": "印度二季度增加从俄罗斯和拉美进口原油，减少对中东依赖。",
-   "chain": "印度采购多元化→中东原油需求承压→短期油价偏弱但长期供应格局重塑",
-   "impact": 6,
+   "brief": "数据显示，印度炼油商在6月季度增加从俄罗斯和拉美的原油进口。",
+   "chain": "印度采购转向→全球原油贸易流重塑→布伦特油价波动→莫桑比克出口策略参考",
+   "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb2c1TWM4dXBtWkRDYXFrNTNsQXNDZ05QZmd5dzVEdVRXNEo1S3QwRGFEdFh5UzVrWXRKOG1BSkpMWWFQNlhtVWYzRE43N3d1VWV0WjZJRzczTWhOM0NYOW9IRThweHBKLTI5YUUxMWxyelVrTXZWbElXSXQwVXptSDQwdEdvVGRqM3NBS3VEVTVUTU9vcEQ4eWJkc296dmptR2FLRlRSendjcEFoRHdTZHgwQQ?oc=5",
    "ts": "2026-07-21T14:59:48+00:00"
   },
   {
    "cat": "gas",
-   "title": "中国石油上半年乙烯产量创历史新高",
-   "brief": "中国石油乙烯产量同比增长21%，创历史新高，保障化工供应链安全。",
-   "chain": "中国化工需求强劲→全球乙烯市场供应偏紧→利好东非天然气作为原料的长期需求",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607223816591898.html",
-   "ts": "2026-07-22 09:31:04"
+   "title": "Terra Innovatum与Waiken部署微堆供数据中心",
+   "brief": "两家公司计划部署微型核反应堆为数据中心供电，推动清洁能源。",
+   "chain": "核能用于数据中心→天然气替代需求减弱→气价承压→莫桑比克LNG项目需关注竞争",
+   "impact": 5,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/energy/articles/terra-innovatum-waiken-ilw-deploy-155657670.html",
+   "ts": "2026-07-20T15:56:57Z"
   },
   {
    "cat": "tech",
-   "title": "华尔街收高，芯片股反弹领涨",
-   "brief": "美股芯片股反弹带动大盘收高，市场关注财报季表现。",
-   "chain": "芯片股反弹→美股科技板块情绪回暖→A股半导体/算力链跟涨",
+   "title": "芯片股反弹推动华尔街收高",
+   "brief": "美股芯片股反弹，带动大盘收高，市场关注财报季。",
+   "chain": "芯片股反弹→美股科技板块回暖→A股半导体及算力链情绪提振",
    "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUDZOb0lyeDNtSHo4bVQ4MlJ3RnhPUUR2WmxYT2xqaWRVNFFVNkNUdHBNUUIxWm5kZGpVaVc0SFZicnBmN1F0RWI3RXpqNUpCbjQ3RHhPZEJkTmlaeGI3YXp3MUlSSXN2RGdBZ3dfekVaQzQxbFJzeHhuNU9veGtKMzdidFZ1N2QwbFE3Z3B1VmxoY1VuTUFtU3Rfa09XMlRMWl9B?oc=5",
@@ -125,83 +116,83 @@
   },
   {
    "cat": "tech",
-   "title": "摩根士丹利：存储芯片价格下季或涨25%",
-   "brief": "大摩研报指出AI数据中心存储短缺加剧，超级周期延续至2028年，价格看涨。",
-   "chain": "存储涨价预期→利好美股存储芯片股→A股存储/算力链受益",
-   "impact": 9,
+   "title": "费城半导体指数暴涨超5%",
+   "brief": "隔夜费城半导体指数大涨5.21%，芯片股全面反弹。",
+   "chain": "半导体指数暴涨→美股科技股强势→A股芯片设计及设备链跟涨",
+   "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607223816719638.html",
-   "ts": "2026-07-22 09:48:49"
+   "url": "https://finance.eastmoney.com/a/202607223816992954.html",
+   "ts": "2026-07-22 11:21:17"
   },
   {
    "cat": "tech",
-   "title": "超微电脑因新订单和利润率披露大涨15%",
-   "brief": "超微电脑在SpaceX公告后披露新订单和利润率，股价飙升15%。",
-   "chain": "超微电脑业绩利好→AI服务器需求强劲→A股算力/服务器链受提振",
-   "impact": 8,
+   "title": "SK海力士拟收购英特尔美国园区",
+   "brief": "SK海力士正谈判收购英特尔俄亥俄州园区，以生产存储芯片。",
+   "chain": "存储芯片整合→半导体格局变化→美股芯片股影响→A股存储产业链映射",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607223816989386.html",
+   "ts": "2026-07-22 11:20:08"
+  },
+  {
+   "cat": "tech",
+   "title": "超微电脑因新订单和披露大涨15%",
+   "brief": "超微电脑在SpaceX宣布后，因新订单和利润率披露股价飙升15%。",
+   "chain": "AI服务器需求强劲→超微电脑业绩预期上调→美股AI硬件受益→A股服务器及算力链",
+   "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/21/super-micro-stock-spacex-announcement.html",
    "ts": "Tue, 21 Jul 2026 22:10:56 GMT"
   },
   {
    "cat": "tech",
-   "title": "德国英飞凌到无锡深化合作",
-   "brief": "英飞凌监事会主席访无锡，双方就半导体合作进行深入交流。",
-   "chain": "英飞凌深化在华合作→利好A股半导体设备/材料链",
-   "impact": 6,
+   "title": "台积电或上调代工价10%，腾讯部署国产算力",
+   "brief": "台积电可能涨价10%，腾讯拟大规模部署国产算力，半导体设备ETF大涨。",
+   "chain": "台积电涨价→芯片成本上升→国产替代加速→A股半导体设备及算力链受益",
+   "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607223816588248.html",
-   "ts": "2026-07-22 09:31:19"
+   "url": "https://finance.eastmoney.com/a/202607223816979449.html",
+   "ts": "2026-07-22 11:01:53"
   },
   {
    "cat": "ai",
-   "title": "谷歌准备推出内置Gemini的AI芯片",
-   "brief": "Alphabet正研发集成Gemini模型的AI芯片，强化AI硬件布局。",
-   "chain": "谷歌自研AI芯片→加剧AI算力竞争→A股算力链关注国产替代",
-   "impact": 9,
-   "source": "Yahoo Finance",
-   "url": "https://www.investors.com/news/technology/google-stock-ai-chip-frozen-earnings-ironwood/?src=A00220&amp;yptr=yahoo",
-   "ts": "2026-07-20T14:03:46Z"
+   "title": "Kimi拟Pre-IPO融资，估值500亿美元",
+   "brief": "月之暗面计划8月启动Pre-IPO轮融资，目标投前估值500亿美元。",
+   "chain": "国产大模型高估值→AI投资热潮持续→美股AI板块情绪→A股AI应用及算力链",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607223816999853.html",
+   "ts": "2026-07-22 11:31:12"
   },
   {
    "cat": "ai",
-   "title": "OpenAI和Anthropic加大游说力度",
-   "brief": "AI公司OpenAI和Anthropic增加游说支出，而传统科技和国防支出下降。",
-   "chain": "AI监管博弈升温→政策不确定性影响美股AI板块→A股AI监管概念",
+   "title": "美联储对Anthropic的Mythos模型发出警报",
+   "brief": "美联储曾对Anthropic的AI模型发出警报，但数月无法获取该模型。",
+   "chain": "AI监管风险升温→科技巨头合规成本增加→美股AI股波动→A股AI监管概念",
    "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/21/openai-anthropic-ai-lobbying-spending-q2-2026.html",
-   "ts": "Tue, 21 Jul 2026 20:58:29 GMT"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/21/fed-mythos-ai-cybersecurity-banks-project-glasswing.html",
+   "ts": "Tue, 21 Jul 2026 22:34:35 GMT"
   },
   {
    "cat": "ai",
-   "title": "OpenAI任命两位新董事会成员",
-   "brief": "OpenAI宣布任命两名新董事，公司治理结构进一步调整。",
-   "chain": "OpenAI治理改善→增强市场对AI行业信心→利好AI产业链",
-   "impact": 7,
+   "title": "OpenAI任命两名新董事会成员",
+   "brief": "OpenAI宣布任命两名新董事，加强公司治理。",
+   "chain": "OpenAI治理优化→AI行业规范化→美股AI龙头信心增强→A股AI板块情绪",
+   "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/21/openai-appoints-two-new-members-to-board-of-directors.html",
    "ts": "Tue, 21 Jul 2026 21:22:32 GMT"
   },
   {
    "cat": "ai",
-   "title": "弘信电子在无锡新设AI业务公司",
-   "brief": "弘信电子成立子公司，经营范围涵盖人工智能应用开发等多项AI业务。",
-   "chain": "弘信电子布局AI→A股AI算力链再添新军→利好算力租赁/服务器",
+   "title": "OpenAI和Anthropic加大游说支出",
+   "brief": "OpenAI和Anthropic增加游说投入，而传统科技和国防支出下降。",
+   "chain": "AI企业加强政策影响→监管环境变化→美股AI股不确定性→A股AI政策预期",
    "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607223816733964.html",
-   "ts": "2026-07-22 09:53:17"
-  },
-  {
-   "cat": "ai",
-   "title": "京赢电子AI显示器首批订单交付北美",
-   "brief": "京赢电子AI显示器首批订单已交付北美，海外订单约1.5亿元。",
-   "chain": "AI硬件出海成功→验证AI终端需求→A股AI硬件/显示器链受益",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607223816725011.html",
-   "ts": "2026-07-22 09:51:56"
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/21/openai-anthropic-ai-lobbying-spending-q2-2026.html",
+   "ts": "Tue, 21 Jul 2026 20:58:29 GMT"
   }
  ]
 }
