@@ -245,7 +245,7 @@
         "rating": null,
         "rating_mean": 1.79,
         "n_analysts": 34,
-        "fwd_pe": 48.1,
+        "fwd_pe": 48.0,
         "ttm_pe": null,
         "cn_rating": "买入",
         "rec_buy_ratio": 0.94,
@@ -421,25 +421,44 @@
         "gross_margin": null,
         "period": "2026-03-31"
       },
-      "news": [],
+      "news": [
+        {
+          "title": "中天科技首次回购25万股，金额858万元",
+          "pub": "财中社",
+          "url": "http://finance.eastmoney.com/a/202607173811091213.html",
+          "date": "2026-07-17"
+        },
+        {
+          "title": "放量飙升！600522逆市新高",
+          "pub": "证券时报",
+          "url": "http://finance.eastmoney.com/a/202606083763695558.html",
+          "date": "2026-06-08"
+        },
+        {
+          "title": "46.79亿元资金今日流入通信股",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202607213815604019.html",
+          "date": "2026-07-21"
+        }
+      ],
       "unlock": null
     },
     "688981.SS": {
       "name": "中芯国际",
       "role": "大陆晶圆代工龙头",
       "market": "CN",
-      "price": 159.5,
-      "chg1d": -0.3,
-      "m1": 12.6,
-      "m3": 47.7,
-      "m6": 24.9,
-      "fromhi": -7.8,
+      "price": 160.0,
+      "chg1d": 11.1,
+      "m1": 9.9,
+      "m3": 52.0,
+      "m6": 24.1,
+      "fromhi": -7.5,
       "hi": 173.0,
       "lo": 85.48,
-      "ma20": 153.26,
-      "ma50": 141.22,
-      "ma200": 122.96,
-      "vol": 86.5,
+      "ma20": 152.86,
+      "ma50": 140.46,
+      "ma200": 122.78,
+      "vol": 89.4,
       "analyst": {
         "target_mean": null,
         "target_low": null,
@@ -447,7 +466,7 @@
         "cn_rating": "买入",
         "n_analysts": 0,
         "cn_reports_total": 104,
-        "fwd_pe": 205.8,
+        "fwd_pe": 206.5,
         "eps_2026": 0.775,
         "eps_2027": 0.93,
         "eps_growth": 20.0,
@@ -462,7 +481,26 @@
         "gross_margin": null,
         "period": "2026-03-31"
       },
-      "news": [],
+      "news": [
+        {
+          "title": "41股获杠杆资金净买入超亿元",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202607223816560228.html",
+          "date": "2026-07-22"
+        },
+        {
+          "title": "7月21日科创板主力资金净流入91.95亿元",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202607213815603735.html",
+          "date": "2026-07-21"
+        },
+        {
+          "title": "国家大基金持股概念涨10.78%，主力资金净流入这些股",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202607213815603977.html",
+          "date": "2026-07-21"
+        }
+      ],
       "unlock": null
     },
     "688256.SS": {
@@ -503,7 +541,26 @@
         "gross_margin": null,
         "period": "2026-03-31"
       },
-      "news": [],
+      "news": [
+        {
+          "title": "深夜，688256提示：股价可能存在下跌风险",
+          "pub": "中国基金报",
+          "url": "http://finance.eastmoney.com/a/202606303788724640.html",
+          "date": "2026-06-30"
+        },
+        {
+          "title": "6只个股大宗交易超5000万元",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202607203813626890.html",
+          "date": "2026-07-20"
+        },
+        {
+          "title": "中际旭创取代宁德时代成第一重仓股，公募持仓大变天 | 基金放大镜",
+          "pub": "界面新闻",
+          "url": "http://finance.eastmoney.com/a/202607213816004183.html",
+          "date": "2026-07-21"
+        }
+      ],
       "unlock": null
     },
     "688052.SS": {
@@ -544,25 +601,44 @@
         "gross_margin": null,
         "period": "2026-03-31"
       },
-      "news": [],
+      "news": [
+        {
+          "title": "半导体概念走强，AI需求驱动行业进入新一轮上行周期丨异动情报",
+          "pub": "21世纪经济报道",
+          "url": "http://finance.eastmoney.com/a/202607223817002071.html",
+          "date": "2026-07-22"
+        },
+        {
+          "title": "今日盘中突破五日均线个股一览",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202607223816952696.html",
+          "date": "2026-07-22"
+        },
+        {
+          "title": "60只股中线走稳 站上半年线",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202607223816952071.html",
+          "date": "2026-07-22"
+        }
+      ],
       "unlock": null
     },
     "001309.SZ": {
       "name": "德明利",
       "role": "存储主控/模组(SSD/eMMC·AI存储链)",
       "market": "CN",
-      "price": 474.2,
-      "chg1d": -6.7,
-      "m1": -37.2,
-      "m3": -7.9,
-      "m6": 97.9,
-      "fromhi": -51.1,
+      "price": 508.0,
+      "chg1d": 5.2,
+      "m1": -31.1,
+      "m3": -1.1,
+      "m6": 116.4,
+      "fromhi": -47.6,
       "hi": 970.0,
-      "lo": 78.73,
-      "ma20": 766.43,
-      "ma50": 709.31,
-      "ma200": 393.82,
-      "vol": 112.4,
+      "lo": 79.05,
+      "ma20": 783.22,
+      "ma50": 712.18,
+      "ma200": 392.18,
+      "vol": 116.0,
       "analyst": {
         "target_mean": null,
         "target_low": null,
@@ -570,7 +646,7 @@
         "cn_rating": "买入",
         "n_analysts": 0,
         "cn_reports_total": 21,
-        "fwd_pe": 98.4,
+        "fwd_pe": 105.4,
         "eps_2026": 4.82,
         "eps_2027": 5.0,
         "eps_growth": 3.7,
@@ -585,7 +661,26 @@
         "gross_margin": null,
         "period": "2026-03-31"
       },
-      "news": [],
+      "news": [
+        {
+          "title": "德明利001309龙虎榜数据07-21",
+          "pub": "东方财富Choice数据",
+          "url": "http://finance.eastmoney.com/a/202607213815554721.html",
+          "date": "2026-07-21"
+        },
+        {
+          "title": "4个跌停后，机构买进001309",
+          "pub": "上海证券报",
+          "url": "http://finance.eastmoney.com/a/202607203813416924.html",
+          "date": "2026-07-20"
+        },
+        {
+          "title": "德明利001309龙虎榜数据07-20",
+          "pub": "东方财富Choice数据",
+          "url": "http://finance.eastmoney.com/a/202607203813295113.html",
+          "date": "2026-07-20"
+        }
+      ],
       "unlock": {
         "date": "2026-07-23",
         "pct_float": 1.1,
@@ -630,7 +725,26 @@
         "gross_margin": null,
         "period": "2026-03-31"
       },
-      "news": [],
+      "news": [
+        {
+          "title": "探路者300005龙虎榜数据07-21)",
+          "pub": "东方财富Choice数据",
+          "url": "http://finance.eastmoney.com/a/202607213815557792.html",
+          "date": "2026-07-21"
+        },
+        {
+          "title": "探路者300005龙虎榜数据07-20",
+          "pub": "东方财富Choice数据",
+          "url": "http://finance.eastmoney.com/a/202607203813294548.html",
+          "date": "2026-07-20"
+        },
+        {
+          "title": "探路者300005龙虎榜数据07-17)",
+          "pub": "东方财富Choice数据",
+          "url": "http://finance.eastmoney.com/a/202607173811054576.html",
+          "date": "2026-07-17"
+        }
+      ],
       "unlock": null
     },
     "603986.SS": {
@@ -671,7 +785,26 @@
         "gross_margin": null,
         "period": "2026-03-31"
       },
-      "news": [],
+      "news": [
+        {
+          "title": "603986，600226，最新公告！",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202607213814043458.html",
+          "date": "2026-07-21"
+        },
+        {
+          "title": "兆易创新603986龙虎榜数据07-20",
+          "pub": "东方财富Choice数据",
+          "url": "http://finance.eastmoney.com/a/202607203813329970.html",
+          "date": "2026-07-20"
+        },
+        {
+          "title": "大牛股603986，跌停三次！殃及24万股民",
+          "pub": "华夏时报",
+          "url": "http://finance.eastmoney.com/a/202607133803739933.html",
+          "date": "2026-07-13"
+        }
+      ],
       "unlock": null
     },
     "002384.SZ": {
@@ -712,25 +845,44 @@
         "gross_margin": null,
         "period": "2026-03-31"
       },
-      "news": [],
+      "news": [
+        {
+          "title": "东山精密002384龙虎榜数据07-20",
+          "pub": "东方财富Choice数据",
+          "url": "http://finance.eastmoney.com/a/202607203813294283.html",
+          "date": "2026-07-20"
+        },
+        {
+          "title": "东山精密002384龙虎榜数据07-14",
+          "pub": "东方财富Choice数据",
+          "url": "http://finance.eastmoney.com/a/202607143805620368.html",
+          "date": "2026-07-14"
+        },
+        {
+          "title": "002384，上半年业绩预增超280%！今日股价强势涨停",
+          "pub": "证券时报",
+          "url": "http://finance.eastmoney.com/a/202607143805796554.html",
+          "date": "2026-07-14"
+        }
+      ],
       "unlock": null
     },
     "6869.HK": {
       "name": "长飞光纤",
       "role": "光纤光缆/光模块(AI光互联)",
       "market": "HK",
-      "price": 138.2,
-      "chg1d": -2.7,
-      "m1": -51.6,
-      "m3": -34.4,
-      "m6": 193.5,
-      "fromhi": -51.9,
+      "price": 137.7,
+      "chg1d": -3.0,
+      "m1": -51.8,
+      "m3": -34.6,
+      "m6": 192.5,
+      "fromhi": -52.1,
       "hi": 287.26,
       "lo": 19.34,
-      "ma20": 182.08,
-      "ma50": 215.01,
+      "ma20": 182.06,
+      "ma50": 215.0,
       "ma200": 126.73,
-      "vol": 124.6,
+      "vol": 124.7,
       "analyst": {
         "target_mean": null,
         "cn_rating": null,
@@ -748,17 +900,17 @@
       "name": "腾讯控股",
       "role": "混元大模型/AI云/游戏(AI应用+算力需求侧)",
       "market": "HK",
-      "price": 447.6,
-      "chg1d": -5.6,
-      "m1": 3.4,
-      "m3": -13.5,
-      "m6": -28.1,
-      "fromhi": -33.4,
+      "price": 446.8,
+      "chg1d": -5.7,
+      "m1": 3.2,
+      "m3": -13.6,
+      "m6": -28.2,
+      "fromhi": -33.5,
       "hi": 672.2,
       "lo": 411.8,
-      "ma20": 451.4,
-      "ma50": 450.01,
-      "ma200": 542.93,
+      "ma20": 451.36,
+      "ma50": 450.0,
+      "ma200": 542.92,
       "vol": 32.3,
       "analyst": {
         "target_mean": null,
