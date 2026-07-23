@@ -1062,6 +1062,117 @@ def qa_block(data, calls, calls_date, v):
     return QA_TMPL.replace("@QACTX@", payload)
 
 
+# ══ to-C 简洁版 + 付费墙(2026-07-20 产品化)══
+# 免费:每票 建议 + 建议买入价 + 今日速览;付费解锁:目标价 + 预期收益 + 研判理由 + 财报提醒。
+# 收款走第三方(知识星球/小报童/公众号),SUBSCRIBE_URL 待业主提供;PRO_CODE=订阅后发给用户的解锁码
+# (零后端静态站=客户端软付费墙,源码在 8888 密文后不公开;真正公开发行需换服务端校验,是已知取舍)。
+SUBSCRIBE_URL = ""          # 例:https://t.zsxq.com/xxxx(知识星球)/ 小报童 / 公众号付费链接;空=显示"即将开放"
+PRO_CODE = "vip2026"        # 订阅后发给会员的解锁码(客户端校验,可改;公开发行前需升级为服务端发码)
+
+
+def _sig_style(sig):
+    if str(sig).startswith("买入"):
+        return "buy", "🟢 建议买入", "#4ade80"
+    if "观望" in str(sig):
+        return "watch", "🟡 观望等待", "#fbbf24"
+    return "avoid", "🔴 建议回避", "#ff8080"
+
+
+def _regime(data):
+    """市场体制(给普通用户一句人话):QQQ 相对 MA200 + 全池站上 MA200 宽度 → 偏多/震荡/偏空。"""
+    q = data.get("QQQ", {}) or {}
+    n = sum(1 for tk, v in data.items() if tk != "QQQ" and isinstance(v, dict) and v.get("price"))
+    above = sum(1 for tk, v in data.items() if tk != "QQQ" and isinstance(v, dict) and v.get("price") and v.get("ma200") and v["price"] > v["ma200"])
+    breadth = (above / n) if n else 0
+    qbull = bool(q.get("price") and q.get("ma200") and q["price"] > q["ma200"])
+    if qbull and breadth >= 0.6:
+        return "🐂 偏多(顺风)", "#4ade80"
+    if (not qbull) and breadth <= 0.4:
+        return "🐻 偏空(逆风)", "#ff8080"
+    return "🦀 震荡(分化)", "#fbbf24"
+
+
+def simple_card(tk, d, a):
+    """to-C 极简卡:免费露 建议+买入价+现价;目标价/收益/理由锁进付费层(模糊+解锁遮罩)。"""
+    scls, slabel, scolor = _sig_style(a.get("sig", ""))
+    mkt = d.get("market", "US")
+    is_cn, is_hk = mkt == "CN", mkt == "HK"
+    cs = "¥" if is_cn else ("HK$" if is_hk else "$")
+    flag = "🇨🇳" if is_cn else ("🇭🇰" if is_hk else "🇺🇸")
+    tkd = tk.replace(".SS", "").replace(".SZ", "").replace(".HK", "")
+    th = str(a.get("th", ""))
+    th_short = (th[:96] + "…") if len(th) > 96 else th
+    earn = ""
+    ed = d.get("earnings_date")
+    if ed:
+        try:
+            _dd = (datetime.date.fromisoformat(str(ed)[:10]) - datetime.date.fromisoformat(TODAY)).days
+            if 0 <= _dd <= 14:
+                earn = f'<span class="s-earn">⚠️ 财报 {_dd} 天后</span>'
+        except Exception:
+            pass
+    return f"""
+<div class="scard sc-{scls}">
+  <div class="s-top"><span class="s-flag">{flag}</span><span class="s-tk">{tkd}</span><span class="s-nm">{d.get('name','')}</span><span class="s-now">{cs}{d.get('price','—')}</span></div>
+  <div class="s-sigrow"><span class="s-sig sc-{scls}">{slabel}</span><span class="s-conf">研判置信 {a.get('conf','?')}/10</span>{earn}</div>
+  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>{cs}{a.get('buy','') or '—'}</b><span class="s-free">免费</span></div>
+  <div class="s-locked" data-lock>
+    <div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">{cs}{a.get('tgt','') or '—'}</b></div>
+    <div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">{a.get('ret','') or '—'}</b></div>
+    <div class="s-lockth">💡 {th_short}</div>
+    <div class="s-mask"><div class="s-mask-t">🔒 目标价 · 预期收益 · 研判理由</div><button class="s-unlockbtn" onclick="pwScroll()">会员解锁 →</button></div>
+  </div>
+</div>"""
+
+
+def simple_view(order, data, calls, cfg):
+    """to-C 简洁版整屏:今日速览 + 分市场极简卡 + 订阅CTA + 免责声明。"""
+    stocks = calls.get("stocks", {})
+    sigs = [str(a.get("sig", "")) for a in stocks.values()]
+    n_buy = sum(1 for s in sigs if s.startswith("买入"))
+    n_watch = sum(1 for s in sigs if "观望" in s)
+    n_avoid = sum(1 for s in sigs if "回避" in s)
+    reg, regc = _regime(data)
+    bench = cfg.get("benchmark")
+    buy_names = [data.get(tk, {}).get("name", tk) for tk in order
+                 if tk in stocks and str(stocks[tk].get("sig", "")).startswith("买入")]
+    buy_line = ("　今日可关注买点:<b>" + "、".join(buy_names) + "</b>") if buy_names else "　今日无到位买点,以观望为主"
+    today = (f'<div class="today"><div class="t-h">📊 今日速览 · {calls.get("asof", TODAY)}</div>'
+             f'<div class="t-stats">'
+             f'<div class="t-stat tb"><b>{n_buy}</b><span>🟢 建议买入</span></div>'
+             f'<div class="t-stat tw"><b>{n_watch}</b><span>🟡 观望等待</span></div>'
+             f'<div class="t-stat ta"><b>{n_avoid}</b><span>🔴 建议回避</span></div>'
+             f'<div class="t-stat"><b style="color:{regc};font-size:17px">{reg}</b><span>市场体制</span></div>'
+             f'</div><div class="t-note">{buy_line}</div></div>')
+    MKT = [("US", "🇺🇸 美股 · AI 产业链"), ("CN", "🇨🇳 A 股 · 国产算力/AI"), ("HK", "🇭🇰 港股 · 国产 AI")]
+    mkt_of = lambda tk: (data.get(tk, {}) or {}).get("market", "US")
+    groups = ""
+    for mk, title in MKT:
+        grp = [tk for tk in order if tk in stocks and mkt_of(tk) == mk and tk != bench]
+        if not grp:
+            continue
+        groups += (f'<div class="s-section">{title}<span class="s-scnt">{len(grp)} 支</span></div>'
+                   f'<div class="s-grid">' + "".join(simple_card(tk, data.get(tk, {}), stocks[tk]) for tk in grp) + '</div>')
+    # 订阅 CTA
+    sub_btn = (f'<a class="pw-btn" href="{SUBSCRIBE_URL}" target="_blank" rel="noopener">立即订阅 · 解锁完整研判</a>'
+               if SUBSCRIBE_URL else '<span class="pw-btn pw-soon">订阅入口即将开放</span>')
+    cta = (f'<div class="paywall" id="paywall"><div class="pw-h">🔓 升级会员 · 解锁完整研判</div>'
+           f'<div class="pw-cols">'
+           f'<div class="pw-col"><div class="pw-tt">免费</div><ul class="pw-ul">'
+           f'<li>✓ 每票 买入/观望/回避 建议</li><li>✓ 建议买入价</li><li>✓ 今日速览 · 市场体制</li>'
+           f'<li class="pw-x">✕ 目标价 / 预期收益</li><li class="pw-x">✕ 研判理由 / 财报提醒</li></ul></div>'
+           f'<div class="pw-col pw-pro"><div class="pw-tt">会员 ⭐</div><ul class="pw-ul">'
+           f'<li>✓ 免费版全部</li><li>✓ <b>6-12月目标价</b></li><li>✓ <b>预期收益</b></li>'
+           f'<li>✓ <b>逐票研判理由</b></li><li>✓ <b>财报/解禁临近提醒</b></li><li>✓ 全部 {n_buy + n_watch + n_avoid} 支覆盖</li></ul>'
+           f'{sub_btn}</div></div>'
+           f'<div class="pw-code">已订阅?输入解锁码:<input id="pwcode" placeholder="解锁码" autocomplete="off"><button onclick="pwUnlock()">解锁</button><span id="pwmsg"></span></div>'
+           f'<div class="pw-lock-note">🔓 已解锁?本设备已记住,可随时在此重新锁定 → <a href="javascript:void(0)" onclick="pwLock()">锁定</a></div>'
+           f'</div>')
+    disc = ('<div class="s-disc">本板块为 <b>AI 辅助的市场信息与投资者教育内容</b>,所有研判由 AI 引擎依公开行情/共识数据生成,'
+            '<b>仅供学习研究,不构成任何证券投资建议或买卖要约</b>,不承诺收益,据此操作风险自负。</div>')
+    return today + groups + cta + disc
+
+
 def main():
     cfg = jload(os.path.join(DIR, "config.json"))
     data_full = jload(os.path.join(STATE, f"data_{TODAY}.json"), {})
@@ -1121,6 +1232,7 @@ def main():
     bt_foot = (f"回测命中率约 {_wr}%(<b>非 90%</b>),正期望靠 ~{_rr}:1 盈亏比"
                if (_wr is not None and _rr is not None)
                else "回测命中率远低于九成直觉,<b>正期望靠盈亏比而非高胜率</b>")
+    simple = simple_view(order, data, calls, cfg)
     html = f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
@@ -1287,6 +1399,66 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 .gdates{{display:flex;justify-content:space-between;font-size:10px;color:#94a6c4;margin-top:2px}}
 .gcold{{font-size:11px;color:#94a6c4;margin-top:10px}}
 @media(max-width:480px){{.gauges{{gap:8px}}.gcard{{padding:12px 6px 10px}}.gwrap{{width:100%;max-width:104px}}.gnum{{font-size:22px}}.gunit{{font-size:12px}}.gnote{{display:none}}.gspark{{height:32px}}}}
+/* ===== to-C 简洁版 + 付费墙 ===== */
+.vtabs{{display:flex;gap:8px;margin:0 0 16px;background:#101b33;border:1px solid #2f4166;border-radius:12px;padding:5px}}
+.vt{{flex:1;padding:11px 14px;background:transparent;border:none;border-radius:9px;font-family:inherit;font-size:14.5px;font-weight:800;color:#c9d5e8;cursor:pointer;transition:all .15s}}
+.vt:hover{{color:#f2f6fc;background:#1c2a4a}}.vt.active{{background:#e2c07e;color:#0a1020}}
+.view{{display:none}}.view.active{{display:block}}
+.today{{background:linear-gradient(135deg,#1c2a4a,#101b33);border:1px solid rgba(226,192,126,.35);border-radius:15px;padding:18px 20px;margin-bottom:16px}}
+.t-h{{font-size:16px;font-weight:800;color:#e2c07e;margin-bottom:12px}}
+.t-stats{{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}}
+.t-stat{{background:rgba(51,65,85,.32);border-radius:11px;padding:11px 8px;text-align:center}}
+.t-stat b{{font-size:26px;font-weight:900;color:#f2f6fc;display:block;font-variant-numeric:tabular-nums;line-height:1.1}}
+.t-stat span{{font-size:12px;color:#94a6c4;display:block;margin-top:3px}}
+.t-stat.tb b{{color:#4ade80}}.t-stat.tw b{{color:#fbbf24}}.t-stat.ta b{{color:#ff8080}}
+.t-note{{font-size:13.5px;color:#c9d5e8;margin-top:12px;line-height:1.6}}.t-note b{{color:#4ade80}}
+@media(max-width:560px){{.t-stats{{grid-template-columns:repeat(2,1fr)}}}}
+.s-section{{display:flex;align-items:center;gap:10px;font-size:16px;font-weight:800;color:#f2f6fc;margin:16px 0 12px;padding:9px 14px;background:linear-gradient(90deg,rgba(226,192,126,.14),transparent);border-left:4px solid #e2c07e;border-radius:8px}}
+.s-scnt{{font-size:12px;font-weight:600;color:#94a6c4;background:rgba(148,163,184,.15);padding:2px 10px;border-radius:10px}}
+.s-grid{{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-bottom:6px}}
+@media(max-width:760px){{.s-grid{{grid-template-columns:1fr}}}}
+.scard{{background:#1c2a4a;border:1px solid #2f4166;border-radius:14px;padding:16px 18px;border-top:3px solid #94a6c4}}
+.scard.sc-buy{{border-top-color:#4ade80}}.scard.sc-watch{{border-top-color:#fbbf24}}.scard.sc-avoid{{border-top-color:#ff8080}}
+.s-top{{display:flex;align-items:center;gap:8px;flex-wrap:wrap}}
+.s-flag{{font-size:15px}}.s-tk{{font-size:19px;font-weight:900;color:#f2f6fc}}.s-nm{{font-size:14px;color:#94a6c4}}
+.s-now{{margin-left:auto;font-size:22px;font-weight:900;color:#f2f6fc;font-variant-numeric:tabular-nums}}
+.s-sigrow{{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:10px 0}}
+.s-sig{{font-size:17px;font-weight:900;padding:4px 14px;border-radius:10px}}
+.s-sig.sc-buy{{color:#0a1020;background:#4ade80}}.s-sig.sc-watch{{color:#0a1020;background:#fbbf24}}.s-sig.sc-avoid{{color:#fff;background:#ff8080}}
+.s-conf{{font-size:12px;color:#94a6c4}}.s-earn{{font-size:12px;font-weight:700;color:#fbbf24;background:rgba(251,191,36,.12);border-radius:8px;padding:2px 8px}}
+.s-buy{{display:flex;align-items:center;gap:10px;background:rgba(74,222,128,.08);border:1px solid rgba(74,222,128,.25);border-radius:11px;padding:11px 14px}}
+.s-buy b{{font-size:19px;font-weight:900;color:#4ade80;font-variant-numeric:tabular-nums}}
+.s-lbl{{font-size:13px;color:#94a6c4}}.s-free{{margin-left:auto;font-size:11px;font-weight:700;color:#4ade80;background:rgba(74,222,128,.15);border-radius:8px;padding:2px 8px}}
+.s-locked{{position:relative;margin-top:10px;border:1px dashed rgba(226,192,126,.4);border-radius:11px;padding:12px 14px;overflow:hidden}}
+.s-locked>.s-lockrow,.s-locked>.s-lockth{{filter:blur(6px);user-select:none;pointer-events:none;transition:filter .25s}}
+.s-lockrow{{display:flex;align-items:center;gap:10px;margin-bottom:6px}}
+.s-tgt{{font-size:18px;color:#33d6c5;font-weight:900}}.s-ret{{font-size:18px;color:#fbbf24;font-weight:900}}
+.s-lockth{{font-size:13px;color:#c9d5e8;line-height:1.6;margin-top:4px}}
+.s-mask{{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;background:rgba(16,27,51,.55);backdrop-filter:blur(1px)}}
+.s-mask-t{{font-size:13px;font-weight:700;color:#e2c07e}}
+.s-unlockbtn{{font-family:inherit;font-size:13px;font-weight:800;color:#0a1020;background:linear-gradient(120deg,#f0d9a8,#e2c07e);border:none;border-radius:9px;padding:8px 18px;cursor:pointer}}
+.s-unlockbtn:hover{{transform:translateY(-1px)}}
+body.pro-unlocked .s-locked>.s-lockrow,body.pro-unlocked .s-locked>.s-lockth{{filter:none;user-select:auto;pointer-events:auto}}
+body.pro-unlocked .s-mask{{display:none}}
+body.pro-unlocked .s-locked{{border-style:solid;border-color:#2f4166}}
+.paywall{{background:linear-gradient(135deg,rgba(226,192,126,.10),rgba(37,99,235,.05)),#101b33;border:1px solid rgba(226,192,126,.5);border-radius:16px;padding:20px 22px;margin:20px 0 14px;box-shadow:0 0 24px rgba(226,192,126,.10)}}
+.pw-h{{font-size:18px;font-weight:900;color:#e2c07e;margin-bottom:14px;text-align:center}}
+.pw-cols{{display:grid;grid-template-columns:1fr 1fr;gap:14px}}
+@media(max-width:560px){{.pw-cols{{grid-template-columns:1fr}}}}
+.pw-col{{background:#1c2a4a;border:1px solid #2f4166;border-radius:13px;padding:16px 18px}}
+.pw-col.pw-pro{{border:1.5px solid #e2c07e;background:linear-gradient(180deg,rgba(226,192,126,.08),#1c2a4a)}}
+.pw-tt{{font-size:15px;font-weight:800;color:#f2f6fc;margin-bottom:10px}}.pw-pro .pw-tt{{color:#e2c07e}}
+.pw-ul{{list-style:none;font-size:13.5px;color:#c9d5e8;line-height:2}}.pw-ul b{{color:#f2f6fc}}
+.pw-ul .pw-x{{color:#64748b}}
+.pw-btn{{display:block;text-align:center;margin-top:14px;font-size:14.5px;font-weight:800;color:#0a1020;background:linear-gradient(120deg,#f0d9a8,#e2c07e);border-radius:11px;padding:12px;text-decoration:none}}
+.pw-btn:hover{{transform:translateY(-1px)}}.pw-btn.pw-soon{{background:#2f4166;color:#94a6c4;cursor:default}}
+.pw-code{{margin-top:14px;font-size:13px;color:#94a6c4;display:flex;align-items:center;gap:8px;flex-wrap:wrap}}
+.pw-code input{{background:#0a1020;border:1px solid #2f4166;border-radius:9px;color:#f2f6fc;font-size:13px;font-family:inherit;padding:8px 12px;width:130px}}
+.pw-code input:focus{{outline:none;border-color:#e2c07e}}
+.pw-code button{{font-family:inherit;font-size:13px;font-weight:700;color:#fff;background:#2563eb;border:none;border-radius:9px;padding:8px 16px;cursor:pointer}}
+#pwmsg{{font-size:12.5px}}
+.pw-lock-note{{font-size:11.5px;color:#94a6c4;margin-top:10px}}.pw-lock-note a{{color:#7ab8ff}}
+.s-disc{{font-size:12px;color:#94a6c4;line-height:1.8;background:rgba(51,65,85,.25);border:1px solid #2f4166;border-radius:12px;padding:13px 16px;margin-top:14px}}.s-disc b{{color:#c9d5e8}}
 </style></head><body><div class="wrap">
 <div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#e2c07e;margin-bottom:8px">LUMORA · 同光科技</div><h1>📡 {cfg['title']} · {TODAY}</h1>
 <div class="sub">美股 AI 核心 {sum(1 for s in cfg['stocks'] if s.get('market', 'US') == 'US' and s['ticker'] != cfg['benchmark'])} 票 + 🇨🇳 A 股 {sum(1 for s in cfg['stocks'] if s.get('market') == 'CN')} 票 + 🇭🇰 港股 {sum(1 for s in cfg['stocks'] if s.get('market') == 'HK')} 票 + {cfg['benchmark']} 基准 · 长期 {cfg['horizon_label']} 视角 · 数据 TwelveData/Finnhub+akshare+腾讯(真实行情) · AI 研判</div>
@@ -1324,9 +1496,38 @@ document.addEventListener('click',function(e){{
   var t=b.dataset.tab;
   document.querySelectorAll('.pane').forEach(function(p){{p.classList.toggle('hide', t!=='all' && p.dataset.mkt!==t);}});
 }});
+// 视图切换:简洁版 / 专业版
+document.addEventListener('click',function(e){{
+  var vb=e.target.closest?e.target.closest('.vt'):null; if(!vb)return;
+  document.querySelectorAll('.vt').forEach(function(x){{x.classList.remove('active');}});
+  vb.classList.add('active');
+  var vw=vb.getAttribute('data-view');
+  document.querySelectorAll('.view').forEach(function(x){{x.classList.toggle('active', x.id==='view-'+vw);}});
+  window.scrollTo(0,0);
+}});
+// 付费墙(客户端软解锁,localStorage 记住;裸访问 storage 必 try/catch 防隐私模式 SecurityError 中止脚本)
+var PRO_CODE="{PRO_CODE}";
+function pwUnlock(){{
+  var el=document.getElementById('pwcode'),msg=document.getElementById('pwmsg');
+  var code=(el?el.value:'').trim();
+  if(code&&code===PRO_CODE){{
+    try{{localStorage.setItem('meigu-pro','1');}}catch(e){{}}
+    document.body.classList.add('pro-unlocked');
+    if(msg){{msg.style.color='#4ade80';msg.textContent='✅ 已解锁,完整研判已展开';}}
+  }}else if(msg){{msg.style.color='#ff8080';msg.textContent='❌ 解锁码不对';}}
+}}
+function pwLock(){{ try{{localStorage.removeItem('meigu-pro');}}catch(e){{}} document.body.classList.remove('pro-unlocked'); var m=document.getElementById('pwmsg'); if(m){{m.textContent='已锁定';m.style.color='#94a6c4';}} }}
+function pwScroll(){{ var p=document.getElementById('paywall'); if(p)p.scrollIntoView({{behavior:'smooth',block:'center'}}); }}
+try{{ if(localStorage.getItem('meigu-pro')==='1') document.body.classList.add('pro-unlocked'); }}catch(e){{}}
 </script>
+</div>
+<nav class="vtabs"><button class="vt active" data-view="simple">💡 简洁版 · 一眼看懂</button><button class="vt" data-view="pro">🔬 专业版 · 完整研判</button></nav>
+<div class="view active" id="view-simple">
+{simple}
+</div>
+<div class="view" id="view-pro">
 <div class="market">🌎 <b style="color:#7ab8ff">大盘与板块:</b>{calls.get('market','')}</div>
-<div class="rankbar">🏆 <b>买点吸引力排序:</b>{rank_str}</div></div>
+<div class="rankbar">🏆 <b>买点吸引力排序:</b>{rank_str}</div>
 {freshness_banner(calls_date, data_meta, "DeepSeek" if "DeepSeek" in (calls.get("market") or "") else "Claude")}
 {macro_strip()}
 {premarket_section(data)}
@@ -1336,6 +1537,7 @@ document.addEventListener('click',function(e){{
 {portfolio_risk_section()}
 {cards}
 {audit_section(data)}
+</div>
 <div class="foot">两个核心指标 = ① 买入建议+建议买入价　② 6-12月目标价+预期收益　·　预测台账自动复盘校准<br>
 数据 TwelveData/Finnhub+akshare+腾讯行情(真实抓取) · {engine_line}<br>
 ⚠️ 仅供研究/学习,<b>非投资建议</b>。{bt_foot}——<b>赚钱靠风控不靠高胜率</b>;目标价为技术面+共识+催化剂推演,不代表未来,实际交易请自负风险。</div>
