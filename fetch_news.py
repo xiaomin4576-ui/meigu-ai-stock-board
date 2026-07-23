@@ -136,6 +136,28 @@ def _norm(t):
     return re.sub(r"[^0-9a-zA-Z一-鿿]", "", t.lower())[:48]
 
 
+MAX_AGE_DAYS = 5   # 发布 >5 天的候选不进"今日头条"池——防旧发布(Yahoo常青文/能源聚合旧稿)被当今日新闻
+
+
+def _age_days(ts):
+    """候选发布距今天数(北京);解析不出返回 None(不误杀,保留)。三种源格式都覆盖:
+    Finnhub ISO / 东财 'YYYY-MM-DD HH:MM:SS' / RSS RFC822。"""
+    import email.utils
+    s = str(ts or "").strip()
+    if not s:
+        return None
+    dd = None
+    m = re.search(r"(20\d{2})-(\d{2})-(\d{2})", s)
+    if m:
+        dd = datetime.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+    else:
+        try:
+            dd = email.utils.parsedate_to_datetime(s).date()
+        except Exception:
+            return None
+    return (datetime.date.fromisoformat(TODAY) - dd).days
+
+
 def main():
     os.makedirs(STATE, exist_ok=True)
     cands, counts = [], {}
@@ -159,6 +181,23 @@ def main():
         if u:
             seen_u.add(u)
         dedup.append(it)
+    # 时效过滤:发布 >MAX_AGE_DAYS 天的不进池(解析不出日期的保留);each 条打 age_days 供研判/渲染用。
+    # 安全兜底:若过滤后不足 20 条(极端少鲜稿),退回不过滤,宁可旧也不空版。
+    fresh = []
+    dropped_old = 0
+    for it in dedup:
+        age = _age_days(it.get("ts"))
+        it["age_days"] = age
+        if age is not None and age > MAX_AGE_DAYS:
+            dropped_old += 1
+            continue
+        fresh.append(it)
+    if len(fresh) >= 20:
+        if dropped_old:
+            print(f"  🕐 时效过滤:剔除 {dropped_old} 条发布>{MAX_AGE_DAYS}天的旧稿")
+        dedup = fresh
+    else:
+        print(f"  ⚠️ 过滤后仅 {len(fresh)} 条,过少→保留全部(宁旧不空版)")
     out = {"asof": TODAY,
            "fetched_at": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat(timespec="minutes"),
            "meta": {"counts": counts, "total": len(dedup)},

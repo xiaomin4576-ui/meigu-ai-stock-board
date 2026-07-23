@@ -108,17 +108,41 @@ def _bj_ts(ts):
     return s[:16] + (" 北京" if re.match(r"\d{4}-\d{2}-\d{2} ", s) else "")
 
 
+def _rel_age(ts):
+    """发布距今天数 → 相对时效标(🕐今日/N天前);>2天标黄提醒"非今日突发,注意事件时点"。解析不出返回空。"""
+    import email.utils
+    s = str(ts or "").strip()
+    if not s:
+        return ""
+    m = re.search(r"(20\d{2})-(\d{2})-(\d{2})", s)
+    dd = None
+    if m:
+        dd = datetime.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+    else:
+        try:
+            dd = email.utils.parsedate_to_datetime(s).astimezone(datetime.timezone(datetime.timedelta(hours=8))).date()
+        except Exception:
+            return ""
+    days = (datetime.date.fromisoformat(TODAY) - dd).days
+    if days <= 0:
+        return '<span class="age fresh">🕐 今日发布</span>'
+    if days == 1:
+        return '<span class="age fresh">🕐 1天前</span>'
+    return f'<span class="age stale">🕐 {days}天前 · 非今日突发,留意事件时点</span>'
+
+
 def item_html(rank, it):
     imp = it.get("impact") or "?"
     src = esc(it.get("source"))
     url = str(it.get("url") or "")
     ts = esc(_bj_ts(it.get("ts")))
+    age = _rel_age(it.get("ts"))
     link = f'<a href="{esc(url)}" target="_blank" rel="noopener">{src} ↗</a>' if url.startswith("http") else src
     return f"""<div class="item">
   <div class="ihd"><span class="irk">{rank}</span><span class="ittl">{esc(it.get('title'))}</span><span class="imp">影响力 {imp}/10</span></div>
   <div class="ibrief">{esc(it.get('brief'))}</div>
   <div class="ichain">🔗 <b>传导链:</b>{esc(it.get('chain'))}</div>
-  <div class="isrc">{link} · {ts}</div>
+  <div class="isrc">{link} · {ts} {age}</div>
 </div>"""
 
 
@@ -222,6 +246,9 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 .ibrief{{font-size:14px;color:#c9d5e8;margin-top:6px}}
 .ichain{{font-size:14px;color:#fbbf24;background:rgba(251,191,36,.07);border:1px solid rgba(251,191,36,.18);border-radius:9px;padding:7px 11px;margin-top:8px}}
 .isrc{{font-size:12px;color:#94a6c4;margin-top:7px}}.isrc a{{color:#7ab8ff;text-decoration:none}}
+.age{{font-size:11px;font-weight:600;border-radius:10px;padding:1px 7px;margin-left:4px}}
+.age.fresh{{color:#4ade80;background:rgba(74,222,128,.12)}}
+.age.stale{{color:#fbbf24;background:rgba(251,191,36,.13)}}
 .foot{{text-align:center;font-size:12px;color:#94a6c4;margin-top:20px;line-height:1.8}}
 .macro{{background:#101b33;border:1px solid rgba(96,165,250,.35);border-radius:13px;padding:13px 16px;margin-bottom:14px}}
 .mtitle{{font-size:14px;font-weight:800;color:#7ab8ff;margin-bottom:9px}}
