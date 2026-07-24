@@ -1,14 +1,14 @@
 {
  "asof": "2026-07-24",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-07-24T11:40+08:00",
+ "generated_at": "2026-07-24T13:02+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 7,
   "cluster_label": "也门/伊朗/胡塞",
   "cluster_dropped": [
-   "特朗普称美国将追究伊朗责任",
-   "伊朗向也门胡塞武装运送导弹"
+   "伊朗向也门胡塞武装运送导弹",
+   "特朗普称美国将追究伊朗对胡塞袭击责任"
   ],
   "backfilled": 0
  },
@@ -17,7 +17,7 @@
    "cat": "geo",
    "title": "美军连续第13晚空袭伊朗",
    "brief": "美军完成对伊朗的第13个连续夜间打击，中东局势持续升级。",
-   "chain": "美伊冲突升级→避险情绪升温→A股军工/黄金链受关注",
+   "chain": "美伊冲突加剧→地缘风险溢价推高油价→影响全球能源成本",
    "impact": 10,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOS2RjdGstOHhBcnk2VmZRa3dlaHA4YlM5M056cW1TcktoUDZMUHlYa3BCTmhQRlJaVnAxdkR1VGhUX180ck1vSVY5UnBjNnJyVjVVN1FzdjRlYlhVcGFHTld6RkFWUVhEVzN0T0ZQd3E2U0pGcHhZM2FlREMtckJVSXJNUERBbXZkbThpQ0U4d0dFQnNjbDRsaU1hNkp6Y19TVkRVbFE5cGk2QXdLVjd0aGJZVUNLbVNnOUpr?oc=5",
@@ -26,8 +26,8 @@
   {
    "cat": "oil",
    "title": "油轮绕行霍尔木兹成本飙升",
-   "brief": "油轮为避开霍尔木兹和曼德海峡，需多花一个月航程和250万美元费用。",
-   "chain": "霍尔木兹航运受阻→原油供应风险溢价上升→莫桑比克油气出口受益于油价走高",
+   "brief": "油轮为避开霍尔木兹海峡和曼德海峡，需多花一个月时间和250万美元。",
+   "chain": "霍尔木兹海峡通行受阻→原油运输成本激增→推高Brent油价，影响莫桑比克LNG出口竞争力",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUlN1bTdzeXE4MGNNX3JUY0FhZVRPbXlMdXhWcnZuaXBJQnpjNEVJeGM2cnZJeExGWnN0YUZMaWxBN2xKdk04S0ItTnppcjM2aUJYaUZqdFpmWjFHNk54SjZsSXotUURVdzhCVzFac2FCRHhaZ28yMHkwbzVzQmNBZGk5TzRmVGo5M25FRmVDelN3UnotbDNmb3VjWFVJRkJfZnJITElmNzdtNExlam15a0hpUmJSYXk4Z3ZqOXRPZWh5WFVMRHZz?oc=5",
@@ -36,38 +36,18 @@
   {
    "cat": "macro",
    "title": "亚洲股市因油价飙升下跌",
-   "brief": "油价飙升重燃通胀担忧，亚洲股市承压，债券市场受冲击。",
-   "chain": "油价上涨→通胀预期升温→美联储加息预期强化→美股估值承压→A股成长股情绪传导",
-   "impact": 9,
+   "brief": "油价飙升重燃通胀担忧，亚洲股市下跌，债券市场承压。",
+   "chain": "油价上涨→通胀预期升温→美联储加息预期强化→美股估值承压→A股算力链情绪受抑",
+   "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORzVSb2tZRUVrYzhLQ0hCcVk1clVDQ1hjaGFPVElvd0JKZ0RVeGFTQ2JBVlVwRFNLbUxHOGZKTnl3WGEyeU5PQzEtTnBmVjBRdVVVUHBaSzJXY1pRT2ZFenczR0d2emszLWpGZDItNEcxd29RSGdWSDhVOEM5RjZRRXc0VQ?oc=5",
    "ts": "2026-07-24T01:20:00+00:00"
   },
   {
-   "cat": "oil",
-   "title": "布伦特原油重回100美元",
-   "brief": "布伦特原油价格重返100美元，特朗普同时重启关税政策。",
-   "chain": "布伦特破百→全球通胀压力加大→莫桑比克LNG项目经济性提升",
-   "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/24/cnbc-daily-open-brent-100-trump-renews-tariffs.html",
-   "ts": "Fri, 24 Jul 2026 01:06:15 GMT"
-  },
-  {
    "cat": "macro",
-   "title": "日本核心通胀因油价上涨回升",
-   "brief": "日本6月核心通胀率从四年低点回升，受油价上涨影响。",
-   "chain": "日本通胀回升→全球利率预期上行→美股科技股估值承压→A股算力链情绪传导",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/24/japan-cpi-june-inflation-oil-prices-yen.html",
-   "ts": "Fri, 24 Jul 2026 02:24:48 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "特朗普新关税引贸易伙伴批评",
-   "brief": "特朗普以强迫劳动为由加征新关税，遭贸易伙伴谴责。",
-   "chain": "关税升级→全球贸易摩擦加剧→美股供应链成本上升→A股出口链承压",
+   "title": "特朗普新全球关税引贸易伙伴谴责",
+   "brief": "特朗普以强迫劳动为由加征新关税，遭贸易伙伴广泛批评。",
+   "chain": "关税升级→全球贸易摩擦加剧→美股风险偏好下降→A股出口链承压",
    "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/24/trump-global-tariffs-trade-imbalance-forced-labor.html",
@@ -75,19 +55,29 @@
   },
   {
    "cat": "oil",
-   "title": "原油因供应风险上涨",
-   "brief": "全球供应风险加剧推动原油价格上涨。",
-   "chain": "供应风险→油价走高→莫桑比克油气项目盈利改善",
+   "title": "布伦特原油重回100美元",
+   "brief": "布伦特原油价格重返100美元，特朗普同时重启关税。",
+   "chain": "Brent重回100美元→全球通胀压力加大→莫桑比克油气项目收益预期提升",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/24/cnbc-daily-open-brent-100-trump-renews-tariffs.html",
+   "ts": "Fri, 24 Jul 2026 01:06:15 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "日本核心通胀率因油价上涨回升",
+   "brief": "日本6月核心通胀率从四年低点回升，因油价上涨推高成本。",
+   "chain": "日本通胀回升→全球央行紧缩预期强化→美股成长股估值承压→A股算力链情绪传导",
    "impact": 6,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/energy/articles/crude-oil-rallies-global-supply-154529250.html",
-   "ts": "2026-07-22T15:45:29Z"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/24/japan-cpi-june-inflation-oil-prices-yen.html",
+   "ts": "Fri, 24 Jul 2026 02:24:48 GMT"
   },
   {
    "cat": "gas",
-   "title": "西南航空首次船运德州燃油",
-   "brief": "西南航空因供应担忧，首次用船将休斯顿燃油运至洛杉矶。",
-   "chain": "美国燃油供应紧张→LNG替代需求增加→莫桑比克LNG出口机会",
+   "title": "西南航空因供应担忧船运燃料",
+   "brief": "西南航空首次用船将德州喷气燃料运至洛杉矶，应对供应短缺。",
+   "chain": "美国燃料供应紧张→炼厂开工率下降→LNG替代需求增加，利好莫桑比克LNG出口",
    "impact": 5,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/07/23/southwest-shipped-jet-fuel-from-texas-to-california-amid-supply-crunch.html",
@@ -96,8 +86,8 @@
   {
    "cat": "tech",
    "title": "英特尔营收增速创近15年新高",
-   "brief": "英特尔股价大涨，受益于AI需求推动，营收增速为近15年最快。",
-   "chain": "英特尔业绩超预期→美股半导体板块走强→A股半导体设备链映射",
+   "brief": "英特尔股价大涨，受益于AI热潮，营收增速为近15年最快。",
+   "chain": "英特尔业绩超预期→半导体行业景气度提升→A股芯片/算力链受益",
    "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html",
@@ -105,9 +95,19 @@
   },
   {
    "cat": "tech",
+   "title": "甲骨文与五角大楼签70亿美元合同",
+   "brief": "甲骨文与国防部签署10年软件合同，价值高达70亿美元。",
+   "chain": "甲骨文获大单→云计算/企业软件需求强劲→A股信创/云产业链映射",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/23/oracle-wins-10-year-pentagon-software-contract-worth-up-to-7-billion.html",
+   "ts": "Thu, 23 Jul 2026 21:56:31 GMT"
+  },
+  {
+   "cat": "tech",
    "title": "谷歌云客户支出增长50%",
    "brief": "谷歌云CEO称客户支出增长50%，云业务表现远超预期。",
-   "chain": "谷歌云强劲→美股云服务板块提振→A股云计算/算力链情绪",
+   "chain": "谷歌云高增长→云计算资本开支扩张→A股算力基础设施链受益",
    "impact": 7,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/07/23/google-cloud-kurian-revenue-earnings.html",
@@ -115,49 +115,39 @@
   },
   {
    "cat": "tech",
-   "title": "谷歌被欧盟罚款10亿欧元",
-   "brief": "谷歌因违反欧盟数字法被处以10亿欧元罚款。",
-   "chain": "科技监管趋严→美股科技巨头承压→A股科技股情绪传导",
-   "impact": 7,
+   "title": "谷歌被欧盟罚款近9亿欧元",
+   "brief": "欧盟对谷歌处以8.9亿欧元罚款，要求公平对待第三方服务。",
+   "chain": "谷歌遭欧盟重罚→科技监管趋严→美股科技股风险偏好下降→A股科技板块情绪传导",
+   "impact": 6,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/07/23/google-1-billion-eu-fine-dma.html",
    "ts": "Thu, 23 Jul 2026 16:29:24 GMT"
   },
   {
    "cat": "tech",
-   "title": "甲骨文与五角大楼签70亿美元合同",
-   "brief": "甲骨文与国防部签署10年软件合同，价值高达70亿美元。",
-   "chain": "国防IT需求增长→美股软件板块受益→A股军工信息化链",
-   "impact": 6,
+   "title": "Cerebras因AMD合作股价上涨",
+   "brief": "Cerebras与AMD达成合作，股价上涨。",
+   "chain": "AMD+Cerebras合作→AI芯片竞争格局变化→A股AI芯片/算力链关注",
+   "impact": 5,
    "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/23/oracle-wins-10-year-pentagon-software-contract-worth-up-to-7-billion.html",
-   "ts": "Thu, 23 Jul 2026 21:56:31 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "半导体设备交期延长1.5-2倍",
-   "brief": "五大半导体设备商交期大幅拉长，韩国存储巨头考虑提前下单。",
-   "chain": "设备供应紧张→芯片扩产受限→A股半导体设备/材料链受益",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607243820188484.html",
-   "ts": "2026-07-24 11:22:01"
+   "url": "https://www.cnbc.com/2026/07/23/cerebras-stock-gains-on-amd-partnership.html",
+   "ts": "Thu, 23 Jul 2026 20:33:12 GMT"
   },
   {
    "cat": "ai",
-   "title": "OpenAI模型失控引发AI法案",
-   "brief": "OpenAI模型被黑后，美国国会提出“AI关闭开关”法案。",
-   "chain": "AI安全事件→监管收紧→美股AI板块波动→A股AI治理概念",
-   "impact": 8,
+   "title": "OpenAI模型失控引发AI监管法案",
+   "brief": "OpenAI模型在Hugging Face上失控，美国国会提出“AI终止开关”法案。",
+   "chain": "AI安全事件→监管收紧预期→美股AI板块波动→A股AI治理/安全概念股",
+   "impact": 7,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/07/23/open-ai-hugging-face-hack-kill-switch-bill-congress.html",
    "ts": "2026-07-23T19:52:25+00:00"
   },
   {
    "cat": "ai",
-   "title": "多国支持开源AI安全框架",
-   "brief": "美国等国在中国峰会上支持开源AI并强调安全。",
-   "chain": "开源AI获国际共识→AI生态发展→A股AI应用链受益",
+   "title": "多国支持开源AI但强调安全",
+   "brief": "美国等国在中国峰会上支持开源AI，但要求“强安全性”。",
+   "chain": "开源AI安全标准确立→全球AI治理框架推进→影响AI产业链合规成本",
    "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/24/china-ai-open-source-apec.html",
@@ -167,41 +157,51 @@
    "cat": "ai",
    "title": "AI主题ETF数量激增",
    "brief": "摩根大通报告显示AI主题ETF数量大幅增加，尽管季度表现不佳。",
-   "chain": "AI投资热情高涨→资金流入AI板块→A股AI算力链情绪",
-   "impact": 6,
+   "chain": "AI投资热潮持续→资金涌入AI主题→美股AI板块估值提升→A股AI概念情绪传导",
+   "impact": 5,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/07/23/jpmorgan-dramatic-jump-in-ai-etfs-despite-rough-quarter.html",
    "ts": "2026-07-23T17:10:06+00:00"
   },
   {
    "cat": "ai",
-   "title": "Cerebras与AMD合作股价上涨",
-   "brief": "AI芯片公司Cerebras与AMD达成合作，股价上涨。",
-   "chain": "AI芯片竞争加剧→美股AI硬件受益→A股AI芯片链映射",
-   "impact": 5,
+   "title": "IBM称AI不会颠覆软件业务",
+   "brief": "IBM CEO试图安抚投资者，称AI不会扰乱公司软件部门。",
+   "chain": "IBM表态→AI对传统软件影响有限→企业AI落地节奏预期调整",
+   "impact": 4,
    "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/23/cerebras-stock-gains-on-amd-partnership.html",
-   "ts": "Thu, 23 Jul 2026 20:33:12 GMT"
+   "url": "https://www.cnbc.com/2026/07/23/ibms-krishna-argues-that-ai-wont-disrupt-software-unit.html",
+   "ts": "Thu, 23 Jul 2026 22:40:53 GMT"
   },
   {
    "cat": "macro",
-   "title": "美股七巨头单日蒸发8000亿美元",
-   "brief": "伊朗战事与AI投入担忧导致美股七巨头单日市值蒸发约8000亿美元。",
-   "chain": "地缘+AI双重冲击→美股科技股暴跌→A股算力链情绪传导",
-   "impact": 9,
+   "title": "中期选举年美股波动加大",
+   "brief": "分析师指出中期选举年美股波动性最大，但也蕴含买入机会。",
+   "chain": "中期选举不确定性→美股波动率上升→A股风险偏好受外围影响",
+   "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607243820203591.html",
-   "ts": "2026-07-24 11:10:08"
+   "url": "https://finance.eastmoney.com/a/202607243820241842.html",
+   "ts": "2026-07-24 12:53:00"
   },
   {
    "cat": "macro",
-   "title": "韩国综指暴跌6%",
-   "brief": "韩国综指跌幅扩大至6%，三星电子跌超8%，SK海力士跌超7%。",
-   "chain": "全球风险偏好恶化→亚太股市承压→A股外资流出压力",
-   "impact": 7,
+   "title": "5年期日债收益率升至2.03%",
+   "brief": "5年期日本国债收益率上涨至2.03%，为7月10日以来最高。",
+   "chain": "日债收益率上行→全球利率联动→美股成长股估值承压→A股算力链情绪传导",
+   "impact": 4,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607243820191882.html",
-   "ts": "2026-07-24 11:00:36"
+   "url": "https://finance.eastmoney.com/a/202607243820245038.html",
+   "ts": "2026-07-24 11:45:13"
+  },
+  {
+   "cat": "tech",
+   "title": "杰富瑞上调AMD目标价至640美元",
+   "brief": "杰富瑞将AMD目标价从515美元上调至640美元，看好其AI芯片前景。",
+   "chain": "AMD获投行上调目标价→AI芯片需求强劲→A股AMD产业链/算力链受益",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607243820262860.html",
+   "ts": "2026-07-24 12:57:36"
   }
  ]
 }
