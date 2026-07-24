@@ -1,53 +1,53 @@
 {
  "asof": "2026-07-24",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-07-24T20:48+08:00",
+ "generated_at": "2026-07-24T23:20+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 1,
+  "cross_day_suppressed": 0,
   "cluster_label": "伊朗/沙特/胡塞",
   "cluster_dropped": [
-   "特朗普誓言惩罚伊朗和胡塞武装",
-   "美军连续13晚打击伊朗"
+   "特朗普考虑对伊朗发动大规模攻击",
+   "特朗普称美国将追究伊朗对胡塞袭击责任"
   ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "geo",
-   "title": "特朗普考虑对伊朗发动大规模攻击",
-   "brief": "特朗普考虑对伊朗发动大规模攻击，伊朗将英国视为美国帮凶。",
-   "chain": "美伊冲突升级→避险情绪升温→美股波动加大，A股军工/黄金链受关注",
+   "title": "美国从南到北打击伊朗",
+   "brief": "美国对伊朗发动全面打击，特朗普威胁红海航运。",
+   "chain": "美伊冲突升级→避险升温，油价飙升→美股能源股涨，科技股承压；A股油气链受益，算力链受情绪压制",
    "impact": 10,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/24/us-iran-war-trump-hormuz-houthis.html",
-   "ts": "Fri, 24 Jul 2026 11:57:15 GMT"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNFdZY1R2bFRCTk51X1E2U2dLZUphMDA2MVlUaGRzOEJXRXc5Vl9ObDNaVE9FNnU4eTV6TXBjYjRyR2xZekJYeGY2VHNrYW9hSjhpSjQ0aVJEdXBkSk9Ja2NXRjZjQng3Rkp1eFBHMlVwQ2paZUlVRnZUN0l3OThQRlZVLTJDanZHREpMTjFNVm9odWl5alZwRUpDbUhwSWRWeHc?oc=5",
+   "ts": "2026-07-24T04:00:00+00:00"
   },
   {
    "cat": "oil",
-   "title": "油价回落但周涨幅近10%",
-   "brief": "油价小幅回落，但受美伊冲突推动，本周涨幅近10%。",
-   "chain": "美伊冲突推高油价→布伦特或维持高位→莫桑比克油气项目收益预期提升",
+   "title": "油价从100美元上方回落，周线仍涨",
+   "brief": "中东局势升级推动油价周线上涨，但日内从高位回落。",
+   "chain": "中东紧张→油价冲高后获利回吐→短期油价高位震荡，莫桑比克油气项目受益于高油价环境",
    "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaFZBdXJmU1lITHlha1NMc0hvVjhaOVVFbjEya0Z1ZXZzNGFjTC1lV21nR1MwcjNERmJydnhvc0xNRzc0ODRPRlpScU9UZ0M3U3hYaEFveXdsbDYwQ01zZlk0WTZWSWJZZHhBUHAtMHNNSG1MRHB0RGRzSUVLNGdJV1VNeW54TWw5cERFekMwdmxDNVdWdVp1VGN0c0xqbnRSS0Fyejh3eXVDZ1J1elFER1doSjdPeU1CMTIwZmlvOWM2dw?oc=5",
+   "ts": "2026-07-24T01:36:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "油价回落但周涨幅达10%",
+   "brief": "特朗普考虑更大规模打击伊朗，油价周涨幅约10%。",
+   "chain": "美伊冲突持续→油价周线大涨→莫桑比克LNG项目经济性改善，但航运风险增加",
+   "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/24/oil-price-trump-hormuz-red-sea-iran-war.html",
    "ts": "Fri, 24 Jul 2026 12:42:34 GMT"
   },
   {
-   "cat": "macro",
-   "title": "美债收益率回落，10年期仍处高位",
-   "brief": "10年期美债收益率从高点回落，但仍维持在2025年1月以来高位。",
-   "chain": "油价飙升推升通胀预期→美债收益率高位→美股成长股估值承压，A股算力链情绪受抑",
-   "impact": 8,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/07/24/treasury-yields-bonds-us-debt.html",
-   "ts": "2026-07-24T09:00:31+00:00"
-  },
-  {
    "cat": "oil",
-   "title": "胡塞武装袭击两艘沙特油轮",
-   "brief": "胡塞武装称袭击两艘沙特油轮，沙特确认一艘在红海起火。",
-   "chain": "红海航运风险加剧→油轮绕行推高运价→莫桑比克LNG出口成本上升",
+   "title": "胡塞袭击两艘沙特油轮，一艘起火",
+   "brief": "胡塞武装宣称袭击两艘沙特油轮，沙特确认一艘在红海起火。",
+   "chain": "红海油轮遇袭→中东航运风险加剧→油价短期上行，莫桑比克油气出口绕行好望角成本增加",
    "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZHZGNUJIVDM4b051ZHVfNEJYZmRlSTdLdDY5S0hLUFpCcTJFeU41bW5mMGtSbVNRNGhBdnhta3JpaFVXeGkxc1VwVmZvY19Ibm9DU0VwNWt6cWJDTm02YVJFZzV3UTZmRmpHckNTWkxGV2pCQjBqZHRDdExub2U0OGlraDNlcWFKaS14R3RDdjBRYk5mZDRoYkNfVG1tcmZybXpwZ1I4d0Z1bldT?oc=5",
@@ -55,129 +55,19 @@
   },
   {
    "cat": "macro",
-   "title": "特朗普新全球关税遭贸易伙伴批评",
-   "brief": "特朗普以强迫劳动为由对60个贸易伙伴加征新关税，引发广泛批评。",
-   "chain": "关税升级→全球贸易放缓风险→美股出口导向型承压，A股外贸链受冲击",
+   "title": "美债收益率回落，10年期徘徊2025年1月高位",
+   "brief": "10年期美债收益率从高位回落，但仍接近2025年1月高点。",
+   "chain": "美债收益率高位震荡→科技成长股估值承压→A股算力链受情绪传导，高估值标的回调风险",
    "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/24/trump-global-tariffs-trade-imbalance-forced-labor.html",
-   "ts": "Fri, 24 Jul 2026 12:09:09 GMT"
-  },
-  {
-   "cat": "geo",
-   "title": "俄袭击致乌克兰北部15万人断电",
-   "brief": "俄军袭击切断乌克兰北部约15万人电力供应，乌方反击俄导弹和石油设施。",
-   "chain": "俄乌冲突持续→欧洲能源供应担忧→天然气价格波动，影响莫桑比克LNG定价",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/24/russia-ukraine-war-zelenskyy-putin-oil.html",
-   "ts": "Fri, 24 Jul 2026 10:07:18 GMT"
-  },
-  {
-   "cat": "oil",
-   "title": "油价从100美元上方回落",
-   "brief": "油价从100美元上方回落，但因地缘紧张周线仍上涨。",
-   "chain": "油价高位震荡→炼油成本上升→莫桑比克油气项目盈利空间扩大",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaFZBdXJmU1lITHlha1NMc0hvVjhaOVVFbjEya0Z1ZXZzNGFjTC1lV21nR1MwcjNERmJydnhvc0xNRzc0ODRPRlpScU9UZ0M3U3hYaEFveXdsbDYwQ01zZlk0WTZWSWJZZHhBUHAtMHNNSG1MRHB0RGRzSUVLNGdJV1VNeW54TWw5cERFekMwdmxDNVdWdVp1VGN0c0xqbnRSS0Fyejh3eXVDZ1J1elFER1doSjdPeU1CMTIwZmlvOWM2dw?oc=5",
-   "ts": "2026-07-24T10:29:19+00:00"
-  },
-  {
-   "cat": "gas",
-   "title": "Santos收窄2026产量指引",
-   "brief": "Santos因Barossa和Pikka项目爬坡，收窄2026年产量指引。",
-   "chain": "LNG供应增量有限→气价获支撑→莫桑比克Rovuma项目竞争力增强",
-   "impact": 6,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/energy/articles/santos-narrows-2026-output-guidance-014831843.html",
-   "ts": "2026-07-23T01:48:31Z"
-  },
-  {
-   "cat": "tech",
-   "title": "英特尔股价大涨，营收增速近15年最快",
-   "brief": "英特尔受益于AI需求，营收增速创近15年最快，股价大涨。",
-   "chain": "英特尔业绩超预期→AI算力需求强劲→A股芯片/算力链受提振",
-   "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html",
-   "ts": "Thu, 23 Jul 2026 22:17:09 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "谷歌云营收超预期，客户支出增50%",
-   "brief": "谷歌云CEO称客户支出增长50%，云业务表现远超预期。",
-   "chain": "云服务需求旺盛→AI基础设施投入加速→A股算力/数据中心链受益",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/23/google-cloud-kurian-revenue-earnings.html",
-   "ts": "Thu, 23 Jul 2026 21:50:11 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "甲骨文与五角大楼签70亿美元合同",
-   "brief": "甲骨文与国防部签署10年软件合同，价值高达70亿美元。",
-   "chain": "政府云订单增长→科技巨头收入多元化→A股信创/软件链情绪向好",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/23/oracle-wins-10-year-pentagon-software-contract-worth-up-to-7-billion.html",
-   "ts": "Thu, 23 Jul 2026 21:56:31 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "Cerebras因AMD合作股价上涨",
-   "brief": "Cerebras与AMD达成合作，股价上涨。",
-   "chain": "AI芯片竞争加剧→算力硬件需求扩张→A股AI芯片/算力链关注",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/23/cerebras-stock-gains-on-amd-partnership.html",
-   "ts": "Thu, 23 Jul 2026 20:33:12 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "中国AI模型阻止OpenAI网络攻击",
-   "brief": "中国AI模型成功阻止OpenAI前所未有的网络攻击。",
-   "chain": "AI安全事件凸显治理需求→美股AI安全概念受关注→A股网络安全链映射",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/24/chinese-ai-model-openai-cyber-attack.html",
-   "ts": "Fri, 24 Jul 2026 12:33:07 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "菲尔兹奖得主加入OpenAI",
-   "brief": "新晋菲尔兹奖得主雅各布宣布加入OpenAI，专注AI安全。",
-   "chain": "顶级人才流向AI安全→AI治理重要性提升→A股AI伦理/安全板块受关注",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607243820667351.html",
-   "ts": "2026-07-24 20:01:13"
-  },
-  {
-   "cat": "ai",
-   "title": "多国支持开源AI安全框架",
-   "brief": "美国等国在中国峰会上支持开源AI并强调安全。",
-   "chain": "开源AI安全标准推进→AI监管趋严→美股AI龙头合规成本上升，A股AI应用链受影响",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/24/china-ai-open-source-apec.html",
-   "ts": "Fri, 24 Jul 2026 02:42:21 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "AI主题ETF资金流入激增",
-   "brief": "摩根大通报告显示AI主题ETF资金流入大幅增加。",
-   "chain": "资金涌入AI主题→推高AI板块估值→A股AI算力/应用链情绪升温",
-   "impact": 5,
    "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/07/23/jpmorgan-dramatic-jump-in-ai-etfs-despite-rough-quarter.html",
-   "ts": "2026-07-23T17:10:06+00:00"
+   "url": "https://www.cnbc.com/2026/07/24/treasury-yields-bonds-us-debt.html",
+   "ts": "2026-07-24T09:00:31+00:00"
   },
   {
    "cat": "macro",
-   "title": "日本核心通胀因油价上涨回升",
-   "brief": "日本6月核心CPI从四年低点回升，油价上涨是主因。",
-   "chain": "油价推升通胀→全球央行紧缩预期升温→美股估值承压，A股周期品链受传导",
+   "title": "日本6月核心通胀率从四年低点回升",
+   "brief": "日本6月核心CPI因油价上涨而回升，结束四年低点。",
+   "chain": "日本通胀回升→全球利率预期上行→美股科技股估值压力，A股算力链受连带影响",
    "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/24/japan-cpi-june-inflation-oil-prices-yen.html",
@@ -185,23 +75,133 @@
   },
   {
    "cat": "macro",
-   "title": "亚洲股市下跌，油价飙升推升利率风险",
-   "brief": "亚洲股市下跌，债券承压，因油价飙升加剧利率风险。",
-   "chain": "油价→通胀预期→利率上行→美股成长股承压，A股算力链情绪受抑",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORzVSb2tZRUVrYzhLQ0hCcVk1clVDQ1hjaGFPVElvd0JKZ0RVeGFTQ2JBVlVwRFNLbUxHOGZKTnl3WGEyeU5PQzEtTnBmVjBRdVVVUHBaSzJXY1pRT2ZFenczR0d2emszLWpGZDItNEcxd29RSGdWSDhVOEM5RjZRRXc0VQ?oc=5",
-   "ts": "2026-07-24T01:20:00+00:00"
+   "title": "美国6月新屋销售三个月来首次增长",
+   "brief": "6月新屋销售环比增长1.6%，折年率62.8万套，略超预期。",
+   "chain": "美国楼市数据改善→经济软着陆预期增强→美股整体偏稳，A股出口链关注",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607243820801075.html",
+   "ts": "2026-07-24 22:24:17"
   },
   {
-   "cat": "oil",
-   "title": "油轮绕行霍尔木兹成本增加250万美元",
-   "brief": "油轮为避开霍尔木兹和曼德海峡，绕行增加一个月航程和250万美元成本。",
-   "chain": "航运成本飙升→原油到岸价上涨→莫桑比克LNG出口竞争力相对提升",
+   "cat": "gas",
+   "title": "亚洲LNG价格升至四个月新高",
+   "brief": "因中东航运中断担忧，亚洲LNG现货价格触及四个月高位。",
+   "chain": "中东局势→LNG航运风险溢价→亚洲LNG价格上涨，莫桑比克LNG项目出口利润增厚",
    "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONDRCeUhfby1fYll4R0ktcy1Bcm5fel9MUWQtc3RhWUs1RURaUzVPSm5MMnhKdUNEbmJ3RVBVbWl0SGdVSzRpTlEwWE1GUElpWjVobEZkM0phY2hIblRhZzhrdnhmV2lTaGR3a3FoN3o4Tk81ZHcxdG5Lc2VpalNpRDZzbG4zOUtXWFVLUVp4THQ2TEtaYzJ4cEt3VExYXzZXSDhZay1DbnVpZldfX2xMdEIzTmU3bTM4aXlEY3p3?oc=5",
+   "ts": "2026-07-24T10:49:43+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "油轮绕行好望角增加成本和航程",
+   "brief": "为避开霍尔木兹和曼德海峡，油轮绕行好望角，增加数百万美元成本和一个月航程。",
+   "chain": "航运绕行→LNG运输成本飙升→莫桑比克LNG出口运费上升，但亚洲买家愿意支付溢价",
+   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUlN1bTdzeXE4MGNNX3JUY0FhZVRPbXlMdXhWcnZuaXBJQnpjNEVJeGM2cnZJeExGWnN0YUZMaWxBN2xKdk04S0ItTnppcjM2aUJYaUZqdFpmWjFHNk54SjZsSXotUURVdzhCVzFac2FCRHhaZ28yMHkwbzVzQmNBZGk5TzRmVGo5M25FRmVDelN3UnotbDNmb3VjWFVJRkJfZnJITElmNzdtNExlam15a0hpUmJSYXk4Z3ZqOXRPZWh5WFVMRHZz?oc=5",
    "ts": "2026-07-23T23:07:30+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "英特尔营收创近15年最快增长，股价仍跌",
+   "brief": "英特尔受益AI需求，营收增速为近15年最快，但股价下跌。",
+   "chain": "英特尔财报超预期→AI算力需求强劲→美股芯片股分化，A股算力链关注国产替代",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html",
+   "ts": "Fri, 24 Jul 2026 14:05:35 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "谷歌云客户支出增长50%，业绩超预期",
+   "brief": "谷歌云CEO称客户支出增长50%，云业务表现远超预期。",
+   "chain": "云需求强劲→科技巨头资本开支上行→美股AI基础设施受益，A股光模块和服务器链关注",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/23/google-cloud-kurian-revenue-earnings.html",
+   "ts": "Thu, 23 Jul 2026 21:50:11 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "甲骨文与五角大楼签70亿美元软件合同",
+   "brief": "甲骨文与国防部签署10年软件合同，价值高达70亿美元。",
+   "chain": "政府云需求增长→甲骨文营收预期改善→美股科技股情绪提振，A股信创链关注",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/23/oracle-wins-10-year-pentagon-software-contract-worth-up-to-7-billion.html",
+   "ts": "Fri, 24 Jul 2026 14:12:15 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达、微软等警告勿过早限制开源模型",
+   "brief": "多家科技巨头联合发声，反对过早限制开源AI模型权重。",
+   "chain": "开源AI监管辩论→影响AI创新节奏→美股AI龙头短期承压，A股算力链关注政策动向",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+   "ts": "Fri, 24 Jul 2026 14:15:47 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "中国AI模型阻止OpenAI网络攻击",
+   "brief": "一个中国AI模型成功阻止了OpenAI遭遇的史无前例网络攻击。",
+   "chain": "AI安全事件→凸显AI防御需求→美股网络安全股受益，A股AI安全概念关注",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/24/chinese-ai-model-openai-cyber-attack.html",
+   "ts": "Fri, 24 Jul 2026 13:01:54 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "APEC发布促进亚太AI发展声明",
+   "brief": "APEC人工智能高级别论坛发布声明，促进亚太地区AI发展。",
+   "chain": "区域AI合作推进→利好AI产业全球化→美股AI龙头受益，A股AI应用链关注",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607243820831023.html",
+   "ts": "2026-07-24 22:57:46"
+  },
+  {
+   "cat": "macro",
+   "title": "特朗普新全球关税遭贸易伙伴谴责",
+   "brief": "特朗普以强迫劳动为由对60个贸易伙伴加征新关税，引发广泛批评。",
+   "chain": "贸易摩擦升级→全球供应链风险→美股出口企业承压，A股出口链关注",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/24/trump-global-tariffs-trade-imbalance-forced-labor.html",
+   "ts": "Fri, 24 Jul 2026 12:09:09 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "俄袭击致乌克兰北部约15万人断电",
+   "brief": "俄罗斯袭击乌克兰北部电力设施，约15万人断电；乌方反击俄导弹和石油设施。",
+   "chain": "俄乌冲突持续→能源基础设施受损→欧洲天然气价格波动，莫桑比克LNG出口欧洲机会增加",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/24/russia-ukraine-war-zelenskyy-putin-oil.html",
+   "ts": "Fri, 24 Jul 2026 13:09:21 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "国内SC原油期货主力合约跌3.05%",
+   "brief": "SC原油期货收跌3.05%，报574元/桶。",
+   "chain": "国际油价回落带动国内原油期货下跌→短期油价波动加大→莫桑比克油气项目需关注价格风险",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607243820806574.html",
+   "ts": "2026-07-24 22:28:22"
+  },
+  {
+   "cat": "gas",
+   "title": "低硫燃料油、对二甲苯夜盘跌超2%",
+   "brief": "国内期货夜盘多数下跌，低硫燃料油和对二甲苯跌超2%。",
+   "chain": "能源化工品下跌→反映需求担忧→LNG价格短期承压，莫桑比克LNG项目需关注下游需求",
+   "impact": 3,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607243820833272.html",
+   "ts": "2026-07-24 23:01:54"
   }
  ]
 }
