@@ -953,13 +953,42 @@
         "fwd_pe": null,
         "ttm_pe": null
       }
+    },
+    "SMH": {
+      "name": "半导体 ETF",
+      "role": "AI 产业链板块 β 基准",
+      "market": "US",
+      "price": 561.19,
+      "chg1d": -3.3,
+      "m1": -9.3,
+      "m3": 16.5,
+      "m6": 39.3,
+      "fromhi": -16.5,
+      "hi": 671.83,
+      "lo": 279.19,
+      "ma20": 594.15,
+      "ma50": 598.88,
+      "ma200": 445.69,
+      "vol": 49.0,
+      "earnings_date": null,
+      "news": [],
+      "analyst": {
+        "target_mean": null,
+        "target_low": null,
+        "target_high": null,
+        "rating": null,
+        "rating_mean": null,
+        "n_analysts": null,
+        "fwd_pe": null,
+        "ttm_pe": null
+      }
     }
   },
   "meta": {
     "degraded": false,
-    "fresh": 20,
-    "have": 20,
-    "total": 20,
+    "fresh": 21,
+    "have": 21,
+    "total": 21,
     "stale_tickers": []
   }
 }
