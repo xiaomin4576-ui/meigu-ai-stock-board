@@ -1,171 +1,198 @@
 {
  "asof": "2026-07-26",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-07-26T20:19+08:00",
+ "generated_at": "2026-07-26T22:55+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 2,
-  "cluster_label": "也门/伊朗/沙特",
+  "cluster_label": "乌克兰/伊朗/沙特",
   "cluster_dropped": [
-   "特朗普称美国将追究伊朗对胡塞袭击责任",
-   "特朗普称信任俄中领导人不会支持伊朗",
-   "胡塞武装袭击沙特红海石油设施",
-   "也门在伊朗冲突阴影下濒临新战争",
-   "油价上涨掩盖霍尔木兹海峡更大警告",
-   "霍尔木兹海峡交通或需12个月恢复"
+   "伊朗称乌克兰袭击里海船只致船员死亡",
+   "莫桑比克籍LPG船在伊朗水域遇袭",
+   "霍尔木兹海峡交通或需12个月以上恢复"
   ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "geo",
-   "title": "伊朗战争蔓延至红海和里海",
+   "title": "伊朗战争蔓延至红海和里海，波斯湾平静",
    "brief": "伊朗战争蔓延至红海和里海，波斯湾因美国放弃打击而平静。",
-   "chain": "地缘冲突扩大至关键航道→推高全球避险情绪→A股军工/油运链承压",
-   "impact": 10,
+   "chain": "地缘冲突扩大→避险情绪升温→美股波动，A股军工/油气链关注",
+   "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYnVSWlhuMFM5LW94bUxZY2tSeDlTX3p1RC1yNk10aVJobG02aVpFeGc3bFowLVZIT01sQk5yekpRWHNUYmhiS3gxSmJTbF9YU2hROXlmQ3hSMVFvaVpDZlhuUXp6N0d4c2lERjlra2NFeXp6Y1Uwd3M2U3prWUp2LTNvMG5Zd05laVktTmJXaXFTNnp4V3U2RkUwV0FNM04yc0dsQWZKc1BtOFk2aDFKQlUwc21pdW9k?oc=5",
    "ts": "2026-07-25T23:18:00+00:00"
   },
   {
    "cat": "oil",
-   "title": "霍尔木兹海峡油轮触雷爆炸",
-   "brief": "一艘油轮在霍尔木兹海峡偏离伊朗指定航线后触雷爆炸。",
-   "chain": "霍尔木兹航运受阻→短期油价飙升→莫桑比克油气出口成本上升",
-   "impact": 10,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607263821250543.html",
-   "ts": "2026-07-26 20:10:37"
-  },
-  {
-   "cat": "macro",
-   "title": "特朗普关税可能持续",
-   "brief": "特朗普支持保护主义贸易政策，认为其推动美国经济，关税可能持续。",
-   "chain": "关税持续→推高通胀预期→美联储政策收紧→美股AI估值承压→A股算力链风险偏好下降",
-   "impact": 9,
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-07-25/trump-s-tariffs-are-likely-to-stick-around-despite-unpopularity",
-   "ts": "2026-07-25T07:45:36+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "特朗普新关税生效即遭诉讼",
-   "brief": "特朗普新关税生效数小时后即被起诉，专家质疑其合法性。",
-   "chain": "关税法律挑战→贸易政策不确定性→美股波动→A股出口链承压",
-   "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/24/trump-tariffs-lawsuit-301-ieepa.html",
-   "ts": "Sat, 25 Jul 2026 14:23:53 GMT"
-  },
-  {
-   "cat": "gas",
-   "title": "莫桑比克籍LPG船在伊朗水域遇袭",
-   "brief": "一艘莫桑比克籍LPG运输船在伊朗水域遭袭击。",
-   "chain": "莫桑比克籍船遇袭→LNG航运风险溢价→莫桑比克LNG项目出口成本上升",
+   "title": "胡塞武装袭击沙特红海石油设施",
+   "brief": "胡塞武装向沙特红海石油设施开火，威胁原油供应。",
+   "chain": "红海石油设施遇袭→原油供应风险→油价短期上行，利好莫桑比克油气出口",
    "impact": 8,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUFR6aTV2UkJKY2doRWZPUnlLeEtRbmRKcFRBeDZqdEJaamNfb3JqUDQ1U1l0QUZJNFR0WXdiYUxHZktsbFNaLXhoNHVfckQyeUJBWXZHcnR6aHVRNHdsRkVDbVZjeTR5UlpwcWQ5SjZEUkpLczJsazFDQ25OcEwzUHdXNnRKQmtlaWZ5OXFhR0pKdUZFN2xzSklBbU9nRUJHendMVUlOd1A4V2lkZ0kxcnFJWDJqdlJoYUlUOF82ZFNONF9UeFE?oc=5",
-   "ts": "2026-07-24T19:48:21+00:00"
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZXJqVTM2Sjk5OGw4TnB5SWw2S0xRNG03eE5JLVFfZnp1NXluaGlpU3hHa2o2NHVCTERuOEpHeEliODNVblllcG1FTzdINTZVRUFSLWg2dXphTVphTVRtR0tSYVdKaTJPTEpwN1B3TFZZVnBNRjJvLWV4U3BvYUZud0RzNVpCLUJxRjBYU0U4SkVNbnRwNlhVRTZVS0p1TjlOczBLTG8zNG5nSHFZMzY4WFNZSGIyMlFKMmRJUg?oc=5",
+   "ts": "2026-07-24T20:57:00+00:00"
   },
   {
-   "cat": "tech",
-   "title": "高通计划涨价两位数百分比",
-   "brief": "高通计划对智能手机处理器实施两位数涨价，影响产品出货。",
-   "chain": "芯片涨价→手机成本上升→美股消费电子承压→A股手机产业链利润受挤压",
+   "cat": "geo",
+   "title": "特朗普称信任俄中领导人不会助伊朗",
+   "brief": "特朗普表示信任俄罗斯和中国领导人不会帮助伊朗。",
+   "chain": "大国博弈加剧→地缘风险→美股承压，A股避险情绪升温",
    "impact": 7,
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-07-24/qualcomm-tells-customers-that-prices-are-going-up-by-double-digits",
-   "ts": "2026-07-25T05:29:46+00:00"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUFNIbkVHRDFha2pQZ0ZQeGpKUnNPRnJyTGZYVmdRMlpuOW1hXy1kT2UtenhSSVNnd01lLWJXNFZVWVdrWVAtSlFtQmItekowMnFEUUhwbWNzUmh3NE9kMGE4LURxTGtUaF95dlp3T25yQm9FUlY0UUlUczNfNE9vUmIzUm5OUE1Fd2VWSVNud0V1ZVRtZFZxbm12SVBDSDJpMzZn?oc=5",
+   "ts": "2026-07-24T20:37:56+00:00"
   },
   {
-   "cat": "ai",
-   "title": "Anthropic发布更高效模型Claude Opus 5",
-   "brief": "Anthropic推出Claude Opus 5，性能接近最强模型但成本更低。",
-   "chain": "高效模型发布→AI推理成本下降→美股AI应用受益→A股算力链需求预期分化",
-   "impact": 7,
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-07-24/anthropic-unveils-more-cost-efficient-model-for-everyday-tasks",
-   "ts": "2026-07-25T05:50:35+00:00"
-  },
-  {
-   "cat": "tech",
-   "title": "SpaceX星舰首次IPO后试飞",
-   "brief": "SpaceX发射巨型星舰火箭，为IPO后首次试飞。",
-   "chain": "星舰试飞→商业航天里程碑→美股航天板块提振→A股航天链情绪联动",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/24/spacex-launches-massive-starship-rocket-in-first-test-flight-since-ipo.html",
-   "ts": "Sat, 25 Jul 2026 02:17:11 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "Anthropic新模型对标Fable 5且更便宜",
-   "brief": "Anthropic新AI模型性能媲美Fable 5，成本更低，缓解企业成本担忧。",
-   "chain": "低成本模型竞争→AI部署加速→美股AI应用受益→A股算力链需求结构变化",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/24/anthropic-claude-opus-5-ai-fable-5-cost.html",
-   "ts": "Fri, 24 Jul 2026 17:20:47 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "特朗普威胁对欧盟征收巨额关税",
-   "brief": "特朗普威胁对欧盟征收“实质性关税”，指责其“抢劫”美国科技巨头。",
-   "chain": "美欧贸易摩擦升级→全球贸易不确定性→美股科技出口承压→A股科技链风险偏好下降",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/24/trump-tariffs-eu-trade-google-apple-tech.html",
-   "ts": "Fri, 24 Jul 2026 19:39:50 GMT"
+   "cat": "oil",
+   "title": "油轮在霍尔木兹海峡触雷爆炸",
+   "brief": "一艘偏离伊朗指定航线的油轮在霍尔木兹海峡触雷爆炸。",
+   "chain": "霍尔木兹海峡航运受阻→原油供应中断风险→油价飙升，影响莫桑比克LNG出口成本",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607263821277873.html",
+   "ts": "2026-07-26 22:52:20"
   },
   {
    "cat": "gas",
-   "title": "伊朗称与阿曼霍尔木兹航运会谈有进展",
+   "title": "伊朗称与阿曼就霍尔木兹航运会谈有进展",
    "brief": "伊朗与阿曼就霍尔木兹海峡安全航运管理会谈取得进展。",
-   "chain": "外交进展→航运风险缓和→LNG运输成本预期下降→莫桑比克LNG出口利好",
+   "chain": "外交进展缓解航运紧张→LNG运输风险下降→利好莫桑比克LNG出口",
    "impact": 6,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202607263821250150.html",
    "ts": "2026-07-26 19:57:45"
   },
   {
-   "cat": "tech",
-   "title": "英伟达锁定SK海力士内存供应",
-   "brief": "英伟达作为5000亿美元AI交易的一部分，锁定SK海力士内存供应。",
-   "chain": "内存供应锁定→AI算力成本稳定→美股英伟达受益→A股存储芯片链联动",
+   "cat": "macro",
+   "title": "下周重磅：苹果微软财报、美国7月加息",
+   "brief": "下周A股港股迎重磅IPO，苹果微软等科技巨头财报，美国7月加息悬念揭晓。",
+   "chain": "加息预期与科技财报→美股波动→A股算力链情绪传导",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607263821275368.html",
+   "ts": "2026-07-26 22:14:23"
+  },
+  {
+   "cat": "macro",
+   "title": "特朗普关税可能持续尽管不受欢迎",
+   "brief": "特朗普坚持保护主义贸易政策，关税可能长期存在。",
+   "chain": "关税持续→通胀压力→美联储政策受限→美股估值承压，A股出口链受影响",
+   "impact": 7,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-07-25/trump-s-tariffs-are-likely-to-stick-around-despite-unpopularity",
+   "ts": "2026-07-25T07:45:36+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "特朗普新关税生效数小时即被起诉",
+   "brief": "特朗普新关税生效后立即被起诉，专家称可能站不住脚。",
+   "chain": "关税法律挑战→政策不确定性→美股波动，A股外贸链关注",
    "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/24/trump-tariffs-lawsuit-301-ieepa.html",
+   "ts": "Sat, 25 Jul 2026 14:23:53 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "高通计划将手机处理器提价两位数",
+   "brief": "高通计划对智能手机处理器提价两位数，影响安卓阵营。",
+   "chain": "芯片涨价→手机成本上升→美股芯片股受益，A股手机产业链承压",
+   "impact": 7,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-07-24/qualcomm-tells-customers-that-prices-are-going-up-by-double-digits",
+   "ts": "2026-07-25T05:29:46+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "Alphabet提高AI支出预期",
+   "brief": "Alphabet财报显示AI资本开支超预期，引发市场关注。",
+   "chain": "AI资本开支增加→科技股估值压力→美股AI链波动，A股算力链情绪传导",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/24/1-hyperscaler-megacap-down-3-to-go-alphabet-raises-the-stakes-on-ai-spending.html",
+   "ts": "Fri, 24 Jul 2026 19:41:08 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "穆迪称AI支出威胁亚马逊等信用质量",
+   "brief": "穆迪警告前所未有的AI支出可能影响亚马逊、Meta等信用评级。",
+   "chain": "AI支出过高→信用风险→科技股抛售，A股AI链承压",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/24/moodys-ai-spending-credit-quality-amazon-meta-alphabet.html",
+   "ts": "Fri, 24 Jul 2026 22:43:56 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "SpaceX在IPO后首次试飞星舰",
+   "brief": "SpaceX发射巨型星舰火箭，为IPO后首次试飞。",
+   "chain": "星舰试飞→航天产业催化→美股航天股关注，A股商业航天链映射",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/24/spacex-launches-massive-starship-rocket-in-first-test-flight-since-ipo.html",
+   "ts": "Sat, 25 Jul 2026 02:17:11 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Anthropic发布更经济的Claude Opus 5",
+   "brief": "Anthropic推出Claude Opus 5，成本更低，性能接近最强模型。",
+   "chain": "高效模型发布→AI应用成本下降→利好美股AI应用，A股算力链需求结构变化",
+   "impact": 8,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-07-24/anthropic-unveils-more-cost-efficient-model-for-everyday-tasks",
+   "ts": "2026-07-25T05:50:35+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "Anthropic新模型媲美Fable 5且更便宜",
+   "brief": "Anthropic新AI模型性能媲美Fable 5，成本更低，企业关注。",
+   "chain": "AI模型竞争加剧→算力需求分化→美股AI芯片股波动，A股算力链关注",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/24/anthropic-claude-opus-5-ai-fable-5-cost.html",
+   "ts": "Fri, 24 Jul 2026 17:20:47 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "三星李在镕与OpenAI奥特曼会面",
+   "brief": "三星会长李在镕与OpenAI CEO奥特曼会面，讨论AI基础设施合作。",
+   "chain": "AI基础设施合作→算力需求增长→美股AI芯片受益，A股存储/算力链映射",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607263821256211.html",
+   "ts": "2026-07-26 21:18:14"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达锁定SK海力士内存供应",
+   "brief": "英伟达与SK海力士达成5000亿美元AI交易，锁定内存供应。",
+   "chain": "AI算力需求锁定→HBM供应紧张→美股英伟达受益，A股存储/算力链映射",
+   "impact": 9,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/25/nvidia-locks-down-memory-from-sk-hynix-as-part-of-500-billion-ai-deal.html",
    "ts": "Sat, 25 Jul 2026 08:49:00 GMT"
   },
   {
    "cat": "ai",
-   "title": "OpenAI和Anthropic游说封堵开源模型",
-   "brief": "OpenAI和Anthropic在华盛顿推动加强对开源模型的限制。",
-   "chain": "开源限制→AI监管趋严→美股闭源模型受益→A股AI应用链合规成本上升",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607263821243630.html",
-   "ts": "2026-07-26 19:04:15"
-  },
-  {
-   "cat": "ai",
-   "title": "硅谷聚焦AI蒸馏技术",
-   "brief": "从硅谷到华盛顿，科技界突然痴迷于AI蒸馏概念。",
-   "chain": "蒸馏技术受关注→AI效率提升→美股AI成本下降→A股算力链需求预期调整",
+   "title": "AI蒸馏技术成为硅谷新焦点",
+   "brief": "从硅谷到华盛顿，AI蒸馏概念突然火爆。",
+   "chain": "蒸馏技术降低AI成本→算力需求结构变化→美股AI芯片股波动，A股算力链关注",
    "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/25/hat-is-distillation-and-why-is-everyone-so-obsessed-with-it-this-week.html",
    "ts": "Sat, 25 Jul 2026 14:03:03 GMT"
   },
   {
-   "cat": "macro",
-   "title": "债市对AI资本支出焦虑加剧",
-   "brief": "债券市场对AI资本支出预算的担忧日益增长。",
-   "chain": "债市焦虑→AI投资回报质疑→美股AI高估值承压→A股算力链情绪传导",
+   "cat": "ai",
+   "title": "瑞银：中国大模型性价比优势凸显",
+   "brief": "瑞银称中国大模型训练和推理成本优势明显，下半年关注三条主线。",
+   "chain": "中国AI成本优势→国产算力需求→A股算力链受益",
    "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/24/bond-market-anxiety-ai-capex-spending.html",
-   "ts": "Fri, 24 Jul 2026 20:07:36 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607263821253158.html",
+   "ts": "2026-07-26 20:45:51"
   }
  ]
 }
