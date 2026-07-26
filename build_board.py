@@ -1068,6 +1068,8 @@ def qa_block(data, calls, calls_date, v):
 # (零后端静态站=客户端软付费墙,源码在 8888 密文后不公开;真正公开发行需换服务端校验,是已知取舍)。
 SUBSCRIBE_URL = ""          # 例:https://t.zsxq.com/xxxx(知识星球)/ 小报童 / 公众号付费链接;空=显示"即将开放"
 PRO_CODE = "vip2026"        # 订阅后发给会员的解锁码(客户端校验,可改;公开发行前需升级为服务端发码)
+SHOW_PAYWALL = False        # 收费墙总开关:False=隐藏(目标价/收益/理由直接展示,不锁、无订阅CTA);True=启用付费墙。
+                            # 2026-07-20 用户要求先隐藏收费版块不在网站显示;方向恢复时置 True 即可,代码全保留。
 
 
 def _sig_style(sig):
@@ -1111,17 +1113,23 @@ def simple_card(tk, d, a):
                 earn = f'<span class="s-earn">⚠️ 财报 {_dd} 天后</span>'
         except Exception:
             pass
+    rows = (f'<div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">{cs}{a.get("tgt","") or "—"}</b></div>'
+            f'<div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">{a.get("ret","") or "—"}</b></div>'
+            f'<div class="s-lockth">💡 {th_short}</div>')
+    if SHOW_PAYWALL:
+        detail = (f'<div class="s-locked" data-lock>{rows}'
+                  f'<div class="s-mask"><div class="s-mask-t">🔒 目标价 · 预期收益 · 研判理由</div>'
+                  f'<button class="s-unlockbtn" onclick="pwScroll()">会员解锁 →</button></div></div>')
+        free_badge = '<span class="s-free">免费</span>'
+    else:
+        detail = f'<div class="s-detail">{rows}</div>'   # 收费墙隐藏:目标价/收益/理由直接展示
+        free_badge = ''
     return f"""
 <div class="scard sc-{scls}">
   <div class="s-top"><span class="s-flag">{flag}</span><span class="s-tk">{tkd}</span><span class="s-nm">{d.get('name','')}</span><span class="s-now">{cs}{d.get('price','—')}</span></div>
   <div class="s-sigrow"><span class="s-sig sc-{scls}">{slabel}</span><span class="s-conf">研判置信 {a.get('conf','?')}/10</span>{earn}</div>
-  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>{cs}{a.get('buy','') or '—'}</b><span class="s-free">免费</span></div>
-  <div class="s-locked" data-lock>
-    <div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">{cs}{a.get('tgt','') or '—'}</b></div>
-    <div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">{a.get('ret','') or '—'}</b></div>
-    <div class="s-lockth">💡 {th_short}</div>
-    <div class="s-mask"><div class="s-mask-t">🔒 目标价 · 预期收益 · 研判理由</div><button class="s-unlockbtn" onclick="pwScroll()">会员解锁 →</button></div>
-  </div>
+  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>{cs}{a.get('buy','') or '—'}</b>{free_badge}</div>
+  {detail}
 </div>"""
 
 
@@ -1170,7 +1178,7 @@ def simple_view(order, data, calls, cfg):
            f'</div>')
     disc = ('<div class="s-disc">本板块为 <b>AI 辅助的市场信息与投资者教育内容</b>,所有研判由 AI 引擎依公开行情/共识数据生成,'
             '<b>仅供学习研究,不构成任何证券投资建议或买卖要约</b>,不承诺收益,据此操作风险自负。</div>')
-    return today + groups + cta + disc
+    return today + groups + (cta if SHOW_PAYWALL else "") + disc
 
 
 def main():
@@ -1429,6 +1437,7 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 .s-buy{{display:flex;align-items:center;gap:10px;background:rgba(74,222,128,.08);border:1px solid rgba(74,222,128,.25);border-radius:11px;padding:11px 14px}}
 .s-buy b{{font-size:19px;font-weight:900;color:#4ade80;font-variant-numeric:tabular-nums}}
 .s-lbl{{font-size:13px;color:#94a6c4}}.s-free{{margin-left:auto;font-size:11px;font-weight:700;color:#4ade80;background:rgba(74,222,128,.15);border-radius:8px;padding:2px 8px}}
+.s-detail{{margin-top:11px;border-top:1px solid rgba(51,65,85,.5);padding-top:11px}}
 .s-locked{{position:relative;margin-top:10px;border:1px dashed rgba(226,192,126,.4);border-radius:11px;padding:12px 14px;overflow:hidden}}
 .s-locked>.s-lockrow,.s-locked>.s-lockth{{filter:blur(6px);user-select:none;pointer-events:none;transition:filter .25s}}
 .s-lockrow{{display:flex;align-items:center;gap:10px;margin-bottom:6px}}
