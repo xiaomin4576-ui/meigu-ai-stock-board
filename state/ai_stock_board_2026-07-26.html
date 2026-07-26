@@ -194,6 +194,7 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;ba
 .s-buy{display:flex;align-items:center;gap:10px;background:rgba(74,222,128,.08);border:1px solid rgba(74,222,128,.25);border-radius:11px;padding:11px 14px}
 .s-buy b{font-size:19px;font-weight:900;color:#4ade80;font-variant-numeric:tabular-nums}
 .s-lbl{font-size:13px;color:#94a6c4}.s-free{margin-left:auto;font-size:11px;font-weight:700;color:#4ade80;background:rgba(74,222,128,.15);border-radius:8px;padding:2px 8px}
+.s-detail{margin-top:11px;border-top:1px solid rgba(51,65,85,.5);padding-top:11px}
 .s-locked{position:relative;margin-top:10px;border:1px dashed rgba(226,192,126,.4);border-radius:11px;padding:12px 14px;overflow:hidden}
 .s-locked>.s-lockrow,.s-locked>.s-lockth{filter:blur(6px);user-select:none;pointer-events:none;transition:filter .25s}
 .s-lockrow{display:flex;align-items:center;gap:10px;margin-bottom:6px}
@@ -227,7 +228,7 @@ body.pro-unlocked .s-locked{border-style:solid;border-color:#2f4166}
 </style></head><body><div class="wrap">
 <div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#e2c07e;margin-bottom:8px">LUMORA · 同光科技</div><h1>📡 同光科技 · AI 股票看板 · 2026-07-26</h1>
 <div class="sub">美股 AI 核心 9 票 + 🇨🇳 A 股 8 票 + 🇭🇰 港股 2 票 + QQQ 基准 · 长期 6-12 个月(长期) 视角 · 数据 TwelveData/Finnhub+akshare+腾讯(真实行情) · AI 研判</div>
-<div class="updated">🕐 本页生成:<b>2026-07-26 14:22</b> 北京 · <a href="home.html">🏠 门户</a> · <a href="javascript:void(0)" onclick="location.href='board.html?t='+Date.now()">🔄 手动刷新</a> · <button id="updbtn" onclick="triggerUpd()" style="background:#2563eb;color:#fff;border:none;border-radius:8px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer">🔁 更新研判</button><span id="updmsg" style="color:#94a6c4;font-size:12px;margin-left:6px"></span></div>
+<div class="updated">🕐 本页生成:<b>2026-07-26 16:00</b> 北京 · <a href="home.html">🏠 门户</a> · <a href="javascript:void(0)" onclick="location.href='board.html?t='+Date.now()">🔄 手动刷新</a> · <button id="updbtn" onclick="triggerUpd()" style="background:#2563eb;color:#fff;border:none;border-radius:8px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer">🔁 更新研判</button><span id="updmsg" style="color:#94a6c4;font-size:12px;margin-left:6px"></span></div>
 <script>
 const DT="__DISPATCH_TOKEN__";
 async function triggerUpd(){
@@ -292,212 +293,117 @@ try{ if(localStorage.getItem('meigu-pro')==='1') document.body.classList.add('pr
 <div class="scard sc-buy">
   <div class="s-top"><span class="s-flag">🇺🇸</span><span class="s-tk">NVDA</span><span class="s-nm">英伟达</span><span class="s-now">$206.84</span></div>
   <div class="s-sigrow"><span class="s-sig sc-buy">🟢 建议买入</span><span class="s-conf">研判置信 8/10</span></div>
-  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>$198–208</b><span class="s-free">免费</span></div>
-  <div class="s-locked" data-lock>
-    <div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">$245–265</b></div>
-    <div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+20%</b></div>
-    <div class="s-lockth">💡 NVDA回调至MA50附近获支撑，距高点-10%释放过热风险。前瞻PE 19.2对应EPS增速110%显示低估，Finnhub评级1.74（强买）占比93%验证共识。财报前回踩MA50（209…</div>
-    <div class="s-mask"><div class="s-mask-t">🔒 目标价 · 预期收益 · 研判理由</div><button class="s-unlockbtn" onclick="pwScroll()">会员解锁 →</button></div>
-  </div>
+  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>$198–208</b></div>
+  <div class="s-detail"><div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">$245–265</b></div><div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+20%</b></div><div class="s-lockth">💡 NVDA回调至MA50附近获支撑，距高点-10%释放过热风险。前瞻PE 19.2对应EPS增速110%显示低估，Finnhub评级1.74（强买）占比93%验证共识。财报前回踩MA50（209…</div></div>
 </div>
 <div class="scard sc-buy">
   <div class="s-top"><span class="s-flag">🇺🇸</span><span class="s-tk">TSM</span><span class="s-nm">台积电</span><span class="s-now">$403.41</span></div>
   <div class="s-sigrow"><span class="s-sig sc-buy">🟢 建议买入</span><span class="s-conf">研判置信 7/10</span></div>
-  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>$410–418</b><span class="s-free">免费</span></div>
-  <div class="s-locked" data-lock>
-    <div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">$470–510</b></div>
-    <div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+16%</b></div>
-    <div class="s-lockth">💡 台积电回调至MA50附近，距52周高-12%，估值合理（前瞻PE 21.4，EPS增速55%），AI需求长期驱动。Finnhub评级1.74（强买），买入占比95%。建议在MA50一线（425…</div>
-    <div class="s-mask"><div class="s-mask-t">🔒 目标价 · 预期收益 · 研判理由</div><button class="s-unlockbtn" onclick="pwScroll()">会员解锁 →</button></div>
-  </div>
+  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>$410–418</b></div>
+  <div class="s-detail"><div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">$470–510</b></div><div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+16%</b></div><div class="s-lockth">💡 台积电回调至MA50附近，距52周高-12%，估值合理（前瞻PE 21.4，EPS增速55%），AI需求长期驱动。Finnhub评级1.74（强买），买入占比95%。建议在MA50一线（425…</div></div>
 </div>
 <div class="scard sc-buy">
   <div class="s-top"><span class="s-flag">🇺🇸</span><span class="s-tk">AVGO</span><span class="s-nm">博通</span><span class="s-now">$381.92</span></div>
   <div class="s-sigrow"><span class="s-sig sc-buy">🟢 建议买入</span><span class="s-conf">研判置信 7/10</span></div>
-  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>$364–380</b><span class="s-free">免费</span></div>
-  <div class="s-locked" data-lock>
-    <div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">$450–495</b></div>
-    <div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+19%</b></div>
-    <div class="s-lockth">💡 博通回调至MA200附近（364）获支撑，距52周高-20%释放风险；AI定制芯片需求强劲，前瞻PE 23.2对应EPS增速125.8%合理；Finnhub评级1.79（强买），买入占比91%…</div>
-    <div class="s-mask"><div class="s-mask-t">🔒 目标价 · 预期收益 · 研判理由</div><button class="s-unlockbtn" onclick="pwScroll()">会员解锁 →</button></div>
-  </div>
+  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>$364–380</b></div>
+  <div class="s-detail"><div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">$450–495</b></div><div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+19%</b></div><div class="s-lockth">💡 博通回调至MA200附近（364）获支撑，距52周高-20%释放风险；AI定制芯片需求强劲，前瞻PE 23.2对应EPS增速125.8%合理；Finnhub评级1.79（强买），买入占比91%…</div></div>
 </div>
 <div class="scard sc-buy">
   <div class="s-top"><span class="s-flag">🇺🇸</span><span class="s-tk">MU</span><span class="s-nm">美光</span><span class="s-now">$920.95</span></div>
   <div class="s-sigrow"><span class="s-sig sc-buy">🟢 建议买入</span><span class="s-conf">研判置信 7/10</span></div>
-  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>$880–948</b><span class="s-free">免费</span></div>
-  <div class="s-locked" data-lock>
-    <div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">$1100–1250</b></div>
-    <div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+22%</b></div>
-    <div class="s-lockth">💡 美光深度回调至MA50附近，距高点-23.5%，估值极低（前瞻PE 9.8，EPS增速700%），HBM需求强劲，财报日9/21尚远，无财报风险。Finnhub评级1.79（强买），买入占比9…</div>
-    <div class="s-mask"><div class="s-mask-t">🔒 目标价 · 预期收益 · 研判理由</div><button class="s-unlockbtn" onclick="pwScroll()">会员解锁 →</button></div>
-  </div>
+  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>$880–948</b></div>
+  <div class="s-detail"><div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">$1100–1250</b></div><div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+22%</b></div><div class="s-lockth">💡 美光深度回调至MA50附近，距高点-23.5%，估值极低（前瞻PE 9.8，EPS增速700%），HBM需求强劲，财报日9/21尚远，无财报风险。Finnhub评级1.79（强买），买入占比9…</div></div>
 </div>
 <div class="scard sc-buy">
   <div class="s-top"><span class="s-flag">🇺🇸</span><span class="s-tk">CRDO</span><span class="s-nm">Credo</span><span class="s-now">$213.15</span></div>
   <div class="s-sigrow"><span class="s-sig sc-buy">🟢 建议买入</span><span class="s-conf">研判置信 7/10</span></div>
-  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>$188–200</b><span class="s-free">免费</span></div>
-  <div class="s-locked" data-lock>
-    <div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">$260–290</b></div>
-    <div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+20%</b></div>
-    <div class="s-lockth">💡 CRDO回调至MA50附近，距高点-26%，估值消化充分。AEC需求受益AI集群扩张，前瞻PE 42x对应793%增速合理。Finnhub评级1.71（强买），买入占比93%。买点锚MA50（…</div>
-    <div class="s-mask"><div class="s-mask-t">🔒 目标价 · 预期收益 · 研判理由</div><button class="s-unlockbtn" onclick="pwScroll()">会员解锁 →</button></div>
-  </div>
+  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>$188–200</b></div>
+  <div class="s-detail"><div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">$260–290</b></div><div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+20%</b></div><div class="s-lockth">💡 CRDO回调至MA50附近，距高点-26%，估值消化充分。AEC需求受益AI集群扩张，前瞻PE 42x对应793%增速合理。Finnhub评级1.71（强买），买入占比93%。买点锚MA50（…</div></div>
 </div>
 <div class="scard sc-watch">
   <div class="s-top"><span class="s-flag">🇺🇸</span><span class="s-tk">ANET</span><span class="s-nm">Arista</span><span class="s-now">$173.99</span></div>
   <div class="s-sigrow"><span class="s-sig sc-watch">🟡 观望等待</span><span class="s-conf">研判置信 7/10</span><span class="s-earn">⚠️ 财报 9 天后</span></div>
-  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>$162–171</b><span class="s-free">免费</span></div>
-  <div class="s-locked" data-lock>
-    <div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">$190–210</b></div>
-    <div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+14%</b></div>
-    <div class="s-lockth">💡 ANET受益于AI数据中心交换机需求，长期趋势向上。现价距MA20约2%，动量温和。建议回踩MA50（162.43）至MA20（171.47）区间介入，提供安全边际。目标前高190及上方210…</div>
-    <div class="s-mask"><div class="s-mask-t">🔒 目标价 · 预期收益 · 研判理由</div><button class="s-unlockbtn" onclick="pwScroll()">会员解锁 →</button></div>
-  </div>
+  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>$162–171</b></div>
+  <div class="s-detail"><div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">$190–210</b></div><div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+14%</b></div><div class="s-lockth">💡 ANET受益于AI数据中心交换机需求，长期趋势向上。现价距MA20约2%，动量温和。建议回踩MA50（162.43）至MA20（171.47）区间介入，提供安全边际。目标前高190及上方210…</div></div>
 </div>
 <div class="scard sc-watch">
   <div class="s-top"><span class="s-flag">🇺🇸</span><span class="s-tk">VRT</span><span class="s-nm">Vertiv</span><span class="s-now">$290.36</span></div>
   <div class="s-sigrow"><span class="s-sig sc-watch">🟡 观望等待</span><span class="s-conf">研判置信 7/10</span><span class="s-earn">⚠️ 财报 3 天后</span></div>
-  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>$275–290</b><span class="s-free">免费</span></div>
-  <div class="s-locked" data-lock>
-    <div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">$340–370</b></div>
-    <div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+18%</b></div>
-    <div class="s-lockth">💡 VRT已从高点回调约21%，接近MA200支撑（242.92），但现价301.16仍低于MA20（308.97）和MA50（319.16），短期动能偏弱。Finnhub评级1.88（强买），买…</div>
-    <div class="s-mask"><div class="s-mask-t">🔒 目标价 · 预期收益 · 研判理由</div><button class="s-unlockbtn" onclick="pwScroll()">会员解锁 →</button></div>
-  </div>
+  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>$275–290</b></div>
+  <div class="s-detail"><div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">$340–370</b></div><div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+18%</b></div><div class="s-lockth">💡 VRT已从高点回调约21%，接近MA200支撑（242.92），但现价301.16仍低于MA20（308.97）和MA50（319.16），短期动能偏弱。Finnhub评级1.88（强买），买…</div></div>
 </div>
 <div class="scard sc-watch">
   <div class="s-top"><span class="s-flag">🇺🇸</span><span class="s-tk">MRVL</span><span class="s-nm">迈威尔</span><span class="s-now">$194.23</span></div>
   <div class="s-sigrow"><span class="s-sig sc-watch">🟡 观望等待</span><span class="s-conf">研判置信 7/10</span></div>
-  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>$188–196</b><span class="s-free">免费</span></div>
-  <div class="s-locked" data-lock>
-    <div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">$240–270</b></div>
-    <div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+21%</b></div>
-    <div class="s-lockth">💡 MRVL回调至MA200附近，距52周高-36%，估值消化充分。Finnhub评级1.88（强买），买入占比86%。财报8月20日，短期波动风险。买区锚MA200一线（约131.66）？但现价…</div>
-    <div class="s-mask"><div class="s-mask-t">🔒 目标价 · 预期收益 · 研判理由</div><button class="s-unlockbtn" onclick="pwScroll()">会员解锁 →</button></div>
-  </div>
+  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>$188–196</b></div>
+  <div class="s-detail"><div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">$240–270</b></div><div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+21%</b></div><div class="s-lockth">💡 MRVL回调至MA200附近，距52周高-36%，估值消化充分。Finnhub评级1.88（强买），买入占比86%。财报8月20日，短期波动风险。买区锚MA200一线（约131.66）？但现价…</div></div>
 </div>
 <div class="scard sc-watch">
   <div class="s-top"><span class="s-flag">🇺🇸</span><span class="s-tk">COHR</span><span class="s-nm">相干</span><span class="s-now">$282.39</span></div>
   <div class="s-sigrow"><span class="s-sig sc-watch">🟡 观望等待</span><span class="s-conf">研判置信 6/10</span></div>
-  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>$248–265</b><span class="s-free">免费</span></div>
-  <div class="s-locked" data-lock>
-    <div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">$340–380</b></div>
-    <div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+15%</b></div>
-    <div class="s-lockth">💡 股价已回调至MA200附近（距52周高-29%），MA200提供结构支撑。但动量偏弱（近1月-26.6%），且距财报仅21天，波动风险高。Finnhub评级2.0（买入占比77%）显示长期看好…</div>
-    <div class="s-mask"><div class="s-mask-t">🔒 目标价 · 预期收益 · 研判理由</div><button class="s-unlockbtn" onclick="pwScroll()">会员解锁 →</button></div>
-  </div>
+  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>$248–265</b></div>
+  <div class="s-detail"><div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">$340–380</b></div><div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+15%</b></div><div class="s-lockth">💡 股价已回调至MA200附近（距52周高-29%），MA200提供结构支撑。但动量偏弱（近1月-26.6%），且距财报仅21天，波动风险高。Finnhub评级2.0（买入占比77%）显示长期看好…</div></div>
 </div></div><div class="s-section">🇨🇳 A 股 · 国产算力/AI<span class="s-scnt">8 支</span></div><div class="s-grid">
 <div class="scard sc-watch">
   <div class="s-top"><span class="s-flag">🇨🇳</span><span class="s-tk">688256</span><span class="s-nm">寒武纪</span><span class="s-now">¥1225.0</span></div>
   <div class="s-sigrow"><span class="s-sig sc-watch">🟡 观望等待</span><span class="s-conf">研判置信 6/10</span><span class="s-earn">⚠️ 财报 13 天后</span></div>
-  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>¥990–1050</b><span class="s-free">免费</span></div>
-  <div class="s-locked" data-lock>
-    <div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">¥1400–1600</b></div>
-    <div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+21%</b></div>
-    <div class="s-lockth">💡 寒武纪已从高点回调22%，跌破MA20/MA50，现价接近MA200（990）支撑，动量转负，过热风险释放。国产AI芯片长期受益自主可控，但前瞻PE 146倍、PEG 1.46偏高，财报日（8…</div>
-    <div class="s-mask"><div class="s-mask-t">🔒 目标价 · 预期收益 · 研判理由</div><button class="s-unlockbtn" onclick="pwScroll()">会员解锁 →</button></div>
-  </div>
+  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>¥990–1050</b></div>
+  <div class="s-detail"><div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">¥1400–1600</b></div><div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+21%</b></div><div class="s-lockth">💡 寒武纪已从高点回调22%，跌破MA20/MA50，现价接近MA200（990）支撑，动量转负，过热风险释放。国产AI芯片长期受益自主可控，但前瞻PE 146倍、PEG 1.46偏高，财报日（8…</div></div>
 </div>
 <div class="scard sc-watch">
   <div class="s-top"><span class="s-flag">🇨🇳</span><span class="s-tk">688981</span><span class="s-nm">中芯国际</span><span class="s-now">¥143.73</span></div>
   <div class="s-sigrow"><span class="s-sig sc-watch">🟡 观望等待</span><span class="s-conf">研判置信 6/10</span></div>
-  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>¥128–136</b><span class="s-free">免费</span></div>
-  <div class="s-locked" data-lock>
-    <div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">¥160–175</b></div>
-    <div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+16%</b></div>
-    <div class="s-lockth">💡 中芯国际已跌破MA20(152.45)，现价144.5接近MA50(141.59)支撑，但距52周高-16.5%回调充分。长期受益于国产替代与AI芯片需求，但前瞻PE 186.5极高，EPS增…</div>
-    <div class="s-mask"><div class="s-mask-t">🔒 目标价 · 预期收益 · 研判理由</div><button class="s-unlockbtn" onclick="pwScroll()">会员解锁 →</button></div>
-  </div>
+  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>¥128–136</b></div>
+  <div class="s-detail"><div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">¥160–175</b></div><div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+16%</b></div><div class="s-lockth">💡 中芯国际已跌破MA20(152.45)，现价144.5接近MA50(141.59)支撑，但距52周高-16.5%回调充分。长期受益于国产替代与AI芯片需求，但前瞻PE 186.5极高，EPS增…</div></div>
 </div>
 <div class="scard sc-watch">
   <div class="s-top"><span class="s-flag">🇨🇳</span><span class="s-tk">002384</span><span class="s-nm">东山精密</span><span class="s-now">¥199.18</span></div>
   <div class="s-sigrow"><span class="s-sig sc-watch">🟡 观望等待</span><span class="s-conf">研判置信 6/10</span></div>
-  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>¥188–196</b><span class="s-free">免费</span></div>
-  <div class="s-locked" data-lock>
-    <div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">¥240–270</b></div>
-    <div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+24%</b></div>
-    <div class="s-lockth">💡 股价已回调至MA200附近（现价205.45，MA200=130.04，实际远高于MA200，但距52周高-25.5%），接近前期平台支撑。但短期均线MA20/MA50在上方形成压制，动量偏弱…</div>
-    <div class="s-mask"><div class="s-mask-t">🔒 目标价 · 预期收益 · 研判理由</div><button class="s-unlockbtn" onclick="pwScroll()">会员解锁 →</button></div>
-  </div>
+  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>¥188–196</b></div>
+  <div class="s-detail"><div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">¥240–270</b></div><div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+24%</b></div><div class="s-lockth">💡 股价已回调至MA200附近（现价205.45，MA200=130.04，实际远高于MA200，但距52周高-25.5%），接近前期平台支撑。但短期均线MA20/MA50在上方形成压制，动量偏弱…</div></div>
 </div>
 <div class="scard sc-watch">
   <div class="s-top"><span class="s-flag">🇨🇳</span><span class="s-tk">603986</span><span class="s-nm">兆易创新</span><span class="s-now">¥457.0</span></div>
   <div class="s-sigrow"><span class="s-sig sc-watch">🟡 观望等待</span><span class="s-conf">研判置信 6/10</span></div>
-  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>¥—</b><span class="s-free">免费</span></div>
-  <div class="s-locked" data-lock>
-    <div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">¥—</b></div>
-    <div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">—</b></div>
-    <div class="s-lockth">💡 ⚠️ 触发护栏(目标下沿≤现价(无上行空间)):本期暂不给具体买卖点,待价格回踩有效结构支撑、风险补偿到位后再评估。</div>
-    <div class="s-mask"><div class="s-mask-t">🔒 目标价 · 预期收益 · 研判理由</div><button class="s-unlockbtn" onclick="pwScroll()">会员解锁 →</button></div>
-  </div>
+  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>¥—</b></div>
+  <div class="s-detail"><div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">¥—</b></div><div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">—</b></div><div class="s-lockth">💡 ⚠️ 触发护栏(目标下沿≤现价(无上行空间)):本期暂不给具体买卖点,待价格回踩有效结构支撑、风险补偿到位后再评估。</div></div>
 </div>
 <div class="scard sc-watch">
   <div class="s-top"><span class="s-flag">🇨🇳</span><span class="s-tk">688052</span><span class="s-nm">纳芯微</span><span class="s-now">¥201.55</span></div>
   <div class="s-sigrow"><span class="s-sig sc-watch">🟡 观望等待</span><span class="s-conf">研判置信 6/10</span></div>
-  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>¥175–189</b><span class="s-free">免费</span></div>
-  <div class="s-locked" data-lock>
-    <div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">¥240–270</b></div>
-    <div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+23%</b></div>
-    <div class="s-lockth">💡 国产模拟芯片替代受益AI需求上行周期，但股价已跌破MA20/MA50，短期动能偏弱。建议等待回踩MA200（约189）或前低支撑（约175）再介入，6-12月目标看至前高240-270区间，隐…</div>
-    <div class="s-mask"><div class="s-mask-t">🔒 目标价 · 预期收益 · 研判理由</div><button class="s-unlockbtn" onclick="pwScroll()">会员解锁 →</button></div>
-  </div>
+  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>¥175–189</b></div>
+  <div class="s-detail"><div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">¥240–270</b></div><div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+23%</b></div><div class="s-lockth">💡 国产模拟芯片替代受益AI需求上行周期，但股价已跌破MA20/MA50，短期动能偏弱。建议等待回踩MA200（约189）或前低支撑（约175）再介入，6-12月目标看至前高240-270区间，隐…</div></div>
 </div>
 <div class="scard sc-watch">
   <div class="s-top"><span class="s-flag">🇨🇳</span><span class="s-tk">600522</span><span class="s-nm">中天科技</span><span class="s-now">¥31.39</span></div>
   <div class="s-sigrow"><span class="s-sig sc-watch">🟡 观望等待</span><span class="s-conf">研判置信 5/10</span></div>
-  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>¥26.80–28.50</b><span class="s-free">免费</span></div>
-  <div class="s-locked" data-lock>
-    <div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">¥36.00–40.00</b></div>
-    <div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+16%</b></div>
-    <div class="s-lockth">💡 股价已跌破MA20/MA50，处于深回调至MA200附近（28.52），距52周高-51.8%，动量极度超卖。首次回购显示公司信心，但EPS增速仅1.4%，PEG高达16.4，估值透支。东财评…</div>
-    <div class="s-mask"><div class="s-mask-t">🔒 目标价 · 预期收益 · 研判理由</div><button class="s-unlockbtn" onclick="pwScroll()">会员解锁 →</button></div>
-  </div>
+  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>¥26.80–28.50</b></div>
+  <div class="s-detail"><div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">¥36.00–40.00</b></div><div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+16%</b></div><div class="s-lockth">💡 股价已跌破MA20/MA50，处于深回调至MA200附近（28.52），距52周高-51.8%，动量极度超卖。首次回购显示公司信心，但EPS增速仅1.4%，PEG高达16.4，估值透支。东财评…</div></div>
 </div>
 <div class="scard sc-watch">
   <div class="s-top"><span class="s-flag">🇨🇳</span><span class="s-tk">001309</span><span class="s-nm">德明利</span><span class="s-now">¥399.89</span></div>
   <div class="s-sigrow"><span class="s-sig sc-watch">🟡 观望等待</span><span class="s-conf">研判置信 6/10</span></div>
-  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>¥380–395</b><span class="s-free">免费</span></div>
-  <div class="s-locked" data-lock>
-    <div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">¥520–580</b></div>
-    <div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+25%</b></div>
-    <div class="s-lockth">💡 股价已跌破MA20/MA50，距52周高-54.5%，深度回调至MA200附近（395.24），MA200提供支撑。动量近1月-45.6%极度超卖，但近3月-14.3%仍弱，需等待企稳。东财评…</div>
-    <div class="s-mask"><div class="s-mask-t">🔒 目标价 · 预期收益 · 研判理由</div><button class="s-unlockbtn" onclick="pwScroll()">会员解锁 →</button></div>
-  </div>
+  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>¥380–395</b></div>
+  <div class="s-detail"><div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">¥520–580</b></div><div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+25%</b></div><div class="s-lockth">💡 股价已跌破MA20/MA50，距52周高-54.5%，深度回调至MA200附近（395.24），MA200提供支撑。动量近1月-45.6%极度超卖，但近3月-14.3%仍弱，需等待企稳。东财评…</div></div>
 </div>
 <div class="scard sc-watch">
   <div class="s-top"><span class="s-flag">🇨🇳</span><span class="s-tk">300005</span><span class="s-nm">探路者</span><span class="s-now">¥9.31</span></div>
   <div class="s-sigrow"><span class="s-sig sc-watch">🟡 观望等待</span><span class="s-conf">研判置信 4/10</span></div>
-  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>¥8.3–9.0</b><span class="s-free">免费</span></div>
-  <div class="s-locked" data-lock>
-    <div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">¥11.5–13.0</b></div>
-    <div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+24%</b></div>
-    <div class="s-lockth">💡 股价已深度回调至MA200下方，距52周高-59.5%，但均线空头排列，MA20/50/200均远高于现价，短期缺乏支撑。东财评级增持但无目标价，前瞻PE 56.9偏高。财报日8月29日临近，…</div>
-    <div class="s-mask"><div class="s-mask-t">🔒 目标价 · 预期收益 · 研判理由</div><button class="s-unlockbtn" onclick="pwScroll()">会员解锁 →</button></div>
-  </div>
+  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>¥8.3–9.0</b></div>
+  <div class="s-detail"><div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">¥11.5–13.0</b></div><div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+24%</b></div><div class="s-lockth">💡 股价已深度回调至MA200下方，距52周高-59.5%，但均线空头排列，MA20/50/200均远高于现价，短期缺乏支撑。东财评级增持但无目标价，前瞻PE 56.9偏高。财报日8月29日临近，…</div></div>
 </div></div><div class="s-section">🇭🇰 港股 · 国产 AI<span class="s-scnt">2 支</span></div><div class="s-grid">
 <div class="scard sc-watch">
   <div class="s-top"><span class="s-flag">🇭🇰</span><span class="s-tk">6869</span><span class="s-nm">长飞光纤</span><span class="s-now">HK$121.1</span></div>
   <div class="s-sigrow"><span class="s-sig sc-watch">🟡 观望等待</span><span class="s-conf">研判置信 5/10</span></div>
-  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>HK$105–115</b><span class="s-free">免费</span></div>
-  <div class="s-locked" data-lock>
-    <div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">HK$140–160</b></div>
-    <div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+18%</b></div>
-    <div class="s-lockth">💡 股价已回调至MA200附近（现价127.5 vs MA200 127.03），距52周高-55.6%，深度回调提供安全边际。但短期均线MA20/MA50空头排列，动量偏弱。6-12个月受益于A…</div>
-    <div class="s-mask"><div class="s-mask-t">🔒 目标价 · 预期收益 · 研判理由</div><button class="s-unlockbtn" onclick="pwScroll()">会员解锁 →</button></div>
-  </div>
+  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>HK$105–115</b></div>
+  <div class="s-detail"><div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">HK$140–160</b></div><div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+18%</b></div><div class="s-lockth">💡 股价已回调至MA200附近（现价127.5 vs MA200 127.03），距52周高-55.6%，深度回调提供安全边际。但短期均线MA20/MA50空头排列，动量偏弱。6-12个月受益于A…</div></div>
 </div>
 <div class="scard sc-watch">
   <div class="s-top"><span class="s-flag">🇭🇰</span><span class="s-tk">0700</span><span class="s-nm">腾讯控股</span><span class="s-now">HK$434.6</span></div>
   <div class="s-sigrow"><span class="s-sig sc-watch">🟡 观望等待</span><span class="s-conf">研判置信 6/10</span></div>
-  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>HK$411–430</b><span class="s-free">免费</span></div>
-  <div class="s-locked" data-lock>
-    <div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">HK$480–520</b></div>
-    <div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+11%</b></div>
-    <div class="s-lockth">💡 腾讯已回调至MA50附近，距52周高-33%，估值处于历史低位。财新PMI扩张利好AI应用，但缺乏短期催化剂，需等待回踩MA200（约412）或前低支撑。Finnhub无共识，技术面目标参考前…</div>
-    <div class="s-mask"><div class="s-mask-t">🔒 目标价 · 预期收益 · 研判理由</div><button class="s-unlockbtn" onclick="pwScroll()">会员解锁 →</button></div>
-  </div>
-</div></div><div class="paywall" id="paywall"><div class="pw-h">🔓 升级会员 · 解锁完整研判</div><div class="pw-cols"><div class="pw-col"><div class="pw-tt">免费</div><ul class="pw-ul"><li>✓ 每票 买入/观望/回避 建议</li><li>✓ 建议买入价</li><li>✓ 今日速览 · 市场体制</li><li class="pw-x">✕ 目标价 / 预期收益</li><li class="pw-x">✕ 研判理由 / 财报提醒</li></ul></div><div class="pw-col pw-pro"><div class="pw-tt">会员 ⭐</div><ul class="pw-ul"><li>✓ 免费版全部</li><li>✓ <b>6-12月目标价</b></li><li>✓ <b>预期收益</b></li><li>✓ <b>逐票研判理由</b></li><li>✓ <b>财报/解禁临近提醒</b></li><li>✓ 全部 20 支覆盖</li></ul><span class="pw-btn pw-soon">订阅入口即将开放</span></div></div><div class="pw-code">已订阅?输入解锁码:<input id="pwcode" placeholder="解锁码" autocomplete="off"><button onclick="pwUnlock()">解锁</button><span id="pwmsg"></span></div><div class="pw-lock-note">🔓 已解锁?本设备已记住,可随时在此重新锁定 → <a href="javascript:void(0)" onclick="pwLock()">锁定</a></div></div><div class="s-disc">本板块为 <b>AI 辅助的市场信息与投资者教育内容</b>,所有研判由 AI 引擎依公开行情/共识数据生成,<b>仅供学习研究,不构成任何证券投资建议或买卖要约</b>,不承诺收益,据此操作风险自负。</div>
+  <div class="s-buy"><span class="s-lbl">🎯 建议买入价</span><b>HK$411–430</b></div>
+  <div class="s-detail"><div class="s-lockrow"><span class="s-lbl">📈 6-12月目标价</span><b class="s-tgt">HK$480–520</b></div><div class="s-lockrow"><span class="s-lbl">💰 预期收益</span><b class="s-ret">+11%</b></div><div class="s-lockth">💡 腾讯已回调至MA50附近，距52周高-33%，估值处于历史低位。财新PMI扩张利好AI应用，但缺乏短期催化剂，需等待回踩MA200（约412）或前低支撑。Finnhub无共识，技术面目标参考前…</div></div>
+</div></div><div class="s-disc">本板块为 <b>AI 辅助的市场信息与投资者教育内容</b>,所有研判由 AI 引擎依公开行情/共识数据生成,<b>仅供学习研究,不构成任何证券投资建议或买卖要约</b>,不承诺收益,据此操作风险自负。</div>
 </div>
 <div class="view" id="view-pro">
 <div class="market">🌎 <b style="color:#7ab8ff">大盘与板块:</b><b>DeepSeek 引擎研判(2026-07-23)。</b>本期 买入5 / 观望15 / 回避0。买入=回调到位且 R:R≥2 的纪律买点;观望=趋势好但位置/估值偏高,等回踩 MA50;回避=抛物线顶+估值透支。研判对标 Finnhub/东财评级,禁幽灵共识,利空新闻已纳入。仅研究示范,非投资建议。</div>
