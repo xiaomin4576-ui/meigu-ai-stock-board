@@ -1,13 +1,13 @@
 {
  "asof": "2026-07-26",
- "fetched_at": "2026-07-26T14:21+08:00",
+ "fetched_at": "2026-07-26T16:06+08:00",
  "meta": {
   "counts": {
    "finnhub": 40,
    "em": 40,
-   "rss": 90
+   "rss": 100
   },
-  "total": 156
+  "total": 166
  },
  "candidates": [
   {
@@ -79,6 +79,24 @@
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVTU2Z05LUWg3TzF1SWxCbk5kLVBQbFR5WGplcHdlNjJzOGxzY2ZqZjUxZDhNYmw3M3BoVGRDSHJoaHRFZGYyWGNvWTFpYTltT2xMQjZYSVFHR1MtQWRtVWdtUldlWGt6azFvUzlPek5NcXNTZWs3dDUwUlk3aW11UEhQMEJ3RG9JRXVZajRBaFN2OGJZamlKOFNBYVFfaVQxN1E?oc=5",
    "ts": "2026-07-25T11:25:33+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Trump’s tariffs are likely to stick around despite unpopularity",
+   "summary": "Trump, a proponent of protectionist trade policies, asserts that his approach has driven a US economic boom and that tariffs are effective negotiation tools",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-07-25/trump-s-tariffs-are-likely-to-stick-around-despite-unpopularity",
+   "ts": "2026-07-25T07:45:36+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "WestBridge said to be considering stake sale in Star Health",
+   "summary": "WestBridge is reported to have spoken with financial advisers to evaluate a sale of its 40% stake in the insurance company",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-07-24/westbridge-is-said-to-consider-stake-sale-in-india-s-star-health",
+   "ts": "2026-07-25T07:27:53+00:00",
    "origin": "finnhub",
    "age_days": 1
   },
@@ -353,22 +371,148 @@
    "age_days": 2
   },
   {
-   "title": "In India, Iran war forces Diet Coke to roll out a bigger can, heftier price tag - Reuters",
-   "summary": "In India, Iran war forces Diet Coke to roll out a bigger can, heftier price tag  Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaE1wYlpuSThBV1hnZUNHVy1GTDZLaUliaVozZi1qcXBMNXJFQ3drMW43dmNQdXBlSlVMTVZHMU1Ec1ZLUUw4MzFDMkFoWElhVU9HN253WW9KLVVRS1g1bGNqSDF2WkdOdzRLNG96NFQteG5MbjNqeTlWZ2VGdHlWNzNjbWVKaXItdGszUmR5bXpCTVpQYW5UZ2dhYmdTN2ZEQldBMFFURDd1WmJVVFBWYU5yRFZxbzJ5?oc=5",
-   "ts": "2026-07-24T07:18:55+00:00",
-   "origin": "finnhub",
-   "age_days": 2
+   "title": "佳驰科技：股东梁迪飞拟捐赠1000万股公司股份给电子科技大学教育发展基金会",
+   "summary": "【佳驰科技：股东梁迪飞拟捐赠1000万股公司股份给电子科技大学教育发展基金会】佳驰科技(688708.SH)公告称，公司股东、董事梁迪飞拟通过其控制的成都佳创众合企业管理中心(有限合伙)，向四川电子科技大学教育发展基金会无偿捐赠1000万股公司股票，占公司总股本的2.50%。捐赠股票目前处于限售期，需于2027年12月5日满足解除限售条件后方可办理过户。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607263821227063.html",
+   "ts": "2026-07-26 15:59:53",
+   "origin": "em",
+   "age_days": 0
   },
   {
-   "title": "UAE’s First Abu Dhabi Bank offers $1.5 billion for India expats FX programme",
-   "summary": "First Abu Dhabi Bank PJSC is offering funding up to $1.5 billion to non-resident Indians investing in their home country’s foreign-currency deposit program, according to people familiar with the matter.",
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-07-24/uae-s-top-bank-to-offer-1-5-billion-for-india-expats-fx-program",
-   "ts": "2026-07-24T06:08:02+00:00",
-   "origin": "finnhub",
-   "age_days": 2
+   "title": "百利天恒：注射用T-Bren治疗胆道癌III期临床试验完成首例受试者入组",
+   "summary": "【百利天恒：注射用T-Bren治疗胆道癌III期临床试验完成首例受试者入组】百利天恒(688506.SH)公告称，公司自主研发的创新生物药注射用T-Bren(HER2ADC)在HER2表达的经含铂化疗治疗失败的局部晚期或转移性胆道癌III期随机对照临床试验已完成首例受试者入组。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607263821222112.html",
+   "ts": "2026-07-26 15:57:01",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "*ST元道：公司股票可能因市值低于3亿元被终止上市",
+   "summary": "【*ST元道：公司股票可能因市值低于3亿元被终止上市】*ST元道(301139.SZ)公告称，7月24日，公司股票收盘价为2.39元/股，收盘市值为2.91亿元，首次出现股票收盘市值低于3亿元。根据规定，若公司出现连续20个交易日的股票收盘市值均低于3亿元，公司股票将被终止上市。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607263821222021.html",
+   "ts": "2026-07-26 15:53:33",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "台风“红霞”将至 湖南启动防汛抗灾三级应急响应",
+   "summary": "【台风“红霞”将至 湖南启动防汛抗灾三级应急响应】记者26日从湖南省应急管理厅获悉，根据当前天气形势和后期雨水情预测，湖南省应急委员会决定自7月26日16时起，对全省14个市州同步启动防汛、地质灾害、自然灾害救助三级应急响应。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607263821221560.html",
+   "ts": "2026-07-26 15:49:56",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "黄仁勋、马斯克同日发声：中国的人工智能注定卓越 将成为全球领导者",
+   "summary": "【黄仁勋、马斯克同日发声：中国的人工智能注定卓越 将成为全球领导者】周六（7月25日），英伟达CEO黄仁勋与特斯拉CEO马斯克在同一天不约而同就为中国的人工智能（AI）大模型发声。黄仁勋称中国注定产出卓越人工智能技术，应继续向其学习与合作；马斯克则直言中国极有可能成为人工智能领导者，美国就算禁用中国模型也挡不住。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607263821221734.html",
+   "ts": "2026-07-26 15:46:51",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "厦门湖里法院：“LV因四叶类雕花装饰起诉开发商”不属实",
+   "summary": "【厦门湖里法院：“LV因四叶类雕花装饰起诉开发商”不属实】厦门市湖里区人民法院7月26日通报，针对近日网络流传的（2026）闽0206民初8217号案件相关信息，网传案情“路易威登公司起诉地产开发商，因楼盘外立面四叶类雕花装饰商标侵权”不属实，我院现就有关情况通报如下：经核实，该案系路易威登公司起诉某小区沿街服装店经营者彭某销售侵犯其注册商标的服装，其余被告系因怠于履行管理职责被诉承担相应责任，案件与网传楼盘外立面雕花装饰没有关联。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607263821221013.html",
+   "ts": "2026-07-26 15:43:43",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "外股跌A股必跌 外股涨A股不一定涨！为什么？怎么办？",
+   "summary": "【外股跌A股必跌 外股涨A股不一定涨！为什么？怎么办？】A股“跟跌不跟涨”的非对称联动，是新兴资本市场融入全球体系的阶段性特征，是流动性、周期、产业、结构多重错位的必然结果，并非短期市场乱象。只有监管者、投资者、实体企业等各方形成共识，同向发力，才能趋利避害甚至化害为利，让A股逐步摆脱被动联动的格局，走出贴合中国经济基本面的独立行情，推动资本市场稳健成熟与高质量发展。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607263821218057.html",
+   "ts": "2026-07-26 15:38:00",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "亿田智能：子公司拟不超20亿元采购服务器及配套设备 为客户提供算力服务",
+   "summary": "【亿田智能：子公司拟不超20亿元采购服务器及配套设备 为客户提供算力服务】亿田智能(300911.SZ)公告称，公司全资子公司甘肃亿算拟向多家供应商采购服务器及配套设备，采购合同总金额预计不超过20亿元。本次采购主要用于为客户提供算力服务，不构成重大资产重组或关联交易。该议案尚需提交股东会审议。公司提示，算力业务尚处拓展初期，存在市场、技术及资金等多重风险。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607263821218690.html",
+   "ts": "2026-07-26 15:36:09",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "晨丰科技：拟投资11.8亿元建设两个风电项目",
+   "summary": "【晨丰科技：拟投资11.8亿元建设两个风电项目】晨丰科技(603685.SH)公告称，公司拟投资建设科右中旗10万千瓦上网消纳风电项目和开鲁县20万千瓦上网消纳风电项目，总投资合计11.8亿元。其中，科右风电项目投资3.6亿元，开鲁风电项目投资8.2亿元，均由全资孙公司负责实施，资金来源为自有资金及银行贷款。项目已获核准，预计2026年8月开工，建设期约9-11个月，税后投资收益率分别为7.18%和7.02%。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607263821218555.html",
+   "ts": "2026-07-26 15:33:10",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "美高官欲访巴西遭拒签 被指“干涉选举”",
+   "summary": "【美高官欲访巴西遭拒签 被指“干涉选举”】巴西外交部25日证实，该国已正式拒绝两名美国国务院高级官员的赴巴签证申请。巴西方面怀疑美方官员此行意在干涉巴西定于10月举行的总统选举。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607263821218426.html",
+   "ts": "2026-07-26 15:32:25",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "越南籍船舶南海遇险沉没 中方已救起45人",
+   "summary": "【越南籍船舶南海遇险沉没 中方已救起45人】昨天（25日），一艘越南籍船舶在南海海域遇险沉没，船上共有62名船员。目前，中方力量已成功救起45人，仍有17人失联。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607263821218150.html",
+   "ts": "2026-07-26 15:22:49",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "伊朗革命卫队：过去24小时在霍尔木兹海峡拦截6艘船只",
+   "summary": "【伊朗革命卫队：过去24小时在霍尔木兹海峡拦截6艘船只】当地时间26日，伊朗方面援引伊朗伊斯兰革命卫队的消息称，革命卫队海军正通过不间断的巡逻与监控，持续对波斯湾和霍尔木兹海峡约24万平方公里海域实施管控。革命卫队表示，在过去24小时内，共有6艘船只在收到革命卫队警告后，被迫抛锚停泊并接受伊方相关指令。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607263821217894.html",
+   "ts": "2026-07-26 15:13:39",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "三部门调拨2.5万件物资支持粤赣湘等地救灾救助工作",
+   "summary": "【三部门调拨2.5万件物资支持粤赣湘等地救灾救助工作】7月26日，国家防灾减灾救灾委员会办公室、应急管理部针对台风“红霞”影响，根据广东、江西、湖南等地防汛防台风救灾工作需要，会同国家粮食和物资储备局向三省调拨折叠床、折叠桌凳、毛巾被、夏凉被、家庭应急包等2.5万件中央救灾物资，支持地方妥善做好受灾群众紧急避险转移和安置救助工作。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607263821216479.html",
+   "ts": "2026-07-26 14:52:24",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "中央气象台：台风“红霞”已降到热带风暴级",
+   "summary": "【中央气象台：台风“红霞”已降到热带风暴级】据中央气象台消息，7月26日14时，台风“红霞”的强度已经降到了热带风暴级。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607263821216240.html",
+   "ts": "2026-07-26 14:48:16",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "伊朗军方：美军在伊拉克埃尔比勒的基础设施基本被毁",
+   "summary": "【伊朗军方：美军在伊拉克埃尔比勒的基础设施基本被毁】当地时间26日，伊朗陆军发言人阿克拉米尼亚表示，美军在冲突期间遭到打击的大部分军事基地已基本丧失有效作战能力，美军在伊拉克埃尔比勒的基础设施“已几乎被彻底摧毁”。 他还表示，如果美国继续受以色列政权影响，坚持推进战争和空袭，战争范围还将进一步扩大。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607263821216193.html",
+   "ts": "2026-07-26 14:45:54",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "威海桨板热销欧美",
+   "summary": "【威海桨板热销欧美】入夏以来，桨板、冲浪等水上运动持续升温，带动相关装备产业迎来产销旺季。山东威海凭借“桨板热”迎来水上装备制造业订单激增。今年前5个月，全市水上运动产品出口额达9.5亿元，同比增长20.4%。其中，划水板和冲浪板出口占比超过七成，增速达38.6%。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607263821215660.html",
+   "ts": "2026-07-26 14:36:33",
+   "origin": "em",
+   "age_days": 0
   },
   {
    "title": "伊朗军方称已对可能发生的空袭或地面行动做好准备",
@@ -390,7 +534,7 @@
   },
   {
    "title": "周末要闻汇总：中国证监会原副主席方星海接受审查调查",
-   "summary": "【周末要闻汇总】中方回应美对贸易伙伴征收新关税，反对单边关税措施；商务部将14家欧盟实体列入出口管制管控名单；特朗普下令美军暂停打击伊朗，将第四次竞选总统；中国证监会原副主席方星海接受审查调查；“两高”修改司法解释，加大力度惩治内幕交易、泄露内幕信息犯罪；三星、SK海力士与英伟达、博通等签9500亿美元芯片大单；宁德时代拟以200亿至400亿元回购股份用于注销。",
+   "summary": "【周末要闻汇总】1、中方回应美对贸易伙伴征收新关税；2、特朗普下令美军暂停打击伊朗；3、方星海接受审查调查；4、三星、SK海力士与英伟达、博通等签9500亿美元大单；5、宁德时代拟以200亿至400亿回购。",
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202607263821212088.html",
    "ts": "2026-07-26 14:00:16",
@@ -583,150 +727,6 @@
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202607263821194267.html",
    "ts": "2026-07-26 10:05:57",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "美军在阿拉伯海登船检查一油轮",
-   "summary": "【美军在阿拉伯海登船检查一油轮】美军中央司令部7月25日在社交媒体上说，当天早些时候，美军在阿拉伯海对一艘悬挂科摩罗旗帜的油轮实施登船检查。该油轮目前已继续航行。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607263821194046.html",
-   "ts": "2026-07-26 10:03:57",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "伊朗就商船遭袭召见乌克兰临时代办",
-   "summary": "【伊朗就商船遭袭召见乌克兰临时代办】据伊朗伊斯兰共和国通讯社7月25日报道，伊朗外交部当天就乌克兰在里海水域袭击伊朗商船一事召见乌克兰驻伊朗临时代办。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607263821191858.html",
-   "ts": "2026-07-26 09:28:03",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "深圳：目前全市累计建成480千瓦以上超充站1227座",
-   "summary": "【深圳：目前全市累计建成480千瓦以上超充站1227座】目前，深圳全市累计建成480千瓦以上超充站1227座、重卡超充换电站48座、乘用车闪充站120座、综合能源补给站15座，虚拟电厂实时可调负荷超140万千瓦。加快构建多场景、多层次、广覆盖的充电基础设施体系，深圳入选国家首批车网互动规模化应用试点城市，建成中国首个光储充放一张网和虚拟电厂管理平台，先行示范的步伐越走越快。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607263821190515.html",
-   "ts": "2026-07-26 09:13:07",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "巴西总统卢拉：任何外部势力不得干预巴西大选",
-   "summary": "【巴西总统卢拉：任何外部势力不得干预巴西大选】当地时间7月25日，巴西总统卢拉在出席圣保罗州劳工党代表大会时表示，“任何企图从外部干预巴西选举的人都将付出沉重代价”。卢拉称，巴西是主权国家，国家命运将由全体选民决定，任何外部势力不得干预。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607263821190022.html",
-   "ts": "2026-07-26 09:04:47",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "黄海北部部分海域实弹射击 禁止驶入",
-   "summary": "【黄海北部部分海域实弹射击 禁止驶入】据中国海事局网站消息，大连海事局发布航行警告，7月27日8时至29日17时30分，黄海北部部分海域实弹射击，禁止驶入。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607263821190125.html",
-   "ts": "2026-07-26 09:04:46",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "塞内加尔总统法耶成立新政党",
-   "summary": "【塞内加尔总统法耶成立新政党】塞内加尔总统法耶7月25日在首都达喀尔宣布成立新政党“基拉伊—共和爱国者党”。新政党当天在达喀尔举行成立大会，公布党名和“祖国至上”的口号。党名中的“基拉伊”在当地沃洛夫语中有“保护”“盾牌”等含义。新政党的筹建工作由塞内加尔前总理阿米娜塔·杜尔负责。该党计划吸收支持法耶的政党、政治团体和个人。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607263821189955.html",
-   "ts": "2026-07-26 08:54:11",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "刚果（金）东部武装袭击致至少32名平民死亡",
-   "summary": "【刚果（金）东部武装袭击致至少32名平民死亡】据刚果（金）媒体7月25日报道，该国东部伊图里省曼巴萨地区过去72小时内发生两起据称由乌干达反政府武装“民主同盟军”发动的袭击，造成至少32名平民死亡。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607263821189836.html",
-   "ts": "2026-07-26 08:51:39",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "北京公安162项政务服务实现“全程网办” 户政业务“延时办”",
-   "summary": "【北京公安162项政务服务实现“全程网办” 户政业务“延时办”】记者从北京市公安局了解到，北京市拓展“全程网办”覆盖面，目前已实现居民身份证补领、机动车驾驶证核发、新生儿落户登记等162项公安政务服务事项“全程网办”。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607263821189792.html",
-   "ts": "2026-07-26 08:50:04",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "广州地铁部分区段停止运营",
-   "summary": "【广州地铁部分区段停止运营】7月26日，据广州地铁消息，受台风红霞影响，为保障乘客出行安全，7月26日运营时间起，广州地铁线网部分区段将停止运营服务，具体安排如下：四号线石碁至南沙客运港各站停止对外服务。十四号线太和至东风各站停止对外服务。二十一号线长平至增城广场各站停止对外服务。以上线路各站运营服务恢复时间将另行通知。其他线路和站点正常运营，将根据台风情况调整运营计划。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607263821189518.html",
-   "ts": "2026-07-26 08:49:35",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "坦桑尼亚加强防疫 防止埃博拉病毒输入",
-   "summary": "【坦桑尼亚加强防疫 防止埃博拉病毒输入】当地时间25日，刚果（金）卫生部公布该国埃博拉确诊病例达到2973例，死亡1309例。为了防止病毒输入，刚果（金）的邻国已纷纷升级了防疫措施。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607263821189636.html",
-   "ts": "2026-07-26 08:47:56",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "台风环流北上制造大范围降雨 重庆浙江等地持续高温闷热",
-   "summary": "【台风环流北上制造大范围降雨 重庆浙江等地持续高温闷热】台风“红霞”已在广东省惠州市惠东县平海镇沿海登陆，预计今天（7月26日），它将继续深入内陆，影响波及江西、湖南、湖北等地，台风雨可持续至28日前后，需加强防范强降雨可能引发的山体滑坡、泥石流等次生灾害。受台风雨影响，江南、江淮等地高温将得到缓解，但重庆、浙江等地仍有连续高温闷热天气，需持续做好防暑工作。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607263821188380.html",
-   "ts": "2026-07-26 08:36:39",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "从“等药”到“等患者” 罕见病诊疗迎来新变化",
-   "summary": "【从“等药”到“等患者” 罕见病诊疗迎来新变化】记者从北京海关了解到，今年上半年，天竺综合保税区完成进口总值超550.7亿元，其中医药进口占进口总量九成左右。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607263821187837.html",
-   "ts": "2026-07-26 08:24:09",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "Kimi K3再引关注 瑞银：中国模型的结构性成本优势有望长期保持",
-   "summary": "【Kimi K3再引关注 瑞银：中国模型的结构性成本优势有望长期保持】在瑞银AI行业展望媒体分享会上，瑞银证券中国互联网行业分析师熊玮在与澎湃新闻等媒体交流时表示，不少投资者将Kimi K3称为第二个“DeepSeek时刻”，在她看来，中国的模型仍然让人欣喜地看到整体性能不断在缩小与全球领先前沿模型的差距，同时还一直能保持结构性的成本和价格优势。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607263821186785.html",
-   "ts": "2026-07-26 08:08:00",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "加速“绿色出海” 我国乘用车首次实现碳足迹全覆盖",
-   "summary": "【加速“绿色出海” 我国乘用车首次实现碳足迹全覆盖】记者昨天（25日）从中国汽车技术研究中心获悉，我国乘用车首次实现碳足迹全覆盖。中国汽车产业链碳公示平台最新数据显示，截至2026年7月，这一平台已收集全国92家乘用车企业12100余款车型碳足迹数据，全面覆盖国内全系乘用车型与主流进口车型。专家表示，这标志着我国汽车产业碳数据管理体系迈向规模化、体系化新阶段。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607263821186669.html",
-   "ts": "2026-07-26 08:00:38",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "澳门发出“三号风球” 预计伴随暴雨及雷暴",
-   "summary": "【澳门发出“三号风球” 预计伴随暴雨及雷暴】受台风“红霞”影响，澳门特区政府地球物理气象局昨天18时发出“三号风球”，目前“三号风球”仍在维持。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607263821186198.html",
-   "ts": "2026-07-26 07:54:08",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "今天北京仍有分散性雷阵雨或阵雨 未来三天体感较热",
-   "summary": "【今天北京仍有分散性雷阵雨或阵雨 未来三天体感较热】今天（7月26日），北京多云间阴，仍有分散性雷阵雨或阵雨，需注意防范强对流天气。此外，未来三天北京最高气温可达32℃至33℃，体感较热，需注意防暑。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607263821186217.html",
-   "ts": "2026-07-26 07:53:00",
    "origin": "em",
    "age_days": 0
   },
@@ -956,119 +956,11 @@
    "age_days": 2
   },
   {
-   "title": "Xerox and 4 More Stocks See Action From Activist Investors",
+   "title": "Is Bitcoin Still a Millionaire Maker?",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://www.barrons.com/articles/xerox-and-4-more-stocks-see-action-from-activist-investors-d9214bb2?siteid=yhoof2&amp;yptr=yahoo",
-   "ts": "2026-07-24T22:19:00Z",
-   "origin": "rss",
-   "age_days": 2
-  },
-  {
-   "title": "Soybeans Extend Buying into the End of the Week",
-   "summary": "",
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/commodities/articles/soybeans-extend-buying-end-week-221250036.html",
-   "ts": "2026-07-24T22:12:50Z",
-   "origin": "rss",
-   "age_days": 2
-  },
-  {
-   "title": "Corn Finds Buyers to Close Friday Steady",
-   "summary": "",
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/commodities/articles/corn-finds-buyers-close-friday-221250869.html",
-   "ts": "2026-07-24T22:12:50Z",
-   "origin": "rss",
-   "age_days": 2
-  },
-  {
-   "title": "Wheat Pulls Off Early Friday Lows, Still See Pressure to Close the Week",
-   "summary": "",
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/commodities/articles/wheat-pulls-off-early-friday-221250194.html",
-   "ts": "2026-07-24T22:12:50Z",
-   "origin": "rss",
-   "age_days": 2
-  },
-  {
-   "title": "Here’s Why Nebius Group N.V. (NBIS) Is a Speculative Growth Play Backed by Nvidia’s $2 Billion Investment",
-   "summary": "",
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/why-nebius-group-n-v-222719675.html",
-   "ts": "2026-07-24T22:27:19Z",
-   "origin": "rss",
-   "age_days": 2
-  },
-  {
-   "title": "Is Inflation Ebbing? Not According to This Business Ratio",
-   "summary": "",
-   "source": "Yahoo Finance",
-   "url": "https://www.barrons.com/articles/inflation-according-to-the-inventory-sales-ratio-e4e5a360?siteid=yhoof2&amp;yptr=yahoo",
-   "ts": "2026-07-24T22:14:00Z",
-   "origin": "rss",
-   "age_days": 2
-  },
-  {
-   "title": "3PL stocks drop in wake of stunning Texas case against C.H. Robinson",
-   "summary": "",
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/3pl-stocks-drop-wake-stunning-220532622.html",
-   "ts": "2026-07-24T22:05:32Z",
-   "origin": "rss",
-   "age_days": 2
-  },
-  {
-   "title": "General Motors (GM) Lifts 2026 Outlook: Is GM Stock Still a Buy?",
-   "summary": "",
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/general-motors-gm-lifts-2026-225607325.html",
-   "ts": "2026-07-24T22:56:07Z",
-   "origin": "rss",
-   "age_days": 2
-  },
-  {
-   "title": "Texas Instruments vs. Qualcomm: One Pays Out 94% of Earnings. The Better Dividend Chip Stock Is Clear.",
-   "summary": "",
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-vs-qualcomm-one-230002513.html",
-   "ts": "2026-07-24T23:00:02Z",
-   "origin": "rss",
-   "age_days": 2
-  },
-  {
-   "title": "Strategy Amid Uncertainty: Why Decisioning Maturity is the Critical Differentiator in Today’s Power Markets",
-   "summary": "",
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/energy/articles/strategy-amid-uncertainty-why-decisioning-213308866.html",
-   "ts": "2026-07-24T21:33:08Z",
-   "origin": "rss",
-   "age_days": 2
-  },
-  {
-   "title": "Stock Market Today, July 24: Intel Reverses Gains on Foundry and AI Spending Concerns",
-   "summary": "",
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-july-24-221251196.html",
-   "ts": "2026-07-24T22:12:51Z",
-   "origin": "rss",
-   "age_days": 2
-  },
-  {
-   "title": "360 Energy Pulse: What mattered this week in energy",
-   "summary": "",
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/energy/articles/360-energy-pulse-mattered-week-213022415.html",
-   "ts": "2026-07-24T21:30:22Z",
-   "origin": "rss",
-   "age_days": 2
-  },
-  {
-   "title": "Central Pacific Financial Corp. Q2 2026 Earnings Call Summary",
-   "summary": "",
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/central-pacific-financial-corp-q2-002127495.html",
-   "ts": "2026-07-25T00:21:27Z",
+   "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-still-millionaire-maker-025000224.html",
+   "ts": "2026-07-25T02:50:00Z",
    "origin": "rss",
    "age_days": 1
   },
@@ -1082,13 +974,121 @@
    "age_days": 2
   },
   {
-   "title": "How Roche Unexpectedly Buoyed IBD Stock Of The Day TG Therapeutics",
+   "title": "Central Pacific Financial Corp. Q2 2026 Earnings Call Summary",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://www.investors.com/research/ibd-stock-of-the-day/tg-therapeutics-stock-roche-ocrevus-briumvi-multiple-sclerosis-treatment/?src=A00220&amp;yptr=yahoo",
-   "ts": "2026-07-24T21:15:42Z",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/central-pacific-financial-corp-q2-002127495.html",
+   "ts": "2026-07-25T00:21:27Z",
+   "origin": "rss",
+   "age_days": 1
+  },
+  {
+   "title": "ETF Zoo: Leveraged Lunacy Surpasses $65B in Gains",
+   "summary": "",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/options/articles/etf-zoo-leveraged-lunacy-surpasses-053335683.html",
+   "ts": "2026-07-25T05:33:35Z",
+   "origin": "rss",
+   "age_days": 1
+  },
+  {
+   "title": "Texas Instruments vs. Qualcomm: One Pays Out 94% of Earnings. The Better Dividend Chip Stock Is Clear.",
+   "summary": "",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-vs-qualcomm-one-230002513.html",
+   "ts": "2026-07-24T23:00:02Z",
    "origin": "rss",
    "age_days": 2
+  },
+  {
+   "title": "Oracle’s defense pivot lands its biggest government win yet",
+   "summary": "",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/technology/articles/oracle-defense-pivot-lands-biggest-023300145.html",
+   "ts": "2026-07-25T02:33:00Z",
+   "origin": "rss",
+   "age_days": 1
+  },
+  {
+   "title": "General Motors (GM) Lifts 2026 Outlook: Is GM Stock Still a Buy?",
+   "summary": "",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/general-motors-gm-lifts-2026-225607325.html",
+   "ts": "2026-07-24T22:56:07Z",
+   "origin": "rss",
+   "age_days": 2
+  },
+  {
+   "title": "Jim Cramer Says Buy CrowdStrike (CRWD) as AI Agents Go Rogue",
+   "summary": "",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/technology/ai/articles/jim-cramer-says-buy-crowdstrike-064240066.html",
+   "ts": "2026-07-25T06:42:40Z",
+   "origin": "rss",
+   "age_days": 1
+  },
+  {
+   "title": "GE Vernova (GEV): $176 Billion Backlog and AI Power Demand Outweigh Short-Term EPS Miss",
+   "summary": "",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/technology/ai/articles/ge-vernova-gev-176-billion-065504214.html",
+   "ts": "2026-07-25T06:55:04Z",
+   "origin": "rss",
+   "age_days": 1
+  },
+  {
+   "title": "Samsung Elec, SK Group seal $950 billion deals as South Korea hosts AI powers",
+   "summary": "",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/technology/ai/articles/south-korea-president-lee-looking-003232888.html",
+   "ts": "2026-07-25T07:23:29Z",
+   "origin": "rss",
+   "age_days": 1
+  },
+  {
+   "title": "Why Apple Stock Is Up Today",
+   "summary": "",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-apple-stock-today-030233758.html",
+   "ts": "2026-07-25T03:02:33Z",
+   "origin": "rss",
+   "age_days": 1
+  },
+  {
+   "title": "Jim Cramer Wants Novo Nordisk A/S (NYSE:NVO) To Compete With Eli Lilly In The Market & Not The Courts",
+   "summary": "",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/healthcare/articles/jim-cramer-wants-novo-nordisk-074842053.html",
+   "ts": "2026-07-25T07:48:42Z",
+   "origin": "rss",
+   "age_days": 1
+  },
+  {
+   "title": "Jim Cramer Thinks Market Sentiment For Wells Fargo & Company (NYSE:WFC) Is “A Mistake”",
+   "summary": "",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-thinks-market-sentiment-075041818.html",
+   "ts": "2026-07-25T07:50:41Z",
+   "origin": "rss",
+   "age_days": 1
+  },
+  {
+   "title": "Jim Cramer: These Two Financial Stocks Are Outrageously Cheap",
+   "summary": "",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-two-financial-stocks-075239448.html",
+   "ts": "2026-07-25T07:52:39Z",
+   "origin": "rss",
+   "age_days": 1
+  },
+  {
+   "title": "Jim Cramer Discussed A Surprise For International Business Machines Corporation (NYSE:IBM) CEO",
+   "summary": "",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-discussed-surprise-international-075436459.html",
+   "ts": "2026-07-25T07:54:36Z",
+   "origin": "rss",
+   "age_days": 1
   },
   {
    "title": "Can an AI Black Box Be Trusted to Run a Nuclear Reactor?",
@@ -1341,6 +1341,96 @@
    "ts": "Wed, 22 Jul 2026 18:45:55 GMT",
    "origin": "rss",
    "age_days": 4
+  },
+  {
+   "title": "Saipem-Subsea7 merger under the microscope as EU flags competition concerns",
+   "summary": "",
+   "source": "Offshore Energy",
+   "url": "https://www.offshore-energy.biz/saipem-subsea7-merger-under-the-microscope-as-eu-flags-competition-concerns/",
+   "ts": "Fri, 24 Jul 2026 14:47:53 +0000",
+   "origin": "rss",
+   "age_days": 2
+  },
+  {
+   "title": "FPSO efficiency at Brazilian oil field surpasses target range to hit 97%",
+   "summary": "",
+   "source": "Offshore Energy",
+   "url": "https://www.offshore-energy.biz/fpso-efficiency-at-brazilian-oil-field-surpasses-target-range-to-hit-97/",
+   "ts": "Fri, 24 Jul 2026 13:29:55 +0000",
+   "origin": "rss",
+   "age_days": 2
+  },
+  {
+   "title": "Shipbuilding takes digital leap with virtual platform to connect entire process",
+   "summary": "",
+   "source": "Offshore Energy",
+   "url": "https://www.offshore-energy.biz/shipbuilding-takes-digital-leap-with-virtual-platform-to-connect-entire-process/",
+   "ts": "Fri, 24 Jul 2026 13:01:47 +0000",
+   "origin": "rss",
+   "age_days": 2
+  },
+  {
+   "title": "Harbour Energy’s US arm advances repair plan after riser leak at Gulf of America oil & gas asset",
+   "summary": "",
+   "source": "Offshore Energy",
+   "url": "https://www.offshore-energy.biz/harbour-energys-us-arm-advances-repair-plan-after-riser-leak-at-gulf-of-america-oil-gas-asset/",
+   "ts": "Fri, 24 Jul 2026 12:18:59 +0000",
+   "origin": "rss",
+   "age_days": 2
+  },
+  {
+   "title": "Allseas’ large 28-year-old pipelayer returns to sea after major 10-month upgrade",
+   "summary": "",
+   "source": "Offshore Energy",
+   "url": "https://www.offshore-energy.biz/allseas-large-28-year-old-pipelayer-returns-to-sea-after-major-10-month-upgrade/",
+   "ts": "Fri, 24 Jul 2026 10:43:44 +0000",
+   "origin": "rss",
+   "age_days": 2
+  },
+  {
+   "title": "Allseas places order with Vallourec for Petrobras’ Santos Basin development",
+   "summary": "",
+   "source": "Offshore Energy",
+   "url": "https://www.offshore-energy.biz/allseas-places-order-with-vallourec-for-petrobras-santos-basin-development/",
+   "ts": "Fri, 24 Jul 2026 09:35:54 +0000",
+   "origin": "rss",
+   "age_days": 2
+  },
+  {
+   "title": "Gasunie launches tender for 10-year offshore wind PPA in Netherlands",
+   "summary": "",
+   "source": "Offshore Energy",
+   "url": "https://www.offshore-energy.biz/gasunie-launches-tender-for-10-year-offshore-wind-ppa-in-netherlands/",
+   "ts": "Fri, 24 Jul 2026 08:57:51 +0000",
+   "origin": "rss",
+   "age_days": 2
+  },
+  {
+   "title": "Expro eyeing market growth after broadening drilling tech offering with acquisition of Norwegian firm",
+   "summary": "",
+   "source": "Offshore Energy",
+   "url": "https://www.offshore-energy.biz/expro-eyeing-market-growth-after-broadening-drilling-tech-offering-with-acquisition-of-norwegian-firm/",
+   "ts": "Fri, 24 Jul 2026 08:55:57 +0000",
+   "origin": "rss",
+   "age_days": 2
+  },
+  {
+   "title": "North Sea pilot project produces first green hydrogen on operational platform",
+   "summary": "",
+   "source": "Offshore Energy",
+   "url": "https://www.offshore-energy.biz/north-sea-pilot-project-produces-first-green-hydrogen-on-operational-platform/",
+   "ts": "Fri, 24 Jul 2026 08:18:49 +0000",
+   "origin": "rss",
+   "age_days": 2
+  },
+  {
+   "title": "GTT’s integrated digital toolkit enhances Petronas-chartered LNG vessel fleet",
+   "summary": "",
+   "source": "Offshore Energy",
+   "url": "https://www.offshore-energy.biz/gtts-integrated-digital-toolkit-enhances-petronas-chartered-lng-vessel-fleet/",
+   "ts": "Fri, 24 Jul 2026 07:57:40 +0000",
+   "origin": "rss",
+   "age_days": 2
   },
   {
    "title": "MSC launches shuttle to Northern Mozambique - LNG Industry",
