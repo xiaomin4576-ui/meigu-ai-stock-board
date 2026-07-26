@@ -115,7 +115,15 @@
       "ticker": "QQQ",
       "name": "纳指100 ETF",
       "role": "大盘基准"
+    },
+    {
+      "ticker": "SMH",
+      "name": "半导体 ETF",
+      "role": "AI 产业链板块 β 基准"
     }
   ],
-  "_note": "美股核心 + A股(market=CN,akshare东财数据)+ 港股(market=HK,yfinance有一致目标价)补充——同规格。看板按市场分组排版(美股驱动在前→A股→港股,因A/港大多跟随美股)。A股机构共识用 akshare 东财评级+研报覆盖;港股/美股用 yfinance 券商一致。QQQ 固定基准。"
+  "_note": "美股核心 + A股(market=CN,akshare东财数据)+ 港股(market=HK,yfinance有一致目标价)补充——同规格。看板按市场分组排版(美股驱动在前→A股→港股,因A/港大多跟随美股)。A股机构共识用 akshare 东财评级+研报覆盖;港股/美股用 yfinance 券商一致。QQQ 固定基准。",
+  "sector_benchmarks": [
+    "SMH"
+  ]
 }

@@ -17,6 +17,16 @@ def jload(p, default=None):
     return json.load(open(p, encoding="utf-8")) if os.path.exists(p) else default
 
 
+# 基准集合:QQQ(大盘/相对强弱基准)+ SMH(半导体板块 β 基准)——两者都从"核心买点池"排除、
+# 按基准样式渲染(灰淡+"无个股一致目标"注)、不出机械规则信号。相对强弱/市场体制仍只用 QQQ。
+_CFG0 = jload(os.path.join(DIR, "config.json")) or {}
+BENCHES = {_CFG0.get("benchmark", "QQQ")} | set(_CFG0.get("sector_benchmarks", []))
+BENCH_NOTE = {"QQQ": "🏛 ETF · 大盘基准(纳指100,无个股一致目标)",
+              "SMH": "🏛 半导体 ETF · AI 产业链板块 β 基准(权重含台积电/英伟达/博通;看它=看板块整体,无个股一致目标)"}
+BENCH_TH = {"QQQ": "纳指100 ETF·大盘基准,反映美股科技整体风险偏好,是成分股研判的顺势背景。",
+            "SMH": "半导体 ETF(SMH),前几大权重=台积电/英伟达/博通/AMD 等,是本板块 AI 个股的『板块整体』。看它的涨跌判断:是整个半导体板块在动(板块 β),还是某支个股的独立 alpha。作参照基准,不单独给买卖点。"}
+
+
 def _load_scorecard_hist():
     """读 scorecard_history.jsonl(verify.py 逐日替换式累积)最近 30 期——表盘进化曲线的数据源"""
     p = os.path.join(STATE, "scorecard_history.jsonl")
@@ -548,7 +558,7 @@ def card(i, tk, d, a, bench_m3=None, hist=None):
     cov = 9 - len(miss)                            # 可算【原始】因子数(满9);sp 已按共线分组≈6项,不能用 len(sp)
     low_data = cov <= 3                             # 可算因子≤3 → 数据不足,不给确定评分
     val_html = valuation_line(d, a)                # 第二批:目标价的基本面估值锚(启发式,给"画前高线"一个估值交叉验证)
-    rsig = rules_signal(d, sc, low_data) if tk != "QQQ" else None   # 纯规则信号(与LLM并排;rules_html 待 cs 定义后拼)
+    rsig = rules_signal(d, sc, low_data) if tk not in BENCHES else None   # 纯规则信号(基准QQQ/SMH不出;rules_html 待 cs 定义后拼)
     miss_note = f"(缺:{'、'.join(miss)})" if miss else ""
     tech_only = {"共识上行", "评级", "估值PEG"}.issubset(set(miss))   # 基本面三因子全缺 → 仅技术面,不冒充满分评分
     score_lbl = "技术分" if tech_only else "评分"
@@ -604,7 +614,7 @@ def card(i, tk, d, a, bench_m3=None, hist=None):
                 f'{pe_str}{qstr}'
                 f' ｜ <span style="color:#94a6c4">Finnhub 免费档(无目标价,以评级+财务指标校准)</span>')
     else:
-        cons = ("🏛 ETF·大盘基准(无个股一致目标)" if tk == "QQQ"
+        cons = (BENCH_NOTE.get(tk, "🏛 ETF·板块基准(无个股一致目标)") if tk in BENCHES
                 else "🏛 券商一致目标暂缺(取数受限,价格/技术面正常)")
     ed = d.get("earnings_date")
     earn_soon = ""
@@ -638,7 +648,7 @@ def card(i, tk, d, a, bench_m3=None, hist=None):
         items = "　".join(f'<a href="{n["url"]}" target="_blank">{n["title"][:40]}…</a> <span class="src">[{n["pub"]}·{n["date"]}]</span>' for n in news)
         news_html = f'<div class="news">📰 {items}</div>'
     return f"""
-<div class="card" style="border-top:3px solid {color}{';opacity:.92' if tk=='QQQ' else ''}">
+<div class="card" style="border-top:3px solid {color}{';opacity:.92' if tk in BENCHES else ''}">
   <div class="hd"><span class="rk">{MEDALS[i] if i < len(MEDALS) else str(i + 1) + "."}</span><span class="tk">{('🇨🇳 ' if is_cn else '🇭🇰 ' if is_hk else '') + tk.replace('.SS', '').replace('.SZ', '').replace('.HK', '')}</span>
     <span class="nm">{d.get('name','')}</span><span class="badge">{d.get('role','')}</span>
     <span class="sig" style="color:{color}">{sig}</span>{'<span class="score" style="color:#c9d5e8;background:rgba(148,163,184,.18)">数据不足·暂不评分</span>' if low_data else f'<span class="score">{score_lbl} {sc}({cov}/9因子{"·仅技术面" if tech_only else ""})</span>'}<span class="conf" title="引擎自报置信度,未经统计校准,仅作同信号内排序参考">置信 {a.get('conf','?')}/10</span></div>
@@ -1145,18 +1155,27 @@ def simple_view(order, data, calls, cfg):
     buy_names = [data.get(tk, {}).get("name", tk) for tk in order
                  if tk in stocks and str(stocks[tk].get("sig", "")).startswith("买入")]
     buy_line = ("　今日可关注买点:<b>" + "、".join(buy_names) + "</b>") if buy_names else "　今日无到位买点,以观望为主"
+    def _bm(tk, lbl):
+        vv = data.get(tk, {}) or {}
+        m1, m3 = vv.get("m1"), vv.get("m3")
+        if m1 is None and m3 is None:
+            return None
+        f1 = lambda x: (f"{x:+.1f}%" if x is not None else "—")
+        return f'{lbl} 近1月<b>{f1(m1)}</b>·近3月<b>{f1(m3)}</b>'
+    bl = [x for x in (_bm("QQQ", "🟦 纳指100"), _bm("SMH", "🟨 半导体")) if x]
+    bench_line = ('<div class="t-bench">📊 板块基准(看整体涨跌 · 半导体=AI链β):' + "　".join(bl) + '</div>') if bl else ""
     today = (f'<div class="today"><div class="t-h">📊 今日速览 · {calls.get("asof", TODAY)}</div>'
              f'<div class="t-stats">'
              f'<div class="t-stat tb"><b>{n_buy}</b><span>🟢 建议买入</span></div>'
              f'<div class="t-stat tw"><b>{n_watch}</b><span>🟡 观望等待</span></div>'
              f'<div class="t-stat ta"><b>{n_avoid}</b><span>🔴 建议回避</span></div>'
              f'<div class="t-stat"><b style="color:{regc};font-size:17px">{reg}</b><span>市场体制</span></div>'
-             f'</div><div class="t-note">{buy_line}</div></div>')
+             f'</div><div class="t-note">{buy_line}</div>{bench_line}</div>')
     MKT = [("US", "🇺🇸 美股 · AI 产业链"), ("CN", "🇨🇳 A 股 · 国产算力/AI"), ("HK", "🇭🇰 港股 · 国产 AI")]
     mkt_of = lambda tk: (data.get(tk, {}) or {}).get("market", "US")
     groups = ""
     for mk, title in MKT:
-        grp = [tk for tk in order if tk in stocks and mkt_of(tk) == mk and tk != bench]
+        grp = [tk for tk in order if tk in stocks and mkt_of(tk) == mk and tk not in BENCHES]
         if not grp:
             continue
         groups += (f'<div class="s-section">{title}<span class="s-scnt">{len(grp)} 支</span></div>'
@@ -1193,6 +1212,13 @@ def main():
     v = jload(os.path.join(STATE, "verification.json"))
     if not calls:
         raise SystemExit(f"缺 calls_*.json(Claude 研判)。先让 Claude 生成首期研判再渲染。")
+    # 基准(QQQ/SMH)自愈:某期研判若没带基准条目,自动补占位——板块基准卡恒在,不依赖手工改某期 calls。
+    for bt in BENCHES:
+        if bt and bt not in calls.get("stocks", {}):
+            calls.setdefault("stocks", {})[bt] = {"sig": "观望", "conf": 5, "buy": "—", "tgt": "—", "ret": "—",
+                "th": BENCH_TH.get(bt, "板块/大盘基准,非个股买卖标的。"), "rk": "基准,非个股买卖标的;板块转弱则全组承压。"}
+            if bt not in (calls.get("ranking") or []):
+                calls.setdefault("ranking", []).append(bt)
     order = calls.get("ranking") or list(calls["stocks"].keys())
     # 页脚引擎声明按当期实况动态生成(体检:此前写死"未用DeepSeek"与大盘区"DeepSeek引擎研判"同页互斥)
     engine_line = ("本期研判引擎:DeepSeek(云端自动/按钮触发)" if "DeepSeek" in (calls.get("market") or "")
@@ -1225,7 +1251,7 @@ def main():
         if not grp:
             continue
         # 审计F26:计数剔除基准(QQQ)——与顶栏(F1)口径对齐,section 标题含"核心"却把基准并入"X支"会两张皮
-        core_n = sum(1 for tk in grp if tk != bench)
+        core_n = sum(1 for tk in grp if tk not in BENCHES)
         bench_suf = "+基准" if core_n != len(grp) else ""
         tabbtns += f'<button class="tab" data-tab="{mk}">{TAB_LABEL[mk]}<span class="tc">{core_n}{bench_suf}</span></button>'
         panes += f'<div class="pane" data-mkt="{mk}"><div class="section">{title}<span class="scnt">{core_n} 支{bench_suf}</span></div><div class="grid">'
@@ -1420,6 +1446,7 @@ body::before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;b
 .t-stat span{{font-size:12px;color:#94a6c4;display:block;margin-top:3px}}
 .t-stat.tb b{{color:#4ade80}}.t-stat.tw b{{color:#fbbf24}}.t-stat.ta b{{color:#ff8080}}
 .t-note{{font-size:13.5px;color:#c9d5e8;margin-top:12px;line-height:1.6}}.t-note b{{color:#4ade80}}
+.t-bench{{font-size:12.5px;color:#94a6c4;margin-top:10px;padding-top:9px;border-top:1px solid rgba(51,65,85,.45);line-height:1.7}}.t-bench b{{color:#c9d5e8;font-variant-numeric:tabular-nums}}
 @media(max-width:560px){{.t-stats{{grid-template-columns:repeat(2,1fr)}}}}
 .s-section{{display:flex;align-items:center;gap:10px;font-size:16px;font-weight:800;color:#f2f6fc;margin:16px 0 12px;padding:9px 14px;background:linear-gradient(90deg,rgba(226,192,126,.14),transparent);border-left:4px solid #e2c07e;border-radius:8px}}
 .s-scnt{{font-size:12px;font-weight:600;color:#94a6c4;background:rgba(148,163,184,.15);padding:2px 10px;border-radius:10px}}
@@ -1470,7 +1497,7 @@ body.pro-unlocked .s-locked{{border-style:solid;border-color:#2f4166}}
 .s-disc{{font-size:12px;color:#94a6c4;line-height:1.8;background:rgba(51,65,85,.25);border:1px solid #2f4166;border-radius:12px;padding:13px 16px;margin-top:14px}}.s-disc b{{color:#c9d5e8}}
 </style></head><body><div class="wrap">
 <div class="header"><div style="font-family:Georgia,serif;font-size:12px;letter-spacing:4px;color:#e2c07e;margin-bottom:8px">LUMORA · 同光科技</div><h1>📡 {cfg['title']} · {TODAY}</h1>
-<div class="sub">美股 AI 核心 {sum(1 for s in cfg['stocks'] if s.get('market', 'US') == 'US' and s['ticker'] != cfg['benchmark'])} 票 + 🇨🇳 A 股 {sum(1 for s in cfg['stocks'] if s.get('market') == 'CN')} 票 + 🇭🇰 港股 {sum(1 for s in cfg['stocks'] if s.get('market') == 'HK')} 票 + {cfg['benchmark']} 基准 · 长期 {cfg['horizon_label']} 视角 · 数据 TwelveData/Finnhub+akshare+腾讯(真实行情) · AI 研判</div>
+<div class="sub">美股 AI 核心 {sum(1 for s in cfg['stocks'] if s.get('market', 'US') == 'US' and s['ticker'] not in BENCHES)} 票 + 🇨🇳 A 股 {sum(1 for s in cfg['stocks'] if s.get('market') == 'CN')} 票 + 🇭🇰 港股 {sum(1 for s in cfg['stocks'] if s.get('market') == 'HK')} 票 + {cfg['benchmark']} 基准 · 长期 {cfg['horizon_label']} 视角 · 数据 TwelveData/Finnhub+akshare+腾讯(真实行情) · AI 研判</div>
 <div class="updated">🕐 本页生成:<b>{BUILD_TS}</b> 北京 · <a href="home.html">🏠 门户</a> · <a href="javascript:void(0)" onclick="location.href='board.html?t='+Date.now()">🔄 手动刷新</a> · <button id="updbtn" onclick="triggerUpd()" style="background:#2563eb;color:#fff;border:none;border-radius:8px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer">🔁 更新研判</button><span id="updmsg" style="color:#94a6c4;font-size:12px;margin-left:6px"></span></div>
 <script>
 const DT="__DISPATCH_TOKEN__";
