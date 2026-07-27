@@ -1,207 +1,207 @@
 {
  "asof": "2026-07-27",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-07-27T18:36+08:00",
+ "generated_at": "2026-07-27T21:50+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 9,
+  "cross_day_suppressed": 8,
   "cluster_label": "伊朗",
   "cluster_dropped": [
-   "伊朗称若美国停火持续将停止打击",
-   "油价因美伊周末暂停冲突而下跌"
+   "油价因美伊周末暂停冲突而下跌",
+   "伊朗称只要美国暂停轰炸就停止打击"
   ],
   "backfilled": 0
  },
  "items": [
   {
-   "cat": "macro",
-   "title": "新加坡意外收紧货币政策应对油价通胀",
-   "brief": "新加坡金管局7月27日意外提高新元升值坡度，因油价上涨重燃通胀风险。",
-   "chain": "新加坡收紧货币政策→全球央行紧缩预期升温→美股估值承压，A股外资流向敏感",
-   "impact": 8,
+   "cat": "geo",
+   "title": "美伊暂停军事行动为和谈创造空间",
+   "brief": "美国与伊朗暂停军事冲突，为和平谈判留出空间，双方表态愿意推进外交进程。",
+   "chain": "美伊停火缓和地缘风险→美股风险偏好回升→A股情绪传导",
+   "impact": 9,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/27/singapore-mas-july-monetary-policy-middle-east-oil-prices-inflation-.html",
-   "ts": "Mon, 27 Jul 2026 03:36:08 GMT"
+   "url": "https://www.cnbc.com/2026/07/27/us-iran-war-trump-hormuz.html",
+   "ts": "Mon, 27 Jul 2026 11:56:56 GMT"
   },
   {
    "cat": "macro",
-   "title": "黄金涨超1%因美伊暂停冲突及美联储决议临近",
-   "brief": "黄金上涨超1%，受美伊暂停冲突及美联储利率决议临近影响。",
-   "chain": "避险情绪缓和+美联储决议前实际利率预期→金价波动→美股AI高久期股估值分母敏感，A股算力链情绪传导",
-   "impact": 7,
+   "title": "金价因美伊停火涨超1%，美联储决议在即",
+   "brief": "黄金价格上涨超1%，受美伊暂停冲突和美联储利率决议临近影响，市场关注通胀数据。",
+   "chain": "避险情绪回落+实际利率预期→金价波动→对美股AI高久期票估值分母影响",
+   "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVHhXdm1LMW9wUmp6UHctWldmTGpCQWlBOWVTdk5GeEtuMzNYQU42TGlWWXQtSDAxeE1aa3JvNFRDRUx6WVB5eGliS21TMEluRkJEUndXeHE1MUYzUVZlZG9CQ1V4VXFITFIyMEhJNUNlczhueTJpX2FjbFBoSmVkSnZJX0pQOS05RExueWpHMGpRMElqUTBVV0lqajBCRG9Kc1E?oc=5",
    "ts": "2026-07-27T01:44:00+00:00"
   },
   {
    "cat": "macro",
-   "title": "新加坡进一步收紧货币政策应对通胀",
-   "brief": "新加坡金管局7月27日略微提高新元升值坡度，以应对通胀压力升温。",
-   "chain": "新加坡收紧货币政策→全球央行紧缩预期升温→美股估值承压，A股外资流向敏感",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607273822224834.html",
-   "ts": "2026-07-27 18:26:47"
+   "title": "本周关注：科技巨头财报、美联储会议、通胀数据",
+   "brief": "本周美股迎来繁忙周，包括大型科技公司财报、美联储利率决议和通胀数据发布。",
+   "chain": "宏观事件密集→美股波动加剧→A股算力链情绪传导",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/07/26/here-are-the-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+   "ts": "2026-07-26T20:50:54+00:00"
   },
   {
    "cat": "macro",
-   "title": "中国6月工业利润增速放缓因油价回落",
-   "brief": "中国6月工业利润增速再次放缓，因油价下跌侵蚀利润。",
-   "chain": "中国工业利润放缓→经济复苏预期减弱→A股周期板块承压，间接影响美股中概股",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/27/china-industrial-profit-growth-exports-oil-drops.html",
-   "ts": "Mon, 27 Jul 2026 02:02:04 GMT"
-  },
-  {
-   "cat": "geo",
-   "title": "美伊暂停冲突为和谈留空间",
-   "brief": "美国与伊朗暂停战斗，为和平谈判创造空间，谈判进展待观察。",
-   "chain": "美伊冲突暂停→地缘风险溢价回落→美股风险偏好回升，A股避险情绪缓解",
-   "impact": 9,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/27/us-iran-war-trump-hormuz.html",
-   "ts": "Mon, 27 Jul 2026 09:55:17 GMT"
-  },
-  {
-   "cat": "geo",
-   "title": "红海航运因胡塞袭击沙特后放缓",
-   "brief": "胡塞武装袭击沙特后，红海航运速度放缓，数据显示航运受阻。",
-   "chain": "红海航运受阻→全球供应链风险上升→美股航运及能源股波动，A股海运板块承压",
+   "title": "花旗交易员预计美联储本周按兵不动",
+   "brief": "花旗短期利率交易员押注美联储本周维持利率不变，尽管掉期市场显示加息概率超三分之一。",
+   "chain": "美联储预期分歧→利率路径不确定性→美股估值压力",
    "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNWxxNDU1SHBqVXozbmd1VHRWYVpQWGVqVUVTUHVlakJjS2lKMHBCbDJCS1hucGROTV90dUhuNS1mUEdKVEtBZjR2b1FwSFZJejdVLWR3WFMxWGV6NVk5YWFOa2o3ZHdnX1R2enpyRm53YnBmRmZyS2trSjFiQ2VSbjZQZ2JhbTdRbnh0RVlleDhYTmtUUjJWN0JpTV9lNXU1X3cwazNYcHhzZkNic1hQdTdxMXZEaEM5MDhQZA?oc=5",
-   "ts": "2026-07-27T00:08:00+00:00"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607273822331436.html",
+   "ts": "2026-07-27 20:53:10"
+  },
+  {
+   "cat": "oil",
+   "title": "Jim Cramer关注中东停火与AI基础设施",
+   "brief": "美股期货因中东停火而上涨，同时AI基础设施成为市场焦点。",
+   "chain": "停火推动油价下跌→美股科技板块受益→A股算力链联动",
+   "impact": 7,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/07/27/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+   "ts": "2026-07-27T12:52:45+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "胡塞武装无人机袭击沙特原油基础设施",
+   "brief": "也门胡塞武装声称使用无人机袭击沙特原油运输基础设施，威胁红海航运安全。",
+   "chain": "红海航运风险上升→油价短期波动→莫桑比克油气出口运输成本影响",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607273822331676.html",
+   "ts": "2026-07-27 20:55:18"
+  },
+  {
+   "cat": "gas",
+   "title": "高盛：欧洲天然气期货或需升至100欧元以上",
+   "brief": "高盛预计，若中东能源出口仅逐步正常化至2027年，2026年12月天然气期货价格可能需升至100欧元/兆瓦时以上。",
+   "chain": "中东供应风险→欧洲气价上行→莫桑比克LNG项目出口价格利好",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607273822370258.html",
+   "ts": "2026-07-27 21:28:44"
+  },
+  {
+   "cat": "gas",
+   "title": "高盛：欧洲天然气价格面临较高可能性",
+   "brief": "高盛表示欧洲天然气价格面临上行风险，需通过高价抑制亚洲工业需求。",
+   "chain": "欧洲气价上行→全球LNG贸易流向变化→莫桑比克LNG出口竞争力增强",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607273822368187.html",
+   "ts": "2026-07-27 21:27:17"
+  },
+  {
+   "cat": "tech",
+   "title": "苹果股价续刷历史新高，市值逼近5万亿美元",
+   "brief": "苹果股价上涨1.2%至336.98美元，续创历史新高，总市值达4.95万亿美元。",
+   "chain": "苹果创新高→科技板块情绪提振→A股消费电子链映射",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607273822373884.html",
+   "ts": "2026-07-27 21:35:27"
+  },
+  {
+   "cat": "tech",
+   "title": "美股云计算服务商盘初走高，Nebius涨近6%",
+   "brief": "美股云计算服务商板块延续涨势，Nebius涨近6%，甲骨文涨超5%，CoreWeave涨近4%。",
+   "chain": "云计算需求强劲→科技股上涨→A股算力基础设施链映射",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607273822389147.html",
+   "ts": "2026-07-27 21:40:20"
+  },
+  {
+   "cat": "tech",
+   "title": "亚马逊拟建卫星星座提供太空移动连接",
+   "brief": "亚马逊Leo计划构建最多5105颗卫星的星座，从太空直接连接移动设备。",
+   "chain": "卫星互联网布局→科技巨头竞争→A股卫星通信链映射",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607273822333149.html",
+   "ts": "2026-07-27 20:58:08"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达、SpaceX、微软发起AI安全倡议",
+   "brief": "英伟达、SpaceX和微软联合发起AI安全倡议，应对OpenAI网络攻击后续影响。",
+   "chain": "AI安全受重视→行业监管预期→A股AI安全概念映射",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/27/nvidia-ai-initiative-openai-cyber-attack.html",
+   "ts": "Mon, 27 Jul 2026 11:32:45 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "SSI与英伟达宣布长期战略合作",
+   "brief": "Safe Superintelligence Inc.（SSI）与英伟达建立长期合作伙伴关系，英伟达同时对SSI进行投资。",
+   "chain": "AI算力需求持续→英伟达生态扩张→A股算力链受益",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607273822355526.html",
+   "ts": "2026-07-27 21:05:51"
+  },
+  {
+   "cat": "ai",
+   "title": "新思科技推出芯片设计自主智能体AI工作流",
+   "brief": "EDA巨头新思科技发布全新自主智能体AI工作流，用于芯片设计自动化。",
+   "chain": "AI赋能芯片设计→半导体行业效率提升→A股EDA/芯片设计链映射",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607273822355856.html",
+   "ts": "2026-07-27 21:02:40"
+  },
+  {
+   "cat": "ai",
+   "title": "D-Wave盘初涨超16%，与AT&T合作量子计算",
+   "brief": "D-Wave股价盘初涨超16%，公司与AT&T签署协议，扩大量子计算在网络运营中的应用。",
+   "chain": "量子计算商业化进展→AI算力新方向→A股量子计算概念映射",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607273822387495.html",
+   "ts": "2026-07-27 21:36:53"
+  },
+  {
+   "cat": "macro",
+   "title": "新加坡意外收紧货币政策，因油价推升通胀",
+   "brief": "新加坡金管局在意外行动中收紧货币政策，以应对油价上涨引发的通胀风险。",
+   "chain": "新兴市场央行紧缩→全球流动性收紧→美股估值压力传导至A股",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/27/singapore-mas-july-monetary-policy-middle-east-oil-prices-inflation-.html",
+   "ts": "Mon, 27 Jul 2026 03:36:08 GMT"
   },
   {
    "cat": "geo",
-   "title": "罗马尼亚击落第三架俄无人机",
-   "brief": "罗马尼亚击落第三架俄罗斯无人机，总统称侵犯行为不可容忍。",
-   "chain": "俄乌冲突外溢至北约边境→地缘紧张升级→避险情绪升温，美股军工股受益，A股黄金避险",
+   "title": "罗马尼亚击落第三架俄罗斯无人机",
+   "brief": "罗马尼亚击落第三架俄罗斯无人机，总统称侵犯行为不可容忍，北约东翼紧张升级。",
+   "chain": "俄乌冲突外溢→北约与俄罗斯对峙→全球风险偏好承压",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZ2FyQWFjNUx3VkRnVmh1S0pMM1BYaFdDRDNzQklwZ3BaLXpGc0pfTEJ0RVhOeFFCU0ZLbkpCSVExSHlIUUY0a0tiX0YwSXZoSDdkZ2VvT3lFVE9kZ2U5a1VvZkVKSksyMzR1d05KMkhxQlYzRnhGRzdnUHdoZndobkFobnA5M0JxM0M0LWxZOHhid1NMMDdHLVc4M0xnTDdJZ1VGVU5CV0pJYmgtUldkV0dwaEJ3UTNaOHc3Uk80X1lZRFNTSWFPNnhFNExFOG9yX1JXZlh3?oc=5",
    "ts": "2026-07-26T12:32:39+00:00"
   },
   {
-   "cat": "oil",
-   "title": "WTI原油期货暴跌8%至82美元",
-   "brief": "WTI原油期货跌8%报82.166美元/桶，布伦特跌7.56%报84.753美元/桶。",
-   "chain": "美伊停火预期+市场适应性定价→油价暴跌→莫桑比克油气项目短期收入承压，但长期成本下降利好经营",
-   "impact": 10,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607273822211744.html",
-   "ts": "2026-07-27 17:57:03"
-  },
-  {
-   "cat": "oil",
-   "title": "原油期货定价市场适应性而非伊朗和平希望",
-   "brief": "原油期货反映市场适应性，而非对伊朗和平的乐观预期。",
-   "chain": "市场定价适应性而非和平→油价波动性仍高→莫桑比克油气项目需对冲风险",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNGE1c0g5ZHQxVW9KaV81YjdLV3FXRFo2dnp4S1FaeWZjbTdHbjhMOXVxRDdNVmRIenhzTWdYeU5WQWVqOWVURmxGTXJEVm5mVkN3MkdzSERyM2tHUkt5QWhkNWxkY2tzSXc3OGVtUmVzYXlPSE1vQ29Sak5vN1dDQnJicUZSZlVVSlN5ZkZhUXAxbHhDeWwtQmJxanEwam1FRlVLY2d6OFd6ejVuQUVDaWw5cEJkbHo4cDJ2TG04LU1kSm1aVVNMZE02ZmxwMGZENjZvaEZpUG4?oc=5",
-   "ts": "2026-07-27T07:39:01+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "科威特KPC签署160亿美元管道租赁协议",
-   "brief": "科威特KPC签署160亿美元管道租赁和回租协议，涉及石油管网。",
-   "chain": "科威特基础设施投资→中东石油供应稳定性增强→全球油价波动减小，利好莫桑比克油气长期规划",
+   "cat": "geo",
+   "title": "以色列空袭加沙打死哈马斯高级安全官员",
+   "brief": "以色列在加沙发动空袭，打死一名哈马斯高级安全官员，巴以冲突持续。",
+   "chain": "巴以冲突升级→中东局势不稳→油价地缘溢价波动",
    "impact": 5,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZ0JQQTg4MlNFY2RMbUw2Y1F6ZDdiLVBZNDUwbDBVYU0yZDVfVEVPSjM1NWVSdFM0SkRRdURmY2RvMXRJbXlJSDJwZXA3TGw1UllzRGFyU0lJLWZFOW9mbG5RcmdzNlAzeEJJT18xcUdRdWV3dUtzTi1Xc0sxX2ROZzhCcXpkdGxnek5QZXNzeVJ1azhQbFRVZloyQzFZZmVoQ2ZiRGdiRnJtaEZmZVVIaGhpZ283UXFnX3Y3MkpLOUx3RjFLSENSSXozUXE?oc=5",
-   "ts": "2026-07-25T16:35:44+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOEdQaF9sd1FDOHRhWUhBMTFvU0lDT1RkMUVpQ1pkMWNPUmJKX3pxYlkyQXFDWkNuTE01VFZuZXNWQWxUdmY1OGlZYTdadUZ6bTczODJXQVZ1aEFxa2xVdUpRdHhWZG9CWEJxLWJRZ0N3MkVaVGdmWnBHZGJWOTlIdTdEV3hMc3czS0pMSHFOaEV2NUxrVmVfdTEwelp4SE9VTXg1cVM3V0hHT2dnendVNmJ6Ul9PM2xmNFotOWw4dGlkMWc?oc=5",
+   "ts": "2026-07-26T10:56:32+00:00"
   },
   {
-   "cat": "gas",
-   "title": "芬兰建成全球最大沙电池解决可再生能源储能",
-   "brief": "芬兰推出全球最大沙电池，作为可再生能源储能解决方案。",
-   "chain": "储能技术突破→可再生能源替代加速→长期天然气需求承压，莫桑比克LNG项目需关注转型风险",
+   "cat": "oil",
+   "title": "红海航运因胡塞袭击沙特而放缓",
+   "brief": "数据显示，胡塞武装袭击沙特后，红海航运速度放缓，影响全球贸易航线。",
+   "chain": "红海航运受阻→原油运输成本上升→莫桑比克油气出口物流影响",
    "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/25/finland-sand-battery-renewable-energy-storage.html",
-   "ts": "Mon, 27 Jul 2026 08:46:51 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "三星确认HBM5采用2纳米GAA工艺",
-   "brief": "三星确认HBM5将采用2纳米GAA工艺，速度较HBM4E提升50%以上。",
-   "chain": "三星HBM5技术突破→AI算力硬件升级→美股半导体受益，A股HBM产业链及存储芯片概念",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607273822221866.html",
-   "ts": "2026-07-27 18:13:39"
-  },
-  {
-   "cat": "tech",
-   "title": "长鑫科技科创板上市首日暴涨466%",
-   "brief": "中国芯片制造商长鑫科技科创板上市首日暴涨466%，成市值最高中国上市公司。",
-   "chain": "长鑫科技暴涨→国产芯片替代预期升温→A股半导体板块情绪提振，美股芯片股竞争压力",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/27/cxmt-china-market-debut-chipmaker-ipo.html",
-   "ts": "Mon, 27 Jul 2026 08:03:51 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "Rocket Lab获2.66亿美元导弹防御合同",
-   "brief": "Rocket Lab获美国太空部队2.66亿美元导弹防御合同，盘前涨4.5%。",
-   "chain": "太空防务合同→军工科技需求增长→美股航天军工股受益，A股航天概念联动",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607273822216652.html",
-   "ts": "2026-07-27 18:06:54"
-  },
-  {
-   "cat": "tech",
-   "title": "特朗普威胁对欧盟科技巨头征收高额关税",
-   "brief": "特朗普威胁对欧盟征收‘实质性关税’，因欧盟‘抢劫’美国科技巨头。",
-   "chain": "美欧贸易摩擦升级→科技股面临关税风险→美股科技板块承压，A股科技出口链受影响",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/24/trump-tariffs-eu-trade-google-apple-tech.html",
-   "ts": "Fri, 24 Jul 2026 19:39:50 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "蚂蚁发布LLaDA2.2扩散语言模型",
-   "brief": "蚂蚁发布LLaDA2.2，首次让扩散语言模型在Agent场景中具备‘边思考边行动’能力。",
-   "chain": "蚂蚁AI模型突破→AI Agent应用加速→美股AI软件股受益，A股AI应用及算力链",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607273822221644.html",
-   "ts": "2026-07-27 18:19:40"
-  },
-  {
-   "cat": "ai",
-   "title": "汇丰在新加坡设AI卓越中心并招聘超100人",
-   "brief": "汇丰控股将在新加坡设立全球AI卓越中心，招聘超100名AI专家。",
-   "chain": "金融机构加码AI→AI产业投入持续增长→美股AI基础设施受益，A股AI算力链",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607273822223429.html",
-   "ts": "2026-07-27 18:22:13"
-  },
-  {
-   "cat": "ai",
-   "title": "商务部回应美拟调查制裁中国AI企业",
-   "brief": "商务部就美宣称拟对中国AI企业调查并实施制裁答记者问，表示反对。",
-   "chain": "中美AI摩擦升级→中国AI企业面临制裁风险→A股AI国产替代概念受益，美股AI供应链承压",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607273822224255.html",
-   "ts": "2026-07-27 18:28:41"
-  },
-  {
-   "cat": "ai",
-   "title": "OpenAI在爱尔兰设立新欧盟总部",
-   "brief": "OpenAI宣布在爱尔兰设立新欧盟总部，新增250个工作岗位。",
-   "chain": "OpenAI欧洲扩张→AI监管与人才竞争加剧→美股AI巨头全球化布局，A股AI出海概念",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607273822218588.html",
-   "ts": "2026-07-27 18:10:17"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNWxxNDU1SHBqVXozbmd1VHRWYVpQWGVqVUVTUHVlakJjS2lKMHBCbDJCS1hucGROTV90dUhuNS1mUEdKVEtBZjR2b1FwSFZJejdVLWR3WFMxWGV6NVk5YWFOa2o3ZHdnX1R2enpyRm53YnBmRmZyS2trSjFiQ2VSbjZQZ2JhbTdRbnh0RVlleDhYTmtUUjJWN0JpTV9lNXU1X3cwazNYcHhzZkNic1hQdTdxMXZEaEM5MDhQZA?oc=5",
+   "ts": "2026-07-27T00:08:00+00:00"
   }
  ]
 }
