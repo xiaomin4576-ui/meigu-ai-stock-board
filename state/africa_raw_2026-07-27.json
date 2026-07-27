@@ -1,6 +1,6 @@
 {
  "asof": "2026-07-27",
- "fetched_at": "2026-07-27T13:34+08:00",
+ "fetched_at": "2026-07-27T14:50+08:00",
  "meta": {
   "counts": {
    "TechCabal": 0,
@@ -15,12 +15,12 @@
    "Zimbabwe Situation": 0,
    "African Business": 2,
    "非洲科技·聚合": 14,
-   "中非科技·聚合": 11
+   "中非科技·聚合": 12
   },
   "total": 60,
   "ai_flagged": 17,
   "aiinfra_flagged": 2,
-  "countries": 7
+  "countries": 6
  },
  "items": [
   {
@@ -494,16 +494,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Egyptian infrastructure startup Stakpak acquired by US cloud company Vercel",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxOZk1oWlFPQmF4NWdDM3ZrZ2dGa2FZY0phX2dldkdNdlV0TFplSVRSRHVxb094RU5HMGlSa2VkZGNpSW1McXVKWUhKTFNFN0JDZko3Sm9pMFNpQWpOcGpVS3hBU2tWUUNQSThOVDYxdVZ6eG5EczZyU0RKa19HZV",
-   "source": "- Disrupt Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZk1oWlFPQmF4NWdDM3ZrZ2dGa2FZY0phX2dldkdNdlV0TFplSVRSRHVxb094RU5HMGlSa2VkZGNpSW1McXVKWUhKTFNFN0JDZko3Sm9pMFNpQWpOcGpVS3hBU2tWUUNQSThOVDYxdVZ6eG5EczZyU0RKa19HZVVLMDFLTEo5dkY2VjNodDB4cFd4S1NWYmdCT2xkVE40bTdsQ003QjNrSjc2Q0VMMzA4OFVoSQ?oc=5",
-   "date": "Thu, 23 Jul 2026 09:00:13 GMT",
-   "country": "🇪🇬 埃及",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Why this Ugandan fintech refuses to approve loans in minutes",
    "brief": "$500 laid the foundations for Asaak. Ten years later, it has issued nearly $50 million in loans.",
    "source": "Condia",
@@ -621,6 +611,16 @@
    "date": "Wed, 22 Jul 2026 15:00:00 +0200",
    "country": null,
    "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Why South Africa’s iGaming Sector Is Turning to Crypto Amid Rising Payment Fraud",
+   "brief": "South Africa’s online gambling sector is growing fast — and so is the fraud attached to it. New data from identity verification firm Sumsub shows iGaming fraud in South Africa more than tripled during the second half of ",
+   "source": "IT News Africa",
+   "url": "https://www.itnewsafrica.com/2026/07/why-south-africas-igaming-sector-is-turning-to-crypto-amid-rising-payment-fraud/",
+   "date": "Wed, 22 Jul 2026 12:20:15 +0000",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
    "is_aiinfra": false
   }
  ]
