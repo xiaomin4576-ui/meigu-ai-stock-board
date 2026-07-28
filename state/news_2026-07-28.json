@@ -1,24 +1,25 @@
 {
  "asof": "2026-07-28",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-07-28T21:06+08:00",
+ "generated_at": "2026-07-28T23:57+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 4,
-  "cluster_label": "乌克兰/伊朗",
+  "cluster_label": "乌克兰/伊朗/沙特",
   "cluster_dropped": [
-   "伊朗称只要美国暂停轰炸就停止打击",
-   "特朗普：伊朗基本同意不拥核，需正式承诺",
-   "特朗普将会见泽连斯基，乌克兰与伊朗战争交织"
+   "特朗普与泽连斯基会面，乌克兰与伊朗战争交织",
+   "伊朗与沙特、阿曼就霍尔木兹海峡通话",
+   "伊朗军方警告勿接受美使用伊资产赔偿",
+   "美伊周末暂停冲突后油价下跌"
   ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "Kalshi交易员押注美联储主席Warsh本周提及供应冲击",
-   "brief": "Kalshi交易员预测美联储主席Kevin Warsh将在本周FOMC会议上提及上周的供应冲击，市场关注其对利率路径的暗示。",
-   "chain": "美联储鹰派表态风险→美股估值承压→A股成长股情绪传导",
+   "title": "市场预期美联储主席Warsh本周提及供给冲击",
+   "brief": "Kalshi交易员预测美联储主席Kevin Warsh将在本周FOMC会议上提及上周的供给冲击，市场关注利率路径。",
+   "chain": "美联储鹰派信号→美股估值承压→A股算力链情绪传导",
    "impact": 9,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/07/27/from-oil-to-shock-heres-what-kalshi-traders-expect-warsh-to-say.html",
@@ -26,79 +27,79 @@
   },
   {
    "cat": "macro",
-   "title": "分析：Warsh的FOMC发布会即使不加息也透露信号",
-   "brief": "分析认为，即使本周不加息，美联储主席Warsh的发布会措辞也将对市场产生重要影响，尤其是对通胀和就业的评估。",
-   "chain": "美联储政策预期调整→美股利率敏感板块波动→A股流动性预期传导",
+   "title": "分析：Warsh有三大理由暂缓加息",
+   "brief": "分析认为美联储主席Warsh本周有三大理由维持利率不变，市场等待决议。",
+   "chain": "美联储暂停加息预期→美股风险偏好回升→A股科技股联动",
    "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/28/warsh-fed-rate-decision-trump-powell-analysis.html",
-   "ts": "Tue, 28 Jul 2026 11:00:01 GMT"
+   "ts": "Tue, 28 Jul 2026 15:55:12 GMT"
   },
   {
    "cat": "macro",
-   "title": "美债收益率因油价下跌及FOMC前夕走低",
-   "brief": "美国国债收益率在美联储利率决议前小幅下跌，同时油价大幅回落缓解通胀担忧。",
-   "chain": "油价下跌缓解通胀预期→美债收益率下行→美股科技股估值支撑→A股算力链情绪",
+   "title": "美国7月消费者信心指数下降至90.8",
+   "brief": "美国7月消费者信心指数下降1.4点至90.8，民众对商业环境和就业市场看法恶化。",
+   "chain": "消费信心下滑→经济放缓担忧→美股承压→A股出口链影响",
    "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607283823867313.html",
+   "ts": "2026-07-28 23:02:01"
+  },
+  {
+   "cat": "macro",
+   "title": "美债收益率因油价下跌而走低",
+   "brief": "美国国债收益率在美联储利率决议前小幅走低，受油价下跌影响。",
+   "chain": "油价下跌→通胀预期降温→美债收益率下行→美股成长股估值支撑",
+   "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/28/treasury-yields-edge-lower-ahead-of-fed-rates-decision-as-oil-prices-tumble.html",
    "ts": "Tue, 28 Jul 2026 11:56:34 GMT"
   },
   {
    "cat": "macro",
-   "title": "美国6月商品贸易逆差1015亿美元超预期",
-   "brief": "美国6月商品贸易逆差1015亿美元，高于预期的1000亿美元，显示贸易赤字扩大。",
-   "chain": "贸易逆差扩大→美元承压→美股出口导向板块影响→A股外贸链传导",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607283823737374.html",
-   "ts": "2026-07-28 20:32:54"
-  },
-  {
-   "cat": "macro",
-   "title": "金价因西亚危机暂停而上涨，通胀风险受抑",
-   "brief": "黄金在每盎司4000美元附近徘徊，西亚危机暂停降低了通胀风险，但避险买盘仍支撑金价。",
-   "chain": "地缘缓和+通胀预期回落→金价高位震荡→对美股AI高久期票估值分母影响中性偏正→A股算力链情绪传导",
-   "impact": 7,
+   "title": "比特币ETF因美联储利率担忧结束流入",
+   "brief": "由于对美联储加息的担忧，比特币ETF资金流入停止，市场情绪波动。",
+   "chain": "利率担忧→风险资产承压→美股科技股情绪传导→A股区块链概念",
+   "impact": 5,
    "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-07-26/gold-climbs-after-pause-in-mideast-fighting-cuts-inflation-fears",
-   "ts": "2026-07-27T09:55:01+00:00"
+   "url": "https://www.bloomberg.com/news/articles/2026-07-27/bitcoin-etfs-end-inflow-streak-as-fed-rate-concerns-mount",
+   "ts": "2026-07-27T05:34:41+00:00"
   },
   {
    "cat": "geo",
-   "title": "市场因美伊暂停战争而敢于乐观",
-   "brief": "随着美国和伊朗暂停军事行动，市场风险偏好回升，股市和债券反弹。",
-   "chain": "地缘风险缓解→风险资产反弹→美股科技股修复→A股算力链情绪传导",
+   "title": "伊朗称只要美国暂停轰炸就停止打击",
+   "brief": "伊朗表示只要美国暂停轰炸的承诺持续，伊朗将停止打击，中东局势暂缓。",
+   "chain": "美伊冲突暂停→地缘风险下降→美股风险偏好回升→A股情绪改善",
    "impact": 9,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OaG9CanBKS3oxSTNMTm9XRGJtYmxrLVV3cFVXSnRBTk84NG5YWHNVaGJjMnE5Y0JLLUlSYTN1VnF3VmRlRlFlN1lYX2p3U1ppY2tqV1ZGLUdYT0hVckJ1U3Jna1g4N2ZHQkNwZ0J3OEpwNmc1Zmc0SjBVOWlneFk?oc=5",
-   "ts": "2026-07-27T04:32:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQT2hvLTRwU3J1WVZCTlA0WFVNRmhXdDVkTWhwQkdDTFZzbEVpYmRBUUppcjJudFY2M3JpQ3lzT0I0SkM4VFlmSk8xb0RuX192WjQ2dE9nbjJkUFFMTHFyZDh2c1ktdDJpSmtmdXJPYW5wNXRuM1hsQ0RqYkE4X3d1aDZ1SkpUM3ltc0h2NFNZbmpvZFhYa0ZJTlEyR0JkdDZvYWRUYXBRZE41YkVEdjV4VEZVb0hSSUxOQlFwT1U4X1FfNjJrbmhaSVkyT0w0Zw?oc=5",
+   "ts": "2026-07-26T14:47:00+00:00"
   },
   {
    "cat": "oil",
-   "title": "油价因美伊周末暂停战斗而下跌",
-   "brief": "在美伊双方周末暂停战斗后，油价大幅下跌，市场对供应中断的担忧缓解。",
-   "chain": "地缘缓和→油价下跌→莫桑比克油气项目短期收入预期下降，但长期风险溢价降低",
+   "title": "美国原油跌破80美元，因伊朗讨论霍尔木兹",
+   "brief": "美国原油期货跌破80美元/桶，因伊朗与沙特、阿曼讨论霍尔木兹海峡安全，供应担忧缓解。",
+   "chain": "霍尔木兹局势缓和→油价下跌→莫桑比克油气项目短期收入承压",
    "impact": 9,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZXVDd2dEeUdKdzZkTFduSnE1cGp0S2YtaGwyNTRxekczRW5TdGdtM3JGTFFtYlNiSzNsTVFmTzlYZ0ttZmtJdGtjU3g4U0FPUnFPenFkaWp3ZENtbzFGVFdtUk11TzRSbzg3dmZvWVFqRHZDR3FBZEpxR2dSZEUwU0w3d0pRUkVHd3dWZXg3Yk95SjdMbUZxdDEyTDlaRHdFN3JXLQ?oc=5",
-   "ts": "2026-07-26T22:11:00+00:00"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/28/oil-price-today-wti-brent-us-iran-hormuz.html",
+   "ts": "Tue, 28 Jul 2026 15:21:01 GMT"
   },
   {
    "cat": "oil",
-   "title": "OPEC+拟9月完成最后一次增产后暂停上调配额",
-   "brief": "OPEC+代表透露，在9月完成最后一次增产计划后，预计将暂停产量配额上调，并评估伊朗战争对供应的影响。",
-   "chain": "OPEC+暂停增产→供应收紧预期→油价获得支撑→利好莫桑比克油气出口收入",
+   "title": "国际油价持续走低，WTI跌超4%",
+   "brief": "国际油价持续走低，WTI原油跌4.25%报79.098美元/桶，布伦特跌4.58%报81.939美元/桶。",
+   "chain": "油价大跌→全球油气收入预期下调→莫桑比克LNG项目经济性受影响",
    "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607283823716426.html",
-   "ts": "2026-07-28 20:04:36"
+   "url": "https://finance.eastmoney.com/a/202607283823912578.html",
+   "ts": "2026-07-28 23:45:14"
   },
   {
    "cat": "oil",
-   "title": "原油期货定价市场适应能力，而非伊朗和平希望",
-   "brief": "路透分析认为，原油期货定价反映的是市场对供应中断的适应能力，而非对伊朗和平的乐观预期。",
-   "chain": "市场定价适应力→油价波动性降低→莫桑比克油气项目长期可预测性改善",
+   "title": "原油期货定价市场适应能力，而非伊朗和平",
+   "brief": "原油期货反映市场对供应中断的适应能力，而非对伊朗和平的乐观预期。",
+   "chain": "市场定价适应性→油价短期波动→莫桑比克油气经营需关注长期供需",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNGE1c0g5ZHQxVW9KaV81YjdLV3FXRFo2dnp4S1FaeWZjbTdHbjhMOXVxRDdNVmRIenhzTWdYeU5WQWVqOWVURmxGTXJEVm5mVkN3MkdzSERyM2tHUkt5QWhkNWxkY2tzSXc3OGVtUmVzYXlPSE1vQ29Sak5vN1dDQnJicUZSZlVVSlN5ZkZhUXAxbHhDeWwtQmJxanEwam1FRlVLY2d6OFd6ejVuQUVDaWw5cEJkbHo4cDJ2TG04LU1kSm1aVVNMZE02ZmxwMGZENjZvaEZpUG4?oc=5",
@@ -106,59 +107,59 @@
   },
   {
    "cat": "gas",
-   "title": "法国和西班牙野火烧毁近30万英亩，热浪来袭",
-   "brief": "法国和西班牙野火肆虐，烧毁近30万英亩土地，热浪加剧火灾风险，可能影响能源基础设施。",
-   "chain": "欧洲野火+热浪→天然气发电需求上升→TTF价格短期上行→利好莫桑比克LNG出口",
+   "title": "厄尔尼诺或推动全球变暖短期超2°C",
+   "brief": "厄尔尼诺现象可能使全球气温在2027年初超过2°C，引发气候担忧。",
+   "chain": "气候变暖→天然气需求增加→莫桑比克LNG长期需求前景改善",
    "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/28/france-spain-wildfires-heat-wave.html",
-   "ts": "Tue, 28 Jul 2026 10:23:40 GMT"
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-07-27/global-warming-may-briefly-reach-2c-as-el-nino-roils-weather",
+   "ts": "2026-07-27T08:55:01+00:00"
   },
   {
    "cat": "tech",
-   "title": "美光、英伟达下跌，SK海力士暴跌近15%加剧芯片抛售",
-   "brief": "SK海力士暴跌近15%，拖累美光、英伟达等芯片股，半导体板块抛售加深。",
-   "chain": "芯片股抛售→美股科技板块承压→A股存储/算力链情绪传导",
+   "title": "康宁大跌16%领跌光学股，因财报不佳",
+   "brief": "康宁股价暴跌16%，拖累光学板块，市场对科技硬件需求担忧加剧。",
+   "chain": "光学股暴跌→科技硬件需求疲软→美股科技板块承压→A股光模块链情绪传导",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/28/corning-glw-stock-optical-ai.html",
+   "ts": "Tue, 28 Jul 2026 15:50:25 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "AMD、美光、英伟达延续跌势，芯片股重挫",
+   "brief": "芯片股持续下跌，AMD、美光、英伟达等领跌，市场对半导体周期担忧。",
+   "chain": "芯片股暴跌→美股科技板块承压→A股算力链情绪传导",
    "impact": 9,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/28/sk-hynix-plunges-semiconductor-selloff-deepens-samsung-softbank.html",
-   "ts": "Tue, 28 Jul 2026 08:41:56 GMT"
+   "ts": "Tue, 28 Jul 2026 15:33:15 GMT"
   },
   {
    "cat": "tech",
-   "title": "亚马逊、Meta、微软面临投资者质疑，谷歌财报引发抛售",
-   "brief": "继谷歌财报引发科技股抛售后，亚马逊、Meta和微软本周将面临投资者更严格的审视。",
-   "chain": "科技巨头财报季不确定性→美股科技板块波动→A股AI及算力链情绪传导",
-   "impact": 8,
+   "title": "亚马逊、Meta、微软本周面临投资者质疑",
+   "brief": "继谷歌财报引发抛售后，亚马逊、Meta、微软本周将面临投资者审视。",
+   "chain": "科技巨头财报季→美股科技板块波动→A股科技股联动",
+   "impact": 7,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/07/28/hyperscalers-face-higher-capex-scrutiny-after-alphabet-report-panned.html",
-   "ts": "Tue, 28 Jul 2026 12:00:01 GMT"
+   "ts": "Tue, 28 Jul 2026 14:50:10 GMT"
   },
   {
    "cat": "tech",
-   "title": "波音亏损超预期，空军一号项目拖累业绩",
-   "brief": "波音公布财报，亏损大于预期，主要受空军一号项目成本超支影响。",
-   "chain": "波音亏损→工业板块承压→美股防御性轮动→A股相关产业链影响有限",
+   "title": "Visa裁员7%以提升效率，AI重塑工作",
+   "brief": "Visa宣布裁员7%，作为效率提升的一部分，AI技术正在改变工作方式。",
+   "chain": "金融科技裁员→AI替代效应→美股科技板块情绪影响",
    "impact": 5,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/28/boeing-ba-2q-2026-earnings.html",
-   "ts": "Tue, 28 Jul 2026 12:25:45 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "PayPal财报超预期，CEO回应收购传闻",
-   "brief": "PayPal第二季度业绩超出预期，CEO就收购传闻发表评论，股价盘后上涨。",
-   "chain": "PayPal财报利好→金融科技板块提振→美股科技情绪修复→A股支付概念传导",
-   "impact": 5,
-   "source": "Yahoo Finance",
-   "url": "https://www.investors.com/news/technology/paypal-stock-paypal-earnings-stripe-offer-ceo-commentary/?src=A00220&amp;yptr=yahoo",
-   "ts": "2026-07-28T12:50:14Z"
+   "url": "https://www.cnbc.com/2026/07/28/visa-is-cutting-7percent-of-employees-in-efficiency-push-as-ai-reshapes-work.html",
+   "ts": "Tue, 28 Jul 2026 15:35:48 GMT"
   },
   {
    "cat": "ai",
-   "title": "英伟达与OpenAI洽谈高达2500亿美元AI基础设施融资",
-   "brief": "英伟达正与OpenAI讨论提供高达2500亿美元的融资支持，用于建设AI数据中心等基础设施。",
-   "chain": "AI基础设施巨额投资→算力需求预期强化→美股英伟达及AI链受益→A股算力/光模块链传导",
+   "title": "英伟达与OpenAI洽谈2500亿美元AI基础设施",
+   "brief": "英伟达与OpenAI讨论提供高达2500亿美元的资金支持，用于AI基础设施项目。",
+   "chain": "AI基础设施巨额投资→算力需求爆发→美股英伟达受益→A股光模块/算力链",
    "impact": 10,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/07/27/nvidia-and-openai-in-talks-for-up-to-250-billion-dollar-ai-backstop.html",
@@ -166,33 +167,23 @@
   },
   {
    "cat": "ai",
-   "title": "英伟达2500亿美元支持OpenAI，AI交易再受质疑",
-   "brief": "英伟达可能为OpenAI提供2500亿美元融资，市场担忧AI领域过度集中和泡沫风险。",
-   "chain": "AI融资过热担忧→美股AI板块分化→A股算力链短期情绪波动",
+   "title": "英伟达参与OpenAI 5000亿美元数据中心租赁",
+   "brief": "英伟达正与OpenAI谈判，帮助其租赁一个5000亿美元、10吉瓦的数据中心。",
+   "chain": "AI数据中心扩张→算力需求激增→美股英伟达等受益→A股算力基建链",
    "impact": 9,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/07/27/nvidias-potential-250b-backstop-for-openai-is-another-strike-against-the-ai-trade.html",
-   "ts": "2026-07-27T19:46:20+00:00"
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says",
+   "ts": "2026-07-27T05:02:07+00:00"
   },
   {
    "cat": "ai",
    "title": "Sam Altman本周会见特朗普政府和参议员",
-   "brief": "OpenAI CEO Sam Altman计划与特朗普政府及参议员会面，展示新AI模型能力并讨论政策。",
-   "chain": "AI监管政策预期→美股AI板块不确定性→A股AI监管概念传导",
-   "impact": 7,
+   "brief": "OpenAI CEO Sam Altman计划会见特朗普政府和参议员，展示新AI模型能力。",
+   "chain": "AI监管政策动向→美股AI板块情绪→A股AI概念股联动",
+   "impact": 8,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/07/27/altman-trump-china-open-weight-ai.html",
    "ts": "2026-07-27T14:21:48+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "微软推出成本节约型AI网络安全模型",
-   "brief": "微软发布一款针对网络安全的高性价比AI模型，旨在降低企业安全运营成本。",
-   "chain": "AI安全应用落地→微软竞争力提升→美股科技板块利好→A股网络安全概念传导",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/27/microsoft-touts-cost-saving-ai-model-for-cybersecurity.html",
-   "ts": "Mon, 27 Jul 2026 23:46:25 GMT"
   }
  ]
 }
