@@ -1,0 +1,207 @@
+{
+ "asof": "2026-07-29",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-07-29T11:40+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 12,
+  "cluster_label": "中东/伊朗/霍尔木兹",
+  "cluster_dropped": [
+   "伊朗拦截3艘霍尔木兹油轮",
+   "美元因美伊停火回落"
+  ],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "geo",
+   "title": "伊朗突袭美军中东基地",
+   "brief": "伊朗对中东美军基地发动弹道导弹突袭，美伊短暂停火后冲突再起。",
+   "chain": "美伊冲突升级→油价跳涨→全球风险资产承压；A股油气/军工链受情绪提振",
+   "impact": 10,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/29/us-iran-war-hormuz-centcom.html",
+   "ts": "Wed, 29 Jul 2026 02:06:49 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "油价因美伊恢复打击跳涨",
+   "brief": "美伊短暂停火后恢复打击，霍尔木兹海峡航运受威胁，油价应声上涨。",
+   "chain": "霍尔木兹海峡风险溢价上升→油价短期上涨→莫桑比克油气出口受益但航运成本增加",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html",
+   "ts": "Wed, 29 Jul 2026 00:52:49 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "利率期货头寸飙至新高",
+   "brief": "CME数据显示与美联储基准利率挂钩的期货头寸规模创历史新高，交易员为加息风险做准备。",
+   "chain": "加息预期升温→美股成长股估值承压→A股算力链情绪受抑制",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607293824892596.html",
+   "ts": "2026-07-29 11:08:00"
+  },
+  {
+   "cat": "macro",
+   "title": "金融危机哨兵驳斥加息论",
+   "brief": "Meredith Whitney警告美国四季度经济将有大麻烦，反对当前加息预期。",
+   "chain": "经济衰退担忧与加息预期分歧→市场波动加大→A股科技股短期承压",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607293824871096.html",
+   "ts": "2026-07-29 11:05:27"
+  },
+  {
+   "cat": "geo",
+   "title": "参议院推动制裁俄罗斯",
+   "brief": "美国参议院就乌克兰战争对俄实施新制裁进行投票。",
+   "chain": "俄乌制裁加码→全球能源贸易格局再调整→油价中期偏强",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/28/apple-touches-5-trillion-market-cap-for-first-time-.html",
+   "ts": "Tue, 28 Jul 2026 20:02:50 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "印度卢比因油价下跌大涨",
+   "brief": "印度卢比录得三周最大涨幅，受益于油价回落。",
+   "chain": "油价短期回落→新兴市场货币压力缓解→全球石油需求预期改善",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVzNLbGNOWndmZ1lxc2MzcUtBY08walVteW9YS0UxeEhxazA3Mk9NWndFa3U1NzRULUI4SThDdGtMSEhmWmpUeXhrd3A2UGw2UGE3M2FhY296SEoxMnowblVGT1NSZ1BpU05jd2ZnSDhnZDc3amxPd2c0QzhJZnJhejVSbXRDS2ZoTnFVZHZWRnhRSlFYYmVCN3k2MUFTMG1ZTC1mTDZ4c0dzM2JDSjNZSmUzYnhmN0lfd0w0?oc=5",
+   "ts": "2026-07-27T02:55:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "亚洲股市债市因油价下跌反弹",
+   "brief": "油价下跌提振亚洲风险资产，股市和债券市场反弹。",
+   "chain": "油价下跌→通胀预期降温→亚洲央行政策空间打开",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA2VEF4Z09wNW9GaGZxaENhMVk5X3ZPSVhjSDNwb1ZKeld2S0xDZFNkZ1l6RDRNdHZ6bktSMnhrOFpNNTJQaU83eEtHa3FVQ0swVjVjSGF0SDlqbjZoWVpQbW1icmJoM1Y2TldZUERiTHdGNUpRbnpWR080TQ?oc=5",
+   "ts": "2026-07-27T00:41:00+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "欧洲野火致巨大火云",
+   "brief": "法国和西班牙地区野火形成巨大火云，可能影响当地能源基础设施。",
+   "chain": "极端天气→欧洲能源供应不确定性→LNG需求短期波动",
+   "impact": 4,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/27/wildfire-pictures-spain-france-bordeaux-heatwave.html",
+   "ts": "Tue, 28 Jul 2026 09:21:35 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "苹果超越英伟达成市值第一",
+   "brief": "苹果收盘市值超越英伟达，重新成为全球最有价值公司。",
+   "chain": "苹果市值登顶→科技股轮动→A股消费电子链受关注",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/07/27/apple-most-valuable-company-nvidia.html",
+   "ts": "2026-07-27T21:12:26+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "亚洲科技股抛售蔓延",
+   "brief": "软银跌7%，AI相关股票受挫，亚洲科技股卖压持续。",
+   "chain": "AI交易退潮→科技股估值回调→A股算力链情绪承压",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/29/chip-selloff-sk-hynix-samsung-softbank.html",
+   "ts": "Wed, 29 Jul 2026 03:02:57 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "SK海力士盈利增长仍不及预期",
+   "brief": "SK海力士盈利增速未满足AI驱动的过高期望，股价下跌。",
+   "chain": "芯片股业绩预期过高→半导体板块调整→A股存储/算力链联动",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/29/sk-hynix-earnings-profit-revenue-hbm-memory.html",
+   "ts": "Wed, 29 Jul 2026 02:37:16 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "中际旭创明日港股挂牌",
+   "brief": "光模块龙头中际旭创将于明日港股上市，恒生科技ETF上涨。",
+   "chain": "光模块龙头港股上市→提振A股光模块/算力链情绪",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607293824887051.html",
+   "ts": "2026-07-29 11:06:32"
+  },
+  {
+   "cat": "tech",
+   "title": "中国芯片突破存重大局限",
+   "brief": "报道称中国芯片技术突破存在重大局限，市场需谨慎看待。",
+   "chain": "国产芯片进展不及预期→半导体自主可控主题短期降温",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/28/china-chipmaking-duv-tool-asml-explained.html",
+   "ts": "Tue, 28 Jul 2026 09:44:13 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "美韩科技股关联紧密成隐忧",
+   "brief": "分析师指出美韩科技股高度联动，可能加大投资者风险。",
+   "chain": "美韩科技股联动→全球科技板块波动传导→A股科技股受外围影响",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/28/nasdaq-kospi-wall-street-korea-markets-skhynox-samsung.html",
+   "ts": "Tue, 28 Jul 2026 01:34:28 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达2500亿支持OpenAI",
+   "brief": "英伟达可能为OpenAI提供2500亿美元资金，被视为AI交易降温信号。",
+   "chain": "AI巨头资本运作→市场对AI泡沫担忧加剧→A股算力链情绪受抑",
+   "impact": 9,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/07/27/nvidias-potential-250b-backstop-for-openai-is-another-strike-against-the-ai-trade.html",
+   "ts": "2026-07-27T19:46:20+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "Anthropic反对开源模型禁令",
+   "brief": "Anthropic CEO反对全面禁止开源AI模型，但呼吁加强测试。",
+   "chain": "AI监管辩论升温→影响AI产业格局→A股AI应用/安全链关注",
+   "impact": 6,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-07-28/anthropic-s-amodei-rejects-open-model-ban-but-calls-for-testing",
+   "ts": "2026-07-28T03:18:52+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "Meta平台现AI裸体广告",
+   "brief": "Meta旗下平台被曝运行来自中国的AI裸体广告，引发安全担忧。",
+   "chain": "AI滥用事件→AI监管趋严预期→A股AI安全/内容审核链受益",
+   "impact": 5,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-07-27/instagram-facebook-ran-ai-nudify-ads-from-china-report-says",
+   "ts": "2026-07-27T03:44:21+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "xAI起诉明尼苏达州禁令",
+   "brief": "马斯克的xAI起诉明尼苏达州禁止AI脱衣应用的法律。",
+   "chain": "AI法律挑战→AI监管边界讨论→影响AI产业合规成本",
+   "impact": 4,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/28/spacexs-xai-sues-minnesota-over-law-to-ban-nudify-apps-.html",
+   "ts": "Wed, 29 Jul 2026 02:27:03 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "金价因中东危机暂停上涨",
+   "brief": "黄金在4000美元附近盘整，中东危机暂停抑制通胀风险，金价高位震荡。",
+   "chain": "中东停火避险需求回落→金价高位震荡→对美股AI高久期票估值分母影响中性偏空",
+   "impact": 6,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-07-26/gold-climbs-after-pause-in-mideast-fighting-cuts-inflation-fears",
+   "ts": "2026-07-27T09:55:01+00:00"
+  }
+ ]
+}
