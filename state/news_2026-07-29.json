@@ -1,180 +1,180 @@
 {
  "asof": "2026-07-29",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-07-29T17:32+08:00",
+ "generated_at": "2026-07-29T21:11+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 2,
   "cluster_label": "伊拉克/伊朗/沙特",
   "cluster_dropped": [
-   "美伊恢复打击，油价跳涨",
-   "美伊紧张升级，油价上涨",
-   "美沙联合打击伊朗支持武装",
-   "美拦截伊朗弹道导弹",
-   "沙特称与美协调打击伊拉克武装"
+   "特朗普称将严厉打击伊朗后油价跳涨6%",
+   "美军拦截伊朗弹道导弹",
+   "美军称与沙特打击伊朗在伊拉克据点",
+   "胡塞武装考虑对红海船只收费",
+   "胡塞武装称向红海沙特油轮发射导弹"
   ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "geo",
-   "title": "伊朗突袭美军基地",
-   "brief": "伊朗向中东美军发射弹道导弹，美方称已拦截。",
-   "chain": "中东冲突升级→避险情绪升温→美股承压，A股军工/黄金链受关注",
-   "impact": 10,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/29/us-iran-war-hormuz-centcom.html",
-   "ts": "Wed, 29 Jul 2026 07:49:55 GMT"
-  },
-  {
-   "cat": "oil",
-   "title": "胡塞武装袭击沙特油轮",
-   "brief": "也门胡塞武装称向红海一艘沙特油轮发射导弹。",
-   "chain": "红海航运风险上升→原油供应担忧→油价短期偏强，影响莫桑比克油气出口航运成本",
-   "impact": 7,
+   "title": "美沙联合打击伊朗在伊拉克盟友",
+   "brief": "美军与沙特对伊拉克境内伊朗支持的武装组织发动空袭，海湾地区冲突升级。",
+   "chain": "地缘冲突加剧→避险情绪升温→美股承压，A股军工/黄金链受关注",
+   "impact": 9,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbnJtN1czaW5VenZ0NDdYRVM1OVVMcUhYR2E2RHNneXhfaWZBalUwSElsSWk4aEVwMC1WRnozUGs4RmkxSk1xUkV5ZXVkNWUyeEJfbTQ0Z2RRdXNmM1hsSjduWFhLOURoZHBSUm1IUDJXdHkxR0Q4NGZ3SU9FcDRudkRkVG1qcEszb1Z3bHpaV3lydjBKbWtPaUVadGJ3cmVIT2FCQzlDaGJURG4wU1NlQmFiLW1uMDl6?oc=5",
-   "ts": "2026-07-28T21:00:10+00:00"
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcFJoOXIwZmxCNHBjd05nc3dlYjNXXzd1NzdyQldTOVQ4S3NjZnNDRWdqdG1WUFRUS2tRSkJJTEhQYjJWa1FraklySUtoamVybzBfbUR4aUItanFrRG1hMDZJTzlSQ3lrS25SLUo4QzR0RVQxdmFSVUFaUFpHYWV0cmdnVURNVHJ1QzBzM0pIRTMwUmVFZmxwVVpyTklTallXU2ZLOGl3TDJ1U3VnRzd3bmZnQjVfcUw2a1pWSGdFOTNlUXFa?oc=5",
+   "ts": "2026-07-29T10:59:44+00:00"
   },
   {
    "cat": "oil",
-   "title": "美石油协会反对霍尔木兹通行费",
-   "brief": "美国顶级石油贸易集团反对海湾国家提出的霍尔木兹海峡自愿通行费方案。",
-   "chain": "霍尔木兹通行费争议增加不确定性→油价波动加剧→影响莫桑比克油气出口成本",
+   "title": "油价因美伊紧张局势上涨",
+   "brief": "美伊冲突升级后，布伦特原油涨超6%，WTI突破84美元。",
+   "chain": "地缘冲突推高油价→短期油价偏强→利好莫桑比克油气项目收益预期",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPd0ctWlZRN0hINkdrNUJmWWxpV0ZGNGw2Y2taRk1DbFBpdzd5bFdXQmJEcW9VRExnRFBtTWlTTHBRTU5tcDN2azF6VmtxdDN6WlVncmJxSVJhYjM4Wlctb3NEcnEzSWt4djdPSWJJX3ItYmpaN0UyZ09pbV85YjlRMkQ4RTV2RDE2c2NhYlRTdEVEUUFoWEVLMVBqUzhhX2xtVlJLUFp0RWFZTFpCSGJwMTRydUQ3NUx6ejJyYWFCdzBMVWpOYWZqbzF3?oc=5",
+   "ts": "2026-07-29T00:27:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "WTI原油日内涨7%报84.81美元",
+   "brief": "WTI原油期货日内涨幅达7%，报84.81美元/桶。",
+   "chain": "地缘冲突驱动油价急涨→短期油价偏强→利好莫桑比克油气出口收入",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607293825331633.html",
+   "ts": "2026-07-29 21:04:04"
+  },
+  {
+   "cat": "geo",
+   "title": "伊朗排除霍尔木兹海峡区域管理方案",
+   "brief": "伊朗拒绝区域共同管理霍尔木兹海峡的提议，打破缓和希望。",
+   "chain": "霍尔木兹海峡紧张持续→全球石油供应风险→美股能源板块波动，A股油气链受关注",
    "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQjBCRWJ5ekpMbWF5dm5Yc0c4c0VXTDNZaGlybGZ2OU4xaGx2cEZjMjl1RUZnT3YyQTFhM0ptTHZSbUJiWkZGMDRydFlYZktRVTNPMU9nTzhqUXg2Rzc2V3hjYkczbllfLWszbEJORmVlVDRTYUJBVmhiX19VVVNGVDdjcS1zcmRCLTZnUm1GS0NQOHhXRHlTSThZYVNBT1NlOFR6N0JvODU0YnRhOFNsZTlKWTJiMDFGZE1DQUQ2T0NjbWFpWDRMVw?oc=5",
-   "ts": "2026-07-28T22:55:54+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcm9JU2paOWtPTENMY1JfVDZWWTA5MDVrNUQ5b1FndWhaSVk5Q2psS3dhc0lPeFg5cEE0ZktEVXBzb2JZRmFiUWdXZHNBSU1ON1BLZEM2X21FYmd1T3BFd2tjbU4xSGlibVluMm1xY2xMV0plaTlhUExiMWZtYml6aWNhd1d3ZkcxWC1tN2Q4UzdFdE5QOEc1eWxVNEZIaHdmWTNPczRwbXFGNHZjQ3E1dVdyd3ZLYkRISndfOXFrbFhYdVdFWFdIQw?oc=5",
+   "ts": "2026-07-29T07:06:12+00:00"
   },
   {
    "cat": "oil",
-   "title": "巴西石油削减进口推本土产量",
-   "brief": "Petrobras因美伊冲突削减进口，增加本地产量。",
-   "chain": "供应端调整→油价短期支撑→全球油市偏紧，利好莫桑比克油气出口",
-   "impact": 5,
+   "title": "伊朗提出临时霍尔木兹计划加强控制",
+   "brief": "伊朗提议临时方案以增强对霍尔木兹海峡航线的控制权。",
+   "chain": "伊朗强化海峡控制→短期油价风险溢价上升→莫桑比克LNG出口需评估航运路线替代方案",
+   "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWEpKandCZmpKVTRXejZfQmp1bHNZdmtiYXo1ZTEtZFNCOGxEaUtocm5UdDdGMUVOT2tOWUU4bVBNM3EtY0ZOSHJoRHFqZ205UmxjN0dRejBvTU8yRkJzWWFxU2lTbDZHNGNRY3hYZi0wVHdBaFBsQ1JMSVozeUVWaFMySWE3WHdKWlNsdU51eFNyMjNDd0tRZWE4Z0l0Qi1BV3N2dGRYQWt5cURpQ0twQnVQcw?oc=5",
-   "ts": "2026-07-28T22:41:00+00:00"
-  },
-  {
-   "cat": "gas",
-   "title": "韩国船厂LNG船订单强劲",
-   "brief": "韩国三大船厂二季度利润超2.7万亿韩元，得益于LNG运输船需求。",
-   "chain": "LNG船需求旺盛→全球LNG贸易活跃→利好莫桑比克LNG项目出口运输",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607293825157037.html",
-   "ts": "2026-07-29 17:19:01"
-  },
-  {
-   "cat": "macro",
-   "title": "通胀持续高企困扰全球经济",
-   "brief": "路透调查显示经济学家预计通胀将顽固高位，拖累全球经济。",
-   "chain": "通胀高企→美联储维持高利率→美股成长股估值承压→A股算力链情绪受抑制",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeEo2VHZ0SXF4SFdaOU1LQ2pOaTRfUzBmUUJ0V0wxakdjbE03bkRzWmVMQU5VNXo4SzhrbGZnN3hSdm5vR1dLM2kxTU5NZi1aYVhlejVfQXlrZm5menB6VjE1TElMQUVpSmZyS0FnUWo3VDJScTFiTmJkQWFLcG1KTjZZZFBvbmU2SHM5U3UtbTVJYjhkS29HUHVpQjlwMlVUU3loQmRFQVFCNDV2Z0pLWDQtRHVlSzVpZzRqbHh3RQ?oc=5",
-   "ts": "2026-07-28T12:28:09+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "特朗普称不在乎续签美墨加协定",
-   "brief": "特朗普表示不关心是否续签USMCA，认为对美国不重要。",
-   "chain": "贸易政策不确定性→市场避险→美股波动，A股出口链受关注",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607293825146656.html",
-   "ts": "2026-07-29 17:04:09"
-  },
-  {
-   "cat": "macro",
-   "title": "财长贝森特打击非营利税收漏洞",
-   "brief": "美国财长贝森特打击非营利组织税收漏洞。",
-   "chain": "财政政策收紧→市场流动性预期变化→美股短期承压，A股情绪传导",
-   "impact": 4,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/economy/policy/articles/secretary-bessent-cracks-down-non-160600716.html",
-   "ts": "2026-07-28T16:06:00Z"
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeXBHR2k5aGdkSDFSZkNzUnFwTnRYQldoc3dGSkNfdk84ZUxNMUtPRkxhd0thWDlNOUl1THFjTGNpUi1HVmRSN2EyOFBJaHNfdi1tME1ycWdJT1JEeEVsLW03cGdtQ0NjQkhsVngxOFFwb1dSNzRKcDR1d3pqWmRUQm5PQTE2MEgyLWFUckZWY29BVDY5VFhIdmRIeEI2LW5tYWVmaTRHMF9JY3M4RS1NTzhqWVBSNW9mZXV2c0hNTXFsempOZUFsN2cxSHk?oc=5",
+   "ts": "2026-07-28T18:29:06+00:00"
   },
   {
    "cat": "tech",
-   "title": "科技股抛售扩大，软银跌7%",
-   "brief": "AI概念股遭抛售，软银领跌，科技板块延续跌势。",
-   "chain": "AI泡沫担忧→科技股回调→美股科技板块承压，A股AI算力链情绪受拖累",
+   "title": "芯片股市值蒸发超1万亿美元",
+   "brief": "芯片股抛售潮导致板块市值蒸发超1万亿美元，AI热潮退烧。",
+   "chain": "芯片股暴跌→科技股估值承压→A股算力链情绪受拖累",
    "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/29/chip-selloff-sk-hynix-samsung-softbank.html",
-   "ts": "Wed, 29 Jul 2026 08:29:21 GMT"
+   "ts": "Wed, 29 Jul 2026 11:25:02 GMT"
   },
   {
    "cat": "tech",
-   "title": "SK海力士财报不及预期股价暴跌",
-   "brief": "SK海力士盈利增长但未满足AI高预期，股价大跌。",
-   "chain": "存储芯片龙头业绩不及预期→半导体板块承压→美股科技走弱，A股存储/算力链受拖累",
-   "impact": 8,
+   "title": "SK海力士股价暴跌因AI预期过高",
+   "brief": "SK海力士盈利增长但未满足AI预期，股价大跌。",
+   "chain": "AI硬件龙头业绩不及预期→半导体板块承压→A股存储/算力链受负面传导",
+   "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/29/sk-hynix-earnings-profit-revenue-hbm-memory.html",
    "ts": "Wed, 29 Jul 2026 08:43:13 GMT"
   },
   {
    "cat": "tech",
-   "title": "苹果市值首次触及5万亿美元",
-   "brief": "苹果股价上涨，市值突破5万亿美元里程碑。",
-   "chain": "苹果创新高→科技股分化→美股科技龙头受追捧，A股苹果产业链受益",
+   "title": "日本熊本地震致多家半导体工厂停工",
+   "brief": "熊本县7.1级地震导致多家半导体工厂停产，包括台积电工厂。",
+   "chain": "地震冲击半导体供应→芯片短缺预期升温→A股半导体/国产替代链受关注",
    "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607293825316635.html",
+   "ts": "2026-07-29 20:44:17"
+  },
+  {
+   "cat": "tech",
+   "title": "美国向7家科技公司提供8.74亿美元研发资金",
+   "brief": "美国商务部根据芯片法案向7家公司提供资金，支持光子、量子等研发。",
+   "chain": "美国加大芯片研发补贴→利好美股半导体设备商→A股半导体设备/材料链受映射",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607293825286625.html",
+   "ts": "2026-07-29 20:17:26"
+  },
+  {
+   "cat": "tech",
+   "title": "苹果市值首次触及5万亿美元",
+   "brief": "苹果股价上涨推动市值突破5万亿美元，创历史新高。",
+   "chain": "苹果市值里程碑→提振科技股信心→A股苹果产业链受正面情绪传导",
+   "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/28/apple-touches-5-trillion-market-cap-for-first-time-.html",
    "ts": "Tue, 28 Jul 2026 20:02:50 GMT"
   },
   {
-   "cat": "tech",
-   "title": "苹果计划月租iPhone 17.99美元",
-   "brief": "苹果与Klarna合作推出iPhone租赁服务，月费17.99美元。",
-   "chain": "苹果拓展服务业务→营收多元化→利好美股科技，A股苹果链关注",
-   "impact": 4,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/28/apple-plans-to-lease-iphones-for-17point99-a-month-through-klarna-deal.html",
-   "ts": "Tue, 28 Jul 2026 12:38:50 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "丰田加倍押注电动车",
-   "brief": "丰田在竞争对手退缩时加倍投资电动汽车。",
-   "chain": "传统车企加速电动化→汽车行业变革→美股新能源车竞争加剧，A股电动车链受关注",
-   "impact": 5,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/technology/articles/toyota-doubles-down-evs-while-033300077.html",
-   "ts": "2026-07-28T03:33:00Z"
-  },
-  {
    "cat": "ai",
-   "title": "月之暗面Kimi完成超35亿美元融资",
-   "brief": "月之暗面Kimi完成F轮融资超35亿美元，估值达350亿美元。",
-   "chain": "AI大模型融资火热→提振AI产业信心→美股AI板块情绪改善，A股AI算力链受益",
-   "impact": 8,
+   "title": "马斯克称Grok 4.6将于8月7日发布",
+   "brief": "马斯克宣布xAI下一代大模型Grok 4.6预计8月7日发布，参数1.5万亿。",
+   "chain": "AI大模型迭代加速→提振AI板块情绪→A股AI应用/算力链受关注",
+   "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607293825148570.html",
-   "ts": "2026-07-29 17:07:49"
+   "url": "https://finance.eastmoney.com/a/202607293825328589.html",
+   "ts": "2026-07-29 21:05:34"
   },
   {
    "cat": "ai",
    "title": "瑞银CEO称AI回调健康但存更大风险",
-   "brief": "瑞银CEO认为AI板块回调是健康的，但投资者需关注更大风险。",
-   "chain": "AI板块回调被定性为健康调整→短期企稳可能→美股AI股修复，A股算力链情绪改善",
+   "brief": "瑞银CEO认为AI板块回调是健康的，但投资者需关注其他风险。",
+   "chain": "AI回调被定性为健康调整→缓解市场恐慌→A股AI算力链短期情绪修复",
    "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/29/ubs-earnings-ai-correction-stocks-swiss-bank.html",
-   "ts": "Wed, 29 Jul 2026 08:29:10 GMT"
+   "ts": "Wed, 29 Jul 2026 09:40:12 GMT"
   },
   {
    "cat": "ai",
-   "title": "华尔街逃离AI交易转向其他板块",
-   "brief": "Jim Cramer称华尔街正逃离AI交易，买入其他股票。",
-   "chain": "资金从AI板块流出→科技股承压→美股AI概念回调，A股算力链短期承压",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/28/jim-cramer-wall-street-fleeing-ai-trade-buying-these-stocks.html",
-   "ts": "Tue, 28 Jul 2026 22:20:01 GMT"
+   "title": "深圳加快AI与低空飞行、脑机接口融合",
+   "brief": "深圳发布方案推动AI与低空经济、增材制造、脑机接口等技术融合。",
+   "chain": "地方政策支持AI产业化→利好A股AI应用/低空经济链",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607293825284521.html",
+   "ts": "2026-07-29 20:14:38"
+  },
+  {
+   "cat": "ai",
+   "title": "深圳加强通用模型和物理AI研发",
+   "brief": "深圳方案提出加强通用模型、端侧模型、物理AI模型研发应用。",
+   "chain": "政策聚焦AI基础模型→利好A股AI算力/模型开发链",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607293825284660.html",
+   "ts": "2026-07-29 20:14:32"
+  },
+  {
+   "cat": "macro",
+   "title": "美债收益率上升市场等待美联储决议",
+   "brief": "美国国债收益率上涨，投资者关注美联储利率决定。",
+   "chain": "美债收益率上升→成长股估值承压→A股算力链高估值个股受负面传导",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/29/treasury-yields-fed-interest-rates.html",
+   "ts": "Wed, 29 Jul 2026 12:40:18 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "白银价格持稳因空袭和利率决议",
+   "brief": "白银价格在空袭和美联储决议前持稳，避险需求支撑。",
+   "chain": "避险情绪与利率预期博弈→金价短期震荡→对美股AI高久期票估值分母影响中性偏空",
+   "impact": 5,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-wednesday-july-29-2026-prices-hold-steady-this-morning-amid-renewed-airstrikes-and-pending-rate-decision-125424129.html",
+   "ts": "2026-07-29T12:54:24Z"
   }
  ]
 }
