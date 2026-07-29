@@ -1,14 +1,13 @@
 {
  "asof": "2026-07-29",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-07-29T12:56+08:00",
+ "generated_at": "2026-07-29T14:14+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 11,
+  "cross_day_suppressed": 10,
   "cluster_label": "中东/伊朗",
   "cluster_dropped": [
-   "市场因美伊暂停战争而反弹",
-   "美元因美伊停火及油价下跌回落"
+   "美元因美伊停火及油价下跌而回落"
   ],
   "backfilled": 0
  },
@@ -17,7 +16,7 @@
    "cat": "geo",
    "title": "伊朗突袭美军中东基地",
    "brief": "伊朗对中东美军发动弹道导弹突袭，美伊短暂停火后冲突再起。",
-   "chain": "地缘冲突升级→避险情绪升温→美股承压，A股军工/石油链受关注",
+   "chain": "美伊冲突升级→油价跳涨、避险升温→A股油气/黄金链受关注",
    "impact": 10,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/29/us-iran-war-hormuz-centcom.html",
@@ -25,119 +24,159 @@
   },
   {
    "cat": "oil",
-   "title": "油价因美伊恢复打击跳涨",
+   "title": "美伊恢复打击 油价跳涨",
    "brief": "美伊短暂停火后恢复打击，原油价格应声上涨。",
-   "chain": "地缘冲突→油价短期冲高→莫桑比克油气出口收入预期改善，但运营风险上升",
+   "chain": "霍尔木兹海峡风险加剧→油价短期上行→莫桑比克油气出口受益",
    "impact": 9,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html",
-   "ts": "Wed, 29 Jul 2026 00:52:49 GMT"
+   "ts": "Wed, 29 Jul 2026 05:59:08 GMT"
   },
   {
    "cat": "macro",
    "title": "金价因中东危机暂停而企稳",
-   "brief": "黄金在4000美元附近震荡，中东危机暂停缓解通胀风险，避险买盘支撑。",
-   "chain": "地缘缓和→实际利率预期稳定→金价高位震荡，对美股AI高久期票估值分母影响中性偏正",
+   "brief": "黄金在4000美元附近震荡，中东危机暂停缓解通胀风险，但避险买盘支撑。",
+   "chain": "中东局势缓和→实际利率预期稳定→金价高位震荡→对美股AI高久期票估值分母影响中性",
    "impact": 8,
    "source": "Bloomberg",
    "url": "https://www.bloomberg.com/news/articles/2026-07-26/gold-climbs-after-pause-in-mideast-fighting-cuts-inflation-fears",
    "ts": "2026-07-27T09:55:01+00:00"
   },
   {
-   "cat": "tech",
-   "title": "亚洲科技股抛售蔓延 软银跌10%",
-   "brief": "AI相关股票遭重创，软银跌10%，亚洲科技股抛售延续。",
-   "chain": "AI交易降温→科技股估值回调→美股科技承压，A股算力链情绪受拖累",
-   "impact": 9,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/29/chip-selloff-sk-hynix-samsung-softbank.html",
-   "ts": "Wed, 29 Jul 2026 04:12:30 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "SK海力士业绩新高仍不及预期 股价暴跌",
-   "brief": "SK海力士营收利润创历史新高，但未满足AI高预期，股价创纪录跌幅。",
-   "chain": "AI算力需求强劲但预期过高→美股AI芯片股波动加剧→A股存储/算力链情绪传导",
-   "impact": 9,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/29/sk-hynix-earnings-profit-revenue-hbm-memory.html",
-   "ts": "Wed, 29 Jul 2026 04:10:27 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "苹果市值首破5万亿美元",
-   "brief": "苹果股价上涨，市值首次触及5万亿美元，超越英伟达成为全球最高。",
-   "chain": "苹果市值创新高→科技股分化，资金从AI转向消费电子→A股苹果链受益",
-   "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/28/apple-touches-5-trillion-market-cap-for-first-time-.html",
-   "ts": "Tue, 28 Jul 2026 20:02:50 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "Anthropic CEO反对开源禁令但呼吁测试",
-   "brief": "Dario Amodei拒绝全面禁止开源AI模型，但要求加强安全测试。",
-   "chain": "AI监管辩论持续→影响AI行业创新节奏→对美股AI公司政策风险中性偏正",
-   "impact": 6,
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-07-28/anthropic-s-amodei-rejects-open-model-ban-but-calls-for-testing",
-   "ts": "2026-07-28T03:18:52+00:00"
-  },
-  {
-   "cat": "tech",
-   "title": "中国芯片突破报道存重大保留",
-   "brief": "中国芯片技术突破报道引发关注，但专家指出存在重大局限。",
-   "chain": "中国芯片进展→美股半导体竞争格局不变→A股国产替代概念短期情绪提振",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/28/china-chipmaking-duv-tool-asml-explained.html",
-   "ts": "Tue, 28 Jul 2026 09:44:13 GMT"
-  },
-  {
-   "cat": "oil",
-   "title": "亚洲股市债市因油价下跌反弹",
-   "brief": "油价下跌推动亚洲股市和债市反弹，风险资产回暖。",
-   "chain": "油价回落→通胀预期降温→亚洲市场反弹，莫桑比克油气收入短期承压",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA2VEF4Z09wNW9GaGZxaENhMVk5X3ZPSVhjSDNwb1ZKeld2S0xDZFNkZ1l6RDRNdHZ6bktSMnhrOFpNNTJQaU83eEtHa3FVQ0swVjVjSGF0SDlqbjZoWVpQbW1icmJoM1Y2TldZUERiTHdGNUpRbnpWR080TQ?oc=5",
-   "ts": "2026-07-27T00:41:00+00:00"
-  },
-  {
    "cat": "geo",
-   "title": "美国参议院拟对俄实施新制裁",
-   "brief": "美国参议院安排投票，拟因乌克兰战争对俄罗斯实施新制裁。",
-   "chain": "对俄制裁升级→地缘风险溢价上升→美股能源股受益，A股油气链联动",
+   "title": "美参议院推动对俄制裁投票",
+   "brief": "美国参议院为乌克兰战争设立对俄制裁投票，地缘紧张持续。",
+   "chain": "美俄制裁升级→全球能源贸易格局扰动→A股油气链受关注",
    "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/28/russia-sanctions-congress-key-vote-lindsey-graham-ukraine.html",
    "ts": "Wed, 29 Jul 2026 00:03:14 GMT"
   },
   {
+   "cat": "ai",
+   "title": "美股AI板块抛售愈演愈烈",
+   "brief": "AI板块抛售加剧，对冲基金杠杆率创纪录，华尔街紧急应对。",
+   "chain": "AI抛售潮→美股科技股承压→A股算力链情绪传导",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607293825028175.html",
+   "ts": "2026-07-29 14:09:30"
+  },
+  {
    "cat": "tech",
-   "title": "福特Q2盈利超预期 上调指引",
-   "brief": "福特汽车第二季度盈利超预期，F系列卡车复苏，上调全年指引。",
-   "chain": "福特业绩超预期→传统汽车股反弹→对A股汽车零部件链有正面映射",
-   "impact": 6,
+   "title": "亚洲科技股抛售延续 软银跌10%",
+   "brief": "AI相关股票受挫，软银领跌，亚洲科技股抛售蔓延。",
+   "chain": "AI退潮→亚洲科技股跟跌→A股科技板块联动承压",
+   "impact": 8,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/28/ford-motor-f-earnings-q2-2026.html",
-   "ts": "Tue, 28 Jul 2026 22:49:50 GMT"
+   "url": "https://www.cnbc.com/2026/07/29/chip-selloff-sk-hynix-samsung-softbank.html",
+   "ts": "Wed, 29 Jul 2026 04:12:30 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "SK海力士业绩超预期仍遭抛售",
+   "brief": "SK海力士盈利增长但未满足AI预期，股价大跌，反映AI投资情绪脆弱。",
+   "chain": "AI预期过高→存储龙头业绩利好出尽→A股存储/算力链情绪受拖累",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/29/sk-hynix-earnings-profit-revenue-hbm-memory.html",
+   "ts": "Wed, 29 Jul 2026 04:10:27 GMT"
   },
   {
    "cat": "ai",
-   "title": "马斯克xAI起诉明尼苏达州反脱衣应用法",
-   "brief": "xAI起诉明尼苏达州法律，该法禁止AI脱衣应用，称其违宪。",
-   "chain": "AI法律挑战→监管不确定性增加→对美股AI公司政策风险上升",
+   "title": "SK海力士称AI投资未放缓",
+   "brief": "SK海力士表示云厂商存储需求仍强劲，AI投资并未明显放缓。",
+   "chain": "AI需求基本面仍强→缓解市场过度悲观→A股算力链获支撑",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607293825028854.html",
+   "ts": "2026-07-29 14:07:54"
+  },
+  {
+   "cat": "tech",
+   "title": "苹果超越英伟达成全球市值最高公司",
+   "brief": "苹果市值达5万亿美元，超越英伟达重夺全球第一。",
+   "chain": "AI退潮资金轮动→苹果受益→A股消费电子/苹果链受关注",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/07/27/apple-most-valuable-company-nvidia.html",
+   "ts": "2026-07-27T21:12:26+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "苹果市值首次触及5万亿美元",
+   "brief": "苹果股价上涨推动市值突破5万亿美元，创历史新高。",
+   "chain": "苹果逆势走强→科技股分化→A股苹果产业链映射",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/28/apple-touches-5-trillion-market-cap-for-first-time-.html",
+   "ts": "Tue, 28 Jul 2026 20:02:50 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Anthropic CEO反对全面禁止开源模型",
+   "brief": "Anthropic CEO Dario Amodei呼吁对AI模型进行测试而非全面禁止开源。",
+   "chain": "AI监管辩论持续→影响AI产业创新节奏→A股AI监管/合规概念",
+   "impact": 6,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-07-28/anthropic-s-amodei-rejects-open-model-ban-but-calls-for-testing",
+   "ts": "2026-07-28T03:18:52+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "xAI起诉明尼苏达州禁止‘Nudify’应用",
+   "brief": "马斯克旗下xAI起诉明尼苏达州法律，该法旨在禁止AI脱衣应用。",
+   "chain": "AI伦理监管收紧→科技公司法律风险上升→A股AI治理概念",
    "impact": 5,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/07/28/spacexs-xai-sues-minnesota-over-law-to-ban-nudify-apps-.html",
    "ts": "Wed, 29 Jul 2026 02:27:03 GMT"
   },
   {
+   "cat": "tech",
+   "title": "福特上调指引 二季度业绩超预期",
+   "brief": "福特Q2盈利超预期，F系列皮卡复苏，上调全年指引。",
+   "chain": "传统车企业绩改善→美股工业板块情绪→A股汽车链",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/28/ford-motor-f-earnings-q2-2026.html",
+   "ts": "Tue, 28 Jul 2026 22:49:50 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "中国芯片突破报道存重大局限",
+   "brief": "中国芯片技术突破报道被指有重大保留，实际进展有限。",
+   "chain": "中国芯片自主化预期降温→美股半导体压力减轻→A股芯片国产替代情绪",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/28/china-chipmaking-duv-tool-asml-explained.html",
+   "ts": "Tue, 28 Jul 2026 09:44:13 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "亚洲股市债券因油价下跌而反弹",
+   "brief": "亚洲股市和债券市场因油价下跌而上涨，风险情绪改善。",
+   "chain": "油价下跌→通胀预期降温→亚洲市场反弹→A股情绪提振",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA2VEF4Z09wNW9GaGZxaENhMVk5X3ZPSVhjSDNwb1ZKeld2S0xDZFNkZ1l6RDRNdHZ6bktSMnhrOFpNNTJQaU83eEtHa3FVQ0swVjVjSGF0SDlqbjZoWVpQbW1icmJoM1Y2TldZUERiTHdGNUpRbnpWR080TQ?oc=5",
+   "ts": "2026-07-27T00:41:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "印度卢比因油价下跌创三周最大涨幅",
+   "brief": "印度卢比因油价下跌而大幅升值，显示新兴市场受益于能源成本下降。",
+   "chain": "油价下跌→印度进口成本降低→新兴市场货币走强→对莫桑比克油气出口竞争影响有限",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVzNLbGNOWndmZ1lxc2MzcUtBY08walVteW9YS0UxeEhxazA3Mk9NWndFa3U1NzRULUI4SThDdGtMSEhmWmpUeXhrd3A2UGw2UGE3M2FhY296SEoxMnowblVGT1NSZ1BpU05jd2ZnSDhnZDc3amxPd2c0QzhJZnJhejVSbXRDS2ZoTnFVZHZWRnhRSlFYYmVCN3k2MUFTMG1ZTC1mTDZ4c0dzM2JDSjNZSmUzYnhmN0lfd0w0?oc=5",
+   "ts": "2026-07-27T02:55:00+00:00"
+  },
+  {
    "cat": "gas",
-   "title": "欧洲野火巨云笼罩法国西班牙",
-   "brief": "欧洲野火产生巨大火云，影响法国和西班牙大片地区。",
-   "chain": "极端天气→欧洲能源需求可能上升→LNG进口需求增加，利好莫桑比克LNG出口前景",
+   "title": "欧洲野火肆虐 法国西班牙现巨大火云",
+   "brief": "欧洲多国野火蔓延，可能影响能源基础设施及天然气需求。",
+   "chain": "极端天气→欧洲能源供应风险→TTF气价波动→莫桑比克LNG出口机会",
    "impact": 5,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/27/wildfire-pictures-spain-france-bordeaux-heatwave.html",
@@ -145,63 +184,33 @@
   },
   {
    "cat": "tech",
-   "title": "苹果计划月租17.99美元租赁iPhone",
-   "brief": "苹果与Klarna合作，计划推出月租17.99美元的iPhone租赁服务。",
-   "chain": "苹果创新订阅模式→刺激iPhone销量→利好A股苹果供应链",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/28/apple-plans-to-lease-iphones-for-17point99-a-month-through-klarna-deal.html",
-   "ts": "Tue, 28 Jul 2026 12:38:50 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "瑞银Q2营收137亿美元超预期",
-   "brief": "瑞银第二季度营收137亿美元，同比增长13%，净利润28亿美元超预期。",
-   "chain": "瑞银业绩超预期→金融股走强→对A股金融板块有情绪提振",
+   "title": "美韩科技股联动紧密 投资者担忧",
+   "brief": "美韩科技股关联度上升，可能放大市场波动，投资者需警惕。",
+   "chain": "跨境科技股联动增强→美股波动传导至亚洲→A股科技板块联动风险",
    "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607293824916398.html",
-   "ts": "2026-07-29 12:32:00"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/28/nasdaq-kospi-wall-street-korea-markets-skhynox-samsung.html",
+   "ts": "Tue, 28 Jul 2026 01:34:28 GMT"
   },
   {
    "cat": "tech",
-   "title": "Shein遭FTC调查 筹备香港IPO",
-   "brief": "Shein称正接受美国联邦贸易委员会调查，同时筹备香港IPO。",
-   "chain": "监管调查+IPO进展→中概股风险偏好波动→对A股跨境电商概念有间接影响",
-   "impact": 5,
+   "title": "Shein遭FTC调查 赴港IPO在即",
+   "brief": "快时尚Shein因供应链问题被FTC调查，同时准备香港IPO。",
+   "chain": "监管风险上升→Shein估值承压→A股跨境电商/纺织链情绪",
+   "impact": 4,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/28/shein-discloses-its-under-investigation-by-the-ftc.html",
    "ts": "Tue, 28 Jul 2026 17:12:52 GMT"
   },
   {
-   "cat": "ai",
-   "title": "OceanBase启动首次外部融资20-30亿",
-   "brief": "蚂蚁集团旗下OceanBase启动A轮融资，目标20-30亿元，用于产品增强。",
-   "chain": "数据库AI化融资→AI基础设施投资活跃→对美股AI云服务有正面信号",
+   "cat": "tech",
+   "title": "苹果计划月租17.99美元租赁iPhone",
+   "brief": "苹果与Klarna合作推出iPhone租赁服务，月费17.99美元。",
+   "chain": "苹果创新商业模式→刺激换机需求→A股苹果链受益",
    "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607293824905295.html",
-   "ts": "2026-07-29 11:43:02"
-  },
-  {
-   "cat": "macro",
-   "title": "渣打Q2税前利润23.3亿美元 回购10亿",
-   "brief": "渣打集团第二季度除税前利润23.3亿美元，同比增2.4%，宣布回购10亿美元股票。",
-   "chain": "渣打业绩稳健+回购→银行股获支撑→对A股银行板块有情绪提振",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607293824908737.html",
-   "ts": "2026-07-29 12:03:21"
-  },
-  {
-   "cat": "oil",
-   "title": "印度卢比因油价下跌创三周最大涨幅",
-   "brief": "油价下跌推动印度卢比大幅升值，创三周最大涨幅。",
-   "chain": "油价下跌→印度进口成本降低→卢比走强，对莫桑比克油气出口竞争格局影响有限",
-   "impact": 4,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVzNLbGNOWndmZ1lxc2MzcUtBY08walVteW9YS0UxeEhxazA3Mk9NWndFa3U1NzRULUI4SThDdGtMSEhmWmpUeXhrd3A2UGw2UGE3M2FhY296SEoxMnowblVGT1NSZ1BpU05jd2ZnSDhnZDc3amxPd2c0QzhJZnJhejVSbXRDS2ZoTnFVZHZWRnhRSlFYYmVCN3k2MUFTMG1ZTC1mTDZ4c0dzM2JDSjNZSmUzYnhmN0lfd0w0?oc=5",
-   "ts": "2026-07-27T02:55:00+00:00"
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/28/apple-plans-to-lease-iphones-for-17point99-a-month-through-klarna-deal.html",
+   "ts": "Tue, 28 Jul 2026 12:38:50 GMT"
   }
  ]
 }
