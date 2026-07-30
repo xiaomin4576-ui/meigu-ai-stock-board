@@ -1,0 +1,207 @@
+{
+ "asof": "2026-07-30",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-07-30T11:23+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 2,
+  "cluster_label": "伊朗",
+  "cluster_dropped": [
+   "特朗普称将严厉打击伊朗，已获埃及油轮简报",
+   "布伦特原油重回90美元上方，特朗普威胁打击伊朗"
+  ],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "沃什第二次会议现3票反对，美联储内部分歧加剧",
+   "brief": "美联储主席沃什第二次货币政策会议出现3票反对，为近半个世纪来最大分歧，市场对政策路径不确定性上升。",
+   "chain": "美联储内部分歧加剧→政策不确定性推升美债收益率→美股AI高估值股承压→A股算力链情绪传导",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607303826357469.html",
+   "ts": "2026-07-30 11:03:01"
+  },
+  {
+   "cat": "macro",
+   "title": "美联储本周会议维持利率不变",
+   "brief": "美联储周三按预期维持利率不变，市场关注后续政策信号及科技巨头AI资本开支指引。",
+   "chain": "利率不变符合预期→短期风险偏好稳定→美股AI股聚焦财报→A股算力链等待催化",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/07/29/here-are-the-five-big-takeaways-from-this-weeks-fed-meeting.html",
+   "ts": "2026-07-29T20:42:50+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "财长贝森特打击非营利税收漏洞",
+   "brief": "美国财长贝森特宣布打击非营利组织税收漏洞，旨在增加财政收入并减少赤字。",
+   "chain": "财政收紧预期→美债收益率上行压力→美股成长股估值承压→A股算力链情绪传导",
+   "impact": 6,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/economy/policy/articles/secretary-bessent-cracks-down-non-160600716.html",
+   "ts": "2026-07-28T16:06:00Z"
+  },
+  {
+   "cat": "geo",
+   "title": "美国对伊朗发动打击，缓和希望破灭",
+   "brief": "伊朗发动突袭导弹攻击后，美国对伊朗实施军事打击，中东局势急剧升级。",
+   "chain": "美伊直接冲突→避险情绪飙升→美股波动加剧→A股地缘风险传导",
+   "impact": 10,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/30/us-iran-war-hormuz-centcom-trump-.html",
+   "ts": "Thu, 30 Jul 2026 02:29:33 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "中国威胁报复美国仿人机器人禁令",
+   "brief": "中国称美国仿人机器人禁令严重损害双边关系，将采取报复措施。",
+   "chain": "中美科技对抗升级→供应链风险→美股AI硬件股承压→A股机器人/算力链传导",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/30/china-us-robot-humanoid-ban-trump-visit.html",
+   "ts": "Thu, 30 Jul 2026 02:52:30 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "伊朗排除霍尔木兹海峡区域管理，缓和希望破灭",
+   "brief": "伊朗明确拒绝霍尔木兹海峡区域管理方案，地区航运安全风险上升。",
+   "chain": "霍尔木兹海峡风险加剧→油价上行→莫桑比克LNG出口竞争力增强",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcm9JU2paOWtPTENMY1JfVDZWWTA5MDVrNUQ5b1FndWhaSVk5Q2psS3dhc0lPeFg5cEE0ZktEVXBzb2JZRmFiUWdXZHNBSU1ON1BLZEM2X21FYmd1T3BFd2tjbU4xSGlibVluMm1xY2xMV0plaTlhUExiMWZtYml6aWNhd1d3ZkcxWC1tN2Q4UzdFdE5QOEc1eWxVNEZIaHdmWTNPczRwbXFGNHZjQ3E1dVdyd3ZLYkRISndfOXFrbFhYdVdFWFdIQw?oc=5",
+   "ts": "2026-07-29T07:06:12+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "阿布扎比国家石油公司溢价向亚洲售油",
+   "brief": "ADNOC在第七次招标中以溢价向亚洲炼厂销售原油，显示需求强劲。",
+   "chain": "亚洲需求强劲→油价支撑→莫桑比克原油出口受益",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNamt1Q1VySm5UT2RwV21EVDg4a0wyTmZPa2NpakRiS1JsUVpzdmlkWUxYd2stbnRIcUh0Tnk1bVM1SVhrXzZVWS0zV0NIVVBKUUdOOC1vX3FmZ1JaeFdtcklEWHl1WVYzbGVJd0hicnZFSXp5ZFRtX25DRDZCOVJzREZIbVFiZ01PTm1wbjhFeW9XWDdJWkF1NzBIVk9xdGp2enJTTVVsT0hEaHNjSXUzc2d0ZXl6NjNuRDlBckFZWGwtUGM?oc=5",
+   "ts": "2026-07-29T09:34:09+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "无人机袭击埃及地中海港口天然气储罐",
+   "brief": "一架无人机击中埃及地中海港口的一艘天然气储罐船，航运安全受威胁。",
+   "chain": "东地中海LNG设施遇袭→气价短期波动→莫桑比克LNG项目安全关注度上升",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPM3F5LWg3Mm9rYmlhejJpdzJqQW9SWnU1WHJRVm9iZ1p0TUpmRTR6Mk1JYXVUekU2c1VlTHI5bV9DbzIyejlvYU13Y2cxYU12WExOYzJoVmxsVzVoc2hiWkQ2ZWFUZ0EwZHBZZlZ1UnREZjZGc243TlQtMXVKcDQ5bUpEaDR2Tmo5eTJkdlJhSXMtZ0U2cnk0OWNLLU50YlBjbnZrei1FVm9CYWw5cUE?oc=5",
+   "ts": "2026-07-29T22:29:19+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "沙特寻求国际联盟保护红海航运免受胡塞袭击",
+   "brief": "沙特呼吁组建国际联盟保护红海航运，胡塞武装威胁持续。",
+   "chain": "红海航运风险→LNG运输成本上升→莫桑比克LNG出口需评估航线安全",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdE5TWUJUaEd4QndCVnFrY2hva1NPZUVIVmZROEcwYkhPWVR0Q3gxdzVIZjFDVFVTZWIyNGwxV1dPb1luWmpveTV0cHl4cmFQbXB5bWgzUHBhenR1UFhYZWVoSGdJVjluZEx5TmYyYllqOEQtLS1UZ3VMemtWSHlHOHlvQjlpams0bGVSRjMxQzBFRmdOUEJBUVROZlZZOU5Dd2JFdldTTnRpWUFYSm5hSWdVWmhETkVTTXhPMFc0OTNCVi1DdXhxTA?oc=5",
+   "ts": "2026-07-29T20:55:19+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "微软跳涨8%，资本开支计划超预期",
+   "brief": "微软因AI需求强劲上调资本开支计划，股价大涨8%，提振科技股信心。",
+   "chain": "微软加大AI投入→美股AI基础设施受益→A股算力链（光模块/服务器）映射",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html",
+   "ts": "Thu, 30 Jul 2026 03:09:11 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "三星二季度利润超预期，AI芯片需求飙升",
+   "brief": "三星电子二季度营业利润超预期，AI芯片需求持续增长推动业绩。",
+   "chain": "三星AI芯片需求强劲→全球半导体景气度提升→A股存储/算力链受益",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/07/30/samsung-q2-earnings-ai-chip-.html",
+   "ts": "2026-07-29T23:58:50+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "Meta股价下跌，指引不及预期且自由现金流萎缩",
+   "brief": "Meta发布 disappointing 指引，自由现金流减少，股价承压。",
+   "chain": "Meta指引疲软→科技股情绪分化→A股AI应用链短期承压",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/29/meta-q2-earnings-report-2026.html",
+   "ts": "Wed, 29 Jul 2026 23:42:17 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "高通因内存短缺涨价，发布疲软指引",
+   "brief": "高通在内存短缺环境下提高价格，但发布疲软盈利指引，芯片行业面临压力。",
+   "chain": "高通涨价+指引疲软→芯片股分化→A股存储/算力链短期波动",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/29/qualcomm-qcom-earnings-report-q3-2026-.html",
+   "ts": "Wed, 29 Jul 2026 21:19:52 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "扎克伯格阐述Meta AI容量困境：出售还是自用",
+   "brief": "扎克伯格讨论Meta在AI算力分配上的两难选择，凸显AI基础设施投资决策复杂性。",
+   "chain": "Meta AI算力分配困境→AI资本开支效率受关注→A股算力链需关注需求可持续性",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/29/zuckerberg-metas-ai-capacity-dilemma-what-to-sell-vs-what-to-keep.html",
+   "ts": "Thu, 30 Jul 2026 00:58:44 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "微软AI支出指引安抚空头，暂时缓解担忧",
+   "brief": "微软强劲的AI资本开支计划被视为积极信号，暂时平息市场对过度投资的担忧。",
+   "chain": "微软AI支出超预期→AI基础设施需求确认→A股光模块/服务器链受益",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/29/microsofts-ai-spending-guide-is-music-to-our-ears-quieting-the-bears-for-now.html",
+   "ts": "Thu, 30 Jul 2026 00:59:03 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "OpenAI CFO称7月年化收入超Q2总和",
+   "brief": "OpenAI首席财务官透露7月年化收入已超过第二季度总和，AI商业化加速。",
+   "chain": "OpenAI收入加速→AI产业景气度提升→A股AI应用/算力链情绪提振",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/29/openai-cfo-sarah-friar-tells-employees-arr-in-july-topped-all-of-q2.html",
+   "ts": "Wed, 29 Jul 2026 23:09:42 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "中际旭创香港上市首日下跌",
+   "brief": "中国AI供应商中际旭创在68亿美元IPO后香港首日上市股价下滑。",
+   "chain": "中际旭创港股破发→A股算力链情绪短期承压→关注后续资金流向",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/30/china-ai-supplier-zhongji-innolight-hong-kong-debut.html",
+   "ts": "Thu, 30 Jul 2026 02:15:40 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "奥特曼本周会见白宫官员，AI框架截止日临近",
+   "brief": "Sam Altman计划与白宫官员会面，讨论AI监管框架，政策走向受关注。",
+   "chain": "AI监管政策推进→行业合规成本上升→美股AI龙头影响→A股AI监管概念",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/29/altman-white-house-wiles-ai-framework.html",
+   "ts": "Wed, 29 Jul 2026 20:33:41 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "德国拟立法允许AI辅助审核移民申请",
+   "brief": "德国内阁提交法案，拟允许移民官员使用AI辅助处理签证和庇护申请，提升效率。",
+   "chain": "AI政务应用推进→全球AI治理趋势→A股AI+政务概念受益",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607303826338056.html",
+   "ts": "2026-07-30 10:45:42"
+  }
+ ]
+}
