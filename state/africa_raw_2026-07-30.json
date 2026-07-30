@@ -1,6 +1,6 @@
 {
  "asof": "2026-07-30",
- "fetched_at": "2026-07-30T11:23+08:00",
+ "fetched_at": "2026-07-30T12:44+08:00",
  "meta": {
   "counts": {
    "TechCabal": 0,
@@ -10,17 +10,17 @@
    "IT News Africa": 11,
    "TechAfrica News": 12,
    "Condia": 25,
-   "ITWeb Africa": 0,
+   "ITWeb Africa": 25,
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 3,
-   "非洲科技·聚合": 19,
+   "非洲科技·聚合": 18,
    "中非科技·聚合": 12
   },
   "total": 60,
-  "ai_flagged": 21,
-  "aiinfra_flagged": 1,
-  "countries": 8
+  "ai_flagged": 27,
+  "aiinfra_flagged": 3,
+  "countries": 7
  },
  "items": [
   {
@@ -124,6 +124,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "Smarter tech investment starts with trusted data",
+   "brief": "Executives from BCX, Telkom Business and Openserve hosted a channel event to champion trusted data as the foundation of an intelligent company.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/smarter-tech-investment-starts-with-trusted-data/WnpNgq21ZbPMVrGd",
+   "date": "Wed, 29 Jul 2026 15:05:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "AMCON Begins Telecom Divestment as NTEL Transformation Gains Momentum",
    "brief": "The Asset Management Corporation of Nigeria (AMCON)  has commenced the process of divesting its interests in the telecommunications sector, as it seeks to unlock the ......",
    "source": "TechAfrica News",
@@ -174,6 +184,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "Power eclipses fibre in AI data centre race",
+   "brief": "Artificial intelligence shifts hyperscale investment towards cities with abundant electricity, reshaping global data centre markets.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/power-eclipses-fibre-in-ai-data-centre-race/O2rQGMAERENMd1ea",
+   "date": "Wed, 29 Jul 2026 12:38:17 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": true
+  },
+  {
    "title": "Konecta Opens Egypt HQ and AI Center to Expand Digital Offshoring Services",
    "brief": "Konecta  has inaugurated its new regional headquarters in Egypt alongside a dedicated artificial intelligence (AI) Center, reinforcing the country’s role as a strategic hub for ......",
    "source": "TechAfrica News",
@@ -204,6 +224,56 @@
    "is_aiinfra": false
   },
   {
+   "title": "‘Agents find a way’ as AI attacks evolve",
+   "brief": "A second company is drawn into the rogue AI attack on Hugging Face, with Modal clarifying its cloud platform was used as a launchpad, not breached.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/agents-find-a-way-as-ai-attacks-evolve/o1Jr5MxPaPpMKdWL",
+   "date": "Wed, 29 Jul 2026 11:37:42 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "In2IT Technologies recognised as Huawei Network Partner of the Year",
+   "brief": "In2IT helps companies deploy next-generation network infrastructure that enhances connectivity, operational efficiency and long-term business resilience.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/in2it-technologies-recognised-as-huawei-network-partner-of-the-year/rxP3jMBE2EK7A2ye",
+   "date": "Wed, 29 Jul 2026 11:08:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "You don’t need to start from scratch: A practical path to 24x7 security operations",
+   "brief": "KHIPU Networks is hosting a private executive roundtable on the 'Journey to the SOC' in Cape Town on 3 September.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/you-dont-need-to-start-from-scratch-a-practical-path-to-24x7-security-operations/raYAyMorGrY7J38N",
+   "date": "Wed, 29 Jul 2026 11:06:02 +0200",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Quectel Launches High-Performance FCM665D Module for Edge AI Applications",
+   "brief": "Quectel Wireless Solutions, a global end-to-end IoT solutions provider, today announces the launch of the FCM665D, a high-performance Wi-Fi 6 and Bluetooth module with edge AI processing capabilities, designed for smart ",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/quectel-launches-high-performance-fcm665d-module-for-edge-ai-applications/Gb3Bw7WaPa4q2k6V",
+   "date": "Wed, 29 Jul 2026 11:00:00 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "SolarAfrica partners MPower for utility-scale solar project",
+   "brief": "The project enables renewable energy generated during the day to be stored and discharged during periods of higher demand.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/solarafrica-partners-mpower-for-utility-scale-solar-project/G98YdMLGNYj7X2PD",
+   "date": "Wed, 29 Jul 2026 10:55:31 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "Rentoza enters business rescue despite raising $7.3 million",
    "brief": "South Africa's Rentoza enters into a voluntary business rescue after about 12 months of struggle despite over $7 million in funding",
    "source": "Condia",
@@ -214,9 +284,39 @@
    "is_aiinfra": false
   },
   {
+   "title": "When the AI boom meets the real economy",
+   "brief": "The AI boom depends on costly infrastructure. If future profits fail to justify today's spending, the costs may extend far beyond Silicon Valley.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/when-the-ai-boom-meets-the-real-economy/dgp45qaBl6KvX9l8",
+   "date": "Wed, 29 Jul 2026 09:22:14 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "T964 Named as Uptime Institute Business Partner to Power Iraq’s Digital Infrastructure",
+   "brief": "Uptime Institute and Tech964 Holding Limited (T964), Iraq’s leading digital infrastructure company, today announced a landmark strategic partnership to accelerate Iraq’s digital transformation.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/t964-named-as-uptime-institute-business-partner-to-power-iraqs-digital-infrastructure/KBpdgvpmBz87LEew",
+   "date": "Wed, 29 Jul 2026 09:02:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "X-CTEM needed to slash risk and boost resilience",
+   "brief": "Companies need proactive and extended continuous threat exposure management to reduce cyber risk and cut the noise in security environments, says CyberCyte.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/x-ctem-needed-to-slash-risk-and-boost-resilience/LPp6VMrBNDxMDKQz",
+   "date": "Wed, 29 Jul 2026 08:08:06 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "The Digital Pivot: How South Africa is Positioning Itself as Africa’s AI Hub",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxON1JPSm1CNlJLQ3VFTC1HSDRmU0hmSHlaQlpmSlhpODBneDhGazRDcTRhUkk0NHpZZGd6dWtNclpUaXZlbEtuOEZFMXpFbjRYbWFBRVJLTWJpQVZ3MUtIRmJMckw1SHA2TFJFZm1DVHZDSWFaZHhwV3VBM2hBVE",
-   "source": "vifindia.org·聚合",
+   "source": "Vivekananda International Foundation (VIF)·聚合",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxON1JPSm1CNlJLQ3VFTC1HSDRmU0hmSHlaQlpmSlhpODBneDhGazRDcTRhUkk0NHpZZGd6dWtNclpUaXZlbEtuOEZFMXpFbjRYbWFBRVJLTWJpQVZ3MUtIRmJMckw1SHA2TFJFZm1DVHZDSWFaZHhwV3VBM2hBVEdlMUoxRXdyR1JqWU5kS2o4anl2NWpMOUtmSUxkTVBGU2dPdkN6Q1ByLWpLN01NVTV4VmZGdm44TmYtaVpXMkhR?oc=5",
    "date": "Wed, 29 Jul 2026 05:01:03 GMT",
    "country": "🇿🇦 南非",
@@ -246,7 +346,7 @@
   {
    "title": "Africa’s First Moonshot: Technology Demonstrator for Radio Astronomy",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNWDFwRmFNVzhoSnNwX25CZ3dFbWVGTkdoZm84TnUwcFFwc05mTjV4V2sxV296RGtocGQyS1dteWxnUFpYdjEwVjBxSE9NYkhDV3VyTGFPbWFJV3FpLVIta0ptOGdQLUtVVGdWNnFwMkJuazFKNTJHbkZ4UHJ6bG",
-   "source": "Inside Outer Space·聚合",
+   "source": "leonarddavid.com·聚合",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWDFwRmFNVzhoSnNwX25CZ3dFbWVGTkdoZm84TnUwcFFwc05mTjV4V2sxV296RGtocGQyS1dteWxnUFpYdjEwVjBxSE9NYkhDV3VyTGFPbWFJV3FpLVIta0ptOGdQLUtVVGdWNnFwMkJuazFKNTJHbkZ4UHJ6bGpZU0VJSFJyUTdLdXQ4TGhTcGFDamNmQlphVzNDTDA?oc=5",
    "date": "Tue, 28 Jul 2026 16:52:15 GMT",
    "country": null,
@@ -294,6 +394,36 @@
    "is_aiinfra": false
   },
   {
+   "title": "Uptime Institute 16th Annual 2026 Global Data Center Survey: Deployment of High Density Racks Rising Fast, Operators Face Continued Recruiting and Retention Pressures",
+   "brief": "Uptime Institute today released the findings of its 16th Annual Global Data Center Survey, the most comprehensive study of the digital infrastructure sector. The 2026 results reveal an industry navigating workforce const",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/uptime-institute-16th-annual-2026-global-data-center-survey-deployment-of-high-density-racks-rising-fast-operators-face-continued-recruiting-and-retention-pressures/xA9PO7NE6ZLvo4J8",
+   "date": "Tue, 28 Jul 2026 15:02:00 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": true
+  },
+  {
+   "title": "AUTOBACS SEVEN Marks 10 Years of System Stability and Self-Funded Innovation with Rimini Street",
+   "brief": "Rimini Street, Inc. (Nasdaq: RMNI), the Software Support and Agentic AI ERP Company™ and the leading third-party support provider for Oracle, SAP and VMware software, today announced that AUTOBACS SEVEN Co., Ltd. celebra",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/autobacs-seven-marks-10-years-of-system-stability-and-self-funded-innovation-with-rimini-street/JN1gP7OAwYzqjL6m",
+   "date": "Tue, 28 Jul 2026 15:00:00 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Tecnotree Recognized in Two Gartner® Hype Cycle™ Reports for CSP Algorithmic Pricing",
+   "brief": "Tecnotree, a global digital platform and services leader for AI, 5G, and cloud-native technologies, today announced that it has been recognized in the CSP Algorithmic Pricing use case in the Gartner Hype Cycle for Emergi",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/tecnotree-recognized-in-two-gartner-hype-cycle-reports-for-csp-algorithmic-pricing/P3gQ2qGAzx27nRD1",
+   "date": "Tue, 28 Jul 2026 14:46:00 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
    "title": "US Army Europe and Africa advances AI cyber defence dialogue",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE1IMGk5WW42UlUtcGdQdUo1UnNSZjZSMHZQVm9uSzVoci1yanc4bEpmbmh1bU0yMFpobXJJbjJFZDd6XzVfbTJtVW1lcXAwOGt0OFBTMWxaWl96WkpYZ2xaWEJsMGhQODRpTjlfWHA0cXQ2M0dfd3JyQ0RB?oc=5\"",
    "source": "Digital Watch Observatory·聚合",
@@ -324,9 +454,29 @@
    "is_aiinfra": false
   },
   {
+   "title": "The Please Call Me millions: The Bermuda Triangle",
+   "brief": "From London funders, to Bermuda shell entities and a struck-off Singapore company – ITWeb unpacks the offshore web behind Black Rock's claim.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/the-please-call-me-millions-the-bermuda-triangle/Gb3BwMWaPlPv2k6V",
+   "date": "Tue, 28 Jul 2026 10:48:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Resolve the work-ready versus role-ready tension",
+   "brief": "Stop separating training from the workplace. Scarce IT skills should be built within the environments that need them.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/resolve-the-work-ready-versus-role-ready-tension/LPwQ5MlbeDkvNgkj",
+   "date": "Tue, 28 Jul 2026 09:30:26 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "(BPRW) Google Cloud Summit in Africa Highlights the Continent’s Digital Transformation and Unveils New Agentic AI and Infrastructure Investments",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMikwJBVV95cUxQaV9MUkU5c2cxQ3d3dExiajVWZ1VZLWo2cU9lTEg1T3Bnc01LOVBMUzlpa04tZ2xtWWY5TXAzZVZ1OVRqbUZac3BXaDlybXctSVlTaDR6dUF2bVFfRTJBem5JdHlyS2R3VmVIRXpySmpRd1RPYzJtZWVrM1VHeD",
-   "source": "Black PR Wire·聚合",
+   "source": "blackprwire.com·聚合",
    "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQaV9MUkU5c2cxQ3d3dExiajVWZ1VZLWo2cU9lTEg1T3Bnc01LOVBMUzlpa04tZ2xtWWY5TXAzZVZ1OVRqbUZac3BXaDlybXctSVlTaDR6dUF2bVFfRTJBem5JdHlyS2R3VmVIRXpySmpRd1RPYzJtZWVrM1VHeDE1anN5dVRSM2M4cU9lOWxMbjdaWGcydXRGNkVpLXg1aVJaRVpmb1ZYbFNZR2o4RUtkM1h0bzBaRjV3LW1xZWhJRDZjc0NkZVpBa1VMX0UtNHQta1d1MkJFU3FtcWU0RnlITzZtWk1sX291aFJxQ1JGVGhjb2RhclNFTG4xTEZQcVA0bUVOYVlocEQ5a04xZGJKWjFfcw?oc=5",
    "date": "Tue, 28 Jul 2026 07:01:23 GMT",
    "country": null,
@@ -371,6 +521,16 @@
    "date": "Mon, 27 Jul 2026 14:43:56 GMT",
    "country": "🇿🇦 南非",
    "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "InterSystems Launches Data Studio AI Assistant to Accelerate Enterprise Data Exploration and Insights",
+   "brief": "InterSystems, a creative data technology provider powering some of the world's most important applications, today announced the general availability of InterSystems Data Studio™ AI Assistant, a new generative AI-powered ",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/intersystems-launches-data-studio-ai-assistant-to-accelerate-enterprise-data-exploration-and-insights/mYZRXv9gVmGMOgA8",
+   "date": "Mon, 27 Jul 2026 16:00:00 +0200",
+   "country": null,
+   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -460,166 +620,6 @@
    "url": "https://www.itnewsafrica.com/2026/07/telkom-enhances-digital-mobile-contract-sign-up-with-end-to-end-online-journey/",
    "date": "Mon, 27 Jul 2026 11:35:57 +0000",
    "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Africa’s Leading Fintech – Moniepoint – Named One of the World’s Top Fintech Companies by CNBC for the Second Consecutive Year",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQa29NVjRBOG1idEpIdHl1RjdYYWlIMnp2dWJlXzhtNkFHMzM5aE4zMHdieW9HeVdmTHhzMnZ1NFlvaHFjWmlkUzBVQ242V0RQNTlfMU1ZSWk3NlhaSU5tV2tOLU1sN1pkRy0yU3BHYUlEc0FSandZNnRSVmd2RX",
-   "source": "Financial IT·聚合",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQa29NVjRBOG1idEpIdHl1RjdYYWlIMnp2dWJlXzhtNkFHMzM5aE4zMHdieW9HeVdmTHhzMnZ1NFlvaHFjWmlkUzBVQ242V0RQNTlfMU1ZSWk3NlhaSU5tV2tOLU1sN1pkRy0yU3BHYUlEc0FSandZNnRSVmd2RXZPWkRYVjdWVTdrMnZCNi1zdDBibzVZVkZZMXV6b2NJTGtTZGVqZUJlUlU3ZGFSZ2c5QV9DZkZLNXBUR20xY0hEOA?oc=5",
-   "date": "Mon, 27 Jul 2026 11:20:38 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Unprecedented AI cyber incident: OpenAI Models autonomously breach Hugging Face",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNY0JTdUlfRXBrNERLNGVnX3pxZHpyemQyVlZlVGYzSDRVZGQ0MmVaUHhtdWV3VmxyYlV2TTJnZGFVYVYwekNBdHZCNHNYZ0dtZUpROGhwaEZzSWdGMVFXMUhWTjUwR0Yxd1h4Q29Va2hSWVNkTWJUT1BqcnNENF",
-   "source": "CNBC Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNY0JTdUlfRXBrNERLNGVnX3pxZHpyemQyVlZlVGYzSDRVZGQ0MmVaUHhtdWV3VmxyYlV2TTJnZGFVYVYwekNBdHZCNHNYZ0dtZUpROGhwaEZzSWdGMVFXMUhWTjUwR0Yxd1h4Q29Va2hSWVNkTWJUT1BqcnNENFR1MDRHM2IxU3ZvNmxJNEtvaEF4WnJxLXhlUnRyQm1MUGFraGVQemhjc1FYX3l0eXlOaWhEdzlRZkplcXA0dTItUHVjN3M?oc=5",
-   "date": "Mon, 27 Jul 2026 10:59:29 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Zedcrest completes full acquisition of Leatherback",
-   "brief": "Zedcrest has acquired Leatherback, cementing years of partnership. Its existing leadership team will remain.",
-   "source": "Condia",
-   "url": "https://thecondia.com/zedcrest-acquires-leatherback/",
-   "date": "Mon, 27 Jul 2026 09:00:00 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Huawei | Founding, Expansion, Innovations, & Controversy | Britannica Money",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE9aemtGNERCNVlHejdjbzR5VEdoazgyQWFTbF9sclFkbC1VaHJqVVJYZWJ5QkRJQkFVZHh3U2xJdGRyZkEzOUVrTEFYaGtyNUxo?oc=5\" target=\"_blank\">Huawei | Founding, Expansion, Innovatio",
-   "source": "Encyclopedia Britannica·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9aemtGNERCNVlHejdjbzR5VEdoazgyQWFTbF9sclFkbC1VaHJqVVJYZWJ5QkRJQkFVZHh3U2xJdGRyZkEzOUVrTEFYaGtyNUxo?oc=5",
-   "date": "Mon, 27 Jul 2026 07:00:00 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Nearly half of Africa's smartphones found sending hidden user data to China-linked servers, report says",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcjBhNDBSNVVwaXBZdGFpeFh5NVRFVzM5dzdScV9neE5VQUc0dkN4QTVhYlZpempOdXEzelRLSXVGcDJrdUJqTmlMbmxPaXc3Y1JQTE9JeFFYczEzRHA1c1g0ckpoVVBaQUtXZWlBd1QweEVnbEZ4N2VKcHVRdD",
-   "source": "Business News Nigeria·聚合",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcjBhNDBSNVVwaXBZdGFpeFh5NVRFVzM5dzdScV9neE5VQUc0dkN4QTVhYlZpempOdXEzelRLSXVGcDJrdUJqTmlMbmxPaXc3Y1JQTE9JeFFYczEzRHA1c1g0ckpoVVBaQUtXZWlBd1QweEVnbEZ4N2VKcHVRdDh0UkVWQTFoMlA3bnFlVHJxNU83bGRGNXJEb3pPZ1hLajBiMml2SkVjRzFTZnBSZnVzaGp3cDc4Q3R2MlJvOHZLWWh0ZlE0VFBTU0hXcHJUV01rdWhkRTRjeXc2VEh3?oc=5",
-   "date": "Fri, 24 Jul 2026 13:01:14 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "EU telcos ask: Huawei going to afford to replace Chinese equipment?",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPcV9rY0tkRW9BTEk2YnZ1Z3FodjlVRVJrNW5iNGZVdWZSQjNBTk1jTU0zX09nSWNZRjI2aFhrdi1jLVZhRHo4eHViNkp3cTB1QnowSC1kZGctLVpMOXJUb08xdjRVRWdtZ2x6czkzeU9KRUdhOFg5Q3VpSVp5QU",
-   "source": "The Register·聚合",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcV9rY0tkRW9BTEk2YnZ1Z3FodjlVRVJrNW5iNGZVdWZSQjNBTk1jTU0zX09nSWNZRjI2aFhrdi1jLVZhRHo4eHViNkp3cTB1QnowSC1kZGctLVpMOXJUb08xdjRVRWdtZ2x6czkzeU9KRUdhOFg5Q3VpSVp5QUFtSTZKU1JySG5uU0tWdTA3NlF5OGo4Y3RxTjB3YzNWdWtzSnVfVFZfVXFoS2Iya0pDc2kyTkZqN1g3Ym1sajhR?oc=5",
-   "date": "Fri, 24 Jul 2026 10:45:00 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Tinubu signs executive order as Nigeria opens up to cryptocurrency",
-   "brief": "",
-   "source": "African Business",
-   "url": "https://african.business/2026/07/quick-reads/tinubu-signs-executive-order-as-nigeria-opens-up-to-cryptocurrency",
-   "date": "Fri, 24 Jul 2026 09:51:47 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Africa's 5th largest telecom just turned a mobile money boom into half a billion dollars in profit",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUlphZ0ZsMFNncW1qZ1hKbzZfX3hQWGxkRmk5bG1uUjU3T0tTMmJZa1hlc2ZsRFJqcXVhT3VNTENPampFSlItSGNiNTFSVGUzNk93M2IxekdlTlJmV1hISWhiZWh5bzR4OUpJVlVWLUItWmZnSnJXMzQzX3lDam",
-   "source": "Business Insider Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUlphZ0ZsMFNncW1qZ1hKbzZfX3hQWGxkRmk5bG1uUjU3T0tTMmJZa1hlc2ZsRFJqcXVhT3VNTENPampFSlItSGNiNTFSVGUzNk93M2IxekdlTlJmV1hISWhiZWh5bzR4OUpJVlVWLUItWmZnSnJXMzQzX3lDamJDcFFDY3dZWTRReFpZRjVjb3A4QmZ1ZVhzUTFiUV90bjAzVGxCY1BWYlhjODJhTWIxamwzTVVLRnhHR2NrUzVzWktFdjJXaENyYmVRYnZOM2gxVWc?oc=5",
-   "date": "Fri, 24 Jul 2026 08:30:17 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Ten insights into how technology is changing decision‑making in the mining industry",
-   "brief": "South Africa’s mining industry is operating at a critical moment. As mines operate at greater depths, ageing infrastructure, skills shortages and growing pressure to improve safety, sustainability and productivity are fo",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/07/ten-insights-into-how-technology-is-changing-decision-making-in-the-mining-industry/",
-   "date": "Thu, 23 Jul 2026 21:34:36 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Best Pokémon GO Spoofers for iPhone in 2026: 4 Safe Methods Compared",
-   "brief": "Pokémon GO remains one of the world’s most popular location-based mobile games, encouraging players to explore their surroundings to catch Pokémon, participate in raids, and complete special events. However, not everyone",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/07/best-pokemon-go-spoofers-for-iphone-in-2026-4-safe-methods-compared/",
-   "date": "Thu, 23 Jul 2026 21:09:44 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Ethio Telecom Profit Jumps as Data Revenue Overtakes Voice, Marking Historic Digital Shift",
-   "brief": "Ethiopia’s national telecommunications operator Ethio telecom reported a sharp increase in annual earnings on Thursday as mobile data and internet services overtook traditional voice calls as its largest source of revenu",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/07/ethio-telecom-profit-jumps-as-data-revenue-overtakes-voice-marking-historic-digital-shift/",
-   "date": "Thu, 23 Jul 2026 21:02:09 +0000",
-   "country": "🇪🇹 埃塞俄比亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Forgot Apple ID Password? How to Remove Activation Lock on iPhone",
-   "brief": "Activation Lock is one of Apple’s most effective anti-theft features, but it can also become a headache if you’ve forgotten your Apple ID password. Once your iPhone displays the “iPhone Locked to Owner” or Activation Loc",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/07/forgot-apple-id-password-how-to-remove-activation-lock-on-iphone/",
-   "date": "Thu, 23 Jul 2026 18:50:10 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Airtel Africa Q1 revenue hits $1.85 billion; Airtel Money targets London listing",
-   "brief": "Airtel Africa grew Q1 revenue 31% to $1.85 billion, driven by data and mobile money growth, while confirming London for Airtel Money's IPO.",
-   "source": "Condia",
-   "url": "https://thecondia.com/airtel-africa-q1-2026-report/",
-   "date": "Thu, 23 Jul 2026 12:25:33 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Airtel Africa picks London for fintech IPO as mobile money business enters next growth phase",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSFhZS0s3UUtaNlpoR1ZRWDljckFjbHVnTGZoYjdjQnhCeFdIWmY0VU43SGY5LUlaVXFYYVdZZjN5OEdreWoxN09kckp1NFNjYlVDbFJ3V1pOVHIwWEU5c3FhMFBNYVZyLTY2M1BWZXZNMDFmeVVfcVVwRXFYU3",
-   "source": "Business Insider Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSFhZS0s3UUtaNlpoR1ZRWDljckFjbHVnTGZoYjdjQnhCeFdIWmY0VU43SGY5LUlaVXFYYVdZZjN5OEdreWoxN09kckp1NFNjYlVDbFJ3V1pOVHIwWEU5c3FhMFBNYVZyLTY2M1BWZXZNMDFmeVVfcVVwRXFYU3NFSXFWclRfZDFBZTRIOTlVTWtIX0o2VHVfVDhmVXowaEY5UlNobXI5SmNZVUJNbTEyUXhDQW9PYVN6SW1PRzJFVkg1V2F4ZGFVM05hMkNNdlNNYmc?oc=5",
-   "date": "Thu, 23 Jul 2026 12:01:52 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "EU push to remove Huawei, ZTE gear will cost 3 times official estimate: report",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxQMlZWOWY2NmgtbXNsYnRjUi11MkJCLXJNMzVOaS1HQnJvMS1nSkowZjg4OXRoT2JxeE5jLWJmQWdRMExOWFBpWnJ3NVdXckZCZElrZFdwMnl6WXdVcXFQWTdXOG8wbkViaTRCUDAwNWVhSDkwWGNlcTh2Vk9XWE",
-   "source": "South China Morning Post·聚合",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMlZWOWY2NmgtbXNsYnRjUi11MkJCLXJNMzVOaS1HQnJvMS1nSkowZjg4OXRoT2JxeE5jLWJmQWdRMExOWFBpWnJ3NVdXckZCZElrZFdwMnl6WXdVcXFQWTdXOG8wbkViaTRCUDAwNWVhSDkwWGNlcTh2Vk9XWEp3VlYwZUVLeEZ4UHNuZzdXV1NqbHBLcnRGSnpGc2V2d0o2cVVEbjdVUW9jcmZSelQ0RXFDcXRWV3VSNTJQazBER0QzLXV5TFNreFFIcWPSAcwBQVVfeXFMTmlPcnZDZ214TWFMRU9HeGxHNVdxc0VwN2ZXQzVUZlVCWlJRd1R0R2F3bl9Dby1OUndncDI2V3hHc2phQWlhTFVUaVpDSUdyQ1VOZHVSQUpDaGVJZUlUcnRveVhYMF9XckMxMldkRGxOVlFSdi1ZY1JlMndhUWxPSWk3RGg1UFFZQnFjQzBIN0ZoMjJNQm5GWUxPaV9uRFQydHM1THgyTTZRejNJMlBEWHZhZGk3TXZGSVhyRFN3bVBwZmljaE5wX01pSDk4?oc=5",
-   "date": "Thu, 23 Jul 2026 11:00:07 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "CREDICORP launches laptop credit scheme for 1,000 Nigerians",
-   "brief": "CREDICORP has launched a scheme to provide 1,000 Nigerians with locally assembled laptops to boost digital skills and expand access to credit.",
-   "source": "Condia",
-   "url": "https://thecondia.com/credicorp-laptop-credit-scheme-nigerians/",
-   "date": "Thu, 23 Jul 2026 09:19:34 +0000",
-   "country": "🇳🇬 尼日利亚",
    "is_ai": false,
    "is_aiinfra": false
   }
