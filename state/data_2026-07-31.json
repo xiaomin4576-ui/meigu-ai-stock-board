@@ -105,12 +105,6 @@
       "vol": 48.2,
       "earnings_date": "2026-10-14",
       "news": [],
-      "quality": {
-        "roe": 39.9,
-        "ocf_ps": null,
-        "gross_margin": 64.5,
-        "period": "TTM·Finnhub"
-      },
       "analyst": {
         "target_mean": null,
         "target_low": null,
@@ -118,15 +112,10 @@
         "rating": null,
         "rating_mean": 1.74,
         "n_analysts": 43,
-        "fwd_pe": 21.4,
+        "fwd_pe": null,
         "ttm_pe": null,
         "cn_rating": "买入",
         "rec_buy_ratio": 0.95,
-        "eps_growth": 55.2,
-        "ev_ebitda": 20.2,
-        "fcf_yield": 1.99,
-        "market_cap": 57051212,
-        "forward_peg": 0.64,
         "consensus_src": "Finnhub"
       }
     },
@@ -287,7 +276,7 @@
         "rating": null,
         "rating_mean": 1.71,
         "n_analysts": 28,
-        "fwd_pe": 42.0,
+        "fwd_pe": 29.6,
         "ttm_pe": null,
         "cn_rating": "买入",
         "rec_buy_ratio": 0.93,
@@ -295,7 +284,7 @@
         "ev_ebitda": 75.7,
         "fcf_yield": 1.09,
         "market_cap": 37497,
-        "forward_peg": 0.39,
+        "forward_peg": 0.27,
         "consensus_src": "Finnhub"
       }
     },
@@ -787,6 +776,12 @@
       },
       "news": [
         {
+          "title": "603986，拟10亿元至20亿元回购，全部注销！",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202607313828524364.html",
+          "date": "2026-07-31"
+        },
+        {
           "title": "兆易创新603986龙虎榜数据07-29",
           "pub": "东方财富Choice数据",
           "url": "http://finance.eastmoney.com/a/202607293825141287.html",
@@ -796,12 +791,6 @@
           "title": "603986 ，董事长提议不超20亿元回购、注销！又一批A股公司，集体公告",
           "pub": "证券时报网",
           "url": "http://finance.eastmoney.com/a/202607293825355625.html",
-          "date": "2026-07-29"
-        },
-        {
-          "title": "多只千亿市值龙头跌停！603986，连续两日跌停，从“芯片神话”到“跌停噩梦”",
-          "pub": "华夏时报",
-          "url": "http://finance.eastmoney.com/a/202607293824902610.html",
           "date": "2026-07-29"
         }
       ],
