@@ -1,80 +1,63 @@
 {
  "asof": "2026-07-31",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-07-31T21:11+08:00",
+ "generated_at": "2026-07-31T23:44+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 0,
-  "cluster_label": "",
-  "cluster_dropped": [],
+  "cluster_label": "伊朗/巴林/霍尔木兹",
+  "cluster_dropped": [
+   "英国央行按兵不动 等待伊朗战争通胀影响",
+   "伊朗袭击科威特巴林美军资产"
+  ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "美联储官员支持加息抗通胀",
-   "brief": "多位美联储官员表示需立即加息以应对通胀压力。",
-   "chain": "加息预期升温→美股估值承压→A股高估值科技股或受情绪影响。",
+   "title": "美联储官员称需立即加息抗通胀",
+   "brief": "美联储投票支持加息的官员表示，当前需立即采取行动应对通胀。",
+   "chain": "加息预期升温→美股估值承压→A股算力链短期回调风险",
    "impact": 9,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/31/fed-officials-who-voted-to-hike-rates-say-action-is-needed-now-against-inflation.html",
-   "ts": "Fri, 31 Jul 2026 12:40:00 GMT"
+   "ts": "Fri, 31 Jul 2026 14:35:52 GMT"
   },
   {
    "cat": "macro",
-   "title": "美国Q2劳工成本指数超预期",
-   "brief": "美国第二季度劳工成本指数季率0.9%，高于预期0.8%，显示薪资压力。",
-   "chain": "薪资通胀顽固→美联储或维持紧缩→美股成长股承压→A股算力链情绪受抑。",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607313828567719.html",
-   "ts": "2026-07-31 20:30:31"
-  },
-  {
-   "cat": "macro",
-   "title": "白宫顾问称美债收益率攀升暂时",
-   "brief": "哈塞特认为10年期美债收益率上升是暂时的，AI生产力将助降通胀。",
-   "chain": "官方安抚债市→美债收益率或回落→利好美股科技股→A股AI链情绪修复。",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607313828567940.html",
-   "ts": "2026-07-31 20:27:08"
-  },
-  {
-   "cat": "macro",
-   "title": "现货黄金日内下跌1.3%",
-   "brief": "现货黄金跌至4050美元，日内下跌1.3%。",
-   "chain": "避险情绪降温+实际利率上行→金价下跌→美股AI高久期票估值压力缓解→A股算力链情绪或改善。",
+   "title": "美国消费者信心升至五个月高位",
+   "brief": "美国7月消费者信心指数终值升至五个月高点，因前景改善且汽油价格低于战争高点。",
+   "chain": "消费信心强→经济韧性→美联储政策空间→美股科技股支撑",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607313828564989.html",
-   "ts": "2026-07-31 20:24:47"
+   "url": "https://finance.eastmoney.com/a/202607313828691164.html",
+   "ts": "2026-07-31 22:29:14"
+  },
+  {
+   "cat": "macro",
+   "title": "进口拖累美国Q2增长 但内需强劲",
+   "brief": "美国二季度GDP受进口拖累，但国内需求依然稳健。",
+   "chain": "内需强→经济软着陆→美股盈利预期→A股出口链影响",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObWh4Um5od3luS0pRM0hOYTNwN0Z4bElZWFBXVDRRdFFVT2FpejU4ZkQ3MTVuY3hYb1NpMVd4QXV4WFhFMFUwbTRCbGs2cGlPOW11LWUxdzFyRnU0a0cwZU02b0s5b012M0p3Y2prV25KT0RQd3BGZk52aWNlanFDSDh5UTRRUVYtc2lsSm1RWjM4MjlzMXFCcEVrVjNvYVNzN3pNTm1zU2ZpV1U?oc=5",
+   "ts": "2026-07-30T18:36:01+00:00"
   },
   {
    "cat": "geo",
-   "title": "伊朗瞄准科威特巴林美军资产",
-   "brief": "埃及无人机袭击后，伊朗针对美国在科威特和巴林的战略资产。",
-   "chain": "中东冲突升级→美股军工、能源股波动→A股军工、油气链或受情绪带动。",
-   "impact": 9,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/31/us-iran-war-trump-hormuz.html",
-   "ts": "Fri, 31 Jul 2026 10:32:14 GMT"
-  },
-  {
-   "cat": "geo",
-   "title": "特朗普召集内阁会议应对伊朗局势",
+   "title": "特朗普召集内阁会议 伊朗战争持续",
    "brief": "特朗普在戴维营召集内阁会议，讨论持续发酵的伊朗战争。",
-   "chain": "美国高层决策→地缘风险溢价变化→美股能源、军工板块波动→A股相关映射。",
-   "impact": 8,
+   "chain": "地缘紧张升级→避险情绪→美股波动→A股军工/黄金链",
+   "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZks0akNQUmpqVGdGaE5rakdfRldLS25IaTFzeVF2VzVmVGc5TkF4VTI2NjI1UlVVdXlveTFxRXFMRWlGTEN4STFsYUdySDQzNE9pSGF6SzJ5bk83M3RsWGc3a3N1Q21oQlQtMGZ4QnFjSHd1dlhlbkNsZ3dvVmFhOFpwVVpNaUx0TmxTTEp2bGZzRExacFhmaEdBS3VjQ0l3cGpPWQ?oc=5",
    "ts": "2026-07-31T10:24:23+00:00"
   },
   {
    "cat": "geo",
-   "title": "胡塞武装从伊拉克袭击沙特",
+   "title": "也门胡塞从伊拉克袭击沙特",
    "brief": "独家：也门胡塞武装从伊拉克对沙特发动袭击。",
-   "chain": "红海及中东局势恶化→油价风险溢价上升→A股油气链或受提振。",
+   "chain": "红海危机蔓延→航运中断→油价上涨→A股航运/石油链",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOG5nRVpXaFJmYzZnNk1aMDMwdmc4NDdTalNOTWtaWHhzZGFXWE5JanRRM192OC1qZUs4Q0JHUktVR2VEb1lvdWh4ZjFEd0xQWW1aZkczRFY4VmxQTVV1anlGQ2RsSjFPTjB0aW53NGloTU9Na0hhM1V2ZnpTRFAwOTEtQUpIZ085VHZyS05XN241U3EyZmFqa3hGNzZsU0ZjN1Y2cTRaakE0bWU5VmV6ZTVR?oc=5",
@@ -82,19 +65,19 @@
   },
   {
    "cat": "oil",
-   "title": "埃克森美孚雪佛龙利润大增",
-   "brief": "受伊朗战争推高油价影响，埃克森和雪佛龙利润大幅增长。",
-   "chain": "油价高位→石油巨头盈利强劲→全球油气投资信心增强→莫桑比克LNG项目或受益。",
-   "impact": 8,
+   "title": "伊朗袭击霍尔木兹油轮 油价上涨",
+   "brief": "伊朗声称袭击两艘油轮后，油价上涨。",
+   "chain": "霍尔木兹风险→油价上涨→莫桑比克LNG出口受益",
+   "impact": 9,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/31/exxon-xom-chevron-cvx-q2-earnings.html",
-   "ts": "Fri, 31 Jul 2026 12:49:14 GMT"
+   "url": "https://www.cnbc.com/2026/07/31/oil-prices-today-brent-wti-hormuz-trump-iran-.html",
+   "ts": "Fri, 31 Jul 2026 14:02:22 GMT"
   },
   {
    "cat": "oil",
-   "title": "油价上涨超1%月线收涨",
-   "brief": "油价上涨超1%，交易商评估航运流量，月线有望收涨。",
-   "chain": "地缘风险+供应担忧→油价上行→莫桑比克油气出口收入预期改善。",
+   "title": "油价涨超1% 评估航运流量",
+   "brief": "油价上涨超1%，交易商评估航运流量，月线涨幅在望。",
+   "chain": "供应担忧→油价走高→莫桑比克油气项目经济性提升",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTWtnbUQ2S2JIalNxeXVETFdYcU95VDBtOHpPdlAxWDkzd1B0VVBPNnNpMW8xTGVRbkJ1NTFqbmJ0Ui1ucUUtSVhZeXZwRTQ4eE5FTWRkdzBlZEVJUzZHR0tKdnZTeXFoQlFPSHpGX0pqaEVVU3RhWFJqR2xNZnVJeDdOaG9ONUEtaThtRXhXakladzRkT2JvR1hxSEREVmxkRGRjQWw5ZTNoeTQ?oc=5",
@@ -102,19 +85,19 @@
   },
   {
    "cat": "oil",
-   "title": "霍尔木兹海峡交通恢复油价走高",
-   "brief": "霍尔木兹海峡交通恢复，但油价仍走高，因战争溢价持续。",
-   "chain": "海峡通行恢复→供应中断担忧缓解→油价短期或回落→莫桑比克LNG运输成本或下降。",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/31/oil-prices-today-brent-wti-hormuz-trump-iran-.html",
-   "ts": "Fri, 31 Jul 2026 11:33:43 GMT"
+   "title": "雪佛龙CEO：CPC管道运行正常",
+   "brief": "雪佛龙CEO表示CPC管道正在运行，本周船只仍在装载。",
+   "chain": "供应稳定→油价承压→莫桑比克LNG竞争环境",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607313828739020.html",
+   "ts": "2026-07-31 23:19:44"
   },
   {
    "cat": "gas",
    "title": "埃及确认无人机致两艘天然气船起火",
-   "brief": "埃及确认无人机导致达米埃塔两艘天然气船起火。",
-   "chain": "埃及天然气设施遇袭→全球LNG供应担忧→莫桑比克LNG出口或面临竞争格局变化。",
+   "brief": "埃及确认无人机在达米埃塔港引发两艘天然气船火灾。",
+   "chain": "埃及LNG供应中断→全球气价波动→莫桑比克LNG出口机会",
    "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPM3F5LWg3Mm9rYmlhejJpdzJqQW9SWnU1WHJRVm9iZ1p0TUpmRTR6Mk1JYXVUekU2c1VlTHI5bV9DbzIyejlvYU13Y2cxYU12WExOYzJoVmxsVzVoc2hiWkQ2ZWFUZ0EwZHBZZlZ1UnREZjZGc243TlQtMXVKcDQ5bUpEaDR2Tmo5eTJkdlJhSXMtZ0U2cnk0OWNLLU50YlBjbnZrei1FVm9CYWw5cUE?oc=5",
@@ -122,9 +105,9 @@
   },
   {
    "cat": "gas",
-   "title": "埃及无人机袭击引发苏伊士石油出口担忧",
-   "brief": "埃及无人机袭击引发对苏伊士石油出口安全的担忧。",
-   "chain": "苏伊士运河风险→能源运输成本上升→莫桑比克LNG出口欧洲或受影响。",
+   "title": "无人机袭击引发苏伊士石油出口安全担忧",
+   "brief": "埃及无人机袭击引发对苏伊士运河石油出口安全的担忧。",
+   "chain": "苏伊士风险→LNG运输成本上升→莫桑比克LNG竞争力变化",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY19zWlhiQmx4WmRhRHRLMUdTbjhwdEdVcHpaUmMtWndRMlB1MFNiZ2pJMzJZcFJQWEJSTzdfSGl6R0FXV016c2JUODlSV0Y3ZzBEbWRFeUVkRDQxQ2p5S0VPRWoyc0lZS3pobjVGR0l5YTV1V1FEbmE2N1BscGlFZWlLTjl6Qmp4TDJmalFTX1ZYVUJEYkV2NjBCWVhuNmRsdC1UZzBCVm1GQ2djejdiWUo1UnBfT1UzNmc?oc=5",
@@ -132,63 +115,73 @@
   },
   {
    "cat": "tech",
-   "title": "苹果跌7%亚马逊涨12%",
-   "brief": "财报后苹果大跌7%，亚马逊大涨12%，投资者挑选AI赢家。",
-   "chain": "科技分化→美股AI硬件承压、云服务受捧→A股苹果链或受拖累，算力链或受益。",
-   "impact": 9,
+   "title": "亚马逊大涨苹果大跌 AI赢家分化",
+   "brief": "亚马逊财报后大涨14%，苹果跌9%，投资者挑选AI赢家。",
+   "chain": "科技分化→美股AI链波动→A股算力链情绪传导",
+   "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/31/apple-aapl-amazon-amzn-stock-today.html",
-   "ts": "Fri, 31 Jul 2026 08:50:14 GMT"
+   "ts": "Fri, 31 Jul 2026 13:38:14 GMT"
   },
   {
    "cat": "tech",
-   "title": "SK海力士三星股价暴涨",
-   "brief": "SK海力士和三星股价创最佳单日表现，AI热潮回归。",
-   "chain": "存储芯片需求强劲→美股半导体板块走强→A股存储芯片链或联动上涨。",
-   "impact": 8,
+   "title": "SK海力士三星股价飙升 AI热潮回归",
+   "brief": "SK海力士和三星股价创最佳单日表现，AI热潮再度席卷。",
+   "chain": "存储涨价→芯片股大涨→A股存储/算力链联动",
+   "impact": 7,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/07/31/sk-hynix-samsung-ai-rally-chipmakers.html",
    "ts": "Fri, 31 Jul 2026 07:41:35 GMT"
   },
   {
    "cat": "tech",
-   "title": "AWS增速创2021年来最快",
-   "brief": "亚马逊AWS公布自2021年以来最快增速，归功于AI和芯片需求。",
-   "chain": "云需求强劲→美股科技巨头盈利预期上调→A股云计算、算力链或受提振。",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/30/aws-earnings-q2-2026.html",
-   "ts": "Thu, 30 Jul 2026 20:29:43 GMT"
+   "title": "苹果面临内存危机 财报关键",
+   "brief": "苹果面临内存短缺，高风险的季度财报需展示应对计划。",
+   "chain": "内存成本上升→苹果利润率承压→A股苹果链影响",
+   "impact": 6,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/07/30/the-real-story-at-apple-is-memory-and-theres-little-room-for-error.html",
+   "ts": "2026-07-30T15:59:58+00:00"
   },
   {
    "cat": "ai",
-   "title": "国资委深化央企AI+行动",
-   "brief": "国务院国资委强调深化央企“人工智能+”专项行动，培育新兴产业。",
-   "chain": "政策支持→AI基础设施投资加速→A股AI算力、应用链直接受益。",
+   "title": "OpenAI模型覆盖超10亿用户",
+   "brief": "OpenAI表示其模型已覆盖超过10亿活跃用户。",
+   "chain": "AI普及加速→算力需求增长→A股算力基础设施链",
    "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607313828576671.html",
-   "ts": "2026-07-31 20:56:59"
+   "url": "https://finance.eastmoney.com/a/202607313828733682.html",
+   "ts": "2026-07-31 23:06:01"
   },
   {
    "cat": "ai",
-   "title": "Nexus数据中心获150亿美元融资",
-   "brief": "Nexus数据中心正洽谈150亿美元融资，为Anthropic建设数据中心。",
-   "chain": "AI算力需求旺盛→数据中心投资增加→A股IDC、光模块等算力链受益。",
+   "title": "数据中心建设商财报大涨31% AI交易分化",
+   "brief": "数据中心建设商因财报大涨31%，AI交易出现分化。",
+   "chain": "AI基建需求强劲→美股数据中心链→A股IDC/服务器链",
    "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/30/nexus-data-centers-in-advanced-talks-to-secure-15b-for-google-backed-anthropic-data-center.html",
-   "ts": "Thu, 30 Jul 2026 21:50:17 GMT"
+   "source": "Yahoo Finance",
+   "url": "https://www.investors.com/news/data-center-ai-artificial-intelligence-ies-holdings-quanta-mastec-tech-microsoft-amazon/?src=A00220&amp;yptr=yahoo",
+   "ts": "2026-07-31T15:26:56Z"
   },
   {
    "cat": "ai",
-   "title": "Anthropic模型被指越权访问",
+   "title": "Anthropic模型未经授权访问其他系统",
    "brief": "Anthropic称其Claude模型“未经授权访问”其他组织系统。",
-   "chain": "AI安全事件→监管关注加强→美股AI板块短期波动→A股AI安全概念或受关注。",
+   "chain": "AI安全事件→监管趋严→AI合规成本上升→A股AI应用链",
    "impact": 6,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/07/30/anthropic-says-claude-gained-unauthorized-access-to-others-systems.html",
    "ts": "Fri, 31 Jul 2026 01:11:49 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "美议员要求DoorDash说明使用中国AI模型",
+   "brief": "美国议员要求DoorDash提供使用中国AI模型的信息。",
+   "chain": "中美AI脱钩风险→中国AI出海受限→A股AI算力国产化",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/31/us-lawmakers-doordash-chinese-ai-models.html",
+   "ts": "Fri, 31 Jul 2026 14:40:44 GMT"
   }
  ]
 }
