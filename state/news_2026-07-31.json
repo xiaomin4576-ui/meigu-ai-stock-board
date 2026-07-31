@@ -1,10 +1,10 @@
 {
  "asof": "2026-07-31",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-07-31T12:00+08:00",
+ "generated_at": "2026-07-31T13:30+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 2,
+  "cross_day_suppressed": 0,
   "cluster_label": "",
   "cluster_dropped": [],
   "backfilled": 0
@@ -12,29 +12,39 @@
  "items": [
   {
    "cat": "macro",
-   "title": "美国二季度GDP：进口拖累增长，内需稳健",
-   "brief": "美国二季度GDP受进口拖累，但国内需求强劲，显示经济韧性。",
-   "chain": "内需稳健→美联储降息预期降温→美股估值承压→A股算力链情绪受抑",
+   "title": "日元汇率大涨 日本央行入市干预",
+   "brief": "周四全球外汇市场巨震，美元指数失守100关口，美元兑日元盘中最大跌幅达3%，自40年高点164跌至158.34。日本央行将于周五公布利率决议。",
+   "chain": "日元暴涨+美元走弱→美债收益率下行→利好美股AI高久期股估值→映射A股算力链情绪",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607313828143171.html",
+   "ts": "2026-07-31 12:58:37"
+  },
+  {
+   "cat": "macro",
+   "title": "BOJ holds rates at 1%, warns of core inflation exceeding 2% target",
+   "brief": "日本央行维持利率1%不变，但警告核心通胀可能超过2%目标，暗示未来可能加息。",
+   "chain": "日央行鹰派→日元升值→全球套息交易逆转→风险资产波动→A股外资流向敏感",
    "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/31/boj-rates-yen-intervention-inflation-japan.html",
+   "ts": "Fri, 31 Jul 2026 04:19:06 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "Imports hold back US economic growth in Q2, but domestic demand robust",
+   "brief": "美国二季度GDP受进口拖累，但国内需求强劲，显示经济韧性。",
+   "chain": "美国内需强劲→美联储政策空间→美股盈利预期→A股出口链",
+   "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObWh4Um5od3luS0pRM0hOYTNwN0Z4bElZWFBXVDRRdFFVT2FpejU4ZkQ3MTVuY3hYb1NpMVd4QXV4WFhFMFUwbTRCbGs2cGlPOW11LWUxdzFyRnU0a0cwZU02b0s5b012M0p3Y2prV25KT0RQd3BGZk52aWNlanFDSDh5UTRRUVYtc2lsSm1RWjM4MjlzMXFCcEVrVjNvYVNzN3pNTm1zU2ZpV1U?oc=5",
    "ts": "2026-07-30T18:36:01+00:00"
   },
   {
    "cat": "macro",
-   "title": "英国央行按兵不动，等待伊朗战争通胀影响",
-   "brief": "英国央行维持利率不变，等待伊朗冲突对通胀的进一步影响。",
-   "chain": "英央行观望→全球紧缩周期延长→压制美股估值→A股科技股承压",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcXV6ZUFyTnVCZmxRUVdTancteHlMckpydGNUdmYwdDFtaTllNmhNdkh2S0J1NS1CWDE1VG51Y18wcU41VloxRWZ5LWpTVGlGb2NfeDRkZ1RJeUs5aFFxaHIwVzByUk9md01STlJqVlRqLUNaVWdYN0psNXFGUlpuSVJOWGZ2LWtrNnJxbTlxUUNVNWxvOXJKZXM1alBLbzR4QXBUTjIzMXNwOG4zM2ZQVlZ6enJHZw?oc=5",
-   "ts": "2026-07-30T16:46:45+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "德国通胀上升，二季度经济超预期增长",
-   "brief": "德国7月通胀上升，二季度GDP增长超预期，经济复苏迹象显现。",
-   "chain": "欧央行加息预期升温→欧元走强→美元承压→利好黄金→A股黄金股受益",
+   "title": "German inflation rises in July, economy grows more than expected in Q2",
+   "brief": "德国7月通胀上升，二季度经济超预期增长，欧元区经济回暖。",
+   "chain": "欧央行紧缩预期→欧元走强→美元指数承压→利好黄金与美股",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSlVmQWpZSDUtb0Z2b1NqMTkzTXhScDctbnZBVXkta2syTXJFZk5VV19UOFQyUGhJM1o0MVZ2OEVrN2REdEJlOUZkbm16eEQtNVFqdm1QcUZpbHl2QmFQNkY2TFNEMU4ySWJvc2NXRVFBVlNNZlFtazcySVYxNXgxeUN6dEZnTmNUejBZSkl2eWpTbVpJc3cyV0daWjMzU0daOFRv?oc=5",
@@ -42,79 +52,119 @@
   },
   {
    "cat": "macro",
-   "title": "日本央行：2026财年下半年CPI或超2%",
-   "brief": "日本央行警告核心通胀可能明显超过2%，暗示未来可能加息。",
-   "chain": "日央行鹰派→日元升值→套息交易逆转→全球风险资产波动→A股外资流向受扰",
-   "impact": 7,
+   "title": "美联储年内加息？景顺首席：即便加也是一次性 明年转向降息",
+   "brief": "景顺首席策略师表示，年底前可能再加息一次，但明年将转向降息。",
+   "chain": "加息预期→美债收益率上行→压制AI高估值→A股算力链短期承压",
+   "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607313828115471.html",
-   "ts": "2026-07-31 11:23:14"
+   "url": "https://finance.eastmoney.com/a/202607313828132488.html",
+   "ts": "2026-07-31 12:49:35"
   },
   {
    "cat": "geo",
-   "title": "埃及无人机袭击苏伊士油轮，引发安全担忧",
-   "brief": "埃及发生无人机袭击，引发对苏伊士运河石油出口安全的担忧。",
-   "chain": "中东冲突升级→油价上涨→美股能源板块受益→A股石油股联动",
-   "impact": 9,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY19zWlhiQmx4WmRhRHRLMUdTbjhwdEdVcHpaUmMtWndRMlB1MFNiZ2pJMzJZcFJQWEJSTzdfSGl6R0FXV016c2JUODlSV0Y3ZzBEbWRFeUVkRDQxQ2p5S0VPRWoyc0lZS3pobjVGR0l5YTV1V1FEbmE2N1BscGlFZWlLTjl6Qmp4TDJmalFTX1ZYVUJEYkV2NjBCWVhuNmRsdC1UZzBCVm1GQ2djejdiWUo1UnBfT1UzNmc?oc=5",
-   "ts": "2026-07-30T20:08:12+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "独家：胡塞武装从伊拉克袭击沙特",
-   "brief": "消息人士称，也门胡塞武装从伊拉克境内对沙特发动袭击，冲突扩大。",
-   "chain": "地缘风险外溢→油价波动→全球市场避险→A股军工股活跃",
+   "title": "Oil falls more than $1 on greater flows despite US-Iran war",
+   "brief": "尽管美伊冲突持续，但供应增加导致油价下跌超1美元。",
+   "chain": "美伊冲突→油价波动→影响全球通胀预期→美股能源板块→A股石油链",
    "impact": 8,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOG5nRVpXaFJmYzZnNk1aMDMwdmc4NDdTalNOTWtaWHhzZGFXWE5JanRRM192OC1qZUs4Q0JHUktVR2VEb1lvdWh4ZjFEd0xQWW1aZkczRFY4VmxQTVV1anlGQ2RsSjFPTjB0aW53NGloTU9Na0hhM1V2ZnpTRFAwOTEtQUpIZ085VHZyS05XN241U3EyZmFqa3hGNzZsU0ZjN1Y2cTRaakE0bWU5VmV6ZTVR?oc=5",
-   "ts": "2026-07-30T14:58:16+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTWtnbUQ2S2JIalNxeXVETFdYcU95VDBtOHpPdlAxWDkzd1B0VVBPNnNpMW8xTGVRbkJ1NTFqbmJ0Ui1ucUUtSVhZeXZwRTQ4eE5FTWRkdzBlZEVJUzZHR0tKdnZTeXFoQlFPSHpGX0pqaEVVU3RhWFJqR2xNZnVJeDdOaG9ONUEtaThtRXhXakladzRkT2JvR1hxSEREVmxkRGRjQWw5ZTNoeTQ?oc=5",
+   "ts": "2026-07-31T03:00:00+00:00"
   },
   {
    "cat": "geo",
-   "title": "加沙停火谈判现罕见进展",
-   "brief": "消息人士称，加沙停火谈判取得罕见进展，但最终协议仍不确定。",
-   "chain": "中东局势缓和→油价承压→美股能源板块回调→A股石油股调整",
+   "title": "Gaza ceasefire talks see rare progress, sources say",
+   "brief": "消息人士称，加沙停火谈判取得罕见进展，中东局势有望缓和。",
+   "chain": "中东缓和→油价承压→利好全球风险偏好→美股科技股→A股",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNHh3eHRRcUdPRGdqS1ViTm1TTDE0NGQwQXZ6Ml82R3g2cVA2c1NLanFFVHpJZU81VENlQ3NaS0xvWmV4VW5HU0hyX2YzUWhZbFJGN3p0dHh5aG5PQ08zakhtZGZycVpFYVdOLVA1ZlVPNGJqZFNvZGhBZDI5QmxiNUlnTXpSWTV2ZFVMZ1BQeGR4Mmo2TWhTTXZrY1dnUmlDWGlCYzVRNXFMNjROdmIxYkY0OG1mWXZiMXFtM1NPcEVoVUllLUJQdVNKMjk?oc=5",
    "ts": "2026-07-30T14:42:14+00:00"
   },
   {
+   "cat": "geo",
+   "title": "Can China restrain Iran? Gulf states test Beijing's influence",
+   "brief": "海湾国家试探中国对伊朗的影响力，地缘政治格局复杂化。",
+   "chain": "中国中东角色→地缘风险→油价波动→全球市场",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdklTZHJ1YU1Db09vbVRyR0Z2SHFydjMxZVJLUHZHMDlubnljR21Nd0tIbnBxVk1OYkFmNWE3VldxQ21aSmtaMlNTV1Z5VVZCR1pMSzNIdUpHUnhQdGdZZmk4UnBFSXVQa1FBemhaRnlKSW1QRDdKR3J0Z1E1WnpJcEhNYjlfeDBMN2tSX2p5ZjdwRnZqZnNjdUs0UGk1V3REemI0TGtyUllFc0U?oc=5",
+   "ts": "2026-07-30T12:34:19+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "Saudi Arabia unveils plans for multinational maritime defence coalition",
+   "brief": "沙特宣布计划组建多国海上防御联盟，以应对地区安全威胁。",
+   "chain": "中东安全→航运风险→油价溢价→全球能源市场",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVVV1X2lpNHZQWlFIclZsaER1azctU1NVTk5FcjhEYTVULU9NU1JibElRWUYzWllrZFRKY3NiYVRKdnVhS0hoWkRMeWczMnZXX2Y0UnNrMlVPQzN5QWRnMVFacTBPQkNEZ29BTzh0M2dRSU9BZ1ZZNmN0RHoxaE5GbW5aR3NETW5fREF6UklGUHo5ZkM3NTVDdHpkUXNFY0hWZmxUZHB0aEk1NDBtUEd2VTJqV2RwazVoY0lPYnhR?oc=5",
+   "ts": "2026-07-30T19:07:49+00:00"
+  },
+  {
    "cat": "oil",
-   "title": "埃及确认无人机袭击达米埃塔两艘天然气船",
-   "brief": "埃及确认无人机袭击导致达米埃塔港两艘天然气船起火，影响LNG出口。",
-   "chain": "供应中断→欧洲气价上涨→莫桑比克LNG出口竞争力增强",
-   "impact": 9,
+   "title": "Drone strike in Egypt sparks security concerns about Suez oil exports",
+   "brief": "埃及无人机袭击引发苏伊士运河石油出口安全担忧，但未影响运输。",
+   "chain": "苏伊士风险→油价短期波动→莫桑比克油气出口竞争格局",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY19zWlhiQmx4WmRhRHRLMUdTbjhwdEdVcHpaUmMtWndRMlB1MFNiZ2pJMzJZcFJQWEJSTzdfSGl6R0FXV016c2JUODlSV0Y3ZzBEbWRFeUVkRDQxQ2p5S0VPRWoyc0lZS3pobjVGR0l5YTV1V1FEbmE2N1BscGlFZWlLTjl6Qmp4TDJmalFTX1ZYVUJEYkV2NjBCWVhuNmRsdC1UZzBCVm1GQ2djejdiWUo1UnBfT1UzNmc?oc=5",
+   "ts": "2026-07-30T20:08:12+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "Egypt confirms drone caused fire on two gas vessels at Damietta",
+   "brief": "埃及确认无人机导致达米埃塔两艘天然气船起火，能源基础设施受威胁。",
+   "chain": "东地中海天然气风险→LNG供应担忧→莫桑比克LNG项目吸引力",
+   "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYjF1aWhGTmZFRVNLcWFNN2JqX2FUUkZMY3ZLeldiNEJUZE0zLWFqa0xQQXVIdWxIQ3JidXJaS2ltNWF1MU1TVlZzZVFTUVhnTTl2djhtaUxDemp5Rkl1al9ZdHFfSmo0RjgwZGJGYmN0NU04V1ZROEpheFJfX2pzN0tELUVPVVYtVGE5UGJsNUt3ZEtCbFREX1hBNGQ5cTlpTFljQU10X2tTSkhGd09XdQ?oc=5",
    "ts": "2026-07-30T12:52:10+00:00"
   },
   {
    "cat": "oil",
-   "title": "沙特宣布多国海上防御联盟计划",
-   "brief": "沙特公布组建多国海上防御联盟，以保护关键航道安全。",
-   "chain": "地缘风险溢价→油价支撑→莫桑比克油气运输安全受关注",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVVV1X2lpNHZQWlFIclZsaER1azctU1NVTk5FcjhEYTVULU9NU1JibElRWUYzWllrZFRKY3NiYVRKdnVhS0hoWkRMeWczMnZXX2Y0UnNrMlVPQzN5QWRnMVFacTBPQkNEZ29BTzh0M2dRSU9BZ1ZZNmN0RHoxaE5GbW5aR3NETW5fREF6UklGUHo5ZkM3NTVDdHpkUXNFY0hWZmxUZHB0aEk1NDBtUEd2VTJqV2RwazVoY0lPYnhR?oc=5",
-   "ts": "2026-07-30T19:07:49+00:00"
+   "title": "Oil prices ease as recovering Hormuz Strait traffic tempers war premium",
+   "brief": "霍尔木兹海峡交通恢复，油价回吐部分战争溢价。",
+   "chain": "霍尔木兹风险缓解→油价回落→莫桑比克油气出口成本影响",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/31/oil-prices-today-brent-wti-hormuz-trump-iran-.html",
+   "ts": "Fri, 31 Jul 2026 04:25:53 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "俄罗斯无奈之举！哈萨克斯坦透露拟帮助加工俄油",
+   "brief": "哈萨克斯坦计划加工俄罗斯石油，以规避制裁影响。",
+   "chain": "俄油加工→全球原油供应格局→油价影响→莫桑比克竞争",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607313828132821.html",
+   "ts": "2026-07-31 12:45:29"
   },
   {
    "cat": "gas",
-   "title": "埃及称无人机袭击地中海港口两艘船只",
-   "brief": "埃及称无人机袭击地中海港口两艘船只，能源基础设施遭袭扩大。",
-   "chain": "供应中断→LNG价格波动→东非LNG项目吸引力上升",
-   "impact": 8,
+   "title": "Egypt says drone hit two ships at Mediterranean port as attacks on energy infrastructure widen",
+   "brief": "埃及称无人机袭击地中海港口两艘船只，能源基础设施攻击扩大。",
+   "chain": "东地中海LNG风险→欧洲气价波动→莫桑比克LNG出口机遇",
+   "impact": 7,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/07/30/egypt-drone-gas-ship-damietta-port-iran-war.html",
    "ts": "2026-07-30T11:53:56+00:00"
   },
   {
+   "cat": "gas",
+   "title": "From Hormuz to the Black Sea: Maritime battlefields are shaping ‘a new world order’",
+   "brief": "从霍尔木兹到黑海，海上战场塑造新世界秩序，影响全球能源运输。",
+   "chain": "海上冲突→航运保险成本→LNG运输→莫桑比克出口成本",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/30/strait-hormuz-drone-shipping-risks.html",
+   "ts": "Thu, 30 Jul 2026 08:52:10 GMT"
+  },
+  {
    "cat": "tech",
-   "title": "微软财报超预期，赢得吉姆·克莱默支持",
-   "brief": "微软公布强劲财报，扭转了吉姆·克莱默的看空态度。",
-   "chain": "微软业绩→云需求强劲→美股科技股提振→A股云计算链映射",
+   "title": "Microsoft wins back Jim Cramer's support after a surprisingly good quarter",
+   "brief": "微软财报超预期，赢得吉姆·克莱默支持，股价有望上涨。",
+   "chain": "微软业绩→云需求→美股科技板块→A股云计算链",
    "impact": 8,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/07/30/microsoft-wins-back-jim-cramers-support-after-a-surprisingly-good-quarter.html",
@@ -122,9 +172,29 @@
   },
   {
    "cat": "tech",
-   "title": "苹果面临内存短缺，季度业绩关键",
-   "brief": "苹果面临内存供应紧张，本季度业绩备受关注。",
-   "chain": "内存涨价→苹果成本压力→美股科技股波动→A股存储链关注",
+   "title": "Amazon hikes 2026 capex to $220 billion due to higher memory costs",
+   "brief": "亚马逊将2026年资本支出上调至2200亿美元，因内存成本上升。",
+   "chain": "亚马逊资本开支→AI基础设施需求→美股科技→A股算力链",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html",
+   "ts": "Thu, 30 Jul 2026 21:31:31 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "Amazon's AWS posts fastest growth since 2021, citing AI and chip demand",
+   "brief": "AWS增速创2021年以来最快，受AI和芯片需求推动。",
+   "chain": "AWS增长→云服务需求→美股科技→A股云计算",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/30/aws-earnings-q2-2026.html",
+   "ts": "Thu, 30 Jul 2026 20:29:43 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "The real story at Apple is the memory crunch — and there's little room for error",
+   "brief": "苹果面临内存短缺问题，高风险的季度考验。",
+   "chain": "苹果内存短缺→供应链压力→美股科技→A股存储链",
    "impact": 7,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/07/30/the-real-story-at-apple-is-memory-and-theres-little-room-for-error.html",
@@ -132,63 +202,23 @@
   },
   {
    "cat": "tech",
-   "title": "日本熊本地震后芯片产业复工复产",
-   "brief": "熊本地震后，东京电子和瑞萨电子恢复部分运营，芯片供应逐步恢复。",
-   "chain": "供应恢复→半导体板块稳定→美股芯片股企稳→A股半导体链受益",
+   "title": "索尼半导体：将自8月4日起分阶段恢复营运",
+   "brief": "索尼半导体熊本科技中心因地震停工后，将于8月4日起分阶段恢复运营。",
+   "chain": "索尼恢复→半导体供应→全球芯片市场→A股半导体",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202607313828116336.html",
-   "ts": "2026-07-31 11:26:00"
+   "url": "https://finance.eastmoney.com/a/202607313828163672.html",
+   "ts": "2026-07-31 13:10:46"
   },
   {
    "cat": "ai",
-   "title": "AI明星投资人爆仓，杠杆风险暴露",
-   "brief": "Leopold Aschenbrenner的基金因亏损被迫平仓，引发市场关注。",
-   "chain": "AI泡沫担忧→美股AI股回调→A股算力链情绪受挫",
+   "title": "字节跳动推出Seedance 2.5模型：单次生成时长30秒、突破长叙事能力",
+   "brief": "字节跳动发布Seedance 2.5视频生成模型，可单次生成30秒高质量视频，陆续上线即梦AI与豆包。",
+   "chain": "字节AI模型→视频生成能力→A股AI应用链",
    "impact": 8,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/07/30/leopold-aschenbrenners-hedge-fund-is-facing-steep-ai-losses.html",
-   "ts": "2026-07-30T13:14:09+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "亚马逊上调2026年资本开支至2200亿美元",
-   "brief": "亚马逊因内存成本上升，将2026年资本开支上调至2200亿美元。",
-   "chain": "AI基础设施投入加大→算力需求强劲→A股算力链受益",
-   "impact": 9,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html",
-   "ts": "Thu, 30 Jul 2026 21:31:31 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "AWS增速创2021年以来最快，AI和芯片需求驱动",
-   "brief": "AWS二季度增速创2021年以来最快，得益于AI和芯片需求。",
-   "chain": "云需求强劲→AI算力景气→A股云计算链映射",
-   "impact": 8,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/30/aws-earnings-q2-2026.html",
-   "ts": "Thu, 30 Jul 2026 20:29:43 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "OpenAI下调GPT-5.6模型价格，应对成本敏感",
-   "brief": "OpenAI降低两款GPT-5.6模型价格，以吸引对成本敏感的企业客户。",
-   "chain": "AI商业化加速→模型成本下降→利好AI应用→A股AI应用链受益",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/30/open-ai-price-cut-gpt.html",
-   "ts": "Thu, 30 Jul 2026 17:27:49 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "Nexus数据中心洽谈15亿美元融资，为Anthropic建数据中心",
-   "brief": "Nexus数据中心正洽谈15亿美元融资，用于建设Anthropic的数据中心。",
-   "chain": "AI基础设施投资火热→算力需求旺盛→A股IDC链受益",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/07/30/nexus-data-centers-in-advanced-talks-to-secure-15b-for-google-backed-anthropic-data-center.html",
-   "ts": "Thu, 30 Jul 2026 21:50:17 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202607313828137241.html",
+   "ts": "2026-07-31 12:50:02"
   }
  ]
 }
