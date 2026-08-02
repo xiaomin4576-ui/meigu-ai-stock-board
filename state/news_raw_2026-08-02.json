@@ -1,15 +1,24 @@
 {
  "asof": "2026-08-02",
- "fetched_at": "2026-08-02T20:18+08:00",
+ "fetched_at": "2026-08-02T22:53+08:00",
  "meta": {
   "counts": {
    "finnhub": 40,
    "em": 40,
    "rss": 100
   },
-  "total": 161
+  "total": 156
  },
  "candidates": [
+  {
+   "title": "Op-ed: The U.S. lead over China in AI is all but gone",
+   "summary": "AI debate in recent years has centered on whether the U.S. can develop a strategy capable of preserving an edge over China. The answer isn't looking positive.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/02/ai-model-competition-us-china.html",
+   "ts": "2026-08-02T12:30:01+00:00",
+   "origin": "finnhub",
+   "age_days": 0
+  },
   {
    "title": "Why flights are so expensive and will likely stay that way",
    "summary": "Airlines are paying billions of dollars more in fuel costs this year",
@@ -362,13 +371,130 @@
    "age_days": 3
   },
   {
-   "title": "The real story at Apple is the memory crunch — and there's little room for error",
-   "summary": "It's a high-stakes quarter for the iPhone maker. Apple needs to show Wall Street exactly how it plans to mitigate the risks of rising memory costs.",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/07/30/the-real-story-at-apple-is-memory-and-theres-little-room-for-error.html",
-   "ts": "2026-07-30T15:59:58+00:00",
-   "origin": "finnhub",
-   "age_days": 3
+   "title": "青海海南州兴海县发生4.8级地震 震源深度10千米",
+   "summary": "【青海海南州兴海县发生4.8级地震 震源深度10千米】中国地震台网正式测定：08月02日22时31分在青海海南州兴海县（北纬35.34度，东经99.50度）发生4.8级地震，震源深度10千米。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829175823.html",
+   "ts": "2026-08-02 22:44:11",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "两部门联合发布高温健康风险预警",
+   "summary": "【两部门联合发布高温健康风险预警】国家疾病预防控制局、中国气象局8月2日18时联合发布高温健康风险预警：预计，8月2日20时至3日20时，东北地区中部和南部、华北地区东部、黄淮东部、江淮、江南东北部及新疆、内蒙古等地高温健康风险较高（黄色预警）。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829175798.html",
+   "ts": "2026-08-02 22:40:11",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "实探华强北：显卡价格跳涨！热门产品“一日一价”",
+   "summary": "【实探华强北：显卡价格跳涨！热门产品“一日一价”】继内存、硬盘价格上涨后，电脑硬件市场又迎来新一轮价格波动。8月1日，记者走访深圳华强北市场发现，7月底以来，消费级显卡价格快速上涨，部分热门型号数日内上涨数百元，高端型号涨幅甚至达到千元级别。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829175581.html",
+   "ts": "2026-08-02 22:34:00",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "“欧佩克+”主要产油国决定9月继续增产",
+   "summary": "【“欧佩克+”主要产油国决定9月继续增产】石油输出国组织（欧佩克）2日发表声明说，7个“欧佩克+”主要产油国决定9月日均增产原油18.8万桶，并重申将维护市场稳定。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829174973.html",
+   "ts": "2026-08-02 22:33:17",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "7月上海新房价格涨幅领跑全国 1至7月深圳商务公寓网签销售量增超60%",
+   "summary": "【7月上海新房价格涨幅领跑全国 1至7月深圳商务公寓网签销售量增超60%】数据显示，7月，上海商品住宅（不含保障性住房）成交套数2796套，新建住宅价格环比上涨0.96%，涨幅居全国第一。上海土拍市场今年也维持较高热度，四次出现溢价率突破35%的地块。业内人士表示，核心地块的高溢价成交凸显上海核心区域的长期价值，土地市场的热度有望进一步提振购房者的入市信心。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829173550.html",
+   "ts": "2026-08-02 22:26:11",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "国家电网：多地用电负荷连创历史新高 多措并举保供电",
+   "summary": "【国家电网：多地用电负荷连创历史新高 多措并举保供电】据国家电网公众号，受近期大范围高温天气影响，国家电网公司经营区域多地用电负荷连创历史新高。7月27日至31日，华北、东北2个区域电网，天津、冀北、江苏、辽宁、蒙东5个省级电网负荷屡创新高。公司始终将电力保供作为首要政治任务，充分发挥大电网大市场优势，高效运用跨省跨区输电通道，积极开展余缺互济、时空互补，保障电网安全稳定运行与电力可靠供应。各单位压紧压实保供责任，全面落实迎峰度夏电力保供6方面24项工作要点，合理安排电网运行方式，强化各级电网运维保障，全力以赴保障经济社会发展和民生用电需要。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829173459.html",
+   "ts": "2026-08-02 22:24:14",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "冲上热搜！青岛一仓库起火 系上市公司旗下供应链公司",
+   "summary": "【冲上热搜！青岛一仓库起火 系上市公司旗下供应链公司】8月2日17时许，青岛市黄岛区七星河路363号青岛象屿速传供应链有限公司仓库发生火灾，火灾发生后现场升起大量浓烟。随后，该消息冲上微博、百度等平台热搜榜单。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829168579.html",
+   "ts": "2026-08-02 22:00:00",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "全国首个！武汉搭建超大城市全域低空无人机监测网络",
+   "summary": "【全国首个！武汉搭建超大城市全域低空无人机监测网络】随着工作人员指令，一台无人值守机场自动开舱，无人机腾空而起，5分钟内便抵达江汉区中央云城工地上空。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829164079.html",
+   "ts": "2026-08-02 21:50:03",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "巴西总统卢拉已在高等选举法院登记为总统候选人",
+   "summary": "【巴西总统卢拉已在高等选举法院登记为总统候选人】巴西劳工党主席埃迪尼奥·席尔瓦2日在劳工党全国代表大会开始前向媒体表示，巴西总统卢拉已在高等选举法院正式登记为该党总统候选人。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829161068.html",
+   "ts": "2026-08-02 21:41:54",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "伯克希尔三只重仓股大涨 股价创8个月新高",
+   "summary": "【伯克希尔三只重仓股大涨，股价创8个月新高】据CNBC网站8月1日报道，美国知名投资机构伯克希尔-哈撒韦A类和B类股本周上涨，触及八个月来新高。《巴伦周刊》分析指出，伯克希尔股价今年以来仍明显跑输标普500指数，本轮上涨存在持续动力，公司投资组合中的三只重仓股苹果、可口可乐、美国银行的股价年内涨幅可观，对股价形成支撑。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829156855.html",
+   "ts": "2026-08-02 20:56:15",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "“欧佩克+”重申维护能源市场稳定 强调需保证海上航道畅通",
+   "summary": "【“欧佩克+”重申维护能源市场稳定，强调需保证海上航道畅通】当地时间8月2日，石油输出国组织（欧佩克）发布声明称，由欧佩克成员国与非欧佩克产油国组成的“欧佩克+”第67次联合部长级监督委员会会议以视频方式举行。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829156147.html",
+   "ts": "2026-08-02 20:53:01",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "刷新最高气温纪录 韩国多地遭遇超40度热浪",
+   "summary": "【刷新最高气温纪录，韩国多地遭遇超40度热浪】当地时间8月2日，韩国多地遭遇超过40摄氏度的高温天气。当天下午，庆尚南道梁山市的气温达到42.5摄氏度，连续第三天刷新了韩国最高气温纪录。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829156042.html",
+   "ts": "2026-08-02 20:49:46",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "以色列高级官员称并未同意停止袭击加沙",
+   "summary": "【以色列高级官员称并未同意停止袭击加沙】当地时间8月2日，以色列安全内阁成员、能源部长埃利·科恩当天在接受采访时明确表示，以色列并未同意停止对加沙地带的军事打击，以安全内阁在过去72小时内也并未就所谓的“加沙停火方案”进行过任何讨论。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829155020.html",
+   "ts": "2026-08-02 20:32:49",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "8月2日周日《新闻联播》要闻17条",
+   "summary": "【8月2日周日《新闻联播》要闻17条】今天《新闻联播》主要内容如下。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829152937.html",
+   "ts": "2026-08-02 20:10:00",
+   "origin": "em",
+   "age_days": 0
   },
   {
    "title": "驻日美军多名士兵涉嫌酒驾和猥亵被捕",
@@ -605,132 +731,6 @@
    "age_days": 0
   },
   {
-   "title": "中信证券： 短期不确定性与长期机遇并存 美联储加息落地后方见曙光",
-   "summary": "【中信证券： 短期不确定性与长期机遇并存，美联储加息落地后方见曙光】8月2日消息，中信证券研报表示，错过此轮加息时点后，短期无论美联储9月加息与否，美股估值均面临压力，但中长期看，加息落地有望释放估值压制，叠加“生产力与就业工作组”对AI的积极取向，美股AI叙事有望长期延续。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829134423.html",
-   "ts": "2026-08-02 17:02:40",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "据美国地质调查局 新西兰希克斯湾以南14公里处发生5.6级地震",
-   "summary": "据美国地质调查局，新西兰希克斯湾以南14公里处发生5.6级地震。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829134377.html",
-   "ts": "2026-08-02 16:57:16",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "包钢股份：控股子公司“1.18”重大容器爆炸事故调查报告公布",
-   "summary": "【包钢股份：控股子公司“1.18”重大容器爆炸事故调查报告公布】包钢股份(600010.SH)公告称，公司控股子公司下属板材厂炼钢作业部2026年1月18日发生650m3饱和水、蒸汽球罐爆炸事故，内蒙古自治区人民政府8月2日发布事故调查报告，事故造成10人死亡、84人受伤，直接经济损失6723万元。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829133513.html",
-   "ts": "2026-08-02 16:49:52",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "中信证券：调整基本结束 8月修复可期 建议增配能化、有色、非银和创新药",
-   "summary": "【中信证券：调整基本结束 8月修复可期 建议增配能化、有色、非银和创新药】中信证券研报指出，A股本轮调整更多是拥挤交易的修正，而非韩国式的去杠杆冲击，这体现在：1）整体杠杆情况比较安全，7月上涨股票数量接近全A一半，明显超过6月；2）相比全球历史上典型的去杠杆行情，当前的融资回落幅度并不算大；3）ETF市场呈现持续的资金流入，科技类ETF的流入提供了充足流动性支持。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829131650.html",
-   "ts": "2026-08-02 16:38:52",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "美军高官称美缺乏足够军力继续保护以色列",
-   "summary": "【美军高官称美缺乏足够军力继续保护以色列】据美国方面8月1日消息，北约欧洲盟军最高司令兼美国欧洲司令部司令亚力克苏斯·格林克维奇近日私下警告美国国防部，美军目前没有足够的海军力量，在以色列面临弹道导弹袭击时继续为其提供保护。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829131396.html",
-   "ts": "2026-08-02 16:38:52",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "科伦药业：14款产品拟中标第十二批全国药品集中采购",
-   "summary": "【科伦药业：14款产品拟中标第十二批全国药品集中采购】科伦药业公告，7月31日，公司及子公司参加了国家组织药品联合采购办公室组织的第十二批全国药品集中采购的投标工作。公司及子公司14款产品拟中标本次集中采购。若公司后续签订采购合同并实施，将进一步扩大相关产品的销售，提高市场占有率，对公司的未来经营业绩具有积极的影响。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829131273.html",
-   "ts": "2026-08-02 16:36:09",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "比亚迪：7月新能源汽车销量41.92万辆",
-   "summary": "【比亚迪：7月新能源汽车销量41.92万辆】比亚迪公告，公司发布2026年7月产销快报，当月新能源汽车产量42.02万辆，销量41.92万辆。其中，乘用车销量41.11万辆，纯电动23.31万辆，插电式混合动力17.80万辆；商用车销量8139辆。本年累计新能源汽车销量222.77万辆，同比下降10.54%。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829131056.html",
-   "ts": "2026-08-02 16:34:09",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "近120万辆特斯拉汽车遭调查",
-   "summary": "【近120万辆特斯拉汽车遭调查】据美国媒体日前报道，美国国家公路交通安全管理局已宣布，在收到多起悬架故障投诉后，正式对近120万辆特斯拉汽车展开初步调查。美国国家公路交通安全管理局表示，该机构累计已收到156起特斯拉悬架故障相关投诉，主要涉及2018至2020款Model3和2021至2023款ModelY车型。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829131133.html",
-   "ts": "2026-08-02 16:33:27",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "2026年度电影总票房（含预售）突破230亿元",
-   "summary": "【2026年度电影总票房（含预售）突破230亿元】8月2日，据网络平台数据，截至目前，2026年度电影总票房（含预售），突破230亿元，暑期档票房已突破72亿元，连续23天单日票房过亿元。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829128929.html",
-   "ts": "2026-08-02 16:19:45",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "欣天科技：控股股东将变更为深圳元启 8月3日起复牌",
-   "summary": "【欣天科技：控股股东将变更为深圳元启 8月3日起复牌】欣天科技公告，7月31日，深圳元启无限科技合伙企业（有限合伙）（简称“深圳元启”）与公司控股股东、实际控制人石伟平等签署《股份转让协议》，约定深圳元启通过协议转让的方式受让石伟平等合计持有的公司4342.24万股股份（占公司总股本的22.4999%）。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829128413.html",
-   "ts": "2026-08-02 16:18:09",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "科伦药业：参与第十二批全国药品集中采购拟中标14个品种",
-   "summary": "【科伦药业：参与第十二批全国药品集中采购拟中标14个品种】科伦药业(002422.SZ)公告称，公司及子公司参加了国家组织药品联合采购办公室组织的第十二批全国药品集中采购的投标工作，沙库巴曲缬沙坦钠片、脂肪乳注射液等14个品种拟中标。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829128388.html",
-   "ts": "2026-08-02 16:17:13",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "华东医药：环孢素等三款产品拟中选第十二批药品集采",
-   "summary": "【华东医药：环孢素等三款产品拟中选第十二批药品集采】华东医药(000963.SZ)公告称，公司及全资子公司参与第十二批国家药品集中带量采购，环孢素软胶囊、他克莫司胶囊、美沙拉秦肠溶片拟中选。2025年度上述产品合计销售收入约20.76亿元，占营收4.76%。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829128114.html",
-   "ts": "2026-08-02 16:16:18",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "广联航空：控股子公司中标1.12亿元海油发展项目",
-   "summary": "【广联航空：控股子公司中标1.12亿元海油发展项目】广联航空(300900.SZ)公告称，公司控股子公司天津跃峰科技股份有限公司收到中海油能源发展股份有限公司发来的《中标通知书》，天津跃峰为主协议中标人，中标金额约1.12亿元，约占公司2025年度经审计营业收入的11.09%。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829128252.html",
-   "ts": "2026-08-02 16:16:14",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "2026年度电影总票房突破230亿 暑期档连续23天票房过亿",
-   "summary": "【2026年度电影总票房突破230亿 暑期档连续23天票房过亿】据网络平台数据，截至目前，2026年度电影总票房（含预售）突破230亿元，暑期档票房已突破72亿，连续23天单日票房过亿。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829128085.html",
-   "ts": "2026-08-02 16:13:08",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
    "title": "Trump cancels planned attack on Iran, saying he reached an agreement over the 'perimeters of a deal'",
    "summary": "",
    "source": "CNBC World",
@@ -776,15 +776,6 @@
    "age_days": 1
   },
   {
-   "title": "Dwindling cash and soaring memory costs: Tech's AI buildout has ballooning price tag",
-   "summary": "",
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/31/tech-earnings-cash-memory-ai.html",
-   "ts": "Fri, 31 Jul 2026 19:55:13 GMT",
-   "origin": "rss",
-   "age_days": 2
-  },
-  {
    "title": "From Hormuz to the Black Sea: Maritime battlefields are shaping ‘a new world order’",
    "summary": "",
    "source": "CNBC World",
@@ -792,6 +783,15 @@
    "ts": "Thu, 30 Jul 2026 08:52:10 GMT",
    "origin": "rss",
    "age_days": 3
+  },
+  {
+   "title": "Dwindling cash and soaring memory costs: Tech's AI buildout has ballooning price tag",
+   "summary": "",
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/31/tech-earnings-cash-memory-ai.html",
+   "ts": "Fri, 31 Jul 2026 19:55:13 GMT",
+   "origin": "rss",
+   "age_days": 2
   },
   {
    "title": "How Leopold Aschenbrenner built a $45 billion AI hedge fund — and lost most of it in days",
@@ -821,6 +821,15 @@
    "age_days": 2
   },
   {
+   "title": "Exxon and Chevron profits surge on rising oil prices due to Iran war",
+   "summary": "",
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/31/exxon-xom-chevron-cvx-q2-earnings.html",
+   "ts": "Fri, 31 Jul 2026 15:52:20 GMT",
+   "origin": "rss",
+   "age_days": 2
+  },
+  {
    "title": "Trump's AI executive order nears key deadline as regulation debate intensifies",
    "summary": "",
    "source": "CNBC World",
@@ -846,15 +855,6 @@
    "ts": "Tue, 28 Jul 2026 01:34:28 GMT",
    "origin": "rss",
    "age_days": 5
-  },
-  {
-   "title": "Trump says U.S. has 'not agreed to' grant Ukraine Patriot missile licenses",
-   "summary": "",
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/07/31/trump-ukraine-patriot-missile-license-russia.html",
-   "ts": "Fri, 31 Jul 2026 18:52:10 GMT",
-   "origin": "rss",
-   "age_days": 2
   },
   {
    "title": "U.S. lawmakers request information from DoorDash on use of Chinese AI models",
@@ -947,137 +947,101 @@
    "age_days": 3
   },
   {
-   "title": "J.P. Morgan drops Fed rate bombshell over Warsh, inflation",
+   "title": "Robinhood CEO Vlad Tenev Thinks AI Agents Could Transform the Crypto Market. Here's What That Means for Investors",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/economy/policy/articles/j-p-morgan-drops-fed-060300978.html",
-   "ts": "2026-08-01T06:03:00Z",
+   "url": "https://finance.yahoo.com/markets/crypto/articles/robinhood-ceo-vlad-tenev-thinks-130800650.html",
+   "ts": "2026-08-01T13:08:00Z",
    "origin": "rss",
    "age_days": 1
   },
   {
-   "title": "Gold crashes from $5,500 to $4,160 since the Iran conflict began, but experts see a massive buying opportunity",
+   "title": "The 5 travel money traps to avoid, according to someone who has visited  nearly 100 countries in the last decade",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/commodities/articles/gold-crashes-5-500-4-110500568.html",
-   "ts": "2026-08-01T11:05:00Z",
+   "url": "https://finance.yahoo.com/small-business/articles/5-travel-money-traps-avoid-130000525.html",
+   "ts": "2026-08-01T13:00:00Z",
    "origin": "rss",
    "age_days": 1
   },
   {
-   "title": "Jersey Mike’s employees may see a 200% bonus post-IPO — how majority shareholder Blackstone is sharing profits",
+   "title": "Your Target-Date Fund Charges 6x More Than the Two-ETF Version of Itself",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/jersey-mike-employees-may-see-104500764.html",
-   "ts": "2026-08-01T10:45:00Z",
+   "url": "https://finance.yahoo.com/markets/options/articles/target-date-fund-charges-6x-131826831.html",
+   "ts": "2026-08-01T13:18:26Z",
    "origin": "rss",
    "age_days": 1
   },
   {
-   "title": "76% of American retirees have big savings regrets — and younger workers now plan to put off retirement to avoid them",
+   "title": "How Server CPUs Could Give AMD Stock a Big Boost After August 4",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/articles/76-american-retirees-big-savings-104000693.html",
-   "ts": "2026-08-01T10:40:00Z",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/server-cpus-could-amd-stock-130002075.html",
+   "ts": "2026-08-01T13:00:02Z",
    "origin": "rss",
    "age_days": 1
   },
   {
-   "title": "US stocks are at record highs, but everyday Americans are struggling. Why? And how can you profit from it?",
+   "title": "Ray Dalio warns this major asset will have the ‘worst return’ guaranteed — and you probably own a lot of it",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/us-stocks-record-highs-everyday-111500210.html",
-   "ts": "2026-08-01T11:15:00Z",
+   "url": "https://finance.yahoo.com/markets/currencies/articles/ray-dalio-warns-major-asset-125500604.html",
+   "ts": "2026-08-01T12:55:00Z",
    "origin": "rss",
    "age_days": 1
   },
   {
-   "title": "MarketBeat Week in Review – 07/27- 07/31",
+   "title": "Why BlackRock Is Betting Big on Ondas Stock Now",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/marketbeat-week-review-07-27-110000206.html",
-   "ts": "2026-08-01T11:00:00Z",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-blackrock-betting-big-ondas-133002844.html",
+   "ts": "2026-08-01T13:30:02Z",
    "origin": "rss",
    "age_days": 1
   },
   {
-   "title": "Americans lost billions to fraud in 2025 — these free bank alerts most people never activate could help protect you",
+   "title": "American Express Raised Its Revenue Guidance and Left Its Earnings Guidance Alone. Here's Where the Extra Money Is Going.",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/currencies/articles/americans-lost-billions-fraud-2025-103000144.html",
-   "ts": "2026-08-01T10:30:00Z",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/american-express-raised-revenue-guidance-130700607.html",
+   "ts": "2026-08-01T13:07:00Z",
    "origin": "rss",
    "age_days": 1
   },
   {
-   "title": "Early retirement is a reality for 56% of caregivers, with 34% holding less than $10,000 in savings, new report finds",
+   "title": "The 2 IRS rules that allow you to continue making IRA contributions when you move abroad",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/healthcare/articles/early-retirement-reality-56-caregivers-101000442.html",
-   "ts": "2026-08-01T10:10:00Z",
+   "url": "https://finance.yahoo.com/markets/currencies/articles/2-irs-rules-allow-continue-133000736.html",
+   "ts": "2026-08-01T13:30:00Z",
    "origin": "rss",
    "age_days": 1
   },
   {
-   "title": "A SpaceX Earnings Preview: Starlink Growth, AI Costs, Starship Roadmap",
+   "title": "Nearly 75% of new homeowners spend $10,000 on surprise repairs within 2 years — and some never budgeted for them",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://www.investors.com/news/spacex-earnings-key-themes-q2-2026-elon-musk-starlink-starship-xai-nasa-falcon9/?src=A00220&amp;yptr=yahoo",
-   "ts": "2026-08-01T11:28:22Z",
+   "url": "https://finance.yahoo.com/real-estate/articles/nearly-75-homeowners-spend-10-123000374.html",
+   "ts": "2026-08-01T12:30:00Z",
    "origin": "rss",
    "age_days": 1
   },
   {
-   "title": "Mark Cuban, Michael Burry raise the same red flag warning over giant US sector — is your nest egg at risk?",
+   "title": "Tesla Rival BYD Ramping Up Sales On Overseas Demand, Flash Charging",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/mark-cuban-michael-burry-raise-113000465.html",
-   "ts": "2026-08-01T11:30:00Z",
+   "url": "https://www.investors.com/news/tesla-rival-byd-sales-overseas-demand-flash-charging/?src=A00220&amp;yptr=yahoo",
+   "ts": "2026-08-01T12:19:44Z",
    "origin": "rss",
    "age_days": 1
   },
   {
-   "title": "Loblaw Companies Q2 Earnings Call Highlights",
+   "title": "A $2 Billion Reason to Buy Arm Holdings Stock Now",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/loblaw-companies-q2-earnings-call-110345305.html",
-   "ts": "2026-08-01T11:03:45Z",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "A 72-year-old retiree inherited $40,000 from her sister — here's what financial experts say to do first",
-   "summary": "",
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/articles/72-old-retiree-inherited-40-113000725.html",
-   "ts": "2026-08-01T11:30:00Z",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "Will SpaceX paint its rocket pink? Investor questions go beyond Moon and Mars ahead of first results",
-   "summary": "",
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/news/spacex-paint-rocket-pink-investor-100131917.html",
-   "ts": "2026-08-01T10:01:31Z",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "Mortgage and refinance interest rates today, Saturday, August 1, 2026: Rates higher than Friday",
-   "summary": "",
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-1-2026-rates-higher-than-friday-100000052.html",
-   "ts": "2026-08-01T10:00:00Z",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "US Treasury intervenes to support yen after Japan steps in, FT reports",
-   "summary": "",
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/currencies/articles/us-treasury-undertakes-intervention-yen-003009552.html",
-   "ts": "2026-08-01T09:20:01Z",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/2-billion-reason-buy-arm-140002670.html",
+   "ts": "2026-08-01T14:00:02Z",
    "origin": "rss",
    "age_days": 1
   },
@@ -1217,6 +1181,15 @@
    "age_days": 2
   },
   {
+   "title": "Investors scored on Iran war's oil market boom. Staying long the trade will get trickier",
+   "summary": "",
+   "source": "CNBC Energy",
+   "url": "https://www.cnbc.com/2026/08/02/oil-prices-iran-war-energy-market.html",
+   "ts": "Sun, 02 Aug 2026 13:00:01 GMT",
+   "origin": "rss",
+   "age_days": 0
+  },
+  {
    "title": "Embassies warn Americans of travel risk amid signs of possible U.S.-Iran military action in the coming days",
    "summary": "",
    "source": "CNBC Energy",
@@ -1231,15 +1204,6 @@
    "source": "CNBC Energy",
    "url": "https://www.cnbc.com/2026/07/31/senate-democrats-trump-lutnick-critical-mineral-deals.html",
    "ts": "Fri, 31 Jul 2026 15:41:21 GMT",
-   "origin": "rss",
-   "age_days": 2
-  },
-  {
-   "title": "Exxon and Chevron profits surge on rising oil prices due to Iran war",
-   "summary": "",
-   "source": "CNBC Energy",
-   "url": "https://www.cnbc.com/2026/07/31/exxon-xom-chevron-cvx-q2-earnings.html",
-   "ts": "Fri, 31 Jul 2026 15:52:20 GMT",
    "origin": "rss",
    "age_days": 2
   },
@@ -1321,15 +1285,6 @@
    "source": "CNBC Energy",
    "url": "https://www.cnbc.com/2026/07/28/us-iran-war-trump-hormuz.html",
    "ts": "Tue, 28 Jul 2026 15:40:32 GMT",
-   "origin": "rss",
-   "age_days": 5
-  },
-  {
-   "title": "Oil prices rise after U.S. blocks surprise attack from Iran",
-   "summary": "",
-   "source": "CNBC Energy",
-   "url": "https://www.cnbc.com/2026/07/28/oil-price-today-wti-brent-us-iran-hormuz.html",
-   "ts": "Tue, 28 Jul 2026 23:21:03 GMT",
    "origin": "rss",
    "age_days": 5
   },
@@ -1424,7 +1379,7 @@
    "age_days": 3
   },
   {
-   "title": "East Africa Advances Regional Natural Gas Pipeline Strategy - Environment+Energy Leader",
+   "title": "East Africa Advances Regional Natural Gas Pipeline Strategy - environmentenergyleader.com",
    "summary": "",
    "source": "莫桑东非能源·聚合",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUVlkb3QwcS1selZqNmV0S1VxZllYRndkWHVJaVpxRVlsTU9kM1RQcERraDU1RkxMdjB6aUREejJ2VU1rbEloWW9TcklRR25VV0doY21zY2RTR2U4dlNLY1dWUjd4MHFSZFRuYnpHQk40ZUJ2RHl6eTlDRmtoVXl3WG5admZHNHhyY2Vtc2pkLVR5YUhWdkM4Sm95WEJmUS01ZTR3Nk5uSldURFZ5RWtpLUxwdUY?oc=5",

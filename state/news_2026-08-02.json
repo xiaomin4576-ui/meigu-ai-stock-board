@@ -1,150 +1,100 @@
 {
  "asof": "2026-08-02",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-02T20:19+08:00",
+ "generated_at": "2026-08-02T22:53+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 18,
+  "cross_day_suppressed": 17,
   "cluster_label": "",
   "cluster_dropped": [],
   "backfilled": 0
  },
  "items": [
   {
-   "cat": "macro",
-   "title": "美元创三个月最差周表现 美联储疑虑升温",
-   "brief": "美元指数录得逾三个月最大单周跌幅，交易员在美联储会议前削减美元多头押注。",
-   "chain": "美元走弱→利好美股盈利与风险资产→A股外资流入预期改善，利好算力链估值。",
-   "impact": 8,
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-07-31/dollar-heads-for-worst-week-in-three-months-as-fed-doubts-grow",
-   "ts": "2026-08-01T04:32:54+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "中信证券：美联储加息落地后方见曙光",
-   "brief": "中信证券研报称，错过加息时点后，短期美股估值承压，但中长期加息落地有望释放估值压力。",
-   "chain": "加息预期反复→美股估值短期承压→A股科技成长股情绪受抑，等待政策明朗。",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829134423.html",
-   "ts": "2026-08-02 17:02:40"
-  },
-  {
-   "cat": "macro",
-   "title": "印度企业酝酿涨价 通胀考验央行目标",
-   "brief": "印度消费者物价近一年来首次突破央行4%目标，企业计划提价，考验通胀前景。",
-   "chain": "新兴市场通胀升温→全球利率预期波动→影响A股风险偏好，关注通胀链。",
-   "impact": 6,
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-07-31/indian-firms-plan-fresh-price-hikes-testing-inflation-outlook",
-   "ts": "2026-08-01T04:27:14+00:00"
-  },
-  {
    "cat": "geo",
-   "title": "特朗普取消对伊朗打击 称达成协议框架",
-   "brief": "特朗普宣布取消对伊朗的军事打击，称已就“协议边界”达成一致，但伊朗军方称部队处于最高战备。",
-   "chain": "美伊冲突缓和→避险情绪降温→利好全球风险资产，A股风险偏好回升。",
+   "title": "特朗普取消对伊朗打击，称达成协议框架",
+   "brief": "特朗普取消原计划对伊朗的打击，称已就“协议边界”达成一致，中东局势现缓和迹象。",
+   "chain": "美伊冲突降温→油价短期承压→A股油气链情绪或受抑",
    "impact": 9,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/02/trump-planned-attack-on-iran-canceled-after-reaching-outline-of-deal.html",
    "ts": "Sun, 02 Aug 2026 10:18:35 GMT"
   },
   {
-   "cat": "geo",
-   "title": "美取消打击伊朗 但对峙并未结束",
-   "brief": "伊朗媒体援引军方官员称，无论美国侵略还是退缩，伊朗部队都处于最高战备状态，对峙持续。",
-   "chain": "美伊紧张未消→地缘风险溢价仍存→油价波动，A股油气链受关注。",
+   "cat": "oil",
+   "title": "OPEC+决定9月增产18.8万桶/日",
+   "brief": "OPEC+主要产油国决定9月日均增产18.8万桶，重申维护市场稳定，关注供应增加对油价影响。",
+   "chain": "增产→供给增加→油价承压→莫桑比克LNG项目竞争力或受抑",
    "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829138263.html",
-   "ts": "2026-08-02 17:59:07"
+   "url": "https://finance.eastmoney.com/a/202608023829174973.html",
+   "ts": "2026-08-02 22:33:17"
   },
   {
    "cat": "geo",
-   "title": "俄乌德穆尔特遭无人机袭击 致3死2伤",
-   "brief": "8月2日乌克兰无人机袭击俄罗斯乌德穆尔特共和国，造成3人死亡、2人受伤。",
-   "chain": "俄乌冲突持续→地缘风险支撑油价→A股油气及军工板块或有反应。",
+   "title": "伊朗打击巴林亚马逊数据中心，称回应美国",
+   "brief": "伊朗革命卫队称打击巴林亚马逊数据中心，因该设施承担情报与美军指挥支持，中东科技基础设施成目标。",
+   "chain": "地缘冲突升级→美股科技股风险溢价上升→A股算力链情绪或受扰",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829144450.html",
+   "ts": "2026-08-02 19:03:10"
+  },
+  {
+   "cat": "macro",
+   "title": "美元创三个月最差周表现，美联储疑虑升温",
+   "brief": "美元录得三个月最差周表现，交易员对美联储政策路径产生疑虑，市场波动加剧。",
+   "chain": "美元走弱→黄金受益→美股AI高久期估值分母改善→A股算力链情绪或提振",
    "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829145511.html",
-   "ts": "2026-08-02 19:11:39"
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-07-31/dollar-heads-for-worst-week-in-three-months-as-fed-doubts-grow",
+   "ts": "2026-08-01T04:32:54+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "达利欧警告：现金回报将最差",
+   "brief": "桥水创始人达利欧警告，现金将是“最差回报”资产，暗示投资者应转向其他资产。",
+   "chain": "现金贬值预期→资金流向风险资产→利好美股科技成长→A股算力链或受益",
+   "impact": 6,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/currencies/articles/ray-dalio-warns-major-asset-125500604.html",
+   "ts": "2026-08-01T12:55:00Z"
   },
   {
    "cat": "oil",
-   "title": "欧佩克+同意9月增产18.8万桶/日",
-   "brief": "欧佩克+声明称，七个成员国同意将9月石油产量配额提高18.8万桶/日，审议全球市场状况。",
-   "chain": "增产落地→油价短期承压→莫桑比克LNG项目竞争力相对提升，关注东非油气开发。",
-   "impact": 9,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829150046.html",
-   "ts": "2026-08-02 19:43:33"
-  },
-  {
-   "cat": "oil",
-   "title": "伊朗否认重开霍尔木兹海峡计划",
-   "brief": "伊朗法尔斯通讯社援引消息人士称，重开霍尔木兹海峡的计划纯属谣言，尚未达成任何协议。",
-   "chain": "霍尔木兹风险未消→油价地缘溢价维持→莫桑比克油气出口绕行好望角，运输成本影响。",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829139839.html",
-   "ts": "2026-08-02 18:16:10"
+   "title": "埃克森美孚与雪佛龙利润因油价飙升",
+   "brief": "受伊朗战争影响油价上涨，埃克森美孚和雪佛龙利润大增，能源巨头受益。",
+   "chain": "油价上涨→油企利润增→全球能源成本上升→莫桑比克油气项目经济性改善",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/31/exxon-xom-chevron-cvx-q2-earnings.html",
+   "ts": "Fri, 31 Jul 2026 15:52:20 GMT"
   },
   {
    "cat": "gas",
-   "title": "恒力重工7月承接46艘新船订单",
-   "brief": "恒力重工7月单月承接46艘新造船订单，覆盖散货、集装箱、油轮、气体船，总金额超300亿元。",
-   "chain": "新船订单大增→LNG运输船需求旺盛→利好莫桑比克LNG出口物流，降低运输成本。",
+   "title": "OPEC+强调保证海上航道畅通",
+   "brief": "OPEC+声明强调需保证海上航道畅通，确保能源运输安全，对全球LNG运输有影响。",
+   "chain": "航道安全→LNG运输风险→气价波动→莫桑比克LNG出口需关注航运安全",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829156147.html",
+   "ts": "2026-08-02 20:53:01"
+  },
+  {
+   "cat": "tech",
+   "title": "华强北显卡价格跳涨，热门型号一日一价",
+   "brief": "深圳华强北市场显卡价格快速上涨，部分热门型号数日内价格飙升，反映硬件供需紧张。",
+   "chain": "显卡涨价→AI算力硬件成本上升→美股芯片股或受益→A股算力链成本压力",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829150169.html",
-   "ts": "2026-08-02 19:46:04"
-  },
-  {
-   "cat": "tech",
-   "title": "通用汽车将推车载AI系统",
-   "brief": "通用汽车计划今年晚些时候推出自研车载AI系统，提升智能化体验。",
-   "chain": "传统车企加码AI→汽车智能化加速→A股智能驾驶产业链受益。",
-   "impact": 6,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/07/31/gm-in-vehicle-ai-system.html",
-   "ts": "2026-07-31T13:20:52+00:00"
-  },
-  {
-   "cat": "tech",
-   "title": "广汽本田两年内推两款本土电车",
-   "brief": "广汽本田规划未来两年推出5款新车，包括两款合资公司定义的本土电车，加速本土化适配。",
-   "chain": "合资品牌电动化提速→竞争加剧→A股新能源汽车产业链关注。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829145798.html",
-   "ts": "2026-08-02 19:11:39"
-  },
-  {
-   "cat": "tech",
-   "title": "理想汽车7月交付30468辆",
-   "brief": "理想汽车公布2026年7月交付新车30468辆，保持稳健增长。",
-   "chain": "新势力销量稳健→新能源车景气→A股汽车零部件及电池链受益。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829143146.html",
-   "ts": "2026-08-02 18:48:44"
+   "url": "https://finance.eastmoney.com/a/202608023829175581.html",
+   "ts": "2026-08-02 22:34:00"
   },
   {
    "cat": "ai",
-   "title": "AI改写存储芯片周期",
-   "brief": "央视财经称，AI算力需求爆发重塑存储芯片需求结构，AI驱动的增长成为新周期主导。",
-   "chain": "AI需求拉动存储→存储芯片量价齐升→A股存储产业链（如兆易创新）受益。",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829142378.html",
-   "ts": "2026-08-02 18:29:51"
-  },
-  {
-   "cat": "ai",
-   "title": "科技AI建设成本飙升 内存价格高企",
-   "brief": "科技公司AI建设成本不断膨胀，内存成本飙升，给资产负债表带来压力。",
-   "chain": "AI基础设施成本上升→科技股利润率承压→A股算力链需关注成本传导。",
+   "title": "AI建设成本飙升，内存价格高企",
+   "brief": "科技公司AI建设成本不断膨胀，内存成本飙升，给AI基础设施投资带来压力。",
+   "chain": "AI成本上升→科技公司资本开支增加→美股AI产业链受益→A股算力链或联动",
    "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/07/31/tech-earnings-cash-memory-ai.html",
@@ -152,23 +102,113 @@
   },
   {
    "cat": "ai",
-   "title": "申万宏源：AI大波段重启需时间",
-   "brief": "申万宏源报告指出，AI产业链大波段上涨重启仍需要时间，建议重视非科技方向轮动。",
-   "chain": "AI板块短期调整→资金轮动→A股非科技板块或有阶段性机会。",
+   "title": "通用汽车将推车载AI系统",
+   "brief": "通用汽车计划今年晚些时候推出自研车载AI系统，提升智能化体验，汽车AI竞争加剧。",
+   "chain": "车企AI布局→AI应用场景扩展→美股科技股受益→A股智能驾驶链或联动",
+   "impact": 5,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/07/31/gm-in-vehicle-ai-system.html",
+   "ts": "2026-07-31T13:20:52+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "服务器CPU或助AMD股价大涨",
+   "brief": "分析师认为服务器CPU需求强劲，可能推动AMD股价在8月4日后大涨，关注财报。",
+   "chain": "服务器CPU需求→AMD业绩预期→美股芯片股走强→A股算力链情绪或提振",
    "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829141474.html",
-   "ts": "2026-08-02 18:23:58"
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/server-cpus-could-amd-stock-130002075.html",
+   "ts": "2026-08-01T13:00:02Z"
+  },
+  {
+   "cat": "tech",
+   "title": "库克视苹果混合AI战略为竞争武器",
+   "brief": "苹果CEO库克认为混合AI战略是“竞争武器”，强调AI在苹果生态中的重要性。",
+   "chain": "苹果AI战略→科技巨头AI竞争→美股科技股估值支撑→A股苹果链或受益",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/30/tim-cook-sees-apples-hybrid-ai-strategy-as-a-competitive-weapon-.html",
+   "ts": "Fri, 31 Jul 2026 00:23:53 GMT"
   },
   {
    "cat": "ai",
-   "title": "广发策略：AI资产回撤后有修正空间",
-   "brief": "广发策略研报认为，AI资产在7月快速回撤后，后续大概率有较可观的修正空间。",
-   "chain": "AI板块超跌→反弹预期→A股算力链或迎修复行情。",
-   "impact": 6,
+   "title": "AI对冲基金爆仓，杠杆风险暴露",
+   "brief": "Leopold Aschenbrenner的45亿美元AI对冲基金数日内损失大部分，揭示杠杆风险。",
+   "chain": "AI基金爆仓→市场风险偏好下降→美股AI股波动→A股算力链情绪或受抑",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html",
+   "ts": "Fri, 31 Jul 2026 20:19:03 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "彭博推迟纳入印度债券至全球指数",
+   "brief": "彭博推迟将印度债券纳入其全球指数，令交易员失望，并引发对印度市场准入的担忧。",
+   "chain": "印度债券推迟→新兴市场资金流影响→全球风险偏好→A股外资流向或受扰",
+   "impact": 4,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-07-31/bloomberg-defers-inclusion-of-indian-bonds-in-global-index-ms8wqbxp",
+   "ts": "2026-08-01T06:15:14+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "俄乌德穆尔特遭无人机袭击致3死2伤",
+   "brief": "乌克兰无人机袭击俄罗斯乌德穆尔特共和国，导致3人死亡，2人受伤，冲突持续。",
+   "chain": "俄乌冲突持续→地缘风险溢价→油价波动→莫桑比克能源市场或受间接影响",
+   "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608023829139973.html",
-   "ts": "2026-08-02 18:18:48"
+   "url": "https://finance.eastmoney.com/a/202608023829145511.html",
+   "ts": "2026-08-02 19:11:39"
+  },
+  {
+   "cat": "geo",
+   "title": "巴西总统卢拉登记为总统候选人",
+   "brief": "巴西总统卢拉正式登记为总统候选人，参加2026年大选，政治局势受关注。",
+   "chain": "巴西大选→拉美政治风险→全球市场情绪→A股大宗商品链或受扰",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829161068.html",
+   "ts": "2026-08-02 21:41:54"
+  },
+  {
+   "cat": "tech",
+   "title": "广汽本田两年内推两款本土电车",
+   "brief": "广汽本田计划两年内推出两款合资公司定义的本土电车，加速本土化适配。",
+   "chain": "合资车企电动化→中国电车市场竞争加剧→美股特斯拉承压→A股电车链或分化",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829145798.html",
+   "ts": "2026-08-02 19:11:39"
+  },
+  {
+   "cat": "tech",
+   "title": "理想汽车7月交付3.05万辆",
+   "brief": "理想汽车7月交付新车30468辆，销量稳健，但增速放缓，市场关注后续表现。",
+   "chain": "理想交付量→新能源车竞争格局→美股中概股情绪→A股汽车链或联动",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829143146.html",
+   "ts": "2026-08-02 18:48:44"
+  },
+  {
+   "cat": "ai",
+   "title": "Robinhood CEO：AI代理将改变加密市场",
+   "brief": "Robinhood CEO认为AI代理可能改变加密货币市场，为投资者带来新机遇。",
+   "chain": "AI代理应用→金融科技变革→美股科技股受益→A股金融科技链或联动",
+   "impact": 3,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/crypto/articles/robinhood-ceo-vlad-tenev-thinks-130800650.html",
+   "ts": "2026-08-01T13:08:00Z"
+  },
+  {
+   "cat": "gas",
+   "title": "恒力重工7月承接46艘新船订单",
+   "brief": "恒力重工7月承接46艘新造船订单，总金额超300亿元，涵盖散货、集装箱、油轮、气体船。",
+   "chain": "新船订单→航运运力增加→LNG运输成本或降→莫桑比克LNG出口物流或受益",
+   "impact": 3,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829150169.html",
+   "ts": "2026-08-02 19:46:04"
   }
  ]
 }
