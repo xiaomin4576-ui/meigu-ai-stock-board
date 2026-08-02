@@ -1,0 +1,207 @@
+{
+ "asof": "2026-08-02",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-08-02T11:50+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 21,
+  "cluster_label": "伊朗",
+  "cluster_dropped": [
+   "伊朗革命卫队称摧毁3架美军F-35",
+   "伊朗权力中心重叠使战争结束复杂化"
+  ],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "geo",
+   "title": "特朗普称同意取消对伊朗打击",
+   "brief": "8月1日特朗普称同意取消对伊朗打击，因双方就协议框架达成一致，包括霍尔木兹海峡相关安排。",
+   "chain": "美伊冲突缓和→油价短期承压→A股油气及航运股情绪受抑",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829095823.html",
+   "ts": "2026-08-02 10:13:21"
+  },
+  {
+   "cat": "oil",
+   "title": "布伦特原油暗盘跌破86美元",
+   "brief": "布伦特原油暗盘跌破86美元，日内跌超4.6%，受美伊局势缓和及需求担忧影响。",
+   "chain": "地缘风险溢价消退→油价下跌→莫桑比克油气项目短期收入承压",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829099889.html",
+   "ts": "2026-08-02 10:53:20"
+  },
+  {
+   "cat": "macro",
+   "title": "美股收高但收益率飙升",
+   "brief": "美股道指和纳指收高，尽管收益率飙升，亚马逊大涨提振市场。",
+   "chain": "收益率上行→美股科技股估值承压→A股算力链短期波动",
+   "impact": 7,
+   "source": "Yahoo Finance",
+   "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-apple-earnings-aapl-stock-amazon-stock-amzn/?src=A00220&amp;yptr=yahoo",
+   "ts": "2026-07-31T20:37:59Z"
+  },
+  {
+   "cat": "tech",
+   "title": "亚马逊财报超预期股价大涨15%",
+   "brief": "亚马逊Q2财报超预期，AWS云业务强劲，股价大涨15%。",
+   "chain": "AWS强劲→美股云板块提振→A股云计算产业链映射",
+   "impact": 8,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/article/amazon-stock-soars-15-as-e-commerce-giants-aws-cloud-business-booms-in-home-run-quarter-122456315.html",
+   "ts": "2026-07-31T12:24:56Z"
+  },
+  {
+   "cat": "tech",
+   "title": "苹果营收指引疲软因内存短缺",
+   "brief": "苹果发布疲软营收指引，CEO库克称内存短缺影响加剧，股价下跌。",
+   "chain": "内存短缺→苹果供应链风险→A股存储芯片链受关注",
+   "impact": 7,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/technology/article/apple-stock-falls-on-weak-revenue-forecast-as-ceo-tim-cook-flags-increasing-impact-from-memory-shortage-130428410.html",
+   "ts": "2026-07-31T13:04:28Z"
+  },
+  {
+   "cat": "ai",
+   "title": "AI建设成本飙升内存价格高企",
+   "brief": "科技公司AI建设成本因内存价格飙升而膨胀，现金消耗加快。",
+   "chain": "AI资本开支增加→科技巨头盈利承压→A股算力链成本端压力",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/31/tech-earnings-cash-memory-ai.html",
+   "ts": "Fri, 31 Jul 2026 19:55:13 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "Roblox股价暴跌27%",
+   "brief": "Roblox因预订量指引疲软股价暴跌27%，显示游戏行业增长放缓。",
+   "chain": "游戏需求疲软→美股科技股分化→A股游戏板块情绪受抑",
+   "impact": 5,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/roblox-stock-plunges-27-weak-203853775.html",
+   "ts": "2026-07-31T20:38:53Z"
+  },
+  {
+   "cat": "ai",
+   "title": "库克称苹果混合AI战略是竞争武器",
+   "brief": "库克表示苹果的混合AI战略（设备端+云端）是竞争优势，将推动创新。",
+   "chain": "苹果AI战略→端侧AI需求提升→A股AI硬件产业链受益",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/30/tim-cook-sees-apples-hybrid-ai-strategy-as-a-competitive-weapon-.html",
+   "ts": "Fri, 31 Jul 2026 00:23:53 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "从霍尔木兹到黑海：海上战场塑造新秩序",
+   "brief": "文章分析全球海上冲突点（霍尔木兹、黑海）正在塑造新世界秩序。",
+   "chain": "海上冲突频发→航运成本上升→全球贸易及能源运输受影响",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/30/strait-hormuz-drone-shipping-risks.html",
+   "ts": "Thu, 30 Jul 2026 08:52:10 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "特朗普称未同意向乌克兰发放爱国者导弹许可",
+   "brief": "特朗普表示美国未同意向乌克兰发放爱国者导弹许可，影响俄乌局势。",
+   "chain": "美对乌军援不确定→地缘风险→A股军工板块情绪",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/31/trump-ukraine-patriot-missile-license-russia.html",
+   "ts": "Fri, 31 Jul 2026 18:52:10 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "伯克希尔股价创八个月新高",
+   "brief": "伯克希尔哈撒韦股价创八个月新高，市场关注其现金储备和投资动向。",
+   "chain": "伯克希尔创新高→市场信心→A股价值投资风格",
+   "impact": 4,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/01/-berkshire-hathaway-shares-hit-eight-month-high.html",
+   "ts": "Sat, 01 Aug 2026 14:41:54 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "美韩科技股关联紧密成投资者担忧",
+   "brief": "报道称美韩科技股关联度极高，可能加剧市场波动，引发投资者担忧。",
+   "chain": "美韩科技联动→美股波动→A股半导体链情绪传导",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/28/nasdaq-kospi-wall-street-korea-markets-skhynox-samsung.html",
+   "ts": "Tue, 28 Jul 2026 01:34:28 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "微软股价飙升后如何获利",
+   "brief": "微软财报后股价大涨，分析师讨论后续获利策略。",
+   "chain": "微软业绩强劲→美股科技股提振→A股云计算链映射",
+   "impact": 5,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/07/31/microsoft-shares-are-surging-heres-how-to-still-make-money-says-mike-khouw.html",
+   "ts": "2026-07-31T15:26:31+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "微软财报超预期获Cramer支持",
+   "brief": "微软财报超预期，Jim Cramer改变态度表示支持。",
+   "chain": "微软业绩超预期→科技股情绪→A股软件服务链",
+   "impact": 4,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/07/30/microsoft-wins-back-jim-cramers-support-after-a-surprisingly-good-quarter.html",
+   "ts": "2026-07-30T18:52:13+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "通用汽车将推出车载AI系统",
+   "brief": "通用汽车计划今年晚些时候推出自研车载AI系统，提升智能化水平。",
+   "chain": "车企布局AI→智能驾驶加速→A股汽车电子链受益",
+   "impact": 5,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/07/31/gm-in-vehicle-ai-system.html",
+   "ts": "2026-07-31T13:20:52+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "Anduril CEO谈AI在战争中的应用",
+   "brief": "Anduril CEO讨论AI在国防和制造中的角色，强调技术优势。",
+   "chain": "AI军事应用→国防科技→A股军工AI概念",
+   "impact": 4,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/07/31/the-tech-download-anduril-ceo-brian-schimpf.html",
+   "ts": "2026-07-31T11:11:29+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "AI对冲基金爆仓损失数十亿",
+   "brief": "Leopold Aschenbrenner的AI对冲基金在几天内损失大部分资金，凸显杠杆风险。",
+   "chain": "AI投资风险→市场情绪→A股AI概念波动",
+   "impact": 4,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html",
+   "ts": "Fri, 31 Jul 2026 20:19:03 GMT"
+  },
+  {
+   "cat": "gas",
+   "title": "欧盟将讨论休达移民危机",
+   "brief": "欧盟将于4日召开会议讨论西班牙北非飞地休达的移民危机，影响地区稳定。",
+   "chain": "移民危机→地缘紧张→欧洲能源供应稳定性",
+   "impact": 3,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608023829089187.html",
+   "ts": "2026-08-02 08:25:33"
+  },
+  {
+   "cat": "oil",
+   "title": "石油巨头财报与IPO动态",
+   "brief": "早间新闻涵盖石油巨头财报、IPO等，市场关注能源板块表现。",
+   "chain": "石油巨头业绩→油价预期→莫桑比克油气项目前景",
+   "impact": 4,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/07/31/5-things-to-know-before-the-stock-market-opens.html",
+   "ts": "Fri, 31 Jul 2026 12:37:32 GMT"
+  }
+ ]
+}
