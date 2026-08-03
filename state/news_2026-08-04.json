@@ -1,0 +1,194 @@
+{
+ "asof": "2026-08-04",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-08-04T00:11+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 17,
+  "cluster_label": "",
+  "cluster_dropped": [],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "美元走低金价上涨 中东和平希望打压油价",
+   "brief": "8月3日，美元指数下跌，金价上涨，市场对中东达成和平协议的希望增强，油价承压。",
+   "chain": "美元走低+避险情绪降温→金价上涨→对美股AI高久期票估值分母影响有限，但风险偏好回升利好成长股→A股算力链情绪或受提振",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTnkxZDh5TElCa1dZeUtDT2JfblI5ZFJuQkZNQ1pvbHlkcWxHRUVfMk51N2t0ZDUtbEhOYW9aVjg5d3lMSkNXYlFMc0I5Z3o1bjh4c0pkZ3BsWkRYeWhOalNoOUZPN3pvYVRSb1NnT21rZy1TamRFMHN2MUp1WjhoSmZaT0prMExjTVk1aThUbHAwNEo3MmpsbTI2UFdsY2Z2Y0RlT2RB?oc=5",
+   "ts": "2026-08-03T00:41:00+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "美国财政部拍卖3月期国债 得标利率3.75%",
+   "brief": "美国财政部拍卖3个月期国债，得标利率3.750%，投标倍数2.61；6个月期国债得标利率3.855%。",
+   "chain": "短债拍卖需求平稳→短端利率稳定→对美股估值影响中性→A股算力链无直接传导",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608033830136486.html",
+   "ts": "2026-08-03 23:33:19"
+  },
+  {
+   "cat": "macro",
+   "title": "摩根士丹利：日元干预风险或使欧元成套息融资货币",
+   "brief": "摩根士丹利称，日元干预风险可能促使投资者转向欧元和瑞郎作为套息融资货币。",
+   "chain": "日元干预→套息交易平仓→全球风险资产波动→美股短期承压→A股算力链情绪或受波及",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608033830140021.html",
+   "ts": "2026-08-03 23:51:10"
+  },
+  {
+   "cat": "geo",
+   "title": "特朗普称与伊朗谈判已开始 计划近期更多会谈",
+   "brief": "8月3日，特朗普在Truth Social发文称与伊朗谈判已开始，后续会谈已提上日程。",
+   "chain": "美伊谈判重启→地缘风险降温→美股风险偏好回升→A股算力链情绪或受提振",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608033830140777.html",
+   "ts": "2026-08-03 23:58:43"
+  },
+  {
+   "cat": "geo",
+   "title": "伊朗称目前与美国没有进行谈判",
+   "brief": "伊朗方面表示，目前与美国没有进行谈判，与特朗普的表态相矛盾。",
+   "chain": "美伊谈判前景不明→地缘风险反复→美股波动→A股算力链情绪或受压制",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTE5hZ0ZnQjBGVFdjTV9kRkdQWm9oaWd0VG9UQ084WGJvRmFoNElkSG5Ec0xocHdYTDdUM1JTd3RYQ0kybnN0dXB5T2hwNFEwSktaZ05FNGxzbUFwd0FqWEl4WWQyVzBCaVowNUpTWGNad19MdERreFFYSEYwWkVuekpwOW1VeE5lVkR6eDBaOGdPZw?oc=5",
+   "ts": "2026-08-03T07:29:55+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "普京任命俄罗斯驻叙利亚新任大使",
+   "brief": "8月3日，普京签署总统令，任命德米特里·多加德金为俄驻叙利亚大使。",
+   "chain": "俄叙关系调整→中东地缘格局微变→对美股影响有限→A股算力链无直接传导",
+   "impact": 3,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608033830127888.html",
+   "ts": "2026-08-03 23:21:23"
+  },
+  {
+   "cat": "oil",
+   "title": "特朗普取消对伊朗打击 油价大跌5%至三周低点",
+   "brief": "特朗普取消对伊朗的军事打击，国际油价下跌5%，创三周新低。",
+   "chain": "美伊冲突缓和→油价下跌→对莫桑比克油气出口价格形成压力，但地缘风险溢价回落利于长期稳定",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVnBOaGh1VXBaaGQwVmloSzlPcmg5aFdQeENKS3JtNi1wQTZlQTRBUm02ODRrYkNVZkNDREwtTTdMeUhlNV94QjctaFhpMWhTWVVJaF9xeVhWdEdKZXBMbFA4alVQaDBXbnMzczBqRnVBUlVrVUJJTFhLQjdpSU9SV2lHV1FQd0hvOEs0QkZwLVZfUDhtSkVGUU02T2tPeDFXaU5SaWRtUWt3cjhE?oc=5",
+   "ts": "2026-08-03T00:11:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "EIA：美国战略石油储备原油库存降至1983年来最低",
+   "brief": "EIA数据显示，上周美国战略石油储备原油库存减少约285万桶，至3.048亿桶，为1983年以来最低。",
+   "chain": "SPR库存低位→美国补库需求或支撑油价→对莫桑比克油气出口价格形成支撑",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608033830124036.html",
+   "ts": "2026-08-03 23:09:47"
+  },
+  {
+   "cat": "oil",
+   "title": "国内燃料油夜盘跌超2% 低硫燃料油跌超1%",
+   "brief": "国内期货夜盘燃料油跌超2%，低硫燃料油跌超1%，跟随国际油价下跌。",
+   "chain": "国际油价下跌→国内燃料油期货跟跌→对莫桑比克油气出口价格形成压力",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608033830118427.html",
+   "ts": "2026-08-03 23:01:25"
+  },
+  {
+   "cat": "gas",
+   "title": "伊朗战争以来加州柴油价格上涨 波及全美",
+   "brief": "伊朗战争开始后，加州柴油价格上涨，并对全美产生连锁影响。",
+   "chain": "地缘冲突→柴油价格上涨→炼油利润率提升→对莫桑比克LNG项目影响有限，但成品油市场波动或间接影响",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/03/californias-diesel-prices-have-jumped-since-the-iran-war-started-with-ripple-effects-across-the-country.html",
+   "ts": "Mon, 03 Aug 2026 15:27:52 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "亚马逊市值突破3万亿美元 股价续涨",
+   "brief": "亚马逊股价在财报后持续上涨，市值首次突破3万亿美元。",
+   "chain": "亚马逊财报超预期→科技股情绪提振→A股算力链或受带动",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/03/amazon-amzn-stock-market-cap-earnings.html",
+   "ts": "Mon, 03 Aug 2026 15:50:20 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "铠侠ADR涨幅扩大至12.48% 市值约1700亿美元",
+   "brief": "铠侠ADR大涨12.48%，市值约1700亿美元，市场对存储芯片需求乐观。",
+   "chain": "存储芯片涨价预期→半导体板块走强→A股存储芯片产业链或受提振",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608033830116227.html",
+   "ts": "2026-08-03 22:56:31"
+  },
+  {
+   "cat": "tech",
+   "title": "美光科技股价转涨 此前一度跌6%",
+   "brief": "美光科技股价转涨，现报823.755美元/股，总市值9303亿美元。",
+   "chain": "美光股价反弹→存储芯片需求预期改善→A股存储产业链或受带动",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608033830113577.html",
+   "ts": "2026-08-03 22:51:28"
+  },
+  {
+   "cat": "tech",
+   "title": "阿斯利康伦敦收跌9% 创2020年3月来最大跌幅",
+   "brief": "阿斯利康在伦敦收跌9%，创2020年3月以来最大单日跌幅，因与百时美施贵宝合并传闻。",
+   "chain": "医药巨头合并传闻→市场担忧交易风险→美股医药板块情绪或受波及→A股医药股或联动",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608033830137417.html",
+   "ts": "2026-08-03 23:38:40"
+  },
+  {
+   "cat": "ai",
+   "title": "城堡证券：到2028年AI芯片融资债务将超5000亿美元",
+   "brief": "城堡证券预测，到2028年，为AI芯片融资的新增债务将超过5000亿美元。",
+   "chain": "AI算力投资激增→债务融资需求扩大→利好美股AI基建股→A股算力链或受带动",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608033830130745.html",
+   "ts": "2026-08-03 23:24:11"
+  },
+  {
+   "cat": "ai",
+   "title": "上半年3000亿元涌入中国AI创业公司 创投加速",
+   "brief": "央视财经报道，上半年高技术产业投资同比增长4.6%，3000亿元涌入AI创业公司。",
+   "chain": "国内AI投资火热→产业景气度提升→A股AI算力链或受提振",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608033830117867.html",
+   "ts": "2026-08-03 23:01:47"
+  },
+  {
+   "cat": "ai",
+   "title": "红杉资本领投核能初创Valar 10亿美元融资",
+   "brief": "红杉资本领投核能初创公司Valar的10亿美元融资，用于AI数据中心供电。",
+   "chain": "AI算力需求→核能投资增加→利好美股核电概念→A股核电板块或联动",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608033830117288.html",
+   "ts": "2026-08-03 23:00:55"
+  },
+  {
+   "cat": "ai",
+   "title": "Hugging Face CEO：中国在AI竞赛中领先开源模型",
+   "brief": "Hugging Face CEO表示，中国在AI竞赛中领先，主导开源模型。",
+   "chain": "中国AI开源模型领先→全球AI竞争格局变化→美股AI股或承压→A股AI算力链或受关注",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/03/hugging-face-china-ai-race-open-models.html",
+   "ts": "Mon, 03 Aug 2026 15:49:38 GMT"
+  }
+ ]
+}
