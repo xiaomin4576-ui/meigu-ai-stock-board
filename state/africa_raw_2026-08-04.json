@@ -1,6 +1,6 @@
 {
  "asof": "2026-08-04",
- "fetched_at": "2026-08-04T11:43+08:00",
+ "fetched_at": "2026-08-04T12:52+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -14,13 +14,13 @@
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 2,
-   "非洲科技·聚合": 0,
-   "中非科技·聚合": 0
+   "非洲科技·聚合": 10,
+   "中非科技·聚合": 14
   },
   "total": 60,
-  "ai_flagged": 16,
-  "aiinfra_flagged": 3,
-  "countries": 7
+  "ai_flagged": 19,
+  "aiinfra_flagged": 4,
+  "countries": 6
  },
  "items": [
   {
@@ -54,11 +54,31 @@
    "is_aiinfra": false
   },
   {
+   "title": "Interpol says AI has become the \"core operational driver of cybercrime\" across Africa",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxQUEN5emFKbmRRam5VX1Zhcmk4bkJQVGZodWJlSFNlVE5ZLUtFZGVjdXFsR3ZsZTduMHZRNldENDZ5a2ZrSzRaaGJHMEJQbFo5NDY1dV95dnF0SS1zVGN2aTFYTFk4dUpjNTlzRzlUODRidVNFQl95WDB3UWRaMz",
+   "source": "the-decoder.com·聚合",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUEN5emFKbmRRam5VX1Zhcmk4bkJQVGZodWJlSFNlVE5ZLUtFZGVjdXFsR3ZsZTduMHZRNldENDZ5a2ZrSzRaaGJHMEJQbFo5NDY1dV95dnF0SS1zVGN2aTFYTFk4dUpjNTlzRzlUODRidVNFQl95WDB3UWRaMzQxRkQzQ1lZemMtcVlvT3l0Y3BmdGVfUElkSko0QkJNRjhjT0RIUnRqUXBvS1NH?oc=5",
+   "date": "Mon, 03 Aug 2026 15:55:18 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
    "title": "Safaricom’s next billion won’t come from new customers",
    "brief": "Safaricom is making M-PESA payments cheaper, increasing data bundles and boosting fibre speeds as it shifts its focus from winning new customers to getting existing ones to use more of its services.",
    "source": "TechCabal",
    "url": "https://techcabal.com/2026/08/03/safaricoms-next-billion-wont-come-from-new-customers/",
    "date": "Mon, 03 Aug 2026 15:52:59 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "The future of fintech",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxQQllRSWpUcGNxaFpHc29rYnFxVVIwN3BQTUdqQ1drVDVVY3U2dXlUemdxNHRMZXFQSnJQLU1aSVBrcldHUEdFa0tjVUVoZkhzSG5DLVRObEttUFdiWHZSeXg0UHM1cHJ5Zkw4eVduUFdFbllDOXVrc2pDM2hxMX",
+   "source": "Dentons·聚合",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQllRSWpUcGNxaFpHc29rYnFxVVIwN3BQTUdqQ1drVDVVY3U2dXlUemdxNHRMZXFQSnJQLU1aSVBrcldHUEdFa0tjVUVoZkhzSG5DLVRObEttUFdiWHZSeXg0UHM1cHJ5Zkw4eVduUFdFbllDOXVrc2pDM2hxMXBORU5qTFdQdm8?oc=5",
+   "date": "Mon, 03 Aug 2026 15:17:26 GMT",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -304,12 +324,62 @@
    "is_aiinfra": false
   },
   {
+   "title": "INTERPOL report finds AI linked to more than half of cybercrime in Africa",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNVpob1dlS0xiRmVRaEs0WU5UTG1qMGpjczN6bWM0bkprZWM0Um5feXJRcTBqLVVoeHNuVFQ2eHNqN1dEVUlRa2VQa0tQRVBrZTdhTGQ5eldhQXFrQjhTOGM3UmlQRWozdVVCN21QeDVUTmxnUjJ2ZzVzOXJYRm",
+   "source": "Interpol·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNVpob1dlS0xiRmVRaEs0WU5UTG1qMGpjczN6bWM0bkprZWM0Um5feXJRcTBqLVVoeHNuVFQ2eHNqN1dEVUlRa2VQa0tQRVBrZTdhTGQ5eldhQXFrQjhTOGM3UmlQRWozdVVCN21QeDVUTmxnUjJ2ZzVzOXJYRmsxVFFXYjVkLVVDS2JTSDdGWU5PVk9tREx1UXRpc1k2eE1uZ05GM1hhdHNVbnBEbkFaM1NhMVJFWVRZUndoeXNWRkE4dw?oc=5",
+   "date": "Mon, 03 Aug 2026 06:24:48 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
    "title": "👨🏿‍🚀TechCabal Daily – Kenya’s piracy hunt",
    "brief": "In today's edition: South Africans are paying less for TV, shopping || Kenya to tackle piracy || HSBC Egypt finds a buyer for retail business || Telecom Namibia extends acting CEO tenure",
    "source": "TechCabal",
    "url": "https://techcabal.com/2026/08/03/%f0%9f%91%a8%f0%9f%8f%bf%f0%9f%9a%80techcabal-daily-kenyas-piracy-hunt/",
    "date": "Mon, 03 Aug 2026 06:24:37 +0000",
    "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Apply Now: $12 Million for Digital Technology Research in Africa",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE5ld1NhS3djcWVMc2dYQjJCemd5eVBUdVRmRlo2Y3dDbkRPand1X2EwQUhHakVRbm9Dczl5YjBKaTFrT045MmctM09wdko0SjhRSFZaZDZVanRLcEJWcUFxVjI3U01qZnNfQm1xU1ptZU8?oc=5\" target=\"_bla",
+   "source": "ICTworks·聚合",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ld1NhS3djcWVMc2dYQjJCemd5eVBUdVRmRlo2Y3dDbkRPand1X2EwQUhHakVRbm9Dczl5YjBKaTFrT045MmctM09wdko0SjhRSFZaZDZVanRLcEJWcUFxVjI3U01qZnNfQm1xU1ptZU8?oc=5",
+   "date": "Mon, 03 Aug 2026 04:47:03 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "How Indian billionaires are challenging China for gold, lithium, copper and telecom wealth in Africa",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUjRfblQ2QWNtWE8yTld5ZWF3Q1htOTRMYXlyNlQwWWM2eWFaeGwyekgtcjYyNTY1eUs1ejNSV3BLaDBlMUNzcl94NzZnWmVHZkZKN214QmFmdzRfWkVNV1Z3OVlNUWk5cmRFX1F0djJ1Vnc1bHZWbnlUa2plTU",
+   "source": "Business Insider Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUjRfblQ2QWNtWE8yTld5ZWF3Q1htOTRMYXlyNlQwWWM2eWFaeGwyekgtcjYyNTY1eUs1ejNSV3BLaDBlMUNzcl94NzZnWmVHZkZKN214QmFmdzRfWkVNV1Z3OVlNUWk5cmRFX1F0djJ1Vnc1bHZWbnlUa2plTUhyd0xVNm9JcGNDdGc4a05yR2NxUHNLR1dkUm5UQlItWU1vQng0Y2xrb3ZMTThkMmoyTGR4OV9IOG1EUjVpLVRxYkYwRW8yVFI1cW9NUlZNOWU3N0paZg?oc=5",
+   "date": "Sun, 02 Aug 2026 20:00:00 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "US companies win billions in African data center deals in direct competition with China",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxONk5GTlc4bmVwYTF0T1lhbzBFUmFDMWZrSEJ3ZDdUUUpTOEJnV1RPd0pZajRMZ2FUOWcwYjlSMmc4X01qYzBvOTZNalNUaGJfWHQ3ZVhFX0lnYVBSY0xfYkUzRk1uNTkxWjItbzRNWVhBQVBxX0tsMDV3NDU5aG",
+   "source": "Fox News·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONk5GTlc4bmVwYTF0T1lhbzBFUmFDMWZrSEJ3ZDdUUUpTOEJnV1RPd0pZajRMZ2FUOWcwYjlSMmc4X01qYzBvOTZNalNUaGJfWHQ3ZVhFX0lnYVBSY0xfYkUzRk1uNTkxWjItbzRNWVhBQVBxX0tsMDV3NDU5aGxZQjFUaFpfVURhV0Z6VnNBMmEwSzVZc0VKaDdublIzZG5uSEoxVFdwUUhsd9IBrwFBVV95cUxOaUlEQS1wcENyd3ktbXFzOXRiLTVySkFsa1JqVUlpa1phRV9ERW95RnoyQ1JPRVJhSkxnZHdyUExrYW0wSXkyRnlxNUVUbHRTVGJKQmVZdGF0RnREX2M1Rjh0dk1pcDluTFNFNjc2SVlaMjJvUGRvU25WNTg1M0lxUFZ4QldpcUc2a3J6ZG1JcFEwdWdPWUNLTnhWUWNzbm9mcW9oa0tnS3lQSC11NVY4?oc=5",
+   "date": "Sun, 02 Aug 2026 10:00:03 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": true
+  },
+  {
+   "title": "The Digital Silk Road and Africa’s Connectivity Future",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQRWxveVJMNkV2SEh0X1B4ckVONVd3NFNHRHhiSlRuMHR2aVFJMGNRMXlJNWJwU3NKZGJ4WkpfY0FZOWFmSl92TGRBMlNZS0JxbXYxeXVMeHNFS0dIMy1JTndLcnFXMFFVZElHYkc0eVpSOWlfaWhId2R3OC1JVz",
+   "source": "The Cairo Review of Global Affairs·聚合",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRWxveVJMNkV2SEh0X1B4ckVONVd3NFNHRHhiSlRuMHR2aVFJMGNRMXlJNWJwU3NKZGJ4WkpfY0FZOWFmSl92TGRBMlNZS0JxbXYxeXVMeHNFS0dIMy1JTndLcnFXMFFVZElHYkc0eVpSOWlfaWhId2R3OC1JVzY2cHBZb1lhLWxjOExCcjFZYVdvNlJQTEhZ?oc=5",
+   "date": "Sat, 01 Aug 2026 18:58:37 GMT",
+   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -321,6 +391,16 @@
    "date": "Sat, 01 Aug 2026 10:57:18 +0000",
    "country": "🇳🇬 尼日利亚",
    "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Africa needs to Build AI Resilience as US–China Technology Divide Deepens, New BCG Institute Report Finds",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWGx2bm9wN1pDTDNZZ2IxNkxUN0tQbjEzRUMyMjJKUHNpYnJOdFhQcEdYU3VFWXBObWhLOFQxcVVycW4wVFh2Y2V2bmcxd2lLWF9sTndYbVNISXN2TWQ0QkN6Y0JDOFBFakhfcTlWb0RyeWJYUlJJNXRjMkdZSG",
+   "source": "Africa Science News·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWGx2bm9wN1pDTDNZZ2IxNkxUN0tQbjEzRUMyMjJKUHNpYnJOdFhQcEdYU3VFWXBObWhLOFQxcVVycW4wVFh2Y2V2bmcxd2lLWF9sTndYbVNISXN2TWQ0QkN6Y0JDOFBFakhfcTlWb0RyeWJYUlJJNXRjMkdZSG5panRjck9YbTJBU1ctRFEzdjBWWUhaWWNDU1RJX0I2akFPdmxpbTM1TkZVZjhTcjAyRnBuOGdqVzF5VkIyQ3p5VGxwNXNkMUpoZzFyRGhwUjFD?oc=5",
+   "date": "Fri, 31 Jul 2026 19:01:24 GMT",
+   "country": null,
+   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -414,6 +494,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "Africa on the Move: Decoding Emerging Political and Digital Patterns",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxOQjJuTmNxc2dKUmFOb0FtMXAyaUhfaGNzeXM3LUQzMVdvbm9DX1hVY1ZGbVlGQU1ORVZRc2VESXphdElHeXRNUkRJVTNiSXFxalF0RFlGNlRJZkFtb0Y3eG5WSnFseHZEOUFsN2FpNXMzQ0NQRVF3T1pfWVhrck",
+   "source": "Carnegie Endowment for International Peace·聚合",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQjJuTmNxc2dKUmFOb0FtMXAyaUhfaGNzeXM3LUQzMVdvbm9DX1hVY1ZGbVlGQU1ORVZRc2VESXphdElHeXRNUkRJVTNiSXFxalF0RFlGNlRJZkFtb0Y3eG5WSnFseHZEOUFsN2FpNXMzQ0NQRVF3T1pfWVhrcktTMEtMSVpkMEtjdGpROTNwVDlDZ01Pdm1vdVk3Ukk0YVQ3UTVzVFF5WEdtZVZrcXJGODJnSGd1d0ZzQWJaNzdCRXRTQTNDdkRQUHdBVjU?oc=5",
+   "date": "Fri, 31 Jul 2026 02:28:28 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "Ex-Airtel Money Kenya chief joins Visa  as East Africa head",
    "brief": "Anne Kinuthia-Otieno has been appointed by Visa as vice president and head of East Africa following her departure from Airtel Money Kenya.",
    "source": "Condia",
@@ -434,11 +524,71 @@
    "is_aiinfra": false
   },
   {
+   "title": "Xinhua Headlines: AI, broadband and drones: How Chinese digital technologies are reshaping daily life in Africa",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE15OEoxN0pGNUZWUnFBcm5RN1paaGlFbmJOX2xBS1BTSkdFQ2lOR1RXODJPTXFOdVVic2NXY0VMclJzS2N6WW1HeGhsZlRXSFhlLTN1SVV3RERIZ1lEeEozLWNXUzExZkEtUC1JcGtxZXhHVjI1TF9uVnNHakE?oc",
+   "source": "Xinhua·聚合",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE15OEoxN0pGNUZWUnFBcm5RN1paaGlFbmJOX2xBS1BTSkdFQ2lOR1RXODJPTXFOdVVic2NXY0VMclJzS2N6WW1HeGhsZlRXSFhlLTN1SVV3RERIZ1lEeEozLWNXUzExZkEtUC1JcGtxZXhHVjI1TF9uVnNHakE?oc=5",
+   "date": "Thu, 30 Jul 2026 13:52:33 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Beyond Ports: China’s Digital Networks of Influence in the Middle East and Africa",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNdTduMF91c08yekR0U01FbklCWWh3Mm5GS3JGZDVrMVRkXzFjT2lMVTdBVkdWY1FRMEpzZFRFMEdIZW8telVSZU9wT1dZYTNtcTI0V0pPWGY4YnpETVFjZjRweFhaeVpFeVJmMy1MbGhheGZtNWJoMzd5N0x4TV",
+   "source": "Geopolitical Monitor·聚合",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdTduMF91c08yekR0U01FbklCWWh3Mm5GS3JGZDVrMVRkXzFjT2lMVTdBVkdWY1FRMEpzZFRFMEdIZW8telVSZU9wT1dZYTNtcTI0V0pPWGY4YnpETVFjZjRweFhaeVpFeVJmMy1MbGhheGZtNWJoMzd5N0x4TVVxWFRhR1RVSU9ycUxia3VDeDd4bkl4MDN3eTRJUFRvU1N1U2pLNHRCTmVvSDdaRE9Zd1c2SFo4Tms?oc=5",
+   "date": "Thu, 30 Jul 2026 12:58:16 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "Why venture capital can’t be the only way to fund African startups",
    "brief": "African startups rely too heavily on venture capital. To build stronger businesses, the continent needs a wider range of financing options beyond VC.",
    "source": "Condia",
    "url": "https://thecondia.com/african-startups-need-more-than-vc/",
    "date": "Thu, 30 Jul 2026 12:49:51 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "mRNA vaccine technology is key to Africa's public health independence, experts suggest",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQbDZnYWNqbGZYY3ZEQUVzUWxVc1ZFWkZOSEZJNjhXN05HRTdSbjNoWWdaSUlYLWtCU1U0czh6SlRiazhxa3Fkem9ZUGtQY3d3WFNYVF9WdG84ajZzZ0cxc002VGdwVS1FWXVmdk1mdFlSYlpXNWI4dDVKdHFrN3",
+   "source": "Medical Xpress·聚合",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbDZnYWNqbGZYY3ZEQUVzUWxVc1ZFWkZOSEZJNjhXN05HRTdSbjNoWWdaSUlYLWtCU1U0czh6SlRiazhxa3Fkem9ZUGtQY3d3WFNYVF9WdG84ajZzZ0cxc002VGdwVS1FWXVmdk1mdFlSYlpXNWI4dDVKdHFrN3B3X0VHNnc?oc=5",
+   "date": "Wed, 29 Jul 2026 18:40:02 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "ICANN Wiki, SHE.africa, AI, and the Integrity of Digital Platforms",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNY051UDRrenEzc0lILW15TU9URnNHWDJjWm1LZWxJcGpCY1ZFV3BnRS12MTQ1THdNVHliU1A5MVJQQXlqcC1aNmdmZlV1QXEyTGZvMUpoTVhkZms5N3ZVSk5FSGpTUFYyOExULVRNclNYMG9hbTlnczhDSXpLOX",
+   "source": "CircleID·聚合",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNY051UDRrenEzc0lILW15TU9URnNHWDJjWm1LZWxJcGpCY1ZFV3BnRS12MTQ1THdNVHliU1A5MVJQQXlqcC1aNmdmZlV1QXEyTGZvMUpoTVhkZms5N3ZVSk5FSGpTUFYyOExULVRNclNYMG9hbTlnczhDSXpLOXhIcmV1SEc5TXptMGVQZ1JvcGY5M3Jv?oc=5",
+   "date": "Wed, 29 Jul 2026 16:22:12 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "What Sustainable Technology Really Means for Consumer Products",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQRWM2WVBKTGlzdUFXbFFtTTJUcDhzMGFWMktPYUdZUm9NcTBTel9HSUR6RVU4LWMyeDZENlM3NnhEdEd0ajJibjFlT0tOS2hEc2ZXdjFVSEVLNG9EaG1RXzdaYTJTeVZmWFVvNU5yVTBXS3FmY01QNHdGV2hZSV",
+   "source": "IQAir·聚合",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRWM2WVBKTGlzdUFXbFFtTTJUcDhzMGFWMktPYUdZUm9NcTBTel9HSUR6RVU4LWMyeDZENlM3NnhEdEd0ajJibjFlT0tOS2hEc2ZXdjFVSEVLNG9EaG1RXzdaYTJTeVZmWFVvNU5yVTBXS3FmY01QNHdGV2hZSVlsU2JGWGxiODBLc1locVBJXzcwMmtXMjZVbFcxVHI?oc=5",
+   "date": "Wed, 29 Jul 2026 16:20:46 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "China Won the 5G Battle. Will It Win the 6G War?",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTFBMNDhVNFVzTlVfT09GdHNUX1hiU1JBdUJxOGVSdDdocWdTR3M4MmR3LW9VNkRBdW92NTZpSTE4bVE0R2tIVHIwV19mVTlWbHREdTlxRDNyRzI3WWlKQWtEcnYxQ2dqWGEwVWVTcnBBMDJqM2pUbUhsZmtSLTc?oc",
+   "source": "Center for European Policy Analysis (CEPA)·聚合",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBMNDhVNFVzTlVfT09GdHNUX1hiU1JBdUJxOGVSdDdocWdTR3M4MmR3LW9VNkRBdW92NTZpSTE4bVE0R2tIVHIwV19mVTlWbHREdTlxRDNyRzI3WWlKQWtEcnYxQ2dqWGEwVWVTcnBBMDJqM2pUbUhsZmtSLTc?oc=5",
+   "date": "Wed, 29 Jul 2026 15:52:22 GMT",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -471,156 +621,6 @@
    "date": "Wed, 29 Jul 2026 08:44:53 +0000",
    "country": "🇿🇦 南非",
    "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Quidax expands stablecoin payment infrastructure to 21 countries",
-   "brief": "Quidax has expanded its stablecoin payment infrastructure to 21 countries, aiming to make cross-border payments faster and cheaper for businesses.",
-   "source": "Condia",
-   "url": "https://thecondia.com/quidax-stablecoin-payment-infrastructure/",
-   "date": "Tue, 28 Jul 2026 13:58:53 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Nigeria’s Dimension Data raises $2.9m to expand fibre network",
-   "brief": "Dimension Data Limited, a Nigerian technology infrastructure provider, has raised $2.9 million to expand its fibre infrastructure.",
-   "source": "Condia",
-   "url": "https://thecondia.com/dimension-data-fund-fibre/",
-   "date": "Tue, 28 Jul 2026 11:50:36 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "After a NIPOST snub, Maiaddy built its own address infrastructure",
-   "brief": "Maiaddy wants to fix Nigeria's addressing problem with unique street codes.",
-   "source": "Condia",
-   "url": "https://thecondia.com/maiaddy-location-identity-nigeria/",
-   "date": "Tue, 28 Jul 2026 11:00:24 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Tembo secures Payment Service Provider licence in Rwanda",
-   "brief": "Tembo, a Tanzanian fintech, has received a Payment Service Provider licence in Rwanda.",
-   "source": "Condia",
-   "url": "https://thecondia.com/tembo-payment-service-provider-licence-rwanda/",
-   "date": "Tue, 28 Jul 2026 06:50:43 +0000",
-   "country": "🇷🇼 卢旺达",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Rwanda unifies digital payments with national launch of eKash",
-   "brief": "",
-   "source": "African Business",
-   "url": "https://african.business/2026/07/innov-africa-deals/rwanda-unifies-digital-payments-with-national-launch-of-ekash",
-   "date": "Mon, 27 Jul 2026 11:45:44 +0000",
-   "country": "🇷🇼 卢旺达",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "For Africa’s female climate tech founders, grants remain the dominant source of capital",
-   "brief": "Despite funding advocacy, climate tech female-led startups struggle to raise equity and continue to rely on grants.",
-   "source": "Condia",
-   "url": "https://thecondia.com/grants-africa-female-tech-founders/",
-   "date": "Mon, 27 Jul 2026 11:40:10 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Zedcrest completes full acquisition of Leatherback",
-   "brief": "Zedcrest has acquired Leatherback, cementing years of partnership. Its existing leadership team will remain.",
-   "source": "Condia",
-   "url": "https://thecondia.com/zedcrest-acquires-leatherback/",
-   "date": "Mon, 27 Jul 2026 09:00:00 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Tinubu signs executive order as Nigeria opens up to cryptocurrency",
-   "brief": "",
-   "source": "African Business",
-   "url": "https://african.business/2026/07/quick-reads/tinubu-signs-executive-order-as-nigeria-opens-up-to-cryptocurrency",
-   "date": "Fri, 24 Jul 2026 09:51:47 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Airtel Africa Q1 revenue hits $1.85 billion; Airtel Money targets London listing",
-   "brief": "Airtel Africa grew Q1 revenue 31% to $1.85 billion, driven by data and mobile money growth, while confirming London for Airtel Money's IPO.",
-   "source": "Condia",
-   "url": "https://thecondia.com/airtel-africa-q1-2026-report/",
-   "date": "Thu, 23 Jul 2026 12:25:33 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "CREDICORP launches laptop credit scheme for 1,000 Nigerians",
-   "brief": "CREDICORP has launched a scheme to provide 1,000 Nigerians with locally assembled laptops to boost digital skills and expand access to credit.",
-   "source": "Condia",
-   "url": "https://thecondia.com/credicorp-laptop-credit-scheme-nigerians/",
-   "date": "Thu, 23 Jul 2026 09:19:34 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Why this Ugandan fintech refuses to approve loans in minutes",
-   "brief": "$500 laid the foundations for Asaak. Ten years later, it has issued nearly $50 million in loans.",
-   "source": "Condia",
-   "url": "https://thecondia.com/asaak-asset-financing-uganda/",
-   "date": "Thu, 23 Jul 2026 08:00:00 +0000",
-   "country": "🇺🇬 乌干达",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "PiggyVest, Moniepoint, others make CNBC’s 2026 top fintech list",
-   "brief": "Eleven African fintechs, led by Nigeria's PiggyVest, Moniepoint and Redtech, made CNBC's 2026 Top Fintech Companies ranking.",
-   "source": "Condia",
-   "url": "https://thecondia.com/cnbc-top-fintech-list-2026/",
-   "date": "Wed, 22 Jul 2026 18:01:09 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Stablecoins are faster and cheaper but not yet frictionless",
-   "brief": "Stablecoins are reshaping cross-border payments for Africa. Analysis of the challenges, fraud, fees and what the future holds.",
-   "source": "Condia",
-   "url": "https://thecondia.com/stablecoins-africa-problems/",
-   "date": "Tue, 21 Jul 2026 15:20:00 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Three Ghanaian startups get $500k from Village Capital",
-   "brief": "Village Capital has deployed $500,000 from the Africa Ecosystem Catalysts Facility into Built Financial Technologies, GrowForMe and SAYeTECH.",
-   "source": "Condia",
-   "url": "https://thecondia.com/village-capital-ghana/",
-   "date": "Tue, 21 Jul 2026 14:56:30 +0000",
-   "country": "🇬🇭 加纳",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "LemFi partners BVNK to power stablecoin-based remittance settlements",
-   "brief": "LemFi is partnering with BVNK to use stablecoins for remittance settlements, aiming to cut costs and deliver faster cross-border transfers.",
-   "source": "Condia",
-   "url": "https://thecondia.com/lemfi-bvnk-stablecoin-remittance-settlement/",
-   "date": "Tue, 21 Jul 2026 11:06:36 +0000",
-   "country": null,
-   "is_ai": true,
    "is_aiinfra": false
   }
  ]
