@@ -1,189 +1,214 @@
 {
  "asof": "2026-08-05",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-05T12:51+08:00",
+ "generated_at": "2026-08-05T14:07+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 5,
-  "cluster_label": "伊朗/霍尔木兹",
-  "cluster_dropped": [
-   "贝森特称霍尔木兹协议或本周达成，油价下跌",
-   "油价两日下跌后企稳，关注霍尔木兹通行",
-   "美国称霍尔木兹海峡自由开放，贝森特暗示协议接近",
-   "伊朗要求霍尔木兹进出控制权"
-  ],
+  "cluster_label": "",
+  "cluster_dropped": [],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "贝森特：霍尔木兹协议或周二三达成",
-   "brief": "美财长贝森特表示，可能周二或周三达成重开霍尔木兹海峡的协议，确保航行自由。",
-   "chain": "若协议达成，油价短期承压，利好美股通胀预期回落；映射A股石化、航运链情绪。",
-   "impact": 9,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/04/bessent-says-there-may-be-deal-tuesday-or-wednesday-to-open-strait-of-hormuz-with-freedom-of-movement.html",
-   "ts": "Tue, 04 Aug 2026 17:59:19 GMT"
+   "title": "美财长重申支持日本稳定汇市",
+   "brief": "美财长贝森特表示将“不惜一切代价”支持日本稳定汇市，市场担忧干预效果。",
+   "chain": "美日汇率干预预期→美元走势→美股风险偏好→A股外资流向",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608053832411297.html",
+   "ts": "2026-08-05 14:06:18"
   },
   {
    "cat": "macro",
-   "title": "Michael Burry警告或现1987式暴跌",
-   "brief": "投资者Michael Burry称市场接近重大顶部，可能发生类似1987年的下跌。",
-   "chain": "空头警告加剧美股波动，AI高估值股承压；映射A股算力链情绪波动。",
+   "title": "现货黄金日内涨2%",
+   "brief": "现货黄金涨2%至4159美元/盎司，白银涨3%，受油价下跌和美元走软支撑。",
+   "chain": "金价上涨反映避险与利率预期→美股AI高久期估值承压→A股算力链情绪波动",
    "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608053832464765.html",
+   "ts": "2026-08-05 13:45:34"
+  },
+  {
+   "cat": "macro",
+   "title": "Michael Burry警告市场接近顶部",
+   "brief": "Michael Burry称市场接近重大顶部，可能重演1987年式下跌。",
+   "chain": "知名投资者看空→美股回调风险→A股风险偏好收紧",
+   "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/04/michael-burry-bets-against-rally-we-are-near-a-major-top.html",
    "ts": "Tue, 04 Aug 2026 21:39:30 GMT"
   },
   {
-   "cat": "macro",
-   "title": "印度央行下调通胀预期至5.0%",
-   "brief": "印度储备银行将2027财年通胀预期下调至5.0%，GDP增速上调至6.7%。",
-   "chain": "印度政策宽松预期，利好全球风险偏好；对A股影响有限。",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608053832392182.html",
-   "ts": "2026-08-05 12:45:18"
-  },
-  {
-   "cat": "macro",
-   "title": "印度央行维持关键利率5.25%不变",
-   "brief": "印度央行8月5日宣布维持关键利率在5.25%不变，符合预期。",
-   "chain": "印度利率稳定，对全球流动性影响中性；A股关注外资流向。",
-   "impact": 3,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608053832388132.html",
-   "ts": "2026-08-05 12:33:48"
-  },
-  {
    "cat": "geo",
-   "title": "特朗普称与伊朗谈判中，德黑兰否认",
-   "brief": "特朗普表示与伊朗谈判正在进行，但伊朗否认有计划谈判。",
-   "chain": "美伊谈判不确定性，地缘风险仍存；影响油价和避险资产。",
-   "impact": 8,
+   "title": "特朗普称美伊讨论非常良好",
+   "brief": "特朗普表示美伊正在进行“非常好的讨论”，市场关注谈判进展。",
+   "chain": "美伊关系缓和→地缘风险降低→美股风险偏好提升→A股情绪改善",
+   "impact": 9,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdzJzZHNCZzdLcHhDVWdCSEpLMEpVckJUQXFxcjhrcEdHWmlWQ183T3g0dUtwWldQLTVfQ0FCbGRaXzV3Y2tnS0laLS1LeU1KcGJKRVhvX2xyV1I1Q0cxSDF0dWJ6ZWpaOFZJTWZac045VWduTklfeUl2QUhKcXZtbE9EY1MtR0p0MUNZOXEtbEpFejVqeXFQaHRRcVFBbkNhUU41eGM3ZldtVFg3U09UY205bjRlUFU?oc=5",
-   "ts": "2026-08-04T05:57:26+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUFpfZEh3NVhNLURNVl9ETWp2ak5nZEx4d0JYQ19WZ3Z6bTl3V2wyUzVLQmFnTkJrZTZtVXd1cnp2dkdXUmh0d1FXUmhfbGQ1a3dKY1ZzQ0pXQTdUcS02X1llNkdFbzFLN0k2YXk2X2JEUTVCV1RBeGdUaFA2VGFzSW9LYlRDQm5senFDSzFVRkxHaXdSazRBWUlTT1pjY00yU1Qw?oc=5",
+   "ts": "2026-08-05T05:11:00+00:00"
   },
   {
    "cat": "geo",
-   "title": "美在伊朗战争中耗尽远程精确导弹",
-   "brief": "消息人士称，美国在伊朗战争中已使用几乎所有远程精确导弹。",
-   "chain": "美国军力消耗，地缘风险升级；影响全球安全格局，间接影响市场。",
+   "title": "美以黎巴嫩谈判已启动",
+   "brief": "美国国务院表示以色列与黎巴嫩谈判已开始，地区局势有望缓和。",
+   "chain": "中东局势缓和→油价承压→美股通胀预期下降→A股成本压力缓解",
    "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZjVoa01lTFhQYVMtVjRxRWZKSng1YzFUTTNJOVI1T1pWZVNKc1czOWhJWHB3VDFFWnVrY3lLT1FnSVBfU1M1RFdrU2FsYVlKZXdhVm9VbF9PaEFNeGVMR0ZtNmlEeGhkWG1iang1U0kzb3hmWENGSnNXODRzdnZYaE1LYkY4Vm1hbzJEcEl1ZzZIRVBQLS1nYUYyTWdDdjZjXzN0NmtuZm5IV2FEdlBQby1UUnBqc0FF?oc=5",
-   "ts": "2026-08-04T10:08:00+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "美推动以色列-黎巴嫩谈判开始",
-   "brief": "美国国务院表示，美国促成的以色列-黎巴嫩谈判已经开始。",
-   "chain": "中东和谈进展，地缘风险缓和；利好油价稳定，对A股影响中性。",
-   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNLXdzQy15RzJIczBFWU1CVzZITkFHTU84M0NZWFlGajB6bFRITGJ2UEpacm96STR6cFk1WTRiNDBiMzRTakJ5STh0YVE2WXdkdWVzZG5TeldxY3ZDbktzbXJPZVhSX1R0RnAtSlRXVmE1SmZpdVFBVU1tQ1M1ZzFqeWk1TzJDOWtha0Y3czY0RmMxOTFLUHZXZENMZ195NFY3ZGM3TEFSeEt1WTdrOXlWdHhiSHZRTFRSWTZNTlNTVQ?oc=5",
    "ts": "2026-08-04T17:10:02+00:00"
   },
   {
    "cat": "geo",
-   "title": "胡塞武装称袭击沙特纳季兰机场",
-   "brief": "也门胡塞武装声称袭击了沙特纳季兰机场目标。",
-   "chain": "红海局势再起，地缘风险升温；影响航运和油价，关注A股油运链。",
-   "impact": 5,
+   "title": "美远程精确导弹库存告急",
+   "brief": "消息称美国在伊朗战争中已用掉几乎所有远程精确导弹，影响后续军事能力。",
+   "chain": "美国军事储备紧张→地缘不确定性→避险情绪→美股波动→A股防御偏好",
+   "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNENTczlOZ3BKWHFnNHpqNnNidHgzQzRpeGh3cHdLTElFUFRZNWpQbWpqTzZTckJpS2hpd1huaXhsa05mbkxLdUV0a3dVVkpWS0dLVUY5S21VU2ZzOXRDSWJkN0FRdG9Xdjh1Sl9fNzRtZ19ROExWT1dNSm4zbFhBZWs5VGgzTGFBNUhMdDlZbXZQT3QzUGYwSXdjcmhJVkZQU1plWEdEa2JPdVZ5OUE?oc=5",
-   "ts": "2026-08-04T10:55:47+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZjVoa01lTFhQYVMtVjRxRWZKSng1YzFUTTNJOVI1T1pWZVNKc1czOWhJWHB3VDFFWnVrY3lLT1FnSVBfU1M1RFdrU2FsYVlKZXdhVm9VbF9PaEFNeGVMR0ZtNmlEeGhkWG1iang1U0kzb3hmWENGSnNXODRzdnZYaE1LYkY4Vm1hbzJEcEl1ZzZIRVBQLS1nYUYyTWdDdjZjXzN0NmtuZm5IV2FEdlBQby1UUnBqc0FF?oc=5",
+   "ts": "2026-08-04T10:08:00+00:00"
   },
   {
    "cat": "oil",
-   "title": "亚洲原油燃料进口恢复，仍低于战前",
-   "brief": "亚洲原油和燃料进口恢复，但仍未达到伊朗战争前水平。",
-   "chain": "亚洲需求恢复，支撑油价；对莫桑比克原油出口有利，但供应恢复或限制涨幅。",
-   "impact": 5,
+   "title": "油价大跌因霍尔木兹协议有望",
+   "brief": "美财长贝森特称本周可能达成霍尔木兹海峡协议，油价应声下跌。",
+   "chain": "霍尔木兹通航恢复→油价下行→莫桑比克LNG出口竞争力提升",
+   "impact": 9,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/04/oil-rises-after-selloff-as-talks-to-end-us-iran-war-remain-uncertain.html",
+   "ts": "2026-08-04T15:57:10+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "油价延续跌势等待美伊谈判",
+   "brief": "油价下跌，投资者等待美伊谈判结果，供应风险缓解。",
+   "chain": "美伊谈判进展→油价承压→莫桑比克油气项目成本下降",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZDd2cFJ5Z2dsbTliajVMY1o5eVQ3Q3djdGVaYXA2aVhJQUROSVk5NmVjSkUydkw0YUItOGI1VFl1Wl9uZVY2SWhZLVZZY2hFTTFyaEoxM0otRWQ0Vzk4bjdEV18yYkhQS05GUzQ5dHdsY0wwemg4cG53dnZkVmx0M1pMdzl2cDk2MDBlZlN3ZVY0RVMxU2JNcE5Ta2Nrd3l4OVpvTnlIY0hscHRpOUozRVpDUQ?oc=5",
+   "ts": "2026-08-05T01:26:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "亚洲原油进口恢复但未达战前",
+   "brief": "亚洲原油和燃料进口回升，但仍低于伊朗战争前水平。",
+   "chain": "亚洲需求恢复→油价支撑→莫桑比克出口需求稳定",
+   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORGVwVDlqUHgzUTZBLWFQWGVUNWZWS0hmM3hiRElSNFNDcVhtc2pPMUI4X1lzY2pBNlFBRTdKd0s3MDlaY0NhWVV0N0lsU2RGTzI0cGJ3eFo4SFR2dEV0VFY1a2lzZW4yenVWYUFpMmNJU1pxQi15N19DZ2VfLVlTVmJuR2lZd1MyVzJHVkJXaWMyeTNRSHhPQzZybDQydmdjNnExMnRXTmNaMW1TUl9rb1BzOWI3VVR2d0QxZHdBT2NrU2hJellTTDl3?oc=5",
    "ts": "2026-08-04T18:43:50+00:00"
   },
   {
+   "cat": "gas",
+   "title": "西门子能源股价上涨4%",
+   "brief": "西门子能源在Tradegate交易所上涨4%，市场看好能源转型需求。",
+   "chain": "能源设备需求→天然气项目投资增加→莫桑比克LNG项目受益",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608053832478696.html",
+   "ts": "2026-08-05 13:56:44"
+  },
+  {
+   "cat": "gas",
+   "title": "泰豪软件与海光信息战略合作",
+   "brief": "泰豪软件与海光信息合作，加速国产算力在能源行业落地。",
+   "chain": "国产算力赋能能源→数字化提升效率→莫桑比克能源运营优化",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608053832452948.html",
+   "ts": "2026-08-05 13:37:36"
+  },
+  {
    "cat": "tech",
-   "title": "AMD营收增50%，数据中心销售翻倍，股价下跌",
-   "brief": "AMD季度营收增长50%，数据中心销售翻倍，但股价下跌。",
-   "chain": "AMD业绩强劲但股价下跌，或因预期已满；映射A股芯片链，关注国产替代。",
+   "title": "美股创新高受AI财报提振",
+   "brief": "道指和标普500创收盘新高，受AI相关盈利和中东和平希望推动。",
+   "chain": "美股科技股走强→A股科技映射→算力链情绪提振",
    "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMHk5N1NJZXlfQ196NTA1SjFaUUtUaDd0UXNDY2FsLWM2aE1VTElKc1oxaXFMbmd1M2kwcXVmaFBKbEo3TmFmY2lfRVFraDFVcTZpTTNfbGU2VU9iZnQ0Q2xBR0ZCVHFmRUktbVk0VTR1RVVYNzVxNEVUa3dJbmFQXzQ0SldqNzVoSXAtRnF3SDJ0M0UwNEhRLVhsUTd3Yk9jdnhTQUJ0WGdOUEdRTHJfeUpKZUw?oc=5",
+   "ts": "2026-08-04T23:02:38+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "AMD营收增50%但股价下跌",
+   "brief": "AMD数据中心销售翻倍，但股价下跌，市场担忧估值过高。",
+   "chain": "AMD财报强劲→美股AI硬件→A股半导体设备链",
+   "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/04/amd-earnings-report-q2-2026.html",
    "ts": "Tue, 04 Aug 2026 22:09:17 GMT"
   },
   {
    "cat": "tech",
-   "title": "D.A.戴维森上调AMD目标价至550美元",
-   "brief": "投行D.A.戴维森将AMD目标价从425美元上调至550美元。",
-   "chain": "机构看好AMD，利好美股芯片股；映射A股AMD产业链，如封测、PCB。",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608053832385513.html",
-   "ts": "2026-08-05 12:18:04"
+   "title": "辉瑞上调业绩指引",
+   "brief": "辉瑞季度业绩超预期，上调全年收入指引，非新冠产品强劲。",
+   "chain": "辉瑞财报超预期→美股医药板块→A股医药映射",
+   "impact": 5,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/04/pfizer-pfe-earnings-q2-2026.html",
+   "ts": "2026-08-04T11:13:24+00:00"
   },
   {
    "cat": "tech",
-   "title": "摩根大通上调AMD目标价至550美元",
-   "brief": "摩根大通将AMD目标价从385美元上调至550美元。",
-   "chain": "多家投行上调AMD目标价，强化AI芯片需求；映射A股算力链。",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608053832384756.html",
-   "ts": "2026-08-05 12:08:28"
-  },
-  {
-   "cat": "tech",
-   "title": "大基金三期入股半导体，费城半导体指数涨6.5%",
-   "brief": "大基金三期入股半导体公司，隔夜费城半导体指数涨6.5%，英特尔等涨超10%。",
-   "chain": "半导体设备ETF涨近5%，利好A股半导体设备材料链。",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608053832390266.html",
-   "ts": "2026-08-05 11:51:13"
-  },
-  {
-   "cat": "tech",
-   "title": "通用与中国车企延长合资20年",
-   "brief": "通用汽车与中国车企延长合资企业20年，尽管地缘政治紧张。",
-   "chain": "中美汽车合作深化，利好A股汽车零部件链。",
+   "title": "新泽西州起诉亚马逊反垄断",
+   "brief": "新泽西州起诉亚马逊滥用权力，涉及配送承包商。",
+   "chain": "反垄断监管→美股科技巨头→A股平台经济情绪",
    "impact": 4,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/04/gm-chinese-automaker-extend-tie-up-amid-geopolitical-tensions-with-us.html",
-   "ts": "Wed, 05 Aug 2026 02:30:01 GMT"
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/04/nj-amazon-antitrust-lawsuit-delivery-contractors.html",
+   "ts": "Tue, 04 Aug 2026 16:34:05 GMT"
   },
   {
    "cat": "ai",
-   "title": "字节跳动发布音视频全双工大模型SeedRealtime",
-   "brief": "字节跳动推出原生音视频全双工大模型SeedRealtime，迈向全模态交互。",
-   "chain": "国产AI模型进步，利好A股AI应用和算力链。",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608053832384910.html",
-   "ts": "2026-08-05 12:12:31"
+   "title": "云积压订单达2.3万亿美元",
+   "brief": "大型科技公司云积压订单达2.3万亿美元，支撑AI资本开支计划。",
+   "chain": "云需求强劲→AI算力投资→A股算力链景气",
+   "impact": 9,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/technology/article/big-techs-cloud-backlog-just-hit-23-trillion--and-its-feeding-ai-capex-plans-181459457.html",
+   "ts": "2026-08-03T18:14:59Z"
   },
   {
    "cat": "ai",
-   "title": "富国银行：AI投资红利正传导至旧经济",
-   "brief": "富国银行称大型科技AI支出向更广泛经济涓滴，推动工业股上涨。",
-   "chain": "AI资本开支外溢，利好A股工业自动化、数据中心电力设备链。",
+   "title": "SpaceX AI支出引发担忧",
+   "brief": "SpaceX的AI支出令华尔街不安，尽管承诺快速回报。",
+   "chain": "AI投资回报疑虑→美股科技估值→A股AI概念波动",
    "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608053832390590.html",
-   "ts": "2026-08-05 12:44:53"
-  },
-  {
-   "cat": "ai",
-   "title": "SpaceX的AI支出令华尔街不安",
-   "brief": "SpaceX的AI支出让华尔街担忧，尽管承诺快速回报。",
-   "chain": "AI投资回报疑虑，或引发美股科技股波动；映射A股AI概念情绪。",
-   "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/04/spacex-ai-spending-unnerves-wall-street-despite-promising-quick-payoff.html",
    "ts": "Wed, 05 Aug 2026 01:43:06 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Grab利用AI提速30%",
+   "brief": "Grab CFO称AI帮助配送提速30%以上，公司上调预测。",
+   "chain": "AI应用落地→美股科技股→A股AI应用链",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/04/grab-earnings-ai-forecast-cfo-.html",
+   "ts": "Tue, 04 Aug 2026 05:47:49 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "长鑫LPDDR6量产在即",
+   "brief": "长鑫存储LPDDR6量产在即，AI硬件景气延续，芯片设计ETF上涨。",
+   "chain": "存储芯片需求→A股半导体→算力硬件链",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608053832461120.html",
+   "ts": "2026-08-05 13:41:10"
+  },
+  {
+   "cat": "ai",
+   "title": "中际旭创成交额破600亿",
+   "brief": "中际旭创成交额突破600亿元，续创历史天量，股价低开后跌幅收窄。",
+   "chain": "算力龙头交易活跃→A股光模块→AI算力链情绪",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608053832473335.html",
+   "ts": "2026-08-05 13:54:13"
   }
  ]
 }
