@@ -37,7 +37,7 @@ def make_blob(html: str, password: str) -> str:
 GATE = r"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
-<title>LUMORA · 同光科技</title>
+<title>LUMORA</title>
 <meta name="robots" content="noindex,nofollow">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -109,7 +109,6 @@ background:linear-gradient(135deg,#e3c37f,#c8a562);display:flex;align-items:cent
 <span class="star" style="left:88%;top:60%;animation-duration:5s;animation-delay:.9s"></span>
 <div class="stage">
   <div class="brand">LUMORA</div>
-  <div class="sub">同 光 科 技</div>
   <div class="ray"></div>
   <div class="slogan">全球 AI 情报 · 全球市场头条 · 非洲科技脉搏 · AI 产业链股票研判</div>
   <form class="gate" id="f" autocomplete="off">
@@ -120,7 +119,7 @@ background:linear-gradient(135deg,#e3c37f,#c8a562);display:flex;align-items:cent
   </form>
   <div class="msg" id="msg"></div>
 </div>
-<div class="foot">LUMORA · 同光科技 · andy4576.com · 仅供研究学习,非投资建议</div>
+<div class="foot">LUMORA · andy4576.com · 仅供研究学习,非投资建议</div>
 <canvas id="tunnel"></canvas>
 <script>
 // —— 已通行则跳过门(乐观跳转;密文页会用同一密码自动解密)——

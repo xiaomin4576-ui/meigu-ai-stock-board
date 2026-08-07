@@ -95,9 +95,11 @@ def main():
                            "progress_to_target_pct": progress, "matured": matured,
                            "realized_return_pct": realized})
 
-    # 相对QQQ超额裁判(2026-07:LLM 黑箱 vs 纯规则,谁的【买入】信号跑赢指数)。用超额滤掉大盘beta,
-    # 分 20交易日(~1月)/60交易日(~1季)滚动窗口。规则信号从台账有 rule_signal 的行起累积(今日起)。
+    # 相对QQQ超额裁判 + 短周期记分卡(2026-08 激活校准闭环:长目标 270 天 matured 永远等不到,
+    # 用 20/60 交易日短周期业绩当【可立即累积的裁判】——LLM 黑箱 vs 纯规则,谁的【买入】信号跑赢指数)。
+    # 超额滤掉大盘beta,分 20交易日(~1月)/60交易日(~1季)滚动窗口。规则信号从台账有 rule_signal 起累积。
     def fwd_excess(tk, call_date, ndays):
+        """返回 (相对QQQ超额%, 个股自身涨跌%);未到 ndays / 越界 / 出错 → None。"""
         try:
             s = ohlc(tk)["Close"].dropna(); q = ohlc("QQQ")["Close"].dropna()
             cd = _pd.Timestamp(call_date)
@@ -108,11 +110,11 @@ def main():
                 return None
             sr = float(s.iloc[si + ndays]) / float(s.iloc[si]) - 1
             qr = float(q.iloc[qi + ndays]) / float(q.iloc[qi]) - 1
-            return (sr - qr) * 100
+            return round((sr - qr) * 100, 2), round(sr * 100, 2)
         except Exception:
             return None
 
-    excess = {"llm": {20: [], 60: []}, "rule": {20: [], 60: []}}
+    coll = {"llm": {20: [], 60: []}, "rule": {20: [], 60: []}}   # 每项收集 (超额%, 个股涨跌%)
     for r in recs:
         tk, cd = r.get("ticker"), r.get("date")
         if not tk or tk in BENCH or not cd:
@@ -122,14 +124,33 @@ def main():
                 for nd in (20, 60):
                     e = fwd_excess(tk, cd, nd)
                     if e is not None:
-                        excess[eng][nd].append(e)
-    _avg = lambda a: round(sum(a) / len(a), 1) if a else None
+                        coll[eng][nd].append(e)
+
+    def _hstats(items):
+        """短周期记分卡:items=[(超额%,个股涨跌%),…] → 样本数/超额均值+中位/跑赢大盘率(超额>0)/绝对上涨率。"""
+        if not items:
+            return {"n": 0, "avg_excess": None, "median_excess": None, "beat_rate": None, "up_rate": None}
+        exs = [x[0] for x in items]; n = len(items)
+        return {"n": n,
+                "avg_excess": round(sum(exs) / n, 1),
+                "median_excess": round(_median(exs), 1),
+                "beat_rate": round(100 * sum(1 for e in exs if e > 0) / n),    # 跑赢大盘(超额>0)占比
+                "up_rate": round(100 * sum(1 for x in items if x[1] > 0) / n)}  # 个股绝对上涨占比
+
+    short_horizon = {
+        "llm": {"1m": _hstats(coll["llm"][20]), "3m": _hstats(coll["llm"][60])},
+        "rule": {"1m": _hstats(coll["rule"][20]), "3m": _hstats(coll["rule"][60])},
+        "basis": ("买入信号持有 20/60 交易日(≈1月/1季)相对 QQQ 的超额(滤大盘beta):beat_rate=跑赢大盘占比、"
+                  "up_rate=个股绝对上涨占比。⚠️同票邻近期的窗口高度重叠(自相关),非独立观测,样本小仅供观察、非结论;"
+                  "规则信号自台账有 rule_signal 起累积。这是 matured(270天到期)空转期间唯一能立即累积的业绩裁判。"),
+    }
+    # 兼容旧读取(build_board 复盘区单行 rel_qqq):字段名不变,从 short_horizon 派生
     rel_qqq = {
-        "llm_1m": _avg(excess["llm"][20]), "llm_1m_n": len(excess["llm"][20]),
-        "rule_1m": _avg(excess["rule"][20]), "rule_1m_n": len(excess["rule"][20]),
-        "llm_3m": _avg(excess["llm"][60]), "llm_3m_n": len(excess["llm"][60]),
-        "rule_3m": _avg(excess["rule"][60]), "rule_3m_n": len(excess["rule"][60]),
-        "basis": "买入信号持有 N 交易日相对 QQQ 的超额收益均值(滤大盘beta);规则信号自台账有 rule_signal 起累积。样本小时仅供观察、非结论。",
+        "llm_1m": short_horizon["llm"]["1m"]["avg_excess"], "llm_1m_n": short_horizon["llm"]["1m"]["n"],
+        "rule_1m": short_horizon["rule"]["1m"]["avg_excess"], "rule_1m_n": short_horizon["rule"]["1m"]["n"],
+        "llm_3m": short_horizon["llm"]["3m"]["avg_excess"], "llm_3m_n": short_horizon["llm"]["3m"]["n"],
+        "rule_3m": short_horizon["rule"]["3m"]["avg_excess"], "rule_3m_n": short_horizon["rule"]["3m"]["n"],
+        "basis": short_horizon["basis"],
     }
 
     # 审计F9(规则9"空结果绝不落盘"):有历史台账在评、本次却一条复盘都没算出(yfinance 全挂)时,
@@ -178,7 +199,8 @@ def main():
         sc["n_entered_unique"] = len(latest_by_tk)     # 独立样本量(去重后的票数,远小于 n_entered)
         sc["direction_win_rate_unique"] = round(100 * sum(dr_u) / len(dr_u)) if dr_u else None
         sc["verified"] = bool(len(mat) >= cfg.get("min_periods_for_calibration", 5))   # 到期样本达标才算"经统计验证"
-        sc["rel_qqq"] = rel_qqq                          # 相对QQQ超额裁判(LLM vs 规则)
+        sc["rel_qqq"] = rel_qqq                          # 相对QQQ超额裁判(LLM vs 规则)兼容旧读取
+        sc["short_horizon"] = short_horizon              # 短周期记分卡(跑赢大盘率+超额,matured 空转期的真裁判)
         sc["basis"] += ("｜⚠️方向胜率为【在途·未到期】值:在途口径含同票逐日快照(伪重复非独立),另附【按票去重】"
                         f"独立口径 n={sc['n_entered_unique']};到期样本 matured_n={len(mat)},"
                         f"未达 {cfg.get('min_periods_for_calibration', 5)} 期前一律不构成'系统准不准'的统计结论。")
@@ -204,6 +226,23 @@ def main():
         calib = (f"到期样本 {mat_n} 期(<{need}),目标价终值【暂不可校准】——{n_hist} 期在途预测均未走完 {HORIZON} 天窗口,"
                  f"当前平均进度 {ap}% 属半程未实现{pace_hint},【不作收窄依据】。当下可校准的是买点:入场触及率 {ehr}% {buy_hint}。")
 
+    # ── 短周期业绩校准(2026-08 激活闭环核心):不论到期与否,把"买入信号相对QQQ跑赢/跑输"变成给引擎的
+    #    明确纪律,经 research_ds 注入下期 prompt。优先用样本更足的窗口(要求 n≥SHORT_MIN_N)。──
+    SHORT_MIN_N = int(cfg.get("short_horizon_min_n", 20))
+    shl = short_horizon["llm"]
+    pick = ("近1季", shl["3m"]) if shl["3m"]["n"] >= SHORT_MIN_N else (
+           ("近1月", shl["1m"]) if shl["1m"]["n"] >= SHORT_MIN_N else None)
+    if pick:
+        lab, st = pick
+        ax, br, nn = st["avg_excess"], st["beat_rate"], st["n"]
+        head = f"｜【短周期业绩·真裁判】买入信号{lab}相对QQQ超额 {ax:+.1f}%、跑赢大盘率 {br}%(n={nn},含重叠窗口非独立)"
+        if ax is not None and (ax <= -2 or (br is not None and br < 45)):
+            calib += head + "——引擎选股近期【未跑赢大盘】,本期收紧:优先【相对强弱为正(近3月跑赢QQQ)+已回调到结构支撑】的票给买入,压制追高与弱势票,目标价取偏保守下沿。"
+        elif ax is not None and ax >= 2 and (br is None or br >= 55):
+            calib += head + "——选股方向近期【有效跑赢大盘】,维持现有纪律,勿因单日波动动摇。"
+        else:
+            calib += head + "——与大盘基本持平,维持纪律并继续观察短周期业绩。"
+
     json.dump({"asof": TODAY, "latest_call_date": latest, "feasibility": feasibility,
                "review": review, "scorecard": sc, "calibration": calib},
               open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
@@ -218,8 +257,11 @@ def main():
                     kept.append(ln.strip())
             except Exception:
                 continue
+    _shl = short_horizon["llm"]
     kept.append(json.dumps({"date": TODAY, **{k: sc.get(k) for k in
-                ("entry_hit_rate", "direction_win_rate", "avg_pace_ratio", "matured_n", "n_open")}},
+                ("entry_hit_rate", "direction_win_rate", "avg_pace_ratio", "matured_n", "n_open")},
+                "beat_1m": _shl["1m"]["beat_rate"], "beat_3m": _shl["3m"]["beat_rate"],
+                "excess_3m": _shl["3m"]["avg_excess"]},
                 ensure_ascii=False))
     open(hist_p, "w", encoding="utf-8").write("\n".join(kept) + "\n")
     bad = [tk for tk, v in feasibility.items() if not v["buy_reachable"] or v["target_aggressive"]]

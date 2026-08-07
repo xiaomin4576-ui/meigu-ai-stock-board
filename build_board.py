@@ -144,18 +144,41 @@ def review_section(v):
     ok = len(feas) - len(bad)
     fl = (f'本期 <b style="color:#4ade80">{ok}/{len(feas)}</b> 支建议买入价落在【真实近20日成交区间·可达】'
           + ("，目标价隐含涨幅均在合理区(无激进项)" if not bad else f'，<b style="color:#fbbf24">需关注:{"、".join(bad)}</b>'))
-    # 相对QQQ超额裁判(引擎黑箱 vs 纯规则,谁的买入跑赢指数)——数据驱动,几个月后谁稳定赢切谁
+    # 引擎成绩单(短周期·相对QQQ超额)——2026-08 激活校准闭环:把"跑赢大盘胜率+超额"做成可读成绩单。
+    # 长目标 270 天 matured 空转期间,这是唯一能立即累积的业绩裁判,并已注入 calibration 反哺下期研判。
+    sh = sc.get("short_horizon") or {}
     rq = sc.get("rel_qqq") or {}
-    def _ex(v, n):
-        if v is None:
-            return f'<span style="color:#94a6c4">—(n{n})</span>'
-        return f'<b style="color:{"#4ade80" if v >= 0 else "#ff8080"}">{v:+.1f}%</b><span style="color:#94a6c4">(n{n})</span>'
     rq_line = ""
-    if rq:
-        rq_line = (f'<div class="rv-line">⚖️ <b>相对QQQ超额〔裁判·引擎 vs 规则并排〕:</b>'
+    if sh.get("llm"):
+        cbase = "padding:7px 10px;border-top:1px solid rgba(148,163,184,.15);font-size:12px"
+        thst = "padding:7px 10px;text-align:left;font-size:11px;color:#94a6c4;font-weight:600"
+        def _cell(st):
+            if not st or not st.get("n") or st.get("avg_excess") is None:
+                return f'<td style="{cbase};color:#94a6c4">样本累积中(n{(st or {}).get("n", 0)})</td>'
+            ax, br, up, n = st["avg_excess"], st.get("beat_rate"), st.get("up_rate"), st["n"]
+            excol = "#4ade80" if ax >= 0 else "#ff8080"
+            brcol = "#4ade80" if (br is not None and br >= 55) else ("#ff8080" if (br is not None and br < 45) else "#fbbf24")
+            return (f'<td style="{cbase}">跑赢大盘 <b style="color:{brcol}">{br}%</b> · 超额 <b style="color:{excol}">{ax:+.1f}%</b>'
+                    f'<span style="color:#94a6c4"> · 个股涨 {up}% · n{n}</span></td>')
+        L, R = sh["llm"], sh.get("rule", {})
+        rq_line = (
+            '<div class="rv-h" style="margin-top:14px">🏅 引擎成绩单 <span class="rv-sub">短周期·相对QQQ超额(滤大盘beta)· 引擎(DeepSeek)vs 纯规则并排 · 已接入校准反哺下期研判</span></div>'
+            '<div style="overflow-x:auto"><table style="border-collapse:collapse;width:100%;min-width:440px">'
+            f'<thead><tr><th style="{thst}"></th><th style="{thst}">近1月(20交易日)</th><th style="{thst}">近1季(60交易日)</th></tr></thead><tbody>'
+            f'<tr><th style="{thst};color:#c9d5e8">🤖 引擎买入</th>{_cell(L.get("1m"))}{_cell(L.get("3m"))}</tr>'
+            f'<tr><th style="{thst};color:#c9d5e8">📐 规则买入</th>{_cell(R.get("1m"))}{_cell(R.get("3m"))}</tr>'
+            '</tbody></table></div>'
+            '<div style="font-size:11px;color:#94a6c4;margin-top:6px;line-height:1.5">跑赢大盘=买入信号持有N交易日相对QQQ超额&gt;0的占比;个股涨=绝对上涨占比。'
+            '⚠️ 同票邻近期窗口高度重叠(自相关)非独立、样本小仅供观察非结论;规则信号自有 rule_signal 起累积,攒够谁稳定赢就切谁拍板。'
+            '这是 270 天长目标 matured 到期前唯一能立即累积的业绩裁判,已注入 calibration 反哺下期研判。</div>')
+    elif rq:
+        def _ex(v, n):
+            if v is None:
+                return f'<span style="color:#94a6c4">—(n{n})</span>'
+            return f'<b style="color:{"#4ade80" if v >= 0 else "#ff8080"}">{v:+.1f}%</b><span style="color:#94a6c4">(n{n})</span>'
+        rq_line = (f'<div class="rv-line">⚖️ <b>相对QQQ超额〔引擎 vs 规则〕:</b>'
                    f'近1月 引擎 {_ex(rq.get("llm_1m"), rq.get("llm_1m_n", 0))} / 规则 {_ex(rq.get("rule_1m"), rq.get("rule_1m_n", 0))}'
-                   f' · 近1季 引擎 {_ex(rq.get("llm_3m"), rq.get("llm_3m_n", 0))} / 规则 {_ex(rq.get("rule_3m"), rq.get("rule_3m_n", 0))}'
-                   f' <span style="color:#94a6c4">(买入信号持有N日相对QQQ的超额,滤大盘beta;规则信号自今日起累积,样本小仅供观察非结论——攒够谁稳定赢就切谁拍板)</span></div>')
+                   f' · 近1季 引擎 {_ex(rq.get("llm_3m"), rq.get("llm_3m_n", 0))} / 规则 {_ex(rq.get("rule_3m"), rq.get("rule_3m_n", 0))}</div>')
     return (f'<div class="review">{gauges}'
             f'<div class="rv-h">🔍 复盘与校准 <span class="rv-sub">预测台账 → 自动验证 → 校准(越用越准)</span></div>'
             f'<div class="stats">{scorecard}</div>'
