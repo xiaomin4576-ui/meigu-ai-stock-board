@@ -1,40 +1,33 @@
 {
  "asof": "2026-08-08",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-08T11:16+08:00",
+ "generated_at": "2026-08-08T12:35+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 8,
-  "cluster_label": "",
-  "cluster_dropped": [],
+  "cross_day_suppressed": 6,
+  "cluster_label": "霍尔木兹",
+  "cluster_dropped": [
+   "美国预期霍尔木兹协议，逊尼派防御条约",
+   "贝森特称霍尔木兹将失去战略重要性"
+  ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "非农爆冷下滑 美联储9月加息存疑",
-   "brief": "美国7月非农就业意外减少，5、6月数据大幅下修，市场质疑美联储9月是否加息。",
-   "chain": "就业疲软→加息预期降温→美债收益率下行→利好美股AI高久期股→映射A股算力链情绪。",
-   "impact": 10,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608083835792046.html",
-   "ts": "2026-08-08 09:24:28"
-  },
-  {
-   "cat": "macro",
-   "title": "美股债券齐涨 日元反弹",
-   "brief": "美国7月非农报告疲软，美股、债券市场双双上涨，日元兑美元反弹。",
-   "chain": "非农疲软→避险情绪升温→美债收益率下行→支撑美股估值→A股算力链或受情绪提振。",
+   "title": "7月非农意外减少，美债收益率下跌",
+   "brief": "美国7月非农就业人数意外下降，市场对经济放缓担忧加剧，美债收益率应声下跌。",
+   "chain": "非农疲软→降息预期升温→利好美股成长股估值→映射A股AI算力链情绪",
    "impact": 9,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOc0YzMU1OZXgxZVVsOS1zOHl4RnZ3SVU4WWtmNFVBd24xM1JNbVlvY0dXMm5DQUZQcDh4WHh1YTZpemRib1NEX1JDOTVqR20wZ2ZObnFJN3dtVkdHS3otcEF3OVBaTUVlTEtNNGw5eUx2QkozTGhvRTQxOHd0Vk5xX194QQ?oc=5",
-   "ts": "2026-08-07T02:16:00+00:00"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/07/here-are-three-key-takeaways-from-the-disappointing-july-jobs-report.html",
+   "ts": "Fri, 07 Aug 2026 18:09:18 GMT"
   },
   {
    "cat": "macro",
-   "title": "美债收益率因非农意外下降",
-   "brief": "美国7月非农就业意外减少，国债收益率应声下跌。",
-   "chain": "非农意外→美债收益率下行→降低贴现率→利好美股成长股→A股算力链估值压力缓解。",
+   "title": "美债收益率因非农数据下跌",
+   "brief": "7月非农就业意外减少，投资者涌向避险资产，美债收益率走低。",
+   "chain": "非农疲软→美债收益率下行→降低AI高久期股票贴现率→利好A股算力链",
    "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/07/treasury-yields-steady-ahead-of-key-nonfarm-payrolls-jobless-data.html",
@@ -42,80 +35,80 @@
   },
   {
    "cat": "macro",
-   "title": "金价大涨 金饰克价重回1300元",
-   "brief": "COMEX黄金期货涨2.37%报4401.3美元，现货黄金涨2.40%，本周累涨超7%。",
-   "chain": "金价上涨主因避险+降息预期→实际利率下行→利好美股AI高久期股→A股算力链情绪或受提振。",
-   "impact": 8,
+   "title": "美银警告看涨情绪近五年最高",
+   "brief": "美国银行表示投资者看涨情绪已攀升至近五年最高，建议放弃风险资产，逆向警告。",
+   "chain": "情绪过热→短期回调风险→美股波动加大→A股算力链或受情绪拖累",
+   "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608083835797771.html",
-   "ts": "2026-08-08 09:48:00"
+   "url": "https://finance.eastmoney.com/a/202608083835792542.html",
+   "ts": "2026-08-08 12:05:00"
   },
   {
    "cat": "macro",
-   "title": "特朗普再促解雇美联储理事库克",
-   "brief": "特朗普重启解雇美联储理事丽莎·库克的努力，加剧美联储独立性担忧。",
-   "chain": "政治干预美联储→政策不确定性→美元波动→影响全球风险偏好→A股算力链或受情绪扰动。",
-   "impact": 7,
+   "title": "特朗普重启解雇美联储理事库克",
+   "brief": "特朗普政府再次尝试解雇美联储理事丽莎·库克，引发对美联储独立性的担忧。",
+   "chain": "政治干预美联储→政策不确定性→美元波动→影响全球风险资产",
+   "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/07/trump-lisa-cook-federal-reserve.html",
    "ts": "Fri, 07 Aug 2026 18:38:17 GMT"
   },
   {
    "cat": "macro",
-   "title": "白宫称特朗普与美联储主席频繁讨论经济",
-   "brief": "白宫经济顾问称特朗普与美联储主席沃什经常交流经济，但未施压利率政策。",
-   "chain": "白宫与美联储沟通→政策协调预期→市场情绪稳定→美股波动或降低→A股算力链影响中性。",
-   "impact": 6,
+   "title": "贝森特与沃什新政引关注",
+   "brief": "哈佛教授福尔曼评论贝森特和沃什对美联储的批评，市场关注美联储独立性。",
+   "chain": "美联储独立性受挑战→政策路径不明→美股波动→A股外资流向",
+   "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608083835799994.html",
-   "ts": "2026-08-08 09:43:32"
+   "url": "https://finance.eastmoney.com/a/202608083835809642.html",
+   "ts": "2026-08-08 11:05:11"
   },
   {
    "cat": "geo",
-   "title": "美国预计霍尔木兹海峡协议将达成",
-   "brief": "美国预计伊朗与阿曼将很快达成霍尔木兹海峡协议，逊尼派国家联合防御条约。",
-   "chain": "地缘缓和→油价承压→美股能源板块波动→A股油气链或受情绪影响。",
+   "title": "美官员称霍尔木兹协议将很快达成",
+   "brief": "美国官员透露伊朗与阿曼关于霍尔木兹海峡的谈判有进展，预计很快达成协议。",
+   "chain": "协议达成→海峡风险缓解→油价承压→利好莫桑比克LNG出口竞争力",
    "impact": 9,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeTlKQUF3VjE1MnpMNE5PNFRFZmloMHhQMjdHUmhwU0s4QWdWQVl6TFA4NjJCSi1qbnJyRFVjajVIamtFOVd3eHpSdlozSDd4YzlrdW93UHdfaGVDOEVicFByV1hkemlNTFFxbWxiNW5OWUJ4Y3FRbDBkd05nX05pTVNOUUpHc3hjVFlqR3daRnpBNkVDZF91dHV3WTJYQ0ZqLUh3VVVaMV9DU1FtWXlocDlxb3d0cGw1eFVKVA?oc=5",
-   "ts": "2026-08-07T23:02:00+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "美官员称伊朗与阿曼协议在望",
-   "brief": "美国官员表示，预计伊朗与阿曼很快将就霍尔木兹海峡达成协议。",
-   "chain": "地缘缓和预期→油价下行→美股能源股承压→A股油气链或联动。",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMkZHc1FWRXNSWG5BdjNhZ0dqOEdNUFUtUl80NTNFYkFrM2RrLVBiSXlOOFdaek5hcEhIMl84OVJLZnVDMzNodFBScmliaFdNYUpaN21uQ3V3VmQ2V1p3MGZ0QUozdTJQb09EcTJ1VERWc3E0d1Z5dkNvalFEcEVSQzRQejkwZmdybVJTVDJPbk4wMS1hWFBOaXJKaTE4MUxHNS1STUFxTzN4S0ZDSmtZOXFhdUZaa0d1?oc=5",
-   "ts": "2026-08-07T19:15:43+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "伊朗总统称谈判从未让步",
-   "brief": "伊朗总统佩泽希齐扬强调从未在谈判中让步，将捍卫主权，并呼吁伊斯兰国家团结。",
-   "chain": "伊朗强硬表态→地缘不确定性→油价波动→美股能源板块波动→A股油气链或受情绪影响。",
-   "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608083835808060.html",
-   "ts": "2026-08-08 10:32:14"
+   "url": "https://finance.eastmoney.com/a/202608083835814229.html",
+   "ts": "2026-08-08 12:14:46"
   },
   {
    "cat": "geo",
-   "title": "土耳其称沙土巴防务协议与北约不冲突",
-   "brief": "土耳其表示与沙特、巴基斯坦签署的《麦加共同防务协议》与北约第五条不冲突。",
-   "chain": "中东防务合作→地缘格局变化→影响能源安全预期→油价或受支撑→莫桑比克油气经营关注。",
+   "title": "美参议院通过俄制裁法案",
+   "brief": "美国参议院通过格雷厄姆推动的俄罗斯制裁法案，下一步众议院审议。",
+   "chain": "制裁升级→俄油出口受限→油价波动→莫桑比克LNG或受益",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0pzeU9VRmJkMDBtRWM3MFhyR3JKTENJeDVfb3pNNHpycXViQnF6LWpveDVmZlotcWVrV0M3cTV4Q1hyTUlPcnRwaDFqRW5fWE5BdlFSYVd4NnZ5MWU2X241OU1QVzZkREh5MjVVMFBlY0k3RDgtM2RDUEFWNVVwUlJ4RFo4OHpGanRuclQ1WXV0bmVZX1MtRUZWak5ERjJ1Y0FLQlR3SlBtS2VyM0EyWUlJQVRJdw?oc=5",
+   "ts": "2026-08-07T22:20:38+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "马斯克拒绝乌用星链打击俄境内",
+   "brief": "马斯克明确拒绝乌克兰使用星链打击俄罗斯境内目标，影响乌军作战能力。",
+   "chain": "星链限制→俄乌冲突不确定性→避险情绪→黄金等避险资产受益",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608083835808535.html",
-   "ts": "2026-08-08 10:45:50"
+   "url": "https://finance.eastmoney.com/a/202608083835813932.html",
+   "ts": "2026-08-08 11:59:06"
+  },
+  {
+   "cat": "geo",
+   "title": "伊朗称防务协议无法保障沙特安全",
+   "brief": "伊朗官员评论沙特、土耳其、巴基斯坦防务协议，认为无法保障沙特安全。",
+   "chain": "中东阵营分化→地缘紧张持续→油价高位→利好莫桑比克LNG",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608083835810273.html",
+   "ts": "2026-08-08 11:15:02"
   },
   {
    "cat": "oil",
    "title": "ADNOC称袭击严重影响运营",
-   "brief": "ADNOC表示船只和人员遭袭，运营受到显著影响。",
-   "chain": "供应中断风险→油价上涨→利好莫桑比克LNG项目经济性→联合能源或受益。",
-   "impact": 9,
+   "brief": "阿布扎比国家石油公司表示船只和人员遭袭，运营受到显著影响。",
+   "chain": "供应中断→油价上涨→利好莫桑比克LNG价格",
+   "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZFZ2Y0RPOWN5S0dKcGVuQTgweVRpcHJfS1RMeFNXWjJHTkxjQU9oR3NhSGhGekVndEg5aS1QS1Jadm9ZUGU2QVdIa3pGY0VXa0dmZE9EOEZZLWd5Z194SEZNcXF6eWRjbUdkSWxfWVJXdkt4Y1I2UGJNZ0NpQ2NkZTJhREd4YzB2MlExUjdJRnFPZUZ1UFdfUF9jVXg2OHlfVHVSYW1zd0ZPaC1qTTRpaTNoV040WVFrZF8xRTV3?oc=5",
    "ts": "2026-08-07T15:07:38+00:00"
@@ -123,8 +116,8 @@
   {
    "cat": "oil",
    "title": "海湾不确定性利好雪佛龙等油企",
-   "brief": "海湾不确定性为雪佛龙等石油巨头创造“双赢”策略。",
-   "chain": "地缘风险溢价→油价高位→油企盈利提升→莫桑比克油气项目吸引力增强。",
+   "brief": "海湾不确定性为雪佛龙等石油巨头创造双赢策略，市场关注。",
+   "chain": "地缘风险→油价高位→油企盈利提升→莫桑比克油气项目吸引力增强",
    "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/07/gulf-uncertainty-is-creating-win-win-strategy-with-chevron-and-other-oil-majors.html",
@@ -132,39 +125,19 @@
   },
   {
    "cat": "oil",
-   "title": "民主党提议取消海外石油税收优惠",
-   "brief": "民主党提出取消海外石油生产税收减免，可能影响美国油企海外投资。",
-   "chain": "税收政策收紧→美国油企海外成本上升→全球油气投资或调整→莫桑比克项目竞争格局变化。",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/07/martin-heinrich-tax-breaks-overseas-oil-production.html",
-   "ts": "Fri, 07 Aug 2026 16:00:01 GMT"
-  },
-  {
-   "cat": "gas",
-   "title": "伊朗战后能源安全成焦点",
-   "brief": "文章探讨伊朗战争后如何实现能源安全，引发对全球能源格局的思考。",
-   "chain": "地缘冲突后→能源安全需求上升→LNG需求增加→利好莫桑比克LNG出口。",
-   "impact": 7,
+   "title": "伊朗战后能源安全之问",
+   "brief": "伊朗战争后，各国寻求能源安全，但路径分歧。",
+   "chain": "能源安全需求→多元化供应→LNG需求增加→莫桑比克LNG机会",
+   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0VHNVlqVEZlcUZuWHpGVjZmak5COW1JRHVnLUVfUExEbF9NTEZ3SVRIZFhDeF84SmZ4Y2xwcDczb1oxSzNHWUFZT1JkWFhFb3FXTFJRTTFjUmpNVHdYdW5nX1A5WnNOVmpSOGRKcUduY0RhOWMwbE41eklWODdQVldLZ3RONm1SREtRZVhKTkt0cGxmTnBsWDVHNENUZWhwVjZhcG1BQ21rUGlVZ3FzSmNpamFsNFVCSnc?oc=5",
    "ts": "2026-08-07T16:08:43+00:00"
   },
   {
-   "cat": "gas",
-   "title": "欧洲气温升高 市场关注能源需求",
-   "brief": "欧洲气温上升，市场开始关注其对能源需求的影响。",
-   "chain": "高温→电力需求增加→天然气需求上升→LNG价格或受支撑→莫桑比克LNG项目受益。",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWGVzcGFNZ1c5WlpIeXI4dWlKLUNPWmNUYXFCbWxCazFPV2swT3dyR0ZvUW54X2Nnb3ZsMWh5NmtoUHpUb3B4V1l2dV9aTGd6V2tlbTQ1aGNrUEIzdWZ3YkhWNW81dDFGdVhmdnM4N3dka1lYTy1ZZFZaSGE4RzZBTVJCTm8wb21CUGN0aTd0MU5NMFNjd2lUV2k4dTRsNG9XWWhFdmtB?oc=5",
-   "ts": "2026-08-07T04:02:00+00:00"
-  },
-  {
    "cat": "tech",
-   "title": "软件股大幅波动 “SaaSpocalypse”争论加剧",
-   "brief": "本周软件股双向大幅波动，投资者试图评估行业前景。",
-   "chain": "软件股波动→科技板块情绪不稳→美股科技股承压→A股软件及算力链或联动。",
+   "title": "软件股波动加剧，SaaSpocalypse辩论",
+   "brief": "软件股本周大幅波动，投资者对SaaS前景分歧加剧。",
+   "chain": "软件股波动→科技板块情绪→美股科技回调→A股科技映射",
    "impact": 7,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
@@ -172,53 +145,53 @@
   },
   {
    "cat": "tech",
-   "title": "特朗普政府投资30亿美元矿产项目",
-   "brief": "特朗普政府将投资30亿美元用于矿产项目，以加强国防供应链。",
-   "chain": "政府投资矿产→关键材料供应→利好科技硬件→A股相关资源股或受益。",
+   "title": "特朗普对进口多晶硅和太阳能板征15%关税",
+   "brief": "特朗普宣布对进口多晶硅及太阳能产品征收15%关税，影响光伏产业链。",
+   "chain": "关税→光伏成本上升→美股光伏承压→A股光伏链或受影响",
+   "impact": 8,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-06/trump-signed-order-on-tariffs-trade-actions-on-polysilicon",
+   "ts": "2026-08-07T03:55:08+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "美国拟禁中国光模块，自损八百",
+   "brief": "FCC起草禁令禁止进口中国光模块，但美国自身依赖度高。",
+   "chain": "禁令→中国光模块出口受限→美股云厂商成本升→A股光模块链承压",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608083835814158.html",
+   "ts": "2026-08-08 12:11:00"
+  },
+  {
+   "cat": "tech",
+   "title": "美投资30亿美元矿产项目",
+   "brief": "特朗普政府投资30亿美元用于矿产项目，强化国防供应链。",
+   "chain": "矿产投资→关键材料自主→美股矿业受益→A股资源股联动",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOC1sWW4tTHpEM1NiQWVIbnZMRVlvcVcyNTl2UE1QU1lqSlBVaTlNai1UUm1yR0htazhtZjA1N3Jtb2dEaHhnWklPREdWdG52a0FrTjBMamVaM1FlR1JmSzZycUpWY3pKUzA4V3pRTk9FRzRsTklOMEhvQlRybVVjTHRNbjByQ3ZHY25ja2JERjBXdDUzNXo1WDNFeEFGa3hZTnZUR2lxWTZIQ2p5M01qV0lnUXBFQm1JRVdlZk90MkZhTWplb3RZdVJ0ZktrNmFKM0dr?oc=5",
    "ts": "2026-08-07T10:05:00+00:00"
   },
   {
-   "cat": "tech",
-   "title": "中国AI进步 但美国仍有优势",
-   "brief": "分析指出中国在AI领域追赶，但美国仍保持领先优势。",
-   "chain": "中美AI竞争→科技股估值分化→美股AI龙头或受益→A股AI产业链关注自主可控。",
-   "impact": 6,
+   "cat": "ai",
+   "title": "AI交易回归，不只是Situational Awareness",
+   "brief": "AI交易回暖，原因不止一个，市场重新聚焦AI。",
+   "chain": "AI交易回归→美股AI股反弹→A股算力链情绪修复",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/07/the-situational-awareness-unwind-is-only-one-reason-the-ai-trade-is-back.html",
+   "ts": "Fri, 07 Aug 2026 18:51:29 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "中国AI追赶，美国仍占优势",
+   "brief": "中国在AI领域进步，但美国仍保持关键优势。",
+   "chain": "中美AI竞争→美股AI龙头受益→A股AI国产替代逻辑",
+   "impact": 7,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/08/07/china-us-ai-race-hugging-face-models.html",
    "ts": "Fri, 07 Aug 2026 11:19:21 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "英伟达拟向Lancium投资30亿美元",
-   "brief": "据报道，英伟达将向Lancium投资至多30亿美元，布局AI基础设施。",
-   "chain": "英伟达投资→AI算力扩张→利好AI产业链→A股算力链或受提振。",
-   "impact": 9,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608083835796319.html",
-   "ts": "2026-08-08 09:27:01"
-  },
-  {
-   "cat": "ai",
-   "title": "硅谷为资本开支找新理由：RSI",
-   "brief": "谷歌DeepMind高管称RSI成为AI资本开支核心逻辑，但承认收入尚不足以支撑。",
-   "chain": "AI资本开支持续→算力需求增长→利好AI基础设施→A股算力链或受益。",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608083835799846.html",
-   "ts": "2026-08-08 09:54:50"
-  },
-  {
-   "cat": "ai",
-   "title": "腾讯将WorkBuddy列为战略级产品",
-   "brief": "腾讯内部将WorkBuddy视为继QQ、微信后第三个战略级产品，加大AI应用投入。",
-   "chain": "腾讯加码AI→国内AI应用竞争→利好A股AI应用及算力链。",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608083835796415.html",
-   "ts": "2026-08-08 09:42:00"
   }
  ]
 }
