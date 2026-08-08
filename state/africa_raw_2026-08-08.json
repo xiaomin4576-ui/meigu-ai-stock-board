@@ -1,13 +1,13 @@
 {
  "asof": "2026-08-08",
- "fetched_at": "2026-08-08T19:45+08:00",
+ "fetched_at": "2026-08-08T22:14+08:00",
  "meta": {
   "counts": {
    "TechCabal": 0,
    "Moonshot·TechCabal": 0,
    "Disrupt Africa": 10,
    "Techpoint Africa": 0,
-   "IT News Africa": 11,
+   "IT News Africa": 0,
    "TechAfrica News": 12,
    "Condia": 25,
    "ITWeb Africa": 25,
@@ -15,24 +15,14 @@
    "Zimbabwe Situation": 0,
    "African Business": 1,
    "非洲科技·聚合": 15,
-   "中非科技·聚合": 16
+   "中非科技·聚合": 14
   },
   "total": 60,
-  "ai_flagged": 20,
+  "ai_flagged": 21,
   "aiinfra_flagged": 5,
   "countries": 8
  },
  "items": [
-  {
-   "title": "Why great banking apps no longer win customers",
-   "brief": "For many years, digital banking was defined by one question: does your bank have an app? Today, that question has largely been answered. Every major South African bank offers a capable mobile banking platform, digital pa",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/08/why-great-banking-apps-no-longer-win-customers/",
-   "date": "Fri, 07 Aug 2026 18:59:21 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
   {
    "title": "Launch Your Startup in South Africa: A Complete Guide to Founder Institute",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxQSVM1b19DeFJobjNsLUZ1dmhVTG9haG9LblZCLTlsS1dWM3N4Qm0zRmVEVnRUaUVBZ1N4UDJtbS1YdldHQ3J0cktBRW5iaHUxRTFSSlZ1ckFwTFhhVXZnWFZ0MFYydXFwVzMxZloyekFEUms3RWFrbzk0cERqOG",
@@ -60,6 +50,16 @@
    "url": "https://thecondia.com/work-content-hr-laws/",
    "date": "Fri, 07 Aug 2026 15:35:19 +0000",
    "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Clea Launches Vendor Payments to Simplify International Supplier Payments",
+   "brief": "Clea , the stablecoin-powered cross-border payments platform helping African businesses trade globally, has launched Vendor Payments, a new capability that enables businesses to simplify payments to ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/08/07/clea-launches-vendor-payments-to-simplify-international-supplier-payments/",
+   "date": "Fri, 07 Aug 2026 15:06:56 +0000",
+   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -101,26 +101,6 @@
    "date": "Fri, 07 Aug 2026 14:42:45 +0000",
    "country": "🇺🇬 乌干达",
    "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "How to Bypass Google Account Verification After Reset",
-   "brief": "Google takes user security very seriously. To protect Android devices from unauthorized access, Google introduced a security feature called Factory Reset Protection (FRP). When an Android device performs a factory reset,",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/08/how-to-bypass-google-account-verification-after-reset/",
-   "date": "Fri, 07 Aug 2026 14:09:30 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Industrial AI has a context problem – and it’s time to solve it",
-   "brief": "For much of the past decade, industrial companies have been dutifully collecting data – almost as if it were a badge of honour. More data leads to better decisions – or so the thinking went. The scale is staggering: near",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/08/industrial-ai-has-a-context-problem-and-its-time-to-solve-it/",
-   "date": "Fri, 07 Aug 2026 13:34:15 +0000",
-   "country": null,
-   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -264,46 +244,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Absa Bank modernises credit risk management reporting with SAS",
-   "brief": "Absa Bank, one of Africa’s largest financial institutions, understands that each credit decision represents someone’s next chapter. Amid rising customer expectations and regulatory demands, the bank teamed with SAS, a gl",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/08/absa-bank-modernises-credit-risk-management-reporting-with-sas/",
-   "date": "Fri, 07 Aug 2026 06:55:00 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Tap, Pay, Done: How Africa’s youth is helping to shape a more frictionless payment future",
-   "brief": "As Africa’s young and digitally connected population comes of age, the payments industry is undergoing a significant transformation, driven by the rise of digitally savvy consumers who increasingly expect interactions to",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/08/tap-pay-done-how-africas-youth-is-helping-to-shape-a-more-frictionless-payment-future/",
-   "date": "Fri, 07 Aug 2026 06:49:00 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "From credit scoring to financial understanding",
-   "brief": "A South African can earn a regular income, pay rent, support a household, manage money on a smartphone, and repay previous loans, yet still be difficult for a lender to assess. A conventional credit record may capture on",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/08/from-credit-scoring-to-financial-understanding/",
-   "date": "Fri, 07 Aug 2026 06:44:00 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Yellow Card Secures $40 Million in Strategic Funding to Further Global Expansion",
-   "brief": "Yellow Card, a leading global stablecoin infrastructure provider, today announced the successful closing of a $40 million strategic funding round, with investment from SC Ventures by Standard Chartered, Sony Innovation F",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/08/yellow-card-secures-40-million-in-strategic-funding-to-further-global-expansion/",
-   "date": "Fri, 07 Aug 2026 06:35:00 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "ITWeb TV: Agentic AI fuelling rise of the autonomous enterprise",
    "brief": "Nazia Pillay, MD of SAP Southern Africa, speaks to ITWeb TV about the impact of agentic AI on key business processes and why governance is essential.",
    "source": "ITWeb Africa",
@@ -339,46 +279,6 @@
    "source": "The China-Global South Project·聚合",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcGxDZEM3aVhwd1NDVTVTdFZwWkNYdXdiOXFIT19hdTNYU3lUUzcyZVNwWkRGLXhiRnpUZWEyYm1GbW9ySldER1ItVmM1SDNCZFVEV2tWRXAzVF9yVG1rYmgzY3RTYlByT1RVQVR5QXZmNUE0b1d0dko5NndEaEVCTnlNWFhmYjhvYkRZ?oc=5",
    "date": "Fri, 07 Aug 2026 03:59:31 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "What Makes UPS Power Supply Sizing Critical for Sensitive Electrical Loads",
-   "brief": "Sensitive electrical loads need stable voltage, clean power, and enough backup time to operate safely during interruptions. Equipment such as automation panels, control systems, medical devices, servers, and communicatio",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/08/what-makes-ups-power-supply-sizing-critical-for-sensitive-electrical-loads/",
-   "date": "Thu, 06 Aug 2026 22:05:00 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "TCL Opens First South African Experience Store at Cedar Square",
-   "brief": "Global consumer electronics brand TCL has opened the doors to its first TCL Experience Store in South Africa, bringing the brand’s latest innovations under one roof at Cedar Square in Fourways, Johannesburg. The new stor",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/08/tcl-opens-first-south-african-experience-store-at-cedar-square/",
-   "date": "Thu, 06 Aug 2026 18:26:11 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Clea Launches Vendor Payments to Simplify International Supplier Payments",
-   "brief": "Clea, the stablecoin-powered cross-border payments platform helping African businesses trade globally, has launched Vendor Payments, a new capability that enables businesses to simplify payments to international supplier",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/08/clea-launches-vendor-payments-to-simplify-international-supplier-payments/",
-   "date": "Thu, 06 Aug 2026 18:20:19 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Challenging the changing rules of a career in technology",
-   "brief": "How can young people build a career in a world that keeps changing the rules? It’s a fair question, and one that’s being asked by matriculants and students across the country. It’s also the right question: not what shoul",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/08/challenging-the-changing-rules-of-a-career-in-technology/",
-   "date": "Thu, 06 Aug 2026 18:15:42 +0000",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -481,6 +381,16 @@
    "date": "Wed, 05 Aug 2026 20:18:31 GMT",
    "country": null,
    "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Africa-Asia Fund commits $82.8 million to expand DRC telecom towers, and support major fibre-optic operations across Africa",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZ3ExVjNYZGZpT0c1MlV3ajJVTWZET0hYNmRpakx6TTlDZ1ZKa285cWc2TlRXMzFSMVZwQkloQ3FYMHlLVG5zQWNTYnN6ODg5Z3dfM1BZRjJoZTdGOW5xY3JoUzdKeEFWNWtFYUFlcU4yUEh0V2NIUDVDUFdpaU",
+   "source": "Business Insider Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZ3ExVjNYZGZpT0c1MlV3ajJVTWZET0hYNmRpakx6TTlDZ1ZKa285cWc2TlRXMzFSMVZwQkloQ3FYMHlLVG5zQWNTYnN6ODg5Z3dfM1BZRjJoZTdGOW5xY3JoUzdKeEFWNWtFYUFlcU4yUEh0V2NIUDVDUFdpaU0tYlpoTWdsVHJudW1BdC00akx6Rzc1R1BoQzExVUFzNzg3ZlV3MDVtckRoY0JTQUFnVzFpUDRUVjc0RzR2WXFZYnQ4TU1wZTZsN1JHa0NwY1VJdnFXVnZCSQ?oc=5",
+   "date": "Wed, 05 Aug 2026 18:31:43 GMT",
+   "country": null,
+   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -606,7 +516,7 @@
   {
    "title": "INTERPOL report finds AI linked to over half of cybercrime in Africa",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb2dfVTVlZURiQlg4YlFtMHA5M1JTN1hBQ0I0VU4yOGVqejNnbm40YzVxblBoeU5rRllSeGNSZUUycEg2VnU1UHZTVDNvdEFmUERlVFdKc051Y2xVMUNCVEhKbnV1cXF2UmtIWV84NlRsM2Iwc1hwUW1fdnU2U3",
-   "source": "Jurist.org·聚合",
+   "source": "jurist.org·聚合",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb2dfVTVlZURiQlg4YlFtMHA5M1JTN1hBQ0I0VU4yOGVqejNnbm40YzVxblBoeU5rRllSeGNSZUUycEg2VnU1UHZTVDNvdEFmUERlVFdKc051Y2xVMUNCVEhKbnV1cXF2UmtIWV84NlRsM2Iwc1hwUW1fdnU2U3lnUEJIN3dLUXNSUEt1RmhyUm1wS3ZhUjh0cnlRWmZVWWJUby02WUNDX3A?oc=5",
    "date": "Tue, 04 Aug 2026 17:55:29 GMT",
    "country": null,
@@ -614,14 +524,104 @@
    "is_aiinfra": false
   },
   {
+   "title": "AI used in 55% of reported cybercrimes in Africa: Interpol",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOSndkXy0tNnBoaHZCLXRUdFlCZlNvNjZTOG1WSnRjSFhqWFJNRG1Wc2NpUkpKY3pmRElhVEh4Q2tJNHRZRVFicDUybVZJanRaODZlUkluWlA2dVJDUWU0X25KZnFLVS1uZEFSbkZFX1I2VHBULWo0X0pndUtleW",
+   "source": "Anadolu Ajansı·聚合",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSndkXy0tNnBoaHZCLXRUdFlCZlNvNjZTOG1WSnRjSFhqWFJNRG1Wc2NpUkpKY3pmRElhVEh4Q2tJNHRZRVFicDUybVZJanRaODZlUkluWlA2dVJDUWU0X25KZnFLVS1uZEFSbkZFX1I2VHBULWo0X0pndUtleWhZb01tajNwVkpZT2ZEMWpCa2FDeXhSNGdTeHEwSkw?oc=5",
+   "date": "Tue, 04 Aug 2026 13:16:29 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "PalmPay eyes Hong Kong IPO, joining OPay in Africa’s fintech listing race",
+   "brief": "PalmPay, the Africa-focused fintech, is reportedly preparing for an initial public offering in Hong Kong, according to Bloomberg.",
+   "source": "Condia",
+   "url": "https://thecondia.com/palmpay-ipo-hongkong/",
+   "date": "Tue, 04 Aug 2026 11:28:12 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Yellow Card raises $40 million to expand stablecoin-powered payment infrastructure",
+   "brief": "Yellow Card secures $40M from SC Ventures, Sony, Polychain, and Blockchain Capital to expand stablecoin and cross-border payment infrastructure.",
+   "source": "Condia",
+   "url": "https://thecondia.com/yellow-card-40-million-stablecoin/",
+   "date": "Tue, 04 Aug 2026 10:43:21 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "EXCLUSIVE: Trump administration drafting ban on Chinese data center devices, sources say",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQZEFjZDdmMzAxM2tTaHIwTWpFMHVCUldHdGs3Y3hTejI2ajRQeTVWUFU4RThDRGlIUmhXM0duczgySG5xUExONFhPMmtZR2liTVVJR19JcVhBYndwTjBURk1qM0lvOU1sTnlGYVd3VUxLQTJBQklmZjlsSmdUd0",
    "source": "Reuters·聚合",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZEFjZDdmMzAxM2tTaHIwTWpFMHVCUldHdGs3Y3hTejI2ajRQeTVWUFU4RThDRGlIUmhXM0duczgySG5xUExONFhPMmtZR2liTVVJR19JcVhBYndwTjBURk1qM0lvOU1sTnlGYVd3VUxLQTJBQklmZjlsSmdUd0p1bVpGRElVSlp5NHl3YTBnSmhrMUpfSl9ld0NmLVhDdTF0MXg1enZIcXE0aEpFQTJDRWxYUUdRdw?oc=5",
-   "date": "Tue, 04 Aug 2026 14:32:15 GMT",
+   "date": "Tue, 04 Aug 2026 10:06:00 GMT",
    "country": null,
    "is_ai": true,
    "is_aiinfra": true
+  },
+  {
+   "title": "AI Accounts for Over Half of Cybercrime in Africa, Says Interpol",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxOdXBROHZvWFNBS2FvREdVVF92UFczVmJLTVMzTTYwcW5OcGhudVRvWUJrOGwweVdzLVlVbDNNLUpaUnRlTTduemRRRVNOMjVTWDVmX2x4VjdNd21Zc01rOHJtN1dsY2xMM2RnRFJlSVR5TTV2RlZ1cUo3ekJidl",
+   "source": "Infosecurity Magazine·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdXBROHZvWFNBS2FvREdVVF92UFczVmJLTVMzTTYwcW5OcGhudVRvWUJrOGwweVdzLVlVbDNNLUpaUnRlTTduemRRRVNOMjVTWDVmX2x4VjdNd21Zc01rOHJtN1dsY2xMM2RnRFJlSVR5TTV2RlZ1cUo3ekJidlV4SWhn?oc=5",
+   "date": "Tue, 04 Aug 2026 10:00:00 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Busha launches licensed prediction market “Signal” in Nigeria",
+   "brief": "Busha launches Signal, a licensed prediction market for sports, crypto, and politics.",
+   "source": "Condia",
+   "url": "https://thecondia.com/busha-launches-licensed-prediction-market-signal-in-nigeria/",
+   "date": "Tue, 04 Aug 2026 09:42:00 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "MultiChoice-backed fintech Moment raises $22 million Series A",
+   "brief": "The fintech now processes 600,000 transactions daily just three years after launching.",
+   "source": "Condia",
+   "url": "https://thecondia.com/multichoice-moment-series-a/",
+   "date": "Tue, 04 Aug 2026 08:47:20 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Synthetic identity fraud: The risk is very real",
+   "brief": "Artificial intelligence is supercharging synthetic identity fraud, making better detection more crucial than ever before.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/synthetic-identity-fraud-the-risk-is-very-real/rxP3jqBE2YwMA2ye",
+   "date": "Tue, 04 Aug 2026 09:15:11 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Nigeria issues tax rules for crypto and other virtual assets",
+   "brief": "Nigeria has issued new tax rules for crypto and virtual assets, clarifying how gains, salaries, staking rewards, exchanges, and VAT are taxed.",
+   "source": "Condia",
+   "url": "https://thecondia.com/nigeria-crypto-virtual-assets-tax-guidelines/",
+   "date": "Mon, 03 Aug 2026 18:04:37 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "The future of fintech",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxQQllRSWpUcGNxaFpHc29rYnFxVVIwN3BQTUdqQ1drVDVVY3U2dXlUemdxNHRMZXFQSnJQLU1aSVBrcldHUEdFa0tjVUVoZkhzSG5DLVRObEttUFdiWHZSeXg0UHM1cHJ5Zkw4eVduUFdFbllDOXVrc2pDM2hxMX",
+   "source": "Dentons·聚合",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQllRSWpUcGNxaFpHc29rYnFxVVIwN3BQTUdqQ1drVDVVY3U2dXlUemdxNHRMZXFQSnJQLU1aSVBrcldHUEdFa0tjVUVoZkhzSG5DLVRObEttUFdiWHZSeXg0UHM1cHJ5Zkw4eVduUFdFbllDOXVrc2pDM2hxMXBORU5qTFdQdm8?oc=5",
+   "date": "Mon, 03 Aug 2026 15:17:26 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
   }
  ]
 }
