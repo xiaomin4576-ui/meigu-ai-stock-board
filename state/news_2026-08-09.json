@@ -1,73 +1,64 @@
 {
  "asof": "2026-08-09",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-09T19:46+08:00",
+ "generated_at": "2026-08-09T22:15+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 15,
+  "cross_day_suppressed": 13,
   "cluster_label": "伊朗/阿联酋/霍尔木兹",
   "cluster_dropped": [
-   "伊朗称霍尔木兹海峡协议接近但不足以通航",
-   "美国预计霍尔木兹海峡协议将达成，逊尼派联合防务"
+   "美预期霍尔木兹协议将达成 逊尼派防务联盟",
+   "伊朗称阿曼协议进入最后阶段 但需美行动",
+   "伊朗称霍尔木兹协议接近但不足以开放水道"
   ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "白宫证实特朗普与美联储主席定期通话",
-   "brief": "白宫国家经济委员会主任哈西特证实，特朗普与美联储主席沃什经常通话讨论经济，但强调尊重央行独立性。",
-   "chain": "总统与美联储沟通频繁→市场担忧政策干预→美股波动→A股风险偏好受影响",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608093835944284.html",
-   "ts": "2026-08-09 18:02:01"
+   "title": "美就业数据疲软 股债齐涨日元反弹",
+   "brief": "美国7月就业报告疲软，美股美债双双走高，日元反弹。市场对美联储降息预期升温。",
+   "chain": "就业疲软→降息预期升温→利好美股高久期成长股→映射A股算力链情绪修复",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOc0YzMU1OZXgxZVVsOS1zOHl4RnZ3SVU4WWtmNFVBd24xM1JNbVlvY0dXMm5DQUZQcDh4WHh1YTZpemRib1NEX1JDOTVqR20wZ2ZObnFJN3dtVkdHS3otcEF3OVBaTUVlTEtNNGw5eUx2QkozTGhvRTQxOHd0Vk5xX194QQ?oc=5",
+   "ts": "2026-08-07T21:57:24+00:00"
   },
   {
    "cat": "macro",
-   "title": "中国7月PPI降幅收窄至3个月低点，CPI放缓",
-   "brief": "中国7月工业生产者出厂价格指数(PPI)降幅收窄至三个月低点，居民消费价格指数(CPI)增速放缓，显示内需仍弱。",
-   "chain": "中国通胀数据→全球增长预期→大宗商品需求→A股周期板块",
-   "impact": 7,
+   "title": "白宫经济顾问：通胀数据迅速下降",
+   "brief": "美国白宫经济顾问哈塞特表示，通胀数据正在迅速下降，但牛肉价格依然高企。",
+   "chain": "通胀下行→强化降息预期→利好美股估值→A股科技成长链受益",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608093835974536.html",
+   "ts": "2026-08-09 21:36:06"
+  },
+  {
+   "cat": "macro",
+   "title": "中国7月PPI创3个月新低 CPI放缓",
+   "brief": "中国7月工业生产者出厂价格指数(PPI)同比降幅扩大至3个月低点，CPI同比涨幅放缓。",
+   "chain": "中国通缩压力→全球需求担忧→压制大宗商品→对油气价格偏空",
+   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaVNBcVdFSHViUm10d0NJVTdNYVJOdDgwZ3FvTy1JbFVwTVVlWmN1a1B3UjRaTWdYOG5VRm0yZWZXUWVKMEtLVzk4azgwcHVuX1Y3LWFrMGhnam0zRFU1dnRFQlBaSmpEOUVzM0sxUVYybml4QkIwNlVIck1LNE5wQTBEcWUtaFhZMGdCTFpnS0R5QTNDLWJheUNGT3VINWtSRzBFek13?oc=5",
    "ts": "2026-08-09T01:43:00+00:00"
   },
   {
    "cat": "macro",
-   "title": "美国工资占国民收入比重降至大萧条以来最低",
-   "brief": "美国工资占国民收入比重降至43%，为1929年以来最低，引发对购买力和经济结构的担忧。",
-   "chain": "工资占比下降→消费疲软→美股盈利预期下修→A股出口链",
-   "impact": 6,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/economy/articles/us-wages-plummet-43-national-104500200.html",
-   "ts": "2026-08-08T10:45:00Z"
-  },
-  {
-   "cat": "macro",
-   "title": "特朗普称关税“不可思议”，丰田等巨头投资美国",
-   "brief": "特朗普表示关税政策效果显著，丰田等企业向美国投入数十亿美元，但质疑声仍存。",
-   "chain": "关税政策→美国制造业回流→全球供应链重构→A股相关产业链",
-   "impact": 6,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/economy/policy/articles/tariffs-incredible-trump-says-america-101500758.html",
-   "ts": "2026-08-08T10:15:00Z"
-  },
-  {
-   "cat": "geo",
-   "title": "胡塞武装袭击沙特炼油厂，沙特与美签防务协议",
-   "brief": "也门胡塞武装袭击沙特一炼油厂，此前沙特与美国签署防务协议，地区紧张升级。",
-   "chain": "中东冲突→油价波动→美股能源板块→A股石油链",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVzBVeVBiZENRc3B0WldHbXZqbXBjLU5ucDVuODRNY3pIWFRKaWlES0lzRDVoWEFjOFBLQVkxeGVHd0pHWWV6Y0V0OFphUk81YksyX3BHQ0I2MVY2RHdfNDY1dE9XdGozaVQ0RWsyaXNieWlRT2RYdHNRNEp4ZHptOHBBTVFST2pfZXVIbkJZUlIteElMRTlQWEt5eGZ6RU9JMjRtUmdCYWVXUUM0TUE?oc=5",
-   "ts": "2026-08-09T01:48:00+00:00"
+   "title": "本周关注7月通胀数据",
+   "brief": "市场本周关注美国7月通胀数据，以判断美联储政策路径。",
+   "chain": "通胀数据→影响降息预期→美股波动→A股风险偏好联动",
+   "impact": 5,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/09/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+   "ts": "2026-08-09T13:11:52+00:00"
   },
   {
    "cat": "geo",
    "title": "阿联酋称伊朗导弹袭击ADNOC船只",
-   "brief": "阿联酋指控伊朗在霍尔木兹海峡用导弹袭击ADNOC船只，加剧海峡紧张局势。",
-   "chain": "海峡冲突→原油运输风险→油价上涨→A股油气链",
+   "brief": "阿联酋称伊朗在霍尔木兹海峡用导弹袭击了ADNOC船只，地区紧张升级。",
+   "chain": "霍尔木兹紧张→油价风险溢价上升→影响莫桑比克LNG出口安全预期",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQajV4Uk9FTWd2WFJTWWVSZS1pdkl4OGFERFdzeExaYy1udkYxWGdXYWxRdHUwd2kwLVRtRTdhRkdVdUZuNXZ3U09EQUR3OXUwUzVtZmZZeWZkWmlkTThUTDBYNVBjbE9IWVBQZnhhcHBfcFVnZTc0NG1uMk54dElXNkhzQUFZR3VkRW5QZkthVjdfdTJOaXR6YWxiZmtfdzJROGg3bWFuOVhuV2ZkTDNLNkg4d18?oc=5",
@@ -75,49 +66,49 @@
   },
   {
    "cat": "geo",
-   "title": "俄别尔哥罗德遭袭死亡人数升至5人",
-   "brief": "俄乌冲突持续，别尔哥罗德市遭乌军袭击，死亡人数升至5人，双方互袭加剧。",
-   "chain": "俄乌冲突→地缘风险→避险资产→A股军工",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608093835946312.html",
-   "ts": "2026-08-09 18:38:44"
+   "title": "胡塞武装袭击沙特炼油厂",
+   "brief": "也门胡塞武装袭击沙特炼油厂，此前沙特与多国签署防务协议。",
+   "chain": "红海/也门冲突→沙特供应风险→油价波动→东非能源安全关注",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVzBVeVBiZENRc3B0WldHbXZqbXBjLU5ucDVuODRNY3pIWFRKaWlES0lzRDVoWEFjOFBLQVkxeGVHd0pHWWV6Y0V0OFphUk81YksyX3BHQ0I2MVY2RHdfNDY1dE9XdGozaVQ0RWsyaXNieWlRT2RYdHNRNEp4ZHptOHBBTVFST2pfZXVIbkJZUlIteElMRTlQWEt5eGZ6RU9JMjRtUmdCYWVXUUM0TUE?oc=5",
+   "ts": "2026-08-09T01:48:00+00:00"
   },
   {
    "cat": "geo",
-   "title": "以总理称哈马斯解除武装前不撤军",
-   "brief": "内塔尼亚胡拒绝加沙停火方案，坚持哈马斯解除武装前不撤军，停火前景渺茫。",
-   "chain": "中东和平进程受阻→地缘风险→油价→A股",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608093835953158.html",
-   "ts": "2026-08-09 19:21:53"
-  },
-  {
-   "cat": "oil",
-   "title": "花旗下调Q3布伦特油价预测至80美元",
-   "brief": "花旗将2026年第三季度布伦特原油价格预测下调至每桶80美元，反映需求担忧。",
-   "chain": "油价预测下调→油价承压→莫桑比克油气项目收益预期下降",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQWdjY0pOMG13ZXVSOERjbUJkT0xkdUVnekRWWW50aE5aNWJHWXk5TmIxbXlOQ1R1b1huUzlLZ1VTTzlqQngzRi12T1BJZy1oSllERGhpUXpGUUt2OGdxZC1raGhST2RjbjdFZUQzZ1NvU3NzeHhIVVg4Mlk1NkQ1VmtzZGYwX05XcmNPV2w5bw?oc=5",
-   "ts": "2026-08-07T16:35:44+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "沙特阿美扑灭炼油厂火灾，胡塞宣称负责",
-   "brief": "沙特阿美炼油厂火灾已被扑灭，胡塞武装声称对此负责，设施安全受威胁。",
-   "chain": "供应中断风险→油价波动→莫桑比克LNG出口竞争格局",
+   "title": "以色列拒绝特朗普加沙15点计划",
+   "brief": "以色列总理内塔尼亚胡拒绝美国提出的加沙和平计划，坚持哈马斯解除武装前不撤军。",
+   "chain": "加沙停火受阻→中东局势不稳→油价地缘溢价→影响全球能源市场",
    "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMm5hSE0yMGxRN0hITzZOLXp3R2tCX1dRc1IxaWp3MmZ5Uzc5T20yYmQxVlQ2ZDUzdkppNUJRNzJQcDNwaDh4aGd2cmI1S1lKY2lKRzNBUnJXVVpfOVNwa1JDM2JLenNkMi1YQ2h4MFJ3Yk1HM0FBY2RZZTVnbXd5QmhxU3ZKWTNQZDNEWmdEYVVBUzV3b2tZMEx5TDVTOER0SVZsemE4Z1F2VFJ0Ym9qX3Zn?oc=5",
+   "ts": "2026-08-09T11:50:19+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "俄称打击乌克兰港口燃料库",
+   "brief": "俄罗斯称夜间袭击了乌克兰港口的燃料储存设施，俄乌冲突持续。",
+   "chain": "俄乌冲突→能源设施受损→供应中断风险→欧洲天然气价格波动",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSmJnek5pZHJ3UUNSeXFwWXg1cXd0WWpIZUd5a2lHVTBnVE0tZDNmLVU4a2NzbEd0NGsteXFZYW93RXJwci1tSjhYNzdKQi1UcGJ6VnpxWjZZaUYzOUxHX3Utd2dGdUdnT0dHVTZna3hxMkVxSGM4Q29JMlpwZjVucmwxcHRSZ3ZZd3gzWnhjRmxaZUhteFZNR3ZjVmdkbnBCbk4yR0FqcC1xQ2t5MlFz?oc=5",
+   "ts": "2026-08-09T06:56:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "沙特阿美炼油厂火灾 胡塞宣称负责",
+   "brief": "沙特阿美炼油厂发生火灾，胡塞武装宣称负责，但火势已扑灭。",
+   "chain": "炼油厂遇袭→沙特供应短暂中断→油价短线冲高→莫桑比克油气出口竞争力相对提升",
+   "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/09/saudi-aramco-extinguishes-refinery-fire-houthis-claim-attack.html",
    "ts": "Sun, 09 Aug 2026 11:23:00 GMT"
   },
   {
    "cat": "tech",
-   "title": "软件股剧烈波动，“SaaSpocalypse”争论加剧",
-   "brief": "本周软件股大幅波动，投资者对SaaS行业前景分歧加大，市场情绪不稳。",
-   "chain": "软件股波动→科技板块震荡→A股软件及云计算板块",
+   "title": "SaaSpocalypse争论加剧 软件股剧烈波动",
+   "brief": "软件股本周大幅波动，投资者对SaaS行业前景分歧加剧。",
+   "chain": "软件股波动→科技板块情绪不稳→A股软件/云计算链联动",
    "impact": 6,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
@@ -125,63 +116,53 @@
   },
   {
    "cat": "tech",
-   "title": "Verizon移动服务大规模中断",
-   "brief": "Verizon移动服务中断影响数千用户，公司建议重启设备，服务逐步恢复。",
-   "chain": "通信服务中断→科技股短期影响→A股通信设备",
-   "impact": 4,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/08/verizon-mobile-outage-downdetector.html",
-   "ts": "2026-08-08T23:14:00+00:00"
+   "title": "分析师称CPU交易过度 建议卖出ARM",
+   "brief": "华尔街分析师认为CPU交易过度，建议卖出ARM股票。",
+   "chain": "ARM看空→半导体板块承压→A股芯片链情绪受影响",
+   "impact": 5,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-wall-street-thinks-cpu-125533234.html",
+   "ts": "2026-08-08T12:55:33Z"
   },
   {
    "cat": "tech",
    "title": "北京君正通过港交所IPO聆讯",
-   "brief": "北京君正集成电路更新聆讯资料，通过港交所上市聆讯，拟在港股上市。",
-   "chain": "芯片企业上市→半导体板块关注→A股芯片产业链",
-   "impact": 5,
+   "brief": "北京君正集成电路股份有限公司通过港交所上市聆讯，即将在港股上市。",
+   "chain": "芯片新股上市→半导体融资活跃→A股芯片板块情绪提振",
+   "impact": 4,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202608093835945348.html",
    "ts": "2026-08-09 18:29:52"
   },
   {
    "cat": "ai",
-   "title": "以色列初创公司被曝与OpenAI等AI黑客攻击有关",
-   "brief": "一家以色列初创公司被指与针对OpenAI、Anthropic和Meta的AI黑客攻击有关，引发安全担忧。",
-   "chain": "AI安全事件→监管加强→AI板块波动→A股AI安全概念",
+   "title": "AI交易回归 不仅因Situational Awareness平仓",
+   "brief": "AI交易重新活跃，原因不止是Situational Awareness的平仓，还有基本面支撑。",
+   "chain": "AI交易回归→科技股上涨→A股算力链受益",
    "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html",
-   "ts": "Sun, 09 Aug 2026 11:31:42 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "马斯克称内存短缺将推高AI成本",
-   "brief": "马斯克表示内存短缺将导致AI成本上升，挑战AI资本开支泡沫论。",
-   "chain": "内存短缺→AI算力成本上升→美股AI股→A股算力链",
-   "impact": 8,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/forget-artificial-intelligence-ai-capex-105000380.html",
-   "ts": "2026-08-08T10:50:00Z"
-  },
-  {
-   "cat": "ai",
-   "title": "AI交易回归，不只是“情境意识”平仓",
-   "brief": "AI交易重新活跃，原因不止是“情境意识”基金平仓，还有基本面支撑。",
-   "chain": "AI交易回归→科技股上涨→A股AI概念",
-   "impact": 6,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/08/07/the-situational-awareness-unwind-is-only-one-reason-the-ai-trade-is-back.html",
    "ts": "Fri, 07 Aug 2026 18:51:29 GMT"
   },
   {
    "cat": "ai",
-   "title": "中国广告协会召开生成式引擎优化标准会议",
-   "brief": "中国广告协会就生成式引擎优化（GEO）团体标准召开第二次征求意见会议，推动AI治理。",
-   "chain": "AI标准制定→行业规范化→A股AI应用",
+   "title": "以色列初创公司涉AI黑客攻击",
+   "brief": "一家以色列小初创公司与OpenAI、Anthropic和Meta的AI黑客攻击有关。",
+   "chain": "AI安全事件→监管趋严→AI板块短期波动→A股AI安全概念关注",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html",
+   "ts": "Sun, 09 Aug 2026 11:31:42 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "加密基础设施时代 AI代理重塑需求",
+   "brief": "加密货币基础设施时代到来，AI代理有望重塑需求。",
+   "chain": "AI代理+加密→科技新方向→A股AI应用链潜在催化",
    "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608093835943635.html",
-   "ts": "2026-08-09 17:54:58"
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/07/cryptos-infrastructure-era-arrives-with-ai-agents-poised-to-reshape-demand.html",
+   "ts": "Fri, 07 Aug 2026 16:47:55 GMT"
   }
  ]
 }
