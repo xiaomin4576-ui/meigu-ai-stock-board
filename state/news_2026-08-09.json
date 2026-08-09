@@ -1,0 +1,257 @@
+{
+ "asof": "2026-08-09",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-08-09T10:28+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 16,
+  "cluster_label": "伊朗/阿联酋/霍尔木兹",
+  "cluster_dropped": [
+   "美副总统：美伊冲突处于博弈中段",
+   "伊朗称霍尔木兹协议接近但未开放"
+  ],
+  "backfilled": 10
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "美联储9月加息概率约44% 关注CPI",
+   "brief": "LSEG数据显示，美国货币市场预计美联储9月加息概率约44%，若下周CPI和PPI疲弱，概率或进一步下降。",
+   "chain": "加息预期降温→利好美股估值→A股成长风格受益",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608093835884227.html",
+   "ts": "2026-08-09 08:06:17"
+  },
+  {
+   "cat": "macro",
+   "title": "贝莱德：非农转负 加息意义不大",
+   "brief": "贝莱德固定收益CIO里克·里德表示，7月非农意外转负反映AI时代就业结构变化，加息已无太大意义。",
+   "chain": "非农疲软→加息预期降温→利好美股AI高久期资产→A股算力链情绪",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608093835881788.html",
+   "ts": "2026-08-09 07:21:41"
+  },
+  {
+   "cat": "macro",
+   "title": "中国7月CPI同比上涨0.5%",
+   "brief": "国家统计局数据显示，2026年7月全国CPI同比上涨0.5%，食品价格下降1.5%，非食品价格上涨0.9%。",
+   "chain": "中国通胀温和→货币政策空间→A股流动性预期",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608093835888910.html",
+   "ts": "2026-08-09 09:32:09"
+  },
+  {
+   "cat": "geo",
+   "title": "俄乌互袭：俄打击乌仓库 乌袭炼油厂",
+   "brief": "俄国防部称打击乌交通能源设施，乌方袭击俄炼油厂，冲突持续。",
+   "chain": "俄乌冲突升级→能源供应扰动→油价波动→东非油气市场联动",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608093835881264.html",
+   "ts": "2026-08-09 07:16:51"
+  },
+  {
+   "cat": "geo",
+   "title": "以军重返黎南部试点区域",
+   "brief": "黎巴嫩称以军部队重返黎南部西扎乌塔尔镇，并建起土墙，局势紧张。",
+   "chain": "中东局势再起波澜→地缘风险→油价波动→莫桑比克经营风险",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608093835880939.html",
+   "ts": "2026-08-09 07:00:10"
+  },
+  {
+   "cat": "oil",
+   "title": "伊朗导弹袭击阿联酋ADNOC船只",
+   "brief": "阿联酋称伊朗在霍尔木兹海峡用导弹袭击了ADNOC船只，地区紧张升级。",
+   "chain": "霍尔木兹遇袭→原油供应风险→油价上涨→莫桑比克油气出口受益",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQajV4Uk9FTWd2WFJTWWVSZS1pdkl4OGFERFdzeExaYy1udkYxWGdXYWxRdHUwd2kwLVRtRTdhRkdVdUZuNXZ3U09EQUR3OXUwUzVtZmZZeWZkWmlkTThUTDBYNVBjbE9IWVBQZnhhcHBfcFVnZTc0NG1uMk54dElXNkhzQUFZR3VkRW5QZkthVjdfdTJOaXR6YWxiZmtfdzJROGg3bWFuOVhuV2ZkTDNLNkg4d18?oc=5",
+   "ts": "2026-08-08T11:46:57+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "格陵兰警告美国公司非法钻探",
+   "brief": "格陵兰就未获许可钻探向美国格陵兰能源公司发出严厉警告，北极能源开发受挫。",
+   "chain": "北极开发受阻→全球LNG供应预期收紧→气价支撑→莫桑比克LNG竞争力增强",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608093835884049.html",
+   "ts": "2026-08-09 08:02:36"
+  },
+  {
+   "cat": "gas",
+   "title": "日本大饭核电站3号机组停运",
+   "brief": "日本关西电力大饭核电站3号机组因发电机异常自动停运，影响电力供应。",
+   "chain": "核电停运→日本LNG进口需求增加→全球气价上行→莫桑比克LNG出口利好",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608093835887910.html",
+   "ts": "2026-08-09 08:49:59"
+  },
+  {
+   "cat": "tech",
+   "title": "Airbnb财报超预期 股价大涨9%",
+   "brief": "Airbnb公布财报，营收和利润超预期，三季度指引强劲，股价大涨9%。",
+   "chain": "消费科技强劲→美股科技板块情绪→A股相关映射",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/06/airbnb-abnb-q2-earningsreport.html",
+   "ts": "Thu, 06 Aug 2026 22:01:34 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "SpaceX股票大涨 锁定期考验",
+   "brief": "SpaceX本周股价上涨，尽管盈利风暴，锁定期到期成为投资者关键考验。",
+   "chain": "SpaceX估值提升→航天产业链关注→A股卫星互联网概念",
+   "impact": 5,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/article/spacexs-big-week-stock-jumps-despite-earnings-storm-lock-up-expiration-in-crucial-test-for-investors-131828277.html",
+   "ts": "2026-08-07T13:18:28Z"
+  },
+  {
+   "cat": "tech",
+   "title": "马斯克：星链V3性能高一个数量级",
+   "brief": "马斯克称第三代星链卫星V3综合性能比V2高一个数量级，V2系统今年收入将达200亿美元。",
+   "chain": "星链迭代→卫星互联网加速→A股卫星通信产业链",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608093835888030.html",
+   "ts": "2026-08-09 08:49:17"
+  },
+  {
+   "cat": "ai",
+   "title": "AWS整顿算力浪费 拟关停虚拟服务器",
+   "brief": "AWS彻查内部算力浪费，拟批量关停虚拟服务器，应对AI代理带来的CPU需求激增。",
+   "chain": "算力紧张→云服务提效→A股算力租赁与IDC概念",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608093835891896.html",
+   "ts": "2026-08-09 10:07:52"
+  },
+  {
+   "cat": "ai",
+   "title": "AI交易回归 不止因Situational Awareness",
+   "brief": "AI交易回暖，除宏观因素外，还有基本面支撑，科技股反弹。",
+   "chain": "AI叙事强化→美股AI板块→A股算力链联动",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/07/the-situational-awareness-unwind-is-only-one-reason-the-ai-trade-is-back.html",
+   "ts": "Fri, 07 Aug 2026 18:51:29 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "AI代理重塑加密基础设施需求",
+   "brief": "加密货币基础设施时代到来，AI代理将重塑需求，行业迎来新机遇。",
+   "chain": "AI代理→区块链算力需求→A股相关概念",
+   "impact": 4,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/07/cryptos-infrastructure-era-arrives-with-ai-agents-poised-to-reshape-demand.html",
+   "ts": "Fri, 07 Aug 2026 16:47:55 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "7月非农大幅不及预期 美股周五承压",
+   "brief": "7月非农数据大幅低于预期，引发市场对经济放缓担忧，美股期货走低。",
+   "chain": "非农疲软→降息预期升温→利好美股高久期成长股→映射A股算力链情绪",
+   "impact": 9,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/07/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday-.html",
+   "ts": "2026-08-07T13:09:58+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "期权创纪录周推动标普500创新高 波动率近2026低点",
+   "brief": "本周期权活动创纪录，标普500指数创新高，波动率指数接近2026年低点。",
+   "chain": "市场乐观情绪→风险偏好上升→支撑美股科技股→利好A股科技板块",
+   "impact": 7,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/08/record-breaking-week-for-options-powers-sp-500-surge.html",
+   "ts": "2026-08-08T11:49:22+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "美国50大城市中38城房价低于要价",
+   "brief": "高房贷利率下，美国多数城市房屋售价低于要价，房市降温。",
+   "chain": "房市疲软→经济放缓预期→降息预期增强→利好美股成长股→映射A股",
+   "impact": 6,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/07/homes-are-selling-below-asking-in-38-of-the-50-biggest-us-cities.html",
+   "ts": "2026-08-07T13:00:01+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "伊拉克总理与沙特情报首脑讨论地区安全",
+   "brief": "伊拉克总理与沙特情报首脑会晤，讨论地区安全，民兵组织延迟回应。",
+   "chain": "中东外交动态→地缘风险缓和→油价承压→影响莫桑比克油气经营",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYThtNWRuaTFwZXA0d2VNMmlWY1JteFZFdF9JSjlYZG4yWmxJN2RidHdaMWtCQ2hSdGdBdHRpY2pDZXpsaFZ0dlZDX0RzcHJCN0p1anRHbmd1R284b29IMjNleVRfMGJTb0ZHVHNpVURuaUdDemVrSVY3eVJwemxyLW1zdzRSN2JTQzhJTUxtVW5XLW1SenJIc1hlVFN1cURqc0E1T0p5OFYtQlVOR1lha2VsNzNKOG42R19IdExmejhLQlUxR3FV?oc=5",
+   "ts": "2026-08-07T19:41:34+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "爱国者导弹系统全球供应告急",
+   "brief": "爱国者导弹系统全球库存耗尽，供应短缺影响多国防空能力。",
+   "chain": "地缘冲突消耗→军备需求上升→军工股受益→A股军工链映射",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRmtXR0FpcFZzbEtPOEtrS25wVmRwYk10UTlkMzZ1M292dEZZUjdvbEhyMF8yb2FSUFBRbmF3U2NMTm1CSXhCbVkzZUtNRWprV3hLWFhUVnY1UGFYbnB0OVF5SVRQek9OeFo0WHkwZ1NKM090OVZoYjRDZ2lMaWxrNHNpVVVjZEF1SWtGZFVvUWt6emhuZm40NFdsRnlTNGVmQk9ZeC15a2pYZzNH?oc=5",
+   "ts": "2026-08-07T15:00:03+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "加拿大不列颠哥伦比亚省因野火进入紧急状态",
+   "brief": "加拿大BC省野火蔓延，宣布全省紧急状态，联邦政府待命支援。",
+   "chain": "自然灾害→能源生产中断风险→油价短期波动→影响油气市场",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608093835879828.html",
+   "ts": "2026-08-09 06:28:59"
+  },
+  {
+   "cat": "oil",
+   "title": "德国高温干旱致莱茵河水位低 经济承压",
+   "brief": "持续高温干旱致莱茵河水位走低，引发供应链承压、物流成本上升。",
+   "chain": "物流受阻→能源运输成本上升→油价短期支撑→影响东非油气出口",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608093835885539.html",
+   "ts": "2026-08-09 08:34:29"
+  },
+  {
+   "cat": "gas",
+   "title": "青岛国测海遥明年发射多颗卫星 支撑本土算法迭代",
+   "brief": "青岛国测海遥计划发射多颗卫星，提供自主数据源，支撑算法迭代。",
+   "chain": "卫星数据→能源勘探效率提升→利好油气行业→影响莫桑比克项目",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608093835881874.html",
+   "ts": "2026-08-09 07:26:01"
+  },
+  {
+   "cat": "tech",
+   "title": "SaaSpocalypse争论加剧 软件股剧烈波动",
+   "brief": "软件股本周大幅波动，投资者对SaaS估值产生分歧。",
+   "chain": "软件股波动→科技板块分化→美股科技股承压→映射A股软件板块",
+   "impact": 7,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
+   "ts": "2026-08-07T20:22:17+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "康宁本周大涨 标普500逼近新高",
+   "brief": "康宁本周表现强劲，标普500指数接近历史高位。",
+   "chain": "康宁上涨→科技硬件需求强劲→利好美股科技股→映射A股光通信",
+   "impact": 6,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/07/a-huge-day-and-week-for-corning-as-the-sp-500-aims-for-record-close.html",
+   "ts": "2026-08-07T16:59:17+00:00"
+  }
+ ]
+}
