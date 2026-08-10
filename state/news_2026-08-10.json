@@ -1,13 +1,15 @@
 {
  "asof": "2026-08-10",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-10T11:34+08:00",
+ "generated_at": "2026-08-10T13:03+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 17,
   "cluster_label": "伊朗/霍尔木兹",
   "cluster_dropped": [
-   "美伊霍尔木兹协议不确定，油价上涨"
+   "美国重申霍尔木兹封锁，拦截55艘船",
+   "美伊协议不确定，油价上涨",
+   "美国预计很快达成霍尔木兹协议，逊尼派联合防务"
   ],
   "backfilled": 0
  },
@@ -15,18 +17,18 @@
   {
    "cat": "geo",
    "title": "伊朗将霍尔木兹海峡重开与美国让步挂钩",
-   "brief": "伊朗表示，霍尔木兹海峡重开需美国在多项要求上让步，谈判仍在进行。",
-   "chain": "地缘紧张持续→油价风险溢价维持→美股能源板块波动→A股油气链关注",
+   "brief": "伊朗外长表示，霍尔木兹海峡重开需美国在多项要求上让步，谈判仍存变数。",
+   "chain": "霍尔木兹局势紧张→油价波动→影响全球能源市场及莫桑比克油气出口预期",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSmFvNGYwRDFRdHZrdWhBOWR0ZmVCdkZTSzRROXVNMG1UX1Azb04xa3ZCbEtYNkl4eFhSZG16b0xYeHNyd2tTdHhGWXFUTXJ6WFNVRjg3bmZYOEhEeHNaNHh4NU9qN0RQYXY3ZG13Qzh6Mk1LNG9jaGZraUZwRHVKY0hMZlFWUTdMOEpoaTRuemlPWEFJZUhsYk5TaUpNdWFqR1dId3NCM0xvYS1SNlNBMg?oc=5",
-   "ts": "2026-08-09T23:06:01+00:00"
+   "ts": "2026-08-09T23:03:00+00:00"
   },
   {
    "cat": "oil",
-   "title": "霍尔木兹重开不确定，油价上涨",
-   "brief": "因霍尔木兹海峡重开前景不明，国际油价上涨，市场担忧供应中断。",
-   "chain": "地缘风险→油价上涨→莫桑比克LNG出口受益，但航运风险需关注",
+   "title": "油价上涨，伊朗淡化快速重开海峡希望",
+   "brief": "伊朗淡化霍尔木兹海峡快速重开的可能性，国际油价应声上涨。",
+   "chain": "供应中断风险→油价上行→利好莫桑比克LNG及油气项目收益",
    "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaXpSdTFpV0NCUnZ4ZmZ3bXhmR3QxR1VVbGthTXNFSmZDNU03WWxGTDQ2eE9SeVZPYVE1aHl3NWZuS3FxcW1WSnBBb3J1SXJLY1F6RnFkTy1wdVZHaXdMZkhpclJjM09BU0k1RmMyaFNHQmtnZzA5elZZbUpHVUFEZHFNbnJaek93UlM4cUZJTlU5ZzRUckVJVXdTVVd3amluLWRDb1ljZkY?oc=5",
@@ -34,183 +36,163 @@
   },
   {
    "cat": "geo",
+   "title": "胡塞袭击摩卡港致7死30伤",
+   "brief": "也门军方称胡塞武装袭击摩卡港，造成7人死亡、30人受伤。",
+   "chain": "红海局势紧张→航运风险→影响全球油气运输及莫桑比克出口航线",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY1pLdDR5UUhyOFl0d1dQNFFWV3lPV1RkNVg0TFgtSjVidElQVlpTcmt1cFQ0QmI4bTNsOXdjNlozM1RWLU9DUThrNmNjTURRZV9sSjJPbTVIYTR2ZUZQYzQ2NGdFbVRsSVlzeno5NWhiajhucW8ySmYwc1B6cENtOHg1RVhBY0pKUUFHSENiM0w5dU1lNkNJNTB0S0FLSFNKZnpZRHJLaGZHSVk2OFg1X3B0TEUyT0R4V2EtWHoxY2pjVF9IOHl4ZEpZZGF3QQ?oc=5",
+   "ts": "2026-08-09T20:18:00+00:00"
+  },
+  {
+   "cat": "geo",
    "title": "特朗普称对伊朗‘低调处理’，强调经济施压",
-   "brief": "特朗普接受Axios采访表示，美国对伊朗‘低调处理’，侧重经济压力而非军事行动。",
-   "chain": "美伊博弈→地缘风险缓和→美股风险偏好回升→A股风险资产受益",
-   "impact": 8,
+   "brief": "特朗普接受Axios采访称美国对伊朗‘低调处理’，重点施加经济压力。",
+   "chain": "美伊博弈持续→地缘风险→油价波动→影响莫桑比克能源市场",
+   "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOazVhN1R5WHRFQTBvX1BRNWoyT1F4WGlKVXBncE5ad1h2TVZqM0ZPLWdEYy1OVkdDYnE2THh4Z2twaGtiRXBMdVY3V3NBT01UeGxuVlljODZHUVptY3NqNnVldHNDOEIzYndQQi0zUExFbExpVGdQbS0zS2ppeGpMbWlvVnZsNS10aVBLaXR1ZDA4Q0piT09XVHR4bjRNSk5qaDQtOGwzWm1seTB0UXlVUl9uN3FIRlVCWUdNS0lNX2xWUWR2ZHdTNnVqdS1sdw?oc=5",
    "ts": "2026-08-09T17:19:59+00:00"
   },
   {
-   "cat": "macro",
-   "title": "特朗普与美联储主席频繁通话，白宫称无碍独立性",
-   "brief": "白宫证实特朗普与美联储主席沃什经常交流，但强调不影响美联储独立性。",
-   "chain": "政治干预担忧→美联储独立性受疑→美股波动→A股外资情绪受影响",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608103836347374.html",
-   "ts": "2026-08-10 10:59:30"
-  },
-  {
-   "cat": "macro",
-   "title": "白宫高官承认燃油价格高企，待海湾危机解除",
-   "brief": "白宫经济顾问哈塞特承认美国燃油价格过高，需海湾危机缓和后才会下降。",
-   "chain": "油价高企→通胀压力→美联储政策→美股估值→A股输入性通胀",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608103836408344.html",
-   "ts": "2026-08-10 11:10:54"
-  },
-  {
-   "cat": "gas",
-   "title": "黑海船舶通行顺畅，土耳其官员称",
-   "brief": "土耳其官员表示，黑海船舶通行持续顺畅，未受地缘影响。",
-   "chain": "黑海航运正常→欧洲天然气供应稳定→TTF价格平稳→莫桑比克LNG竞争格局不变",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT0gyU21ScmZKOEVnYlkwcjVrb2hwZ0I4M01vYkRrS0ZsclJPejZINnRibXNCOWdTYVp5WG81Y3BndlhncFdHTkpJV1NuNkhvdzdQNkktWjhQVk8zQmpKQUhodGMzYmdyOV84bWFwZHdWN0RxRFppVnZobk5pWEd0ejBhWklHcnljNUp1emF4ckdFcWJRY2xFeUNYNnl2cDI1Z0ROMlBYbTlFbE1kdWJBM09Na0M3LWdEbmc?oc=5",
-   "ts": "2026-08-09T11:33:09+00:00"
-  },
-  {
-   "cat": "gas",
-   "title": "叙利亚与俄罗斯就塔尔图斯等基地达成协议",
+   "cat": "geo",
+   "title": "叙利亚与俄罗斯达成基地协议",
    "brief": "叙利亚与俄罗斯经过18个月谈判，就塔尔图斯和赫梅米姆基地未来达成协议。",
-   "chain": "俄叙协议→中东地缘格局→影响东地中海天然气开发→莫桑比克LNG出口竞争",
-   "impact": 5,
+   "chain": "中东地缘格局变化→影响地区稳定→间接影响能源运输通道",
+   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTHltYW1BZ2tteEtoRWZwSUVpMy1vMVZTTF9HUzJYcUxZeGN0TGdPTzJ6dzB4clFRTWNDRkR1ZUVRT1BmbnNiZm9tQkZRdFZHSmVydXdDOHVnZERHVElJZm0zSk1HdG51LVZCRjVpakpfWDZiWXh0X0lmN0dQangwM01QNU5DY1BmNmdCR3FOX0FYQjdCNF9teE5zc0tTOXA3WWQyYUswOS1oYzVKUzdnNFdGdU5KREFyUnlyWVZSZld6c1NPa3Q4?oc=5",
    "ts": "2026-08-09T13:09:43+00:00"
   },
   {
-   "cat": "tech",
-   "title": "苹果折叠iPhone规划至第三代，今年份额或超华为",
-   "brief": "苹果已规划折叠iPhone三年迭代路线，第三代有望，今年全球份额或超华为。",
-   "chain": "苹果折叠机→消费电子创新→A股果链及折叠屏概念受益",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608103836414695.html",
-   "ts": "2026-08-10 11:24:40"
-  },
-  {
-   "cat": "tech",
-   "title": "国产存储突围：长鑫上市，长江存储加速",
-   "brief": "长鑫科技登陆科创板创纪录，长江存储上市进程加速，国产存储产业崛起。",
-   "chain": "国产存储突破→半导体自主可控→A股存储产业链受益",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608103836409789.html",
-   "ts": "2026-08-10 11:13:22"
-  },
-  {
-   "cat": "tech",
-   "title": "光刻胶概念异动拉升，国风新材涨停",
-   "brief": "光刻胶概念盘中异动，国风新材涨停，多股跟涨。",
-   "chain": "光刻胶异动→半导体材料国产化→A股光刻胶概念受关注",
+   "cat": "geo",
+   "title": "土耳其、巴基斯坦、沙特防务 pact 类似北约第五条",
+   "brief": "土耳其部长称三国防务 pact 技术上等同北约第五条，引发关注。",
+   "chain": "地区安全联盟重组→地缘格局变化→影响中东能源安全",
    "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608103836410872.html",
-   "ts": "2026-08-10 11:10:53"
-  },
-  {
-   "cat": "ai",
-   "title": "大摩：全球云资本开支2027年料增29%，算力告急",
-   "brief": "摩根士丹利报告显示，全球云资本开支2027年预计增长29%，四大巨头产能告急。",
-   "chain": "云资本开支→AI算力需求→美股AI基建→A股算力链受益",
-   "impact": 9,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608103836415132.html",
-   "ts": "2026-08-10 11:21:51"
-  },
-  {
-   "cat": "ai",
-   "title": "港股科技链反弹，南向资金抢筹半导体",
-   "brief": "港股情绪修复，南向资金抢筹半导体，科技链反弹出现左侧信号。",
-   "chain": "港股科技反弹→风险偏好回升→A股半导体及AI链联动",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608103836415718.html",
-   "ts": "2026-08-10 11:27:00"
-  },
-  {
-   "cat": "ai",
-   "title": "华沿机器人在横琴成立数智科技公司",
-   "brief": "华沿机器人等在广东横琴成立数智科技公司，经营范围含AI基础软件。",
-   "chain": "AI新公司成立→产业布局加速→A股AI应用及机器人概念关注",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608103836412122.html",
-   "ts": "2026-08-10 11:19:19"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOLVVZeXNFQ1JsdkxwT29TdjNMRmVVM0V6Y3B1NzB3SDVpMzRaTXdFZjJpcWEteGxQd1dWalV1WDlnS2NhSVlTZGhYVHhLU2tUNHhjZ1I4Zl9WbFFZaVRudVU3TEFCMnFtRFlGU2ZYZDNreVlQTjljdWFMbndxVGdyNUlaZFJPUjRZd0F2SnB5dUtvUWZYYWFJUmpjNjVWeFdTTGwyaU8zOGdtdUFjQW5zb0E2aUt1VEUybWxjX2pLZHdwTlVSN2lzbg?oc=5",
+   "ts": "2026-08-08T19:53:53+00:00"
   },
   {
    "cat": "macro",
-   "title": "期权创纪录周推动标普500飙升，波动率近低点",
-   "brief": "本周期权活动创纪录，推动标普500创新高，波动率接近2026年低点。",
-   "chain": "期权市场活跃→美股上涨→风险偏好提升→A股情绪联动",
-   "impact": 6,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/08/record-breaking-week-for-options-powers-sp-500-surge.html",
-   "ts": "2026-08-08T11:49:22+00:00"
+   "title": "摩根大通上调标普500年底目标至8000点",
+   "brief": "摩根大通将标普500指数2026年底目标从7800点上调至8000点。",
+   "chain": "乐观预期→美股上行→提振A股风险偏好，利好算力链",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608103836429811.html",
+   "ts": "2026-08-10 12:37:16"
   },
   {
    "cat": "macro",
-   "title": "‘武器化’日元：美日干预或重塑货币市场",
+   "title": "英国监管机构制定代币化黄金框架",
+   "brief": "英国FCA着手制定代币化黄金监管框架，以维持伦敦黄金交易中心地位。",
+   "chain": "黄金数字化→影响黄金市场结构→对A股黄金股及避险情绪有影响",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608103836428748.html",
+   "ts": "2026-08-10 12:21:14"
+  },
+  {
+   "cat": "macro",
+   "title": "‘武器化’日元：美日干预重塑汇市",
    "brief": "美日干预可能使日元‘武器化’，重塑全球货币市场格局。",
-   "chain": "日元干预→汇率波动→全球资金流向→A股外资流动受影响",
+   "chain": "汇率波动→影响全球资本流动→对美股及A股外资流向有影响",
    "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/07/japan-us-yen-intervention-global-currency-markets.html",
    "ts": "Fri, 07 Aug 2026 14:18:00 GMT"
   },
   {
-   "cat": "geo",
-   "title": "土耳其、巴基斯坦、沙特防务条约类似北约第五条",
-   "brief": "土耳其部长称，三国防务条约技术上类似北约第五条，引发关注。",
-   "chain": "防务条约→地缘格局变化→影响中东安全→油价波动→莫桑比克能源安全",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOLVVZeXNFQ1JsdkxwT29TdjNMRmVVM0V6Y3B1NzB3SDVpMzRaTXdFZjJpcWEteGxQd1dWalV1WDlnS2NhSVlTZGhYVHhLU2tUNHhjZ1I4Zl9WbFFZaVRudVU3TEFCMnFtRFlGU2ZYZDNreVlQTjljdWFMbndxVGdyNUlaZFJPUjRZd0F2SnB5dUtvUWZYYWFJUmpjNjVWeFdTTGwyaU8zOGdtdUFjQW5zb0E2aUt1VEUybWxjX2pLZHdwTlVSN2lzbg?oc=5",
-   "ts": "2026-08-08T19:53:53+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "也门胡塞袭击摩卡港，致7死30伤",
-   "brief": "也门军方称胡塞武装袭击摩卡港，造成7人死亡，30人受伤。",
-   "chain": "红海袭击→航运风险→油价上涨→莫桑比克LNG运输成本影响",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY1pLdDR5UUhyOFl0d1dQNFFWV3lPV1RkNVg0TFgtSjVidElQVlpTcmt1cFQ0QmI4bTNsOXdjNlozM1RWLU9DUThrNmNjTURRZV9sSjJPbTVIYTR2ZUZQYzQ2NGdFbVRsSVlzeno5NWhiajhucW8ySmYwc1B6cENtOHg1RVhBY0pKUUFHSENiM0w5dU1lNkNJNTB0S0FLSFNKZnpZRHJLaGZHSVk2OFg1X3B0TEUyT0R4V2EtWHoxY2pjVF9IOHl4ZEpZZGF3QQ?oc=5",
-   "ts": "2026-08-09T20:18:00+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "中国独自平衡亚洲原油需求",
-   "brief": "路透称，中国正独自平衡亚洲原油需求，影响全球油市。",
-   "chain": "中国需求→油价支撑→莫桑比克原油出口受益",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN0lBeUJuUi1Nek03cm1rOF9xMFhxS2RNa1NUNkxqQk9UT1dYOENkMHduLUx3ei12d3VQZmxLSlV6cFd3cDZXc05JcnJ3YnRXRjl2b3VMb2M0T1R3OUpVUnhfVWNxY1d0akVsQ1U0V1hkOEE1eUZWN2FySzNXcHRmLXJpNlR2SWlRekRYbkVld1VqNDI5S0RFdWFVUHBJQXF2bl9FMDZJUmotVzlfZlBidUhVTWpRTVMzYWZlTQ?oc=5",
-   "ts": "2026-08-10T01:16:00+00:00"
-  },
-  {
-   "cat": "gas",
-   "title": "欧盟机构：7月全球海洋表面温度创新高",
-   "brief": "哥白尼报告显示，7月全球海洋表面温度创同期新高，气候异常。",
-   "chain": "气候异常→能源需求变化→天然气市场波动→莫桑比克LNG生产影响",
-   "impact": 4,
+   "cat": "tech",
+   "title": "SK海力士新建存储工厂，半导体设备走强",
+   "brief": "SK海力士新建龙仁Y2、清州M17工厂，A股半导体设备ETF大涨近3%。",
+   "chain": "存储扩产→设备需求→A股半导体设备链受益",
+   "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608103836411313.html",
-   "ts": "2026-08-10 11:15:15"
+   "url": "https://finance.eastmoney.com/a/202608103836429719.html",
+   "ts": "2026-08-10 11:54:30"
   },
   {
    "cat": "tech",
-   "title": "Verizon移动服务大规模中断",
-   "brief": "Verizon移动服务中断影响数千用户，建议重启设备。",
-   "chain": "通信中断→科技股情绪→美股科技板块波动→A股通信链关注",
-   "impact": 4,
+   "title": "Abel将伯克希尔大量现金投入工作",
+   "brief": "伯克希尔副董事长Abel将大量现金进行投资，引发市场关注。",
+   "chain": "巨头动向→市场信心→影响美股整体情绪，间接映射A股",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/09/abel-puts-a-big-chunk-of-berkshires-cash-to-work.html",
+   "ts": "Sun, 09 Aug 2026 12:00:33 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "Lumen扩展AWS合作，CEO加倍押注",
+   "brief": "Lumen Technologies扩展与AWS的合作，CEO表示加倍投入。",
+   "chain": "云基础设施需求→网络设备→A股光模块、数据中心链",
+   "impact": 6,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/technology/articles/lumen-lumn-extends-aws-push-175314099.html",
+   "ts": "2026-08-08T17:53:14Z"
+  },
+  {
+   "cat": "tech",
+   "title": "Verizon移动服务中断，影响数千用户",
+   "brief": "Verizon在美国发生服务中断，影响数千用户，建议重启设备。",
+   "chain": "通信故障→影响运营商设备需求→对A股通信设备链有间接影响",
+   "impact": 5,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/08/08/verizon-mobile-outage-downdetector.html",
    "ts": "2026-08-08T23:14:00+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "高盛：中国AI板块无整体泡沫，三大领域有价值",
+   "brief": "高盛称中国AI板块不存在整体泡沫，并指出三大细分领域最具投资价值。",
+   "chain": "AI估值担忧缓解→利好A股AI算力链，提升风险偏好",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608103836433055.html",
+   "ts": "2026-08-10 12:57:37"
+  },
+  {
+   "cat": "ai",
+   "title": "‘AI股神’爆仓后硅谷资本追投",
+   "brief": "AI股神Leopold Aschenbrenner爆仓后，硅谷资本仍追投，显示行业信心。",
+   "chain": "资本持续流入→AI产业景气→A股AI应用及算力链受益",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608103836431444.html",
+   "ts": "2026-08-10 12:49:00"
+  },
+  {
+   "cat": "ai",
+   "title": "恒工精密、智元机器人等成立AI新公司",
+   "brief": "恒智科（苏州）科技成立，含AI基础平台、通用应用等业务。",
+   "chain": "AI产业扩张→相关公司受益→A股AI产业链活跃",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608103836431350.html",
+   "ts": "2026-08-10 12:45:36"
+  },
+  {
+   "cat": "ai",
+   "title": "商汤获沙特千万级教育订单，AI赋能校车",
+   "brief": "商汤科技联合沙特机构打造智慧校车平台，覆盖120万学生。",
+   "chain": "AI出海→商汤受益→A股AI应用及算力链情绪提振",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608103836430346.html",
+   "ts": "2026-08-10 12:37:53"
+  },
+  {
+   "cat": "gas",
+   "title": "ADNOC Gas上半年营收71.46亿美元，同比降23%",
+   "brief": "ADNOC Gas发布上半年财报，营收同比下降23.38%。",
+   "chain": "天然气巨头业绩下滑→全球气价承压→影响莫桑比克LNG项目收益",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608103836433369.html",
+   "ts": "2026-08-10 12:50:48"
   }
  ]
 }
