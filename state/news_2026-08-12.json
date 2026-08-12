@@ -1,188 +1,184 @@
 {
  "asof": "2026-08-12",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-12T11:46+08:00",
+ "generated_at": "2026-08-12T13:12+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 7,
-  "cluster_label": "伊朗/霍尔木兹",
-  "cluster_dropped": [
-   "特朗普：伊朗要么经济崩溃，要么挨打",
-   "美油突破83美元：伊朗封锁海峡",
-   "伊朗安全委员会：海峡关闭除非美满足条件"
-  ],
+  "cross_day_suppressed": 6,
+  "cluster_label": "",
+  "cluster_dropped": [],
   "backfilled": 0
  },
  "items": [
   {
-   "cat": "macro",
-   "title": "美股收跌：美伊和平乐观消退",
-   "brief": "因美伊和平谈判前景转淡，华尔街股市收跌，市场风险偏好受挫。",
-   "chain": "地缘风险升温→美股承压→A股风险偏好联动，关注算力链回调风险。",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVjkzU2JZemo3b1RFMlU3SU1qeTE0NEY0eHBaakpscDY4blhsX3c5VFdFUmxkWVk2Yk9ab040Z1dRbEN4SDMwQU9fSnFrWUN2SkZHNzZqOFRJc0FXWUNOZTFRTnRvX0hqRTFfMGdBMnh2S2lPMjlqZ01kSFNyT0dqLVZMNDBZcm13a01lQWdScHVhSUFXQ215cjJGWXg2T180?oc=5",
-   "ts": "2026-08-11T23:17:51+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "美日联合干预未能阻止日元贬值",
-   "brief": "历史性美日联合干预未能扭转日元跌势，市场关注后续政策动向。",
-   "chain": "日元贬值→美元走强→压制新兴市场风险偏好→A股外资流向或受影响。",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/12/japan-yen-us-dollar-intervention-.html",
-   "ts": "Wed, 12 Aug 2026 03:37:00 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "加元创两月新高：油价上涨提振",
-   "brief": "油价上涨推动加元兑美元升至两个月高位，商品货币走强。",
-   "chain": "油价上涨→加元走强→美元指数承压→利好新兴市场风险资产。",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWkxkd1ZETWhxWUJaZVdGRDA5S0xudC0xbWZKaDEtOFVrc29uS0t2cmZLbGgyUVN2ckdYOTdXaEVNa1JRalNLLTZPZlptZGN2NzQwUUFTaEVTMXNSMWZHNnRuSkhySHRxX2JGMGxrOGgxTW41YlVURW92Q1lfQzhMZ2Y2WlRwNnA4QWlmRC1uY0VzTWluRk0weFh6WGU?oc=5",
-   "ts": "2026-08-11T18:19:45+00:00"
-  },
-  {
    "cat": "geo",
-   "title": "美伊协议疑虑加深，油价上涨",
-   "brief": "市场对美伊达成协议存疑，供应担忧推升油价。",
-   "chain": "地缘风险→油价上涨→A股石油板块或受益。",
-   "impact": 8,
+   "title": "伊朗称霍尔木兹海峡不满足条件不开放",
+   "brief": "伊朗安全委员会表示，除非美国满足其条件，否则霍尔木兹海峡将继续关闭。",
+   "chain": "海峡封锁威胁全球原油运输→油价上行→A股油气开采及油运板块受益",
+   "impact": 10,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOajU2TkE4Zm1kOHlwM2hwX0VXeWJTNkFCblBrN0FuUDNfN1NMRFQ1NE1HREZGVE96UXMyajRlamxJaVZqMGxQNGRyZlBZQ2xnNVNEZjdBZ05zR25PWEFTNksxMk9iREoyNElfZ1h0aUdiTmFKdEJpZlJfUDk1d25ZTXptbnByMDFfRjk2R1oxZ29pNFZiQVhwTmRCaDIzUXdYSFlxZnl6aU05eG1WLWlQWg?oc=5",
-   "ts": "2026-08-12T00:59:47+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "泽连斯基：已向美方提交结束战争提案",
-   "brief": "乌克兰已向美国谈判代表提交结束俄乌战争的提案，和谈现进展。",
-   "chain": "俄乌和谈进展→地缘风险缓和→利好全球风险资产。",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYUctM2tDd2gxSEhzQk9QV2dud0d0ajdkR0U2TmdlZ2VpQm44U1BhclBHQ184WVFFS1ZnX2l4c1dlb3FiMG9Ld0hSeUNJU0dFSTl6VHFzTVlRSXQ4Z3BUQWtvLW5oTFZJTGJiOG1Sb0dTSGN2V1lzcGJWemhYZjloZnI2YmtvcnZ3dHRGMkpSOGExM3RZTVFxeGFfWkNoXzhpUk5iX0QxVHVWYmpnT05rTnhFM25MeHNnek85UFlLdS15QQ?oc=5",
-   "ts": "2026-08-11T20:47:44+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcFUwQU11ZTNtdlg0Zm1iSlQ0QlBkaFhUSzI2ZkdPY2M2anViX2l3R2xsUkxXdmszWlVDZU91ckpmeUZFOTlJUzB3T1NXZ3VNZm81R19hX25kdldEcUNZYlh0RDZYUlFYY05hVkM4dkdOUi1IMlVyak96OVphU0U5T3RwYkpqZlpQcVk4cThFM3M5U1dEcS13TDBIamk5OW5TcmEwaDY2d1JRbU80bzVFRGVSbnJTOUItdlhfNFgxRVpnTnRnNHVRRzJZOA?oc=5",
+   "ts": "2026-08-11T16:09:56+00:00"
   },
   {
    "cat": "oil",
-   "title": "伊朗称霍尔木兹海峡将继续关闭",
-   "brief": "伊朗表示除非美国满足条件，否则霍尔木兹海峡保持关闭，油价收涨。",
-   "chain": "霍尔木兹海峡关闭→油价上涨→莫桑比克油气出口受益，但运输风险需关注。",
+   "title": "美油涨破83美元，伊朗威胁海峡封锁",
+   "brief": "伊朗称霍尔木兹海峡不开放，美国原油期货价格突破83美元/桶。",
+   "chain": "地缘风险推升油价→布伦特/美油上行→莫桑比克LNG出口利润空间扩大",
    "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/11/oil-prices-today-us-crude-84.html",
+   "ts": "Tue, 11 Aug 2026 19:11:58 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "红海袭击致6死，美军打击阿曼湾船只",
+   "brief": "红海袭击造成4名船员和2名救援人员死亡，美军在阿曼湾打击一艘船只。",
+   "chain": "红海航运安全恶化→全球航运成本上升→A股航运板块波动",
+   "impact": 8,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQM0pWdFZzeWRnNk5zclJaZzJnUnhXVnZnNHdFcFRtTlo3T00wd1RVdHF6QmNZRVJBSGNIMm50YW1ob0x4dENzeGFpTDlSNUdvbkZZNXBBLVc0WVFjVVRMUEl3NldGcFNtTXYybWJLVklxYlZnbUkzRVpyeU55b3FFZlhlRmVueEdTTHNGcnVVS05zUnZyWkJ5VkhIcmFwS01KYVNXaHVyeE1yZEhtd3Z4alAwUQ?oc=5",
-   "ts": "2026-08-11T19:41:03+00:00"
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWXg2TDlnMzVlaTc1d1hoaFVFTG91b29XZzlBMC1hNGZ1REtpdDlTLXZFcGF5Mjg0N1ZvaVpSZlpEYkR6TUM1Mktja1k2TDdIVGlBZHBrMEFGdHNXSFFQV0s0eEY3aHRBcXNxa3FKUkR6Y1RmSVZOS0lwbGVZTVFKX3VUMzU5c2wwZ2VjZ1pqWU1PeDNhb0lOeFlzcDFnN1lS?oc=5",
+   "ts": "2026-08-11T23:29:07+00:00"
   },
   {
    "cat": "oil",
-   "title": "胡塞武装袭击沙特船只于曼德海峡",
-   "brief": "胡塞武装在曼德海峡袭击沙特船只，红海航运风险持续。",
-   "chain": "红海袭击→航运成本上升→影响全球油气运输，莫桑比克出口或受波及。",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUExFQktvY2cyS2RZZW1TRzFEWkY2ZnR1VGVCM1FZei1ueVZ5UFJvWjNybWlVdy1NdWUtOXVnS2w2NWpoZ1JKZ1dKam8zQ2pISlZYTGxlVnVBcUZubW85RnloSXNxMXNmcktDMjZIUVZpZTl2TlgzX3A5Q0N5Ul92NlhsT2RrZDNZOUc2RDh0VHBXNWFoa29KczBzQnR2SjBFVS1ZV1VsVklzZkZUSXpQbkpzcTNSSnJMTDJvOG1PN3lNMmhYOWUtLW5B?oc=5",
-   "ts": "2026-08-11T18:22:45+00:00"
+   "title": "红海及阿曼湾袭击加剧供应担忧，油价上涨",
+   "brief": "红海和阿曼湾的袭击事件加剧了供应担忧，推动油价上涨。",
+   "chain": "地缘冲突影响原油供应→油价走高→莫桑比克油气项目经济性提升",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/12/oil-prices-today-wti-brent-red-sea.html",
+   "ts": "Wed, 12 Aug 2026 04:56:36 GMT"
   },
   {
-   "cat": "gas",
-   "title": "伊朗和谈僵局，航运再遭袭击",
-   "brief": "伊朗和谈陷入僵局，航运遭新袭击，能源运输风险加剧。",
-   "chain": "地缘紧张→LNG运输风险溢价→东非LNG出口或面临更高运费。",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVzI4ZllHeXZmVDVJVE40M0w5NkYtdkFzM0RyYlZvY1pXbEJoc1d4RHNvVWxTem1kMEhGNUxmc0tZZmZ2ZkpZamtDNkd6bjRTVXhCVEF6dGhOSXltR0RQc3RPc0RFUzctZ00xRjAzX0hwNy1oYlU0a0dMYU9iUjdqYXZ4ZWM5YXhBMUhEREduYVo2QkVsT2ktQ19NaFNpUF85TmhFcnF1REktbFZfRklXb0EtbzZsLUZ1Vk53TFRR?oc=5",
-   "ts": "2026-08-11T15:18:00+00:00"
-  },
-  {
-   "cat": "tech",
-   "title": "SK海力士重启大连NAND二期建设",
-   "brief": "SK海力士重启大连NAND二期工厂建设，计划年内导入设备，半导体设备ETF上涨。",
-   "chain": "存储扩产→设备需求增加→A股半导体设备链受益。",
+   "cat": "macro",
+   "title": "特朗普酝酿削减资本利得税以提振选情",
+   "brief": "随着中期选举临近，特朗普考虑削减资本利得税以吸引选民。",
+   "chain": "减税预期刺激美股风险偏好→利好科技成长股→A股映射相关板块",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608123838992718.html",
-   "ts": "2026-08-12 11:40:11"
+   "url": "https://finance.eastmoney.com/a/202608123839001342.html",
+   "ts": "2026-08-12 12:53:08"
   },
   {
-   "cat": "tech",
-   "title": "韩国KOSPI大涨5%，芯片股领涨",
-   "brief": "韩国KOSPI指数涨幅扩大至5%，SK海力士、三星电子均涨超8%。",
-   "chain": "韩股芯片大涨→提振全球半导体情绪→A股存储链联动。",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608123838982120.html",
-   "ts": "2026-08-12 11:17:59"
-  },
-  {
-   "cat": "tech",
-   "title": "港股存储概念走强，三星海力士ETF大涨",
-   "brief": "港股存储概念走强，南方两倍做多三星电子涨16.87%，SK海力士涨16.58%。",
-   "chain": "存储涨价预期→港股映射→A股存储芯片链受提振。",
+   "cat": "macro",
+   "title": "央行连续两日零投放，债市再受敲打",
+   "brief": "央行连续第二天公开市场操作零投放，30年期国债收益率上行。",
+   "chain": "央行收紧流动性→债市收益率上行→A股高估值成长股承压",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608123838988628.html",
-   "ts": "2026-08-12 11:30:07"
+   "url": "https://finance.eastmoney.com/a/202608123839001196.html",
+   "ts": "2026-08-12 12:55:02"
+  },
+  {
+   "cat": "macro",
+   "title": "野村在新加坡推实物黄金交易服务",
+   "brief": "野村国际财富管理部门在新加坡为富裕客户提供实物黄金交易和托管服务。",
+   "chain": "黄金实物需求增加→金价获得支撑→A股黄金板块受益",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608123839005460.html",
+   "ts": "2026-08-12 12:41:40"
+  },
+  {
+   "cat": "tech",
+   "title": "淡马锡考虑直接投资三星电子和SK海力士",
+   "brief": "淡马锡计划通过内部投资团队直接投资三星电子和SK海力士，两家公司股价大涨。",
+   "chain": "半导体巨头获主权基金青睐→存储芯片需求预期提升→A股存储芯片链联动",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608123839006833.html",
+   "ts": "2026-08-12 12:57:30"
+  },
+  {
+   "cat": "tech",
+   "title": "机构上调2026年半导体市场增幅至94.1%",
+   "brief": "Omdia因AI需求激增，将2026年全球半导体市场营收增幅上调至94.1%。",
+   "chain": "AI需求驱动半导体高增长→芯片股估值提升→A股半导体产业链受益",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608123839006118.html",
+   "ts": "2026-08-12 12:48:19"
+  },
+  {
+   "cat": "tech",
+   "title": "SK海力士扩产重启，芯片ETF上涨",
+   "brief": "SK海力士扩产重启，芯片ETF东财盘中上涨超2%。",
+   "chain": "存储巨头扩产→供给增加但需求强劲→A股存储芯片概念活跃",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608123839022371.html",
+   "ts": "2026-08-12 13:07:54"
   },
   {
    "cat": "ai",
-   "title": "CoreWeave股价大涨14%，AI需求强劲",
-   "brief": "CoreWeave营收翻倍，AI基础设施需求加速，股价大涨14%。",
-   "chain": "AI算力需求强劲→美股AI链受益→A股算力硬件链映射。",
-   "impact": 8,
+   "title": "CoreWeave股价大涨14%，AI基础设施需求强劲",
+   "brief": "CoreWeave二季度收入翻倍，AI基础设施需求加速，股价大涨14%。",
+   "chain": "AI算力需求爆发→云服务商收入高增→A股算力租赁及IDC板块受益",
+   "impact": 9,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
    "ts": "Tue, 11 Aug 2026 22:51:06 GMT"
   },
   {
    "cat": "ai",
-   "title": "Lumentum季报超预期，AI需求爆发",
-   "brief": "光通信龙头Lumentum受益于AI数据中心需求，Q4业绩全面超预期。",
-   "chain": "AI光模块需求→美股光通信大涨→A股光模块链联动。",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608123838924646.html",
-   "ts": "2026-08-12 11:08:26"
-  },
-  {
-   "cat": "ai",
-   "title": "英伟达拟投资中际旭创、新易盛？",
-   "brief": "市场传闻英伟达拟20亿美元入股光模块龙头，公司紧急回应。",
-   "chain": "英伟达投资预期→光模块景气→A股光模块链受关注。",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608123838992246.html",
-   "ts": "2026-08-12 11:38:36"
-  },
-  {
-   "cat": "ai",
-   "title": "芝商所将推出算力期货",
-   "brief": "芝商所将推出算力期货，算力租赁行业景气或持续攀升。",
-   "chain": "算力期货推出→算力资产定价→A股算力租赁链受益。",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608123838990666.html",
-   "ts": "2026-08-12 11:23:57"
-  },
-  {
-   "cat": "ai",
    "title": "黄仁勋5000亿美元AI融资计划面临中国风险",
-   "brief": "英伟达CEO黄仁勋的AI融资计划面临中国风险，市场关注。",
-   "chain": "AI融资风险→美股AI链波动→A股算力链情绪传导。",
-   "impact": 6,
+   "brief": "英伟达的AI融资计划面临来自中国的风险，可能影响全球AI算力布局。",
+   "chain": "中国风险或限制AI芯片出口→全球算力供给受限→A股国产算力替代逻辑强化",
+   "impact": 8,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/08/11/nvidia-ai-funding-jensen-huang-china-risk.html",
    "ts": "Tue, 11 Aug 2026 21:01:13 GMT"
   },
   {
    "cat": "ai",
-   "title": "Riot Platforms与Anthropic合作，矿工转向AI",
-   "brief": "比特币矿商Riot Platforms与Anthropic达成协议，转向AI基础设施。",
-   "chain": "矿商转型AI→算力供给增加→AI算力链竞争加剧。",
-   "impact": 5,
+   "title": "谷歌新AI负责人面临追赶OpenAI和Anthropic的挑战",
+   "brief": "谷歌新任AI负责人接手的任务是在AI竞赛中追赶OpenAI和Anthropic。",
+   "chain": "巨头AI竞争加剧→模型能力提升加速→A股AI应用及算力链受益",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/12/google-deepmind-koray-kavukcuoglu.html",
+   "ts": "Wed, 12 Aug 2026 05:00:01 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Riot Platforms与Anthropic合作，矿企转向AI基础设施",
+   "brief": "比特币矿商Riot Platforms与Anthropic达成合作，将业务重心转向AI基础设施。",
+   "chain": "矿企转型AI算力→AI基础设施投资增加→A股IDC及算力租赁概念受益",
+   "impact": 6,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/08/11/riot-platforms-signs-anthropic-deal-as-miners-shift-to-ai-infrastructure-.html",
    "ts": "Tue, 11 Aug 2026 19:08:16 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "DeepSeek智能体要来了？公众号已完成注册",
+   "brief": "DeepSeekHarness团队公众号注册完成，或预示新智能体产品即将发布。",
+   "chain": "国产AI智能体进展→AI应用端创新→A股AI应用及算力链情绪提振",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608123839004976.html",
+   "ts": "2026-08-12 12:43:07"
+  },
+  {
+   "cat": "gas",
+   "title": "美国战略石油储备跌破3亿桶，油价跳涨",
+   "brief": "美国战略石油储备降至3亿桶以下，油价因供应担忧跳涨。",
+   "chain": "储备下降加剧供应紧张→油价上行→莫桑比克LNG出口竞争力增强",
+   "impact": 7,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/article/oil-jumps-as-us-iran-deal-hopes-fade-strategic-petroleum-reserve-falls-below-300-million-barrels-172208297.html",
+   "ts": "2026-08-10T17:22:08Z"
+  },
+  {
+   "cat": "gas",
+   "title": "美日干预未能阻止日元贬值，历史性举措失效",
+   "brief": "美日联合干预汇市未能阻止日元贬值，市场对干预效果存疑。",
+   "chain": "日元贬值影响全球资本流动→美元走强→LNG贸易以美元计价，莫桑比克收入或受益",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/12/japan-yen-us-dollar-intervention-.html",
+   "ts": "Wed, 12 Aug 2026 03:37:00 GMT"
   }
  ]
 }
