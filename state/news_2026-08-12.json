@@ -1,0 +1,214 @@
+{
+ "asof": "2026-08-12",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-08-12T10:42+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 7,
+  "cluster_label": "",
+  "cluster_dropped": [],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "非农爆冷叠加央行购金加码，金价中枢或抬升",
+   "brief": "非农数据不及预期，央行购金力度加大，机构认为金价中枢有望逐步抬升。",
+   "chain": "金价受实际利率下行与避险情绪驱动→利好美股AI高久期估值→映射A股算力链情绪",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608123838927084.html",
+   "ts": "2026-08-12 10:13:40"
+  },
+  {
+   "cat": "macro",
+   "title": "现货黄金触及4400美元/盎司",
+   "brief": "现货黄金日内涨0.74%，向上触及4400美元/盎司，创近期新高。",
+   "chain": "金价走强反映避险与利率预期→压制美股风险偏好→A股算力链或承压",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608123838922423.html",
+   "ts": "2026-08-12 10:13:05"
+  },
+  {
+   "cat": "macro",
+   "title": "“产能过剩”论调违背经济常识",
+   "brief": "中国制造业竞争力提升，贸易顺差扩大，个别国家炮制“产能过剩”论调，违背经济常识。",
+   "chain": "贸易摩擦风险上升→影响美股跨国企业→A股出口链或受扰动",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608123838307972.html",
+   "ts": "2026-08-12 10:39:32"
+  },
+  {
+   "cat": "geo",
+   "title": "特朗普：伊朗选项是经济失败或“狠狠打击”",
+   "brief": "特朗普称对伊朗选项包括让其经济失败或“狠狠打击”，美伊紧张局势持续。",
+   "chain": "美伊冲突升级风险→避险情绪升温→A股军工、油气链或受关注",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYUNwdDR2X2Z6TlJ2NDZ5VVVESGN1bHdOU3RHSVY5aGJSdmJldVZ6YVh5ZDVNNUxJMFpValdCa0dKSFJBLUZzeTdEU1pmcmhMVjAtQzBFdm91QW1JZERManNpTlMtbzBEaVhnZTRybjF1YkxVVVBtLWE0Vk4xOW9NWWhJU19yUUdLYy1MNHpDTTFjb3F0ajMtZHl1THdCSG00NjFNQTgtUzZpNG1DN0cwWi1lR2VNdWJvQjBkNHYtSy1GcVRLQ3hYTXJVQ2ZZZW8?oc=5",
+   "ts": "2026-08-11T16:04:54+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "泽连斯基：乌已向美提交结束战争提案",
+   "brief": "乌克兰总统泽连斯基表示，已向美国谈判代表提交结束俄乌战争的提案。",
+   "chain": "俄乌和谈进展→地缘风险缓和→利好全球风险资产→A股风险偏好或提升",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYUctM2tDd2gxSEhzQk9QV2dud0d0ajdkR0U2TmdlZ2VpQm44U1BhclBHQ184WVFFS1ZnX2l4c1dlb3FiMG9Ld0hSeUNJU0dFSTl6VHFzTVlRSXQ4Z3BUQWtvLW5oTFZJTGJiOG1Sb0dTSGN2V1lzcGJWemhYZjloZnI2YmtvcnZ3dHRGMkpSOGExM3RZTVFxeGFfWkNoXzhpUk5iX0QxVHVWYmpnT05rTnhFM25MeHNnek85UFlLdS15QQ?oc=5",
+   "ts": "2026-08-11T20:47:44+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "巴基斯坦称美伊协议有进展，双方交换赔偿要求",
+   "brief": "巴基斯坦表示美伊协议谈判取得进展，但华盛顿和德黑兰仍在交换赔偿要求。",
+   "chain": "美伊谈判进展→地缘风险或缓和→油价承压→利好A股制造业成本",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/11/us-iran-war-trump-hormuz-control-reparation-talks-.html",
+   "ts": "Tue, 11 Aug 2026 14:56:43 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "伊朗称霍尔木兹海峡将保持关闭，油价收涨",
+   "brief": "伊朗表示除非美国满足条件，否则霍尔木兹海峡将继续关闭，油价收涨。",
+   "chain": "霍尔木兹海峡关闭→供应中断风险→油价上涨→莫桑比克LNG出口竞争力增强",
+   "impact": 10,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQM0pWdFZzeWRnNk5zclJaZzJnUnhXVnZnNHdFcFRtTlo3T00wd1RVdHF6QmNZRVJBSGNIMm50YW1ob0x4dENzeGFpTDlSNUdvbkZZNXBBLVc0WVFjVVRMUEl3NldGcFNtTXYybWJLVklxYlZnbUkzRVpyeU55b3FFZlhlRmVueEdTTHNGcnVVS05zUnZyWkJ5VkhIcmFwS01KYVNXaHVyeE1yZEhtd3Z4alAwUQ?oc=5",
+   "ts": "2026-08-11T19:41:03+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "美油涨破83美元，伊朗称海峡不开放",
+   "brief": "美国原油价格上涨至83美元以上，因伊朗称霍尔木兹海峡不会开放直至条件满足。",
+   "chain": "油价上涨→全球油气价格走高→莫桑比克油气项目收益提升",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/11/oil-prices-today-us-crude-84.html",
+   "ts": "Tue, 11 Aug 2026 19:11:58 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "美伊协议疑虑加深，油价上涨",
+   "brief": "因市场对美伊协议达成存疑，供应担忧加剧，油价上涨。",
+   "chain": "协议不确定性→油价波动→莫桑比克油气出口价格或受益",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOajU2TkE4Zm1kOHlwM2hwX0VXeWJTNkFCblBrN0FuUDNfN1NMRFQ1NE1HREZGVE96UXMyajRlamxJaVZqMGxQNGRyZlBZQ2xnNVNEZjdBZ05zR25PWEFTNksxMk9iREoyNElfZ1h0aUdiTmFKdEJpZlJfUDk1d25ZTXptbnByMDFfRjk2R1oxZ29pNFZiQVhwTmRCaDIzUXdYSFlxZnl6aU05eG1WLWlQWg?oc=5",
+   "ts": "2026-08-12T00:59:47+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "红海袭击致船员死亡，美军在阿曼湾打击船只",
+   "brief": "红海袭击造成4名船员和2名救援人员死亡，美军在阿曼湾对船只实施打击。",
+   "chain": "红海航运风险→LNG运输成本上升→莫桑比克LNG出口或面临物流挑战",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWXg2TDlnMzVlaTc1d1hoaFVFTG91b29XZzlBMC1hNGZ1REtpdDlTLXZFcGF5Mjg0N1ZvaVpSZlpEYkR6TUM1Mktja1k2TDdIVGlBZHBrMEFGdHNXSFFQV0s0eEY3aHRBcXNxa3FKUkR6Y1RmSVZOS0lwbGVZTVFKX3VUMzU5c2wwZ2VjZ1pqWU1PeDNhb0lOeFlzcDFnN1lS?oc=5",
+   "ts": "2026-08-11T23:29:07+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "胡塞武装袭击曼德海峡沙特船只",
+   "brief": "胡塞武装在曼德海峡袭击了一艘沙特船只，红海局势持续紧张。",
+   "chain": "曼德海峡风险→LNG运输绕行→莫桑比克LNG出口成本增加",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUExFQktvY2cyS2RZZW1TRzFEWkY2ZnR1VGVCM1FZei1ueVZ5UFJvWjNybWlVdy1NdWUtOXVnS2w2NWpoZ1JKZ1dKam8zQ2pISlZYTGxlVnVBcUZubW85RnloSXNxMXNmcktDMjZIUVZpZTl2TlgzX3A5Q0N5Ul92NlhsT2RrZDNZOUc2RDh0VHBXNWFoa29KczBzQnR2SjBFVS1ZV1VsVklzZkZUSXpQbkpzcTNSSnJMTDJvOG1PN3lNMmhYOWUtLW5B?oc=5",
+   "ts": "2026-08-11T18:22:45+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "UKMTO报告阿曼湾集装箱船与军方事件",
+   "brief": "英国海事贸易组织报告阿曼湾发生涉及集装箱船和军方的事件，航运风险加剧。",
+   "chain": "阿曼湾风险→LNG运输安全→莫桑比克LNG出口或受影响",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdjRhcUpmUml0dmpfNkN5U2IxYjZTa3ZVcTNlNzdTV3ZZb0ZWWGFpSjFFb0ppdmNYNkVpUThTUTlmRHpIVFhOMjdEV2FkcUZkTHpKcDE5SWVYLVhwVm9Pb0k4Y1pMSjJycW54TG5rOUl5QUt1cldselUwSnNsZnRCY0JMZ2ZhUlZabS1ucUc3bjRIR0UwVGRfcldJTXVDSHgtMHRWdnZESThGRzBjMWdmbkhmSjQwckwzb285VmRXRUpGcktLLXc?oc=5",
+   "ts": "2026-08-11T10:30:34+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "CoreWeave股价涨14%，营收翻倍",
+   "brief": "CoreWeave股价大涨14%，因AI基础设施需求加速，营收翻倍。",
+   "chain": "AI基础设施需求强劲→利好美股AI产业链→A股算力链或受提振",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
+   "ts": "Tue, 11 Aug 2026 22:51:06 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "韩国KOSPI涨4%，三星电子涨超7%",
+   "brief": "韩国KOSPI指数涨幅扩大至4%，三星电子涨逾7%，SK海力士涨5.68%。",
+   "chain": "韩国科技股大涨→全球半导体情绪回暖→A股半导体链或跟涨",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608123838945288.html",
+   "ts": "2026-08-12 10:32:44"
+  },
+  {
+   "cat": "tech",
+   "title": "Cramer：英特尔或有动作，英伟达融资积极",
+   "brief": "Cramer认为英特尔可能有所准备，英伟达的融资计划“极其积极”。",
+   "chain": "英特尔/英伟达动态→美股科技股波动→A股科技映射或受影响",
+   "impact": 6,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/11/cramer-intel-may-have-something-up-its-sleeve-nvidias-financing-push-is-positive.html",
+   "ts": "2026-08-11T16:21:35+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达开发新一代开源AI模型Nemotron4",
+   "brief": "英伟达正在开发新一代开源AI模型Nemotron4，参数规模至少1万亿，目标领先全球开源。",
+   "chain": "英伟达开源模型→AI算力需求增加→A股算力链或受益",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608123838954634.html",
+   "ts": "2026-08-12 10:21:50"
+  },
+  {
+   "cat": "ai",
+   "title": "阿里云灵骏真武M890超节点实例上线",
+   "brief": "阿里云灵骏真武M890超节点实例正式上线，国内首个运行超2万亿参数大模型的超节点算力。",
+   "chain": "国内AI算力升级→A股算力链景气提升→利好相关硬件厂商",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608123838936666.html",
+   "ts": "2026-08-12 10:22:39"
+  },
+  {
+   "cat": "ai",
+   "title": "Anthropic为Claude生成内容嵌入隐形水印",
+   "brief": "Anthropic宣布Claude生成内容将嵌入隐形水印，并签署欧盟AI法案透明度准则。",
+   "chain": "AI监管趋严→影响AI应用合规→A股AI应用或需调整",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608123838931871.html",
+   "ts": "2026-08-12 10:17:36"
+  },
+  {
+   "cat": "ai",
+   "title": "前阿里千问负责人创立语用科技，高榕红杉领投",
+   "brief": "原阿里千问技术负责人林俊旸创立语用科技，专注数字世界与物理世界交互，获高榕、红杉投资。",
+   "chain": "AI创业活跃→AI产业投资升温→A股AI概念或受关注",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608123838943655.html",
+   "ts": "2026-08-12 10:32:00"
+  },
+  {
+   "cat": "ai",
+   "title": "小红书打造“AI导购”功能",
+   "brief": "小红书正在打造“AI导购”功能，通过对话交互推送商品卡片和下单链接。",
+   "chain": "AI应用落地电商→AI商业化加速→A股AI应用链或受益",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608123838937815.html",
+   "ts": "2026-08-12 10:24:39"
+  }
+ ]
+}
