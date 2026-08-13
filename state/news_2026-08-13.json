@@ -1,10 +1,10 @@
 {
  "asof": "2026-08-13",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-13T10:44+08:00",
+ "generated_at": "2026-08-13T11:57+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 6,
+  "cross_day_suppressed": 7,
   "cluster_label": "",
   "cluster_dropped": [],
   "backfilled": 0
@@ -12,9 +12,19 @@
  "items": [
   {
    "cat": "macro",
-   "title": "美国7月预算赤字扩大 关税收入为负",
-   "brief": "美国7月预算赤字因支出增加和关税收入为负而扩大，财政压力持续。",
-   "chain": "财政赤字扩大→美债供给压力→利率高位→美股估值承压→A股成长股情绪受抑",
+   "title": "美国7月CPI符合预期，美股期货走高",
+   "brief": "7月CPI数据与预期一致，缓解通胀担忧，美股期货上涨。",
+   "chain": "通胀温和→美联储降息预期升温→利好美股AI高久期股→映射A股算力链情绪",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/12/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
+   "ts": "2026-08-12T12:50:34+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "美国7月预算赤字扩大，关税收入为负",
+   "brief": "美国7月预算赤字因支出增加和关税收入为负而扩大，财政压力上升。",
+   "chain": "财政赤字扩大→美债供给增加→实际利率上行→压制美股AI估值→A股算力链承压",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcUJ0U0RwQ2U2OHRKX1JZX1daaUdjR0ZMZWM5a0x3VndUUzJ0RFRTMTQ4ZHA1blZIYlVNWTZOeTUwa2QxcGQtVGpCRXN0WlJqNW1abl9wMnptY2hTSDA2VHUzNVFBLWVsTnRDYzZYQjBQS2VnZ2VBVVRNVHQwQTJiQ2dxSF92cHlFSENDQ1psZF9rM3plUE5mTzZtUWR0U1d0ZlZ3Z3NZRXBOX2ZQSGZXUTlKNkpHMHZ0amdoUg?oc=5",
@@ -22,59 +32,59 @@
   },
   {
    "cat": "macro",
-   "title": "美股期货小幅走高 等待7月通胀数据",
-   "brief": "华尔街期货在7月通胀数据公布前小幅上涨，市场关注通胀对美联储政策的影响。",
-   "chain": "通胀数据公布→影响美联储降息预期→美股波动→A股风险偏好联动",
+   "title": "金价波动，交易员关注美联储政策",
+   "brief": "金价近期波动，但近期反弹显示投资者兴趣回升，受美联储利率和通胀预期影响。",
+   "chain": "金价反弹→避险情绪与利率预期博弈→美股AI估值分母波动→A股算力链情绪传导",
    "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYklxZWxQWEI4bU5nVHpWUVJkQWo4YmQ5ZWpfTXNWWHBjNlE0d09NNEdtbWMtQldtbndIMzNBU1Z3TldjNEF5YUoxMHJSdHlXak50XzBMYlh4dHh2OWxVckViSjVxYUFCVlBvcnQ4Vk9vLVF0MWhGR3BidXQzOGItYUVjbnNYSk1pdS1XeTZqUGtaVTZzcDRkR1N1V0xkN0o5STBZ?oc=5",
-   "ts": "2026-08-12T10:24:13+00:00"
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/12/gold-prices-metals-fed-rate-hike-inflation.html",
+   "ts": "2026-08-12T19:22:32+00:00"
   },
   {
    "cat": "macro",
-   "title": "美元指数突破100关口",
-   "brief": "美元指数日内涨0.03%，突破100整数关口，反映市场对美联储政策预期。",
-   "chain": "美元走强→压制大宗商品价格→影响A股资源股；对美股盈利影响分化",
+   "title": "日本批发通胀放缓至7.2%",
+   "brief": "日本批发通胀略降至7.2%，低于预期，或影响央行政策。",
+   "chain": "日本通胀放缓→日元政策不确定性→全球利率环境→美股科技股估值→A股科技链",
    "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608133840199311.html",
-   "ts": "2026-08-13 10:31:01"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/13/japan-ppi-inflation-energy-prices-takaichi-cpi.html",
+   "ts": "Thu, 13 Aug 2026 01:25:47 GMT"
   },
   {
    "cat": "geo",
    "title": "特朗普称美国完全控制霍尔木兹海峡",
-   "brief": "特朗普宣称美国对霍尔木兹海峡拥有“完全控制”，但伊朗否认，局势仍紧张。",
-   "chain": "美伊对峙→油价波动→全球通胀预期→美股能源板块→A股油气链",
-   "impact": 8,
+   "brief": "特朗普宣称美国对霍尔木兹海峡有完全控制权，但伊朗否认，航运仍受阻。",
+   "chain": "美伊对峙→油价波动→美股能源板块→A股油气链",
+   "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS2o4cWFmWUZQNXN2WUhmYU1GVFpxdk9WM3d1YzhtS3lkQVpFdUoyNjJZMG9oSXpRNkk2VXM3X2FlTXp2T2V2VldGR3dBMGczQ0JQQkM2YjJTT2VkRkFBMVpOamlFNTBocGtvR2ZJUWJ2TnRtYVhnTVMzM1RkRks0MzV0MFQ5RWxrdmlTZThMUXh1emcycXdz?oc=5",
-   "ts": "2026-08-12T21:27:49+00:00"
+   "ts": "2026-08-12T14:39:00+00:00"
   },
   {
    "cat": "geo",
-   "title": "伊朗要求美重返临时协议 拒绝停火延期谈判",
-   "brief": "伊朗高级官员表示，美国必须重返临时协议，否则不会进行停火延期谈判。",
-   "chain": "美伊谈判僵局→地缘风险持续→油价高位→全球市场避险情绪",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdVZJNElycHhPbXBfZXNaRzVIUXFMU2hTTE1xRi1jdjBzZHQyMUNhTHVvbXg4aWowUHpqM29PT1E0Tm5haUNRSFJEUFVScGllVU54blNSRzdXUEN0RmNZV0FWclFOMHk0QWxTbjRsOXZPX3RVQXh1OThyU2V0X215R01zRzNDX2taWmc3YWtlcTZ1X0hGbmdUQ19tV1k5SmZEdHlFblBWZUtkUmxlcnc3cWc1ZmVKdWtzN09pUVJxaHFqcFVf?oc=5",
-   "ts": "2026-08-12T13:14:13+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "沙特押注防御性联盟以避免战争",
-   "brief": "沙特阿拉伯寻求建立防御性联盟，以遏制地区冲突升级，保障自身安全。",
-   "chain": "中东局势紧张→沙特寻求联盟→影响OPEC政策→油价波动→全球能源市场",
+   "title": "普京首次登上俄日争议岛屿",
+   "brief": "普京视察南千岛群岛，日俄关系紧张，地缘风险上升。",
+   "chain": "日俄领土争端→地缘紧张→避险情绪→美股波动→A股风险偏好",
    "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZUJNN3lBY1A1eGV5XzhJYWlFc2lHRkY2eEI2Q2x1UzdaMkY2dWFRSGc5blZJWERQVkFuZTZOV2FDMHlmNXdPRGJrcllPNzVueGl6NlF5RlRSbHFUNkZVUlZGR0F2ODY5VWtfLVlrQW0tLUVZUlo2Q1dHanR1N3U3QjUyZGxwcFlSRjh6ak5MSTlmdXdKLUtvTVpLTkRsaUZkZldMY1BqRldLb0xhendvZFh3?oc=5",
-   "ts": "2026-08-12T12:36:16+00:00"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608133840264169.html",
+   "ts": "2026-08-13 11:45:48"
+  },
+  {
+   "cat": "geo",
+   "title": "美官员批评以防长长期占领黎南部言论",
+   "brief": "美国批评以色列国防部长关于长期占领黎巴嫩南部的言论，中东局势再添变数。",
+   "chain": "美以分歧→中东局势复杂化→油价波动→美股能源→A股油气链",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608133840260088.html",
+   "ts": "2026-08-13 11:31:35"
   },
   {
    "cat": "oil",
-   "title": "IEA：2026年全球石油供应缺口将扩大",
-   "brief": "国际能源署预计，由于霍尔木兹海峡持续受阻，2026年全球石油供应缺口将加深。",
-   "chain": "供应缺口扩大→油价上行→莫桑比克LNG项目经济性提升，吸引投资",
+   "title": "IEA：2026年全球石油供应缺口扩大",
+   "brief": "IEA称霍尔木兹海峡重开无望，2026年供应缺口将加深。",
+   "chain": "供应缺口→油价上行→莫桑比克油气出口受益，但需关注运输风险",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUm5jZkFKN2RpUWZWbG9rSXctekpyeml5UDgwTENteGwtSmFWbHd0cGFjYV9LRVBXeHRENktmbWVKNVZCeFp0U0YxeTFQcFdqZTJ5Z0sxWjg1TGUwRm13Mm5rSWRoUWw2MzZhNlhFeUV2Wk9mRFNFWDB6QWhSckZDbUtlZ3pzSWQyU0pjS0Q1d2dRT1EtcWt0SVhuQXlPTHZiZlhZTzFWSUoxcXVDdl9qUnA0SnJWR1Zf?oc=5",
@@ -82,59 +92,69 @@
   },
   {
    "cat": "oil",
-   "title": "EIA：中东石油供应至明年底才能恢复",
-   "brief": "美国能源信息署预计，霍尔木兹冲突导致日均60万桶供应下降，将持续至2026年底。",
-   "chain": "供应中断持续→油价高位→东非油气出口受益，莫桑比克项目加速",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608133840147176.html",
-   "ts": "2026-08-13 10:29:01"
+   "title": "OPEC下调2026年全球石油需求增长预期",
+   "brief": "OPEC再次下调2026年需求增长预测，需求担忧压制油价。",
+   "chain": "需求下调→油价承压→莫桑比克LNG项目经济性受影响",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdGtBOHhHeFZVQ0xfdlpxYWtxd1Y4VUVEMFFFMlUxakNMd29IeThMN1RxeVlEbHJpMk8xN0RzakdZWEZxUWFHOGVDSXNRTEM4WjYzcW13TkVSbHBPT1c5VEdCM1A0cFJNVG5fd19yeDlRLTJNYjJYbjVVN1lLRmtQZk5oMW85MXkwNzBhaHNuQUR1Z0RnbHI4RHduQ3dRdFMyOXdvYzZEUmRkVjV6ZXVZ?oc=5",
+   "ts": "2026-08-12T12:12:46+00:00"
   },
   {
    "cat": "oil",
-   "title": "阿曼漏油恶化 油价因供应担忧上涨",
-   "brief": "阿曼海岸漏油事件恶化，加剧供应中断担忧，油价上涨。",
-   "chain": "漏油事件→供应风险→油价上涨→莫桑比克油气出口竞争力增强",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/13/oil-spill-near-oman-worries-over-supply-.html",
-   "ts": "Thu, 13 Aug 2026 01:59:06 GMT"
+   "title": "油价因需求担忧下跌，美伊谈判僵局",
+   "brief": "尽管美伊谈判陷入僵局，但需求预测下调导致油价下跌。",
+   "chain": "需求疲软→油价下跌→莫桑比克油气收入短期承压",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRHRqOVFPR196RlJ0WTVZajZ6NHRpdmhmZ0EtSDMwTDVZVk5mX2JnVm9LVnFDQ2M4c08ybExVeldFQk9BdG9HVldTbnJFRDVjdTc3MF8wZmc4ck41bWd6Wng2SFowYjZrNW1UVzJuMDR4cnBUT0c2TXUteFR0cTFiVVY5bm5Da09NSDI4akNIcFY4NHRBRzkzNXNuZ1luQjNGUHFFdnVhT1RCNGlKMWx4MkgzdzhLdw?oc=5",
+   "ts": "2026-08-13T01:08:00+00:00"
   },
   {
    "cat": "oil",
    "title": "沙特经地中海管道增加石油出口",
-   "brief": "沙特通过地中海管道增加石油出口，以规避红海袭击风险。",
-   "chain": "红海风险→改道地中海→运输成本上升→全球油价波动→东非油气市场",
-   "impact": 6,
+   "brief": "沙特通过地中海管道增加出口，以规避红海袭击风险。",
+   "chain": "运输改道→供应稳定→油价波动→莫桑比克出口竞争格局",
+   "impact": 5,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/12/saudi-arabia-iran-oil-red-sea-houthi-suez-canal-strait-hormuz.html",
    "ts": "Wed, 12 Aug 2026 21:04:18 GMT"
   },
   {
    "cat": "gas",
-   "title": "中国移动成立长三角智算科技公司",
-   "brief": "中国移动在芜湖成立智算科技公司，注册资本1亿元，布局人工智能应用。",
-   "chain": "智算中心建设→电力需求增长→天然气发电需求→莫桑比克LNG出口机遇",
-   "impact": 5,
+   "title": "DeepSeek V4 Pro上线，阿里开放旗舰模型权重",
+   "brief": "DeepSeek V4 Pro正式版上线，阿里首次开放Max级旗舰模型权重，开源模型竞争加剧。",
+   "chain": "开源模型迭代→AI应用成本下降→算力需求持续→A股算力链受益",
+   "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608133840192165.html",
-   "ts": "2026-08-13 10:24:14"
+   "url": "https://finance.eastmoney.com/a/202608133840242453.html",
+   "ts": "2026-08-13 11:20:05"
   },
   {
    "cat": "gas",
-   "title": "上海鼓励民企进入虚拟电厂、新型储能",
-   "brief": "上海发布行动方案，鼓励民营企业进入虚拟电厂、车网互动、新型储能等领域。",
-   "chain": "储能发展→电网稳定性→天然气调峰需求→LNG进口增加",
-   "impact": 4,
+   "title": "阿里云灵骏真武M890上线，算力网纳入国家工程",
+   "brief": "阿里云发布超节点实例，算力网被纳入国家“六张网”重大工程，云计算板块活跃。",
+   "chain": "算力基建加速→AI算力需求→A股算力链景气提升",
+   "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608133840184167.html",
-   "ts": "2026-08-13 10:15:17"
+   "url": "https://finance.eastmoney.com/a/202608133840256410.html",
+   "ts": "2026-08-13 11:24:03"
+  },
+  {
+   "cat": "gas",
+   "title": "腾讯Q2资本开支同比增176%，加码AI",
+   "brief": "腾讯二季度资本开支527.8亿元，同比大增176%，研发支出同步增长。",
+   "chain": "大厂AI投入→算力需求→A股算力链受益",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608133840253076.html",
+   "ts": "2026-08-13 11:24:03"
   },
   {
    "cat": "tech",
    "title": "思科财报超预期但股价下跌",
-   "brief": "思科公布财报，盈利和营收超预期，但股价下跌，市场对前景存疑。",
-   "chain": "科技巨头财报→美股科技板块波动→A股科技股联动",
+   "brief": "思科盈利和营收超预期，但股价下跌，或因指引保守。",
+   "chain": "科技股分化→美股科技板块波动→A股映射",
    "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/12/ciscos-stock-drops-despite-earnings-revenue-beat.html",
@@ -142,19 +162,9 @@
   },
   {
    "cat": "tech",
-   "title": "Cerebras股价暴跌14%",
-   "brief": "AI芯片公司Cerebras在发布第二份财报后股价暴跌14%，市场担忧估值过高。",
-   "chain": "AI芯片股波动→美股AI情绪→A股算力链情绪传导",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html",
-   "ts": "Wed, 12 Aug 2026 23:49:23 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "英特尔CEO增持股票 提振信心",
-   "brief": "英特尔CEO Lip-Bu Tan在股票抛售中大量买入，被解读为对公司前景的信心。",
-   "chain": "CEO增持→英特尔股价→美股半导体板块→A股芯片股联动",
+   "title": "英特尔CEO买入自家股票，股价获提振",
+   "brief": "英特尔CEO在股票抛售中成为大买家，提振市场信心。",
+   "chain": "内部人增持→半导体板块情绪→A股半导体链",
    "impact": 5,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/08/12/ceo-of-intel-just-gave-jim-cramer-one-more-reason-to-call-it-his-favorite-stock.html",
@@ -162,63 +172,53 @@
   },
   {
    "cat": "tech",
-   "title": "谷歌Pixel 11发布 主打AI功能",
-   "brief": "谷歌发布Pixel 11，将Gemini AI置于核心，与苹果在AI手机领域竞争。",
-   "chain": "AI手机竞争→消费电子创新→A股产业链机会",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/12/google-pixel-11-gemini-ai-phone-apple.html",
-   "ts": "Wed, 12 Aug 2026 22:49:44 GMT"
+   "title": "中国NAND厂商出货量超越美光、铠侠",
+   "brief": "某中国公司在关键NAND闪存芯片出货量上超过美光和铠侠，存储格局生变。",
+   "chain": "国产存储崛起→全球存储竞争→A股存储链受益",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/13/chinese-firm-tops-micron-kioxia-shipments-nand-memory-chips.html",
+   "ts": "Thu, 13 Aug 2026 02:59:50 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "梅利乌斯上调思科目标价至160美元",
+   "brief": "梅利乌斯研究将思科目标价从145美元上调至160美元，看好其AI网络需求。",
+   "chain": "分析师看好→网络设备需求→美股科技→A股通信链",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608133840241095.html",
+   "ts": "2026-08-13 11:10:03"
   },
   {
    "cat": "ai",
-   "title": "CoreWeave需求强劲 反驳AI泡沫论",
-   "brief": "CoreWeave对英伟达旧芯片需求强劲，支撑AI数据中心投资合理性。",
-   "chain": "AI算力需求验证→美股AI股上涨→A股算力链受益",
+   "title": "CoreWeave大涨19%，Nebius飙升34%",
+   "brief": "CoreWeave和Nebius财报后大涨，带动AI数据中心股反弹。",
+   "chain": "AI算力需求强劲→美股AI股上涨→A股算力链情绪提振",
    "impact": 9,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/12/coreweave-counters-a-key-bear-case-on-the-ai-trade-what-it-means-for-our-data-center-stocks.html",
-   "ts": "2026-08-12T20:16:05+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "CoreWeave涨19% Nebius涨34%",
-   "brief": "CoreWeave和Nebius财报后大涨，带动AI云服务板块反弹。",
-   "chain": "AI云业绩超预期→美股AI板块→A股AI算力链",
-   "impact": 8,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/08/12/coreweave-q2-earnings-ai-demand.html",
    "ts": "Wed, 12 Aug 2026 20:00:52 GMT"
   },
   {
    "cat": "ai",
-   "title": "腾讯AI支出激增 捍卫长期回报",
-   "brief": "腾讯二季度AI相关支出大幅增加，短期利润率承压，但公司看好长期回报。",
-   "chain": "腾讯AI投入→港股科技→A股AI产业链情绪",
+   "title": "CoreWeave反驳AI泡沫论，老芯片需求强劲",
+   "brief": "CoreWeave称六年老芯片需求强劲，反驳AI泡沫担忧，支撑数据中心股。",
+   "chain": "AI需求持续→算力投资→A股算力链",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/12/coreweave-counters-a-key-bear-case-on-the-ai-trade-what-it-means-for-our-data-center-stocks.html",
+   "ts": "2026-08-12T20:16:05+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "Cerebras财报后股价暴跌14%",
+   "brief": "Cerebras上市后第二份财报不及预期，股价大跌，AI芯片竞争激烈。",
+   "chain": "AI芯片竞争→美股AI股波动→A股AI芯片链",
    "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/12/china-tencent-earnings-q2-2026-gaming-ai-advertising.html",
-   "ts": "Wed, 12 Aug 2026 13:31:54 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "腾讯AI战略拉低利润率 投行分歧",
-   "brief": "腾讯AI重投入导致利润率下滑，投行对目标价看法分歧。",
-   "chain": "腾讯AI投入→港股科技→A股AI产业链情绪",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608133840188182.html",
-   "ts": "2026-08-13 10:21:00"
-  },
-  {
-   "cat": "ai",
-   "title": "上海支持民企租用智算资源",
-   "brief": "上海发改委印发方案，支持民营企业租用智算资源进行大模型研发训练。",
-   "chain": "政策支持→算力需求增长→A股算力租赁概念",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608133840187174.html",
-   "ts": "2026-08-13 10:19:31"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html",
+   "ts": "Wed, 12 Aug 2026 23:49:23 GMT"
   }
  ]
 }
