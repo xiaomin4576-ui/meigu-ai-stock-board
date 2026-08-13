@@ -1,6 +1,6 @@
 {
  "asof": "2026-08-13",
- "fetched_at": "2026-08-13T16:08+08:00",
+ "fetched_at": "2026-08-13T20:02+08:00",
  "meta": {
   "counts": {
    "TechCabal": 0,
@@ -13,16 +13,166 @@
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
-   "African Business": 1,
-   "非洲科技·聚合": 8,
+   "African Business": 0,
+   "非洲科技·聚合": 10,
    "中非科技·聚合": 14
   },
   "total": 60,
-  "ai_flagged": 16,
-  "aiinfra_flagged": 1,
-  "countries": 7
+  "ai_flagged": 22,
+  "aiinfra_flagged": 0,
+  "countries": 10
  },
  "items": [
+  {
+   "title": "UJ introduces African languages to its chatbot",
+   "brief": "The University of Johannesburg has upgraded its MoUJi chatbot to handle student enquiries in multiple South African languages, including isiZulu, Afrikaans and Sesotho.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/uj-introduces-african-languages-to-its-chatbot/nWJad7bNDLP7bjO1",
+   "date": "Thu, 13 Aug 2026 13:13:00 +0200",
+   "country": "🇿🇦 南非",
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "TurnStay scales from start-up to R1bn transactions",
+   "brief": "The local fintech grows from a two-person start-up into a 100-client firm processing more than R1 billion in travel payments.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/turnstay-scales-from-start-up-to-r1bn-transactions/dgp45qaBljkvX9l8",
+   "date": "Thu, 13 Aug 2026 13:08:25 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "DRC Explores Digital Public Service Solutions With Kenya’s Pesaflow",
+   "brief": "The Democratic Republic of Congo (DRC) is exploring digital solutions to modernise public services following a meeting between Digital Economy Minister Augustin Kibassa Maliba and ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/08/13/drc-explores-digital-public-service-solutions-with-kenyas-pesaflow/",
+   "date": "Thu, 13 Aug 2026 11:04:29 +0000",
+   "country": "🇰🇪 肯尼亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Agentic AI arms cyber attackers to up their game",
+   "brief": "Ransomware and phishing surge in Africa as AI lets threat actors scale up attacks, ESET research shows.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/agentic-ai-arms-cyber-attackers-to-up-their-game/PmxVEMKEOjEvQY85",
+   "date": "Thu, 13 Aug 2026 12:49:00 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Digital travel system takes off at four SA airports",
+   "brief": "The Department of Home Affairs launches its Electronic Travel Authorisation system at OR Tambo, Cape Town, King Shaka and Lanseria airports, with eGate integration still to come.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/digital-travel-system-takes-off-at-four-sa-airports/O2rQGqAERbnqd1ea",
+   "date": "Thu, 13 Aug 2026 12:39:12 +0200",
+   "country": "🇿🇦 南非",
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Liberia Rolls Out Digital Telecom Licensing System",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ1JNYUxtRE5NM3JCUlVDdlhhYmVQTk9ZX2xnbHhlNzllYXJxOERWLXJyYnVJbXg2UHN3QjBCUjlNczdoNUhuTzY3cXdIdTBYYnZlRnFkZ3NqOEoxN1ZMRkFNbDBBYUhnQ29oYU14Rl9BSlFBY2tJLXdKcWd3UD",
+   "source": "telecomreviewafrica.com·聚合",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ1JNYUxtRE5NM3JCUlVDdlhhYmVQTk9ZX2xnbHhlNzllYXJxOERWLXJyYnVJbXg2UHN3QjBCUjlNczdoNUhuTzY3cXdIdTBYYnZlRnFkZ3NqOEoxN1ZMRkFNbDBBYUhnQ29oYU14Rl9BSlFBY2tJLXdKcWd3UDZEMWg1TDdEYU5YTFVHQmdtdDd6bnBtTFBvMTVVR2pQbGpFZmtPaVhoRUpVSmh1dGF0MGs1OHJRdw?oc=5",
+   "date": "Thu, 13 Aug 2026 10:09:41 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Nigeria and Burkina Faso Explore Project BRIDGE to Cut Internet Costs by 50%",
+   "brief": "Nigeria and Burkina Faso are exploring a connectivity partnership that could reduce the cost of internet access in Burkina Faso by as much as 50%, ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/08/13/nigeria-and-burkina-faso-explore-project-bridge-to-cut-internet-costs-by-50/",
+   "date": "Thu, 13 Aug 2026 10:01:16 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Downtime issues persist at Home Affairs",
+   "brief": "The department records 13 867 front-office system downtime hours during 2025/26, despite implementing a host of interventions.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/downtime-issues-persist-at-home-affairs/P3gQ2qGAzgZ7nRD1",
+   "date": "Thu, 13 Aug 2026 11:49:11 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "MTN uses AI to connect African youth to jobs",
+   "brief": "The AI-powered job board links young Africans’ skills, training and career goals to employment opportunities.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/mtn-uses-ai-to-connect-african-youth-to-jobs/kYbe9MXbZrpvAWpG",
+   "date": "Thu, 13 Aug 2026 11:27:00 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "MTN Launches AI-Powered Job Board to Connect African Youth With Jobs",
+   "brief": "On International Youth Day, MTN  is advancing its commitment to digital and economic inclusion with the launch of an AI-enabled Job Board feature on the ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/08/13/mtn-launches-ai-powered-job-board-to-connect-african-youth-with-jobs/",
+   "date": "Thu, 13 Aug 2026 09:13:43 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "SA innovation ecosystem policy hub goes live",
+   "brief": "The hub aims to strengthen the connection between policy, research and practice in support of a more coordinated innovation ecosystem.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/sa-innovation-ecosystem-policy-hub-goes-live/6GxRKqYQ1rgqb3Wj",
+   "date": "Thu, 13 Aug 2026 11:11:15 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Korea to host African ministers for Seoul talks on AI, digital growth",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQWVhCRGZNNmdjZDM1UHNteXh1a2FMS2lEMEFWUTk4YTl2eXNUeENBNXNjZkltcUw5NDRScmN4dTlycGhLdDU3MFh3YzNlUUNMcGUyMXd5SXFBb3Ixd194aG5FdWRUaWFqOEoyeXlkcFZJNG1qZ0Q0Q3phSnd5YT",
+   "source": "Korea JoongAng Daily·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWVhCRGZNNmdjZDM1UHNteXh1a2FMS2lEMEFWUTk4YTl2eXNUeENBNXNjZkltcUw5NDRScmN4dTlycGhLdDU3MFh3YzNlUUNMcGUyMXd5SXFBb3Ixd194aG5FdWRUaWFqOEoyeXlkcFZJNG1qZ0Q0Q3phSnd5YTJIRnN5el9vdWh2MjRKd2poX1Ewd1NzQkJ1RWYxMUJRM1lwQTlacW1aODJzNFVkcnhyRkhmUTNxZy1rd1E?oc=5",
+   "date": "Thu, 13 Aug 2026 09:05:18 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Africa Finance Corporation Breaks New Ground With CHF350m Digital Bond",
+   "brief": "Africa Finance Corporation (AFC) , the continent’s leading infrastructure solutions provider, announced that it has successfully raised CHF 350 million through a 5-year Digital Bond. This ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/08/13/africa-finance-corporation-breaks-new-ground-with-chf350m-digital-bond/",
+   "date": "Thu, 13 Aug 2026 08:49:53 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "SA’s DigiCargo tackles port inefficiencies with AI",
+   "brief": "The local start-up takes its port digitisation platform into Africa, targeting paper-based processes in vehicle freight operations.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/sas-digicargo-tackles-port-inefficiencies-with-ai/DZQ58MV8mrLvzXy2",
+   "date": "Thu, 13 Aug 2026 10:36:12 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Skyro Names Former Mastercard Executive Maria Medvedeva Middle East MD",
+   "brief": "Skyro,  digital-first consumer finance platform headquartered in Bahrain and operating in South-East Asia, announced plans to expand into Saudi Arabia and the appointment of Maria ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/08/13/skyro-names-former-mastercard-executive-maria-medvedeva-middle-east-md/",
+   "date": "Thu, 13 Aug 2026 08:28:49 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
   {
    "title": "Ghana CSA Fines ORC GH¢240,000 Over Unlicensed Cybersecurity Provider",
    "brief": "Ghana’s Cyber Security Authority (CSA)  has sanctioned the Office of the Registrar of Companies (ORC)  and Purpleline Solutions Limited for engaging in cybersecurity activities in ......",
@@ -104,11 +254,21 @@
    "is_aiinfra": false
   },
   {
+   "title": "Africa becoming hotbed for cybercrime, INTERPOL says",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE1wME84T0lSaW1rNk92bEFXR2xTVzNDRkJFN0h4M3ZkUERWRllBeFVLdWwza0UyTlp1MV93RnpsMTYxX2NJQ1lXcUtGbnQ0SzRLX1F0d3YxNlZhUG9Ib2xQcjhpQXAyVEhLWEdFZHEtTF80Wkd4a2dGdDNQX2F5dw",
+   "source": "CoinGeek·聚合",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wME84T0lSaW1rNk92bEFXR2xTVzNDRkJFN0h4M3ZkUERWRllBeFVLdWwza0UyTlp1MV93RnpsMTYxX2NJQ1lXcUtGbnQ0SzRLX1F0d3YxNlZhUG9Ib2xQcjhpQXAyVEhLWEdFZHEtTF80Wkd4a2dGdDNQX2F5dw?oc=5",
+   "date": "Thu, 13 Aug 2026 05:00:00 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "China Changan Automobile Partners Again with Huawei, Cooperation Extends to AI Large Models and Computing Power",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxNNHJaVG5icjJfdlRLOWxaNERKdGpUQWYzbThfSUppRkc1VW5maGowcHZ4NF9kTU12OUdFVl9SdHhhSlg5V24yVmhMRHZEdmJidFlOQ3hqSkVjVXVMT2pwb09CUFRPdE9HdEpsamJ5S3FOS0JEb1pDT0JtblBYcV",
    "source": "Gasgoo·聚合",
    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNNHJaVG5icjJfdlRLOWxaNERKdGpUQWYzbThfSUppRkc1VW5maGowcHZ4NF9kTU12OUdFVl9SdHhhSlg5V24yVmhMRHZEdmJidFlOQ3hqSkVjVXVMT2pwb09CUFRPdE9HdEpsamJ5S3FOS0JEb1pDT0JtblBYcV95TkV3OVdyQnJaOUs5bnVLZVBaMGhTUnl5endMSXpmSXZOeFdZSG5BZVJGTWtUdFZtMkZxdlhfYVRveEVaNVQ2MFN5RHZfX0hTbm5jOFlSOUpZRXFzN25IUHAtU0RIcHRLdHdvdFBwNGhmYkpIX3BOQk1ibEp0ZVV0aU10UmlxWnFXZkE?oc=5",
-   "date": "Thu, 13 Aug 2026 04:36:10 GMT",
+   "date": "Thu, 13 Aug 2026 04:36:14 GMT",
    "country": null,
    "is_ai": true,
    "is_aiinfra": false
@@ -126,7 +286,7 @@
   {
    "title": "South Africa opens digital visa system to 4 countries with launch of new travel authorisation",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxPX1dnZk9QdVk3VFNhdTN4Tlh0Nm1LX0VkVW8weVhuLTg4SUNNS0VNaGJHZDVJVlZzSzBQSkNpTkdCZUtPWmxucFVoU3haWE9CZlVtOXZyU2NnZHRZbmVGcWxOdHF4WnBpTGQwV0hfMUp3NkxRV0tEQW05UGtqVl",
-   "source": "africa.businessinsider.com·聚合",
+   "source": "Business Insider Africa·聚合",
    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPX1dnZk9QdVk3VFNhdTN4Tlh0Nm1LX0VkVW8weVhuLTg4SUNNS0VNaGJHZDVJVlZzSzBQSkNpTkdCZUtPWmxucFVoU3haWE9CZlVtOXZyU2NnZHRZbmVGcWxOdHF4WnBpTGQwV0hfMUp3NkxRV0tEQW05UGtqVlJkbDh3bFQ1ZWMyMkNuSVNMZXBrdUtHLUtPNGZrSDJGSndwTWRwR3dDRU1MdFpSQkVBX2ZPN1VrQzdzRjBwdkJXc2s2MVFBUDl5ZC1HRTh2TVpyelg0cw?oc=5",
    "date": "Wed, 12 Aug 2026 20:04:24 GMT",
    "country": "🇿🇦 南非",
@@ -154,56 +314,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "FAB Launches Salary Transfer Offer with Up to AED 9,000 Annual Cashback",
-   "brief": "First Abu Dhabi Bank (FAB)  has launched a new salary transfer offer that rewards customers with up to AED 9,000 a year, not simply for ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/08/12/fab-launches-salary-transfer-offer-with-up-to-aed-9000-annual-cashback/",
-   "date": "Wed, 12 Aug 2026 13:58:06 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "stc pay Bahrain Integrates eKey 2.0 for Faster Digital Customer Onboarding",
-   "brief": "stc pay Bahrain,  Bahrain’s innovative and accessible mobile wallet for digital financial transactions, has announced the integration of its customer registration journey with Bahrain’s official ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/08/12/stc-pay-bahrain-integrates-ekey-2-0-for-faster-digital-customer-onboarding/",
-   "date": "Wed, 12 Aug 2026 13:43:44 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Valu and IKEA Egypt Renew Partnership with Exclusive Flexible Payment Offering",
-   "brief": "Valu,  the leading universal financial technology powerhouse in the Middle East and North Africa (MENA), and IKEA Egypt  have announced the renewal of their partnership ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/08/12/valu-and-ikea-egypt-renew-partnership-with-exclusive-flexible-payment-offering/",
-   "date": "Wed, 12 Aug 2026 13:33:08 +0000",
-   "country": "🇪🇬 埃及",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Ericsson and Zain Jordan Target New 5G Revenue Streams with BSS Modernisation",
-   "brief": "Ericsson  and Zain Jordan  have announced the next phase of their longstanding and trusted partnership to modernize Zain’s Business Support Systems (BSS). This significant project ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/08/12/ericsson-and-zain-jordan-target-new-5g-revenue-streams-with-bss-modernisation/",
-   "date": "Wed, 12 Aug 2026 12:59:13 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Uganda Launches Two New E-Services to Digitise Teacher Training, Human Rights Cases",
-   "brief": "The National Information Technology Authority-Uganda (NITA-U)  has launched two new e-services under the Uganda Digital Acceleration Project (UDAP-GovNet), targeting improvements in teacher training and access ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/08/12/uganda-launches-two-new-e-services-to-digitise-teacher-training-human-rights-cases/",
-   "date": "Wed, 12 Aug 2026 12:44:53 +0000",
-   "country": "🇺🇬 乌干达",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "ICASA rules to close data expiry loopholes",
    "brief": "ICASA defends its data bundle rollover and expiry regulations, saying it’s unhappy with continued customer complaints of bill shock.",
    "source": "ITWeb Africa",
@@ -219,86 +329,6 @@
    "source": "ITWeb Africa",
    "url": "https://www.itweb.co.za/article/old-mutuals-tech-hub-builds-talent-pipeline-from-kzn/nWJadvbNDdlvbjO1",
    "date": "Wed, 12 Aug 2026 14:05:25 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "nCino KYC sheds light on what’s fuelling financial crime in SA",
-   "brief": "Delegates at the company’s recent Fighting Financial Crime Conference 2026 highlighted the impact of corruption, fraud, human trafficking and state capture.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/ncino-kyc-sheds-light-on-whats-fuelling-financial-crime-in-sa/KWEBbvyLb1wqmRjO",
-   "date": "Wed, 12 Aug 2026 13:15:00 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Equinix doubles down on Joburg data centre expansion",
-   "brief": "The Equinix Johannesburg data centre will scale to 24MW, as AI and other emerging technologies drive demand for infrastructure.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/equinix-doubles-down-on-joburg-data-centre-expansion/PmxVE7KEObLqQY85",
-   "date": "Wed, 12 Aug 2026 13:05:42 +0200",
-   "country": "🇿🇦 南非",
-   "is_ai": true,
-   "is_aiinfra": true
-  },
-  {
-   "title": "Women urged to seize opportunities in AI revolution",
-   "brief": "As AI reshapes the workplace, women must move from being technology users to creators and 'solutionists', says Zanele Njapha, CEO and founder of The UnLearners.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/women-urged-to-seize-opportunities-in-ai-revolution/WnxpEv4YJp87V8XL",
-   "date": "Wed, 12 Aug 2026 12:49:11 +0200",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Board shake-up at Vodacom",
-   "brief": "The company announces board changes, which will see chairman Saki Macozoma retiring and replaced by Khumo Shuenyane.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/board-shake-up-at-vodacom/KjlyrvwBrP2qk6am",
-   "date": "Wed, 12 Aug 2026 12:22:32 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "SA’s telcos have a customer service problem",
-   "brief": "Customer frustrations include network outages, billing disputes and failed service channels, a study finds.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/sas-telcos-have-a-customer-service-problem/kLgB17ezY1LM59N4",
-   "date": "Wed, 12 Aug 2026 11:55:33 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Salesforce leverages AWS partnership to host cloud platform in SA",
-   "brief": "The CRM software firm has announced that its Hyperforce cloud platform is now hosted locally, enabling companies to store data within the AWS SA Region.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/salesforce-leverages-aws-partnership-to-host-cloud-platform-in-sa/kYbe97XbZ8zqAWpG",
-   "date": "Wed, 12 Aug 2026 11:45:00 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "New partnership targets women in university innovation",
-   "brief": "The Technology Innovation Agency and Female Academic Leaders Fellowship create new pathways for women researchers to commercialise IP.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/new-partnership-targets-women-in-university-innovation/WnpNgM21Zmo7VrGd",
-   "date": "Wed, 12 Aug 2026 11:41:00 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Sumsub unveils real-time bank account verification for SA",
-   "brief": "The global identity verification and compliance firm has introduced a local bank account verification solution to strengthen security and governance in financial institutions.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/sumsub-unveils-real-time-bank-account-verification-for-sa/6GxRKMYQ1lAMb3Wj",
-   "date": "Wed, 12 Aug 2026 11:33:00 +0200",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -321,16 +351,6 @@
    "date": "Wed, 12 Aug 2026 08:55:52 GMT",
    "country": null,
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "ITWeb Cloud Summit 2026: Addressing the cloud consequence gap",
-   "brief": "Delegates at the ITWeb Cloud Summit 2026 will gain insight into the disconnect between a company's ability to adopt advanced technology and its ability to manage the organisational consequences.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/itweb-cloud-summit-2026-addressing-the-cloud-consequence-gap/O2rQGqAERBeqd1ea",
-   "date": "Wed, 12 Aug 2026 09:39:00 +0200",
-   "country": null,
-   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -454,6 +474,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "Planet and the Government of Rwanda Launch First-of-its-Kind National Satellite Data Program in Africa",
+   "brief": "Planet Labs PBC (NYSE: PL), a leading provider of daily data and insights about change on Earth, and the Government of Rwanda today announced the launch of a new national program to provide Planet’s data to governmental ",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/planet-and-the-government-of-rwanda-launch-first-of-its-kind-national-satellite-data-program-in-africa/RgeVDMPRk4LvKJN3",
+   "date": "Mon, 10 Aug 2026 15:05:00 +0200",
+   "country": "🇷🇼 卢旺达",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "AI boosting cybercrime in Africa, warns Interpol",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNV09EcEc2b2JreWxtVnpxRFFfYzVnUFFMc3Q5anVUZ3BtNV8zLWtrejlIdUZlY0xqaG80MFJRWllVQTY5TXQ2NFdITUtxUHJGLWh3Q19oVWRDWE1zb3ZKc2R1ZjQ3QUxnbk1CX1ZEODNxaWZqZnpWNEdDZE9vTn",
    "source": "Semafor·聚合",
@@ -546,7 +576,7 @@
   {
    "title": "Huawei Scales EV Platform Deliveries As Automated Driving Partnerships Expand Across China",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxQV20wZWx0WnNPYlVjckw1Tmo3Q0wxd1NpbVRteE15TERVMEtjaXRhemlRQ2lqNC1iSHNoUUh1My1mMjgydmswRU1adWFPc3YtZm9wYS1HNTY4QkkzTXVtaWdObFBuRUVZQ2NvY3RiSm9RY3FzVzJaWEtiQmgxNV",
-   "source": "cleantechnica.com·聚合",
+   "source": "CleanTechnica·聚合",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQV20wZWx0WnNPYlVjckw1Tmo3Q0wxd1NpbVRteE15TERVMEtjaXRhemlRQ2lqNC1iSHNoUUh1My1mMjgydmswRU1adWFPc3YtZm9wYS1HNTY4QkkzTXVtaWdObFBuRUVZQ2NvY3RiSm9RY3FzVzJaWEtiQmgxNVhPNkc0MWJRbEVZN1BwcFJLeG8wbGxzUDBFN0ozZGJySGR1NG1TLVNYcS10WXhQRjhoeU94bkRCZ0JFUV8xdHFHclA0LVlRaE1z?oc=5",
    "date": "Sat, 08 Aug 2026 08:27:56 GMT",
    "country": null,
@@ -556,7 +586,7 @@
   {
    "title": "China rebukes US over Huawei dispute as Argentina's Milei balances ties with Washington and Beijing",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMihgJBVV95cUxQU1RWdHl2VUFpRlR0cnlBd3JiWUoyYVROa1l1LVh0THhWekNlR1ktZldKTGEwRVZMeUF1dnprd210cnpNRUgxdngtel9zX1FOcXQ0UjZ2cFA4eW81SkJfTXZxSS1YZXBFTVpTOWFRMUtjZy12YmR4RUUwNjlDYl",
-   "source": "washingtonpost.com·聚合",
+   "source": "The Washington Post·聚合",
    "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQU1RWdHl2VUFpRlR0cnlBd3JiWUoyYVROa1l1LVh0THhWekNlR1ktZldKTGEwRVZMeUF1dnprd210cnpNRUgxdngtel9zX1FOcXQ0UjZ2cFA4eW81SkJfTXZxSS1YZXBFTVpTOWFRMUtjZy12YmR4RUUwNjlDYlhwaVcxUkhfRENGd0lwSC1pYXlKZjJKT3NReVd5bGdjRHg3eVh6c2RrdFR3c29pcWFmVXZXdHlYaXp6dHB3Tm0xc0VnSkpZZW9QXzl5Z3drYnVhSGpQMGRCM05paGl4aFc5RVN1ZG5tNTlsMElnczFYcWJZOEV2d1FYc2ZlLVBNbWdDcUdhZXhR?oc=5",
    "date": "Fri, 07 Aug 2026 06:47:28 GMT",
    "country": null,
@@ -584,16 +614,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "“Technology alone is not enough”: Cardinal Kambanda Calls Catholic Communicators to Personal Conversion",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbnYtbC1GM0pYcl84ZEc1Z25NU2FJaUVUa0FJU2NadWtEUGxpNGFKUGpqSFBCOEVrOWtFdnlJTkYtU0RrdU9oMmR0ODh6X0lDS0dxMmRtNVhpOG1uQUo4QS0wUnpXbnFFZkpxRVVTQjdNNHE3ODhUX3l2Znd3SX",
-   "source": "ACI Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbnYtbC1GM0pYcl84ZEc1Z25NU2FJaUVUa0FJU2NadWtEUGxpNGFKUGpqSFBCOEVrOWtFdnlJTkYtU0RrdU9oMmR0ODh6X0lDS0dxMmRtNVhpOG1uQUo4QS0wUnpXbnFFZkpxRVVTQjdNNHE3ODhUX3l2Znd3SXRtdFNXUk55Y2ZFLXBKeDFnbjFvNTlCUFJ6UWxLdHluOW1peG1jRzZMM0h5UGtXTnJOMXduYzk2eFpVOFVscTF3aGhlZFlkTTJpakFtek9ocGQtRXF30gHYAUFVX3lxTE1BSzJtYzNPMFFMd3RlTFl0NEM2di12M3RUMVVkVEl1RU84RzEyYmNNd0NCYjMxX1ZnTk9ySEZHV3dmZG9XWU9hV3dDOFlhNU5NWFpqQnRCVzF2d1ZQVEVmeHRoTVVBdkhveVFNODd4aFQzbG9tS0pUVzJ3Uy1JSXNFTC1ydDhXcllfSEJZWFJ1Ui0yQmlJVFc3dzhpazBiQXdMTUY5R3RtUS1PSTZkZjF1RjBWaWxqNERCMzR1NDdHYTEtU1BJZjlnMS1LN3QtNDAtQkNXU0dmWg?oc=5",
-   "date": "Thu, 06 Aug 2026 10:12:32 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Connected, continuous, cognitive: AI transforms financial planning",
    "brief": "Advances in artificial intelligence are enabling organisations to connect strategy, operations and financial performance.",
    "source": "ITWeb Africa",
@@ -601,26 +621,6 @@
    "date": "Thu, 06 Aug 2026 09:14:05 +0200",
    "country": null,
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Tanzania's digital dividend",
-   "brief": "",
-   "source": "African Business",
-   "url": "https://african.business/2026/08/technology-information/tanzanias-digital-dividend",
-   "date": "Wed, 05 Aug 2026 04:00:00 +0000",
-   "country": "🇹🇿 坦桑尼亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Slapped with reality: why Huawei’s top chip scientist embraces war-hero mindset",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxQQW9RNGdQbllhWS14VVpSMTJqQzZCbTZ2elRiWTB5bnVBdEFNenZkRWI2STc2OHFlUFREc0lSWmxQeUw4NTl2VzJ0RE1lUHc3dUFDc2xUXzd3UWg4Ujk4QjRCUGNpaXNUTWxpdng3a215ZTFTQjN1UHNwNGkyOX",
-   "source": "South China Morning Post·聚合",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQW9RNGdQbllhWS14VVpSMTJqQzZCbTZ2elRiWTB5bnVBdEFNenZkRWI2STc2OHFlUFREc0lSWmxQeUw4NTl2VzJ0RE1lUHc3dUFDc2xUXzd3UWg4Ujk4QjRCUGNpaXNUTWxpdng3a215ZTFTQjN1UHNwNGkyOXQzekRGWEphck1JdEQ5S2lmRVMxMjVWbEdaVzgycjhORzRpVnR2eGZoOHZCay1vLXpxb2lOUm4yQWdBWFNfMWd5N3hEODVybndTcFJOMVXSAcwBQVVfeXFMT0lJMC1MTmRZdXRReFZ1bU5JaTVZVWJYc2UzOFlZWUVLSUFod1NrU2hVbW8zUEFrRHVUdVlHcDFJdGR1amxDZXA4dUItU242RkxDUlBKMm54N1JJbVYzQTJ0RmU0UDF6LUU0eTJkOXVESzUzVDJaWklPbkZGTThOdW41T0t3cllaTlFLTkxJb0VBMW1oa2lUM3RvdzlBRXhTNDBldlE5OGhzVnVOODhiVnNSakIwcjhpMDY2NjhlZ2xJeHBmY1R2ZFRBVWI4?oc=5",
-   "date": "Tue, 04 Aug 2026 14:29:31 GMT",
-   "country": null,
-   "is_ai": false,
    "is_aiinfra": false
   }
  ]
