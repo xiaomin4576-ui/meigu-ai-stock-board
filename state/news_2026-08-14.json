@@ -1,7 +1,7 @@
 {
  "asof": "2026-08-14",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-14T10:42+08:00",
+ "generated_at": "2026-08-14T11:16+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 4,
@@ -11,214 +11,204 @@
  },
  "items": [
   {
-   "cat": "geo",
+   "cat": "macro",
    "title": "美财长称将对伊朗实施前所未见措施",
    "brief": "美国财长贝森特表示将对伊朗采取前所未有的经济措施，加大施压。",
-   "chain": "美伊冲突升级→地缘风险溢价→美股能源与军工板块波动→A股油气、军工链情绪联动",
+   "chain": "美伊紧张升级→避险情绪升温→美股波动，A股算力链承压",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT2p2QW55Tk9jcjF5Ti1OZmlpMGpLTEg0RU92RVEtMzFobXY2TmtNWjFJaUVZMl9RaWxWM09uV2xjVlQ0dnFHcGlEVi1Zc3ZnRHpFMkZ5VExoeTdzSVE0cmYzMVRFQUExRHA2RHNhZFpFMFZnNnIySjh3RTBRSXVtX3ZqVTJjVWhGSmdpTHVmY19QRE9ieWNmaDdaM2hmOHZfRFE?oc=5",
    "ts": "2026-08-13T23:31:45+00:00"
   },
   {
-   "cat": "oil",
-   "title": "伊朗袭击阿联酋ADNOC油轮",
-   "brief": "阿联酋称伊朗在霍尔木兹海峡袭击两艘ADNOC船只，无人员伤亡。",
-   "chain": "霍尔木兹海峡遇袭→原油供应中断风险→油价短期上行→莫桑比克油气出口受益于高油价",
+   "cat": "macro",
+   "title": "日韩股市大涨，日经涨超1200点",
+   "brief": "日韩股市今日大幅反弹，日经225指数一度涨超1200点，韩国KOSPI重回技术性牛市。",
+   "chain": "亚太股市情绪回暖→利好美股风险偏好→A股科技链联动",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608143841536024.html",
+   "ts": "2026-08-14 10:58:33"
+  },
+  {
+   "cat": "macro",
+   "title": "央行副行长出席金砖财长会议",
+   "brief": "中国人民银行副行长邹澜出席金砖国家财长和央行行长会议，讨论全球经济治理。",
+   "chain": "金砖合作深化→去美元化趋势→影响全球货币体系，间接影响A股",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608143841538869.html",
+   "ts": "2026-08-14 11:00:21"
+  },
+  {
+   "cat": "geo",
+   "title": "美国威胁无限期封锁伊朗，油价持稳",
+   "brief": "美国威胁无限期封锁伊朗，油价在供应担忧中持稳。",
+   "chain": "地缘冲突升级→油价波动→影响全球通胀预期，A股油气链关注",
    "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeHh3dmRQTVJOaXBOODZqNzdueG9RbzJ0VUZ0TTJ3UGNyaXFfOUJ4c1BsWXdKXzFWY21VZTdaaHpySzhxYXFIYnBVcUpsWDdUUE1od3pKN2psUWI1dS10enVtNzBDX0xBQUpqNmkxVE1xZE1scnFHeS1DQkM4YTRwOE01NXpwU3RWREhIWGFZMlFTcndNQzRWc3NrM0xWa2hwdlMzSE5IeEhqUzVJVFBv?oc=5",
+   "ts": "2026-08-14T01:36:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "联合国警告也门冲突风险升至2022年以来最高",
+   "brief": "联合国警告也门面临自2022年停战以来最高的大规模冲突风险。",
+   "chain": "也门局势恶化→红海航运风险→影响全球供应链，A股航运板块",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMC1Hb3ZMdDRzNVlfc1NxaWstRk16Vk44emxyaU4tcmtzOEExQ0pyUlQzS2ZsTkhlVWFkTlp5SUswUmlIcGZJWGE0X2FNRXh0cnJvQWpZV25OQ0xpUk1wU0VfeDhWdlRQQUpWZ3RqV2RULTN4Ty1nNnctTXZlU3U3TU1WSW01cG1vWWIxNkR4M1JPNzVtT1ZVSGQxUlZsV3Y1U2tIcktxTE1oTnluc2Z1TXdsVQ?oc=5",
+   "ts": "2026-08-13T17:25:46+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "乌克兰提议黑海停火以缓解粮食担忧",
+   "brief": "消息人士称，乌克兰向俄罗斯提议黑海停火，因粮食供应担忧加剧。",
+   "chain": "俄乌和谈曙光→地缘风险缓和→利好全球风险资产，A股情绪改善",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaVAyN1FTME4xT3BNeld6NHNVMEpaWElYUkJrVjdmZmFVMVBtX0NlZGp3cXk4UUItS1ZDaGhCVE54bkptY0tiSTJDTHF2VU5HSzB3YTRFay1KY09uM1RuNkZJSXFtbVNiNVlzTU1rWEF2TTV4LUZzazNDU2dkdTVsdENPdnFvZDJMWmcxWTdwNE5na2NzeVBwVlVwTnNrQUN5VHV3bEIwaS1vTmZXOVhGeEVnN1FyQ1VxMTQ0T2g4aw?oc=5",
+   "ts": "2026-08-13T17:21:23+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "阿联酋称伊朗袭击霍尔木兹海峡两艘ADNOC船只",
+   "brief": "阿联酋称伊朗在霍尔木兹海峡袭击了两艘ADNOC船只，无人员伤亡。",
+   "chain": "霍尔木兹海峡风险→油价上涨→莫桑比克油气出口受益",
+   "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVGt4emw3dzdDaUdoNmsxMmRjMlkwZUJCUVlURko4RzRvMjUybnlUMVRGUnFLT0plclNLYkt0dGN1RV9fZnQ3QlE2UkN0d002blZDVUtTX0JwQXhkbXVDZ25WbDBLWld0anI2MmEtMUJOUFVNUTVDeVhpOXlldTQtQmlMVmVzcE1KS0tnWHhUNWtodmJRNjJWNFEyak9ZSGRadktNS3FMZ2tjc0o3MEh6eXEwcTZjY1Q3dmg1eg?oc=5",
    "ts": "2026-08-13T21:19:19+00:00"
   },
   {
-   "cat": "geo",
-   "title": "美称可无限期海上封锁伊朗",
-   "brief": "美国表示可无限期维持对伊朗港口的海上封锁，并誓言加大经济施压。",
-   "chain": "美伊对抗持续→中东局势紧张→油价高位震荡→A股油气、航运板块波动",
-   "impact": 8,
+   "cat": "oil",
+   "title": "胡塞武装袭击沙特阿美炼油厂",
+   "brief": "也门胡塞武装称用两架无人机袭击了沙特阿美在吉赞的炼油厂。",
+   "chain": "中东供应中断→油价波动→莫桑比克LNG项目竞争力变化",
+   "impact": 7,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPamFTRDhha2lGLW5hTU1KdDZnVjlxd2hEY1lqX3Zfd2NmVlRXZjVWbDNHMXdJem1SX1hsNUpoaF9lWHhYUVFmUWJ0SDBWRG5uOGMzYzI0MFh6ckthOWJNZXNtR0tJVFJFcEMtVjdwZVFpdURyczZ0NTkzMDh1dDJNRWxKQ2htMEpBQ3N2Q25OY19wRWxaYTVCTmJJRWprVFFSMWNITjl4QmUxQVN1MUFnNHRsRWJGYUpHZ1Ywb0Nn?oc=5",
-   "ts": "2026-08-13T21:53:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWVhsYXl4b0NkRk9GdFhWN0lBcU16ckh5aG9SakN2TzBSMGIxSVUxYm9TY3VndmdwM0YwMjlrTGZQMmNaTWJHTlhzZXFBM004ZHhsQm1wNDVMNFNfXzZtTVVFZXBaOWRNV3h2Wjc3dXZsbGlseE1LZ00wUno4ZkMwMGpOR3JxczRNaTlGdHZsWTd1a1lpZWNiQnBfYWl4TXhwQjNNRlRXeDhETTlrYkg3R01UeTJkQUdIbkhGN1dIVl85ZFpOdVF0ZlJB?oc=5",
+   "ts": "2026-08-13T15:28:37+00:00"
   },
   {
    "cat": "oil",
-   "title": "欧洲柴油价格超航空燃油",
-   "brief": "全球柴油短缺加剧，欧洲柴油价格已超过航空燃油。",
-   "chain": "柴油短缺→炼油利润率上升→油价结构走强→莫桑比克炼化项目经济性改善",
-   "impact": 7,
+   "title": "ADNOC在战争与OPEC退出后寻求增长",
+   "brief": "阿联酋ADNOC在战争和退出OPEC后，正寻求增长机会。",
+   "chain": "OPEC+格局变化→全球供应增加→油价承压，莫桑比克需关注",
+   "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQejlyV0VLYkdZTjh6Z2JGUF8tczNIMGNic1RNSlY4cC13b01ERjV0ZnpmSFNpSHFRSThUUDIzY25KbmpLTVVLMzB1aXJEODJMMUl5QkY3OU95TlR0S215YnJTelNxYy1PT2NKbHdqZ0xidV9lRGRxa3ppekp3aENoRmFleG53RF9XVFFpRmtvNEwwSFJ2WHpxZExaS1FyZDZpdmJoeUtpYjJ0U18wa3FLTUNmYw?oc=5",
-   "ts": "2026-08-13T12:12:14+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbnh1RFhFMlRJVUJnSHBqT2NHcUZGbkV5bWpGTFZnQUpwWmtVYkRLZDY3M010RUJJRGt3MGp2SHV1SUhLZ0hCVnRfS3dJN09GcWE1WmVJZ0xTdEZKai13d1F2UGw2a2JYMWUyeUJqM0FzR3hEWEVpMTdiQ3dHbEhTYjBRdVU2R3ZoODZkcnQ3bkw4a2drRExvdm55UVUtQVpqTmZzOVo2SFpQdVB2LUdDUTg0X0VxYmVBVWc?oc=5",
+   "ts": "2026-08-13T12:28:00+00:00"
   },
   {
    "cat": "gas",
-   "title": "印度Petronet称卡塔尔LNG供应不确定",
-   "brief": "印度Petronet表示9月从卡塔尔进口LNG的供应情况尚不明确。",
-   "chain": "卡塔尔LNG供应不确定性→全球LNG价格波动→莫桑比克LNG项目竞争力提升",
+   "title": "印度Petronet称卡塔尔9月LNG供应不确定",
+   "brief": "印度Petronet表示，卡塔尔9月LNG供应情况尚不明确。",
+   "chain": "LNG供应不确定性→亚洲气价波动→莫桑比克LNG出口机遇",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeWx2U3hCNjhtakphc3gwM1JGbVZjZk92aDM4UlBlRi1hZ0Q5eVBsY2x6TjM3cmxqcDVTZVJkaW9WME43ZnQ0eTVJcWhfSENCemdrR2NOTngzczdPUW80YmhzSUxvMmxvZ2JsM0h6R01mUmR2Q2xJb2QyNFBZNXc3TS1Fa3Z1dkMzR3ZGOXFDSGlHLVYyUnZQeUVkRlI1REl4S1VDVU1CVUhFVGxqVGVsWlVR?oc=5",
    "ts": "2026-08-13T12:33:46+00:00"
   },
   {
-   "cat": "macro",
-   "title": "30年期美债收益率创25年新高",
-   "brief": "美国30年期国债标售得标收益率升至5.216%，创2001年以来新高。",
-   "chain": "长端利率上行→美股估值承压→A股高估值成长板块（算力链）回调风险",
-   "impact": 8,
+   "cat": "gas",
+   "title": "永福股份签约阿尔及利亚燃机电站设计",
+   "brief": "永福股份签约阿尔及利亚1406MW燃机电站设计项目，拓展北非市场。",
+   "chain": "北非能源基建→天然气需求增长→莫桑比克LNG潜在市场",
+   "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608143841501529.html",
-   "ts": "2026-08-14 10:20:13"
-  },
-  {
-   "cat": "macro",
-   "title": "7月PPI低于预期，美股涨跌互现",
-   "brief": "7月生产者价格指数多数低于预期，美股涨跌互现，思科财报拖累。",
-   "chain": "通胀降温→美联储降息预期升温→美股科技股反弹→A股科技链情绪改善",
-   "impact": 7,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/13/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html",
-   "ts": "2026-08-13T13:10:07+00:00"
+   "url": "https://finance.eastmoney.com/a/202608143841529078.html",
+   "ts": "2026-08-14 10:49:08"
   },
   {
    "cat": "tech",
-   "title": "思科财报超预期但股价大跌8%",
-   "brief": "思科公布财报超预期且指引强劲，但股价仍大跌8%。",
-   "chain": "思科大跌→美股科技板块情绪受挫→A股通信设备、云基建链短期承压",
-   "impact": 6,
+   "title": "思科股价下跌8%尽管财报超预期",
+   "brief": "思科公布财报超预期且指引强劲，但股价仍下跌8%。",
+   "chain": "科技股回调→美股科技板块波动→A股科技链情绪受影响",
+   "impact": 7,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/08/13/cisco-shares-slide-9percent-despite-earnings-beat-and-strong-guidance.html",
    "ts": "Thu, 13 Aug 2026 20:57:31 GMT"
   },
   {
-   "cat": "ai",
-   "title": "OpenAI年化营收突破400亿美元",
-   "brief": "OpenAI在IPO前年化营收突破400亿美元，估值或达万亿美元。",
-   "chain": "OpenAI高增长→AI产业景气度提升→A股AI算力、应用链估值支撑",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608143841510757.html",
-   "ts": "2026-08-14 10:27:04"
-  },
-  {
-   "cat": "ai",
-   "title": "Databricks完成50亿美元融资",
-   "brief": "Databricks以1900亿美元估值完成50亿美元融资，AI数据平台受追捧。",
-   "chain": "AI数据平台融资火热→AI基础设施投资加速→A股数据要素、云计算链受益",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/13/databricks-funding-round-190-billion-valuation.html",
-   "ts": "Thu, 13 Aug 2026 16:20:22 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "OpenAI营收主管离职",
-   "brief": "OpenAI营收主管Denise Dresser离职，为几天内第二位高管离职。",
-   "chain": "OpenAI高管动荡→AI龙头不确定性→A股AI概念短期情绪波动",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/13/openai-denise-dresser-executive-exits.html",
-   "ts": "Thu, 13 Aug 2026 19:59:46 GMT"
-  },
-  {
    "cat": "tech",
-   "title": "SK海力士720亿美元AI扩张",
-   "brief": "SK海力士投资720亿美元扩建AI存储产能，占据韩国经济重心。",
-   "chain": "存储巨头扩产→AI存储需求旺盛→A股存储芯片链（如兆易创新）受益",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/13/inside-sk-hynixs-720-billion-bet-to-build-enough-memory-for-ai.html",
-   "ts": "Thu, 13 Aug 2026 09:00:01 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "中国NAND厂商出货超美光",
-   "brief": "中国某NAND芯片厂商出货量超越美光、铠侠，存储格局生变。",
-   "chain": "中国存储崛起→全球存储竞争加剧→A股存储链国产替代加速",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/13/chinese-firm-tops-micron-kioxia-shipments-nand-memory-chips.html",
-   "ts": "Thu, 13 Aug 2026 02:59:50 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "中芯国际净利暴涨近4倍",
-   "brief": "中芯国际净利润同比暴增近4倍，海光信息营收逼近百亿，半导体板块大涨。",
-   "chain": "国产芯片业绩超预期→半导体景气度提升→A股半导体设备、材料链受益",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608143841496319.html",
-   "ts": "2026-08-14 10:14:15"
-  },
-  {
-   "cat": "tech",
-   "title": "芯擎科技车规AI芯片量产",
-   "brief": "芯擎科技宣布7纳米车规AI芯片“天工100”全面量产并批量供货。",
-   "chain": "车规AI芯片量产→智能驾驶渗透率提升→A股汽车电子、AI芯片链受益",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608143841499683.html",
-   "ts": "2026-08-14 10:19:17"
-  },
-  {
-   "cat": "tech",
-   "title": "数据中心液冷国标发布",
-   "brief": "数据中心液冷技术国家标准发布，液冷概念股集体大涨。",
-   "chain": "液冷国标落地→数据中心散热需求增长→A股液冷服务器、温控设备链受益",
+   "title": "泛林集团投资30亿美元扩建研发",
+   "brief": "芯片设备商泛林集团宣布未来五年投资超30亿美元扩建全球研发实验室。",
+   "chain": "半导体设备投资增加→利好产业链→A股半导体设备板块",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608143841515643.html",
-   "ts": "2026-08-14 10:32:00"
+   "url": "https://finance.eastmoney.com/a/202608143841529822.html",
+   "ts": "2026-08-14 10:48:55"
   },
   {
    "cat": "tech",
-   "title": "韩国7月ICT出口创同期新高",
-   "brief": "韩国7月信息通信技术出口额创历年同月新高，连续两个月超500亿美元。",
-   "chain": "全球ICT需求强劲→半导体、存储出口旺盛→A股电子、通信链景气度提升",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608143841509437.html",
-   "ts": "2026-08-14 10:23:19"
-  },
-  {
-   "cat": "tech",
-   "title": "苹果休斯顿工厂开业",
-   "brief": "苹果CEO库克与美国商务部长卢特尼克共同出席休斯顿制造工厂开业。",
-   "chain": "苹果美国本土化制造→供应链调整→A股苹果产业链（如立讯精密）关注",
+   "title": "苹果CEO库克出席休斯顿制造工厂开业",
+   "brief": "苹果CEO蒂姆·库克与美国商务部长霍华德·卢特尼克共同出席休斯顿制造工厂开业。",
+   "chain": "苹果本土制造→供应链多元化→A股苹果产业链关注",
    "impact": 5,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/13/apples-tim-cook-and-howard-lutnick-open-houston-manufacturing-plant.html",
    "ts": "Thu, 13 Aug 2026 21:23:35 GMT"
   },
   {
-   "cat": "tech",
-   "title": "Uber与Pony.ai合作欧洲Robotaxi",
+   "cat": "ai",
+   "title": "Databricks完成50亿美元融资估值1900亿",
+   "brief": "Databricks完成50亿美元融资，估值达1900亿美元。",
+   "chain": "AI基础设施投资火热→利好AI算力链→A股AI服务器、芯片",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/13/databricks-funding-round-190-billion-valuation.html",
+   "ts": "Thu, 13 Aug 2026 16:20:22 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "广达：AI服务器订单可见度至2028年",
+   "brief": "广达表示AI服务器需求强劲，订单可见度延续至2028年，正扩大生产。",
+   "chain": "AI服务器需求旺盛→产业链景气→A股算力硬件受益",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608143841528369.html",
+   "ts": "2026-08-14 10:47:59"
+  },
+  {
+   "cat": "ai",
+   "title": "SK海力士7200亿美元AI建设计划",
+   "brief": "SK海力士公布7200亿美元的AI驱动建设计划，正在韩国大规模扩张。",
+   "chain": "存储巨头扩产→AI算力需求→A股存储芯片链",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/13/inside-sk-hynixs-720-billion-bet-to-build-enough-memory-for-ai.html",
+   "ts": "Thu, 13 Aug 2026 09:00:01 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "OpenAI营收负责人离职",
+   "brief": "OpenAI营收负责人Denise Dresser离职，为几天内第二位高管离职。",
+   "chain": "AI巨头人事动荡→市场担忧→A股AI概念情绪波动",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/13/openai-denise-dresser-executive-exits.html",
+   "ts": "Thu, 13 Aug 2026 19:59:46 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Uber与Pony.ai合作在欧洲部署2000辆Robotaxi",
    "brief": "Uber与中国小马智行合作，在欧洲部署2000辆自动驾驶出租车。",
-   "chain": "自动驾驶商业化加速→中国AI技术出海→A股自动驾驶、车联网链受益",
+   "chain": "自动驾驶商业化加速→利好AI应用→A股自动驾驶产业链",
    "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/14/uber-partners-with-chinas-ponyai-for-2000-robotaxis-in-europe.html",
    "ts": "Fri, 14 Aug 2026 01:02:39 GMT"
   },
   {
-   "cat": "tech",
-   "title": "中国科技让全球企业难以忽视",
-   "brief": "从苹果到福特，中国科技正成为全球企业不可忽视的力量。",
-   "chain": "中国科技影响力提升→全球供应链重构→A股科技龙头估值重塑",
+   "cat": "ai",
+   "title": "LG将于2027年发布基于英伟达GR00T的人形机器人",
+   "brief": "LG电子与英伟达签署合作，计划2027年发布基于GR00T的人形机器人。",
+   "chain": "人形机器人进展→AI硬件需求→A股机器人概念",
    "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/14/china-tech-global-appeal-apple-ford-catl-deepseek.html",
-   "ts": "Fri, 14 Aug 2026 00:09:11 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "保时捷计划2030年停产Taycan",
-   "brief": "据报保时捷计划在2030年前停产电动跑车Taycan。",
-   "chain": "传统车企电动化调整→电动车市场竞争加剧→A股新能源车链情绪波动",
-   "impact": 4,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQ1FXdS13eEY5VFpWSWQyTTNodzRJR09mN0N6T2ItazBIOXhwdWptcWM1TkNsZWRodTdtZkdrOUdVTjZjU2NQeWNhLUdlZ0E3OGNpMnh4dU1lOUJnRWtSV3QybnNvZy1XOVZfSEl6LUt6WTlzcUJFaTRyQnFFdWQ5ODViMDVrYzhINnk2UzlLbk16b3VITC1sdVo2bm9uT1NLODdRTUlwTlRldVhEdE1hNWNpQXpJdG1QRzRFRG1qbm9vQXRHNmdvbktMWnh2bkhKLW1n?oc=5",
-   "ts": "2026-08-13T14:28:16+00:00"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608143841538322.html",
+   "ts": "2026-08-14 11:01:59"
   }
  ]
 }
