@@ -1,113 +1,113 @@
 {
  "asof": "2026-08-14",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-14T19:59+08:00",
+ "generated_at": "2026-08-14T22:38+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 2,
-  "cluster_label": "伊朗/阿联酋/霍尔木兹",
+  "cross_day_suppressed": 1,
+  "cluster_label": "伊朗/霍尔木兹",
   "cluster_dropped": [
-   "油价上涨，美威胁无限期封锁伊朗",
-   "霍尔木兹航运受限，美伊各执一词"
+   "霍尔木兹航运受限，美伊各执一词",
+   "美能源部长回避是否完全控制霍尔木兹海峡"
   ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "美联储古尔斯比：最新通胀数据好转",
-   "brief": "美联储古尔斯比称最新通胀数据有所改善，暗示政策可能转向。",
-   "chain": "通胀降温→美联储降息预期升温→利好美股AI高久期估值→映射A股算力链情绪",
+   "title": "美国8月密歇根消费者信心指数初值51，大幅低于预期",
+   "brief": "8月密歇根大学消费者信心指数初值51，预期55，前值55.2；一年期通胀预期4.3%，五年期3.3%。",
+   "chain": "消费者信心骤降+通胀预期升温→美国经济滞胀担忧加剧→美股估值承压，A股出口链或受情绪扰动。",
    "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608143842033837.html",
+   "ts": "2026-08-14 22:00:20"
+  },
+  {
+   "cat": "macro",
+   "title": "美联储古尔斯比：最新通胀数据有所改善",
+   "brief": "芝加哥联储主席古尔斯比表示最新通胀数据更好，暗示支持降息，但未明确时间表。",
+   "chain": "鸽派表态强化降息预期→美债收益率下行→利好美股成长股，映射A股科技成长估值。",
+   "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMHQ3RV9DUU5mVVpveUtFNmJfelJtYnluMGVCQ2FPRzEzSG1nUUZidUsxSURTQ3Rwa1htSm5EMXpZVHNpN1Y3aDMzd1pwV2gydjE5RkZWOFdQWFE2WGVZMU1GX1h4dnh0OFlwWnJKOHZrVndsaFA2cm45SDNjdmJXd3k0YklSVkxsaWphX1paQkNpUE1xWFlJ?oc=5",
    "ts": "2026-08-13T22:51:43+00:00"
   },
   {
    "cat": "macro",
-   "title": "美股近高位，温和通胀盖过油价涨势",
-   "brief": "美股接近历史高位，温和通胀数据抵消了油价上涨的影响，市场情绪积极。",
-   "chain": "通胀温和→美股风险偏好回升→利好AI产业链→A股算力链跟涨",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14MHZSdkQ3TzZONVh4dW9nU1B5RlNOZHJSdzN1eVlQV3Eycm14NGZhb2F0QWdneVhPR2VqLWVVR1Bkb3lqTldGa3JVTXR0eGdFVi12UTJVTi1pTWVNVWhHX2tCUUJ1b21hT0dkampGU0Ric1d2WHAyclRfSQ?oc=5",
-   "ts": "2026-08-14T02:32:00+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "美债收益率上升，美威胁对伊更多制裁",
-   "brief": "美国威胁对伊朗实施更多经济制裁，10年期美债收益率上升。",
-   "chain": "地缘紧张→避险情绪→美债收益率上行→压制美股估值→A股算力链承压",
+   "title": "金价从两月高位回落，通胀交易降温",
+   "brief": "现货黄金从两个月高点回落，因通胀数据引发的涨势失去动力，但地缘风险仍支撑避险需求。",
+   "chain": "金价回调反映实际利率上行压力→美股AI高久期资产估值分母承压→A股算力链情绪或受抑制。",
    "impact": 6,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/14/treasury-yields-us-iran-economic-sanctions.html",
-   "ts": "2026-08-14T08:55:17+00:00"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTFUzNXBldnVZT2ZFWGJIRFExajVuME9DY1hMRXhMdVBEeXRISU93ME1rSFVjZTVaM3JHSkgyQkFLUm55ODdfVmdXQzRhenV3dE1fZHBFR1UySXRhcXRtdzh2QzhXeU5hN1FxYmpLNnFEYzJjM2xnZkFRWTdZdHNva0UzcVFRX1dTSmJkZlFZWTJ1Y1RBOUZjWHpqOVRnQnZScmZsZjNKRlVoMUtleGhJYg?oc=5",
+   "ts": "2026-08-14T04:02:00+00:00"
   },
   {
    "cat": "geo",
-   "title": "美国称可无限期海上封锁伊朗",
-   "brief": "美国表示可无限期维持对伊朗的海上封锁，并誓言加大经济施压。",
-   "chain": "美伊冲突升级→地缘风险溢价→影响全球风险资产→A股情绪受抑",
+   "title": "美国警告伊朗加大经济施压，霍尔木兹再有两船遇袭",
+   "brief": "美国警告将加大对伊朗经济压力，霍尔木兹海峡再有两艘船只遇袭，地区紧张升级。",
+   "chain": "美伊对抗升级→地缘风险溢价上升→美股能源板块受益，A股油气及航运链或联动。",
    "impact": 9,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPamFTRDhha2lGLW5hTU1KdDZnVjlxd2hEY1lqX3Zfd2NmVlRXZjVWbDNHMXdJem1SX1hsNUpoaF9lWHhYUVFmUWJ0SDBWRG5uOGMzYzI0MFh6ckthOWJNZXNtR0tJVFJFcEMtVjdwZVFpdURyczZ0NTkzMDh1dDJNRWxKQ2htMEpBQ3N2Q25OY19wRWxaYTVCTmJJRWprVFFSMWNITjl4QmUxQVN1MUFnNHRsRWJGYUpHZ1Ywb0Nn?oc=5",
-   "ts": "2026-08-13T21:53:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcUdkcXFHNHlWMzdKeGE0QzFWU2FRNTl4aHYxMk5VNEU1REROam1XMW5hQnVPMlVCOHV5Y1k5X2N6eEx1UlpJOExJVFlXQzU5bWE1LXE1ZndpQUtpeFpVb2FoWUhlODVPWUVxeTNwcjNXQXRzMFloclJMNFBqNDJiUmFjam1kODNyQ1BvYU90dmptbG1mLWd6enN6dDZRb2JiRFg2TGdNSzJaM1g1c2xPd0lqTFBSblp6RGFKWktyVkI3dEVRMmJqNDdfLUc?oc=5",
+   "ts": "2026-08-14T11:00:43+00:00"
   },
   {
    "cat": "geo",
-   "title": "贝森特：将对伊朗采取前所未有措施",
-   "brief": "美国财长贝森特表示将对伊朗采取前所未有的措施，加剧紧张局势。",
-   "chain": "美伊对抗升级→地缘不确定性→避险资产受益→A股风险偏好下降",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT2p2QW55Tk9jcjF5Ti1OZmlpMGpLTEg0RU92RVEtMzFobXY2TmtNWjFJaUVZMl9RaWxWM09uV2xjVlQ0dnFHcGlEVi1Zc3ZnRHpFMkZ5VExoeTdzSVE0cmYzMVRFQUExRHA2RHNhZFpFMFZnNnIySjh3RTBRSXVtX3ZqVTJjVWhGSmdpTHVmY19QRE9ieWNmaDdaM2hmOHZfRFE?oc=5",
-   "ts": "2026-08-13T23:31:45+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "中国批台湾军演为浪费把戏",
-   "brief": "中国称台湾年度军演是浪费的把戏，台海局势受关注。",
-   "chain": "台海紧张→地缘风险→影响亚太市场→A股军工或受关注",
-   "impact": 5,
+   "title": "中国批台湾年度军演是“浪费的闹剧”",
+   "brief": "中国外交部回应台湾年度军事演习，称其为“浪费的闹剧”，台海局势再受关注。",
+   "chain": "台海紧张→地缘风险升温→美股半导体供应链担忧→A股军工及自主可控概念或活跃。",
+   "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbGhMU25fVEswcGdXUVItRVJmUE05cG52RjJXRUJZMWRsMElTVHhMeTQ4SVd6QXJRRTh5NUFSV3NmdmJHLXpTclI2U09NdlN5c3pGTlFGRkhMVm55Z21QWHZ3dVJTMUU4N2ZzX2VFX25DVXpGU2FKTFNlVlYyTXFjS1Zhcm8ydmFLRF9neTJCbW10RDlCcV9JUS1mUG9EcHMtelZnbVZ0bHAxV1k?oc=5",
    "ts": "2026-08-14T07:59:43+00:00"
   },
   {
-   "cat": "oil",
-   "title": "阿联酋称伊朗袭击两艘ADNOC船只",
-   "brief": "阿联酋称伊朗在霍尔木兹海峡袭击两艘ADNOC船只，无人员伤亡。",
-   "chain": "霍尔木兹遇袭→供应中断风险→油价上涨→莫桑比克LNG竞争力增强",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVGt4emw3dzdDaUdoNmsxMmRjMlkwZUJCUVlURko4RzRvMjUybnlUMVRGUnFLT0plclNLYkt0dGN1RV9fZnQ3QlE2UkN0d002blZDVUtTX0JwQXhkbXVDZ25WbDBLWld0anI2MmEtMUJOUFVNUTVDeVhpOXlldTQtQmlMVmVzcE1KS0tnWHhUNWtodmJRNjJWNFEyak9ZSGRadktNS3FMZ2tjc0o3MEh6eXEwcTZjY1Q3dmg1eg?oc=5",
-   "ts": "2026-08-13T21:19:19+00:00"
-  },
-  {
-   "cat": "gas",
-   "title": "罗马尼亚核电站因干旱停堆",
-   "brief": "罗马尼亚唯一运行核反应堆因干旱开始关闭，能源供应受影响。",
-   "chain": "核电停运→欧洲气电需求增加→TTF气价上行→莫桑比克LNG出口利好",
+   "cat": "geo",
+   "title": "无人机入侵在波罗的海及芬兰边境引发恐慌",
+   "brief": "北约波罗的海和芬兰边境频繁出现无人机入侵，引发混乱和恐惧，北约加强警戒。",
+   "chain": "北约与俄边境紧张→地缘风险上升→欧洲能源安全担忧→全球避险情绪升温。",
    "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdGhXbFM5QXFmajRHRDJaUnRpRHhRSjVoWlpKQWdPangwX2g4cTB4SzNsN2lpOTZxN1Q3ejZQWFpzekxwcTdGWVZoTWFuOGFWam1oVmNUX2RzVHU1MjEtQzh2ZHRoam9JVi1rT01kN2dQcnJUbzRLNHNqQkVXR0VERk1VdW5QX0JKWEw5dEJoM2E4bjhUUGZsckdnbHdoVXROMm5yTkRWZEVvaGxsR0xRQzFwVXNjLVBfMlNGMkZ5V1JQV2kwM2c?oc=5",
-   "ts": "2026-08-13T21:10:27+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSnhVUFlGN1hNN0dsY0Z2cERoTHZwRDBuMUZMWnBnM1RJMnlpWGx5SDE2UHlUcjRBTDlmNzE1Z1dmazllSzVoSU9BYlppN2xlWEFXMUVJb242WlR3aGVrcGZhblBWQzdpTS1qT3dEdGlOZ1o5NHZUWFRKTkVCcWpYa25UbWJLMTI4VnNtZTlpTFhvZjFnS0xPdFpLVkw3bUtEZWFiN3pubkxvaU5LWFRVTWc4dDFFNU1XXzZieURGR01ZZ29odTZhdQ?oc=5",
+   "ts": "2026-08-14T00:25:06+00:00"
   },
   {
-   "cat": "gas",
-   "title": "俄乌斯季卢加港遭袭后火情清除",
-   "brief": "俄罗斯乌斯季卢加港遭无人机袭击后火情已清除，港口运营恢复。",
-   "chain": "俄港口遇袭→LNG出口短期扰动→气价波动→影响全球LNG供应",
+   "cat": "oil",
+   "title": "油价上涨，美国威胁无限期封锁伊朗",
+   "brief": "美国威胁无限期封锁伊朗，油价上涨并有望周线收高，布伦特和WTI均走强。",
+   "chain": "封锁伊朗→供应中断风险→油价上行→莫桑比克LNG出口竞争力增强，但航运成本上升。",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeHh3dmRQTVJOaXBOODZqNzdueG9RbzJ0VUZ0TTJ3UGNyaXFfOUJ4c1BsWXdKXzFWY21VZTdaaHpySzhxYXFIYnBVcUpsWDdUUE1od3pKN2psUWI1dS10enVtNzBDX0xBQUpqNmkxVE1xZE1scnFHeS1DQkM4YTRwOE01NXpwU3RWREhIWGFZMlFTcndNQzRWc3NrM0xWa2hwdlMzSE5IeEhqUzVJVFBv?oc=5",
+   "ts": "2026-08-14T01:36:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "俄乌斯季卢加港遭无人机袭击后火情已清除",
+   "brief": "俄罗斯乌斯季卢加港遭无人机袭击后，州长称火情已清除，港口运营逐步恢复。",
+   "chain": "俄能源设施遇袭→短期供应扰动→油价波动→全球油气市场情绪受牵动。",
    "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdkpOZUdEZnZKWlZrcGJCTGJWRmZDNTFSUkctc0FXckpXYXFYOWNNOE9aYllQWnBVNG41bmJUdnRnb2U1MXVKY1hMb3pZaW9OSWpmX2EzRHRTQ3J4ZUk1ZHNLdEdfME9JNEt3cjhYMkV6Qy1kSmE5LXdDWlBaZUJ1RU5yMmVyXzNrRFdpYnNvRVFKbjdMdHo3N3NZYWtkUW1zYWU5anRVTXpPaG5icmtsMmpJRXA5THc?oc=5",
    "ts": "2026-08-14T03:46:00+00:00"
   },
   {
+   "cat": "gas",
+   "title": "乌军称袭击俄西北部能源设施",
+   "brief": "乌克兰武装部队总参谋部称袭击了俄罗斯列宁格勒州一座能源设施，俄能源基础设施再遭打击。",
+   "chain": "俄能源设施遇袭→欧洲天然气供应担忧→TTF气价或上行→全球LNG市场紧张。",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608143842031035.html",
+   "ts": "2026-08-14 21:45:41"
+  },
+  {
    "cat": "tech",
-   "title": "思科股价跌8%尽管财报超预期",
-   "brief": "思科财报超预期但股价下跌8%，市场担忧指引或估值。",
-   "chain": "思科下跌→拖累科技板块→美股科技情绪→A股算力链联动",
+   "title": "思科股价下跌8%，尽管财报超预期",
+   "brief": "思科公布财报和指引超预期，但股价仍下跌8%，因市场对业绩持续性存疑。",
+   "chain": "思科下跌→网络设备需求担忧→美股科技板块承压→A股通信设备链或受情绪影响。",
    "impact": 6,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/08/13/cisco-shares-slide-9percent-despite-earnings-beat-and-strong-guidance.html",
@@ -115,83 +115,63 @@
   },
   {
    "cat": "tech",
-   "title": "Workday因收购传闻大涨",
-   "brief": "Workday因银湖收购传闻股价创十年最大涨幅。",
-   "chain": "收购预期→软件板块活跃→美股科技情绪→A股云计算映射",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/13/workday-skyrockets-25percent-before-trading-halted-on-report-of-silver-lake-takeover.html",
-   "ts": "Thu, 13 Aug 2026 20:07:24 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "SK海力士上半年设备投资大增",
-   "brief": "SK海力士上半年设备投资超18万亿韩元，同比增逾70%。",
-   "chain": "存储扩产→HBM供应增加→利好AI算力→A股存储链受益",
+   "title": "美股存储板块走强，闪迪涨超9%",
+   "brief": "美股存储板块集体上涨，闪迪涨超9%，希捷、西部数据等跟涨，存储行业景气度提升。",
+   "chain": "存储涨价周期→美股存储股大涨→A股存储芯片链（如长江存储产业链）或联动。",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608143841893839.html",
-   "ts": "2026-08-14 19:27:30"
+   "url": "https://finance.eastmoney.com/a/202608143842039915.html",
+   "ts": "2026-08-14 22:07:07"
   },
   {
    "cat": "tech",
-   "title": "三星电子研发投入创纪录",
-   "brief": "三星电子上半年研发投入达190亿美元，同比增长51.5%。",
-   "chain": "研发加码→半导体竞争加剧→影响全球芯片格局→A股半导体映射",
-   "impact": 6,
+   "title": "特斯拉计划本月发布新款Roadster，股价涨3%",
+   "brief": "据报道特斯拉最早本月发布新款Roadster，并展示飞行版车型，股价上涨3%。",
+   "chain": "特斯拉新品发布→电动车产业链关注度提升→A股特斯拉供应链或受提振。",
+   "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608143841886677.html",
-   "ts": "2026-08-14 19:25:15"
+   "url": "https://finance.eastmoney.com/a/202608143842034214.html",
+   "ts": "2026-08-14 22:01:45"
   },
   {
    "cat": "ai",
-   "title": "Anthropic CFO启动IPO早期会议",
-   "brief": "Anthropic CFO与投资者进行早期IPO会议，未讨论估值。",
-   "chain": "AI独角兽IPO→AI投资热度→利好AI产业链→A股AI概念",
+   "title": "SpaceX完成对Cursor的600亿美元收购，马斯克加码AI",
+   "brief": "SpaceX完成对AI编程初创公司Cursor的600亿美元收购，马斯克扩大AI版图。",
+   "chain": "AI编程工具获巨头收购→AI应用商业化加速→A股AI应用及算力链或受益。",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608143842029970.html",
+   "ts": "2026-08-14 21:40:02"
+  },
+  {
+   "cat": "ai",
+   "title": "Lumentum上调指引，光通信板块拉升",
+   "brief": "Lumentum预测下季度收入高于市场预期，美股光通信板块拉升，AI算力需求强劲。",
+   "chain": "光模块需求超预期→美股光通信大涨→A股光模块（中际旭创等）或联动。",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608143842030743.html",
+   "ts": "2026-08-14 21:44:56"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达官宣CPO交换机全面量产",
+   "brief": "英伟达宣布CPO交换机全面量产，券商称光通信扩产进入实质性资本支出阶段。",
+   "chain": "CPO量产→AI算力基础设施升级→A股光通信及算力链（新易盛等）或受益。",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608143842050569.html",
+   "ts": "2026-08-14 22:31:48"
+  },
+  {
+   "cat": "ai",
+   "title": "Anthropic CFO与投资者进行IPO早期会谈",
+   "brief": "Anthropic CFO Krishna Rao正与投资者进行早期IPO会谈，未讨论估值，AI公司上市潮或来临。",
+   "chain": "AI独角兽IPO预期→AI板块估值重塑→A股AI概念或受情绪提振。",
    "impact": 7,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/08/13/anthropic-cfo-early-ipo-meetings-valuation.html",
    "ts": "Thu, 13 Aug 2026 18:44:12 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "OpenAI营收主管离职",
-   "brief": "OpenAI营收主管Denise Dresser离职，为几天内第二位高管离职。",
-   "chain": "高管动荡→AI公司治理担忧→短期AI情绪→A股AI板块波动",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/13/openai-denise-dresser-executive-exits.html",
-   "ts": "Thu, 13 Aug 2026 19:59:46 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "Uber与Pony.ai合作在欧洲部署Robotaxi",
-   "brief": "Uber与中国Pony.ai合作，在欧洲部署2000辆Robotaxi。",
-   "chain": "自动驾驶落地→AI应用加速→利好AI产业链→A股自动驾驶概念",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/14/uber-partners-with-chinas-ponyai-for-2000-robotaxis-in-europe.html",
-   "ts": "Fri, 14 Aug 2026 01:02:39 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "高盛：谷歌加速Gemini植入硬件",
-   "brief": "高盛称谷歌加速将Gemini植入硬件生态，AI战略转向规模化应用。",
-   "chain": "AI硬件化→端侧AI需求→利好AI芯片→A股AI硬件链",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608143841895186.html",
-   "ts": "2026-08-14 19:34:24"
-  },
-  {
-   "cat": "ai",
-   "title": "Arm联合创始人警告AI泡沫风险",
-   "brief": "Arm联合创始人Hermann Hauser警告AI革命真实但泡沫风险存在。",
-   "chain": "泡沫担忧→AI估值回调→美股AI调整→A股算力链承压",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/14/arm-ai-bubble-hermann-hauser-the-tech-download.html",
-   "ts": "Fri, 14 Aug 2026 11:00:01 GMT"
   }
  ]
 }
