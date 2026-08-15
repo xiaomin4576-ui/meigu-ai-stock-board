@@ -1,0 +1,216 @@
+{
+ "asof": "2026-08-15",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-08-15T09:50+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 4,
+  "cluster_label": "伊朗/阿联酋/霍尔木兹",
+  "cluster_dropped": [
+   "伊朗回应特朗普涉霍尔木兹言论"
+  ],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "geo",
+   "title": "阿联酋称一船只在霍尔木兹海峡遭袭",
+   "brief": "阿布扎比国家石油公司一艘船只14日晚在霍尔木兹海峡航行时遭袭，无人员伤亡。",
+   "chain": "霍尔木兹海峡遇袭→地缘风险溢价上升→油价短期波动，影响全球能源运输安全预期。",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608153842355721.html",
+   "ts": "2026-08-15 09:31:53"
+  },
+  {
+   "cat": "oil",
+   "title": "油轮遇袭无和平进展 油价涨逾1美元",
+   "brief": "油轮遇袭事件推升油价，布伦特原油上涨超1美元，市场关注中东局势。",
+   "chain": "地缘冲突→供应中断风险→油价上涨→莫桑比克LNG出口受益于高油价。",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2pvV0t4T25LdUVjOHpBU2tzN1RER1ZRQWF3cGZ3aEVZUm1JRXJXSk5xdWxaV3VEbEFMWHAtUkZ6MlpKX0VVRWlmNklKaUM3R3hER1o2WkEydXl0ZzZiS3NpNVNVdm80ck55SktBekVZbG1SaDdVdTJJOWJuUDMyV0RLNlJ5QkpYNUxGVjFQUHNQTWg1bVlJT3RXcXkyNkEwcUFtSGhLOXpWUno0LThMelpqWWRoQW8?oc=5",
+   "ts": "2026-08-14T19:21:47+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "美威胁制裁伊朗 美债收益率上升",
+   "brief": "美国威胁对伊朗实施更多经济制裁，10年期美债收益率上升，市场避险情绪变化。",
+   "chain": "地缘政治→避险情绪→美债收益率波动→影响美股估值及A股风险偏好。",
+   "impact": 6,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/14/treasury-yields-us-iran-economic-sanctions.html",
+   "ts": "2026-08-14T08:55:17+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "俄罗斯占印度石油进口份额创纪录",
+   "brief": "7月俄罗斯原油占印度进口份额升至历史新高，西方制裁下俄油折扣吸引买家。",
+   "chain": "俄油折扣→印度进口增加→全球原油流向变化→影响布伦特定价及东非市场竞争。",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYkxHbTB6WThhNjVWQU5yUmpiMmpHWjV5V29PeHJtamcycVNGdUwwUWhOX3RTby1UZzJfeDZjaHhvSWNtQ0ZkNTNfSTg2a2Q0cWUtb3hhbHJsOU9ZSVlQaFFwMXZHOWNPN0ltbUJnSWVjSWl0SkVSVzVJN3ROd2VQSnRFTzFtQ0w5cFg3SUptVFdBa054RGhoeVdYa01pTmFESEVQeG5FSEJsZEdR?oc=5",
+   "ts": "2026-08-14T04:56:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "阿曼海域巨大漏油威胁灾难",
+   "brief": "阿曼海域出现两条浮油带，大规模漏油事件可能造成生态灾难，影响航运。",
+   "chain": "漏油事件→环境风险→航运受阻→短期油价波动，关注中东海域安全。",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaE14cERmMFhqTWJMbFBLWlkzaEp2VGpQOGlWUlRDZmNPZnRkT203U3VBQ3Y2TTUtQTNaSEtJbm9LbDVDSU9hS2hRTnpCaHVxVnUxLXJJUUFlV1NTSUdWanhsRlBmUWhNN05ZZTlCRUMtUnhraVhaSjFoS2Z5dU9GNF95bWdoWll6ZzdJMGY1WDBNWElXakhRZ0hvV0lCTmR4X05LYTN6VDZYMVQwb1g1MjhiaXJvS01Ob0lyUkhuSQ?oc=5",
+   "ts": "2026-08-14T17:26:57+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "菲律宾总统称中菲联合油气勘探可能",
+   "brief": "菲律宾总统表示与中国联合进行油气勘探是“明确的可能性”，南海资源合作现曙光。",
+   "chain": "南海合作→地缘缓和→区域能源开发预期→对东非LNG项目竞争格局影响有限。",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNS0JHby03N0ZqSUVaWDJZU2tvcHNIVDZmdTJNYzkwakcxSjljRmNwU3lfSTlicnoxTGl5MWpqLVQ5UTNmTnpPcXhMX0NXcFBBNTNYQ3d2X1YyRGt4VGJ4RWhuNHdvc0VfOUF1ZzZoc05QTEZ5ZXpMcEdrbTFib1hwX0tyaV9LZ1VUOENkSFJvcjdLb1Z5QjZVc0tGNlU3NmtDbUppVk1RU1NZR2dEcWpGc3hYN2c5SWkxTThLZ0tn?oc=5",
+   "ts": "2026-08-14T05:23:00+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "SK海力士重启大连工厂 存储扩产",
+   "brief": "SK海力士重启搁置四年的大连NAND闪存工厂，产能将扩大约50%，存储市场生变。",
+   "chain": "存储扩产→供给增加→价格承压→A股存储链情绪波动，关注国产替代。",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608143842058196.html",
+   "ts": "2026-08-15 08:43:00"
+  },
+  {
+   "cat": "tech",
+   "title": "英伟达披露持有SpaceX 210亿美元股份",
+   "brief": "英伟达二季度末持有SpaceX 210亿美元股份，科技巨头跨界投资航天。",
+   "chain": "英伟达投资→航天商业化加速→利好A股卫星互联网概念，但传导间接。",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/14/nvidia-discloses-21-billion-stake-in-spacex-at-end-of-second-quarter.html",
+   "ts": "Fri, 14 Aug 2026 21:45:19 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "伯克希尔增持谷歌至第三大持仓",
+   "brief": "伯克希尔二季度增持Alphabet，谷歌升至第三大持仓，同时增持达美航空和住房相关股票。",
+   "chain": "巴菲特增持科技股→市场信心→利好美股科技板块，映射A股科技龙头。",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/14/berkshire-hathaway-boosts-alphabet-to-a-top-three-holding-ups-delta-and-housing-bets.html",
+   "ts": "Fri, 14 Aug 2026 21:06:48 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "苹果库克与卢特尼克出席休斯顿工厂",
+   "brief": "苹果CEO库克与美国商务部长卢特尼克共同出席休斯顿制造工厂开幕，苹果扩大美国制造。",
+   "chain": "苹果美国制造→供应链调整→影响A股苹果产业链，关注转移风险。",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/13/apples-tim-cook-and-howard-lutnick-open-houston-manufacturing-plant.html",
+   "ts": "Thu, 13 Aug 2026 21:23:35 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "Workday获银湖收购传闻 股价大涨",
+   "brief": "Workday因银湖收购传闻股价创十年最大涨幅，企业软件并购潮再起。",
+   "chain": "并购预期→软件板块估值提升→映射A股云计算板块情绪。",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/13/workday-skyrockets-25percent-before-trading-halted-on-report-of-silver-lake-takeover.html",
+   "ts": "Thu, 13 Aug 2026 20:07:24 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "DeepSeek V4 Pro上线国家超算互联网",
+   "brief": "国家超算互联网上线DeepSeek V4 Pro正式版及智能体框架Harness，推动AI算力应用。",
+   "chain": "国产AI模型→算力需求→利好A股算力链，如服务器、芯片等。",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608153842356742.html",
+   "ts": "2026-08-15 09:46:17"
+  },
+  {
+   "cat": "ai",
+   "title": "OpenAI人才流失引发IPO前担忧",
+   "brief": "OpenAI人才外流被指为IPO前“巨大红旗”，市场担忧其长期竞争力。",
+   "chain": "人才流失→AI巨头不确定性→影响AI板块估值，映射A股AI概念情绪。",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/14/open-ai-ipo-red-flag.html",
+   "ts": "Fri, 14 Aug 2026 19:07:11 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "OpenAI CFO称企业业务收入超消费者",
+   "brief": "OpenAI CFO表示企业业务收入已超过消费者业务，AI商业化重心转向B端。",
+   "chain": "AI商业化→企业服务需求→利好A股AI应用及云服务商。",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/14/openai-cfo-friar-tells-investors-that-enterprise-bigger-than-consumer.html",
+   "ts": "Fri, 14 Aug 2026 23:01:03 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Uber与Pony.ai合作在欧洲部署2000辆Robotaxi",
+   "brief": "Uber与中国小马智行合作，在欧洲部署2000辆自动驾驶出租车，自动驾驶商业化加速。",
+   "chain": "自动驾驶→AI应用落地→利好A股智能驾驶产业链。",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/14/uber-partners-with-chinas-ponyai-for-2000-robotaxis-in-europe.html",
+   "ts": "Fri, 14 Aug 2026 01:02:39 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Arm联合创始人警告AI泡沫风险",
+   "brief": "Arm联合创始人Hermann Hauser警告AI革命真实但泡沫风险同样存在，引发市场反思。",
+   "chain": "AI泡沫担忧→科技股回调风险→A股AI板块情绪波动，需谨慎。",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/14/arm-ai-bubble-hermann-hauser-the-tech-download.html",
+   "ts": "Fri, 14 Aug 2026 11:00:01 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "AI基础设施杠杆化加剧 追踪难度上升",
+   "brief": "AI基础设施投资杠杆化程度提高，透明度下降，可能增加系统性风险。",
+   "chain": "AI投资杠杆→金融风险→影响科技股估值，映射A股算力链风险。",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/14/ai-infrastructure-debt-leverage-risks.html",
+   "ts": "Fri, 14 Aug 2026 12:03:32 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "二季度银行业净息差四年来首次回升",
+   "brief": "金融监管总局数据显示，二季度商业银行净息差环比微升，为四年来首次企稳。",
+   "chain": "净息差企稳→银行盈利改善→利好A股银行板块，但传导至科技链有限。",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608143842082757.html",
+   "ts": "2026-08-15 09:41:04"
+  },
+  {
+   "cat": "macro",
+   "title": "纳斯达克将实施23小时交易制",
+   "brief": "纳斯达克将推行23小时交易制度，吸引全球资金，加剧交易所竞争。",
+   "chain": "交易时间延长→全球资本流动→影响美股流动性，对A股资金面有分流效应。",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608143841932774.html",
+   "ts": "2026-08-15 09:24:37"
+  },
+  {
+   "cat": "geo",
+   "title": "日本首相谴责普京视察争议岛屿",
+   "brief": "日本首相高市早苗称普京访问北方四岛“绝对不可接受”，日俄关系紧张。",
+   "chain": "日俄争端→地缘紧张→影响亚太稳定，但市场影响有限。",
+   "impact": 3,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/14/putin-kuril-islands-japan.html",
+   "ts": "Fri, 14 Aug 2026 12:28:54 GMT"
+  }
+ ]
+}
