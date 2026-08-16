@@ -1,0 +1,207 @@
+{
+ "asof": "2026-08-16",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-08-16T09:58+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 12,
+  "cluster_label": "伊朗",
+  "cluster_dropped": [
+   "伊朗与阿曼达成海峡通航协议",
+   "伊朗坚守海峡 特朗普要民众接受高油价"
+  ],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "美联储古尔斯比：通胀降温令人鼓舞",
+   "brief": "芝加哥联储主席古尔斯比表示，近期通胀降温令人鼓舞，但需更多数据确认回归2%目标。",
+   "chain": "美联储官员偏鸽表态→强化降息预期→利好美股AI高久期估值→映射A股算力链情绪。",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608163842459396.html",
+   "ts": "2026-08-16 04:40:36"
+  },
+  {
+   "cat": "macro",
+   "title": "哈佛13F：SpaceX持仓超22亿美元",
+   "brief": "哈佛大学二季度13F披露，SpaceX持仓市值22.1亿美元居首，黄金、比特币亦在列。",
+   "chain": "顶级机构配置SpaceX与黄金→反映避险与成长并重→对美股AI估值有支撑，黄金配置显示宏观对冲需求。",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608163842473341.html",
+   "ts": "2026-08-16 09:45:27"
+  },
+  {
+   "cat": "macro",
+   "title": "HHLR二季度增持英伟达等",
+   "brief": "高瓴旗下HHLR二季度美股持仓市值降至8.3亿美元，增持英伟达、Lumentum等。",
+   "chain": "知名机构增持AI芯片股→强化AI产业链信心→映射A股算力链。",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608163842472996.html",
+   "ts": "2026-08-16 09:31:22"
+  },
+  {
+   "cat": "macro",
+   "title": "高毅、景林美股调仓曝光",
+   "brief": "高毅加仓台积电至第一大重仓，景林清仓英伟达，调仓方向分化。",
+   "chain": "机构对AI芯片分歧→短期波动或加大→A股算力链需关注情绪扰动。",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608153842455945.html",
+   "ts": "2026-08-16 05:00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "伊朗：美以非法行动致海峡不稳",
+   "brief": "伊朗外交部称霍尔木兹海峡局势是美以非法行动结果，此前美宣称将拿下海峡。",
+   "chain": "美伊对峙升级→地缘风险溢价上升→影响全球风险资产，A股油气链或受情绪带动。",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608163842466564.html",
+   "ts": "2026-08-16 07:47:02"
+  },
+  {
+   "cat": "geo",
+   "title": "美强硬表态拿下霍尔木兹海峡",
+   "brief": "特朗普宣称将宣布海峡为美领土，专家指其意在安抚国内、制造谈判筹码。",
+   "chain": "美国强硬言论→地缘紧张加剧→油价波动，A股军工、油气板块或受关注。",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608163842465690.html",
+   "ts": "2026-08-16 07:19:47"
+  },
+  {
+   "cat": "geo",
+   "title": "俄称控制一居民点 乌称远程打击",
+   "brief": "俄军控制扎波罗热地区居民点，乌军远程打击俄目标，战事持续。",
+   "chain": "俄乌冲突持续→欧洲能源供应担忧→影响全球油气市场，莫桑比克LNG或受益于替代需求。",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608163842464332.html",
+   "ts": "2026-08-16 06:56:39"
+  },
+  {
+   "cat": "geo",
+   "title": "趁世界分心，中国加强战略布局",
+   "brief": "评论称中国在全球关注中东之际，加强战略布局，涉及多领域。",
+   "chain": "中国战略推进→地缘格局变化→影响全球供应链，A股相关板块或受政策驱动。",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONFc0bWlGZ294ZWg0NnB1eGJKN3FROERvclpMS0hIZkVraGEyS0tRZW5kQVdCYXExTEF1ejdTNG9jU3lrbjBSSktNYVlBaWxaLWZnR3o2endjWmRTbHBleVdMT0RPMEdZRTNVM3UyRFk4emRZZFVnM09tdGJyNWR2N29HUFViWVlqRUxVMkVCLUNnMGxBMFhGeWhJNk1hRi0walVqT3p4eW1Gdw?oc=5",
+   "ts": "2026-08-14T13:34:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "油轮遇袭油价涨逾1美元",
+   "brief": "油轮遇袭事件推升油价，中东局势紧张，和平进程无进展。",
+   "chain": "地缘冲突→油价上涨→利好莫桑比克油气出口收入，但需关注运输风险。",
+   "impact": 8,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/energy/articles/oil-set-weekly-gains-us-110155136.html",
+   "ts": "2026-08-14T19:21:15Z"
+  },
+  {
+   "cat": "oil",
+   "title": "欧股结束四周连涨 油价高企拖累",
+   "brief": "欧洲股市结束四周连涨，因油价上涨抵消强劲财报影响。",
+   "chain": "油价上涨→企业成本上升→股市承压，但利好油气生产商，莫桑比克项目受益。",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPa3JRTDJxWjQ5cXhiMXUwMkJSb2FrXzg0S3FvMkV0Z1VYRFV1a0dKcHEwaG9yWG1hb0RyWF9qQzFlek0zT2hXOGl0b2pSTHVTZ1lhclRuY1FsUm00alVhUkYzVEtVN1BTRUVzdmZHVXdVX2g5emE2NGRWN1ZyMXFMTnFVdmhvbVhVclFHajE5LUtGU0VnS2hJTVJTZGJHWDgzMDNhcmlWNHhtVm5MWXZz?oc=5",
+   "ts": "2026-08-14T16:27:21+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "美国天然气价格因高温预测上涨",
+   "brief": "美国天气预报转热，天然气期货价格走高，需求预期增加。",
+   "chain": "高温天气→天然气需求增加→价格上行，全球LNG市场联动，莫桑比克LNG出口受益。",
+   "impact": 6,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/commodities/articles/nat-gas-prices-move-higher-192600415.html",
+   "ts": "2026-08-14T19:26:00Z"
+  },
+  {
+   "cat": "gas",
+   "title": "播客：印尼地震、气价与埃特纳火山",
+   "brief": "播客讨论印尼地震、天然气价格及埃特纳火山喷发等事件。",
+   "chain": "自然灾害→能源供应扰动→气价波动，莫桑比克LNG需关注区域稳定性。",
+   "impact": 3,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYnF1MHYyczd3ZFU2MEswRTgyUWhkZnZuTlBNNk1CdXFteXRrbE5yZ1hpNWp4V25famJCczJYdURXU0V1Vy1GRm16V2g0UmY2M2Nnc2l2dTZ2N2pCUjZFeUVLV014dGYtR1lkZTlhRVY5Sk5tbUpQN0YzNHBVR0ZkaTJOS1BPVUZDRlctYm5Idk5UUnZLZ29MXzlR?oc=5",
+   "ts": "2026-08-15T14:13:45+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "AI打破存储盛衰周期 美光目标价上调",
+   "brief": "New Street Research上调美光目标价，认为AI需求改变存储周期，市值看向3万亿美元。",
+   "chain": "AI需求→存储涨价→美光等受益→A股存储链映射。",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608163842470512.html",
+   "ts": "2026-08-16 09:07:00"
+  },
+  {
+   "cat": "tech",
+   "title": "SanDisk CEO谈股价暴涨3150%后计划",
+   "brief": "SanDisk CEO透露在股价暴涨后的下一步计划，存储行业景气。",
+   "chain": "存储涨价→SanDisk业绩爆发→A股存储链映射。",
+   "impact": 6,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-ceo-reveals-whats-next-013700105.html",
+   "ts": "2026-08-15T01:37:00Z"
+  },
+  {
+   "cat": "tech",
+   "title": "SanDisk财报利好 新股票受益",
+   "brief": "SanDisk财报显示存储需求强劲，对投资组合中的新股票构成利好。",
+   "chain": "存储需求强劲→产业链景气→A股存储链映射。",
+   "impact": 5,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/14/what-sandisk-told-investors-this-week-is-a-boon-for-our-newest-stock.html",
+   "ts": "2026-08-14T18:33:35+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "铜贸易成为特朗普关税实时指标",
+   "brief": "小众铜交易成为衡量特朗普关税动向的实时指标，反映贸易政策预期。",
+   "chain": "关税预期→铜价波动→影响A股铜产业链，同时反映全球贸易风险。",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/14/copper-trump-tariffs-metal-commodities-trade-war.html",
+   "ts": "Fri, 14 Aug 2026 13:24:54 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Anthropic二季度营收跃升至115亿美元",
+   "brief": "Anthropic季度营收超115亿美元，AI商业化加速。",
+   "chain": "AI龙头营收高增→验证AI需求→利好美股AI产业链→A股算力链映射。",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html",
+   "ts": "Sat, 15 Aug 2026 14:45:31 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "OpenAI CFO：企业业务营收超消费者",
+   "brief": "OpenAI CFO表示企业业务营收已超过消费者业务，B端需求强劲。",
+   "chain": "AI企业端需求爆发→OpenAI商业化提速→带动AI基础设施投资→A股算力链受益。",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/14/openai-cfo-friar-tells-investors-that-enterprise-bigger-than-consumer.html",
+   "ts": "Fri, 14 Aug 2026 23:01:03 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "OpenAI人才流失引发IPO前担忧",
+   "brief": "OpenAI人才流失被指为IPO前“巨大红旗”，引发市场担忧。",
+   "chain": "人才流失→OpenAI前景不确定性→短期AI板块波动→A股AI情绪或受扰动。",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/14/open-ai-ipo-red-flag.html",
+   "ts": "Fri, 14 Aug 2026 19:07:11 GMT"
+  }
+ ]
+}
