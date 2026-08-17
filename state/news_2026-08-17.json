@@ -1,72 +1,72 @@
 {
  "asof": "2026-08-17",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-17T09:46+08:00",
+ "generated_at": "2026-08-17T09:55+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 13,
-  "cluster_label": "伊朗/霍尔木兹",
+  "cluster_label": "伊朗/海湾/霍尔木兹",
   "cluster_dropped": [
-   "油轮遇袭后霍尔木兹航运减少"
+   "海湾股市多数上涨，无视伊朗谈判停滞"
   ],
   "backfilled": 0
  },
  "items": [
   {
-   "cat": "macro",
-   "title": "日债收益率创近30年新高",
-   "brief": "日本10年期国债收益率升至2.92%，创1996年以来新高，受中东局势推升通胀预期影响。",
-   "chain": "日债收益率飙升→全球利率中枢上移→压制美股高估值科技股→A股算力链估值承压",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608173842653886.html",
-   "ts": "2026-08-17 09:29:27"
-  },
-  {
-   "cat": "macro",
-   "title": "日本二季度GDP不及预期",
-   "brief": "日本二季度GDP年化增长1.1%，低于预期，可能降低日本央行下月加息可能性。",
-   "chain": "日本经济疲软→日元贬值压力→全球资金流向美元→美股流动性收紧→A股外资流出风险",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/17/japan-gdp-misses-estimates-trade-exports-yen-nikkei.html",
-   "ts": "Mon, 17 Aug 2026 00:50:18 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "央行逆回购操作量为零",
-   "brief": "央行公告称，2026年8月17日7天期逆回购操作量为零，显示流动性管理灵活。",
-   "chain": "央行零投放→短期流动性边际收紧→A股资金面承压→算力链等成长股波动加大",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608173842641624.html",
-   "ts": "2026-08-17 09:22:57"
-  },
-  {
-   "cat": "macro",
-   "title": "人民币中间价上调5点",
-   "brief": "人民币兑美元中间价报6.7873，上调5点，反映市场预期稳定。",
-   "chain": "人民币汇率稳定→外资流入A股意愿增强→利好算力链等核心资产",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608173842637819.html",
-   "ts": "2026-08-17 09:16:11"
-  },
-  {
    "cat": "geo",
    "title": "美伊和谈停滞，霍尔木兹航运放缓",
-   "brief": "美伊和平谈判陷入僵局，霍尔木兹海峡航运放缓，油价持稳。",
-   "chain": "地缘紧张→油价波动→影响全球通胀预期→美股能源板块→A股油气链",
+   "brief": "美伊和谈停滞，霍尔木兹海峡航运放缓，油价持稳。",
+   "chain": "地缘紧张→油价波动→影响全球能源市场，对莫桑比克LNG项目影响有限。",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNmNqanA3WXVHU3JvRVRoZnVBYUpwUmRGbkxCYTNHLW9EeTFhbTdFcjFqM2JtZVctcTd6TzhEYnJUekhXQURDRXkzUXNNRlF4OEN3S2VQZ1ZIZ0c5OHo0d3RWdG01Z1o5amVMZFk0cGdUOGV1enVQYVVzTWtQVl9rTHhyM1RaeGxOd0RUNEM5NWJCMW91WFpITmp6TmlKOWF4RUYtMTRBQVpYX0pqZ0Q3UjNKVHIzZGc?oc=5",
    "ts": "2026-08-17T00:39:52+00:00"
   },
   {
+   "cat": "oil",
+   "title": "伊朗强硬表态，特朗普称接受高油价",
+   "brief": "伊朗在霍尔木兹海峡问题上态度强硬，特朗普暗示美国民众需接受高油价。",
+   "chain": "地缘风险→油价上行→利好莫桑比克油气出口收入。",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUM3ajNSZS1FUnR1alRkTEx5QjBoNW1TSi1haWxKcmVLUlRlTWhTNVZJaVJGNkMtVVphd0xTbUtGbFRFUW5MZmh1MExTUmdZQmxpRGNMRkhaeExUemtveEFLQ0cydmJhT2JpNFY3TDVLUGlTekY0RHZJVE5EOEItMml3SlAwTlNLY2pkdUp1bjdSNTdmVGY3Vk1OdVgtOWFpRGlORHZ4NXQyVlc1NEFTWTZoSEtwN3R1UlE?oc=5",
+   "ts": "2026-08-15T15:49:27+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "日本10年期国债收益率创近30年新高",
+   "brief": "日本10年期国债收益率升至2.91%，为1996年以来最高，受中东局势影响。",
+   "chain": "避险情绪→日债收益率上升→全球利率预期变化→影响美股估值，映射A股高估值科技股。",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608173842638036.html",
+   "ts": "2026-08-17 09:16:39"
+  },
+  {
+   "cat": "macro",
+   "title": "日本GDP不及预期，日债收益率仍升",
+   "brief": "日本二季度GDP年化增长1.1%低于预期，但10年期国债收益率仍升至2.92%。",
+   "chain": "经济数据疲弱→央行政策不确定性→全球利率波动→影响成长股估值。",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608173842653886.html",
+   "ts": "2026-08-17 09:29:27"
+  },
+  {
+   "cat": "macro",
+   "title": "港股黄金股走强，避险需求升温",
+   "brief": "港股黄金股走强，紫金黄金国际涨超4%，中国黄金国际涨超3%。",
+   "chain": "避险情绪→金价上涨→对美股AI高久期票估值形成压力→A股算力链情绪受抑。",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608173842715012.html",
+   "ts": "2026-08-17 09:35:30"
+  },
+  {
    "cat": "geo",
    "title": "特朗普特使会见调解人，以色列空袭加沙",
    "brief": "特朗普特使与调解人会面，以色列继续空袭加沙，中东局势持续紧张。",
-   "chain": "中东冲突→油价风险溢价→全球市场避险→美股承压→A股军工黄金链",
+   "chain": "地缘冲突→油价波动→影响全球能源市场，对莫桑比克油气项目影响有限。",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQWlULVBMUTk3T05wRS0tNnBRUWFReXlURUhCaTNIZVlRaUtVOHczUm5CTi1YRWlveXN6cC1hWDBKOTJqbUpna3JYZUhzLTVrTnU0bXFWd3JncVNCeUc3NTNING9KeHFSNWpUWWhCNFBGUm1aQzBna3c1OFNtclBMZEY1VERJS0x1elM2ZEVwXzZVeTRzelkyM3ZoWTNGeGRGZkE?oc=5",
@@ -75,38 +75,18 @@
   {
    "cat": "geo",
    "title": "疑似俄无人机在罗马尼亚领空被击落",
-   "brief": "一架疑似俄罗斯无人机在罗马尼亚领空被击落，北约东翼紧张加剧。",
-   "chain": "俄乌冲突外溢→欧洲安全风险→全球避险情绪→美股波动→A股军工链",
-   "impact": 6,
+   "brief": "疑似俄罗斯无人机在罗马尼亚领空被击落，北约东翼紧张加剧。",
+   "chain": "地缘紧张→避险情绪→影响全球市场风险偏好，映射A股军工板块。",
+   "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaEYyM3ZsTmtyUnloWUNXS0V4aUx6elJfWmp5UGlZRjJId3N2bkVSYzBZUHdpRXZudEc3aGJoemhNTGdoQUJ5al95MG9EMFA0OW1FVWlGRHBUeVdiRnBQZ1RsY1JZQ1FBQVAxNHNYRDN3REktaXpWOEFWM2RKQ09NNE4xYVpqc0czcE5jcXpLT0ZRLXM4UFFtSDlfREpxQnAwd3liT1IwaG50bmk1X2VRajRMb1FkbDhabTctR25CM0lBd3d2aHZ3?oc=5",
    "ts": "2026-08-16T03:40:00+00:00"
   },
   {
-   "cat": "geo",
-   "title": "特朗普指示削减美韩军演",
-   "brief": "特朗普指示五角大楼减少与韩国的军事演习，朝鲜半岛局势或生变。",
-   "chain": "美韩军演减少→东北亚地缘风险→影响亚太市场→A股军工链",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaGdQYThHbnV2b3NnalEycy1sZGpyNGNLaGNYODl2TmhhUnNma2ZhMk1MTURNQWxMalB3OUswYk10R2RJZGlBNnJoUkZzRGxGcE8xQklBZnlZYUs1d004Q09uUWdDeV96aFlJc0o2Nzh1aHZvRVBhZTV2SGU4RnZremZXWkw0YUp3SENRTDNFNkFyOWNVS2ROSEpCaVhpSmV2QWhMUGI5aVo3aUc3Z2pkWDBIQ2lRdw?oc=5",
-   "ts": "2026-08-16T23:30:39+00:00"
-  },
-  {
    "cat": "oil",
-   "title": "伊朗强硬表态，特朗普称接受高油价",
-   "brief": "伊朗在霍尔木兹海峡问题上态度强硬，特朗普暗示美国民众需接受高油价。",
-   "chain": "地缘风险→油价上行→莫桑比克LNG出口受益→联合能源经营环境改善",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUM3ajNSZS1FUnR1alRkTEx5QjBoNW1TSi1haWxKcmVLUlRlTWhTNVZJaVJGNkMtVVphd0xTbUtGbFRFUW5MZmh1MExTUmdZQmxpRGNMRkhaeExUemtveEFLQ0cydmJhT2JpNFY3TDVLUGlTekY0RHZJVE5EOEItMml3SlAwTlNLY2pkdUp1bjdSNTdmVGY3Vk1OdVgtOWFpRGlORHZ4NXQyVlc1NEFTWTZoSEtwN3R1UlE?oc=5",
-   "ts": "2026-08-15T15:49:27+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "集运指数欧线涨超10%",
-   "brief": "集运指数（欧线）主力合约日内涨超10%，现报1748点，航运成本上升。",
-   "chain": "航运成本上升→油价间接承压→影响莫桑比克油气运输成本→联合能源需关注",
+   "title": "集运指数欧线大涨超10%",
+   "brief": "集运指数（欧线）主力合约日内涨超10%，报1748点，受地缘影响。",
+   "chain": "地缘风险→航运成本上升→影响全球贸易，对莫桑比克能源出口物流成本有影响。",
    "impact": 6,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202608173842767765.html",
@@ -114,89 +94,59 @@
   },
   {
    "cat": "gas",
-   "title": "厚普股份签约尼日利亚天然气项目",
+   "title": "厚普股份签约尼日利亚天然气处理厂项目",
    "brief": "厚普股份子公司签约尼日利亚30万方天然气处理厂EPC+O项目，拓展非洲市场。",
-   "chain": "非洲天然气开发→全球LNG供应增加→莫桑比克LNG竞争加剧→联合能源需应对",
-   "impact": 6,
+   "chain": "非洲天然气开发→全球LNG供应增加→对莫桑比克LNG项目构成竞争，但区域合作加强。",
+   "impact": 5,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202608173842641850.html",
    "ts": "2026-08-17 09:23:45"
   },
   {
-   "cat": "gas",
-   "title": "日债收益率新高，中东局势推升通胀",
-   "brief": "日本10年期国债收益率升至2.91%，受中东局势影响，全球通胀预期升温。",
-   "chain": "通胀预期→LNG价格上行→莫桑比克LNG出口受益→联合能源盈利提升",
+   "cat": "tech",
+   "title": "存储芯片概念走强，普冉股份涨近10%",
+   "brief": "存储芯片概念震荡走强，普冉股份涨近10%，长鑫科技等跟涨。",
+   "chain": "芯片需求回暖→存储价格上涨→利好A股存储产业链，映射美股美光等。",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608173842638036.html",
-   "ts": "2026-08-17 09:16:39"
+   "url": "https://finance.eastmoney.com/a/202608173842834585.html",
+   "ts": "2026-08-17 09:51:48"
   },
   {
    "cat": "tech",
-   "title": "Jane Street遭遇十年首亏",
-   "brief": "Jane Street因AI基金受挫，面临十年来首次月度亏损，市场波动加剧。",
-   "chain": "量化巨头亏损→市场波动→美股科技股承压→A股算力链情绪受影响",
-   "impact": 7,
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-08-14/jane-street-took-15-billion-loss-in-july-as-ai-stocks-slumped",
-   "ts": "2026-08-15T16:01:45+00:00"
+   "title": "磷化铟概念拉升，有研新材涨停",
+   "brief": "磷化铟概念震荡拉升，有研新材涨停，三安光电等跟涨。",
+   "chain": "化合物半导体需求→磷化铟材料受关注→利好A股相关公司，映射美股II-VI等。",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608173842823568.html",
+   "ts": "2026-08-17 09:50:46"
   },
   {
    "cat": "tech",
-   "title": "印度与罗罗合作研发战斗机发动机",
-   "brief": "Reliance与罗尔斯·罗伊斯合作，为印度先进战斗机研发发动机，推动国防自主。",
-   "chain": "印度国防自主→全球军工产业链→美股军工股→A股军工链",
-   "impact": 5,
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-08-14/reliance-taps-rolls-royce-to-make-fighter-jet-engines-in-india",
-   "ts": "2026-08-15T14:20:09+00:00"
+   "title": "玻璃基板概念拉升，沃格光电涨停",
+   "brief": "玻璃基板概念震荡拉升，沃格光电涨停，京东方A等跟涨。",
+   "chain": "先进封装需求→玻璃基板受关注→利好A股相关公司，映射美股康宁等。",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608173842724655.html",
+   "ts": "2026-08-17 09:39:36"
   },
   {
    "cat": "tech",
-   "title": "中国科技让全球企业难以忽视",
-   "brief": "从苹果到福特，中国科技影响力日益增强，全球企业不得不重视。",
-   "chain": "中国科技崛起→全球供应链重构→美股科技竞争加剧→A股科技链受益",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/14/china-tech-global-appeal-apple-ford-catl-deepseek.html",
-   "ts": "Fri, 14 Aug 2026 00:09:11 GMT"
+   "title": "铜箔/覆铜板概念走强，华正新材涨停",
+   "brief": "铜箔/覆铜板概念走强，华正新材涨停，北方铜业等跟涨。",
+   "chain": "PCB需求增长→铜箔/覆铜板涨价→利好A股相关公司，映射美股生益科技等。",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608173842698669.html",
+   "ts": "2026-08-17 09:34:45"
   },
   {
    "cat": "ai",
-   "title": "OpenAI企业业务超消费者",
-   "brief": "OpenAI CFO表示，企业业务收入已超过消费者业务，AI商业化加速。",
-   "chain": "AI企业需求强劲→美股AI龙头业绩→A股AI算力链景气",
-   "impact": 8,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/14/openai-cfo-friar-tells-investors-that-enterprise-bigger-than-consumer.html",
-   "ts": "Fri, 14 Aug 2026 23:01:03 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "Arm联合创始人警告AI泡沫",
-   "brief": "Arm联合创始人Hermann Hauser警告AI革命真实但泡沫风险存在。",
-   "chain": "AI泡沫担忧→美股AI股回调→A股AI链情绪波动",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/14/arm-ai-bubble-hermann-hauser-the-tech-download.html",
-   "ts": "Fri, 14 Aug 2026 11:00:01 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "通胀温和，AI交易推动市场",
-   "brief": "上周通胀数据温和，英特尔和英伟达推动AI交易，市场表现强劲。",
-   "chain": "通胀温和→AI投资热情→美股AI链→A股算力链",
-   "impact": 6,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/15/inflation-moderated-as-intel-and-nvidia-fueled-the-ai-trade-in-last-week-market.html",
-   "ts": "2026-08-15T14:22:54+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "CPO概念活跃，中石科技两连板",
-   "brief": "CPO概念继续活跃，中石科技20cm两连板，光模块需求旺盛。",
-   "chain": "CPO需求→AI算力基础设施→A股光模块链",
+   "title": "CPO概念活跃，中石科技2连板",
+   "brief": "CPO概念继续活跃，中石科技20cm2连板，天孚通信等涨幅靠前。",
+   "chain": "AI算力需求→光模块/CPO高景气→利好A股光通信产业链，映射美股Coherent等。",
    "impact": 6,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202608173842663072.html",
@@ -204,13 +154,63 @@
   },
   {
    "cat": "ai",
-   "title": "四方达金刚石散热片小批量供货",
-   "brief": "四方达金刚石散热片通过客户测试，进入小批量供货，用于AI芯片散热。",
-   "chain": "AI芯片散热需求→新材料应用→A股散热链",
+   "title": "OpenAI CFO称企业业务收入超消费者",
+   "brief": "OpenAI CFO表示企业业务收入已超过消费者业务，AI商业化加速。",
+   "chain": "AI商业化加速→企业级AI需求增长→利好美股AI应用，映射A股AI应用板块。",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/14/openai-cfo-friar-tells-investors-that-enterprise-bigger-than-consumer.html",
+   "ts": "Fri, 14 Aug 2026 23:01:03 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Arm联合创始人警告AI泡沫风险",
+   "brief": "Arm联合创始人Hermann Hauser警告AI革命真实但存在泡沫风险。",
+   "chain": "AI泡沫担忧→科技股估值回调→映射A股AI概念股波动。",
    "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/14/arm-ai-bubble-hermann-hauser-the-tech-download.html",
+   "ts": "Fri, 14 Aug 2026 11:00:01 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Jane Street遭遇十年首亏，AI基金受挫",
+   "brief": "Jane Street因AI基金受挫面临十年来首次月度亏损，市场波动加剧。",
+   "chain": "AI交易策略失败→市场波动→影响量化交易，映射A股量化相关标的。",
+   "impact": 5,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-14/jane-street-took-15-billion-loss-in-july-as-ai-stocks-slumped",
+   "ts": "2026-08-15T16:01:45+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "央行逆回购操作量为零",
+   "brief": "央行公告2026年8月17日7天期逆回购操作量为零，流动性管理灵活。",
+   "chain": "央行流动性操作→市场利率预期→影响A股资金面，映射银行板块。",
+   "impact": 4,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608173842631834.html",
-   "ts": "2026-08-17 09:03:07"
+   "url": "https://finance.eastmoney.com/a/202608173842641624.html",
+   "ts": "2026-08-17 09:22:57"
+  },
+  {
+   "cat": "macro",
+   "title": "人民币中间价上调5点",
+   "brief": "人民币兑美元中间价报6.7873，上调5点，汇率稳定。",
+   "chain": "汇率稳定→外资流入预期→利好A股，映射北向资金敏感板块。",
+   "impact": 3,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608173842637819.html",
+   "ts": "2026-08-17 09:16:11"
+  },
+  {
+   "cat": "geo",
+   "title": "特朗普指示五角大楼减少美韩军演",
+   "brief": "特朗普指示五角大楼减少与韩国的军事演习，朝鲜半岛局势缓和。",
+   "chain": "地缘缓和→避险情绪下降→利好风险资产，映射A股军工板块承压。",
+   "impact": 4,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaGdQYThHbnV2b3NnalEycy1sZGpyNGNLaGNYODl2TmhhUnNma2ZhMk1MTURNQWxMalB3OUswYk10R2RJZGlBNnJoUkZzRGxGcE8xQklBZnlZYUs1d004Q09uUWdDeV96aFlJc0o2Nzh1aHZvRVBhZTV2SGU4RnZremZXWkw0YUp3SENRTDNFNkFyOWNVS2ROSEpCaVhpSmV2QWhMUGI5aVo3aUc3Z2pkWDBIQ2lRdw?oc=5",
+   "ts": "2026-08-16T23:30:39+00:00"
   }
  ]
 }
