@@ -1,197 +1,197 @@
 {
  "asof": "2026-08-17",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-17T19:42+08:00",
+ "generated_at": "2026-08-17T22:08+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 10,
-  "cluster_label": "伊朗/霍尔木兹",
+  "cross_day_suppressed": 6,
+  "cluster_label": "伊朗",
   "cluster_dropped": [
-   "油价因伊朗战争僵局上涨 涨幅或受限",
-   "油轮遇袭后霍尔木兹海峡航运放缓"
+   "油价上涨 伊朗排除延长临时协议",
+   "油价因伊朗战争僵局上涨 但上行空间有限"
   ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "美债收益率微降 市场聚焦FOMC纪要",
-   "brief": "投资者等待最新FOMC会议纪要，美债收益率小幅走低，市场关注美联储政策路径线索。",
-   "chain": "纪要若偏鹰→美债收益率上行→压制美股AI高久期估值→A股算力链情绪承压",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html",
-   "ts": "Mon, 17 Aug 2026 08:08:17 GMT"
+   "title": "美30年期国债收益率触及5.29% 创2007年来新高",
+   "brief": "8月17日，美国30年期国债收益率升至5.29%，为2007年以来最高水平，反映市场对长期通胀和财政赤字的担忧。",
+   "chain": "长端利率飙升→美股高估值成长股承压→A股算力链估值受压制",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608173843478428.html",
+   "ts": "2026-08-17 21:06:10"
   },
   {
    "cat": "macro",
-   "title": "中国7月经济数据放缓 零售投资疲软",
-   "brief": "中国7月经济进一步放缓，零售销售几乎零增长，投资下滑加剧，内需压力凸显。",
-   "chain": "中国经济走弱→全球需求担忧→美股盈利预期下修→A股顺周期及算力链承压",
+   "title": "富国投资研究所：美联储今年将加息25个基点",
+   "brief": "富国投资研究所预计美联储今年将加息25个基点，此前预测为维持不变，显示通胀压力或迫使政策转向。",
+   "chain": "加息预期升温→美元走强、美股波动→A股外资流向及成长股估值受影响",
    "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/17/china-economy-sales-investment-july-.html",
-   "ts": "Mon, 17 Aug 2026 08:26:04 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608173843488785.html",
+   "ts": "2026-08-17 21:25:16"
   },
   {
    "cat": "macro",
-   "title": "日本二季度GDP不及预期 消费投资疲弱",
-   "brief": "日本二季度GDP年化增长1.1%，低于预期，消费和投资疲软拖累经济复苏。",
-   "chain": "日本经济疲弱→全球增长担忧→避险情绪升温→美股波动→A股风险偏好受抑",
+   "title": "股市持稳美元下滑 市场削减美联储加息风险",
+   "brief": "全球股市持稳，美元走弱，因投资者认为美联储加息风险降低，风险偏好回升。",
+   "chain": "加息预期降温→美股科技股受益→A股算力链情绪提振",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNl9yb3JkT21xaHcxVWgydjJJc1lLNU5LNDBicTBWTm1YekxBb0VJRUI5MWo2Qm9Ic0NfY3p4LU9BcXVQeUpZVkZ4Uk50dERwb01aOW0tM1ZVaHlDa2VIaEVOSmlGWG9PYWxNNDdRbDJtQzVrQ29RZVV5a3dBb1l0NGozaw?oc=5",
+   "ts": "2026-08-17T01:17:00+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "日本Q2 GDP年化增长1.1% 不及预期",
+   "brief": "日本二季度GDP年化增长1.1%，低于预期，因消费和投资疲软，经济复苏乏力。",
+   "chain": "日本经济疲弱→全球增长担忧→A股出口链或受拖累",
    "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU21ldTFQWE1HaTVtdWZqVW5QTllNV3p1ckpqcFNnYXAxUzBZVTVkNGFYWmduXy1UQWJ2ZUJyQmZxTkt1RldUTWNtUTltLTBJb2h2My1zbGltQWp2V0NNRGpBZ0k1dFVOSjlwZkUyZmFVWEJNQTd1S3RITFJ4bzdxRmhNVjlVQUhnX3hKbnRsYWpkQ0wwQWZSZm5XTTNhczlJZlFUZm1tdWppc1E?oc=5",
    "ts": "2026-08-17T00:19:00+00:00"
   },
   {
-   "cat": "macro",
-   "title": "日本二季度GDP年化增1.1% 逊预期",
-   "brief": "日本二季度GDP年化增长1.1%，低于市场预期，消费和投资表现疲弱。",
-   "chain": "日本经济数据不佳→日元承压→亚太市场情绪→美股期货波动→A股联动",
-   "impact": 5,
+   "cat": "geo",
+   "title": "特朗普威胁轰炸阿曼 美伊停火到期",
+   "brief": "特朗普威胁若阿曼阻碍将“轰炸”，美伊停火协议到期，中东局势再度紧张。",
+   "chain": "中东冲突升级→油价上涨→A股油气及航运板块波动",
+   "impact": 9,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/17/japan-gdp-misses-estimates-trade-exports-yen-nikkei.html",
-   "ts": "Mon, 17 Aug 2026 02:21:02 GMT"
+   "url": "https://www.cnbc.com/2026/08/17/us-iran-war-trump-hormuz.html",
+   "ts": "Mon, 17 Aug 2026 14:07:16 GMT"
   },
   {
    "cat": "geo",
-   "title": "特朗普证实与伊朗革命卫队有秘密沟通",
-   "brief": "特朗普证实与伊朗伊斯兰革命卫队存在秘密沟通渠道，称“不着急”解决伊朗问题，并发出警告。",
-   "chain": "美伊秘密沟通→地缘风险缓和预期→油价承压→美股风险偏好回升→A股情绪改善",
+   "title": "伊朗称若美国数周内不履约将升级行动",
+   "brief": "伊朗警告若美国不在数周内履行协议，将升级行动，美伊关系持续紧张。",
+   "chain": "美伊对峙→地缘风险溢价→全球市场避险情绪升温",
    "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608173843372728.html",
-   "ts": "2026-08-17 19:30:12"
-  },
-  {
-   "cat": "geo",
-   "title": "特朗普威胁若阿曼阻碍行动将轰炸",
-   "brief": "特朗普威胁称，若阿曼阻碍美国行动，将对其发动轰炸，中东紧张局势再升级。",
-   "chain": "美阿关系紧张→中东地缘风险上升→油价波动→美股能源板块→A股油气链",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608173843366290.html",
-   "ts": "2026-08-17 19:15:54"
-  },
-  {
-   "cat": "geo",
-   "title": "疑似俄无人机在罗马尼亚领空被击落",
-   "brief": "一架疑似俄罗斯无人机在罗马尼亚领空被击落，北约东翼安全局势引发关注。",
-   "chain": "俄乌冲突外溢→北约紧张→避险情绪→美股波动→A股军工及风险资产",
-   "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaEYyM3ZsTmtyUnloWUNXS0V4aUx6elJfWmp5UGlZRjJId3N2bkVSYzBZUHdpRXZudEc3aGJoemhNTGdoQUJ5al95MG9EMFA0OW1FVWlGRHBUeVdiRnBQZ1RsY1JZQ1FBQVAxNHNYRDN3REktaXpWOEFWM2RKQ09NNE4xYVpqc0czcE5jcXpLT0ZRLXM4UFFtSDlfREpxQnAwd3liT1IwaG50bmk1X2VRajRMb1FkbDhabTctR25CM0lBd3d2aHZ3?oc=5",
-   "ts": "2026-08-16T03:40:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ19NRUJoZTZ6N2V4Q2RUejU0UTRHc2dqa0ltemFkMUpKSkNEVmlPTmZxcUg2VkxycU1TN1l6STVpeXFvTTJHNlR4S3lnVTBkVmVUVExtUm1faHVrR0lmdWJyc0kzSjVBU0xBWEc4TFBlMmlvLU1NcHg5aDNBaDJUcWpETTJldHRoQzdhT2FUa3dINjVDd2J1UGFNcVd0VEp6cW43T3AxbmNjbzBfc3JCRWxjWGZEVWtFZEIwdQ?oc=5",
+   "ts": "2026-08-17T13:42:01+00:00"
   },
   {
    "cat": "geo",
-   "title": "特朗普寻求削减美韩军演 重提旧议",
-   "brief": "特朗普寻求削减美韩联合军演规模，重提此前对军演费用的不满，盟友关系受关注。",
-   "chain": "美韩同盟松动→东北亚地缘风险→避险情绪→美股军工→A股军工链",
-   "impact": 5,
+   "title": "特朗普寻求削减美韩军演 重提反对意见",
+   "brief": "特朗普要求削减美韩联合军演，重提此前反对意见，或影响东北亚安全格局。",
+   "chain": "美韩同盟松动→地区稳定担忧→亚太市场风险偏好下降",
+   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTFVPX2pQSTZzb1l1ekdiT1JMWGdmeEhFbVIzeHpoYjlDY0Q2QV9TZ1ZsbXdMY2ZlOGlNc0QwS2dqaE1mT25seDhUTTBFNkFnNFNGSEQ4OHcwMjVMSHZDVGtYWnhCZUZoSkRqaDhuZk1nYm1YcjBEWEpmTDJfQ2hJOHNSQzlEV3ZBU3dyTkZLQnNReENoYXg0M084N3dmc3FxZEdsc2ZzU0lLVW5lU1NWZTA4RWs5ZGUyVS1lel9n?oc=5",
    "ts": "2026-08-17T06:10:00+00:00"
   },
   {
-   "cat": "oil",
-   "title": "霍尔木兹海峡航运停滞 美伊停火将到期",
-   "brief": "霍尔木兹海峡航运几乎停滞，美伊停火即将到期，供应中断风险加剧。",
-   "chain": "海峡中断→油价飙升→莫桑比克油气出口替代受益→东非能源战略地位上升",
-   "impact": 9,
+   "cat": "geo",
+   "title": "俄袭击多瑙河港口 乌遭遇大规模空袭",
+   "brief": "俄罗斯袭击多瑙河港口，乌克兰遭受战争以来最大规模空袭之一，局势升级。",
+   "chain": "俄乌冲突加剧→能源供应风险→全球油气价格波动",
+   "impact": 7,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/17/us-iran-war-trump-hormuz.html",
-   "ts": "Mon, 17 Aug 2026 08:06:38 GMT"
+   "url": "https://www.cnbc.com/2026/08/17/ukraine-war-russia-putin-moscow.html",
+   "ts": "Mon, 17 Aug 2026 09:46:08 GMT"
   },
   {
    "cat": "oil",
-   "title": "Peter Thiel入股阿根廷页岩油商Vista",
-   "brief": "亿万富翁Peter Thiel购入阿根廷页岩油生产商Vista Energy股份，股价上涨5%。",
-   "chain": "资本关注页岩油→全球油气投资风向→莫桑比克LNG竞争格局→东非项目融资",
-   "impact": 4,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/17/peter-thiel-hedge-fund-vista-energy-argentina-stake.html",
-   "ts": "Mon, 17 Aug 2026 11:05:58 GMT"
+   "title": "中国7月重返原油储备 意外提振市场",
+   "brief": "中国7月恢复原油库存积累，意外提振油市，需求端支撑油价。",
+   "chain": "中国需求回升→油价支撑→全球油市平衡改善",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOWM3eVRJMFNmUjRab1RyZFVmQU12ZUVkbDVIUnpRQ2o3WnhSWlJ2RHhFWXE5bDM0WDFydXd1X3haSFQ5WUFVa1lrcFZGVTlUUjREY0NGNHZ3YWxEWDlxQjdIN3F5QTdPVEk5OURMbW9QQ2d2cDJxSVBYZVpoMU9yUU84Y0JkNFZ6anZ1d0FGaHpmek40WUJKTWxpeVZId2tnc0FxNXlLRmZWQmdLZG43SXdHUlBHc2F3MmlSZEpDVnRaRjRUb1hjWnhvOA?oc=5",
+   "ts": "2026-08-17T13:30:45+00:00"
   },
   {
    "cat": "gas",
-   "title": "中航油与华龙航空落地公务机SAF服务",
-   "brief": "中航油与华龙航空在北京首都机场落地国内首单外航公务机可持续航空燃料（SAF）合规服务。",
-   "chain": "SAF推广→天然气制氢需求→全球LNG市场→莫桑比克天然气项目长期利好",
-   "impact": 3,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608173843374085.html",
-   "ts": "2026-08-17 19:34:12"
+   "title": "霍尔木兹海峡航运放缓 油轮遇袭后数据显现",
+   "brief": "油轮遇袭后，霍尔木兹海峡航运速度放缓，数据证实通行受阻，影响全球LNG运输。",
+   "chain": "海峡通行受阻→LNG运输成本上升→莫桑比克LNG出口面临物流风险",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS011b1NvcmEzQUNzX2dVdzFyUmg1UnpkLXZqNW5nUFFxNGZpaE51amZaZWJDZnNTQi1yZDE2cGxwU09PdzhMWWJiV1lpMk0xSmJmb0dQNVdGN1F3RHBTaVQtRzlsU2Nwa2RER0ZlbngzOWc3aDV2MmMwRmNfZ2xXclpHRzE0RkFzeDZ3MjY2QTAwMlFPSEVTeTRQM0JDQ2VtQjVPQTFPZWxRaXB4YzBTbjBVSXlxQTBoMUE?oc=5",
+   "ts": "2026-08-16T23:54:51+00:00"
   },
   {
    "cat": "gas",
-   "title": "叙伊原油管道耗资150亿美元 需四年",
-   "brief": "连接叙利亚和伊拉克的原油管道预计耗资至少150亿美元，建设需四年，影响中东石油出口格局。",
-   "chain": "中东管道建设→全球原油供应→LNG竞争→莫桑比克LNG市场份额",
-   "impact": 4,
+   "title": "国内商品期货夜盘多数上涨 原油涨超2%",
+   "brief": "国内商品期货夜盘主力合约多数上涨，乙二醇涨超3%，原油涨超2%，能源化工品走强。",
+   "chain": "国际油价上涨→国内能源化工品跟涨→相关板块受益",
+   "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608173843366747.html",
-   "ts": "2026-08-17 19:14:36"
+   "url": "https://finance.eastmoney.com/a/202608173843462528.html",
+   "ts": "2026-08-17 21:00:01"
   },
   {
    "cat": "tech",
-   "title": "阿里发布笔记本级AI模型 挑战Meta",
-   "brief": "阿里巴巴发布适用于笔记本电脑的AI模型，回应Meta的AI挑战，推动端侧AI应用。",
-   "chain": "阿里AI模型→端侧AI竞争→美股科技股→A股AI算力及终端链",
+   "title": "英伟达拟投1000亿美元建OpenAI数据中心",
+   "brief": "据报道，英伟达将投资1000亿美元在俄亥俄州建设OpenAI数据中心，加码AI基础设施。",
+   "chain": "AI基建投资→英伟达业绩预期→A股算力链（光模块、服务器）受益",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608173843535714.html",
+   "ts": "2026-08-17 22:01:23"
+  },
+  {
+   "cat": "tech",
+   "title": "费城半导体指数涨2% 美光科技涨超4%",
+   "brief": "费城半导体指数上涨2%，美光科技涨4.25%，存储芯片需求强劲，带动板块走高。",
+   "chain": "半导体景气→美股科技股上涨→A股半导体及存储链联动",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608173843526294.html",
+   "ts": "2026-08-17 21:50:48"
+  },
+  {
+   "cat": "tech",
+   "title": "美股存储板块集体上涨 铠侠ADR涨超13%",
+   "brief": "美股存储股普涨，铠侠ADR涨超13%，SK海力士等跟涨，存储行业复苏信号明确。",
+   "chain": "存储涨价周期→相关公司盈利改善→A股存储产业链受益",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608173843491073.html",
+   "ts": "2026-08-17 21:30:49"
+  },
+  {
+   "cat": "ai",
+   "title": "OpenAI与英伟达扩大合作 2030年计算规模或达6000亿美元",
+   "brief": "OpenAI承诺2030年前大规模部署英伟达AI基础设施，潜在计算规模达6000亿美元。",
+   "chain": "AI算力需求爆发→英伟达订单强劲→A股算力链（液冷、电源）受益",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608173843461063.html",
+   "ts": "2026-08-17 20:56:03"
+  },
+  {
+   "cat": "ai",
+   "title": "Anthropic二季度营收同比增14倍",
+   "brief": "Anthropic二季度营收同比增长14倍，AI商业化加速，引发市场关注。",
+   "chain": "AI应用收入激增→AI板块估值提升→A股AI应用及算力链联动",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/17/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+   "ts": "2026-08-17T13:29:25+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "阿里发布笔记本级AI模型 回应Meta挑战",
+   "brief": "阿里巴巴推出适合笔记本的AI模型，回应Meta的竞争，端侧AI成为新战场。",
+   "chain": "端侧AI模型→AI应用场景扩展→A股AI终端及芯片链受益",
    "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/17/alibaba-meta-qwen-open-weight-ai-laptop-models.html",
    "ts": "Mon, 17 Aug 2026 11:24:23 GMT"
   },
   {
-   "cat": "tech",
-   "title": "日本车企受伊朗战争和日元升值双重打击",
-   "brief": "日本汽车制造商易受伊朗战争和日元升值的双重打击，盈利前景承压。",
-   "chain": "日车企承压→全球供应链→美股汽车股→A股汽车零部件链",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/17/japanese-automakers-vulnerable-iran-war-yen-rally.html",
-   "ts": "Mon, 17 Aug 2026 05:18:44 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "软件定义汽车寿命未知 行业困惑",
-   "brief": "汽车行业对软件定义汽车的寿命尚无定论，技术迭代与维护问题引发关注。",
-   "chain": "软件定义汽车→科技股估值→美股汽车科技→A股智能汽车链",
+   "cat": "ai",
+   "title": "千问办公开源MyContext 个人上下文基础设施",
+   "brief": "千问办公开源个人工作上下文基础设施MyContext，上线一周GitHub超1k星。",
+   "chain": "AI基础设施开源→生态繁荣→A股AI软件及服务链关注",
    "impact": 4,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/15/software-defined-vehicles-rivian-tesla.html",
-   "ts": "Sat, 15 Aug 2026 12:00:01 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "OpenAI CFO称企业业务收入超消费者",
-   "brief": "OpenAI CFO向投资者表示，企业业务收入已超过消费者业务，AI商业化加速。",
-   "chain": "OpenAI企业收入超消费→AI商业化验证→美股AI估值→A股AI应用链",
-   "impact": 8,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/14/openai-cfo-friar-tells-investors-that-enterprise-bigger-than-consumer.html",
-   "ts": "Fri, 14 Aug 2026 23:01:03 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "Arm联合创始人警告AI泡沫风险",
-   "brief": "Arm联合创始人Hermann Hauser警告AI革命真实但泡沫风险存在，市场需警惕。",
-   "chain": "AI泡沫警告→美股AI回调风险→A股AI板块情绪波动",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/14/arm-ai-bubble-hermann-hauser-the-tech-download.html",
-   "ts": "Fri, 14 Aug 2026 11:00:01 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "太空数据中心成保险新前沿 风险难定价",
-   "brief": "太空数据中心可能成为保险新领域，但风险定价困难，引发对AI基础设施的思考。",
-   "chain": "太空数据中心→AI基础设施创新→美股科技股→A股算力链",
-   "impact": 4,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/14/data-centers-in-space-emerge-as-next-frontier-for-insurers.html",
-   "ts": "Fri, 14 Aug 2026 11:19:51 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608173843485658.html",
+   "ts": "2026-08-17 21:21:37"
   }
  ]
 }
