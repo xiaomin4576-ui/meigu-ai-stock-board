@@ -1,187 +1,164 @@
 {
  "asof": "2026-08-17",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-17T10:49+08:00",
+ "generated_at": "2026-08-17T12:10+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 14,
-  "cluster_label": "伊朗/海湾/霍尔木兹",
-  "cluster_dropped": [
-   "伊朗强硬回应海峡问题，特朗普称接受高油价",
-   "海湾股市多数上涨，无视伊朗谈判僵局"
-  ],
+  "cluster_label": "",
+  "cluster_dropped": [],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "足金饰品价格上调至1330元/克附近",
-   "brief": "8月17日多家黄金珠宝品牌足金饰品价格上调至1330元/克左右，周生生报1333元/克。",
-   "chain": "金价上涨反映避险与利率预期，压制美股AI高久期估值，A股算力链情绪或受抑。",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608173842914313.html",
-   "ts": "2026-08-17 10:47:58"
-  },
-  {
-   "cat": "macro",
-   "title": "机构：铜价新高近在咫尺，金价仍处顺风期",
-   "brief": "8月17日有色金属板块走强，机构称铜价新高在即，金价顺风，上游矿业弹性足。",
-   "chain": "铜价走强映射全球需求预期，利好美股矿业，A股有色及上游资源链受益。",
+   "title": "日本二季度GDP增速远低于预期",
+   "brief": "日本二季度GDP环比增长0.3%，年化增长1.1%，远低于市场预期。",
+   "chain": "日本经济疲软→全球增长担忧→美股承压→A股出口链或受拖累",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608173842891320.html",
-   "ts": "2026-08-17 10:27:03"
+   "url": "https://finance.eastmoney.com/a/202608173842950071.html",
+   "ts": "2026-08-17 11:23:53"
   },
   {
    "cat": "macro",
-   "title": "日本二季度GDP年化增长1.1%不及预期",
-   "brief": "日本二季度GDP年化增长1.1%，低于市场预期，显示经济复苏乏力。",
-   "chain": "日本经济疲软或影响全球风险偏好，美股承压，A股出口链或受拖累。",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/17/japan-gdp-misses-estimates-trade-exports-yen-nikkei.html",
-   "ts": "Mon, 17 Aug 2026 02:21:02 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "泰国二季度GDP同比增长1.9%超预期",
-   "brief": "泰国二季度GDP同比增长1.9%，略高于预估的1.8%，经济韧性显现。",
-   "chain": "东南亚经济稳健利好区域需求，对美股影响有限，A股东盟贸易链或受益。",
-   "impact": 3,
+   "title": "财政部开展国债做市支持操作",
+   "brief": "财政部决定开展2026年8月份国债做市支持操作，以维护市场流动性。",
+   "chain": "国内流动性调节→债市稳定→对A股影响中性偏多",
+   "impact": 4,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608173842897478.html",
-   "ts": "2026-08-17 10:31:34"
+   "url": "https://finance.eastmoney.com/a/202608173842945795.html",
+   "ts": "2026-08-17 11:17:37"
   },
   {
    "cat": "geo",
-   "title": "美伊和谈停滞，霍尔木兹航运放缓",
-   "brief": "美伊和平谈判停滞，霍尔木兹海峡航运放缓，油价维持涨势。",
-   "chain": "地缘风险推升油价，影响美股能源板块，A股油气链或联动。",
-   "impact": 9,
+   "title": "美伊和谈停滞，油价上涨",
+   "brief": "美国与伊朗和平谈判停滞，霍尔木兹海峡航运放缓，油价上涨。",
+   "chain": "地缘风险→油价上涨→美股能源板块受益→A股石油链联动",
+   "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNmNqanA3WXVHU3JvRVRoZnVBYUpwUmRGbkxCYTNHLW9EeTFhbTdFcjFqM2JtZVctcTd6TzhEYnJUekhXQURDRXkzUXNNRlF4OEN3S2VQZ1ZIZ0c5OHo0d3RWdG01Z1o5amVMZFk0cGdUOGV1enVQYVVzTWtQVl9rTHhyM1RaeGxOd0RUNEM5NWJCMW91WFpITmp6TmlKOWF4RUYtMTRBQVpYX0pqZ0Q3UjNKVHIzZGc?oc=5",
    "ts": "2026-08-17T00:31:00+00:00"
   },
   {
    "cat": "geo",
-   "title": "特朗普特使会见调解人，以色列打击加沙",
-   "brief": "特朗普特使与调解人会面，以色列继续空袭加沙，中东局势持续紧张。",
-   "chain": "中东冲突升级推高避险情绪，美股承压，A股军工及黄金链或受关注。",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQWlULVBMUTk3T05wRS0tNnBRUWFReXlURUhCaTNIZVlRaUtVOHczUm5CTi1YRWlveXN6cC1hWDBKOTJqbUpna3JYZUhzLTVrTnU0bXFWd3JncVNCeUc3NTNING9KeHFSNWpUWWhCNFBGUm1aQzBna3c1OFNtclBMZEY1VERJS0x1elM2ZEVwXzZVeTRzelkyM3ZoWTNGeGRGZkE?oc=5",
-   "ts": "2026-08-16T19:56:03+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "疑似俄罗斯无人机在罗马尼亚领空被击落",
-   "brief": "一架疑似俄罗斯无人机在罗马尼亚领空被击落，北约东翼紧张加剧。",
-   "chain": "俄乌冲突外溢风险上升，美股波动加大，A股国防军工链或受提振。",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaEYyM3ZsTmtyUnloWUNXS0V4aUx6elJfWmp5UGlZRjJId3N2bkVSYzBZUHdpRXZudEc3aGJoemhNTGdoQUJ5al95MG9EMFA0OW1FVWlGRHBUeVdiRnBQZ1RsY1JZQ1FBQVAxNHNYRDN3REktaXpWOEFWM2RKQ09NNE4xYVpqc0czcE5jcXpLT0ZRLXM4UFFtSDlfREpxQnAwd3liT1IwaG50bmk1X2VRajRMb1FkbDhabTctR25CM0lBd3d2aHZ3?oc=5",
-   "ts": "2026-08-16T03:40:00+00:00"
-  },
-  {
-   "cat": "geo",
    "title": "特朗普下令削减美韩军演",
-   "brief": "特朗普命令五角大楼削减与韩国的军事演习，朝鲜半岛局势生变。",
-   "chain": "美韩军演削减或缓和半岛紧张，但引发盟友疑虑，美股影响有限，A股东北亚概念或波动。",
+   "brief": "特朗普命令五角大楼削减与韩国的军事演习，影响东北亚安全格局。",
+   "chain": "地缘缓和→避险情绪降温→美股风险偏好回升→A股军工链或承压",
    "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaGdQYThHbnV2b3NnalEycy1sZGpyNGNLaGNYODl2TmhhUnNma2ZhMk1MTURNQWxMalB3OUswYk10R2RJZGlBNnJoUkZzRGxGcE8xQklBZnlZYUs1d004Q09uUWdDeV96aFlJc0o2Nzh1aHZvRVBhZTV2SGU4RnZremZXWkw0YUp3SENRTDNFNkFyOWNVS2ROSEpCaVhpSmV2QWhMUGI5aVo3aUc3Z2pkWDBIQ2lRdw?oc=5",
    "ts": "2026-08-16T21:39:00+00:00"
   },
   {
+   "cat": "geo",
+   "title": "疑似俄无人机在罗马尼亚领空被击落",
+   "brief": "一架疑似俄罗斯无人机在罗马尼亚领空被击落，北约东翼紧张加剧。",
+   "chain": "俄乌冲突外溢→欧洲安全风险→美股波动→A股军工链关注",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaEYyM3ZsTmtyUnloWUNXS0V4aUx6elJfWmp5UGlZRjJId3N2bkVSYzBZUHdpRXZudEc3aGJoemhNTGdoQUJ5al95MG9EMFA0OW1FVWlGRHBUeVdiRnBQZ1RsY1JZQ1FBQVAxNHNYRDN3REktaXpWOEFWM2RKQ09NNE4xYVpqc0czcE5jcXpLT0ZRLXM4UFFtSDlfREpxQnAwd3liT1IwaG50bmk1X2VRajRMb1FkbDhabTctR25CM0lBd3d2aHZ3?oc=5",
+   "ts": "2026-08-16T03:40:00+00:00"
+  },
+  {
    "cat": "oil",
-   "title": "周末仅5艘船通过霍尔木兹，通行量大幅放缓",
-   "brief": "油轮遇袭后，上周末霍尔木兹海峡仅5艘船通过，航运大幅放缓，美伊互放狠话。",
-   "chain": "霍尔木兹中断推升油价，影响全球供应，莫桑比克LNG出口或受益于替代需求。",
-   "impact": 9,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608173842880164.html",
-   "ts": "2026-08-17 10:28:04"
-  },
-  {
-   "cat": "gas",
-   "title": "粮食ETF涨超3%，地缘与气候或引发粮食危机",
-   "brief": "海外机构警告新一轮全球粮食危机或明年爆发，受霍尔木兹中断及异常气候影响。",
-   "chain": "粮食危机推升农产品价格，间接影响能源需求，莫桑比克农业与能源联动需关注。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608173842882780.html",
-   "ts": "2026-08-17 10:20:27"
-  },
-  {
-   "cat": "tech",
-   "title": "A股市值一哥长鑫科技大涨，市值重回4万亿",
-   "brief": "8月17日半导体产业链走强，长鑫科技涨超8%，市值重回4万亿元。",
-   "chain": "半导体龙头走强映射行业景气，美股芯片股联动，A股存储链受提振。",
+   "title": "霍尔木兹海峡航运放缓",
+   "brief": "油轮遇袭后，霍尔木兹海峡航运数据放缓，影响全球原油运输。",
+   "chain": "航运受阻→供应中断风险→油价上行→东非油气出口受益",
    "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608173842900321.html",
-   "ts": "2026-08-17 10:38:00"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS011b1NvcmEzQUNzX2dVdzFyUmg1UnpkLXZqNW5nUFFxNGZpaE51amZaZWJDZnNTQi1yZDE2cGxwU09PdzhMWWJiV1lpMk0xSmJmb0dQNVdGN1F3RHBTaVQtRzlsU2Nwa2RER0ZlbngzOWc3aDV2MmMwRmNfZ2xXclpHRzE0RkFzeDZ3MjY2QTAwMlFPSEVTeTRQM0JDQ2VtQjVPQTFPZWxRaXB4YzBTbjBVSXlxQTBoMUE?oc=5",
+   "ts": "2026-08-16T23:54:51+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "伊朗强硬表态，特朗普称接受高油价",
+   "brief": "伊朗在霍尔木兹海峡问题上强硬，特朗普要求美国民众接受高油价。",
+   "chain": "地缘僵局→油价高位→莫桑比克LNG项目经济性提升",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUM3ajNSZS1FUnR1alRkTEx5QjBoNW1TSi1haWxKcmVLUlRlTWhTNVZJaVJGNkMtVVphd0xTbUtGbFRFUW5MZmh1MExTUmdZQmxpRGNMRkhaeExUemtveEFLQ0cydmJhT2JpNFY3TDVLUGlTekY0RHZJVE5EOEItMml3SlAwTlNLY2pkdUp1bjdSNTdmVGY3Vk1OdVgtOWFpRGlORHZ4NXQyVlc1NEFTWTZoSEtwN3R1UlE?oc=5",
+   "ts": "2026-08-15T15:49:27+00:00"
   },
   {
    "cat": "tech",
-   "title": "存储芯片持续涨价，国产芯片龙头业绩爆发",
-   "brief": "存储芯片涨价趋势延续，闪迪周涨35%，SK海力士周涨20%，国产芯片业绩亮眼。",
-   "chain": "存储涨价提升产业链盈利，美股存储股强势，A股存储芯片设计链受益。",
+   "title": "SK海力士投384亿美元建晶圆厂",
+   "brief": "SK海力士宣布在韩国投资384亿美元建设晶圆厂，应对AI存储需求。",
+   "chain": "存储扩产→半导体设备需求→A股半导体设备链受益",
    "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608173842879826.html",
-   "ts": "2026-08-17 10:16:26"
+   "url": "https://finance.eastmoney.com/a/202608173842946472.html",
+   "ts": "2026-08-17 11:18:28"
   },
   {
    "cat": "tech",
-   "title": "港股芯片股走高，华虹宏力涨超6%",
-   "brief": "港股芯片股集体上涨，华虹宏力、芯碁微装涨超6%，中芯国际涨超5%。",
-   "chain": "港股芯片走强反映全球半导体需求，美股芯片股联动，A股半导体设备链受关注。",
-   "impact": 6,
+   "title": "SK海力士预判存储芯片供应缺口",
+   "brief": "SK海力士预判明年存储芯片将现史上最大供应缺口，芯片股大涨。",
+   "chain": "供应缺口→存储涨价→A股存储链受益",
+   "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608173842884578.html",
-   "ts": "2026-08-17 10:22:31"
+   "url": "https://finance.eastmoney.com/a/202608173842941266.html",
+   "ts": "2026-08-17 11:08:47"
   },
   {
    "cat": "tech",
-   "title": "半导体设备ETF涨超2%，连续四日净流入",
-   "brief": "半导体设备ETF招商涨2.37%，中微公司、北方华创拉升，资金持续流入。",
-   "chain": "设备端景气度提升，美股半导体设备股受益，A股设备国产化链受提振。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608173842898577.html",
-   "ts": "2026-08-17 10:28:10"
-  },
-  {
-   "cat": "ai",
-   "title": "智象未来发布交互式世界模型HiDream-O1-World",
-   "brief": "智象未来发布原生全模态交互式世界模型，具备漫游、编辑、交互三大能力。",
-   "chain": "世界模型进展推动AI应用落地，美股AI概念受益，A股多模态及算力链受关注。",
+   "title": "吉利汽车中期业绩超预期",
+   "brief": "吉利汽车2026年上半年收入超1700亿元，核心净利润劲增46%。",
+   "chain": "汽车销量强劲→产业链景气→A股汽车链联动",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608173842893844.html",
-   "ts": "2026-08-17 10:29:23"
+   "url": "https://finance.eastmoney.com/a/202608173842967887.html",
+   "ts": "2026-08-17 12:05:55"
+  },
+  {
+   "cat": "tech",
+   "title": "药明康德市值突破5000亿",
+   "brief": "药明康德A、H股双双涨超4%创历史新高，总市值突破5000亿。",
+   "chain": "CRO龙头走强→医药板块情绪→A股医药链联动",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608173842940775.html",
+   "ts": "2026-08-17 11:11:14"
   },
   {
    "cat": "ai",
-   "title": "湖南发布智能机器人产业实施意见",
-   "brief": "湖南出台意见，完善机器人企业上市服务，支持对接资本市场，目标2030年营收破2000亿。",
-   "chain": "政策支持机器人产业，利好AI硬件，美股机器人概念联动，A股机器人产业链受益。",
+   "title": "OpenAI高管离职潮引疑虑",
+   "brief": "OpenAI冲刺上市之际，大批高管离职，内部人事地震引发市场疑虑。",
+   "chain": "AI龙头动荡→美股AI板块波动→A股AI链情绪传导",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608173842952639.html",
+   "ts": "2026-08-17 11:26:08"
+  },
+  {
+   "cat": "ai",
+   "title": "IDC：中国AI视频云市场近10亿",
+   "brief": "IDC首次发布中国AI视频云市场份额报告，两大核心赛道合计近10亿元。",
+   "chain": "AI应用落地→云服务需求→A股AI应用链受益",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608173842895493.html",
-   "ts": "2026-08-17 10:33:56"
+   "url": "https://finance.eastmoney.com/a/202608173842967659.html",
+   "ts": "2026-08-17 12:03:55"
   },
   {
    "cat": "ai",
-   "title": "湖南：扩容智算资源，建立机器人专属算力池",
-   "brief": "湖南提出构建数据算力支撑体系，打造低成本高效算力池，支持机器人发展。",
-   "chain": "算力基建加码，AI算力需求提升，美股算力股受益，A股算力租赁及IDC链受提振。",
-   "impact": 4,
+   "title": "东阳光成立云智算数据服务公司",
+   "brief": "东阳光成立云智算数据服务公司，注册资本1亿元，布局大数据服务。",
+   "chain": "算力基础设施扩张→AI算力需求→A股算力链受益",
+   "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608173842892713.html",
-   "ts": "2026-08-17 10:30:10"
+   "url": "https://finance.eastmoney.com/a/202608173842945025.html",
+   "ts": "2026-08-17 11:17:52"
+  },
+  {
+   "cat": "ai",
+   "title": "长鑫科技市值重回4万亿",
+   "brief": "长鑫科技股价大涨，总市值重回4万亿元，成交额超200亿元。",
+   "chain": "存储芯片龙头走强→AI算力硬件→A股芯片链受益",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608173842958144.html",
+   "ts": "2026-08-17 11:30:00"
   }
  ]
 }
