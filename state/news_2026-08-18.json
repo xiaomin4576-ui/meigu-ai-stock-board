@@ -1,0 +1,198 @@
+{
+ "asof": "2026-08-18",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-08-18T09:50+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 7,
+  "cluster_label": "伊朗",
+  "cluster_dropped": [
+   "特朗普称伊朗不会达成协议 威胁轰炸阿曼",
+   "布伦特原油升破90美元 伊朗排除延长停火",
+   "美国铁路公司联合太平洋将伊朗战争燃料附加费转为利润"
+  ],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "美债收益率飙升 华尔街警告美联储9月加息风险未解除",
+   "brief": "城堡证券警告，美国通胀长期化，美联储9月加息风险并未解除，美债收益率持续飙升引发市场广泛关注。",
+   "chain": "美债收益率飙升→美股估值承压，尤其AI高久期成长股→A股算力链情绪受抑",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608183844067181.html",
+   "ts": "2026-08-18 09:09:12"
+  },
+  {
+   "cat": "macro",
+   "title": "黄金显现避险吸引力回归迹象",
+   "brief": "伊朗战争抛售后，黄金出现初步回升迹象，避险需求重新显现。",
+   "chain": "金价回升主导驱动为避险情绪→美股AI高久期票估值分母压力缓解→A股算力链情绪改善",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY3R1eTV5bGh0UnI2d3NXVXBfRVZLQ2ltUUlJS3ozTTg5c0dySDZMN1VGSXZaT1RDSVB2S2ZVc2xtaWFmbGgyUlF5YTVteFZNNU43VHBBVHZDbXNKcFZlWlNFME94M2xUNTU4T3VGa2F4N214dEprVXF6bVJucm50TTVQTjJPVzk3TEhsVDZ4RTUxcmw4V1pHN2Zwbk84aXdRdkZpSHBpSTZmU2xEaGx1YzFXVFF2eThra3c2bi1jZw?oc=5",
+   "ts": "2026-08-17T15:45:47+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "特朗普支持率跌至33% 创总统任期新低",
+   "brief": "路透/益普索民调显示，特朗普支持率降至33%，为其总统任期最低水平。",
+   "chain": "支持率新低→政治不确定性上升→美股波动加大，A股风险偏好受抑",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQi1faldMbmRDZnpQWWdTWWtyQmZZOVRnU01BVEt5aVdEQ0xxeGlWdmlNR1k4c2lWODJmcjNHUkFFc3BwLTgzVjQyd0dkTXJnUGdvN1hJeHZ0SC1aYzlVZC1DQW1ZM0NjdWhUby1JRzBjQmg1cDdjMEEydjRlVTlkT2Q4ODJad2s3eXhEaVlEY1JnVm01Y0FQb2lhLS10dGpPSlQ2aFBjQy1kTkdyOFhWWGtkMWM?oc=5",
+   "ts": "2026-08-17T20:09:10+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "央行开展4697亿元隔夜逆回购操作",
+   "brief": "央行今日开展4697亿元隔夜逆回购操作，7天期逆回购操作量为零。",
+   "chain": "央行流动性投放→国内资金面宽松→A股科技成长板块受益",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608183844096850.html",
+   "ts": "2026-08-18 09:22:50"
+  },
+  {
+   "cat": "geo",
+   "title": "伊朗威胁发动新攻势 美国排除延长停火协议",
+   "brief": "伊朗威胁发动新攻势，美国明确排除延长停火协议的可能性，中东局势再度紧张。",
+   "chain": "中东冲突升级→美股避险情绪升温→A股油气、黄金板块受关注",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcVl4WFplN0o4aVNSQ0REMXZlRmNzNTk4dURRMV8wUXhVQjNzVkZ0S3R4el9XSnE1MWZfLXc1RlZtZmJITURZRS1NaThGcXBKV0NZY2JXRGU1c093dzM1M0ZLcUtaRERHS1B4QUtXU3pwUk5XVWpSTEtXXzlTQ1BBZU85ZE50NHZQN2hXa1FTODlNRHU5UzhWS0tzMGktMktwMXI3X3pNYmRFMVIzSTlJbzl5SWRQa05qZ0lXWnM1bw?oc=5",
+   "ts": "2026-08-17T22:43:11+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "胡塞武装称袭击也门穆哈附近沙特船只",
+   "brief": "胡塞武装宣称袭击了也门穆哈附近海域的沙特船只，红海航运安全再受威胁。",
+   "chain": "红海航运风险→全球供应链扰动→A股航运、军工板块波动",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTEViWjVJeVRDNlYyWjhiN2VaLVltUW9OcUJLRGJfU055NkVreDRrUHNxUDlZS3VFVVVDMUhJZk1tNE9JMlhUeGctaWlzY0VtSFo0ekZrRGFfYWU3elI3dVNNX0J1b0k4NTRsQzdTOHlvZEtrTFBvUXRBa1dIaHlONUNjY0NmUjlKV19FRDh6TTl6R0FqbGZpWHJXRDFFZzBBaDJpUE5wS3lDSDlHQUZB?oc=5",
+   "ts": "2026-08-17T12:36:27+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "美国柴油裂解价差首次突破100美元/桶",
+   "brief": "供应中断导致美国柴油裂解价差首次突破100美元/桶，创历史新高。",
+   "chain": "炼油利润飙升→全球成品油供应紧张→东非炼油项目吸引力增强",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZ2p1clBfdVhTak9ubTVGRFROZ3BqSlB0U1k5MzNUNzUzYjdLUzNWQWdEajJHdDZXTzdfVWJBYlJHSk9iNTZROEJyWG55ZFBUYkhUalF6aXl2Ynkzakppczk0N3RLal9zZ0JNOXZqX2c5eFFTMmtVTlJhYTRNMjd6dnNmRER4YkFmZmp3YXA2VGdBWE1BQUJaenBkZnh1QkE0aGQ2cDA5VkRod3ZUVmsxZWVibWJBSUZzZXc?oc=5",
+   "ts": "2026-08-17T19:13:43+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "中国7月原油加工量环比首次回升",
+   "brief": "伊朗战争后，中国7月原油加工量首次实现环比增长，需求回暖迹象显现。",
+   "chain": "中国需求回升→全球油价支撑→莫桑比克油气出口前景改善",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOEF0djNfWVZQOXRXeThtZWlIcDRkQWpJWTNQWUs1dXQ2OWN0UUZURENHVG5iYXlCMWZFem9aVzQ4TVdab2JzaHVSN2E3aW83OXdEVTlyVnRWYjFCdnNHMXZScGFZUlU1MnZqYjBwVnRucUVhV1lEVTVLMjlGdzdNUmZTMnBiNmlnZzN1Z0xoRXFfUC1SWW5qb2l5Um9iVVdjTkdJTmVmeGF5WFNaRk8wTzlvWnMwcWlxZnlqZWg2cXJZcXc?oc=5",
+   "ts": "2026-08-17T11:54:35+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "美国将出台措施帮助炼油厂提高产量",
+   "brief": "美国能源部长赖特表示，将宣布帮助炼油厂提高燃料产量的措施。",
+   "chain": "美国炼油产能增加→成品油供应改善→全球炼油利润可能回落",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNkt2WFRJalFmY1h4S0lLcVFXcmtNN1o5U2J4RWVmWGdkVFdLdUYzUnRlTklFX3Nsd1FMaVVNbEdINlUyazI0ajM2dW5Qd0FJNXpac0V2NFp0Yk1sTWMtUVVxQU1MVk1WY0lsUU9fYjF1dXFIVjZzSWs2cUpPN3FHNGhDbXMtcHlLWWd3VmdhSndwOWl3VTkxNmVYSTd2T0tVX2MyT2c1dnJESmdJZ0FISERjQ3JrNEZy?oc=5",
+   "ts": "2026-08-17T21:36:56+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "海湾多数市场下跌 伊朗紧张局势及霍尔木兹航运中断施压",
+   "brief": "伊朗紧张局势和霍尔木兹海峡航运中断令海湾多数市场承压，能源运输风险加剧。",
+   "chain": "霍尔木兹航运中断→LNG运输成本上升→莫桑比克LNG出口竞争力受影响",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNU9NOVk5OEQ2MTFBZ3MyTlFITGJvOFF2R08wR1hyanE3TlJEZ3VlWjk2M191ZGZkc1UyOTdCUEloLXdDZnhnLVFlUkIwY3I4RjZuV3pLMW5BRFVsMjNTWmxDb0tiNU5xYmVDNTVkWlgxOTRIc2tnejNQX0d6OUdNOHJ1T2lKeXVlU08wdmtpU2F1U3g5TmVPUGRkRk1xdnJIcjdiQW9iUzJxaVZyVm5uNFVENDdraW9na29LMFhsbl9nQQ?oc=5",
+   "ts": "2026-08-17T13:12:32+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "英伟达为俄亥俄州OpenAI数据中心提供融资支持",
+   "brief": "英伟达为OpenAI在俄亥俄州的数据中心提供融资，科技巨头加大数据中心投资。",
+   "chain": "AI基础设施投资扩大→英伟达业绩受益→A股算力硬件产业链景气",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html",
+   "ts": "2026-08-17T14:10:16+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "英伟达融资计划遵循SEC指引 免除数据中心投资担保责任",
+   "brief": "英伟达的融资计划遵循SEC指引，将赞助商与数据中心投资担保责任分离。",
+   "chain": "监管明确→AI数据中心融资模式创新→A股IDC、算力租赁概念受益",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/17/nvidia-financing-initiative-follows-sec-guidance-taking-sponsors-off-the-hook.html",
+   "ts": "Mon, 17 Aug 2026 16:08:53 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "光库科技上半年净利润翻倍 受益高速光模块高景气",
+   "brief": "光库科技半年报显示，营收同比增长72.91%，归母净利润同比增长186%，受益于高速光模块市场高景气。",
+   "chain": "光模块需求旺盛→光通信产业链业绩兑现→A股CPO、光模块板块走强",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608183844017684.html",
+   "ts": "2026-08-18 09:07:43"
+  },
+  {
+   "cat": "tech",
+   "title": "美国授予雷神229亿美元合同 增产战斧导弹",
+   "brief": "美国授予雷神公司229亿美元七年期合同，以提升战斧导弹产量。",
+   "chain": "国防开支增加→军工产业链景气→A股军工电子、导弹配套概念受益",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZ0hQT00ybHQzbWM2bDJBam45dVpTWmdscVpRM2t1YnItV0RXbmNPUW14Qml5dVNTdGtvSUx0VVk5Sk41ZFdVdjhuSmt5eFRHVzFkc1lsUndIYU5Jd05FcXlmaHhLaFpvR0RKVEhXeFFwczhZUVJtaENuWXhId0Y2NWN6VkdnRXV4dDdrWG9tLU4wcVZzWUNvYjVQR2ZRSTRFdFYxQWNtdGRzczRXell5UkUzOWh5dkhrYmh1cFlFa3M2TXU0dnZ0Qw?oc=5",
+   "ts": "2026-08-17T13:24:08+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "Anthropic年化收入达650亿美元 7月创新高",
+   "brief": "Anthropic向投资者透露，7月年化收入运行率攀升至650亿美元，AI商业化加速。",
+   "chain": "AI龙头收入高增→AI应用商业化验证→A股AI应用、算力链情绪提振",
+   "impact": 9,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/17/anthropic-says-annualized-revenue-climbed-to-65-billion-in-july.html",
+   "ts": "Mon, 17 Aug 2026 22:55:31 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达股价开始活跃 三大理由支撑继续上涨",
+   "brief": "分析指出，英伟达股价近期活跃，三大理由包括AI需求强劲、数据中心扩张、产品周期。",
+   "chain": "英伟达股价上涨→AI算力需求确认→A股算力产业链跟涨",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/17/nvidias-stock-has-started-to-come-alive-heres-3-reasons-why-it-can-continue-.html",
+   "ts": "Mon, 17 Aug 2026 20:07:26 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "CPO概念反复活跃 中石科技20cm三连板",
+   "brief": "CPO概念持续活跃，中石科技20cm三连板，优讯股份、迅捷兴等跟涨。",
+   "chain": "CPO概念走强→AI算力光互连需求→A股光模块、CPO产业链受益",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608183844144120.html",
+   "ts": "2026-08-18 09:35:12"
+  },
+  {
+   "cat": "ai",
+   "title": "7月工业数据出炉 集成电路缘何实现三位数增长",
+   "brief": "国家统计局数据显示，7月集成电路产量实现三位数增长，新动能贡献增强。",
+   "chain": "集成电路产量高增→国产替代加速→A股半导体设备、材料链受益",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608183844191489.html",
+   "ts": "2026-08-18 09:41:47"
+  }
+ ]
+}
