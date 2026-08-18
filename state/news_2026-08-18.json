@@ -1,183 +1,54 @@
 {
  "asof": "2026-08-18",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-18T10:44+08:00",
+ "generated_at": "2026-08-18T12:05+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 7,
+  "cross_day_suppressed": 6,
   "cluster_label": "伊朗",
   "cluster_dropped": [
-   "美伊停火到期，油价上涨债券收益率走高",
-   "特朗普威胁轰炸阿曼，伊朗协议无望"
+   "油价攀升，美伊停火到期",
+   "布伦特原油升破90美元，伊朗威胁升级",
+   "日本车企受伊朗战争和日元升值双重打击"
   ],
   "backfilled": 0
  },
  "items": [
   {
-   "cat": "geo",
-   "title": "伊朗威胁新攻势，美国排除延长停火",
-   "brief": "伊朗威胁发动新攻势，美国明确排除延长停火协议，中东局势再度紧张。",
-   "chain": "地缘冲突升级→避险情绪升温→美股承压，A股军工、黄金板块或受关注。",
-   "impact": 9,
+   "cat": "macro",
+   "title": "特朗普支持率降至33%创新低",
+   "brief": "路透/益普索民调显示，特朗普支持率跌至其总统任期最低的33%。",
+   "chain": "支持率低迷或削弱政策推进能力→美股政策预期波动→A股风险偏好受情绪传导",
+   "impact": 7,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcVl4WFplN0o4aVNSQ0REMXZlRmNzNTk4dURRMV8wUXhVQjNzVkZ0S3R4el9XSnE1MWZfLXc1RlZtZmJITURZRS1NaThGcXBKV0NZY2JXRGU1c093dzM1M0ZLcUtaRERHS1B4QUtXU3pwUk5XVWpSTEtXXzlTQ1BBZU85ZE50NHZQN2hXa1FTODlNRHU5UzhWS0tzMGktMktwMXI3X3pNYmRFMVIzSTlJbzl5SWRQa05qZ0lXWnM1bw?oc=5",
-   "ts": "2026-08-17T13:45:00+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "美国柴油裂解价差首破100美元",
-   "brief": "供应中断推动美国柴油裂解价差首次突破100美元/桶，炼油利润飙升。",
-   "chain": "供应中断→炼油利润扩大→全球炼化产品价格上行→莫桑比克炼化项目经济性提升。",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZ2p1clBfdVhTak9ubTVGRFROZ3BqSlB0U1k5MzNUNzUzYjdLUzNWQWdEajJHdDZXTzdfVWJBYlJHSk9iNTZROEJyWG55ZFBUYkhUalF6aXl2Ynkzakppczk0N3RLal9zZ0JNOXZqX2c5eFFTMmtVTlJhYTRNMjd6dnNmRER4YkFmZmp3YXA2VGdBWE1BQUJaenBkZnh1QkE0aGQ2cDA5VkRod3ZUVmsxZWVibWJBSUZzZXc?oc=5",
-   "ts": "2026-08-17T19:13:43+00:00"
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQi1faldMbmRDZnpQWWdTWWtyQmZZOVRnU01BVEt5aVdEQ0xxeGlWdmlNR1k4c2lWODJmcjNHUkFFc3BwLTgzVjQyd0dkTXJnUGdvN1hJeHZ0SC1aYzlVZC1DQW1ZM0NjdWhUby1JRzBjQmg1cDdjMEEydjRlVTlkT2Q4ODJad2s3eXhEaVlEY1JnVm01Y0FQb2lhLS10dGpPSlQ2aFBjQy1kTkdyOFhWWGtkMWM?oc=5",
+   "ts": "2026-08-17T18:47:00+00:00"
   },
   {
    "cat": "macro",
-   "title": "黄金显现避险吸引力回升迹象",
-   "brief": "伊朗战争抛售后，黄金开始显现重新获得避险吸引力的早期迹象。",
-   "chain": "避险需求回升→金价企稳→对美股AI高久期估值构成压力→A股算力链情绪或受抑制。",
-   "impact": 7,
+   "title": "黄金显现避险需求回升迹象",
+   "brief": "伊朗战争抛售后，黄金开始重新展现避险吸引力。",
+   "chain": "避险情绪回升→美股AI高久期估值承压→A股算力链情绪传导",
+   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY3R1eTV5bGh0UnI2d3NXVXBfRVZLQ2ltUUlJS3ozTTg5c0dySDZMN1VGSXZaT1RDSVB2S2ZVc2xtaWFmbGgyUlF5YTVteFZNNU43VHBBVHZDbXNKcFZlWlNFME94M2xUNTU4T3VGa2F4N214dEprVXF6bVJucm50TTVQTjJPVzk3TEhsVDZ4RTUxcmw4V1pHN2Zwbk84aXdRdkZpSHBpSTZmU2xEaGx1YzFXVFF2eThra3c2bi1jZw?oc=5",
    "ts": "2026-08-17T15:45:47+00:00"
   },
   {
    "cat": "macro",
-   "title": "特朗普支持率跌至33%创新低",
-   "brief": "路透/益普索民调显示，特朗普支持率降至33%，为其总统任期最低。",
-   "chain": "支持率新低→政策不确定性→美股波动加剧→A股风险偏好或受牵连。",
+   "title": "美元疲软，加息预期减弱",
+   "brief": "加息押注减少及伊朗战争担忧加剧，美元指数走弱。",
+   "chain": "美元走弱→利好美股盈利→A股外资流入预期改善",
    "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQi1faldMbmRDZnpQWWdTWWtyQmZZOVRnU01BVEt5aVdEQ0xxeGlWdmlNR1k4c2lWODJmcjNHUkFFc3BwLTgzVjQyd0dkTXJnUGdvN1hJeHZ0SC1aYzlVZC1DQW1ZM0NjdWhUby1JRzBjQmg1cDdjMEEydjRlVTlkT2Q4ODJad2s3eXhEaVlEY1JnVm01Y0FQb2lhLS10dGpPSlQ2aFBjQy1kTkdyOFhWWGtkMWM?oc=5",
-   "ts": "2026-08-17T18:47:00+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "布伦特原油升破90美元",
-   "brief": "伊朗排除延长临时协议并威胁升级冲突，布伦特原油升破90美元。",
-   "chain": "地缘冲突→油价突破90→莫桑比克LNG出口价格联动，但需防范局势缓和回落。",
-   "impact": 9,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/17/oil-prices-iran-war-strait-hormuz.html",
-   "ts": "Mon, 17 Aug 2026 19:46:17 GMT"
-  },
-  {
-   "cat": "gas",
-   "title": "多瑙河干旱危及中东欧能源供应",
-   "brief": "多瑙河流域高温干旱导致水位下降，影响煤炭等大宗商品运输，危及中东欧能源供应。",
-   "chain": "干旱→内河运输受阻→能源供应紧张→气价或受支撑，莫桑比克LNG出口或迎机遇。",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608183844319183.html",
-   "ts": "2026-08-18 10:36:35"
-  },
-  {
-   "cat": "ai",
-   "title": "英伟达资助OpenAI俄亥俄数据中心",
-   "brief": "英伟达为OpenAI在俄亥俄州的数据中心提供融资，科技巨头加大算力投入。",
-   "chain": "巨头加码AI基建→算力需求增长→A股算力租赁、服务器产业链受益。",
-   "impact": 8,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html",
-   "ts": "2026-08-17T14:10:16+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "对冲基金折价20%出售Anthropic股份",
-   "brief": "对冲基金“态势感知”以20%折扣出售价值50亿美元的Anthropic股份，急于筹集资金。",
-   "chain": "AI公司估值波动→一级市场情绪降温→A股AI概念股或受情绪影响。",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608183844308741.html",
-   "ts": "2026-08-18 10:25:54"
-  },
-  {
-   "cat": "ai",
-   "title": "Anthropic年化收入达650亿美元",
-   "brief": "Anthropic告知投资者，7月年化收入运行率攀升至650亿美元。",
-   "chain": "AI商业化加速→行业景气度提升→A股AI应用、算力链受益。",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/17/anthropic-says-annualized-revenue-climbed-to-65-billion-in-july.html",
-   "ts": "Mon, 17 Aug 2026 22:55:31 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "Jim Cramer推荐四只存储芯片股",
-   "brief": "Jim Cramer表示现在买入这四只飙升的存储芯片股仍不晚。",
-   "chain": "存储芯片需求强劲→美股芯片股上涨→A股存储芯片产业链受提振。",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/17/cramer-buy-soaring-memory-stocks.html",
-   "ts": "Mon, 17 Aug 2026 22:20:01 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "科技ETF遭散户抢购",
-   "brief": "近期科技板块震荡，但多只科技ETF被个人投资者买走九成以上份额。",
-   "chain": "散户涌入→科技板块流动性增强→A股科技股或获支撑。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608183844250781.html",
-   "ts": "2026-08-18 10:39:12"
-  },
-  {
-   "cat": "tech",
-   "title": "半导体硅片股震荡走强",
-   "brief": "半导体硅片股盘中走强，立昂微涨停，多股涨超10%。",
-   "chain": "国产替代加速→硅片需求增长→A股半导体材料产业链受益。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608183844282798.html",
-   "ts": "2026-08-18 10:10:09"
-  },
-  {
-   "cat": "macro",
-   "title": "现货黄金跌破4400美元",
-   "brief": "现货黄金跌破4400美元，日内下跌0.37%。",
-   "chain": "金价回调→风险偏好回升→美股AI股估值压力缓解→A股算力链情绪或改善。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608183844289710.html",
-   "ts": "2026-08-18 10:13:40"
-  },
-  {
-   "cat": "oil",
-   "title": "美国将助炼油商增产燃料",
-   "brief": "能源部长Wright表示，美国将宣布帮助炼油商生产更多燃料的措施。",
-   "chain": "美国增产→缓解供应紧张→油价或承压→莫桑比克油气出口竞争加剧。",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNkt2WFRJalFmY1h4S0lLcVFXcmtNN1o5U2J4RWVmWGdkVFdLdUYzUnRlTklFX3Nsd1FMaVVNbEdINlUyazI0ajM2dW5Qd0FJNXpac0V2NFp0Yk1sTWMtUVVxQU1MVk1WY0lsUU9fYjF1dXFIVjZzSWs2cUpPN3FHNGhDbXMtcHlLWWd3VmdhSndwOWl3VTkxNmVYSTd2T0tVX2MyT2c1dnJESmdJZ0FISERjQ3JrNEZy?oc=5",
-   "ts": "2026-08-17T21:36:56+00:00"
-  },
-  {
-   "cat": "gas",
-   "title": "山东规范绿电直连发展",
-   "brief": "山东出台11项措施规范绿电直连，促进绿色电力消费。",
-   "chain": "绿电政策推进→能源结构转型→对天然气需求长期影响有限，莫桑比克LNG出口需关注。",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608183844286219.html",
-   "ts": "2026-08-18 10:12:55"
-  },
-  {
-   "cat": "tech",
-   "title": "港股PCB概念股下跌",
-   "brief": "港股PCB概念股下跌，建滔积层板跌超6%，多股跟跌。",
-   "chain": "PCB板块回调→A股PCB产业链或受拖累。",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608183844320552.html",
-   "ts": "2026-08-18 10:37:50"
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQclBwalB5bkFIQVRLaXc3bHdrSFEteXF1NllCaTVjU08zRnlNckhhSzlvT3lOQ1FpNTZhQzh1VFVBVjJzaVc3Wkd4WXhVcURZV1BtUGttNEdRUS1RNkxQYU1jNHptUGgtMEhaVGNQdkRLTVl4bnNTeDJHMG9pYkV0dld0OXVDT0ZERHV1eGM0WGw1VVlEeFVIWElYNFlCRUtBd1ItU2tCcXNheWs?oc=5",
+   "ts": "2026-08-18T01:51:00+00:00"
   },
   {
    "cat": "macro",
    "title": "美国8月房屋建筑商信心微升",
-   "brief": "美国8月房屋建筑商信心指数小幅上升，但仍处于弱势。",
-   "chain": "房地产数据疲软→经济担忧→美股承压→A股地产链或受情绪影响。",
+   "brief": "8月NAHB指数小幅上升，但仍处弱势区间。",
+   "chain": "地产数据疲软→美联储降息预期升温→A股地产链情绪",
    "impact": 4,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNXgtejlVZW8zaGRGeUJCOEN2ZE5WUFJWcjRxLXpwd19rNDVtS3NqeVQ5M2NReURDR0pYNC1vRmVBalBWZ0JiNVdQVENON2hjQ3lpdXg4OTNkRkZneGlKM3dlWDR4VEVJZGZtWGFSdWFvWUNSQ2RtUHFqMFdFS2d4TEFZMkV6STJpMjdqSzFDQXozOTQ0aFE4VFNuZ3V5V1ZMZmc2aXlIUzFGWm8?oc=5",
@@ -185,23 +56,133 @@
   },
   {
    "cat": "geo",
-   "title": "美授予雷神229亿美元导弹合同",
-   "brief": "美国授予雷神229亿美元七年期合同，以提高战斧导弹产量。",
-   "chain": "军备扩张→地缘紧张→军工板块活跃→A股军工产业链或受益。",
+   "title": "伊朗威胁新攻势，美排除延长停火",
+   "brief": "伊朗威胁发动新攻势，美国明确排除延长停火协议的可能性。",
+   "chain": "中东局势升级→油价上涨→美股能源板块受益，A股油气链联动",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcVl4WFplN0o4aVNSQ0REMXZlRmNzNTk4dURRMV8wUXhVQjNzVkZ0S3R4el9XSnE1MWZfLXc1RlZtZmJITURZRS1NaThGcXBKV0NZY2JXRGU1c093dzM1M0ZLcUtaRERHS1B4QUtXU3pwUk5XVWpSTEtXXzlTQ1BBZU85ZE50NHZQN2hXa1FTODlNRHU5UzhWS0tzMGktMktwMXI3X3pNYmRFMVIzSTlJbzl5SWRQa05qZ0lXWnM1bw?oc=5",
+   "ts": "2026-08-17T13:45:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "特朗普威胁轰炸阿曼，称伊朗不会达成协议",
+   "brief": "特朗普表示伊朗不会达成所需协议，并威胁轰炸阿曼。",
+   "chain": "地缘风险加剧→避险情绪升温→A股黄金股受益",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ3Rmc3puMlE0OGNHd3RFY2dEM3EzbkdKR3pxal9tVm1lWFliOE9Yc1NlVXN6aEx3SXJCSkVWVENjbjBJMWlXLThJdDE3NzF5aTRMbXJYdDNqRkRtYmlRUVhDcW02My04NWR1MXVianVOdDIwZXdsNGJ5a21walB1UjMxV2YyTGpfMFMzdHNZLW1YRjRaZENWZDE5akdRcFVibWlYcV9aTTM4UQ?oc=5",
+   "ts": "2026-08-17T14:43:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "埃尔多安促特朗普与伊朗谈判",
+   "brief": "土耳其总统埃尔多安敦促特朗普与伊朗谈判，并表示愿意提供支持。",
+   "chain": "外交斡旋→地缘风险缓和预期→油价承压→A股油气链波动",
    "impact": 5,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZ0hQT00ybHQzbWM2bDJBam45dVpTWmdscVpRM2t1YnItV0RXbmNPUW14Qml5dVNTdGtvSUx0VVk5Sk41ZFdVdjhuSmt5eFRHVzFkc1lsUndIYU5Jd05FcXlmaHhLaFpvR0RKVEhXeFFwczhZUVJtaENuWXhId0Y2NWN6VkdnRXV4dDdrWG9tLU4wcVZzWUNvYjVQR2ZRSTRFdFYxQWNtdGRzczRXell5UkUzOWh5dkhrYmh1cFlFa3M2TXU0dnZ0Qw?oc=5",
-   "ts": "2026-08-17T13:24:08+00:00"
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZTVPLW5Mb1Q5eVJPMkVLcjVXVUg0Tmo5NE92SGQyZHFmbkxQeG12LVdjT2ZRMVNVNTc1WTN6VUZaUF8zYVlyTm1JR01PbHo4VHc4ZF95NnZyajlKdzZQSDhyWTR1TEpnNVk2dTZsdVNvUE8yQXhwd01oSTlnNE9zb0h6Ul9NbVUteEtERjVIczBGdGVsMFl0ZWM5ZlY1VnNZc3NUbEhYeTFHUXpLM2daSk93?oc=5",
+   "ts": "2026-08-17T23:06:45+00:00"
   },
   {
    "cat": "oil",
-   "title": "油价攀升因美伊和平希望减弱",
-   "brief": "美伊和平希望减弱，供应风险上升，油价攀升。",
-   "chain": "地缘风险→油价上行→莫桑比克油气收入预期增加。",
+   "title": "美国柴油裂解价差首破100美元",
+   "brief": "供应中断推动美国柴油裂解价差首次突破每桶100美元。",
+   "chain": "炼油利润飙升→全球炼化板块受益→莫桑比克炼化项目吸引力提升",
    "impact": 7,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLWFFMnZIN09zQ01kSjJtOWZDTzJHTk1xazNXM09aamwwLTBjeVRhc3VodGhQNWI4UlFaUFdEaFhNNDhFRzR6emlja2xYSTRhaHdFYzQwcnBWZnpkckpXSU5qUkFWZ0UyS0xzZ0lFbHdQRTFkWHJYY1JLM3gydXlKTllCLUFkclJiTEFTcFNOMTdEME95ekVaUHRtZmgwTmVDSWQzeHVodGtGNHkx?oc=5",
-   "ts": "2026-08-18T01:13:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZ2p1clBfdVhTak9ubTVGRFROZ3BqSlB0U1k5MzNUNzUzYjdLUzNWQWdEajJHdDZXTzdfVWJBYlJHSk9iNTZROEJyWG55ZFBUYkhUalF6aXl2Ynkzakppczk0N3RLal9zZ0JNOXZqX2c5eFFTMmtVTlJhYTRNMjd6dnNmRER4YkFmZmp3YXA2VGdBWE1BQUJaenBkZnh1QkE0aGQ2cDA5VkRod3ZUVmsxZWVibWJBSUZzZXc?oc=5",
+   "ts": "2026-08-17T19:13:43+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "美国将助炼油商增产燃料",
+   "brief": "能源部长赖特表示，美国将宣布帮助炼油商提高燃料产量的措施。",
+   "chain": "美国增产→缓解供应紧张→油价承压→莫桑比克LNG项目竞争加剧",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNkt2WFRJalFmY1h4S0lLcVFXcmtNN1o5U2J4RWVmWGdkVFdLdUYzUnRlTklFX3Nsd1FMaVVNbEdINlUyazI0ajM2dW5Qd0FJNXpac0V2NFp0Yk1sTWMtUVVxQU1MVk1WY0lsUU9fYjF1dXFIVjZzSWs2cUpPN3FHNGhDbXMtcHlLWWd3VmdhSndwOWl3VTkxNmVYSTd2T0tVX2MyT2c1dnJESmdJZ0FISERjQ3JrNEZy?oc=5",
+   "ts": "2026-08-17T21:36:56+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "埃克森美孚授予莫桑比克LNG合同",
+   "brief": "埃克森美孚为莫桑比克Rovuma LNG项目授予11亿美元合同。",
+   "chain": "项目推进→莫桑比克LNG供应增加→全球LNG市场竞争加剧→联合能源需关注",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPd2RFc2lvczBlN2tNbE1QRkVpUnZhaUpkUmRfN1pZNXlHMmtZUHRJX0F2dHhaS0lyRUh4dWVHSk9VVU01WEFpaFdCclg5U0MyM2NBVHhvMFpzYXo5a0JrbkFXckdKWlFlMFBMYUJiYUdYRml4VlY5R0ZwVC02R0lSd3BGTXN4d3htdE5tYUljZkZ5WFFPeVBwSDJOb0xjM0JySi15VGhENTZKTEVrdkhjaVp1WmFVM1B5Zlg2Zndn?oc=5",
+   "ts": "2026-08-17T18:58:40+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "L3Harris罢免CEO，任命继任者",
+   "brief": "L3Harris因行为违规罢免CEO Kubasik，任命内部人士Mehta接任。",
+   "chain": "军工企业变动→美股军工板块波动→A股军工映射",
+   "impact": 4,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWFNybGl1cWJiVThKUWVveG9waWY1cjdXc2hsRDZxMGlXTTFfektkcXBLZUV1Vml5dHZlSEhwVlVHaGc3QlNvOVkxRDI3M1RFcnQxekhoS0J4NzRKTVRSalVXc2Z0bkVsQjlaRnFNOWNGTGhBa1Izc29MT2lfSWFHakhwNlAyS1RvUmJ0V2lKS043LTRTZzdxYlNILWJrNXFMbEVVcW9SVVRQYWk4WjB2V2ZPczZtb0Q3TFNPQkNGbUJ6TXJ5RXpzNzhR?oc=5",
+   "ts": "2026-08-17T19:29:11+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "Cramer推荐四只存储芯片股",
+   "brief": "Jim Cramer表示现在买入这四只存储芯片股仍不晚。",
+   "chain": "存储涨价→美股芯片股→A股存储产业链",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/17/cramer-buy-soaring-memory-stocks.html",
+   "ts": "Mon, 17 Aug 2026 22:20:01 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达支持OpenAI俄亥俄数据中心",
+   "brief": "英伟达为OpenAI在俄亥俄州的数据中心提供融资支持。",
+   "chain": "AI基建投资→英伟达受益→A股算力链",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html",
+   "ts": "2026-08-17T14:10:16+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "Anthropic年化收入突破650亿美元",
+   "brief": "Anthropic向投资者披露，截至7月底年化营收运行率突破650亿美元。",
+   "chain": "AI商业化加速→美股AI板块→A股AI应用",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608183844366128.html",
+   "ts": "2026-08-18 11:29:01"
+  },
+  {
+   "cat": "ai",
+   "title": "冈拉克警告英伟达兜底融资或预示见顶",
+   "brief": "“新债王”冈拉克称英伟达到处兜底融资可能预示市场见顶。",
+   "chain": "市场见顶担忧→美股AI估值→A股算力链情绪",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608183844363230.html",
+   "ts": "2026-08-18 11:20:09"
+  },
+  {
+   "cat": "ai",
+   "title": "港股AI大模型双雄重挫逾13%",
+   "brief": "智谱和MINIMAX-W股价双双跌超13%，卖空数据创阶段新高。",
+   "chain": "港股AI回调→情绪传导→A股AI板块承压",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608183844365140.html",
+   "ts": "2026-08-18 11:26:00"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达融资计划遵循SEC指引",
+   "brief": "英伟达的融资计划遵循SEC指引，使赞助商免于数据中心投资责任。",
+   "chain": "监管明确→AI基建投资加速→A股算力链",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/17/nvidia-financing-initiative-follows-sec-guidance-taking-sponsors-off-the-hook.html",
+   "ts": "Mon, 17 Aug 2026 16:08:53 GMT"
   }
  ]
 }
