@@ -1,22 +1,30 @@
 {
  "asof": "2026-08-19",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-19T10:47+08:00",
+ "generated_at": "2026-08-19T12:07+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 6,
-  "cluster_label": "伊朗/霍尔木兹",
-  "cluster_dropped": [
-   "霍尔木兹海峡“开放”但交通稀少"
-  ],
+  "cluster_label": "",
+  "cluster_dropped": [],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "美债收益率攀升 科技股领跌华尔街",
-   "brief": "债券收益率上升引发科技股抛售，华尔街承压。",
-   "chain": "美债收益率上行→美股科技股估值承压→A股算力链情绪联动",
+   "title": "全球债市抛售升级 美债收益率走高或动摇美元避险地位",
+   "brief": "全球主权债券抛售浪潮蔓延，美国长期国债收益率持续拉升，投资者警惕通胀黏性及企业债供给洪流。",
+   "chain": "美债收益率上行→美股高久期成长股估值承压→A股算力链情绪受抑",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608193845911552.html",
+   "ts": "2026-08-19 11:13:17"
+  },
+  {
+   "cat": "macro",
+   "title": "科技股抛售拖累华尔街 债券收益率攀升",
+   "brief": "美国国债收益率攀升引发科技股抛售，华尔街主要股指承压下跌。",
+   "chain": "美债收益率上行→美股科技股估值压力→A股科技及算力链联动调整",
    "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUzFvaDFSek1CYmFoSHEzTG9feVA2blNkZE9LMy00ZnpQbnFmVXYwSDJkeDR5OEFNSExNcGdrWWNjdTNLQzlia0V4b0hvV2VaTTcyaXRFdldtaDJUcm9KcDAxQ3NNWV9MaDd2Q2NaVWtHVUEwS0YyU21ia3lJQVpMTjNBMGtlaXp0M0JWaTIxeExpYlpHOEN0b05NN00xRmhHSHc0bERMOG1COGVNYTEzSw?oc=5",
@@ -24,49 +32,29 @@
   },
   {
    "cat": "macro",
-   "title": "美债收益率飙升 市场担忧加剧",
-   "brief": "自6月以来美债收益率持续上行，市场关注其背后多重因素。",
-   "chain": "美债收益率飙升→全球风险资产承压→A股成长股估值受压",
-   "impact": 7,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/18/us-government-debt-yields-are-surging-at-a-bad-time-heres-whats-behind-the-move.html",
-   "ts": "2026-08-18T17:26:34+00:00"
+   "title": "美国推迟对加拿大商品50%关税至8月21日",
+   "brief": "加拿大总理卡尼表示，美国已同意将对一系列加拿大商品征收50%关税的实施时间推迟至8月21日结束。",
+   "chain": "美加贸易紧张暂缓→全球贸易风险偏好改善→利好A股出口链",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608193845932930.html",
+   "ts": "2026-08-19 11:21:11"
   },
   {
    "cat": "macro",
-   "title": "美国房市压力持续 工厂产出上升",
-   "brief": "7月房市仍受压，但工厂产出增长，经济数据喜忧参半。",
-   "chain": "经济数据分化→美联储政策预期波动→A股周期与成长风格切换",
+   "title": "美国7月房市承压 工厂产出上升",
+   "brief": "美国7月住房市场仍面临压力，但工厂产出出现增长，经济数据喜忧参半。",
+   "chain": "经济数据分化→美联储政策预期波动→美股及A股宏观情绪受影响",
    "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTnVKc1I4UWRkNWlXWm93ZGptQURzVVRySXZTSUQyX2RKejdFSUo1cDYwdEVUeWlZZE55dVVyOFZ2YklvZlFobVBiZmdHRFF2NG4yYUFydy0zWldPMFNjR21JcWlCMHFMU0E2R2pQLW9za285UG1NOEI4Q0xmX3M1THZuZG1NaGowSGtJX2ZfTXQ?oc=5",
    "ts": "2026-08-18T15:23:29+00:00"
   },
   {
-   "cat": "macro",
-   "title": "贵金属板块反弹 山东黄金涨超7%",
-   "brief": "A股贵金属板块反弹，山东黄金领涨，避险情绪升温。",
-   "chain": "避险情绪推升金价→美股AI高久期票估值分母承压→A股算力链情绪传导",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608193845852127.html",
-   "ts": "2026-08-19 10:26:29"
-  },
-  {
-   "cat": "macro",
-   "title": "特朗普暂停对加关税 美元兑加元下跌",
-   "brief": "特朗普暂停对加拿大50%关税三天，美元兑加元下跌0.2%。",
-   "chain": "贸易缓和→风险偏好回升→利好A股出口链",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608193845864724.html",
-   "ts": "2026-08-19 10:32:36"
-  },
-  {
    "cat": "geo",
-   "title": "特朗普称不与伊朗谈判 霍尔木兹仍关闭",
-   "brief": "特朗普表示无计划与伊朗谈判，伊朗称霍尔木兹海峡仍关闭。",
-   "chain": "美伊对峙升级→油价风险溢价上升→A股油气链关注",
+   "title": "特朗普称无计划与伊朗谈判 霍尔木兹海峡仍关闭",
+   "brief": "特朗普表示未安排与伊朗会谈，伊朗方面称霍尔木兹海峡仍处于关闭状态，局势持续紧张。",
+   "chain": "美伊对峙升级→地缘风险溢价上升→全球风险资产承压，A股避险情绪升温",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUFBFaGFVcWFQMUh6YjRZVVpwX2piQ093ZzVJVjJtRmgtaE9RVFhJNG40STQxbDlhSG00cHBNVWNlRnZ5TE9MSmVVQTdJRk5hTDhIVEVCeXRtbmsyQkNCR1FSQm5GVGRNYmcybHN6RFNzbGJGN3hsdUUzWFh1c0NEdXd0X0h4SHdRXzlsRjd4NDZvR1VBc0M3ZDJxdG1TcTBISHBWSHRjcHBRSG90SU44cE5WM011U2g0V1dObWZXaEJSX2tONDQ0?oc=5",
@@ -74,29 +62,29 @@
   },
   {
    "cat": "geo",
-   "title": "阿联酋称两枚导弹来自伊朗",
-   "brief": "阿联酋检测到两枚导弹，确认从伊朗发射，地区紧张加剧。",
-   "chain": "中东冲突扩散→避险资产受益→A股黄金与军工链联动",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaVFKQ0k0Vk10ckR0U1JfNHlsLW9nWUtrc09mMUx4UzFzRHJsVk4zYkJQT2NFNHVoVTRyYjE3OTJOcXVtcHFoWGRpQndUTXFnQjFKVGZQM1ZRTkpEeVVPZlF4ZXUydnRUckVmOHU2SEtXU000ZVFhVE8teGhQZFFPbnVFX3dBM1pNa0oxbnFoTmF2bUM3MjFj?oc=5",
-   "ts": "2026-08-18T21:21:04+00:00"
+   "title": "美韩联合军演将提前结束 或为美朝峰会铺垫",
+   "brief": "美国国防部证实美韩“乙支自由之盾”联合军演将于21日结束，比原计划提前近一周，或与特朗普寻求美朝峰会有关。",
+   "chain": "朝鲜半岛局势缓和→地缘风险下降→利好东北亚风险偏好，A股情绪或受益",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608193845944888.html",
+   "ts": "2026-08-19 11:54:42"
   },
   {
    "cat": "geo",
-   "title": "美韩将缩减联合军演 特朗普寻求与金正恩会晤",
-   "brief": "首尔与华盛顿将减半联合军演，特朗普据悉寻求与金正恩峰会。",
-   "chain": "半岛局势缓和→地缘风险下降→利好东北亚风险资产",
+   "title": "法国将驱逐两名伊朗外交官",
+   "brief": "法国外长表示，法国将在未来几天驱逐两名伊朗外交官，以回应伊朗相关行为。",
+   "chain": "欧洲与伊朗关系恶化→地缘紧张加剧→全球避险情绪升温，A股风险偏好承压",
    "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/19/south-korea-trump-military-drills-exercise-north-korea-kim-jong-un-.html",
-   "ts": "Wed, 19 Aug 2026 01:57:05 GMT"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTmFLeHRiWmVCUHhXbVM1d1VIS1RlNlh5YVI3cnB3Rzh6emVZTEtuTENUeUp4R3RUbkhfOFhrTHo5bTRRUEZnc2plT3U4NFFWMHVyZENpUDR4ZnBUVVBobFY4TUs2eHU5dHR3Z0UtcE5EMzFpdDlwRHE5YWpKLXRweXhNeXZpUGRyQjJ4QTRXLUxDNS1JOGEwM2R0M3ltYVRnS2hCdnMxU09yUGl0dkpj?oc=5",
+   "ts": "2026-08-18T20:11:58+00:00"
   },
   {
    "cat": "oil",
-   "title": "油价因霍尔木兹出口不确定性上涨",
-   "brief": "市场担忧霍尔木兹海峡出口受阻，油价小幅上涨。",
-   "chain": "霍尔木兹风险→油价上行→莫桑比克LNG出口受益",
+   "title": "油价因霍尔木兹出口不确定性小幅上涨",
+   "brief": "由于霍尔木兹海峡出口不确定性持续，国际油价小幅上涨，市场担忧供应中断风险。",
+   "chain": "霍尔木兹风险→油价短期上行→莫桑比克LNG出口竞争力增强，但需关注运输安全",
    "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSkdUVWxmeFlpYXd4VjhyeHhvNjBmaVlPbVdFemxvNTJHaExLNWhQbzNXeTN5QkVkWVh4aVU4ODJCWnFGazJnQklMejNuVnpPaHFUN1JEM1lFZ3FZaG96ME00QWdZN1JmYW5fN1lXNmV6dDVZUWxFWlJYc05BaEtzbEpGbXlqSHoxRnB3dTQ2NnZXX0tzRENESXFhRDlGSmxNT01LMWhSWQ?oc=5",
@@ -104,29 +92,29 @@
   },
   {
    "cat": "oil",
-   "title": "委内瑞拉石油复苏加速 美企推动新能源令",
-   "brief": "美国主要油企推动特朗普新能源令，委内瑞拉石油产量加速恢复。",
-   "chain": "委内瑞拉增产→全球供给增加→油价承压→东非油气竞争加剧",
-   "impact": 6,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/energy/articles/venezuela-oil-revival-accelerates-u-150000465.html",
-   "ts": "2026-08-17T15:00:00Z"
+   "title": "港口航运板块异动走高 南京港涨停",
+   "brief": "A股港口航运板块异动，南京港涨停，中谷物流、招商轮船等跟涨，或受地缘局势影响。",
+   "chain": "地缘风险→航运成本上升→利好航运股，但莫桑比克能源运输成本或增加",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608193845934237.html",
+   "ts": "2026-08-19 11:24:54"
   },
   {
    "cat": "gas",
-   "title": "富时100持稳 能源股抵消债券忧虑",
-   "brief": "能源股上涨抵消债券市场紧张，英国股市基本持平。",
-   "chain": "能源股走强→油气板块受关注→莫桑比克能源项目吸引力",
-   "impact": 4,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMlFYeHFieTNRSFZ2Z01Hci02VUdqdFdYbW1mUThhbmJ0TThKSGJEOXByYldoQTAwVVJyckhvbTN0V1BzRXR5LTduUHR1NUNuczc5bmszUURoMUMxaWhPVlp4cXlUS29VSXZ2dy14WmFYbGlOTng1LWY2Ylh0ekxyREhjUFl6RHpRcHBwZ2swY0xZN09GUURWTFNn?oc=5",
-   "ts": "2026-08-18T16:15:16+00:00"
+   "title": "Kodiak Gas创纪录盈利 推动电力建设",
+   "brief": "Kodiak Gas公布创纪录盈利，并计划进行电力建设，显示天然气发电需求强劲。",
+   "chain": "天然气需求强劲→气价支撑→莫桑比克LNG项目长期利好",
+   "impact": 6,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/energy/articles/kodiak-gas-kgs-rides-record-161011045.html",
+   "ts": "2026-08-17T16:10:11Z"
   },
   {
    "cat": "tech",
-   "title": "诺基亚年底前关闭中国几乎所有站点",
-   "brief": "据南华早报，诺基亚计划年底前关闭在中国大陆几乎所有站点。",
-   "chain": "外资撤离→通信设备国产替代加速→A股通信链受益",
+   "title": "诺基亚年底前关闭中国几乎所有办事处",
+   "brief": "据SCMP报道，诺基亚计划在年底前关闭在中国大陆的几乎所有办事处，调整在华业务。",
+   "chain": "诺基亚收缩→通信设备格局变化→A股通信设备商或迎替代机遇",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNU0VjRW5KV2tYY3BxTE5PUVB2WVNtMzZqN0R2Vmt4UGVlNDkxYUlURzJZdnN4QzV6SFZNNW9hSmVjVEFRc201NHNhWlY3dG4zSVp2RDVWRTh5RnRhOTJ0Y1AyS2I5eWFPRFh2RFE3WUZyb2VoNFhlZFl6aE9DNGx5UEMtT2VOY3VwTHp5RHFsaUJsMkNDLXNOYUUyNXdUUkF6cUxEeWVacERNNVdnTmxxMlRMWVBHM0J5T3ZNWnBjT0E?oc=5",
@@ -134,50 +122,40 @@
   },
   {
    "cat": "tech",
-   "title": "苹果大批新品意外泄露 含带摄像头AirPods",
-   "brief": "苹果macOS测试版泄露演示视频和硬件代号，包括带摄像头的AirPods。",
-   "chain": "苹果创新→消费电子产业链→A股苹果链关注",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608193845871568.html",
-   "ts": "2026-08-19 10:45:27"
-  },
-  {
-   "cat": "tech",
    "title": "苹果调整欧洲应用商店费用 解决支付纠纷",
-   "brief": "苹果改革欧洲App Store收费结构，以解决与监管的支付冲突。",
-   "chain": "监管缓和→苹果盈利稳定→A股苹果链情绪",
-   "impact": 4,
+   "brief": "苹果对欧洲应用商店费用进行重大调整，以解决与监管机构的支付冲突。",
+   "chain": "苹果合规调整→全球科技监管趋严→A股苹果产业链短期承压",
+   "impact": 5,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/18/apple-eu-app-store-fees-iphone.html",
    "ts": "Tue, 18 Aug 2026 17:16:49 GMT"
   },
   {
+   "cat": "tech",
+   "title": "美国航空增加座椅屏幕和头等舱 追赶达美和美联航",
+   "brief": "美国航空计划增加座椅屏幕和更大头等舱，以追赶竞争对手达美和美联航，提升乘客体验。",
+   "chain": "航司竞争加剧→航空产业链需求提升→A股航空零部件及服务商受益",
+   "impact": 4,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/18/american-airlines-seatback-screens.html",
+   "ts": "2026-08-18T13:00:01+00:00"
+  },
+  {
    "cat": "ai",
-   "title": "智谱GLM-5.3 API正式上线",
-   "brief": "智谱发布GLM-5.3 API，擅长复杂编码和长程任务，性能领先。",
-   "chain": "国产大模型进步→AI应用加速→A股AI算力与软件链",
+   "title": "宇树科技上海上市首日暴涨542%",
+   "brief": "中国机器人制造商宇树科技在上海上市首日股价飙升542%，显示市场对人形机器人概念高度追捧。",
+   "chain": "人形机器人热度→AI硬件估值提升→A股机器人产业链情绪高涨",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/19/china-backflipping-robot-maker-unitree-jumps-shanghai-ipo.html",
+   "ts": "Wed, 19 Aug 2026 01:37:01 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "欧洲央行经济学家警告AI或引发市场修正",
+   "brief": "欧洲央行经济学家警告，AI相关资产可能引发市场修正，需警惕估值过高风险。",
+   "chain": "AI估值担忧→全球科技股波动→A股AI板块短期调整风险",
    "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608193845849248.html",
-   "ts": "2026-08-19 10:24:29"
-  },
-  {
-   "cat": "ai",
-   "title": "美股AI基建抛售潮波及港股",
-   "brief": "港股AI概念走弱，光通信和存储股大跌，剑桥科技和兆易创新跌超5%。",
-   "chain": "美股AI回调→港股联动→A股算力链情绪承压",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608193845873477.html",
-   "ts": "2026-08-19 10:41:00"
-  },
-  {
-   "cat": "ai",
-   "title": "欧洲央行警告AI引发市场修正风险",
-   "brief": "欧洲央行经济学家警告，AI正推动市场修正，令人担忧。",
-   "chain": "监管担忧→AI估值回调→A股AI板块波动",
-   "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/18/ai-tech-rally-correction-economists.html",
    "ts": "Tue, 18 Aug 2026 13:04:04 GMT"
@@ -185,22 +163,32 @@
   {
    "cat": "ai",
    "title": "OpenAI推出ChatGPT青少年版 强化安全保护",
-   "brief": "OpenAI发布ChatGPT for Teens，内置更强安全保护。",
-   "chain": "AI普及→监管关注→A股AI应用与安全链",
-   "impact": 4,
+   "brief": "OpenAI发布ChatGPT青少年体验版，内置更强安全保护措施，扩大用户群体。",
+   "chain": "AI应用普及→算力需求增长→A股算力基础设施长期受益",
+   "impact": 6,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/08/18/openai-chatgpt-for-teens-safety.html",
    "ts": "Tue, 18 Aug 2026 22:49:58 GMT"
   },
   {
    "cat": "ai",
-   "title": "宇树科技上海上市首日暴涨542%",
-   "brief": "机器人公司宇树科技在上海科创板首日大涨542%，受市场热捧。",
-   "chain": "机器人概念火爆→AI硬件受益→A股机器人产业链",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/19/china-backflipping-robot-maker-unitree-jumps-shanghai-ipo.html",
-   "ts": "Wed, 19 Aug 2026 01:37:01 GMT"
+   "title": "眸深智能完成近5亿元Pre-A+轮融资",
+   "brief": "眸深智能近日完成近5亿元Pre-A+轮融资，由多家国资和产业资本参与，加码AI技术研发。",
+   "chain": "AI融资活跃→产业资本加码→A股AI初创及产业链受关注",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608193845913578.html",
+   "ts": "2026-08-19 11:15:31"
+  },
+  {
+   "cat": "ai",
+   "title": "广州国资下场卖Token 算力交易新模式引关注",
+   "brief": "广州黄埔区产业园将GPU算力切割为“词元”出售，探索算力交易新叙事，引发市场关注。",
+   "chain": "算力交易创新→算力资产化→A股算力租赁及服务商或受益",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608193845910590.html",
+   "ts": "2026-08-19 11:13:26"
   }
  ]
 }
