@@ -1,122 +1,133 @@
 {
  "asof": "2026-08-19",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-19T15:29+08:00",
+ "generated_at": "2026-08-19T19:41+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 4,
-  "cluster_label": "伊朗/霍尔木兹",
+  "cross_day_suppressed": 3,
+  "cluster_label": "伊朗/阿联酋/霍尔木兹",
   "cluster_dropped": [
-   "霍尔木兹海峡交通放缓 不确定性持续"
+   "阿联酋据报遭导弹袭击后切断与伊朗贸易",
+   "霍尔木兹海峡交通放缓，不确定性持续"
   ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "geo",
-   "title": "特朗普称不与伊朗谈判 霍尔木兹海峡仍关闭",
-   "brief": "特朗普表示无计划与伊朗谈判，伊朗称霍尔木兹海峡仍关闭，中东紧张局势持续。",
-   "chain": "地缘冲突升级→避险情绪升温→美股波动，A股油气、黄金板块受关注。",
-   "impact": 10,
+   "title": "特朗普称无计划与伊朗谈判，霍尔木兹海峡仍关闭",
+   "brief": "特朗普表示未安排与伊朗谈判，伊朗方面称霍尔木兹海峡仍关闭，中东局势持续紧张。",
+   "chain": "美伊对峙升级→油价地缘溢价上升→A股油气、航运板块受情绪提振",
+   "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUFBFaGFVcWFQMUh6YjRZVVpwX2piQ093ZzVJVjJtRmgtaE9RVFhJNG40STQxbDlhSG00cHBNVWNlRnZ5TE9MSmVVQTdJRk5hTDhIVEVCeXRtbmsyQkNCR1FSQm5GVGRNYmcybHN6RFNzbGJGN3hsdUUzWFh1c0NEdXd0X0h4SHdRXzlsRjd4NDZvR1VBc0M3ZDJxdG1TcTBISHBWSHRjcHBRSG90SU44cE5WM011U2g0V1dObWZXaEJSX2tONDQ0?oc=5",
    "ts": "2026-08-18T15:18:00+00:00"
   },
   {
    "cat": "oil",
-   "title": "油价因霍尔木兹出口不确定性持续上涨",
-   "brief": "霍尔木兹海峡长期不确定性导致原油出口受阻，油价延续涨势。",
-   "chain": "霍尔木兹海峡关闭→原油供应中断风险→油价上涨，利好莫桑比克油气出口。",
-   "impact": 9,
+   "title": "油价触及三周高位，霍尔木兹不确定性支撑",
+   "brief": "受霍尔木兹海峡不确定性影响，国际油价升至三周高点，市场担忧供应中断。",
+   "chain": "霍尔木兹风险→油价短期上行→莫桑比克LNG出口受益于高油价环境",
+   "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSkdUVWxmeFlpYXd4VjhyeHhvNjBmaVlPbVdFemxvNTJHaExLNWhQbzNXeTN5QkVkWVh4aVU4ODJCWnFGazJnQklMejNuVnpPaHFUN1JEM1lFZ3FZaG96ME00QWdZN1JmYW5fN1lXNmV6dDVZUWxFWlJYc05BaEtzbEpGbXlqSHoxRnB3dTQ2NnZXX0tzRENESXFhRDlGSmxNT01LMWhSWQ?oc=5",
    "ts": "2026-08-19T00:39:00+00:00"
   },
   {
    "cat": "macro",
-   "title": "债券收益率攀升 科技股抛售拖累美股",
-   "brief": "美债收益率上升引发科技股抛售，华尔街股市承压。",
-   "chain": "收益率上升→成长股估值承压→美股科技回调，映射A股算力链情绪。",
-   "impact": 9,
+   "title": "美债收益率从数十年高位回落，聚焦FOMC纪要",
+   "brief": "美国国债收益率从数十年高点回落，市场等待美联储会议纪要，以判断未来利率路径。",
+   "chain": "收益率回落→缓解美股估值压力→利好A股成长股，尤其AI算力链",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/19/treasury-yields-multi-decade-highs-bonds-inflation.html",
+   "ts": "Wed, 19 Aug 2026 08:33:21 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "科技股抛售拖累华尔街，债券收益率攀升",
+   "brief": "美国科技股遭抛售，债券收益率上行，市场担忧利率高企打压高估值成长股。",
+   "chain": "收益率上行→美股科技股承压→A股AI产业链短期情绪受抑",
+   "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUzFvaDFSek1CYmFoSHEzTG9feVA2blNkZE9LMy00ZnpQbnFmVXYwSDJkeDR5OEFNSExNcGdrWWNjdTNLQzlia0V4b0hvV2VaTTcyaXRFdldtaDJUcm9KcDAxQ3NNWV9MaDd2Q2NaVWtHVUEwS0YyU21ia3lJQVpMTjNBMGtlaXp0M0JWaTIxeExpYlpHOEN0b05NN00xRmhHSHc0bERMOG1COGVNYTEzSw?oc=5",
    "ts": "2026-08-18T22:58:54+00:00"
   },
   {
-   "cat": "macro",
-   "title": "美债收益率飙升 市场担忧加剧",
-   "brief": "美国国债收益率自6月以来持续上升，市场担忧通胀与加息。",
-   "chain": "收益率飙升→实际利率上行→黄金承压，美股AI高久期资产估值受抑。",
-   "impact": 8,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/18/us-government-debt-yields-are-surging-at-a-bad-time-heres-whats-behind-the-move.html",
-   "ts": "2026-08-18T17:26:34+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "伊朗考虑袭击欧洲美国目标 阿联酋与伊断贸",
-   "brief": "伊朗据悉考虑袭击欧洲美国目标，阿联酋与伊朗断绝贸易关系，局势升级。",
-   "chain": "地缘风险外溢→避险情绪升温→美股承压，A股军工、黄金受关注。",
-   "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/19/us-iran-war-trump-hormuz.html",
-   "ts": "Wed, 19 Aug 2026 07:08:19 GMT"
-  },
-  {
-   "cat": "oil",
-   "title": "ADNOC削减亚洲原油供应 旗舰油价上涨",
-   "brief": "阿布扎比国家石油公司计划削减8-9月对亚洲客户原油供应，推高穆尔班原油价格。",
-   "chain": "供应削减→亚洲原油供应收紧→油价上涨，利好莫桑比克原油出口。",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608193846216883.html",
-   "ts": "2026-08-19 15:20:48"
-  },
-  {
    "cat": "tech",
-   "title": "SK海力士拟回购286亿美元股票 夜盘涨超5%",
-   "brief": "SK海力士宣布回购40万亿韩元股票并注销，美股夜盘大涨。",
-   "chain": "回购提振股价→存储芯片板块情绪→映射A股存储链。",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608193846219118.html",
-   "ts": "2026-08-19 15:24:37"
+   "title": "美国收紧对华芯片出口，堵截英伟达漏洞",
+   "brief": "美国在禁止英伟达高端芯片对华出口后，正试图堵住关键漏洞，进一步限制中国获取先进芯片。",
+   "chain": "芯片管制升级→英伟达等美企受限→A股国产算力芯片替代逻辑强化",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/19/china-ai-nvidia-chips-us-export-controls.html",
+   "ts": "Wed, 19 Aug 2026 10:32:51 GMT"
   },
   {
    "cat": "ai",
-   "title": "AI芯片创企Etched融资7亿美元 估值达210亿",
-   "brief": "AI芯片公司Etched完成7亿美元融资，估值一个月翻番至210亿美元。",
-   "chain": "AI芯片融资火热→算力需求强劲→利好A股AI算力链。",
+   "title": "OpenAI推出青少年版ChatGPT，强化安全保护",
+   "brief": "OpenAI发布面向青少年的ChatGPT体验，内置更强安全防护，拓展用户群体。",
+   "chain": "AI应用向青少年渗透→OpenAI用户增长→A股AI应用、教育科技概念受提振",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/18/openai-chatgpt-for-teens-safety.html",
+   "ts": "Tue, 18 Aug 2026 22:49:58 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "宾州收紧数据中心审批，AI扩张面临监管挑战",
+   "brief": "宾夕法尼亚州签署行政令，对AI数据中心建设提出新监管要求，可能限制AI产业扩张。",
+   "chain": "美国地方监管趋严→数据中心建设成本上升→A股IDC、算力租赁板块短期承压",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608193846218515.html",
-   "ts": "2026-08-19 15:22:28"
+   "url": "https://finance.eastmoney.com/a/202608193846445366.html",
+   "ts": "2026-08-19 19:10:57"
+  },
+  {
+   "cat": "gas",
+   "title": "莫斯科加油站限购汽油，供应紧张信号",
+   "brief": "莫斯科多家加油站对汽油销售实施限购，显示俄罗斯国内燃料供应紧张。",
+   "chain": "俄罗斯燃料短缺→全球油品供应担忧→莫桑比克能源出口或受益于替代需求",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608193846451068.html",
+   "ts": "2026-08-19 19:29:16"
+  },
+  {
+   "cat": "geo",
+   "title": "泽连斯基面临战时统治挑战，前防长呼吁选举",
+   "brief": "乌克兰前国防部长呼吁举行选举，对泽连斯基的战时领导构成挑战，政局不确定性增加。",
+   "chain": "乌克兰政局波动→地缘风险扰动→美股避险情绪升温，A股军工、黄金受关注",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/19/ukraine-war-fedorov-zelenskky-election.html",
+   "ts": "Wed, 19 Aug 2026 09:30:25 GMT"
   },
   {
    "cat": "macro",
-   "title": "丹斯克银行预计美联储2026年底加息",
-   "brief": "丹斯克银行预计美联储2026年12月、2027年3月各加息25bp，政策利率升至4.00%-4.25%。",
-   "chain": "加息预期→美债收益率上行→美股估值承压，A股成长风格受抑。",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608193846214790.html",
-   "ts": "2026-08-19 15:15:06"
+   "title": "特朗普暂停对加拿大50%关税三天，达成协议",
+   "brief": "特朗普宣布暂停对加拿大50%的关税三天，并称与加方达成协议，贸易紧张暂缓。",
+   "chain": "美加贸易缓和→全球贸易风险下降→利好A股出口链，尤其机械、电子",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/18/trump-carney-canada-tariffs-dealine-talks.html",
+   "ts": "Wed, 19 Aug 2026 03:18:57 GMT"
   },
   {
-   "cat": "macro",
-   "title": "印尼央行预计美联储Q4加息 美债收益率续升",
-   "brief": "印尼央行代理行长预计美联储第四季度加息，美债收益率将继续上升。",
-   "chain": "加息预期→美元走强→新兴市场承压，A股外资流向受关注。",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608193846212056.html",
-   "ts": "2026-08-19 15:07:21"
+   "cat": "tech",
+   "title": "Analog Devices业绩超预期，数据中心芯片需求强劲",
+   "brief": "Analog Devices财报超预期，数据中心和工业芯片销售强劲，显示半导体需求回暖。",
+   "chain": "模拟芯片需求强劲→美股半导体板块提振→A股半导体产业链跟涨",
+   "impact": 7,
+   "source": "Yahoo Finance",
+   "url": "https://www.investors.com/news/technology/adi-stock-analog-devices-fiscal-q3-2026-earnings/?src=A00220&amp;yptr=yahoo",
+   "ts": "2026-08-19T11:16:14Z"
   },
   {
    "cat": "tech",
    "title": "诺基亚年底前关闭中国几乎所有站点",
-   "brief": "据SCMP报道，诺基亚计划年底前关闭在中国大陆几乎所有站点。",
-   "chain": "诺基亚退出→通信设备格局变化→A股通信产业链或受益。",
+   "brief": "据南华早报报道，诺基亚计划在年底前关闭在中国大陆的几乎所有站点，调整在华业务。",
+   "chain": "诺基亚收缩中国业务→通信设备格局变化→A股中兴通讯等国产设备商或受益",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNU0VjRW5KV2tYY3BxTE5PUVB2WVNtMzZqN0R2Vmt4UGVlNDkxYUlURzJZdnN4QzV6SFZNNW9hSmVjVEFRc201NHNhWlY3dG4zSVp2RDVWRTh5RnRhOTJ0Y1AyS2I5eWFPRFh2RFE3WUZyb2VoNFhlZFl6aE9DNGx5UEMtT2VOY3VwTHp5RHFsaUJsMkNDLXNOYUUyNXdUUkF6cUxEeWVacERNNVdnTmxxMlRMWVBHM0J5T3ZNWnBjT0E?oc=5",
@@ -124,39 +135,39 @@
   },
   {
    "cat": "ai",
-   "title": "宇树科技上海上市首日暴涨542%",
-   "brief": "中国机器人公司宇树科技上海上市首日大涨542%，市场热情高涨。",
-   "chain": "机器人龙头暴涨→人形机器人概念→A股机器人产业链受提振。",
+   "title": "特斯拉上线豆包大模型，车机智能升级",
+   "brief": "特斯拉车机接入豆包大模型，提升车载智能交互体验，AI应用落地加速。",
+   "chain": "特斯拉采用国产大模型→AI应用场景拓展→A股AI算力、智能汽车概念受提振",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608193846457948.html",
+   "ts": "2026-08-19 19:33:43"
+  },
+  {
+   "cat": "macro",
+   "title": "美元风险累积，什么可能削弱美元？",
+   "brief": "分析指出美元面临多重风险，包括财政赤字、去美元化趋势等，未来可能走弱。",
+   "chain": "美元走弱预期→利好黄金、新兴市场→A股有色、黄金股受益",
    "impact": 6,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/19/china-backflipping-robot-maker-unitree-jumps-shanghai-ipo.html",
-   "ts": "Wed, 19 Aug 2026 07:20:10 GMT"
+   "url": "https://www.cnbc.com/2026/08/19/inflation-dollar-risks-fed.html",
+   "ts": "Wed, 19 Aug 2026 11:08:03 GMT"
   },
   {
    "cat": "geo",
-   "title": "美韩将缩减联合军演 特朗普或会晤金正恩",
-   "brief": "首尔与华盛顿将联合军演减半，特朗普寻求与金正恩峰会。",
-   "chain": "半岛局势缓和→地缘风险下降→利好风险资产，A股东北亚概念受关注。",
-   "impact": 5,
+   "title": "美国核保护伞松动，盟友考虑核选项",
+   "brief": "美国核保护伞的可靠性受到质疑，盟友可能发展核武器，引发扩散风险。",
+   "chain": "核扩散风险上升→全球地缘不确定性加剧→避险资产受青睐，A股军工、黄金关注",
+   "impact": 7,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/19/south-korea-trump-military-drills-exercise-north-korea-kim-jong-un-.html",
-   "ts": "Wed, 19 Aug 2026 01:57:05 GMT"
-  },
-  {
-   "cat": "gas",
-   "title": "沙特证券交易所因技术问题临时暂停交易",
-   "brief": "沙特证交所因突发技术问题暂停交易，具体影响待评估。",
-   "chain": "技术故障→市场短暂中断→对油气交易影响有限，关注后续。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608193846211977.html",
-   "ts": "2026-08-19 15:08:06"
+   "url": "https://www.cnbc.com/2026/08/19/nuclear-proliferation-defense-risk-trump-umbrella-.html",
+   "ts": "Tue, 18 Aug 2026 23:25:38 GMT"
   },
   {
    "cat": "tech",
-   "title": "苹果改革欧洲应用商店收费 解决支付纠纷",
-   "brief": "苹果调整欧洲App Store收费结构，以解决与监管的支付冲突。",
-   "chain": "监管压力→苹果调整→全球科技监管趋严，A股苹果链影响有限。",
+   "title": "苹果改革欧洲应用商店收费，解决支付纠纷",
+   "brief": "苹果调整欧洲应用商店收费结构，以解决与监管机构的支付争议。",
+   "chain": "苹果合规调整→应用商店生态变化→A股苹果产业链、游戏板块情绪影响",
    "impact": 5,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/08/18/apple-eu-app-store-fees-iphone.html",
@@ -164,53 +175,33 @@
   },
   {
    "cat": "ai",
-   "title": "OpenAI推出ChatGPT青少年版 强化安全保护",
-   "brief": "OpenAI发布ChatGPT for Teens，内置更强安全保护。",
-   "chain": "AI应用扩展→用户增长→利好AI应用层，A股AI应用概念受关注。",
-   "impact": 5,
+   "title": "欧洲央行经济学家警告AI或引发市场修正",
+   "brief": "欧洲央行经济学家担忧AI投资过热，可能引发市场修正，警示估值风险。",
+   "chain": "AI泡沫担忧→美股科技股回调→A股AI板块短期波动加大",
+   "impact": 7,
    "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/18/openai-chatgpt-for-teens-safety.html",
-   "ts": "Tue, 18 Aug 2026 22:49:58 GMT"
+   "url": "https://www.cnbc.com/2026/08/18/ai-tech-rally-correction-economists.html",
+   "ts": "Tue, 18 Aug 2026 13:04:04 GMT"
   },
   {
    "cat": "macro",
-   "title": "美国7月房市承压 工厂产出上升",
-   "brief": "美国7月住房市场仍受压，但工厂产出增长。",
-   "chain": "经济数据分化→美联储政策预期→美股波动，A股出口链受关注。",
-   "impact": 4,
+   "title": "美国7月房市承压，工厂产出上升",
+   "brief": "美国7月住房市场继续承压，但工厂产出增长，经济数据喜忧参半。",
+   "chain": "经济数据分化→美联储政策预期波动→A股周期与成长板块分化",
+   "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTnVKc1I4UWRkNWlXWm93ZGptQURzVVRySXZTSUQyX2RKejdFSUo1cDYwdEVUeWlZZE55dVVyOFZ2YklvZlFobVBiZmdHRFF2NG4yYUFydy0zWldPMFNjR21JcWlCMHFMU0E2R2pQLW9za285UG1NOEI4Q0xmX3M1THZuZG1NaGowSGtJX2ZfTXQ?oc=5",
    "ts": "2026-08-18T15:23:29+00:00"
   },
   {
-   "cat": "oil",
-   "title": "富时100持稳 能源股抵消债券担忧",
-   "brief": "英国富时100指数平稳，能源股上涨抵消债券收益率上升的担忧。",
-   "chain": "能源股走强→油价支撑→利好莫桑比克能源企业。",
+   "cat": "gas",
+   "title": "富时100持稳，能源股抵消债券忧虑",
+   "brief": "英国富时100指数基本持平，能源股上涨抵消了债券收益率上升的负面影响。",
+   "chain": "能源股走强→全球能源板块受关注→莫桑比克能源企业估值或受益",
    "impact": 4,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMlFYeHFieTNRSFZ2Z01Hci02VUdqdFdYbW1mUThhbmJ0TThKSGJEOXByYldoQTAwVVJyckhvbTN0V1BzRXR5LTduUHR1NUNuczc5bmszUURoMUMxaWhPVlp4cXlUS29VSXZ2dy14WmFYbGlOTng1LWY2Ylh0ekxyREhjUFl6RHpRcHBwZ2swY0xZN09GUURWTFNn?oc=5",
    "ts": "2026-08-18T16:15:16+00:00"
-  },
-  {
-   "cat": "gas",
-   "title": "叙利亚发现核材料 部长称将留在国内",
-   "brief": "叙利亚部长表示在叙发现的核材料将留在该国。",
-   "chain": "核材料问题→地缘风险→影响中东局势，对气价影响间接。",
-   "impact": 4,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPREdkSGFNYTMtQTJOVzNlOW5BWHBkd1VmWEhfcUdmNXo5UGNYbkRhMVFuTXJ4MFVOMEZzR252c3BtdmRzVmFoOXAyNUpvNGVNSGZlNlRHSEpiWEUxd0xUVzNPMHdzUEdqUDBsU2VZUjd4ai1yS281eTVzT0FENnlYUW1JNExWZ3BGSlpobUNhY2xfWFhUZ3Zac0cyWHZMSTdYNHYzTmJBTGpIN0xZUnZrN2VnSVNDbkE?oc=5",
-   "ts": "2026-08-18T14:05:56+00:00"
-  },
-  {
-   "cat": "tech",
-   "title": "英伟达股价活跃 三大理由看好后续",
-   "brief": "英伟达股价开始活跃，分析给出三个继续上涨的理由。",
-   "chain": "英伟达上涨→AI算力需求→A股算力链联动。",
-   "impact": 4,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/17/nvidias-stock-has-started-to-come-alive-heres-3-reasons-why-it-can-continue-.html",
-   "ts": "Mon, 17 Aug 2026 20:07:26 GMT"
   }
  ]
 }
