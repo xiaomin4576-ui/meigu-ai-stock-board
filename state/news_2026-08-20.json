@@ -1,82 +1,90 @@
 {
  "asof": "2026-08-20",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-20T19:44+08:00",
+ "generated_at": "2026-08-20T22:16+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 4,
-  "cluster_label": "中东/伊朗",
-  "cluster_dropped": [
-   "索马里海盗因美伊战争而卷土重来"
-  ],
+  "cross_day_suppressed": 2,
+  "cluster_label": "",
+  "cluster_dropped": [],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "美债收益率走高，财政部公布回购计划",
-   "brief": "美国国债收益率小幅走高，交易员消化财政部债券回购计划。",
-   "chain": "美债收益率上行→美股估值承压→A股高估值成长股情绪受抑",
-   "impact": 7,
+   "title": "美债突破40万亿美元 财政危机加剧",
+   "brief": "美国联邦政府债务规模首次突破40万亿美元，分析称标志美国结构性危机。",
+   "chain": "美债规模飙升→利率上行压力→美股估值承压→A股高估值成长板块受抑",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608203848081617.html",
+   "ts": "2026-08-20 21:26:00"
+  },
+  {
+   "cat": "macro",
+   "title": "美债收益率反弹 贝森特干预失效",
+   "brief": "美国国债收益率反弹，抹去财长贝森特讲话后的跌幅，市场对财政担忧持续。",
+   "chain": "收益率反弹→实际利率上行→美股科技股估值承压→A股算力链情绪受抑",
+   "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/20/bond-yields-edge-higher-as-traders-digest-treasury-debt-buyback-plan.html",
-   "ts": "Thu, 20 Aug 2026 08:57:47 GMT"
+   "ts": "Thu, 20 Aug 2026 14:02:31 GMT"
   },
   {
    "cat": "macro",
-   "title": "英国通胀因能源账单上升而回升",
-   "brief": "英国7月通胀因家庭能源账单激增而回升，显示能源价格对通胀的传导。",
-   "chain": "英国通胀回升→全球通胀预期升温→美联储降息预期降温→美股承压→A股风险偏好下降",
+   "title": "TS Lombard：美债回购似收益率曲线控制",
+   "brief": "TS Lombard称美国财政部回购超长期国债类似收益率曲线控制，美元面临风险。",
+   "chain": "美元走弱→黄金受益→美股估值分母改善→A股风险偏好回升",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608203848070833.html",
+   "ts": "2026-08-20 21:09:45"
+  },
+  {
+   "cat": "macro",
+   "title": "美国7月谘商会领先指标超预期",
+   "brief": "美国7月谘商会领先指标环比增长0.2%，高于预期的0.1%，经济韧性显现。",
+   "chain": "经济数据好→美联储降息预期降温→美股短期承压→A股外部流动性收紧",
    "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVDlHUDNTVHV0SHFvcWN2UEZSQmN3TENFSklmWXJlRjY0ZFBhOU0zcUdwN0JNRE5JNFMtVmxiZTdMeW9ZRFZlSm5lcjhwcTRpd04xanJQMkhhSGQydTVmeGhEZk9VUzlDOEZRak02ZDVMdWNjaHl2VEpPaThuNExYMVl0eGNHdnRWdTVtNFk5NHU?oc=5",
-   "ts": "2026-08-19T06:04:00+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "比特币以太坊大涨，特朗普推动加密法案",
-   "brief": "特朗普敦促国会通过加密Clarity Act，比特币和以太坊应声上涨。",
-   "chain": "加密监管明朗化→风险资产情绪改善→美股科技股受益→A股区块链概念映射",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/20/cryptocurrencies-trump-bitcoin-ethereum.html",
-   "ts": "Thu, 20 Aug 2026 09:42:00 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608203848139611.html",
+   "ts": "2026-08-20 22:00:49"
   },
   {
    "cat": "geo",
-   "title": "特朗普威胁对伊朗实施经济D-Day",
-   "brief": "特朗普警告对伊朗实施经济D-Day，并称支持者将面临巨大后果。",
-   "chain": "美伊对峙升级→地缘风险溢价上升→美股能源股受益→A股油气链映射",
+   "title": "特朗普威胁伊朗经济D-Day",
+   "brief": "特朗普威胁对伊朗实施经济D-Day，并警告支持伊朗的国家将面临严重后果。",
+   "chain": "美伊紧张升级→避险情绪升温→美股波动→A股军工、黄金板块受关注",
    "impact": 9,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/19/us-iran-war-trump-hormuz-economic-warfare.html",
-   "ts": "Thu, 20 Aug 2026 09:30:49 GMT"
+   "ts": "Thu, 20 Aug 2026 12:28:13 GMT"
   },
   {
    "cat": "geo",
-   "title": "特朗普警告支持伊朗的国家将面临经济后果",
-   "brief": "特朗普警告任何支持伊朗的国家将面临经济后果，加剧地缘紧张。",
-   "chain": "地缘制裁风险→全球贸易不确定性→美股承压→A股避险情绪升温",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQc0t6ejR6ZDNSMllnR0lXWC1vV3ZyTXoxUDEyeHRXczFpRWtRbzEyWmdkRVRqWi1oZzJEaEF6UnAxcHItbXZ6Z1hKTzBQV2hPOUVFQml3Wk80T1F2UmFRSzIwakhFR2hKbmp3MFJ6LUFDX1BHV3BKeDZxYXdaT2wwWi1kaU5LbkFaX19IekRKSGNUT0VBc1FQeWVRdUxLd0U3V1I5WjZoMmtIcXZUQnRBczZKcTFZa19zUVE?oc=5",
-   "ts": "2026-08-20T02:29:00+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "以色列和土耳其就叙利亚空袭相互警告",
-   "brief": "以色列和土耳其因叙利亚空军基地遭袭而升级警告，中东局势紧张。",
-   "chain": "中东冲突扩散→油价波动→美股能源板块→A股石油链映射",
+   "title": "以色列土耳其就叙利亚互发警告",
+   "brief": "以色列和土耳其就叙利亚空军基地遭袭事件相互升级警告，中东局势再添变数。",
+   "chain": "中东冲突扩散→油价上行→美股能源板块受益→A股石油石化链联动",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQLTlfMHNQWDJxLTRQUnk3S3BmSThwcFNFWTY4dHhTaVZlaENYcFliSkRTVFMzRVliRkgweUxUVThXN0ZfU2Q0Rl9WVXBCZkxBQXZPcUlkeVNKa2kwcFQzM3FVakJMRlQ2N1FBZ3hVUGNXb25ySko1UFVEQjZqU3dfekJUdVBYMFVkQ3RiSm1mMTZFUTFsNFhidHNxY0lsbnVCeTNJOUh0eEQ5dVRMM3VtajlWWlFxOFhfRTFjdXlTWjNtLUhi?oc=5",
    "ts": "2026-08-20T03:24:00+00:00"
   },
   {
+   "cat": "geo",
+   "title": "索马里海盗威胁重现",
+   "brief": "美伊战争引发地区混乱，索马里海盗威胁重现，航运安全受威胁。",
+   "chain": "海盗风险→航运成本上升→油价波动→莫桑比克油气出口运输成本增加",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/20/somali-pirates-return-iran-war.html",
+   "ts": "Thu, 20 Aug 2026 11:13:13 GMT"
+  },
+  {
    "cat": "oil",
-   "title": "油价触及三周高位，因中东供应担忧",
-   "brief": "美伊战争僵局引发供应担忧，油价升至三周高点。",
-   "chain": "地缘风险→油价上涨→莫桑比克油气出口受益，但成本上升",
+   "title": "油价创三周新高 中东供应担忧",
+   "brief": "布伦特原油升至三周高位，因美伊僵局引发供应担忧，市场关注霍尔木兹海峡。",
+   "chain": "油价上涨→上游利润改善→莫桑比克LNG项目经济性提升",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM1ZTcG5JRHQxeFFrOEd6Q0s4eWdFZGZwRmUyaFlPQkEwWEFLZ2xtLUJxMDFGRzZEZ1VEMjA5MjlMazgtZkJRM01FRXJ3Yk5wZUJSRW8yUEc5THM4VEZBd3V0LVhiRHBBWExnTElPMTRCX3d1ODhKR2lDdHVDVktTZS1BTUtuLXN2ZGRwUmpnNzhEdDJBZnp3cHExVndUYWlrenVEOXI0dVppdw?oc=5",
@@ -84,28 +92,28 @@
   },
   {
    "cat": "oil",
-   "title": "WTI原油日内涨3%，报86.93美元",
-   "brief": "WTI原油日内上涨3%，报86.93美元/桶，受中东局势影响。",
-   "chain": "油价上涨→上游勘探受益→莫桑比克LNG项目经济性提升",
+   "title": "伊朗战争能源危机才刚开始",
+   "brief": "分析称伊朗战争引发的能源危机刚刚开始，供应中断风险持续。",
+   "chain": "供应中断风险→油价长期高位→莫桑比克油气出口受益",
    "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608203847972154.html",
-   "ts": "2026-08-20 19:08:44"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOXzN3VmVtUVpMWHBXcnNDdUJXbkNFMFRxRjkxSzJjWEtZMWpnV2V1WWNfWFBNWlNENWhJVFBsUjhrcEtEa1ViaXhwcDRCR3BqeHFTX0JCektpb0dPYjIwTm55eXVGdm5yaDBQSUtjbWxEWllxUWJGVXBTVkVybi12U3pnT1hnQ0g0cW9UbE1jdjFGT3BUVWdKcHJNX1EzMHEybXNOcS1waEZyVk1qaVNFaFpyZHpjQQ?oc=5",
+   "ts": "2026-08-20T06:00:00+00:00"
   },
   {
    "cat": "oil",
-   "title": "中国增加俄罗斯原油进口，印度炼油商受挫",
-   "brief": "中国增加俄罗斯原油进口，挤压印度炼油商市场份额。",
-   "chain": "俄油流向变化→全球原油贸易格局调整→东非炼油竞争加剧",
-   "impact": 7,
+   "title": "中国增购俄油 印度炼厂受挫",
+   "brief": "中国增加俄罗斯原油进口，挤压印度炼厂采购，全球原油流向重塑。",
+   "chain": "俄油流向变化→布伦特承压→莫桑比克LNG相对竞争力变化",
+   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZU9oV2RaZ2RZNW5hZlFqbXFNNmd5RnJkM21hWmo0WVhJX1paTlBWaE50SHhMazFzdHJuVVF2QlpzT1lRZG1VUEdERkdsSXcxTjFmQjd5RXlJeDM1eVR1NHZnd0xlRWJFXzlsbS0tdmpJMlVzeFNrLUk1R25abzR3cUxDYXRCUW1lekg0LU9lWmNzdWFyekI1SFJOdmxJSWVaRS0zT3Z5QzRVNkt3VndialQySlRtbTVKTTdJb3g1T0h2ZXFabXNLMQ?oc=5",
-   "ts": "2026-08-20T10:45:34+00:00"
+   "ts": "2026-08-20T00:48:34+00:00"
   },
   {
    "cat": "gas",
-   "title": "美国天然气因德州高温电力需求上涨",
-   "brief": "德州高温推高电力需求，美国天然气价格上涨。",
+   "title": "美国天然气因德州高温需求上涨",
+   "brief": "美国天然气价格因德州高温推高电力需求而上涨，Houston气温高于平均水平。",
    "chain": "气价上涨→全球LNG价格联动→莫桑比克LNG出口价格受益",
    "impact": 7,
    "source": "Bloomberg",
@@ -114,29 +122,29 @@
   },
   {
    "cat": "gas",
-   "title": "伊朗战争能源危机才刚刚开始",
-   "brief": "分析认为伊朗战争引发的能源危机将持续发酵，影响全球供应。",
-   "chain": "地缘冲突→能源供应中断风险→莫桑比克LNG作为替代来源受益",
-   "impact": 8,
+   "title": "霍尔木兹航运未受美伊僵局影响",
+   "brief": "数据显示霍尔木兹海峡航运未受美伊僵局影响，但市场仍保持警惕。",
+   "chain": "航运正常→短期气价平稳→莫桑比克LNG运输风险可控",
+   "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOXzN3VmVtUVpMWHBXcnNDdUJXbkNFMFRxRjkxSzJjWEtZMWpnV2V1WWNfWFBNWlNENWhJVFBsUjhrcEtEa1ViaXhwcDRCR3BqeHFTX0JCektpb0dPYjIwTm55eXVGdm5yaDBQSUtjbWxEWllxUWJGVXBTVkVybi12U3pnT1hnQ0g0cW9UbE1jdjFGT3BUVWdKcHJNX1EzMHEybXNOcS1waEZyVk1qaVNFaFpyZHpjQQ?oc=5",
-   "ts": "2026-08-20T06:00:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR2wyclNjWVpvOTM3X0dCUjJNdEhZYkYwOC0taHk5bnNRXzZ2d3R2V092Z0pNTlBiVDdzejJXS0ozSnc1aGRjenhxbXRUY3RsMjgzUV9wSkFlTEJxbk1VbUFvbDZMTjhwTXpzR2lJVndmanZhUDhudjFlMUNVdVptcjlQYXZ1UTczRnVNM3pIUTQzQ3ctcUxwd2VYalFHYXRXdzJHemNSOUE5Vmwzdzd0NFNEcw?oc=5",
+   "ts": "2026-08-20T02:58:00+00:00"
   },
   {
    "cat": "tech",
-   "title": "Marvell股价大涨10%，与谷歌达成AI芯片交易",
-   "brief": "Marvell与谷歌达成AI芯片协议，谷歌可购买至多122亿美元股票，股价大涨10%。",
-   "chain": "AI芯片需求强劲→美股半导体受益→A股算力链映射",
+   "title": "沃尔玛暴跌8.7% 业绩不及预期",
+   "brief": "沃尔玛开盘暴跌8.7%，创2022年7月以来最大单日跌幅，因销售增长放缓。",
+   "chain": "零售疲软→消费降级→美股承压→A股消费电子链受抑",
    "impact": 8,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/19/marvell-google-ai-chips.html",
-   "ts": "Wed, 19 Aug 2026 20:01:53 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608203848083477.html",
+   "ts": "2026-08-20 21:33:00"
   },
   {
    "cat": "tech",
-   "title": "SK海力士宣布大规模回购，股价飙升12%",
-   "brief": "SK海力士宣布大规模股票回购，股价在首尔大涨超12%。",
-   "chain": "存储芯片景气→美股半导体情绪→A股存储链映射",
+   "title": "SK海力士宣布大规模回购 股价大涨",
+   "brief": "SK海力士在首尔股价大涨超12%，此前宣布大规模股票回购计划。",
+   "chain": "存储龙头回购→半导体板块情绪提振→A股存储链联动",
    "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/20/sk-hynixs-south-korean-shares-surge-stock-buyback-.html",
@@ -144,49 +152,59 @@
   },
   {
    "cat": "tech",
-   "title": "沃尔玛盘前跌超6%，二季度业绩超预期",
-   "brief": "沃尔玛二季度营收和EPS超预期，但盘前股价下跌超6%。",
-   "chain": "零售巨头业绩→消费趋势→A股消费链映射",
-   "impact": 6,
+   "title": "新一轮芯片涨价潮来袭",
+   "brief": "半导体公司密集宣布涨价，AI虹吸效应持续，射频芯片龙头卓胜微等领涨。",
+   "chain": "芯片涨价→产业链利润改善→A股半导体设计公司受益",
+   "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608203847973557.html",
-   "ts": "2026-08-20 19:14:03"
+   "url": "https://finance.eastmoney.com/a/202608203848118149.html",
+   "ts": "2026-08-20 21:35:00"
   },
   {
    "cat": "tech",
-   "title": "Moderna和默克癌症疫苗试验成功，股价大涨",
-   "brief": "Moderna和默克的癌症疫苗在后期试验中显示前景，股价双双大涨。",
-   "chain": "生物科技突破→美股医药板块→A股创新药映射",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/19/moderna-merck-cancer-vaccine-shows-initial-late-stage-melanoma-data.html",
-   "ts": "Wed, 19 Aug 2026 20:34:09 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "阿里AI年化收入突破495亿元",
-   "brief": "阿里巴巴CEO吴泳铭表示，AI已成为阿里云加速增长的核心引擎，AI相关产品年化收入突破495亿元。",
-   "chain": "AI商业化加速→美股AI估值提升→A股算力链映射",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608203847990221.html",
-   "ts": "2026-08-20 19:38:17"
-  },
-  {
-   "cat": "ai",
-   "title": "Meta成微软最大AI客户之一",
-   "brief": "Meta每年花费数亿美元通过微软Azure访问AI模型，成为微软最大AI客户之一。",
-   "chain": "AI云需求强劲→美股云服务商受益→A股算力链映射",
+   "title": "阿里ADR下跌5.3% 财报不及预期",
+   "brief": "阿里巴巴ADR下跌5.3%，因第二季度财报显示AI支出导致净利润大跌75%。",
+   "chain": "阿里业绩下滑→中概股承压→A股云计算链情绪受抑",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608203847958933.html",
-   "ts": "2026-08-20 19:04:54"
+   "url": "https://finance.eastmoney.com/a/202608203848083223.html",
+   "ts": "2026-08-20 21:32:30"
   },
   {
    "cat": "ai",
-   "title": "Stripe收购OpenRouter，扩展AI领域",
-   "brief": "Stripe收购OpenRouter，进一步深入AI领域。",
-   "chain": "AI基础设施整合→美股科技并购活跃→A股AI应用映射",
+   "title": "Marvell获谷歌AI芯片大单 股价涨10%",
+   "brief": "Marvell与谷歌达成AI芯片协议，谷歌可购买至多122亿美元股票，股价大涨。",
+   "chain": "AI芯片需求强劲→美股AI链受益→A股算力硬件链联动",
+   "impact": 9,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/19/marvell-google-ai-chips.html",
+   "ts": "Wed, 19 Aug 2026 20:01:53 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "OpenAI CFO称2027年将上市",
+   "brief": "OpenAI CFO告诉员工，公司将在2027年或更早上市，引发市场关注。",
+   "chain": "OpenAI上市预期→AI投资热潮→A股AI概念股情绪提振",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html",
+   "ts": "Wed, 19 Aug 2026 20:07:09 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "阿里平头哥二代芯片下半年流片",
+   "brief": "阿里CEO吴泳铭表示，平头哥第二代国产芯片今年下半年开始流片，算力强。",
+   "chain": "国产芯片进展→AI算力自主可控→A股半导体设备链受益",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608203848091855.html",
+   "ts": "2026-08-20 21:32:23"
+  },
+  {
+   "cat": "ai",
+   "title": "Stripe收购OpenRouter 拓展AI",
+   "brief": "Stripe将收购OpenRouter，金融科技公司进一步深入AI领域。",
+   "chain": "AI基础设施并购→AI应用加速→A股AI应用端受益",
    "impact": 6,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/08/19/stripe-openrouter-fintech-ai-model-marketplace-.html",
@@ -194,23 +212,13 @@
   },
   {
    "cat": "ai",
-   "title": "OpenAI CFO称2027年将上市",
-   "brief": "OpenAI CFO告诉员工，公司将在2027年或更早上市。",
-   "chain": "AI巨头上市预期→美股AI板块估值提升→A股AI概念映射",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html",
-   "ts": "Wed, 19 Aug 2026 20:07:09 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "合肥智算集群今日正式上线",
-   "brief": "合肥智算集群今日上线，国家先进计算产业创新中心（安徽）启动。",
-   "chain": "国内算力基建加速→A股算力链受益→全球AI竞争加剧",
-   "impact": 6,
+   "title": "Anthropic旗下Ode收购AI咨询公司",
+   "brief": "Anthropic旗下合资企业Ode计划收购AI咨询公司CasperStudios。",
+   "chain": "AI并购活跃→行业整合→A股AI服务商受关注",
+   "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608203847993715.html",
-   "ts": "2026-08-20 19:37:25"
+   "url": "https://finance.eastmoney.com/a/202608203848050334.html",
+   "ts": "2026-08-20 21:03:47"
   }
  ]
 }
