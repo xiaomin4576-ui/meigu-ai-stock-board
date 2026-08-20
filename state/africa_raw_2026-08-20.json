@@ -1,6 +1,6 @@
 {
  "asof": "2026-08-20",
- "fetched_at": "2026-08-20T12:06+08:00",
+ "fetched_at": "2026-08-20T15:31+08:00",
  "meta": {
   "counts": {
    "TechCabal": 0,
@@ -12,34 +12,154 @@
    "Condia": 25,
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
-   "Zimbabwe Situation": 1,
+   "Zimbabwe Situation": 0,
    "African Business": 0,
-   "非洲科技·聚合": 10,
-   "中非科技·聚合": 14
+   "非洲科技·聚合": 11,
+   "中非科技·聚合": 15
   },
   "total": 60,
-  "ai_flagged": 17,
+  "ai_flagged": 13,
   "aiinfra_flagged": 4,
-  "countries": 5
+  "countries": 7
  },
  "items": [
   {
-   "title": "South-South technology ties seen flourishing",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTFBfbVVsM0tKR0hSSHVFS3V6bnlWZURMWmxVdlcxRllyb2NaemoxNDVxcjhEWXYwNGZMa3ZrWk03emQwaDVkMEZROG5sMFM1SU5nRFp1Q1BUM2cycmhJbDJkSTNVRnVDc2tSdUJZV3NGOTBmNEhuVEpFSDJHNmhwQQ",
-   "source": "chinadaily.com.cn·聚合",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBfbVVsM0tKR0hSSHVFS3V6bnlWZURMWmxVdlcxRllyb2NaemoxNDVxcjhEWXYwNGZMa3ZrWk03emQwaDVkMEZROG5sMFM1SU5nRFp1Q1BUM2cycmhJbDJkSTNVRnVDc2tSdUJZV3NGOTBmNEhuVEpFSDJHNmhwQQ?oc=5",
-   "date": "Thu, 20 Aug 2026 01:58:34 GMT",
+   "title": "Paga out, Lemmy MFB in: What LemFi’s banking shift means for African remittances",
+   "brief": "LemFi is shifting naira operations from Paga to its own entity, Lemmy MFB, as it seeks greater control.",
+   "source": "Condia",
+   "url": "https://thecondia.com/lemfi-replaces-paga-lemmy-mfb/",
+   "date": "Thu, 20 Aug 2026 07:30:00 +0000",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
   {
-   "title": "Zimbabwe’s richest man plans 15,000 new mobile money agents as citizens return from South Africa | Business Insider Africa",
-   "brief": "Source: Zimbabwe’s richest man plans 15,000 new mobile money agents as citizens return from South Africa | Business Insider Africa Zimbabwe’s richest man, Strive Masiyiwa, has directed his Econet group to create employme",
-   "source": "Zimbabwe Situation",
-   "url": "https://www.zimbabwesituation.com/news/zimbabwes-richest-man-plans-15000-new-mobile-money-agents-as-citizens-return-from-south-africa-business-insider-africa/",
-   "date": "Wed, 19 Aug 2026 19:20:47 +0000",
+   "title": "MTN Uganda Backs Uganda’s US$500 Billion Economic Ambition Through RIC2026",
+   "brief": "MTN Uganda  has renewed its partnership with the Private Sector Foundation Uganda (PSFU)  as Platinum Sponsor of the Annual Regional Industrialisation Conference 2026 (RIC2026), marking ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/08/20/mtn-uganda-backs-ugandas-500-billion-economic-ambition-through-ric2026/",
+   "date": "Thu, 20 Aug 2026 07:27:28 +0000",
+   "country": "🇺🇬 乌干达",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "MTN MoMo Uganda Launches Financial Literacy Campaign on Responsible Borrowing",
+   "brief": "MTN MoMo Uganda  has launched a financial literacy campaign aimed at helping customers better understand responsible borrowing and the benefits of timely loan repayment. The ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/08/20/mtn-momo-uganda-launches-financial-literacy-campaign-on-responsible-borrowing/",
+   "date": "Thu, 20 Aug 2026 07:15:09 +0000",
+   "country": "🇺🇬 乌干达",
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "OAuth token theft surges as attackers weaponise consent",
+   "brief": "Account takeover is now perpetrated by hijacking trusted workflows, even in environments where multi-factor authentication is switched on.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/oauth-token-theft-surges-as-attackers-weaponise-consent/WnpNgq21ZggMVrGd",
+   "date": "Thu, 20 Aug 2026 09:13:08 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Yas Tanzania Brings Fibre Connectivity to Homes, Businesses in Dodoma",
+   "brief": "Yas Tanzania  has officially launched Yas Fiber in Dodoma, expanding access to high-speed fibre connectivity for homes, businesses and institutions in Tanzania’s growing capital. The ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/08/20/yas-tanzania-brings-fibre-connectivity-to-homes-businesses-in-dodoma/",
+   "date": "Thu, 20 Aug 2026 07:09:09 +0000",
+   "country": "🇹🇿 坦桑尼亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Comsol launches 5G assault on SA’s home broadband market",
+   "brief": "The company targets a nationwide 5G home broadband network of base stations, with more than one million Gauteng households already covered.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/comsol-launches-5g-assault-on-sas-home-broadband-market/LPwQ5MlbejdvNgkj",
+   "date": "Thu, 20 Aug 2026 08:51:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Now, where does it hurt?",
+   "brief": "While telemedicine isn't explicitly part of the NHI, it could become one of the key delivery mechanisms for the universal healthcare plan.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/now-where-does-it-hurt/G98YdqLGNOkMX2PD",
+   "date": "Thu, 20 Aug 2026 08:47:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Saving Grace Education Group launches Learn to Read programme for Grade R–6 learners",
+   "brief": "The Saving Grace Learn to Read online reading programme is built for South African learners who are not yet reading confidently.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/saving-grace-education-group-launches-learn-to-read-programme-for-grade-r-6-learners/kYbe9MXbZOgvAWpG",
+   "date": "Thu, 20 Aug 2026 08:40:00 +0200",
    "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Fighting 2026 threats with 2016 tools: A recipe for organisational risk",
+   "brief": "Preventing and identifying financial crime is no longer something that can be managed with spreadsheets, paper files and good intentions, says Hawken McEwan, director of risk and compliance at nCino KYC Africa.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/fighting-2026-threats-with-2016-tools-a-recipe-for-organisational-risk/wbrpOqg2RZpMDLZn",
+   "date": "Thu, 20 Aug 2026 08:38:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Can an ice blasting machine safely clean electrical equipment?",
+   "brief": "An ice blasting machine can safely and effectively clean many kinds of electrical equipment without introducing water or leaving abrasive residue behind.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/can-an-ice-blasting-machine-safely-clean-electrical-equipment/KzQenvjyxgEqZd2r",
+   "date": "Thu, 20 Aug 2026 08:36:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "What comes after MovieBox? The streaming apps users are choosing in 2026",
+   "brief": "Discover the best MovieBox alternatives in 2026, including legal free streaming apps, Android options, and services available across Africa.",
+   "source": "Condia",
+   "url": "https://thecondia.com/moviebox-alternatives-2026/",
+   "date": "Thu, 20 Aug 2026 06:34:51 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Why smaller urban warehouses are becoming vital to online retail",
+   "brief": "A small warehouse to rent located close to residential and commercial areas can help retailers shorten the final stage of delivery.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/why-smaller-urban-warehouses-are-becoming-vital-to-online-retail/mYZRXM9gVD2vOgA8",
+   "date": "Thu, 20 Aug 2026 08:34:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Blue Cloud Softech shares rise 1.3% as company signs Africa telecom pact with GCIB, Afro Mobile",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxOX2habjdYSlNmRXRxRExQdDVFWThjR3lGUW01OU81WUpVSUd3Ni1uZ1MtZXNPeEhuam5fWkVlOUI2cTNuUm5NVnhnaHpSa0tWblBJNVh2bTdxYVpEN01YOTVUWGIxckNFQksxck9wSXRuVXlSR2NsMFVLMVpHZ3",
+   "source": "TradingView·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOX2habjdYSlNmRXRxRExQdDVFWThjR3lGUW01OU81WUpVSUd3Ni1uZ1MtZXNPeEhuam5fWkVlOUI2cTNuUm5NVnhnaHpSa0tWblBJNVh2bTdxYVpEN01YOTVUWGIxckNFQksxck9wSXRuVXlSR2NsMFVLMVpHZ3J2UVlVZ1h4SXdKWVp3LXJfalduaUFmbFpUV2lfcUpqdWNXX0V0SjROMDFxUWRzR1ZOTmxmM3JDaTlIV19yVEN6clVJTEZieHRCNi1SZ3dlNzhFNW5oMGlIYWN1UnV4Y1ZaaW1jN1FkVzNvXzZRYg?oc=5",
+   "date": "Thu, 20 Aug 2026 04:36:00 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "South-South technology ties seen flourishing",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTFBfbVVsM0tKR0hSSHVFS3V6bnlWZURMWmxVdlcxRllyb2NaemoxNDVxcjhEWXYwNGZMa3ZrWk03emQwaDVkMEZROG5sMFM1SU5nRFp1Q1BUM2cycmhJbDJkSTNVRnVDc2tSdUJZV3NGOTBmNEhuVEpFSDJHNmhwQQ",
+   "source": "China Daily·聚合",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBfbVVsM0tKR0hSSHVFS3V6bnlWZURMWmxVdlcxRllyb2NaemoxNDVxcjhEWXYwNGZMa3ZrWk03emQwaDVkMEZROG5sMFM1SU5nRFp1Q1BUM2cycmhJbDJkSTNVRnVDc2tSdUJZV3NGOTBmNEhuVEpFSDJHNmhwQQ?oc=5",
+   "date": "Thu, 20 Aug 2026 01:58:34 GMT",
+   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -144,32 +264,12 @@
    "is_aiinfra": false
   },
   {
-   "title": "The U6 GHz decision: A foundation for SA's digital trajectory",
-   "brief": "The U6 GHz allocation gives South Africa a clear path to next-generation connectivity, unlocking faster speeds and economic opportunity.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/the-u6-ghz-decision-a-foundation-for-sas-digital-trajectory/j5alrMQArOxMpYQk",
-   "date": "Wed, 19 Aug 2026 13:58:56 +0200",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Egypt Completes Africa’s First 6GHz Mobile Services Trial",
    "brief": "Egypt has completed Africa’s first trial of mobile services using the 6 GHz band (U6GHz), marking a significant step in the country’s efforts to prepare ......",
    "source": "TechAfrica News",
    "url": "https://techafricanews.com/2026/08/19/egypt-completes-africas-first-6ghz-mobile-services-trial/",
    "date": "Wed, 19 Aug 2026 11:10:06 +0000",
    "country": "🇪🇬 埃及",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "UnionPay and Standard Bank Expand E-Commerce Acceptance Across Nine African Markets",
-   "brief": "UnionPay International (UPI)  and Standard Bank Group  have expanded UnionPay e-commerce acceptance across nine African markets, enabling participating merchants to accept secure online payments from ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/08/19/unionpay-and-standard-bank-expand-e-commerce-acceptance-across-nine-african-markets/",
-   "date": "Wed, 19 Aug 2026 11:04:46 +0000",
-   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -194,16 +294,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Nigeria Unveils National Digital Cloud Policy to Drive Regional Cloud Hub Ambitions",
-   "brief": "Nigeria has unveiled a National Digital Cloud Policy aimed at transforming the country into a leading digital services export hub for West Africa and Sub-Saharan ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/08/19/nigeria-unveils-national-digital-cloud-policy-to-drive-regional-cloud-hub/",
-   "date": "Wed, 19 Aug 2026 10:27:14 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
    "title": "Lesaka brings data science to SA’s spaza economy",
    "brief": "The fintech firm rebrands Kazang Insights, while expanding its data analytics strategy across informal retail, payments and hospitality.",
    "source": "ITWeb Africa",
@@ -214,44 +304,14 @@
    "is_aiinfra": false
   },
   {
-   "title": "Ezeebit Integrates ZARU to Expand Digital Asset Merchant Payments",
-   "brief": "ARU, also known as ZAR Universal Network (ZARU) , has announced that Ezeebit has integrated ZARU into its merchant payment infrastructure, expanding the digital asset’s use ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/08/19/ezeebit-integrates-zaru-to-expand-digital-asset-merchant-payments/",
-   "date": "Wed, 19 Aug 2026 09:22:47 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "China goes rural with data centers in quest to power AI",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE9vajRfMVczaDlMeG1DMlFaQVlPTkxfR2ozVkZfVWJoVDgzMTJhQXJzdWl5eTlnb2liSFF2QXZMSGtOMk42b1gtX1lGczJNOG5LUXM2QUpXSWkycVA0MzJYRURtOElVVnEyajQ4ZDFoQWZQUW1BdERWUDFyc0c?oc",
-   "source": "Tech Xplore·聚合",
+   "source": "techxplore.com·聚合",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9vajRfMVczaDlMeG1DMlFaQVlPTkxfR2ozVkZfVWJoVDgzMTJhQXJzdWl5eTlnb2liSFF2QXZMSGtOMk42b1gtX1lGczJNOG5LUXM2QUpXSWkycVA0MzJYRURtOElVVnEyajQ4ZDFoQWZQUW1BdERWUDFyc0c?oc=5",
    "date": "Wed, 19 Aug 2026 09:10:06 GMT",
    "country": null,
    "is_ai": true,
    "is_aiinfra": true
-  },
-  {
-   "title": "What happens to your ERP when the internet goes down? A South African business guide",
-   "brief": "QuickEasy BOS supports both cloud hosting, which relies more on internet access, and local hosting, which relies more on a company's server and IT set-up.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/what-happens-to-your-erp-when-the-internet-goes-down-a-south-african-business-guide/KWEBbvyLbAoqmRjO",
-   "date": "Wed, 19 Aug 2026 11:10:00 +0200",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Keeping the human in the finance loop",
-   "brief": "Microsoft's new AI agents can automate accounts payable from end to end, but finance leaders must decide where to draw the line, says Claire van der Merwe, practice head for Dynamics 365 Business Central Consulting at Br",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/keeping-the-human-in-the-finance-loop/rxP3jMBE2OQ7A2ye",
-   "date": "Wed, 19 Aug 2026 11:08:00 +0200",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
   },
   {
    "title": "Former SpaceX director joins Terra Industries as VP of Strategy",
@@ -464,11 +524,11 @@
    "is_aiinfra": true
   },
   {
-   "title": "Jem raises $8.4m to expand AI-powered platform",
-   "brief": "The workforce management platform serves 250 000+ frontline workers across 200+ companies and plans to expand its AI-native offering.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/jem-raises-84m-to-expand-ai-powered-platform/DZQ58MV8mZjvzXy2",
-   "date": "Tue, 18 Aug 2026 12:08:22 +0200",
+   "title": "China's homegrown AI accelerators to supply 90% of the country's domestic market, analysts suggest — Cambricon and Huawei expected to be the biggest winners in the shift away from Nvidia and AMD",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi-wJBVV95cUxPZmYxLWxfa1RZVVhJb3Vyd2lSLXltZWYzVDZmVW53c3gxZm5DeXMyR1pZMC1HLWNac09iMDNJUWR6MFBkOGZoQWhvaDZET01wcVRVQjkzejU4LTFzTU80Y1hJS3NFWHRpSXFpelZFU2d6RndlWWpjZDRUUHJkN1",
+   "source": "Tom's Hardware·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPZmYxLWxfa1RZVVhJb3Vyd2lSLXltZWYzVDZmVW53c3gxZm5DeXMyR1pZMC1HLWNac09iMDNJUWR6MFBkOGZoQWhvaDZET01wcVRVQjkzejU4LTFzTU80Y1hJS3NFWHRpSXFpelZFU2d6RndlWWpjZDRUUHJkN1NnNURqUVhmd1U1bTVZb2RYUWhOelNkWlY4alg1T0lheTBRaEhJd1lBZi1XdEpZcFVNMmMwT1FMS3hzYkh3QTM3YlFRczhSVXF4VzVRSG5oaXFRMFNMU1ZSOG96WnNoVWJBMEJRc1p6dnlkU1hvMEEySG1aZ0tzQ2FXSVhDV2toS0FWYTNNWVlpQzNrX2xNOFdjTnRzMGJjd2hvWVhwbndrem9kSThsMl9CZzEtbWlKT2liUk5fTW1BckRHdjBPV3RSVmNHYWVLWFc0bk52TGY2TGVyeENYNGNJZGtVaWVraVZ0YXZMSWhpakEtWkVYU184MVFHSzIyOWtFblVn?oc=5",
+   "date": "Tue, 18 Aug 2026 11:20:00 GMT",
    "country": null,
    "is_ai": true,
    "is_aiinfra": false
@@ -561,66 +621,6 @@
    "date": "Tue, 18 Aug 2026 09:00:00 +0200",
    "country": null,
    "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "AI: An agent for change",
-   "brief": "Even as the workforce grapples with AI anxiety, that very technology can help solve the issue of traditional IT adoption and change management.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/ai-an-agent-for-change/KWEBbvyLbkyqmRjO",
-   "date": "Tue, 18 Aug 2026 08:33:29 +0200",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "The Please Call Me millions: Three strikes for Raining Men’s rescuer",
-   "brief": "Raining Men has been in business rescue since 2019, but the man who stepped into the shoes of its directors has a troubled history.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/the-please-call-me-millions-three-strikes-for-raining-mens-rescuer/j5alrvQArP8vpYQk",
-   "date": "Tue, 18 Aug 2026 08:21:51 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "How to make money with AI: Practical income paths",
-   "brief": "Discover practical ways to make money with AI, from freelance services and digital products to automation, consulting, and scalable online income.",
-   "source": "Condia",
-   "url": "https://thecondia.com/how-to-make-money-with-ai/",
-   "date": "Tue, 18 Aug 2026 04:42:46 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Local Bourses Miss IPO Wave As Africa’s Fintech Unicorns Take Listings Abroad",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTFB4anNRTWl2RHJwTXZPQTlYdU82bjZvZ2twT1RLSzdCMjRac0hrbXhLOG15cUpWdTBhVWxiY3FBeTZ2M2t3TE1WLTZxX2F4U3VBaWgxeHRfT2czUEZ6NW5NZUl4Qzd3TXE5RFBPWHhBQmV3ZnlnLUtLU2dHNA?oc=",
-   "source": "WeeTracker·聚合",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB4anNRTWl2RHJwTXZPQTlYdU82bjZvZ2twT1RLSzdCMjRac0hrbXhLOG15cUpWdTBhVWxiY3FBeTZ2M2t3TE1WLTZxX2F4U3VBaWgxeHRfT2czUEZ6NW5NZUl4Qzd3TXE5RFBPWHhBQmV3ZnlnLUtLU2dHNA?oc=5",
-   "date": "Mon, 17 Aug 2026 17:31:29 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Why the CBN must bake transparency into its sandbox",
-   "brief": "The CBN’s regulatory sandbox could formalise Nigeria’s virtual asset industry, but transparency and structural barriers threaten its impact.",
-   "source": "Condia",
-   "url": "https://thecondia.com/why-the-cbn-must-bake-transparency-into-its-sandbox/",
-   "date": "Mon, 17 Aug 2026 15:02:47 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Instabase Becomes SuperApp, Launches the AI Collaboration Super App",
-   "brief": "SuperApp, Inc., formerly Instabase, Inc., today launched SuperApp, the AI collaboration super app, available on the web, iOS, Android, and desktop.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/instabase-becomes-superapp-launches-the-ai-collaboration-super-app/Gb3Bw7WaPjwq2k6V",
-   "date": "Mon, 17 Aug 2026 12:00:00 +0200",
-   "country": null,
-   "is_ai": true,
    "is_aiinfra": false
   }
  ]
