@@ -1,6 +1,6 @@
 {
  "asof": "2026-08-21",
- "fetched_at": "2026-08-21T12:09+08:00",
+ "fetched_at": "2026-08-21T15:32+08:00",
  "meta": {
   "counts": {
    "TechCabal": 0,
@@ -12,25 +12,95 @@
    "Condia": 25,
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
-   "Zimbabwe Situation": 1,
+   "Zimbabwe Situation": 0,
    "African Business": 0,
    "非洲科技·聚合": 9,
-   "中非科技·聚合": 14
+   "中非科技·聚合": 13
   },
   "total": 60,
   "ai_flagged": 20,
   "aiinfra_flagged": 4,
-  "countries": 8
+  "countries": 7
  },
  "items": [
   {
-   "title": "Zim prioritises AI, 5G-powered media",
-   "brief": "Source: Zim prioritises AI, 5G-powered media – herald Freeman Razemba Senior Reporter Zimbabwe is seeking to harness artificial intelligence, advanced data analytics and 5G broadcasting infrastructure to modernise its me",
-   "source": "Zimbabwe Situation",
-   "url": "https://www.zimbabwesituation.com/news/zim-prioritises-ai-5g-powered-media/",
-   "date": "Fri, 21 Aug 2026 03:37:23 +0000",
-   "country": "🇿🇼 津巴布韦",
+   "title": "NITDA and Budget Office Inaugurate Committee to Drive Nigeria’s Sovereign Cloud Initiative",
+   "brief": "The National Information Technology Development Agency (NITDA) , in collaboration with the Budget Office of the Federation (BOF),  has inaugurated the Joint Technical Committee on the ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/08/21/nitda-budget-office-inaugurate-committee-nigeria-sovereign-cloud-initiative/",
+   "date": "Fri, 21 Aug 2026 07:27:05 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "ITWebTV Biz: How AWS is helping to build SA’s next generation of cloud entrepreneurs",
+   "brief": "Through its Equity Equivalent Investment Programme, AWS South Africa has supported 47 black-owned, cloud-native businesses, equipping them with AWS certifications, go-to-market skills and access to its global partner net",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/itwebtv-biz-how-aws-is-helping-to-build-sas-next-generation-of-cloud-entrepreneurs/Pero37Z3JneMQb6m",
+   "date": "Fri, 21 Aug 2026 09:25:00 +0200",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Kenya and KEXIM Advance Talks on Digital Media City Project at Konza Technopolis",
+   "brief": "Kenya is advancing discussions with the Korea Import-Export Bank (KEXIM) on the proposed Digital Media City (DMC) Infrastructure Project at Konza Technopolis. Principal Secretary for ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/08/21/kenya-and-kexim-advance-talks-on-digital-media-city-project-at-konza-technopolis/",
+   "date": "Fri, 21 Aug 2026 07:19:35 +0000",
+   "country": "🇰🇪 肯尼亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "AI adoption exposes governance gaps as organisations race to keep up",
+   "brief": "AI adoption is accelerating, but companies must keep governance, security and human oversight in step with the technology, industry experts said at TrendAI Spark 2026.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/ai-adoption-exposes-governance-gaps-as-organisations-race-to-keep-up/GxwQD71DPgBvlPVo",
+   "date": "Fri, 21 Aug 2026 09:19:00 +0200",
+   "country": null,
    "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "RSwitch Takes Digital Finance Campaign to Kigali Communities",
+   "brief": "RSwitch  has taken its digital financial inclusion campaign, #TwagiyeKashiresi, directly to communities in Kigali, engaging residents and businesses in Nyabugogo and Gisozi Agakiriro. The two-day ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/08/21/rswitch-takes-digital-finance-campaign-to-kigali-communities/",
+   "date": "Fri, 21 Aug 2026 07:07:12 +0000",
+   "country": "🇷🇼 卢旺达",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Automated Data Processing and Financial Process Automation: How They Eliminate Manual Bottlenecks at Scale for Your Business",
+   "brief": "As your business grows, the amount of financial data can become difficult to manage. Manual processes could involve a huge number of man-hours from your employees, and these are resources that could be better used elsewh",
+   "source": "IT News Africa",
+   "url": "https://www.itnewsafrica.com/2026/08/automated-data-processing-and-financial-process-automation-how-they-eliminate-manual-bottlenecks-at-scale-for-your-business/",
+   "date": "Fri, 21 Aug 2026 07:03:39 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "The face in the machine",
+   "brief": "AI anthropomorphism is our next great vulnerability, as we are wired to see minds where there are none. AI has learned to exploit that wiring.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/the-face-in-the-machine/dgp45MaBlzDqX9l8",
+   "date": "Fri, 21 Aug 2026 08:45:38 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "WSO2 Opens First Africa-Based Office in Johannesburg, Deepening Investment in the Continent’s Modernization",
+   "brief": "WSO2, a leader in enterprise digital infrastructure technology, today announced the opening of its first Africa-based office in Johannesburg, South Africa, underscoring the continent’s growing importance to the company’s",
+   "source": "IT News Africa",
+   "url": "https://www.itnewsafrica.com/2026/08/wso2-opens-first-africa-based-office-in-johannesburg-deepening-investment-in-the-continents-modernization/",
+   "date": "Fri, 21 Aug 2026 05:00:00 +0000",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -144,16 +214,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Ethio telecom Enters Active Deployment of Africa-Middle East Fibre Corridor",
-   "brief": "Ethio telecom  has entered the active deployment phase of the Horizon Fiber Initiative, a landmark high-capacity terrestrial fibre corridor designed to connect Djibouti, Ethiopia, Sudan ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/08/20/ethio-telecom-active-deployment-africa-middle-east-fibre-corridor/",
-   "date": "Thu, 20 Aug 2026 12:17:35 +0000",
-   "country": "🇪🇹 埃塞俄比亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "SA bucks Africa’s smartphone market downturn",
    "brief": "South Africa’s smartphone market grew 17% in Q2, defying a wider African downturn as rising device prices put pressure on consumers.",
    "source": "ITWeb Africa",
@@ -184,31 +244,11 @@
    "is_aiinfra": false
   },
   {
-   "title": "Kenya and UK Review Cybersecurity Partnership to Strengthen Digital Resilience",
-   "brief": "Kenya has reviewed progress on its cybersecurity partnership with the United Kingdom as officials from both countries explored ways to strengthen cyber resilience and digital ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/08/20/kenya-uk-cybersecurity-partnership-digital-resilience/",
-   "date": "Thu, 20 Aug 2026 10:51:16 +0000",
-   "country": "🇰🇪 肯尼亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Juicyway COO, Justin Ziegler, exits startup after four years",
    "brief": "Justin Ziegler has left his role as chief operating officer of Juicyway, the cross-border fintech startup after four years. The company is yet to name a replacement.",
    "source": "Condia",
    "url": "https://thecondia.com/justin-ziegler-exits-juicyway/",
    "date": "Thu, 20 Aug 2026 10:37:11 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Who Will Control Africa’s Satellite Internet Layer: Starlink, Amazon Leo or the Carriers?",
-   "brief": "Starlink has already established satellite internet as a viable connectivity option in Africa, reaching 26 markets and an estimated 300,000 subscribers by mid-2026. Amazon Leo is now entering that ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/08/20/who-will-control-africas-satellite-internet-layer-starlink-amazon-leo-or-the-carriers/",
-   "date": "Thu, 20 Aug 2026 10:31:17 +0000",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -271,26 +311,6 @@
    "date": "Thu, 20 Aug 2026 09:12:50 +0000",
    "country": null,
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Ricoh smart learning and meeting solution gains ground in Rustenburg classrooms",
-   "brief": "Schools want one system that supports interactive teaching, presentations and collaboration.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/ricoh-smart-learning-and-meeting-solution-gains-ground-in-rustenburg-classrooms/rW1xLv5ng347Rk6m",
-   "date": "Thu, 20 Aug 2026 11:08:00 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Ubiquiti UniFi Cloud Gateways & Protect: Built for South Africa’s connected future",
-   "brief": "UniFi Site Manager provides licence-free remote management and cloud orchestration, while the actual UniFi control plane remains local.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/ubiquiti-unifi-cloud-gateways-protect-built-for-south-africas-connected-future/8OKdWMDXxpdMbznQ",
-   "date": "Thu, 20 Aug 2026 11:06:00 +0200",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -444,6 +464,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "Blue Cloud Softech shares rise 1.3% as company signs Africa telecom pact with GCIB, Afro Mobile",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxOX2habjdYSlNmRXRxRExQdDVFWThjR3lGUW01OU81WUpVSUd3Ni1uZ1MtZXNPeEhuam5fWkVlOUI2cTNuUm5NVnhnaHpSa0tWblBJNVh2bTdxYVpEN01YOTVUWGIxckNFQksxck9wSXRuVXlSR2NsMFVLMVpHZ3",
+   "source": "TradingView·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOX2habjdYSlNmRXRxRExQdDVFWThjR3lGUW01OU81WUpVSUd3Ni1uZ1MtZXNPeEhuam5fWkVlOUI2cTNuUm5NVnhnaHpSa0tWblBJNVh2bTdxYVpEN01YOTVUWGIxckNFQksxck9wSXRuVXlSR2NsMFVLMVpHZ3J2UVlVZ1h4SXdKWVp3LXJfalduaUFmbFpUV2lfcUpqdWNXX0V0SjROMDFxUWRzR1ZOTmxmM3JDaTlIV19yVEN6clVJTEZieHRCNi1SZ3dlNzhFNW5oMGlIYWN1UnV4Y1ZaaW1jN1FkVzNvXzZRYg?oc=5",
+   "date": "Thu, 20 Aug 2026 04:36:00 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "South-South technology ties seen flourishing",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxOeVI2YkozMkFFVWNlQkZvSUxla0VIVDAwQmFpUmtmci1hNmVCaEM2NUdMbHlDTDlvMGo3WUZXRTVPVTUyN0dPRE9XVW5oTEFMRVlTRnBzcXNVV1VBZ0RsLWpQTzU5ZU5KaklFZ21EdTE4allpTlNPYTg1aW1RMW",
    "source": "China Daily Global Edition·聚合",
@@ -504,16 +534,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Can Africa scale at speed while retaining control?",
-   "brief": "Africa is scaling at pace. AI adoption is accelerating, digital infrastructure is expanding and industries from finance to public services are transforming. The opportunity is clear. The real question is ownership. Who c",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/08/can-africa-scale-at-speed-while-retaining-control/",
-   "date": "Wed, 19 Aug 2026 06:49:00 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
    "title": "Telecom Egypt tests high-capacity spectrum",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQd1ZYdjJNWTJRbXVWZW56RjBUSXJ4OTBRM0FwOTF4MjNNWFRZQXNrRmhDQkdkVU9jVkcwazBjLWNidlhXTHpNM2lraS1WV2JrLVc3S2xiaW1hX0ZmdEF0ZVpMeHdOM2djOVhZNzVBSFFFSDVvWTBXam1FRU55TU",
    "source": "ITWeb Africa·聚合",
@@ -540,16 +560,6 @@
    "url": "https://www.itweb.co.za/article/being-in-the-cloud-does-not-equate-to-being-secure/dgp45qaBl5gvX9l8",
    "date": "Wed, 19 Aug 2026 08:29:35 +0200",
    "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Study Finds Postpaid Entry Prices Rising as Small Mobile Plans Disappear",
-   "brief": "A new study from global telecom data provider Tarifica finds that small, low-cost postpaid mobile plans are disappearing in a number of markets, pushing up the minimum amount consumers must spend for postpaid service. Us",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/08/study-finds-postpaid-entry-prices-rising-as-small-mobile-plans-disappear/",
-   "date": "Wed, 19 Aug 2026 06:18:00 +0000",
-   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -581,16 +591,6 @@
    "date": "Tue, 18 Aug 2026 15:27:12 +0000",
    "country": "🇳🇬 尼日利亚",
    "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Trident Digital Tech and DIG Launch AI Venture Targeting SMEs Across Africa, Asia and Middle East",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOUVRsSnpPV1k5b0Znc1N3a2VmTFZka0l2T3p2TURpcW5Hb21GdWo5U184N1lralBoelZLWDB4OEItQlZHVjVPZHBHWkxLc1RNVUtKdENEOHR3SVVvcHFMTnpPVy1ZWWVwaVh4UjZ3a0pNSlI1bFNidjFMODlUSl",
-   "source": "TechAfrica News·聚合",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUVRsSnpPV1k5b0Znc1N3a2VmTFZka0l2T3p2TURpcW5Hb21GdWo5U184N1lralBoelZLWDB4OEItQlZHVjVPZHBHWkxLc1RNVUtKdENEOHR3SVVvcHFMTnpPVy1ZWWVwaVh4UjZ3a0pNSlI1bFNidjFMODlUSlR1cmpjcFNBV2lKcHNpWk1VaVVDRmZqYUl2TnpxeGNoeEk?oc=5",
-   "date": "Tue, 18 Aug 2026 14:33:19 GMT",
-   "country": null,
-   "is_ai": true,
    "is_aiinfra": false
   },
   {
