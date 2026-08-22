@@ -1,15 +1,12 @@
 {
  "asof": "2026-08-22",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-22T12:04+08:00",
+ "generated_at": "2026-08-22T15:23+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 7,
-  "cluster_label": "伊朗",
-  "cluster_dropped": [
-   "伊朗总统称希望战争尽快结束，油价微变",
-   "伊朗关联油轮遭索马里海盗劫持"
-  ],
+  "cross_day_suppressed": 5,
+  "cluster_label": "",
+  "cluster_dropped": [],
   "backfilled": 0
  },
  "items": [
@@ -17,87 +14,77 @@
    "cat": "macro",
    "title": "美财长贝森特周一举行记者会",
    "brief": "美国财长贝森特将于周一举行记者会，市场关注其关于债务回购及经济政策的表态。",
-   "chain": "财长表态或影响美债收益率与美元，进而传导至美股估值，映射A股算力链风险偏好。",
-   "impact": 8,
+   "chain": "财长表态→美债利率与美元走向→影响美股估值与A股风险偏好。",
+   "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeDcwRjI3TkpVODVXRkhpY1JhSXZIeHNkZW84RTdDaEFEdmlDUHZ1Uy1GNXdlOHpMaDVHdGl1RlZBSVFaSC1MbGxXcFRMdjl5Y19KUUpyNkJLaEl3NjlXZklHbkhDaWpLOFJ2Mmk2SWpmWFZuQ2ZQb2VXOUVpVElHQ18wTFBSSUFwODhSS29jLVFUWVM0M1RfRmhTVnBVOFVVUjV4dFpn?oc=5",
    "ts": "2026-08-21T22:09:46+00:00"
   },
   {
    "cat": "macro",
-   "title": "达利欧：债务危机临近，建议配置黄金比特币",
-   "brief": "达利欧称债务回购显示债务危机临近，建议持有黄金和比特币。",
-   "chain": "债务担忧推升避险需求，黄金走强压制美股高久期AI股估值，映射A股算力链情绪。",
-   "impact": 7,
+   "title": "达利欧警告债务危机临近 推荐黄金比特币",
+   "brief": "达利欧称债务回购是债务危机临近的信号，建议配置黄金和比特币。",
+   "chain": "债务担忧→避险资产受捧→黄金上行压制AI高久期股估值→A股算力链情绪承压。",
+   "impact": 8,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/08/21/ray-dalio-bessent-debt-crisis-bitcoin-gold.html",
    "ts": "2026-08-21T19:21:21+00:00"
   },
   {
    "cat": "macro",
-   "title": "黄金反弹：债务担忧与美元走弱",
+   "title": "黄金反弹 债务忧虑与美元走弱支撑",
    "brief": "金价因美国债务担忧、美元走弱及债券收益率高企而反弹。",
-   "chain": "金价受避险驱动上涨，对美股AI高久期票估值形成压力，A股算力链情绪或受抑制。",
-   "impact": 6,
+   "chain": "避险与利率驱动→金价上行→美股AI估值分母承压→A股算力链情绪传导。",
+   "impact": 7,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/08/21/gold-prices-us-debt-dollar.html",
    "ts": "2026-08-21T11:35:46+00:00"
   },
   {
    "cat": "macro",
-   "title": "摩根大通：美债干预如“信用卡还房贷”",
-   "brief": "摩根大通分析师称美国债券干预如同用信用卡还房贷，暗示债务问题恶化。",
-   "chain": "债务担忧加剧，美债收益率波动，影响美股估值，映射A股算力链。",
-   "impact": 5,
+   "title": "摩根大通：美债干预如“用信用卡还房贷”",
+   "brief": "摩根大通分析师称美国债券干预措施不可持续，加剧债务担忧。",
+   "chain": "债务可持续性质疑→美债利率波动→美股估值压力→A股风险偏好。",
+   "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/21/us-bond-intervention-shifting-problem-future-jpmorgan.html",
    "ts": "Fri, 21 Aug 2026 02:48:10 GMT"
   },
   {
    "cat": "geo",
-   "title": "特朗普：伊朗未准备好达成正确协议",
-   "brief": "特朗普表示伊朗尚未准备好达成正确协议，美伊关系紧张持续。",
-   "chain": "美伊紧张支撑油价，地缘风险影响美股风险偏好，A股油气链或受提振。",
+   "title": "特朗普称不放弃对伊军事选项",
+   "brief": "特朗普表示转向经济战不限制军事选项，美伊紧张局势持续。",
+   "chain": "美伊冲突风险→油价与避险资产波动→A股油气与黄金板块。",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608223850159981.html",
+   "ts": "2026-08-22 14:07:11"
+  },
+  {
+   "cat": "geo",
+   "title": "美伊敌对言论升级 新制裁在即",
+   "brief": "美国与伊朗在制裁前保持敌对言论，地缘紧张加剧。",
+   "chain": "地缘风险→油价与航运成本→影响全球供应链与A股相关板块。",
    "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdXVJYmgzQ2hHN1JlVkg0MFl5eU1hVWtYWTN2OFNvUFV3b3NoS053LTdCMDVWNTBZMEdhUDV3ZEQ3QXBBYnpNRDZST0l3amt6V0luVGtJek1aZnlPZVpwMndfY0VjemxrTWxsdUlZQkZxMU03SHA4LXJ2OVdSemltdzJfUGJseElLR3BCUjlFT1JIcXdhUW9CZU1xdVctMEFjN1B5ekl0cmplQQ?oc=5",
-   "ts": "2026-08-22T01:05:00+00:00"
+   "ts": "2026-08-22T04:11:03+00:00"
   },
   {
    "cat": "geo",
-   "title": "北约讨论霍尔木兹海峡选项",
-   "brief": "北约成员国讨论霍尔木兹海峡应对选项，但未涉及联盟行动。",
-   "chain": "霍尔木兹紧张升级，油价风险溢价上升，影响全球能源市场，莫桑比克LNG出口或受益。",
+   "title": "加拿大暂停加美贸易谈判并反制",
+   "brief": "加拿大总理卡尼宣布暂停与美贸易谈判，并对美商品实施对等反制。",
+   "chain": "贸易摩擦升级→北美供应链扰动→全球贸易风险→A股出口链。",
    "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeC1YSDVDa3NjOU9ndVc5Z2ZkNVp3Vjliay1ObVFfcUw3UGYtdFU0ZkpjVTkzNWVjQnN0dzNVaGMzUnFOeG04TkZFd21kN3FCRkVrNG9pdzg4VWQ4SHU1YkhBRTVJeF9xaFJTUlM1UnRBUVFYVHNjdk9uc1lkSF95OG5ZWTNWbkYtNVZCem9xWFdTTnBxc014Z0JTRktydjZ6TTY5MnBlcE40ZGhGUzQ4WngteHd4dzE0Y0JhcjNGaGhsS2c?oc=5",
-   "ts": "2026-08-21T16:51:52+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "伊朗称需克服“不公正制裁”",
-   "brief": "伊朗表示必须克服美国的不公正制裁，美伊经济压力加剧。",
-   "chain": "制裁升级影响伊朗石油出口，支撑油价，对莫桑比克油气项目构成间接利好。",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ1k1ZnYtdXFiVWJvUVdmQlJLR1hWN1czeTU1Vkt5VFEyWkNISDhnUHVBY1hLb1JMdnp1dmRxU3Z6WG9wNlZRUmVZaUZxeVJVOERnX0QzeEVuU1FPbzByQ29EQXBvMzJrSkZWOWdkV0pHYUlfYkNTcFZDaTc3cUdLMzdmemlmV2hhUlYzdDFwUHpMcE9oSVZCbXlGYzM2LW9DcEFBdl9kSHRwOF9PdUtUMjdaWUZ5Rm90aFh4blpzaXhXUkZSU0ZPNzRvRQ?oc=5",
-   "ts": "2026-08-21T15:18:19+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "八国联合声明谴责以色列定居点",
-   "brief": "埃及、约旦等八国外长谴责以色列定居点政策，中东局势再添变数。",
-   "chain": "中东紧张局势升级，推升油价，影响全球能源市场，莫桑比克LNG出口或受益。",
-   "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608223850129539.html",
-   "ts": "2026-08-22 10:49:58"
+   "url": "https://finance.eastmoney.com/a/202608223850158230.html",
+   "ts": "2026-08-22 13:34:01"
   },
   {
    "cat": "oil",
-   "title": "霍尔木兹海峡通行船舶降至个位数",
-   "brief": "数据显示通过霍尔木兹海峡的船舶数量降至个位数，航运受阻。",
-   "chain": "霍尔木兹通行锐减，油价上涨，全球油气运输受阻，莫桑比克LNG出口或迎机遇。",
+   "title": "霍尔木兹海峡通行船只降至个位数",
+   "brief": "数据显示通过霍尔木兹海峡的船只数量骤降，地缘风险影响原油运输。",
+   "chain": "海峡通行受阻→油价上行→莫桑比克油气出口受益。",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSEhZX09yZU9wMFlFN0FUUjM0dUhpZ01zMEVvWFBlVHpoQ25lY0xFckRtVnpXMHZfZVA3TU0zRjNNYlUydy1pelQ1Q3Rmb1dPeWZmU3hDTXF2ZERfY3UyY2tteGpocUNoY0FkdE13dXV5cjV1VUh3MmN1al9MUm5xVlh6RWpwenRzQ2dzR0dxci05c2kwQ1VSUGNDTVBJVkFFd0RjZm9GRnBBdw?oc=5",
@@ -105,20 +92,40 @@
   },
   {
    "cat": "oil",
-   "title": "伊拉克计划六年内将石油产量提升至800-1000万桶/日",
-   "brief": "伊拉克计划在未来六年将石油产量提升至800-1000万桶/日。",
-   "chain": "伊拉克增产计划或增加全球供应，压制油价，对莫桑比克LNG项目构成竞争。",
-   "impact": 5,
+   "title": "伊朗批准部分伊拉克油轮通过海峡",
+   "brief": "应伊拉克请求，伊朗批准部分油轮通过霍尔木兹海峡，局势略有缓和。",
+   "chain": "海峡通行部分恢复→油价短期承压→莫桑比克LNG出口竞争力。",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608223850163353.html",
+   "ts": "2026-08-22 14:38:57"
+  },
+  {
+   "cat": "oil",
+   "title": "伊拉克拟六年内将石油产量提升至千万桶",
+   "brief": "伊拉克计划将原油日产量提升至800-1000万桶，长期供应增加。",
+   "chain": "OPEC+供应增加→油价长期承压→莫桑比克油气项目竞争加剧。",
+   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUUpoc3RVQnd4NTNiTnNFZ1UzRDBzbmF6RjNzbFBYX1BLUUV5d2ZSRGFkem5EWnJYNEo2TUc2TWwxc2JRUzVaczhIb0ZZN2kxdmJVdUdqdXcybjlpR1YteE0zdmUwMXZpMzAxSHZDSllIQ1NvYWNwOTdrRTFOcEdwZG8wZTl3ajB0RGVEQ1o1alotVEQ5MTBNZW13RllNWGNlcWF6Y2FDY0Q?oc=5",
    "ts": "2026-08-21T10:28:10+00:00"
   },
   {
+   "cat": "gas",
+   "title": "Equinor与ORLEN签三年挪威原油供应协议",
+   "brief": "Equinor与波兰ORLEN签署三年期原油供应协议，保障欧洲能源供应。",
+   "chain": "欧洲供应多元化→LNG需求变化→莫桑比克LNG出口机会。",
+   "impact": 5,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/energy/articles/equinor-orlen-sign-three-norwegian-021500560.html",
+   "ts": "2026-08-21T02:15:00Z"
+  },
+  {
    "cat": "tech",
-   "title": "博通债务交易或达700亿美元",
-   "brief": "消息称博通债务交易规模可能超过700亿美元，用于AI基础设施投资。",
-   "chain": "博通大规模融资用于AI基建，利好美股半导体，映射A股算力链。",
-   "impact": 7,
+   "title": "博通债务融资或达700亿美元",
+   "brief": "博通债务交易规模预计超700亿美元，用于收购或资本运作。",
+   "chain": "科技巨头融资→资本开支增加→AI基础设施需求→A股算力链。",
+   "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/21/broadcom-debt-deal-expected-to-reach-upwards-of-70-billion-sources.html",
    "ts": "Fri, 21 Aug 2026 15:59:25 GMT"
@@ -126,52 +133,62 @@
   {
    "cat": "tech",
    "title": "特斯拉在华召回300万辆车",
-   "brief": "特斯拉因门把手安全和驾驶员监控问题在中国召回300万辆车。",
-   "chain": "特斯拉召回影响其销量与股价，映射A股特斯拉产业链。",
-   "impact": 6,
+   "brief": "特斯拉因门把手安全隐患和驾驶员监控问题在中国召回300万辆车。",
+   "chain": "召回事件→特斯拉销量与股价波动→A股特斯拉产业链。",
+   "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/21/tesla-recalls-cars-in-china-over-doorhandle-safety-driver-monitoring.html",
    "ts": "Fri, 21 Aug 2026 19:29:48 GMT"
   },
   {
    "cat": "tech",
-   "title": "长电科技上半年净利增近80%",
-   "brief": "长电科技上半年净利增长近80%，运算电子跃升为第一大业务。",
-   "chain": "封测龙头业绩大增，反映AI算力需求，利好A股半导体链。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608223850137793.html",
-   "ts": "2026-08-22 11:55:09"
-  },
-  {
-   "cat": "ai",
-   "title": "OpenAI和Anthropic冲刺IPO，行业融资缺口或达8000亿美元",
-   "brief": "AI行业面临巨额融资缺口，OpenAI和Anthropic冲刺IPO，分析师称泡沫已破。",
-   "chain": "AI融资需求引发泡沫担忧，美股AI股承压，映射A股算力链情绪。",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608223850131416.html",
-   "ts": "2026-08-22 11:09:35"
-  },
-  {
-   "cat": "ai",
-   "title": "Anthropic IPO文件将AI反弹列为风险因素",
-   "brief": "消息人士称Anthropic IPO文件将AI反弹列为风险因素。",
-   "chain": "AI监管风险被正式承认，美股AI股估值受压，映射A股算力链。",
+   "title": "蓝思科技上半年净利腰斩",
+   "brief": "蓝思科技上半年营收同比下降12.42%，净利大幅下滑。",
+   "chain": "消费电子需求疲软→苹果链业绩承压→A股果链与科技股。",
    "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
-   "ts": "Fri, 21 Aug 2026 22:03:39 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608223850158518.html",
+   "ts": "2026-08-22 13:50:12"
   },
   {
    "cat": "ai",
-   "title": "众擎机器人发布“仿人脑”具身智能引擎",
-   "brief": "众擎机器人发布具身智能引擎EngineAI Awaken，号称仿人脑。",
-   "chain": "具身智能技术突破，利好A股机器人概念，与AI算力链协同。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608223850136356.html",
-   "ts": "2026-08-22 11:25:22"
+   "title": "Anthropic IPO规模或超SpaceX纪录",
+   "brief": "Anthropic计划进行创纪录IPO，估值有望超越SpaceX，AI投资热潮持续。",
+   "chain": "AI融资火热→科技股估值提升→A股AI概念映射。",
+   "impact": 9,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-20/anthropic-expects-to-match-spacex-s-record-ipo-size-or-top-it",
+   "ts": "2026-08-21T04:56:32+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "Anthropic调整高级AI数据保留政策",
+   "brief": "Anthropic将允许企业客户自存数据，应对AI安全与隐私监管。",
+   "chain": "AI治理变化→企业采用AI意愿→AI基础设施需求→A股算力链。",
+   "impact": 7,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-20/anthropic-plans-to-change-data-retention-policy-for-advanced-ai",
+   "ts": "2026-08-21T04:39:09+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "比特币矿商转型AI房东 签90亿美元租约",
+   "brief": "Riot Platforms与CleanSpark等矿商将数据中心租给AI公司，Riot签下90亿美元租约。",
+   "chain": "算力需求外溢→数据中心价值重估→A股IDC与算力租赁。",
+   "impact": 8,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/technology/ai/articles/riot-platforms-riot-cleanspark-clsk-014919566.html",
+   "ts": "2026-08-21T01:49:19Z"
+  },
+  {
+   "cat": "ai",
+   "title": "AI数据中心抗议蔓延至广告与选举",
+   "brief": "AI数据中心的反对声音出现在广告和选举中，社会阻力增加。",
+   "chain": "监管风险上升→AI资本开支放缓→A股算力链情绪。",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/20/ai-data-center-election-backlash.html",
+   "ts": "Thu, 20 Aug 2026 15:56:12 GMT"
   }
  ]
 }
