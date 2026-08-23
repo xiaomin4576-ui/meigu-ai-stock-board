@@ -1,10 +1,10 @@
 {
  "asof": "2026-08-23",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-23T12:09+08:00",
+ "generated_at": "2026-08-23T15:24+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 14,
+  "cross_day_suppressed": 13,
   "cluster_label": "",
   "cluster_dropped": [],
   "backfilled": 0
@@ -13,8 +13,8 @@
   {
    "cat": "macro",
    "title": "美债收益率走高 欧洲债市承压加剧",
-   "brief": "美国长期国债收益率升至近20年高位，欧洲债市普遍承压，尽管美财政部干预一度缓解抛售。",
-   "chain": "美债利率上行→美股高久期成长股估值承压→A股算力链情绪受抑",
+   "brief": "美国长期国债收益率升至近20年高位，欧洲债市持续承压，尽管美财政部干预缓解抛售压力。",
+   "chain": "美债收益率上行→美股估值承压（尤其高久期AI股）→A股算力链情绪受抑",
    "impact": 8,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202608233850251757.html",
@@ -22,30 +22,50 @@
   },
   {
    "cat": "macro",
-   "title": "交易员押注欧洲央行更趋鹰派",
-   "brief": "市场预期欧洲央行将更鹰派，可能影响全球利率环境。",
-   "chain": "欧央行鹰派→全球利率预期上修→压制美股估值→A股成长股承压",
-   "impact": 6,
+   "title": "交易员押注欧洲央行转鹰",
+   "brief": "市场预期欧洲央行将更趋鹰派，可能影响全球利率环境。",
+   "chain": "欧央行转鹰→全球利率预期上修→压制美股成长股估值→A股科技链承压",
+   "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZUt4YkUxMjR5N050eGJjdnVxRDJJV0ZYSGFsVkJmaldxdWZaOXBMbV9rTkpYMnRGbXllLW1SbHc0c0dOWVV1WkNoUVE2anBDRVBpaHJkb0RvYm51T24tYXBULVRmSHA5dVg2U3lYSnRoQkdac0pUTnA5MUhmMG5TWTFGSzlrTFo4ckZ6blZXMmp6WjVqZDhON1ZZazI?oc=5",
    "ts": "2026-08-21T12:36:27+00:00"
   },
   {
    "cat": "macro",
-   "title": "美股周线下跌 债市与伊朗局势受关注",
-   "brief": "美股当日上涨但周线下跌，债券收益率和伊朗局势成为焦点。",
-   "chain": "利率与地缘风险→美股波动→A股风险偏好受抑",
+   "title": "美加贸易谈判破裂 新关税生效",
+   "brief": "美国对加拿大200亿美元商品征收50%关税，加拿大计划9月8日等额报复。",
+   "chain": "贸易摩擦升级→全球风险偏好下降→美股波动→A股出口链承压",
    "impact": 7,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/22/us-canada-trade-talks-collapse-ushering-in-wave-of-new-tariffs.html",
+   "ts": "2026-08-22T13:57:48+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "加拿大三省长力挺反制美国关税",
+   "brief": "加拿大安大略等三省省长支持联邦政府对美关税反制，贸易紧张加剧。",
+   "chain": "加方强硬反制→贸易战升级→避险情绪升温→黄金受益，美股承压",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608233850267432.html",
+   "ts": "2026-08-23 14:35:43"
+  },
+  {
+   "cat": "macro",
+   "title": "南非兰特创伊朗战争以来最强",
+   "brief": "南非兰特兑美元升至伊朗战争以来最高水平，显示新兴市场资金流入。",
+   "chain": "新兴市场货币走强→全球风险偏好改善→利好美股及A股风险资产",
+   "impact": 5,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX2E3YkdBQXBjbW43VmpoeklMN0VYV0ZtV0xZeUNHQUx0aXAxLW16MjU5bWdkLVRxUzlpNGhWWEpCeUJDd3JYbTJkZE5KTll3R3JkZGJoamdUSnRPMmp1d21Tc2lUb3FVcldGcXBXamZZU0lqcEV1SDdwN09pOUl4cTM4WHBnWDVhNExtbzdkMXBYVTRmVjVXSjQyYjMyUXJt?oc=5",
-   "ts": "2026-08-21T22:58:54+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZHZPRld0NlUwNUZsYlNzalpPUEdZNHR0dU9VaWRDVmt5WDNaNDJpdm1ranFOdHM5WVdoOVcxaUZuLXVtV19zT3kxNEFaMEFlQ2JsVXhnTVBJcGZ1a3FtT0lQQjVUeXd5SDNuM1lxLU5FZmE5dzVvTlB6eHc1Q2R4aUxlSTVNYjVxbEt1b29kM2lNRUJKeFpjMS1uY2hCa1RyOGxyZGNpRlptTnU3M3ViWXRIS2NoZzFBZGRHeVpDMnE5T3c?oc=5",
+   "ts": "2026-08-21T12:46:36+00:00"
   },
   {
    "cat": "geo",
    "title": "以色列空袭叙利亚南部 大马士革谴责",
-   "brief": "以色列对叙利亚南部发动空袭，叙利亚谴责侵犯主权。",
-   "chain": "中东冲突升级→避险情绪升温→美股承压→A股风险偏好下降",
-   "impact": 7,
+   "brief": "以色列对叙利亚南部发动空袭，大马士革予以谴责，中东局势再添紧张。",
+   "chain": "中东冲突升级→避险情绪升温→美股承压→A股军工/黄金链受关注",
+   "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?oc=5",
    "ts": "2026-08-22T18:51:50+00:00"
@@ -53,122 +73,152 @@
   {
    "cat": "geo",
    "title": "北约讨论霍尔木兹海峡选项 不涉联盟行动",
-   "brief": "北约成员国讨论霍尔木兹海峡应对选项，但不涉及联盟直接行动。",
-   "chain": "霍尔木兹紧张→油价风险溢价→全球通胀预期→美股与A股承压",
-   "impact": 8,
+   "brief": "北约成员国讨论霍尔木兹海峡应对方案，但明确不涉及联盟军事行动。",
+   "chain": "霍尔木兹紧张→油价风险溢价上升→全球通胀预期→美股能源板块受益",
+   "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeC1YSDVDa3NjOU9ndVc5Z2ZkNVp3Vjliay1ObVFfcUw3UGYtdFU0ZkpjVTkzNWVjQnN0dzNVaGMzUnFOeG04TkZFd21kN3FCRkVrNG9pdzg4VWQ4SHU1YkhBRTVJeF9xaFJTUlM1UnRBUVFYVHNjdk9uc1lkSF95OG5ZWTNWbkYtNVZCem9xWFdTTnBxc014Z0JTRktydjZ6TTY5MnBlcE40ZGhGUzQ4WngteHd4dzE0Y0JhcjNGaGhsS2c?oc=5",
    "ts": "2026-08-21T16:51:52+00:00"
   },
   {
    "cat": "geo",
-   "title": "伊朗称须克服不公正制裁 美加大施压",
-   "brief": "伊朗表示必须克服美国制裁，美国正加大经济压力。",
-   "chain": "美伊对峙→地缘风险→油价波动→全球市场避险",
-   "impact": 6,
+   "title": "伊朗称需克服不公正制裁 美加大施压",
+   "brief": "伊朗表示必须克服美国的不公正制裁，美国正加大经济压力。",
+   "chain": "美伊对峙持续→地缘风险高企→油价波动→A股油气链受关注",
+   "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ1k1ZnYtdXFiVWJvUVdmQlJLR1hWN1czeTU1Vkt5VFEyWkNISDhnUHVBY1hLb1JMdnp1dmRxU3Z6WG9wNlZRUmVZaUZxeVJVOERnX0QzeEVuU1FPbzByQ29EQXBvMzJrSkZWOWdkV0pHYUlfYkNTcFZDaTc3cUdLMzdmemlmV2hhUlYzdDFwUHpMcE9oSVZCbXlGYzM2LW9DcEFBdl9kSHRwOF9PdUtUMjdaWUZ5Rm90aFh4blpzaXhXUkZSU0ZPNzRvRQ?oc=5",
    "ts": "2026-08-21T15:18:19+00:00"
   },
   {
-   "cat": "oil",
-   "title": "原油价格企稳 股市收高",
-   "brief": "原油价格稳定，股市随之收高。",
-   "chain": "油价企稳→能源成本稳定→利好莫桑比克油气项目收益预期",
+   "cat": "geo",
+   "title": "泽连斯基称马克龙愿协助防空",
+   "brief": "泽连斯基与马克龙通话，法方愿协助乌方获取爱国者拦截弹库存。",
+   "chain": "俄乌局势持续→地缘风险→全球市场避险→A股军工链关注",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608233850268323.html",
+   "ts": "2026-08-23 15:09:46"
+  },
+  {
+   "cat": "geo",
+   "title": "美特使称以诱土开战 以外长否认",
+   "brief": "美特使称以色列空袭叙利亚旨在引诱土耳其开战，以色列外长否认。",
+   "chain": "中东外交博弈→地区局势复杂化→油价波动→A股油气链",
    "impact": 5,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-settle-higher-crude-oil-203900224.html",
-   "ts": "2026-08-21T20:39:00Z"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608233850263232.html",
+   "ts": "2026-08-23 13:39:35"
   },
   {
    "cat": "oil",
-   "title": "南非兰特升至伊朗战争以来最强",
-   "brief": "南非兰特走强，反映市场风险偏好改善。",
-   "chain": "兰特走强→新兴市场情绪改善→利好莫桑比克等非洲能源投资",
-   "impact": 4,
+   "title": "美股周线下跌 债市与伊朗成焦点",
+   "brief": "美股当日上涨但周线下跌，债券收益率和伊朗局势主导市场情绪。",
+   "chain": "伊朗局势→油价波动→能源股表现→A股石油链联动",
+   "impact": 7,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZHZPRld0NlUwNUZsYlNzalpPUEdZNHR0dU9VaWRDVmt5WDNaNDJpdm1ranFOdHM5WVdoOVcxaUZuLXVtV19zT3kxNEFaMEFlQ2JsVXhnTVBJcGZ1a3FtT0lQQjVUeXd5SDNuM1lxLU5FZmE5dzVvTlB6eHc1Q2R4aUxlSTVNYjVxbEt1b29kM2lNRUJKeFpjMS1uY2hCa1RyOGxyZGNpRlptTnU3M3ViWXRIS2NoZzFBZGRHeVpDMnE5T3c?oc=5",
-   "ts": "2026-08-21T12:46:36+00:00"
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX2E3YkdBQXBjbW43VmpoeklMN0VYV0ZtV0xZeUNHQUx0aXAxLW16MjU5bWdkLVRxUzlpNGhWWEpCeUJDd3JYbTJkZE5KTll3R3JkZGJoamdUSnRPMmp1d21Tc2lUb3FVcldGcXBXamZZU0lqcEV1SDdwN09pOUl4cTM4WHBnWDVhNExtbzdkMXBYVTRmVjVXSjQyYjMyUXJt?oc=5",
+   "ts": "2026-08-21T22:58:54+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "两架美军加油机离开保加利亚",
+   "brief": "美军两架加油机在部署一个月后离开保加利亚，此前曾引发伊朗不满。",
+   "chain": "美军部署调整→中东军事动态→油价波动→A股油气链",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQR0xHczhyd0MwdmphVllPT2pTUXNMNDBtU29maGIxbGFNdWtjbnAzS1hsMVBXUnNnalVjbXlUQkpJWnZHelR5QkJyV2lLNGRuelVrYW1OQWJ6YTMteGZBbm9vX0lfY0ZZeE93NVVfZ0lsX3hjLXdVeV9qMG5hZ1Y2dU5FbWNQd0t0U0ZJcHV4MmFHbGhnSC1YMWdKaTBCRTQzR2ZzcDNMVnpFaHBCRVl0RXprMVIwMHg3bUI2Qk9IR05MQUM2R0k4QUFnY3VZbEk?oc=5",
+   "ts": "2026-08-22T15:45:37+00:00"
   },
   {
    "cat": "gas",
-   "title": "坦桑尼亚最大水电项目正式启用",
-   "brief": "坦桑尼亚朱利叶斯·尼雷尔水电站启用，总统出席。",
-   "chain": "东非电力供应增加→区域能源格局变化→对莫桑比克LNG竞争与合作并存",
+   "title": "陈茂波：国家AI发展助力香港经济",
+   "brief": "香港财政司司长称国家AI发展对香港经济和金融市场发挥显著助力。",
+   "chain": "AI发展→香港金融受益→港股科技股→A股AI链情绪",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608233850241987.html",
-   "ts": "2026-08-23 09:21:54"
-  },
-  {
-   "cat": "gas",
-   "title": "匈牙利核电站3号机组恢复发电",
-   "brief": "匈牙利保克什核电站3号机组恢复发电，缓解电力紧张。",
-   "chain": "欧洲核电恢复→天然气需求或降→TTF价格承压→影响莫桑比克LNG出口",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608233850237096.html",
-   "ts": "2026-08-23 07:19:05"
-  },
-  {
-   "cat": "tech",
-   "title": "下周英伟达等财报 投资机会受关注",
-   "brief": "英伟达将于8月26日盘后公布财报，市场关注AI产业链。",
-   "chain": "英伟达财报→AI算力需求验证→A股算力链联动",
-   "impact": 9,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608233850241757.html",
-   "ts": "2026-08-23 09:10:18"
+   "url": "https://finance.eastmoney.com/a/202608233850268237.html",
+   "ts": "2026-08-23 15:08:04"
   },
   {
    "cat": "tech",
    "title": "英伟达客户警告AI相关涨价",
-   "brief": "英伟达客户据悉被警告AI相关价格将上涨。",
-   "chain": "AI芯片涨价→算力成本上升→A股算力链成本压力",
-   "impact": 7,
+   "brief": "英伟达客户据报道已收到AI相关产品价格上调的警告。",
+   "chain": "AI硬件涨价→英伟达业绩预期→A股算力链成本压力",
+   "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/22/nvidia-customers-reportedly-warned-about-ai-related-price-hikes-.html",
    "ts": "Sat, 22 Aug 2026 20:26:44 GMT"
   },
   {
    "cat": "tech",
-   "title": "英伟达或减内存 AMD称不担忧",
-   "brief": "英伟达可能减少AI芯片内存，AMD表示不担心。",
-   "chain": "芯片规格变化→AI硬件竞争→A股算力链影响",
-   "impact": 6,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-corporation-nvda-advanced-micro-204025825.html",
-   "ts": "2026-08-21T20:40:25Z"
-  },
-  {
-   "cat": "ai",
-   "title": "阿里预计AI算力投入三年回本 OpenAI计划2027上市",
-   "brief": "阿里CEO称AI算力投入三年内回本，OpenAI计划2027年上市。",
-   "chain": "AI投资回报预期→科技股估值→A股AI算力链信心",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608233850245148.html",
-   "ts": "2026-08-23 09:35:21"
-  },
-  {
-   "cat": "ai",
-   "title": "魔法原子首发轻工业四足机器人",
-   "brief": "具身智能企业魔法原子在WRC2026首发轻工业四足机器狗。",
-   "chain": "具身智能进展→AI应用落地→A股机器人概念",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608233850250755.html",
-   "ts": "2026-08-23 10:56:13"
-  },
-  {
-   "cat": "ai",
-   "title": "上纬新材消费级机器人开启预订",
-   "brief": "上纬新材消费级机器人启元Q1、T1开启预订，9月发货。",
-   "chain": "消费级机器人落地→AI硬件需求→A股相关产业链",
+   "title": "纽约超越旧金山成科技人才首选",
+   "brief": "CBRE报告显示纽约取代旧金山成为科技人才最青睐市场。",
+   "chain": "科技人才流动→科技中心变迁→美股科技股→A股科技园区概念",
    "impact": 4,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/21/new-york-san-francisco-tech-talent-cbre.html",
+   "ts": "Fri, 21 Aug 2026 10:36:07 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "Rocket Lab与AST SpaceMobile估值过高",
+   "brief": "两只太空股定价过高，但其中一只已交付成果。",
+   "chain": "太空股估值→美股科技板块→A股航天概念",
+   "impact": 4,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-ast-spacemobile-priced-230002883.html",
+   "ts": "2026-08-21T23:00:02Z"
+  },
+  {
+   "cat": "ai",
+   "title": "阿里拟配售800亿港元 全部投入AI",
+   "brief": "阿里巴巴宣布配售800亿港元新股，所得净额将全部投入AI建设。",
+   "chain": "阿里加码AI→港股科技→A股AI算力链受益",
+   "impact": 9,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608233850247849.html",
-   "ts": "2026-08-23 10:28:13"
+   "url": "https://finance.eastmoney.com/a/202608233850258029.html",
+   "ts": "2026-08-23 12:39:41"
+  },
+  {
+   "cat": "ai",
+   "title": "联影发布全球首个磁共振脑机接口方案",
+   "brief": "联影医疗与天津大学联合发布全球首个磁共振脑机接口全栈式解决方案。",
+   "chain": "脑机接口突破→医疗AI→A股医疗器械+AI概念",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608233850258292.html",
+   "ts": "2026-08-23 12:40:48"
+  },
+  {
+   "cat": "ai",
+   "title": "启元机器人开启预订 最早9月发货",
+   "brief": "上纬新材旗下启元机器人正式开启Q1、T1双产品预订，预计首发最早9月。",
+   "chain": "人形机器人商业化→AI硬件→A股机器人产业链",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608233850258150.html",
+   "ts": "2026-08-23 12:39:52"
+  },
+  {
+   "cat": "ai",
+   "title": "人形机器人最大障碍：人类仍更优",
+   "brief": "中国人形机器人发展面临人类效率优势的挑战。",
+   "chain": "人形机器人技术瓶颈→AI应用落地→A股机器人概念",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/21/chinese-humanoid-robots-face-challenge-of-their-own-capabilities.html",
+   "ts": "Fri, 21 Aug 2026 09:30:55 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "AI数据中心抗议蔓延至广告与选举",
+   "brief": "对AI数据中心的反对声音出现在广告和选举中，社会阻力增加。",
+   "chain": "AI基础设施社会阻力→监管风险→美股AI股→A股算力链",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/20/ai-data-center-election-backlash.html",
+   "ts": "Thu, 20 Aug 2026 15:56:12 GMT"
   }
  ]
 }
