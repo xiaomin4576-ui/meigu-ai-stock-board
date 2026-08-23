@@ -1,10 +1,10 @@
 {
  "asof": "2026-08-23",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-23T19:38+08:00",
+ "generated_at": "2026-08-23T22:03+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 13,
+  "cross_day_suppressed": 12,
   "cluster_label": "",
   "cluster_dropped": [],
   "backfilled": 0
@@ -13,8 +13,8 @@
   {
    "cat": "macro",
    "title": "美加贸易谈判破裂，新关税生效",
-   "brief": "美国与加拿大贸易谈判破裂，特朗普政府对部分加拿大出口商品征收50%新关税。",
-   "chain": "贸易紧张升级→避险情绪升温→美股承压，A股出口链或受波及",
+   "brief": "美国与加拿大贸易谈判破裂，特朗普政府对部分加拿大出口商品加征50%关税，贸易紧张升级。",
+   "chain": "贸易摩擦升级→避险情绪升温→美股波动，A股出口链承压。",
    "impact": 8,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/08/22/us-canada-trade-talks-collapse-ushering-in-wave-of-new-tariffs.html",
@@ -22,49 +22,49 @@
   },
   {
    "cat": "macro",
-   "title": "美股周线下跌，债市与伊朗成焦点",
-   "brief": "美股周五反弹但周线收跌，债券收益率与伊朗局势主导市场情绪。",
-   "chain": "收益率上行→成长股估值承压→A股科技股情绪联动",
+   "title": "中信建投：海外风险可控，科技等待出清",
+   "brief": "中信建投称A股两融与ETF资金此消彼长，10Y美债在4.7%高位波动，隐含通胀与AI债务融资抬升。",
+   "chain": "美债收益率高位→压制美股估值→A股科技板块短期承压。",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608233850365145.html",
+   "ts": "2026-08-23 20:23:30"
+  },
+  {
+   "cat": "macro",
+   "title": "美股周线下跌，债券收益率与伊朗受关注",
+   "brief": "美股当日上涨但周线下跌，债券收益率上升及伊朗局势成为市场焦点。",
+   "chain": "收益率上升→科技股估值压力→A股算力链情绪受抑。",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX2E3YkdBQXBjbW43VmpoeklMN0VYV0ZtV0xZeUNHQUx0aXAxLW16MjU5bWdkLVRxUzlpNGhWWEpCeUJDd3JYbTJkZE5KTll3R3JkZGJoamdUSnRPMmp1d21Tc2lUb3FVcldGcXBXamZZU0lqcEV1SDdwN09pOUl4cTM4WHBnWDVhNExtbzdkMXBYVTRmVjVXSjQyYjMyUXJt?oc=5",
    "ts": "2026-08-21T22:58:54+00:00"
   },
   {
-   "cat": "macro",
-   "title": "中信证券：科技股调整非仅因美债利率",
-   "brief": "中信证券研报指出，科技股调整源于AI远期定价问题，而非简单归因于美债利率。",
-   "chain": "AI商业化速度成焦点→美股AI估值分化→A股算力链需精选",
+   "cat": "geo",
+   "title": "伊朗总统：摆脱“既非战争也非和平”状态",
+   "brief": "伊朗总统佩泽希齐扬表示应以理性方式使国家摆脱“既非战争、也非和平”状态，暗示外交转向。",
+   "chain": "伊朗态度缓和→地缘风险降温→油价承压，A股风险偏好回升。",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608233850365083.html",
+   "ts": "2026-08-23 20:25:53"
+  },
+  {
+   "cat": "geo",
+   "title": "泽连斯基：乌克兰尚不具备战时选举条件",
+   "brief": "乌克兰总统泽连斯基表示战时选举将导致国家分裂，当前不具备条件。",
+   "chain": "俄乌局势持续→地缘不确定性→避险资产受支撑。",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608233850296358.html",
-   "ts": "2026-08-23 16:32:21"
-  },
-  {
-   "cat": "geo",
-   "title": "以色列空袭叙利亚南部，大马士革谴责",
-   "brief": "以色列对叙利亚南部发动空袭，大马士革予以谴责，地区紧张局势升级。",
-   "chain": "中东冲突持续→避险情绪→美股波动，A股军工或受关注",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?oc=5",
-   "ts": "2026-08-22T18:51:00+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "北约讨论霍尔木兹海峡选项",
-   "brief": "北约成员国讨论霍尔木兹海峡应对方案，但不涉及联盟直接参与。",
-   "chain": "霍尔木兹风险→油价波动→全球市场避险，A股油气链联动",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeC1YSDVDa3NjOU9ndVc5Z2ZkNVp3Vjliay1ObVFfcUw3UGYtdFU0ZkpjVTkzNWVjQnN0dzNVaGMzUnFOeG04TkZFd21kN3FCRkVrNG9pdzg4VWQ4SHU1YkhBRTVJeF9xaFJTUlM1UnRBUVFYVHNjdk9uc1lkSF95OG5ZWTNWbkYtNVZCem9xWFdTTnBxc014Z0JTRktydjZ6TTY5MnBlcE40ZGhGUzQ4WngteHd4dzE0Y0JhcjNGaGhsS2c?oc=5",
-   "ts": "2026-08-21T16:51:52+00:00"
+   "url": "https://finance.eastmoney.com/a/202608233850390072.html",
+   "ts": "2026-08-23 21:39:58"
   },
   {
    "cat": "geo",
    "title": "刚果（金）政府与反政府武装达成谈判路线图",
-   "brief": "刚果（金）政府与M23运动就和平谈判路线图达成一致，有望缓解地区冲突。",
-   "chain": "非洲局势缓和→稳定资源供应→利好当地运营，间接影响全球矿业",
+   "brief": "刚果（金）政府与M23运动就和平谈判路线图达成一致，地区冲突有望缓解。",
+   "chain": "非洲地缘缓和→稳定资源供应→利好当地能源项目。",
    "impact": 5,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202608233850322113.html",
@@ -72,40 +72,50 @@
   },
   {
    "cat": "oil",
-   "title": "伊朗发现7.5万亿立方英尺天然气",
-   "brief": "伊朗在法尔斯省南部油田发现超7.5万亿立方英尺天然气，储量可观。",
-   "chain": "伊朗天然气储量增加→全球供应预期改善→对东非LNG竞争压力上升",
+   "title": "印度进口俄罗斯原油创新高",
+   "brief": "受霍尔木兹海峡航运受阻影响，印度6月和7月进口俄罗斯原油创历史新高。",
+   "chain": "霍尔木兹风险→俄油需求增加→全球油价波动，影响东非油气市场。",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608233850368592.html",
+   "ts": "2026-08-23 20:38:17"
+  },
+  {
+   "cat": "oil",
+   "title": "北约讨论霍尔木兹海峡选项",
+   "brief": "北约成员国讨论在不动用联盟力量的情况下应对霍尔木兹海峡局势的选项。",
+   "chain": "海峡风险→油价上行→莫桑比克LNG出口受益。",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeC1YSDVDa3NjOU9ndVc5Z2ZkNVp3Vjliay1ObVFfcUw3UGYtdFU0ZkpjVTkzNWVjQnN0dzNVaGMzUnFOeG04TkZFd21kN3FCRkVrNG9pdzg4VWQ4SHU1YkhBRTVJeF9xaFJTUlM1UnRBUVFYVHNjdk9uc1lkSF95OG5ZWTNWbkYtNVZCem9xWFdTTnBxc014Z0JTRktydjZ6TTY5MnBlcE40ZGhGUzQ4WngteHd4dzE0Y0JhcjNGaGhsS2c?oc=5",
+   "ts": "2026-08-21T16:51:52+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "伊朗发现超7.5万亿立方英尺天然气",
+   "brief": "伊朗部长宣布在法尔斯省南部油田发现超7.5万亿立方英尺天然气，储量巨大。",
+   "chain": "全球气源增加→LNG供应预期上升→或影响东非LNG项目竞争力。",
    "impact": 6,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202608233850341050.html",
    "ts": "2026-08-23 19:10:00"
   },
   {
-   "cat": "oil",
-   "title": "伊朗称需克服‘不公正制裁’",
-   "brief": "伊朗表示必须克服美国‘不公正制裁’，美国加大经济施压。",
-   "chain": "制裁升级→伊朗原油出口受限→油价短期支撑，莫桑比克油气或受益",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ1k1ZnYtdXFiVWJvUVdmQlJLR1hWN1czeTU1Vkt5VFEyWkNISDhnUHVBY1hLb1JMdnp1dmRxU3Z6WG9wNlZRUmVZaUZxeVJVOERnX0QzeEVuU1FPbzByQ29EQXBvMzJrSkZWOWdkV0pHYUlfYkNTcFZDaTc3cUdLMzdmemlmV2hhUlYzdDFwUHpMcE9oSVZCbXlGYzM2LW9DcEFBdl9kSHRwOF9PdUtUMjdaWUZ5Rm90aFh4blpzaXhXUkZSU0ZPNzRvRQ?oc=5",
-   "ts": "2026-08-21T15:18:19+00:00"
-  },
-  {
    "cat": "gas",
-   "title": "英国小型电厂遭伊朗网络攻击关闭",
-   "brief": "英国一家小型电厂因疑似伊朗网络攻击而关闭，凸显基础设施脆弱性。",
-   "chain": "网络攻击→能源设施安全担忧→气价波动，东非LNG需加强安保",
-   "impact": 6,
+   "title": "英国小型发电厂遭伊朗网络攻击关闭",
+   "brief": "英国一家小型发电厂因疑似伊朗网络攻击而关闭，凸显能源基础设施安全风险。",
+   "chain": "网络攻击→能源安全担忧→推升气价，莫桑比克需加强设施防护。",
+   "impact": 5,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/23/small-uk-power-plant-shut-down-after-iran-linked-cyberattack-report.html",
-   "ts": "Sun, 23 Aug 2026 11:35:52 GMT"
+   "ts": "Sun, 23 Aug 2026 12:46:01 GMT"
   },
   {
    "cat": "tech",
    "title": "英伟达客户被警告AI相关涨价",
-   "brief": "英伟达客户据悉已收到AI相关产品涨价警告，成本压力或传导至下游。",
-   "chain": "英伟达涨价→AI成本上升→美股AI硬件股受益，A股算力链成本承压",
-   "impact": 8,
+   "brief": "英伟达客户据报道已收到AI相关产品价格上调的警告，成本压力或传导至下游。",
+   "chain": "AI硬件涨价→科技股成本上升→A股算力链或受影响。",
+   "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/22/nvidia-customers-reportedly-warned-about-ai-related-price-hikes-.html",
    "ts": "Sat, 22 Aug 2026 20:26:44 GMT"
@@ -113,8 +123,8 @@
   {
    "cat": "tech",
    "title": "纽约超越旧金山成科技人才首选地",
-   "brief": "CBRE报告显示，纽约取代旧金山成为科技人才最青睐的市场。",
-   "chain": "科技人才迁移→科技中心格局变化→美股科技公司选址策略调整",
+   "brief": "CBRE报告显示纽约取代旧金山成为科技人才最青睐的市场，反映科技产业地理变迁。",
+   "chain": "科技人才流动→影响科技公司布局→对A股科技园区概念有参考。",
    "impact": 4,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/08/21/new-york-san-francisco-tech-talent-cbre.html",
@@ -122,33 +132,33 @@
   },
   {
    "cat": "ai",
-   "title": "mRNA技术突破：活性提升10倍",
-   "brief": "日本名古屋大学与富士胶片合作开发新型LNP，实现环状RNA高效递送，活性提升10倍。",
-   "chain": "mRNA技术突破→生物科技应用扩展→A股创新药及疫苗链或受益",
+   "title": "AI赢家任命新CFO，英伟达财报临近",
+   "brief": "一家被忽视的AI赢家任命新CFO，同时英伟达关键财报即将发布，市场关注。",
+   "chain": "AI公司动态→财报预期→A股AI产业链联动。",
    "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608233850354193.html",
-   "ts": "2026-08-23 19:27:59"
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/21/an-overlooked-ai-winner-taps-new-cfo-as-street-awaits-nvidia.html",
+   "ts": "2026-08-21T18:55:05+00:00"
   },
   {
    "cat": "ai",
-   "title": "挪威呼吁校园禁AI眼镜",
-   "brief": "挪威教育大臣建议学校禁止使用AI眼镜，引发隐私与教育讨论。",
-   "chain": "AI监管趋严→科技公司合规成本→美股AI应用股承压，A股AI监管链关注",
+   "title": "AI数据中心抗议蔓延至广告和选举",
+   "brief": "AI数据中心的反对声音出现在广告和选举中，社会阻力或影响AI基础设施扩张。",
+   "chain": "社会反对→AI基建放缓→算力需求预期下调，A股算力链承压。",
    "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608233850318071.html",
-   "ts": "2026-08-23 18:05:33"
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/20/ai-data-center-election-backlash.html",
+   "ts": "Thu, 20 Aug 2026 15:56:12 GMT"
   },
   {
    "cat": "ai",
-   "title": "外交部助理会见联合国副秘书长谈AI",
-   "brief": "外交部部长助理蔡伟会见联合国常务副秘书长阿明娜，主持‘人工智能与人类发展’对话会。",
-   "chain": "AI全球治理→国际合作加强→AI伦理标准推进，A股AI治理概念或活跃",
+   "title": "中国仿人机器人最大障碍：人类仍更优",
+   "brief": "分析指出中国仿人机器人的发展面临人类能力优势的挑战，商业化尚需时日。",
+   "chain": "机器人技术瓶颈→AI应用落地延迟→A股机器人概念短期降温。",
    "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608233850296931.html",
-   "ts": "2026-08-23 17:05:43"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/21/chinese-humanoid-robots-face-challenge-of-their-own-capabilities.html",
+   "ts": "Fri, 21 Aug 2026 09:30:55 GMT"
   }
  ]
 }
