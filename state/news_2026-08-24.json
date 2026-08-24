@@ -1,114 +1,130 @@
 {
  "asof": "2026-08-24",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-24T12:14+08:00",
+ "generated_at": "2026-08-24T15:48+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 12,
-  "cluster_label": "伊朗",
-  "cluster_dropped": [
-   "油价下跌，市场等待美国对伊朗最严制裁",
-   "美国将公布对伊朗新制裁，油价下跌",
-   "股市犹豫，油价下滑，等待美国对伊朗制裁细节"
-  ],
+  "cross_day_suppressed": 9,
+  "cluster_label": "",
+  "cluster_dropped": [],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "美联储主席Warsh将发表杰克逊霍尔讲话",
-   "brief": "美联储主席Kevin Warsh将在杰克逊霍尔发表首次讲话，市场关注其政策信号。",
-   "chain": "讲话定调利率路径→影响美股估值→映射A股流动性预期",
-   "impact": 9,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/23/here-are-the-2-big-things-were-watching-in-the-stock-market-this-week.html",
-   "ts": "2026-08-23T16:56:02+00:00"
+   "title": "金价创三个月新高，聚焦美国通胀与美联储讲话",
+   "brief": "金价升至三个月高位，市场等待美国通胀数据和美联储主席讲话，以判断利率路径。",
+   "chain": "金价受避险与利率预期双重驱动→若通胀顽固则加息预期升温，压制美股AI高久期估值→A股算力链情绪承压。",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUkZtQVBPdjlyb21JaVBxeFRicDFEeHVNQ21pZzdGQnlSMUpFYV80MEl3RjJUbF9tYWxmdkZqY2NpaXh5S0NPd1lhbFZxUHZMVVFkTHNyNktCX2hrUU5KN3hjcWRUVTlaQ0hwcmVoMV9VZjBmUkFjMGtTUUY5MXBwRDRFWXBwQnhZTzU1dV81LThOaTNZR1BLVDRGU1JtbDczRjVweFByWkVQbWhhX3VwYTlJZ0VYblU?oc=5",
+   "ts": "2026-08-24T04:39:00+00:00"
   },
   {
    "cat": "macro",
-   "title": "Allspring：杰克逊霍尔风险大于英伟达财报",
-   "brief": "Allspring的Miletti警告杰克逊霍尔对投资者的风险大于英伟达财报，暗示政策不确定性。",
-   "chain": "政策不确定性→美股波动→A股风险偏好承压",
+   "title": "美元指数逼近多月低位，债务忧虑压制",
+   "brief": "美元兑主要货币走弱，因市场担忧美国财政债务状况，美元指数接近多月低点。",
+   "chain": "美元走弱→利好美股盈利与大宗商品→A股出口链受益，但需关注债务风险发酵。",
    "impact": 7,
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-08-21/allspring-s-miletti-sees-jackson-hole-as-bigger-risk-than-nvidia",
-   "ts": "2026-08-22T16:07:00+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "美元指数接近多月低点，受债务担忧拖累",
-   "brief": "美元兑主要货币接近多月低点，市场担忧美国债务问题。",
-   "chain": "美元走弱→利好美股盈利→A股外资流入预期",
-   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeWdQcUNEMGg5ZXdrRnBJRl9PLXZtbk9NYzdiZnEydGZBT21TOWRFaV9EQVBpYU9mcktFSV84c0JwcVBDdHVDSkkwUUpIWVM3ZVhYTWFrNFNWRlc3MUhMWVZ5V29JTXh5U01Ja0l3MzdGTTUweFo0Y0VVZjlfYXp5YjVfSU11NW5zdUtqM1l4cEtCV1JmU24xVmlBc1NtVkRHcnpxUFlxNkRZSUU?oc=5",
    "ts": "2026-08-24T01:48:00+00:00"
   },
   {
    "cat": "macro",
-   "title": "A股午盘：贵金属煤炭逆势走强",
-   "brief": "沪指跌0.71%，创业板指跌3.5%，贵金属、煤炭板块逆势上涨。",
-   "chain": "避险情绪升温→贵金属板块走强→映射A股黄金股",
+   "title": "新加坡通胀创近两年新高但低于预期",
+   "brief": "新加坡CPI同比涨幅为近两年最大，但低于市场预期，或影响央行政策节奏。",
+   "chain": "区域通胀升温→全球紧缩预期微升→对美股影响有限，A股关注输入性通胀。",
    "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608243850895864.html",
-   "ts": "2026-08-24 11:30:16"
-  },
-  {
-   "cat": "geo",
-   "title": "美国将宣布对伊朗“最大金融攻势”",
-   "brief": "美国准备对伊朗实施“最严厉”制裁，伊朗威胁扣押船只。",
-   "chain": "美伊紧张升级→油价波动→影响全球风险偏好",
-   "impact": 9,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/24/us-iran-war-trump-hormuz-bessent-economic-sanctions-.html",
-   "ts": "Mon, 24 Aug 2026 03:57:57 GMT"
+   "url": "https://www.cnbc.com/2026/08/24/singapore-inflation-budget-iran-war.html",
+   "ts": "Mon, 24 Aug 2026 05:24:43 GMT"
   },
   {
    "cat": "geo",
    "title": "美国誓言“经济D-Day”，伊朗威胁停止石油出口",
-   "brief": "美国誓言对伊朗实施“经济D-Day”，伊朗威胁停止所有石油出口。",
-   "chain": "地缘冲突升级→油价飙升→影响A股石油板块",
-   "impact": 8,
+   "brief": "美国宣布将对伊朗实施“经济D-Day”式制裁，伊朗则威胁全面停止石油出口，局势升级。",
+   "chain": "美伊对抗加剧→油价波动→A股油气及航运板块受关注。",
+   "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSVR6WDVGa1pXVWw0aFNTbHNTcjZjeEZpS2dUYjZKdjlCcHB2VElmTFU2Vl90RTNPbWg2akxvdF8xcUV2S01JR1N3M0c2T1ZmeHM5V3BrUExMbE16dWRHSWw0QlBoYmFMVUxXUlNzT2lMYXJYNVZ0a1JHUW0xRjc3c1JOVWJlTGxSMGFiLXFVTUgtbWstY1ZHTm02a2N4UklmX0pyaG9uVlFDMVU?oc=5",
    "ts": "2026-08-23T15:23:00+00:00"
   },
   {
    "cat": "geo",
-   "title": "以色列空袭叙利亚南部，大马士革谴责",
-   "brief": "以色列对叙利亚南部发动空袭，叙利亚政府谴责。",
-   "chain": "中东局势紧张→油价波动→影响全球市场",
+   "title": "俄军称在黑海击中一艘油轮",
+   "brief": "俄军袭击乌克兰敖德萨州尤日内港，击中一艘向乌军运送燃料的油轮，黑海局势再紧。",
+   "chain": "黑海航运风险上升→油价获支撑→A股油气及航运板块或受益。",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608243851053383.html",
+   "ts": "2026-08-24 15:17:42"
+  },
+  {
+   "cat": "geo",
+   "title": "叙利亚与以色列在美国斡旋下会谈缓和紧张",
+   "brief": "叙利亚与以色列举行美国斡旋的会谈，旨在缓和紧张局势，但互信不足。",
+   "chain": "中东外交缓和→地缘风险溢价下降→油价或承压，A股相关板块影响有限。",
    "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?oc=5",
-   "ts": "2026-08-22T18:51:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeVA3N0RmLUxielhCSXB5WE9MYU94X0h0dWNCZ0l2bzZMNkNIdkhEZy1xSDlpOTFpcWtBQ29SeURBR0NIQnRRem5EbExpTkI3ajZlaG1vazM4dFNoQlZ3WVd2OWtHb3RXZjYxXy1vTklDOXBZcktNTERTWTFWRlRnZTRDR0t1T2dJMVNnd1gzTVF4YkJwRWV4bzJnVE01VTVXVGdvV0h4WWJ4cXhsM3ItTXBuM0dfVjlFVmVzTGpyc1hpRURY?oc=5",
+   "ts": "2026-08-23T23:12:32+00:00"
   },
   {
    "cat": "oil",
-   "title": "中石化上半年利润增长19.3%",
-   "brief": "尽管伊朗战争和需求下降，中石化上半年利润同比增长19.3%。",
-   "chain": "中国需求韧性→油价支撑→利好莫桑比克LNG长期需求",
-   "impact": 5,
+   "title": "霍尔木兹海峡石油流量降至670万桶/日",
+   "brief": "Kpler数据显示，霍尔木兹海峡石油流量降至670万桶/日，船只通行量显著减少。",
+   "chain": "海峡通行量下降→供应担忧加剧→油价上行，莫桑比克油气出口或受益于高油价。",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608243851050165.html",
+   "ts": "2026-08-24 15:13:00"
+  },
+  {
+   "cat": "oil",
+   "title": "周末不足20艘船通过霍尔木兹海峡",
+   "brief": "数据显示，周末通过霍尔木兹海峡的船只不足20艘，远低于正常水平。",
+   "chain": "通行量骤降→供应中断风险→油价飙升，莫桑比克LNG项目经济性提升。",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTXNxWm1BUVFUdWZuUDJoWi1GRUk1d0RXWTRwR0tQTXd6MXQ2V2RBSkRmMURzajdURDdIQnhEQlFTVVh4TG8yOTdfdWVIdmd4U3AyWm5pSlZ2Y0tSaDNKX1NjcGd1N2dqVmtPUU9rZjMwa3cxWDRLajBjYUhYUDkyY0owcm43TXcyNkp2WlJZUW9ONDA3ZlNlbHlOS19CSTRpYzlOU0pmcVhvaDB6SUsyVU5mM1cwQ2Q5TkwtTmlB?oc=5",
+   "ts": "2026-08-24T02:42:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "中石化上半年利润同比增19.3%",
+   "brief": "中石化公布上半年净利润同比增长19.3%，尽管伊朗战争和需求下滑，业绩仍强劲。",
+   "chain": "中石化业绩→中国炼化需求韧性→A股石化链或受提振，但油价高位挤压利润。",
+   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV0hPR1JrMFBOb05wQlVBbnlyNmkwQnZHQnpXdWNaRllmT2dpNzFCcDI0allOU1NkOEtjVHBOZVVpb2NOd1VFcXJ6bzN4U0tJUXBXTDJOMEc3ZF82Rm80T3FnWHE1dGxqOHpfZDlIbzloVFg1LTlMTDhrb3ZpYTZpUHV4dklUeEFMaVNxMTZReXJQZExXYjB3UlFaRVdVVk8wOV80ZGV0alljTVc2Q3hRSzhJTWZsb1h5S1lUY2c0Nno?oc=5",
    "ts": "2026-08-23T10:07:43+00:00"
   },
   {
    "cat": "gas",
-   "title": "海湾市场上涨，油价上涨提振情绪",
-   "brief": "海湾股市上涨，油价上涨提振市场情绪。",
-   "chain": "油价上涨→海湾国家收入增加→全球LNG投资增加",
-   "impact": 4,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWUctUXh6RjdKQkdiR0xZYTBaX0QwbXNLMUJ0NjNLX21UczhJUFozTDFWMzdkQlJaSnRuVTBFWDdLOG5nUTdHa2JXV3JLVW1oVld0MG9nUWFpRWlEUHJBWXpJLWVGQkx6YkgteHZMVVp0VHlJM0ZEU0xmcUE3dUVBMEJfc3VyMWJ4ekxwZF9XdUx3LUJ5YV9MTTN6NE0?oc=5",
-   "ts": "2026-08-23T13:13:45+00:00"
+   "title": "燃气轮机短缺成AI最大制约",
+   "brief": "分析指出，燃气轮机供应短缺已成为AI数据中心扩张的最大瓶颈，影响电力供应。",
+   "chain": "燃气轮机短缺→天然气发电需求增加→全球气价上行，莫桑比克LNG出口受益。",
+   "impact": 8,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/energy/articles/gas-turbine-shortage-just-became-210000180.html",
+   "ts": "2026-08-22T21:00:00Z"
+  },
+  {
+   "cat": "gas",
+   "title": "亚洲押注绿氢，布局新兴交通技术",
+   "brief": "亚洲多国发展绿氢技术以改善交通，但成本与基础设施仍是挑战。",
+   "chain": "绿氢发展→长期替代天然气需求→对莫桑比克LNG长期需求构成潜在威胁。",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/20/asia-hydrogen-trains-green-transport.html",
+   "ts": "Thu, 20 Aug 2026 00:09:09 GMT"
   },
   {
    "cat": "tech",
-   "title": "阿里巴巴暴跌，宣布102亿美元配股融资投入AI",
-   "brief": "阿里巴巴宣布102亿美元股票配售以资助AI发展，股价暴跌。",
-   "chain": "阿里融资→科技股承压→A股算力链情绪受挫",
+   "title": "阿里暴跌，宣布102亿美元配股融资投入AI",
+   "brief": "阿里巴巴宣布102亿美元股票配售以资助AI投入，股价大跌，市场担忧稀释。",
+   "chain": "阿里融资→科技股资金分流→A股AI算力链或承压，但长期利好AI发展。",
    "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/24/alibaba-share-placement-drop-ai-hong-kong.html",
@@ -116,83 +132,53 @@
   },
   {
    "cat": "tech",
-   "title": "港股午评：恒生科技指数跌3.84%",
-   "brief": "港股午间收盘，恒生科技指数跌3.84%，大型科网股集体下跌。",
-   "chain": "科技股下跌→港股情绪低迷→A股科技板块联动",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608243850901263.html",
-   "ts": "2026-08-24 12:10:11"
-  },
-  {
-   "cat": "tech",
-   "title": "韩国综指跌幅扩大至3%，三星电子跌超8%",
-   "brief": "韩国综合指数下跌3%，三星电子跌超8%，SK海力士跌超2%。",
-   "chain": "半导体股大跌→全球科技股承压→A股半导体链受影响",
+   "title": "Shein目标香港IPO募资270亿美元",
+   "brief": "Shein计划赴港上市，目标估值270亿美元，仅为2022年估值的一小部分。",
+   "chain": "Shein IPO→港股流动性改善→A股跨境电商概念或受关注。",
    "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608243850887327.html",
-   "ts": "2026-08-24 11:15:44"
-  },
-  {
-   "cat": "tech",
-   "title": "数据中心交易受挫与需求无关",
-   "brief": "数据中心交易受挫的原因与需求无关，可能涉及其他因素。",
-   "chain": "数据中心投资放缓→科技基建股承压→A股IDC概念",
-   "impact": 5,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/23/whats-bogging-down-the-data-center-trade-has-nothing-to-do-with-demand.html",
-   "ts": "Sun, 23 Aug 2026 22:55:14 GMT"
+   "url": "https://www.cnbc.com/2026/08/24/shein-ipo-valuation-hong-kong.html",
+   "ts": "Mon, 24 Aug 2026 07:34:17 GMT"
   },
   {
-   "cat": "ai",
-   "title": "英伟达拟投资Perplexity，估值超300亿美元",
-   "brief": "英伟达正商讨投资AI初创Perplexity，估值可能超300亿美元。",
-   "chain": "英伟达投资AI→AI产业加速→A股AI应用链受益",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608243850896282.html",
-   "ts": "2026-08-24 11:33:16"
-  },
-  {
-   "cat": "ai",
-   "title": "CPO进入商用阶段，智算集群互连进展",
-   "brief": "英伟达宣布Spectrum-X以太网硅光交换机进入商用，CPO技术落地。",
-   "chain": "CPO商用→光模块需求提升→A股CPO概念股受益",
+   "cat": "tech",
+   "title": "小米发布首款AI旗舰SoC芯片",
+   "brief": "小米发布3nm工艺的AI旗舰SoC玄戒O3，端侧AI性能大幅提升。",
+   "chain": "小米芯片→国产算力突破→A股半导体及AI终端链受益。",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608243850894818.html",
-   "ts": "2026-08-24 11:29:25"
+   "url": "https://finance.eastmoney.com/a/202608243851057285.html",
+   "ts": "2026-08-24 15:23:36"
   },
   {
    "cat": "ai",
-   "title": "阿里云视频生成模型Wan3.0上线",
-   "brief": "阿里云发布视频生成模型Wan3.0，支持30秒视频生成。",
-   "chain": "AI模型迭代→应用场景拓展→A股AI应用链受益",
-   "impact": 6,
+   "title": "英伟达Q2预览：强劲盈利与低估值奠定上行",
+   "brief": "分析师预计英伟达Q2业绩强劲，估值相对合理，为股价上行提供空间。",
+   "chain": "英伟达财报→AI算力需求确认→A股算力链情绪提振。",
+   "impact": 9,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-q2-preview-strong-earnings-205208968.html",
+   "ts": "2026-08-22T20:52:08Z"
+  },
+  {
+   "cat": "ai",
+   "title": "港股大模型概念股持续下挫",
+   "brief": "港股大模型概念股下跌，智谱跌超11%，MINIMAX-W跌超10%，市场情绪低迷。",
+   "chain": "港股AI回调→A股AI板块情绪联动→算力链短期承压。",
+   "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608243850883876.html",
-   "ts": "2026-08-24 11:11:08"
+   "url": "https://finance.eastmoney.com/a/202608243851058391.html",
+   "ts": "2026-08-24 15:23:42"
   },
   {
    "cat": "ai",
-   "title": "OpenAI前员工加入Meta超级智能实验室",
-   "brief": "OpenAI前员工Luke Metz加入Meta的超级智能实验室。",
-   "chain": "人才流动→AI竞争加剧→A股AI算力需求提升",
+   "title": "美国AI反弹：企业如何维护员工信任",
+   "brief": "美国企业面临AI应用引发的员工信任问题，正在调整策略以平衡效率与就业。",
+   "chain": "AI监管与伦理→科技巨头成本增加→A股AI应用端或受影响。",
    "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608243850892918.html",
-   "ts": "2026-08-24 11:21:07"
-  },
-  {
-   "cat": "ai",
-   "title": "CPO概念股大跌，天孚通信跌超8%",
-   "brief": "CPO概念指数低开低走，天孚通信跌超8%，中际旭创、新易盛跌超7%。",
-   "chain": "CPO板块回调→A股算力链情绪波动→关注后续",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608243850891273.html",
-   "ts": "2026-08-24 11:19:14"
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/23/ai-backlash-workers-job-losses.html",
+   "ts": "Sun, 23 Aug 2026 14:42:28 GMT"
   }
  ]
 }
