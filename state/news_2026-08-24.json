@@ -1,0 +1,169 @@
+{
+ "asof": "2026-08-24",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-08-24T10:07+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 13,
+  "cluster_label": "伊朗/霍尔木兹",
+  "cluster_dropped": [
+   "伊朗发布霍尔木兹海峡通行新规",
+   "油价下跌，市场等待美国对伊朗新制裁",
+   "中石化半年利润增19.3%，尽管伊朗战争",
+   "Ampol利润激增近五倍，伊朗战争提升炼油利润率"
+  ],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "美联储主席Warsh将发表杰克逊霍尔讲话",
+   "brief": "美联储主席Kevin Warsh将在杰克逊霍尔发表首次讲话，市场关注其政策信号。",
+   "chain": "讲话或暗示利率路径→影响美股估值→映射A股流动性预期",
+   "impact": 9,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/23/here-are-the-2-big-things-were-watching-in-the-stock-market-this-week.html",
+   "ts": "2026-08-23T16:56:02+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "Allspring：杰克逊霍尔风险高于英伟达财报",
+   "brief": "Allspring的Ann Miletti警告，杰克逊霍尔会议对投资者的风险比英伟达财报更大。",
+   "chain": "政策不确定性→美股波动→A股风险偏好承压",
+   "impact": 7,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-21/allspring-s-miletti-sees-jackson-hole-as-bigger-risk-than-nvidia",
+   "ts": "2026-08-22T16:07:00+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "中国今年发布2800余项国家标准，新兴产业占半",
+   "brief": "市场监管总局称，今年已发布国家标准2800余项，新兴产业占比超50%，支撑新质生产力。",
+   "chain": "政策支持新兴产业→利好A股科技制造→强化算力基建预期",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608243850721479.html",
+   "ts": "2026-08-24 10:03:45"
+  },
+  {
+   "cat": "macro",
+   "title": "收益率上升扰乱市场，但坚持AI和零售股",
+   "brief": "CNBC称，尽管收益率上升引发市场动荡，但依然看好AI和零售股。",
+   "chain": "收益率上行→成长股估值承压→A股科技股或受情绪影响",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/22/rising-yields-rattled-the-market-but-were-sticking-with-our-favorite-ai-and-retail-stocks.html",
+   "ts": "Sat, 22 Aug 2026 15:08:54 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "美国誓言“经济D日”，伊朗威胁停止石油出口",
+   "brief": "美国威胁对伊朗实施严厉制裁，伊朗回应称将停止所有石油出口，局势紧张。",
+   "chain": "美伊冲突升级→油价波动→影响全球供应链及A股油气板块",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSVR6WDVGa1pXVWw0aFNTbHNTcjZjeEZpS2dUYjZKdjlCcHB2VElmTFU2Vl90RTNPbWg2akxvdF8xcUV2S01JR1N3M0c2T1ZmeHM5V3BrUExMbE16dWRHSWw0QlBoYmFMVUxXUlNzT2lMYXJYNVZ0a1JHUW0xRjc3c1JOVWJlTGxSMGFiLXFVTUgtbWstY1ZHTm02a2N4UklmX0pyaG9uVlFDMVU?oc=5",
+   "ts": "2026-08-23T15:23:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "叙利亚与以色列在美国斡旋下会谈缓和紧张",
+   "brief": "叙利亚国家通讯社称，叙以举行美国斡旋的会谈以缓和紧张局势。",
+   "chain": "中东局势缓和→地缘风险溢价下降→利好全球风险资产",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeVA3N0RmLUxielhCSXB5WE9MYU94X0h0dWNCZ0l2bzZMNkNIdkhEZy1xSDlpOTFpcWtBQ29SeURBR0NIQnRRem5EbExpTkI3ajZlaG1vazM4dFNoQlZ3WVd2OWtHb3RXZjYxXy1vTklDOXBZcktNTERTWTFWRlRnZTRDR0t1T2dJMVNnd1gzTVF4YkJwRWV4bzJnVE01VTVXVGdvV0h4WWJ4cXhsM3ItTXBuM0dfVjlFVmVzTGpyc1hpRURY?oc=5",
+   "ts": "2026-08-23T23:12:32+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "印度外长访俄，特朗普关税威胁下",
+   "brief": "印度外长苏杰生访问俄罗斯，正值美国威胁加征关税之际。",
+   "chain": "大国博弈→贸易政策不确定性→影响全球供应链及A股出口链",
+   "impact": 5,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-22/india-s-foreign-minister-to-visit-russia-amid-us-tariff-threat",
+   "ts": "2026-08-22T11:35:31+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "亚洲氢能梦想：押注绿色交通技术",
+   "brief": "亚洲各国投资新兴绿色氢能技术，以改善交通领域。",
+   "chain": "绿色能源转型→长期天然气需求或受影响→莫桑比克LNG需关注转型风险",
+   "impact": 4,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/20/asia-hydrogen-trains-green-transport.html",
+   "ts": "Thu, 20 Aug 2026 00:09:09 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "恒生科技跌3%，阿里折价配售800亿港元",
+   "brief": "阿里巴巴拟折价配售800亿港元新股，用于加强AI基建，股价跌超9%。",
+   "chain": "阿里融资→AI基建加码→映射A股算力链长期需求",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608243850623086.html",
+   "ts": "2026-08-24 09:47:43"
+  },
+  {
+   "cat": "tech",
+   "title": "韩国综指跌2%，三星电子跌超7%",
+   "brief": "韩国综合指数跌幅扩大至2%，三星电子跌超7%，科技股承压。",
+   "chain": "三星下跌→全球半导体情绪→A股芯片股或联动",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608243850669292.html",
+   "ts": "2026-08-24 09:55:13"
+  },
+  {
+   "cat": "tech",
+   "title": "华为将发布新一代半入耳降噪耳机",
+   "brief": "华为宣布9月发布FreeBuds7悦彰耳机，主打半入耳降噪。",
+   "chain": "华为新品→消费电子产业链→A股相关供应商受益",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608243850581215.html",
+   "ts": "2026-08-24 09:39:31"
+  },
+  {
+   "cat": "ai",
+   "title": "数据中心交易拖累与需求无关",
+   "brief": "CNBC分析，数据中心交易受挫并非需求问题，而是其他因素。",
+   "chain": "数据中心瓶颈→AI算力投资节奏→A股算力链短期波动",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/23/whats-bogging-down-the-data-center-trade-has-nothing-to-do-with-demand.html",
+   "ts": "Sun, 23 Aug 2026 22:55:14 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "美国AI反弹：企业如何保持员工信任",
+   "brief": "美国企业努力在AI应用中保持员工信任，应对AI反弹。",
+   "chain": "AI治理→企业采用速度→影响AI产业链长期需求",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/23/ai-backlash-workers-job-losses.html",
+   "ts": "Sun, 23 Aug 2026 14:42:28 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "启元机器人开启预订，上纬新材涨逾7%",
+   "brief": "上纬新材旗下启元机器人开启Q1、T1预订，股价涨逾7%。",
+   "chain": "机器人商业化→AI应用落地→A股机器人概念催化",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608243850617584.html",
+   "ts": "2026-08-24 09:46:37"
+  },
+  {
+   "cat": "ai",
+   "title": "华数传媒等成立具身智能数据运营公司",
+   "brief": "浙江具身智能数据运营公司成立，经营范围包括物联网技术等。",
+   "chain": "具身智能数据布局→AI基础设施完善→A股相关概念受益",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608243850693728.html",
+   "ts": "2026-08-24 09:59:18"
+  }
+ ]
+}
