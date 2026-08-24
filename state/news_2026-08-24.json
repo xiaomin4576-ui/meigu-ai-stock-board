@@ -1,76 +1,74 @@
 {
  "asof": "2026-08-24",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-24T19:47+08:00",
+ "generated_at": "2026-08-24T22:26+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 8,
+  "cross_day_suppressed": 7,
   "cluster_label": "伊朗/霍尔木兹",
   "cluster_dropped": [
-   "美国将宣布对伊朗“最大金融攻势”",
    "美国取消与韩国联合军演，因伊朗战争兵力受限",
-   "霍尔木兹原油量争论掩盖成品油短缺",
-   "Ampol利润因伊朗战争炼油利润率飙升",
-   "英国通报能源高管伊朗网络攻击事件"
+   "霍尔木兹原油量争议掩盖成品油短缺",
+   "英国向能源高管简报伊朗网络攻击风险"
   ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "美财长拟动用近万亿TGA回购债券",
-   "brief": "消息称美财长Bessent可能动用财政部一般账户(TGA)近1万亿美元用于债券回购，以缓解债务压力。",
-   "chain": "TGA资金释放→美债收益率下行→利好美股估值→A股算力链情绪提振",
-   "impact": 9,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html",
-   "ts": "Mon, 24 Aug 2026 11:34:25 GMT"
+   "title": "特朗普将加拿大汽车关税提高至50%",
+   "brief": "特朗普宣布自明年1月1日起对加拿大汽车和钢铁关税提高至50%，贸易战升级。",
+   "chain": "贸易战升级→美股汽车股承压→A股汽车零部件链情绪受抑",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/24/trump-canada-auto-tariffs-trade-war.html",
+   "ts": "2026-08-24T13:59:26+00:00"
   },
   {
    "cat": "macro",
-   "title": "金价创三个月新高，市场等待美通胀数据",
-   "brief": "黄金升至三个月高位，投资者关注即将公布的美国通胀数据，以判断美联储政策路径。",
-   "chain": "通胀数据前避险情绪→金价上涨→实际利率预期→美股AI高久期估值承压→A股算力链情绪传导",
-   "impact": 8,
+   "title": "金价创三个月新高，市场等待美国通胀数据",
+   "brief": "金价升至三个月高位，因市场预期美国通胀数据可能影响美联储政策。",
+   "chain": "金价上涨反映避险与利率预期→美股AI高久期股估值承压→A股算力链情绪传导",
+   "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUkZtQVBPdjlyb21JaVBxeFRicDFEeHVNQ21pZzdGQnlSMUpFYV80MEl3RjJUbF9tYWxmdkZqY2NpaXh5S0NPd1lhbFZxUHZMVVFkTHNyNktCX2hrUU5KN3hjcWRUVTlaQ0hwcmVoMV9VZjBmUkFjMGtTUUY5MXBwRDRFWXBwQnhZTzU1dV81LThOaTNZR1BLVDRGU1JtbDczRjVweFByWkVQbWhhX3VwYTlJZ0VYblU?oc=5",
    "ts": "2026-08-24T04:39:00+00:00"
   },
   {
    "cat": "macro",
-   "title": "美元指数跌至多月低位，债务担忧加剧",
-   "brief": "美元指数徘徊在多月低点，投资者对美国债务问题感到不安，市场情绪谨慎。",
-   "chain": "美元走弱→美债吸引力下降→风险资产承压→美股科技股波动→A股算力链情绪传导",
-   "impact": 7,
+   "title": "美元徘徊多月低点，债务忧虑困扰投资者",
+   "brief": "美元指数接近多月低点，因美国债务担忧加剧，投资者情绪谨慎。",
+   "chain": "美元走弱→美股盈利预期改善→A股出口链受益",
+   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeWdQcUNEMGg5ZXdrRnBJRl9PLXZtbk9NYzdiZnEydGZBT21TOWRFaV9EQVBpYU9mcktFSV84c0JwcVBDdHVDSkkwUUpIWVM3ZVhYTWFrNFNWRlc3MUhMWVZ5V29JTXh5U01Ja0l3MzdGTTUweFo0Y0VVZjlfYXp5YjVfSU11NW5zdUtqM1l4cEtCV1JmU24xVmlBc1NtVkRHcnpxUFlxNkRZSUU?oc=5",
    "ts": "2026-08-24T01:48:00+00:00"
   },
   {
    "cat": "macro",
-   "title": "新加坡通胀创近两年新高但低于预期",
-   "brief": "新加坡通胀率升至近两年最高，但低于市场预期，显示通胀压力温和。",
-   "chain": "新加坡通胀数据→亚洲通胀预期→全球利率路径→美股科技股估值→A股算力链",
-   "impact": 5,
+   "title": "贝森特或动用万亿国债账户回购债券",
+   "brief": "消息称美财长贝森特可能动用近1万亿美元财政部一般账户进行债券回购。",
+   "chain": "债券回购→美债收益率下行→美股科技股估值支撑→A股科技映射",
+   "impact": 8,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/24/singapore-inflation-budget-iran-war.html",
-   "ts": "Mon, 24 Aug 2026 05:24:43 GMT"
+   "url": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html",
+   "ts": "Mon, 24 Aug 2026 13:17:35 GMT"
   },
   {
    "cat": "geo",
-   "title": "伊朗威胁扣押45艘油轮，霍尔木兹紧张升级",
-   "brief": "伊朗在霍尔木兹海峡升级局势，威胁对45艘油轮处以罚款或没收，加剧地区紧张。",
-   "chain": "地缘冲突升级→油价波动→美股能源板块→A股油气链",
+   "title": "伊朗威胁制裁45艘油轮，霍尔木兹紧张升级",
+   "brief": "伊朗威胁对45艘油轮处以罚款和没收，霍尔木兹海峡局势进一步紧张。",
+   "chain": "地缘冲突升级→油价风险溢价上升→A股油气链关注",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPR1A3TzVlaW92SHFPcHNmUjdQZ1hIYi0xZWNCdGVpcmY4VmZBUHNneElLRnE5dDFwZXRRX1FfcHFkMDlFMm5kdGh2aldsWnllaGZSVWJ2SFhzUVRRU3FyNzJNeWJfb3lrQnhqQ2g0d1c0ZUo0dllmTkd4QzAwWTNZV05sNlc2M3c5c3d5Zi1hTF90N0ltX25sUUk4T0RURUE3akZuX2VrMEFGcXFIMV9FRFU5VWI2UE4wREV3?oc=5",
-   "ts": "2026-08-24T10:49:47+00:00"
+   "ts": "2026-08-24T12:30:05+00:00"
   },
   {
    "cat": "geo",
-   "title": "朝鲜准备再向俄派兵，首尔称暂无行动",
-   "brief": "韩国称朝鲜准备进一步向俄罗斯部署 troops，但尚无立即行动迹象，引发关注。",
-   "chain": "朝俄军事合作→地缘紧张→全球风险偏好→美股→A股",
+   "title": "朝鲜准备进一步向俄罗斯派兵，首尔称暂无行动",
+   "brief": "韩国称朝鲜正准备进一步向俄罗斯部署 troops，但尚无立即行动迹象。",
+   "chain": "地缘紧张→全球避险情绪→A股军工链关注",
    "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTHFDVms1QXIwRVJKUlRKMWpPY2VvX3FMaVU1UGtlZjV2TVd4OHNkNXVmQ2dQV3Y0NzBwM21IUzN1NzFOYmhlVDBKS092bXB5NmxLeVNnd0VKWkN6TXRVWXAzZjJUNl8tY3R5eEdNQkd5akoyanpjaFpWYXJXbFNOMkFmSllJLXZzN1I5S0REcExyRlRNVHQycE5SaE5NTTBSYVprYTdvR0xBNENHbFJEUzJ1aXFCMWl2UlBXdHZHSXhuOVdqZFQtbWhnUFJJbFA4eklQTnJB?oc=5",
@@ -78,9 +76,9 @@
   },
   {
    "cat": "oil",
-   "title": "周末霍尔木兹海峡通航量骤减至不足20艘",
-   "brief": "数据显示周末通过霍尔木兹海峡的船只不足20艘，显示航运活动大幅减少。",
-   "chain": "海峡通行量下降→原油供应担忧→油价上行→莫桑比克油气出口受益",
+   "title": "周末霍尔木兹海峡通航量骤减，不足20艘",
+   "brief": "数据显示周末通过霍尔木兹海峡的船只不足20艘，航运活动大幅减少。",
+   "chain": "海峡通航减少→原油供应风险→莫桑比克油气出口或受益于油价上涨",
    "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTXNxWm1BUVFUdWZuUDJoWi1GRUk1d0RXWTRwR0tQTXd6MXQ2V2RBSkRmMURzajdURDdIQnhEQlFTVVh4TG8yOTdfdWVIdmd4U3AyWm5pSlZ2Y0tSaDNKX1NjcGd1N2dqVmtPUU9rZjMwa3cxWDRLajBjYUhYUDkyY0owcm43TXcyNkp2WlJZUW9ONDA3ZlNlbHlOS19CSTRpYzlOU0pmcVhvaDB6SUsyVU5mM1cwQ2Q5TkwtTmlB?oc=5",
@@ -88,59 +86,59 @@
   },
   {
    "cat": "oil",
-   "title": "埃克森美孚圭亚那火灾后暂停运营",
-   "brief": "埃克森美孚在圭亚那的设施发生火灾后暂时停止运营，影响部分产量。",
-   "chain": "供应中断→油价短期支撑→全球油市→莫桑比克竞争格局",
-   "impact": 6,
+   "title": "六国要求欧盟9月讨论对油企暴利税",
+   "brief": "六个国家希望欧盟在9月讨论对石油公司暴利征税，以应对能源利润。",
+   "chain": "暴利税→油企投资意愿下降→莫桑比克油气项目融资或受影响",
+   "impact": 5,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNUE0S1c5WWY5Tzl5dHVndnR4SDl4cGd1bjQxcGdPQ1BJbW1neFJhZEtGbk5aRnFueWtWQWVqNE5YVVZYdndrbEJwQlJ4bkpXcF9tOWtuWE9MNTAzXzFsV2Z1Z1NvbmdEbWxGUUhOcGVQQzNkS2llQURhb3phM1dpMWNDS0s5My1NVktjMk5WNUxhX0JXQk42WHpTVUcxZ1lkU05lWVQ4ZFM2UVpuMWtYZWFjVmlQaTJ2b2pBNGNRelg4dGRrSXltRQ?oc=5",
-   "ts": "2026-08-24T00:11:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQThnRHE4Y3F4cThuZlR6YkNiZ0sxQU1nanBIVjl1aUR4cWNRaHpOUjhtTWhtQzZnNXFqV01jbGhkVWtDQlAxYnpjSEM2UmJ4WEZaVEZORTIxUW1fZU5IVVoySnUwblRYT0xwWTF6cGE1Sng4XzY1OXAxMkJKRWw3Ni1YcWJKakljSEV3bHN5SE5mZTZmSHpMU1RMTDlONUdoaFlYSDExYV9FVlNheGJNSkVqX2Npcms0NG00M1FjaE5lMW9keHc?oc=5",
+   "ts": "2026-08-24T08:49:42+00:00"
   },
   {
    "cat": "gas",
-   "title": "叙利亚与以色列美国斡旋会谈缓和紧张",
-   "brief": "叙利亚与以色列在美国斡旋下举行会谈以缓和紧张局势，但互信不足。",
-   "chain": "中东局势缓和→地缘风险下降→LNG供应预期→莫桑比克LNG出口竞争",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeVA3N0RmLUxielhCSXB5WE9MYU94X0h0dWNCZ0l2bzZMNkNIdkhEZy1xSDlpOTFpcWtBQ29SeURBR0NIQnRRem5EbExpTkI3ajZlaG1vazM4dFNoQlZ3WVd2OWtHb3RXZjYxXy1vTklDOXBZcktNTERTWTFWRlRnZTRDR0t1T2dJMVNnd1gzTVF4YkJwRWV4bzJnVE01VTVXVGdvV0h4WWJ4cXhsM3ItTXBuM0dfVjlFVmVzTGpyc1hpRURY?oc=5",
-   "ts": "2026-08-23T23:12:32+00:00"
-  },
-  {
-   "cat": "tech",
-   "title": "阿里暴跌后宣布102亿美元配售融资",
-   "brief": "阿里巴巴宣布102亿美元股票配售以资助AI投入，股价大跌，市场反应负面。",
-   "chain": "阿里融资→科技股资金分流→美股科技板块→A股算力链情绪",
-   "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/24/alibaba-share-placement-drop-ai-hong-kong.html",
-   "ts": "Mon, 24 Aug 2026 08:21:17 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "Shein目标270亿美元香港IPO，估值缩水",
-   "brief": "Shein计划以270亿美元估值在香港IPO，远低于2022年估值，显示市场降温。",
-   "chain": "IPO估值缩水→科技股估值压力→美股科技→A股",
+   "title": "英国首相呼吁压缩俄罗斯石油和LNG出口",
+   "brief": "英国首相表示需采取更多措施减少俄罗斯石油和液化天然气出口。",
+   "chain": "俄气减少→全球LNG供应收紧→莫桑比克LNG项目竞争力提升",
    "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/24/shein-ipo-valuation-hong-kong.html",
-   "ts": "Mon, 24 Aug 2026 07:34:17 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608243851560057.html",
+   "ts": "2026-08-24 22:13:51"
   },
   {
    "cat": "tech",
-   "title": "UPS投资20亿美元于国际医疗供应链",
-   "brief": "UPS宣布投资超20亿美元用于国际、医疗和供应链业务，扩大物流能力。",
-   "chain": "物流投资→供应链效率→美股工业→A股物流",
+   "title": "美股存储板块下挫，闪迪跌超10%",
+   "brief": "美股存储芯片板块低开低走，闪迪跌超10%，美光跌超7%。",
+   "chain": "存储芯片下跌→AI硬件需求担忧→A股存储链承压",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608243851538351.html",
+   "ts": "2026-08-24 21:58:20"
+  },
+  {
+   "cat": "tech",
+   "title": "立讯精密上半年净利78亿，同比增长18%",
+   "brief": "立讯精密上半年营收1745亿元，净利78.43亿元，同比增长18%。",
+   "chain": "业绩增长→消费电子链景气→A股果链受益",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608243851486189.html",
+   "ts": "2026-08-24 21:27:52"
+  },
+  {
+   "cat": "tech",
+   "title": "小米发布玄戒O3芯片，18 Fold九月上市",
+   "brief": "小米发布三款玄戒芯片，其中O3为AI旗舰SoC，18 Fold将首发搭载。",
+   "chain": "国产芯片进展→AI终端落地→A股小米产业链关注",
    "impact": 5,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/24/ups-global-logistics-investment.html",
-   "ts": "2026-08-24T11:00:01+00:00"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608243851513436.html",
+   "ts": "2026-08-24 21:32:06"
   },
   {
    "cat": "ai",
-   "title": "阿里发布Wan3.0 AI视频模型",
-   "brief": "阿里巴巴推出Wan3.0 AI视频模型，在102亿美元配售融资后，强化AI布局。",
-   "chain": "AI模型发布→AI竞争加剧→美股AI板块→A股算力链",
+   "title": "阿里发布Wan3.0 AI视频模型，股价大跌",
+   "brief": "阿里巴巴推出Wan3.0 AI视频模型，同时宣布100亿美元配售，股价大跌。",
+   "chain": "AI模型发布→阿里股价波动→A股AI应用链情绪传导",
    "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZmdTM01hcWh5dzAtTzJPbUFQeFRaQjRsc0hUY0pvOGYzeWlQNWFFQUZDaGhoaXZvaVNuMmFSVlBrek9UZWhENW1qNEd4cFNNRHcxa0RJMDYzUzRXVXl5ZzBHTEJoYWRMUnZ3U0lvdFFMTjNxaVNNSWNuWUpJY3ZyZ2FQT0M0UFJvYUhXLTI1a2tKR1ByMzYyb053MVdTSjdjbVFPSlhBRXJhdDZnOGZXN3VULW53amRPQjRRV3lZX0Q4X3Bf?oc=5",
@@ -148,23 +146,23 @@
   },
   {
    "cat": "ai",
-   "title": "美国企业AI反弹：内部信任管理演变",
-   "brief": "美国公司内部应对AI反弹，努力维护员工信任，AI治理成为焦点。",
-   "chain": "AI治理→企业AI采用→美股科技→A股AI应用",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/23/ai-backlash-workers-job-losses.html",
-   "ts": "Sun, 23 Aug 2026 14:42:28 GMT"
+   "title": "Jim Cramer：英伟达财报本周公布，AI交易关键",
+   "brief": "Jim Cramer指出英伟达本周公布财报，是AI交易的重要事件。",
+   "chain": "英伟达财报→AI算力需求验证→A股算力链联动",
+   "impact": 7,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/24/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+   "ts": "2026-08-24T12:39:03+00:00"
   },
   {
    "cat": "ai",
-   "title": "SAP通过Joule和Data Cloud实现AI变现",
-   "brief": "SAP通过Joule和Data Cloud将AI商业化，展示企业软件AI盈利模式。",
-   "chain": "AI变现→企业软件价值→美股软件→A股AI应用",
-   "impact": 4,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/technology/ai/articles/sap-se-sap-monetizing-ai-112052918.html",
-   "ts": "2026-08-24T11:20:52Z"
+   "title": "阿里宣布102亿美元配售，股价大跌",
+   "brief": "阿里巴巴宣布102亿美元股票配售以资助AI投入，股价大跌。",
+   "chain": "配售融资→AI投入加大→A股AI产业链长期利好",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/24/alibaba-share-placement-drop-ai-hong-kong.html",
+   "ts": "Mon, 24 Aug 2026 08:21:17 GMT"
   }
  ]
 }
