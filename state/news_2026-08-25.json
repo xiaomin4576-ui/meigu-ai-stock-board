@@ -1,162 +1,189 @@
 {
  "asof": "2026-08-25",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-25T19:46+08:00",
+ "generated_at": "2026-08-25T22:29+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 4,
-  "cluster_label": "中东/伊朗",
+  "cluster_label": "伊朗",
   "cluster_dropped": [
-   "美防长称不排除再次军事打击伊朗",
-   "贝森特制裁伊朗：效果有限，关键在反应",
-   "巴基斯坦与伊朗会谈取得重大进展",
-   "伊朗战争半年，全球近半石油流经战区",
-   "美国制裁涉伊朗石油贸易商Wellbred",
-   "伊朗战争使坦桑尼亚LNG更具吸引力",
-   "美国拟派外交官重返中东使馆"
+   "伊朗誓言抵抗扩大制裁，称美寻求谈判",
+   "油价跌3%，美转向经济施压伊朗",
+   "伊朗战争六个月，全球近半石油流量来自战区",
+   "伊朗战争使坦桑尼亚LNG更具吸引力"
   ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "美财长：国债拍卖计划不变，回购扩大",
-   "brief": "贝森特表示尽管回购扩大，美国财政部仍将维持国债拍卖日程。此举旨在稳定债市，缓解流动性压力。",
-   "chain": "国债回购扩大→长端利率预期受控→美股估值压力缓解→A股算力链情绪修复",
+   "title": "美联储柯林斯：通胀仍然过高",
+   "brief": "美联储柯林斯称通胀过高，关注能否持续回落至2%，劳动力市场与充分就业一致，经济接近趋势增长。",
+   "chain": "美联储官员鹰派表态→加息预期升温→美股估值承压→A股算力链情绪受抑",
    "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNjNOaTQ3NkZ4V1N0SHI2ek42SEVXX0xHVVZXbHU1WGZXRFA5MHJ1YkdSLWxzREw2UnZURlFrVG1wWkZOVlU3VWg3dHVkeGpLbk1pMGJzRUVlLWpndGVoWlRwS2p2dlBXWXg5ZzR5UUVhd3g2RElhdklmbG1mNXZ5MDJrNUNROTZhcGY0ZC0yX21pblpqakFsY3VUaEhUelZfNllQemQ2QnR2Uk9sZW9IQjRJOFlBUkx3c3ZJd1JWMktDUQ?oc=5",
-   "ts": "2026-08-24T19:43:43+00:00"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608253853352650.html",
+   "ts": "2026-08-25 22:04:23"
   },
   {
    "cat": "macro",
-   "title": "贝森特债券操作重燃“贬值交易”",
-   "brief": "贝森特的债券操作引发“贬值交易”回归，加密货币和黄金重新受到青睐，市场对法定货币信心动摇。",
-   "chain": "贬值交易→美元走弱预期→黄金、比特币上涨→美股AI高久期资产承压→A股算力链波动",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/25/debasement-trade-debt-gold-bitcoin-dollar.html",
-   "ts": "Tue, 25 Aug 2026 11:24:50 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "金价因美元走弱和回购计划持稳",
-   "brief": "黄金接近三个月高位，受美元疲软和财政部回购计划支撑，避险需求与利率预期共同作用。",
-   "chain": "金价高位→避险情绪与利率预期交织→美股AI估值分母敏感→A股算力链情绪传导",
+   "title": "美国8月消费者信心指数89.4不及预期",
+   "brief": "美国8月谘商会消费者信心指数89.4，低于预期90.2，前值修正为90.2。",
+   "chain": "消费信心走弱→美国经济放缓担忧→美股承压→A股出口链或受拖累",
    "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/25/gold-hits-over-three-month-high-on-dollar-weakness-treasury-bond-buyback-plans.html",
-   "ts": "Tue, 25 Aug 2026 10:23:44 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608253853345568.html",
+   "ts": "2026-08-25 22:01:18"
   },
   {
    "cat": "macro",
-   "title": "金价获利回吐，仍处三个月高位",
-   "brief": "金价在涨至三个月高位后出现获利回吐，但整体趋势仍受地缘风险和利率预期支撑。",
-   "chain": "金价回调→短期避险情绪降温→美股科技股或获喘息→A股算力链短期波动",
+   "title": "美国8月里奇蒙德联储制造业指数4低于预期",
+   "brief": "美国8月里奇蒙德联储制造业指数为4，预估7，前值5，制造业活动放缓。",
+   "chain": "制造业数据疲软→经济下行风险→美股周期股承压→A股周期板块联动",
    "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQa19NSUEzV2xqY0JpOW5BRUlWc1VQNHNxdFk1cjk2ZldBQnotS0VtRmo4MWRSdjdDMEhya0JXeURjRFVoRkpyeDVLSGxTcExWM0YxaDh4dFl5OGF6MmN3eU4zd0poVXRBMnlQRFFkUy1qQmNwck9nV01hd2RNSXlaR3lJMzFYRWt3TDFGVnJENVZEVXZDR1puXzV0dGtSdW8zZGFmYXFn?oc=5",
-   "ts": "2026-08-25T02:10:00+00:00"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608253853344571.html",
+   "ts": "2026-08-25 22:00:57"
+  },
+  {
+   "cat": "macro",
+   "title": "美国7月新建住宅销量60.7万不及预期",
+   "brief": "美国7月新建住宅销量季调后折年率60.7万，低于预估62万，前值62.8万。",
+   "chain": "地产数据疲软→经济放缓担忧→美股承压→A股地产链情绪受抑",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608253853344846.html",
+   "ts": "2026-08-25 22:00:22"
+  },
+  {
+   "cat": "macro",
+   "title": "现货黄金跌近1%报4606美元",
+   "brief": "现货黄金跌0.97%报4606.54美元/盎司，白银跌2.16%，因获利了结。",
+   "chain": "金价回调→避险情绪降温→美股风险偏好回升→A股算力链情绪改善",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608253853339956.html",
+   "ts": "2026-08-25 21:55:34"
+  },
+  {
+   "cat": "macro",
+   "title": "现货黄金失守4610美元",
+   "brief": "现货黄金失守4610美元/盎司，日内跌0.91%，延续回调走势。",
+   "chain": "金价下跌→实际利率预期变化→美股估值压力缓解→A股科技股受益",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608253853311842.html",
+   "ts": "2026-08-25 21:28:10"
   },
   {
    "cat": "geo",
-   "title": "伊朗誓言报复美国扩大制裁",
-   "brief": "美国扩大对伊朗制裁后，伊朗誓言报复，中东局势再度紧张，市场关注能源供应风险。",
-   "chain": "美伊冲突升级→油价波动→美股能源板块影响→A股油气链联动",
+   "title": "贝森特D-Day制裁伊朗，回应是关键",
+   "brief": "美国财长贝森特对伊朗实施D-Day制裁，但效果存疑，伊朗回应将决定后续走向。",
+   "chain": "美伊博弈升级→地缘风险→美股能源股波动→A股油气链联动",
    "impact": 9,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQV2NneVkxY2I3clNhUzloallHZTVKV2h5N2wxbGNwWVZlNEZMRzBwRnJXRGdmYjdHOVl0ZFZHYk1fR08xQmY4VnhEZjAxRURrUHRrLWV2NmlsMndTQ3UzN1VyR3luekZMUmUtUE9ON0FnMGxiektWdG9RUlBJOXVFQjVoa3JnUFp2MGlmamJuTDJEZF81Rkp3NA?oc=5",
-   "ts": "2026-08-25T09:33:24+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMkhfQWZkQ3NjME44ZDJlVHBscXZyUVJFclJBN0Vha2M2Tk9HNjA3R3IwUDhfZUJRcWVKV2ZFZDQzbWpmalNENWZMZFNOZUZfbHNIbktZVmxaelAxMmhvT083NjM4eHhhblJqSU1HQ1JyU2Q1YW9UdkdSZlUzMFAxTDZaa3BzeUUxMjVzTEdZbFA2X0Q5NmFrTEhGMU5HSXNlTU45Rkdoa09jNVdsbGdiQ3hESGJyQVFRdkdNU0dJei1KT21vN2ZlQw?oc=5",
+   "ts": "2026-08-25T13:30:53+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "俄方：在乌克兰部署北约军队不可接受",
+   "brief": "俄总统新闻秘书佩斯科夫表示，北约在乌克兰部署军队对俄不可接受。",
+   "chain": "俄乌局势再起波澜→地缘风险→全球市场避险→A股军工板块关注",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608253853370275.html",
+   "ts": "2026-08-25 22:19:54"
   },
   {
    "cat": "oil",
-   "title": "油价跌至一周低点，市场无视制裁",
-   "brief": "投资者对美制裁伊朗反应冷淡，油价跌至一周低点，市场关注供应过剩风险。",
-   "chain": "油价下跌→全球供应担忧缓解→莫桑比克LNG项目竞争力相对下降",
+   "title": "油价触及一周低点，市场无视美对伊制裁",
+   "brief": "油价触及一周低点，投资者无视美国对伊朗制裁，因制裁力度弱于预期。",
+   "chain": "制裁不及预期→油价下跌→莫桑比克油气收入承压",
    "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeWVpMEdoenRuUHdzUlpxOG1xdVdSMTItdmhxNk5MUGc3YmdGLXl0S2EwYkNYVDV6LUJtaE96QkVuUFhqQzdORlVFdmRJTDRFaTVtSlNTZlh6OE9rQ0ZqdzJOWmQzbjVtWHJxZjFZNmo0VVlzRDRnYzJ1UklrQ0lNOHNCZWdZRVgtdXFZVnZGNXdlQVd2TlN0UjFhS2NNYjByTHBnZTY1NVpXNExJeGdObFllQ2lSYjNzRGw3aGh1ZFBuNmFnaUE?oc=5",
-   "ts": "2026-08-25T01:16:00+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "油价跌3%至12日低点，伊朗称有应对计划",
-   "brief": "伊朗称有两年计划应对美国“经济D-Day”，油价大跌3%至12日低点，市场情绪悲观。",
-   "chain": "油价大跌→地缘溢价消退→莫桑比克油气项目经济性受考验",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/25/oil-prices-iran-trump-hormuz.html",
-   "ts": "Tue, 25 Aug 2026 11:32:59 GMT"
+   "ts": "2026-08-25T13:25:34+00:00"
   },
   {
    "cat": "tech",
-   "title": "英伟达财报前图表亮黄灯",
-   "brief": "英伟达财报发布前，技术图表显示警示信号，投资者谨慎观望，市场关注业绩指引。",
-   "chain": "财报不确定性→美股科技股波动→A股算力链情绪联动",
-   "impact": 9,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/24/heres-what-the-charts-say-about-nvidias-stock-heading-into-earnings.html",
-   "ts": "2026-08-24T19:51:25+00:00"
+   "title": "美股芯片股多数上扬，英伟达涨近3%",
+   "brief": "美股芯片股多数上扬，英伟达盘初涨近3%，迈威尔科技涨超7%，AMD涨近5%。",
+   "chain": "芯片股反弹→科技股情绪回暖→A股半导体链联动",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608253853343363.html",
+   "ts": "2026-08-25 21:56:25"
   },
   {
    "cat": "tech",
-   "title": "雷蒙德·詹姆斯上调英伟达目标价",
-   "brief": "雷蒙德·詹姆斯将英伟达目标价从330美元上调至352美元，看好AI芯片需求。",
-   "chain": "目标价上调→AI芯片需求预期→A股算力链估值提升",
+   "title": "费城半导体指数开盘上涨2%",
+   "brief": "费城半导体指数开盘上涨2%，芯片股集体走强。",
+   "chain": "半导体指数上涨→美股科技股走强→A股算力链受益",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608253853085690.html",
-   "ts": "2026-08-25 19:24:18"
+   "url": "https://finance.eastmoney.com/a/202608253853315359.html",
+   "ts": "2026-08-25 21:33:00"
   },
   {
    "cat": "tech",
-   "title": "汇丰上调迈威尔科技目标价",
-   "brief": "汇丰银行将迈威尔科技目标价从300美元上调至325美元，看好数据中心业务。",
-   "chain": "目标价上调→数据中心需求→A股光模块、PCB链受益",
+   "title": "美股三大指数高开，光通信存储板块普涨",
+   "brief": "美股三大指数集体高开，光通信、存储芯片板块普涨，闪迪、Lumentum等领涨。",
+   "chain": "科技板块普涨→美股情绪向好→A股光模块、存储链联动",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608253853311919.html",
+   "ts": "2026-08-25 21:31:03"
+  },
+  {
+   "cat": "tech",
+   "title": "SK海力士宣布286亿美元回购",
+   "brief": "SK海力士宣布286亿美元回购，引发资本回报突破还是AI周期警告的讨论。",
+   "chain": "存储巨头回购→行业信心信号→A股存储链情绪影响",
    "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608253853038474.html",
-   "ts": "2026-08-25 18:59:40"
-  },
-  {
-   "cat": "tech",
-   "title": "SEC传唤华尔街银行调查AI对冲基金",
-   "brief": "美国SEC据报传唤华尔街银行，调查AI对冲基金Situational Awareness的近乎崩溃事件。",
-   "chain": "监管调查→AI金融应用风险→美股AI板块情绪→A股AI概念波动",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/25/sec-situational-awareness-hedge-fund-subpoenas.html",
-   "ts": "Tue, 25 Aug 2026 11:26:56 GMT"
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-skhy-announces-28-140531050.html",
+   "ts": "2026-08-25T14:05:31Z"
   },
   {
    "cat": "ai",
-   "title": "OpenAI封禁俄罗斯虚假信息账号",
-   "brief": "OpenAI封禁了用于秘密虚假信息活动的俄罗斯ChatGPT账号，显示AI被滥用于影响力行动。",
-   "chain": "AI安全事件→监管关注→美股AI板块情绪→A股AI安全概念",
-   "impact": 6,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/25/openai-russia-chatgpt-influence-campaign.html",
-   "ts": "2026-08-25T11:21:09+00:00"
+   "title": "OpenAI自研芯片Jalapeno超越英伟达Gb300",
+   "brief": "OpenAI称与博通共同开发的Jalapeno芯片在速度和功耗上超越英伟达Gb300。",
+   "chain": "AI芯片竞争加剧→英伟达承压→A股算力链格局变化",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608253853349233.html",
+   "ts": "2026-08-25 22:03:14"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达对超大规模客户依赖面临大考",
+   "brief": "英伟达财报在即，其对超大规模客户的依赖将受考验，市场关注需求持续性。",
+   "chain": "财报不确定性→美股AI链波动→A股算力链情绪传导",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/25/nvidias-dependence-on-hyperscalers-faces-big-test-in-earnings-report.html",
+   "ts": "Tue, 25 Aug 2026 12:00:01 GMT"
   },
   {
    "cat": "ai",
    "title": "英伟达称Groq机架今年上线",
-   "brief": "英伟达表示，以200亿美元收购的Groq机架将于今年上线，加速AI推理算力布局。",
-   "chain": "算力扩张→AI基础设施需求→A股算力链受益",
-   "impact": 8,
+   "brief": "英伟达表示Groq机架将在今年上线，此前以200亿美元收购Groq。",
+   "chain": "英伟达整合Groq→AI算力供给增加→A股算力链竞争加剧",
+   "impact": 7,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/08/24/nvidia-says-groq-racks-will-be-online-this-year-after-20-billion-deal.html",
    "ts": "Mon, 24 Aug 2026 17:19:34 GMT"
   },
   {
    "cat": "ai",
-   "title": "高盛警告AI取代银行家推理风险",
-   "brief": "高盛合伙人警告，让AI取代银行家的推理能力存在“巨大危险”，引发对AI应用边界的讨论。",
-   "chain": "AI应用风险→金融业谨慎→美股AI板块情绪→A股AI概念波动",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/24/goldman-sachs-ai-partner-danger-skills.html",
-   "ts": "Mon, 24 Aug 2026 15:50:50 GMT"
+   "title": "SEC传唤华尔街银行调查AI对冲基金",
+   "brief": "SEC据报传唤华尔街银行，调查AI对冲基金Situational Awareness的近乎崩溃。",
+   "chain": "AI监管趋严→金融AI应用风险→美股AI板块情绪受抑",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/25/sec-situational-awareness-hedge-fund-subpoenas.html",
+   "ts": "Tue, 25 Aug 2026 11:49:33 GMT"
   }
  ]
 }
