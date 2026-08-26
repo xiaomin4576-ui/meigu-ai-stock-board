@@ -1,20 +1,47 @@
 {
  "asof": "2026-08-26",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-26T15:35+08:00",
+ "generated_at": "2026-08-26T22:27+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 2,
-  "cluster_label": "",
-  "cluster_dropped": [],
+  "cross_day_suppressed": 1,
+  "cluster_label": "伊朗/霍尔木兹",
+  "cluster_dropped": [
+   "伊朗-阿曼谈判重开霍尔木兹 油价跌至两周低点",
+   "伊朗与阿曼计划临时霍尔木兹走廊",
+   "伊朗称若美国不满足条件 霍尔木兹不会开放",
+   "特朗普称霍尔木兹已排雷 警告伊朗勿再布",
+   "部分油企避开伊朗黑名单船舶",
+   "英国能源价格上限将上涨4% 因伊朗战争推高成本"
+  ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "IMF总裁称全球经济抵御能源冲击，但财政堪忧",
-   "brief": "IMF总裁格奥尔基耶娃表示全球经济正抵御能源冲击，但财政问题令人担忧。",
-   "chain": "IMF对能源冲击的评估影响全球风险偏好→美股宏观情绪→A股顺周期板块",
+   "title": "美国7月核心PCE同比涨3.3% 通胀升温",
+   "brief": "美国商务部数据显示，7月核心PCE价格指数同比上涨3.3%，高于预期，显示通胀压力持续。",
+   "chain": "通胀升温→美联储降息预期降温→美股估值承压→A股算力链情绪受抑",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html",
+   "ts": "Wed, 26 Aug 2026 13:35:50 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "美国7月PCE通胀升温 消费势头转弱",
+   "brief": "美国7月个人消费支出报告显示核心PCE同比上涨3.3%，消费势头承压转弱。",
+   "chain": "通胀顽固→美联储或维持高利率→美股成长股估值受压→A股科技股联动",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608263855136825.html",
+   "ts": "2026-08-26 22:05:04"
+  },
+  {
+   "cat": "macro",
+   "title": "IMF总裁：全球经济抵御能源冲击 财政堪忧",
+   "brief": "IMF总裁格奥尔基耶娃表示，全球经济正在抵御能源冲击，但财政问题令人担忧。",
+   "chain": "能源冲击→全球增长放缓→美股盈利预期下调→A股出口链承压",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUlNGTjR1THQ0R0s5N3VUYk1yNEpjMTY3NURXRkRHOWZHMzBRdi1EMDlieDJ0U180WTZMai1nVnVmWnlpZzNMUm1lV1F4a1R1UEU5bGRqb3BlVk00Wjh6ME10NEdwNE1McDdDNF9aM3pyeXZoNmJ4M01lMFZDZTNUTXRYRkpldlFVNm1LRWd5MFZHYjRnUUw0ekREdHU0ODNiSEY4OEFFcXRhN2NvVlBLU285bkx1VHBYVVc5eUZtOXdXQQ?oc=5",
@@ -22,9 +49,9 @@
   },
   {
    "cat": "macro",
-   "title": "ECB九月加息在即，但无意释放更多信号",
-   "brief": "消息人士称，欧洲央行将在九月加息，但无意暗示后续路径。",
-   "chain": "欧央行加息强化全球紧缩预期→压制美股估值→A股成长股承压",
+   "title": "欧央行9月料加息 无意暗示后续行动",
+   "brief": "消息人士称，欧洲央行将在9月加息，但无意暗示进一步行动，因经济前景不确定。",
+   "chain": "欧央行加息→欧元走强→美元指数承压→黄金获支撑→A股黄金股受益",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaS1YSEQ1R25MRlpTOGV2WjhEVjJMc1N3MjhGMnhCcUF0WGpMSTh1UTVUTGxIam1MNjh0dURNUWQtdGd5MGZpRTBIcUVuS0dobGhhNlY2UDN5OTYxZzJPTnp4Y0FVWUlzMUN2bGxQQWtnTUVMNENlbXI0bkdFSnFjaDZOdG12VGZLcFdUZUJHWElaVElqMmF0dmpCNTdNejM1UTdISUdGaVYwWW9kSUN4TVUzbw?oc=5",
@@ -32,143 +59,113 @@
   },
   {
    "cat": "macro",
-   "title": "富国银行料日央行九月升息，日元或贬破160",
-   "brief": "富国银行报告称，日本央行可能在九月升息，若按兵不动，美元兑日元或升至160以上。",
-   "chain": "日央行政策影响全球套息交易→日元贬值风险→A股出口链与风险偏好",
+   "title": "美元债券市场紧张 贝森特干预施压沃什",
+   "brief": "杰克逊霍尔会议前，美元和债券市场紧张，贝森特的市场干预给沃什带来压力。",
+   "chain": "市场干预→债券波动→风险偏好下降→美股承压→A股防御板块受青睐",
    "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/26/jackson-hole-warsh-bessent-bonds-treasury-dollar.html",
+   "ts": "Wed, 26 Aug 2026 13:35:18 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "美伊战争陷入能源 trench warfare 六个月",
+   "brief": "美伊战争已持续六个月，陷入能源 trench warfare，双方在能源领域僵持。",
+   "chain": "美伊冲突持续→油价高位波动→全球通胀→美股能源板块受益→A股油气链联动",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcUMxd0dzb1VHdVAxRERXaTE2RFhfaEE1M1pQY084QWJIU2ZLWEZ3VUpVbi1ORkpXMEJNRjUyS1dwUUdvYnROb1kwNXFpQm40V3VjellLTWdRYWQ1ZWxKY1dvc3ZLWXVzSVhJSmJqSXNGWmRieDJMQ2RlSktPeS1zSVFFTndmQ0NXaFcwTDFiUGRZU1VHdzlUdFdDWW04MEtMZ0dwT0JQamhjWU1RRkYxQlBWcUJFTlQzWnFZdGs2U0NIZw?oc=5",
+   "ts": "2026-08-26T06:00:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "美油围绕80美元 因霍尔木兹协议希望油价下跌",
+   "brief": "美国原油期货在80美元附近徘徊，因霍尔木兹海峡协议希望导致油价下跌。",
+   "chain": "协议希望→油价下跌→全球能源成本降低→莫桑比克LNG项目竞争力相对下降",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/26/oil-falls-as-the-us-pivots-to-economic-pressure-on-iran-.html",
+   "ts": "Wed, 26 Aug 2026 12:12:29 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "国际原油跌幅缩窄至1.3% 此前跌超3%",
+   "brief": "国际原油期货跌幅收窄至1.3%，此前美油布油均跌超3%，市场情绪波动。",
+   "chain": "油价波动→能源板块震荡→莫桑比克油气收入预期受影响",
+   "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608263854512423.html",
-   "ts": "2026-08-26 15:20:25"
-  },
-  {
-   "cat": "macro",
-   "title": "债券抛售结束？期权市场押注债券大涨",
-   "brief": "期权交易员大举押注债券反弹，暗示市场预期利率见顶。",
-   "chain": "债券反弹预期→美债收益率下行→利好美股高久期成长股→A股科技股估值修复",
-   "impact": 6,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/25/bond-rout-ending-massive-bets-on-bond-rally-dominate-options-market-.html",
-   "ts": "2026-08-25T19:42:17+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "特朗普称霍尔木兹海峡已扫雷，警告伊朗",
-   "brief": "特朗普表示霍尔木兹海峡已清除水雷，并警告伊朗不要重新布雷。",
-   "chain": "美伊紧张局势缓和→油价风险溢价下降→利好全球贸易与A股",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPT20tcldmTnJoUWpfYlFMcnhIamdoZG5aenFWZDlLaGJFOG9mUVZQOENaU3hTNTlJOGpEUkg1QW9qVi1qUENRRGxLU3V2QW50cEs3YlE2LU1EZHhidlhheXpBeXBiX3FrT1dFeTFmQmo2cGpIdExvUUlET1d1eHJqc09lYVlvNjFPbEtmS0FaQ0xfYWlCdVl6WXQ3UjBMUUxZbWVNS0VXVTRfbzFwekE?oc=5",
-   "ts": "2026-08-25T15:05:43+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "特朗普将沙特核协议提交国会，但要求承认以色列",
-   "brief": "特朗普将沙特核协议提交国会，但附加条件要求沙特承认以色列。",
-   "chain": "中东地缘格局重塑→影响原油供应预期→A股能源链",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQlo4djdVdDNyZ2pOQWpMS2ZnblpzdUhoSzZRRGxpR29YSW1PUl9JUmNNYzgtSXZtbDh0a0xxekVuNlVYTWVGWS1RdkE2RXdqVGJFdGE0Z2l3V0ZvaE1hWGFjNHo2RXJjOGw1RFhOSkJnTGpuMHJId1BqcTRDRmhERkZWMGh0bDMzaWpHMTVHZ05UN29UbzZMTG5Valh1dkgwbFNRZFZqRmFZU3dVdXlpbkpZVm5vVzhQeEZEWEtaOHEzeTZ1VUE?oc=5",
-   "ts": "2026-08-25T23:24:00+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "叙利亚库尔德武装SDF解散，并入大马士革",
-   "brief": "叙利亚库尔德武装SDF宣布解散，作为与政府整合的一部分。",
-   "chain": "中东地缘格局变化→影响地区稳定→原油风险溢价",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNDhnT2QxNFlGZ3MzTE56cmZZNzQ0XzhxUmZRVURPb3h6Z3BDNW5LdlhLLW5SeGVCZ0tFS054U0UyV0I2UTl6VDJEeXFCQ0Q5d253RkN6dlNDbHFZUDBBdGxpczJTYkEyenVTWHNYSEZWZ2d2OGRQTTNraXhQenlnVGFyVjhDUFFsR2Y5d1IzUEZ2UmFkSVF0YUZ1LUtMLUlsU2RDeERJSTRtbnRLanJPQlF0b3o0aTZi?oc=5",
-   "ts": "2026-08-25T19:19:44+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "油价下跌2美元，因伊朗与阿曼谈判重开霍尔木兹",
-   "brief": "伊朗与阿曼就重开霍尔木兹海峡进行谈判，油价应声下跌2美元。",
-   "chain": "霍尔木兹通航预期→油价下行→降低莫桑比克油气生产成本，利好经营",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWGpaTWZvaVNwRmNHZEJSYm5oVkZEanpaNEMyLXlEQUZWM0dDSVVycmxLdlJXUXg0MVlCVTN4SUptQ3pqUWg1dlVYV1k3aTgwWlhYMTZHcURfcEZZR1BydDNIVVBQbXhkendYWnRzbWJSbWVndmpyYnljV3ZpVlE3X2dmNmxPMjYyMWJQQ1VCUWs1RmR1UWdIY1ZGTXRiNzlKbmN1WGtBX2Y3TG5LUDBfVW1Ud0ZkVWhMbWc?oc=5",
-   "ts": "2026-08-25T23:03:00+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "部分油企将避开伊朗黑名单船舶",
-   "brief": "消息人士称，部分石油公司为避免制裁风险，将避开伊朗黑名单上的船舶。",
-   "chain": "制裁执行→油轮运费与供应扰动→影响东非原油出口物流成本",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNzU0Q1htdDM2bF9VQnJEYkxpY0U1Qko2WDRqR1kzY0RJTDd5MEtEbU43ZEpOdjBOcGJYR3d6OF9XQ1dCRWR3RnZrS3RZOVg2eDlvZE96TDMwR3ZiaG15elYwZnQySm1IY2JaMGdmbUNmMmdqTVBGZlNmZFZyMU5Ud1VJNTdyTnNHUmg0NnhuakhOSThwSVNpcVdVczF3dS11VUZOem41enZvUTBaeVE?oc=5",
-   "ts": "2026-08-26T04:49:00+00:00"
+   "url": "https://finance.eastmoney.com/a/202608263855117328.html",
+   "ts": "2026-08-26 21:40:31"
   },
   {
    "cat": "gas",
-   "title": "战争致卡塔尔天然气断供6个月，美国销量上升",
-   "brief": "战争导致卡塔尔天然气供应中断6个月，美国LNG销量上升，欧洲库存下降。",
-   "chain": "卡塔尔断供→LNG价格走高→莫桑比克LNG项目竞争力增强，利好Union公司",
+   "title": "卡塔尔天然气滞留6个月 美国销量上升欧洲股市暴跌",
+   "brief": "战争导致卡塔尔天然气滞留六个月，美国天然气销量上升，欧洲股市因能源危机暴跌。",
+   "chain": "卡塔尔供应中断→美国LNG出口增加→全球LNG价格高企→莫桑比克LNG项目受益",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWkp0YndfNmRJZEdMN2dnMFl4TXhSR2RMal9zTTA2NUtoOV83Um5ZNXB2LWEtSGNZZldsZl93V2RVQzNiZXFpMnN6Wlhzdy1CRFl1X1ZOSHU5eWVsTUpYV2N2R285LU5pS1ZsaTI4bUFuYTVsUC1VRzlqa2o1dVl1VC1BcE1OakRwMWtJNUxlWXBIMklmanZSeDY3M012QzlRVENLeDRkZjdmZjNJamFsazZOdFFrNFZRWnI1UUtR?oc=5",
-   "ts": "2026-08-26T05:03:00+00:00"
+   "ts": "2026-08-26T06:00:40+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "伊朗与俄气讨论天然气合作",
+   "brief": "伊朗与俄罗斯天然气公司Gazprom讨论天然气行业合作，可能影响全球供应格局。",
+   "chain": "伊俄合作→天然气供应多元化→全球LNG市场竞争加剧→莫桑比克需关注定价",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608263855143228.html",
+   "ts": "2026-08-26 22:13:06"
   },
   {
    "cat": "tech",
-   "title": "摩根士丹利：英伟达表外融资隐含2000亿美元风险",
-   "brief": "摩根士丹利研报指出，英伟达通过表外融资支持AI基建，隐含约2000亿美元风险敞口。",
-   "chain": "英伟达财务风险→美股AI硬件股波动→A股算力链情绪传导",
+   "title": "英伟达财报日 市场关注重大考验",
+   "brief": "英伟达财报日，市场关注其业绩表现，Jim Cramer列出十大关注点。",
+   "chain": "英伟达财报→AI芯片需求验证→美股科技股波动→A股算力链联动",
+   "impact": 9,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/26/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
+   "ts": "2026-08-26T12:55:38+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "英伟达股价下跌1.05% 市值5.10万亿美元",
+   "brief": "英伟达股价下跌1.05%，总市值报5.10万亿美元，财报前市场谨慎。",
+   "chain": "财报前调整→AI估值波动→美股科技股承压→A股AI概念股联动",
    "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608263854514879.html",
-   "ts": "2026-08-26 15:25:27"
+   "url": "https://finance.eastmoney.com/a/202608263855149562.html",
+   "ts": "2026-08-26 22:22:02"
   },
   {
    "cat": "tech",
-   "title": "芯片股反弹，英伟达财报前市场关注",
-   "brief": "芯片股反弹，市场关注英伟达周三盘后财报。",
-   "chain": "芯片股反弹→美股科技股情绪→A股半导体链联动",
+   "title": "惠普与华为合作 授权WiFi技术",
+   "brief": "惠普与列入美国黑名单的华为合作，授权使用华为WiFi技术，引发关注。",
+   "chain": "合作→华为技术获认可→中美科技博弈→A股华为产业链受益",
    "impact": 7,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/25/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
-   "ts": "2026-08-25T12:59:01+00:00"
-  },
-  {
-   "cat": "tech",
-   "title": "惠普与黑名单上的华为合作，授权WiFi技术",
-   "brief": "惠普与华为达成许可协议，授权华为WiFi技术，尽管华为在美黑名单上。",
-   "chain": "中美科技脱钩缓和→利好全球科技供应链→A股华为产业链",
-   "impact": 6,
-   "source": "CNBC World",
+   "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/08/25/hp-partners-huawei-wifi-tech-us-entity-list.html",
    "ts": "Wed, 26 Aug 2026 04:20:31 GMT"
   },
   {
+   "cat": "tech",
+   "title": "苹果发布新款Mac Mini和Mac Studio 搭载AI升级",
+   "brief": "苹果发布新款Mac Mini和Mac Studio，搭载AI升级，强化AI生态。",
+   "chain": "苹果AI硬件→AI应用普及→美股苹果链→A股消费电子链联动",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/25/apple-announces-new-mac-mini-and-mac-studio-models-with-ai-upgrades.html",
+   "ts": "Tue, 25 Aug 2026 13:00:01 GMT"
+  },
+  {
    "cat": "ai",
-   "title": "OpenAI称博通定制芯片成功，对英伟达影响几何",
-   "brief": "OpenAI表示其与博通合作的定制芯片表现优异，引发对英伟达市场地位的讨论。",
-   "chain": "AI芯片竞争加剧→英伟达面临挑战→A股算力芯片替代概念",
-   "impact": 8,
+   "title": "OpenAI自研芯片成功 对英伟达构成威胁",
+   "brief": "OpenAI表示其博通定制芯片表现优异，可能对英伟达的市场份额构成威胁。",
+   "chain": "自研芯片→AI算力格局变化→英伟达估值承压→A股算力链分化",
+   "impact": 9,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/08/25/openai-says-its-broadcom-chip-is-a-big-advance-what-about-nvidia.html",
    "ts": "2026-08-25T19:01:55+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "阿里千问办公国际版开启公测",
-   "brief": "阿里旗下Agent产品千问办公国际版（QwenWork）开启公测。",
-   "chain": "国产AI应用出海→提升AI商业化预期→A股AI应用与软件板块",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608263854516547.html",
-   "ts": "2026-08-26 15:30:50"
-  },
-  {
-   "cat": "ai",
-   "title": "OpenAI数据中心负责人离职，高管持续流失",
-   "brief": "OpenAI数据中心负责人Chris Malone离职，成为最新一位离职高管。",
-   "chain": "OpenAI管理层动荡→AI行业竞争格局变化→A股AI概念情绪",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/25/openais-head-of-data-centers-chris-malone-is-out-in-latest-exec-exit.html",
-   "ts": "Tue, 25 Aug 2026 21:26:00 GMT"
   }
  ]
 }
