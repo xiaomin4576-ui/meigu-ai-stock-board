@@ -1,0 +1,197 @@
+{
+ "asof": "2026-08-27",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-08-27T17:35+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 2,
+  "cluster_label": "伊朗/卡塔尔/霍尔木兹",
+  "cluster_dropped": [
+   "伊朗与阿曼就霍尔木兹份额达成协议",
+   "水厂供应商遭黑客攻击 伊朗网络威胁引FBI关注"
+  ],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "美债收益率回落 聚焦非农与杰克逊霍尔",
+   "brief": "美国国债收益率在非农数据和杰克逊霍尔央行年会前走低，市场等待政策信号。",
+   "chain": "收益率下行→缓解美股估值压力→利好A股成长股情绪",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/27/us-bonds-us10y-jackson-hold.html",
+   "ts": "Thu, 27 Aug 2026 07:44:20 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "经济学家促沃什在杰克逊霍尔阐明经济观点",
+   "brief": "CNBC调查显示80%受访者希望美联储主席沃什在杰克逊霍尔分享更多经济看法。",
+   "chain": "美联储主席表态→影响利率预期→映射A股流动性敏感板块",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/26/fed-survey-warsh-economy-view.html",
+   "ts": "2026-08-26T17:02:24+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "中国工业利润增速放缓至七个月新低",
+   "brief": "中国工业企业利润增速降至七个月最低，经济下行压力加深。",
+   "chain": "中国经济放缓→全球需求担忧→利空A股周期与科技链",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/27/china-industrial-profits-july-factory-production-.html",
+   "ts": "Thu, 27 Aug 2026 03:22:14 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "CIA局长密访莫斯科警告俄勿攻北约",
+   "brief": "据报道，CIA局长约翰·拉特克利夫秘密访问莫斯科，警告俄罗斯不要攻击北约。",
+   "chain": "美俄紧张升级→避险情绪→压制美股风险偏好，A股军工或受关注",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/27/ratcliffe-moscow-russia-nato-ukraine-iran.html",
+   "ts": "Thu, 27 Aug 2026 08:33:46 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "卡塔尔首相访伊斡旋 油轮遇袭考验特朗普霍尔木兹声明",
+   "brief": "卡塔尔首相前往伊朗缓和紧张局势，油轮遇袭事件考验特朗普对霍尔木兹的承诺。",
+   "chain": "中东外交斡旋→地缘风险缓和→油价承压，利好A股下游成本",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/27/us-iran-war-trump-hormuz-attack-mine-.html",
+   "ts": "Thu, 27 Aug 2026 08:22:29 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "油价延续跌势 中东和谈希望缓解供应担忧",
+   "brief": "因中东和谈希望缓解供应担忧，油价连续下跌。",
+   "chain": "地缘缓和→油价下行→降低莫桑比克油气项目成本压力",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQS3BzVVdsbG9iUHJoaGxwVFYzR256VFBDQnlQRlh1YVZfVnZmUE1jeXQzRXFHRDhuSnpyanlNZ1NHR0RHUy1TSm8teHRiVHJ1cTZSMDRJaW1MMFJXQ2ZpTmZrN081Y3V4OUM0Qk9lRXJMY2ZONzVZN0J4eWtZT1d4TTR1Uzg1bjR5NU9TRGFQdmpZb2RPQUpYbWI4NzdyVVhsczZkOWVjTzV1ZTRKbHV3RDMwcUJ5U2xTT1M2VFhrMlVpQQ?oc=5",
+   "ts": "2026-08-27T01:20:00+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "欧洲天然气库存偏低 冬季价格或破百欧元",
+   "brief": "欧洲天然气库存不足，冬季价格可能超过100欧元/兆瓦时。",
+   "chain": "欧洲气价上涨→全球LNG需求强劲→利好莫桑比克LNG项目出口",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/27/europe-gas-storage-prices-winter-lng.html",
+   "ts": "Thu, 27 Aug 2026 05:00:01 GMT"
+  },
+  {
+   "cat": "gas",
+   "title": "中国与约旦签署能源合作备忘录",
+   "brief": "国家能源局与约旦能源部签署谅解备忘录，加强能源合作。",
+   "chain": "中国拓展中东能源合作→全球LNG流向变化→对东非LNG市场影响有限",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608273856478587.html",
+   "ts": "2026-08-27 17:23:53"
+  },
+  {
+   "cat": "tech",
+   "title": "英伟达财报超预期 股价大涨7%",
+   "brief": "英伟达公布强劲财报，营收和指引超预期，股价大涨7%，提振AI信心。",
+   "chain": "英伟达业绩强劲→美股AI链走强→映射A股算力硬件（光模块、PCB）",
+   "impact": 10,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/27/nvidia-nvda-q2-earnings.html",
+   "ts": "Thu, 27 Aug 2026 08:43:20 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "苹果定于9月9日举行iPhone发布会",
+   "brief": "苹果宣布9月9日举办iPhone发布会，为新任CEO John Ternus首次。",
+   "chain": "苹果新品发布→消费电子链活跃→A股苹果产业链（立讯、歌尔）受益",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/26/apple-iphone-launch-date-john-ternus.html",
+   "ts": "Wed, 26 Aug 2026 17:40:28 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "Meta以167亿美元和解社交媒体成瘾诉讼",
+   "brief": "Meta与加州等多州达成167亿美元和解，解决社交媒体成瘾诉讼。",
+   "chain": "Meta巨额和解→科技监管压力→美股科技股情绪，A股平台经济或受牵连",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/26/meta-social-media-trial-settlement.html",
+   "ts": "Wed, 26 Aug 2026 21:17:46 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达拟129亿美元收购Hugging Face",
+   "brief": "据报道，英伟达同意以129亿美元收购AI平台Hugging Face。",
+   "chain": "英伟达并购扩张→AI生态整合→A股AI应用与数据服务链或受益",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/27/nvidia-hugging-face-acquisition.html",
+   "ts": "Thu, 27 Aug 2026 07:29:46 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达业绩惊艳 销售预测亮眼",
+   "brief": "英伟达季度业绩强劲，销售预测远超预期，华尔街惊叹。",
+   "chain": "英伟达高增长→AI算力需求验证→A股算力租赁、服务器链景气",
+   "impact": 10,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/26/nvidia-wows-wall-street-with-a-strong-quarter-eye-popping-sales-forecast.html",
+   "ts": "Thu, 27 Aug 2026 01:02:43 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "CrowdStrike创纪录季度 AI网络安全需求激增",
+   "brief": "CrowdStrike第二季度创纪录，AI驱动的网络安全需求推动股价大涨11%。",
+   "chain": "AI安全需求爆发→美股网络安全板块→A股网络安全概念联动",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/26/crowdstrike-crwd-earnings-q2-2027.html",
+   "ts": "Wed, 26 Aug 2026 22:20:20 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Salesforce股价大涨12% AI增长与Anthropic投资增益",
+   "brief": "Salesforce因AI增长和Anthropic投资估值提升，股价大涨12%。",
+   "chain": "AI应用商业化加速→美股SaaS板块→A股AI应用（办公、企服）或映射",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/26/salesforce-crm-q2-earnings-report-2027.html",
+   "ts": "Thu, 27 Aug 2026 01:01:00 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Anthropic与Nscale达成450亿美元云交易",
+   "brief": "消息称Anthropic与Nscale签订450亿美元云计算协议，扩大AI算力。",
+   "chain": "AI算力军备竞赛→云服务需求→A股算力基础设施（IDC、液冷）受益",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/26/anthropic-and-nscale-strike-45-billion-cloud-deal-sources-say.html",
+   "ts": "Wed, 26 Aug 2026 18:07:15 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "智谱AI发布仅用国产芯片运行的新模型 股价涨8%",
+   "brief": "智谱AI发布新AI模型，仅用中国芯片即可运行，股价大涨8%。",
+   "chain": "国产AI芯片突破→自主可控逻辑强化→A股国产算力芯片（海光、寒武纪）受益",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/27/zai-shares-surge-new-ai-model-using-chinese-chips.html",
+   "ts": "Thu, 27 Aug 2026 05:34:13 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "OpenAI自研芯片Jalapeño威胁英伟达利润率",
+   "brief": "OpenAI的Jalapeño AI芯片带来新威胁，定制芯片崛起冲击英伟达。",
+   "chain": "定制芯片挑战→英伟达利润率担忧→A股ASIC概念或受关注",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/26/openai-jalapeno-ai-chip-nvidia.html",
+   "ts": "Wed, 26 Aug 2026 19:15:53 GMT"
+  }
+ ]
+}
