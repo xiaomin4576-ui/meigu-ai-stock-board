@@ -1,53 +1,60 @@
 {
  "asof": "2026-08-28",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-28T19:20+08:00",
+ "generated_at": "2026-08-28T21:25+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 2,
-  "cluster_label": "伊朗/霍尔木兹",
-  "cluster_dropped": [
-   "G20财长会议聚焦增长与伊朗制裁",
-   "伊朗设定重开霍尔木兹海峡条件"
-  ],
+  "cross_day_suppressed": 1,
+  "cluster_label": "",
+  "cluster_dropped": [],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "美联储主席Warsh杰克逊霍尔讲话前瞻",
-   "brief": "美联储主席Kevin Warsh将于周五在杰克逊霍尔发表关键讲话，市场关注其政策信号。",
-   "chain": "讲话定调利率路径→影响美股估值→映射A股流动性预期",
+   "title": "美联储主席Warsh杰克逊霍尔演讲前瞻",
+   "brief": "美联储主席Kevin Warsh将于周五在杰克逊霍尔发表关键演讲，市场关注其对利率和通胀的表态。",
+   "chain": "Warsh讲话定调美联储政策路径→影响美股估值与风险偏好→映射A股流动性预期与成长股表现",
    "impact": 9,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/27/fed-chairman-kevin-warsh-delivers-his-key-jackson-hole-speech-friday.html",
-   "ts": "Fri, 28 Aug 2026 11:09:49 GMT"
+   "ts": "Fri, 28 Aug 2026 11:39:47 GMT"
   },
   {
    "cat": "macro",
-   "title": "美债收益率持稳，聚焦Warsh讲话",
-   "brief": "美债收益率窄幅波动，投资者等待美联储主席Warsh的杰克逊霍尔讲话。",
-   "chain": "收益率波动→影响美股风险偏好→传导至A股成长股",
+   "title": "美债收益率在Warsh讲话前持稳",
+   "brief": "美国国债收益率在美联储主席Warsh杰克逊霍尔演讲前保持平稳，市场等待政策信号。",
+   "chain": "美债收益率波动→影响美股估值分母→传导至A股高估值科技板块",
    "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/28/treasury-yields-jackson-hole.html",
-   "ts": "Fri, 28 Aug 2026 08:24:08 GMT"
+   "ts": "Fri, 28 Aug 2026 12:16:18 GMT"
   },
   {
    "cat": "macro",
-   "title": "欧央行7月会议或进一步加息",
-   "brief": "欧央行会议纪要显示7月可能进一步加息，通胀压力持续。",
-   "chain": "欧央行加息→全球利率环境→影响美股及A股资金流向",
+   "title": "预测市场：Warsh讲话市场反应预期",
+   "brief": "Kalshi预测市场显示，美联储主席Warsh提及“债券市场”或“加息”的概率较低，市场预期鸽派。",
+   "chain": "预测市场预期→影响美股利率敏感板块→映射A股债市与成长股情绪",
+   "impact": 6,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/27/what-warsh-will-say-and-how-the-market-will-react-according-to-prediction-markets.html",
+   "ts": "2026-08-27T18:14:57+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "G20财长会议聚焦增长与伊朗制裁",
+   "brief": "美国主办的G20财长会议将讨论全球增长、失衡及伊朗制裁问题，美国财政部官员透露。",
+   "chain": "G20会议成果→影响全球宏观政策协调→对A股外贸与大宗商品链有间接影响",
    "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaDBJVVNFblBPSy11dmRWMWRibVZPOXZkNmY1bzZTUXI4S3hPQk50b05IbWR2VUd3RVJUNUsyRG4zNVUxWXhhUGFDSk1WN3B3QXp6YmRaeW0xUTYzMnlpZlA1TzRqc2ZYeHpHSDJ2dzZ2Y3FwS211V0JzczRSY0ZwR1h0aUZjZmNERXJoY3N1TGNiQ1R3dmZr?oc=5",
-   "ts": "2026-08-27T12:14:14+00:00"
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNW43Vk95endNOWY5dnh3SUs0amx5SDJXVEFuWTRoX0F0Vnl6azdkM3NYWmRMZXZPZ0pIRkpZTmZrcExyVG9GWVYyaHlXeFR6aVR1dS15RWcyNmxWZVNDNTBmRXRQSU9ESG1BcHE2YWU0d0M5MW1fcDgtUFFQYnZRTDYxMEp6S2l1c1ZaS3hodWRnSnlPR3hBLVFSLWlCUXR4SlFrb0Z6dnpCVFZneS1CZzVPR2JoRUJ5am0zdw?oc=5",
+   "ts": "2026-08-28T00:29:00+00:00"
   },
   {
    "cat": "geo",
-   "title": "美海军封锁削减伊朗石油出口",
-   "brief": "美国对伊朗转向经济战，海军封锁导致伊朗石油出口大减。",
-   "chain": "地缘冲突→油价波动→影响A股石油板块",
+   "title": "美海军封锁大幅削减伊朗石油出口",
+   "brief": "美国海军封锁大幅削减伊朗石油出口，特朗普政府转向经济战，此前7月进行多轮空袭。",
+   "chain": "美伊冲突升级→地缘风险溢价→影响全球风险资产与A股军工、石油链",
    "impact": 9,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/08/28/navy-blockade-iran-oil-exports-sanctions-trump.html",
@@ -56,8 +63,8 @@
   {
    "cat": "geo",
    "title": "特朗普对华言论升级，习近平访美在即",
-   "brief": "特朗普加强对华言论，中美官员为习近平访美做准备。",
-   "chain": "中美紧张→科技股承压→映射A股自主可控",
+   "brief": "特朗普加强对北京言论，美中官员为习近平访华盛顿会晤做准备。",
+   "chain": "中美关系紧张→影响美股科技股→映射A股自主可控与出口链",
    "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/28/trump-x-meeting-us-china-iran-sanctions.html",
@@ -65,9 +72,9 @@
   },
   {
    "cat": "geo",
-   "title": "俄军加强顿涅茨克攻势，欧盟推动解冻俄资产",
-   "brief": "俄军在顿涅茨克加强攻击，欧盟寻求解冻俄资产援助乌克兰。",
-   "chain": "俄乌冲突→能源供应→影响全球油气市场",
+   "title": "俄军加强顿涅茨克攻势，欧盟推动解冻资产",
+   "brief": "俄罗斯加强在顿涅茨克的攻击，乌克兰欢迎欧盟推动解冻俄罗斯资产的举措。",
+   "chain": "俄乌冲突持续→影响欧洲能源安全→对A股能源与军工板块有情绪传导",
    "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/28/russia-donetsk-ukraine-frozen-assets.html",
@@ -75,29 +82,39 @@
   },
   {
    "cat": "geo",
-   "title": "特朗普格陵兰关注影响冰岛欧盟投票",
-   "brief": "特朗普对格陵兰的兴趣使安全议题成为冰岛欧盟投票焦点。",
-   "chain": "地缘博弈→欧洲安全→影响市场情绪",
-   "impact": 4,
+   "title": "特朗普格陵兰执念影响冰岛欧盟投票",
+   "brief": "特朗普对格陵兰的关注使安全议题成为冰岛欧盟成员国投票的关键。",
+   "chain": "地缘安全议题→影响欧洲政治格局→对全球风险偏好有间接影响",
+   "impact": 5,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/28/iceland-eu-referendum-trump-greenland-arctic.html",
    "ts": "Fri, 28 Aug 2026 07:07:12 GMT"
   },
   {
    "cat": "oil",
-   "title": "油价周线下跌，伊朗紧张持续",
-   "brief": "尽管伊朗局势紧张，油价仍将录得周线跌幅。",
-   "chain": "地缘溢价消退→油价承压→影响莫桑比克油气收入",
+   "title": "油价持稳，周线或下跌因美伊谈判僵局",
+   "brief": "油价持稳，因美伊谈判僵局，周线可能下跌。",
+   "chain": "美伊谈判僵局→油价短期承压→对莫桑比克油气出口收入有影响",
    "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMDRjQUkzbzJPY3ZkSGVLX1NmU05FVWxRUXZod3V6MkU5TTUxTjl0cm5yMzB2R0UyMy1mUUZsZVZ5TkVGMkdXNWR1X0FqUk5OaFRsZjg4NVhreGM5bUFHQ1BiT1E0SFB1ZzJKNlVLdGFRZ2ZEd1BEV0s5ZFBEOVdtWHMtZzh3b0lBaHhHSkdSYTZWNWUzSjhNX1RLcEg0My1x?oc=5",
-   "ts": "2026-08-28T06:44:10+00:00"
+   "ts": "2026-08-28T01:16:00+00:00"
   },
   {
    "cat": "oil",
-   "title": "特朗普将会见炼油商应对油价",
-   "brief": "伊朗战争推高汽油价格，特朗普将见炼油商和燃料零售商。",
-   "chain": "政治干预→油价预期→影响全球炼油利润",
+   "title": "黑海新罗西斯克港8月石油装运量骤降",
+   "brief": "因无人机袭击，黑海新罗西斯克港8月石油装运量预计环比骤降逾半。",
+   "chain": "黑海供应中断→支撑油价→对全球油市供应有影响，间接影响莫桑比克LNG竞争力",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608283858587214.html",
+   "ts": "2026-08-28 20:37:44"
+  },
+  {
+   "cat": "oil",
+   "title": "特朗普将会见炼油商和燃料零售商",
+   "brief": "伊朗战争推高汽油价格，特朗普将在中期选举前会见炼油商和燃料零售商。",
+   "chain": "美国汽油价格高企→政策干预预期→影响油价与炼油利润，对莫桑比克油气市场有参考",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUTVfLVZrNnM2eTJJcmZaVjN5Ym83a094ZUYxR3RqenVKVUxyWGpIaldFZTJpZUVaRFJ4TkpJUkctd0VIc1Nzb05qamt6cnZVU3lqSkw3NUdUYmE3WXpXNTUyTjNnLUFUZERfYXp6SjMzV2hrOV9nN1FDWTI4QUxSWGpIMnhwUURoeWRoOUNsYVRMOGx3d1BwdFF1LVNYejhVSjJpT201YWxKTWNBeEdJNm5nZjEyNE1zMWg4TTN4QXNORzN1akNuVEgyWQ?oc=5",
@@ -105,19 +122,29 @@
   },
   {
    "cat": "gas",
-   "title": "伊朗外交转向重开霍尔木兹海峡",
-   "brief": "伊朗战争外交转向重开霍尔木兹海峡，可能缓解供应担忧。",
-   "chain": "海峡重开→LNG运输风险降→利好莫桑比克LNG出口",
+   "title": "佐治亚电力批准OpenAI 3.2GW电力协议",
+   "brief": "佐治亚电力公司获批为OpenAI提供3.2吉瓦电力，显示AI算力需求激增。",
+   "chain": "AI电力需求→推动天然气发电需求→利好莫桑比克LNG长期出口前景",
    "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObFhWQ0dIN3p1bUEzcUdpNlN2VFhmaWRhUk5zbkhfWE45U2swM1ViQ0RvRHhxZjJfT2xaUEhnWU9jZ3MzRXl3bXdabG1mM0xpTmdoRzZEQ3dRNDJOVEpTUnJfX3lCV0s4b2RPSzhPbXlZSllrb1l6SjA0NVRVRzNRR0pBYWFwTWdPU0xtOTduNnUyd3hpZjFUUDZUb1NnMkRoanl1Z2V5SjIwYWpubGc?oc=5",
-   "ts": "2026-08-28T01:34:00+00:00"
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/energy/articles/georgia-power-wins-approval-3-014037634.html",
+   "ts": "2026-08-27T01:40:37Z"
+  },
+  {
+   "cat": "gas",
+   "title": "SK海力士CEO：印第安纳州将成关键存储基地",
+   "brief": "SK海力士CEO表示，印第安纳州将在2030年前成为关键存储生产基地，美国首座工厂已开工。",
+   "chain": "存储芯片制造扩张→带动电力需求→对天然气发电需求有正面影响",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/27/sk-hynix-ceo-says-indiana-will-be-key-memory-production-base-by-2030.html",
+   "ts": "Thu, 27 Aug 2026 18:07:04 GMT"
   },
   {
    "cat": "tech",
-   "title": "Marvell股价大跌8%，指引不及预期",
-   "brief": "Marvell营收增长37%但指引令人失望，股价下跌8%。",
-   "chain": "芯片股承压→拖累美股科技→映射A股半导体",
+   "title": "Marvell股价下跌8%尽管营收增长37%",
+   "brief": "Marvell股价下跌8%，因业绩指引不及预期，尽管营收增长37%。",
+   "chain": "Marvell指引疲软→拖累半导体板块→映射A股芯片股情绪",
    "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/28/marvell-mrvl-q2-earnings-outlook.html",
@@ -125,49 +152,59 @@
   },
   {
    "cat": "tech",
-   "title": "SK海力士CEO：印第安纳成关键内存基地",
-   "brief": "SK海力士CEO称印第安纳工厂将成为2030年关键内存生产基地。",
-   "chain": "内存扩产→影响芯片供应→映射A股存储链",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/27/sk-hynix-ceo-says-indiana-will-be-key-memory-production-base-by-2030.html",
-   "ts": "Thu, 27 Aug 2026 18:07:04 GMT"
+   "title": "美股收盘：道指、标普、纳指下跌，英伟达财报后上涨",
+   "brief": "美股三大指数收跌，英伟达财报后股价上涨，但市场整体承压。",
+   "chain": "美股科技股分化→影响A股科技板块风险偏好",
+   "impact": 7,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-august-26-dow-sp-500-nasdaq-081834782.html",
+   "ts": "2026-08-26T08:18:34Z"
   },
   {
    "cat": "tech",
-   "title": "京东方A上半年净利润增61.62%",
-   "brief": "京东方A发布半年报，净利润同比增长61.62%。",
-   "chain": "面板业绩→科技股情绪→影响A股显示产业链",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608283858424958.html",
-   "ts": "2026-08-28 18:50:51"
-  },
-  {
-   "cat": "ai",
-   "title": "Cramer：英伟达和Salesforce财报击破熊市论",
-   "brief": "Jim Cramer称英伟达和Salesforce强劲财报打破两大熊市叙事。",
-   "chain": "AI需求强劲→美股AI链→映射A股算力",
+   "title": "英伟达承诺1080亿美元但发出警告",
+   "brief": "英伟达在财报中做出1080亿美元的大胆承诺，但同时也发出警告。",
+   "chain": "英伟达财报指引→影响AI算力链→映射A股算力与光模块板块",
    "impact": 9,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/27/cramer-nvidia-salesforce-earnings-upended-two-bear-narratives.html",
-   "ts": "2026-08-27T22:20:14+00:00"
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-makes-bold-108b-promise-012604896.html",
+   "ts": "2026-08-27T01:26:04Z"
+  },
+  {
+   "cat": "tech",
+   "title": "Moderna盘前跌超5%，默克跌2.2%",
+   "brief": "Moderna股价盘前下跌超5%，默克下跌2.2%，可能受行业消息影响。",
+   "chain": "生物科技股下跌→影响美股医疗板块→对A股医药股有情绪传导",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608283858634352.html",
+   "ts": "2026-08-28 21:18:06"
   },
   {
    "cat": "ai",
-   "title": "Salesforce大涨22%，引领软件股反弹",
-   "brief": "Salesforce股价大涨22%，创第二佳单日表现，带动软件股。",
-   "chain": "AI软件需求→美股软件→映射A股云计算",
-   "impact": 8,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/27/salesforce-stock-soars-on-track-for-second-best-day-ever.html",
-   "ts": "Thu, 27 Aug 2026 20:04:01 GMT"
+   "title": "法官阻止五角大楼将Anthropic列入黑名单",
+   "brief": "法官阻止五角大楼将Anthropic列为供应链风险黑名单，AI公司获法律支持。",
+   "chain": "AI监管缓和→利好AI公司发展→映射A股AI应用与算力链",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/28/judge-blocks-pentagon-blacklist--anthropic-.html",
+   "ts": "Fri, 28 Aug 2026 02:50:45 GMT"
   },
   {
    "cat": "ai",
-   "title": "DeepSeek寻求新融资，创始人量化帝国面临IPO",
-   "brief": "DeepSeek寻求新资本，创始人量化帝国应对中国IPO市场波动。",
-   "chain": "AI融资→行业热度→映射A股AI概念",
+   "title": "OpenAI在印度推出广告以提升变现",
+   "brief": "OpenAI在部分ChatGPT计划中推出广告，以提升变现并支持更广泛访问。",
+   "chain": "AI商业化加速→利好AI产业链→映射A股AI应用与广告营销板块",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/28/openai-strategy-india-anthropic-ipo.html",
+   "ts": "Fri, 28 Aug 2026 03:29:45 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "DeepSeek寻求新融资，创始人量化帝国应对IPO市场",
+   "brief": "DeepSeek寻求新资本，其创始人的量化帝国正应对中国波动的IPO市场。",
+   "chain": "AI融资活跃→推动AI技术发展→映射A股AI算力与模型公司",
    "impact": 6,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/08/28/deepseek-founder-liang-wenfeng-high-flyer-china-tech-ipos-funding.html",
@@ -175,23 +212,13 @@
   },
   {
    "cat": "ai",
-   "title": "法官阻止五角大楼将Anthropic列入黑名单",
-   "brief": "法官阻止五角大楼将Anthropic列为供应链风险黑名单。",
-   "chain": "AI监管缓和→利好AI公司→映射A股AI应用",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/28/judge-blocks-pentagon-blacklist--anthropic-.html",
-   "ts": "Fri, 28 Aug 2026 02:50:45 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "OpenAI在印度推出广告变现",
-   "brief": "OpenAI在印度部分ChatGPT计划中引入广告，以提升变现。",
-   "chain": "AI商业化→行业盈利模式→映射A股AI应用",
-   "impact": 4,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/28/openai-strategy-india-anthropic-ipo.html",
-   "ts": "Fri, 28 Aug 2026 03:29:45 GMT"
+   "title": "Anthropic推新标准助AI代理操控机器",
+   "brief": "Anthropic推出新标准，帮助AI代理操作物理世界机器，拓展AI应用边界。",
+   "chain": "AI向物理世界延伸→利好机器人产业链→映射A股机器人概念",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/27/anthropic-pushes-into-physical-world-with-new-standard-to-help-ai-agents-operate-machines.html",
+   "ts": "Thu, 27 Aug 2026 19:08:46 GMT"
   }
  ]
 }
