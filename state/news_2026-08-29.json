@@ -1,14 +1,14 @@
 {
  "asof": "2026-08-29",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-29T03:05+08:00",
+ "generated_at": "2026-08-29T05:25+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 7,
+  "cross_day_suppressed": 6,
   "cluster_label": "伊朗/卡塔尔/海湾",
   "cluster_dropped": [
-   "伊朗敦促他国勿加入美国制裁 调解聚焦重开海峡",
-   "伊朗战争推升美国运输燃料附加费 行业利润增加",
+   "伊朗总统：已就霍尔木兹海峡通行路线达成内部共识",
+   "伊朗敦促各国不实施新制裁，调解人聚焦重开海峡",
    "卡塔尔能源取消向意大利Edison供气至11月初"
   ],
   "backfilled": 0
@@ -16,129 +16,119 @@
  "items": [
   {
    "cat": "macro",
-   "title": "黄金创7月来最大跌幅 美联储沃什讲话强化加息预期",
-   "brief": "美联储主席沃什表态对抗通胀，强化加息预期，现货黄金跌3%报4464美元/盎司。",
-   "chain": "金价下跌主因实际利率上行预期→美股AI高久期估值承压→A股算力链情绪受抑",
+   "title": "Warsh在Jackson Hole强化通胀警告，暗示可能加息",
+   "brief": "Kevin Warsh在Jackson Hole发表讲话，强化通胀警告，暗示美联储可能加息，市场对加息预期升温。",
+   "chain": "美联储加息预期→美股估值承压，尤其高久期科技股→A股算力链情绪受抑",
    "impact": 9,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293858876234.html",
-   "ts": "2026-08-29 00:43:00"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-fed-inflation-rate-hike.html",
+   "ts": "Fri, 28 Aug 2026 17:44:02 GMT"
   },
   {
    "cat": "macro",
-   "title": "美债收益率曲线趋平 沃什抗通胀承诺缓解疑虑",
-   "brief": "沃什强调遏制物价，短债收益率走高，曲线趋平，交易员加大加息押注。",
-   "chain": "短端利率上行→美股成长股估值压力→A股科技股风险偏好下降",
+   "title": "2年期美债收益率跳涨，因Warsh称美联储或有更多工作",
+   "brief": "Warsh表示美联储可能还有更多工作要做，2年期美债收益率应声跳涨，市场加息预期升温。",
+   "chain": "短端利率上行→美股成长股估值压力→A股科技股联动承压",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/28/treasury-yields-jackson-hole.html",
+   "ts": "Fri, 28 Aug 2026 20:08:18 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "巴克莱和法兴预测美联储9月和12月加息",
+   "brief": "巴克莱和法国兴业银行预测美联储将在9月和12月加息，市场对紧缩路径预期增强。",
+   "chain": "加息预期→美元走强、美股承压→A股外资流向和风险偏好受影响",
    "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293858848382.html",
-   "ts": "2026-08-29 00:13:33"
+   "url": "https://finance.eastmoney.com/a/202608293858898934.html",
+   "ts": "2026-08-29 02:47:58"
   },
   {
    "cat": "macro",
-   "title": "贝森特为干预行动辩护 日元失序或推高美国利率",
-   "brief": "美财长贝森特称日元极端波动可能传导至美国，推高利率，为其干预日元辩护。",
-   "chain": "日元波动→美债利率上行风险→美股估值承压→A股外资流向波动",
-   "impact": 7,
+   "title": "哈佛教授Rogoff警告美国财政困局需危机推动改革",
+   "brief": "哈佛教授Kenneth Rogoff警告，美国财政恶化可能需重大危机才能推动改革，引发市场对财政可持续性担忧。",
+   "chain": "财政担忧→美债收益率波动→全球风险资产估值波动→A股情绪传导",
+   "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293858895278.html",
-   "ts": "2026-08-29 02:19:32"
-  },
-  {
-   "cat": "macro",
-   "title": "美国5年期国债收益率升至4.48% 创2025年2月来新高",
-   "brief": "美国5年期国债收益率升至4.48%，为2025年2月以来最高，反映加息预期升温。",
-   "chain": "美债利率上行→美股科技股估值压力→A股成长风格承压",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293858859324.html",
-   "ts": "2026-08-29 00:22:29"
-  },
-  {
-   "cat": "macro",
-   "title": "英国央行行长贝利淡化第二轮通胀效应 赞同沃什观点",
-   "brief": "贝利坚持英国无显著第二轮通胀，赞同沃什对前瞻指引的看法，影响全球央行预期。",
-   "chain": "英央行偏鸽→美元相对走强→美股影响有限→A股关注外部流动性",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293858887581.html",
-   "ts": "2026-08-29 01:26:39"
+   "url": "https://finance.eastmoney.com/a/202608293858903575.html",
+   "ts": "2026-08-29 03:15:11"
   },
   {
    "cat": "geo",
-   "title": "特朗普对伊朗短暂打击演变为无休止冲突",
-   "brief": "特朗普对伊朗的短暂打击已演变为开放冲突，战争进入第六个月，无结束迹象。",
-   "chain": "中东冲突持续→油价高企→美股能源板块受益→A股油气链联动",
+   "title": "伊朗革命卫队称持续控制霍尔木兹海峡",
+   "brief": "伊朗革命卫队海军声明，持续控制霍尔木兹海峡，船只未经协调不得通过，否认美国关于海峡开放的言论。",
+   "chain": "地缘紧张→油价风险溢价→美股能源板块波动→A股油气链联动",
    "impact": 9,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbVd2VnhxYXdDSUhoQ1oxd08yUHAyOVlDQi1vYkhhVVRvZVVER2NkZURLSkJtNEpNLU9JSE4yNW90REFqWFQ2XzVNUjJWMW9SeU5LazNqbTRLTHpGOWtRQ244OEw0TkRvcnZmcFFWek9ROFAtem5RS19SQTZ2aTNoZ0xpcF9mSS1yRVRYSUFMQlhTenZDVWg4OXNqaTU0cGpKaE9ZQXlsOA?oc=5",
-   "ts": "2026-08-27T18:35:00+00:00"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608293858917376.html",
+   "ts": "2026-08-29 05:01:26"
   },
   {
    "cat": "geo",
-   "title": "俄军加强顿涅茨克攻势 欧盟推动解冻俄资产",
-   "brief": "俄军在顿涅茨克加强攻击，乌克兰欢迎欧盟推动解冻俄资产的新努力。",
-   "chain": "俄乌冲突升级→欧洲能源安全→全球油气市场→莫桑比克LNG替代需求",
-   "impact": 7,
+   "title": "俄军加强顿涅茨克攻势，欧盟推动解冻俄资产",
+   "brief": "俄罗斯在顿涅茨克加强攻击，乌克兰欢迎欧盟推动解冻俄资产的新努力，俄乌冲突持续。",
+   "chain": "俄乌冲突升级→避险情绪→美股波动→A股风险偏好",
+   "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/28/russia-donetsk-ukraine-frozen-assets.html",
    "ts": "Fri, 28 Aug 2026 09:33:45 GMT"
   },
   {
-   "cat": "geo",
-   "title": "特朗普格陵兰执念 冰岛欧盟投票聚焦安全",
-   "brief": "特朗普对格陵兰的关注使安全议题成为冰岛欧盟投票的关键，地缘格局生变。",
-   "chain": "北极地缘→美欧关系→全球贸易→美股影响有限→A股关注",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/28/iceland-eu-referendum-trump-greenland-arctic.html",
-   "ts": "Fri, 28 Aug 2026 13:45:42 GMT"
+   "cat": "oil",
+   "title": "国际油价28日微跌，布伦特收于83美元附近",
+   "brief": "国际油价28日微跌，WTI收于83.40美元/桶，布伦特下跌39美分，市场关注地缘局势。",
+   "chain": "油价微跌→短期供应担忧缓解→莫桑比克油气项目收益影响有限",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608293858907920.html",
+   "ts": "2026-08-29 03:38:33"
   },
   {
    "cat": "oil",
-   "title": "美国据悉将持有委内瑞拉17个油田权益",
-   "brief": "美国据悉将获得委内瑞拉17个油田权益，可获约900亿桶原油，影响全球供应。",
-   "chain": "美国获取委油权益→全球供应增加→油价承压→莫桑比克油气竞争加剧",
-   "impact": 8,
+   "title": "雪佛龙即将完成委内瑞拉合资企业迁移谈判",
+   "brief": "雪佛龙据悉即将完成谈判，将其在委内瑞拉的合资企业迁移至新石油框架下，并扩大区块谈判。",
+   "chain": "雪佛龙扩大委内瑞拉业务→全球供应增加→油价承压→莫桑比克竞争加剧",
+   "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293858885739.html",
-   "ts": "2026-08-29 00:49:28"
+   "url": "https://finance.eastmoney.com/a/202608293858915497.html",
+   "ts": "2026-08-29 04:54:10"
   },
   {
    "cat": "oil",
-   "title": "美国本周石油钻井总数447口 前值452口",
-   "brief": "美国石油钻井数减少5口至447口，显示产量增长放缓，影响供应预期。",
-   "chain": "钻井数下降→美国产量增速放缓→油价支撑→莫桑比克LNG价格受益",
+   "title": "美国国防部与委内瑞拉大亨谈判大规模石油交易",
+   "brief": "美国国防部据悉正与一位委内瑞拉大亨就大规模石油交易进行谈判，可能影响全球供应。",
+   "chain": "美国与委内瑞拉石油交易→供应增加→油价承压→莫桑比克出口竞争",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293858886548.html",
-   "ts": "2026-08-29 01:04:31"
+   "url": "https://finance.eastmoney.com/a/202608293858907383.html",
+   "ts": "2026-08-29 03:58:09"
   },
   {
    "cat": "gas",
-   "title": "伊朗战争刺激海湾管道和港口基础设施投资",
-   "brief": "伊朗战争推动海湾国家加大管道和港口投资，以保障能源运输安全。",
-   "chain": "海湾基建投资→全球LNG运输格局变化→莫桑比克LNG出口竞争加剧",
-   "impact": 6,
+   "title": "伊朗战争刺激海湾基础设施投资",
+   "brief": "伊朗战争促使海湾国家增加管道和港口投资，以保障能源运输，影响全球LNG物流。",
+   "chain": "海湾基础设施投资→LNG运输效率提升→全球气价波动→莫桑比克LNG竞争力",
+   "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMFpCNDNNRjl2ZVJGeG1nOHNCd09IQ1VQS1hJejJiX0V1TFRGalFNS1EzbjZHS1Nua0pNNlVWZzlpVl9GM0FoNGVNMGhEY1djUW9HRFRpODlUQnNLaGtXT092WVRNT3NyWHFaN2tYT1N5OW00VDljVXB0cDJ6UU5tMktQaFBwVUZCZHFmRkVfcVRrR25NTWFFd2ZhRnVpVGhKNXk1dzhVQ21YUFcwWC1YODdvUQ?oc=5",
    "ts": "2026-08-28T10:35:38+00:00"
   },
   {
    "cat": "tech",
-   "title": "英伟达跌幅扩大至4.16% 报218.495美元",
-   "brief": "英伟达股价跌幅扩大至4.16%，报218.495美元，市值5.27万亿美元。",
-   "chain": "英伟达下跌→AI产业链情绪受挫→A股算力链承压",
+   "title": "纳指收跌0.5%，芯片股走弱，英伟达跌超4%",
+   "brief": "美股三大指数集体收跌，纳指跌0.52%，英伟达跌超4%，芯片股普遍走弱。",
+   "chain": "芯片股下跌→美股科技板块承压→A股半导体链联动",
    "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293858895029.html",
-   "ts": "2026-08-29 02:18:23"
+   "url": "https://finance.eastmoney.com/a/202608293858907564.html",
+   "ts": "2026-08-29 04:01:42"
   },
   {
    "cat": "tech",
-   "title": "苹果上调Apple TV和Apple One订阅价格",
-   "brief": "苹果在美国上调Apple TV和Apple One价格，7月已上调Apple Music价格。",
-   "chain": "苹果提价→服务收入增长→美股科技股积极→A股苹果链关注",
+   "title": "苹果上调Apple TV+和Apple One订阅价格",
+   "brief": "苹果将Apple TV+月费从12.99美元上调至14.99美元，年费从99美元上调至119美元，Apple One同步涨价。",
+   "chain": "苹果涨价→服务收入预期提升→美股科技板块→A股苹果产业链",
    "impact": 6,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/08/28/apple-tv-one-price-hike-us.html",
@@ -146,39 +136,49 @@
   },
   {
    "cat": "tech",
-   "title": "纽交所提议延长部分期权交易时间",
-   "brief": "纽约证券交易所向SEC提议延长部分期权的交易时间，提升市场灵活性。",
-   "chain": "交易时间延长→市场流动性增加→美股波动→A股影响有限",
+   "title": "苹果上调Apple TV+月度订阅价格",
+   "brief": "苹果于周五上调Apple TV+月度订阅价格至14.99美元，年费119美元，此前为12.99美元/99美元。",
+   "chain": "苹果涨价→服务收入预期提升→美股科技板块→A股苹果产业链",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608293858904856.html",
+   "ts": "2026-08-29 03:27:10"
+  },
+  {
+   "cat": "tech",
+   "title": "Pinterest盘后跌3.2%，CFO离职",
+   "brief": "Pinterest美股盘后下跌3.2%，因公司CFO离职，市场担忧管理层变动。",
+   "chain": "CFO离职→公司前景不确定性→美股科技板块→A股相关映射",
    "impact": 4,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293858890021.html",
-   "ts": "2026-08-29 01:36:26"
+   "url": "https://finance.eastmoney.com/a/202608293858911050.html",
+   "ts": "2026-08-29 04:24:28"
   },
   {
    "cat": "ai",
-   "title": "蓝猫资本牵头24亿美元IREN债务融资 用于购买英伟达芯片",
-   "brief": "蓝猫资本确认牵头为IREN提供24亿美元债务融资，用于购买英伟达芯片。",
-   "chain": "AI算力融资→数据中心扩张→美股AI受益→A股算力链联动",
+   "title": "Cramer称英伟达和Salesforce财报打破两大熊市叙事",
+   "brief": "Jim Cramer表示，英伟达和Salesforce的强劲财报打破了两个主要熊市论点，AI需求强劲。",
+   "chain": "AI财报强劲→美股AI板块信心→A股算力链情绪提振",
    "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293858887016.html",
-   "ts": "2026-08-29 01:15:55"
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/27/cramer-nvidia-salesforce-earnings-upended-two-bear-narratives.html",
+   "ts": "2026-08-27T22:20:14+00:00"
   },
   {
    "cat": "ai",
-   "title": "英伟达参投的Lambda私募融资10亿美元 用于芯片业务",
-   "brief": "英伟达参投的Lambda通过私募债务融资筹集10亿美元，用于芯片业务交易。",
-   "chain": "AI芯片融资→算力基础设施投资→美股AI→A股算力链",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293858876572.html",
-   "ts": "2026-08-29 00:37:56"
+   "title": "英伟达财报提振AI乐观情绪，股市上涨",
+   "brief": "英伟达财报超预期，提振AI乐观情绪，股市上涨，AI相关股票走强。",
+   "chain": "英伟达财报→AI算力需求确认→A股算力链联动",
+   "impact": 8,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-rally-nvidia-earnings-boost-140031535.html",
+   "ts": "2026-08-27T14:00:31Z"
   },
   {
    "cat": "ai",
-   "title": "Marc Benioff重拾势头 Salesforce AI实力平息质疑",
-   "brief": "Salesforce的AI实力增强，CEO Marc Benioff重拾势头，平息了质疑。",
-   "chain": "AI应用落地→企业软件需求→美股科技→A股AI应用",
+   "title": "Marc Benioff重拾信心，Salesforce AI实力平息质疑",
+   "brief": "Salesforce的AI实力增强，CEO Marc Benioff信心回升，市场对AI投资的疑虑减少。",
+   "chain": "Salesforce AI进展→企业AI应用前景→A股AI应用链",
    "impact": 6,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/08/28/marc-benioff-getting-his-mojo-back-as-salesforce-lifts-ai-growth-view.html",
@@ -186,13 +186,13 @@
   },
   {
    "cat": "ai",
-   "title": "CrowdStrike CEO：AI暴露传统工具无法应对的网络漏洞",
-   "brief": "CrowdStrike CEO称AI暴露了传统工具无法处理的危险网络漏洞，强调AI安全。",
-   "chain": "AI安全需求→网络安全投资→美股科技→A股网络安全",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/27/crowdstrike-ceo-ai-exposes-dangerous-cyber-gaps.html",
-   "ts": "Thu, 27 Aug 2026 22:45:42 GMT"
+   "title": "大型科技公司巨额AI支出考验长期优势",
+   "brief": "大型科技公司大规模AI建设带来新风险，其长期优势面临考验，市场关注投资回报。",
+   "chain": "AI支出增加→科技公司利润率压力→美股科技板块→A股算力链",
+   "impact": 6,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/28/big-techs-ai-spending-is-putting-a-longtime-strengths-to-the-test.html",
+   "ts": "2026-08-28T15:50:58+00:00"
   }
  ]
 }
