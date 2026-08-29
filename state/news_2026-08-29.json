@@ -1,22 +1,24 @@
 {
  "asof": "2026-08-29",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-29T20:54+08:00",
+ "generated_at": "2026-08-29T23:42+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 5,
-  "cluster_label": "伊朗/卡塔尔/委内瑞拉",
+  "cluster_label": "伊朗/卡塔尔/海湾",
   "cluster_dropped": [
-   "特朗普四面出击：伊朗、加拿大、委内瑞拉"
+   "特朗普四面出击：封伊朗财路、对加关税等",
+   "美国制裁埃及银行伊朗相关分行",
+   "伊朗战争刺激海湾基础设施投资"
   ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "Warsh Jackson Hole放鹰 暗示可能加息",
-   "brief": "Kevin Warsh在Jackson Hole演讲中强化通胀警告，暗示可能加息，市场对美联储政策转向的担忧升温。",
-   "chain": "加息预期→美股估值承压，尤其高久期成长股→A股算力链情绪受抑",
+   "title": "Warsh在Jackson Hole强化通胀警告，或暗示加息",
+   "brief": "美联储主席Warsh在Jackson Hole发表讲话，强化通胀警告，可能暗示加息。哈佛教授Rogoff称其展现勇气，顶住政治压力。",
+   "chain": "美联储转鹰→美股估值承压，尤其AI高久期成长股→A股算力链情绪受抑",
    "impact": 9,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-fed-inflation-rate-hike.html",
@@ -24,69 +26,39 @@
   },
   {
    "cat": "macro",
-   "title": "拉詹呼吁美联储加息 称卢比未恐慌",
-   "brief": "Raghuram Rajan表示美联储应加息以遏制通胀，同时认为卢比并未处于恐慌区间。",
-   "chain": "加息呼声→美元走强预期→新兴市场资金流出风险→A股外资敏感板块承压",
-   "impact": 7,
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-08-28/ex-rbi-chief-rajan-says-fed-should-raise-rates-to-curb-inflation",
-   "ts": "2026-08-28T06:32:56+00:00"
+   "title": "IMF预计2026年全球通胀率升至4.7%",
+   "brief": "美伊冲突半年造成多重影响，IMF预计2026年全球通胀率将升至4.7%，拖累全球经济增长。",
+   "chain": "通胀预期升温→美联储政策收紧→美股波动→A股风险偏好下降",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608293859313166.html",
+   "ts": "2026-08-29 22:45:51"
   },
   {
    "cat": "macro",
-   "title": "贝森特抨击沃伦 日元干预成焦点",
-   "brief": "美国财长贝森特就日元干预问题抨击沃伦，并讽刺提供‘外汇入门’课程，凸显汇率政策分歧。",
-   "chain": "汇率干预争议→美元/日元波动→影响全球风险偏好→间接影响美股及A股",
+   "title": "美财长Bessent抨击沃伦，提供外汇教育",
+   "brief": "美国财长Bessent就日元干预问题抨击参议员沃伦，并讽刺性提供“外汇入门”课程，未披露日元购买细节。",
+   "chain": "美日汇率干预争议→美元走势→全球资本流动→新兴市场风险偏好",
    "impact": 6,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/08/28/bessent-warren-yen-intervention-treasury-japan.html",
    "ts": "2026-08-28T19:23:18+00:00"
   },
   {
-   "cat": "macro",
-   "title": "经济学家分歧：经济形态K型还是C型",
-   "brief": "经济学家对当前经济形态存在分歧，K型、C型或E型复苏之争反映增长不确定性。",
-   "chain": "经济形态分歧→政策预期波动→美股行业分化→A股结构性机会",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/29/k-shaped-economy-c-shaped-e-shape.html",
-   "ts": "Sat, 29 Aug 2026 12:22:50 GMT"
-  },
-  {
    "cat": "geo",
-   "title": "尼日尔爆发军人哗变 首都枪战",
-   "brief": "尼日尔首都尼亚美凌晨起经历剧烈枪战，年轻军官发动哗变，国防部称局势已控制。",
-   "chain": "非洲政局动荡→影响区域稳定→对中资项目及能源布局有潜在影响",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293859288437.html",
-   "ts": "2026-08-29 18:17:24"
-  },
-  {
-   "cat": "geo",
-   "title": "俄军再袭基辅州 物流设施起火",
-   "brief": "乌克兰称基辅州再遭俄军打击，多处物流基础设施被击中并引发火灾。",
-   "chain": "俄乌冲突持续→欧洲能源安全担忧→油价波动→影响莫桑比克LNG竞争力",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293859297635.html",
-   "ts": "2026-08-29 19:39:10"
-  },
-  {
-   "cat": "geo",
-   "title": "冰岛入盟公投 安全成焦点",
-   "brief": "冰岛就是否重启入盟谈判举行公投，特朗普对格陵兰的野心使安全议题成为核心。",
-   "chain": "北欧地缘格局变化→北极资源竞争→影响全球能源运输路线",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/28/iceland-eu-referendum-trump-greenland-arctic.html",
-   "ts": "Fri, 28 Aug 2026 13:45:42 GMT"
+   "title": "伊朗海军称完全控制霍尔木兹海峡",
+   "brief": "伊朗海军宣称对霍尔木兹海峡拥有“完全控制”，加剧地区紧张局势，影响全球能源运输通道。",
+   "chain": "霍尔木兹风险→油价波动→全球通胀预期→A股能源板块",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEVEVmRsZGlZT1pndE1fWjltanZVY1oxRXdCVU1TSXFWOUotb2RnamNaTVFacFVtb0xKWEotQ2xHUl9XUXQ3UlV2OUdtWWVNb25BakpUd0RYd0RyaDdxWHR5MUJXSXVfdm9WSnNqM1lNbHk1aUN2Qmp0MGxxSGZETzYxTlVBdzViQVd1d1pfVWN6eUpTVTRMa05SNzEzYjZHWlpSeWt0Z2dmR2xW?oc=5",
+   "ts": "2026-08-28T20:45:01+00:00"
   },
   {
    "cat": "oil",
    "title": "特朗普宣布与委内瑞拉达成石油协议",
-   "brief": "特朗普宣布与委内瑞拉达成协议，以确保超过650亿桶石油储备的开采。",
-   "chain": "委内瑞拉石油增产→全球供应增加→油价承压→对莫桑比克油气项目构成竞争",
+   "brief": "特朗普宣布与委内瑞拉达成协议，确保超过650亿桶石油储备，可能影响全球石油供应格局。",
+   "chain": "委内瑞拉石油入市→供应增加→油价承压→莫桑比克油气项目竞争加剧",
    "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/28/trump-announces-deal-with-venezuela-to-secure-more-than-65-billion-barrels-of-oil-reserves.html",
@@ -94,29 +66,19 @@
   },
   {
    "cat": "oil",
-   "title": "伊朗战争推高美国燃油附加费",
-   "brief": "伊朗战争导致美国运输燃油附加费上涨，但行业利润也受益。",
-   "chain": "地缘冲突→油价上涨→运输成本增加→影响全球贸易及能源物流",
-   "impact": 6,
+   "title": "伊朗战争推高美国运输燃料附加费",
+   "brief": "伊朗战争导致美国运输燃料附加费上涨，但行业利润也增加，反映能源成本传导至消费端。",
+   "chain": "战争推高油价→运输成本上升→通胀压力→莫桑比克LNG出口成本影响",
+   "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNEl5QXd2UEpMZlNEOGszSng5WEotaDlSVG1qMXIxXzFNdDZiMFMxTnUxM0tIX2hYeXVkWVhYUUJMZF9PY3lSNXFVOC03TnF6dmstYzFVdFlwdWZZdVFqQ0tqS2VtSm5UU2p5bnhtQ2xPdnFhcWVmbTFpLU0zR0g5c0l4LTVMWHZFaXI2ME85a255SjdQMjRXSzloU2w1UFd5YWFPam5OOVRFanNqSEhvWVQ0cmFlUDFhWFE?oc=5",
    "ts": "2026-08-28T10:32:30+00:00"
   },
   {
-   "cat": "oil",
-   "title": "玉米小麦价格创三年新高",
-   "brief": "玉米和小麦价格跳涨至三年多来最高水平，受供应担忧推动。",
-   "chain": "农产品涨价→通胀预期→影响美联储政策→间接影响油价及能源股",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/28/corn-and-wheat-prices-jump-to-highest-prices-in-more-than-three-years.html",
-   "ts": "Fri, 28 Aug 2026 20:00:56 GMT"
-  },
-  {
    "cat": "gas",
-   "title": "卡塔尔能源取消对意大利Edison供气",
-   "brief": "因伊朗战争，卡塔尔能源取消向意大利Edison的天然气交付直至11月初。",
-   "chain": "LNG供应中断→欧洲气价上涨→利好莫桑比克LNG出口替代",
+   "title": "卡塔尔能源取消向意大利Edison供气",
+   "brief": "因伊朗战争，卡塔尔能源取消向意大利Edison的天然气交付直至11月初，影响欧洲LNG供应。",
+   "chain": "LNG供应中断→欧洲气价上涨→全球LNG需求转向→莫桑比克LNG出口机遇",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSGdXSEJxeEtGbnA4SWdCRkkyMFM4VFhkS0hHT1F5cGw3TGg1LXZneGR4Z2JBRzNjdldsUlZNMlp5T1I4RDBRLWJoUlptMms4MXVzVmhLOXJndHI3U2E0OTcwTXprQmFRSkRYMzFxRzMzZExybFVWcTBlZGduN18zZmVJcWxnR3QzcU9iclR3b3g5OUdBZ0twWlJnUnZkbGVyN2hvNFVHRWZjYW9jMmtxbUtIVlotOC10UjVfWkln?oc=5",
@@ -124,29 +86,29 @@
   },
   {
    "cat": "gas",
-   "title": "大港油田储气库注气量破20亿方",
-   "brief": "大港油田储气库群本轮注气量突破20亿立方米，创历史新高，完成计划90%。",
-   "chain": "中国储气库注气增加→冬季供应保障→影响LNG进口需求→对莫桑比克LNG市场影响有限",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293859280814.html",
-   "ts": "2026-08-29 17:53:00"
+   "title": "玉米小麦价格创三年新高",
+   "brief": "玉米和小麦价格跳涨至三年多来最高，受地缘冲突和供应担忧影响，可能推高食品通胀。",
+   "chain": "农产品涨价→通胀预期→能源成本→莫桑比克农业经济影响",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/28/corn-and-wheat-prices-jump-to-highest-prices-in-more-than-three-years.html",
+   "ts": "Fri, 28 Aug 2026 20:00:56 GMT"
   },
   {
    "cat": "tech",
-   "title": "大科技AI支出考验传统优势",
-   "brief": "大科技公司巨额AI支出正在考验其长期以来的盈利能力，新风险浮现。",
-   "chain": "AI投资回报不确定→科技股波动→A股AI硬件链情绪传导",
-   "impact": 7,
+   "title": "AI建设非零和游戏：Salesforce等财报超预期",
+   "brief": "本周财报显示AI建设并非零和游戏，Salesforce、CrowdStrike和Nvidia均超预期，提振市场信心。",
+   "chain": "AI巨头财报强劲→美股科技股上涨→A股AI产业链映射",
+   "impact": 8,
    "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/28/big-techs-ai-spending-is-putting-a-longtime-strengths-to-the-test.html",
-   "ts": "2026-08-28T15:50:58+00:00"
+   "url": "https://www.cnbc.com/2026/08/29/big-lesson-from-this-weeks-earnings-ai-buildout-is-not-a-zero-sum-game.html",
+   "ts": "2026-08-29T13:25:55+00:00"
   },
   {
    "cat": "tech",
-   "title": "苹果上调Apple TV和Apple One价格",
-   "brief": "苹果在美国上调Apple TV和Apple One订阅价格，此前Apple Music已涨价。",
-   "chain": "苹果服务涨价→提振营收→美股科技股→A股苹果产业链",
+   "title": "苹果上调Apple TV和Apple One订阅价格",
+   "brief": "苹果在美国上调Apple TV和Apple One订阅价格，此前7月已上调Apple Music价格，反映成本压力。",
+   "chain": "苹果提价→服务收入增长→美股科技股→A股消费电子链",
    "impact": 6,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/08/28/apple-tv-one-price-hike-us.html",
@@ -154,29 +116,19 @@
   },
   {
    "cat": "tech",
-   "title": "赛富时AI实力重振Benioff信心",
-   "brief": "Marc Benioff因Salesforce的AI实力增强而重拾信心，平息质疑。",
-   "chain": "企业软件AI化→云服务需求→美股软件股→A股云计算板块",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/28/marc-benioff-getting-his-mojo-back-as-salesforce-lifts-ai-growth-view.html",
-   "ts": "Fri, 28 Aug 2026 13:44:25 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "黑莓押注汽车和机器人",
-   "brief": "黑莓在手机市场失利后，正押注汽车和机器人领域。",
-   "chain": "黑莓转型→汽车软件需求→美股科技股→A股车联网概念",
-   "impact": 4,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/28/blackberry-cars-robots-tech-download.html",
-   "ts": "Fri, 28 Aug 2026 14:40:22 GMT"
+   "title": "大型科技公司AI支出考验长期优势",
+   "brief": "大型科技公司巨额AI支出正在考验其长期优势，市场关注回报率与资本开支平衡。",
+   "chain": "AI资本开支→科技股估值→A股算力链",
+   "impact": 7,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/28/big-techs-ai-spending-is-putting-a-longtime-strengths-to-the-test.html",
+   "ts": "2026-08-28T15:50:58+00:00"
   },
   {
    "cat": "ai",
-   "title": "软银再寻100亿美元贷款投资OpenAI",
-   "brief": "软银寻求额外100亿美元贷款，用于资助其对OpenAI的投资。",
-   "chain": "AI融资活跃→算力需求预期→美股AI链→A股算力租赁概念",
+   "title": "软银再寻求100亿美元贷款投资OpenAI",
+   "brief": "软银寻求额外100亿美元贷款用于投资OpenAI，显示AI领域资本持续涌入。",
+   "chain": "AI投资加码→算力需求→A股AI算力链",
    "impact": 8,
    "source": "Bloomberg",
    "url": "https://www.bloomberg.com/news/articles/2026-08-28/softbank-seeks-another-10-billion-loan-for-openai-stake-funding",
@@ -184,33 +136,33 @@
   },
   {
    "cat": "ai",
-   "title": "英伟达明年或成美国最盈利公司",
-   "brief": "分析称英伟达明年将成为美国最盈利的公司，凸显AI芯片需求强劲。",
-   "chain": "英伟达盈利预期→AI算力龙头→A股AI芯片/服务器链",
+   "title": "OpenAI聘请Meta高管负责东南亚澳洲",
+   "brief": "OpenAI聘请Meta高管Sandhya Devanathan领导东南亚和澳洲业务，加速区域扩张。",
+   "chain": "AI巨头扩张→全球AI竞争→A股AI应用链",
    "impact": 7,
-   "source": "Yahoo Finance",
-   "url": "https://www.investors.com/etfs-and-funds/sectors/nvidia-will-be-the-most-profitable-company-in-the-u-s-next-year/?src=A00220&amp;yptr=yahoo",
-   "ts": "2026-08-28T11:18:38Z"
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-28/openai-hires-meta-executive-to-lead-southeast-asia-australia",
+   "ts": "2026-08-28T09:08:29+00:00"
   },
   {
    "cat": "ai",
-   "title": "Palo Alto获400美元目标价 需证明AI故事",
-   "brief": "Palo Alto Networks获400美元目标价，但盈利需证明AI驱动的增长。",
-   "chain": "网络安全AI化→企业安全支出→美股软件股→A股网络安全板块",
-   "impact": 5,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/technology/ai/articles/palo-alto-networks-gets-400-111553249.html",
-   "ts": "2026-08-28T11:15:53Z"
+   "title": "我国智算总规模达245万PFLOPS",
+   "brief": "截至7月底，全国智算总规模达245万PFLOPS，国家数据局在数博会上公布，显示算力基础设施快速增长。",
+   "chain": "国内算力建设→AI基础设施→A股算力链",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608293859309977.html",
+   "ts": "2026-08-29 22:00:05"
   },
   {
    "cat": "ai",
-   "title": "CrowdStrike CEO：AI暴露危险网络漏洞",
-   "brief": "CrowdStrike CEO称AI暴露了传统工具无法应对的危险网络漏洞。",
-   "chain": "AI安全需求→网络安全投入→美股安全股→A股信息安全板块",
-   "impact": 4,
+   "title": "Salesforce揭示AI下一个战场：非模型",
+   "brief": "Salesforce评论文章指出AI下一个战场不在模型，而在应用和集成，改变竞争焦点。",
+   "chain": "AI竞争转向应用→软件股价值重估→A股AI应用链",
+   "impact": 6,
    "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/27/crowdstrike-ceo-ai-exposes-dangerous-cyber-gaps.html",
-   "ts": "Thu, 27 Aug 2026 22:45:42 GMT"
+   "url": "https://www.cnbc.com/2026/08/29/op-ed-salesforce-revealed-next-battleground-in-ai-its-not-models.html",
+   "ts": "Sat, 29 Aug 2026 13:00:01 GMT"
   }
  ]
 }
