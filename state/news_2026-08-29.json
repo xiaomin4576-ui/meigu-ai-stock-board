@@ -1,13 +1,15 @@
 {
  "asof": "2026-08-29",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-29T15:03+08:00",
+ "generated_at": "2026-08-29T16:21+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 5,
-  "cluster_label": "伊朗/卡塔尔",
+  "cluster_label": "伊朗/卡塔尔/海湾",
   "cluster_dropped": [
-   "美国制裁埃及银行分行 伊朗战争满六个月"
+   "伊朗海军称完全控制霍尔木兹海峡",
+   "伊朗战争推高美国运输燃料附加费",
+   "卡塔尔能源取消对意大利Edison的天然气交付"
   ],
   "backfilled": 0
  },
@@ -15,8 +17,8 @@
   {
    "cat": "macro",
    "title": "美联储主席称美国通胀仍过高",
-   "brief": "8月28日，美联储主席沃什在杰克逊霍尔讲话称通胀仍过高，遏制通胀是首要任务，多个通胀数据令人担忧。",
-   "chain": "鹰派表态→美债收益率上行→美股高估值科技股承压→A股算力链情绪受抑",
+   "brief": "8月28日，美联储主席沃什在杰克逊霍尔研讨会上表示美国通胀仍过高，遏制通胀是首要任务，暗示可能加息。",
+   "chain": "美联储转鹰→美股估值承压→A股算力链短期情绪受抑",
    "impact": 10,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202608293859220634.html",
@@ -24,20 +26,10 @@
   },
   {
    "cat": "macro",
-   "title": "美联储主席鹰派讲话 金价大跌",
-   "brief": "沃什鹰派讲话后，美债收益率上升，纽约金期货跌幅超预期，金价承压。",
-   "chain": "实际利率上行→黄金避险属性弱化→金价下跌→美股AI高久期票估值分母压力→A股算力链情绪传导",
+   "title": "沃什杰克逊霍尔讲话强化通胀警告",
+   "brief": "分析指出，沃什在杰克逊霍尔的讲话强化了通胀警告，暗示可能加息，市场对美联储政策转向的预期升温。",
+   "chain": "加息预期→美债收益率上行→美股科技股估值压力→A股算力链承压",
    "impact": 9,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293859190984.html",
-   "ts": "2026-08-29 12:41:07"
-  },
-  {
-   "cat": "macro",
-   "title": "分析：沃什在杰克逊霍尔强化通胀警告",
-   "brief": "分析指出沃什讲话暗示可能加息，市场对紧缩预期升温。",
-   "chain": "加息预期→美元走强→新兴市场资金流出→A股风险偏好下降",
-   "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-fed-inflation-rate-hike.html",
    "ts": "Fri, 28 Aug 2026 17:44:02 GMT"
@@ -45,18 +37,48 @@
   {
    "cat": "macro",
    "title": "2年期美债收益率跳涨",
-   "brief": "沃什讲话后，2年期美债收益率跳涨，市场对美联储政策路径重新定价。",
-   "chain": "短端利率上行→美股估值承压→A股成长股估值联动",
-   "impact": 7,
+   "brief": "沃什讲话后，2年期美债收益率跳涨，市场对美联储加息的预期增强，短端利率上行。",
+   "chain": "短端利率上行→美股成长股估值承压→A股算力链情绪受抑",
+   "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/28/treasury-yields-jackson-hole.html",
    "ts": "Fri, 28 Aug 2026 20:08:18 GMT"
   },
   {
+   "cat": "macro",
+   "title": "国际金价大幅回落",
+   "brief": "8月28日COMEX黄金期货大跌3.43%报4504.10美元/盎司，国内金饰价格同步走低。",
+   "chain": "金价大跌主因美联储鹰派→实际利率上行→美股AI高久期票估值承压→A股算力链情绪受抑",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608293859238818.html",
+   "ts": "2026-08-29 15:57:42"
+  },
+  {
+   "cat": "macro",
+   "title": "拉詹呼吁美联储加息",
+   "brief": "经济学家拉詹表示美联储应加息以遏制通胀，并称卢比未处于恐慌区。",
+   "chain": "加息呼声→全球流动性收紧预期→美股估值压力→A股算力链承压",
+   "impact": 6,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-28/ex-rbi-chief-rajan-says-fed-should-raise-rates-to-curb-inflation",
+   "ts": "2026-08-28T06:32:56+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "伊朗总统称美遵守承诺前不开放海峡",
+   "brief": "8月28日，伊朗总统佩泽希齐扬表示，若美国不履行承诺解除封锁和制裁，伊朗不会开放霍尔木兹海峡。",
+   "chain": "霍尔木兹风险→油价上行→美股能源板块受益→A股油气链关注",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608293859237241.html",
+   "ts": "2026-08-29 15:39:48"
+  },
+  {
    "cat": "geo",
    "title": "尼日尔总统府附近发生激烈枪战",
-   "brief": "8月29日凌晨，尼日尔首都尼亚美总统府、机场和军事基地附近发生激烈枪战和爆炸。",
-   "chain": "非洲政局动荡→影响区域稳定→对莫桑比克油气运营安全构成潜在风险",
+   "brief": "8月29日凌晨，尼日尔首都尼亚美总统府附近发生激烈枪战和爆炸，局势动荡。",
+   "chain": "尼日尔政局动荡→非洲能源供应风险→油价波动→东非能源经营关注",
    "impact": 7,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202608293859224493.html",
@@ -64,19 +86,19 @@
   },
   {
    "cat": "geo",
-   "title": "伊朗海军称完全控制霍尔木兹海峡",
-   "brief": "伊朗海军宣称对霍尔木兹海峡拥有完全控制权，加剧地区紧张局势。",
-   "chain": "海峡控制→原油运输风险溢价→油价上行→莫桑比克LNG出口竞争力相对提升",
-   "impact": 9,
+   "title": "以色列罕见空袭西岸击杀哈马斯成员",
+   "brief": "以色列在约旦河西岸发动罕见空袭，击杀一名哈马斯成员，巴以冲突外溢风险上升。",
+   "chain": "中东冲突升级→油价风险溢价→美股能源板块→A股油气链",
+   "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEVEVmRsZGlZT1pndE1fWjltanZVY1oxRXdCVU1TSXFWOUotb2RnamNaTVFacFVtb0xKWEotQ2xHUl9XUXQ3UlV2OUdtWWVNb25BakpUd0RYd0RyaDdxWHR5MUJXSXVfdm9WSnNqM1lNbHk1aUN2Qmp0MGxxSGZETzYxTlVBdzViQVd1d1pfVWN6eUpTVTRMa05SNzEzYjZHWlpSeWt0Z2dmR2xW?oc=5",
-   "ts": "2026-08-28T20:45:01+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZlZhNVQwZ2dBSUdMTmN3b2ZuR1VlSlBOanV6NTVkNTBsdHdfZk1OYW95SVFnU0dIdDNlS0NGSkxwOWFCd05JQ28za2N3azJRM2p0UXlISHl3aERWa3VubVRlVGdSdjF3UFFyUlc3VW5yVmI5b3ItU3ZsY1l6TFYtVWxJUG50X2RiNHZ3bGNPMnVRemphRGd2dlJtYUEycGQwUFdxaWdZd056a2d4QldPVEZULVFFUGJQLW05bVFwSWlMLWF0YzVZWmRn?oc=5",
+   "ts": "2026-08-28T18:02:44+00:00"
   },
   {
    "cat": "oil",
    "title": "特朗普宣布与委内瑞拉达成石油协议",
    "brief": "特朗普宣布与委内瑞拉达成协议，确保超过650亿桶石油储备的开发。",
-   "chain": "委内瑞拉增产预期→全球原油供给增加→油价承压→莫桑比克LNG项目经济性受挑战",
+   "chain": "委内瑞拉增产→全球供应增加→油价承压→莫桑比克LNG竞争加剧",
    "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/08/28/trump-announces-deal-with-venezuela-to-secure-more-than-65-billion-barrels-of-oil-reserves.html",
@@ -84,103 +106,93 @@
   },
   {
    "cat": "oil",
-   "title": "伊朗战争推高美国运输燃料附加费",
-   "brief": "伊朗战争导致美国运输燃料附加费上升，但行业利润也增加。",
-   "chain": "战争推高油价→运输成本上升→通胀压力→美联储政策收紧→A股风险偏好下降",
+   "title": "伊朗战争刺激海湾基础设施投资",
+   "brief": "伊朗战争促使海湾国家加大管道和港口等基础设施投资，以保障能源运输。",
+   "chain": "海湾基建投资→全球能源物流改善→油价稳定→莫桑比克出口物流受益",
    "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNEl5QXd2UEpMZlNEOGszSng5WEotaDlSVG1qMXIxXzFNdDZiMFMxTnUxM0tIX2hYeXVkWVhYUUJMZF9PY3lSNXFVOC03TnF6dmstYzFVdFlwdWZZdVFqQ0tqS2VtSm5UU2p5bnhtQ2xPdnFhcWVmbTFpLU0zR0g5c0l4LTVMWHZFaXI2ME85a255SjdQMjRXSzloU2w1UFd5YWFPam5OOVRFanNqSEhvWVQ0cmFlUDFhWFE?oc=5",
-   "ts": "2026-08-28T10:32:30+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMFpCNDNNRjl2ZVJGeG1nOHNCd09IQ1VQS1hJejJiX0V1TFRGalFNS1EzbjZHS1Nua0pNNlVWZzlpVl9GM0FoNGVNMGhEY1djUW9HRFRpODlUQnNLaGtXT092WVRNT3NyWHFaN2tYT1N5OW00VDljVXB0cDJ6UU5tMktQaFBwVUZCZHFmRkVfcVRrR25NTWFFd2ZhRnVpVGhKNXk1dzhVQ21YUFcwWC1YODdvUQ?oc=5",
+   "ts": "2026-08-28T10:35:38+00:00"
   },
   {
    "cat": "gas",
-   "title": "卡塔尔能源取消对意大利Edison的天然气交付",
-   "brief": "因伊朗战争，卡塔尔能源取消对意大利Edison的天然气交付直至11月初。",
-   "chain": "LNG供应中断→欧洲气价上涨→全球LNG流向改变→莫桑比克LNG出口机会增加",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSGdXSEJxeEtGbnA4SWdCRkkyMFM4VFhkS0hHT1F5cGw3TGg1LXZneGR4Z2JBRzNjdldsUlZNMlp5T1I4RDBRLWJoUlptMms4MXVzVmhLOXJndHI3U2E0OTcwTXprQmFRSkRYMzFxRzMzZExybFVWcTBlZGduN18zZmVJcWxnR3QzcU9iclR3b3g5OUdBZ0twWlJnUnZkbGVyN2hvNFVHRWZjYW9jMmtxbUtIVlotOC10UjVfWkln?oc=5",
-   "ts": "2026-08-28T16:47:22+00:00"
-  },
-  {
-   "cat": "gas",
-   "title": "埃及LNG回归将从塞浦路斯开始",
-   "brief": "埃及LNG出口复苏，首个项目在塞浦路斯启动，影响东地中海天然气格局。",
-   "chain": "东地中海LNG供应增加→全球LNG市场竞争加剧→莫桑比克LNG需寻求差异化",
-   "impact": 5,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/energy/articles/egypt-lng-comeback-set-start-000000920.html",
-   "ts": "2026-08-28T00:00:00Z"
-  },
-  {
-   "cat": "tech",
-   "title": "长鑫存储起诉美国国防部",
-   "brief": "中国芯片制造商长鑫存储起诉美国国防部，要求移出黑名单。",
-   "chain": "中美科技摩擦→半导体国产替代加速→A股存储芯片链受益",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293859219450.html",
-   "ts": "2026-08-29 14:06:41"
-  },
-  {
-   "cat": "tech",
-   "title": "半导体龙头有研硅重大资产重组",
-   "brief": "有研硅拟收购山东有研艾斯等股权，构成重大资产重组，下周一停牌。",
-   "chain": "半导体整合→产业链集中度提升→A股半导体材料板块关注",
+   "title": "扎波罗热核电站外部供电中断",
+   "brief": "扎波罗热核电站外部供电中断超一周，备用能源仅够约10天，核安全风险上升。",
+   "chain": "核电站风险→欧洲能源供应担忧→天然气需求增加→莫桑比克LNG出口受益",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293859224213.html",
-   "ts": "2026-08-29 14:48:00"
+   "url": "https://finance.eastmoney.com/a/202608293859239058.html",
+   "ts": "2026-08-29 16:03:30"
   },
   {
    "cat": "tech",
    "title": "苹果上调Apple TV和Apple One订阅价格",
-   "brief": "苹果在美国上调Apple TV和Apple One订阅价格，此前Apple Music已涨价。",
-   "chain": "苹果提价→服务收入增长→美股科技股盈利预期改善→A股苹果产业链情绪",
+   "brief": "苹果在美国上调Apple TV和Apple One订阅价格，此前7月已上调Apple Music价格。",
+   "chain": "苹果提价→服务收入增长→美股科技板块→A股消费电子链",
    "impact": 6,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/08/28/apple-tv-one-price-hike-us.html",
    "ts": "2026-08-28T16:57:16+00:00"
   },
   {
-   "cat": "ai",
-   "title": "国家数据局：算力网与五张网深度耦合",
-   "brief": "国家数据局在数博会表示，算力网与水网、电网、通信网等五张网形成深度耦合。",
-   "chain": "算力基建政策→AI基础设施投资加速→A股算力产业链受益",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293859191945.html",
-   "ts": "2026-08-29 13:13:31"
+   "cat": "tech",
+   "title": "百思买上调业绩展望",
+   "brief": "百思买在强劲的夏季季度后上调业绩展望，显示消费电子需求回暖。",
+   "chain": "消费电子需求回暖→美股科技零售→A股消费电子链",
+   "impact": 5,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/best-buy-hikes-outlook-hot-040100279.html",
+   "ts": "2026-08-28T04:01:00Z"
   },
   {
-   "cat": "ai",
-   "title": "国家数据局：词元市场需求爆发式增长",
-   "brief": "国家数据局称大模型落地带动词元调用量快速攀升，市场需求爆发。",
-   "chain": "词元需求增长→AI算力需求提升→A股算力链景气度上行",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293859191554.html",
-   "ts": "2026-08-29 12:53:58"
-  },
-  {
-   "cat": "ai",
-   "title": "AI服务器高端铜箔需求同比增260%",
-   "brief": "2026年AI服务器专用高端铜箔需求约2.4万吨，同比增长约260%。",
-   "chain": "AI服务器需求→铜箔量价齐升→A股铜箔及上游材料链受益",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293859190741.html",
-   "ts": "2026-08-29 12:36:10"
-  },
-  {
-   "cat": "ai",
-   "title": "OpenAI拒绝为SpaceX旗下公司提供服务",
-   "brief": "OpenAI宣布停止向代码工具Cursor（SpaceX旗下）提供服务，与马斯克恩怨升级。",
-   "chain": "AI竞争加剧→科技巨头博弈→A股AI应用端情绪波动",
+   "cat": "tech",
+   "title": "空客考虑出售美国航天业务",
+   "brief": "空客寻求出售美国航天业务，以集中精力与莱昂纳多、泰雷兹合并打造欧洲卫星巨头。",
+   "chain": "航天业务重组→全球航天竞争格局→A股航天链关注",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293859219121.html",
-   "ts": "2026-08-29 14:03:10"
+   "url": "https://finance.eastmoney.com/a/202608293859231832.html",
+   "ts": "2026-08-29 15:19:08"
+  },
+  {
+   "cat": "ai",
+   "title": "Lambda完成9.26亿美元融资部署GPU",
+   "brief": "AI云服务商Lambda完成9.26亿美元贷款融资，用于购买和部署GPU基础设施。",
+   "chain": "AI算力投资增加→美股AI基础设施→A股算力链",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608293859237872.html",
+   "ts": "2026-08-29 15:55:16"
+  },
+  {
+   "cat": "ai",
+   "title": "软银寻求100亿美元贷款投资OpenAI",
+   "brief": "软银寻求额外100亿美元贷款，用于资助其对OpenAI的投资。",
+   "chain": "AI融资活跃→美股AI板块→A股AI应用链",
+   "impact": 7,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-28/softbank-seeks-another-10-billion-loan-for-openai-stake-funding",
+   "ts": "2026-08-28T07:45:49+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "大型科技公司AI支出考验长期优势",
+   "brief": "大型科技公司大规模AI支出正在考验其长期优势，市场担忧回报率。",
+   "chain": "AI支出增加→美股科技巨头→A股算力链",
+   "impact": 6,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/28/big-techs-ai-spending-is-putting-a-longtime-strengths-to-the-test.html",
+   "ts": "2026-08-28T15:50:58+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "Salesforce CEO称SaaSpocalypse是胡说",
+   "brief": "Salesforce CEO在财报超预期和与Anthropic合作后，称SaaSpocalypse是胡说。",
+   "chain": "AI合作增强→美股SaaS板块→A股云计算链",
+   "impact": 5,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/saaspocalypse-nonsense-says-salesforce-ceo-040100123.html",
+   "ts": "2026-08-28T04:01:00Z"
   }
  ]
 }
