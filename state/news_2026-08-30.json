@@ -1,177 +1,197 @@
 {
  "asof": "2026-08-30",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-30T01:25+08:00",
+ "generated_at": "2026-08-30T13:20+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 20,
-  "cluster_label": "伊朗/海湾",
+  "cross_day_suppressed": 13,
+  "cluster_label": "伊朗/阿联酋",
   "cluster_dropped": [
-   "特朗普四面出击：制裁伊朗、关税战、控油田",
-   "战争与制裁重压伊朗经济"
+   "埃及银行审查伊朗制裁通知，阿联酋央行紧急检查",
+   "美国制裁埃及银行分行，涉伊朗关系"
   ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "美联储主席Warsh杰克逊霍尔讲话展现勇气",
-   "brief": "哈佛教授Rogoff称赞Warsh在杰克逊霍尔的讲话展现勇气，顶住政治压力。",
-   "chain": "美联储主席鹰派表态→美债利率上行→压制美股AI高久期估值→A股算力链情绪承压",
+   "title": "美联储主席沃什：通胀未实质改善，誓言达2%目标",
+   "brief": "美联储主席沃什表示潜在通胀未显著改善，维持9月加息可能。",
+   "chain": "鹰派表态→美股估值承压→A股算力链情绪受抑",
    "impact": 9,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/economy/article/fed-chairman-warsh-shows-courage-with-jackson-hole-speech-defying-political-pressure-says-harvards-rogoff-140951926.html",
-   "ts": "2026-08-29T14:09:51Z"
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-28/warsh-says-inflation-isn-t-slowing-vows-to-hit-to-2-target",
+   "ts": "2026-08-28T17:53:58+00:00"
   },
   {
    "cat": "macro",
-   "title": "交易员对Warsh态度转暖，VIX触及年内低点",
-   "brief": "随着Warsh获市场认可，恐慌指数VIX降至年内低点，市场情绪回暖。",
-   "chain": "美联储政策预期明朗→美股波动率下降→风险偏好回升→利好A股科技成长",
+   "title": "前美联储官员：沃什讲话或为9月加息埋伏笔",
+   "brief": "前副主席布林德认为沃什未给明确指引，但可能为9月加息铺垫。",
+   "chain": "加息预期升温→美债收益率上行→A股成长股估值压力",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608303859342742.html",
+   "ts": "2026-08-30 08:43:42"
+  },
+  {
+   "cat": "macro",
+   "title": "下周美国非农登场，如何影响9月美联储决议",
+   "brief": "市场焦点转向美国就业数据，评估经济韧性和加息时间窗口。",
+   "chain": "非农数据→美联储政策路径→全球风险资产定价",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608303859352283.html",
+   "ts": "2026-08-30 11:12:43"
+  },
+  {
+   "cat": "macro",
+   "title": "贝森特：日元无序波动或 destabilize 全球市场",
+   "brief": "美国财长贝森特警告日元无序波动可能破坏全球市场稳定。",
+   "chain": "日元波动→套息交易逆转→全球风险资产波动→A股外资流向",
    "impact": 7,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/28/stock-traders-warm-up-to-warsh-as-volatility-index-touches-year-to-date-low.html",
-   "ts": "2026-08-28T19:35:09+00:00"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZHBpa0Q1ZFFoeUswNkhnRWtLZEdNVmpSNU5Qd19FY2ZseVEtLTJNQ0J4SVNLUU83RDRWa0VyWWlhQlNUdXoxMldCa0VTXzlhZllsbnh6LXVPbDNSYW1rVmFyY0VNRHljVUlPZGR2MTFZTWotZ0drc2hoNHJJTDZzVEpUZW9ieEt2Ny15QmktV0l0MWx1Rnd4Y00xc2pIQ0FLZkxtdzlkUTZXMDYxOVBXX3lrMUtpN0d6?oc=5",
+   "ts": "2026-08-29T16:47:43+00:00"
   },
   {
    "cat": "macro",
-   "title": "经济学家对当前经济形态分歧加剧",
-   "brief": "关于经济是K型、C型还是E型复苏，经济学家观点不一，反映前景不确定性。",
-   "chain": "经济形态分歧→政策路径不明→美股波动→A股外资流向受扰动",
+   "title": "英国央行贝利：二轮通胀效应目前温和",
+   "brief": "英国央行行长贝利认为二轮通胀效应暂时温和，暗示政策观望。",
+   "chain": "英央行偏鸽→美元指数相对走强→新兴市场资金面",
    "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/29/k-shaped-economy-c-shaped-e-shape.html",
-   "ts": "Sat, 29 Aug 2026 12:22:50 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "72%购房者暂停购房等待降息",
-   "brief": "调查显示72%的购房者暂停购房等待更低抵押贷款利率，41%已后悔。",
-   "chain": "高利率抑制地产→经济放缓预期→美联储降息预期升温→利好成长股",
-   "impact": 5,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/real-estate/articles/72-homebuyers-paused-search-waiting-150000785.html",
-   "ts": "2026-08-29T15:00:00Z"
-  },
-  {
-   "cat": "geo",
-   "title": "伊朗战争六个月，美国家属情绪过山车",
-   "brief": "伊朗战争持续六个月，美国家属经历情绪波动，凸显战争长期化。",
-   "chain": "中东冲突持续→油价高位→美股能源板块受益→A股石油链关注",
-   "impact": 8,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUm1PUndmMHEtR2czS0pLUHRwMXhjcG5mZzNjWDdQQ3I3cTlpaW5EdTFVc3BJUjBldmlZR0RJM09CZFhycFFlSmExRC05SEFvR0N1cHdaNWt4LUMxRmFpY2cyVjRfalFlT09EQXZ1XzlqaWt0SEphZFVVNGxDMmtKNUJmN090SFgwY2pfMFRBSXZ2TFpNTGJzRFlmS2ZwZlo4TThGQjhPLWJLa0ZJdmVXUm1OZldxY1hWNFoxYlJXUzF4NTJVMWZv?oc=5",
-   "ts": "2026-08-29T13:09:27+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb2QydWdoanp1clRlWTVBQW9mRFZhcVBPWEJkcHB5M0RjSWRLTXJjcjNHbUU3cFJ4dHpNbFhXcjN0elBrWnVFSHYtZFJ2cEUxQ2FMWm1YRVFQZlJONE9LQ1pHTnRJNXVfcHNqc1ZhakxiVkdvdFhSNWo2ZEFJMXdPZWVhcy0teHNkRVJiNVk2LTdpX2piWFpIZzdhU0xnYk0yWVZqdkh5VV9weUpfS1VxZE9pYw?oc=5",
+   "ts": "2026-08-28T16:09:50+00:00"
   },
   {
    "cat": "geo",
-   "title": "佩斯科夫：看不到俄欧关系改善基础",
-   "brief": "俄总统新闻秘书表示当前看不到俄欧关系改善的基础，双方对立持续。",
-   "chain": "俄欧对立→能源供应不确定性→欧洲气价波动→影响全球LNG贸易",
+   "title": "习近平出席上合峰会并访问吉尔吉斯斯坦、埃及",
+   "brief": "习近平离京出席上合峰会，并对吉尔吉斯斯坦、埃及进行国事访问。",
+   "chain": "中俄合作深化→地缘格局变化→一带一路相关板块",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608303859350581.html",
+   "ts": "2026-08-30 11:00:28"
+  },
+  {
+   "cat": "geo",
+   "title": "2014年以来俄遭制裁超3.3万项，美国居首",
+   "brief": "统计显示自2014年俄受制裁超3.3万项，美国实施数量最多。",
+   "chain": "制裁持续→俄经济承压→全球能源贸易流向调整",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293859318190.html",
-   "ts": "2026-08-29 23:05:51"
+   "url": "https://finance.eastmoney.com/a/202608303859357633.html",
+   "ts": "2026-08-30 12:38:32"
   },
   {
    "cat": "geo",
-   "title": "特朗普格陵兰野心影响冰岛入盟公投",
-   "brief": "冰岛就是否重启入盟谈判公投，特朗普对格陵兰的兴趣凸显安全议题。",
-   "chain": "北极地缘博弈→欧洲安全格局→影响能源运输路线→关注航运",
+   "title": "中国海警在黄岩岛领海执法巡查",
+   "brief": "中国海警持续在黄岩岛领海及周边执法巡查，处置侵权船只。",
+   "chain": "南海局势→地区稳定→地缘风险溢价",
    "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/28/iceland-eu-referendum-trump-greenland-arctic.html",
-   "ts": "Fri, 28 Aug 2026 13:45:42 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608303859352718.html",
+   "ts": "2026-08-30 11:26:27"
+  },
+  {
+   "cat": "geo",
+   "title": "以总理谴责约旦河西岸定居者暴力犯罪",
+   "brief": "内塔尼亚胡谴责少数暴徒在约旦河西岸的暴力行为，打破沉默。",
+   "chain": "巴以冲突外溢→中东局势→油价波动",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608303859346718.html",
+   "ts": "2026-08-30 09:51:43"
   },
   {
    "cat": "oil",
-   "title": "伊朗战争刺激海湾基础设施投资",
-   "brief": "伊朗战争促使海湾国家加大管道和港口投资，以保障能源运输。",
-   "chain": "中东基建投资→能源运输效率提升→全球油市稳定→利好东非能源出口",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMFpCNDNNRjl2ZVJGeG1nOHNCd09IQ1VQS1hJejJiX0V1TFRGalFNS1EzbjZHS1Nua0pNNlVWZzlpVl9GM0FoNGVNMGhEY1djUW9HRFRpODlUQnNLaGtXT092WVRNT3NyWHFaN2tYT1N5OW00VDljVXB0cDJ6UU5tMktQaFBwVUZCZHFmRkVfcVRrR25NTWFFd2ZhRnVpVGhKNXk1dzhVQ21YUFcwWC1YODdvUQ?oc=5",
-   "ts": "2026-08-28T10:35:38+00:00"
+   "title": "委内瑞拉代总统：美委石油协议持续25年",
+   "brief": "委内瑞拉称与美国石油协议将维持25年，目标产量150万桶/日。",
+   "chain": "委内瑞拉增产→OPEC+供应增加→油价承压→东非LNG竞争力",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608303859348075.html",
+   "ts": "2026-08-30 10:16:21"
   },
   {
    "cat": "oil",
-   "title": "Affirm CEO称高油价冲击美国消费者",
-   "brief": "先买后付公司Affirm CEO表示高油价正在影响美国购物者支出。",
-   "chain": "高油价→消费疲软→经济放缓→油价需求担忧→短期油价承压",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/28/affirm-stock-earnings-levchin-gas-prices.html",
-   "ts": "Fri, 28 Aug 2026 20:09:13 GMT"
+   "title": "战争与制裁重压伊朗经济",
+   "brief": "伊朗经济在战争和制裁下承压，影响其石油出口能力。",
+   "chain": "伊朗供应风险→油价波动→全球能源市场",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQmtVbEg3UlB1QzhqQTZJLTRJY1ZfZWJTZjVrVjVPWDFDT3dGd0RxTEQ3M19hVEFHcldMaEpxcncwNGxlQ1ZDMzA3T09ScHFKdjFEYVQ4Yi1BdFNHdmNuVlpmN3MtWUVOSlVVTEZoRjlxRDZQQ3VpejdGRGg4bEh1NzRyMjJuYU15c2t1V0V3ckJxeDBLdUs4WFNkeEhnSWl3dW9keE5YMA?oc=5",
+   "ts": "2026-08-29T02:04:00+00:00"
   },
   {
-   "cat": "gas",
-   "title": "我国高端重型燃机实现自主可控",
-   "brief": "我国自主研制的F级50兆瓦重型燃气轮机启运哈萨克斯坦，实现整机出口。",
-   "chain": "中国燃机技术突破→全球燃气发电市场格局变化→对莫桑比克LNG发电项目有潜在影响",
+   "cat": "tech",
+   "title": "a16z成立11亿美元基金布局芯片、内存与机器人",
+   "brief": "硅谷风投a16z首只硬件基金募资11亿美元，聚焦芯片、内存和机器人。",
+   "chain": "硬件投资升温→半导体需求→A股芯片产业链",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608303859348623.html",
+   "ts": "2026-08-30 10:33:04"
+  },
+  {
+   "cat": "tech",
+   "title": "华为Mate XT 2非凡大师即将发布",
+   "brief": "华为余承东介绍三折叠新形态，Mate XT 2将于9月7日发布。",
+   "chain": "华为新品→消费电子产业链→A股华为概念",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608303859348578.html",
+   "ts": "2026-08-30 10:23:54"
+  },
+  {
+   "cat": "tech",
+   "title": "中塞联合机器人工厂投产，欧洲首座人形机器人量产基地",
+   "brief": "塞尔维亚首座机器人工厂投产，由中塞联合建设，生产人形机器人。",
+   "chain": "机器人产业→自动化需求→A股机器人概念",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293859304459.html",
-   "ts": "2026-08-29 21:25:06"
+   "url": "https://finance.eastmoney.com/a/202608303859349546.html",
+   "ts": "2026-08-30 10:41:35"
   },
   {
-   "cat": "tech",
-   "title": "长鑫存储起诉美国五角大楼",
-   "brief": "长鑫存储就美国国防部将其列入黑名单提起诉讼，称芯片为民用。",
-   "chain": "中美科技摩擦→半导体国产替代加速→A股存储芯片链受益",
-   "impact": 8,
+   "cat": "ai",
+   "title": "OpenAI终止与Cursor合作，因SpaceX收购",
+   "brief": "OpenAI通知Cursor将终止合同，因Cursor被SpaceX收购。",
+   "chain": "AI编程工具竞争→OpenAI生态调整→A股AI应用",
+   "impact": 7,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-29/openai-to-end-partnership-with-cursor-after-spacex-acquisition",
+   "ts": "2026-08-29T03:58:49+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "马斯克回应OpenAI终止合作：毫不在意",
+   "brief": "OpenAI停止向SpaceX旗下Cursor提供模型，马斯克回应毫不在意。",
+   "chain": "AI竞争加剧→模型供应格局→A股AI算力",
+   "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608293859320361.html",
-   "ts": "2026-08-30 00:15:46"
-  },
-  {
-   "cat": "tech",
-   "title": "Marc Benioff重拾信心，Salesforce AI实力平息质疑",
-   "brief": "Salesforce CEO Marc Benioff因AI实力增强而重拾信心，平息怀疑者。",
-   "chain": "Salesforce AI进展→企业软件需求→美股科技股提振→A股云计算链关注",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/28/marc-benioff-getting-his-mojo-back-as-salesforce-lifts-ai-growth-view.html",
-   "ts": "Fri, 28 Aug 2026 13:44:25 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "黑莓押注汽车和机器人业务",
-   "brief": "黑莓在手机业务失败后，转向汽车和机器人领域寻求增长。",
-   "chain": "黑莓转型→车联网/机器人概念→A股智能汽车链关注",
-   "impact": 4,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/28/blackberry-cars-robots-tech-download.html",
-   "ts": "Fri, 28 Aug 2026 14:40:22 GMT"
+   "url": "https://finance.eastmoney.com/a/202608303859340840.html",
+   "ts": "2026-08-30 08:59:50"
   },
   {
    "cat": "ai",
-   "title": "Cramer对AI交易转暖但未行动",
-   "brief": "Cramer表示对AI交易兴趣回升，但尚未准备好采取行动。",
-   "chain": "市场情绪回暖→AI板块估值修复→A股算力链情绪提振",
+   "title": "黄仁勋将亮相G20，AI交易能否延续强势",
+   "brief": "英伟达CEO黄仁勋和OpenAI CEO将出席G20，市场关注AI行情。",
+   "chain": "AI领袖表态→AI产业预期→A股算力链",
    "impact": 6,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/28/cramer-says-hes-warming-back-up-to-the-ai-trade-but-not-ready-to-act-yet.html",
-   "ts": "2026-08-28T16:53:53+00:00"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608303859351329.html",
+   "ts": "2026-08-30 11:11:09"
   },
   {
    "cat": "ai",
-   "title": "科技抵制情绪高涨，AI焦虑与社交媒体担忧碰撞",
-   "brief": "科技行业面临抵制，AI焦虑与社交媒体担忧交织，监管压力上升。",
-   "chain": "AI监管趋严→科技巨头成本增加→美股AI股波动→A股AI监管概念",
+   "title": "谷歌、OpenAI、Meta联手日本打击网络诈骗",
+   "brief": "科技巨头与日本官方合作，打击激增的网络诈骗案件。",
+   "chain": "AI治理合作→监管趋势→AI合规成本",
    "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/29/tech-backlash-ai-data-centers-elections.html",
-   "ts": "Sat, 29 Aug 2026 12:16:03 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "Meta巨额和解使TikTok和YouTube面临压力",
-   "brief": "Meta的180亿美元和解协议使TikTok和YouTube面临类似法律风险。",
-   "chain": "社交媒体监管加强→科技巨头合规成本→影响AI内容审核需求",
-   "impact": 4,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/29/meta-settlement-tiktok-youtube-snap-teen-safety.html",
-   "ts": "Sat, 29 Aug 2026 05:00:01 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608303859353625.html",
+   "ts": "2026-08-30 11:59:31"
   }
  ]
 }
