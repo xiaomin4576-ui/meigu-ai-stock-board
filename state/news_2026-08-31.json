@@ -1,0 +1,177 @@
+{
+ "asof": "2026-08-31",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-08-31T01:49+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 21,
+  "cluster_label": "伊朗/阿联酋",
+  "cluster_dropped": [
+   "埃及银行审查美国制裁，阿联酋央行紧急检查",
+   "美国制裁阿联酋埃及银行涉伊朗关系"
+  ],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "海湾股市下跌，美联储加息预期升温",
+   "brief": "Warsh鹰派言论推升加息预期，海湾股市承压。",
+   "chain": "加息预期→美股估值承压→A股高估值成长板块或受情绪影响",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMUp0Y2RpUlUyc1ZQakFhRXB4TjZwTlIzb1FUTVFCdEVMNHp6LWdkdXc2ZkdCUVo0TmZyb25XWUYzS0dkLTJuVzAzcldNWnhRZTJLREotVi1pQUlOeS1QMmM3ZWhVeTZIOTg2UGMtNzhZQ1EzM3BydUVGMC0xdzdOMzNBZ2VxOTNncUJOT2ZQa0FGU2FrR1YxYUNNcU9va2VRTXJ6ZGFscUdSRmc3V3JtRDJHaXE?oc=5",
+   "ts": "2026-08-30T13:15:45+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "交易员押注Warsh，VIX创年内新低",
+   "brief": "市场对Warsh接任美联储主席预期升温，波动率指数降至年内低点。",
+   "chain": "政策不确定性降低→美股风险偏好回升→A股风险偏好联动",
+   "impact": 7,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/28/stock-traders-warm-up-to-warsh-as-volatility-index-touches-year-to-date-low.html",
+   "ts": "2026-08-28T19:35:09+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "美国房贷利率小幅上行",
+   "brief": "8月29日美国固定房贷利率小幅走高，反映市场利率预期变化。",
+   "chain": "利率上行→美国消费与地产承压→对A股出口链影响有限",
+   "impact": 3,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-29-2026-fixed-rates-move-slightly-higher-into-the-weekend-114438775.html",
+   "ts": "2026-08-29T11:44:38Z"
+  },
+  {
+   "cat": "geo",
+   "title": "战争与制裁重压伊朗经济",
+   "brief": "持续战争和美国制裁令伊朗经济承压，最高领袖呼吁减少对美元依赖。",
+   "chain": "地缘紧张→油价波动→影响全球通胀预期，间接影响A股",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQmtVbEg3UlB1QzhqQTZJLTRJY1ZfZWJTZjVrVjVPWDFDT3dGd0RxTEQ3M19hVEFHcldMaEpxcncwNGxlQ1ZDMzA3T09ScHFKdjFEYVQ4Yi1BdFNHdmNuVlpmN3MtWUVOSlVVTEZoRjlxRDZQQ3VpejdGRGg4bEh1NzRyMjJuYU15c2t1V0V3ckJxeDBLdUs4WFNkeEhnSWl3dW9keE5YMA?oc=5",
+   "ts": "2026-08-29T14:01:05+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "土沙巴首次防务 pact 会议",
+   "brief": "土耳其、沙特、巴基斯坦将举行首次防务协议会议，中东安全格局生变。",
+   "chain": "中东地缘重组→影响能源运输安全→对油价有潜在影响",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTGEtTUQ0dGF3WlJacDh2Y2tEZ1BsR3hrRG9BY2ZPQjRFVkloRzJPN1o0UWtRVFRnUjgtVHJvVGFwY3FNVy1mbW1DMTdXek9mdDJZSjUxRy1UQm5kVlRBTzZpcFNrVjFWd1YwOU11TUtDRVk0VHVvbFJWVWRKdDN5TlIyeDhyY3VtdXNSQ2dXLUxhRmt1X2I3QzdpbUhEQV9NMjNxNmZNVkxQbEdaU1dKV0x2Y3E3M2U3VktPNDBiM1h1ZlpVYWc?oc=5",
+   "ts": "2026-08-30T10:05:06+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "利比亚对立派系达成选举框架协议",
+   "brief": "利比亚“4+4”委员会签署协议，重组选举委员会，推进总统和议会选举。",
+   "chain": "利比亚政局稳定→原油供应预期改善→利空油价，影响东非能源竞争",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608313859528036.html",
+   "ts": "2026-08-31 00:25:15"
+  },
+  {
+   "cat": "oil",
+   "title": "Affirm CEO：高油价冲击美国消费者",
+   "brief": "先买后付公司Affirm CEO表示，高油价正在影响美国消费者支出。",
+   "chain": "高油价→美国消费疲软→全球需求担忧→油价短期承压，但地缘风险仍存",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/28/affirm-stock-earnings-levchin-gas-prices.html",
+   "ts": "Fri, 28 Aug 2026 20:09:13 GMT"
+  },
+  {
+   "cat": "gas",
+   "title": "伊朗最高领袖呼吁减少对美元依赖",
+   "brief": "伊朗贸易下滑，最高领袖哈梅内伊敦促减少对美元依赖，推动去美元化。",
+   "chain": "去美元化→全球能源贸易结算多元化→影响LNG定价机制，莫桑比克需关注",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/29/iran-trade-sanctions-dollar-oil-exports.html",
+   "ts": "Sat, 29 Aug 2026 12:08:08 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "Marc Benioff重振旗鼓，Salesforce AI实力平息质疑",
+   "brief": "Salesforce CEO Marc Benioff凭借AI实力重获信心，股价表现强劲。",
+   "chain": "AI应用落地→美股软件板块提振→A股云计算/企业服务映射",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/28/marc-benioff-getting-his-mojo-back-as-salesforce-lifts-ai-growth-view.html",
+   "ts": "Fri, 28 Aug 2026 13:44:25 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "黑莓押注汽车和机器人业务",
+   "brief": "黑莓在手机市场失利后，转向汽车和机器人领域，寻求新增长点。",
+   "chain": "科技转型→美股科技股分化→A股汽车电子/机器人概念关注",
+   "impact": 4,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/28/blackberry-cars-robots-tech-download.html",
+   "ts": "Fri, 28 Aug 2026 14:40:22 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "《GTA6》预售火爆，分析师看好",
+   "brief": "《侠盗猎车手6》预览显示需求强劲，分析师预计将成爆款。",
+   "chain": "游戏需求→美股游戏股提振→A股游戏板块情绪联动",
+   "impact": 3,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/28/gta-6-preview-netflix.html",
+   "ts": "Fri, 28 Aug 2026 15:32:21 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "OpenAI终止对Cursor的模型访问",
+   "brief": "OpenAI在Cursor被SpaceX收购后，终止对其模型访问，引发行业关注。",
+   "chain": "AI生态调整→影响AI编程工具市场→A股AI应用/算力链情绪波动",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
+   "ts": "Sat, 29 Aug 2026 19:06:22 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "科技反弹声浪高涨，AI焦虑与社交媒体担忧交织",
+   "brief": "科技行业面临反弹，AI焦虑与社交媒体担忧交织，监管压力上升。",
+   "chain": "AI监管趋严→美股科技股承压→A股AI板块或受情绪影响",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/29/tech-backlash-ai-data-centers-elections.html",
+   "ts": "Sat, 29 Aug 2026 19:55:30 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "润泽科技：液冷机柜价格回升至高峰",
+   "brief": "润泽科技称高品质液冷机柜价格已回升至行业高峰水平，AIDC业务增长强劲。",
+   "chain": "AI算力需求→液冷设备涨价→A股液冷/数据中心产业链受益",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608303859521576.html",
+   "ts": "2026-08-30 23:33:21"
+  },
+  {
+   "cat": "ai",
+   "title": "Michael Burry再发英伟达股票看法",
+   "brief": "知名投资者Michael Burry对英伟达股票发出新看法，引发市场关注。",
+   "chain": "英伟达估值争议→美股AI龙头波动→A股算力链情绪传导",
+   "impact": 6,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-sends-another-nvidia-173300389.html",
+   "ts": "2026-08-30T17:33:00Z"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达变大但未变贵",
+   "brief": "分析指出英伟达市值增长但估值未同步上升，仍有吸引力。",
+   "chain": "英伟达估值合理→美股AI信心稳固→A股算力链估值锚稳定",
+   "impact": 5,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-getting-bigger-without-getting-153002917.html",
+   "ts": "2026-08-29T15:30:02Z"
+  }
+ ]
+}
