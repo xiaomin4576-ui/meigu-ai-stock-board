@@ -1,6 +1,6 @@
 {
  "asof": "2026-08-31",
- "fetched_at": "2026-08-31T01:49+08:00",
+ "fetched_at": "2026-08-31T13:33+08:00",
  "meta": {
   "counts": {
    "TechCabal": 0,
@@ -12,15 +12,15 @@
    "Condia": 25,
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
-   "Zimbabwe Situation": 1,
+   "Zimbabwe Situation": 0,
    "African Business": 1,
-   "非洲科技·聚合": 10,
+   "非洲科技·聚合": 9,
    "中非科技·聚合": 16
   },
   "total": 60,
-  "ai_flagged": 27,
-  "aiinfra_flagged": 9,
-  "countries": 10
+  "ai_flagged": 26,
+  "aiinfra_flagged": 8,
+  "countries": 9
  },
  "items": [
   {
@@ -50,16 +50,6 @@
    "url": "https://thecondia.com/precious-odahunsi-bumpa-product-growth-story/",
    "date": "Sun, 30 Aug 2026 09:00:00 +0000",
    "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Govt puts 360 000 land parcels on digital map",
-   "brief": "Source: Govt puts 360 000 land parcels on digital map – herald Theseus Mauruki Shambare RECORDS of over 360 000 land parcels across Zimbabwe will be digitised as part of an exercise that is meant to replace Zimbabwe’s re",
-   "source": "Zimbabwe Situation",
-   "url": "https://www.zimbabwesituation.com/news/govt-puts-360-000-land-parcels-on-digital-map/",
-   "date": "Sun, 30 Aug 2026 05:01:59 +0000",
-   "country": "🇿🇼 津巴布韦",
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -604,21 +594,31 @@
    "is_aiinfra": false
   },
   {
-   "title": "MTN forms data center partnership with unnamed investor",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOR0hSaDA2NGVjRkM5WlNJYmtETjlMQlpuMkFwUERQQ0JSWTdfLVk0X1Z6S2tEenV1ZWxtMHZQaXFfd083a3FSUnhrdHE5cnVIQVpnSTJUUGktejBVYThRejh1bnY4ZDFFOWg4Mm0xaUJ0cTRxVlZsREVvZl9TNl",
-   "source": "Data Center Dynamics·聚合",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR0hSaDA2NGVjRkM5WlNJYmtETjlMQlpuMkFwUERQQ0JSWTdfLVk0X1Z6S2tEenV1ZWxtMHZQaXFfd083a3FSUnhrdHE5cnVIQVpnSTJUUGktejBVYThRejh1bnY4ZDFFOWg4Mm0xaUJ0cTRxVlZsREVvZl9TNlQ4N050N05URjAtREJndTRVRHItRmlWX1VZQUtiZ3Z3bmY5?oc=5",
-   "date": "Wed, 26 Aug 2026 13:22:31 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": true
-  },
-  {
    "title": "7 Signs Your Business Needs a Lawyer — Before It’s Too Late",
    "brief": "Many business owners only think about hiring a lawyer when something has already gone wrong: a lawsuit arrives, a major customer refuses to pay, or a dispute with a business partner threatens the company. But waiting unt",
    "source": "IT News Africa",
    "url": "https://www.itnewsafrica.com/2026/08/7-signs-your-business-needs-a-lawyer-before-its-too-late/",
    "date": "Wed, 26 Aug 2026 12:58:45 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "NetApp Named a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise Storage Platforms",
+   "brief": "NetApp is ranked first in the Hybrid Cloud Storage Use Case in the 2026 Gartner® Critical Capabilities for Enterprise Storage Platforms.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/netapp-named-a-leader-in-the-2026-gartner-magic-quadrant-for-enterprise-storage-platforms/5yONPvErodo7XWrb",
+   "date": "Wed, 26 Aug 2026 14:00:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Why a growing remittance business was not enough for Moniepoint",
+   "brief": "MonieWorld’s shutdown highlights the high cost of UK expansion and the tough economics facing African fintechs entering crowded remittance markets.",
+   "source": "Condia",
+   "url": "https://thecondia.com/moniepoint-monieworld-uk-remittance-shutdown/",
+   "date": "Wed, 26 Aug 2026 11:39:55 +0000",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false

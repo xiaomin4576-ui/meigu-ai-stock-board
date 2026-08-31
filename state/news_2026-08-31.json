@@ -1,177 +1,198 @@
 {
  "asof": "2026-08-31",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-08-31T01:49+08:00",
+ "generated_at": "2026-08-31T13:33+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 21,
+  "cross_day_suppressed": 7,
   "cluster_label": "伊朗/阿联酋",
   "cluster_dropped": [
-   "埃及银行审查美国制裁，阿联酋央行紧急检查",
-   "美国制裁阿联酋埃及银行涉伊朗关系"
+   "美国袭击伊朗拉拉克岛后油价涨超2%",
+   "伊朗军方称用无人机袭击阿联酋空军基地",
+   "美财长贝森特：每周将对伊朗实施新一轮次级制裁"
   ],
   "backfilled": 0
  },
  "items": [
   {
+   "cat": "geo",
+   "title": "特朗普威胁摧毁伊朗哈格岛石油枢纽",
+   "brief": "特朗普称伊朗哈格岛正被“炸成碎片”，但未提供细节，美伊冲突再度升级。",
+   "chain": "美伊冲突升级→油价风险溢价上升→A股油气及航运板块波动",
+   "impact": 10,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcG1feHdFUWRFMFNabndpLXB1STE5dmJNVlMyQ3A4djRaZE9UTzVzc2o5WkEtSlR5MWMxZFpfNFJqOUNtTlFpOW1ZVFRTcFhTVmRjTXI1YVhxbmhwYXotdTdibnRJYnpmWjdQejd6WFh3YTBmOGFMaVpqd1gwNFozeUVwSzFCNkdWTVVmQmtNS0ttVWl3YXVVNUhWWmF5RU1RdGRYaF9xMVJNdS1WSUJIbnM5S2Exdw?oc=5",
+   "ts": "2026-08-31T04:48:57+00:00"
+  },
+  {
    "cat": "macro",
-   "title": "海湾股市下跌，美联储加息预期升温",
-   "brief": "Warsh鹰派言论推升加息预期，海湾股市承压。",
-   "chain": "加息预期→美股估值承压→A股高估值成长板块或受情绪影响",
+   "title": "沃什讲话推升加息预期，美联储与财政部或生分歧",
+   "brief": "杰克逊霍尔会议上沃什讲话使加息概率上升，市场担忧美联储与财政部政策冲突。",
+   "chain": "加息预期升温→美债收益率上行→压制美股估值，A股成长股承压",
    "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/31/jackson-hole-fed-chair-kevin-warsh-hawkish-rate-hikes-analysts.html",
+   "ts": "Mon, 31 Aug 2026 03:47:28 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "沃什言论引发海湾股市下跌，加息预期升温",
+   "brief": "沃什言论强化美联储加息预期，海湾股市应声下跌，全球风险资产承压。",
+   "chain": "加息预期→全球流动性收紧→新兴市场资金流出，A股外资敏感板块波动",
+   "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMUp0Y2RpUlUyc1ZQakFhRXB4TjZwTlIzb1FUTVFCdEVMNHp6LWdkdXc2ZkdCUVo0TmZyb25XWUYzS0dkLTJuVzAzcldNWnhRZTJLREotVi1pQUlOeS1QMmM3ZWhVeTZIOTg2UGMtNzhZQ1EzM3BydUVGMC0xdzdOMzNBZ2VxOTNncUJOT2ZQa0FGU2FrR1YxYUNNcU9va2VRTXJ6ZGFscUdSRmc3V3JtRDJHaXE?oc=5",
    "ts": "2026-08-30T13:15:45+00:00"
   },
   {
    "cat": "macro",
-   "title": "交易员押注Warsh，VIX创年内新低",
-   "brief": "市场对Warsh接任美联储主席预期升温，波动率指数降至年内低点。",
-   "chain": "政策不确定性降低→美股风险偏好回升→A股风险偏好联动",
+   "title": "中国制造业活动连续第二个月收缩，但降幅小于预期",
+   "brief": "中国官方制造业PMI连续第二个月低于荣枯线，但收缩幅度小于市场预期。",
+   "chain": "中国数据疲软→全球需求担忧→A股周期品承压，但政策预期升温",
    "impact": 7,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/28/stock-traders-warm-up-to-warsh-as-volatility-index-touches-year-to-date-low.html",
-   "ts": "2026-08-28T19:35:09+00:00"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/31/china-pmi-august-economy-slowdown.html",
+   "ts": "Mon, 31 Aug 2026 03:15:01 GMT"
   },
   {
    "cat": "macro",
-   "title": "美国房贷利率小幅上行",
-   "brief": "8月29日美国固定房贷利率小幅走高，反映市场利率预期变化。",
-   "chain": "利率上行→美国消费与地产承压→对A股出口链影响有限",
-   "impact": 3,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-29-2026-fixed-rates-move-slightly-higher-into-the-weekend-114438775.html",
-   "ts": "2026-08-29T11:44:38Z"
+   "title": "法国成为主权债务问题“典型”，借贷成本接近2008年高位",
+   "brief": "法国政府借贷成本逼近2008年高点，成为主权债务问题的“典型代表”。",
+   "chain": "欧债担忧→全球避险情绪→黄金受支撑，A股外需链承压",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/31/france-debt-bond-yields-budget.html",
+   "ts": "Mon, 31 Aug 2026 05:08:47 GMT"
   },
   {
    "cat": "geo",
-   "title": "战争与制裁重压伊朗经济",
-   "brief": "持续战争和美国制裁令伊朗经济承压，最高领袖呼吁减少对美元依赖。",
-   "chain": "地缘紧张→油价波动→影响全球通胀预期，间接影响A股",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQmtVbEg3UlB1QzhqQTZJLTRJY1ZfZWJTZjVrVjVPWDFDT3dGd0RxTEQ3M19hVEFHcldMaEpxcncwNGxlQ1ZDMzA3T09ScHFKdjFEYVQ4Yi1BdFNHdmNuVlpmN3MtWUVOSlVVTEZoRjlxRDZQQ3VpejdGRGg4bEh1NzRyMjJuYU15c2t1V0V3ckJxeDBLdUs4WFNkeEhnSWl3dW9keE5YMA?oc=5",
-   "ts": "2026-08-29T14:01:05+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "土沙巴首次防务 pact 会议",
-   "brief": "土耳其、沙特、巴基斯坦将举行首次防务协议会议，中东安全格局生变。",
-   "chain": "中东地缘重组→影响能源运输安全→对油价有潜在影响",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTGEtTUQ0dGF3WlJacDh2Y2tEZ1BsR3hrRG9BY2ZPQjRFVkloRzJPN1o0UWtRVFRnUjgtVHJvVGFwY3FNVy1mbW1DMTdXek9mdDJZSjUxRy1UQm5kVlRBTzZpcFNrVjFWd1YwOU11TUtDRVk0VHVvbFJWVWRKdDN5TlIyeDhyY3VtdXNSQ2dXLUxhRmt1X2I3QzdpbUhEQV9NMjNxNmZNVkxQbEdaU1dKV0x2Y3E3M2U3VktPNDBiM1h1ZlpVYWc?oc=5",
-   "ts": "2026-08-30T10:05:06+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "利比亚对立派系达成选举框架协议",
-   "brief": "利比亚“4+4”委员会签署协议，重组选举委员会，推进总统和议会选举。",
-   "chain": "利比亚政局稳定→原油供应预期改善→利空油价，影响东非能源竞争",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608313859528036.html",
-   "ts": "2026-08-31 00:25:15"
+   "title": "习近平多国访问增强外交影响力，为特朗普峰会铺路",
+   "brief": "中国国家主席习近平进行多国访问，增强外交影响力，为与特朗普的峰会做准备。",
+   "chain": "中美关系缓和预期→风险偏好改善→A股科技板块情绪提振",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/31/china-xi-us-trump-visit-sco-brics-modi-india.html",
+   "ts": "Mon, 31 Aug 2026 04:57:24 GMT"
   },
   {
    "cat": "oil",
-   "title": "Affirm CEO：高油价冲击美国消费者",
-   "brief": "先买后付公司Affirm CEO表示，高油价正在影响美国消费者支出。",
-   "chain": "高油价→美国消费疲软→全球需求担忧→油价短期承压，但地缘风险仍存",
+   "title": "美国或获650亿桶“石油大礼”，但特朗普面临三座大山",
+   "brief": "美国可能获得委内瑞拉650亿桶石油资源，但基础设施陈旧等三大障碍待解。",
+   "chain": "美国石油供应增加预期→长期压制油价→莫桑比克LNG项目需关注竞争",
    "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/28/affirm-stock-earnings-levchin-gas-prices.html",
-   "ts": "Fri, 28 Aug 2026 20:09:13 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608313859943917.html",
+   "ts": "2026-08-31 13:08:35"
+  },
+  {
+   "cat": "oil",
+   "title": "埃克森美孚股票是否跑输能源板块？",
+   "brief": "分析埃克森美孚股价表现，探讨其是否落后于整体能源板块。",
+   "chain": "石油巨头业绩→行业景气度→莫桑比克油气投资环境参考",
+   "impact": 4,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/exxonmobil-stock-xom-underperforming-energy-173804479.html",
+   "ts": "2026-08-29T17:38:04Z"
   },
   {
    "cat": "gas",
-   "title": "伊朗最高领袖呼吁减少对美元依赖",
-   "brief": "伊朗贸易下滑，最高领袖哈梅内伊敦促减少对美元依赖，推动去美元化。",
-   "chain": "去美元化→全球能源贸易结算多元化→影响LNG定价机制，莫桑比克需关注",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/29/iran-trade-sanctions-dollar-oil-exports.html",
-   "ts": "Sat, 29 Aug 2026 12:08:08 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "Marc Benioff重振旗鼓，Salesforce AI实力平息质疑",
-   "brief": "Salesforce CEO Marc Benioff凭借AI实力重获信心，股价表现强劲。",
-   "chain": "AI应用落地→美股软件板块提振→A股云计算/企业服务映射",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/28/marc-benioff-getting-his-mojo-back-as-salesforce-lifts-ai-growth-view.html",
-   "ts": "Fri, 28 Aug 2026 13:44:25 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "黑莓押注汽车和机器人业务",
-   "brief": "黑莓在手机市场失利后，转向汽车和机器人领域，寻求新增长点。",
-   "chain": "科技转型→美股科技股分化→A股汽车电子/机器人概念关注",
-   "impact": 4,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/28/blackberry-cars-robots-tech-download.html",
-   "ts": "Fri, 28 Aug 2026 14:40:22 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "《GTA6》预售火爆，分析师看好",
-   "brief": "《侠盗猎车手6》预览显示需求强劲，分析师预计将成爆款。",
-   "chain": "游戏需求→美股游戏股提振→A股游戏板块情绪联动",
+   "title": "日本启动第23轮核污染水排海",
+   "brief": "日本东京电力公司启动福岛核污染水第23轮排海，引发国际关注。",
+   "chain": "核污染水排海→环保压力→全球能源结构讨论，间接影响天然气需求预期",
    "impact": 3,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/28/gta-6-preview-netflix.html",
-   "ts": "Fri, 28 Aug 2026 15:32:21 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608313859929014.html",
+   "ts": "2026-08-31 12:46:18"
   },
   {
-   "cat": "ai",
-   "title": "OpenAI终止对Cursor的模型访问",
-   "brief": "OpenAI在Cursor被SpaceX收购后，终止对其模型访问，引发行业关注。",
-   "chain": "AI生态调整→影响AI编程工具市场→A股AI应用/算力链情绪波动",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
-   "ts": "Sat, 29 Aug 2026 19:06:22 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "科技反弹声浪高涨，AI焦虑与社交媒体担忧交织",
-   "brief": "科技行业面临反弹，AI焦虑与社交媒体担忧交织，监管压力上升。",
-   "chain": "AI监管趋严→美股科技股承压→A股AI板块或受情绪影响",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/29/tech-backlash-ai-data-centers-elections.html",
-   "ts": "Sat, 29 Aug 2026 19:55:30 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "润泽科技：液冷机柜价格回升至高峰",
-   "brief": "润泽科技称高品质液冷机柜价格已回升至行业高峰水平，AIDC业务增长强劲。",
-   "chain": "AI算力需求→液冷设备涨价→A股液冷/数据中心产业链受益",
+   "cat": "tech",
+   "title": "三星为英伟达开发8层HBM4E，降低堆叠高度",
+   "brief": "三星正配合英伟达要求开发8层HBM4E，较原计划显著降低堆叠高度，速度规格17-18Gbps。",
+   "chain": "AI芯片需求→HBM技术升级→A股存储及半导体材料链受益",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202608303859521576.html",
-   "ts": "2026-08-30 23:33:21"
+   "url": "https://finance.eastmoney.com/a/202608313859960759.html",
+   "ts": "2026-08-31 13:18:28"
   },
   {
-   "cat": "ai",
-   "title": "Michael Burry再发英伟达股票看法",
-   "brief": "知名投资者Michael Burry对英伟达股票发出新看法，引发市场关注。",
-   "chain": "英伟达估值争议→美股AI龙头波动→A股算力链情绪传导",
+   "cat": "tech",
+   "title": "半导体涨价潮蔓延至硅片，国内厂商何时受益？",
+   "brief": "半导体硅片迎来普涨，国内厂商6月已跟进调价，中报证实行业重回涨价周期。",
+   "chain": "硅片涨价→半导体产业链景气→A股硅片及材料板块受益",
    "impact": 6,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-sends-another-nvidia-173300389.html",
-   "ts": "2026-08-30T17:33:00Z"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608313859936126.html",
+   "ts": "2026-08-31 13:02:00"
+  },
+  {
+   "cat": "tech",
+   "title": "古尔曼：库克卸任CEO后仍将深度参与苹果事务",
+   "brief": "彭博社记者古尔曼反驳库克即将退休的传言，称其卸任后将继续深度参与公司事务。",
+   "chain": "苹果管理层稳定→供应链预期稳定→A股苹果产业链情绪平稳",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608313859933024.html",
+   "ts": "2026-08-31 12:59:55"
+  },
+  {
+   "cat": "tech",
+   "title": "HDFC银行CEO意外离职，股价上涨",
+   "brief": "印度最大私营银行HDFC银行CEO宣布意外离职，股价反而上涨。",
+   "chain": "印度金融动态→新兴市场情绪→A股外资流向间接影响",
+   "impact": 4,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/31/hdfc-largest-bank-india-ceo-exit.html",
+   "ts": "Mon, 31 Aug 2026 05:27:03 GMT"
   },
   {
    "cat": "ai",
-   "title": "英伟达变大但未变贵",
-   "brief": "分析指出英伟达市值增长但估值未同步上升，仍有吸引力。",
-   "chain": "英伟达估值合理→美股AI信心稳固→A股算力链估值锚稳定",
+   "title": "AI芯片午后拉升，寒武纪涨近5%",
+   "brief": "A股AI芯片板块午后拉升，寒武纪涨近5%，瑞芯微涨停，多股跟涨。",
+   "chain": "AI算力需求→国产芯片替代→A股AI芯片及算力链活跃",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608313859970649.html",
+   "ts": "2026-08-31 13:28:51"
+  },
+  {
+   "cat": "ai",
+   "title": "算力租赁概念震荡反弹，康惠股份涨停",
+   "brief": "算力租赁概念反弹，康惠股份涨停，竞业达2连板，多股大涨。",
+   "chain": "AI算力需求→算力租赁模式→A股算力租赁及IDC板块受益",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608313859964186.html",
+   "ts": "2026-08-31 13:24:18"
+  },
+  {
+   "cat": "ai",
+   "title": "AI重塑杭州微短剧产业，全面转向AI生产",
+   "brief": "杭州微短剧公司九州文化全面转向AI微短剧生产，Seedance2.0视频大模型投入使用。",
+   "chain": "AI应用落地→内容生产效率提升→A股AI应用及传媒板块受益",
    "impact": 5,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-getting-bigger-without-getting-153002917.html",
-   "ts": "2026-08-29T15:30:02Z"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608313859951869.html",
+   "ts": "2026-08-31 13:14:32"
+  },
+  {
+   "cat": "ai",
+   "title": "日本NEG将于2027年量产AI服务器用玻纤",
+   "brief": "日本电气硝子宣布2027年春季量产面向AI服务器的电子级玻璃纤维，并扩产。",
+   "chain": "AI服务器需求→上游材料→A股玻纤及PCB材料链受益",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608313859950056.html",
+   "ts": "2026-08-31 13:12:22"
+  },
+  {
+   "cat": "ai",
+   "title": "腾讯WorkBuddy生态发布会定档9月2日",
+   "brief": "腾讯云宣布WorkBuddy生态发布会将于9月2日在深圳举行。",
+   "chain": "AI应用生态→企业服务→A股腾讯生态及SaaS板块关注",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608313859929432.html",
+   "ts": "2026-08-31 12:51:06"
   }
  ]
 }
