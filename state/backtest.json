@@ -1,5 +1,5 @@
 {
-  "asof": "2026-08-24",
+  "asof": "2026-08-31",
   "strategy": "current_tiered",
   "rule": "上升趋势(>MA200)回踩至结构支撑(强势档锚MA20/破位档锚MA50)入场·分档止损(强势-6%/破位-10%)·目标按R:R2.5反推·持有≤270日·扣往返成本0.2%·跳空穿止损按开盘成交",
   "universe": [
@@ -26,10 +26,10 @@
   ],
   "lookback": "5y",
   "horizon_days": 270,
-  "signals": 611,
+  "signals": 610,
   "per_stock_signals": {
     "NVDA": 35,
-    "AVGO": 42,
+    "AVGO": 41,
     "TSM": 38,
     "MU": 32,
     "MRVL": 27,
@@ -51,7 +51,7 @@
   },
   "win_rate_pct": 39,
   "win_rate_ci95": [
-    35,
+    36,
     43
   ],
   "stopped_pct": 60,
@@ -60,11 +60,11 @@
   "realized_rr": 2.31,
   "per_trade_sharpe": 0.19,
   "max_consecutive_losses": 11,
-  "gap_slippage_trades": 48,
+  "gap_slippage_trades": 47,
   "tx_cost_pct": 0.2,
   "per_year_win_rate": {
     "2022": {
-      "n": 29,
+      "n": 28,
       "win_rate": 21
     },
     "2023": {
