@@ -1,0 +1,216 @@
+{
+ "asof": "2026-09-01",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-09-01T02:04+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 13,
+  "cluster_label": "伊朗/卡塔尔/阿联酋",
+  "cluster_dropped": [
+   "阿联酋拦截来自伊朗的无人机，谴责危险升级"
+  ],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "geo",
+   "title": "特朗普誓言对伊朗强硬回击，美伊首次交火",
+   "brief": "美国与伊朗自7月以来首次交火，特朗普誓言对伊朗实施强力打击，中东局势急剧升级。",
+   "chain": "美伊冲突升级→避险情绪升温→美股承压，A股军工、黄金链受关注",
+   "impact": 10,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORVQzSG1hcjZUa3F4dlBHbmczSFliQ3d6ZVgtWjl6RzgtYjE4cGtXNjhpRHhmU0pBb1FSQl9iUHN5b0FUZHFMX0JDSFNONERPQ0c0T2Z6ejBFWE9jUldMUU9sVzJKT1Z0R0JaWGFUaHZUdnNtcVEwclRIZ29vZnpqd1JJOHg1Qmx2cHZ0TVMtVEtjWEdNbE1kZDY4cGxUNlRxYkpsVm1UUnZ3RjE2Z3cwRlQ3WVRWU0hO?oc=5",
+   "ts": "2026-08-31T05:40:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "油价因中东供应风险持稳于80美元上方",
+   "brief": "分析师预计，由于中东供应风险持续，油价将保持在80美元/桶以上，市场担忧霍尔木兹海峡潜在中断。",
+   "chain": "中东风险溢价→油价高位→莫桑比克LNG出口受益，但需关注航运安全",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZm1UZWgzbTlVVzdIeFRJQWN1TEMtZGdwZFpaaUx6ZmhNU0RrakpicWtuNHNKb0JPc2VvbURJZzlYQkNzVk9Sc3NoMFBjcWZHQ0NoQ3hmaG1iZS0zdjJlbERFU25uN2VaNGp0Q3ZBb0JPRldfQjZLVDB5X25NdlBBT04tblFSdTFPTTVLUWxRMUNkM1NNSjE5X1A1WDlVUmtLZUs1bjItRmFqd1hEbHdzbDJn?oc=5",
+   "ts": "2026-08-31T11:08:09+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "美联储隔夜逆回购使用量降至67亿美元",
+   "brief": "美联储固定利率逆回购操作仅接纳4个对手方共67.26亿美元，显示市场流动性充裕。",
+   "chain": "流动性宽松→支撑美股估值→利好A股成长股，但需关注通胀反弹风险",
+   "impact": 3,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609013860517188.html",
+   "ts": "2026-09-01 01:19:21"
+  },
+  {
+   "cat": "macro",
+   "title": "摩根大通：非农公布后美股下跌概率更大",
+   "brief": "摩根大通团队推演不同非农结果下的美股表现，认为标普500指数走弱可能性较大。",
+   "chain": "非农数据→美联储政策预期→美股波动→A股风险偏好受抑",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609013860487496.html",
+   "ts": "2026-09-01 00:01:06"
+  },
+  {
+   "cat": "macro",
+   "title": "美国财政部拍卖3个月和6个月期国债",
+   "brief": "美国财政部拍卖3个月期国债得标利率3.770%，6个月期3.885%，投标倍数显示需求平稳。",
+   "chain": "短债利率→美元流动性→影响全球风险资产→A股外资流向",
+   "impact": 2,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608313860476221.html",
+   "ts": "2026-08-31 23:40:11"
+  },
+  {
+   "cat": "geo",
+   "title": "台湾称中国加强周边海空控制，局势不可预测",
+   "brief": "台湾方面表示，中国加强在台湾附近的海空控制，地区局势变得不可预测。",
+   "chain": "台海紧张→地缘风险→美股半导体承压→A股军工、自主可控概念活跃",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWGpQaG9aejdkNW53TDNqVW04YzBQZE55SlJVU3JZVzByZHlUWEp5bXEwdFU1S1hmZDROaHFUeUR1aThZaGg3WnJQMTRtWlkyWTF0RDZEUnFsYmxTUG5JMldvdEtMeHBJQmxscFZ5NXRqSWhXRXBmOVc1TmFkbDNROExFWlZuM0JESE5kVzVZYzVvV1d3SjhvZGhVNGE0c0VWUjQxeTZjLUlnLUVPNmFHUmd4VVJfMXE2RnFPcmZQZklad1kzWWYwaA?oc=5",
+   "ts": "2026-08-31T12:49:45+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "美国战略石油储备库存降至2.866亿桶",
+   "brief": "美国上周战略石油储备原油库存减少约310万桶，至2.866亿桶，为多年低位。",
+   "chain": "SPR低位→供应缓冲减弱→油价易涨难跌→莫桑比克油气项目经济性提升",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVUhmd2cwQ2lLMjFlWXpza0hEZWhGZU1NcGg2eGJ3Y0x4OVA0YWhIUVptWmcxVnU0V0hKRnRJR1FQSU5WT2M4aUZDRngzSDVpczVybkN5dUEyZ0FrdFFSaVlxZ0I2WjVLTEprenVzY2VCdFN2c0NXQXhldWxzN1daOGNya2RjMkZsSHN2ZXhuS19kdXJvS3VBYkk4OFVIYmtyN2JoRFJR?oc=5",
+   "ts": "2026-08-31T15:33:05+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "抵押贷款利率飙升至2025年6月以来最高",
+   "brief": "受中东袭击推高油价影响，美国抵押贷款利率升至去年6月以来最高，房市承压。",
+   "chain": "油价上涨→通胀预期→美债收益率上行→美股估值压力→A股地产链承压",
+   "impact": 5,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/31/mortgage-rates-surge-middle-east-attacks-oil.html",
+   "ts": "2026-08-31T17:56:01+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "特朗普将与炼油商会面，推动降低汽油价格",
+   "brief": "白宫为压低汽油价格，特朗普计划与美国炼油商会面，讨论增产措施。",
+   "chain": "政策干预→油价短期承压→但长期供应仍紧→莫桑比克LNG项目需关注政策风险",
+   "impact": 4,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/31/trump-refiners-gas-prices-refining-capacity.html",
+   "ts": "Mon, 31 Aug 2026 17:44:31 GMT"
+  },
+  {
+   "cat": "gas",
+   "title": "卡塔尔一季度GDP下降7%，受伊朗战争影响",
+   "brief": "卡塔尔一季度GDP同比下滑7%，因伊朗战争影响能源生产，凸显中东冲突对天然气供应的影响。",
+   "chain": "卡塔尔LNG供应受损→全球LNG价格上行→莫桑比克LNG项目竞争力增强",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUDRKOEZ0M3JrM0M1RTFRSHZubzF4SF9UX21fUWNJNjJIc1pSZnVORnIxaHNzdENEbEtiLV85NG9sQVlDdjBaWW00ZlpDUzhzT0RGbHdScUliNnlsUlEzNHpaSHNXTEx4S1pyTm5MRGNERDQ1czI1dzZkOG4xVkVPTUVpb1ZiaEk0b1FIY2c3OURDYUpETjItd19sbHpXMDRubDhiRGNVZFQ3X2hLTFhMbmo2bExSc3NXRmlFSQ?oc=5",
+   "ts": "2026-08-31T10:31:43+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "欧盟航空安全局缩小海湾空域警告范围",
+   "brief": "欧盟航空安全局调整海湾地区空域警告，缩小范围，但风险仍存。",
+   "chain": "空域风险→LNG航运绕行→运输成本上升→莫桑比克LNG出口成本增加",
+   "impact": 3,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbVczeUFtaTZ6UjkwS0lSdkI1ZE9xU195ZE5FTDJQZ01QdGNtelZHc3YwUXhfMDFwUUJidGFCTmtrVElnYjRNaU84N0FRb2I2cEdOQTE2dnBySDZFVFhxdlV3MkxSSmRURzRBSG9ENHA1Qkc4VTFZeUo4ZXJycjRDek9uX0ZIWGk1ZlJkWEZUZ3dQTEdlanFMVVhhSzJadmJJTjZLS3FwWTc1NGRTaFE?oc=5",
+   "ts": "2026-08-31T12:41:30+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "比亚迪股价下跌，竞争激烈侵蚀上半年盈利",
+   "brief": "比亚迪上半年盈利受中国市场竞争加剧影响，股价下跌，显示电动车行业价格战激烈。",
+   "chain": "电动车竞争→美股特斯拉承压→A股新能源链分化，关注龙头",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/31/byd-shares-slide-as-fierce-china-competition-dents-first-half-earnings.html",
+   "ts": "Mon, 31 Aug 2026 04:01:47 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "特斯拉涨幅扩大至5%，创一个月新高",
+   "brief": "特斯拉股价上涨5%，创一个多月新高，市场情绪回暖。",
+   "chain": "特斯拉走强→带动美股新能源车板块→A股特斯拉产业链受益",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608313860481361.html",
+   "ts": "2026-08-31 23:52:46"
+  },
+  {
+   "cat": "tech",
+   "title": "亚马逊将在华盛顿州裁员121人",
+   "brief": "亚马逊宣布自2026年10月1日起在华盛顿州裁员121人，科技行业裁员潮持续。",
+   "chain": "科技裁员→美股科技股情绪→A股科技板块或受波及",
+   "impact": 3,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609013860511218.html",
+   "ts": "2026-09-01 01:00:19"
+  },
+  {
+   "cat": "ai",
+   "title": "Nscale完成近30亿美元融资，用于AI数据中心",
+   "brief": "Nscale为得克萨斯州和北卡罗来纳州的AI部署项目完成近30亿美元融资，加速算力基础设施建设。",
+   "chain": "AI算力投资→美股AI基建受益→A股算力链（服务器、液冷）景气",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609013860522727.html",
+   "ts": "2026-09-01 01:41:13"
+  },
+  {
+   "cat": "ai",
+   "title": "特朗普：反对AI数据中心的社区将落后贫穷",
+   "brief": "特朗普表示，反对AI数据中心的美国社区可能会变得落后和贫穷，强调AI发展的重要性。",
+   "chain": "政策支持AI基建→美股AI板块情绪→A股AI算力链获提振",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/31/trump-data-centers-backlash-elections-congress.html",
+   "ts": "Mon, 31 Aug 2026 17:32:02 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "微软与Humain扩大战略合作，推出整合产品",
+   "brief": "微软与Humain扩大合作，计划联合推出整合微软365的HumainOne产品，深化企业AI应用。",
+   "chain": "微软AI布局→美股AI软件受益→A股AI应用（办公、金融）关注",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609013860508380.html",
+   "ts": "2026-09-01 00:47:49"
+  },
+  {
+   "cat": "ai",
+   "title": "艾融软件：AI已在7家金融机构39个项目落地",
+   "brief": "艾融软件表示，其AI技术已在7家金融机构的39个项目中落地，涉及智能客服、信贷等。",
+   "chain": "AI金融落地→A股AI应用端业绩验证→关注金融IT龙头",
+   "impact": 3,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609013860488080.html",
+   "ts": "2026-09-01 00:01:34"
+  },
+  {
+   "cat": "tech",
+   "title": "君正股份：DRAM三季度涨价，四季度持续",
+   "brief": "君正股份称，三季度DRAM持续涨价且供应紧张，预估四季度涨价将持续，存储行业景气。",
+   "chain": "存储涨价→美股存储芯片受益→A股存储产业链（兆易创新等）",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608313860479784.html",
+   "ts": "2026-08-31 23:47:50"
+  },
+  {
+   "cat": "macro",
+   "title": "钯金期货日内跌5%，报1374美元",
+   "brief": "8月31日钯金期货下跌5%，报1374美元/盎司，贵金属价格波动。",
+   "chain": "钯金下跌→避险情绪降温→美股风险偏好回升→A股有色板块承压",
+   "impact": 2,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202608313860462977.html",
+   "ts": "2026-08-31 23:21:03"
+  }
+ ]
+}
