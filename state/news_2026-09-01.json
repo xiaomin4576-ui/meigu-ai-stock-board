@@ -1,183 +1,73 @@
 {
  "asof": "2026-09-01",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-09-01T13:01+08:00",
+ "generated_at": "2026-09-01T14:48+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 7,
-  "cluster_label": "伊朗/卡塔尔",
+  "cross_day_suppressed": 6,
+  "cluster_label": "伊朗/卡塔尔/霍尔木兹",
   "cluster_dropped": [
-   "美国石油储备因伊朗战争而减少",
-   "卡塔尔一季度GDP因伊朗战争下降7%"
+   "美伊冲突推高油价，美房贷利率升至去年6月来最高",
+   "卡塔尔一季度GDP下降7%，伊朗战争拖累能源生产"
   ],
   "backfilled": 0
  },
  "items": [
   {
+   "cat": "macro",
+   "title": "德国7月零售销售月率-3.4%，远逊预期",
+   "brief": "德国7月实际零售销售月率-3.4%，预期0.4%，前值-0.7%，显示欧洲经济疲软。",
+   "chain": "欧洲经济数据疲软→全球增长担忧→美股风险偏好下降→A股出口链承压",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609013861414416.html",
+   "ts": "2026-09-01 14:43:56"
+  },
+  {
+   "cat": "macro",
+   "title": "韩国2027年计划发债222.8万亿韩元，接近纪录水平",
+   "brief": "韩国为扩张性财政议程计划2027年发行接近纪录水平的222.8万亿韩元债券。",
+   "chain": "韩国财政扩张→全球利率环境→新兴市场资金流向→A股外资风险偏好",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609013861414843.html",
+   "ts": "2026-09-01 14:42:44"
+  },
+  {
+   "cat": "macro",
+   "title": "印度央行美元空头头寸创纪录新高",
+   "brief": "印度央行美元净空头头寸7月跃升至创纪录的1368亿美元，受侨民存款计划推动。",
+   "chain": "印度央行干预→美元流动性→新兴市场货币→A股外资流向",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609013861405618.html",
+   "ts": "2026-09-01 14:29:21"
+  },
+  {
    "cat": "geo",
-   "title": "特朗普誓言对伊朗强硬回击",
-   "brief": "美伊在近一个月内首次交火后，特朗普威胁将严厉打击伊朗。",
-   "chain": "美伊冲突升级→地缘风险溢价推高油价→A股油气及军工板块受关注",
-   "impact": 10,
+   "title": "特朗普誓言狠狠打击伊朗，美伊一个多月来首次交火",
+   "brief": "美国与伊朗一个多月来首次交火，特朗普誓言对伊朗进行严厉打击。",
+   "chain": "美伊冲突升级→地缘风险→美股波动→A股军工/油气链",
+   "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORVQzSG1hcjZUa3F4dlBHbmczSFliQ3d6ZVgtWjl6RzgtYjE4cGtXNjhpRHhmU0pBb1FSQl9iUHN5b0FUZHFMX0JDSFNONERPQ0c0T2Z6ejBFWE9jUldMUU9sVzJKT1Z0R0JaWGFUaHZUdnNtcVEwclRIZ29vZnpqd1JJOHg1Qmx2cHZ0TVMtVEtjWEdNbE1kZDY4cGxUNlRxYkpsVm1UUnZ3RjE2Z3cwRlQ3WVRWU0hO?oc=5",
    "ts": "2026-08-31T05:40:00+00:00"
   },
   {
-   "cat": "oil",
-   "title": "霍尔木兹海峡油轮遇袭",
-   "brief": "一艘油轮在霍尔木兹海峡遇袭，引发对局势升级的担忧。",
-   "chain": "霍尔木兹遇袭→原油供应风险加剧→油价上涨，影响莫桑比克油气出口收入预期",
-   "impact": 9,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/01/us-iran-war-trump-hormuz-tanker-attack-shipping-sanctions-.html",
-   "ts": "Tue, 01 Sep 2026 02:05:20 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "美国房贷利率升至去年6月来最高",
-   "brief": "中东袭击推高油价，房贷利率意外上升，打破年内下降预期。",
-   "chain": "油价上涨→通胀预期升温→美联储降息预期降温→美债收益率上行→压制美股估值→A股成长股承压",
-   "impact": 8,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/31/mortgage-rates-surge-middle-east-attacks-oil.html",
-   "ts": "2026-08-31T17:56:01+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "油价预计持稳于80美元上方",
-   "brief": "分析称中东供应风险持续，油价将保持在80美元以上。",
-   "chain": "地缘风险持续→油价高位→利好莫桑比克LNG项目经济性，但增加进口成本",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZm1UZWgzbTlVVzdIeFRJQWN1TEMtZGdwZFpaaUx6ZmhNU0RrakpicWtuNHNKb0JPc2VvbURJZzlYQkNzVk9Sc3NoMFBjcWZHQ0NoQ3hmaG1iZS0zdjJlbERFU25uN2VaNGp0Q3ZBb0JPRldfQjZLVDB5X25NdlBBT04tblFSdTFPTTVLUWxRMUNkM1NNSjE5X1A1WDlVUmtLZUs1bjItRmFqd1hEbHdzbDJn?oc=5",
-   "ts": "2026-08-31T11:08:09+00:00"
-  },
-  {
    "cat": "geo",
-   "title": "美财长称俄乌停战前不放松制裁",
-   "brief": "贝森特告知俄罗斯，除非结束乌克兰战争，否则不会获得经济救济。",
-   "chain": "美俄对抗持续→地缘不确定性→影响全球风险偏好→A股避险情绪升温",
+   "title": "美财长贝森特：俄乌战争结束前不给俄经济救济",
+   "brief": "贝森特告诉俄罗斯，除非乌克兰战争结束，否则不会提供经济救济，欧洲在G20冷落莫斯科。",
+   "chain": "美俄对抗持续→地缘紧张→全球市场避险→A股相关板块",
    "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/09/01/bessent-russia-ukraine-war-sanctions-war-g20-.html",
    "ts": "Tue, 01 Sep 2026 03:22:56 GMT"
   },
   {
-   "cat": "gas",
-   "title": "委内瑞拉授予美国石油公司百年特许权",
-   "brief": "委内瑞拉向美国支持的NABEP公司授予17个油田的100年特许权。",
-   "chain": "委内瑞拉产量可能增加→全球油气供应增加→LNG市场竞争加剧→莫桑比克需关注价格压力",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/31/venezuela-grants-north-american-blue-energy-partners-100-year-concessions-for-17-oil-fields-white-house-says.html",
-   "ts": "Tue, 01 Sep 2026 01:56:53 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "FTC起诉亚马逊误导广告商",
-   "brief": "美国联邦贸易委员会指控亚马逊在广告业务上误导广告商。",
-   "chain": "科技巨头监管风险→美股科技股承压→A股相关映射有限",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/31/amazon-ftc-lawsuit-advertisers.html",
-   "ts": "Mon, 31 Aug 2026 20:34:45 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "比亚迪因竞争激烈盈利下滑",
-   "brief": "比亚迪上半年盈利受中国激烈竞争影响，股价下跌。",
-   "chain": "中国电动车竞争加剧→比亚迪盈利承压→A股新能源车产业链情绪受影响",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/31/byd-shares-slide-as-fierce-china-competition-dents-first-half-earnings.html",
-   "ts": "Mon, 31 Aug 2026 04:01:47 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "众议院情报委员会警告AI风险",
-   "brief": "美国众议院情报委员会警告AI存在‘黑天鹅’风险。",
-   "chain": "AI监管担忧→美股AI板块波动→A股AI概念或受情绪影响",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/31/ai-warning-house-intelligence-committee.html",
-   "ts": "Mon, 31 Aug 2026 21:18:37 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "特朗普称反对AI数据中心将落后",
-   "brief": "特朗普表示，反对AI数据中心的社区可能变得‘落后和贫穷’。",
-   "chain": "政策支持AI基建→美股AI算力链受益→A股算力概念受提振",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/08/31/trump-data-centers-backlash-elections-congress.html",
-   "ts": "Mon, 31 Aug 2026 18:47:01 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "北方华创引入AI研发体系",
-   "brief": "北方华创总裁称AI已引入研发体系，并自建算力中心。",
-   "chain": "国内半导体设备商拥抱AI→提升研发效率→A股半导体设备及AI算力链受益",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609013861328910.html",
-   "ts": "2026-09-01 12:53:26"
-  },
-  {
-   "cat": "ai",
-   "title": "腾讯混元推出轻量版AI模型",
-   "brief": "腾讯混元发布Hy4 preview轻量版，权重缩小至214GB。",
-   "chain": "国产大模型轻量化→降低部署成本→A股AI应用及算力链受益",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609013861310532.html",
-   "ts": "2026-09-01 12:09:07"
-  },
-  {
-   "cat": "tech",
-   "title": "甲骨文目标价遭下调",
-   "brief": "道明考恩将甲骨文目标价从300美元下调至240美元。",
-   "chain": "甲骨文股价承压→美股云服务板块情绪→A股云计算概念或受联动",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609013861312826.html",
-   "ts": "2026-09-01 12:14:06"
-  },
-  {
-   "cat": "macro",
-   "title": "印度一季度GDP增长7.8%超预期",
-   "brief": "印度经济在财年一季度增长7.8%，超过预期。",
-   "chain": "印度经济强劲→全球增长预期改善→利好风险资产→A股情绪或受提振",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/31/india-economy-gdp-energy-el-nino.html",
-   "ts": "Mon, 31 Aug 2026 11:23:42 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "Citadel警告股市风险回报恶化",
-   "brief": "Citadel表示，股市买入保护的风险回报变得有吸引力。",
-   "chain": "机构看空→美股波动加大→A股风险偏好或受抑制",
-   "impact": 5,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/31/risk-reward-outlook-for-stocks-is-getting-worse-says-citadel.html",
-   "ts": "2026-08-31T19:09:07+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "Santoli：投资者应高度警惕",
-   "brief": "Santoli指出，关键市场指标接近临界点，投资者应高度警惕。",
-   "chain": "市场预警→美股回调风险→A股或受外围拖累",
-   "impact": 4,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/31/santoli-why-investors-should-be-on-high-alert-heading-into-september.html",
-   "ts": "2026-08-31T11:00:01+00:00"
-  },
-  {
    "cat": "geo",
-   "title": "台湾称中国加强海空控制",
-   "brief": "台湾称‘不可预测’的中国加强附近海空控制。",
-   "chain": "台海局势紧张→地缘风险溢价→A股军工及避险板块受关注",
+   "title": "台湾称“不可预测”的中国加强周边海空控制",
+   "brief": "台湾方面表示，中国加强周边海空控制，局势不可预测。",
+   "chain": "台海紧张→地缘风险→美股半导体链→A股军工/自主可控",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWGpQaG9aejdkNW53TDNqVW04YzBQZE55SlJVU3JZVzByZHlUWEp5bXEwdFU1S1hmZDROaHFUeUR1aThZaGg3WnJQMTRtWlkyWTF0RDZEUnFsYmxTUG5JMldvdEtMeHBJQmxscFZ5NXRqSWhXRXBmOVc1TmFkbDNROExFWlZuM0JESE5kVzVZYzVvV1d3SjhvZGhVNGE0c0VWUjQxeTZjLUlnLUVPNmFHUmd4VVJfMXE2RnFPcmZQZklad1kzWWYwaA?oc=5",
@@ -185,23 +75,123 @@
   },
   {
    "cat": "geo",
-   "title": "莫迪促普京结束俄乌战争",
-   "brief": "印度总理莫迪敦促普京结束乌克兰战争，同时美国威胁对俄油加税。",
-   "chain": "俄乌和谈预期→地缘风险缓和→油价或承压→莫桑比克油气出口需关注",
+   "title": "外交部：中国在委内瑞拉的合法权益必须得到保障",
+   "brief": "美国与委内瑞拉达成石油合作协议涉及中企，外交部回应保障中方权益。",
+   "chain": "委内瑞拉局势→中委关系→地缘博弈→A股油气链",
    "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/01/russia-india-ukraine-war-oil-modi-putin.html",
-   "ts": "Tue, 01 Sep 2026 01:51:28 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609013861408116.html",
+   "ts": "2026-09-01 14:35:26"
   },
   {
    "cat": "oil",
-   "title": "欧洲股市因油价上涨下跌",
-   "brief": "油价上涨拖累欧洲STOXX 600指数，但月线仍录得第五个月上涨。",
-   "chain": "油价上涨→通胀压力→欧股下跌→全球风险偏好下降→A股或受联动",
+   "title": "霍尔木兹海峡油轮遇袭，特朗普誓言打击伊朗",
+   "brief": "霍尔木兹海峡一艘油轮遇袭，引发对局势升级的担忧，特朗普誓言打击伊朗。",
+   "chain": "霍尔木兹遇袭→原油供应风险→油价上涨→莫桑比克油气出口受益",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/01/us-iran-war-trump-hormuz-tanker-attack-shipping-sanctions-.html",
+   "ts": "Tue, 01 Sep 2026 02:05:20 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "机构：中东供应风险持续，油价将稳居80美元上方",
+   "brief": "分析预计油价将保持在80美元以上，因中东供应风险持续。",
+   "chain": "供应风险→油价高位→莫桑比克LNG项目经济性提升",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZm1UZWgzbTlVVzdIeFRJQWN1TEMtZGdwZFpaaUx6ZmhNU0RrakpicWtuNHNKb0JPc2VvbURJZzlYQkNzVk9Sc3NoMFBjcWZHQ0NoQ3hmaG1iZS0zdjJlbERFU25uN2VaNGp0Q3ZBb0JPRldfQjZLVDB5X25NdlBBT04tblFSdTFPTTVLUWxRMUNkM1NNSjE5X1A1WDlVUmtLZUs1bjItRmFqd1hEbHdzbDJn?oc=5",
+   "ts": "2026-08-31T11:08:09+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "委内瑞拉授予美资油企17个油田100年特许权",
+   "brief": "委内瑞拉授予美国支持的NABEP公司17个油田的100年特许权，白宫表示。",
+   "chain": "委内瑞拉产量增加→OPEC+格局→油价承压→莫桑比克竞争加剧",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/08/31/venezuela-grants-north-american-blue-energy-partners-100-year-concessions-for-17-oil-fields-white-house-says.html",
+   "ts": "Tue, 01 Sep 2026 01:56:53 GMT"
+  },
+  {
+   "cat": "gas",
+   "title": "土耳其提出黑海谷物计划，与俄乌接触",
+   "brief": "土耳其表示有黑海谷物计划，并与俄罗斯和乌克兰保持联系。",
+   "chain": "黑海航运风险→粮食/能源运输→全球供应链→莫桑比克贸易",
    "impact": 4,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZzdFeEJfZ24zM2Yxemdobk42RnA2M1RVTWMwdWZ1NDA1X21PTS04d3BMWVZwTkNUTGRCNWdmS2phTUhJdUVZR29TMWVBU3dqUkhtVFdZRVgtUEM5WldFRlNFcGh4U05tdGYtN21pam5uU1hzd19aSlFGaXRzbXlMWFp2ZmZDMXdQeXc3QVRXdDM4UHg4OVlUODdmLTNCVk5PQzZEaQ?oc=5",
-   "ts": "2026-08-31T16:19:55+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORzNCeTl1Slh2LXg1ZW04UUFZS2xtdHE5ZjhXZ2FlVmZsTTRiN2dENVBjZFAyTWk3a0s1cDltV1dsSXFjWlNuTU5RaG9abDE2bVFGS3lNTC1NZWFsS2hUM3FpQUJQd2Y0dVdMWlhEUjdMb1B3blNPV0I4VDZwVkVleDNjRHlMNTY3aGFzRThESGhMejJFcENCR2hzZFpsVHRhMC1WSVV1SlZwVk1wV0xKTk5NMUZLbVI5VFNqRUprTU90UQ?oc=5",
+   "ts": "2026-08-31T13:19:44+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "苹果资深高管菲尔·席勒卸任App Store负责人",
+   "brief": "苹果资深高管菲尔·席勒将卸任App Store和产品发布会负责人。",
+   "chain": "苹果管理层变动→科技股情绪→A股苹果产业链",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609013861400517.html",
+   "ts": "2026-09-01 14:22:15"
+  },
+  {
+   "cat": "tech",
+   "title": "FTC起诉亚马逊，指控误导广告商",
+   "brief": "美国联邦贸易委员会起诉亚马逊，指控其误导广告商。",
+   "chain": "监管压力→科技巨头→美股科技板块→A股电商/云计算",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/31/amazon-ftc-lawsuit-advertisers.html",
+   "ts": "Mon, 31 Aug 2026 20:34:45 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "比亚迪股价下滑，中国竞争激烈拖累上半年业绩",
+   "brief": "比亚迪股价下滑，因中国市场竞争激烈，上半年业绩受损。",
+   "chain": "新能源车竞争→比亚迪业绩→A股新能源车链",
+   "impact": 4,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/31/byd-shares-slide-as-fierce-china-competition-dents-first-half-earnings.html",
+   "ts": "Mon, 31 Aug 2026 04:01:47 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "AI加速重塑广告业，WPP再裁1000人",
+   "brief": "英国广告巨头WPP宣布全球再裁员至多1000人，主要针对可被AI替代的岗位。",
+   "chain": "AI替代人工→广告业成本下降→美股科技→A股AI应用",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609013861411834.html",
+   "ts": "2026-09-01 14:40:53"
+  },
+  {
+   "cat": "ai",
+   "title": "美众议院情报委员会警告AI“黑天鹅”风险",
+   "brief": "美国众议院情报委员会警告AI可能带来“黑天鹅”风险。",
+   "chain": "AI风险警示→监管预期→美股AI板块→A股AI算力链",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/31/ai-warning-house-intelligence-committee.html",
+   "ts": "Mon, 31 Aug 2026 21:18:37 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "特朗普：反对AI数据中心的社区将“落后且贫穷”",
+   "brief": "特朗普表示，反对AI数据中心的社区可能会变得“落后且贫穷”。",
+   "chain": "政策支持AI基建→数据中心需求→美股AI硬件→A股算力链",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/08/31/trump-data-centers-backlash-elections-congress.html",
+   "ts": "Mon, 31 Aug 2026 18:47:01 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "宝德计算斩获中国移动两大集采项目合计17亿元",
+   "brief": "宝德计算中标中国移动服务器集采项目，合计超17亿元。",
+   "chain": "运营商AI算力采购→国产服务器需求→A股算力硬件",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609013861409312.html",
+   "ts": "2026-09-01 14:37:05"
   }
  ]
 }
