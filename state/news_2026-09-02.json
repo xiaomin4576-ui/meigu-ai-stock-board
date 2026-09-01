@@ -1,0 +1,198 @@
+{
+ "asof": "2026-09-02",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-09-02T01:30+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 10,
+  "cluster_label": "伊朗",
+  "cluster_dropped": [
+   "伊朗称绝不会放过美国任何侵略行为",
+   "WTI原油涨4%报89美元，伊朗多地爆炸",
+   "美国石油储备耗尽，伊朗战争持续影响"
+  ],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "美联储理事巴尔：若通胀未缓解应做好加息准备",
+   "brief": "美联储理事巴尔警告，若通胀未能回落，美联储应做好加息准备，价格压力存在固化风险。",
+   "chain": "美联储加息预期升温→美债收益率上行→美股估值承压→A股算力链情绪受抑",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609013861845231.html",
+   "ts": "2026-09-01 23:42:05"
+  },
+  {
+   "cat": "macro",
+   "title": "美国两年期国债收益率创1月以来新高",
+   "brief": "美国两年期国债收益率突破4.38%，创2025年1月以来新高，反映市场对利率路径的重新定价。",
+   "chain": "短端利率上行→成长股贴现率上升→美股AI高久期承压→A股算力链估值受压",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609023861861577.html",
+   "ts": "2026-09-02 00:33:19"
+  },
+  {
+   "cat": "macro",
+   "title": "10年期美债收益率创1月新高",
+   "brief": "10年期美债收益率升至1月以来最高，因中东紧张局势重燃，避险情绪与通胀预期交织。",
+   "chain": "地缘避险+通胀预期→长端利率上行→美股估值承压→A股科技链情绪受抑",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/01/bonds-treasury-yields-middle-east-tensions.html",
+   "ts": "2026-09-01T10:47:52+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "贝森特力挺债市，10年期收益率飙升",
+   "brief": "美国财长贝森特表示债市运行良好，10年期美债收益率飙升，市场关注财政与利率前景。",
+   "chain": "财长表态+收益率上行→利率预期升温→美股成长股承压→A股算力链联动",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/01/bessent-trump-bond-yields-g20.html",
+   "ts": "Tue, 01 Sep 2026 17:20:12 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "美联储隔夜逆回购使用规模骤降至7.25亿美元",
+   "brief": "美联储隔夜逆回购协议使用规模从67.26亿美元降至7.25亿美元，显示市场流动性变化。",
+   "chain": "流动性收紧信号→短端利率上行→美股估值承压→A股风险偏好受抑",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609023861869794.html",
+   "ts": "2026-09-02 01:19:46"
+  },
+  {
+   "cat": "geo",
+   "title": "美军打击伊朗革命卫队目标",
+   "brief": "美国中央司令部称，美军对伊朗境内伊斯兰革命卫队目标实施打击，以回应此前袭击。",
+   "chain": "美伊冲突升级→地缘风险溢价上升→美股波动→A股军工/油气链关注",
+   "impact": 10,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609023861864690.html",
+   "ts": "2026-09-02 00:39:35"
+  },
+  {
+   "cat": "geo",
+   "title": "习近平抵达埃及开罗进行国事访问",
+   "brief": "国家主席习近平抵达开罗，应埃及总统塞西邀请进行国事访问，加强双边关系。",
+   "chain": "中埃合作深化→一带一路推进→A股基建/能源链关注",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609023861851921.html",
+   "ts": "2026-09-02 00:01:26"
+  },
+  {
+   "cat": "geo",
+   "title": "印度拒绝法院维持印巴水条约的裁决",
+   "brief": "印度拒绝执行法院关于维持与巴基斯坦水共享条约的裁决，地区紧张加剧。",
+   "chain": "印巴紧张→南亚地缘风险→全球市场避险→A股情绪受抑",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/01/india-hague-ruling-pakistan-water-treaty.html",
+   "ts": "Tue, 01 Sep 2026 10:58:31 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "上海原油主力合约日内涨6%",
+   "brief": "上海原油连续主力合约日内涨6%，现报675.70元，跟随国际油价上涨。",
+   "chain": "国际油价上涨→国内原油期货跟涨→A股油气板块受益",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609023861861171.html",
+   "ts": "2026-09-02 00:32:16"
+  },
+  {
+   "cat": "gas",
+   "title": "抵押贷款利率飙升，因中东袭击推高油价",
+   "brief": "抵押贷款利率升至2025年6月以来最高，因中东袭击推高油价，通胀预期升温。",
+   "chain": "油价上涨→通胀预期→利率上行→美国经济放缓→LNG需求或受抑",
+   "impact": 6,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/08/31/mortgage-rates-surge-middle-east-attacks-oil.html",
+   "ts": "2026-08-31T17:56:01+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "欧盟航空安全局缩小海湾空域警告",
+   "brief": "欧盟航空安全局缩小了对海湾空域的警告范围，但地区风险仍存。",
+   "chain": "空域风险缓解→LNG运输成本或降→莫桑比克LNG出口物流改善",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbVczeUFtaTZ6UjkwS0lSdkI1ZE9xU195ZE5FTDJQZ01QdGNtelZHc3YwUXhfMDFwUUJidGFCTmtrVElnYjRNaU84N0FRb2I2cEdOQTE2dnBySDZFVFhxdlV3MkxSSmRURzRBSG9ENHA1Qkc4VTFZeUo4ZXJycjRDek9uX0ZIWGk1ZlJkWEZUZ3dQTEdlanFMVVhhSzJadmJJTjZLS3FwWTc1NGRTaFE?oc=5",
+   "ts": "2026-08-31T12:41:30+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "苹果新CEO、G20会议、FTC起诉亚马逊等",
+   "brief": "苹果新CEO上任，G20会议继续，FTC起诉亚马逊，科技行业面临监管与领导层变动。",
+   "chain": "苹果换帅+监管→科技股波动→A股苹果链关注",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/01/5-things-to-know-before-the-stock-market-opens.html",
+   "ts": "Tue, 01 Sep 2026 12:33:07 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "苹果进入Ternus时代，AI挑战与内存紧张",
+   "brief": "苹果新CEO Ternus面临AI挑战和内存短缺，市场关注其战略方向。",
+   "chain": "苹果AI战略→供应链需求→A股苹果链/存储链影响",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/01/apple-enters-ternus-era-as-ai-challenges-and-memory-crunch-intensify.html",
+   "ts": "Tue, 01 Sep 2026 16:27:54 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "Waymo和Zoox扩大美国市场，Robotaxi竞争加剧",
+   "brief": "Waymo和Zoox在更多美国市场扩张，自动驾驶出租车竞争白热化。",
+   "chain": "自动驾驶竞争→科技巨头投入→A股智能驾驶链关注",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/01/waymo-and-zoox-expand-into-more-us-markets-as-robotaxi-race-heats-up.html",
+   "ts": "Tue, 01 Sep 2026 14:00:01 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "CrowdStrike携手英伟达推出网络安全大模型",
+   "brief": "CrowdStrike与英伟达合作推出网络安全前沿大模型，强化AI安全能力。",
+   "chain": "AI安全需求→英伟达算力→美股AI链→A股网络安全/算力链",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609023861864473.html",
+   "ts": "2026-09-02 00:41:45"
+  },
+  {
+   "cat": "ai",
+   "title": "软银SB Energy申请IPO，称高度依赖OpenAI",
+   "brief": "软银旗下SB Energy申请IPO，表示业务高度依赖OpenAI，凸显AI能源需求。",
+   "chain": "AI能源需求→数据中心电力→美股AI链→A股电力设备链",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/01/sb-energy-ipo-softbank-open-ai-nvidia.html",
+   "ts": "Tue, 01 Sep 2026 16:40:27 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "退出数据中心股票以保住收益，AI交易遇阻",
+   "brief": "投资俱乐部因AI交易受挫，退出数据中心股票以锁定收益，显示AI板块波动。",
+   "chain": "AI交易遇阻→数据中心股回调→美股AI链→A股算力链情绪",
+   "impact": 6,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/01/were-exiting-a-data-center-stock-to-protect-big-gains-as-the-ai-trade-hits-a-rough-patch.html",
+   "ts": "2026-09-01T15:54:28+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "AI代币价格创历史新低",
+   "brief": "AI代币价格触及新低，反映市场对AI概念炒作降温。",
+   "chain": "AI泡沫担忧→风险偏好下降→美股AI股→A股AI概念承压",
+   "impact": 5,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/01/ai-token-prices-lows.html",
+   "ts": "2026-09-01T16:08:31+00:00"
+  }
+ ]
+}
