@@ -1,6 +1,6 @@
 {
  "asof": "2026-09-01",
- "fetched_at": "2026-09-01T03:41+08:00",
+ "fetched_at": "2026-09-01T13:02+08:00",
  "meta": {
   "counts": {
    "TechCabal": 0,
@@ -12,25 +12,45 @@
    "Condia": 25,
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
-   "Zimbabwe Situation": 1,
+   "Zimbabwe Situation": 2,
    "African Business": 1,
-   "非洲科技·聚合": 10,
-   "中非科技·聚合": 17
+   "非洲科技·聚合": 11,
+   "中非科技·聚合": 19
   },
   "total": 60,
-  "ai_flagged": 20,
+  "ai_flagged": 21,
   "aiinfra_flagged": 7,
   "countries": 7
  },
  "items": [
   {
-   "title": "Technology drives patient care as The Avenues Clinic unveils upgraded Critical Care Unit",
-   "brief": "Source: Technology drives patient care as The Avenues Clinic unveils upgraded Critical Care Unit – herald Ivan Zhakata Herald Correspondent THE Avenues Clinic is embracing advanced medical technology to improve patient o",
+   "title": "Student remains in custody over US$1,1m cyber theft",
+   "brief": "Source: Student remains in custody over US$1,1m cyber theft – herald Yeukai Karengezeka-Chisepo-Court Correspondent A MIDLANDS State University final-year computer science student accused of using malware to siphon over ",
    "source": "Zimbabwe Situation",
-   "url": "https://www.zimbabwesituation.com/news/technology-drives-patient-care-as-the-avenues-clinic-unveils-upgraded-critical-care-unit/",
-   "date": "Mon, 31 Aug 2026 19:37:21 +0000",
+   "url": "https://www.zimbabwesituation.com/news/student-remains-in-custody-over-us11m-cyber-theft/",
+   "date": "Tue, 01 Sep 2026 04:24:05 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Digital inclusion opens doors for people with disabilities",
+   "brief": "Source: Digital inclusion opens doors for people with disabilities – herald Ryan Sibanda ryanhenrysibanda@gmail.com DIGITAL inclusion is increasingly becoming a critical requirement for people with disabilities, as acces",
+   "source": "Zimbabwe Situation",
+   "url": "https://www.zimbabwesituation.com/news/digital-inclusion-opens-doors-for-people-with-disabilities/",
+   "date": "Tue, 01 Sep 2026 03:59:07 +0000",
    "country": null,
    "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "EU designates ChatGPT as search engines under new digital rules",
+   "brief": "The EU's classification as a search engine reflects how users increasingly rely on it to find and synthesise information online.",
+   "source": "Condia",
+   "url": "https://thecondia.com/eu-designates-chatgpt-as-search-engine/",
+   "date": "Mon, 31 Aug 2026 22:40:44 +0000",
+   "country": null,
+   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -434,16 +454,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "South African armoured vehicle technology targets Europe after Ukraine approval opens NATO opportunities",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaVdhUFBHTjNrY1pybDFiYTJuZk1tQlAyTU9BMi1wbEt5MktjU3o5YjV6V2FoNDV3a3dYc0daY05fVDlXM2tQLXU0ejVUTHY3YTNrRFAyM2xaRzdkOWJzZE0tOGtUUkwta0RYc3pWZnU4SGtWS3oxZ25NS0FjWE",
-   "source": "Business Insider Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaVdhUFBHTjNrY1pybDFiYTJuZk1tQlAyTU9BMi1wbEt5MktjU3o5YjV6V2FoNDV3a3dYc0daY05fVDlXM2tQLXU0ejVUTHY3YTNrRFAyM2xaRzdkOWJzZE0tOGtUUkwta0RYc3pWZnU4SGtWS3oxZ25NS0FjWEtialpCR1FDUVZYdkJCMllmenZYYUVXVmFxX0tubDZkRnZvcFN0dUNOWEUwMlpzMTIyTUVHdmYxbEdfa2JVMDlMdGVoUTBNMmFoZXR4aHdRVUFnNzFVRG5XbldWQQ?oc=5",
-   "date": "Sun, 30 Aug 2026 05:30:00 GMT",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "China Africa Digital Center Critical Minerals Strategy",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTFB3S1RSZ0Z3aXFpNWRZc0t0M1ROTVlYQUVWRGE0NjJmUHQyM1EwRnBYSG1GTmJYV0dhM0lZcGQ3cmY5YmtEWmVzVlhqS1JSWklVN2hSWkVjbDBsUkdKRGxGeUtNU211ZDFuWlotRDlibDdadU83UUVCaW5MeGV6QQ",
    "source": "Rare Earth Exchanges·聚合",
@@ -451,6 +461,16 @@
    "date": "Sat, 29 Aug 2026 17:17:57 GMT",
    "country": null,
    "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "How MTN and Africa Data Hub are Scaling AI Infrastructure",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQa0haQ0tCcVhiOUo0MERLMk80N3ZRakZXcnV2bm95Ynl1ejZPbHdwV1lwbEktekF5UzJWU2U5dUx5d2k3MGtiZ2hXTklIVEhfTmpERGlCX2ZLczlaQzVrMmhUVTBQTjQ3NFBqbmtrRTl0TVdUdHMza1R4X0VvZ0",
+   "source": "Data Centre Magazine·聚合",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQa0haQ0tCcVhiOUo0MERLMk80N3ZRakZXcnV2bm95Ynl1ejZPbHdwV1lwbEktekF5UzJWU2U5dUx5d2k3MGtiZ2hXTklIVEhfTmpERGlCX2ZLczlaQzVrMmhUVTBQTjQ3NFBqbmtrRTl0TVdUdHMza1R4X0VvZ0JPbE5iaWY3R3dvTzg0anA2WllPRnNxTnZ2Yw?oc=5",
+   "date": "Fri, 28 Aug 2026 16:58:01 GMT",
+   "country": null,
+   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -601,26 +621,6 @@
    "date": "Fri, 28 Aug 2026 05:08:58 +0000",
    "country": "🇳🇬 尼日利亚",
    "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "How AI Is Transforming Border Security",
-   "brief": "Customs authorities are struggling to keep pace with global trade. Cross-border e-commerce is driving up daily shipment volumes, and de minimis rules (the thresholds below which low-value shipments can be exempted from d",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/2026/08/how-ai-is-transforming-border-security/",
-   "date": "Fri, 28 Aug 2026 04:33:00 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "MTN and UAE investor to build AI infrastructure platforms across Africa",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSlZiQm1ndGh5ZTBiSEhjRUxURGl3eFgzb0Y1dXpkYXRMWHAwQko3dzVmYXYtYVd2N3hFWVJjaGVmMmtoWFZnSlJ5X29CQnc4TU0wdDQtbV9jaFkzTjJ5VlhrazRCY2gzSklqTmJ1RmxONmtDOE41d0ZkZUtkbj",
-   "source": "Developing Telecoms·聚合",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSlZiQm1ndGh5ZTBiSEhjRUxURGl3eFgzb0Y1dXpkYXRMWHAwQko3dzVmYXYtYVd2N3hFWVJjaGVmMmtoWFZnSlJ5X29CQnc4TU0wdDQtbV9jaFkzTjJ5VlhrazRCY2gzSklqTmJ1RmxONmtDOE41d0ZkZUtkbjZmZlZlWUJ4SEtMd2VzYXhZQ0pyU1ZjajlDZDQ4TkVJX1pua0QybU1odUY5bVpEVzNoSXp1ajZDRnNtb3dWQUdENDBmRHMyUHctdlR3R0pIaVdUZ1NVTXg2c0EzSnNKNm9ueFZKeEtIMExialE?oc=5",
-   "date": "Fri, 28 Aug 2026 03:56:01 GMT",
-   "country": null,
-   "is_ai": true,
    "is_aiinfra": false
   }
  ]
