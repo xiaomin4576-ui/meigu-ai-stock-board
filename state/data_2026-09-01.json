@@ -19,6 +19,12 @@
       "vol": 45.1,
       "earnings_date": "2026-11-17",
       "news": [],
+      "quality": {
+        "roe": 111.7,
+        "ocf_ps": null,
+        "gross_margin": 74.2,
+        "period": "TTM·Finnhub"
+      },
       "analyst": {
         "target_mean": null,
         "target_low": null,
@@ -26,10 +32,15 @@
         "rating": null,
         "rating_mean": 1.74,
         "n_analysts": 68,
-        "fwd_pe": null,
+        "fwd_pe": 18.1,
         "ttm_pe": null,
         "cn_rating": "买入",
         "rec_buy_ratio": 0.94,
+        "eps_growth": 110.3,
+        "ev_ebitda": 32.7,
+        "fcf_yield": 2.2,
+        "market_cap": 5422978,
+        "forward_peg": 0.35,
         "consensus_src": "Finnhub"
       }
     },
@@ -51,6 +62,12 @@
       "vol": 42.9,
       "earnings_date": "2026-09-02",
       "news": [],
+      "quality": {
+        "roe": 36.4,
+        "ocf_ps": null,
+        "gross_margin": 68.3,
+        "period": "TTM·Finnhub"
+      },
       "analyst": {
         "target_mean": null,
         "target_low": null,
@@ -58,10 +75,15 @@
         "rating": null,
         "rating_mean": 1.79,
         "n_analysts": 56,
-        "fwd_pe": null,
+        "fwd_pe": 22.4,
         "ttm_pe": null,
         "cn_rating": "买入",
         "rec_buy_ratio": 0.91,
+        "eps_growth": 125.8,
+        "ev_ebitda": 58.9,
+        "fcf_yield": 1.63,
+        "market_cap": 2003893,
+        "forward_peg": 0.43,
         "consensus_src": "Finnhub"
       }
     },
@@ -83,6 +105,12 @@
       "vol": 25.4,
       "earnings_date": "2026-10-14",
       "news": [],
+      "quality": {
+        "roe": 39.9,
+        "ocf_ps": null,
+        "gross_margin": 64.5,
+        "period": "TTM·Finnhub"
+      },
       "analyst": {
         "target_mean": null,
         "target_low": null,
@@ -90,10 +118,15 @@
         "rating": null,
         "rating_mean": 1.74,
         "n_analysts": 43,
-        "fwd_pe": null,
+        "fwd_pe": 21.4,
         "ttm_pe": null,
         "cn_rating": "买入",
         "rec_buy_ratio": 0.95,
+        "eps_growth": 55.2,
+        "ev_ebitda": 22.4,
+        "fcf_yield": 1.8,
+        "market_cap": 63145320,
+        "forward_peg": 0.64,
         "consensus_src": "Finnhub"
       }
     },
@@ -113,7 +146,7 @@
       "ma50": 951.5,
       "ma200": 592.01,
       "vol": 53.9,
-      "earnings_date": null,
+      "earnings_date": "2026-09-21",
       "news": [],
       "quality": {
         "roe": 70.5,
@@ -126,10 +159,12 @@
         "target_low": null,
         "target_high": null,
         "rating": null,
-        "rating_mean": null,
-        "n_analysts": null,
+        "rating_mean": 1.79,
+        "n_analysts": 56,
         "fwd_pe": 5.9,
         "ttm_pe": null,
+        "cn_rating": "买入",
+        "rec_buy_ratio": 0.91,
         "eps_growth": 700.7,
         "ev_ebitda": 15.6,
         "fcf_yield": 2.41,
@@ -282,6 +317,12 @@
       "vol": 113.1,
       "earnings_date": "2026-11-03",
       "news": [],
+      "quality": {
+        "roe": 8.4,
+        "ocf_ps": null,
+        "gross_margin": 37.5,
+        "period": "TTM·Finnhub"
+      },
       "analyst": {
         "target_mean": null,
         "target_low": null,
@@ -289,10 +330,14 @@
         "rating": null,
         "rating_mean": 2.0,
         "n_analysts": 30,
-        "fwd_pe": null,
+        "fwd_pe": 29.4,
         "ttm_pe": null,
         "cn_rating": "买入",
         "rec_buy_ratio": 0.77,
+        "eps_growth": 1617.0,
+        "ev_ebitda": 68.9,
+        "fcf_yield": 0.4,
+        "market_cap": 64019,
         "consensus_src": "Finnhub"
       }
     },
@@ -390,9 +435,9 @@
           "date": "2026-08-28"
         },
         {
-          "title": "9月1日3870只股发生盘后交易，天源迪科、兆易创新、亨通光电等盘后交易额居前",
-          "pub": "证券时报网",
-          "url": "http://finance.eastmoney.com/a/202609013861506584.html",
+          "title": "中天科技已回购200万股 金额5954万元",
+          "pub": "财中社",
+          "url": "http://finance.eastmoney.com/a/202609013861526430.html",
           "date": "2026-09-01"
         }
       ],
@@ -466,13 +511,13 @@
       "chg1d": -0.3,
       "m1": 7.9,
       "m3": -19.5,
-      "m6": 38.8,
+      "m6": 38.7,
       "fromhi": -30.5,
       "hi": 1595.55,
-      "lo": 650.87,
+      "lo": 651.36,
       "ma20": 1087.69,
       "ma50": 1225.91,
-      "ma200": 1016.49,
+      "ma200": 1016.68,
       "vol": 66.3,
       "analyst": {
         "target_mean": null,

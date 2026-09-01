@@ -1,6 +1,6 @@
 {
  "asof": "2026-09-01",
- "fetched_at": "2026-09-01T16:55+08:00",
+ "fetched_at": "2026-09-01T20:10+08:00",
  "meta": {
   "counts": {
    "TechCabal": 0,
@@ -14,84 +14,214 @@
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 2,
    "African Business": 1,
-   "非洲科技·聚合": 11,
-   "中非科技·聚合": 18
+   "非洲科技·聚合": 10,
+   "中非科技·聚合": 17
   },
   "total": 60,
-  "ai_flagged": 22,
-  "aiinfra_flagged": 9,
+  "ai_flagged": 23,
+  "aiinfra_flagged": 5,
   "countries": 6
  },
  "items": [
   {
-   "title": "HUMAIN and DataVolt Partner to Develop 100MW AI Data Centre at Oxagon",
-   "brief": "HUMAIN,  a PIF company delivering full-stack artificial intelligence capabilities globally, and DataVolt,  a Saudi-based developer and operator of sustainable digital infrastructure, today announced at LEAP ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/01/humain-datavolt-100mw-ai-data-centre-oxagon/",
-   "date": "Tue, 01 Sep 2026 08:43:32 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": true
-  },
-  {
-   "title": "AWS to Launch First Saudi Arabia Cloud Region in December 2026",
-   "brief": "Amazon Web Services (AWS)  has announced at LEAP in Riyadh that its first AWS Cloud Infrastructure Region in Saudi Arabia is on track to launch ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/01/aws-first-saudi-arabia-cloud-region-december-2026/",
-   "date": "Tue, 01 Sep 2026 08:27:10 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": true
-  },
-  {
-   "title": "NTT DATA to Launch AI Factory Lab in Riyadh to Accelerate Enterprise AI Adoption",
-   "brief": "NTT DATA,  a global leader in AI, digital business and technology services, announced its intention to launch the NTT DATA AI Factory Lab in Riyadh, ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/01/ntt-data-launch-ai-factory-lab-riyadh-enterprise-ai-adoption/",
-   "date": "Tue, 01 Sep 2026 07:58:47 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Ericsson Recycles Nearly 5,000 Tonnes of Telecom E-Waste in Saudi Arabia",
-   "brief": "Ericsson  has enabled the collection and recycling of nearly 5,000 metric tons of end-of-life telecom equipment in Saudi Arabia through its E-Waste Management Program (previously ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/01/ericsson-recycles-5000-tonnes-telecom-e-waste-saudi-arabia/",
-   "date": "Tue, 01 Sep 2026 07:40:44 +0000",
+   "title": "Why Allawee sold to Paystack",
+   "brief": "Allawee spent years building financial infrastructure, and it was never a business designed to be handed off. Understanding why it sold anyway means looking past the acquisition headline and at what Paystack actually acq",
+   "source": "Condia",
+   "url": "https://thecondia.com/why-allawee-sold-to-paystack/",
+   "date": "Tue, 01 Sep 2026 11:55:16 +0000",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
   {
-   "title": "MTN, UJ, TAEF Launch Pan-African Media Innovation Programme for 42 Journalists",
-   "brief": "MTN Group,  the University of Johannesburg (UJ)  and The African Editors’ Forum (TAEF) welcomed the first cohort of media practitioners to the MTN Pan-African Media ......",
+   "title": "Shoprite targets informal retail with fintech expansion",
+   "brief": "The retail group extends its financial services ecosystem after finalising the acquisition of an initial 51% stake in R&A Cellular.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/shoprite-targets-informal-retail-with-fintech-expansion/Gb3BwMWaOo8v2k6V",
+   "date": "Tue, 01 Sep 2026 13:50:57 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Egypt’s NTI and State Lawsuits Authority Partner to Advance AI and Digital Justice",
+   "brief": "Egypt’s National Telecommunication Institute (NTI)  and the State Lawsuits Authority  have signed a cooperation protocol aimed at strengthening collaboration in digital transformation, artificial intelligence (AI), .....",
    "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/01/mtn-uj-taef-launch-pan-african-media-innovation-programme-42-journalists/",
-   "date": "Tue, 01 Sep 2026 07:27:20 +0000",
+   "url": "https://techafricanews.com/2026/09/01/egypts-nti-and-state-lawsuits-authority-partner-to-advance-ai-and-digital-justice/",
+   "date": "Tue, 01 Sep 2026 11:23:56 +0000",
+   "country": "🇪🇬 埃及",
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Egypt’s NTI and Cisco Sign MoU to Train 3,000 Internationally Certified Trainers",
+   "brief": "Egypt’s National Telecommunication Institute (NTI)  and global technology company Cisco Systems  have signed a Memorandum of Understanding (MoU) to prepare 3,000 internationally certified trainers under ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/01/egypt-nti-cisco-mou-train-3000-certified-trainers/",
+   "date": "Tue, 01 Sep 2026 11:17:29 +0000",
+   "country": "🇪🇬 埃及",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Airtel Africa Plans $1.1bn Investment as CEO Flags Power, Vandalism Challenges",
+   "brief": "Airtel Africa  plans to invest about $1.1 billion across its operations as the telecommunications group expands network coverage, increases capacity and prepares for rising demand ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/01/airtel-africa-plans-1-1bn-investment-power-vandalism-challenges/",
+   "date": "Tue, 01 Sep 2026 11:06:51 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "MTN South Africa Hosts MTN Ghana CEO for Cross-Market Innovation and Collaboration",
+   "brief": "MTN South Africa  recently hosted Yolanda Cuba, Deputy CEO of MTN Group , alongside Stephen Blewett, CEO of MTN Ghana,  and members of his executive team ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/01/mtn-south-africa-mtn-ghana-cross-market-innovation-collaboration/",
+   "date": "Tue, 01 Sep 2026 10:57:26 +0000",
    "country": "🇿🇦 南非",
    "is_ai": false,
    "is_aiinfra": false
   },
   {
-   "title": "NITDA DG Urges Nigeria to Prioritise AI Sovereignty at GITEX 2026",
-   "brief": "The 2026 edition of GITEX Nigeria has commenced in Abuja, with the Director General of the National Information Technology Development Agency (NITDA) , Kashifu Inuwa Abdullahi, ......",
+   "title": "Airtel Africa Foundation Awards Tech Scholarships to 25 Young Malawians",
+   "brief": "The Airtel Africa Foundation  has selected the first cohort of 25 young Malawians for the Airtel Nzeru Fund Tech Scholarship, supporting their pursuit of science ......",
    "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/01/nitda-dg-urges-nigeria-to-prioritise-ai-sovereignty-at-gitex-2026/",
-   "date": "Tue, 01 Sep 2026 07:15:18 +0000",
-   "country": "🇳🇬 尼日利亚",
+   "url": "https://techafricanews.com/2026/09/01/airtel-africa-foundation-awards-tech-scholarships-to-25-young-malawians/",
+   "date": "Tue, 01 Sep 2026 10:50:50 +0000",
+   "country": "🇲🇼 马拉维",
    "is_ai": true,
    "is_aiinfra": false
   },
   {
-   "title": "Cybastion Plans $75m AI-Powered Data Centre, Power Plant in Cameroon",
-   "brief": "Cybastion  has announced plans to invest $75 million in an artificial intelligence-powered data centre and power plant in Cameroon, as the U.S.-based technology company expands ......",
+   "title": "Gabon Expands Digital Access With Public Wi-Fi and Digital Driving Licence in Makokou",
+   "brief": "Gabon is expanding digital access and the digitisation of public services in Makokou with the deployment of new digital infrastructure aimed at improving internet connectivity ......",
    "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/01/cybastion-plans-75m-ai-powered-data-centre-power-plant-in-cameroon/",
-   "date": "Tue, 01 Sep 2026 07:09:08 +0000",
+   "url": "https://techafricanews.com/2026/09/01/gabon-digital-access-public-wifi-driving-licence-makokou/",
+   "date": "Tue, 01 Sep 2026 10:44:52 +0000",
    "country": null,
    "is_ai": true,
-   "is_aiinfra": true
+   "is_aiinfra": false
+  },
+  {
+   "title": "Ghana’s One Million Coders Programme Begins ICT Trainers’ Training",
+   "brief": "The Ministry of Communication, Digital Technology and Innovations (MoCDTI),  through the One Million Coders Programme (OMCP), has commenced a five-day Training of Trainers (ToT) programme ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/01/ghana-one-million-coders-programme-ict-trainers-training/",
+   "date": "Tue, 01 Sep 2026 10:36:57 +0000",
+   "country": "🇬🇭 加纳",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Hungry Lion customer creds online for months",
+   "brief": "The Hungry Lion customer credentials were exposed for nine months through a ransomware attack, say cyber experts.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/hungry-lion-customer-creds-online-for-months/6GxRKqYQEDZqb3Wj",
+   "date": "Tue, 01 Sep 2026 12:14:46 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "4Sight ramps up AI strategy with exco appointments",
+   "brief": "The tech group expands its leadership team as it seeks to scale AI-enabled solutions and accelerate sustainable growth.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/4sight-ramps-up-ai-strategy-with-exco-appointments/RgeVDvPRx8VMKJN3",
+   "date": "Tue, 01 Sep 2026 11:51:35 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Digital finance growth puts spotlight on consumer education",
+   "brief": "Money Smart Week South Africa 2026 promoted digital financial literacy amid rising adoption of crypto and stablecoins.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/digital-finance-growth-puts-spotlight-on-consumer-education/j5alrMQAog1MpYQk",
+   "date": "Tue, 01 Sep 2026 11:49:53 +0200",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Magna AI and VAST Data Partner to Advance Sovereign AI Infrastructure in Saudi Arabia",
+   "brief": "Magna AI, Inc.,  the global integrated-value-chain sovereign AI transformation leader established through a partnership between Trend Micro  and Wistron Digital Technology Holding Company (WDH) , powered ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/01/magna-ai-vast-data-sovereign-ai-infrastructure-saudi-arabia/",
+   "date": "Tue, 01 Sep 2026 09:43:09 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Eskom’s R30bn profit can’t outrun R6bn electricity theft",
+   "brief": "Eskom fell short on smart meter rollout as electricity theft, tampering and a hacked vending system cost it R6.6 billion.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/eskoms-r30bn-profit-cant-outrun-r6bn-electricity-theft/nWJadMbN3agMbjO1",
+   "date": "Tue, 01 Sep 2026 11:37:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "ZEDEDA and VAS Limited Partner to Bring Edge Intelligence Platform to Saudi Arabia",
+   "brief": "ZEDEDA,  the leader in edge intelligence, and VAS Limited,  a value-added distributor of global technology solutions, announced a distribution agreement to bring ZEDEDA’s Edge Intelligence ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/01/zededa-vas-limited-edge-intelligence-platform-saudi-arabia/",
+   "date": "Tue, 01 Sep 2026 09:34:12 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "ClearTax and Odoo Partner to Simplify Tax Compliance and E-Invoicing Across GCC",
+   "brief": "ClearTax,  a global tax compliance and e-invoicing technology company, has announced a partnership with Odoo , one of the world’s leading open-source business management platforms, to ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/01/cleartax-odoo-simplify-tax-compliance-e-invoicing-gcc/",
+   "date": "Tue, 01 Sep 2026 09:27:25 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Ericsson and Mobily Partner to Advance AI-Driven Autonomous Network Operations",
+   "brief": "This collaboration builds on Ericsson  and Mobily ’s long-standing experience using the Ericsson Operations Engine to support AI-driven, goal-driven automation. Ericsson and Mobily have signed a ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/01/ericsson-mobily-advance-ai-autonomous-network-operations/",
+   "date": "Tue, 01 Sep 2026 09:19:13 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Oman Rolls Out 2026–2030 National Cybersecurity Strategy",
+   "brief": "A new national cybersecurity strategy for 2026-2030 aimed at strengthening protection of critical infrastructure, improving readiness against cyber threats and supporting growth of the digital ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/01/oman-rolls-out-2026-2030-national-cybersecurity-strategy/",
+   "date": "Tue, 01 Sep 2026 09:11:11 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Canon supports channel partners to bring faster, more versatile desktop scanning to modern businesses",
+   "brief": "The company expands its document scanner portfolio to channel partners with the launch of its imageFORMULA DR-C360 scanner.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/canon-supports-channel-partners-to-bring-faster-more-versatile-desktop-scanning-to-modern-businesses/VgZeyqJlpVz7djX9",
+   "date": "Tue, 01 Sep 2026 11:02:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Beyond the pipe: Why connectivity alone is no longer enough",
+   "brief": "Over a structured, multi-year transition, CipherWave has repositioned from a pure connectivity provider into an integrated technology partner.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/beyond-the-pipe-why-connectivity-alone-is-no-longer-enough/GxwQD71DympvlPVo",
+   "date": "Tue, 01 Sep 2026 11:01:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "Please Call Me millions: The Black Rock enigma",
@@ -100,16 +230,6 @@
    "url": "https://www.itweb.co.za/article/please-call-me-millions-the-black-rock-enigma/KWEBbvyLe8aqmRjO",
    "date": "Tue, 01 Sep 2026 09:01:00 +0200",
    "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "CBK Approves Nedbank’s Acquisition of Up to 66% Stake in NCBA Group",
-   "brief": "The Central Bank of Kenya (CBK)  has approved the acquisition of up to 66 percent of the issued share capital of NCBA Group PLC  by ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/01/cbk-approves-nedbanks-acquisition-of-up-to-66-stake-in-ncba-group/",
-   "date": "Tue, 01 Sep 2026 06:58:48 +0000",
-   "country": "🇰🇪 肯尼亚",
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -164,26 +284,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Rise of the entertainment phone: How the REDMI 17 is changing the way SA stays connected",
-   "brief": "Xiaomi is gearing up to bring the REDMI 17 to South Africa on 7 September.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/rise-of-the-entertainment-phone-how-the-redmi-17-is-changing-the-way-sa-stays-connected/P3gQ2MGAlYJvnRD1",
-   "date": "Tue, 01 Sep 2026 08:32:00 +0200",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Case study: How self-checkout works in southern Africa",
-   "brief": "Arch Retail's latest case study breaks down how self-checkout is performing in southern African retail.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/case-study-how-self-checkout-works-in-southern-africa/o1Jr5MxPoyXMKdWL",
-   "date": "Tue, 01 Sep 2026 08:31:00 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Student remains in custody over US$1,1m cyber theft",
    "brief": "Source: Student remains in custody over US$1,1m cyber theft – herald Yeukai Karengezeka-Chisepo-Court Correspondent A MIDLANDS State University final-year computer science student accused of using malware to siphon over ",
    "source": "Zimbabwe Situation",
@@ -211,56 +311,6 @@
    "date": "Mon, 31 Aug 2026 22:40:44 +0000",
    "country": null,
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "MTN South Sudan Launches Aweil ICT Hub to Boost Digital Skills and Youth Innovation",
-   "brief": "MTN South Sudan  has officially launched the Aweil ICT Hub, marking another significant milestone in the company’s commitment to expanding digital access, promoting innovation, and ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/08/31/mtn-south-sudan-launches-aweil-ict-hub-to-boost-digital-skills-and-youth-innovation/",
-   "date": "Mon, 31 Aug 2026 15:21:49 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Airtel Nigeria Opens Two Premium Experience Centres in Lagos, Surpasses 350 Nationwide",
-   "brief": "Airtel Nigeria  has commissioned two new premium experience centres in Lagos as part of its ongoing retail expansion and efforts to bring its telecommunications and ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/08/31/airtel-nigeria-opens-premium-experience-centres-lagos/",
-   "date": "Mon, 31 Aug 2026 15:05:42 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "NSSF and Airtel Money Renew Partnership to Expand Voluntary Savings in Uganda",
-   "brief": "Uganda’s National Social Security Fund (NSSF)  has renewed its partnership with Airtel Money Uganda  to expand access to voluntary savings through the Smartlife Flexi service. ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/08/31/nssf-airtel-money-renew-voluntary-savings-partnership/",
-   "date": "Mon, 31 Aug 2026 14:54:16 +0000",
-   "country": "🇺🇬 乌干达",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "US-China AI Rivalry Escalates in Egypt: Why Huawei’s Data Centers Matter",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPN1A0WVpCQnpNQnFMU2VjZmxka3Jmb0VFQ0hEMGlCc2M1Qy1tQTJpc19QbHZYTVEtdWR2WXBOZjFSLVRCRDM1VmxoX0pJU19GMldiQlVHSEpkTG5fazZiXzVmb3hVakxsVnFvd1pUR2lpQXVNLXRYUXdiRkl0TF",
-   "source": "Modern Diplomacy·聚合",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN1A0WVpCQnpNQnFMU2VjZmxka3Jmb0VFQ0hEMGlCc2M1Qy1tQTJpc19QbHZYTVEtdWR2WXBOZjFSLVRCRDM1VmxoX0pJU19GMldiQlVHSEpkTG5fazZiXzVmb3hVakxsVnFvd1pUR2lpQXVNLXRYUXdiRkl0TFNPZi1CbDdXZFhoQ0ZyWVE0cHV4SmxLMkp2MVBXdjhwNTJaVm15MlkzRjVUZl9nb3c?oc=5",
-   "date": "Mon, 31 Aug 2026 14:50:00 GMT",
-   "country": "🇪🇬 埃及",
-   "is_ai": true,
-   "is_aiinfra": true
-  },
-  {
-   "title": "BTC Sets October Target for 5G Commercial Launch in Botswana",
-   "brief": "Botswana Telecommunications Corporation (BTC)  is preparing to enter Botswana’s commercial 5G market, with the operator planning to launch 5G services in selected areas of Gaborone ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/08/31/btc-sets-october-target-for-5g-commercial-launch-in-botswana/",
-   "date": "Mon, 31 Aug 2026 14:19:24 +0000",
-   "country": "🇧🇼 博茨瓦纳",
-   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -324,26 +374,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Top ICT tenders: Home Affairs expands revenue admin tender",
-   "brief": "The department revises its revenue administration tender to reflect a larger deployment footprint and clearer operational requirements.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/top-ict-tenders-home-affairs-expands-revenue-admin-tender/dgp45MaBlAbqX9l8",
-   "date": "Mon, 31 Aug 2026 11:51:31 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Webinar: Explore data protection and cyber recovery capabilities",
-   "brief": "ITWeb, NEC XON and Cohesity will bring industry experts to discuss how HPE Zerto and Cohesity can complement each other to support faster recovery, reduce data loss and improve business continuity.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/webinar-explore-data-protection-and-cyber-recovery-capabilities/O2rQGMAER1lMd1ea",
-   "date": "Mon, 31 Aug 2026 11:51:00 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Huawei unveils Agentic AI Cloud in Nigeria",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQWUY5UFVaZUFXU2lfQnROU2NVZ3RlRXZyUER5UEl5aWozRHRtUDdWQlJ1eks5VXNqX0VQak9ra250WDJVMS02aWNJQjNkS05WblVHUFQ3ejZrN0pQRTMyYmNJQzE0NjRnQUN1WGliLTVLWmpJMEc5STEwb3o5RW",
    "source": "ITWeb Africa·聚合",
@@ -351,36 +381,6 @@
    "date": "Mon, 31 Aug 2026 09:27:32 GMT",
    "country": "🇳🇬 尼日利亚",
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Samsung SA expands digital wallet ecosystem",
-   "brief": "Local Samsung Galaxy users can now Scan to Pay with QR code payments in Samsung Wallet.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/samsung-sa-expands-digital-wallet-ecosystem/xA9POvNE6n8qo4J8",
-   "date": "Mon, 31 Aug 2026 11:12:06 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "ITWeb TV Biz: Never give up: How Tati Software grew through AWS EEIP",
-   "brief": "Joining the AWS SA Equity Equivalent Investment Programme has helped broaden Tati Software's horizons.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/itweb-tv-biz-never-give-up-how-tati-software-grew-through-aws-eeip/KjlyrvwBrn4qk6am",
-   "date": "Mon, 31 Aug 2026 10:51:06 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Unlicensed SA finfluencers face enforcement action",
-   "brief": "The Financial Sector Conduct Authority fines unlicensed finfluencers, warning unauthorised financial advice can trigger regulatory action.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/unlicensed-sa-finfluencers-face-enforcement-action/WnpNgM21ZEX7VrGd",
-   "date": "Mon, 31 Aug 2026 10:31:20 +0200",
-   "country": null,
-   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -446,7 +446,7 @@
   {
    "title": "America mobilises 3 powerful tech giants to Africa’s second-richest economy to counter China’s Huawei bid to build 2,008-chip AI data centre",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOFpBaUhWbGJoRnpmWi16cFZvby1XUUhleUtEUDNQdlNRZnlRS2tMTjRfQWRXNy1JS1RnbS1Yek9wV3lHbnNvNlhYNmx2M19rbVZfZVBXQ2RhVW0tdVJpeWM0NDJFNUhoSURXRzVwQkljajZPSjR6WlhweTFvUH",
-   "source": "Business Insider Africa·聚合",
+   "source": "africa.businessinsider.com·聚合",
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOFpBaUhWbGJoRnpmWi16cFZvby1XUUhleUtEUDNQdlNRZnlRS2tMTjRfQWRXNy1JS1RnbS1Yek9wV3lHbnNvNlhYNmx2M19rbVZfZVBXQ2RhVW0tdVJpeWM0NDJFNUhoSURXRzVwQkljajZPSjR6WlhweTFvUHhxS1dUd3BxV0l0amlMeVM1MjZGNDZpNkpuUW1LRVZuWGtGcy15OG12MXl5V2IwWkpRZ3laVGxsVzNVUUlMeXVZZGV5OHhEb2loRkF4dWIzWUUyLW5hUHYwdzZrUQ?oc=5",
    "date": "Sun, 30 Aug 2026 11:41:39 GMT",
    "country": null,
@@ -456,7 +456,7 @@
   {
    "title": "America mobilises 3 powerful tech giants to counter China’s Huawei bid to build 2,008-chip AI data centre in Africa’s second-largest economy",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTkVYS0hSbXR4emZ3TEkzTDhlNjYybkk5T3dtdnRIS0tIQ3Z5czIyOV9rLUNFZWU3YkNTM0tjTXpiWWJvbEVKNzZPMXZySHMtckc1UzhidWFLNU9JMmVYQU5tV1RwemZWMHFxTzhpR3lkd2tEQ203cjAtU28wdW",
-   "source": "Business Insider Africa·聚合",
+   "source": "africa.businessinsider.com·聚合",
    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTkVYS0hSbXR4emZ3TEkzTDhlNjYybkk5T3dtdnRIS0tIQ3Z5czIyOV9rLUNFZWU3YkNTM0tjTXpiWWJvbEVKNzZPMXZySHMtckc1UzhidWFLNU9JMmVYQU5tV1RwemZWMHFxTzhpR3lkd2tEQ203cjAtU28wdWZFbFNqTkFGQXdGWkdQUVdpM19MajhHX1ExTl9MY2RZeEdlRmlFdFp1Uks1ZDRUa2FuNF84cmpxOVpOVFNoUGtTNFFTRWFjSzFnOUQ1Nm11SVduZk8yMHZtRQ?oc=5",
    "date": "Sun, 30 Aug 2026 11:41:39 GMT",
    "country": null,
@@ -476,7 +476,7 @@
   {
    "title": "China Africa Digital Center Critical Minerals Strategy",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTFB3S1RSZ0Z3aXFpNWRZc0t0M1ROTVlYQUVWRGE0NjJmUHQyM1EwRnBYSG1GTmJYV0dhM0lZcGQ3cmY5YmtEWmVzVlhqS1JSWklVN2hSWkVjbDBsUkdKRGxGeUtNU211ZDFuWlotRDlibDdadU83UUVCaW5MeGV6QQ",
-   "source": "rareearthexchanges.com·聚合",
+   "source": "Rare Earth Exchanges·聚合",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB3S1RSZ0Z3aXFpNWRZc0t0M1ROTVlYQUVWRGE0NjJmUHQyM1EwRnBYSG1GTmJYV0dhM0lZcGQ3cmY5YmtEWmVzVlhqS1JSWklVN2hSWkVjbDBsUkdKRGxGeUtNU211ZDFuWlotRDlibDdadU83UUVCaW5MeGV6QQ?oc=5",
    "date": "Sat, 29 Aug 2026 17:17:57 GMT",
    "country": null,
