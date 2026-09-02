@@ -1,44 +1,43 @@
 {
  "asof": "2026-09-02",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-09-02T01:30+08:00",
+ "generated_at": "2026-09-02T12:24+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 10,
-  "cluster_label": "伊朗",
+  "cross_day_suppressed": 1,
+  "cluster_label": "伊朗/霍尔木兹",
   "cluster_dropped": [
-   "伊朗称绝不会放过美国任何侵略行为",
-   "WTI原油涨4%报89美元，伊朗多地爆炸",
-   "美国石油储备耗尽，伊朗战争持续影响"
+   "特朗普称未强迫伊朗谈判",
+   "美国石油储备耗尽，伊朗战争影响减弱"
   ],
   "backfilled": 0
  },
  "items": [
   {
-   "cat": "macro",
-   "title": "美联储理事巴尔：若通胀未缓解应做好加息准备",
-   "brief": "美联储理事巴尔警告，若通胀未能回落，美联储应做好加息准备，价格压力存在固化风险。",
-   "chain": "美联储加息预期升温→美债收益率上行→美股估值承压→A股算力链情绪受抑",
+   "cat": "geo",
+   "title": "美军袭击伊朗胡齐斯坦省致7死",
+   "brief": "伊朗官员称美军前一晚对胡齐斯坦省发动袭击，造成7人死亡、8人受伤。",
+   "chain": "美伊冲突升级→地缘风险溢价上升→美股能源与军工板块波动，A股军工链受情绪提振。",
+   "impact": 10,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609023862614469.html",
+   "ts": "2026-09-02 11:54:50"
+  },
+  {
+   "cat": "oil",
+   "title": "美伊升级重燃霍尔木兹风险，油价续涨",
+   "brief": "美国与伊朗交火，霍尔木兹海峡风险重燃，油价延续涨势。",
+   "chain": "霍尔木兹风险→油价上涨→莫桑比克油气出口受益，但需关注航运保险成本。",
    "impact": 9,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609013861845231.html",
-   "ts": "2026-09-01 23:42:05"
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-31/latest-oil-market-news-and-analysis-for-sept-1",
+   "ts": "2026-09-01T01:41:43+00:00"
   },
   {
    "cat": "macro",
-   "title": "美国两年期国债收益率创1月以来新高",
-   "brief": "美国两年期国债收益率突破4.38%，创2025年1月以来新高，反映市场对利率路径的重新定价。",
-   "chain": "短端利率上行→成长股贴现率上升→美股AI高久期承压→A股算力链估值受压",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023861861577.html",
-   "ts": "2026-09-02 00:33:19"
-  },
-  {
-   "cat": "macro",
-   "title": "10年期美债收益率创1月新高",
-   "brief": "10年期美债收益率升至1月以来最高，因中东紧张局势重燃，避险情绪与通胀预期交织。",
-   "chain": "地缘避险+通胀预期→长端利率上行→美股估值承压→A股科技链情绪受抑",
+   "title": "10年期美债收益率创1月以来新高",
+   "brief": "中东紧张局势重燃，10年期美债收益率升至2025年1月以来最高。",
+   "chain": "避险情绪与通胀预期→美债收益率上行→美股估值承压，A股高估值成长股受抑制。",
    "impact": 8,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/09/01/bonds-treasury-yields-middle-east-tensions.html",
@@ -46,153 +45,163 @@
   },
   {
    "cat": "macro",
-   "title": "贝森特力挺债市，10年期收益率飙升",
-   "brief": "美国财长贝森特表示债市运行良好，10年期美债收益率飙升，市场关注财政与利率前景。",
-   "chain": "财长表态+收益率上行→利率预期升温→美股成长股承压→A股算力链联动",
+   "title": "德国财长：中东战事及美关税拖累全球增长",
+   "brief": "德国财长在G20会议表示，中东战事和美国关税政策是拖累全球经济增长的重要不确定因素。",
+   "chain": "全球增长担忧→风险资产承压→美股与A股联动下行，关注防御板块。",
    "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/01/bessent-trump-bond-yields-g20.html",
-   "ts": "Tue, 01 Sep 2026 17:20:12 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609023862617885.html",
+   "ts": "2026-09-02 12:15:02"
   },
   {
    "cat": "macro",
-   "title": "美联储隔夜逆回购使用规模骤降至7.25亿美元",
-   "brief": "美联储隔夜逆回购协议使用规模从67.26亿美元降至7.25亿美元，显示市场流动性变化。",
-   "chain": "流动性收紧信号→短端利率上行→美股估值承压→A股风险偏好受抑",
+   "title": "现货黄金日内跌1%报4283美元",
+   "brief": "现货黄金日内跌幅扩大至1%，报4283.74美元/盎司。",
+   "chain": "金价下跌或受实际利率上行驱动→美股AI高久期票估值压力→A股算力链情绪传导。",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023861869794.html",
-   "ts": "2026-09-02 01:19:46"
-  },
-  {
-   "cat": "geo",
-   "title": "美军打击伊朗革命卫队目标",
-   "brief": "美国中央司令部称，美军对伊朗境内伊斯兰革命卫队目标实施打击，以回应此前袭击。",
-   "chain": "美伊冲突升级→地缘风险溢价上升→美股波动→A股军工/油气链关注",
-   "impact": 10,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023861864690.html",
-   "ts": "2026-09-02 00:39:35"
-  },
-  {
-   "cat": "geo",
-   "title": "习近平抵达埃及开罗进行国事访问",
-   "brief": "国家主席习近平抵达开罗，应埃及总统塞西邀请进行国事访问，加强双边关系。",
-   "chain": "中埃合作深化→一带一路推进→A股基建/能源链关注",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023861851921.html",
-   "ts": "2026-09-02 00:01:26"
-  },
-  {
-   "cat": "geo",
-   "title": "印度拒绝法院维持印巴水条约的裁决",
-   "brief": "印度拒绝执行法院关于维持与巴基斯坦水共享条约的裁决，地区紧张加剧。",
-   "chain": "印巴紧张→南亚地缘风险→全球市场避险→A股情绪受抑",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/01/india-hague-ruling-pakistan-water-treaty.html",
-   "ts": "Tue, 01 Sep 2026 10:58:31 GMT"
+   "url": "https://finance.eastmoney.com/a/202609023862611858.html",
+   "ts": "2026-09-02 11:38:49"
   },
   {
    "cat": "oil",
-   "title": "上海原油主力合约日内涨6%",
-   "brief": "上海原油连续主力合约日内涨6%，现报675.70元，跟随国际油价上涨。",
-   "chain": "国际油价上涨→国内原油期货跟涨→A股油气板块受益",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023861861171.html",
-   "ts": "2026-09-02 00:32:16"
+   "title": "万斯：特朗普发哈尔克岛帖子是对伊朗传递信息",
+   "brief": "副总统万斯称特朗普关于哈尔克岛的帖子是对伊朗传递信息。",
+   "chain": "美伊紧张→油价风险溢价→莫桑比克LNG出口竞争力。",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeElJSjJGWk5EandMUHVfb3J5dmhzdzh2eVNWQjdZYnFPaGFzMmNLX2N1c21TQzFtb0tfeTRhTlBJMnlUVThxR1FqNXg2Q0pTanRSMnVlY0s5RDNqcHhqVVE3YjVrTnlTWGVXd3hERnc0N0lsdmJLcEM2Yk5EUnBKSnI4UUZKeDkwY2ZFVm1aRFJYRG8yR3hRV0RzZFhucUNzdnNjcTJGN3lPdVdPQXVwYmVOUHdzS01zRVE?oc=5",
+   "ts": "2026-08-31T15:46:18+00:00"
   },
   {
    "cat": "gas",
-   "title": "抵押贷款利率飙升，因中东袭击推高油价",
-   "brief": "抵押贷款利率升至2025年6月以来最高，因中东袭击推高油价，通胀预期升温。",
-   "chain": "油价上涨→通胀预期→利率上行→美国经济放缓→LNG需求或受抑",
-   "impact": 6,
+   "title": "中东袭击推高油价，房贷利率升至6月以来最高",
+   "brief": "新中东袭击推高油价，房贷利率升至2025年6月以来最高。",
+   "chain": "油价上涨→通胀预期→利率上行→影响能源项目融资成本，莫桑比克LNG需关注。",
+   "impact": 5,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/08/31/mortgage-rates-surge-middle-east-attacks-oil.html",
    "ts": "2026-08-31T17:56:01+00:00"
   },
   {
-   "cat": "gas",
-   "title": "欧盟航空安全局缩小海湾空域警告",
-   "brief": "欧盟航空安全局缩小了对海湾空域的警告范围，但地区风险仍存。",
-   "chain": "空域风险缓解→LNG运输成本或降→莫桑比克LNG出口物流改善",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbVczeUFtaTZ6UjkwS0lSdkI1ZE9xU195ZE5FTDJQZ01QdGNtelZHc3YwUXhfMDFwUUJidGFCTmtrVElnYjRNaU84N0FRb2I2cEdOQTE2dnBySDZFVFhxdlV3MkxSSmRURzRBSG9ENHA1Qkc4VTFZeUo4ZXJycjRDek9uX0ZIWGk1ZlJkWEZUZ3dQTEdlanFMVVhhSzJadmJJTjZLS3FwWTc1NGRTaFE?oc=5",
-   "ts": "2026-08-31T12:41:30+00:00"
+   "cat": "tech",
+   "title": "戴尔上调2027财年预测，AI服务器强劲",
+   "brief": "戴尔因AI服务器需求强劲，上调2027财年营收预测，股价大涨9%。",
+   "chain": "AI服务器需求→戴尔业绩→美股科技股提振→A股AI服务器产业链映射。",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/01/dell-q2-earnings-report-2027.html",
+   "ts": "Tue, 01 Sep 2026 21:40:18 GMT"
   },
   {
    "cat": "tech",
-   "title": "苹果新CEO、G20会议、FTC起诉亚马逊等",
-   "brief": "苹果新CEO上任，G20会议继续，FTC起诉亚马逊，科技行业面临监管与领导层变动。",
-   "chain": "苹果换帅+监管→科技股波动→A股苹果链关注",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/01/5-things-to-know-before-the-stock-market-opens.html",
-   "ts": "Tue, 01 Sep 2026 12:33:07 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "苹果进入Ternus时代，AI挑战与内存紧张",
-   "brief": "苹果新CEO Ternus面临AI挑战和内存短缺，市场关注其战略方向。",
-   "chain": "苹果AI战略→供应链需求→A股苹果链/存储链影响",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/01/apple-enters-ternus-era-as-ai-challenges-and-memory-crunch-intensify.html",
-   "ts": "Tue, 01 Sep 2026 16:27:54 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "Waymo和Zoox扩大美国市场，Robotaxi竞争加剧",
-   "brief": "Waymo和Zoox在更多美国市场扩张，自动驾驶出租车竞争白热化。",
-   "chain": "自动驾驶竞争→科技巨头投入→A股智能驾驶链关注",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/01/waymo-and-zoox-expand-into-more-us-markets-as-robotaxi-race-heats-up.html",
-   "ts": "Tue, 01 Sep 2026 14:00:01 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "CrowdStrike携手英伟达推出网络安全大模型",
-   "brief": "CrowdStrike与英伟达合作推出网络安全前沿大模型，强化AI安全能力。",
-   "chain": "AI安全需求→英伟达算力→美股AI链→A股网络安全/算力链",
+   "title": "戴尔：订单爆单，缺DRAM",
+   "brief": "戴尔管理层表示企业加快数据中心现代化，AI工作负载形成新需求，但DRAM短缺。",
+   "chain": "AI基础设施需求→存储芯片短缺→美股存储链→A股存储芯片概念。",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023861864473.html",
-   "ts": "2026-09-02 00:41:45"
+   "url": "https://finance.eastmoney.com/a/202609023862612197.html",
+   "ts": "2026-09-02 11:43:00"
   },
   {
-   "cat": "ai",
-   "title": "软银SB Energy申请IPO，称高度依赖OpenAI",
-   "brief": "软银旗下SB Energy申请IPO，表示业务高度依赖OpenAI，凸显AI能源需求。",
-   "chain": "AI能源需求→数据中心电力→美股AI链→A股电力设备链",
+   "cat": "tech",
+   "title": "GoPro转向数据中心，股价飙升40%",
+   "brief": "GoPro宣布进军数据中心业务，股价大涨40%。",
+   "chain": "传统硬件转型AI基础设施→美股科技股→A股算力概念情绪。",
    "impact": 6,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/01/sb-energy-ipo-softbank-open-ai-nvidia.html",
-   "ts": "Tue, 01 Sep 2026 16:40:27 GMT"
+   "url": "https://www.cnbc.com/2026/09/01/gopro-stock-ai-data-centers.html",
+   "ts": "Tue, 01 Sep 2026 20:28:08 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "杰富瑞下调甲骨文目标价至290美元",
+   "brief": "杰富瑞将甲骨文目标价从320美元下调至290美元。",
+   "chain": "云业务担忧→美股软件股承压→A股云计算板块联动。",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609023862617473.html",
+   "ts": "2026-09-02 12:14:22"
   },
   {
    "cat": "ai",
-   "title": "退出数据中心股票以保住收益，AI交易遇阻",
-   "brief": "投资俱乐部因AI交易受挫，退出数据中心股票以锁定收益，显示AI板块波动。",
-   "chain": "AI交易遇阻→数据中心股回调→美股AI链→A股算力链情绪",
+   "title": "OpenAI Astra模型跨过关键网络安全能力门槛",
+   "brief": "OpenAI称Astra模型是其首个跨过'关键'网络安全能力的模型，将很快提供。",
+   "chain": "AI安全能力提升→AI应用扩展→美股AI板块→A股AI安全概念。",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/01/open-ai-astra-cyber-model.html",
+   "ts": "2026-09-01T20:12:35+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "OpenAI即将发布新AI模型Astra",
+   "brief": "OpenAI计划很快推出Astra模型，初期网络安全功能仅限测试人员。",
+   "chain": "新模型发布→AI竞争加剧→美股AI链→A股AI应用与算力。",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609023862611731.html",
+   "ts": "2026-09-02 11:38:49"
+  },
+  {
+   "cat": "ai",
+   "title": "Anthropic获英伟达系Lambda 350亿美元云交易",
+   "brief": "Anthropic与英伟达支持的Lambda达成350亿美元云交易，此前还有500亿美元云交易。",
+   "chain": "AI算力需求→云厂商投资→美股AI基础设施→A股算力租赁。",
+   "impact": 9,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-31/anthropic-seals-35-billion-cloud-deal-with-nvidia-backed-lambda",
+   "ts": "2026-09-01T01:51:14+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "Palo Alto业绩超预期，AI需求强劲",
+   "brief": "Palo Alto Networks季度业绩超预期，AI需求推动，并继续收购。",
+   "chain": "AI驱动网络安全需求→美股网络安全→A股网络安全板块。",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/01/palo-alto-networks-panw-q4-2026-earnings.html",
+   "ts": "Tue, 01 Sep 2026 21:41:15 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Palo Alto CEO：1万亿美元网络安全基础设施未准备好应对AI",
+   "brief": "Palo Alto CEO表示，1万亿美元的网络安全基础设施尚未为AI做好准备。",
+   "chain": "AI安全缺口→网络安全投资→美股AI安全→A股网络安全。",
    "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/01/palo-alto-ceo-says-1-trillion-of-cybersecurity-infrastructure-isnt-ready-for-ai.html",
+   "ts": "Tue, 01 Sep 2026 23:20:44 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "AI代币价格创历史新低",
+   "brief": "AI代币价格触及新低，显示AI相关加密货币市场疲软。",
+   "chain": "AI泡沫担忧→风险偏好下降→美股AI股回调→A股AI概念承压。",
+   "impact": 5,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/01/ai-token-prices-lows.html",
+   "ts": "2026-09-01T16:08:31+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "退出数据中心股票以保护收益，AI交易遇阻",
+   "brief": "投资俱乐部因AI交易遇阻，退出数据中心股票以保护收益。",
+   "chain": "AI交易回调→美股数据中心股→A股IDC板块情绪。",
+   "impact": 5,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/09/01/were-exiting-a-data-center-stock-to-protect-big-gains-as-the-ai-trade-hits-a-rough-patch.html",
    "ts": "2026-09-01T15:54:28+00:00"
   },
   {
-   "cat": "ai",
-   "title": "AI代币价格创历史新低",
-   "brief": "AI代币价格触及新低，反映市场对AI概念炒作降温。",
-   "chain": "AI泡沫担忧→风险偏好下降→美股AI股→A股AI概念承压",
-   "impact": 5,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/09/01/ai-token-prices-lows.html",
-   "ts": "2026-09-01T16:08:31+00:00"
+   "cat": "macro",
+   "title": "中国制造业PMI回升至49.8，仍低于荣枯线",
+   "brief": "中国官方制造业PMI连续第二个月回升至49.8，但仍在荣枯线下方。",
+   "chain": "中国经济数据→全球增长预期→美股与A股联动，关注政策刺激。",
+   "impact": 6,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-31/china-factory-activity-edges-up-in-hopeful-sign-for-economy",
+   "ts": "2026-08-31T15:27:58+00:00"
   }
  ]
 }

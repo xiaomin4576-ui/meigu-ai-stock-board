@@ -1,6 +1,6 @@
 {
  "asof": "2026-09-02",
- "fetched_at": "2026-09-02T01:30+08:00",
+ "fetched_at": "2026-09-02T12:24+08:00",
  "meta": {
   "counts": {
    "TechCabal": 0,
@@ -12,14 +12,14 @@
    "Condia": 25,
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
-   "Zimbabwe Situation": 2,
+   "Zimbabwe Situation": 0,
    "African Business": 1,
    "非洲科技·聚合": 10,
    "中非科技·聚合": 16
   },
   "total": 60,
-  "ai_flagged": 23,
-  "aiinfra_flagged": 6,
+  "ai_flagged": 21,
+  "aiinfra_flagged": 4,
   "countries": 6
  },
  "items": [
@@ -294,26 +294,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Student remains in custody over US$1,1m cyber theft",
-   "brief": "Source: Student remains in custody over US$1,1m cyber theft – herald Yeukai Karengezeka-Chisepo-Court Correspondent A MIDLANDS State University final-year computer science student accused of using malware to siphon over ",
-   "source": "Zimbabwe Situation",
-   "url": "https://www.zimbabwesituation.com/news/student-remains-in-custody-over-us11m-cyber-theft/",
-   "date": "Tue, 01 Sep 2026 04:24:05 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Digital inclusion opens doors for people with disabilities",
-   "brief": "Source: Digital inclusion opens doors for people with disabilities – herald Ryan Sibanda ryanhenrysibanda@gmail.com DIGITAL inclusion is increasingly becoming a critical requirement for people with disabilities, as acces",
-   "source": "Zimbabwe Situation",
-   "url": "https://www.zimbabwesituation.com/news/digital-inclusion-opens-doors-for-people-with-disabilities/",
-   "date": "Tue, 01 Sep 2026 03:59:07 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "EU designates ChatGPT as search engines under new digital rules",
    "brief": "The EU's classification as a search engine reflects how users increasingly rely on it to find and synthesise information online.",
    "source": "Condia",
@@ -322,16 +302,6 @@
    "country": null,
    "is_ai": true,
    "is_aiinfra": false
-  },
-  {
-   "title": "US-China AI Rivalry Escalates in Egypt: Why Huawei’s Data Centers Matter",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPN1A0WVpCQnpNQnFMU2VjZmxka3Jmb0VFQ0hEMGlCc2M1Qy1tQTJpc19QbHZYTVEtdWR2WXBOZjFSLVRCRDM1VmxoX0pJU19GMldiQlVHSEpkTG5fazZiXzVmb3hVakxsVnFvd1pUR2lpQXVNLXRYUXdiRkl0TF",
-   "source": "moderndiplomacy.eu·聚合",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN1A0WVpCQnpNQnFMU2VjZmxka3Jmb0VFQ0hEMGlCc2M1Qy1tQTJpc19QbHZYTVEtdWR2WXBOZjFSLVRCRDM1VmxoX0pJU19GMldiQlVHSEpkTG5fazZiXzVmb3hVakxsVnFvd1pUR2lpQXVNLXRYUXdiRkl0TFNPZi1CbDdXZFhoQ0ZyWVE0cHV4SmxLMkp2MVBXdjhwNTJaVm15MlkzRjVUZl9nb3c?oc=5",
-   "date": "Mon, 31 Aug 2026 14:50:00 GMT",
-   "country": "🇪🇬 埃及",
-   "is_ai": true,
-   "is_aiinfra": true
   },
   {
    "title": "Yele Bademosi steps down as Onboard CEO, becomes chairman",
@@ -374,6 +344,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "Huawei H1 profit drop quickens to 36% on rising costs, R&D spending",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPbUJkeGhPRUd6R2h1NC1xVU1nZGlLcXNZbEJMd1dDcjYxWDFuWTd1dlk2QWlyQXJzQi1WZHJKMllEaW9tM1IySTYzZUwyc21Ua3IxN2Q0UE9ZNm11bzg5eE14dFFTZ2ZpTndMdWJEazRDNnJtZXd0U295SkRBWn",
+   "source": "WTVB·聚合",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbUJkeGhPRUd6R2h1NC1xVU1nZGlLcXNZbEJMd1dDcjYxWDFuWTd1dlk2QWlyQXJzQi1WZHJKMllEaW9tM1IySTYzZUwyc21Ua3IxN2Q0UE9ZNm11bzg5eE14dFFTZ2ZpTndMdWJEazRDNnJtZXd0U295SkRBWnE2bHBzLWo0NVhRVHd1Nl9LTENZaElJUkNGWHNUdw?oc=5",
+   "date": "Mon, 31 Aug 2026 11:46:08 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "Mamor Capital raises R300m for SA tech start-ups",
    "brief": "The venture capital firm will invest R300 million in scalable SA tech businesses after securing institutional backing for its first fund.",
    "source": "ITWeb Africa",
@@ -384,13 +364,13 @@
    "is_aiinfra": false
   },
   {
-   "title": "Huawei H1 profit drop quickens to 36% on rising costs, R&D spending",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPM1I4TEstT1VlcF91UEZnTXNwSHVuaFNrc1dhQ2F1dFNZdG9YZmFFR2YydTEzRDlUZ1lzN3lFbFZnTFRkejJ6TDFWcF9NcU9BUlVJWmJ3TzM2bTNJby1pS1FETXFpOWtFblNfdWJKZjk3UU1ybkwtbHZfNmZ6MG",
-   "source": "Reuters·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM1I4TEstT1VlcF91UEZnTXNwSHVuaFNrc1dhQ2F1dFNZdG9YZmFFR2YydTEzRDlUZ1lzN3lFbFZnTFRkejJ6TDFWcF9NcU9BUlVJWmJ3TzM2bTNJby1pS1FETXFpOWtFblNfdWJKZjk3UU1ybkwtbHZfNmZ6MGhYcUZGMGZrUGswRHM2RU9VQ0lfc3RUUjR1QXFmdUUwMUVJQUduRHFqNFJsbTJzUHRNMXVJSQ?oc=5",
-   "date": "Mon, 31 Aug 2026 11:08:59 GMT",
-   "country": null,
-   "is_ai": false,
+   "title": "Huawei Launches Agentic AI Cloud in Nigeria to Accelerate AI Adoption",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQeldjckxtTDM2cVlwUl9sTDRQbVhMMUJILXltcGw4TS1HU0ZpSUhpb2kwQ0NDWTh5SW91cjBiMEYybVJ3WVBBU0ZSVDlMUExWWVhqVExYQU1qQnlWMjBqcGxLRGZmWEpmT0FGUUtjY2FOTlpfZTNJMkNPLWRabm",
+   "source": "TechAfrica News·聚合",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeldjckxtTDM2cVlwUl9sTDRQbVhMMUJILXltcGw4TS1HU0ZpSUhpb2kwQ0NDWTh5SW91cjBiMEYybVJ3WVBBU0ZSVDlMUExWWVhqVExYQU1qQnlWMjBqcGxLRGZmWEpmT0FGUUtjY2FOTlpfZTNJMkNPLWRabmd3NktmbVJlUQ?oc=5",
+   "date": "Mon, 31 Aug 2026 11:05:24 GMT",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -454,6 +434,26 @@
    "is_aiinfra": false
   },
   {
+   "title": "India evaluates plan to replace legacy telecom gear from China's Huawei, ZTE; assesses cost impact",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxPQlNVd01WN0dQYkxBUFJlODNVelQ4SWQwVlhvc08xWU1rQlFKN2lSa3VoUnNEOGtkOFBzWFdMS243a1BMNDBxT0otRVJGNmVwdEE2YTZhalZLQm1vbnR1Y1pSOXotdGlJaW15ZnZvMkphS2hkTU1nc1dNRlB6UE",
+   "source": "Moneycontrol.com·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPQlNVd01WN0dQYkxBUFJlODNVelQ4SWQwVlhvc08xWU1rQlFKN2lSa3VoUnNEOGtkOFBzWFdMS243a1BMNDBxT0otRVJGNmVwdEE2YTZhalZLQm1vbnR1Y1pSOXotdGlJaW15ZnZvMkphS2hkTU1nc1dNRlB6UEpLanhqUDhxbENRcjcyWWNJZ1A2Wk5tWmdRUVRvNC1TLWJ5Sy1VNGFzYVRHaWZYTVhqd2o5SGY4ZDhhc1BGQzJoTHVCaTFVaDdUNGNURFhhdnRiSVZQWHdyQjNtWGMyZU9JWWg3bTEycUnSAewBQVVfeXFMT01lX3ZCbnQzV0ljTVZ5amJ6dkVWWndDcjFKSFdrcFZxTDYza2o5WkRhU3NoU09vVUtNZU9GTHpzVVcwTWs0U1JtekxmM3B4YXVIb0RjTUJmNGc2U0dBa3Bqak5ScmpnMUpnNVRVTlVobmlCcGl6WU10MjR0Umg4eEgzVFJDbU8tV0pBb3FaclRRdFg0d0dkbmJyb0FicFM3VWhsYm50eTlabEdpeU9kbUV6RU5MX2JIbkV2MHhwTjA2MDBaV3hRLXQxb1A0ZUFOYnNDQmYwRmNvZVJ3aTh0cE8xVFlpR3JyVEMtUF8?oc=5",
+   "date": "Mon, 31 Aug 2026 05:44:30 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "African Union and China explore deeper cooperation on infrastructure, energy and digital transformation",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTVB0SXlWVVNlUEdQLTNUNGFScVJsOHI2aDdVZnZ0eWIzcDhQd1F3V1FnbmtLOWNkVE54VFpaRDFNNHV0RmdJQ0JKbDZQLS1CVEJpb0hGYmlfdzBYNmR0eDg4bmhQalFHazQ0d2gwQVNnQmlWMmVQWmxfU1hheU",
+   "source": "Tech Review Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTVB0SXlWVVNlUEdQLTNUNGFScVJsOHI2aDdVZnZ0eWIzcDhQd1F3V1FnbmtLOWNkVE54VFpaRDFNNHV0RmdJQ0JKbDZQLS1CVEJpb0hGYmlfdzBYNmR0eDg4bmhQalFHazQ0d2gwQVNnQmlWMmVQWmxfU1hheUZJTW56bFhmYUhuaENZTFBIbkZSbHhCUEdhOG1lbnA1WEJQVWhGMUw0YUttYXBET2pBenBVTXVtWmZLMFAxRkhHN0tIS2Uxb2FPNmVPNV9wWkNhTWRGcHVVX2E?oc=5",
+   "date": "Sun, 30 Aug 2026 13:35:08 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "America mobilises 3 powerful tech giants to Africa’s second-richest economy to counter China’s Huawei bid to build 2,008-chip AI data centre",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOFpBaUhWbGJoRnpmWi16cFZvby1XUUhleUtEUDNQdlNRZnlRS2tMTjRfQWRXNy1JS1RnbS1Yek9wV3lHbnNvNlhYNmx2M19rbVZfZVBXQ2RhVW0tdVJpeWM0NDJFNUhoSURXRzVwQkljajZPSjR6WlhweTFvUH",
    "source": "Business Insider Africa·聚合",
@@ -484,6 +484,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "South African armoured vehicle technology targets Europe after Ukraine approval opens NATO opportunities",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaVdhUFBHTjNrY1pybDFiYTJuZk1tQlAyTU9BMi1wbEt5MktjU3o5YjV6V2FoNDV3a3dYc0daY05fVDlXM2tQLXU0ejVUTHY3YTNrRFAyM2xaRzdkOWJzZE0tOGtUUkwta0RYc3pWZnU4SGtWS3oxZ25NS0FjWE",
+   "source": "Business Insider Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaVdhUFBHTjNrY1pybDFiYTJuZk1tQlAyTU9BMi1wbEt5MktjU3o5YjV6V2FoNDV3a3dYc0daY05fVDlXM2tQLXU0ejVUTHY3YTNrRFAyM2xaRzdkOWJzZE0tOGtUUkwta0RYc3pWZnU4SGtWS3oxZ25NS0FjWEtialpCR1FDUVZYdkJCMllmenZYYUVXVmFxX0tubDZkRnZvcFN0dUNOWEUwMlpzMTIyTUVHdmYxbEdfa2JVMDlMdGVoUTBNMmFoZXR4aHdRVUFnNzFVRG5XbldWQQ?oc=5",
+   "date": "Sun, 30 Aug 2026 05:30:00 GMT",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "China Africa Digital Center Critical Minerals Strategy",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTFB3S1RSZ0Z3aXFpNWRZc0t0M1ROTVlYQUVWRGE0NjJmUHQyM1EwRnBYSG1GTmJYV0dhM0lZcGQ3cmY5YmtEWmVzVlhqS1JSWklVN2hSWkVjbDBsUkdKRGxGeUtNU211ZDFuWlotRDlibDdadU83UUVCaW5MeGV6QQ",
    "source": "Rare Earth Exchanges·聚合",
@@ -504,32 +514,12 @@
    "is_aiinfra": false
   },
   {
-   "title": "US Warns Over Huawei’s AI Data Center Offer to Egypt for Military and Surveillance Uses",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdnk1WXZzRmwxRVVCbVdISFE3SU1pNFREWHNwdURBdWRPRnY2QWVqcjFPUnhnVVZfWGpiRHRfUEhRRUh5NTNSZ1dOeDBNNnJseUxiZHE3UG5kYUxRLXJlLUlWMXJSLTJVdXdkN1hRTmxUUnV4Q25OcEx3UWF1MT",
-   "source": "moderndiplomacy.eu·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdnk1WXZzRmwxRVVCbVdISFE3SU1pNFREWHNwdURBdWRPRnY2QWVqcjFPUnhnVVZfWGpiRHRfUEhRRUh5NTNSZ1dOeDBNNnJseUxiZHE3UG5kYUxRLXJlLUlWMXJSLTJVdXdkN1hRTmxUUnV4Q25OcEx3UWF1MTNtQ0pRWnBQdWZZN1JqSVZQRFd6N2lJS2lEclNfWHc3bnluUUxXYnNqcllnZ28tdXFPTEV0SFc0SlNDMlN3Mm1rbnRWUzQ?oc=5",
-   "date": "Fri, 28 Aug 2026 16:15:00 GMT",
-   "country": "🇪🇬 埃及",
-   "is_ai": true,
-   "is_aiinfra": true
-  },
-  {
    "title": "SEC draft rules could force consolidation in Nigeria’s digital assets industry",
    "brief": "The number in question is ₦2 billion, the minimum capital the SEC now requires of any digital asset exchange or digital asset custodian.",
    "source": "Condia",
    "url": "https://thecondia.com/sec-rules-could-shrink-nigeria-crypto-market/",
    "date": "Fri, 28 Aug 2026 14:31:08 +0000",
    "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Sudan’s Minister of Digital Transformation Participates in Opening of China-Africa Digital Technology Cooperation Center",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVG9CLTJRcXNNYTk3SlNXay1FVXVtcUlHTko4eFR6QXR0Qk9FOUJoTjVteHdISXZlMWtKVy1VdDBxWmpKQnhrcXg1VWh0TVcxeHhXaF8wQWFaNzVocHJwMV9GTDdKczRYMTg4RDlybEg3SkU4TGZNbUc0VHE4Q3",
-   "source": "Sudan Horizon·聚合",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVG9CLTJRcXNNYTk3SlNXay1FVXVtcUlHTko4eFR6QXR0Qk9FOUJoTjVteHdISXZlMWtKVy1VdDBxWmpKQnhrcXg1VWh0TVcxeHhXaF8wQWFaNzVocHJwMV9GTDdKczRYMTg4RDlybEg3SkU4TGZNbUc0VHE4Q3oxZXYtWTFYTEt6T2M0YmxSb3dVaklfdkVNT2ZxZmRJYnNUMF91UFlSWjRiRUZTalhSUXZUOExya2xvd1Vmb3JEQ2prUC1MV2ZDU0UyOEV5eTlUeDNUaWF1NWNJS1BPalE?oc=5",
-   "date": "Fri, 28 Aug 2026 14:18:37 GMT",
-   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -620,6 +610,16 @@
    "url": "https://www.itnewsafrica.com/2026/08/syria-marks-first-international-card-transaction-in-more-than-15-years-with-mastercard-and-qnb-group/",
    "date": "Fri, 28 Aug 2026 05:17:00 +0000",
    "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "How to start a fintech in Nigeria in 2026: Licences, costs, CBN requirements and launch guide",
+   "brief": "Learn how to start a fintech in Nigeria, from CAC registration and CBN licences to costs, compliance, technology, and launch timelines.",
+   "source": "Condia",
+   "url": "https://thecondia.com/how-to-start-fintech-in-nigeria-guide/",
+   "date": "Fri, 28 Aug 2026 05:08:58 +0000",
+   "country": "🇳🇬 尼日利亚",
    "is_ai": false,
    "is_aiinfra": false
   }
