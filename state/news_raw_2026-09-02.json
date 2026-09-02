@@ -1,13 +1,13 @@
 {
  "asof": "2026-09-02",
- "fetched_at": "2026-09-02T12:24+08:00",
+ "fetched_at": "2026-09-02T14:26+08:00",
  "meta": {
   "counts": {
    "finnhub": 40,
    "em": 40,
-   "rss": 100
+   "rss": 90
   },
-  "total": 161
+  "total": 149
  },
  "candidates": [
   {
@@ -97,6 +97,24 @@
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/09/01/bonds-treasury-yields-middle-east-tensions.html",
    "ts": "2026-09-01T10:47:52+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "India’s GDP growth beat suggests economy on cusp of investment boom",
+   "summary": "The economy grew at a brisk 7.8% pace in the three months-ended June, data on Monday showed, driven by manufacturing, construction and services sectors. Household demand remained an ongoing source of strength.",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-01/india-s-growth-beat-suggests-economy-on-cusp-of-investment-boom",
+   "ts": "2026-09-01T06:01:59+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Anthropic’s mega-IPO plan looms over packed US listing calendar",
+   "summary": "Some firms are reported to be finding it hard to get the attention of long-term investors at a time when Anthropic’s offer is looming around the corner",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-31/anthropic-s-mega-ipo-plan-looms-over-packed-us-listing-calendar",
+   "ts": "2026-09-01T04:27:24+00:00",
    "origin": "finnhub",
    "age_days": 1
   },
@@ -353,380 +371,362 @@
    "age_days": 2
   },
   {
-   "title": "UAE says forces dealt with drone coming from Iran, condemns attack as dangerous escalation - Reuters",
-   "summary": "UAE says forces dealt with drone coming from Iran, condemns attack as dangerous escalation  Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVXk2eGdfMGhUaFdETXlkcElqTC1qLWNlMlJRV0dPVGcydXpiT19FMGtqdGxGX09BTGJKSXA3REkyRW1XWkhWVjVGbzItNkJYLWtiajJEY29IazAwa2ItbjVCNThkQUppOUVZY1pKNzBYaHFlSnllWkJ1ZnpONF9zOV9meC1uOVBDekpUaGNUcEpQOFAyVHFMUUFISFBsX3VGSHBTYkJyaml4NmRUOUxJb2RWb1d5UUkwdVg0TTZmaDlfZw?oc=5",
-   "ts": "2026-08-31T09:15:13+00:00",
-   "origin": "finnhub",
-   "age_days": 2
-  },
-  {
-   "title": "Lithium miners post big profits as battery storage demand surges",
-   "summary": "China’s globally-watched spot price for lithium surged 22% over the first half as energy storage emerged as a meaningful demand source due to the growth of data centers and renewable power",
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-08-31/lithium-miners-post-big-profits-as-battery-storage-demand-surges",
-   "ts": "2026-08-31T07:32:04+00:00",
-   "origin": "finnhub",
-   "age_days": 2
-  },
-  {
-   "title": "日经225指数低开低走大跌3%",
-   "summary": "日经225指数低开低走大跌3%，现报64265点。",
+   "title": "9月2日全国农产品批发市场猪肉平均价格为16.40元/公斤 比昨天上升1.2%",
+   "summary": "【9月2日全国农产品批发市场猪肉平均价格为16.40元/公斤 比昨天上升1.2%】据农业农村部监测，9月2日“农产品批发价格200指数”为116.16，比昨天上升0.06个点，“菜篮子”产品批发价格指数为116.79，比昨天上升0.07个点。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862617515.html",
-   "ts": "2026-09-02 12:15:12",
+   "url": "https://finance.eastmoney.com/a/202609023862693327.html",
+   "ts": "2026-09-02 14:24:01",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "德国财长：中东战事及美国关税拖累全球经济增长",
-   "summary": "【德国财长：中东战事及美国关税拖累全球经济增长】德国财长克林拜尔9月1日在二十国集团财长和央行行长会议期间表示，中东战事以及不断出台的美国关税政策是拖累全球经济增长的重要不确定因素。",
+   "title": "欧元区国债收益率连续第六个交易日上行",
+   "summary": "欧元区国债收益率连续第六个交易日上行，德国两年期国债收益率触及2024年6月以来最高水平，报2.975%。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862617885.html",
-   "ts": "2026-09-02 12:15:02",
+   "url": "https://finance.eastmoney.com/a/202609023862692020.html",
+   "ts": "2026-09-02 14:20:09",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "蓝色起源获得火星通信网络开发合同",
-   "summary": "【蓝色起源获得火星通信网络开发合同】美国航空航天局9月1日表示，已授予蓝色起源公司一份合同，由其负责开发火星通信网络，旨在为当前及未来火星探测任务提供可靠的高带宽通信及导航服务。",
+   "title": "天赐材料：电解液及六氟磷酸锂产能基本满产",
+   "summary": "【天赐材料：电解液及六氟磷酸锂产能基本满产】9月2日午间，天赐材料在深交所互动易平台回答了投资者有关公司产能情况的提问。公司回复表示，从目前下游电芯厂的需求反馈看，目前，电解液产品订单需求饱满，公司电解液及六氟磷酸锂产能利用率已基本处于满产水平。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862617738.html",
-   "ts": "2026-09-02 12:15:02",
+   "url": "https://finance.eastmoney.com/a/202609023862687881.html",
+   "ts": "2026-09-02 14:20:00",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "杰富瑞将甲骨文目标价从320美元下调至290美元",
-   "summary": "杰富瑞将甲骨文目标价从320美元下调至290美元。",
+   "title": "东升宇航年内计划出厂三颗高性能卫星",
+   "summary": "【东升宇航年内计划出厂三颗高性能卫星】9月2日，界面新闻从东升宇航获悉，该公司计划今年研制出厂两颗高性能互联网卫星及一颗高性能SAR遥感卫星，已完成7000kg超大型通用卫星平台研制及地面试验，正在研制10kW级大型算力卫星；根据批产互联网卫星研制需求，公司已完成大型柔性太阳翼，高集成综合电子、5G星载基站及大面积全数字相控阵天线等产品的自研及地面验证。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862617473.html",
-   "ts": "2026-09-02 12:14:22",
+   "url": "https://finance.eastmoney.com/a/202609023862689470.html",
+   "ts": "2026-09-02 14:18:25",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "巴克莱将阿迪达斯评级从“持有（Equal Weight）”上调至“超配（Overweight）”",
-   "summary": "巴克莱将阿迪达斯评级从“持有（EqualWeight）”上调至“超配（Overweight）”，同时将目标价从190欧元上调至210欧元。",
+   "title": "腾讯WorkBuddy宣布开放平台上线",
+   "summary": "【腾讯WorkBuddy宣布开放平台上线】腾讯WorkBuddy宣布开放平台（open.WorkBuddy.cn）正式上线，首批引入超百家生态伙伴，面向智能硬件、行业应用与开发者等开放底层Agent能力。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862617977.html",
-   "ts": "2026-09-02 12:13:58",
+   "url": "https://finance.eastmoney.com/a/202609023862689012.html",
+   "ts": "2026-09-02 14:16:37",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "天工机器人完成数亿元融资",
-   "summary": "【天工机器人完成数亿元融资】据初芯基金消息，近日，北京天下先智创机器人技术有限责任公司（天工机器人）完成数亿元融资。本轮融资由初芯基金领投，经纬创投、合肥国资等机构跟投。本次募集资金将重点用于分拣类机器人扩大量产规模、基于人形的分拣机器人研发与商用化迭代及海外市场业务拓展。",
+   "title": "伊朗军方：周三上午袭击了位于阿联酋的美军基地",
+   "summary": "伊朗军方称，周三上午袭击了位于阿联酋的美军基地。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862617095.html",
-   "ts": "2026-09-02 12:13:02",
+   "url": "https://finance.eastmoney.com/a/202609023862687064.html",
+   "ts": "2026-09-02 14:15:25",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "港股午评：恒生指数跌0.96% 恒生科技指数跌1.54%",
-   "summary": "【港股午评：恒生指数跌0.96% 恒生科技指数跌1.54%】港股午间收盘，恒生指数跌0.96%，恒生科技指数跌1.54%。大型科网股多数下跌，百度跌2.61%，阿里巴巴跌近2%，腾讯控股跌逾1%。半导体股普跌，华虹宏力、宏光半导体跌逾4%，上海复旦跌逾2%，中芯国际跌近2%。有色金属板块跌幅居前，赣锋锂业跌逾6%，五矿资源跌超5%，招金矿业、中国有色矿业、洛阳钼业、紫金黄金国际跌超4%。",
+   "title": "绕开霍尔木兹海峡 卡塔尔、阿联酋LNG货物转向船对船转运",
+   "summary": "【绕开霍尔木兹海峡 卡塔尔、阿联酋LNG货物转向船对船转运】船舶追踪机构Vortexa和Kpler的数据显示，近几周，3批分别在卡塔尔和阿联酋装载的液化天然气（LNG）货物在霍尔木兹海峡以外通过船对船（STS）方式完成转运，随后分别运往印度和日本。其中，希腊航运公司GasLog控制的LNG运输船于8月底在阿曼近海与“GasLogSavannah”号完成船对船转运。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862616392.html",
-   "ts": "2026-09-02 12:10:12",
+   "url": "https://finance.eastmoney.com/a/202609023862686881.html",
+   "ts": "2026-09-02 14:12:51",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "中国气象局：9月或有5到7个台风生成",
-   "summary": "【中国气象局：9月或有5到7个台风生成】中国气象局举行新闻发布会。国家气候中心副主任高荣介绍，预计9月，西北太平洋和南海海域有5~7个台风生成，接近常年同期（5.1个）到偏多；有2~3个台风登陆或明显影响我国，较常年同期（1.6个）偏多；强度总体偏强，主要影响华东和华南沿海地区，存在较强台风北上影响我国北方地区的风险。",
+   "title": "李飞飞World Labs发布全球首个多模态世界模型Atlas",
+   "summary": "【李飞飞World Labs发布全球首个多模态世界模型Atlas】“AI教母”李飞飞的创企WorldLabs今日发布了“全球首个多模态世界模型”——Atlas，宣称该模型能够以像素级精确的相机控制生成图像和视频帧，并将其在3D中重建。WorldLabs官方介绍，其从头开始对Atlas进行预训练，使其能够接受多模态输入，并将其转化为3D视图。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862615967.html",
-   "ts": "2026-09-02 12:05:18",
+   "url": "https://finance.eastmoney.com/a/202609023862685856.html",
+   "ts": "2026-09-02 14:11:43",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "欣旺达动力科技公司增资至约145.2亿",
-   "summary": "【欣旺达动力科技公司增资至约145.2亿】天眼查App显示，近日，欣旺达动力科技股份有限公司发生工商变更，注册资本由约140.9亿人民币增至约145.2亿人民币。该公司成立于2014年10月，法定代表人为王明旺，经营范围包括软件开发及销售、新能源汽车充电设施运营、新能源汽车充电设备及配件的研发与销售等。股东信息显示，该公司由欣旺达惠州新能源有限公司、嘉兴颀辰股权投资合伙企业（有限合伙）、青岛鑫旺绿色新能源投资合伙企业（有限合伙）等共同持股。",
+   "title": "沪深两市成交额突破1.5万亿 较上一个交易日此时缩量超2100亿元",
+   "summary": "沪深两市成交额突破1.5万亿，较上一个交易日此时缩量超2100亿元。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862615853.html",
-   "ts": "2026-09-02 12:05:02",
+   "url": "https://finance.eastmoney.com/a/202609023862685483.html",
+   "ts": "2026-09-02 14:11:22",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "9月2日午间新闻精选",
-   "summary": "【9月2日午间新闻精选】1、截至午间收盘，沪指跌0.82%，深证成指跌1.71%，创业板指跌2.18%。2、港股午间收盘，恒生指数跌0.96%，恒生科技指数跌1.54%。3、国家能源局召开新型电网建设工作部署会，加快输电通道等重大电网工程核准建设。4、美国10年期国债收益率一度攀升至4.8102%，为2023年末以来最高水平。5、当地时间9月1日，美国总统特朗普表示，他并未像美国媒体所报道的那样，试图逼迫伊朗重返谈判桌，并称自己并不在意伊朗是否签署一份“毫无价值的协议”。",
+   "title": "英国石油公司任命伊恩·泰勒为董事长",
+   "summary": "【英国石油公司任命伊恩·泰勒为董事长】9月2日，英国石油公司宣布，经过包括内部和外部候选人在内的广泛遴选，已任命伊恩·泰勒（IanTyler）为公司董事长。伊恩于2025年4月以非执行董事身份加入英国石油公司董事会，并于2026年5月26日被任命为临时董事长。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862615774.html",
-   "ts": "2026-09-02 12:04:16",
+   "url": "https://finance.eastmoney.com/a/202609023862685328.html",
+   "ts": "2026-09-02 14:11:22",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "大普微：SCM SSD产品具备批量供应能力",
-   "summary": "【大普微：SCM SSD产品具备批量供应能力】大普微在互动平台表示，公司SCM SSD产品具备批量供应能力，公司将根据客户需求持续推进相关产品的迭代研发与市场拓展。",
+   "title": "MLCC巨头：订单已锁定到2027年底",
+   "summary": "【MLCC巨头：订单已锁定到2027年底】9月1日，三星电机宣布，其与某全球知名客户签订了价值1.07万亿韩元（约合人民币52.54亿元）的MLCC（片式多层陶瓷电容器）供应合同，产品用途是AI服务器，供货期限为2027年全年。该笔合同金额占到了三星电机MLCC事业部全年营收的21%。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862614516.html",
-   "ts": "2026-09-02 11:56:02",
+   "url": "https://finance.eastmoney.com/a/202609023862684076.html",
+   "ts": "2026-09-02 14:11:08",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "伊朗官员称美军袭击胡齐斯坦省已致7人死亡",
-   "summary": "【伊朗官员称美军袭击胡齐斯坦省已致7人死亡】据伊朗方面2日消息，伊朗西南部胡齐斯坦省负责安全事务的副省长说，美军前一晚对该省发动的袭击造成7人死亡、8人受伤。（央视新闻）",
+   "title": "迈赫智慧仓储管理系统通过软件产品评估",
+   "summary": "【迈赫智慧仓储管理系统通过软件产品评估】迈赫股份消息，近日，迈赫股份自主研发的迈赫智慧仓储管理系统通过软件产品评估，并取得软件产品证书。此次评估通过，是对系统产品规范性、技术成熟度及应用能力的专业认可，也进一步体现了迈赫股份在工业智能仓储领域的自主研发能力与产品化水平。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862614469.html",
-   "ts": "2026-09-02 11:54:50",
+   "url": "https://finance.eastmoney.com/a/202609023862686352.html",
+   "ts": "2026-09-02 14:11:00",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "Melius Research将戴尔科技目标价格从650美元上调至735美元",
-   "summary": "【Melius Research将戴尔科技目标价格从650美元上调至735美元】MeliusResearch将戴尔科技目标价格从650美元上调至735美元。",
+   "title": "莫斯科谢列梅捷沃机场暂停航班",
+   "summary": "莫斯科谢列梅捷沃机场暂停航班。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862614897.html",
-   "ts": "2026-09-02 11:52:41",
+   "url": "https://finance.eastmoney.com/a/202609023862685241.html",
+   "ts": "2026-09-02 14:10:54",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "国家医保局：特例单议保障医疗机构收治疑难重症的积极性与合理性",
-   "summary": "【国家医保局：特例单议保障医疗机构收治疑难重症的积极性与合理性】国家医保局召开新闻发布会，发布按病种付费3.0版分组方案和技术规范。国家医保局有关负责人介绍，特例单议是按病种付费的重要配套机制，重点支持医疗机构使用新药耗新技术、收治疑难复杂重症，由医疗机构自主向医保经办机构申报，经专家审核评议后，符合条件的可给予合理补偿。根据3.0版分组方案，DRG付费的统筹地区特例单议数量不超过DRG出院总病例的5%；DIP付费的统筹地区特例单议数量进行适度调整优化，2027年起可不超过DIP出院总病例的1%，更好满足医疗机构实际运行疑难重症申报需求。",
+   "title": "紫微科技完成数亿元新一轮融资",
+   "summary": "【紫微科技完成数亿元新一轮融资】近日，北京紫微宇通科技有限公司（简称\"紫微科技\"）完成新一轮数亿元人民币融资。本轮新进投资方包括东方富海、云晖资本、弘晖资产、博源资本及中关村科学城等；四川省科创投、成都经开资本、合信方册等老股东亦在本轮继续追加投资。在此之前，经纬创投、闻名投资、联想之星、雅瑞资本、天奇创投、梁溪科创、梁溪天使基金、四川兴川基金、成都交投、晓池资本等均已布局紫微科技。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862613356.html",
-   "ts": "2026-09-02 11:51:31",
+   "url": "https://finance.eastmoney.com/a/202609023862685066.html",
+   "ts": "2026-09-02 14:10:40",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "订单爆单后戴尔回应：缺的就是DRAM、DRAM、DRAM",
-   "summary": "【订单爆单后戴尔回应：缺的就是DRAM、DRAM、DRAM】戴尔管理层表示，企业正加快数据中心现代化改造，AI尤其是智能体工作负载正在形成新的基础设施需求。基于当前订单和需求，公司将2027财年全年营收指引中值由1670亿美元上调至1920亿美元，AI优化服务器全年营收预期由600亿美元上调至740亿美元。此外，在被问及当前最主要的供应限制时，戴尔副董事长兼首席运营官杰夫·克拉克称：“限制因素依然如旧，就是DRAM、DRAM、DRAM，其次是NAND、NAND、NAND。”",
+   "title": "日本央行官员讲话后日元兑美元汇率一度上涨0.3%",
+   "summary": "日本央行官员讲话后，日元兑美元汇率一度上涨0.3%至159.69。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862612197.html",
-   "ts": "2026-09-02 11:43:00",
+   "url": "https://finance.eastmoney.com/a/202609023862684918.html",
+   "ts": "2026-09-02 14:10:31",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "半日主力资金丨加仓国防军工板块 抛售有色金属股",
-   "summary": "【半日主力资金丨加仓国防军工板块 抛售有色金属股】主力资金早间净流入国防军工、建筑材料、汽车等板块，净流出有色金属、通信、非银金融等板块。",
+   "title": "东阳光成立科技控股新公司 含智能机器人业务",
+   "summary": "【东阳光成立科技控股新公司 含智能机器人业务】企查查显示，近日，湖北东阳光光谷东智科技控股有限公司成立，经营范围包含智能机器人的研发；工业机器人制造；服务消费机器人制造；特殊作业机器人制造等。企查查股权穿透显示，该公司由东阳光全资持股。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862612813.html",
-   "ts": "2026-09-02 11:42:03",
+   "url": "https://finance.eastmoney.com/a/202609023862683632.html",
+   "ts": "2026-09-02 14:09:30",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "德尔股份：固态电池PACK中试线已经建成，电芯中试线在建设中",
-   "summary": "【德尔股份：固态电池PACK中试线已经建成，电芯中试线在建设中】德尔股份9月2日在互动平台表示，公司固态电池PACK中试线已经建成，电芯中试线在建设中。",
+   "title": "小米官宣：Xiaomi 18 Fold将于9月7日发布",
+   "summary": "【小米官宣：Xiaomi 18 Fold将于9月7日发布】9月2日，小米官宣Xiaomi18Fold将于9月7日发布。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862611690.html",
-   "ts": "2026-09-02 11:40:50",
+   "url": "https://finance.eastmoney.com/a/202609023862683361.html",
+   "ts": "2026-09-02 14:09:16",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "现货黄金日内跌幅扩大至1%",
-   "summary": "【现货黄金日内跌幅扩大至1%】现货黄金日内跌幅扩大至1%，报4283.74美元/盎司。",
+   "title": "AI新材料研发企业鼎犀智创完成数亿元Pre-A轮融资",
+   "summary": "【AI新材料研发企业鼎犀智创完成数亿元Pre-A轮融资】AI新材料研发公司鼎犀智创近日完成数亿元Pre-A轮融资，本轮融资由鼎晖百孚领投，九合创投、彬复资本、龙芯创投、顺禧基金、中关村资本跟投。这是继此前昆仲资本、元生创投、上海未来产业基金、晶泰科技等投资后一年内完成的第三轮融资。本轮资金将重点用于RhinoMat材料科学基础大模型及底层技术研发、多场景可编排AI智能体与自主进化实验室体系建设、碳基高性能材料放大验证。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862611858.html",
-   "ts": "2026-09-02 11:38:49",
+   "url": "https://finance.eastmoney.com/a/202609023862682178.html",
+   "ts": "2026-09-02 14:08:40",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "OpenAI即将发布新AI模型Astra",
-   "summary": "【OpenAI即将发布新AI模型Astra】据报道，OpenAI计划很快推出一款名为Astra的AI模型。该模型前期执行高级网络安全相关任务的能力将仅限于部分测试人员。之后，该公司将通过“DaybreakBlue”计划向更多用户开放该模型，用于防御性网络安全工作。OpenAI周二表示，他们认为该模型已达到“关键网络安全门槛”，公司已加强Astra模型的安全防护措施，以防止其被滥用。",
+   "title": "日本央行行长暗示9月加息已在路上 淡化日债抛售风险",
+   "summary": "【日本央行行长暗示9月加息已在路上 淡化日债抛售风险】本周三，日本央行行长植田和男表示，日本央行政策委员会在制定政策时会将物价上行风险纳入考量，此番言论进一步加剧了市场对于日本央行9月下旬或将加息的猜测。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862611731.html",
-   "ts": "2026-09-02 11:38:49",
+   "url": "https://finance.eastmoney.com/a/202609023862673675.html",
+   "ts": "2026-09-02 14:08:34",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "午间涨跌停股分析：41只涨停股、6只跌停股，中兵系概念活跃",
-   "summary": "【午间涨跌停股分析：41只涨停股、6只跌停股，中兵系概念活跃】9月2日午间，A股半日下来共有41只涨停股、6只跌停股。中兵系概念活跃，内蒙一机2连板，长城军工、建设工业涨停。",
+   "title": "全国自贸试验区建设工作现场会在北京召开",
+   "summary": "【全国自贸试验区建设工作现场会在北京召开】全国自贸试验区建设工作现场会9月1日在北京召开。会议研究分析当前形势任务，部署推进下一阶段重点工作。商务部部长助理袁晓明出席会议并讲话。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862611584.html",
-   "ts": "2026-09-02 11:36:47",
+   "url": "https://finance.eastmoney.com/a/202609023862683715.html",
+   "ts": "2026-09-02 14:08:33",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "伊朗官员说美军最新袭击造成至少7人死亡",
-   "summary": "【伊朗官员说美军最新袭击造成至少7人死亡】据伊朗媒体2日报道，伊朗西南部胡齐斯坦省负责安全事务的副省长说，美军前一晚对该省发动的袭击造成7人死亡，8人受伤。伊朗媒体1日报道，美国当天夜间对伊朗南部多地发动袭击，波及霍尔木兹甘省库赫斯塔克一场婚礼活动现场，已造成4人死亡、50人受伤。",
+   "title": "日本养老基金青睐国内债券的程度达到2008年以来最高",
+   "summary": "【日本养老基金青睐国内债券的程度达到2008年以来最高】摩根资产管理的调查显示，计划增加国内债券配置的日本养老基金超过拟减配养老基金的幅度达到近二十年来最大。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862610674.html",
-   "ts": "2026-09-02 11:35:19",
+   "url": "https://finance.eastmoney.com/a/202609023862681698.html",
+   "ts": "2026-09-02 14:05:18",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "创业板指下跌2.18% 北证50指数上涨4.55% 军工板块走强 农业股大跌",
-   "summary": "【午盘播报】沪指下跌0.82%，报3947.26点；深成指下跌1.71%，报13635.33点；创业板指下跌2.18%，报3319.39点，北证50指数上涨4.55%，报1128.74点，两市半日合计成交12091亿。盘面上，地面兵装、化妆品、次新股、航空装备、橡胶、国防军工涨幅居前，种植业、草甘膦、能源金属、水产概念、土地流转、煤炭表现不佳，领跌市场。全市场上涨个股有1485家，下跌个股有3985家，41只股涨停。",
+   "title": "中信证券等入股长江存储旗下宏茂微电子",
+   "summary": "【中信证券等入股长江存储旗下宏茂微电子】天眼查App显示，宏茂微电子（上海）有限公司近日发生工商变更，新增中信证券投资有限公司、共青城景橙创业投资基金合伙企业（有限合伙）等为股东。该公司成立于2002年6月，法定代表人为CHENGWEIHUA，注册资本约24.7亿人民币，经营范围包括半导体集成电路器件的封装、测试加工服务等。股东信息显示，该公司现由长江存储控股股份有限公司及上述新增股东等共同持股。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862610153.html",
-   "ts": "2026-09-02 11:30:07",
+   "url": "https://finance.eastmoney.com/a/202609023862680852.html",
+   "ts": "2026-09-02 14:04:58",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "星宇股份董事长回应“解约应届生”：正在政府部门指导下妥善落实相关措施",
-   "summary": "【星宇股份董事长回应“解约应届生”：正在政府部门指导下妥善落实相关措施】9月2日，常州星宇车灯股份有限公司（星宇股份，601799）召开网络业绩说明会，在回应近期用工事件相关舆情时，星宇股份董事长兼总经理周晓萍表示，公司高度关注近期舆情，已就事件的真实情况公开发布致歉信并正在政府部门的指导下妥善落实相关措施。",
+   "title": "惠誉：印尼金融企业需做好应对2027年融资成本上升冲击的准备",
+   "summary": "惠誉评级称，印尼金融企业需做好应对2027年融资成本上升冲击的准备。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862608654.html",
-   "ts": "2026-09-02 11:30:02",
+   "url": "https://finance.eastmoney.com/a/202609023862678379.html",
+   "ts": "2026-09-02 14:00:51",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "上市银行集体加大核销力度 工行一次性“清淤”超800亿被热议 为何动作这么大？",
-   "summary": "【上市银行集体加大核销力度 工行一次性“清淤”超800亿被热议 为何动作这么大？】上市银行中报相继披露完毕，近期“工行一次性核销超800亿”的话题登上热点。财联社记者梳理上市银行中报发现，今年上半年加大核销力度的绝不至于工行一家，建行、华夏、平安、江苏等银行今年的核销力度也不小。",
+   "title": "马斯克：将会在10天后发布Grok 4.7 模型",
+   "summary": "【马斯克：将会在10天后发布Grok 4.7 模型】马斯克在X平台发布推文，预告将会在10天后发布Grok4.7模型。Grok4.7模型参数规模达到2.1万亿，相比较Grok4.6（1.5万亿）增长40%。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862587942.html",
-   "ts": "2026-09-02 11:28:07",
+   "url": "https://finance.eastmoney.com/a/202609023862676539.html",
+   "ts": "2026-09-02 13:58:40",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "腾讯云：腾讯混元生视频部分接口下线及服务调整",
-   "summary": "【腾讯云：腾讯混元生视频部分接口下线及服务调整】腾讯云公告，腾讯混元生视频历史旧版专项接口，将按计划分阶段实施下线。目前TokenHub控制台已上线，作为新一代模型的统一接入与管理平台，提供模型在线体验、API调用、用量与费用管理等一站式能力。涉及下线接口包括混元生视频-ACG版（ImageGameToVideo）、视频配音效-1.0（VideoVoice）、视频风格化-1.0（VideoStylization）、视频编辑-1.0（VideoEdit）、图片跳舞-1.0（ImageAnimate）、图片唱演-1.0（PortraitSing）。",
+   "title": "碧澄能源完成数亿元C1轮融资",
+   "summary": "【碧澄能源完成数亿元C1轮融资】9月2日，碧澄能源宣布完成数亿元C1轮融资，由中海基金领投，成都交通投资集团、兖矿资本跟投。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862607181.html",
-   "ts": "2026-09-02 11:25:53",
+   "url": "https://finance.eastmoney.com/a/202609023862675033.html",
+   "ts": "2026-09-02 13:58:13",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "永鼎股份新设子公司 含电力设施器材制造业务",
-   "summary": "【永鼎股份新设子公司 含电力设施器材制造业务】企查查APP显示，近日，安徽永鼎电缆有限公司成立，经营范围包含电力设施器材制造；输配电及控制设备制造；电力电子元器件制造；有色金属压延加工等。企查查股权穿透显示，该公司由永鼎股份全资持股。",
+   "title": "OPPO联合OpenKG推出首个端侧AI记忆评测基准MobileMem",
+   "summary": "【OPPO联合OpenKG推出首个端侧AI记忆评测基准MobileMem】近日，OPPO联合中文开放知识图谱（OpenKG）社区，推出行业首个面向端侧AI记忆能力的评测基准MobileMem；同时携手浙江大学、同济大学、东南大学等高校专家团队共同建设。通过构建统一、开放的评测“标尺”，MobileMem让不同技术路线在同一标准下实现可比较、可迭代，加速端侧AI记忆技术发展。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862606729.html",
-   "ts": "2026-09-02 11:25:15",
+   "url": "https://finance.eastmoney.com/a/202609023862677182.html",
+   "ts": "2026-09-02 13:57:00",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "第十五届中国知识产权年会将围绕人工智能与知识产权设置多个议题",
-   "summary": "【第十五届中国知识产权年会将围绕人工智能与知识产权设置多个议题】从第十五届中国知识产权年会媒体吹风会上了解到，年会将围绕人工智能与知识产权设置多个议题。聚焦AI知识产权治理的法律维度，围绕大模型训练数据的版权合法性、AIGC生成物的可版权性、人机共创场景下的侵权责任分担、AI工具在专利检索和商标监测中的实务应用等前沿议题展开研讨，从司法、行政、产业三个维度探讨AI时代知识产权规则的演进方向。",
+   "title": "算力租赁板块午后探底回升 大位科技涨停",
+   "summary": "算力租赁板块午后探底回升，大位科技涨停，奥尼电子涨超10%，扬电科技、品高股份、协创数据、东方材料、并行科技、行云科技跟涨。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862605784.html",
-   "ts": "2026-09-02 11:21:50",
+   "url": "https://finance.eastmoney.com/a/202609023862673114.html",
+   "ts": "2026-09-02 13:56:33",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "文件显示本田已指示供应商大幅降价",
-   "summary": "【文件显示本田已指示供应商大幅降价】据报道，文件显示，本田已向供应商下达指令，要求其大幅降价。本田计划将部分关键零部件的成本削减30%，其中就包括软件定义汽车相关的零部件。",
+   "title": "以色列国防军：真主党昨晚向驻黎巴嫩部队发射了两架无人机",
+   "summary": "以色列国防军称，真主党昨晚向驻黎巴嫩部队发射了两架无人机，以军随后袭击了黎南部城镇的真主党目标。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862606480.html",
-   "ts": "2026-09-02 11:21:27",
+   "url": "https://finance.eastmoney.com/a/202609023862674868.html",
+   "ts": "2026-09-02 13:56:28",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "AI数据中心耗水引爆担忧？OpenAI CEO反驳：还比不上种植杏仁！",
-   "summary": "【AI数据中心耗水引爆担忧？OpenAI CEO反驳：还比不上种植杏仁！】在周二发布的一档播客节目中，OpenAI首席执行官萨姆·奥尔特曼（SamAltman）被主持人要求回应人们对人工智能（AI）数据中心的抵制，包括对水资源消耗的担忧时，他反驳了这一说法。奥尔特曼表示，虽然数据中心素有耗水大户的名声，但现代数据中心的用水量与办公楼的用水量大致相当。",
+   "title": "欧洲央行管委兼德国央行行长纳格尔：德国必须接受在一定时期内出现赤字上升",
+   "summary": "欧洲央行管委兼德国央行行长纳格尔称，德国必须接受在一定时期内出现赤字上升。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862605095.html",
-   "ts": "2026-09-02 11:21:16",
+   "url": "https://finance.eastmoney.com/a/202609023862673547.html",
+   "ts": "2026-09-02 13:54:41",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "加拿大总理呼吁美国认真对待两国贸易谈判",
-   "summary": "【加拿大总理呼吁美国认真对待两国贸易谈判】加拿大总理卡尼当地时间9月1日称，在美方“停止玩梗、停止阴阳怪气、停止逞强、开始认真讨论”之前，加美贸易谈判不会重启。",
+   "title": "阿里云旗下企业级人与Agent协作平台“万有无界”今日开启公测",
+   "summary": "阿里云旗下企业级人与Agent协作平台“万有无界”今日开启公测。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862603491.html",
-   "ts": "2026-09-02 11:19:42",
+   "url": "https://finance.eastmoney.com/a/202609023862670718.html",
+   "ts": "2026-09-02 13:53:58",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "我驻泰使馆：泰国调整免签政策不影响中泰双边免签协定",
-   "summary": "【我驻泰使馆：泰国调整免签政策不影响中泰双边免签协定】中国驻泰国大使馆9月2日发布关于泰国调整免签政策的领事提醒，中国公民持有效护照赴泰仍可享受免签待遇，泰方取消此前面向包括中国在内的93个国家和地区实施的单方面停留期60日免签政策。",
+   "title": "韩国釜山附近海域一艘载有8人的船只倾覆",
+   "summary": "【韩国釜山附近海域一艘载有8人的船只倾覆】据央视新闻，据韩国海警部门消息，当地时间2日13时30分左右，一艘286吨级釜山籍拖船在釜山附近海域倾覆。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862604126.html",
-   "ts": "2026-09-02 11:18:29",
+   "url": "https://finance.eastmoney.com/a/202609023862670553.html",
+   "ts": "2026-09-02 13:53:36",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "广州：将于9月7日至28日正式开展居民出行调查",
-   "summary": "【广州：将于9月7日至28日正式开展居民出行调查】据广州发布，广州将于9月7日至28日正式开展居民出行调查，调查覆盖全市11个行政区，抽样调查约8.2万户家庭，全面了解市民出行特征和交通需求，为广州交通规划建设和精细化治理提供基础数据支撑。",
+   "title": "现代汽车股价下跌5.7%",
+   "summary": "现代汽车股价下跌5.7%。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862602086.html",
-   "ts": "2026-09-02 11:16:59",
+   "url": "https://finance.eastmoney.com/a/202609023862669040.html",
+   "ts": "2026-09-02 13:49:17",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "光纤概念盘中震荡回升 杭电股份逼近涨停",
-   "summary": "光纤概念盘中震荡回升，杭电股份逼近涨停，长盈通、金信诺、长飞光纤、光电股份、通鼎互联等跟涨。",
+   "title": "欧洲央行管委纳格尔：市场认为9月加息的可能性超过95%",
+   "summary": "【欧洲央行管委纳格尔：市场认为9月加息的可能性超过95%】欧洲央行管委纳格尔表示，市场认为9月加息的可能性超过95%；对透露9月之后的任何信号持谨慎态度，存在诸多不确定因素，局势令人不安。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862601029.html",
-   "ts": "2026-09-02 11:16:50",
+   "url": "https://finance.eastmoney.com/a/202609023862664033.html",
+   "ts": "2026-09-02 13:45:36",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "军工板块涨势扩大 晟楠科技30cm涨停",
-   "summary": "军工板块盘中涨势扩大，晟楠科技30cm涨停，此前内蒙一机、建设工业、长城军工、博云新材涨停，北方长龙、通易航天、天秦装备均涨超10%。",
+   "title": "中国一汽攻克硫化物全固态电池低压力运行重大技术难题",
+   "summary": "【中国一汽攻克硫化物全固态电池低压力运行重大技术难题】中国一汽发布消息，近日，中国一汽联合东方理工大学，在硫化物全固态电池低压力运行领域取得重大技术突破，相关成果以“离子弹性体界面实现低压力高稳定固态电池”为题，发表于国际顶级期刊《Advanced Energy Materials》。这标志着我国在硫化物全固态电池实用化关键核心技术上取得里程碑式突破，为全固态电池产业化进程迈出关键一步。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862600343.html",
-   "ts": "2026-09-02 11:15:44",
+   "url": "https://finance.eastmoney.com/a/202609023862662589.html",
+   "ts": "2026-09-02 13:44:33",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "算电协同再提速！国家能源局部署新型电网建设 人工智能+等新技术获点名",
-   "summary": "【算电协同再提速！国家能源局部署新型电网建设 人工智能+等新技术获点名】近日，国家能源局召开新型电网建设工作部署会。会议系统总结了我国电网发展成效，分析研判新形势新要求，全面部署新型电网建设重大任务。技术方面，会议强调要着力发挥创新引领作用，加快研发应用人工智能+、柔性构网、智能调控、长时储能等电网新技术，发展新质生产力。",
+   "title": "生益科技登顶“聪明钱”第一重仓股 外资加速布局中国硬科技",
+   "summary": "【生益科技登顶“聪明钱”第一重仓股 外资加速布局中国硬科技】随着A股2026年半年报披露收官，素有“聪明钱”之称的QFII（合格境外投资者）的最新持仓图谱浮出水面。截至上半年末，QFI共现身1725只A股的前十大流通股股东名单，其中，生益科技以511.55亿元的持仓市值取代宁波银行，成为QFI头号配置标的。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862598874.html",
-   "ts": "2026-09-02 11:12:31",
+   "url": "https://finance.eastmoney.com/a/202609023862661611.html",
+   "ts": "2026-09-02 13:43:29",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "国内多家品牌金饰价格再次大幅下调",
-   "summary": "【国内多家品牌金饰价格再次大幅下调】国内多家品牌金饰价格再次大幅下调，老庙黄金足金饰品报1303元/克，单日大跌37元；周生生足金饰品报1302元/克，单日大跌36元；老凤祥足金饰品报1307元/克，单日大跌35元。记者梳理发现，相较8月25日各品牌足金饰品最高点，周生生、老庙黄金、老凤祥足金饰品克价一周内分别累计下跌106元、104元和99元。",
+   "title": "信息发展投资成立新公司 含AI相关业务",
+   "summary": "【信息发展投资成立新公司 含AI相关业务】企查查APP显示，近日，交信（天津）信息科技有限公司成立，经营范围包含人工智能公共数据平台；地理遥感信息服务；机动车充电销售；人工智能应用软件开发等。企查查股权穿透显示，该公司由信息发展全资持股。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862598124.html",
-   "ts": "2026-09-02 11:10:35",
+   "url": "https://finance.eastmoney.com/a/202609023862663648.html",
+   "ts": "2026-09-02 13:43:00",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "北交所五周年：总市值8500亿元 专精特新主阵地加速成型",
-   "summary": "【北交所五周年：总市值8500亿元 专精特新主阵地加速成型】9月2日，北京证券交易所迎来设立五周年。五年时间，从开市初期81家上市公司、日均成交额不足10亿元的市场雏形，到如今339家上市公司、近两年日均成交超200亿元的专业化板块，北交所在注册制框架下走出了一条服务创新型中小企业的差异化发展路径，逐步成为专精特新企业主阵地与实体经济助推器，也完成了从“立起来”向“强起来”的阶段性跨越。",
+   "title": "国内多家品牌金饰克价再次下调",
+   "summary": "【国内多家品牌金饰克价再次下调】周大福足金饰品报1306元/克，单日下跌36元；老庙黄金足金饰品报1303元/克，单日下跌37元；周生生足金饰品报1302元/克，单日下跌36元；老凤祥足金饰品报1307元/克，单日下跌35元。相较8月25日各品牌足金饰品克价最高点，周生生、老庙黄金、老凤祥足金饰品克价一周内分别累计下跌106元、104元和99元。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862597265.html",
-   "ts": "2026-09-02 11:09:29",
+   "url": "https://finance.eastmoney.com/a/202609023862660632.html",
+   "ts": "2026-09-02 13:39:30",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "国家疾控局：新版方案对传染性疾病进行优化调整",
-   "summary": "【国家疾控局：新版方案对传染性疾病进行优化调整】国家疾控局有关负责人介绍，立足传染病临床诊疗实际与医疗资源消耗水平等因素，新版方案对传染性疾病进行优化调整，以DRG为例，3.0版分组优化在艾滋病病例入组逻辑方面，将原来诊断中只要包含艾滋病均进入艾滋病组，改为按照本次主要诊断入组结算，更加符合临床实际，有利于减轻患者和医疗机构负担。",
+   "title": "法拉第未来机器人在中东完成首单6台交付",
+   "summary": "【法拉第未来机器人在中东完成首单6台交付】在纳斯达克上市的法拉第未来（FaradayFuture，简称“FF”）日前介绍，机器人中东业务近日正式启航，完成了中东首笔订单的销售和交付，共交付6台机器人（2台人形、4台四足），标志着FFEAI机器人业务在中东市场实现从0到1的突破，同时，团队也正在加紧推进更多订单落地。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862597878.html",
-   "ts": "2026-09-02 11:06:52",
+   "url": "https://finance.eastmoney.com/a/202609023862658750.html",
+   "ts": "2026-09-02 13:38:30",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "外国对德直接投资同比增长50% 经济疲弱缘何外国资本加速流入？",
-   "summary": "【外国对德直接投资同比增长50% 经济疲弱缘何外国资本加速流入？】德国科隆经济研究所8月31日发布的最新分析显示，2025年外国对德直接投资约860亿欧元，同比增长50%。另一方面，德国经济依旧疲弱，在连续两年萎缩后，2025年德国国内生产总值（GDP）也仅增长0.2%。分析人士认为，德国经济持续疲弱之际，外国资本却在加速流入，这种反差背后既有低基数等方面的因素，也反映出虽然德国经济的结构性问题一定程度上抑制了外国资本的投资意愿，但在德国投资的长期价值仍受国际资本关注。",
+   "title": "菲律宾央行将入市干预以应对市场无序状况并平抑极端波动",
+   "summary": "【菲律宾央行将入市干预以应对市场无序状况并平抑极端波动】菲律宾央行表示，菲律宾央行入市干预，以应对市场无序状况并平抑极端波动，尤其是在这些波动可能加剧通胀的情况下。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862596113.html",
-   "ts": "2026-09-02 11:06:39",
+   "url": "https://finance.eastmoney.com/a/202609023862659973.html",
+   "ts": "2026-09-02 13:37:36",
    "origin": "em",
    "age_days": 0
   },
   {
-   "title": "航行警告：北部湾实弹射击",
-   "summary": "【航行警告：北部湾实弹射击】据中国海事局网站消息，钦州海事局发布航行警告，9月2日11时至17时、3日12时至16时，北部湾部分海域进行实弹射击，禁止驶入。",
+   "title": "日本央行审议委员高田创：将考虑到市场已消化9月加息的因素",
+   "summary": "日本央行审议委员高田创称，将考虑到市场已消化9月加息的因素。",
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862595355.html",
-   "ts": "2026-09-02 11:04:35",
+   "url": "https://finance.eastmoney.com/a/202609023862660535.html",
+   "ts": "2026-09-02 13:37:11",
    "origin": "em",
    "age_days": 0
   },
@@ -735,7 +735,7 @@
    "summary": "",
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/09/02/us-iran-war-trump-hormuz-irgc-jordan-bahrain.html",
-   "ts": "Wed, 02 Sep 2026 01:34:27 GMT",
+   "ts": "Wed, 02 Sep 2026 05:47:59 GMT",
    "origin": "rss",
    "age_days": 0
   },
@@ -749,40 +749,13 @@
    "age_days": 1
   },
   {
-   "title": "Australia posts second-quarter growth of 2.1%, beating expectations",
+   "title": "Oil major BP completes search for chair after boardroom upheaval",
    "summary": "",
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/02/australia-gdp-q2-middle-east-rba.html",
-   "ts": "Wed, 02 Sep 2026 03:05:14 GMT",
+   "url": "https://www.cnbc.com/2026/09/02/bp-chair-ian-tyler-appointment.html",
+   "ts": "Wed, 02 Sep 2026 06:21:36 GMT",
    "origin": "rss",
    "age_days": 0
-  },
-  {
-   "title": "Japanese green tea giant Ito En surges 8%, defying a broad market sell-off",
-   "summary": "",
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/02/japan-green-tea-ito-en-surges-earnings.html",
-   "ts": "Wed, 02 Sep 2026 02:24:30 GMT",
-   "origin": "rss",
-   "age_days": 0
-  },
-  {
-   "title": "CNBC Daily Open: Groundhog Day in the Gulf",
-   "summary": "",
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/02/us-iran-trump-war-escalation-latest-fed-rate-g20-bessent-yen-.html",
-   "ts": "Wed, 02 Sep 2026 01:57:52 GMT",
-   "origin": "rss",
-   "age_days": 0
-  },
-  {
-   "title": "Canada's Carney slaps Trump admin for 'doing memes ... throwing shade'",
-   "summary": "",
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/01/canada-carney-trump-trade-ontario.html",
-   "ts": "Tue, 01 Sep 2026 18:52:11 GMT",
-   "origin": "rss",
-   "age_days": 1
   },
   {
    "title": "Palo Alto CEO says $1 trillion of cybersecurity infrastructure isn’t ready for AI",
@@ -792,6 +765,33 @@
    "ts": "Tue, 01 Sep 2026 23:20:44 GMT",
    "origin": "rss",
    "age_days": 1
+  },
+  {
+   "title": "China's Xi keeps Iranian president at arm's length weeks ahead of Trump summit",
+   "summary": "",
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/02/china-trump-iran-summit-nuclear-trade-tariffs-sanctions-.html",
+   "ts": "Wed, 02 Sep 2026 05:56:11 GMT",
+   "origin": "rss",
+   "age_days": 0
+  },
+  {
+   "title": "Australia posts second-quarter growth of 2.1%, beating expectations",
+   "summary": "",
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/02/australia-gdp-q2-middle-east-rba.html",
+   "ts": "Wed, 02 Sep 2026 03:05:14 GMT",
+   "origin": "rss",
+   "age_days": 0
+  },
+  {
+   "title": "CNBC Daily Open: Markets trapped in Iran doom loop",
+   "summary": "",
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/02/iran-markets-doom-loop.html",
+   "ts": "Wed, 02 Sep 2026 05:45:47 GMT",
+   "origin": "rss",
+   "age_days": 0
   },
   {
    "title": "The $3 trillion oil market is becoming more accessible than ever: No longer a 'rich man's game'",
@@ -812,6 +812,33 @@
    "age_days": 0
   },
   {
+   "title": "Japanese green tea giant Ito En surges 8%, defying a broad market sell-off",
+   "summary": "",
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/02/japan-green-tea-ito-en-surges-earnings.html",
+   "ts": "Wed, 02 Sep 2026 02:24:30 GMT",
+   "origin": "rss",
+   "age_days": 0
+  },
+  {
+   "title": "Canada's Carney slaps Trump admin for 'doing memes ... throwing shade'",
+   "summary": "",
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/01/canada-carney-trump-trade-ontario.html",
+   "ts": "Tue, 01 Sep 2026 18:52:11 GMT",
+   "origin": "rss",
+   "age_days": 1
+  },
+  {
+   "title": "Global bond yields soar to multi-decade highs as Middle East turmoil reignites inflation fears",
+   "summary": "",
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/01/bond-yields-iran-inflation-treasurys-japan-uk.html",
+   "ts": "Tue, 01 Sep 2026 12:39:23 GMT",
+   "origin": "rss",
+   "age_days": 1
+  },
+  {
    "title": "House adopts measure condemning socialism ahead of November election",
    "summary": "",
    "source": "CNBC World",
@@ -830,33 +857,6 @@
    "age_days": 0
   },
   {
-   "title": "Global bond yields soar to multi-decade highs as Middle East turmoil reignites inflation fears",
-   "summary": "",
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/01/bond-yields-iran-inflation-treasurys-japan-uk.html",
-   "ts": "Tue, 01 Sep 2026 12:39:23 GMT",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "GoPro joins AI bonanza with pivot into data centers as shares skyrocket 40%",
-   "summary": "",
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/01/gopro-stock-ai-data-centers.html",
-   "ts": "Tue, 01 Sep 2026 20:28:08 GMT",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "CNBC's The China Connection newsletter: McKinsey's contrarian economic view",
-   "summary": "",
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/08/31/cnbc-china-connection-newsletter-mckinseys-contrarian-view-economy.html",
-   "ts": "Mon, 31 Aug 2026 23:00:01 GMT",
-   "origin": "rss",
-   "age_days": 2
-  },
-  {
    "title": "Palo Alto Networks beats quarterly estimates on AI demand, continues acquisition spree",
    "summary": "",
    "source": "CNBC Tech",
@@ -871,6 +871,15 @@
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/09/01/dell-q2-earnings-report-2027.html",
    "ts": "Tue, 01 Sep 2026 21:40:18 GMT",
+   "origin": "rss",
+   "age_days": 1
+  },
+  {
+   "title": "GoPro joins AI bonanza with pivot into data centers as shares skyrocket 40%",
+   "summary": "",
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/01/gopro-stock-ai-data-centers.html",
+   "ts": "Tue, 01 Sep 2026 20:28:08 GMT",
    "origin": "rss",
    "age_days": 1
   },
@@ -974,130 +983,121 @@
    "age_days": 1
   },
   {
-   "title": "161-year-old kids clothing giant closes 29 more stores",
+   "title": "eBay Just Gave GameStop Stock a Boost. Here's What to Know.",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/small-business/articles/161-old-kids-clothing-giant-171700918.html",
-   "ts": "2026-08-31T17:17:00Z",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ebay-just-gave-gamestop-stock-184454095.html",
+   "ts": "2026-08-31T18:44:54Z",
    "origin": "rss",
    "age_days": 2
   },
   {
-   "title": "Okta Stock Could Have More Upside After Its 28% Rally, Analysts Say",
+   "title": "Malibu Boats (MBUU) Rides A Saxdor Wave Into A Choppier Market",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/okta-stock-could-more-upside-163541880.html",
-   "ts": "2026-08-31T16:35:41Z",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/malibu-boats-mbuu-rides-saxdor-184601373.html",
+   "ts": "2026-08-31T18:46:01Z",
    "origin": "rss",
    "age_days": 2
   },
   {
-   "title": "A Cool AI Data Center Deal Sends Oil Stock Past A New Buy Point",
+   "title": "Stock Of The Day Nearly Doubles This Summer, Poised To Extend Rally",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://www.investors.com/news/slb-stock-ai-data-center-kelvion/?src=A00220&amp;yptr=yahoo",
-   "ts": "2026-08-31T16:27:31Z",
+   "url": "https://www.investors.com/research/ibd-stock-of-the-day/cheesecake-factory-cake-stock-of-the-day/?src=A00220&amp;yptr=yahoo",
+   "ts": "2026-08-31T18:52:47Z",
    "origin": "rss",
    "age_days": 2
   },
   {
-   "title": "The US is now buried in $40T of debt — but who’s buying the IOUs right now? Here’s the unsettling answer for Americans",
+   "title": "Dear Tesla Stock Fans, Mark Your Calendars for September 3",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/economy/policy/articles/us-now-buried-40t-debt-163000404.html",
-   "ts": "2026-08-31T16:30:00Z",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/dear-tesla-stock-fans-mark-185036932.html",
+   "ts": "2026-08-31T18:50:36Z",
    "origin": "rss",
    "age_days": 2
   },
   {
-   "title": "Investors Can Tap This Spread On Mastercard; Stock In Buy Zone",
+   "title": "SHEIN's crypto contract plunges 17% as it prices its IPO",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://www.investors.com/research/options/mastercard-ma-stock-buy-zone-bull-call-spread-options/?src=A00220&amp;yptr=yahoo",
-   "ts": "2026-08-31T16:26:41Z",
+   "url": "https://finance.yahoo.com/markets/crypto/articles/sheins-crypto-contract-plunges-17-184627545.html",
+   "ts": "2026-08-31T18:46:27Z",
    "origin": "rss",
    "age_days": 2
   },
   {
-   "title": "PG&E Sinks 18%, Edison International Tumbles 23% as California Wildfire Bill Omits Liability Cap",
+   "title": "SentinelOne (S) Rides an AI Security Boom to Record Operating Margins",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/pg-e-sinks-18-edison-163921802.html",
-   "ts": "2026-08-31T16:39:21Z",
+   "url": "https://finance.yahoo.com/technology/ai/articles/sentinelone-rides-ai-security-boom-185212323.html",
+   "ts": "2026-08-31T18:52:12Z",
    "origin": "rss",
    "age_days": 2
   },
   {
-   "title": "Why Now Could Be the Right Time to Buy Super Micro Computer Stock",
+   "title": "Contrarian Signal Flashing for Ciena Stock",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/why-now-could-time-buy-161740097.html",
-   "ts": "2026-08-31T16:17:40Z",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/contrarian-signal-flashing-ciena-stock-184424335.html",
+   "ts": "2026-08-31T18:44:24Z",
    "origin": "rss",
    "age_days": 2
   },
   {
-   "title": "Final Agenda: 2nd LA CorpGov Forum Sep 18 Featuring Activism, Sports, Entertainment",
+   "title": "Adobe (ADBE) Bets Big On Saudi Arabia While Wall Street Hesitates",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/media-advertising/articles/final-agenda-2nd-la-corpgov-214417129.html",
-   "ts": "2026-08-31T16:44:17Z",
+   "url": "https://finance.yahoo.com/technology/ai/articles/adobe-adbe-bets-big-saudi-183628568.html",
+   "ts": "2026-08-31T18:36:28Z",
    "origin": "rss",
    "age_days": 2
   },
   {
-   "title": "Here's how much it could cost SpaceX to take on Verizon, T-Mobile, and AT&T",
+   "title": "Walmart escapes major legal penalty for a fraction of the cost",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/article/heres-how-much-it-could-cost-spacex-to-take-on-verizon-t-mobile-and-att-165305592.html",
-   "ts": "2026-08-31T16:53:05Z",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-escapes-major-legal-penalty-184700469.html",
+   "ts": "2026-08-31T18:47:00Z",
    "origin": "rss",
    "age_days": 2
   },
   {
-   "title": "Warsh's 'quieter Fed' now includes a smidgen of guidance",
+   "title": "Amazon Stock Is Near Record Highs. Why There’s Still Room for AMZN to Grow.",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/economy/policy/articles/analysis-warshs-quieter-fed-now-193420692.html",
-   "ts": "2026-08-31T16:55:36Z",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-stock-near-record-highs-182837747.html",
+   "ts": "2026-08-31T18:28:37Z",
    "origin": "rss",
    "age_days": 2
   },
   {
-   "title": "You Can’t Invest in OpenAI Stock but This IPO Might Be the Closest Thing",
+   "title": "Behind the Ticker: Capturing Innovation Long-Term With FRWD",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://www.barrons.com/articles/openai-stock-price-sb-energy-2fb0cdd9?siteid=yhoof2&amp;yptr=yahoo",
-   "ts": "2026-08-31T16:38:00Z",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/behind-ticker-capturing-innovation-long-182829522.html",
+   "ts": "2026-08-31T18:28:29Z",
    "origin": "rss",
    "age_days": 2
   },
   {
-   "title": "Here comes the AI capex shocker, Goldman Sachs says",
+   "title": "Micron Stock Flashing Intriguing 'Buy the Dip' Signal",
    "summary": "",
    "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/article/here-comes-the-ai-capex-shocker-goldman-sachs-says-171026577.html",
-   "ts": "2026-08-31T17:10:26Z",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-flashing-intriguing-buy-182952890.html",
+   "ts": "2026-08-31T18:29:52Z",
    "origin": "rss",
    "age_days": 2
   },
   {
-   "title": "Oil Names Mix With AI Stocks On Elite Screen As Three Trade Near Buy Points",
+   "title": "U.S. Energy Secretary Says Venezuela Could More Than Double Oil Production",
    "summary": "",
-   "source": "Yahoo Finance",
-   "url": "https://www.investors.com/research/oil-ai-frontline-fro-stock-markets-tech-relative-performance-highs/?src=A00220&amp;yptr=yahoo",
-   "ts": "2026-08-31T17:20:12Z",
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Energy-Secretary-Says-Venezuela-Could-More-Than-Double-Oil-Production.html",
+   "ts": "Wed, 02 Sep 2026 01:00:00 -0500",
    "origin": "rss",
-   "age_days": 2
-  },
-  {
-   "title": "Cotton Posting Monday Rally",
-   "summary": "",
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/commodities/articles/cotton-posting-monday-rally-172155652.html",
-   "ts": "2026-08-31T17:21:55Z",
-   "origin": "rss",
-   "age_days": 2
+   "age_days": 0
   },
   {
    "title": "Oil Prices Rally as U.S. Targets Iranian Tankers in New Escalation",
@@ -1226,20 +1226,11 @@
    "age_days": 1
   },
   {
-   "title": "U.S.-Iran Strikes Put $100 Oil Back in Focus",
-   "summary": "",
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Crude-Oil/US-Iran-Strikes-Put-100-Oil-Back-in-Focus.html",
-   "ts": "Tue, 01 Sep 2026 10:10:00 -0500",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "Oil rises following tit-for-tat strikes by the U.S. and Iran",
+   "title": "U.S. crude tops $90 as Iran retaliates with strikes on Kuwait, Jordan and Bahrain",
    "summary": "",
    "source": "CNBC Energy",
    "url": "https://www.cnbc.com/2026/09/02/brent-oil-us-iran-strikes.html",
-   "ts": "Wed, 02 Sep 2026 04:16:41 GMT",
+   "ts": "Wed, 02 Sep 2026 05:57:07 GMT",
    "origin": "rss",
    "age_days": 0
   },
@@ -1343,105 +1334,6 @@
    "age_days": 5
   },
   {
-   "title": "Six months into the Iran war: Markets become accustomed to stalemate with no end in sight",
-   "summary": "",
-   "source": "CNBC Energy",
-   "url": "https://www.cnbc.com/2026/08/28/us-iran-war-six-months-trump.html",
-   "ts": "Fri, 28 Aug 2026 05:02:16 GMT",
-   "origin": "rss",
-   "age_days": 5
-  },
-  {
-   "title": "Wison fires starting gun on FPSO fabrication for Eni’s African oil & gas project",
-   "summary": "",
-   "source": "Offshore Energy",
-   "url": "https://www.offshore-energy.biz/wison-fires-starting-gun-on-fpso-fabrication-for-enis-african-oil-gas-project/",
-   "ts": "Tue, 01 Sep 2026 15:01:59 +0000",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "Transocean rig’s drill bit turns as Amplitude opens new chapter in East Coast gas hunt",
-   "summary": "",
-   "source": "Offshore Energy",
-   "url": "https://www.offshore-energy.biz/transocean-rigs-drill-bit-turns-as-amplitude-opens-new-chapter-in-east-coast-gas-hunt/",
-   "ts": "Tue, 01 Sep 2026 13:14:06 +0000",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "Eagle LNG draws $30M Datacentrex bet as US space launch boom accelerates",
-   "summary": "",
-   "source": "Offshore Energy",
-   "url": "https://www.offshore-energy.biz/eagle-lng-draws-30m-datacentrex-bet-as-us-space-launch-boom-accelerates/",
-   "ts": "Tue, 01 Sep 2026 12:18:27 +0000",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "Two XOCEAN USVs to survey UK’s 2.2 GW link",
-   "summary": "",
-   "source": "Offshore Energy",
-   "url": "https://www.offshore-energy.biz/two-xocean-usvs-to-survey-uks-2-2-gw-link/",
-   "ts": "Tue, 01 Sep 2026 12:16:43 +0000",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "Valeura fast-tracks Southeast Asian project: First oil now on the cards for early Q2 2027",
-   "summary": "",
-   "source": "Offshore Energy",
-   "url": "https://www.offshore-energy.biz/valeura-fast-tracks-southeast-asian-project-first-oil-now-on-the-cards-for-early-q2-2027/",
-   "ts": "Tue, 01 Sep 2026 10:47:23 +0000",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "Two months to go: get your ticket for OEEC 2026",
-   "summary": "",
-   "source": "Offshore Energy",
-   "url": "https://www.offshore-energy.biz/two-months-to-go-get-your-ticket-for-oeec-2026/",
-   "ts": "Tue, 01 Sep 2026 10:28:58 +0000",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "Jan De Nul’s first XL cable layer on sea trials, second to follow",
-   "summary": "",
-   "source": "Offshore Energy",
-   "url": "https://www.offshore-energy.biz/jan-de-nuls-first-xl-cable-layer-on-sea-trials-second-to-follow/",
-   "ts": "Tue, 01 Sep 2026 08:32:20 +0000",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "BP beats the clock: Mediterranean gas well comes online two years early",
-   "summary": "",
-   "source": "Offshore Energy",
-   "url": "https://www.offshore-energy.biz/bp-beats-the-clock-mediterranean-gas-well-comes-online-two-years-early/",
-   "ts": "Tue, 01 Sep 2026 08:02:23 +0000",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "Keel laid for Korea’s only specialized HVDC installation vessel",
-   "summary": "",
-   "source": "Offshore Energy",
-   "url": "https://www.offshore-energy.biz/keel-laid-for-koreas-only-specialized-hvdc-installation-vessel/",
-   "ts": "Tue, 01 Sep 2026 07:17:31 +0000",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "Cheniere hits 5,000-cargo mark as project in Texas lifts LNG capacity to 56 mtpa",
-   "summary": "",
-   "source": "Offshore Energy",
-   "url": "https://www.offshore-energy.biz/cheniere-hits-5000-cargo-mark-as-project-in-texas-lifts-lng-capacity-to-56-mtpa/",
-   "ts": "Mon, 31 Aug 2026 14:57:00 +0000",
-   "origin": "rss",
-   "age_days": 2
-  },
-  {
    "title": "ExxonMobil (XOM) Stock Could Trade At A Discount Despite Mozambique LNG Contracts - Yahoo Finance",
    "summary": "",
    "source": "莫桑东非能源·聚合",
@@ -1455,9 +1347,9 @@
    "summary": "",
    "source": "莫桑东非能源·聚合",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5SM0ZTSXNKSHBuZm55d2VHZXc5RDhOUFliTlViM0NxV256TDdZV0kwV2gyOXdyU1NIcGFIUzNIQjI5Ujh4a3JTTTYtOHVzT1dPeEpqWkFvdHRaSUNfZnpxeDhQdmQ1VXlUVzRTUzBicEptUQ?oc=5",
-   "ts": "Tue, 01 Sep 2026 19:49:40 GMT",
+   "ts": "Wed, 02 Sep 2026 01:45:14 GMT",
    "origin": "rss",
-   "age_days": 1
+   "age_days": 0
   }
  ]
 }
