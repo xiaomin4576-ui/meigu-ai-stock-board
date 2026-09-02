@@ -1,23 +1,32 @@
 {
  "asof": "2026-09-02",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-09-02T19:47+08:00",
+ "generated_at": "2026-09-02T23:10+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 0,
-  "cluster_label": "伊朗/巴林/沙特",
+  "cluster_label": "伊朗/巴林/约旦",
   "cluster_dropped": [
-   "伊朗称击落50架美军MQ-9无人机",
-   "沙特称伊朗袭击霍尔木兹海峡油轮"
+   "鲁比奥：美国将继续就航运袭击针对伊朗行动"
   ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "10年期美债收益率创2025年1月新高",
-   "brief": "中东紧张局势重燃，10年期美债收益率升至2025年1月以来最高。",
-   "chain": "美债收益率上行→美股估值承压→A股算力链情绪受抑",
+   "title": "美国8月ADP就业增幅创年初新低",
+   "brief": "ADP数据显示8月私营部门就业增加3.8万，远低于预期，劳动力市场降温。",
+   "chain": "就业疲软→强化美联储降息预期→利好美股估值→映射A股成长风格",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609023863053586.html",
+   "ts": "2026-09-02 21:55:30"
+  },
+  {
+   "cat": "macro",
+   "title": "10年期美债收益率创1月以来新高",
+   "brief": "中东局势重燃避险，10年期美债收益率升至2025年1月以来最高。",
+   "chain": "收益率上行→压制美股高估值科技股→映射A股算力链估值承压",
    "impact": 8,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/09/01/bonds-treasury-yields-middle-east-tensions.html",
@@ -25,59 +34,129 @@
   },
   {
    "cat": "macro",
-   "title": "美商务部长称债券市场将趋稳",
-   "brief": "卢特尼克表示债券市场将趋于稳定并推动收益率回落，市场情绪复杂。",
-   "chain": "官方表态试图安抚债市→收益率预期波动→影响美股及A股风险偏好",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862925320.html",
-   "ts": "2026-09-02 19:22:10"
-  },
-  {
-   "cat": "macro",
-   "title": "摩根大通：债券收益率上行成9月股市主要风险",
-   "brief": "摩根大通警告，债券收益率走高对全球股票构成重大风险，市场或现5%-8%回调。",
-   "chain": "收益率上行→全球股市估值压力→A股高估值科技板块承压",
+   "title": "全球债券抛售加剧，通胀担忧升温",
+   "brief": "全球债市遭遇抛售，通胀预期上升推动收益率走高。",
+   "chain": "通胀担忧→利率上行→美股估值压力→A股成长板块承压",
    "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862903445.html",
-   "ts": "2026-09-02 19:03:10"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/02/global-bond-yields-inflation-rates.html",
+   "ts": "Wed, 02 Sep 2026 14:38:28 GMT"
   },
   {
    "cat": "macro",
-   "title": "荷兰央行将86吨黄金从美加转运至伦敦",
-   "brief": "荷兰央行将86吨黄金从美国和加拿大转移至伦敦，价值约131亿美元，旨在提升可交易性。",
-   "chain": "央行黄金调拨→反映去美元化趋势→黄金避险属性增强，压制风险资产估值",
+   "title": "美国7月工厂订单增长0.9%",
+   "brief": "美国7月工厂订单环比增长0.9%，略超预期，显示制造业韧性。",
+   "chain": "经济数据稳健→降息预期降温→美股影响中性→A股关注外需",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862933817.html",
-   "ts": "2026-09-02 19:38:11"
+   "url": "https://finance.eastmoney.com/a/202609023863058653.html",
+   "ts": "2026-09-02 22:01:06"
+  },
+  {
+   "cat": "macro",
+   "title": "加拿大央行考虑特朗普关税冲击，维持利率不变",
+   "brief": "加拿大央行维持利率不变，并评估特朗普关税对经济的潜在影响。",
+   "chain": "贸易政策不确定性→全球增长担忧→美股波动→A股出口链",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/02/bank-canada-rate-decision-trump-tariffs.html",
+   "ts": "Wed, 02 Sep 2026 14:15:58 GMT"
   },
   {
    "cat": "geo",
    "title": "伊朗报复性打击科威特、约旦和巴林",
-   "brief": "伊朗对美军基地实施报复性打击，涉及科威特、约旦和巴林，美国原油突破90美元。",
-   "chain": "中东冲突升级→油价飙升→全球通胀预期升温，影响美股及A股",
-   "impact": 9,
+   "brief": "伊朗对三国发动打击，美国原油逼近90美元，中东冲突升级。",
+   "chain": "地缘冲突升级→油价飙升→美股能源板块受益→A股油气链",
+   "impact": 10,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/09/02/brent-oil-us-iran-strikes.html",
-   "ts": "Wed, 02 Sep 2026 08:50:20 GMT"
+   "ts": "Wed, 02 Sep 2026 12:51:00 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "内塔尼亚胡在加沙称以军将守住黄线",
+   "brief": "以色列总理访问加沙，表示将守住防线直至哈马斯解除武装。",
+   "chain": "中东冲突持续→油价波动→全球风险偏好→A股军工",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609023863098348.html",
+   "ts": "2026-09-02 22:34:49"
+  },
+  {
+   "cat": "geo",
+   "title": "泽连斯基：航空公司应避开俄罗斯领空",
+   "brief": "乌克兰扩大无人机行动，泽连斯基呼吁航空公司避开俄罗斯领空。",
+   "chain": "俄乌冲突升级→地缘风险→航空成本→A股航空",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/02/ukraine-zelenskyy-airlines-russia-drone-war.html",
+   "ts": "Wed, 02 Sep 2026 09:56:26 GMT"
   },
   {
    "cat": "oil",
-   "title": "美伊升级重燃霍尔木兹风险，油价延续涨势",
-   "brief": "美国与伊朗冲突升级，霍尔木兹海峡风险重燃，油价持续上涨。",
-   "chain": "地缘冲突→油价上行→莫桑比克油气出口受益，但航运风险增加",
+   "title": "油价延续涨势，美伊升级重燃霍尔木兹风险",
+   "brief": "美伊冲突升级，霍尔木兹海峡风险重现，油价连续上涨。",
+   "chain": "霍尔木兹风险→油价上涨→莫桑比克LNG出口竞争力增强",
    "impact": 9,
    "source": "Bloomberg",
    "url": "https://www.bloomberg.com/news/articles/2026-08-31/latest-oil-market-news-and-analysis-for-sept-1",
    "ts": "2026-09-01T01:41:43+00:00"
   },
   {
+   "cat": "oil",
+   "title": "美国EIA原油库存减少445万桶",
+   "brief": "美国上周EIA原油库存减少445万桶，远超预期，支撑油价。",
+   "chain": "库存下降→油价偏强→利好莫桑比克油气收入",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609023863097264.html",
+   "ts": "2026-09-02 22:30:38"
+  },
+  {
+   "cat": "oil",
+   "title": "OPEC+周日会议讨论市场及履约情况",
+   "brief": "俄罗斯副总理诺瓦克称OPEC+周日会议将讨论市场形势和协议履约。",
+   "chain": "OPEC+政策→油价方向→影响莫桑比克LNG项目收益",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609023863083326.html",
+   "ts": "2026-09-02 22:14:20"
+  },
+  {
+   "cat": "oil",
+   "title": "OPEC+周日会议或维持产量政策不变",
+   "brief": "消息人士称OPEC+周日会议可能维持产量政策不变，聚焦市场形势。",
+   "chain": "产量不变→油价稳定→莫桑比克LNG出口预期稳定",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609023863073221.html",
+   "ts": "2026-09-02 22:04:28"
+  },
+  {
+   "cat": "oil",
+   "title": "雪佛龙拟70亿美元扩大委内瑞拉产量翻倍",
+   "brief": "雪佛龙计划投资70亿美元将委内瑞拉产量翻倍，扩大运营。",
+   "chain": "巨头增产→全球供应增加→油价承压→莫桑比克LNG竞争加剧",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/02/chevron-venezuela-operations.html",
+   "ts": "Wed, 02 Sep 2026 14:14:25 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "意大利埃尼计划大幅提高委内瑞拉石油产量",
+   "brief": "埃尼石油公司计划大幅提高在委内瑞拉的石油产量。",
+   "chain": "增产→供应增加→油价承压→莫桑比克LNG竞争",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609023863103546.html",
+   "ts": "2026-09-02 22:37:33"
+  },
+  {
    "cat": "gas",
-   "title": "印度LNG进口创六年新高",
-   "brief": "印度LNG进口量同比激增40%至260万吨，创六年新高，尽管价格飙升。",
-   "chain": "亚洲需求强劲→LNG价格支撑→莫桑比克LNG项目出口前景乐观",
+   "title": "印度LNG进口飙升至六年高位",
+   "brief": "印度LNG进口同比增40%至260万吨，创六年新高，尽管价格飙升。",
+   "chain": "亚洲需求强劲→LNG价格坚挺→莫桑比克LNG出口受益",
    "impact": 7,
    "source": "Bloomberg",
    "url": "https://www.bloomberg.com/news/articles/2026-09-01/indian-lng-imports-surge-to-six-year-high-even-as-prices-spike",
@@ -85,9 +164,9 @@
   },
   {
    "cat": "tech",
-   "title": "戴尔上调财年预测，股价大涨9%",
+   "title": "戴尔上调财年预测，AI服务器强劲",
    "brief": "戴尔因AI服务器需求强劲上调2027财年预测，股价大涨9%。",
-   "chain": "AI服务器需求→戴尔业绩超预期→A股算力硬件链受提振",
+   "chain": "AI服务器需求→戴尔业绩→美股科技链→A股算力硬件",
    "impact": 8,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/09/01/dell-q2-earnings-report-2027.html",
@@ -95,73 +174,43 @@
   },
   {
    "cat": "tech",
-   "title": "苹果进入John Ternus时代，AI挑战加剧",
-   "brief": "苹果新任CEO John Ternus上任，面临AI挑战和内存紧张问题。",
-   "chain": "苹果换帅→AI战略调整→A股苹果产业链及AI芯片需求关注",
+   "title": "戴尔成为市场最重要股票",
+   "brief": "分析认为戴尔是当前市场最重要股票，因其AI服务器业务影响广泛。",
+   "chain": "戴尔业绩→AI基础设施→美股科技→A股算力链",
    "impact": 7,
    "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/01/apple-enters-ternus-era-as-ai-challenges-and-memory-crunch-intensify.html",
-   "ts": "Tue, 01 Sep 2026 16:27:54 GMT"
+   "url": "https://www.cnbc.com/2026/09/02/dell-is-now-the-most-important-stock-in-the-market-heres-why-.html",
+   "ts": "Wed, 02 Sep 2026 14:33:21 GMT"
   },
   {
    "cat": "tech",
-   "title": "Palo Alto业绩超预期，AI需求强劲",
-   "brief": "Palo Alto Networks季度业绩超预期，AI需求推动，并继续收购。",
-   "chain": "网络安全AI需求→业绩超预期→A股网络安全及AI应用链映射",
-   "impact": 6,
+   "title": "Uber裁员10%以简化运营",
+   "brief": "Uber宣布裁员10%，旨在实现更简单、更快速的运营。",
+   "chain": "科技裁员→成本削减→美股科技股→A股映射有限",
+   "impact": 5,
    "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/01/palo-alto-networks-panw-q4-2026-earnings.html",
-   "ts": "Tue, 01 Sep 2026 21:41:15 GMT"
+   "url": "https://www.cnbc.com/2026/09/02/uber-to-cut-10percent-of-workforce-in-bid-to-move-simpler-and-faster.html",
+   "ts": "Wed, 02 Sep 2026 14:47:58 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "谷歌广告技术案法官驳回出售AdX要求",
+   "brief": "法官驳回Alphabet出售广告交易平台AdX的要求，但要求整改部分行为。",
+   "chain": "监管压力→谷歌股价→美股科技→A股互联网",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609023863092940.html",
+   "ts": "2026-09-02 22:23:48"
   },
   {
    "cat": "ai",
-   "title": "OpenAI Astra模型跨过关键网络安全能力门槛",
-   "brief": "OpenAI称Astra模型首次跨过“关键”网络安全能力，将很快提供。",
-   "chain": "AI安全能力提升→AI应用扩展→A股AI安全及算力链受益",
+   "title": "OpenAI Astra模型首次跨越关键网络安全能力",
+   "brief": "OpenAI称Astra模型首次跨越“关键”网络安全能力，将很快发布。",
+   "chain": "AI安全能力→AI应用扩展→美股AI→A股AI安全",
    "impact": 8,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/09/01/open-ai-astra-cyber-model.html",
    "ts": "2026-09-01T20:12:35+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "Anthropic与Lambda达成350亿美元云交易",
-   "brief": "Anthropic与英伟达支持的Lambda签署350亿美元云协议，扩展AI算力。",
-   "chain": "AI算力需求激增→云巨头巨额投资→A股算力基础设施链利好",
-   "impact": 9,
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-08-31/anthropic-seals-35-billion-cloud-deal-with-nvidia-backed-lambda",
-   "ts": "2026-09-01T01:51:14+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "Kimi API原生支持Codex和Claude Code",
-   "brief": "月之暗面宣布Kimi API现已原生支持OpenAI Codex和Claude Code，满足开发者需求。",
-   "chain": "国产AI模型兼容性提升→AI应用生态扩展→A股AI应用链受益",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862929772.html",
-   "ts": "2026-09-02 19:31:46"
-  },
-  {
-   "cat": "ai",
-   "title": "AI客服初创Wonderful估值达50亿美元",
-   "brief": "AI客服初创公司Wonderful估值达到50亿美元，显示AI应用投资热度。",
-   "chain": "AI应用融资活跃→AI商业化加速→A股AI应用及企业服务链映射",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023862903615.html",
-   "ts": "2026-09-02 19:04:16"
-  },
-  {
-   "cat": "ai",
-   "title": "Hugging Face鸭子机器人热销，中国芯片驱动",
-   "brief": "Hugging Face的鸭子机器人销售火爆，采用中国芯片，显示AI硬件创新。",
-   "chain": "AI硬件创新→中国芯片需求→A股AI芯片及硬件链受益",
-   "impact": 4,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/01/hugging-faces-new-duck-robot-is-selling-fast-a-chinese-chip-powers-it.html",
-   "ts": "Wed, 02 Sep 2026 00:11:14 GMT"
   }
  ]
 }
