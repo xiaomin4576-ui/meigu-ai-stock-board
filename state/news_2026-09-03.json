@@ -1,36 +1,35 @@
 {
  "asof": "2026-09-03",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-09-03T14:30+08:00",
+ "generated_at": "2026-09-03T16:12+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 5,
   "cluster_label": "中东/伊朗/沙特",
   "cluster_dropped": [
-   "特朗普称对伊朗新攻势不会持久",
-   "美财长：考虑制裁伊朗相关航空和数字资产",
-   "伊朗打击科威特，特朗普称冲突不会太久",
-   "油价小幅下跌，市场权衡美伊打击不确定性",
-   "美能源部长：周一霍尔木兹过油1700万桶"
+   "美能源部长：周一霍尔木兹过境石油超1700万桶",
+   "油价收涨1%，美伊袭击威胁供应",
+   "特朗普称对伊朗新行动不会持续很久",
+   "油价小幅下跌，市场权衡美伊袭击不确定性"
   ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "geo",
-   "title": "美伊互袭引发中东全面战争担忧",
-   "brief": "美国与伊朗相互打击，引发中东爆发新一轮全面战争的担忧。",
-   "chain": "地缘冲突升级→避险情绪升温→美股承压，A股军工、黄金股或受关注。",
+   "title": "伊朗袭击科威特，特朗普称中东冲突不会持续太久",
+   "brief": "伊朗对科威特发动袭击，特朗普表示新一轮中东敌对行动不会持续太久。局势升级引发市场担忧。",
+   "chain": "美伊冲突升级→地缘风险溢价上升→美股短期承压，A股油气、军工板块或受情绪提振。",
    "impact": 10,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORjZ4d3JRTk1WcXR6eThpVm1wcVpzQV8wMm42eDB4bDJRMVhxelJpdmZTYXVPQ0JTUmtiNXFVWEZyb1NBTTZibmZJTkk4bjlRNGwtWTU1OF8zXzhENVZhWDN4TUwzekdfVG8xWUpmY3hmcHBDQk5TUzBLSERGbFJ0c05nekFpclo3cFdMcm93dHlEUXctVTY2MjJIMkkxSTRGWnc?oc=5",
-   "ts": "2026-09-02T21:06:12+00:00"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/03/us-iran-war-trump-hormuz-israel-middle-east-europe-kuwait.html",
+   "ts": "Thu, 03 Sep 2026 06:33:19 GMT"
   },
   {
    "cat": "oil",
-   "title": "沙特称伊朗袭击霍尔木兹船只致两死",
-   "brief": "沙特阿拉伯称伊朗在霍尔木兹海峡袭击一艘船只，造成两名船员死亡。",
-   "chain": "霍尔木兹遇袭→原油供应风险加剧→油价短期上行，莫桑比克油气出口受益于高油价。",
+   "title": "沙特称伊朗在霍尔木兹袭击船只致两名海员死亡",
+   "brief": "沙特阿拉伯表示，伊朗在霍尔木兹海峡袭击了一艘船只，造成两名海员死亡。该事件加剧了地区紧张局势。",
+   "chain": "霍尔木兹海峡遇袭→原油供应中断风险加剧→油价短期上行，莫桑比克油气出口或受益于高油价。",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdW5sTXJ3VXZwZE1vZ2RUZ19pNnFoX3ZHc2EyYUI0Y3V0Z09Wc21IMkNNVHlrTXR5eTdOZkNYeGJ3VHhBWlhxeVBjemxGQWZzS0EwN2MxWC1GOWMySnFEM2hkY0V4VVRIcjgxbEdQSHpLcVhIa3Y4QU1Jd3dSWWt3RlE4RnBWRlR6S0c1RWkwVHJ4UlcxWE5oX3hRSVJ3U1RtaHdDeUZaTHBfXzN5OGdfX3dlZGtTYXFySjZ4M1NqRQ?oc=5",
@@ -38,143 +37,133 @@
   },
   {
    "cat": "macro",
-   "title": "股债齐涨，市场等待美联储信号",
-   "brief": "全球股市与债券市场同步上涨，日元跳升，投资者关注美联储政策信号。",
-   "chain": "市场预期美联储转向→风险偏好回升→利好美股科技股，映射A股算力链情绪。",
+   "title": "荷兰央行将黄金从美国加拿大运回，称危机准备",
+   "brief": "荷兰央行以“危机准备”为由，将黄金储备从美国和加拿大运回国内。此举反映去美元化趋势。",
+   "chain": "央行购金/去美元化→实际利率与美元信用受关注→黄金避险需求上升，对美股AI高久期估值形成压力，A股算力链情绪或受抑制。",
    "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHUxMWV6alo1MWFYM191bnlDTlhjTlc0Y2t0UjE4TndrZW9PczcxTmg5a1M0ZWk5M2Fqb0RvVlNIQWFuNG1nb3BtbjhhM2NmbkhDVENZTF9qYU53UDBWR3ROTl9XSlFDVGNLUF9sN29rSlhZc0xfSGZKcWlFanB4b2R1bw?oc=5",
-   "ts": "2026-09-03T02:02:00+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "全球或进入高利率时代，谁将买单",
-   "brief": "分析指出世界可能进入更高利率时代，探讨其影响与代价。",
-   "chain": "高利率预期→压制美股估值→A股成长股承压，关注防御板块。",
-   "impact": 7,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/03/global-bond-yields-rising-treasuries-jgb-bunds.html",
-   "ts": "Thu, 03 Sep 2026 04:20:20 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "英国国债收益率创19年新高",
-   "brief": "英国国债收益率触及19年高位，加大财政压力。",
-   "chain": "英债收益率飙升→全球利率上行预期→美股波动，A股外资流向或受影响。",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQlF1REpnZkFBOEQ5aWtMa2dFUExMOFRLMUxBQzgzeTdfYTByQ0dfbldMajJEVVloel9vb19MMEVkSHgtVTFaTGhhcjZRQURfOWREdkZoZGNtR2tvYmYzWkpIbTNzNGxQSGIwcDhsRnNubGhTN254TEMtek5Xdjhhbi03aDRWVG11RVQxbTNGVm80Ny1sRUVlRzFvVGlaNlVMWk1POEJxdkM5SjdGR3RoeG1lQ3M?oc=5",
-   "ts": "2026-09-02T15:30:18+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "高盛警告全球股市回报率将下降",
-   "brief": "高盛首席策略师预计未来12个月股市涨幅温和，回报率下降。",
-   "chain": "股市回报预期下调→美股或高位震荡→A股市场情绪谨慎。",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609033863968455.html",
-   "ts": "2026-09-03 14:20:24"
-  },
-  {
-   "cat": "oil",
-   "title": "普京：东方石油项目将新建输油管道",
-   "brief": "普京表示东方石油项目将新建管道，石油经北极航线运输。",
-   "chain": "俄罗斯增供→全球原油供应增加→油价承压，莫桑比克油气项目面临价格竞争。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609033863980464.html",
-   "ts": "2026-09-03 14:26:21"
-  },
-  {
-   "cat": "oil",
-   "title": "俄副总理：今年石油产量下降是暂时",
-   "brief": "诺瓦克称俄罗斯今年石油产量小幅下降，因炼厂检修，属暂时现象。",
-   "chain": "俄产量短期下降→供应略紧→油价获支撑，莫桑比克出口环境相对有利。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609033863978839.html",
-   "ts": "2026-09-03 14:22:41"
-  },
-  {
-   "cat": "oil",
-   "title": "俄副总理：或下调财政规则油价至50美元",
-   "brief": "诺瓦克表示俄罗斯可能将财政规则下的油价假设下调至每桶50美元。",
-   "chain": "俄财政假设下调→反映长期油价预期走低→莫桑比克项目需评估低油价情景。",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609033863953034.html",
-   "ts": "2026-09-03 13:59:40"
-  },
-  {
-   "cat": "gas",
-   "title": "道达尔完成纳米比亚PEL83区块收购",
-   "brief": "道达尔能源完成收购纳米比亚PEL83区块40%权益，含巨型Mopan气田。",
-   "chain": "道达尔布局非洲天然气→区域LNG供应潜力增加→对莫桑比克LNG构成竞争。",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609033863964282.html",
-   "ts": "2026-09-03 14:10:38"
-  },
-  {
-   "cat": "gas",
-   "title": "世界气象组织：厄尔尼诺将达超强级别",
-   "brief": "世界气象组织确认厄尔尼诺已形成并将增强至超强级别，影响全球气候。",
-   "chain": "厄尔尼诺→极端天气→能源需求波动→影响LNG需求，莫桑比克需关注天气风险。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609033863955044.html",
-   "ts": "2026-09-03 14:01:12"
+   "url": "https://www.cnbc.com/2026/09/03/netherlands-gold-transfer-us-canada-uk.html",
+   "ts": "Thu, 03 Sep 2026 07:12:34 GMT"
   },
   {
    "cat": "tech",
-   "title": "博通指引不及预期，股价跌5%",
-   "brief": "博通第四季度营收预测未达预期，尽管盈利超预期，股价下跌5%。",
-   "chain": "博通指引疲软→半导体板块承压→A股算力链情绪受拖累。",
+   "title": "博通指引不及预期，股价下跌5%",
+   "brief": "博通第四季度营收预测未达预期，尽管盈利超预期，但股价盘后下跌5%。汇丰下调目标价。",
+   "chain": "博通指引疲软→美股半导体板块承压→A股算力硬件（光模块、PCB）或受联动影响。",
    "impact": 8,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/09/02/broadcom-avgo-q3-earnings-report-2026.html",
    "ts": "2026-09-02T20:27:45+00:00"
   },
   {
+   "cat": "ai",
+   "title": "Snowflake上调预测，股价大涨22%",
+   "brief": "Snowflake因上调年度产品销售预测，股价盘前大涨超25%。AI编码业务增长强劲。",
+   "chain": "Snowflake业绩超预期→AI数据云需求强劲→A股AI应用与数据服务板块受提振。",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/02/snowflake-snow-q2-earnings-report-2027.html",
+   "ts": "Wed, 02 Sep 2026 20:28:39 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "全球或进入高利率时代，谁将付出代价",
+   "brief": "分析指出全球可能进入更高利率时代，将增加借贷成本，影响经济增长和资产估值。",
+   "chain": "高利率环境→美股成长股估值承压→A股高估值科技板块或受压制，关注防御性配置。",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/03/global-bond-yields-rising-treasuries-jgb-bunds.html",
+   "ts": "Thu, 03 Sep 2026 04:20:20 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "外交部回应越南西沙主权声明",
+   "brief": "越南声称对西沙群岛拥有主权，中国外交部回应称西沙是中国固有领土，不存在争议。",
+   "chain": "中越南海争端→地缘紧张但可控→对A股军工、南海油气开发相关标的或有情绪影响。",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609033864024630.html",
+   "ts": "2026-09-03 15:47:39"
+  },
+  {
+   "cat": "gas",
+   "title": "哈萨克斯坦8月油气产量环比增长11%",
+   "brief": "哈萨克斯坦8月石油和天然气凝析油产量较7月增长11%，供应增加或影响市场。",
+   "chain": "哈国产量增加→全球油气供应宽松→气价承压，对莫桑比克LNG项目竞争压力上升。",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609033864029220.html",
+   "ts": "2026-09-03 15:46:39"
+  },
+  {
    "cat": "tech",
    "title": "微软将单独披露Azure季度收入",
-   "brief": "微软宣布将开始披露Azure季度收入，作为业务整合的一部分。",
-   "chain": "云业务透明度提升→市场关注云增长→映射A股云计算产业链。",
+   "brief": "微软宣布将开始单独披露Azure季度收入，以提高透明度，反映云业务重要性。",
+   "chain": "微软云业务透明度提升→云需求信号增强→A股云计算、数据中心板块受关注。",
    "impact": 6,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/09/02/microsoft-to-disclose-azure-revenue-as-part-of-segment-changes.html",
    "ts": "Wed, 02 Sep 2026 22:37:13 GMT"
   },
   {
-   "cat": "tech",
-   "title": "韩国半导体出口同比增三倍",
-   "brief": "韩国半导体出口同比激增三倍，引发过热担忧。",
-   "chain": "韩国出口强劲→全球半导体需求旺盛→利好A股半导体设备材料。",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/03/south-korea-semiconductor-exports-surging-concerns.html",
-   "ts": "Thu, 03 Sep 2026 01:11:41 GMT"
+   "cat": "ai",
+   "title": "Palo Alto业绩超预期，AI需求强劲",
+   "brief": "Palo Alto Networks季度业绩超预期，AI需求驱动增长，并继续收购。",
+   "chain": "Palo Alto业绩好→AI安全需求增长→A股网络安全、AI应用板块受提振。",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/01/palo-alto-networks-panw-q4-2026-earnings.html",
+   "ts": "Wed, 02 Sep 2026 16:41:48 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "英国国债收益率创19年新高，财政压力加大",
+   "brief": "英国国债收益率触及19年新高，增加财政压力，市场关注财政政策。",
+   "chain": "英债收益率上升→全球利率预期上行→美股估值承压，A股外资流向或受影响。",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQlF1REpnZkFBOEQ5aWtMa2dFUExMOFRLMUxBQzgzeTdfYTByQ0dfbldMajJEVVloel9vb19MMEVkSHgtVTFaTGhhcjZRQURfOWREdkZoZGNtR2tvYmYzWkpIbTNzNGxQSGIwcDhsRnNubGhTN254TEMtek5Xdjhhbi03aDRWVG11RVQxbTNGVm80Ny1sRUVlRzFvVGlaNlVMWk1POEJxdkM5SjdGR3RoeG1lQ3M?oc=5",
+   "ts": "2026-09-02T15:30:18+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "普京称与华盛顿接触仍在继续",
+   "brief": "俄罗斯总统普京表示，与华盛顿的接触仍在继续，支持恢复与美国的关系。",
+   "chain": "俄美接触→地缘缓和信号→风险偏好回升，利好美股，A股风险资产或受益。",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609033864047770.html",
+   "ts": "2026-09-03 16:06:17"
   },
   {
    "cat": "tech",
-   "title": "三星越南芯片厂新增1612台设备",
-   "brief": "三星电子将在越南泰阮省半导体后段工艺厂引入1612台韩国设备。",
-   "chain": "三星扩产→半导体设备需求增加→A股设备厂商或受益。",
+   "title": "慧与科技财报强劲但盘前跌近6%",
+   "brief": "慧与科技（HPE）财报强劲且上调指引，但盘前跌近6%，或因获利了结。",
+   "chain": "HPE业绩好但股价跌→AI服务器板块波动→A股算力硬件或受情绪影响。",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609033863958446.html",
-   "ts": "2026-09-03 14:01:46"
+   "url": "https://finance.eastmoney.com/a/202609033864044533.html",
+   "ts": "2026-09-03 16:02:10"
   },
   {
    "cat": "ai",
-   "title": "Snowflake大涨22%，AI编码动能强劲",
-   "brief": "Snowflake因健康业绩和AI编码势头股价飙升22%。",
-   "chain": "AI应用业绩超预期→提振AI板块→A股AI应用端或跟涨。",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/02/snowflake-snow-q2-earnings-report-2027.html",
-   "ts": "Wed, 02 Sep 2026 20:28:39 GMT"
+   "title": "算网应用封装国家标准启动",
+   "brief": "国家标准《智能计算超算互联网平台应用封装要求》启动会召开，将制定相关标准。",
+   "chain": "算网标准制定→AI基础设施规范化→A股算力网络、超算概念股受政策提振。",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609033864029381.html",
+   "ts": "2026-09-03 15:45:54"
+  },
+  {
+   "cat": "macro",
+   "title": "股债齐涨，市场等待美联储信号",
+   "brief": "全球股市和债市上涨，投资者等待美联储政策信号，日元跳涨。",
+   "chain": "市场预期美联储转向→风险偏好回升→美股反弹，A股外资流入或增加。",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHUxMWV6alo1MWFYM191bnlDTlhjTlc0Y2t0UjE4TndrZW9PczcxTmg5a1M0ZWk5M2Fqb0RvVlNIQWFuNG1nb3BtbjhhM2NmbkhDVENZTF9qYU53UDBWR3ROTl9XSlFDVGNLUF9sN29rSlhZc0xfSGZKcWlFanB4b2R1bw?oc=5",
+   "ts": "2026-09-03T02:02:00+00:00"
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "asof": "2026-09-03",
- "fetched_at": "2026-09-03T14:30+08:00",
+ "fetched_at": "2026-09-03T16:12+08:00",
  "meta": {
   "counts": {
    "TechCabal": 0,
@@ -14,21 +14,111 @@
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 1,
-   "非洲科技·聚合": 11,
-   "中非科技·聚合": 14
+   "非洲科技·聚合": 10,
+   "中非科技·聚合": 12
   },
   "total": 60,
-  "ai_flagged": 18,
-  "aiinfra_flagged": 2,
-  "countries": 10
+  "ai_flagged": 17,
+  "aiinfra_flagged": 3,
+  "countries": 6
  },
  "items": [
   {
-   "title": "Mobile money operators shift focus from access to usage as Africa's fintech sector matures",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTzg5VnNyMWU3RkYyTks3UTVBS0hiMEtmcVpKUktpN1VlVUVHbUhWT2xNUXpKRDFldXdNbzlPSDU5VE5YLTNSem1WMXlfb2xoRWpfamhCcUhUVzhzLWdlcW5LZW4tNWF1RXRINDRYQjdrMVdRdmlySWJVME14VG",
-   "source": "Africa Business Communities·聚合",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTzg5VnNyMWU3RkYyTks3UTVBS0hiMEtmcVpKUktpN1VlVUVHbUhWT2xNUXpKRDFldXdNbzlPSDU5VE5YLTNSem1WMXlfb2xoRWpfamhCcUhUVzhzLWdlcW5LZW4tNWF1RXRINDRYQjdrMVdRdmlySWJVME14VGRINVlONGRuLU5XNTFlMXhVcFZLUFF1OFdjbGhOUHFQVS11TnF1aXhPeU8wWjBfazJsdjdWX0ZWeG1NRTYxUlZQOHl2azNSUUVGTzhZR3dqU1lpeXc?oc=5",
-   "date": "Thu, 03 Sep 2026 06:16:54 GMT",
+   "title": "Dell Technologies Joins OpenAI Call for Collective Action on AI-Powered Cyber Defense",
+   "brief": "Cyber defense is a shared responsibility, and the rapid advancement of AI makes coordinated action more urgent. Dell Technologies  has joined OpenAI ‘s call for collective ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/03/dell-technologies-joins-openai-call-for-collective-action-on-ai-powered-cyber-defense/",
+   "date": "Thu, 03 Sep 2026 08:00:39 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "AXIAN and AfDB Partner to Expand Digital Finance for 34,000 Women Entrepreneurs in Africa",
+   "brief": "AXIAN Group  and the African Development Bank  have launched a major women’s financial inclusion programme to expand access to finance and business support for more ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/03/axian-afdb-expand-digital-finance-women-entrepreneurs-africa/",
+   "date": "Thu, 03 Sep 2026 07:46:16 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Orange Joins ReuNION Submarine Cable Project to Strengthen La Réunion-South Africa Connectivity",
+   "brief": "Orange  has joined a consortium of telecom operators and digital infrastructure companies to develop the ReuNION submarine cable, a major project designed to strengthen La ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/03/orange-joins-reunion-submarine-cable-project-to-strengthen-la-reunion-south-africa-connectivity/",
+   "date": "Thu, 03 Sep 2026 07:32:42 +0000",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": true
+  },
+  {
+   "title": "South Africa’s Online Retail Market Set to Reach R159 Billion in 2026",
+   "brief": "South Africans are expected to spend about R159-billion online in 2026, as e-commerce grows by an estimated 22.5% and records its first full year at ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/03/south-africa-online-retail-market-reach-r159-billion-2026/",
+   "date": "Thu, 03 Sep 2026 07:18:39 +0000",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "CAMTEL and ANIPES Partner to Accelerate Digital Transformation of Cameroon’s Private Universities",
+   "brief": "Cameroon Telecommunications (CAMTEL)  has signed a Framework Agreement with the National Association of Private Institutions of Higher Education of Cameroon (ANIPES)  to support the digital ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/03/camtel-and-anipes-partner-to-accelerate-digital-transformation-of-cameroons-private-universities/",
+   "date": "Thu, 03 Sep 2026 07:02:36 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Is climate change reshaping life insurance?",
+   "brief": "By combining geospatial data with climate projections, health trends and demographic information, insurers can build a more granular picture of climate-related health risks, says Laurette Coetzee, senior account manager ",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/is-climate-change-reshaping-life-insurance/LPp6V7rBYzJ7DKQz",
+   "date": "Thu, 03 Sep 2026 08:32:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "SA still prints an estimated 5m paper payslips a month, as much as 650 trees' worth of paper",
+   "brief": "Genghis Technology is offering South African companies a digitisation analysis to pinpoint where automation and digital payroll could reduce costs, admin burden and compliance risk.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/sa-still-prints-an-estimated-5m-paper-payslips-a-month-as-much-as-650-trees-worth-of-paper/Olx4z7kaL8kq56km",
+   "date": "Thu, 03 Sep 2026 08:31:00 +0200",
+   "country": "🇿🇦 南非",
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Huawei’s Mate 90 series may restore 5G connectivity on China-market phones",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbWQ5X3g1Mk1jTnJVcHgxTVhZbEd1Z0JXNEV2bnppaV94VDdSaTZtSTJYUjVOZUI4clhPM0hIYlUtWHZvM1hUaVhHUzR5S3Q0Qm8yeTNwMlF4Qk9qLV9kaS1KQmQ1NnlDLUVfOFR6T19fS1dKeWNGTnJLTTZUdl",
+   "source": "technode.com·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbWQ5X3g1Mk1jTnJVcHgxTVhZbEd1Z0JXNEV2bnppaV94VDdSaTZtSTJYUjVOZUI4clhPM0hIYlUtWHZvM1hUaVhHUzR5S3Q0Qm8yeTNwMlF4Qk9qLV9kaS1KQmQ1NnlDLUVfOFR6T19fS1dKeWNGTnJLTTZUdlQyVWJ6Qy0yZDVqOUFjU1loVjdBM01JMmNFbDZiVXFiOF8tOVJGd3RXRF9TZw?oc=5",
+   "date": "Thu, 03 Sep 2026 06:05:48 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Telecom Cybersecurity in the Age of AI: Defending Networks Against Intelligent Threats",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxQYVV1RlU3Ql9BbXlJYjYwRW0xbVRPMGZ0c1FVSjR5WERkaVJjNjBsU2d2WG9tdlJwNFpHWFV6THEyWnpZYlgyZ3hzcHFydXg0eXhzLTJoUDVfVjBzX19XdVpORGpxUjV2WS00T2I4b1lfYkxjNkRETWtSZzlTS2",
+   "source": "Telecom Review Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQYVV1RlU3Ql9BbXlJYjYwRW0xbVRPMGZ0c1FVSjR5WERkaVJjNjBsU2d2WG9tdlJwNFpHWFV6THEyWnpZYlgyZ3hzcHFydXg0eXhzLTJoUDVfVjBzX19XdVpORGpxUjV2WS00T2I4b1lfYkxjNkRETWtSZzlTS2IzYTEzLTJQa2xIT0wyeFRWbjZlbWtkMjFkQlJjSFZwN01LMURYZ3poSkFLUTFxbUtvWWh0QWstXzJDZkJtemJEM2pWMnZMdFNQQnNqRmlUUWtvV2p2Qnp6N1VKZ3dDWl9j?oc=5",
+   "date": "Thu, 03 Sep 2026 05:14:23 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "WIOCC Group Secures $300 Million Investment for Africa Digital Infrastructure",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxOd3J3cm5NOTktQkNBRFdOZjhUTHhtUUFjTEZZUDBmZzJYX2F0U1FSTjJINEtTakZzWGc2bjNUM2M5aHVSUllOODRudzI2SklweDAwVmEzMUZGVkJmQVNISjZPR3FUTGhkRUk5VFVEQ1dfdXdkZEJQTFVkOEZYZm",
+   "source": "The Fast Mode·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOd3J3cm5NOTktQkNBRFdOZjhUTHhtUUFjTEZZUDBmZzJYX2F0U1FSTjJINEtTakZzWGc2bjNUM2M5aHVSUllOODRudzI2SklweDAwVmEzMUZGVkJmQVNISjZPR3FUTGhkRUk5VFVEQ1dfdXdkZEJQTFVkOEZYZmZ3TldIaFNRYWFwdmpMekVXd0Z0Y202Sllwb1RCZWdrbXh2RkY0a3lnQVR2SUh3amJXMVZ0MkFadzI3RGpwTVJnMklFSFk0QTFyWXMzaVFPMmVpcXRZ?oc=5",
+   "date": "Thu, 03 Sep 2026 03:32:30 GMT",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -164,42 +254,12 @@
    "is_aiinfra": false
   },
   {
-   "title": "NASENI Plans Nigeria’s First Metal 3D Printing Hub to Boost Industrial Growth",
-   "brief": "The National Agency for Science and Engineering Infrastructure (NASENI)  has announced plans to establish Nigeria’s first Metal Additive Manufacturing Hub, an initiative aimed at strengthening ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/02/naseni-plans-nigerias-first-metal-3d-printing-hub-to-boost-industrial-growth/",
-   "date": "Wed, 02 Sep 2026 10:59:47 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
    "title": "ICASA turns to ConCourt to clarify its powers",
    "brief": "The regulator takes a fight, over whether it can accept a community radio station’s late licence renewal, to the Constitutional Court.",
    "source": "ITWeb Africa",
    "url": "https://www.itweb.co.za/article/icasa-turns-to-concourt-to-clarify-its-powers/JBwErvn3lyb76Db2",
    "date": "Wed, 02 Sep 2026 12:45:31 +0200",
    "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Qualcomm and KAUST Sign Agreement to Advance 6G, Edge AI and Physical AI",
-   "brief": "Qualcomm  and King Abdullah University of Science and Technology (KAUST)  have formalised a strategic partnership focused on advancing research and innovation in 6G, Edge AI, ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/02/qualcomm-kaust-agreement-advance-6g-edge-ai-physical-ai/",
-   "date": "Wed, 02 Sep 2026 10:35:48 +0000",
-   "country": "🇲🇱 马里",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Kenya and Lesotho Deepen ICT Regulatory Cooperation on National Addressing System",
-   "brief": "The Communications Authority of Kenya (CA)  is hosting a delegation from the Lesotho Communications Authority (LCA)  for a benchmarking engagement focused on Kenya’s implementation of ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/02/kenya-and-lesotho-deepen-ict-regulatory-cooperation-on-national-addressing-system/",
-   "date": "Wed, 02 Sep 2026 10:19:28 +0000",
-   "country": "🇰🇪 肯尼亚",
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -220,16 +280,6 @@
    "url": "https://thecondia.com/nuran-delists-cse/",
    "date": "Wed, 02 Sep 2026 10:16:42 +0000",
    "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "CRAN and NORED Sign MoU to Boost Rural Connectivity and Digital Infrastructure in Namibia",
-   "brief": "The Communications Regulatory Authority of Namibia (CRAN)  and NORED Electricity (Pty) Ltd  signed a Memorandum of Understanding (MoU) on 25 August 2026 in Ondangwa, marking ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/02/cran-nored-sign-mou-boost-rural-connectivity-digital-infrastructure-namibia/",
-   "date": "Wed, 02 Sep 2026 10:14:46 +0000",
-   "country": "🇳🇦 纳米比亚",
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -270,36 +320,6 @@
    "url": "https://thecondia.com/grey-china-africa-cny-payments/",
    "date": "Wed, 02 Sep 2026 09:10:00 +0000",
    "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "SAMRO opens applications for Music Creation Support Fund",
-   "brief": "SAMRO is inviting eligible full and associate members to apply for grants of up to R25 000 to support the creation of new, original and royalty-generating musical works.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/samro-opens-applications-for-music-creation-support-fund/KzQenqjyjYJMZd2r",
-   "date": "Wed, 02 Sep 2026 11:05:00 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "ServiceNow and Aramco Digital Sign Agreement to Accelerate AI-Powered Enterprise Transformation",
-   "brief": "ServiceNow,  the AI control tower for business reinvention, and Aramco Digital,  the technology subsidiary of Aramco, have announced the signing of a Collaboration Agreement to ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/02/servicenow-aramco-digital-agreement-ai-enterprise-transformation/",
-   "date": "Wed, 02 Sep 2026 09:03:26 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Paratus Uganda first to market with Starlink service",
-   "brief": "Starlink’s low earth orbit satellite service allows Paratus Uganda to unlock high-speed, low-latency satellite access for enterprise customers across even the most remote parts of the country.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/paratus-uganda-first-to-market-with-starlink-service/nWJad7bN3NQ7bjO1",
-   "date": "Wed, 02 Sep 2026 11:03:00 +0200",
-   "country": "🇺🇬 乌干达",
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -374,19 +394,9 @@
    "is_aiinfra": false
   },
   {
-   "title": "La Francophonie Convenes First Digital Governance Forum as Francophone Africa Builds a Fourth AI Rulebook",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNd0J0c1hPdGJnZ0pQbW5FYXpmV1BvSkhOOUFQNWRFSVpjWVIyN3BMY2hLYUh1eDY0TWY3UlhkNTcycUVpRTJnTEZZOE8xSmFkVlJQM255YlJQczNkSkkwNW5OU2Q5Mkl2YWx4STR5SFhncXNTMU5MdUJSU0Yya2",
-   "source": "iAfrica.com·聚合",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNd0J0c1hPdGJnZ0pQbW5FYXpmV1BvSkhOOUFQNWRFSVpjWVIyN3BMY2hLYUh1eDY0TWY3UlhkNTcycUVpRTJnTEZZOE8xSmFkVlJQM255YlJQczNkSkkwNW5OU2Q5Mkl2YWx4STR5SFhncXNTMU5MdUJSU0Yya2phU2VzYWxBY0wzbENwSmFvZ0FKUUlCQ1RDbTVXakFVQ3RjN1RPRWlwZ2xrRjNHT2phMEIwdWFHTVhMM0ZfZkwzcXdUSDl3?oc=5",
-   "date": "Tue, 01 Sep 2026 15:52:12 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
    "title": "Africa's Assisted Reproductive Technology Boom Needs Public Governance, Not Just Private Investment",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRTlUQmFtWFowLWdTUkEzbUhRRjl6cWNKbkxqbndUUUFKVTYtaXlmQmladXpiSURaMDJna0dfTDB3U1ZwVVFoTGoxd0xZZm5kdjlrRmI3T253cV9kdXYwcWI2c0dXNGU1WUxsUVJxSFpnOHJsaHJFY2lqMmlyUG",
-   "source": "africanarguments.org·聚合",
+   "source": "African Arguments·聚合",
    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRTlUQmFtWFowLWdTUkEzbUhRRjl6cWNKbkxqbndUUUFKVTYtaXlmQmladXpiSURaMDJna0dfTDB3U1ZwVVFoTGoxd0xZZm5kdjlrRmI3T253cV9kdXYwcWI2c0dXNGU1WUxsUVJxSFpnOHJsaHJFY2lqMmlyUGJ5cFl2X1kyVmVpclJnZDNveENIY1l3dk9GdExxZ04xWHJZaTRRX1l2SFJycTF6dzA2Rk5UaDd2SERzQ2I0aHMzRHFTV1hhR0JDdWtCT3kyRm00bkNB?oc=5",
    "date": "Tue, 01 Sep 2026 15:19:34 GMT",
    "country": null,
@@ -596,7 +606,7 @@
   {
    "title": "ICT Minister Ateny calls for stronger China-Africa digital and AI Cooperation",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPRUhuRFZta2dlOV82Y0pGc1JwNmx0ck5RNERXcE5Ec25mRDhYWThacFVJV25WRlN2UzBoaVdrN1VDN2puVXRrQmxBNHhWS1RaVEtNVWdJLTluMlNZZFhpRDFUQXpueEU3dHZrekR1V3pZQzBnR2I0Q0RWTTBkN2",
-   "source": "eyeradio.org·聚合",
+   "source": "Eye Radio·聚合",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRUhuRFZta2dlOV82Y0pGc1JwNmx0ck5RNERXcE5Ec25mRDhYWThacFVJV25WRlN2UzBoaVdrN1VDN2puVXRrQmxBNHhWS1RaVEtNVWdJLTluMlNZZFhpRDFUQXpueEU3dHZrekR1V3pZQzBnR2I0Q0RWTTBkN2JFc0c2TWRzOG1xTGdETWw3c1FHWUVTMEhuRkt0dm5EMW1WOHBzOEl30gGrAUFVX3lxTE1VV1JXZ3pNdnBiLVpVWXMtSWlSN1FQZ0dGTTF4TlBVVUM5cmVmX2VGbU5yQXVHZ1NIZ1d2R0tma1l1RFMzZUFYaGFxS3VUQ2YxWExXQVpCb3J3cnJMNjZmQ2tGTU5VMG5BTFE3LVFrMTQ5dWxKNGFiTUg4UTByWTVRY3ZSZmxDT2ZvZjZ1RmlONXB1LUlhRVJtNzAxUi1VSi1way1iT0tsQVRUTQ?oc=5",
    "date": "Sun, 30 Aug 2026 12:27:31 GMT",
    "country": null,
@@ -612,16 +622,6 @@
    "country": null,
    "is_ai": true,
    "is_aiinfra": true
-  },
-  {
-   "title": "She joined Bumpa as a content marketer. Five years later, she’s helping build the product",
-   "brief": "Precious O’Dahunsi joined Bumpa as a content marketer. Five years later, she’s helping shape its products, bringing creativity and customer insight to product growth.",
-   "source": "Condia",
-   "url": "https://thecondia.com/precious-odahunsi-bumpa-product-growth-story/",
-   "date": "Sun, 30 Aug 2026 09:00:00 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
   }
  ]
 }
