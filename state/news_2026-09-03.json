@@ -1,224 +1,209 @@
 {
  "asof": "2026-09-03",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-09-03T01:21+08:00",
+ "generated_at": "2026-09-03T11:03+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 10,
-  "cluster_label": "",
-  "cluster_dropped": [],
-  "backfilled": 0
+  "cross_day_suppressed": 4,
+  "cluster_label": "中东/伊朗/卡塔尔",
+  "cluster_dropped": [
+   "特朗普助手寻求美伊冲突'平静'但称可能加剧",
+   "油价因美伊打击不确定性下跌",
+   "美能源部长：周一霍尔木兹过油超1700万桶",
+   "卡塔尔阿联酋LNG船对船转运避开霍尔木兹"
+  ],
+  "backfilled": 6
  },
  "items": [
   {
-   "cat": "macro",
-   "title": "美国8月ADP新增就业3.8万远低预期",
-   "brief": "ADP报告显示8月私营部门就业仅增3.8万人，远低于预期，劳动力市场降温信号增强。",
-   "chain": "就业疲软→美联储降息预期升温→利好美股估值→A股成长风格受益。",
-   "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html",
-   "ts": "Wed, 02 Sep 2026 14:30:10 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "日本10年期国债收益率突破3%创新高",
-   "brief": "日本10年期国债收益率一度升至3.015%，创近30年新高，通胀与债务压力双重承压。",
-   "chain": "日债收益率上行→全球利率锚抬升→压制美股高估值科技股→A股算力链情绪受抑。",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609033863144493.html",
-   "ts": "2026-09-03 00:40:42"
-  },
-  {
-   "cat": "macro",
-   "title": "美国房贷利率升至去年6月来最高",
-   "brief": "中东袭击推升油价，美国房贷利率升至2025年6月以来最高，降息预期受挫。",
-   "chain": "油价上涨→通胀预期升温→美债利率上行→美股承压→A股风险偏好下降。",
-   "impact": 6,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/31/mortgage-rates-surge-middle-east-attacks-oil.html",
-   "ts": "2026-08-31T17:56:01+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "债市抛售：投资者如何应对利率上升",
-   "brief": "债券市场遭遇抛售，利率上升，投资者寻求保护策略。",
-   "chain": "利率上升→风险资产承压→美股调整→A股外资流出压力。",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/02/bond-market-selloff-rates-fixed-income-treasury-yields.html",
-   "ts": "Wed, 02 Sep 2026 13:19:59 GMT"
-  },
-  {
    "cat": "geo",
-   "title": "伊朗谴责美军袭击其民用设施",
-   "brief": "伊朗外交部强烈谴责美国对其多省非军事区域的军事行动，地区紧张升级。",
-   "chain": "美伊冲突升级→避险情绪升温→美股波动→A股军工/黄金链关注。",
+   "title": "美伊互袭升级，中东冲突扩大",
+   "brief": "美国对伊朗发动新打击，伊朗反击，冲突范围扩大。特朗普称行动不会持续太久。",
+   "chain": "美伊冲突升级→地缘风险溢价上升→美股短期承压，A股军工/油气链受关注",
+   "impact": 10,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYWVYQlZISm1jT2ZUaUZ4bDJ2ZE10ZEpaeXo5MnBPQTJYS0ZJNDFjNmdBNGlPQjdyRTIxMVJWeDYzTlFEZi1wVm55eUJTUjkxSjB2WnVVU3NLaEtjTWlMTFFXZlZuTDYyNzREc3hxWnpxRzdUV2MtRUdhei12TE9TQ0Rrc1hTMEN4alFnS1VFcVRzSEM1dmVxR2FYbzZXb1B2a254Y2FlVXlNMFBhQVlFRTAyNzdoaE1FN2Q5dFF0LS1PZDR3bm1PS2JR?oc=5",
+   "ts": "2026-09-02T03:39:30+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "沙特称伊朗袭击霍尔木兹船只致2死",
+   "brief": "沙特声明伊朗在霍尔木兹海峡袭击一艘船只，造成两名船员死亡，加剧地区紧张。",
+   "chain": "霍尔木兹遇袭→原油供应中断风险→油价短期上行，莫桑比克油气出口受益于高油价",
    "impact": 9,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609033863147415.html",
-   "ts": "2026-09-03 01:01:57"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdW5sTXJ3VXZwZE1vZ2RUZ19pNnFoX3ZHc2EyYUI0Y3V0Z09Wc21IMkNNVHlrTXR5eTdOZkNYeGJ3VHhBWlhxeVBjemxGQWZzS0EwN2MxWC1GOWMySnFEM2hkY0V4VVRIcjgxbEdQSHpLcVhIa3Y4QU1Jd3dSWWt3RlE4RnBWRlR6S0c1RWkwVHJ4UlcxWE5oX3hRSVJ3U1RtaHdDeUZaTHBfXzN5OGdfX3dlZGtTYXFySjZ4M1NqRQ?oc=5",
+   "ts": "2026-09-02T13:12:13+00:00"
   },
   {
-   "cat": "geo",
-   "title": "伊朗里亚尔兑美元跌至历史新低",
-   "brief": "伊朗货币兑美元汇率跌破220万里亚尔，经济制裁与冲突压力加剧。",
-   "chain": "伊朗经济恶化→地缘风险持续→油价波动→影响全球市场情绪。",
+   "cat": "macro",
+   "title": "英债收益率创19年新高",
+   "brief": "英国国债收益率升至19年高位，给财政大臣Healey带来压力，市场担忧财政可持续性。",
+   "chain": "英债收益率飙升→全球利率预期上行→美股估值承压，A股高估值成长股受抑制",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQlF1REpnZkFBOEQ5aWtMa2dFUExMOFRLMUxBQzgzeTdfYTByQ0dfbldMajJEVVloel9vb19MMEVkSHgtVTFaTGhhcjZRQURfOWREdkZoZGNtR2tvYmYzWkpIbTNzNGxQSGIwcDhsRnNubGhTN254TEMtek5Xdjhhbi03aDRWVG11RVQxbTNGVm80Ny1sRUVlRzFvVGlaNlVMWk1POEJxdkM5SjdGR3RoeG1lQ3M?oc=5",
+   "ts": "2026-09-02T15:30:18+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "美股上涨美债收益率回落，日元跳涨",
+   "brief": "美股收高，美债收益率下行，日元兑美元大幅走强，市场避险情绪缓和。",
+   "chain": "收益率回落→缓解估值压力→美股科技股反弹，A股算力链情绪修复",
    "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609033863141141.html",
-   "ts": "2026-09-03 00:30:33"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0WUhpSzJRLUpQRnRFZFhzQTlMckJ1alJaa1RQaGo0RjdoZ0h3Y0VQd1I0NkxvS3AzWElTTTJFSF9KMEQ1U1lWVlNDZ2lud19wMW85LWpyQWJoNzltaFctdkdtRzMyWVZDam5yZWtxRHlzcUJBR3R4VHNHWQ?oc=5",
+   "ts": "2026-09-02T22:01:50+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "南非兰特因美元走软及美就业数据走强",
+   "brief": "美元走软和美国就业数据支持南非兰特走强，新兴市场货币获得支撑。",
+   "chain": "美元走软→新兴市场资金流入→利好A股风险资产，但传导间接",
+   "impact": 4,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdlNvbUsyaFlLdVQ4ZktHZzJ6a3BuM2hzX294VTVLYUVpOWdlOF9KT2NtMEYzS3V1ajE4UE9fUWNEVXNHeUExR1hKNTZlamZKa21UQm03SDVaOVlycDJQdTdkSjVtR1BLSjhZS1Q5WXFXeWZ4ZVhyeWlnRW5ISDJaR1QyOC1keElUaUh6QllfNmlPVnZwaG1WcVEzS1ZVdTViTGR3WUwtcGhTcVZVcTBoR0tB?oc=5",
+   "ts": "2026-09-02T14:37:06+00:00"
   },
   {
    "cat": "geo",
-   "title": "习近平与伊朗总统保持距离",
-   "brief": "在特朗普峰会前数周，中国领导人习近平与伊朗总统保持距离，外交信号微妙。",
-   "chain": "大国博弈→地缘格局复杂→影响市场风险偏好→A股外资动向。",
+   "title": "习近平与伊朗总统保持距离，特朗普峰会前",
+   "brief": "在特朗普峰会前几周，中国领导人习近平与伊朗总统保持距离，显示外交谨慎。",
+   "chain": "中美关系微妙→地缘格局复杂→影响全球风险偏好，A股关注中美贸易链",
    "impact": 5,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/09/02/china-trump-iran-summit-nuclear-trade-tariffs-sanctions-.html",
    "ts": "Wed, 02 Sep 2026 07:26:51 GMT"
   },
   {
-   "cat": "geo",
-   "title": "莫迪呼吁普京结束俄乌战争",
-   "brief": "印度总理莫迪在上合峰会呼吁普京结束俄乌战争，印度平衡外交持续。",
-   "chain": "俄乌和谈预期→地缘缓和→油价承压→影响能源股。",
-   "impact": 4,
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-08-31/modi-meets-iran-s-president-with-putin-talks-to-follow-at-sco",
-   "ts": "2026-08-31T17:53:11+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "美能源部长：周一霍尔木兹石油过境超1700万桶",
-   "brief": "美国能源部长克里斯·赖特透露，周一霍尔木兹海峡石油过境量超1700万桶，供应关键。",
-   "chain": "霍尔木兹通行正常→短期供应担忧缓解→油价承压→莫桑比克LNG竞争力相对稳定。",
+   "cat": "tech",
+   "title": "博通财报超预期但指引疲软，股价跌5%",
+   "brief": "博通发布财报，盈利超预期但当前季度营收指引令人失望，股价下跌5%。",
+   "chain": "博通指引疲软→AI芯片需求担忧→美股半导体承压，A股算力链情绪受拖累",
    "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/02/energy-secretary-chris-wright-tells-cnbc-that-more-than-17-million-barrels-of-oil-transited-hormuz-on-monday.html",
-   "ts": "Wed, 02 Sep 2026 15:57:08 GMT"
-  },
-  {
-   "cat": "oil",
-   "title": "特朗普敦促能源企业增产应对油价上涨",
-   "brief": "特朗普会见雪佛龙等能源企业，敦促提高炼油能力以应对油价上涨。",
-   "chain": "美国增产预期→油价上行受限→全球油价稳定→莫桑比克油气项目收益稳定。",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609033863139841.html",
-   "ts": "2026-09-03 00:18:42"
-  },
-  {
-   "cat": "oil",
-   "title": "雪佛龙与委内瑞拉签署石油协议",
-   "brief": "雪佛龙与委内瑞拉政府签署石油协议，扩大在委业务。",
-   "chain": "委内瑞拉产量增加→全球供应上升→油价承压→莫桑比克竞争加剧。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609033863144577.html",
-   "ts": "2026-09-03 00:39:44"
-  },
-  {
-   "cat": "oil",
-   "title": "埃尼与委内瑞拉签署石油扩建协议",
-   "brief": "委内瑞拉与意大利埃尼签署石油扩建项目协议，吸引外资。",
-   "chain": "委内瑞拉产量提升→供应增加→油价承压→影响东非能源项目吸引力。",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609033863144612.html",
-   "ts": "2026-09-03 00:38:53"
-  },
-  {
-   "cat": "gas",
-   "title": "GE Vernova与委内瑞拉签署电力协议",
-   "brief": "GE Vernova与委内瑞拉电力公司及PDVSA签署电力项目合作协议，涉及能源基础设施。",
-   "chain": "电力合作→天然气需求潜在增长→全球LNG需求增加→莫桑比克LNG出口利好。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609033863145416.html",
-   "ts": "2026-09-03 00:44:41"
-  },
-  {
-   "cat": "gas",
-   "title": "伯克希尔CEO：数据中心建设面临更多阻力",
-   "brief": "Greg Abel表示数据中心建设遭遇更多反对，可能影响电力需求增长。",
-   "chain": "数据中心受阻→电力需求增速放缓→天然气发电需求预期下调→莫桑比克LNG长期需求承压。",
-   "impact": 4,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/02/there-is-a-lot-more-pushback-on-data-center-construction-berkshire-ceo-greg-abel-tells-cnbc.html",
-   "ts": "Wed, 02 Sep 2026 15:55:30 GMT"
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/02/broadcom-avgo-q3-earnings-report-2026.html",
+   "ts": "2026-09-02T20:27:45+00:00"
   },
   {
    "cat": "tech",
-   "title": "Palo Alto业绩超预期并继续收购",
-   "brief": "Palo Alto Networks季度业绩超预期，受AI需求驱动，并继续收购扩张。",
-   "chain": "网络安全需求强劲→科技股业绩支撑→美股科技板块稳定→A股网络安全映射。",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/01/palo-alto-networks-panw-q4-2026-earnings.html",
-   "ts": "Wed, 02 Sep 2026 16:41:48 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "苹果股价与科技股脱钩创20年之最",
-   "brief": "苹果股价与科技同行的负相关性达到2005年以来最高，市场结构变化。",
-   "chain": "苹果独立性→资金轮动→影响美股科技权重→A股苹果链分化。",
+   "title": "微软将按季度披露Azure营收",
+   "brief": "微软宣布将开始披露Azure的季度营收，作为业务部门整合的一部分。",
+   "chain": "微软透明度提升→云业务增长可见→利好云计算产业链，A股云服务商受关注",
    "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/02/microsoft-to-disclose-azure-revenue-as-part-of-segment-changes.html",
+   "ts": "Wed, 02 Sep 2026 22:37:13 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "苹果股价与科技同行相关性创20年新低",
+   "brief": "苹果股价与科技同行的负相关性达到2005年以来最高，显示其独立走势。",
+   "chain": "苹果独立行情→科技板块分化→A股苹果产业链关注，但整体科技情绪受抑",
+   "impact": 5,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/09/02/apple-shares-are-doing-something-they-havent-done-in-20-years-heres-whats-happening.html",
    "ts": "2026-09-02T12:10:05+00:00"
   },
   {
-   "cat": "tech",
-   "title": "GoPro转型数据中心股价暴涨40%",
-   "brief": "GoPro宣布进军数据中心业务，股价飙升40%，AI热潮外溢。",
-   "chain": "AI基础设施需求→硬件公司转型→美股科技热点扩散→A股算力硬件关注。",
+   "cat": "ai",
+   "title": "Snowflake因AI编码势头大涨22%",
+   "brief": "Snowflake公布健康业绩，AI编码势头强劲，股价飙升22%。",
+   "chain": "AI应用需求强劲→云数据平台受益→A股AI应用/数据要素链受提振",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/02/snowflake-snow-q2-earnings-report-2027.html",
+   "ts": "Wed, 02 Sep 2026 20:28:39 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Palo Alto业绩超预期，AI需求驱动收购",
+   "brief": "Palo Alto Networks季度业绩超预期，受AI需求推动，并继续收购。",
+   "chain": "AI安全需求增长→网络安全支出增加→A股网络安全板块映射",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/01/palo-alto-networks-panw-q4-2026-earnings.html",
+   "ts": "Wed, 02 Sep 2026 16:41:48 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Meta和解或为AI新品扫清障碍",
+   "brief": "摩根士丹利认为Meta的诉讼和解可能为其推出新的AI产品铺平道路。",
+   "chain": "Meta监管风险降低→AI产品发布加速→A股AI应用/社交链关注",
    "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/02/meta-18-billion-settlement-ai-products.html",
+   "ts": "Wed, 02 Sep 2026 09:19:25 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Equinix在AI数据中心热潮中觅得利基",
+   "brief": "Equinix在万亿美元AI数据中心热潮中找到细分市场，提供托管服务。",
+   "chain": "AI数据中心需求爆发→基础设施受益→A股IDC/液冷等算力基础设施链",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/02/equinix-partners-with-nvidia-carves-niche-in-ai-data-center-boom.html",
+   "ts": "Wed, 02 Sep 2026 22:49:01 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "印度吸引1360亿美元外资流入",
+   "brief": "印度录得1360亿美元外资流入，增强卢比防御能力。",
+   "chain": "外资流入新兴市场→美元承压→利好美股风险偏好，映射A股外资敏感板块。",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb05GRzZpQ2VFMXEyVTVCdzFLd2NtYVBqYUNldVo3WXhybzRZTXctUFEwSkxzWF9TcmE1d3hmM2JNMnkycndvLXJreW1XZkE1elp4QU5Sc25tbERmMVhaMktXUlNWQkQzMkF1VVl0YmFtQUo4c2hqZGhFX21HdFlmR3NsMVJwanZSaG12M3MxaUVvLUxyOGlzbE8tWjRQM0VVYjliWFR0ams?oc=5",
+   "ts": "2026-09-02T13:02:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "特朗普与习近平将在华盛顿会晤",
+   "brief": "特朗普与习近平将在华盛顿会晤，但中国观察人士预期不高。",
+   "chain": "中美关系缓和预期→利好美股科技股→映射A股科技产业链。",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/02/trump-xi-summit-iran-china-trade-elections.html",
+   "ts": "Wed, 02 Sep 2026 22:10:15 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "韩国半导体出口同比增三倍",
+   "brief": "韩国半导体出口同比增三倍，引发过热担忧。",
+   "chain": "半导体需求强劲→利好美股芯片股→映射A股半导体产业链。",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/03/south-korea-semiconductor-exports-surging-concerns.html",
+   "ts": "Thu, 03 Sep 2026 01:11:41 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "美国7月建筑支出降至近三年低点",
+   "brief": "美国7月建筑支出降至近三年低点，经济数据疲软。",
+   "chain": "经济数据疲软→美联储降息预期升温→利好美股成长股，映射A股基建链。",
+   "impact": 6,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/real-estate/articles/us-construction-spending-drops-nearly-151536910.html",
+   "ts": "2026-09-01T15:15:36Z"
+  },
+  {
+   "cat": "tech",
+   "title": "Palo Alto称1万亿美元网络安全基建未准备好AI",
+   "brief": "Palo Alto CEO表示1万亿美元网络安全基础设施未准备好应对AI。",
+   "chain": "AI安全需求→利好美股网络安全股→映射A股网络安全板块。",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/01/palo-alto-ceo-says-1-trillion-of-cybersecurity-infrastructure-isnt-ready-for-ai.html",
+   "ts": "Tue, 01 Sep 2026 23:20:44 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "GoPro转向数据中心股价飙升40%",
+   "brief": "GoPro加入AI热潮，转向数据中心业务，股价大涨40%。",
+   "chain": "AI基础设施需求→利好美股数据中心概念→映射A股算力链。",
+   "impact": 6,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/09/01/gopro-stock-ai-data-centers.html",
    "ts": "Tue, 01 Sep 2026 20:28:08 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "YouTube与亚马逊合作强化购物",
-   "brief": "YouTube创作者可在视频中标记亚马逊商品，加强电商导流。",
-   "chain": "电商竞争加剧→科技巨头合作→影响美股科技板块→A股电商概念。",
-   "impact": 4,
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-01/youtube-inks-amazon-partnership-to-boost-online-shopping-bet",
-   "ts": "2026-09-01T12:42:59+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "Anthropic与Lambda达成350亿美元云交易",
-   "brief": "Anthropic与英伟达支持的Lambda签署350亿美元云协议，扩展AI算力。",
-   "chain": "AI算力需求激增→云服务商受益→美股AI产业链→A股算力链映射。",
-   "impact": 9,
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-08-31/anthropic-seals-35-billion-cloud-deal-with-nvidia-backed-lambda",
-   "ts": "2026-09-01T01:51:14+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "谷歌发布Gemini 3.8 Flash推理模型",
-   "brief": "谷歌推出Gemini 3.8 Flash模型，面向Pro及Ultra用户开放，提升推理能力。",
-   "chain": "AI模型竞争加剧→科技巨头投入增加→美股AI板块→A股AI应用受益。",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609023863133758.html",
-   "ts": "2026-09-02 23:45:02"
-  },
-  {
-   "cat": "ai",
-   "title": "奥特曼：AI将成最大繁荣浪潮",
-   "brief": "OpenAI CEO奥特曼称AI将成为全球商业史上最大的繁荣浪潮，看好长期前景。",
-   "chain": "AI乐观情绪→科技股估值提升→美股AI龙头→A股AI概念情绪提振。",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609033863146310.html",
-   "ts": "2026-09-03 00:55:58"
   }
  ]
 }
