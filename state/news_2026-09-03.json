@@ -1,35 +1,33 @@
 {
  "asof": "2026-09-03",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-09-03T11:03+08:00",
+ "generated_at": "2026-09-03T12:19+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 4,
+  "cross_day_suppressed": 5,
   "cluster_label": "中东/伊朗/卡塔尔",
   "cluster_dropped": [
-   "特朗普助手寻求美伊冲突'平静'但称可能加剧",
-   "油价因美伊打击不确定性下跌",
-   "美能源部长：周一霍尔木兹过油超1700万桶",
-   "卡塔尔阿联酋LNG船对船转运避开霍尔木兹"
+   "美能源部长：周一霍尔木兹过油1700万桶",
+   "卡塔尔阿联酋LNG船外海转运避霍尔木兹"
   ],
-  "backfilled": 6
+  "backfilled": 9
  },
  "items": [
   {
    "cat": "geo",
-   "title": "美伊互袭升级，中东冲突扩大",
-   "brief": "美国对伊朗发动新打击，伊朗反击，冲突范围扩大。特朗普称行动不会持续太久。",
-   "chain": "美伊冲突升级→地缘风险溢价上升→美股短期承压，A股军工/油气链受关注",
+   "title": "美伊互袭引发中东全面战争担忧",
+   "brief": "美国与伊朗相互打击，引发中东或爆发新一轮战争的担忧。特朗普称行动不会持续太久，但助手暗示11月大选后可能升级。",
+   "chain": "地缘冲突升级→避险情绪升温→美股波动→A股军工/油气链关注",
    "impact": 10,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYWVYQlZISm1jT2ZUaUZ4bDJ2ZE10ZEpaeXo5MnBPQTJYS0ZJNDFjNmdBNGlPQjdyRTIxMVJWeDYzTlFEZi1wVm55eUJTUjkxSjB2WnVVU3NLaEtjTWlMTFFXZlZuTDYyNzREc3hxWnpxRzdUV2MtRUdhei12TE9TQ0Rrc1hTMEN4alFnS1VFcVRzSEM1dmVxR2FYbzZXb1B2a254Y2FlVXlNMFBhQVlFRTAyNzdoaE1FN2Q5dFF0LS1PZDR3bm1PS2JR?oc=5",
-   "ts": "2026-09-02T03:39:30+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORjZ4d3JRTk1WcXR6eThpVm1wcVpzQV8wMm42eDB4bDJRMVhxelJpdmZTYXVPQ0JTUmtiNXFVWEZyb1NBTTZibmZJTkk4bjlRNGwtWTU1OF8zXzhENVZhWDN4TUwzekdfVG8xWUpmY3hmcHBDQk5TUzBLSERGbFJ0c05nekFpclo3cFdMcm93dHlEUXctVTY2MjJIMkkxSTRGWnc?oc=5",
+   "ts": "2026-09-02T21:06:12+00:00"
   },
   {
    "cat": "oil",
    "title": "沙特称伊朗袭击霍尔木兹船只致2死",
-   "brief": "沙特声明伊朗在霍尔木兹海峡袭击一艘船只，造成两名船员死亡，加剧地区紧张。",
-   "chain": "霍尔木兹遇袭→原油供应中断风险→油价短期上行，莫桑比克油气出口受益于高油价",
+   "brief": "沙特称伊朗在霍尔木兹海峡袭击一艘船只，造成两名海员死亡，加剧该关键航道的紧张局势。",
+   "chain": "霍尔木兹遇袭→原油供应中断风险→油价上行→莫桑比克LNG出口受益",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdW5sTXJ3VXZwZE1vZ2RUZ19pNnFoX3ZHc2EyYUI0Y3V0Z09Wc21IMkNNVHlrTXR5eTdOZkNYeGJ3VHhBWlhxeVBjemxGQWZzS0EwN2MxWC1GOWMySnFEM2hkY0V4VVRIcjgxbEdQSHpLcVhIa3Y4QU1Jd3dSWWt3RlE4RnBWRlR6S0c1RWkwVHJ4UlcxWE5oX3hRSVJ3U1RtaHdDeUZaTHBfXzN5OGdfX3dlZGtTYXFySjZ4M1NqRQ?oc=5",
@@ -37,119 +35,29 @@
   },
   {
    "cat": "macro",
-   "title": "英债收益率创19年新高",
-   "brief": "英国国债收益率升至19年高位，给财政大臣Healey带来压力，市场担忧财政可持续性。",
-   "chain": "英债收益率飙升→全球利率预期上行→美股估值承压，A股高估值成长股受抑制",
+   "title": "全球或进入高利率时代，谁将买单",
+   "brief": "分析指出世界可能进入更高利率时代，将增加借贷成本，影响经济增长和资产估值。",
+   "chain": "高利率持续→美股估值承压→A股成长股受压→黄金作为实际利率镜像受关注",
    "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/03/global-bond-yields-rising-treasuries-jgb-bunds.html",
+   "ts": "Thu, 03 Sep 2026 04:17:43 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "英债收益率创19年新高，施压财相",
+   "brief": "英国国债收益率升至19年高位，增加财政压力，市场担忧政府债务可持续性。",
+   "chain": "英债收益率升→全球利率预期上移→美股波动→A股外资流向受影响",
+   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQlF1REpnZkFBOEQ5aWtMa2dFUExMOFRLMUxBQzgzeTdfYTByQ0dfbldMajJEVVloel9vb19MMEVkSHgtVTFaTGhhcjZRQURfOWREdkZoZGNtR2tvYmYzWkpIbTNzNGxQSGIwcDhsRnNubGhTN254TEMtek5Xdjhhbi03aDRWVG11RVQxbTNGVm80Ny1sRUVlRzFvVGlaNlVMWk1POEJxdkM5SjdGR3RoeG1lQ3M?oc=5",
    "ts": "2026-09-02T15:30:18+00:00"
   },
   {
    "cat": "macro",
-   "title": "美股上涨美债收益率回落，日元跳涨",
-   "brief": "美股收高，美债收益率下行，日元兑美元大幅走强，市场避险情绪缓和。",
-   "chain": "收益率回落→缓解估值压力→美股科技股反弹，A股算力链情绪修复",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0WUhpSzJRLUpQRnRFZFhzQTlMckJ1alJaa1RQaGo0RjdoZ0h3Y0VQd1I0NkxvS3AzWElTTTJFSF9KMEQ1U1lWVlNDZ2lud19wMW85LWpyQWJoNzltaFctdkdtRzMyWVZDam5yZWtxRHlzcUJBR3R4VHNHWQ?oc=5",
-   "ts": "2026-09-02T22:01:50+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "南非兰特因美元走软及美就业数据走强",
-   "brief": "美元走软和美国就业数据支持南非兰特走强，新兴市场货币获得支撑。",
-   "chain": "美元走软→新兴市场资金流入→利好A股风险资产，但传导间接",
-   "impact": 4,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdlNvbUsyaFlLdVQ4ZktHZzJ6a3BuM2hzX294VTVLYUVpOWdlOF9KT2NtMEYzS3V1ajE4UE9fUWNEVXNHeUExR1hKNTZlamZKa21UQm03SDVaOVlycDJQdTdkSjVtR1BLSjhZS1Q5WXFXeWZ4ZVhyeWlnRW5ISDJaR1QyOC1keElUaUh6QllfNmlPVnZwaG1WcVEzS1ZVdTViTGR3WUwtcGhTcVZVcTBoR0tB?oc=5",
-   "ts": "2026-09-02T14:37:06+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "习近平与伊朗总统保持距离，特朗普峰会前",
-   "brief": "在特朗普峰会前几周，中国领导人习近平与伊朗总统保持距离，显示外交谨慎。",
-   "chain": "中美关系微妙→地缘格局复杂→影响全球风险偏好，A股关注中美贸易链",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/02/china-trump-iran-summit-nuclear-trade-tariffs-sanctions-.html",
-   "ts": "Wed, 02 Sep 2026 07:26:51 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "博通财报超预期但指引疲软，股价跌5%",
-   "brief": "博通发布财报，盈利超预期但当前季度营收指引令人失望，股价下跌5%。",
-   "chain": "博通指引疲软→AI芯片需求担忧→美股半导体承压，A股算力链情绪受拖累",
-   "impact": 8,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/09/02/broadcom-avgo-q3-earnings-report-2026.html",
-   "ts": "2026-09-02T20:27:45+00:00"
-  },
-  {
-   "cat": "tech",
-   "title": "微软将按季度披露Azure营收",
-   "brief": "微软宣布将开始披露Azure的季度营收，作为业务部门整合的一部分。",
-   "chain": "微软透明度提升→云业务增长可见→利好云计算产业链，A股云服务商受关注",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/02/microsoft-to-disclose-azure-revenue-as-part-of-segment-changes.html",
-   "ts": "Wed, 02 Sep 2026 22:37:13 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "苹果股价与科技同行相关性创20年新低",
-   "brief": "苹果股价与科技同行的负相关性达到2005年以来最高，显示其独立走势。",
-   "chain": "苹果独立行情→科技板块分化→A股苹果产业链关注，但整体科技情绪受抑",
-   "impact": 5,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/09/02/apple-shares-are-doing-something-they-havent-done-in-20-years-heres-whats-happening.html",
-   "ts": "2026-09-02T12:10:05+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "Snowflake因AI编码势头大涨22%",
-   "brief": "Snowflake公布健康业绩，AI编码势头强劲，股价飙升22%。",
-   "chain": "AI应用需求强劲→云数据平台受益→A股AI应用/数据要素链受提振",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/02/snowflake-snow-q2-earnings-report-2027.html",
-   "ts": "Wed, 02 Sep 2026 20:28:39 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "Palo Alto业绩超预期，AI需求驱动收购",
-   "brief": "Palo Alto Networks季度业绩超预期，受AI需求推动，并继续收购。",
-   "chain": "AI安全需求增长→网络安全支出增加→A股网络安全板块映射",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/01/palo-alto-networks-panw-q4-2026-earnings.html",
-   "ts": "Wed, 02 Sep 2026 16:41:48 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "Meta和解或为AI新品扫清障碍",
-   "brief": "摩根士丹利认为Meta的诉讼和解可能为其推出新的AI产品铺平道路。",
-   "chain": "Meta监管风险降低→AI产品发布加速→A股AI应用/社交链关注",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/02/meta-18-billion-settlement-ai-products.html",
-   "ts": "Wed, 02 Sep 2026 09:19:25 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "Equinix在AI数据中心热潮中觅得利基",
-   "brief": "Equinix在万亿美元AI数据中心热潮中找到细分市场，提供托管服务。",
-   "chain": "AI数据中心需求爆发→基础设施受益→A股IDC/液冷等算力基础设施链",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/02/equinix-partners-with-nvidia-carves-niche-in-ai-data-center-boom.html",
-   "ts": "Wed, 02 Sep 2026 22:49:01 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "印度吸引1360亿美元外资流入",
-   "brief": "印度录得1360亿美元外资流入，增强卢比防御能力。",
-   "chain": "外资流入新兴市场→美元承压→利好美股风险偏好，映射A股外资敏感板块。",
+   "title": "印度吸引1360亿美元外资流入支撑卢比",
+   "brief": "印度录得1360亿美元的外汇流入，增强卢比防御能力，显示新兴市场资金吸引力。",
+   "chain": "新兴市场资金流入→美元指数相对走弱→利好大宗商品→A股风险偏好改善",
    "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb05GRzZpQ2VFMXEyVTVCdzFLd2NtYVBqYUNldVo3WXhybzRZTXctUFEwSkxzWF9TcmE1d3hmM2JNMnkycndvLXJreW1XZkE1elp4QU5Sc25tbERmMVhaMktXUlNWQkQzMkF1VVl0YmFtQUo4c2hqZGhFX21HdFlmR3NsMVJwanZSaG12M3MxaUVvLUxyOGlzbE8tWjRQM0VVYjliWFR0ams?oc=5",
@@ -158,52 +66,182 @@
   {
    "cat": "geo",
    "title": "特朗普与习近平将在华盛顿会晤",
-   "brief": "特朗普与习近平将在华盛顿会晤，但中国观察人士预期不高。",
-   "chain": "中美关系缓和预期→利好美股科技股→映射A股科技产业链。",
+   "brief": "特朗普与习近平将在华盛顿会面，但中国观察人士预期不高，关注贸易与地缘议题。",
+   "chain": "中美会晤→贸易政策预期→影响科技股→A股科技链情绪",
    "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/09/02/trump-xi-summit-iran-china-trade-elections.html",
    "ts": "Wed, 02 Sep 2026 22:10:15 GMT"
   },
   {
+   "cat": "geo",
+   "title": "习近平与伊朗总统保持距离",
+   "brief": "在特朗普峰会前几周，中国国家主席习近平与伊朗总统保持距离，显示外交谨慎。",
+   "chain": "中伊关系微妙→地缘格局变化→影响油价预期→A股能源链",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/02/china-trump-iran-summit-nuclear-trade-tariffs-sanctions-.html",
+   "ts": "Wed, 02 Sep 2026 07:26:51 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "博通指引疲软股价跌5%",
+   "brief": "博通财报超预期但当前季度营收指引令人失望，股价下跌5%，拖累科技股情绪。",
+   "chain": "博通指引弱→AI硬件需求担忧→美股半导体承压→A股算力链联动",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/02/broadcom-avgo-q3-earnings-report-2026.html",
+   "ts": "2026-09-02T20:27:45+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "微软将单独披露Azure季度收入",
+   "brief": "微软宣布将单独披露Azure季度收入，业务部门重组，提高透明度。",
+   "chain": "微软披露Azure→云业务增长可见→美股科技权重→A股云计算映射",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/02/microsoft-to-disclose-azure-revenue-as-part-of-segment-changes.html",
+   "ts": "Wed, 02 Sep 2026 22:37:13 GMT"
+  },
+  {
    "cat": "tech",
    "title": "韩国半导体出口同比增三倍",
-   "brief": "韩国半导体出口同比增三倍，引发过热担忧。",
-   "chain": "半导体需求强劲→利好美股芯片股→映射A股半导体产业链。",
+   "brief": "韩国半导体出口同比暴增三倍，但市场担忧增长过快或不可持续。",
+   "chain": "韩国芯片出口激增→全球半导体周期→美股芯片股→A股半导体链",
    "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/09/03/south-korea-semiconductor-exports-surging-concerns.html",
    "ts": "Thu, 03 Sep 2026 01:11:41 GMT"
   },
   {
-   "cat": "macro",
-   "title": "美国7月建筑支出降至近三年低点",
-   "brief": "美国7月建筑支出降至近三年低点，经济数据疲软。",
-   "chain": "经济数据疲软→美联储降息预期升温→利好美股成长股，映射A股基建链。",
-   "impact": 6,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/real-estate/articles/us-construction-spending-drops-nearly-151536910.html",
-   "ts": "2026-09-01T15:15:36Z"
-  },
-  {
-   "cat": "tech",
-   "title": "Palo Alto称1万亿美元网络安全基建未准备好AI",
-   "brief": "Palo Alto CEO表示1万亿美元网络安全基础设施未准备好应对AI。",
-   "chain": "AI安全需求→利好美股网络安全股→映射A股网络安全板块。",
-   "impact": 6,
+   "cat": "ai",
+   "title": "Snowflake涨22%业绩强劲AI编码动能",
+   "brief": "Snowflake因健康业绩和AI编码动能股价大涨22%，显示AI应用需求强劲。",
+   "chain": "Snowflake业绩→AI软件需求→美股AI应用→A股AI软件映射",
+   "impact": 7,
    "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/01/palo-alto-ceo-says-1-trillion-of-cybersecurity-infrastructure-isnt-ready-for-ai.html",
-   "ts": "Tue, 01 Sep 2026 23:20:44 GMT"
+   "url": "https://www.cnbc.com/2026/09/02/snowflake-snow-q2-earnings-report-2027.html",
+   "ts": "Wed, 02 Sep 2026 20:28:39 GMT"
   },
   {
    "cat": "ai",
-   "title": "GoPro转向数据中心股价飙升40%",
-   "brief": "GoPro加入AI热潮，转向数据中心业务，股价大涨40%。",
-   "chain": "AI基础设施需求→利好美股数据中心概念→映射A股算力链。",
+   "title": "Palo Alto业绩超预期AI需求推动并购",
+   "brief": "Palo Alto Networks季度业绩超预期，受AI需求推动，并继续收购扩张。",
+   "chain": "网络安全AI需求→美股安全股→A股网络安全概念",
    "impact": 6,
    "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/01/gopro-stock-ai-data-centers.html",
-   "ts": "Tue, 01 Sep 2026 20:28:08 GMT"
+   "url": "https://www.cnbc.com/2026/09/01/palo-alto-networks-panw-q4-2026-earnings.html",
+   "ts": "Wed, 02 Sep 2026 16:41:48 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Meta和解或扫清新AI产品障碍",
+   "brief": "摩根士丹利称Meta的诉讼和解可能为新的AI产品发布扫清道路。",
+   "chain": "Meta和解→AI产品推进→美股AI巨头→A股AI应用链",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/02/meta-18-billion-settlement-ai-products.html",
+   "ts": "Wed, 02 Sep 2026 09:19:25 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Equinix在AI数据中心热潮中觅得利基",
+   "brief": "Equinix在万亿美元AI数据中心热潮中找到细分市场，受益于基础设施需求。",
+   "chain": "AI数据中心需求→美股IDC→A股IDC/算力基础设施",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/02/equinix-partners-with-nvidia-carves-niche-in-ai-data-center-boom.html",
+   "ts": "Wed, 02 Sep 2026 22:49:01 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "南非兰特因美元走软及美国就业数据走强",
+   "brief": "南非兰特兑美元走强，受美元疲软和美国就业数据影响。",
+   "chain": "美元走软→美股风险偏好回升→A股外资流入预期",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdlNvbUsyaFlLdVQ4ZktHZzJ6a3BuM2hzX294VTVLYUVpOWdlOF9KT2NtMEYzS3V1ajE4UE9fUWNEVXNHeUExR1hKNTZlamZKa21UQm03SDVaOVlycDJQdTdkSjVtR1BLSjhZS1Q5WXFXeWZ4ZVhyeWlnRW5ISDJaR1QyOC1keElUaUh6QllfNmlPVnZwaG1WcVEzS1ZVdTViTGR3WUwtcGhTcVZVcTBoR0tB?oc=5",
+   "ts": "2026-09-02T06:24:00+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "股市上涨美债收益率回落，日元跳涨",
+   "brief": "美股上涨，美债收益率回落，日元兑美元跳涨，市场情绪改善。",
+   "chain": "收益率回落→科技股估值压力缓解→A股算力链情绪提振",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0WUhpSzJRLUpQRnRFZFhzQTlMckJ1alJaa1RQaGo0RjdoZ0h3Y0VQd1I0NkxvS3AzWElTTTJFSF9KMEQ1U1lWVlNDZ2lud19wMW85LWpyQWJoNzltaFctdkdtRzMyWVZDam5yZWtxRHlzcUJBR3R4VHNHWQ?oc=5",
+   "ts": "2026-09-02T22:01:50+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "以黎冲突新焦点：Ali al-Taher山脊",
+   "brief": "Ali al-Taher山脊成为以色列与真主党战争的新热点，冲突持续。",
+   "chain": "中东冲突持续→油价波动→影响莫桑比克油气市场",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPakRyMlpkYi00X1dGcXhwdmgzYklaeTFicENLWDJVQ2FJUW1JYURrMThUeFM5RUlzcUtJQmV6c0xuNjl0SG9UYUJUZXpGVWYyNmJpNThfTnAzX0pxeGFyczNYMHFVVEhyN0hQR25ERUhHamVxZHBZVHptdXo2c1pHT2E3NUlacEo2LTlIX3BYMVVJWTRKU3J2RHNYU3NTdnN3dWtSRW4zNmhJaFVRSmkxTWZR?oc=5",
+   "ts": "2026-09-03T00:03:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "航运股十字路口：创数十年最佳涨势",
+   "brief": "航运股在创下数十年最佳涨势后处于关键节点，市场关注后续走势。",
+   "chain": "航运成本高企→油价传导→莫桑比克LNG运输成本",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/03/shipping-hormuz-tankers-earnings-freight-rates-iran-trump-crude-china-stocks.html",
+   "ts": "Thu, 03 Sep 2026 03:59:53 GMT"
+  },
+  {
+   "cat": "gas",
+   "title": "法官拒绝阻止报道谷歌数据中心能源文件",
+   "brief": "法官拒绝阻止阿肯色州报纸报道谷歌数据中心能源文件，Entergy称含商业机密。",
+   "chain": "数据中心能源需求→天然气发电需求→东非LNG出口机遇",
+   "impact": 4,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/02/google-data-center-arkansas-entergy-court.html",
+   "ts": "2026-09-02T19:57:30+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "苹果股价与科技同行背离创20年之最",
+   "brief": "苹果股价与科技同行呈20年来最大负相关，市场关注其独特性。",
+   "chain": "苹果走独立行情→科技板块分化→A股苹果链关注",
+   "impact": 6,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/02/apple-shares-are-doing-something-they-havent-done-in-20-years-heres-whats-happening.html",
+   "ts": "2026-09-02T12:10:05+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "博通财报前瞻及英伟达走势观察",
+   "brief": "关注博通即将发布的财报及英伟达股价表现，AI芯片需求仍旺。",
+   "chain": "博通财报→AI芯片需求→A股算力链映射",
+   "impact": 7,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/02/what-to-watch-in-broadcoms-upcoming-earnings-and-why-nvidia-is-running-.html",
+   "ts": "2026-09-02T15:54:23+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "谷歌9月开局AI动能强劲",
+   "brief": "谷歌在经历十多年最长月度连跌后，9月以AI动能开局。",
+   "chain": "谷歌AI进展→美股AI情绪→A股AI应用映射",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/02/google-starts-september-with-ai-momentum-after-long-losing-streak.html",
+   "ts": "Thu, 03 Sep 2026 03:28:07 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Palo Alto CEO：万亿美元网络安全基建未准备好AI",
+   "brief": "Palo Alto CEO称1万亿美元网络安全基础设施尚未为AI做好准备，凸显AI安全需求。",
+   "chain": "AI安全需求→网络安全投入→A股网络安全板块",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/01/palo-alto-ceo-says-1-trillion-of-cybersecurity-infrastructure-isnt-ready-for-ai.html",
+   "ts": "Tue, 01 Sep 2026 23:20:44 GMT"
   }
  ]
 }
