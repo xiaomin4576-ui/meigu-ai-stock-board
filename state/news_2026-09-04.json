@@ -1,10 +1,10 @@
 {
  "asof": "2026-09-04",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-09-04T01:13+08:00",
+ "generated_at": "2026-09-04T12:25+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 11,
+  "cross_day_suppressed": 5,
   "cluster_label": "",
   "cluster_dropped": [],
   "backfilled": 0
@@ -12,213 +12,213 @@
  "items": [
   {
    "cat": "geo",
-   "title": "中东局势升级推高油价",
-   "brief": "中东地区紧张局势升级，推动国际油价上涨。",
-   "chain": "地缘冲突→油价上涨→利好莫桑比克油气出口收入",
-   "impact": 9,
+   "title": "美伊紧张升级 油价创7月中旬以来最大周涨幅",
+   "brief": "因美伊紧张局势加剧，油价本周录得7月中旬以来最大周涨幅。",
+   "chain": "地缘冲突升级→油价上涨→影响美股能源板块及A股石油链。",
+   "impact": 8,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUUpNcGxHMWt3cDdxdFVCZUNrdTBGRlZSUEpJOEg1ZENWVkRPN2lWbTZxMUU3WG56bkZScmlMM3hpOWtzOEtFcWJUaXNqUklwZU9KVlFxd2FxUEtVV2pwYnh3cXo2Y3dhZkJNUDBoSHcxN1dRM3ZCU25QdG02N1JCOHk2SjFzN2Z3UnhKc3hWbDNnWWFp?oc=5",
-   "ts": "2026-09-03T14:09:43+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQVZJdUE0TzFvS2xtSUJLOVUxZUVRZVRpMi1aUlNuSFZzX3h5TW4zSGJya0w3SjFlSno4QUlvdU90cHBBOS1xRllCZjR2aVRnUW16ZmQyN3M1SlRVSl9BYlk2Z2dvWGIzdEo3cXdTZjdWZkIzYXRNRzk3ZkM2cWMwN2ZWMVh1T09pNnRKVVAwRDhNSnJnSTFwVi1MZXdMNUNwOFJTU215REpkR1V0X1pVa09vNkVHeG9oX2lpVjdoTVl1ajI5MzU0dUN3?oc=5",
+   "ts": "2026-09-04T01:28:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "欧盟加入美国对伊朗制裁 韩国考虑霍尔木兹部署",
+   "brief": "欧盟加入美国对伊朗制裁行动，韩国考虑向霍尔木兹海峡部署军事力量。",
+   "chain": "制裁扩大→地缘风险溢价上升→影响全球市场风险偏好。",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/04/us-iran-war-trump-hormuz-operation-economic-outcast-sanctions-campaign.html",
+   "ts": "Fri, 04 Sep 2026 04:02:13 GMT"
   },
   {
    "cat": "oil",
-   "title": "沙特下调10月对欧原油售价",
-   "brief": "沙特将10月销往西北欧的阿拉伯轻质原油官方售价定为较布伦特贴水2.15美元/桶。",
-   "chain": "沙特定价→欧洲市场竞争加剧→对莫桑比克LNG在欧洲市场份额构成压力",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609043864432423.html",
-   "ts": "2026-09-04 00:12:22"
-  },
-  {
-   "cat": "oil",
-   "title": "沙特上调10月对美原油售价",
-   "brief": "沙特将10月销往美国的阿拉伯轻质原油官方售价定为较ASCI溢价4.60美元/桶。",
-   "chain": "沙特对美定价→美国原油进口成本变化→影响全球油轮运价及东非出口物流",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609043864432754.html",
-   "ts": "2026-09-04 00:11:42"
+   "title": "美国柴油价格创历史新高 供应紧张加剧",
+   "brief": "由于冲突加剧供应紧张，美国柴油价格创下历史新高。",
+   "chain": "柴油价格创新高→炼油利润率上升→对莫桑比克油气出口有利。",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZHF2Z29UenJROHZ5YlJpTFBHM1pmWmdNaWROSnhyNlhDVVZmVGVXTkRaT1k4N1NBY1B1YUhDbmE2SGQ2TllTNExHWk9JT1JCWHRKQnVpZEx5SVVNZHdhc2tsbEEtWG01Ty1QUXpMSWdWR3NuQTVQaWNhLUViMXkzRl9WNk81bDdiVk5tb1hPeVBMczFGaWVmaTNzWEdYZ29P?oc=5",
+   "ts": "2026-09-03T21:21:23+00:00"
   },
   {
    "cat": "gas",
-   "title": "澳洲页岩气回应霍尔木兹担忧",
-   "brief": "评论指出，澳大利亚偏远页岩气盆地可缓解霍尔木兹海峡安全担忧。",
-   "chain": "地缘风险→LNG供应多元化→对莫桑比克LNG项目构成竞争但凸显安全价值",
+   "title": "德国法院受理北溪管道爆炸案 10月开审",
+   "brief": "德国汉堡法院受理对乌克兰籍嫌疑人的起诉，定于10月14日审理北溪爆炸案。",
+   "chain": "北溪案审理→欧洲天然气供应不确定性→影响LNG价格及东非项目。",
    "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNN0txaTVkd3g4N1JRTUtEdWkwdUJOS3Y0cVZLMG1oRTlHT3ppQ0lsTExaNmgtcTA2dUE0d0U1MExpSWhMR2xBVFFqbHFRNzZaRi15TFVHZ0h1cDhVejd1SDJGUDJsVlRuMHB6VlFCSWJTaG5pOVZnNjQ4V2EzMV9BNEpYVjlLMG5HajF2VUpwNUU3SHdzOUE3M0l2UzBTUFpsUVVmZUVaZUZMUmJLNHVjSXZoaGg1Mnd4UWVqY01rRkxaLVlBNTNERVNKcw?oc=5",
-   "ts": "2026-09-03T02:06:08+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "美国抵押贷款利率升至6.71%",
-   "brief": "美国抵押贷款利率攀升至6.71%，为2025年7月以来最高水平。",
-   "chain": "利率上升→美股估值承压→A股成长板块情绪受抑",
-   "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609043864429846.html",
-   "ts": "2026-09-04 00:01:31"
+   "url": "https://finance.eastmoney.com/a/202609043865219294.html",
+   "ts": "2026-09-04 11:41:58"
   },
   {
    "cat": "macro",
-   "title": "经济学家预计欧央行9月二次加息",
-   "brief": "路透调查显示，经济学家预计欧洲央行将在9月再次加息，但此后可能停止。",
-   "chain": "欧央行加息→全球流动性收紧→影响风险资产估值",
-   "impact": 6,
+   "title": "8月非农就业报告周五公布 预期疲软",
+   "brief": "8月非农就业报告将于周五公布，市场预期就业增长疲软。",
+   "chain": "非农数据→美联储降息预期→影响美股估值及A股流动性。",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html",
+   "ts": "Thu, 03 Sep 2026 19:38:09 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "路透调查：欧央行9月将第二次加息 但此后暂停",
+   "brief": "经济学家预计欧央行9月将再次加息，但之后可能停止。",
+   "chain": "欧央行加息→美元相对走强→影响新兴市场资金流向。",
+   "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT185b0pjNmp2TVlHNnRrRW9GMDh5YmVmU2VfelMzQ0Z5VXVyTGNCZHlsM252N0pGOEF1bWtqaWh3bE5yTUp3eEQ1U0JHR001Q3FEZ2RrLXhKaTVHZUd4Q054V1VhSVJYV2h1X3ZFZVJtWUUxUHdGSW9QOUcyUGZDV0RpUEhUOHRpb1l0MG15Sl9RSmM4cTdFY1lnZHpSRFRSd3ZGOGdDOA?oc=5",
    "ts": "2026-09-03T11:07:52+00:00"
   },
   {
    "cat": "macro",
-   "title": "美联储商业票据余额减少",
-   "brief": "截至9月2日当周，经季节性调整的商业票据余额减少59亿美元。",
-   "chain": "票据余额变化→反映短期融资需求→对市场流动性影响有限",
-   "impact": 3,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609043864437985.html",
-   "ts": "2026-09-04 01:07:19"
-  },
-  {
-   "cat": "tech",
-   "title": "英伟达RTX Spark PC明年上市",
-   "brief": "英伟达宣布RTX Spark Windows个人电脑将于2026年10月上市。",
-   "chain": "英伟达新品→AI PC需求→利好A股算力硬件产业链",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609043864432692.html",
-   "ts": "2026-09-04 00:10:22"
-  },
-  {
-   "cat": "tech",
-   "title": "特斯拉股价大涨超7%",
-   "brief": "特斯拉股价涨幅扩大至7%以上，创6月以来最大涨幅。",
-   "chain": "特斯拉大涨→美股科技股情绪→A股新能源车产业链联动",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609033864427375.html",
-   "ts": "2026-09-03 23:50:16"
-  },
-  {
-   "cat": "tech",
-   "title": "美车企促国会永久禁止中国联网汽车",
-   "brief": "美国主要车企敦促国会禁止中国联网汽车在美国销售、进口和制造。",
-   "chain": "贸易限制→中国汽车出海受阻→A股汽车零部件及智能驾驶链承压",
-   "impact": 7,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/09/03/chinese-vehicles-congress.html",
-   "ts": "2026-09-03T16:51:13+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "美国主流AI集体宕机",
-   "brief": "ChatGPT、Claude、Grok等美国主流AI服务集体下线，引发关注。",
-   "chain": "AI服务中断→凸显算力依赖→A股算力基础设施国产化预期升温",
+   "title": "挪威石油基金或减持美国国债800亿美元",
+   "brief": "据报道，挪威石油基金可能将其持有的美国国债减少约800亿美元。",
+   "chain": "减持美债→美债收益率上行→影响美股估值及A股风险偏好。",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609033864429327.html",
-   "ts": "2026-09-03 23:58:51"
+   "url": "https://finance.eastmoney.com/a/202609043865224410.html",
+   "ts": "2026-09-04 12:18:29"
   },
   {
-   "cat": "ai",
-   "title": "OpenAI故障已解决",
-   "brief": "OpenAI表示，导致ChatGPT与Codex大量报错的故障已解决。",
-   "chain": "故障恢复→AI服务稳定性→对算力需求影响有限",
+   "cat": "tech",
+   "title": "美光计划年内大幅扩产HBM 产能有望翻倍",
+   "brief": "美光计划年底前大规模投资提升HBM4 12层产品供应，以追赶三星和SK海力士。",
+   "chain": "HBM扩产→AI算力硬件供应增加→利好A股存储芯片链。",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609043865219188.html",
+   "ts": "2026-09-04 11:42:40"
+  },
+  {
+   "cat": "tech",
+   "title": "Lululemon财报不及预期 股价暴跌15%",
+   "brief": "Lululemon公布令人失望的财报和指引，股价暴跌15%。",
+   "chain": "消费股财报疲软→美股消费板块承压→影响A股消费电子链。",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/03/lululemon-lulu-q2-2026-earnings.html",
+   "ts": "Thu, 03 Sep 2026 20:52:03 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "Zscaler财报超预期 股价上涨",
+   "brief": "Zscaler公布财报超预期并给出乐观指引，股价上涨。",
+   "chain": "网络安全需求强劲→科技股情绪提振→映射A股网络安全板块。",
    "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609043864437822.html",
-   "ts": "2026-09-04 01:03:53"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/03/zscaler-zs-q4-earnings-2026.html",
+   "ts": "Thu, 03 Sep 2026 20:41:47 GMT"
   },
   {
    "cat": "ai",
-   "title": "Anthropic模型问题解决",
-   "brief": "Anthropic表示，影响多个模型的问题已解决。",
-   "chain": "模型恢复→AI应用正常→对算力需求无实质影响",
-   "impact": 3,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609043864433836.html",
-   "ts": "2026-09-04 00:40:19"
+   "title": "OpenAI开始推出Astra模型 警告其高级网络能力",
+   "brief": "OpenAI开始推出Astra模型，并警告其先进的网络能力。",
+   "chain": "AI模型能力提升→AI应用加速→利好A股AI算力链。",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
+   "ts": "Thu, 03 Sep 2026 21:52:38 GMT"
   },
   {
    "cat": "ai",
-   "title": "康美特光模块封装胶测试中",
-   "brief": "康美特光通讯模块用有机硅封装胶及环氧树脂封装胶处于客户测试阶段。",
-   "chain": "AI算力扩张→光模块材料需求→A股光通信产业链受益",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609033864428739.html",
-   "ts": "2026-09-03 23:56:38"
+   "title": "早期AI投资或面临洗牌 风投对估值更挑剔",
+   "brief": "随着风投对估值更加挑剔，早期AI领域可能出现洗牌。",
+   "chain": "AI投资降温→一级市场估值调整→影响A股AI概念股情绪。",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/04/ai-bubble-valuations-venture-capital.html",
+   "ts": "Fri, 04 Sep 2026 00:44:33 GMT"
   },
   {
    "cat": "ai",
-   "title": "Equinix在AI数据中心浪潮中寻得利基",
-   "brief": "Equinix在万亿美元AI数据中心热潮中找到细分市场。",
-   "chain": "AI数据中心需求→Equinix受益→A股IDC及温控产业链映射",
+   "title": "谷歌9月开局AI势头强劲 结束月度连跌",
+   "brief": "谷歌在AI领域势头强劲，9月开局结束长达一个月的下跌。",
+   "chain": "谷歌AI进展→科技巨头竞争加剧→映射A股AI应用链。",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/02/google-starts-september-with-ai-momentum-after-long-losing-streak.html",
+   "ts": "Thu, 03 Sep 2026 12:31:15 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Equinix在AI数据中心热潮中找到利基市场",
+   "brief": "Equinix在数万亿美元的AI数据中心热潮中找到了自己的利基。",
+   "chain": "AI数据中心需求增长→基础设施受益→利好A股IDC板块。",
    "impact": 5,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/09/02/equinix-partners-with-nvidia-carves-niche-in-ai-data-center-boom.html",
    "ts": "Wed, 02 Sep 2026 22:49:01 GMT"
   },
   {
-   "cat": "ai",
-   "title": "甲骨文将迎财报考验",
-   "brief": "甲骨文在AI浪潮中股价大涨后，将面临财报考验。",
-   "chain": "甲骨文财报→AI云需求验证→A股算力链情绪联动",
+   "cat": "tech",
+   "title": "美汽车制造商敦促国会永久禁止中国联网汽车",
+   "brief": "美国主要汽车制造商敦促国会禁止中国联网汽车在美国销售和制造。",
+   "chain": "中美科技脱钩→影响汽车电子链→A股智能驾驶板块承压。",
    "impact": 6,
-   "source": "Yahoo Finance",
-   "url": "https://www.investors.com/news/technology/oracle-stock-q1-2027-earnings-ai-openai/?src=A00220&amp;yptr=yahoo",
-   "ts": "2026-09-03T16:57:56Z"
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/03/chinese-vehicles-congress.html",
+   "ts": "2026-09-03T16:51:13+00:00"
   },
   {
    "cat": "geo",
-   "title": "普京谈乌克兰和平机会",
-   "brief": "普京提及乌克兰和平的“机会”，北约警告俄罗斯日益鲁莽。",
-   "chain": "俄乌局势→地缘风险变化→影响全球市场风险偏好",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/03/putin-peace-russia-ukraine-nato-defense.html",
-   "ts": "Thu, 03 Sep 2026 11:41:40 GMT"
-  },
-  {
-   "cat": "geo",
-   "title": "特朗普称将向欧洲追讨乌克兰援助",
-   "brief": "特朗普表示美国将向欧洲追讨乌克兰援助款项。",
-   "chain": "美欧关系→地缘政治→影响全球贸易与市场情绪",
-   "impact": 6,
+   "title": "特朗普称美国将向欧洲追讨乌克兰援助款项",
+   "brief": "特朗普表示美国将寻求欧洲偿还乌克兰援助款项。",
+   "chain": "美欧关系紧张→地缘不确定性→影响全球市场情绪。",
+   "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcVJMTlRnNjZsN3VYWVl3N2NQYl9EMjBhcHR6Qzl0WDk4QTBSRnFPZFFBWnFMOW0zRE9uX1BJVmhGbnlPLUZkRG5UOXZ1LWhOdXctWFFGbmF2ZVVMcEZ4SVVtYnoweU0wa3lNMWI2Sm1iME9YcnpOYVlvSmh3OUUzYUZDUUpHN0NFVWNrNXVRVkNiS0E1amRfeXI0SXoxTEw3eWtTTXM2ZTJqMVdnaXVHelNtRQ?oc=5",
    "ts": "2026-09-03T15:59:00+00:00"
   },
   {
-   "cat": "geo",
-   "title": "中方反对美财长涉华言论",
-   "brief": "中国商务部回应美财长贝森特涉华言论，坚决反对炒作“经济失衡”和“产能过剩”。",
-   "chain": "中美经贸摩擦→影响科技股风险偏好→A股自主可控逻辑强化",
+   "cat": "oil",
+   "title": "油价涨跌互现 权衡中东升级与俄乌和平可能",
+   "brief": "油价涨跌互现，投资者权衡中东局势升级与俄乌和平协议的可能性。",
+   "chain": "地缘风险与和平预期博弈→油价波动→影响莫桑比克油气收入。",
    "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609043864432333.html",
-   "ts": "2026-09-04 00:35:48"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUUpNcGxHMWt3cDdxdFVCZUNrdTBGRlZSUEpJOEg1ZENWVkRPN2lWbTZxMUU3WG56bkZScmlMM3hpOWtzOEtFcWJUaXNqUklwZU9KVlFxd2FxUEtVV2pwYnh3cXo2Y3dhZkJNUDBoSHcxN1dRM3ZCU25QdG02N1JCOHk2SjFzN2Z3UnhKc3hWbDNnWWFp?oc=5",
+   "ts": "2026-09-03T20:13:57+00:00"
   },
   {
-   "cat": "geo",
-   "title": "加拿大称准备好时恢复贸易谈判",
-   "brief": "加拿大央行行长卡尼回击卢特尼克，称“当美国人准备好时”将恢复贸易谈判。",
-   "chain": "美加贸易紧张→北美供应链扰动→影响全球贸易预期",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/03/carney-lutnick-trump-trade-canada.html",
-   "ts": "Thu, 03 Sep 2026 16:06:13 GMT"
+   "cat": "gas",
+   "title": "美国对伊朗施压见效 制裁与封锁开始产生效果",
+   "brief": "美国对伊朗的压力开始显现，制裁和封锁正在产生影响。",
+   "chain": "伊朗供应受限→全球油气供应收紧→利好东非LNG项目。",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSFdWSEQ0NWhzbDhXcnU0Qkg3M2tkUTFVd3FORVkycWhEWWN4M0ZvM3gzaHRUb1c5dkw0Vm1iZXNfM1FiVUFFLURwUUhGektkY01rd0VYT1N2dXJTTks4OEhKN09lRExxZ1dCTDcwZ082XzRmMEMwNkpENlF1c1BnVFlBMmdmd1pRUC14cVZfMmpTdzVpTmpaVWtjdUszR1pxWExxX05Zb0hxSDQy?oc=5",
+   "ts": "2026-09-03T15:04:15+00:00"
   },
   {
    "cat": "macro",
-   "title": "美股大涨债市收益率回落",
-   "brief": "交易员削减加息押注，债券收益率回落，美股三大指数大涨。",
-   "chain": "加息预期降温→美股反弹→A股风险偏好提升",
-   "impact": 8,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-3-dow-sp-500-nasdaq-futures-081525933.html",
-   "ts": "2026-09-03T08:15:25Z"
+   "title": "CNBC每日开盘：华盛顿在利率问题上分歧严重",
+   "brief": "华盛顿内部在利率政策上存在严重分歧，影响市场预期。",
+   "chain": "政策分歧→美联储独立性担忧→影响美股及全球市场。",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/04/cnbc-daily-open-washingtons-house-is-divided-over-interest-rates.html",
+   "ts": "Fri, 04 Sep 2026 01:35:41 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "Adobe任命Anil Chakravarthy为新CEO",
+   "brief": "Adobe宣布任命Anil Chakravarthy为CEO，接替Shantanu Narayen。",
+   "chain": "管理层变动→公司战略调整→影响软件板块情绪。",
+   "impact": 4,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/03/adobe-anil-chakravarthy-ceo.html",
+   "ts": "2026-09-03T20:29:28+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达收购Hugging Face背后：微软交易提供线索",
+   "brief": "分析英伟达收购Hugging Face的动机，微软过去的交易提供线索。",
+   "chain": "英伟达布局AI生态→AI平台竞争加剧→利好A股AI应用链。",
+   "impact": 6,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/03/whats-behind-nvidia-buying-hugging-face-look-to-microsoft.html",
+   "ts": "2026-09-03T18:14:30+00:00"
   }
  ]
 }
