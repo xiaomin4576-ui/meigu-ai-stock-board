@@ -1,0 +1,214 @@
+{
+ "asof": "2026-09-05",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-09-05T01:05+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 19,
+  "cluster_label": "",
+  "cluster_dropped": [],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "特朗普：美国利率应全球最低，经济增长不会导致通胀",
+   "brief": "特朗普表示美国利率应全球最低，并称经济增长不会导致通胀，向美联储施压要求降息。",
+   "chain": "总统施压降息→美债收益率下行预期→利好美股高久期成长股→映射A股算力链估值修复",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609053865772753.html",
+   "ts": "2026-09-05 00:33:52"
+  },
+  {
+   "cat": "macro",
+   "title": "8月非农强劲，美债收益率飙升，股市承压",
+   "brief": "8月就业报告超预期，债券收益率跳升，美股下跌，市场对美联储加息预期升温。",
+   "chain": "非农超预期→加息预期升温→美债收益率上行→压制美股AI高估值→A股算力链情绪受抑",
+   "impact": 9,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/04/here-are-our-top-10-things-to-watch-in-the-stock-market-friday.html",
+   "ts": "2026-09-04T13:07:29+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "贝莱德：非农大超预期后，下周通胀数据更关键",
+   "brief": "贝莱德投资经理称8月就业增长远超预期，在美联储考虑加息之际，下周CPI数据将成关键。",
+   "chain": "非农强劲→通胀数据决定加息路径→影响美债收益率→传导至美股科技估值→A股算力链",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609043865753270.html",
+   "ts": "2026-09-04 23:19:08"
+  },
+  {
+   "cat": "macro",
+   "title": "美联储哈玛克：政策未具限制性，通胀仍过高",
+   "brief": "美联储官员哈玛克表示当前政策并非限制性，通胀依然过高，暗示可能进一步收紧。",
+   "chain": "官员鹰派表态→加息预期强化→美债收益率上行→压制美股成长股→A股算力链承压",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609053865772642.html",
+   "ts": "2026-09-05 00:32:06"
+  },
+  {
+   "cat": "macro",
+   "title": "特朗普威胁对贸易顺差国加征关税，施压美联储降息",
+   "brief": "特朗普要求美联储大幅降息，否则将终止与对美顺差国家的贸易，贸易摩擦风险升温。",
+   "chain": "贸易威胁→避险情绪→美元波动→影响全球风险偏好→美股与A股科技链承压",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/04/trump-fed-rates-jobs-trade.html",
+   "ts": "Fri, 04 Sep 2026 16:08:11 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "万斯：伊朗冲突非战争，未提供结束时间表",
+   "brief": "美国副总统万斯称伊朗冲突不是战争，但拒绝给出结束时间表，局势仍不明朗。",
+   "chain": "美伊冲突持续→地缘风险溢价→油价波动→影响美股能源板块→A股油气链",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVWVqMkRjNklKdUhYTF9BTE5GN1ctUG5zaGI0cVdEcW9ReEhYMmxJREpHX1o5RE5mS1VZMHAwTlBTTmZhWURSV3dMUkY1YjhBMjZEN2hvZWhYc1hiaTk1MFRacnpEVDVYWnRuTEVrVW8yZnRnTVUxcTV0UEd5NXRRVDlzTmM0NFA5b3o3Q3JPMFhHMGFJb3JVN05DTVZSbUZlNHlNVFdMTmhmajRfR25zZ05LblhOZjg?oc=5",
+   "ts": "2026-09-03T22:10:23+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "泽连斯基：美特使访乌期间不对俄发动空袭",
+   "brief": "泽连斯基表示在美总统特使访问期间，乌克兰将暂停对俄空中打击，为外交斡旋让路。",
+   "chain": "俄乌和谈预期→地缘缓和→油价承压→影响美股能源→A股油气链",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609053865771540.html",
+   "ts": "2026-09-05 00:20:20"
+  },
+  {
+   "cat": "geo",
+   "title": "乌国家安全局遭袭，美特使访问计划或有变",
+   "brief": "基辅的乌国家安全局总部遭俄无人机袭击，出于安全担忧，美特使访问计划可能调整。",
+   "chain": "俄乌冲突升级→地缘风险上升→油价获支撑→美股能源→A股油气链",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609043865757368.html",
+   "ts": "2026-09-04 23:44:34"
+  },
+  {
+   "cat": "oil",
+   "title": "油价涨跌互现，市场权衡中东局势与俄乌和谈",
+   "brief": "投资者评估中东升级与俄乌和平协议可能性，油价走势分化。",
+   "chain": "地缘风险与和谈预期博弈→油价短期波动→影响莫桑比克LNG项目经济性",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUUpNcGxHMWt3cDdxdFVCZUNrdTBGRlZSUEpJOEg1ZENWVkRPN2lWbTZxMUU3WG56bkZScmlMM3hpOWtzOEtFcWJUaXNqUklwZU9KVlFxd2FxUEtVV2pwYnh3cXo2Y3dhZkJNUDBoSHcxN1dRM3ZCU25QdG02N1JCOHk2SjFzN2Z3UnhKc3hWbDNnWWFp?oc=5",
+   "ts": "2026-09-03T20:13:57+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "美国柴油价格创历史新高，供应紧张加剧",
+   "brief": "冲突导致供应紧缩，美国柴油价格飙升至纪录高位，凸显能源市场压力。",
+   "chain": "柴油价格高企→炼油利润率上升→全球能源成本传导→利好莫桑比克油气出口",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZHF2Z29UenJROHZ5YlJpTFBHM1pmWmdNaWROSnhyNlhDVVZmVGVXTkRaT1k4N1NBY1B1YUhDbmE2SGQ2TllTNExHWk9JT1JCWHRKQnVpZEx5SVVNZHdhc2tsbEEtWG01Ty1QUXpMSWdWR3NuQTVQaWNhLUViMXkzRl9WNk81bDdiVk5tb1hPeVBMczFGaWVmaTNzWEdYZ29P?oc=5",
+   "ts": "2026-09-03T19:47:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "美国石油钻井数增至449口，连续两周上升",
+   "brief": "贝克休斯数据显示美国至9月4日当周石油钻井总数449口，较前值增加2口。",
+   "chain": "钻井数增加→美国产量预期上升→压制油价→影响莫桑比克LNG竞争力",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609053865776366.html",
+   "ts": "2026-09-05 01:02:13"
+  },
+  {
+   "cat": "gas",
+   "title": "丹格特炼油厂拟IPO筹资16亿美元，扩张非洲能源版图",
+   "brief": "尼日利亚丹格特炼油厂计划通过IPO筹集至多16亿美元，用于扩大产能和区域能源布局。",
+   "chain": "非洲炼油产能扩张→区域能源格局变化→对莫桑比克LNG出口形成竞争与合作",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609043865760632.html",
+   "ts": "2026-09-04 23:38:26"
+  },
+  {
+   "cat": "tech",
+   "title": "菲尔·席勒卸任App Store及产品发布主管",
+   "brief": "苹果资深高管菲尔·席勒将不再负责App Store和产品发布，转向其他角色。",
+   "chain": "苹果高管变动→影响App Store政策→影响开发者生态→间接影响A股苹果链",
+   "impact": 6,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-31/apple-s-phil-schiller-steps-down-from-running-app-store-and-product-events?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4ODE5Mzk5NywiZXhwIjoxNzg4Nzk4Nzk3LCJhcnRpY2xlSWQiOiJUS0VDTE1LSkg2VjQwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.G1fAbZQH31AQBLUajPYPUJ7BqRyeIUN7SbxQZFAqMXE",
+   "ts": "2026-09-03T16:39:09+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "Zscaler财报超预期但股价下跌，指引乐观",
+   "brief": "Zscaler季度业绩和指引均超预期，但股价仍下跌，或因估值过高。",
+   "chain": "网络安全股业绩好但股价跌→反映市场对高估值担忧→影响A股网络安全板块",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/03/zscaler-zs-q4-earnings-2026.html",
+   "ts": "Fri, 04 Sep 2026 13:37:16 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "微软对Xbox云游戏设时间限制，成本压力上升",
+   "brief": "微软将对Xbox云游戏订阅用户实施时间限制，以应对不断攀升的运营成本。",
+   "chain": "云游戏成本压力→微软调整策略→影响云基础设施需求→映射A股算力链",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/03/microsoft-xbox-game-pass-cloud-limits.html",
+   "ts": "Thu, 03 Sep 2026 19:03:56 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "AI初创Gimlet融资3亿美元，a16z领投",
+   "brief": "AI初创公司Gimlet完成3亿美元融资，估值达30亿美元，由Andreessen Horowitz领投。",
+   "chain": "AI融资活跃→资本持续流入→利好AI基础设施需求→映射A股算力链",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609053865775265.html",
+   "ts": "2026-09-05 00:47:06"
+  },
+  {
+   "cat": "ai",
+   "title": "谷歌推出Lyria 3.5音乐生成模型",
+   "brief": "谷歌在Gemini应用和API中推出Lyria 3.5，提升AI音乐生成能力。",
+   "chain": "AI模型迭代→多模态应用扩展→推动AI算力需求→利好A股AI应用与算力",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609053865770535.html",
+   "ts": "2026-09-05 00:11:00"
+  },
+  {
+   "cat": "ai",
+   "title": "法院驳回xAI禁令，明州AI脱衣应用限制维持",
+   "brief": "联邦法院驳回xAI的临时禁令申请，明尼苏达州对AI脱衣应用的禁令继续有效。",
+   "chain": "AI监管收紧→合规成本上升→影响AI应用开发→对A股AI监管概念影响有限",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609043865769358.html",
+   "ts": "2026-09-04 23:59:26"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达收购Hugging Face的防御性意义",
+   "brief": "分析称英伟达收购Hugging Face不仅是芯片业务，更是防御性布局AI生态。",
+   "chain": "英伟达生态扩张→巩固AI算力主导→强化AI基础设施→利好A股算力链",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/04/nvidia-hugging-face-deal-chips.html",
+   "ts": "Fri, 04 Sep 2026 11:31:30 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Salesforce Agentforce ARR增长超200%，AI变现加速",
+   "brief": "Salesforce的Agentforce和Data 360 ARR增长超200%，AI正成为增长的重要驱动力。",
+   "chain": "AI商业化验证→企业软件需求增长→带动AI算力与云服务→映射A股AI应用",
+   "impact": 6,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/technology/ai/articles/salesforce-crm-grew-agentforce-data-163207657.html",
+   "ts": "2026-09-04T16:32:07Z"
+  }
+ ]
+}
