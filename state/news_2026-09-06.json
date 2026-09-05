@@ -1,0 +1,180 @@
+{
+ "asof": "2026-09-06",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-09-06T00:17+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 22,
+  "cluster_label": "伊朗",
+  "cluster_dropped": [
+   "美国制裁土耳其银行施压伊朗",
+   "美国调查伊朗婚礼袭击事件",
+   "民调：仅四分之一美国人认为伊朗战争值得",
+   "以色列空袭黎巴嫩南部",
+   "以军清除真主党隧道武装"
+  ],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "geo",
+   "title": "美军袭击三艘伊朗油轮",
+   "brief": "美国中央司令部称，在伊朗革命卫队向美军舰船发射弹道导弹后，美军对三艘伊朗原油运输船实施打击。",
+   "chain": "美伊冲突升级→油价短期冲高→A股油气及航运板块或受情绪提振",
+   "impact": 10,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609053866039597.html",
+   "ts": "2026-09-05 22:09:13"
+  },
+  {
+   "cat": "oil",
+   "title": "布伦特原油突破96美元",
+   "brief": "9月5日布伦特原油暗盘涨超2.6%，突破96美元，受美伊冲突升级影响。",
+   "chain": "美伊冲突→油价上涨→莫桑比克油气出口受益，但需关注霍尔木兹海峡风险",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609053866040035.html",
+   "ts": "2026-09-05 22:16:53"
+  },
+  {
+   "cat": "geo",
+   "title": "普京下令暂停空袭基辅3天",
+   "brief": "俄总统普京已下令3天内不对基辅空袭，并将会见美国特使，俄乌局势现缓和迹象。",
+   "chain": "俄乌局势缓和→避险情绪降温→利好美股风险偏好，A股风险资产或受益",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609053866042740.html",
+   "ts": "2026-09-05 23:06:40"
+  },
+  {
+   "cat": "geo",
+   "title": "泽连斯基宣布停止打击莫斯科",
+   "brief": "乌克兰总统泽连斯基称已与美国特使通话，自即刻起至7日停止打击莫斯科。",
+   "chain": "俄乌冲突降温→地缘风险溢价回落→利好全球股市，A股风险偏好或提升",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609053866042587.html",
+   "ts": "2026-09-05 22:50:00"
+  },
+  {
+   "cat": "geo",
+   "title": "美推动IAEA向安理会报告伊朗",
+   "brief": "美国及盟友推动国际原子能机构理事会向联合国安理会报告伊朗，加大对伊施压。",
+   "chain": "美伊对抗加剧→地缘风险上升→油价短期或维持高位，A股油气链或受关注",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTWN6cU9lV0RMREdsVnRUZW1vS0tKZk9tZUJmMnFpTTdNM2c4c2J2bUtzOElSbjA2WnFCQzdZSnotczdsYnNPRWFLckFyV0EwNWg1akIyTFo4NDF4ODVMTnVSNnBjcWREd1Q4dWk3Q3FyWFkwMFdLbzY5YU9yLVkySDlEOGJBVktZQTJ1d2NJMkJSUGpKaks5dTNUb2xySnVBb3VGUUdILXZpaVZqeHVtcWR4Nm03M1oxNUFUNA?oc=5",
+   "ts": "2026-09-04T15:36:48+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "以军打击黎南部真主党目标",
+   "brief": "以色列国防军称对黎巴嫩南部真主党人员及设施发动袭击，回应真主党无人机攻击。",
+   "chain": "中东冲突持续→地缘风险高企→油价短期或维持高位，A股油气链或受关注",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609063866044128.html",
+   "ts": "2026-09-06 00:07:26"
+  },
+  {
+   "cat": "geo",
+   "title": "哈马斯否认和平委员会报告",
+   "brief": "哈马斯称和平委员会关于加沙的报告与事实不符，呼吁保持客观立场。",
+   "chain": "巴以和谈受阻→中东局势复杂→地缘风险持续，A股风险偏好或受抑制",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609063866043919.html",
+   "ts": "2026-09-06 00:02:12"
+  },
+  {
+   "cat": "geo",
+   "title": "菲律宾副总统莎拉获释",
+   "brief": "菲律宾副总统莎拉缴纳保释金后获释，涉及法律案件。",
+   "chain": "菲国内政治变动→东南亚局势或受影响→A股相关区域投资情绪或波动",
+   "impact": 3,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609063866043892.html",
+   "ts": "2026-09-06 00:00:58"
+  },
+  {
+   "cat": "geo",
+   "title": "坦桑尼亚航空恢复俄罗斯航线",
+   "brief": "坦桑尼亚航空将于9月7日恢复飞往俄罗斯的航班，此前曾暂停。",
+   "chain": "非洲与俄交通恢复→地缘经济联系加强→对莫桑比克等东非国家或有一定示范效应",
+   "impact": 2,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQWVSWXZZcTdRTVlSaFlBRDJBcUFmZmY5T002SC1zMzNvMDhOS2FDZVhvTVF3clRlNlVlcHgwV29ER2g4bnJhV2tJZXNuTzd0ZVVEXzN4UEhfTXlXUkpQeVk5S0NhRnJFQmlpRDA5SzFHdl9FV3VHaUtkdTJnVFROMDVSWWxpN21YRkFLVjBZeXlKaWVQZW9iWk5rMUdvUjRRRVJqdjVNajhPRFYxdUl0dlNGMGVIdG8?oc=5",
+   "ts": "2026-09-04T09:53:53+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "强劲就业数据影响利率预期",
+   "brief": "分析指出强劲就业数据可能影响美联储利率路径，市场关注降息时点。",
+   "chain": "就业强劲→降息预期降温→美股估值承压，A股成长股或受联动影响",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/04/what-strong-jobs-data-means-for-rates-plus-an-out-of-favor-trade-shines-this-week.html",
+   "ts": "2026-09-04T18:51:01+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "硬足金撬动中国金饰悦己消费",
+   "brief": "世界黄金协会报告显示，高金价下中国金饰消费量下滑但金额上升，硬足金产品受青睐。",
+   "chain": "金价高企→消费结构变化→黄金需求或保持韧性，A股黄金珠宝板块或受益",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609053866033321.html",
+   "ts": "2026-09-05 20:34:02"
+  },
+  {
+   "cat": "macro",
+   "title": "上市城农商行中报：25家净利增长",
+   "brief": "27家上市城农商行中25家净利增长，15家净息差同比下降，行业分化。",
+   "chain": "银行业绩稳健→金融板块或受支撑→A股银行股或表现稳定",
+   "impact": 3,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609053866037893.html",
+   "ts": "2026-09-05 22:49:45"
+  },
+  {
+   "cat": "tech",
+   "title": "长安发布自研智驾方案",
+   "brief": "长安汽车发布自研智能驾驶方案“天枢领航”，首搭于启源Q07。",
+   "chain": "车企自研智驾→智能化竞争加剧→A股智能驾驶产业链或受关注",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609053866035644.html",
+   "ts": "2026-09-05 21:14:12"
+  },
+  {
+   "cat": "tech",
+   "title": "通用与福特竞争扩展到国防能源",
+   "brief": "通用和福特的竞争已扩展到国防和能源领域，百年 rivalry 新篇章。",
+   "chain": "车企多元化→军工能源业务受关注→A股相关产业链或受映射",
+   "impact": 4,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/05/gm-ford-defense-energy.html",
+   "ts": "Sat, 05 Sep 2026 12:00:01 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "Shein上市后表现不稳",
+   "brief": "快时尚电商Shein股市表现不佳，能否重拾势头成疑。",
+   "chain": "中概股波动→市场情绪或受拖累→A股跨境电商板块或承压",
+   "impact": 3,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/04/shein-ipo-fast-fashion-temu-competition.html",
+   "ts": "Fri, 04 Sep 2026 04:49:36 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "卡车司机对AI数据中心态度复杂",
+   "brief": "许多卡车司机对AI数据中心繁荣持保留态度，尽管业务增长。",
+   "chain": "AI基建扩张→社会接受度问题→A股算力链或需关注政策风险",
+   "impact": 4,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/05/ai-data-centers-cost-economy.html",
+   "ts": "Sat, 05 Sep 2026 13:33:08 GMT"
+  }
+ ]
+}
