@@ -1,180 +1,176 @@
 {
  "asof": "2026-09-06",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-09-06T00:17+08:00",
+ "generated_at": "2026-09-06T12:31+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 22,
-  "cluster_label": "伊朗",
+  "cross_day_suppressed": 18,
+  "cluster_label": "伊拉克/伊朗",
   "cluster_dropped": [
-   "美国制裁土耳其银行施压伊朗",
-   "美国调查伊朗婚礼袭击事件",
-   "民调：仅四分之一美国人认为伊朗战争值得",
-   "以色列空袭黎巴嫩南部",
-   "以军清除真主党隧道武装"
+   "美军打击三艘伊朗原油油轮"
   ],
   "backfilled": 0
  },
  "items": [
   {
+   "cat": "macro",
+   "title": "美国非农爆表背后：98%新增就业来自女性",
+   "brief": "分析显示8月非农新增就业中98%为女性，数据结构异常引发对就业质量的质疑。",
+   "chain": "就业结构失衡或削弱数据可信度→影响美联储降息预期→映射A股流动性敏感板块",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609063866058529.html",
+   "ts": "2026-09-06 09:41:45"
+  },
+  {
+   "cat": "macro",
+   "title": "特朗普施压沃什，美联储加息临近",
+   "brief": "特朗普加大对美联储理事沃什的施压，市场对加息预期升温。",
+   "chain": "政治干预美联储→加息预期强化→压制美股估值→A股外资流向承压",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/05/trump-warsh-fed-september-rate-hike.html",
+   "ts": "Sat, 05 Sep 2026 19:12:53 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "下周关注：8月CPI数据即将公布",
+   "brief": "国家统计局将于9月9日公布8月CPI、PPI数据，市场关注通胀走势。",
+   "chain": "中国通胀数据→货币政策空间→影响A股风险偏好",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609063866057184.html",
+   "ts": "2026-09-06 09:10:05"
+  },
+  {
    "cat": "geo",
-   "title": "美军袭击三艘伊朗油轮",
-   "brief": "美国中央司令部称，在伊朗革命卫队向美军舰船发射弹道导弹后，美军对三艘伊朗原油运输船实施打击。",
-   "chain": "美伊冲突升级→油价短期冲高→A股油气及航运板块或受情绪提振",
+   "title": "伊朗革命卫队称打击美航母和驱逐舰",
+   "brief": "伊朗革命卫队9月6日宣布发射弹道导弹打击美军航母和驱逐舰，中东局势急剧升级。",
+   "chain": "美伊直接冲突→避险情绪升温→美股承压→A股军工/黄金链关注",
    "impact": 10,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609053866039597.html",
-   "ts": "2026-09-05 22:09:13"
+   "url": "https://finance.eastmoney.com/a/202609063866061815.html",
+   "ts": "2026-09-06 10:49:04"
+  },
+  {
+   "cat": "geo",
+   "title": "中国稀土企业暂停对美部分发货",
+   "brief": "消息人士称，中国稀土企业因地缘政治担忧暂停对美部分发货，稀土出口管制风险上升。",
+   "chain": "中美博弈升级→稀土供应风险→美股科技供应链扰动→A股稀土板块受益",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfUXdHRkFxeEwyYmxlRGxtQUtXRlVkbHZzbkFOd1VndGxSMWh4anJ3RDc0eFRVNjlEM3ZJZGRKUEsxQ1V5bWtPNUdjNG9ocGhmRXVMcnhNZ1pkSnBmbDRBcjlfdXJGWGJ3ZngzaTVzNFIwem1FQ0tPUUdkc3F6WEdNS3dGSDkxOVFHRVAtR2wzajR5bndEbjNWRlhTU2JhcDAwUzFBbjBVdTZNQmZyZHQ4c3hnWEhpV3hpTm1lNnVWdw?oc=5",
+   "ts": "2026-09-04T15:15:39+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "威特科夫和库什纳将出访讨论乌克兰和平",
+   "brief": "特朗普称威特科夫和库什纳将前往国外讨论乌克兰和平，外交斡旋再启。",
+   "chain": "俄乌和谈进展→地缘风险缓和→利好风险资产→A股情绪改善",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYnRXT21udjdNRHZzVDZKVFFwTlY2WjYzMUJxclJwRUl5Z2plWUpZUXkwb05XejNsbFhiY2oxRlZpRFU0b0FONjBTaVh6LTNzbW9oWENaaGY5cXlkdjduWWFNT0FhRUFwbXJqNVRIRklaY2hyTXp1MGs5OENrNlJ2N1F0YTgzYXJha2YtU1FneU1rNlBYa0c2NDE2Z01VTi11RGY2blZOT2hLdWtlTl82SW0tR1BIdEgxVFZFa1p3?oc=5",
+   "ts": "2026-09-04T19:44:11+00:00"
   },
   {
    "cat": "oil",
-   "title": "布伦特原油突破96美元",
-   "brief": "9月5日布伦特原油暗盘涨超2.6%，突破96美元，受美伊冲突升级影响。",
-   "chain": "美伊冲突→油价上涨→莫桑比克油气出口受益，但需关注霍尔木兹海峡风险",
-   "impact": 9,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609053866040035.html",
-   "ts": "2026-09-05 22:16:53"
-  },
-  {
-   "cat": "geo",
-   "title": "普京下令暂停空袭基辅3天",
-   "brief": "俄总统普京已下令3天内不对基辅空袭，并将会见美国特使，俄乌局势现缓和迹象。",
-   "chain": "俄乌局势缓和→避险情绪降温→利好美股风险偏好，A股风险资产或受益",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609053866042740.html",
-   "ts": "2026-09-05 23:06:40"
-  },
-  {
-   "cat": "geo",
-   "title": "泽连斯基宣布停止打击莫斯科",
-   "brief": "乌克兰总统泽连斯基称已与美国特使通话，自即刻起至7日停止打击莫斯科。",
-   "chain": "俄乌冲突降温→地缘风险溢价回落→利好全球股市，A股风险偏好或提升",
+   "title": "伊拉克8月石油出口较冲突前降36%",
+   "brief": "TankerTrackers数据显示，伊拉克8月石油出口量较美伊冲突前下降36%，供应收缩明显。",
+   "chain": "中东供应中断→油价支撑→莫桑比克LNG替代需求增加",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609053866042587.html",
-   "ts": "2026-09-05 22:50:00"
+   "url": "https://finance.eastmoney.com/a/202609063866060297.html",
+   "ts": "2026-09-06 10:10:17"
   },
   {
-   "cat": "geo",
-   "title": "美推动IAEA向安理会报告伊朗",
-   "brief": "美国及盟友推动国际原子能机构理事会向联合国安理会报告伊朗，加大对伊施压。",
-   "chain": "美伊对抗加剧→地缘风险上升→油价短期或维持高位，A股油气链或受关注",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTWN6cU9lV0RMREdsVnRUZW1vS0tKZk9tZUJmMnFpTTdNM2c4c2J2bUtzOElSbjA2WnFCQzdZSnotczdsYnNPRWFLckFyV0EwNWg1akIyTFo4NDF4ODVMTnVSNnBjcWREd1Q4dWk3Q3FyWFkwMFdLbzY5YU9yLVkySDlEOGJBVktZQTJ1d2NJMkJSUGpKaks5dTNUb2xySnVBb3VGUUdILXZpaVZqeHVtcWR4Nm03M1oxNUFUNA?oc=5",
-   "ts": "2026-09-04T15:36:48+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "以军打击黎南部真主党目标",
-   "brief": "以色列国防军称对黎巴嫩南部真主党人员及设施发动袭击，回应真主党无人机攻击。",
-   "chain": "中东冲突持续→地缘风险高企→油价短期或维持高位，A股油气链或受关注",
+   "cat": "oil",
+   "title": "“凯洛”号油轮在阿曼湾沉没",
+   "brief": "美国方面消息称，“凯洛”号油轮今日在阿曼湾沉没，航运安全再受威胁。",
+   "chain": "油轮遇袭→航运保险费率上升→油价波动→东非能源运输成本影响",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609063866044128.html",
-   "ts": "2026-09-06 00:07:26"
+   "url": "https://finance.eastmoney.com/a/202609063866055855.html",
+   "ts": "2026-09-06 08:39:15"
   },
   {
-   "cat": "geo",
-   "title": "哈马斯否认和平委员会报告",
-   "brief": "哈马斯称和平委员会关于加沙的报告与事实不符，呼吁保持客观立场。",
-   "chain": "巴以和谈受阻→中东局势复杂→地缘风险持续，A股风险偏好或受抑制",
-   "impact": 4,
+   "cat": "gas",
+   "title": "山西煤与煤层气共采论坛：目标300亿方",
+   "brief": "山西在太原举办煤与煤层气共采论坛，提出非常规天然气年产量300亿立方米目标。",
+   "chain": "中国天然气增产→全球LNG供应增加→莫桑比克LNG竞争加剧",
+   "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609063866043919.html",
-   "ts": "2026-09-06 00:02:12"
+   "url": "https://finance.eastmoney.com/a/202609063866066872.html",
+   "ts": "2026-09-06 12:02:52"
   },
   {
-   "cat": "geo",
-   "title": "菲律宾副总统莎拉获释",
-   "brief": "菲律宾副总统莎拉缴纳保释金后获释，涉及法律案件。",
-   "chain": "菲国内政治变动→东南亚局势或受影响→A股相关区域投资情绪或波动",
+   "cat": "gas",
+   "title": "专家：新型电力系统呼唤垂类大模型",
+   "brief": "太原能源论坛上，专家呼吁开发电力系统垂类大模型，推动能源数字化。",
+   "chain": "能源数字化→AI应用拓展→对莫桑比克能源管理技术合作有启示",
    "impact": 3,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609063866043892.html",
-   "ts": "2026-09-06 00:00:58"
-  },
-  {
-   "cat": "geo",
-   "title": "坦桑尼亚航空恢复俄罗斯航线",
-   "brief": "坦桑尼亚航空将于9月7日恢复飞往俄罗斯的航班，此前曾暂停。",
-   "chain": "非洲与俄交通恢复→地缘经济联系加强→对莫桑比克等东非国家或有一定示范效应",
-   "impact": 2,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQWVSWXZZcTdRTVlSaFlBRDJBcUFmZmY5T002SC1zMzNvMDhOS2FDZVhvTVF3clRlNlVlcHgwV29ER2g4bnJhV2tJZXNuTzd0ZVVEXzN4UEhfTXlXUkpQeVk5S0NhRnJFQmlpRDA5SzFHdl9FV3VHaUtkdTJnVFROMDVSWWxpN21YRkFLVjBZeXlKaWVQZW9iWk5rMUdvUjRRRVJqdjVNajhPRFYxdUl0dlNGMGVIdG8?oc=5",
-   "ts": "2026-09-04T09:53:53+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "强劲就业数据影响利率预期",
-   "brief": "分析指出强劲就业数据可能影响美联储利率路径，市场关注降息时点。",
-   "chain": "就业强劲→降息预期降温→美股估值承压，A股成长股或受联动影响",
-   "impact": 8,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/09/04/what-strong-jobs-data-means-for-rates-plus-an-out-of-favor-trade-shines-this-week.html",
-   "ts": "2026-09-04T18:51:01+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "硬足金撬动中国金饰悦己消费",
-   "brief": "世界黄金协会报告显示，高金价下中国金饰消费量下滑但金额上升，硬足金产品受青睐。",
-   "chain": "金价高企→消费结构变化→黄金需求或保持韧性，A股黄金珠宝板块或受益",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609053866033321.html",
-   "ts": "2026-09-05 20:34:02"
-  },
-  {
-   "cat": "macro",
-   "title": "上市城农商行中报：25家净利增长",
-   "brief": "27家上市城农商行中25家净利增长，15家净息差同比下降，行业分化。",
-   "chain": "银行业绩稳健→金融板块或受支撑→A股银行股或表现稳定",
-   "impact": 3,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609053866037893.html",
-   "ts": "2026-09-05 22:49:45"
+   "url": "https://finance.eastmoney.com/a/202609063866067552.html",
+   "ts": "2026-09-06 12:12:39"
   },
   {
    "cat": "tech",
-   "title": "长安发布自研智驾方案",
-   "brief": "长安汽车发布自研智能驾驶方案“天枢领航”，首搭于启源Q07。",
-   "chain": "车企自研智驾→智能化竞争加剧→A股智能驾驶产业链或受关注",
+   "title": "耐克将首次被移出标普100指数",
+   "brief": "标普道琼斯宣布将耐克剔出标普100指数，9月21日生效，市值缩水所致。",
+   "chain": "成分股调整→被动资金流出→美股消费股承压→A股纺服板块情绪映射",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609053866035644.html",
-   "ts": "2026-09-05 21:14:12"
+   "url": "https://finance.eastmoney.com/a/202609063866068311.html",
+   "ts": "2026-09-06 12:26:29"
   },
   {
    "cat": "tech",
-   "title": "通用与福特竞争扩展到国防能源",
-   "brief": "通用和福特的竞争已扩展到国防和能源领域，百年 rivalry 新篇章。",
-   "chain": "车企多元化→军工能源业务受关注→A股相关产业链或受映射",
+   "title": "大众2030计划：裁员5万，目标利润率10%",
+   "brief": "大众汽车批准1350亿欧元计划，裁员5万人，目标2030年利润率10%。",
+   "chain": "欧洲车企转型→全球汽车产业链重构→A股汽车零部件链关注",
+   "impact": 5,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/volkswagen-targets-10-margin-2030-210157136.html",
+   "ts": "2026-09-04T21:01:57Z"
+  },
+  {
+   "cat": "tech",
+   "title": "Shein上市后表现不稳，能否重振旗鼓？",
+   "brief": "Shein上市后股价波动，市场关注其增长前景与监管挑战。",
+   "chain": "中概新股表现→跨境电商标的→A股电商概念情绪传导",
    "impact": 4,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/05/gm-ford-defense-energy.html",
-   "ts": "Sat, 05 Sep 2026 12:00:01 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "Shein上市后表现不稳",
-   "brief": "快时尚电商Shein股市表现不佳，能否重拾势头成疑。",
-   "chain": "中概股波动→市场情绪或受拖累→A股跨境电商板块或承压",
-   "impact": 3,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/09/04/shein-ipo-fast-fashion-temu-competition.html",
    "ts": "Fri, 04 Sep 2026 04:49:36 GMT"
   },
   {
    "cat": "ai",
-   "title": "卡车司机对AI数据中心态度复杂",
-   "brief": "许多卡车司机对AI数据中心繁荣持保留态度，尽管业务增长。",
-   "chain": "AI基建扩张→社会接受度问题→A股算力链或需关注政策风险",
+   "title": "OpenAI：Astra实现空间推理，AI超越人类",
+   "brief": "OpenAI应用研究主管称，Astra使空间推理能力不再是人类优势，AI能力再突破。",
+   "chain": "AI能力跃升→算力需求增长→美股AI链受益→A股算力硬件映射",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609063866060171.html",
+   "ts": "2026-09-06 10:09:02"
+  },
+  {
+   "cat": "ai",
+   "title": "长沙具身智能机器人获欧盟CE认证",
+   "brief": "长泰机器人自主研发的具身智能绕线机器人通过欧盟CE认证，为国内首款。",
+   "chain": "国产机器人出海→AI+制造落地→A股机器人概念催化",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609063866062762.html",
+   "ts": "2026-09-06 11:10:08"
+  },
+  {
+   "cat": "ai",
+   "title": "AI虚拟人方桃子广告报价超20万元",
+   "brief": "爆款AI短剧使虚拟角色方桃子人气上涨，广告报价达16.8万至25.8万元。",
+   "chain": "AI内容商业化→虚拟人产业加速→A股传媒AI应用关注",
    "impact": 4,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/05/ai-data-centers-cost-economy.html",
-   "ts": "Sat, 05 Sep 2026 13:33:08 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609063866067751.html",
+   "ts": "2026-09-06 12:16:58"
   }
  ]
 }
