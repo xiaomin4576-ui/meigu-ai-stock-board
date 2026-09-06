@@ -1,10 +1,10 @@
 {
  "asof": "2026-09-06",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-09-06T16:02+08:00",
+ "generated_at": "2026-09-06T19:25+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 16,
+  "cross_day_suppressed": 15,
   "cluster_label": "",
   "cluster_dropped": [],
   "backfilled": 0
@@ -12,19 +12,9 @@
  "items": [
   {
    "cat": "macro",
-   "title": "美国8月非农超预期，加息预期升温",
-   "brief": "美国8月非农就业数据超预期，市场对美联储加息预期升温。",
-   "chain": "加息预期升温→美股估值承压，尤其高久期AI成长股→A股算力链情绪或受抑制。",
-   "impact": 9,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609063866073991.html",
-   "ts": "2026-09-06 14:00:19"
-  },
-  {
-   "cat": "macro",
-   "title": "特朗普施压沃什，美联储加息在即",
-   "brief": "特朗普加大对美联储理事沃什的施压，市场关注美联储加息动向。",
-   "chain": "政治施压美联储→加息预期强化→美股波动加剧→A股外资流向受影响。",
+   "title": "特朗普施压沃什，美联储加息预期升温",
+   "brief": "特朗普加大对美联储理事沃什的施压，市场对美联储加息预期升温。",
+   "chain": "加息预期→美股估值承压→A股高估值成长板块或受情绪影响",
    "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/09/05/trump-warsh-fed-september-rate-hike.html",
@@ -32,119 +22,99 @@
   },
   {
    "cat": "macro",
-   "title": "工行农行拟募资2600亿补充资本",
-   "brief": "工商银行拟募资不超1000亿元，农业银行拟募资不超1600亿元，用于补充资本。",
-   "chain": "大行再融资→市场流动性收紧预期→A股银行板块或受提振，但整体资金面承压。",
+   "title": "财政部发行3000亿特别国债支持金融企业",
+   "brief": "财政部将发行3000亿元特别国债，支持8家中央金融企业补充核心一级资本。",
+   "chain": "国内财政扩张→提振银行资本实力→利好A股银行及金融板块",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609063866079119.html",
-   "ts": "2026-09-06 15:32:56"
+   "url": "https://finance.eastmoney.com/a/202609063866110794.html",
+   "ts": "2026-09-06 19:21:21"
   },
   {
-   "cat": "geo",
-   "title": "伊朗打击霍尔木兹海峡美军无人艇",
-   "brief": "伊朗革命卫队对驶入霍尔木兹海峡的美军无人艇实施打击，美伊紧张升级。",
-   "chain": "美伊冲突加剧→地缘风险溢价上升→美股军工、能源股受益→A股军工、油气链联动。",
-   "impact": 9,
+   "cat": "macro",
+   "title": "中信证券：无需恐慌海外利率问题",
+   "brief": "中信证券研报指出，美联储9月是否加息不足以决定长端利率与权益市场方向。",
+   "chain": "海外利率扰动有限→稳定市场情绪→A股维持震荡格局",
+   "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609063866072949.html",
-   "ts": "2026-09-06 13:41:28"
+   "url": "https://finance.eastmoney.com/a/202609063866106042.html",
+   "ts": "2026-09-06 18:45:26"
   },
   {
    "cat": "geo",
-   "title": "美国谋划战后遏制伊朗，拉中东国家配合",
-   "brief": "美国草拟战后遏制伊朗战略，寻求中东国家配合，并推进与以色列关系正常化。",
-   "chain": "美国中东战略调整→地缘格局重塑→影响全球能源安全预期→A股相关板块情绪波动。",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609063866076685.html",
-   "ts": "2026-09-06 14:35:23"
-  },
-  {
-   "cat": "geo",
-   "title": "Witkoff和Kushner将出访讨论乌克兰和平",
-   "brief": "特朗普称Witkoff和Kushner将出访讨论乌克兰和平，俄乌和谈或有新进展。",
-   "chain": "俄乌和谈预期→地缘风险缓和→欧洲能源供应担忧缓解→全球风险偏好改善。",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYnRXT21udjdNRHZzVDZKVFFwTlY2WjYzMUJxclJwRUl5Z2plWUpZUXkwb05XejNsbFhiY2oxRlZpRFU0b0FONjBTaVh6LTNzbW9oWENaaGY5cXlkdjduWWFNT0FhRUFwbXJqNVRIRklaY2hyTXp1MGs5OENrNlJ2N1F0YTgzYXJha2YtU1FneU1rNlBYa0c2NDE2Z01VTi11RGY2blZOT2hLdWtlTl82SW0tR1BIdEgxVFZFa1p3?oc=5",
-   "ts": "2026-09-04T19:44:11+00:00"
-  },
-  {
-   "cat": "oil",
    "title": "美军打击三艘伊朗原油油轮",
-   "brief": "美国中央司令部称打击三艘伊朗原油油轮，此前导弹袭击美海军舰艇。",
-   "chain": "美伊冲突升级→霍尔木兹海峡供应风险→油价短期冲高→莫桑比克LNG出口或受益于高油价。",
+   "brief": "美国中央司令部称，美军打击了三艘伊朗原油油轮，以回应导弹袭击美海军舰艇。",
+   "chain": "美伊冲突升级→油价风险溢价上升→A股油气及航运板块或受关注",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYnduS0xfeWF0NWZJUEpneWJOWTU3ZXNmUEZrVUY2a0U2b0FPejBkR21SMGxfRjVhWENDdUJOMTJKVm9MbjBBTkVTeHRGZmRfVkhKNnlyR1dySzBPUXBEUm1CVlVsQkhCTnlhMXBPMFM0NEJ5QTE0aDNxLU5SbzRVX09fZ3NpbnIycXVzZG9XM0dnb1JaS3pvbnI3UDUxNG1VUVhTWWFfbGQ5T2NQR0N6WnRzbzhINGlVRmRPUHhKT0xGVmhWc1E?oc=5",
    "ts": "2026-09-05T14:16:10+00:00"
   },
   {
+   "cat": "geo",
+   "title": "美总统特使抵达基辅商讨乌克兰和平",
+   "brief": "美国总统特使威特科夫和库什纳已乘火车抵达基辅，将与乌方讨论和平方案。",
+   "chain": "俄乌和谈进展→地缘风险缓和→利好全球风险资产",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609063866104875.html",
+   "ts": "2026-09-06 18:31:24"
+  },
+  {
+   "cat": "geo",
+   "title": "中国稀土企业暂停对美部分出口",
+   "brief": "消息人士称，中国稀土企业因地缘政治担忧，已暂停对美国的某些稀土出口。",
+   "chain": "中美博弈→稀土供应风险→A股稀土永磁板块或受提振",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfUXdHRkFxeEwyYmxlRGxtQUtXRlVkbHZzbkFOd1VndGxSMWh4anJ3RDc0eFRVNjlEM3ZJZGRKUEsxQ1V5bWtPNUdjNG9ocGhmRXVMcnhNZ1pkSnBmbDRBcjlfdXJGWGJ3ZngzaTVzNFIwem1FQ0tPUUdkc3F6WEdNS3dGSDkxOVFHRVAtR2wzajR5bndEbjNWRlhTU2JhcDAwUzFBbjBVdTZNQmZyZHQ4c3hnWEhpV3hpTm1lNnVWdw?oc=5",
+   "ts": "2026-09-04T15:15:39+00:00"
+  },
+  {
    "cat": "oil",
-   "title": "美国劳动节汽油价格创历史新高",
-   "brief": "美国劳动节周末汽油价格创历史新高，反映能源成本高企。",
-   "chain": "汽油价格高企→通胀压力→美联储政策收紧→油价高位支撑莫桑比克油气项目收益。",
+   "title": "美国柴油价格创历史新高",
+   "brief": "受美伊局势影响，美国柴油价格本周创下历史新高，较冲突前每加仑上涨超2美元。",
+   "chain": "地缘冲突→成品油供应紧张→全球炼化利润或提升，利好东非炼化项目",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609063866101459.html",
+   "ts": "2026-09-06 17:48:41"
+  },
+  {
+   "cat": "oil",
+   "title": "美国劳动节周末汽油价格创纪录",
+   "brief": "美国劳动节周末汽油价格创下历史新高，消费者负担加重。",
+   "chain": "高油价→需求抑制→短期油价或承压，但地缘风险仍支撑",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTFRnN3lrWTZLMXNUSW1MWWwxemVSc1RuaDM1dnhkWlZpbDJZT2t5dGYxRWlMa1RiblhPN0ttUzRHUDcwUGRVVEsyb092RTAzR3lZeDN6dFpRVDN4SjhlYng0Y082RjJSVEVZWkg4SnZ2SGtaNW1DbExVTklPMXZHdnVWZTZqbUZ6QkRYMU1mLWhyeEF5VzQ2anpJaThuVmNxSF8xWTBDRkNJVzMybTV0Rlo5dlFiUFk?oc=5",
    "ts": "2026-09-05T17:44:34+00:00"
   },
   {
-   "cat": "oil",
-   "title": "产地现货偏紧，三大煤种价格全面冲高",
-   "brief": "中国太原煤炭价格指数显示，产地现货偏紧推动动力煤等价格全面走高。",
-   "chain": "煤价上涨→能源成本上升→替代能源需求增加→利好莫桑比克天然气出口。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609063866077067.html",
-   "ts": "2026-09-06 14:37:48"
-  },
-  {
    "cat": "gas",
-   "title": "OSEBERG天然气供应中断",
-   "brief": "自9月6日起，OSEBERG天然气供应中断，日产量740万立方米。",
-   "chain": "挪威气田中断→欧洲气价短期上涨→全球LNG需求转向→莫桑比克LNG出口机会增加。",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609063866075150.html",
-   "ts": "2026-09-06 14:11:25"
-  },
-  {
-   "cat": "gas",
-   "title": "印尼火山喷发，雅加达机场暂停起降",
-   "brief": "印尼喀拉喀托之子火山持续喷发，雅加达主要机场暂停航班起降。",
-   "chain": "火山喷发→航运中断→LNG运输受阻→全球气价波动→莫桑比克LNG物流需关注。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609063866075247.html",
-   "ts": "2026-09-06 14:14:13"
-  },
-  {
-   "cat": "tech",
-   "title": "中国稀土企业暂停对美部分出口",
-   "brief": "消息人士称，中国稀土企业因地缘政治担忧暂停对美部分出口。",
-   "chain": "稀土出口管制→美国科技供应链风险→美股科技股承压→A股稀土永磁板块受益。",
-   "impact": 8,
+   "title": "播客：哈格岛、OpenAI代理、德国大选",
+   "brief": "路透播客讨论哈格岛、OpenAI代理、德国大选等话题。",
+   "chain": "哈格岛为伊朗主要石油出口终端，若受威胁→油价波动→影响全球能源市场",
+   "impact": 4,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfUXdHRkFxeEwyYmxlRGxtQUtXRlVkbHZzbkFOd1VndGxSMWh4anJ3RDc0eFRVNjlEM3ZJZGRKUEsxQ1V5bWtPNUdjNG9ocGhmRXVMcnhNZ1pkSnBmbDRBcjlfdXJGWGJ3ZngzaTVzNFIwem1FQ0tPUUdkc3F6WEdNS3dGSDkxOVFHRVAtR2wzajR5bndEbjNWRlhTU2JhcDAwUzFBbjBVdTZNQmZyZHQ4c3hnWEhpV3hpTm1lNnVWdw?oc=5",
-   "ts": "2026-09-04T15:15:39+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTXdrVVUyTWhkMVdicnlOVkYxaHI5cjlpaFE5LS1IVFNHc3RVMms2TnY2U1lyNmhQMlhpY09RLVozbngwdGo1QWoxaEM2dTA0aUY3TV9ZNUtscVdBOVQ3VGRzYzE1T3BRTG1hZmFrSnZ2T3A5d1U4VUk1WTZ0SUZGZ1FWOFUxelBNZnFrcFViUDJ2bU4wUDFSWWQwZ0dPZGx1ZlE?oc=5",
+   "ts": "2026-09-05T12:42:55+00:00"
   },
   {
    "cat": "tech",
-   "title": "韩国出口额破纪录，累计超去年全年",
-   "brief": "韩国今年累计出口额达7094亿美元，超过去年全年历史纪录。",
-   "chain": "韩国出口强劲→全球贸易回暖→科技产业链需求旺盛→A股电子、半导体板块受益。",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609063866074171.html",
-   "ts": "2026-09-06 14:03:13"
+   "title": "鸿海8月销售增长52% AI服务器强劲",
+   "brief": "鸿海8月营收达9218亿新台币，同比增长52%，AI服务器需求持续强劲。",
+   "chain": "AI服务器需求→产业链业绩兑现→A股算力硬件相关公司受益",
+   "impact": 8,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-05/nvidia-partner-hon-hai-s-sales-climb-52-with-ai-server-momentum",
+   "ts": "2026-09-05T08:51:36+00:00"
   },
   {
    "cat": "tech",
-   "title": "通用与福特竞争：国防能源领域加剧百年 rivalry",
-   "brief": "美国国防和能源领域的发展加剧了通用汽车和福特汽车之间的百年竞争。",
-   "chain": "汽车巨头布局国防能源→美股传统车企转型→A股新能源车产业链或受关注。",
+   "title": "通用与福特：美防务能源领域竞争加剧",
+   "brief": "美国国防和能源领域为汽车制造商百年竞争增添新维度。",
+   "chain": "车企多元化→传统车企转型→A股汽车零部件或受影响",
    "impact": 4,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/09/05/gm-ford-defense-energy.html",
@@ -152,33 +122,23 @@
   },
   {
    "cat": "ai",
-   "title": "国内首款AI辅助创新药获批上市",
-   "brief": "西湖大学等研发的AI辅助创新药艾普司韦获国家药监局附条件批准上市。",
-   "chain": "AI+医疗落地→AI应用场景拓展→美股AI医疗概念活跃→A股AI制药板块受益。",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609063866078493.html",
-   "ts": "2026-09-06 15:09:09"
+   "title": "华尔街提高AI股票门槛，我们转向防御",
+   "brief": "随着华尔街提高AI股票标准，我们上周转向更防御性配置。",
+   "chain": "AI股估值过高→防御性配置→A股AI板块或面临调整压力",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/05/we-got-more-defensive-last-week-as-wall-street-raised-the-bar-for-ai-stocks.html",
+   "ts": "Sat, 05 Sep 2026 16:45:14 GMT"
   },
   {
    "cat": "ai",
-   "title": "国家反诈AI APP上线",
-   "brief": "公安部指导研发的“国家反诈AI”APP正式上线，提升防骗智能化水平。",
-   "chain": "AI赋能公共安全→AI应用普及→美股AI软件需求增长→A股AI安防概念受益。",
+   "title": "上海国资委推动AI应用四方面转变",
+   "brief": "上海市国资委指导监管企业深入实施“AI+”专项行动，推动AI应用实现四方面转变。",
+   "chain": "政策支持→AI应用落地→A股AI应用及算力板块受益",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609063866074067.html",
-   "ts": "2026-09-06 13:56:33"
-  },
-  {
-   "cat": "ai",
-   "title": "AI短剧制作价格大跳水，行业洗牌",
-   "brief": "AI短剧制作价格从每分钟5000元跌至几百元，行业面临洗牌。",
-   "chain": "AI内容生产成本下降→AI应用商业化加速→美股AI内容平台受益→A股AI传媒板块分化。",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609063866071059.html",
-   "ts": "2026-09-06 13:25:26"
+   "url": "https://finance.eastmoney.com/a/202609063866095720.html",
+   "ts": "2026-09-06 16:20:44"
   }
  ]
 }
