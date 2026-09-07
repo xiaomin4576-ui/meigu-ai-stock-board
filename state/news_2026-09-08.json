@@ -1,198 +1,177 @@
 {
  "asof": "2026-09-08",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-09-08T00:30+08:00",
+ "generated_at": "2026-09-08T02:26+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 23,
-  "cluster_label": "伊朗/沙特/阿联酋",
+  "cross_day_suppressed": 21,
+  "cluster_label": "伊朗/沙特/海湾",
   "cluster_dropped": [
-   "阿联酋称能源出口不会“被伊朗战争挟持”",
-   "阿曼撤离遭伊朗袭击沙特船只船员",
-   "霍尔木兹海峡通航量降至5月以来最低"
+   "伊朗警告美能源资产在波斯湾脆弱",
+   "伊朗公布新型弹道导弹"
   ],
   "backfilled": 0
  },
  "items": [
   {
-   "cat": "geo",
-   "title": "伊朗誓言回应美打击，称美能源设施“暴露”",
-   "brief": "伊朗最高国家安全委员会声明，将对美国袭击作出回应，并警告美国能源公司在海湾的设施已处于伊朗打击范围内。",
-   "chain": "美伊冲突升级→霍尔木兹海峡风险溢价上升→美股能源板块波动，A股油气及航运股或受情绪带动。",
-   "impact": 9,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM292TDh2Uk9IeUlEeFNFY1UyeFM3OFZzd2w1S013bEtmVnhXYmdfT0ptV1ZfTlRTRXBLVzFZdmZ6T0d2cVdkZHAtbmhFTjlHUmJRQkRVZDhwMGJZZUM2MEpBS041SmhGcEhWZTlQemFBcjRaNkwyWkhhUlNFc1dNZEVyQ1R0YzFnRm5ZNHd3VU5NV01EeWZVZjJrUW5VWGF2X2R1U0xzSFEwbE9iY1E?oc=5",
-   "ts": "2026-09-07T06:57:00+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "油价升至六周高位，沙特阿美设施据报遭袭",
-   "brief": "伊朗与美国互相打击后，有报道称沙特阿美设施遭袭，布伦特原油升至六周高点。",
-   "chain": "地缘冲突直接冲击供应→油价短期上行→莫桑比克LNG出口受益于高油价，但需关注霍尔木兹航运风险。",
-   "impact": 9,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/07/oil-prices-rise-to-6-week-high-after-iran-and-us-trade-blows-saudi-aramco-facilities-reportedly-hit.html",
-   "ts": "Mon, 07 Sep 2026 16:15:18 GMT"
+   "cat": "macro",
+   "title": "道指期货跌0.72% 通胀担忧升温",
+   "brief": "9月7日道指期货跌幅扩大至0.72%，报53057.64点，美股周一休市。市场担忧油价上涨推升通胀，影响美联储政策。",
+   "chain": "油价上涨→通胀预期升温→美联储或维持高利率→美股承压→A股算力链估值受抑",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609073867035958.html",
+   "ts": "2026-09-07 23:04:04"
   },
   {
    "cat": "macro",
-   "title": "股市受油价通胀风险与地缘政治拖累",
-   "brief": "油价上涨引发通胀担忧，叠加地缘政治不确定性，全球股市承压，美股期货下跌。",
-   "chain": "油价→通胀预期→美联储政策路径→美股估值压力→A股风险偏好受抑。",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0pobHhGSWlxLVNZa2htLURrNldPaHUyOGVyQXVBeGtJOWJDUXpqMXFSTDBCaHNkeFI5Q0Y2NUdFNlJoWUZlVGQwR2pGZk5oc1R5TzFLbUdFMU1aY3NGTXVhOGFTeFZOenRpbUlNc0ZiTjQtMnNaRVUtTVNrWEpLeGprbw?oc=5",
-   "ts": "2026-09-07T01:06:00+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "船用燃料短缺隐现，炼厂因战争偏好其他产品",
-   "brief": "炼油厂因战争优先生产其他产品，船用燃料供应趋紧，可能影响航运业。",
-   "chain": "炼厂产品结构变化→船用燃料短缺→航运成本上升→影响全球能源运输，莫桑比克出口物流成本或增。",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcjJsRnYxdWplZmMxWnZxd2JBRjdaR2YtV0VrMEJCNmFTUjF1U1oyaVhiZk5XZ2Rvc1lXVEdhQjd0bWxxZ1R6Sl9Eckl0S3NXSXpjbGZ5QjJ6dnVkbG9tc2RtRl8tNy1heW1RVHh1VlZ2ZUVtQnJTREdYRlJsRFo5VjRoNUhRTEV2c0dwd01fNWphVkg4LW9oeExqdm1jQW9nRFdGYm16WTRkUjkxUmpaN2NPdDZpUVl2Tk1KQ0xZZWY?oc=5",
-   "ts": "2026-09-07T01:02:00+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "以色列空袭黎南部致12人死亡，局势升级担忧",
-   "brief": "以色列空袭黎巴嫩南部城镇，造成12人死亡，包括婴儿，引发地区局势升级担忧。",
-   "chain": "中东冲突扩大→地缘风险溢价→油价波动→全球市场避险情绪升温。",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSDNtVzFxN3MtVEs4UWxoWnA0ekJKVC1EWThJR1hiQ2FvN1d2LU40NXRDaUJGMGRLeF9KaHY1R3dTSmdTRHhHdG9uNTIzZXRRRWVoWW43d0dxM3ZoSTNMM2xEQlhlV011OWlpSHdxTDlmWjl4MW9VQ1ktN3hqU3lEU3dnVUV3XzQzWGZjU3ZBNnNBQVhOek9OeHZ1WnFZb2RacWhmVXdiSGM5Q3FwbmFtcGN6OTJpZF9kNk5YWGladzg?oc=5",
-   "ts": "2026-09-07T06:48:00+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "美特使称访俄乌取得“实质性进展”",
-   "brief": "美国总统特使威特科夫称，美代表团访俄乌取得进展，包括安排后续三方会谈。",
-   "chain": "俄乌和谈进展→地缘风险缓和→油价或承压→全球风险偏好改善。",
+   "title": "央行精细化操作呵护9月资金面",
+   "brief": "9月7日央行开展5亿元7天期逆回购及50亿元央行票据互换，全额满足需求，维护流动性合理充裕。",
+   "chain": "央行呵护流动性→资金面平稳→利好A股风险偏好→算力链等成长板块受益",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609073867049521.html",
-   "ts": "2026-09-07 23:53:11"
+   "url": "https://finance.eastmoney.com/a/202609073867055521.html",
+   "ts": "2026-09-08 02:24:09"
   },
   {
-   "cat": "geo",
-   "title": "俄不排除重启乌克兰问题三方会谈",
-   "brief": "俄总统新闻秘书佩斯科夫表示，不排除重启俄美乌三方会谈，但时间地点未定。",
-   "chain": "俄乌谈判信号→地缘缓和预期→油价下行压力→全球市场情绪改善。",
+   "cat": "macro",
+   "title": "中期分红密集落地 红利板块超额收益",
+   "brief": "9月A股迎密集分红，74家公司本周实施中期分红，总额可观，红利板块跑赢大盘。",
+   "chain": "分红提升股东回报→红利资产受青睐→资金分流或影响成长股→算力链短期承压",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609073867039229.html",
-   "ts": "2026-09-07 23:14:53"
+   "url": "https://finance.eastmoney.com/a/202609083867141237.html",
+   "ts": "2026-09-08 02:09:08"
   },
   {
    "cat": "geo",
-   "title": "俄关闭德国驻圣彼得堡总领馆及歌德学院",
-   "brief": "俄罗斯撤销德国驻圣彼得堡总领馆许可，并要求歌德学院停止运营，外交摩擦升级。",
-   "chain": "俄德外交冲突→欧洲地缘紧张→天然气供应担忧→TTF价格波动。",
+   "title": "英首相与美总统通话讨论俄乌冲突",
+   "brief": "英国首相伯纳姆与美国总统特朗普7日通电话，双方同意继续推动乌克兰停火，并讨论中东问题。",
+   "chain": "俄乌和谈推进→地缘风险缓和→油价或承压→利好全球风险资产→A股风险偏好提升",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609083867146424.html",
+   "ts": "2026-09-08 01:54:49"
+  },
+  {
+   "cat": "geo",
+   "title": "俄关闭德国驻圣彼得堡总领馆",
+   "brief": "俄外交部7日撤销德国驻圣彼得堡总领馆许可，并要求歌德学院停止运营，俄德关系恶化。",
+   "chain": "俄德外交冲突→欧洲地缘风险上升→能源供应担忧→气价或波动→影响莫桑比克LNG竞争格局",
    "impact": 5,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202609073867043562.html",
    "ts": "2026-09-07 23:34:10"
   },
   {
-   "cat": "gas",
-   "title": "德国政府与国有能源公司磋商天然气储存援助",
-   "brief": "德国政府正与SEFE和Uniper就天然气储存援助进行磋商，以保障冬季供应。",
-   "chain": "德国储气援助→欧洲天然气供应稳定→TTF价格或受支撑→莫桑比克LNG出口欧洲需求前景。",
+   "cat": "oil",
+   "title": "油价升至六周高位 沙特阿美设施遭袭",
+   "brief": "伊朗与美国互袭后，沙特阿美设施据报遭袭，油价升至六周高点，布伦特原油大涨。",
+   "chain": "地缘冲突→供应中断风险→油价上涨→利好莫桑比克油气出口收入",
+   "impact": 10,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/07/oil-prices-rise-to-6-week-high-after-iran-and-us-trade-blows-saudi-aramco-facilities-reportedly-hit.html",
+   "ts": "Mon, 07 Sep 2026 16:44:36 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "霍尔木兹海峡通行量降至五月来最低",
+   "brief": "美伊互袭船只后，霍尔木兹海峡通行量降至5月以来最低，航运中断风险加剧。",
+   "chain": "海峡通行量下降→原油运输受阻→油价上行→莫桑比克油气出口或受益于替代供应",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX1Yzd0xQX3FmaWVJVjdQREFrMWR1ZEZfaHlPNmpTY1FJRFRNYmN0YWVTSHB6NVNvTnJ5R0VYaS1RLXg5TUh5cjEzMmFzV0Nyb0FWUmRZSXlBMUlSQjRZbGFzQll1X0kzcXdBdnVsT25ncEhNY2Z3ME5IQTMzSk9TZEdDbGx5RFh2VEJjMzdKMy1uUlBPbWZ0NWgyLTh3cmU0cTA1bTE1Rnh0cWhpd1dKaWZlTDhQeGJKVWxJeHVB?oc=5",
+   "ts": "2026-09-06T23:29:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "船用燃料短缺隐现 炼厂偏好其他产品",
+   "brief": "战争压力下炼厂优先生产其他产品，船用燃料供应趋紧，可能推高航运成本。",
+   "chain": "船燃短缺→航运成本上升→原油运输费用增加→影响莫桑比克LNG出口物流成本",
    "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcjJsRnYxdWplZmMxWnZxd2JBRjdaR2YtV0VrMEJCNmFTUjF1U1oyaVhiZk5XZ2Rvc1lXVEdhQjd0bWxxZ1R6Sl9Eckl0S3NXSXpjbGZ5QjJ6dnVkbG9tc2RtRl8tNy1heW1RVHh1VlZ2ZUVtQnJTREdYRlJsRFo5VjRoNUhRTEV2c0dwd01fNWphVkg4LW9oeExqdm1jQW9nRFdGYm16WTRkUjkxUmpaN2NPdDZpUVl2Tk1KQ0xZZWY?oc=5",
+   "ts": "2026-09-07T03:13:31+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "德国与国有能源商磋商天然气储存援助",
+   "brief": "德国政府正与SEFE和Uniper就天然气储存援助磋商，以保障冬季供应安全。",
+   "chain": "德国储气需求→欧洲气价或受支撑→全球LNG竞争加剧→莫桑比克LNG出口机遇",
+   "impact": 7,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202609073867053640.html",
    "ts": "2026-09-07 23:56:20"
   },
   {
-   "cat": "macro",
-   "title": "LME铜价创历史新高，突破14530美元",
-   "brief": "伦敦金属交易所铜期货价格涨至历史新高，突破每吨14530美元，受供需因素推动。",
-   "chain": "铜价新高→全球再通胀预期→美联储政策→美股周期股→A股铜产业链。",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609073867034012.html",
-   "ts": "2026-09-07 23:02:24"
-  },
-  {
-   "cat": "macro",
-   "title": "道指期货跌幅扩大至0.72%",
-   "brief": "美国股市因劳动节休市，但道指期货下跌，反映市场对通胀和地缘政治的担忧。",
-   "chain": "美股期货下跌→风险偏好下降→A股开盘或承压。",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609073867035958.html",
-   "ts": "2026-09-07 23:04:04"
-  },
-  {
-   "cat": "tech",
-   "title": "长鑫存储LPDDR6芯片量产，首发小米折叠屏",
-   "brief": "长鑫存储宣布自研LPDDR6芯片量产商用，首发搭载于小米18 Fold折叠旗舰手机。",
-   "chain": "国产存储突破→半导体自主可控→A股存储产业链受益。",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609073867023878.html",
-   "ts": "2026-09-07 22:40:48"
-  },
-  {
-   "cat": "tech",
-   "title": "雷军：小米玄戒O100和D100明年商用",
-   "brief": "雷军透露，小米自研玄戒O100（端侧AI加速）和D100预计明年商用。",
-   "chain": "小米自研芯片→AI终端算力→A股小米产业链及AI芯片概念。",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609073867041425.html",
-   "ts": "2026-09-07 23:25:04"
-  },
-  {
-   "cat": "tech",
-   "title": "小米汽车开售4分钟锁单破万台",
-   "brief": "小米汽车宣布，开售4分钟，小米澎程锁单突破10000台，销售火爆。",
-   "chain": "小米汽车热销→新能源汽车产业链→A股小米汽车概念。",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609073867019613.html",
-   "ts": "2026-09-07 22:31:48"
-  },
-  {
-   "cat": "ai",
-   "title": "艺术家收集350份AI匿名忏悔，反思AI隐私",
-   "brief": "艺术家Olivia Tai通过项目“What We Tell AI”收集了350多份手写匿名忏悔，探讨AI与隐私。",
-   "chain": "AI隐私话题→AI监管预期→美股AI板块波动→A股数据安全概念。",
-   "impact": 4,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/09/06/artists-ai-secrets-project-collects-hundreds-of-anonymous-confessions.html",
-   "ts": "2026-09-06T14:00:01+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "太空数据中心：四大障碍与马斯克时间表",
-   "brief": "探讨在太空建设数据中心的四大障碍，以及马斯克提出的雄心勃勃的时间表。",
-   "chain": "太空数据中心概念→AI基础设施新方向→美股科技股→A股相关概念。",
-   "impact": 4,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/07/data-centers-space-elon-musk-obstacles.html",
-   "ts": "Mon, 07 Sep 2026 05:56:40 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "德国国债收益率上升，两年期升至3%",
-   "brief": "德国国债跌幅扩大，两年期收益率上升5个基点至3%，反映市场对通胀的担忧。",
-   "chain": "欧债收益率上升→全球利率预期→美股估值压力→A股外资流向。",
+   "cat": "gas",
+   "title": "德国国债收益率上升 市场关注通胀",
+   "brief": "德国两年期国债收益率上升5个基点至3%，市场担忧能源成本推升通胀。",
+   "chain": "气价高企→通胀预期上升→欧央行或偏鹰→欧元区需求或受抑→影响全球LNG需求",
    "impact": 5,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202609073867041745.html",
    "ts": "2026-09-07 23:23:01"
   },
   {
-   "cat": "geo",
-   "title": "联合国特使警告也门局势面临升级风险",
-   "brief": "联合国也门问题特使警告，胡塞武装近期发动袭击，局势升级风险上升。",
-   "chain": "也门冲突→红海航运风险→油价波动→全球供应链。",
+   "cat": "tech",
+   "title": "小米玄戒O100和D100明年商用",
+   "brief": "雷军透露小米玄戒O100端侧AI加速芯片和D100预计明年商用，提升端侧AI能力。",
+   "chain": "小米自研芯片→端侧AI竞争加剧→利好国产芯片链→A股算力链关注",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609073867041425.html",
+   "ts": "2026-09-07 23:25:04"
+  },
+  {
+   "cat": "tech",
+   "title": "欧洲运营商洽谈卫星直连手机合资",
+   "brief": "欧洲顶级运营商正洽谈成立卫星直连手机合资企业，布局非地面网络。",
+   "chain": "卫星通信发展→手机直连卫星成趋势→利好卫星互联网产业链→A股相关标的关注",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609083867102698.html",
+   "ts": "2026-09-08 00:49:57"
+  },
+  {
+   "cat": "tech",
+   "title": "纬创GDS发行价定为58.88美元",
+   "brief": "文件显示纬创GDS发行价为每份58.88美元，公司或融资扩张。",
+   "chain": "纬创融资→扩大AI服务器产能→利好产业链→A股算力链联动",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609073867039554.html",
-   "ts": "2026-09-07 23:15:33"
+   "url": "https://finance.eastmoney.com/a/202609083867083661.html",
+   "ts": "2026-09-08 00:20:32"
+  },
+  {
+   "cat": "ai",
+   "title": "太空数据中心：四大障碍与马斯克时间表",
+   "brief": "文章探讨太空数据中心面临的障碍及马斯克雄心勃勃的时间表，引发对AI基础设施的思考。",
+   "chain": "太空数据中心概念→AI算力需求长期增长→利好算力基础设施→A股算力链关注",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/07/data-centers-space-elon-musk-obstacles.html",
+   "ts": "Mon, 07 Sep 2026 05:56:40 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "特朗普称美股获利数千亿 发AI帖子",
+   "brief": "特朗普在AI帖子中声称在股市为美国赚了数千亿美元，引发市场关注。",
+   "chain": "特朗普言论→市场情绪波动→美股或受影响→A股风险偏好联动",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/07/trump-truth-social-ai-images-posting-spree.html",
+   "ts": "Mon, 07 Sep 2026 12:09:41 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "上周更防御 华尔街提高AI股门槛",
+   "brief": "上周华尔街对AI股要求提高，投资者转向防御，AI板块或面临调整。",
+   "chain": "AI股门槛提高→估值压力→美股AI回调→A股算力链情绪受抑",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/05/we-got-more-defensive-last-week-as-wall-street-raised-the-bar-for-ai-stocks.html",
+   "ts": "Sat, 05 Sep 2026 16:45:14 GMT"
   }
  ]
 }
