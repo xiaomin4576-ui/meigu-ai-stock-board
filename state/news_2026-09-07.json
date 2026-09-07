@@ -1,249 +1,186 @@
 {
  "asof": "2026-09-07",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-09-07T00:29+08:00",
+ "generated_at": "2026-09-07T12:30+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 33,
+  "cross_day_suppressed": 20,
   "cluster_label": "伊朗/霍尔木兹",
   "cluster_dropped": [
-   "伊朗称对等回应阶段已结束",
-   "伊朗军方：不会向美国投降",
-   "美能源部长：对伊朗协议开放但切断能源出口",
-   "伊朗霍尔木兹杠杆减弱 美经济施压见效"
+   "美伊打击船只后油价续涨"
   ],
-  "backfilled": 12
+  "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "多国国债遇抛售潮 收益率飙升",
-   "brief": "美国、日本、英国、德国等10年期国债收益率近日触及多年高点，全球债市承受抛售压力。",
-   "chain": "全球利率上行→美股估值承压，尤其高久期AI成长股→A股算力链情绪受抑",
+   "title": "美债收益率面临4.8%考验，财政风险外溢",
+   "brief": "财政赤字担忧与能源通胀推升美债收益率，市场关注4.8%关键位。",
+   "chain": "美债收益率上行→美股估值承压→A股高估值成长股受抑",
    "impact": 9,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609073866152694.html",
-   "ts": "2026-09-07 00:02:22"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/07/us-treasury-yields-markets-scott-bessent.html",
+   "ts": "Mon, 07 Sep 2026 02:01:52 GMT"
   },
   {
    "cat": "macro",
-   "title": "财政部发行3000亿特别国债支持金融央企",
-   "brief": "财政部将发行3000亿元特别国债，支持8家中央金融企业补充核心一级资本，释放政策信号。",
-   "chain": "中国财政发力→稳定金融体系→利好A股银行及金融板块，间接支撑市场风险偏好",
+   "title": "全球最大资管重建黄金仓位",
+   "brief": "大型资管增持黄金，押注长期价值，尽管美联储抗通胀政策持续。",
+   "chain": "央行购金与去美元化→金价支撑→A股黄金股受益",
+   "impact": 8,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-04/world-s-biggest-money-managers-are-rebuilding-gold-positions",
+   "ts": "2026-09-05T16:16:02+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "贝莱德摩根资管押注新兴市场债",
+   "brief": "主要经济体债市动荡，资管巨头转向新兴市场债寻求优势。",
+   "chain": "全球债市波动→新兴市场债受青睐→A股相关板块联动",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609063866148634.html",
-   "ts": "2026-09-06 23:43:52"
+   "url": "https://finance.eastmoney.com/a/202609073866530031.html",
+   "ts": "2026-09-07 12:18:02"
   },
   {
    "cat": "macro",
-   "title": "中国财政部密集注资 加厚金融机构安全垫",
-   "brief": "8家中央金融企业发布增资计划，包括工行、农行等，财政部注资增强资本实力。",
-   "chain": "国有大行资本补充→提升信贷投放能力→利好A股银行及基建链",
+   "title": "广深经营贷利率上行破4%",
+   "brief": "广深部分银行个人经营贷实际利率走高，超过4%。",
+   "chain": "信贷利率上行→企业融资成本增→A股资金面收紧",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609063866152442.html",
-   "ts": "2026-09-06 23:53:38"
+   "url": "https://finance.eastmoney.com/a/202609073866523751.html",
+   "ts": "2026-09-07 12:01:15"
   },
   {
    "cat": "geo",
    "title": "美军打击三艘伊朗原油油轮",
-   "brief": "美国中央司令部称，美军打击了三艘伊朗原油油轮，加剧中东紧张局势。",
-   "chain": "美伊冲突升级→油价风险溢价上升→影响全球能源市场及A股石油板块",
-   "impact": 9,
+   "brief": "美军中央司令部称打击三艘伊朗原油油轮，中东局势升级。",
+   "chain": "美伊冲突升级→油价上涨→A股石油板块受益",
+   "impact": 10,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYnduS0xfeWF0NWZJUEpneWJOWTU3ZXNmUEZrVUY2a0U2b0FPejBkR21SMGxfRjVhWENDdUJOMTJKVm9MbjBBTkVTeHRGZmRfVkhKNnlyR1dySzBPUXBEUm1CVlVsQkhCTnlhMXBPMFM0NEJ5QTE0aDNxLU5SbzRVX09fZ3NpbnIycXVzZG9XM0dnb1JaS3pvbnI3UDUxNG1VUVhTWWFfbGQ5T2NQR0N6WnRzbzhINGlVRmRPUHhKT0xGVmhWc1E?oc=5",
    "ts": "2026-09-05T14:16:10+00:00"
   },
   {
    "cat": "geo",
-   "title": "泽连斯基与美方代表首轮会谈结束",
-   "brief": "泽连斯基在基辅会见威特科夫和库什纳，首轮会谈超三小时，德法英将参加第二轮。",
-   "chain": "俄乌和谈进展→地缘缓和预期→压制油价，影响A股风险偏好",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609063866150612.html",
-   "ts": "2026-09-06 23:14:43"
-  },
-  {
-   "cat": "oil",
-   "title": "OPEC+主要产油国保持10月产量不变",
-   "brief": "欧佩克+7个主要产油国决定10月产量与9月持平，重申维护市场稳定。",
-   "chain": "OPEC+维持产量→供给预期稳定→油价短期企稳，对莫桑比克油气项目影响中性偏多",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609063866148148.html",
-   "ts": "2026-09-06 22:38:00"
-  },
-  {
-   "cat": "tech",
-   "title": "英伟达现金或重塑AI云竞争格局",
-   "brief": "英伟达巨额现金可能投资或重塑AI云服务商，改变行业竞争态势。",
-   "chain": "英伟达动作→AI算力云市场整合→映射A股算力租赁及IDC概念",
-   "impact": 7,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/technology/ai/articles/nvidias-cash-could-reshape-ai-160300685.html",
-   "ts": "2026-09-06T16:03:00Z"
-  },
-  {
-   "cat": "tech",
-   "title": "优步向Atoms投资1亿美元 布局自动驾驶",
-   "brief": "优步投资Atoms公司1亿美元，Atoms洽谈提供自动驾驶出租车技术。",
-   "chain": "自动驾驶商业化加速→利好美股优步及产业链→A股自动驾驶传感器及算法链",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609063866150481.html",
-   "ts": "2026-09-06 23:05:53"
-  },
-  {
-   "cat": "tech",
-   "title": "华尔街提高AI股票门槛 上周转向防御",
-   "brief": "因AI股票估值过高，华尔街机构上周增加防御性仓位，提高选股标准。",
-   "chain": "美股AI股调整→风险偏好下降→A股AI相关板块短期承压",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/05/we-got-more-defensive-last-week-as-wall-street-raised-the-bar-for-ai-stocks.html",
-   "ts": "Sat, 05 Sep 2026 16:45:14 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "艺术家收集350条AI匿名忏悔",
-   "brief": "艺术家Olivia Tai通过项目收集超350条人们向AI倾诉的秘密，反映AI与人类关系。",
-   "chain": "AI社会影响受关注→或引发AI伦理讨论→对A股AI应用监管预期有影响",
-   "impact": 3,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/09/06/artists-ai-secrets-project-collects-hundreds-of-anonymous-confessions.html",
-   "ts": "2026-09-06T14:00:01+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "韩国AI热潮重塑社会文化",
-   "brief": "韩国AI发展影响浪漫关系、真人秀和学术偏好，社会文化正在改变。",
-   "chain": "AI渗透社会→全球AI应用加速→A股AI内容及社交概念或受益",
-   "impact": 3,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/04/south-korea-ai-rally-society-impact.html",
-   "ts": "Fri, 04 Sep 2026 00:55:30 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "债券发行周来袭 市场聚焦美债标售",
-   "brief": "本周将迎来大规模债券发行，市场关注美债标售情况，此前多国国债遭抛售，收益率飙升。",
-   "chain": "债券发行潮→美债收益率波动→影响全球风险资产→映射A股高估值板块",
-   "impact": 8,
-   "source": "Yahoo Finance",
-   "url": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-week-of-the-big-bond-scheme/?src=A00220&amp;yptr=yahoo",
-   "ts": "2026-09-06T15:39:40Z"
-  },
-  {
-   "cat": "geo",
-   "title": "以色列空袭黎巴嫩南部致4死",
-   "brief": "以色列对黎巴嫩南部发动空袭，造成4人死亡，地区紧张局势升级。",
-   "chain": "中东冲突→地缘风险溢价→影响油价与避险资产→关注A股油气与黄金板块",
+   "title": "美特使访俄乌盼重启谈判",
+   "brief": "美国特使访问俄乌首都，希望尽快重启谈判。",
+   "chain": "俄乌和谈预期→地缘风险缓和→A股风险偏好回升",
    "impact": 7,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNi1QZjVMMzI3QlpNZ2pKMVNjZFNqU2RWb093aGtUS3ZmZWdBNHNjbXFMdVZZS2NkMnd3cWlQZlVqenBlRGpQdkFJSjNuMU5wVlNCa1pqNXVzV0NIRVFGc3Z6bGpMZXp3dzc1Y3dfM2xTNnZCSi0weHFlMUtaZG0yS2p6S2ZhWXRUeS0xYkFOOE5vLUlYaFJnMy1KdGh0ejFDbEpzOFRlaEs2ZG1ZY09hUW05WjhYYVBndHBtVjFIQ0szMVVOVzc4?oc=5",
-   "ts": "2026-09-06T04:15:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONnlRblpUWUNHMjMteEdBa0JYZk5MeFJQRjlEa3dUdGtDY0xfZEs5Y2dCcV8yNEhSTHYzem9SVVVYS1NBZnc4U29BSEcydHp4cUx5bFZSUmZ1QXFsNHlFRGgtbGJ2WmZMRTZzdjhrTWY1b1BDMlFnQTlWXzRLU056OGV2TUlRdkdTdjRkMFpTNi02X1Y4MU5sMEF4WF8wcVpDNmNJUmFvXzRZeV91N2dKUDNJN1FWdkg3RHpReHVoNA?oc=5",
+   "ts": "2026-09-06T11:09:00+00:00"
   },
   {
    "cat": "geo",
-   "title": "美特使警告北约将反击混合攻击",
-   "brief": "美国特使表示北约不会容忍针对成员国的混合攻击，暗示将采取反制措施。",
-   "chain": "北约与俄对抗升级→地缘风险→影响全球市场情绪→关注A股军工与能源安全",
+   "title": "美特使警告北约不容忍混合攻击",
+   "brief": "美国特使称北约不会容忍针对成员的混合攻击。",
+   "chain": "北约强硬表态→地缘紧张→A股军工板块关注",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONmp2OVoyb1pVeGE3MTBrbjBIbXlFMHJKNFNGWGVvcldOZGNjTmt4cEI2V1IxMmduNF9Fc29NVmlMbjBLV2ExY2g2VzlBenY5aGt6Ri1QdTEtaDVUZC1vN2Nvbk9vX29UR0Zka2I3T0ZKSVpKeVhJNTRScWFRVl9XZmhHelpwMmVoNnRzY1NOcTNCSlJwcDNrNDY1ekNYTlRQMC1Gendnd1luUVF2WEE?oc=5",
    "ts": "2026-09-05T15:16:10+00:00"
   },
   {
-   "cat": "geo",
-   "title": "特朗普称维特科夫与库什纳将访乌谈和平",
-   "brief": "特朗普表示维特科夫和库什纳将前往国外讨论乌克兰和平问题，外交努力持续。",
-   "chain": "俄乌和谈进展→地缘缓和→影响欧洲能源市场→关注A股相关出口链",
-   "impact": 6,
+   "cat": "oil",
+   "title": "霍尔木兹海峡通航量降至5月来最低",
+   "brief": "美伊打击船只后，霍尔木兹海峡通航量降至5月以来最低。",
+   "chain": "海峡通行受阻→油价风险溢价→东非LNG运输成本增",
+   "impact": 8,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYnRXT21udjdNRHZzVDZKVFFwTlY2WjYzMUJxclJwRUl5Z2plWUpZUXkwb05XejNsbFhiY2oxRlZpRFU0b0FONjBTaVh6LTNzbW9oWENaaGY5cXlkdjduWWFNT0FhRUFwbXJqNVRIRklaY2hyTXp1MGs5OENrNlJ2N1F0YTgzYXJha2YtU1FneU1rNlBYa0c2NDE2Z01VTi11RGY2blZOT2hLdWtlTl82SW0tR1BIdEgxVFZFa1p3?oc=5",
-   "ts": "2026-09-04T19:44:11+00:00"
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX1Yzd0xQX3FmaWVJVjdQREFrMWR1ZEZfaHlPNmpTY1FJRFRNYmN0YWVTSHB6NVNvTnJ5R0VYaS1RLXg5TUh5cjEzMmFzV0Nyb0FWUmRZSXlBMUlSQjRZbGFzQll1X0kzcXdBdnVsT25ncEhNY2Z3ME5IQTMzSk9TZEdDbGx5RFh2VEJjMzdKMy1uUlBPbWZ0NWgyLTh3cmU0cTA1bTE1Rnh0cWhpd1dKaWZlTDhQeGJKVWxJeHVB?oc=5",
+   "ts": "2026-09-06T23:29:00+00:00"
   },
   {
-   "cat": "macro",
-   "title": "SEC起诉ISS 加强代理顾问监管",
-   "brief": "美国SEC起诉ISS，特朗普政府加大对代理顾问的审查力度。",
-   "chain": "监管收紧→影响公司治理与投资→美股波动→映射A股金融监管概念",
+   "cat": "oil",
+   "title": "伊朗提高重用户燃油价格",
+   "brief": "伊朗政府将提高重度用户的燃油价格。",
+   "chain": "伊朗国内油价上调→供应压力→全球油价波动",
    "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/06/sec-iss-proxy-adviser-subpoena.html",
-   "ts": "Sun, 06 Sep 2026 15:35:16 GMT"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZzl2bnVkTGFvdGg5UXU3LXk1ZUNSWlVtajg2NFFCd1JkMzhHSVVfeVd0djRKSHpCa2xpVkVJTG1Ra0hwNWVNQkY3VVg0NmpXRXBFMFFSbFM1SERFb1Fna2V6a1h0WjhYWHQyYl84cWhQalRPamRqWVBUWVhWLXY1U2QzeUF5UjVfd3NEcHlLMUx3MDJSR0ZvcHRYYjFkdw?oc=5",
+   "ts": "2026-09-06T19:13:57+00:00"
   },
   {
-   "cat": "macro",
-   "title": "糖价今年跑赢股市 背后推手与前景",
-   "brief": "糖价表现优于股市，分析其驱动因素及未来走势。",
-   "chain": "大宗商品走强→通胀预期→影响美联储政策→关注A股农业板块",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/06/sugar-is-outperforming-the-stock-market-this-year-whats-driving-it.html",
-   "ts": "Sun, 06 Sep 2026 13:19:01 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "欧盟主席访问格陵兰 应对特朗普威胁",
-   "brief": "欧盟主席访问格陵兰，回应特朗普的收购威胁，凸显北极地缘博弈。",
-   "chain": "美欧关系紧张→地缘风险→影响全球贸易→关注A股稀土与资源板块",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/05/eu-greenland-von-der-leyen-trump-arctic.html",
-   "ts": "Sat, 05 Sep 2026 05:00:01 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "梅洛尼政治里程碑 前领袖促经济改革",
-   "brief": "意大利总理梅洛尼达成政治里程碑，前领导人呼吁进行经济改革。",
-   "chain": "欧洲政治稳定→欧元区经济预期→影响全球市场→关注A股出口链",
-   "impact": 4,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/05/italy-meloni-bonds-debt.html",
-   "ts": "Sat, 05 Sep 2026 05:41:23 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "AI助力返校季 亚马逊谷歌布局",
-   "brief": "返校季购物中AI应用增加，亚马逊和谷歌有望受益。",
-   "chain": "AI应用落地→科技巨头业绩预期→美股科技股→映射A股AI应用板块",
+   "cat": "gas",
+   "title": "火山喷发扰乱东南亚第二大机场航班",
+   "brief": "火山喷发导致东南亚第二大机场数百航班取消。",
+   "chain": "机场中断→LNG运输延误→东非LNG出口物流受阻",
    "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/04/back-to-school-shopping-brought-to-you-by-ai-how-amazon-google-are-positioned-to-win.html",
-   "ts": "Fri, 04 Sep 2026 14:47:15 GMT"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/07/flights-canceled-jakarta-airport-anak-krakatau-eruption-disrupts-regional-travel-volcano.html",
+   "ts": "Mon, 07 Sep 2026 01:31:03 GMT"
   },
   {
    "cat": "tech",
-   "title": "Jim Cramer：买入科技巨头时机已到",
-   "brief": "Jim Cramer认为“七巨头”反弹，建议买入。",
-   "chain": "科技股反弹→市场情绪改善→美股科技→映射A股科技板块",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/03/magnificent-seven-jim-cramer-says-time-to-buy.html",
-   "ts": "Thu, 03 Sep 2026 22:31:01 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "启元机器人与iCar集团战略合作",
-   "brief": "上纬新材旗下启元机器人与iCar集团在IFA签署战略合作，布局具身智能。",
-   "chain": "具身智能合作→科技产业进展→影响A股机器人概念",
-   "impact": 4,
+   "title": "百度A类股纳入深港通标的",
+   "brief": "百度A类普通股获纳入深港通，9月7日生效。",
+   "chain": "纳入深港通→南向资金流入→A股AI概念联动",
+   "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609063866122819.html",
-   "ts": "2026-09-06 20:59:40"
+   "url": "https://finance.eastmoney.com/a/202609073866530872.html",
+   "ts": "2026-09-07 12:25:16"
+  },
+  {
+   "cat": "tech",
+   "title": "中国面板厂商占全球车载显示65%",
+   "brief": "Omdia预计下半年中国面板厂商占全球车载显示65.2%。",
+   "chain": "中国面板份额提升→产业链受益→A股面板公司利好",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609073866529934.html",
+   "ts": "2026-09-07 12:18:46"
+  },
+  {
+   "cat": "tech",
+   "title": "秋水半导体发布8英寸红光Micro-LED",
+   "brief": "秋水半导体发布量产型8英寸红光Micro-LED芯片。",
+   "chain": "Micro-LED量产→显示技术升级→A股相关概念股",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609073866530115.html",
+   "ts": "2026-09-07 12:16:46"
   },
   {
    "cat": "ai",
-   "title": "AI驱动返校季 亚马逊谷歌受益",
-   "brief": "返校季购物中AI应用增加，亚马逊和谷歌有望受益。",
-   "chain": "AI应用落地→科技巨头业绩预期→美股科技股→映射A股AI应用板块",
+   "title": "讯飞星火X2.5发布，强化代码智能体",
+   "brief": "科大讯飞发布星火X2.5大模型，采用MoE架构，提升代码与智能体能力。",
+   "chain": "国产大模型迭代→AI应用加速→A股AI算力链受益",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609073866520029.html",
+   "ts": "2026-09-07 11:41:45"
+  },
+  {
+   "cat": "ai",
+   "title": "智象未来发布具身世界模型",
+   "brief": "智象未来发布具身世界模型HiDream-O1-Embodied。",
+   "chain": "具身智能模型发布→机器人产业→A股机器人概念",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609073866521749.html",
+   "ts": "2026-09-07 11:49:45"
+  },
+  {
+   "cat": "ai",
+   "title": "努比亚AI手机9月16日上市",
+   "brief": "努比亚NaviX Ultra搭载豆包助手，9月16日发布。",
+   "chain": "AI手机发布→端侧AI应用→A股消费电子链",
    "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/04/5-things-to-know-before-the-market-opens-friday.html",
-   "ts": "Fri, 04 Sep 2026 12:08:20 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609073866522846.html",
+   "ts": "2026-09-07 11:53:10"
+  },
+  {
+   "cat": "ai",
+   "title": "寰宇心生完成数千万元种子轮融资",
+   "brief": "世界模型公司寰宇心生获元生资本数千万元种子轮融资。",
+   "chain": "AI融资活跃→世界模型赛道→A股AI投资情绪",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609073866529635.html",
+   "ts": "2026-09-07 12:20:04"
   }
  ]
 }
