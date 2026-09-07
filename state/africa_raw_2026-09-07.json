@@ -1,6 +1,6 @@
 {
  "asof": "2026-09-07",
- "fetched_at": "2026-09-07T14:42+08:00",
+ "fetched_at": "2026-09-07T16:29+08:00",
  "meta": {
   "counts": {
    "TechCabal": 0,
@@ -14,15 +14,95 @@
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 1,
-   "非洲科技·聚合": 16,
-   "中非科技·聚合": 19
+   "非洲科技·聚合": 15,
+   "中非科技·聚合": 18
   },
   "total": 60,
-  "ai_flagged": 18,
+  "ai_flagged": 17,
   "aiinfra_flagged": 6,
   "countries": 9
  },
  "items": [
+  {
+   "title": "SA businesses shift focus from infrastructure resilience to modernisation",
+   "brief": "An ITWeb survey, in partnership with Huawei and BNI, finds local businesses are confident in infrastructure resilience but challenged by complexity, skills and modernisation.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/sa-businesses-shift-focus-from-infrastructure-resilience-to-modernisation/xA9POvNE25aqo4J8",
+   "date": "Mon, 07 Sep 2026 10:31:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Top ICT tenders: Eskom targets professional IT services",
+   "brief": "The utility seeks specified technology services to address its current constraints in IT capacity and skills.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/top-ict-tenders-eskom-targets-professional-it-services/JN1gPvOAXrVMjL6m",
+   "date": "Mon, 07 Sep 2026 10:18:32 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Nokia and BeeHealthy Partner to Replace SMS OTPs with Network-Based Healthcare Verification",
+   "brief": "Nokia  announced a commercial agreement with BeeHealthy,  a leading digital healthcare platform, to integrate Nokia’s Network as Code technology into the consumer-facing applications BeeHealthy provides ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/07/nokia-beehealthy-replace-sms-otps-network-based-healthcare-verification/",
+   "date": "Mon, 07 Sep 2026 08:03:30 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Orange Côte d’Ivoire Partners Disability Groups to Advance Digital Inclusion",
+   "brief": "Orange Côte d’Ivoire  has reaffirmed its commitment to digital inclusion with the inauguration of the rehabilitated and digitally equipped headquarters of the Coordination of Associations ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/07/orange-cote-divoire-partners-disability-groups-digital-inclusion/",
+   "date": "Mon, 07 Sep 2026 07:47:25 +0000",
+   "country": "🇨🇮 科特迪瓦",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "NITDA Equips Nigerian Students with AI, Robotics and Emerging Technology Skills",
+   "brief": "NITDA,  in collaboration with the Enugu MSME and Startup Agency , has concluded the Enugu Kids Coding and Emerging Technology Bootcamp, equipping primary and secondary school ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/07/nitda-equips-nigerian-students-with-ai-robotics-and-emerging-technology-skills/",
+   "date": "Mon, 07 Sep 2026 07:42:50 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "NITDA Partners NACCIMA to Drive Digital Transformation Across Nigerian Businesses",
+   "brief": "The National Information Technology Development Agency (NITDA)  has signed a Memorandum of Understanding (MoU) with the Nigerian Association of Chambers of Commerce, Industry, Mines and ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/07/nitda-naccima-mou-enterprise-digital-transformation-nigeria/",
+   "date": "Mon, 07 Sep 2026 07:35:24 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "MTN Uganda and WWF Launch PachiPanda Season 2 to Back Young Green Innovators",
+   "brief": "MTN Uganda,  in partnership with WWF Uganda , has launched the second season of PachiPanda, an initiative aimed at supporting young Ugandans developing technology-driven solutions to ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/07/mtn-uganda-wwf-launch-pachipanda-season-2-young-green-innovators/",
+   "date": "Mon, 07 Sep 2026 07:30:45 +0000",
+   "country": "🇺🇬 乌干达",
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "KCB Kenya Deepens SACCO Partnerships Through Digital Transformation Forum",
+   "brief": "KCB Kenya  has co-hosted the KCB SACCOs Forum in Kericho in partnership with Imarisha SACCO , bringing together more than 80 stakeholders from the SACCO sector ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/07/kcb-kenya-deepens-sacco-partnerships-digital-transformation-forum/",
+   "date": "Mon, 07 Sep 2026 07:25:50 +0000",
+   "country": "🇰🇪 肯尼亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
   {
    "title": "FCCPC opens probe into Uber’s Nigeria exit",
    "brief": "If the FCCPC finds Uber in breach, the commission can impose administrative fines of up to 10% of the company's prior year turnover in Nigeria.",
@@ -164,16 +244,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Network International Launches GCC-Wide Acquiring Platform Through Single Integration",
-   "brief": "Network International (Network) , a leading fintech company across the Middle East and Africa, announced the launch of its regional acquiring capability that enables merchants to ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/04/network-international-launches-gcc-wide-acquiring-platform-single-integration/",
-   "date": "Fri, 04 Sep 2026 12:52:46 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "ITWeb TV: Lelapa AI eyes faster, ambitious growth",
    "brief": "The local AI start-up looks to expand its language base outside of Africa, says co-founder Pelonomi Moiloa.",
    "source": "ITWeb Africa",
@@ -204,26 +274,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Orange Côte d’Ivoire Warns of Legal Action After Telecom Cables Damaged in Cocody",
-   "brief": "Orange Côte d’Ivoire  has reported damage to several of its telecommunications cables in Cocody Angré Djorobité, following construction works carried out by BTP company ESPINA ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/04/orange-cote-divoire-warns-legal-action-after-telecom-cables-damaged-cocody/",
-   "date": "Fri, 04 Sep 2026 10:53:58 +0000",
-   "country": "🇨🇮 科特迪瓦",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Ethio Telecom Targets 96.2 Million Customers, ETB 295 Billion Revenue in 2026/27",
-   "brief": "Ethio Telecom  has unveiled its 2019 EFY (2026/27) annual business plan, outlining an aggressive expansion of connectivity, digital services, financial technology, cloud infrastructure and artificial ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/04/ethio-telecom-targets-96-2-million-customers-etb-295-billion-revenue-in-2026-27/",
-   "date": "Fri, 04 Sep 2026 10:44:22 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Hackers breach Rand Water’s defences",
    "brief": "The network breach damages servers, but Rand Water says its water treatment and supply have not been affected.",
    "source": "ITWeb Africa",
@@ -234,16 +284,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Ghana Swears In New Board to Lead Airtel Ghana and PPL Net",
-   "brief": "Ghana’s Ministry of Communication, Digital Technology and Innovations  has inaugurated a new Board of Directors for Airtel Ghana Limited and PPL Net Ghana Limited , in ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/04/ghana-swears-in-new-board-airtel-ghana-ppl-net/",
-   "date": "Fri, 04 Sep 2026 10:38:58 +0000",
-   "country": "🇬🇭 加纳",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
    "title": "Discovery Bank hits R370m profit, clients near 2m",
    "brief": "The digital bank’s growing scale and AI capabilities accelerate profitability, as it targets phase two of its “super bank” ambitions.",
    "source": "ITWeb Africa",
@@ -251,16 +291,6 @@
    "date": "Fri, 04 Sep 2026 12:19:04 +0200",
    "country": null,
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "ICASA Approves Transfer of Cybertek Telecom Licences to Optipulse",
-   "brief": "South Africa’s communications regulator, the Independent Communications Authority of South Africa (ICASA),  has approved the transfer of two telecommunications licences from Webdev CC trading as ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/04/icasa-approves-transfer-cybertek-telecom-licences-optipulse/",
-   "date": "Fri, 04 Sep 2026 09:58:18 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -314,16 +344,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Roke Telkom and Paratus Uganda Launch Starlink for Business in Uganda",
-   "brief": "Ugandan businesses now have access to Starlink’s high-speed satellite internet through a new partnership between Roke Telkom  and Paratus Uganda.  The two companies have officially ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/04/roke-telkom-paratus-uganda-launch-starlink-business-uganda/",
-   "date": "Fri, 04 Sep 2026 08:19:44 +0000",
-   "country": "🇺🇬 乌干达",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Grants or equity? What female founders need to know about raising capital in 2026",
    "brief": "Female founders face a funding gap, but understanding how to grants and equity boosts their chances of success.",
    "source": "Condia",
@@ -349,26 +369,6 @@
    "source": "SAP News Center·聚合",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVTFYS1g0ZWFuaXdtaTFUbDZFWHB2WWd5M1VOeW54cXpWak01RVFEVEM2TXNuR24xaThHUEV6cFYyalNmb01jZy1SRXNXOTNHU2dDNndVejRndExKdUYzUUtsUm1lX0hTaEpPQTA3cl9XX3hKTWhiQld6NHctaDBDR3lvUmd0R2JFQTFZ?oc=5",
    "date": "Fri, 04 Sep 2026 07:09:57 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "ITWeb TV Biz: Helping companies use AI with AWS",
-   "brief": "CloudZA helps its clients tap AI's potential, and AWS EEIP helped it grow that impact.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/itweb-tv-biz-helping-companies-use-ai-with-aws/mYZRXv9gbXxMOgA8",
-   "date": "Fri, 04 Sep 2026 08:13:23 +0200",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "ITWeb Cloud Summit 2026: Balancing speed, security and governance",
-   "brief": "Managing rapid AI and cloud adoption alongside security and governance will take centre stage when Motus Car Rental's Pheello Motolo addresses the ITWeb Cloud Summit.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/itweb-cloud-summit-2026-balancing-speed-security-and-governance/G98Yd7LGny4vX2PD",
-   "date": "Fri, 04 Sep 2026 08:05:00 +0200",
    "country": null,
    "is_ai": true,
    "is_aiinfra": false
@@ -436,7 +436,7 @@
   {
    "title": "Chinese businesses of all stripes are turning to Huawei",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQd09qR1lBVmNFUHhxZkRNYTE2enNDa2djNENmS051b25ONG5FSGRVLWFESWpmRUhXVjZXbS1qTGZDWmNCUlduWTZPc0NvTnhRRHlVWmJ5MUdQM0RhT1ZzY3JmdVRPUlRydmswQVl2Z1lJNlY5X3hKVnRlZmhiaz",
-   "source": "The Economist·聚合",
+   "source": "economist.com·聚合",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQd09qR1lBVmNFUHhxZkRNYTE2enNDa2djNENmS051b25ONG5FSGRVLWFESWpmRUhXVjZXbS1qTGZDWmNCUlduWTZPc0NvTnhRRHlVWmJ5MUdQM0RhT1ZzY3JmdVRPUlRydmswQVl2Z1lJNlY5X3hKVnRlZmhiazEwTzBwOTNmRVFPQklvZXoyWEFyMDJrZzRGMFZKZi1MQ29Qd1Rn?oc=5",
    "date": "Thu, 03 Sep 2026 13:08:54 GMT",
    "country": null,
@@ -516,7 +516,7 @@
   {
    "title": "Korea and Africa Chart New Course on AI and Digital Infrastructure at 20th anniversary of KOAFEC",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWVU4UTVSRW1JeVppOFB5ZlI1Q29wc2JYMHhZX1RIZ3FQQTVsQWF6S3MtaHVlTEtuZGJ2NUM2S3JFUHA4ZUJJaEtqTC1EVFRHZWxGclVvZ2NVNUZJUEwyV2VsY0JNeFpPVGRKb3dZZk53SFA3ZTRuSjNob1dwcE",
-   "source": "afdb.org·聚合",
+   "source": "African Development Bank Group·聚合",
    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWVU4UTVSRW1JeVppOFB5ZlI1Q29wc2JYMHhZX1RIZ3FQQTVsQWF6S3MtaHVlTEtuZGJ2NUM2S3JFUHA4ZUJJaEtqTC1EVFRHZWxGclVvZ2NVNUZJUEwyV2VsY0JNeFpPVGRKb3dZZk53SFA3ZTRuSjNob1dwcEsxN0ZTRjl4cTFIM2FacWJXYTczZnM2WGZkNXZtaWdVSnpIZ1pQZUlhSEctd2k5cUlqWndPN1BoVFRxSE9SZ0RJOUVGTGU1UjJPeVN4UEZLMzVibU5xZk9VenhTUXN2bVI2eDB3?oc=5",
    "date": "Thu, 03 Sep 2026 09:08:48 GMT",
    "country": null,
@@ -526,7 +526,7 @@
   {
    "title": "ZAWYA: Africa has solved the hard fintech challenge",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNaS1QZi1OT3ptbWdLVTM4aHQxX1MxSUVfdFdpU1dLX2tOLTJUWFlJQXBJX1BiWDNRTDhYVU5MS3k2QUx3dmowTUVCVU9UTUVPRkUtYnROejUtbGhVQlpacWkzbUZPZ2tCRlJvaTkzZmx5bjJ1V3Y5UjRJaWcyWT",
-   "source": "TradingView·聚合",
+   "source": "tradingview.com·聚合",
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaS1QZi1OT3ptbWdLVTM4aHQxX1MxSUVfdFdpU1dLX2tOLTJUWFlJQXBJX1BiWDNRTDhYVU5MS3k2QUx3dmowTUVCVU9UTUVPRkUtYnROejUtbGhVQlpacWkzbUZPZ2tCRlJvaTkzZmx5bjJ1V3Y5UjRJaWcyWTZ0RTNDTEJGQ2dtUng4ZTAtUzYxaXB4VmZobWxMdHkwb0NNR0tKZU5QUkxiclBNTmxEOHVrajlaemFoSlVCaTBtQmlmOXRQ?oc=5",
    "date": "Thu, 03 Sep 2026 08:12:24 GMT",
    "country": null,
@@ -549,16 +549,6 @@
    "source": "Africa Business Communities·聚合",
    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTzg5VnNyMWU3RkYyTks3UTVBS0hiMEtmcVpKUktpN1VlVUVHbUhWT2xNUXpKRDFldXdNbzlPSDU5VE5YLTNSem1WMXlfb2xoRWpfamhCcUhUVzhzLWdlcW5LZW4tNWF1RXRINDRYQjdrMVdRdmlySWJVME14VGRINVlONGRuLU5XNTFlMXhVcFZLUFF1OFdjbGhOUHFQVS11TnF1aXhPeU8wWjBfazJsdjdWX0ZWeG1NRTYxUlZQOHl2azNSUUVGTzhZR3dqU1lpeXc?oc=5",
    "date": "Thu, 03 Sep 2026 06:46:22 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "African Startup Deal Tracker — Newest Deals",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE5sNmhEbEpJZVN1ZWZXaWlGcXVhUzNlLXgweldxVlVWRDY2WldZRzlHN0ZnTWtmQzJDaWM1SjhHb3Z5eUx2NmlPcWhPazRJdEZqTm80LXJDSlVEdTlwLWE4aEhPVGhRUXJHUVF5d1prYw?oc=5\" target=\"_blan",
-   "source": "Launch Base Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5sNmhEbEpJZVN1ZWZXaWlGcXVhUzNlLXgweldxVlVWRDY2WldZRzlHN0ZnTWtmQzJDaWM1SjhHb3Z5eUx2NmlPcWhPazRJdEZqTm80LXJDSlVEdTlwLWE4aEhPVGhRUXJHUVF5d1prYw?oc=5",
-   "date": "Thu, 03 Sep 2026 05:17:00 GMT",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -619,6 +609,16 @@
    "source": "ITWeb Africa",
    "url": "https://www.itweb.co.za/article/aukera-closes-eur460-million-structured-credit-facility-led-by-eig-to-support-european-energy-infrastructure-portfolio/xnklOqz1zxAM4Ymz",
    "date": "Wed, 02 Sep 2026 13:00:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "NuRAN is delisting from the Canadian Securities Exchange",
+   "brief": "NuRAN Wireless Inc. plans to voluntarily delist from the Canadian Securities Exchange on 4th September, 2026 after 10 years. It maintains it's listing on Nasdaq.",
+   "source": "Condia",
+   "url": "https://thecondia.com/nuran-delists-cse/",
+   "date": "Wed, 02 Sep 2026 10:16:42 +0000",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
