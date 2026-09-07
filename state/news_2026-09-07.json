@@ -1,216 +1,177 @@
 {
  "asof": "2026-09-07",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-09-07T16:29+08:00",
+ "generated_at": "2026-09-07T21:05+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 18,
-  "cluster_label": "伊朗/霍尔木兹",
+  "cross_day_suppressed": 15,
+  "cluster_label": "伊朗/阿联酋/霍尔木兹",
   "cluster_dropped": [
-   "伊朗霍尔木兹杠杆减弱"
+   "霍尔木兹海峡通航量降至5月以来最低",
+   "阿联酋在伊朗袭击后建设替代贸易能源路线"
   ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "中国央行连续22个月增持黄金",
-   "brief": "8月末黄金储备增至7673万盎司，环比增65万盎司，连续第22个月增持。",
-   "chain": "央行持续购金强化去美元化与储备多元化信号→实际利率与美元信用长期承压→利好A股黄金股及贵金属链情绪。",
+   "title": "美债收益率面临4.8%考验 财政风险外溢",
+   "brief": "美国财政风险加剧，10年期美债收益率可能测试4.8%关键位，或引发其他资产波动。",
+   "chain": "美债收益率上行→美股估值承压，尤其高久期科技股→A股算力链情绪受抑",
    "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609073866683350.html",
-   "ts": "2026-09-07 16:04:49"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/07/us-treasury-yields-markets-scott-bessent.html",
+   "ts": "Mon, 07 Sep 2026 02:01:52 GMT"
   },
   {
    "cat": "macro",
-   "title": "全球最大资管重建黄金仓位",
-   "brief": "主要资金管理机构增持黄金，预期长期价值，无视美联储通胀压力。",
-   "chain": "机构增持黄金反映实际利率预期下行与避险需求→对美股AI高久期股估值分母形成支撑→A股算力链情绪或受提振。",
+   "title": "柴油价格成美国通胀新威胁",
+   "brief": "柴油价格上涨可能阻碍美国通胀回落，对美联储降息预期构成压力。",
+   "chain": "柴油涨价→通胀预期升温→美联储降息推迟→美股估值压力→A股成长股承压",
    "impact": 7,
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-04/world-s-biggest-money-managers-are-rebuilding-gold-positions",
-   "ts": "2026-09-05T16:16:02+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "柴油价格成美国通胀隐忧",
-   "brief": "晨报指出柴油价格是通胀鸽派的真正威胁，可能影响美联储政策路径。",
-   "chain": "柴油涨价推升通胀预期→美联储降息预期降温→美股成长股估值承压→A股算力链或受情绪拖累。",
-   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkVEpMZWxDcWdjVkVYRGdtakVZSGxsWVZfR2N5eFR4UTBRTzZWTmxMZXF3REFZeHBkelU2YXJQb21JZEtGNVNqQld1eTYxV3VpLXFzT1VEVEtQVUNxa3VQTW5mdE1OQ2JocmNrdW80bktWQWxfY2w2SmoxV2dfOWs?oc=5",
    "ts": "2026-09-07T04:34:00+00:00"
   },
   {
    "cat": "macro",
-   "title": "日本外汇储备创纪录降800亿美元",
-   "brief": "8月日本外汇储备因日元干预创纪录下降800亿美元，显示当局积极支撑日元。",
-   "chain": "日本干预汇市→日元升值→套息交易逆转风险→全球风险资产波动→A股外资流向或受影响。",
+   "title": "中国向银行和保险注资540亿美元",
+   "brief": "中国宣布向银行和保险公司注资540亿美元以提振经济，但股市反应平淡。",
+   "chain": "中国财政刺激→银行资本增强→信贷扩张预期→A股金融板块或有支撑",
    "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/07/china-state-banks-lenders-insurers-capital-solvency-bankrupt-nim-.html",
+   "ts": "Mon, 07 Sep 2026 09:26:54 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "日本外汇储备创纪录下降800亿美元",
+   "brief": "日本8月外汇储备因干预汇市创纪录减少800亿美元，显示日元贬值压力。",
+   "chain": "日本干预汇市→日元波动→全球风险偏好变化→影响美股及A股情绪",
+   "impact": 5,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/09/07/japan-foreign-reserves-yen-intervention.html",
    "ts": "Mon, 07 Sep 2026 07:38:42 GMT"
   },
   {
-   "cat": "macro",
-   "title": "中国8月外储上升至34383亿美元",
-   "brief": "外汇局数据显示，8月末外储较7月末上升195亿美元，升幅0.57%。",
-   "chain": "外储上升增强人民币汇率稳定预期→利好中概及A股风险偏好→算力链等成长板块或受益。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609073866693127.html",
-   "ts": "2026-09-07 16:17:34"
+   "cat": "geo",
+   "title": "以色列与真主党冲突升级致11人死亡",
+   "brief": "以色列与真主党在黎巴嫩南部的冲突升级，造成11人死亡，中东局势持续紧张。",
+   "chain": "中东冲突升级→地缘风险溢价上升→美股波动→A股避险情绪升温",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/07/us-iran-war-trump-hormuz-israel-hezbollah-fighting-strikes-.html",
+   "ts": "Mon, 07 Sep 2026 09:26:27 GMT"
   },
   {
    "cat": "geo",
-   "title": "美伊互袭船只后油价续涨",
-   "brief": "美国与伊朗相互攻击船只，地缘紧张升级，油价延续涨势。",
-   "chain": "美伊冲突升级→原油供应风险溢价上升→推升油价→利好莫桑比克油气项目经济性。",
+   "title": "美国特使访俄乌 寻求重启谈判",
+   "brief": "美国特使访问基辅和莫斯科后，希望尽快重启乌克兰-俄罗斯谈判。",
+   "chain": "俄乌和谈预期→地缘风险缓和→油价或回落→利好全球市场风险偏好",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONnlRblpUWUNHMjMteEdBa0JYZk5MeFJQRjlEa3dUdGtDY0xfZEs5Y2dCcV8yNEhSTHYzem9SVVVYS1NBZnc4U29BSEcydHp4cUx5bFZSUmZ1QXFsNHlFRGgtbGJ2WmZMRTZzdjhrTWY1b1BDMlFnQTlWXzRLU056OGV2TUlRdkdTdjRkMFpTNi02X1Y4MU5sMEF4WF8wcVpDNmNJUmFvXzRZeV91N2dKUDNJN1FWdkg3RHpReHVoNA?oc=5",
+   "ts": "2026-09-06T11:09:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "德国极右翼AfD州选举大胜 施压联邦政府",
+   "brief": "德国选择党在州选举中取得历史性胜利，对联邦政府构成压力，欧洲政治不确定性上升。",
+   "chain": "欧洲政治右转→政策不确定性→欧元波动→影响全球风险资产",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/07/afd-germany-economy-merz.html",
+   "ts": "Mon, 07 Sep 2026 11:47:12 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "油价持稳六周高位 美伊袭击支撑",
+   "brief": "受美伊相互袭击影响，油价维持在六周高位附近，市场担忧供应中断。",
+   "chain": "美伊冲突→油价高位→莫桑比克LNG出口受益，但全球通胀压力上升",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2l5blJOWGZlTWtiTzJFdl80Vm9jb3QxSHp5YUpRR0l6THd2RmZ6cDd2OUtFakRhYkRXbWdSdUxUU0tYSVl1YTRTS1RzYTVQem1OOVFDR01ZRXNEeDBuWEwweHd0RDZnS1B0dE1PbFhXb3JMWjNGY1JLMHpvUkpGRDE0ZUtXZk10akVNOUhSVklQYjdHZ1JCS25ReUc?oc=5",
    "ts": "2026-09-07T00:15:00+00:00"
   },
   {
-   "cat": "geo",
-   "title": "普京称战争形势不简单",
-   "brief": "普京告诉美国特使，乌克兰战争形势“不简单”，和谈启动。",
-   "chain": "俄乌和谈不确定性→欧洲地缘风险→影响全球风险偏好→对A股影响间接。",
-   "impact": 6,
-   "source": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-05/us-envoys-arrive-in-moscow-with-proposal-to-end-war-in-ukraine",
-   "ts": "2026-09-06T06:49:36+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "以黎冲突致11死，黎总统求援",
-   "brief": "以色列与真主党冲突致11人死亡，黎巴嫩总统呼吁美国支持以维护停火。",
-   "chain": "中东冲突持续→地区不稳定→油价波动→影响莫桑比克LNG出口的市场环境。",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/07/us-iran-war-trump-hormuz-israel-hezbollah-fighting-strikes-.html",
-   "ts": "Mon, 07 Sep 2026 07:14:32 GMT"
-  },
-  {
-   "cat": "geo",
-   "title": "美能源部长：伊朗核协议或难达成",
-   "brief": "美国能源部长表示伊朗核协议可能永远不会达成，加剧地缘不确定性。",
-   "chain": "核协议无望→伊朗制裁持续→全球原油供应受限→支撑油价→利好莫桑比克油气。",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/06/iran-us-response-oil-tanker-strikes.html",
-   "ts": "Mon, 07 Sep 2026 07:35:18 GMT"
-  },
-  {
    "cat": "oil",
-   "title": "霍尔木兹海峡通航量降至5月来最低",
-   "brief": "美伊袭击船只后，霍尔木兹海峡通航量降至5月以来最低，影响全球油运。",
-   "chain": "海峡通航受阻→原油运输成本上升→油价短期上行→莫桑比克油气出口或受益于高油价。",
-   "impact": 8,
+   "title": "中国8月原油进口疲软 能否持续引关注",
+   "brief": "中国8月原油进口保持疲软，市场关注这是否成为新常态，影响全球需求预期。",
+   "chain": "中国需求疲软→油价承压→莫桑比克油气项目短期面临需求不确定性",
+   "impact": 7,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX1Yzd0xQX3FmaWVJVjdQREFrMWR1ZEZfaHlPNmpTY1FJRFRNYmN0YWVTSHB6NVNvTnJ5R0VYaS1RLXg5TUh5cjEzMmFzV0Nyb0FWUmRZSXlBMUlSQjRZbGFzQll1X0kzcXdBdnVsT25ncEhNY2Z3ME5IQTMzSk9TZEdDbGx5RFh2VEJjMzdKMy1uUlBPbWZ0NWgyLTh3cmU0cTA1bTE1Rnh0cWhpd1dKaWZlTDhQeGJKVWxJeHVB?oc=5",
-   "ts": "2026-09-06T23:29:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNjJvZmc3M0wteXQ1VzNhSUZHY3p4eGl4UjNUWC1BYi16ajFCbzZYUlBfV0tQajNaSVFvWVRWTmY5WlhpT1hPb0JwRUF4OHY2NG96bl9xTVppUTFyZUN3clpMLTJfNnRhenNsTVVuUXlXZmxxMDV6R00tQk1MWVBkOTlUdi1uOUxuV1l2WnZaODZESnNLWVdzM0RxSFlQZTF5ZWhiUkZtSExpWmQ5cGZ1M0dnTTdjNjNRR3hqV21pT3lOMlZlZEJRQ0lB?oc=5",
+   "ts": "2026-09-07T01:21:03+00:00"
   },
   {
-   "cat": "oil",
-   "title": "船用燃料短缺隐现",
-   "brief": "炼厂因战争偏好其他产品，船用燃料面临短缺，影响航运业。",
-   "chain": "船燃短缺→航运成本上升→原油运输效率下降→油价获支撑→莫桑比克LNG运输成本或增。",
+   "cat": "gas",
+   "title": "伊朗提高重用户燃料价格",
+   "brief": "伊朗政府宣布提高重用户的燃料价格，以应对能源短缺和经济压力。",
+   "chain": "伊朗国内燃料涨价→能源政策调整→影响区域天然气市场→东非LNG竞争格局变化",
    "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcjJsRnYxdWplZmMxWnZxd2JBRjdaR2YtV0VrMEJCNmFTUjF1U1oyaVhiZk5XZ2Rvc1lXVEdhQjd0bWxxZ1R6Sl9Eckl0S3NXSXpjbGZ5QjJ6dnVkbG9tc2RtRl8tNy1heW1RVHh1VlZ2ZUVtQnJTREdYRlJsRFo5VjRoNUhRTEV2c0dwd01fNWphVkg4LW9oeExqdm1jQW9nRFdGYm16WTRkUjkxUmpaN2NPdDZpUVl2Tk1KQ0xZZWY?oc=5",
-   "ts": "2026-09-07T01:02:00+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "伊朗提高重用户燃油价格",
-   "brief": "伊朗政府提高重度用户的燃油价格，以应对经济压力。",
-   "chain": "伊朗国内燃油涨价→或影响其出口能力→全球供应变化→油价波动→莫桑比克需关注竞争格局。",
-   "impact": 4,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZzl2bnVkTGFvdGg5UXU3LXk1ZUNSWlVtajg2NFFCd1JkMzhHSVVfeVd0djRKSHpCa2xpVkVJTG1Ra0hwNWVNQkY3VVg0NmpXRXBFMFFSbFM1SERFb1Fna2V6a1h0WjhYWHQyYl84cWhQalRPamRqWVBUWVhWLXY1U2QzeUF5UjVfd3NEcHlLMUx3MDJSR0ZvcHRYYjFkdw?oc=5",
    "ts": "2026-09-06T19:13:57+00:00"
   },
   {
-   "cat": "gas",
-   "title": "亚洲科技股涨，油价攀升引犹豫",
-   "brief": "亚洲科技股上涨，但油价攀升令市场犹豫，能源成本担忧上升。",
-   "chain": "油价上涨→通胀预期升温→全球气价联动→莫桑比克LNG合同价格或受益。",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0pobHhGSWlxLVNZa2htLURrNldPaHUyOGVyQXVBeGtJOWJDUXpqMXFSTDBCaHNkeFI5Q0Y2NUdFNlJoWUZlVGQwR2pGZk5oc1R5TzFLbUdFMU1aY3NGTXVhOGFTeFZOenRpbUlNc0ZiTjQtMnNaRVUtTVNrWEpLeGprbw?oc=5",
-   "ts": "2026-09-07T01:06:00+00:00"
-  },
-  {
    "cat": "tech",
-   "title": "华为Mate XT 2三折叠手机发布",
-   "brief": "华为发布Mate XT 2三折叠手机，起售价19999元，搭载最新麒麟芯片。",
-   "chain": "华为新机热销→消费电子链景气→A股华为产业链及折叠屏概念受关注。",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609073866689154.html",
-   "ts": "2026-09-07 16:14:12"
-  },
-  {
-   "cat": "tech",
-   "title": "华为Pura X Max出货超120万台",
-   "brief": "华为宣布Pura X Max上市四个月出货量突破120万台，新增配色。",
-   "chain": "华为手机出货强劲→供应链订单增加→A股相关零部件公司受益。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609073866702848.html",
-   "ts": "2026-09-07 16:23:13"
-  },
-  {
-   "cat": "tech",
-   "title": "捷豹路虎裁员数千人",
-   "brief": "捷豹路虎计划裁员数千人，作为23亿美元成本削减计划的一部分。",
-   "chain": "传统车企裁员→行业转型压力→对A股汽车链影响有限。",
-   "impact": 4,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/07/jaguar-land-rover-jlr-job-cuts-autos.html",
-   "ts": "Mon, 07 Sep 2026 08:00:56 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "全球折叠屏手机累计出货将破亿",
-   "brief": "Counterpoint预测，到2026年底全球折叠屏手机累计出货量将突破1亿部。",
-   "chain": "折叠屏市场增长→产业链放量→A股折叠屏概念股受益。",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609073866685211.html",
-   "ts": "2026-09-07 16:03:00"
-  },
-  {
-   "cat": "ai",
-   "title": "OpenAI更新GPT-6 Astra界面",
-   "brief": "OpenAI更新GPT-6 Astra产品页面，补充模型性能、API定价等信息。",
-   "chain": "GPT-6迭代→AI能力提升→算力需求增长→A股算力链受益。",
+   "title": "长鑫存储LPDDR6首次商用 搭载小米折叠屏",
+   "brief": "长鑫存储宣布LPDDR6芯片量产商用，首发于小米18 Fold，标志国产存储突破。",
+   "chain": "国产存储突破→提升半导体自主可控→利好A股存储产业链",
    "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609073866695652.html",
-   "ts": "2026-09-07 16:22:24"
+   "url": "https://finance.eastmoney.com/a/202609073866889846.html",
+   "ts": "2026-09-07 20:26:48"
   },
   {
-   "cat": "ai",
-   "title": "OpenAI实现自动化研究",
-   "brief": "OpenAI初步实现自动化研究，“AI训练AI”加速，算力仍是瓶颈。",
-   "chain": "AI自动化研究→算力需求持续→A股算力基础设施链受益。",
+   "cat": "tech",
+   "title": "雷军：澎程N70搭载最贵智驾芯片Thor",
+   "brief": "小米澎程N70发布，搭载NVIDIA Thor智驾芯片，号称最贵，主打全系满配辅助驾驶。",
+   "chain": "小米新车发布→智能驾驶需求提升→利好A股汽车电子及芯片产业链",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609073866688454.html",
-   "ts": "2026-09-07 16:08:51"
+   "url": "https://finance.eastmoney.com/a/202609073866903725.html",
+   "ts": "2026-09-07 20:41:50"
+  },
+  {
+   "cat": "tech",
+   "title": "捷豹路虎两年内裁员4000人",
+   "brief": "捷豹路虎宣布未来两年裁员4000人，以实施重大成本削减计划，应对电动化转型压力。",
+   "chain": "传统车企裁员→行业转型阵痛→影响全球汽车产业链→A股相关零部件或承压",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/07/jaguar-land-rover-jlr-job-cuts-autos.html",
+   "ts": "Mon, 07 Sep 2026 11:50:43 GMT"
   },
   {
    "cat": "ai",
-   "title": "港迪技术签1亿数据中心电力合同",
-   "brief": "港迪技术新增签署约1亿元数据中心电力方舱模组合同。",
-   "chain": "数据中心电力需求→A股数据中心配套设备商受益。",
+   "title": "直觉外科拥抱AI创新 推动机器人手术",
+   "brief": "直觉外科公司利用AI创新推动机器人手术发展，提升手术精准度和效率。",
+   "chain": "AI医疗应用→提升手术机器人渗透率→A股医疗AI概念或受提振",
+   "impact": 6,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/technology/ai/articles/intuitive-surgical-isrg-embracing-ai-123044580.html",
+   "ts": "2026-09-07T12:30:44Z"
+  },
+  {
+   "cat": "ai",
+   "title": "ASML受益于AI驱动的芯片复杂度提升",
+   "brief": "ASML凭借AI驱动的芯片复杂度提升，保持光刻机市场领先地位。",
+   "chain": "AI算力需求→先进制程芯片复杂度提升→ASML订单增长→A股半导体设备链受益",
+   "impact": 7,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/asml-holding-n-v-asml-122438281.html",
+   "ts": "2026-09-07T12:24:38Z"
+  },
+  {
+   "cat": "ai",
+   "title": "农尚环境终止算力基础设施项目",
+   "brief": "农尚环境控股子公司终止投建广州智慧创新谷算力基础设施项目，或因市场变化。",
+   "chain": "算力项目终止→行业投资降温→A股算力概念短期情绪受挫",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609073866693293.html",
-   "ts": "2026-09-07 16:20:12"
+   "url": "https://finance.eastmoney.com/a/202609073866876975.html",
+   "ts": "2026-09-07 20:09:46"
   }
  ]
 }
