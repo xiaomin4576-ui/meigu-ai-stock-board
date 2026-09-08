@@ -1,112 +1,150 @@
 {
  "asof": "2026-09-08",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-09-08T16:14+08:00",
+ "generated_at": "2026-09-08T19:48+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 8,
-  "cluster_label": "伊朗/沙特/胡塞",
-  "cluster_dropped": [
-   "胡塞武装袭击沙特阿美设施"
-  ],
+  "cross_day_suppressed": 7,
+  "cluster_label": "",
+  "cluster_dropped": [],
   "backfilled": 0
  },
  "items": [
   {
-   "cat": "geo",
-   "title": "伊朗威胁美能源资产 胡塞袭沙特",
-   "brief": "伊朗威胁对美发动新经济战和导弹袭击，胡塞武装袭击沙特能源设施致73人受伤。",
-   "chain": "中东冲突升级→油价风险溢价上升→A股油气及航运板块受情绪提振",
-   "impact": 10,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2RnNWprQ01ScjN2Q05RSHRWdmRqVzh2U01LUVVPVmhiRDVYNER3anQxQlNWV24wS3RZR2ZqS1FxNnFKWFRqSmlYbnQwSFk1eU5Cbnh1SVpxbTZCWUwtelFqbFV6LTNLVHZZbGRaYTVucy1VT1JwNDZPM3gydkZRU2VCWHFoVnpTVU9ILXlfRHpKMnBsT3RJOUlkejRzT1FJa25YekFnMVl6dUJnbERxeXo1UnpOZTVaQ281aFJrbjFEWmN3T2c?oc=5",
-   "ts": "2026-09-08T01:49:00+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "布伦特原油逼近99美元",
-   "brief": "沙特能源设施遭袭后，布伦特原油接近每桶99美元，市场担忧供应中断。",
-   "chain": "地缘冲突→布油逼近100美元→莫桑比克LNG出口受益于高油价",
-   "impact": 9,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/08/oil-prices-today-brent-wti-hormuz-iran-war.html",
-   "ts": "Tue, 08 Sep 2026 06:37:02 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "日元升至七个月新高 美元静待CPI",
-   "brief": "日元延续涨势至七个月高位，美元在CPI数据公布前走软。",
-   "chain": "避险情绪推升日元→美元走弱→利好A股黄金及有色板块",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTzJTNlNmRkk4ZlAxN0diYXoyblUyaE41UTRRRFpZbURGSk9pZGlTVDc5QkpJSHpqWlRWY0ZjR1M1ZW1sdU5KNmJqUGZ6eTRleGRfektFaDFlMmprZW14T2RodGJMcVlfNG5fMmZTbFhqNERNeGZvVW1CcHQ5MUZ4R0pGbTF3WllEN2hqQkpTVUZrUmVlUnh2UWIwOTJSQU5IZ2pxRGJNelRPdU8wd0dYS0Q4QXB0bWNRSnc?oc=5",
-   "ts": "2026-09-08T00:56:00+00:00"
-  },
-  {
    "cat": "macro",
    "title": "金价微涨 聚焦美国通胀数据",
-   "brief": "金价小幅上涨，市场关注即将公布的美国通胀数据以判断利率路径。",
-   "chain": "通胀数据前避险需求→金价持稳→A股黄金股或受支撑",
+   "brief": "金价小幅走高，市场关注即将公布的美国通胀数据，以判断美联储政策路径。",
+   "chain": "通胀数据将影响实际利率与美元→金价波动→对美股AI高久期估值分母及A股算力链情绪传导。",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZVFOMG93MEp4ZjJ0VUtRcWQxVTRKYTJOb3RwbTZpMnNyZlJ5eFdCRGhNTXF4b2MyRGpXWTh0T1N1d28tUGRfSW80bmFNT1RNelFYMTlLU2ctZEZpYmsyNjZRb2ROTnVqMkVuX2Z3UU12UDlCV2cxSmd1MzR2dktuNUtOR3ZXdjR2YnAyUlJDYjFtWmwybURmNEdLMHk3SFBQNVE?oc=5",
    "ts": "2026-09-08T02:28:00+00:00"
   },
   {
+   "cat": "macro",
+   "title": "中国8月进口不及预期 贸易再平衡呼声起",
+   "brief": "中国8月进口数据低于预期，引发对贸易再平衡的讨论。",
+   "chain": "中国进口疲软→全球需求担忧→影响大宗商品及A股出口链情绪。",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/08/china-exports-imports-august-trade-rebalance-demand-surplus-.html",
+   "ts": "Tue, 08 Sep 2026 04:45:07 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "英国发债利率创1998年来新高",
+   "brief": "英国发债利率升至1998年以来最高水平，反映财政压力与市场担忧。",
+   "chain": "英国利率上升→全球利率环境收紧→对美股估值及A股流动性影响。",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609083868200924.html",
+   "ts": "2026-09-08 19:07:39"
+  },
+  {
    "cat": "geo",
-   "title": "以色列袭击黎巴嫩南部致12死",
-   "brief": "以色列对黎巴嫩南部城镇的袭击造成12人死亡，引发局势升级担忧。",
-   "chain": "中东冲突外溢→油价波动→A股油气板块或受情绪影响",
+   "title": "胡塞武装袭击沙特四城 中东战争扩大",
+   "brief": "伊朗支持的胡塞武装袭击沙特四个城市，造成73人受伤，中东冲突升级。",
+   "chain": "中东冲突升级→地缘风险溢价上升→影响美股风险偏好及A股军工链。",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2RnNWprQ01ScjN2Q05RSHRWdmRqVzh2U01LUVVPVmhiRDVYNER3anQxQlNWV24wS3RZR2ZqS1FxNnFKWFRqSmlYbnQwSFk1eU5Cbnh1SVpxbTZCWUwtelFqbFV6LTNLVHZZbGRaYTVucy1VT1JwNDZPM3gydkZRU2VCWHFoVnpTVU9ILXlfRHpKMnBsT3RJOUlkejRzT1FJa25YekFnMVl6dUJnbERxeXo1UnpOZTVaQ281aFJrbjFEWmN3T2c?oc=5",
+   "ts": "2026-09-08T01:49:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "英首相与特朗普讨论乌克兰停火",
+   "brief": "英国首相伯纳姆与特朗普就乌克兰-俄罗斯停火进行讨论，寻求外交解决。",
+   "chain": "俄乌和谈进展→地缘风险缓和→利好全球风险资产及A股情绪。",
    "impact": 7,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSDNtVzFxN3MtVEs4UWxoWnA0ekJKVC1EWThJR1hiQ2FvN1d2LU40NXRDaUJGMGRLeF9KaHY1R3dTSmdTRHhHdG9uNTIzZXRRRWVoWW43d0dxM3ZoSTNMM2xEQlhlV011OWlpSHdxTDlmWjl4MW9VQ1ktN3hqU3lEU3dnVUV3XzQzWGZjU3ZBNnNBQVhOek9OeHZ1WnFZb2RacWhmVXdiSGM5Q3FwbmFtcGN6OTJpZF9kNk5YWGladzg?oc=5",
-   "ts": "2026-09-07T06:48:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWmxrUWIzN25kQzlJZVBjcy11SXlFeWJQZElmWi1ocVU1Qm94T2w3OXV4djNYd2JKTEE0QTFaeWVvQ2I4MmZZOEhwZVc2U1JmUEJTbXQ4SjdBb3lYNklqZDZJZ2s5MndibnlnMGw2YVJZWnB3R2MxWVNoWTlSSFlHNDFKdWd0STNGRFBselBtUDVrbGlsLUthbl9iQTFTMkFNYXhxUGJJWjJrT0oyNjFfRlJKNV9wWUE?oc=5",
+   "ts": "2026-09-07T17:11:31+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "英国加入制裁以色列 更多欧洲国家或跟进",
+   "brief": "英国宣布制裁以色列约旦河西岸定居点贸易，欧洲多国可能跟进。",
+   "chain": "欧洲制裁以色列→中东局势复杂化→影响油价及A股相关板块。",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609083868191986.html",
+   "ts": "2026-09-08 19:06:21"
   },
   {
    "cat": "oil",
-   "title": "高盛警告若袭击加剧油价或达120美元",
-   "brief": "高盛报告称，若中东船只袭击加剧，油价可能升至每桶120美元。",
-   "chain": "地缘风险溢价→油价上行风险→莫桑比克油气项目经济性提升",
+   "title": "胡塞袭击沙特能源设施 油价创多周新高",
+   "brief": "胡塞武装袭击沙特能源设施后，油价升至数周高位，布油逼近100美元。",
+   "chain": "中东供应中断→油价上涨→利好莫桑比克油气出口收入，但增加经营成本。",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNTBHazRJMEhoZks2V2o5M2loY0UtV3pnUjMweXB6cXZuVjQtYmhTWV9oSnF0cDhRZGVybzBuNk9fYWRJU1diemp5VDFxZWdHYy16a0ctWG9ob0JfMUZqRTIwRnoyeHhxckI4NFZCVmM1MGVRaDFPeWh0MVFKTXYyVURKSWdJZGJ5ZWZWYzdHanhyQTBNTGYyRWF6bXVWSDRZdXdYN0pWdURYU0p6Z1lkVzlRWlF4UEIyY1E?oc=5",
+   "ts": "2026-09-08T10:06:10+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "霍尔木兹海峡通行放缓 伊朗威胁报复",
+   "brief": "伊朗威胁报复美国袭击，霍尔木兹海峡交通放缓，全球油运担忧加剧。",
+   "chain": "海峡风险→油运成本上升→影响莫桑比克LNG出口物流及保险费用。",
    "impact": 8,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQR01kWlp4MnIxcG5yY0dWZ2NNX3FRVHV5Ny0yNG5kNGFQdVFYbmxoaXZIZ2t1WjExSU8zTDUzNXI4RDY0VVlVZ2RXSTZpSmFjWHRyMWcwdERLSl8weTEydUwyb0pHM3E3S3NKalpHUVdHR3R0ZUlRZDZjZzRRc1dqRWQ2cEpGMFVwMk0xNDRTZ2ZaemlwanlWeENGU2VNSjQ3cFBxLXZ1blhrSU4xS3ctRFc5RlJnb19LVVM5MTZHY0R0NE8wdHljTmlTaw?oc=5",
-   "ts": "2026-09-07T05:49:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPLVZqbU1CYlBIcWpOcEhmWWNHbk1PaUxMa1REWVpsUnpHcEgySUVnWDZ5cFJJbG9tZ1IyV1A1UXFocFEzQkRZVmNNWVNkVlEzZWc4TExyVnNvdWJ2Tjg3a0swQUlKbXo3VzlncDNqZ2w2MUJVLVpJRVBFcXdlR3lpSW5CMVZneGtYcG51MWJZSkpLZmhpSzlrLUNoUXFXTlhQSm8xS25kdEhKM1VOa2pFdV85dnBRNENqWXc?oc=5",
+   "ts": "2026-09-08T02:53:00+00:00"
   },
   {
    "cat": "oil",
-   "title": "供应中断下油价为何未破百？",
-   "brief": "分析指出尽管供应中断，但需求疲软和储备释放抑制油价突破100美元。",
-   "chain": "供需博弈→油价短期承压→莫桑比克LNG需关注长期合同定价",
-   "impact": 6,
+   "title": "阿联酋称能源出口不受伊朗战争挟持",
+   "brief": "阿联酋表示其能源出口不会因伊朗战争而受阻，强调供应安全。",
+   "chain": "阿联酋稳定供应→缓解市场担忧→对油价影响有限，但支撑东非能源信心。",
+   "impact": 5,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbEwxQTVrUWVzenpNQVoxdkFTWDRCckVzNmNFR1B4bTJoSDhOVTZZZVlFb2FjMHdGWFU2WlpfbmE2eksxeXBSM1hhcnZwSDUyTVJ3M2dJaUtqejdmY3FBSWRvZmFkOVVGeVdZbmFrTUlpZ0lIWTdCYTdpcUx5MHV3ZFBnSFE3dGV4cG9JYWlpR2J5MDE0WjdueUV3V1FkaEc5ZUlR?oc=5",
-   "ts": "2026-09-08T02:00:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX2k1aEFKNWUzaXRzZXlkTVZNb3MyOTZoSjBoa2N5Zmtpd1Z2VVRWbV9JcnNHN0hkS1ZPRXEyb1UxdGMzN1pFNUFCUmpPVTNvQndsa3c1TzBwNEVvVXNLVXZjNGVnbzF6TUdGS2N5SVdLT2k2Nlk1TmREb0ZlTVp1cGlLRzJTMWJqLTN4VVRiY2s1emV6YldrQnJHQWRmZFBKRUdDalJjb1lFM1NxaHI2eDdWWFN1R0tydFJYOUh3Z0phb0paZUNRMw?oc=5",
+   "ts": "2026-09-07T13:13:23+00:00"
   },
   {
    "cat": "gas",
-   "title": "我国首制88000方超大型液化气船完工",
-   "brief": "中国首制88000立方米超大型液化气体运输船完工，提升LNG运输能力。",
-   "chain": "LNG运输能力提升→全球LNG贸易效率提高→莫桑比克LNG出口物流受益",
-   "impact": 5,
+   "title": "全球航运机构警告贸易中断风险",
+   "brief": "全球航运机构警告地缘动荡可能导致海上贸易中断，影响能源运输。",
+   "chain": "航运中断风险→LNG运输成本上升→影响莫桑比克LNG出口的可靠性与成本。",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/08/global-shipping-iran-war-hormuz-rules.html",
+   "ts": "Tue, 08 Sep 2026 07:28:41 GMT"
+  },
+  {
+   "cat": "gas",
+   "title": "中卡经贸会谈 深化能源合作",
+   "brief": "中国商务部副部长李成钢会见卡塔尔外贸大臣，讨论双边经贸及能源合作。",
+   "chain": "中卡合作→LNG供应多元化→对莫桑比克LNG项目竞争格局影响有限。",
+   "impact": 4,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609083868052514.html",
-   "ts": "2026-09-08 16:05:12"
+   "url": "https://finance.eastmoney.com/a/202609083868231042.html",
+   "ts": "2026-09-08 19:44:42"
   },
   {
    "cat": "tech",
-   "title": "比利时拘留涉芯片间谍中国男子",
-   "brief": "比利时以半导体间谍嫌疑拘留一名中国男子，凸显科技安全紧张。",
-   "chain": "科技安全摩擦→半导体供应链担忧→A股国产芯片替代逻辑强化",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObmNUMkNpaHRGSU5YVjBwaUs2elJrS0YyY2xNT1BpV2lha2JNSVdmZUNoUzRmUmQ1UVFGTjQ2UnZVWlUtcjkxV1B3YzZtWUJyNTExemVaTHdCVUhPVWVCSFItX2NCQUtnYmFwUlZ5ektQcDhQT0lteHN5WEd0ZG5rYXFpQVBSNmVNbFNCRS1YT2ZTeGVSbmVtYlJWYTQtQVE4QTBUSUlZZ3hWdHVlNnc?oc=5",
-   "ts": "2026-09-07T09:15:47+00:00"
+   "title": "ASML开建第二大型园区 应对AI需求",
+   "brief": "ASML在荷兰开建新生产园区，以跟上AI热潮带来的需求增长，预计2029年完成第一阶段。",
+   "chain": "ASML扩产→半导体设备需求强劲→映射A股半导体设备及零部件链。",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609083868213189.html",
+   "ts": "2026-09-08 19:30:28"
   },
   {
    "cat": "tech",
-   "title": "英伟达供应商纬创宣布全球售股",
-   "brief": "纬创宣布15亿美元全球股票出售，股价下跌，影响AI硬件供应链。",
-   "chain": "供应商融资→AI硬件股波动→A股算力链情绪或受拖累",
+   "title": "台积电三星采用ASML最新工具",
+   "brief": "台积电和三星承诺采用ASML最新芯片制造工具，AI需求驱动先进制程投资。",
+   "chain": "先进制程投资→利好ASML及产业链→映射A股光刻胶、零部件等。",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/08/tsmc-samsung-asml-high-na-euv-machine-ai-chips.html",
+   "ts": "Tue, 08 Sep 2026 08:32:02 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "纬创宣布15亿美元增发 股价下跌",
+   "brief": "英伟达供应商纬创宣布15亿美元全球股票增发，股价下跌。",
+   "chain": "纬创增发→稀释股权→影响AI硬件供应链情绪，映射A股代工链。",
    "impact": 5,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/09/08/nvidia-supplier-wistron-share-sale.html",
@@ -114,103 +152,33 @@
   },
   {
    "cat": "ai",
-   "title": "英伟达系Firmus与OpenAI签马来西亚数据中心协议",
-   "brief": "英伟达支持的Firmus与OpenAI签署协议，提供马来西亚数据中心容量。",
-   "chain": "AI算力需求扩张→数据中心投资增加→A股IDC及光模块板块受益",
+   "title": "Mistral获240亿美元估值 三星领投",
+   "brief": "欧洲AI冠军Mistral获三星领投，估值达240亿美元，AI投资持续火热。",
+   "chain": "AI大模型融资活跃→提升AI产业景气→映射A股AI应用及算力链。",
    "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/08/mistral-ai-funding-valuation-samsung.html",
+   "ts": "Tue, 08 Sep 2026 07:27:06 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达系Firmus与OpenAI签马来西亚数据中心协议",
+   "brief": "英伟达支持的Firmus与OpenAI签署马来西亚数据中心容量协议，扩大AI算力。",
+   "chain": "AI算力需求扩张→数据中心建设加速→映射A股IDC及光模块链。",
+   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTEl5UFVvaWZBUmFEZkVObFBBRVk3MHRBV29pSnoxSDJXSFVxUTl0SGR6NjdlamEyWUF5WF9LQW5nWVFRUTZhTnRjalplVWVEc3NPTEk4NllZR1B6VWVJbE1UaDlPLUFycVpRenZNRWRnUGlvREIyNy1kLUYyVTl0WU9IaG91MlV2dFpfYnpUNk1idFVMbmI0T2pmWHRWalY3UHRvMU1aazJhejh2eGJnS1pqUXpnNWdXY2k4THEzdV82OURFWjFz?oc=5",
    "ts": "2026-09-08T01:40:00+00:00"
   },
   {
    "cat": "ai",
-   "title": "DeepSeek V4.1 Flash开启内测",
-   "brief": "DeepSeek V4.1 Flash中间版本内测，采用新结构，原生多模态，速度更快。",
-   "chain": "国产大模型迭代→AI应用成本降低→A股AI应用及算力链受益",
+   "title": "甲骨文盘前涨超5% 业绩预期乐观",
+   "brief": "甲骨文美股盘前涨超5%，市场对其云业务和AI相关业绩预期乐观。",
+   "chain": "甲骨文上涨→云与AI需求强劲→映射A股云计算及AI算力链。",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609083868029490.html",
-   "ts": "2026-09-08 15:46:24"
-  },
-  {
-   "cat": "ai",
-   "title": "Mistral获三星领投估值240亿美元",
-   "brief": "欧洲AI公司Mistral获三星领投，估值达240亿美元，巩固欧洲AI地位。",
-   "chain": "欧洲AI融资活跃→全球AI竞争加剧→A股AI算力链关注国产替代",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/08/mistral-ai-funding-valuation-samsung.html",
-   "ts": "Tue, 08 Sep 2026 07:27:06 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "加拿大对美报复性关税生效",
-   "brief": "加拿大对美276亿美元报复性关税生效，贸易摩擦加深。",
-   "chain": "贸易摩擦升级→全球增长担忧→A股出口链承压",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html",
-   "ts": "Tue, 08 Sep 2026 07:00:25 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "中国8月进口不及预期",
-   "brief": "中国8月进口数据低于预期，引发对贸易再平衡的呼吁。",
-   "chain": "内需疲弱→进口数据不佳→A股顺周期板块承压",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/08/china-exports-imports-august-trade-rebalance-demand-surplus-.html",
-   "ts": "Tue, 08 Sep 2026 04:45:07 GMT"
-  },
-  {
-   "cat": "geo",
-   "title": "英方与特朗普讨论乌克兰停火",
-   "brief": "英国官员与特朗普讨论推动乌克兰-俄罗斯停火，外交努力进行中。",
-   "chain": "停火预期→地缘风险缓和→A股风险偏好或改善",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWmxrUWIzN25kQzlJZVBjcy11SXlFeWJQZElmWi1ocVU1Qm94T2w3OXV4djNYd2JKTEE0QTFaeWVvQ2I4MmZZOEhwZVc2U1JmUEJTbXQ4SjdBb3lYNklqZDZJZ2s5MndibnlnMGw2YVJZWnB3R2MxWVNoWTlSSFlHNDFKdWd0STNGRFBselBtUDVrbGlsLUthbl9iQTFTMkFNYXhxUGJJWjJrT0oyNjFfRlJKNV9wWUE?oc=5",
-   "ts": "2026-09-07T17:11:31+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "英国承诺向乌克兰提供1亿英镑防空援助",
-   "brief": "英国宣布向乌克兰提供1亿英镑防空援助，包括爱国者导弹。",
-   "chain": "西方军援持续→俄乌冲突长期化→全球避险情绪维持",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609083868028483.html",
-   "ts": "2026-09-08 15:45:27"
-  },
-  {
-   "cat": "oil",
-   "title": "阿联酋称能源出口不受伊朗战争威胁",
-   "brief": "阿联酋表示其能源出口不会因伊朗战争而受制，强调供应稳定。",
-   "chain": "中东供应稳定→油价波动受限→莫桑比克LNG竞争环境稳定",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX2k1aEFKNWUzaXRzZXlkTVZNb3MyOTZoSjBoa2N5Zmtpd1Z2VVRWbV9JcnNHN0hkS1ZPRXEyb1UxdGMzN1pFNUFCUmpPVTNvQndsa3c1TzBwNEVvVXNLVXZjNGVnbzF6TUdGS2N5SVdLT2k2Nlk1TmREb0ZlTVp1cGlLRzJTMWJqLTN4VVRiY2s1emV6YldrQnJHQWRmZFBKRUdDalJjb1lFM1NxaHI2eDdWWFN1R0tydFJYOUh3Z0phb0paZUNRMw?oc=5",
-   "ts": "2026-09-07T13:13:23+00:00"
-  },
-  {
-   "cat": "tech",
-   "title": "诺华制药盘前跌超13%",
-   "brief": "诺华制药因一周内第三次临床试验挫折，盘前股价大跌超13%。",
-   "chain": "药企利空→美股医药板块波动→A股医药板块情绪或受拖累",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609083868049215.html",
-   "ts": "2026-09-08 16:02:27"
-  },
-  {
-   "cat": "ai",
-   "title": "荣耀将落地系统级Agent AI助手",
-   "brief": "荣耀计划发布MagicOS 11，实现系统级Agent Harness，可执行上百步任务。",
-   "chain": "端侧AI落地→AI手机趋势→A股消费电子及AI芯片链受益",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609083868052493.html",
-   "ts": "2026-09-08 16:06:40"
+   "url": "https://finance.eastmoney.com/a/202609083868201445.html",
+   "ts": "2026-09-08 19:08:25"
   }
  ]
 }
