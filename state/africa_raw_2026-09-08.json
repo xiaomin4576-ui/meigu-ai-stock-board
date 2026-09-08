@@ -1,28 +1,68 @@
 {
  "asof": "2026-09-08",
- "fetched_at": "2026-09-08T02:26+08:00",
+ "fetched_at": "2026-09-08T12:29+08:00",
  "meta": {
   "counts": {
    "TechCabal": 0,
    "Moonshot·TechCabal": 0,
    "Disrupt Africa": 10,
-   "Techpoint Africa": 0,
+   "Techpoint Africa": 20,
    "IT News Africa": 11,
    "TechAfrica News": 12,
    "Condia": 25,
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
-   "Zimbabwe Situation": 0,
+   "Zimbabwe Situation": 1,
    "African Business": 1,
-   "非洲科技·聚合": 12,
-   "中非科技·聚合": 19
+   "非洲科技·聚合": 13,
+   "中非科技·聚合": 20
   },
   "total": 60,
-  "ai_flagged": 19,
-  "aiinfra_flagged": 5,
-  "countries": 8
+  "ai_flagged": 17,
+  "aiinfra_flagged": 4,
+  "countries": 9
  },
  "items": [
+  {
+   "title": "China's Huawei Technologies faces racketeering trial in New York",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxOQzRmTy0xWThpSDBKbGdOMm5XNUUyLU93T0tPRGJsUlhsQXFWVjZIT2NKVC1rU3VvV2lZWXc2RjRRRkpLSGJ4SlNCdllJa1I1N1ppS3l6cWJNVDN1ZW1SbHBNR3Y3Q05zY21qTFc3T2hjRW9jS3lxaE9Td3Y1ej",
+   "source": "Newsday·聚合",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQzRmTy0xWThpSDBKbGdOMm5XNUUyLU93T0tPRGJsUlhsQXFWVjZIT2NKVC1rU3VvV2lZWXc2RjRRRkpLSGJ4SlNCdllJa1I1N1ppS3l6cWJNVDN1ZW1SbHBNR3Y3Q05zY21qTFc3T2hjRW9jS3lxaE9Td3Y1ejU2aw?oc=5",
+   "date": "Tue, 08 Sep 2026 04:22:41 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "AI finds ZESA blackouts behind nearly 60% of Econet network problems",
+   "brief": "Econet Wireless Zimbabwe is rolling out solar and battery systems across its network after Artificial Intelligence analysis found that power disruptions are behind almost 60% of network faults. The company said prolonged",
+   "source": "Zimbabwe Situation",
+   "url": "https://www.zimbabwesituation.com/news/ai-finds-zesa-blackouts-behind-nearly-60-of-econet-network-problems/",
+   "date": "Tue, 08 Sep 2026 04:06:28 +0000",
+   "country": "🇿🇼 津巴布韦",
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Instarc bags €1.25m to crack South Africa’s compliance market",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxOVW9VMTZFb3lnN2hIa0dZRlhKcG5SRzNkamhLZnFPMVJ0S240TkxTM3dEai1Pcm5vRy1RZVVTb01hX0ZUODNHNG1lYmFxSWhhSlMyZU56c1pSQzZXR2pLUm1hQkZfOVctcnRQTDBzdk5zTjdhNElLc2ZUYWVRN1",
+   "source": "fintech.global·聚合",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVW9VMTZFb3lnN2hIa0dZRlhKcG5SRzNkamhLZnFPMVJ0S240TkxTM3dEai1Pcm5vRy1RZVVTb01hX0ZUODNHNG1lYmFxSWhhSlMyZU56c1pSQzZXR2pLUm1hQkZfOVctcnRQTDBzdk5zTjdhNElLc2ZUYWVRN1pPbnFDY0pDVl9hYW8yaGNoZWdELXFNMXpNUnFfTQ?oc=5",
+   "date": "Mon, 07 Sep 2026 15:52:35 GMT",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "China's Huawei heads to trial in US over sanctions and trade secrets",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTlFjWGxqeE9GNTUySDV5UXQ1OC15WldNUW4yaXRiMkFOS2llV1FLRU1mRkFZVzROR0g5ZmJOdEQ1TnUzalhOR0diY3U1aENkNG9qeGE5TDg3d0xPVzl1RFZjWGxfRkVlZFB1dG9RcmVFaE1zZzg4QXk3elBLaU",
+   "source": "Nikkei Asia·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTlFjWGxqeE9GNTUySDV5UXQ1OC15WldNUW4yaXRiMkFOS2llV1FLRU1mRkFZVzROR0g5ZmJOdEQ1TnUzalhOR0diY3U1aENkNG9qeGE5TDg3d0xPVzl1RFZjWGxfRkVlZFB1dG9RcmVFaE1zZzg4QXk3elBLaUp3NWluRi1OVFFrY3RyNGpDRXBTRGR3RWtrekVENmtYVFZXZ21pdWJyaWJsRFVsZHd1eWdyWk9xUWF0aVdHR3VhZHZrdFYzWHJxeHVEVHpIVnVZQ2lISGY5V1JJQjA?oc=5",
+   "date": "Mon, 07 Sep 2026 15:00:00 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
   {
    "title": "Fortis Digital Solutions and Paymob Integrate SmartPOS to Expand SME Business Tools",
    "brief": "Fortis Digital Solutions,  a UAE-based technology ecosystem that integrates POS, payments, and business management tools, and Paymob,  one of the leading financial services enablers in ......",
@@ -59,6 +99,16 @@
    "source": "TechAfrica News",
    "url": "https://techafricanews.com/2026/09/07/hsbc-kuwait-and-tap-payments-partner-to-launch-merchant-acquiring-solution-for-businesses/",
    "date": "Mon, 07 Sep 2026 14:08:32 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "5 Innovative Products TECNO Displayed at IFA 2026",
+   "brief": "IFA is one of the biggest stages for consumer technology,...",
+   "source": "Techpoint Africa",
+   "url": "https://techpoint.africa/brandpress/5-innovative-products-tecno-displayed-at-ifa-2026/",
+   "date": "Mon, 07 Sep 2026 12:29:45 +0000",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -186,7 +236,7 @@
   {
    "title": "AI Agents Could Change the Face of Service Delivery",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxNa0drWE5pMTViaWlDYWhxWWNqT1hzMXRnX2xQaWl3RUE5cU1qVmpqMmxUY3ByLVhoeGJ4NnRfaUcxQUVoTVJUUlFEZTZ0XzUxVU5GbXMwYmQ1b3VfNGpsMW5hSVpCY1I1YzRTWVd1RENhTnZaOGxsVktGcDFKbX",
-   "source": "SAP News Center·聚合",
+   "source": "news.sap.com·聚合",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNa0drWE5pMTViaWlDYWhxWWNqT1hzMXRnX2xQaWl3RUE5cU1qVmpqMmxUY3ByLVhoeGJ4NnRfaUcxQUVoTVJUUlFEZTZ0XzUxVU5GbXMwYmQ1b3VfNGpsMW5hSVpCY1I1YzRTWVd1RENhTnZaOGxsVktGcDFKbXgxaTZhWmdhelNaVWZBOWhITl9wUQ?oc=5",
    "date": "Mon, 07 Sep 2026 10:10:56 GMT",
    "country": null,
@@ -231,6 +281,16 @@
    "date": "Mon, 07 Sep 2026 11:17:00 +0200",
    "country": null,
    "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "50 Innovators To Receive Over N320M in Funding Through the Federal Government-Backed iDICE Startup Bridge Programme",
+   "brief": "The Founders Lab Cohort 1 programme under the iDICE Startup...",
+   "source": "Techpoint Africa",
+   "url": "https://techpoint.africa/brandpress/50-innovators-to-receive-over-n320m-in-funding/",
+   "date": "Mon, 07 Sep 2026 09:16:42 +0000",
+   "country": null,
+   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -314,6 +374,26 @@
    "is_aiinfra": false
   },
   {
+   "title": "Malaysia Eyes Huawei Chips for AI Project Despite US Warning",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxOMWxzSUktbGpPOEJKdVpIcWtYbjBBTV9XbWJRdDNjbG11VkFwaUw1akUzYnpGSk11djl6ZFJ0VF9Zbnl0XzkwX0RJLXN1ZUdJLWlkeTcwUm9XV0VHM1ZCaVNpb3FJSV8ybE1ORjhwcEpRWFZXX3JrdnZjamYwMU",
+   "source": "Bloomberg.com·聚合",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMWxzSUktbGpPOEJKdVpIcWtYbjBBTV9XbWJRdDNjbG11VkFwaUw1akUzYnpGSk11djl6ZFJ0VF9Zbnl0XzkwX0RJLXN1ZUdJLWlkeTcwUm9XV0VHM1ZCaVNpb3FJSV8ybE1ORjhwcEpRWFZXX3JrdnZjamYwMUU1MEJvRzNhbm43TmxBWS1LZDZTcjNQSXhnTGhuM1EzUlpWdGVNZTdUZVpVWXo4bExLUA?oc=5",
+   "date": "Mon, 07 Sep 2026 07:01:38 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Uber’s $14.8 Delivery Hero deal advances, wins backing for Glovo deal",
+   "brief": "On Techpoint Digest, we discuss Uber's backing for the Glovo deal, the startup that attempted to digitise Danfos, and a Kenyan court's decision to overturn an 18% ride-hailing cap.",
+   "source": "Techpoint Africa",
+   "url": "https://techpoint.africa/insight/techpoint-digest-1426/",
+   "date": "Mon, 07 Sep 2026 07:00:00 +0000",
+   "country": "🇰🇪 肯尼亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "Continuous Facial Recognition technology launches in SA to strengthen in-app security",
    "brief": "Continuous Facial Recognition with Liveness gives companies a way to verify that the right person remains active throughout a digital session, not only at login.",
    "source": "ITWeb Africa",
@@ -344,6 +424,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "The startup that took Lagos danfos cashless paid transport unions in cash, weekly. It wasn’t enough",
+   "brief": "In 2019, a Chinese-backed mobile payments startup put QR codes in Lagos danfos and said it was handling almost 10,000 transactions a day. Within a year it was paying union leaders weekly to stay on the road. It wasn't en",
+   "source": "Techpoint Africa",
+   "url": "https://techpoint.africa/insight/investigation-local-unions-broke-gona/",
+   "date": "Mon, 07 Sep 2026 02:36:00 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "FCCPC opens probe into Uber’s Nigeria exit",
    "brief": "If the FCCPC finds Uber in breach, the commission can impose administrative fines of up to 10% of the company's prior year turnover in Nigeria.",
    "source": "Condia",
@@ -364,6 +454,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "Uber offers Nigerian drivers ₦40,000 ($30.28) each in conditional payouts after exit",
+   "brief": "Following Uber's exit from Nigeria this week, some drivers tell Techpoint they have been paid ₦40,000 ($30.28) each as a 'goodwill gesture'. Not every driver met the bar, and some were paid less.",
+   "source": "Techpoint Africa",
+   "url": "https://techpoint.africa/news/uber-nigeria-driver-payouts/",
+   "date": "Sat, 05 Sep 2026 19:09:05 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "How to apply for the NELFUND student loan 2026: Eligibility, requirements and online application guide",
    "brief": "Learn how to apply for NELFUND student loan 2026, check eligibility, and understand repayment rules.",
    "source": "Condia",
@@ -376,7 +476,7 @@
   {
    "title": "Cardinal Turkson Highlights Technology’s Role in Transforming Africa’s Resources",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPdzF4OEN3bUVrTE1kalBhVVJudUxOSV9wOU1tUDVlVVB5RHFnazdqQkhJVUlTTmJXNUlISlVRMTVIN1lWdk81Y2dZdHdndE1NQ0dxU0o2U2dTWVl3Mzhjb0VBY1p5LU5LbzVVUTJzMlVOY0sza1dTMDB1NUJQVj",
-   "source": "ACI Africa·聚合",
+   "source": "aciafrica.org·聚合",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdzF4OEN3bUVrTE1kalBhVVJudUxOSV9wOU1tUDVlVVB5RHFnazdqQkhJVUlTTmJXNUlISlVRMTVIN1lWdk81Y2dZdHdndE1NQ0dxU0o2U2dTWVl3Mzhjb0VBY1p5LU5LbzVVUTJzMlVOY0sza1dTMDB1NUJQVjBteVMxX0R2NmhCQ3NqR0lid0NjdVQtRjAyRTdwWkhPTVMtdi1UUlJLV0ZRWWdpZ2xhaWVpT1ltZ9IBuwFBVV95cUxOQWUzM0s5TnE2emJBRmNTRnVENGQ1WmJpeGtvMDRqV1l5VnY3ZHJIUEV3UzFZM1hpSTR4WEZuZkhIS3EzSXBDY0Foa295YmFfa09kOWRfWkNvRGdUQ1RuMERMVk5rMXRpMG5lRlFBb1AxT0Q5VnF4bVFYUWtvVmZmX1FKZExVc2gzRHhzVUJLdmF6V2JLdU80MVhVQ3NheWFhaTNnaFVyN3RuMzZzbmtJdlIwWDBvUGQ2T0pj?oc=5",
    "date": "Fri, 04 Sep 2026 22:37:11 GMT",
    "country": null,
@@ -424,6 +524,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "Why Africa is yet to have its own tech billionaire class",
+   "brief": "Africa's tech sector has produced nine unicorns and billions in funding since 2015, yet no founder has become a dollar billionaire. Industry leaders say the answer lies in the structure of African capital markets.",
+   "source": "Techpoint Africa",
+   "url": "https://techpoint.africa/insight/africa-tech-billionaire-class/",
+   "date": "Fri, 04 Sep 2026 12:31:10 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "ITWeb TV: Lelapa AI eyes faster, ambitious growth",
    "brief": "The local AI start-up looks to expand its language base outside of Africa, says co-founder Pelonomi Moiloa.",
    "source": "ITWeb Africa",
@@ -431,6 +541,16 @@
    "date": "Fri, 04 Sep 2026 14:23:38 +0200",
    "country": null,
    "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Uber exits Nigeria but the challenges remain",
+   "brief": "Uber’s departure means one less option for drivers and riders alike. However, the underlying challenges that forced Uber out have not been dealt with.",
+   "source": "Techpoint Africa",
+   "url": "https://techpoint.africa/insight/uber-and-nigerias-mobility-economics/",
+   "date": "Fri, 04 Sep 2026 11:26:04 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -474,6 +594,16 @@
    "is_aiinfra": true
   },
   {
+   "title": "BRICS Strengthens Africa’s Opportunity to Harness Finance, Technology and Strategic Partnership — Ethiopian Envoy",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTmJELVNib3ZlQTU3SDBBMVBZZnhpdHZVTUFnSWI0LVpZbnVUX201NFlienhzSkx4THhQQTl4TTZLLU1GNXpWZ0ppR2pvTDR2eHdpRGk1TXE2V1BfT0E0U1lJckFUZWJEdFpQRHZRcUpLVDI5dzhpbXRzRUd4aU",
+   "source": "Fana Media Corporation S.C·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTmJELVNib3ZlQTU3SDBBMVBZZnhpdHZVTUFnSWI0LVpZbnVUX201NFlienhzSkx4THhQQTl4TTZLLU1GNXpWZ0ppR2pvTDR2eHdpRGk1TXE2V1BfT0E0U1lJckFUZWJEdFpQRHZRcUpLVDI5dzhpbXRzRUd4aUJlbzJBNUVCemRzS3hLd1V1Ylh3NDAzRGJPa3pFVGRkeGg4VDVOY2pfVEcyT0VSTHhUMnRsVHBnWi12dGNGNEJFUVNYcEZOX0Fqemd2UEprOEhvMGZ2d01ESzk?oc=5",
+   "date": "Fri, 04 Sep 2026 08:57:43 GMT",
+   "country": "🇪🇹 埃塞俄比亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "Grants or equity? What female founders need to know about raising capital in 2026",
    "brief": "Female founders face a funding gap, but understanding how to grants and equity boosts their chances of success.",
    "source": "Condia",
@@ -491,136 +621,6 @@
    "date": "Fri, 04 Sep 2026 09:12:55 +0200",
    "country": null,
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Implats Pushes AI as it Addresses Cyber Breach",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVTFYS1g0ZWFuaXdtaTFUbDZFWHB2WWd5M1VOeW54cXpWak01RVFEVEM2TXNuR24xaThHUEV6cFYyalNmb01jZy1SRXNXOTNHU2dDNndVejRndExKdUYzUUtsUm1lX0hTaEpPQTA3cl9XX3hKTWhiQld6NHctaD",
-   "source": "SAP News Center·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVTFYS1g0ZWFuaXdtaTFUbDZFWHB2WWd5M1VOeW54cXpWak01RVFEVEM2TXNuR24xaThHUEV6cFYyalNmb01jZy1SRXNXOTNHU2dDNndVejRndExKdUYzUUtsUm1lX0hTaEpPQTA3cl9XX3hKTWhiQld6NHctaDBDR3lvUmd0R2JFQTFZ?oc=5",
-   "date": "Fri, 04 Sep 2026 07:09:57 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Supplier to Airtel Africa’s 42MW Nigerian data centre strikes AI power deal worth up to $2.6 billion",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVGtWM0Y0TlFfTUxPWks4UzN4OFZtNjlhc1kxUnROZmZRWC1ORXRMa0pZbzYyam1mRnVaRmc3SnZ1V2UxZFB0LTV5SFNPRGxnd2Fic3B0YlZ1QVhyUmtVc3JDelBIa3hCYzB1dDg5MzgwR0k1alJPZktDLTBrZj",
-   "source": "Business Insider Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVGtWM0Y0TlFfTUxPWks4UzN4OFZtNjlhc1kxUnROZmZRWC1ORXRMa0pZbzYyam1mRnVaRmc3SnZ1V2UxZFB0LTV5SFNPRGxnd2Fic3B0YlZ1QVhyUmtVc3JDelBIa3hCYzB1dDg5MzgwR0k1alJPZktDLTBrZjRUMDF4bkhUYVU5ZDZub3pXZGJ6S0d0WlNmLS1SQ1hvSmhJRU9mb3VDMmRFYnRfTmZ0SnZJUE9vSWVOa3BaeGxXVlFpdnhLZ05oWXR3QU5nSlpmQXk5Y252QQ?oc=5",
-   "date": "Fri, 04 Sep 2026 04:00:00 GMT",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": true,
-   "is_aiinfra": true
-  },
-  {
-   "title": "Open-Weight Diplomacy: How China’s AI Models Are Rerunning the Digital Silk Road",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQX2w3bmJVQnk1UGpfQXI1RTdacnc3d2lMX2Frdlh0UEtSS1JQSjAxaXJocnFLRDIwZ3JJeDNzWHVzMXJFWmVTcFZJdXgxdkoxakdqN0Fqa0IzUEs5WDhhYmRmc0JINzZWNGN1aGY0d1RRVnZ4T0g1N0VUaFV6Sl",
-   "source": "Lawfare·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQX2w3bmJVQnk1UGpfQXI1RTdacnc3d2lMX2Frdlh0UEtSS1JQSjAxaXJocnFLRDIwZ3JJeDNzWHVzMXJFWmVTcFZJdXgxdkoxakdqN0Fqa0IzUEs5WDhhYmRmc0JINzZWNGN1aGY0d1RRVnZ4T0g1N0VUaFV6SlVLSU9DZlhlaEd3NnZYSzBQMHowTEhFeG12eGowZ0RSRlZVQXZYVE1vUDVWRGhGcTdWa2c2Rk9DXzlW?oc=5",
-   "date": "Thu, 03 Sep 2026 17:00:27 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Focus On: AI, Foldables & the new Smartphone Economy",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOUkxEbk9IaGN0U3BGTVZUVHdmMVpvUTROb0NhTXBKUUl1VTJ1dlAyUDhlNFFtS1RtcGxxN2hJejJSUERnUU55UVhyNWY5czhQV0lMZG5jYlI5WEs4QlBlVDdGbWQ0Y2c1aVpyejlIQ3lqNHc5RExjRUVJZkpqZV",
-   "source": "CNBC Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUkxEbk9IaGN0U3BGTVZUVHdmMVpvUTROb0NhTXBKUUl1VTJ1dlAyUDhlNFFtS1RtcGxxN2hJejJSUERnUU55UVhyNWY5czhQV0lMZG5jYlI5WEs4QlBlVDdGbWQ0Y2c1aVpyejlIQ3lqNHc5RExjRUVJZkpqZVVHRDNGMl8yLTB1SUVnUHU2Z2lPSTcxdjdTOQ?oc=5",
-   "date": "Thu, 03 Sep 2026 15:02:57 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "How Uber rewired Nigeria’s transport before leaving a heavy debt",
-   "brief": "Uber had already left Ivory Coast in 2025 and Tanzania in January 2026, and it now keeps only 4 markets on the continent.",
-   "source": "Condia",
-   "url": "https://thecondia.com/uber-exits-lagos-transportation-legacy/",
-   "date": "Thu, 03 Sep 2026 14:16:01 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Chinese businesses of all stripes are turning to Huawei",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQd09qR1lBVmNFUHhxZkRNYTE2enNDa2djNENmS051b25ONG5FSGRVLWFESWpmRUhXVjZXbS1qTGZDWmNCUlduWTZPc0NvTnhRRHlVWmJ5MUdQM0RhT1ZzY3JmdVRPUlRydmswQVl2Z1lJNlY5X3hKVnRlZmhiaz",
-   "source": "The Economist·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQd09qR1lBVmNFUHhxZkRNYTE2enNDa2djNENmS051b25ONG5FSGRVLWFESWpmRUhXVjZXbS1qTGZDWmNCUlduWTZPc0NvTnhRRHlVWmJ5MUdQM0RhT1ZzY3JmdVRPUlRydmswQVl2Z1lJNlY5X3hKVnRlZmhiazEwTzBwOTNmRVFPQklvZXoyWEFyMDJrZzRGMFZKZi1MQ29Qd1Rn?oc=5",
-   "date": "Thu, 03 Sep 2026 13:08:54 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "South Africa-Based Organization Using Technology To Transform Health and Wellbeing for Girls Backed by Melinda French Gates' Initiative",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVnMweUE0V0JKcWpXS0N1ZmlBLV9hRlZIVG1Iai1tSXRYTVFCZVVGZlBEc0NfYkhBZXFFcU52aUd2d05pM2ZyWC13cVdyaThFNmQyLXZmc0Nfb2I3LUh3SUVXT1NaM0diYXMtLTJ4RFNobnk4S2sxWmwxcjN6N3",
-   "source": "Business Insider Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVnMweUE0V0JKcWpXS0N1ZmlBLV9hRlZIVG1Iai1tSXRYTVFCZVVGZlBEc0NfYkhBZXFFcU52aUd2d05pM2ZyWC13cVdyaThFNmQyLXZmc0Nfb2I3LUh3SUVXT1NaM0diYXMtLTJ4RFNobnk4S2sxWmwxcjN6N3ZRV19xZ254VndiOGNHTk5TZ0JEbmdwTDVmUjBqRkxpVUpnZmJWc1lsVGtSWHNwcUxwaEZGYlF3VmN0NjlDcjF3cGNQejg5NGV1WGRnNmIxOHo1QmhXY2I2MEI?oc=5",
-   "date": "Thu, 03 Sep 2026 12:01:12 GMT",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Ghanaian remittance startup Seevcash gets funding from Stellar",
-   "brief": "Seevcash, a remittance and peer-to-peer money transfer platform serving diaspora communities between Ghana and the United States, has raised US$333,000 in funding.",
-   "source": "Condia",
-   "url": "https://thecondia.com/seevcash-raise-funding/",
-   "date": "Thu, 03 Sep 2026 11:43:17 +0000",
-   "country": "🇬🇭 加纳",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Nomba raises $3M to strengthen its cross-border payments expansion using DRC as a base",
-   "brief": "Nomba has raised $3M funding to scale its cross-border business from $480M to $1B monthly, starting with DRC, then Zambia and Uganda.",
-   "source": "Condia",
-   "url": "https://thecondia.com/nomba-3m-debt-cardinalstone-finance-drc/",
-   "date": "Thu, 03 Sep 2026 11:08:42 +0000",
-   "country": "🇺🇬 乌干达",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "OPay reportedly applies for digital banking licence in Egypt",
-   "brief": "OPay reportedly recorded significant growth in its 2025 financial year, with revenue increasing 161% to $536.25 million and net profit reaching $72.47 million.",
-   "source": "Condia",
-   "url": "https://thecondia.com/opay-reportedly-applies-for-digital-banking-licence-in-egypt/",
-   "date": "Thu, 03 Sep 2026 11:03:00 +0000",
-   "country": "🇪🇬 埃及",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "7,140 freelancers, 281 jobs: The challenge facing Kenya’s digital work economy",
-   "brief": "WorkKE's funnel points toward a demand problem more than a skills problem.",
-   "source": "Condia",
-   "url": "https://thecondia.com/workke-kenya-digital-work-marketplace-demand-gap/",
-   "date": "Thu, 03 Sep 2026 09:50:40 +0000",
-   "country": "🇰🇪 肯尼亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "ZAWYA: Africa has solved the hard fintech challenge",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNaS1QZi1OT3ptbWdLVTM4aHQxX1MxSUVfdFdpU1dLX2tOLTJUWFlJQXBJX1BiWDNRTDhYVU5MS3k2QUx3dmowTUVCVU9UTUVPRkUtYnROejUtbGhVQlpacWkzbUZPZ2tCRlJvaTkzZmx5bjJ1V3Y5UjRJaWcyWT",
-   "source": "TradingView·聚合",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaS1QZi1OT3ptbWdLVTM4aHQxX1MxSUVfdFdpU1dLX2tOLTJUWFlJQXBJX1BiWDNRTDhYVU5MS3k2QUx3dmowTUVCVU9UTUVPRkUtYnROejUtbGhVQlpacWkzbUZPZ2tCRlJvaTkzZmx5bjJ1V3Y5UjRJaWcyWTZ0RTNDTEJGQ2dtUng4ZTAtUzYxaXB4VmZobWxMdHkwb0NNR0tKZU5QUkxiclBNTmxEOHVrajlaemFoSlVCaTBtQmlmOXRQ?oc=5",
-   "date": "Thu, 03 Sep 2026 08:12:24 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Mobile money operators shift focus from access to usage as Africa's fintech sector matures",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTzg5VnNyMWU3RkYyTks3UTVBS0hiMEtmcVpKUktpN1VlVUVHbUhWT2xNUXpKRDFldXdNbzlPSDU5VE5YLTNSem1WMXlfb2xoRWpfamhCcUhUVzhzLWdlcW5LZW4tNWF1RXRINDRYQjdrMVdRdmlySWJVME14VG",
-   "source": "Africa Business Communities·聚合",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTzg5VnNyMWU3RkYyTks3UTVBS0hiMEtmcVpKUktpN1VlVUVHbUhWT2xNUXpKRDFldXdNbzlPSDU5VE5YLTNSem1WMXlfb2xoRWpfamhCcUhUVzhzLWdlcW5LZW4tNWF1RXRINDRYQjdrMVdRdmlySWJVME14VGRINVlONGRuLU5XNTFlMXhVcFZLUFF1OFdjbGhOUHFQVS11TnF1aXhPeU8wWjBfazJsdjdWX0ZWeG1NRTYxUlZQOHl2azNSUUVGTzhZR3dqU1lpeXc?oc=5",
-   "date": "Thu, 03 Sep 2026 06:46:22 GMT",
-   "country": null,
-   "is_ai": false,
    "is_aiinfra": false
   }
  ]
