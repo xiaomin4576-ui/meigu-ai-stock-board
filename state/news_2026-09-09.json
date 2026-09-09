@@ -1,26 +1,22 @@
 {
  "asof": "2026-09-09",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-09-09T14:41+08:00",
+ "generated_at": "2026-09-09T16:18+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 4,
-  "cluster_label": "中东/也门/伊朗",
+  "cross_day_suppressed": 3,
+  "cluster_label": "伊朗/霍尔木兹",
   "cluster_dropped": [
-   "英国立法加强对伊朗核计划的制裁",
-   "科威特石油提供霍尔木兹外船对船转运选项",
-   "油价触及六周高位，胡塞武装袭击沙特设施",
-   "霍尔木兹海峡航运量低于10日均值",
-   "胡塞武装：伊朗在也门的盟友"
+   "英国立法加强对伊朗制裁"
   ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "geo",
-   "title": "伊朗袭击约旦美军基地及霍尔木兹船只",
-   "brief": "伊朗袭击约旦美军基地，并在霍尔木兹海峡附近袭击船只，此前有油轮被击沉。中东局势急剧升级。",
-   "chain": "地缘冲突升级→避险情绪升温→美股承压，A股军工、黄金股或受关注。",
+   "title": "伊朗袭击美军基地及霍尔木兹船只",
+   "brief": "伊朗对约旦美军基地及霍尔木兹附近船只发动袭击，此前油轮被击沉。",
+   "chain": "美伊冲突升级→油价跳涨→A股油气及航运板块波动",
    "impact": 10,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZ2FPaUNRYjRBWnd2cmxkT044cmZYbENZYnhTWXAzUGxadUpEZ3N3aHpVSEtodVVsWUt6djBaeFhjUm5JOGVrNEE1SXlaUkxoSzBVaUpaWjZTdkdXZzItRTFOaGtMZWVtbEhpdUFSUWgwczNXa2VqZ3ktdzVhajBmYllFNVJIaUxnMDBLazE4S0VSTzZSbVFxMDZSUVY4aHIxVmhkcUpZeF85TzZYV2tqWkE5bVNWM29qWlE?oc=5",
@@ -28,153 +24,163 @@
   },
   {
    "cat": "oil",
-   "title": "油价逼近100美元，中东袭击引发供应担忧",
-   "brief": "新一轮中东袭击引发供应风险，油价逼近100美元/桶。市场担忧霍尔木兹海峡供应中断。",
-   "chain": "地缘冲突→油价上行→莫桑比克LNG出口受益，但需关注运输风险。",
-   "impact": 10,
+   "title": "布伦特原油逼近100美元",
+   "brief": "美伊相互打击引发供应担忧，布伦特原油徘徊在100美元附近。",
+   "chain": "地缘风险溢价→油价高位→莫桑比克LNG项目经济性提升",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/09/oil-prices-today-wti-brent-us-iran-hormuz-attacks.html",
+   "ts": "Wed, 09 Sep 2026 08:16:39 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "中东新打击推油价近100美元",
+   "brief": "中东新一轮打击增加供应风险，油价接近100美元。",
+   "chain": "供应风险→油价上行→东非油气出口受益",
+   "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUzVwcURFOW5QT2VTVW5YdFV2a2NPRGh1YkFoaTV2VUE0MXhES2gwR1ptSldNN29OZUZOLUQ2NlFUZUNpYjRFV25nTTR5cW03ZEFmX1BzMzViNGI5VXhWMWhtZHU1SDNxQ1Iyc2lDcEZOYnVpU3JMUVE4Uk9IUkVyYUdjd2ppV01LbDZESEQzWDBaZHZyOEpCem9yRkw0YUhnTVpuSVlzc01jVWszdVJSWg?oc=5",
-   "ts": "2026-09-09T02:28:22+00:00"
+   "ts": "2026-09-09T00:23:00+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "霍尔木兹航运量低于均值",
+   "brief": "数据显示霍尔木兹海峡航运量低于10日均值，通行受阻。",
+   "chain": "海峡通行受阻→LNG运输成本升→莫桑比克LNG出口或受影响",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbXlWYlQ0MW1KT1g0U01lVldVbGtRWFU5U1FNVDllbEIwU3U2WElRSmw5QUg2Q2w3TUVUNDBUdWRSNWx1emlYRXdjLXY2NFk2VVgzTWExUHM0TTBHRGxKdlJ6Y0tPSUlvTXFoQzU5THV6b2dLbExKbkxaV1VtamZkRkdkMnpZTlAwNXlxVUxnNkZOdzRwX0MyTUNvN1lWVTV5WmtCX01iSmR2QkdESzl4VWlwbndRVkNfQUVBZm9DdDFFc1BK?oc=5",
+   "ts": "2026-09-09T02:08:00+00:00"
   },
   {
    "cat": "macro",
-   "title": "现货黄金站上4400美元，伦铜创历史新高",
-   "brief": "现货黄金涨超1%报4400美元/盎司，伦铜再刷历史纪录，有色板块全线爆发。避险与通胀预期升温。",
-   "chain": "金价异动主因避险+实际利率预期→美股AI高久期估值承压→A股算力链情绪受抑。",
-   "impact": 9,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609093869237970.html",
-   "ts": "2026-09-09 14:16:48"
+   "title": "日元坚挺美元走弱",
+   "brief": "油价逼近100美元抑制风险情绪，日元兑美元走强。",
+   "chain": "避险情绪→美元指数承压→人民币相对稳定，利好A股",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSEotZFlXVDdDeG05cmdnOVhQN0xrYXBpeUhaNDg2ZkQxNkdEZ0k2aVp6ZThfRWMwaHk4TUVPcTh1NHJ2S2VmQk1hZWdqM1Y2cXpqeGwtdHgxN291b0F2OGc3SGZMV0F2RUktY2g3RE1uVzhLSXVQMWc1OE9hSXhjNmxSTktoY2o3Uy01SjRYUVg1NjUxVHRPMndmODlpWW5OdEpPaUFpQjd3MHhfcmIxWGpZWFFhRnBSeEtIRFdDTTI?oc=5",
+   "ts": "2026-09-09T01:59:00+00:00"
   },
   {
-   "cat": "macro",
-   "title": "美财长：3%增速可化解债务压力，否认美债信用担忧",
-   "brief": "美国财长贝森特表示，依托3%的GDP增速可通过经济增长解决债务问题，否认美债信用担忧。",
-   "chain": "财长表态安抚债务担忧→美债收益率或稳→美股科技估值压力缓解→A股算力链情绪改善。",
+   "cat": "ai",
+   "title": "DeepSeek将发布V4.1 Flash模型",
+   "brief": "DeepSeek计划9月10日前后正式发布V4.1 Flash模型，已完成内外部测试。",
+   "chain": "国产AI模型迭代→算力需求提升→A股算力链受益",
    "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609093869251814.html",
-   "ts": "2026-09-09 14:34:34"
+   "url": "https://finance.eastmoney.com/a/202609093869332528.html",
+   "ts": "2026-09-09 16:12:40"
   },
   {
-   "cat": "macro",
-   "title": "中国8月PPI超预期，CPI符合预期",
-   "brief": "中国8月批发通胀超预期，受大宗商品成本和技术需求推动；消费者价格涨幅符合预期。",
-   "chain": "中国PPI回升→企业盈利预期改善→A股周期与科技板块受益。",
-   "impact": 7,
+   "cat": "ai",
+   "title": "谷歌投资150亿美元建AI基础设施",
+   "brief": "谷歌在“欧洲德州”投资创纪录的150亿美元用于AI基础设施。",
+   "chain": "海外AI资本开支持续→光模块/服务器需求旺→A股算力链",
+   "impact": 8,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/09/china-cpi-ppi-august-oil-prices-tech-manufacturing-.html",
-   "ts": "Wed, 09 Sep 2026 03:07:32 GMT"
+   "url": "https://www.cnbc.com/2026/09/09/google-finland-ai-infrastructure-investment.html",
+   "ts": "Wed, 09 Sep 2026 08:17:46 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Cramer：英伟达博通受益OpenAI新模型",
+   "brief": "Cramer称英伟达和博通从OpenAI新模型Astra的成功中受益。",
+   "chain": "AI模型能力提升→算力需求增长→A股AI芯片及服务器链",
+   "impact": 7,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/08/cramer-says-these-2-stocks-are-big-winners-from-openais-new-model-release-.html",
+   "ts": "2026-09-08T16:41:42+00:00"
   },
   {
    "cat": "tech",
-   "title": "AI基础设施股因高通、康宁交易上涨",
-   "brief": "高通和康宁宣布交易，AI基础设施股票上涨。市场对AI硬件需求持续看好。",
-   "chain": "AI基础设施需求→美股科技股受益→A股算力硬件链（如光模块）联动。",
-   "impact": 7,
+   "title": "AI基础设施股因交易上涨",
+   "brief": "高通和康宁的交易公告推动AI基础设施相关股票上涨。",
+   "chain": "科技巨头投资→硬件需求→A股通信及连接器链",
+   "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/09/08/ai-infrastructure-stocks-rally-on-deal-from-qualcomm-and-corning.html",
    "ts": "Tue, 08 Sep 2026 22:02:53 GMT"
   },
   {
    "cat": "tech",
-   "title": "Marvell股价一年涨241%，CEO谈关键原因",
-   "brief": "Marvell股价一年内大涨241%，CEO指出定制芯片和AI需求是主要驱动力。",
-   "chain": "AI芯片需求强劲→美股半导体上涨→A股芯片设计及制造链受提振。",
-   "impact": 6,
+   "title": "小米华为竞逐折叠iPhone",
+   "brief": "中国厂商小米和华为加速布局，以应对苹果传闻中的折叠iPhone。",
+   "chain": "折叠屏竞争加剧→供应链创新→A股消费电子链",
+   "impact": 5,
    "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/08/marvell-shares-soared-ceo.html",
-   "ts": "Tue, 08 Sep 2026 23:07:22 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "小米、华为竞相赶在苹果可折叠iPhone前发布新品",
-   "brief": "中国厂商小米、华为加速推出可折叠手机，以抢在苹果传闻中的可折叠iPhone之前。",
-   "chain": "消费电子竞争加剧→苹果产业链承压→A股折叠屏供应链（如铰链、UTG）或受益。",
-   "impact": 6,
-   "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/09/08/xiaomi-huawei-apple-foldable-iphone.html",
    "ts": "Tue, 08 Sep 2026 20:21:37 GMT"
   },
   {
    "cat": "tech",
-   "title": "特朗普政府表达对福特中国业务的深切担忧",
-   "brief": "特朗普政府就福特与中国的联系表达深切担忧，可能影响汽车业供应链。",
-   "chain": "中美贸易紧张→汽车产业链风险→A股汽车零部件出口链或受波及。",
+   "title": "华为在美就伊朗业务受审",
+   "brief": "华为因在伊朗的业务往来在美国面临审判。",
+   "chain": "中美科技摩擦→华为供应链风险→A股华为概念波动",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYnZfcVJUeEZKOFpSTE5oQk9WTU1GWE5fc1U2R1g3NGFuOGdnNnZfT29tOU4xbmFISzhvd2paSmIyb2Y1V05nTFRjTl9xejZrUGdoSTJHS3prREdOOVlSbkl2UkxFQlk3NFRvM3J6YUdBdklRZ2RmZ3gzVUd2NXFsN01PcUFTXzZmSU1SQ3NUakdWc1MxU2V5N0RGMzd1ejFydDNnR2ptdUlYZw?oc=5",
+   "ts": "2026-09-08T20:00:16+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "特朗普政府关注福特中国业务",
+   "brief": "特朗普政府对福特与中国的联系表示“深切担忧”。",
+   "chain": "中美贸易紧张→汽车产业链→A股汽车零部件",
    "impact": 5,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/09/08/ford-china-dot-sean-duffy.html",
    "ts": "Tue, 08 Sep 2026 21:37:12 GMT"
   },
   {
-   "cat": "tech",
-   "title": "加拿大报复性关税生效，美加贸易裂痕加深",
-   "brief": "加拿大价值276亿加元的报复性关税生效，美加贸易争端升级。",
-   "chain": "贸易摩擦→全球供应链扰动→美股相关板块承压→A股出口链需关注。",
+   "cat": "macro",
+   "title": "英国借款利率创1998年新高",
+   "brief": "英国以1998年以来最高利率借款，显示公共财政压力。",
+   "chain": "英国财政压力→全球利率预期→影响风险资产估值",
    "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html",
-   "ts": "Tue, 08 Sep 2026 17:11:11 GMT"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT3VpUHFNT2xIeWVHSTFCVEVrbV9ROWp1b1UxMUVWOTFPNV9zdEJ0c3dxR2VaYTlldEZhMXhEMnhKZmZuWjlMTFhKSUNkOWdmR3UzdkVUUnRscHRPUzIwY0UwYmNHY2k0VkJNR2NfdzR2MTNwTVV0bmM0ejd2Rkd1ZUl0S0VCMktXamRBOG10NU1nTWRyeWxJNkhqdkx2UmFqYThaLWZiWFcyQnpLU3pqSnV3?oc=5",
+   "ts": "2026-09-08T15:39:35+00:00"
   },
   {
-   "cat": "ai",
-   "title": "OpenAI：客户对Astra需求史无前例",
-   "brief": "OpenAI产品负责人称，新一代旗舰模型GPT-6Astra需求史无前例，正动用一切杠杆维持。",
-   "chain": "AI模型需求爆发→算力需求激增→美股AI芯片受益→A股算力链（服务器、光模块）联动。",
-   "impact": 9,
+   "cat": "macro",
+   "title": "欧盟碳捕集项目获87亿欧元配额",
+   "brief": "欧盟新计划使碳捕集项目获得约5800万份碳配额，价值87亿欧元。",
+   "chain": "碳市场扩容→CCUS成本降低→利好A股环保及碳交易",
+   "impact": 4,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609093869239548.html",
-   "ts": "2026-09-09 14:21:34"
+   "url": "https://finance.eastmoney.com/a/202609093869332967.html",
+   "ts": "2026-09-09 16:11:15"
   },
   {
-   "cat": "ai",
-   "title": "Cramer：英伟达和博通是OpenAI新模型发布的大赢家",
-   "brief": "Cramer表示，英伟达和博通从OpenAI新模型Astra的成功中受益。",
-   "chain": "AI模型成功→算力需求提升→美股AI芯片股受益→A股算力链情绪提振。",
-   "impact": 8,
+   "cat": "geo",
+   "title": "乌克兰向盟友采购千枚爱国者",
+   "brief": "乌克兰国防部长称正从盟友采购约1000枚爱国者导弹。",
+   "chain": "俄乌冲突持续→地缘不确定性→避险资产受益",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbl9tbUR6b3BGWjVMaGtvUGtLeFVKNmpQckk0VDE2djhfTV8wNVREU2VKYUY3MEtHaUVLRlNwQUxrYzkxRjJRVmFNa0hJdHRzZ0tNa2pqUFo4endxQWpFR3REVG1pNTF2VE1KQW1kdkRzX054dmdZS3BpdW4xakJ6ejY0LWE2YzdJVm53WVFBVGRCcm5VeUowTFpoNVVzWFRBMWlOWmEzT1JwYzlNRHdEcVN3V3J2eTJjcGdsY3N3aXNESk02Q2NmRFlhMm9BLVgtMnR3?oc=5",
+   "ts": "2026-09-08T20:59:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "内塔尼亚胡急谋右翼团结",
+   "brief": "内塔尼亚胡努力团结以色列右翼，以避免选举失败。",
+   "chain": "以色列政局→中东政策不确定性→油价波动",
+   "impact": 4,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQV2FPczJOb2lpcFNYMEVRVlpXaXJ5dllBZjFvMDhsbGEzVDV5dlQ4QVJjV1d0N1FPYmFrNzVRYkRvbzFmVXp5WFdxMXUwZ1VvNFdVVnkybnpFU19GVmdSaEpRaldoTWRsRGs5NVdhR09BNmNLZUtsYlI1TjE4cVpLeUs2NTZIcEpxS1F6NWlid0tHU05FNklhTUdLbkhPQjRQeTVxLWpzRlAzQ3pNSUlQazc4NV92V3FnNEpkeg?oc=5",
+   "ts": "2026-09-08T16:53:43+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "能源股受油价上涨提振",
+   "brief": "原油重回90美元上方，标普能源股接近52周高点。",
+   "chain": "油价上涨→能源股走强→A股油气板块联动",
+   "impact": 5,
    "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/09/08/cramer-says-these-2-stocks-are-big-winners-from-openais-new-model-release-.html",
-   "ts": "2026-09-08T16:41:42+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "AI自我演进失控担忧，Anthropic顶尖大牛离职",
-   "brief": "Anthropic一位顶尖研究员因担忧AI自我演进失控而离职，引发行业对AI安全的讨论。",
-   "chain": "AI安全担忧→监管预期升温→美股AI板块波动→A股AI应用或受情绪影响。",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609093869241357.html",
-   "ts": "2026-09-09 14:25:48"
-  },
-  {
-   "cat": "ai",
-   "title": "Meta推进个人AI代理，面临隐私安全质疑",
-   "brief": "Meta推动个人AI代理发展，但面临公众对隐私和安全的质疑。",
-   "chain": "AI代理竞争→科技巨头投入增加→美股AI生态受益→A股AI应用链关注。",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/08/meta-personal-ai-agents-public-reckoning-privacy-safety.html",
-   "ts": "Tue, 08 Sep 2026 19:09:43 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "脉脉CEO：明年科技公司将只招AI人才",
-   "brief": "脉脉CEO林凡预测，明年科技公司将只招聘AI人才，反映AI人才需求激增。",
-   "chain": "AI人才争夺→企业成本上升→科技股估值或受影响→A股AI教育及人力服务链关注。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609093869253677.html",
-   "ts": "2026-09-09 14:40:30"
-  },
-  {
-   "cat": "ai",
-   "title": "中国电动车企转向人形机器人，车市放缓",
-   "brief": "随着汽车市场放缓，中国电动车制造商将重心转向人形机器人领域。",
-   "chain": "车企转型机器人→AI硬件需求增加→A股机器人产业链受益。",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/09/chinas-ev-makers-shift-gears-to-focus-on-humanoids-as-car-market-slows.html",
-   "ts": "Wed, 09 Sep 2026 04:12:51 GMT"
+   "url": "https://www.cnbc.com/2026/09/08/bloom-energy-is-trading-more-options-than-spacex.html",
+   "ts": "2026-09-08T20:23:21+00:00"
   }
  ]
 }
