@@ -1,10 +1,10 @@
 {
  "asof": "2026-09-10",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-09-10T19:53+08:00",
+ "generated_at": "2026-09-10T23:02+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 2,
+  "cross_day_suppressed": 0,
   "cluster_label": "",
   "cluster_dropped": [],
   "backfilled": 0
@@ -12,213 +12,213 @@
  "items": [
   {
    "cat": "geo",
-   "title": "特朗普称伊朗战争将在中期选举后结束",
-   "brief": "特朗普表示对伊军事行动将持续至11月中期选举之后，胡塞武装逼近关键海峡，冲突长期化预期升温。",
-   "chain": "美伊冲突长期化→避险与油价溢价支撑、美股风险偏好承压→A股算力链情绪受抑",
+   "title": "美伊霍尔木兹互袭升级 特朗普警告伊朗",
+   "brief": "美伊在霍尔木兹附近互袭船只，特朗普就Pickaxe Mountain活动警告德黑兰，冲突持续发酵。",
+   "chain": "美伊冲突升级→避险升温、油价破百压制美股风险偏好→A股算力链情绪承压",
    "impact": 9,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQX1VBYmFiQnhuQWRpWDFRNjQ3ZzBFUTEzUmxneFZQTmtfOHducTVIZlU3LXFwRjVSbS1EYTNjMVY1dGlzODdfblBPSzFqWm90bWhfeFBUVVlDdjN2YUFoS1VNekY4U1VHcW1WTXQzS1ZTYjI2YzZ1OFFaZzJMZm9DTEpWY25jMlJsOHNUYklSbkR3Z2pNc1ZUcUNhN3VnWHdIV2U5RklKVldodktsWE5rczRlMVFfZzJZV3VJSzlhdEpRV1VzLXc2Sw?oc=5",
-   "ts": "2026-09-10T06:13:00+00:00"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/10/iran-us-war-hormuz-pickaxe-mountain.html",
+   "ts": "Thu, 10 Sep 2026 14:20:15 GMT"
   },
   {
-   "cat": "geo",
-   "title": "胡塞武装逼近曼德海峡形成扼制",
-   "brief": "也门胡塞武装持续扩张，逼近战略要地曼德海峡，红海航运安全风险显著上升。",
-   "chain": "红海航道受威胁→全球航运成本与避险情绪上升→A股出口链与算力链承压",
+   "cat": "oil",
+   "title": "美油再破100美元 市场备战持久伊朗战",
+   "brief": "美原油重回100美元上方，为5月以来首次，市场预期伊朗冲突长期化。",
+   "chain": "伊朗战事长期化→Brent/WTI上行风险→东非油气资产估值与莫桑比克LNG经济性抬升",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/10/iran-us-oil-hormuz-supply-trump-military-brent-wti.html",
+   "ts": "Thu, 10 Sep 2026 14:52:50 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "美联储下周加息概率大幅上升",
+   "brief": "油价与通胀压力叠加，市场对美联储下周加息的押注显著升温。",
+   "chain": "加息预期升温→美股AI高久期估值分母抬升→A股算力链承压",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html",
+   "ts": "Thu, 10 Sep 2026 14:51:36 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "欧央行加息25基点 拉加德称通胀粘性",
+   "brief": "欧央行年内第二次加息25基点至2.5%，拉加德称中东冲突加剧通胀粘性。",
+   "chain": "欧央行紧缩→全球利率中枢上移→压制美股成长股与A股算力链估值",
    "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSUNHSEc4V2xmVVpPcmx6cE1GaF85MVB3Tnl5ZzdyWVBlYy0zcnNzOTQ1R2ZyNFdzbmp6c2xodVlOallDQTAyeUFodEUwa0dkOFFCN3ZIcmg0V3Iyc0NiUGczTklDSzhUOGNkUUd5ZWlRME5LRGhBdHFvSDdVUm9WdjZacC0zcFdkM0xZY09LUHFDR3lua1ZXMW1GN0NxT21CTFRYNkFOVGRNMzFsTjJXS1hnejFfVTdUZHBvMEJoMmJGU2xLQnc?oc=5",
-   "ts": "2026-09-10T04:58:00+00:00"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609103870877637.html",
+   "ts": "2026-09-10 22:23:39"
   },
   {
-   "cat": "geo",
-   "title": "胡塞武装攻占红海港口城市穆哈",
-   "brief": "也门政府军称，胡塞武装10日攻占红海港口城市穆哈，红海沿岸局势进一步恶化。",
-   "chain": "红海港口失守→航运绕行与保险费上升→A股出口与航运链波动",
+   "cat": "macro",
+   "title": "美联储传声筒：周五通胀报告是关键",
+   "brief": "Nick Timiraos称周五通胀数据将决定美联储是否加息，市场押注加息概率上升。",
+   "chain": "通胀数据定调加息→美债利率与美元走向→A股算力链风险偏好",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609103870849082.html",
+   "ts": "2026-09-10 21:49:14"
+  },
+  {
+   "cat": "macro",
+   "title": "美两年期国债收益率升至4.53%",
+   "brief": "两年期美债收益率日内涨10基点至4.53%，创2024年7月以来新高。",
+   "chain": "短端利率飙升→美股AI估值贴现率上行→A股算力链情绪受压",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609103870703764.html",
-   "ts": "2026-09-10 19:16:02"
-  },
-  {
-   "cat": "geo",
-   "title": "美国对华为刑事审判开庭",
-   "brief": "美国检方在庭审中称华为为犯罪企业，中美科技博弈司法化升级。",
-   "chain": "中美科技对抗升温→半导体供应链不确定性上升→A股国产替代链情绪受扰",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaC1UeHo4RkVJQXVPbGd0V1o0bWtBUDd0NGY2eUpBT3hoSTRvQlZ4S2hkQkFVVDhsUWlXbDNuUXY5WV9LWEMxMWhuQjFTMGUtbnZvNGRGQk40amRHR3BWRWh1MUpCNkRTMWNMN3FWRkFwb0JrQ2J0TGFwY2JhM201dFBFVnp5Vk9CQ0N2eEdIczIxZmlFVHJjNXRnaGxPcUZ1YWtLU05OUVBQX3F0dllWT2o5LWVCNXNLamMwNktDQVRid28?oc=5",
-   "ts": "2026-09-09T21:23:00+00:00"
+   "url": "https://finance.eastmoney.com/a/202609103870876066.html",
+   "ts": "2026-09-10 22:21:37"
   },
   {
    "cat": "macro",
-   "title": "伊朗战争与AI热潮推高通胀 美联储加息效果存疑",
-   "brief": "美联储官员暗示若通胀不改善准备加息，但战争与AI投资推升物价，政策工具效力受质疑。",
-   "chain": "通胀黏性+加息预期→美股AI高久期估值分母承压→A股算力链风险偏好受抑",
-   "impact": 9,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609103870728758.html",
-   "ts": "2026-09-10 19:39:31"
+   "title": "美8月PPI环比涨0.4% 符合预期",
+   "brief": "美国8月批发价格环比上涨0.4%，与预期一致，通胀压力仍存。",
+   "chain": "PPI符合预期→加息路径未改→美股与A股算力链维持谨慎",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/10/ppi-inflation-report-august-2026.html",
+   "ts": "Thu, 10 Sep 2026 13:23:45 GMT"
   },
   {
    "cat": "macro",
-   "title": "ECB将加息 伊朗战争加剧通胀担忧",
-   "brief": "欧洲央行因伊朗战争引发的新一轮通胀担忧而准备加息，全球紧缩预期升温。",
-   "chain": "欧央行加息→全球利率中枢上移→美股与A股成长股估值承压",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZzZJOUlHUzJVTF9DZ2dQc2ZUMHlVckE0OFR5Rks1a1lMYUNfRUpEOXFObkp2VEFtTk1veHdKWHZrVTJBMlVBT2xucWZUVnVXVTZPMm4xbzdyX0QzN1RsM2x2WEhJcGt5UTRseDZBdTdZaVFzdWI1d2xlXzR5MVhrNWlQNnRDd1NOZTlxM2tDd0Nob0NfWDJkWk1FeDdUdmpCdzExdQ?oc=5",
-   "ts": "2026-09-09T22:02:00+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "美元走弱 黄金小幅走高 聚焦美国通胀数据",
-   "brief": "美元走软叠加市场等待美国通胀数据，金价小幅上行，避险与实际利率博弈持续。",
-   "chain": "美元走弱+通胀待定→实际利率预期主导金价→美股AI高久期票估值分母敏感→A股算力链情绪联动",
-   "impact": 7,
+   "title": "金价小幅走高 聚焦美通胀数据",
+   "brief": "美元走弱推动金价小涨，市场等待美国通胀数据指引。",
+   "chain": "美元走弱+通胀待定→实际利率与避险镜像→美股AI高久期票估值分母敏感、A股算力链情绪跟随",
+   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU00zRjlwdjRLNzNsRDluVS1Rc0hCVmhNSTc0TThXMVUtMVgyYU1Mc3FVY1p4YlVIX0p2NzhYbEFCSkVUMEhHR2MtTlFRUHZlbXVGNkxINUVSc1FZNVB5S2hGOXdIUzMydEhHSllEcVVqbWM0VHlOajEzeHBQMlY4UW5nUnRNMm5NS1lvR3RYN2E5M1dIV3NMd3VuZDJOZDg2U0cxa1JR?oc=5",
    "ts": "2026-09-10T02:56:00+00:00"
   },
   {
    "cat": "macro",
-   "title": "美债收益率上行 投资者等待PPI数据",
-   "brief": "投资者等待美国批发通胀数据发布，美债收益率走高，利率预期再度成为焦点。",
-   "chain": "收益率上行→美股估值分母抬升→A股算力链情绪承压",
-   "impact": 6,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/09/10/us-treasurys-bonds-yield.html",
-   "ts": "2026-09-10T10:44:07+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "美财政部9月10日回购最多60亿美元国债",
-   "brief": "美国财政部宣布将于9月10日进行最多60亿美元的国债回购操作，以改善流动性。",
-   "chain": "财政部回购→短端流动性改善→美股风险偏好边际支撑→A股情绪间接受益",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMVFtZW9VYi1jWGlldTlubUM4OU9MS0ozbXlHc0E3dEVDQjktaHhXdWhGVFlLMjRnaXZqanp6RnM1YndSUzdZN2s1SUNvZzlJSmNKclRnbmRaN19GeGxGeHV6eGtQd0JkNWVSMVg1SFZMNkN3Mkl4Nk9SaGpVd29mZXNJTEIyUnF1eG9yRkZtRlRTeFdtSTh3LTA2NEg?oc=5",
-   "ts": "2026-09-09T21:04:41+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "布伦特原油站稳100美元上方",
-   "brief": "油轮遇袭削弱霍尔木兹海峡通行恢复希望，布伦特原油维持100美元上方。",
-   "chain": "油轮遇袭→布油站稳100美元→莫桑比克油气项目现金流与东非能源投资吸引力上升",
-   "impact": 9,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTlKVk5vOWlpYndFb2Flck9IczhtU2k5X1I3a0tlMjA2dkRmMEJncVFZdWctZW9wX05NaU9vUzNwMU5ld3UycklJMjhHaHB3WDdZVF81Z0t1WWNZak8tTFFwdDZtTHZvUnozMnVpUmtEanVsN2ZxM1A2QkxZS3IydDByTlQtd3RFYThzVnlwVmR0eGMyT1RQQldPZVp4VE1oSm5TcHBXVTd1dXM?oc=5",
-   "ts": "2026-09-10T01:24:00+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "中东担忧推动油价续涨 布油破百",
-   "brief": "受中东局势担忧推动，油价延续涨势，布伦特原油维持在每桶100美元以上。",
-   "chain": "中东风险溢价→布油高位运行→莫桑比克LNG与东非油气经营环境改善",
-   "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/10/iran-us-oil-hormuz-supply-trump-military-brent-wti.html",
-   "ts": "Thu, 10 Sep 2026 09:17:43 GMT"
-  },
-  {
-   "cat": "oil",
-   "title": "霍尔木兹海峡航运流量降至个位数",
-   "brief": "数据显示霍尔木兹海峡航运流量降至个位数，能源运输通道受阻程度加深。",
-   "chain": "海峡流量骤降→原油运输成本与油价上行→东非替代气源与油气项目战略价值提升",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUVBxYnpUdFVwdXRYNTRBMXRlbTMxZlpkSFYwYWpEY1RxeUJDZ0RuUFAtTnZ4d3ZKZGZBT1BFaUMtLVp0dl9iZWhGaTlBLUYyWURZX2N4NVFXQXhlQ05Lc2drSWFzczE0THU0N2I3WHk0VjZzdnlJd0NBRktKVjc1aXJ0WnpHT0FwOG11cFNrSnN1Z0V0aTF1LXUwNXhrZ1lfWkhRYQ?oc=5",
-   "ts": "2026-09-10T03:57:00+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "伊朗暂停对能源船舶收取10%运费附加费",
-   "brief": "伊朗下令暂时暂停对进出伊朗、运输能源产品的外国船舶收取10%的运费附加费。",
-   "chain": "附加费暂停→短期航运成本边际缓解→油价溢价略降温→莫桑比克油气出口竞争格局微调",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609103870695030.html",
-   "ts": "2026-09-10 18:59:44"
-  },
-  {
-   "cat": "oil",
-   "title": "国内油价将迎年内第十二涨",
-   "brief": "受地缘风险再起影响，9月11日24时国内成品油调价窗口开启，零售限价上调概率大。",
-   "chain": "地缘风险推升油价→国内成品油上调→莫桑比克油气经营受益于高价环境",
+   "title": "美8月二手房销量创一年多新低",
+   "brief": "高利率使购房者观望，美国8月成屋销售年化398万户，降至一年多最低。",
+   "chain": "高利率压制地产→美经济降温信号→美股与A股算力链风险偏好边际影响",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609103870694940.html",
-   "ts": "2026-09-10 18:59:43"
+   "url": "https://finance.eastmoney.com/a/202609103870909081.html",
+   "ts": "2026-09-10 22:54:45"
+  },
+  {
+   "cat": "geo",
+   "title": "胡塞武装夺取也门红海关键港口",
+   "brief": "胡塞武装夺取也门红海重要港口，威胁全球能源航运通道。",
+   "chain": "红海航运受威胁→能源运输风险溢价→东非油气外运与莫桑比克LNG航运成本上升",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQX1VBYmFiQnhuQWRpWDFRNjQ3ZzBFUTEzUmxneFZQTmtfOHducTVIZlU3LXFwRjVSbS1EYTNjMVY1dGlzODdfblBPSzFqWm90bWhfeFBUVVlDdjN2YUFoS1VNekY4U1VHcW1WTXQzS1ZTYjI2YzZ1OFFaZzJMZm9DTEpWY25jMlJsOHNUYklSbkR3Z2pNc1ZUcUNhN3VnWHdIV2U5RklKVldodktsWE5rczRlMVFfZzJZV3VJSzlhdEpRV1VzLXc2Sw?oc=5",
+   "ts": "2026-09-10T06:13:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "印度主办金砖峰会 伊朗战事考验团结",
+   "brief": "印度主办金砖峰会，伊朗战事令成员国立场分歧，考验 bloc 团结。",
+   "chain": "金砖分歧→全球地缘阵营化→美股风险偏好与A股算力链外部环境",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQckJSazh5QjVkOTBaUXN3cm5TRkM5NGhqN3NWTUNidU5BX2QyZmNlSHkwYmQ0S2JPSmlFUWl2TWswaUlrVWJCRmkyMUZ6c0U5eTZsdldNZEZHR0cySmg5dTAyNW4td2JzZUNhaVhMaXFJTEpuMEQzZUJDbUhlTXhoMGt5elNXRU5TUGR2XzZmd2xXMzcwR09SYUlzRGlZb1E?oc=5",
+   "ts": "2026-09-10T11:44:53+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "阿尔及利亚与阿联酋断交",
+   "brief": "阿尔及利亚宣布与阿联酋断绝外交关系，中东地缘裂痕加深。",
+   "chain": "中东外交裂痕→地区风险溢价→能源与美股风险偏好扰动",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaW5YdHFlZ2U0Sll2VTZQeGxweXUtTk8zSUt4UGdNQ2ljcTRzeG84SEdzcWlFOUpXNGFhekVfcXc3dEU0Y0UtQnBpRnZwWmVqVXl1TWpDQlhRRjZnbWRoT0JFaUdZcVkxdU9BU3NfSjNMeW5zR2I1M20wTHlvS3N0MXBIWWVLUTNIR0RFS2ctWWJJLS1nVXhyRnhIakpKd3ZUS1pmeld6MTVBNl9KVnVpaWFMTzI?oc=5",
+   "ts": "2026-09-10T13:18:07+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "路透调查：OPEC 8月产量下降",
+   "brief": "路透调查显示OPEC 8月原油产量下滑，供应端收紧。",
+   "chain": "OPEC减产→油价获支撑→莫桑比克油气经营受益于价格中枢上移",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcGZWQVVsSEY1MDZDLXRVM2g2N0t1bHJ1VXpWX3pScTFZak53OGQ5VVNxemw0Mjdrd1paNjRYb1YtdFlYN3RIOURKM00xZmc4eFRlTHk2cTNhODJKWW5TOS1BMEE1cVF2NTN5YjJaeHRRNFlBVHUwUU9CN0pyOEdRMHE0c2VtcGNvamRPVFd3OVVlTnFmV3Fobks2WlZJU21oRW44?oc=5",
+   "ts": "2026-09-10T10:35:42+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "NYMEX柴油期货突破5美元/加仑",
+   "brief": "NYMEX柴油期货自2022年以来首次突破每加仑5美元，炼油利润走强。",
+   "chain": "柴油裂解价差飙升→炼油与航运成本上升→东非能源进口与运营成本抬升",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609103870897679.html",
+   "ts": "2026-09-10 22:44:26"
+  },
+  {
+   "cat": "oil",
+   "title": "瑞安CEO：油价飙升将推高机票价格",
+   "brief": "瑞安航空CEO称油价飙升将带来机票价格显著上涨。",
+   "chain": "油价高企→航空燃油成本传导→东非能源运输与经营成本上升",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/10/ryanair-airfare-prices-oil-iran-war.html",
+   "ts": "Thu, 10 Sep 2026 09:35:14 GMT"
   },
   {
    "cat": "gas",
-   "title": "Noble Helium在坦桑尼亚Kinambo十月开钻",
-   "brief": "Noble Helium为坦桑尼亚Kinambo项目调集钻机，计划10月开钻，东非天然气勘探推进。",
-   "chain": "东非天然气勘探提速→区域LNG供应预期增强→莫桑比克与坦桑LNG竞争与合作格局演变",
-   "impact": 6,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/energy/articles/noble-helium-mobilises-rig-october-234800907.html",
-   "ts": "2026-09-08T23:48:00Z"
+   "title": "高盛维持2027年TTF气价预测32欧元",
+   "brief": "高盛维持2027年荷兰TTF天然气价格预测不变，仍为每兆瓦时32欧元。",
+   "chain": "TTF预期稳定→欧洲LNG需求锚定→莫桑比克LNG长期合同定价参考",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609103870905266.html",
+   "ts": "2026-09-10 22:47:14"
+  },
+  {
+   "cat": "gas",
+   "title": "美EIA天然气库存增400亿立方英尺",
+   "brief": "美国上周EIA天然气库存增加400亿立方英尺，超预期310亿。",
+   "chain": "库存超预期→Henry Hub气价承压→全球LNG供应宽松、莫桑比克LNG竞争加剧",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609103870885740.html",
+   "ts": "2026-09-10 22:30:38"
   },
   {
    "cat": "tech",
-   "title": "台积电8月营收同比大增逾53%创新高",
-   "brief": "全球最大晶圆代工厂台积电8月营收同比增长超53%，创历史新高，AI需求驱动明显。",
-   "chain": "台积电营收创新高→AI芯片需求强劲→美股半导体链景气→A股算力链与封测链受益",
+   "title": "台积电8月营收同比增超53%创新高",
+   "brief": "全球最大代工厂台积电8月营收同比大增逾53%，创历史新高。",
+   "chain": "台积电营收创新高→AI芯片需求强劲→A股算力链与半导体设备映射",
    "impact": 8,
-   "source": "CNBC World",
+   "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/09/10/tsmc-august-revenue-chip-ai.html",
    "ts": "Thu, 10 Sep 2026 06:45:55 GMT"
   },
   {
    "cat": "tech",
-   "title": "三星力推折叠屏 苹果入局竞争加剧",
-   "brief": "三星努力吸引iPhone用户转向其折叠屏产品，苹果即将进入折叠屏市场，竞争升温。",
-   "chain": "折叠屏竞争加剧→消费电子供应链订单波动→A股精密结构件与面板链受关注",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/10/samsung-tries-to-draw-iphone-users-to-its-foldables-amid-apple-entry.html",
-   "ts": "Thu, 10 Sep 2026 02:05:32 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "亚马逊下单Ariane火箭 欧洲争夺太空差距",
-   "brief": "亚马逊向Ariane订购火箭发射，欧洲力图缩小太空领域差距，商业航天竞争加剧。",
-   "chain": "商业航天订单增加→卫星互联网与发射产业链受益→A股航天与通信链情绪提振",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/10/amazon-ariane-rocket-launch-space-spacex.html",
-   "ts": "Thu, 10 Sep 2026 11:26:16 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "Piper Sandler给予高通中性评级",
-   "brief": "Piper Sandler给予高通“中性”评级，目标价190美元，对手机芯片前景持谨慎态度。",
-   "chain": "高通评级中性→手机芯片需求预期平稳→A股消费电子链情绪中性",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609103870699093.html",
-   "ts": "2026-09-10 19:03:52"
-  },
-  {
-   "cat": "ai",
-   "title": "OpenAI与Anthropic研究员呼吁AI减速",
-   "brief": "更多OpenAI与Anthropic研究人员加入呼吁AI放缓的阵营，“灭绝”警告升温。",
-   "chain": "AI安全治理呼声上升→监管预期增强→美股AI龙头估值波动→A股算力链情绪受扰",
+   "title": "苹果发布首款折叠屏 6家A股公司回应供货",
+   "brief": "苹果发布首款折叠屏iPhone Duo，蓝思科技等6家A股公司回应供货情况。",
+   "chain": "苹果折叠屏发布→消费电子供应链重塑→A股果链与折叠屏概念映射",
    "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/10/openai-anthropic-ai-safety-slowdown-extinction.html",
-   "ts": "Thu, 10 Sep 2026 10:49:29 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609103870867055.html",
+   "ts": "2026-09-10 22:12:21"
   },
   {
-   "cat": "ai",
-   "title": "Silver Lake 116亿美元合并两家软件公司押注AI",
-   "brief": "Silver Lake以116亿美元合并两家软件公司，加码AI领域投资布局。",
-   "chain": "AI软件并购升温→企业软件与AI应用整合加速→A股AI应用与算力链受益",
+   "cat": "tech",
+   "title": "费城半导体指数日内跌3%",
+   "brief": "费城半导体指数跌3%，英伟达、美光、英特尔等普跌。",
+   "chain": "半导体回调→美股AI硬件承压→A股算力链情绪跟随走弱",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609103870855685.html",
+   "ts": "2026-09-10 21:52:50"
+  },
+  {
+   "cat": "tech",
+   "title": "SK海力士美股跌超5%",
+   "brief": "SK海力士美股跌超5%，此前一日刚创新高，存储板块波动加剧。",
+   "chain": "存储股回调→AI硬件估值波动→A股存储与算力链情绪传导",
    "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/09/silver-lake-merges-cegid-silae-ai-software-deal.html",
-   "ts": "Wed, 09 Sep 2026 17:36:02 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609103870856978.html",
+   "ts": "2026-09-10 21:55:42"
   }
  ]
 }
