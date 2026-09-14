@@ -1,20 +1,42 @@
 {
  "asof": "2026-09-14",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-09-14T17:06+08:00",
+ "generated_at": "2026-09-14T21:25+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 13,
-  "cluster_label": "",
-  "cluster_dropped": [],
+  "cross_day_suppressed": 9,
+  "cluster_label": "伊朗/沙特/海湾",
+  "cluster_dropped": [
+   "海湾国家取消与伊朗会晤 胡塞袭击沙特"
+  ],
   "backfilled": 0
  },
  "items": [
   {
+   "cat": "geo",
+   "title": "伊朗称在霍尔木兹击落美军先进无人机",
+   "brief": "伊朗宣布在霍尔木兹海峡上空击落美军先进无人机，中东冲突进一步升级，美伊对抗持续升温。",
+   "chain": "美伊军事对抗升级→避险情绪推升美股波动、压制风险偏好→A股算力链短期承压、军工与油气链获关注",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/14/us-iran-trump-hormuz-gulf-oil-crude-talks-.html",
+   "ts": "Mon, 14 Sep 2026 12:02:21 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "布伦特原油突破109美元 沙特关键管道停运",
+   "brief": "沙特关闭绕行霍尔木兹的关键输油管道后，布伦特原油突破109美元/桶，供应担忧急剧升温。",
+   "chain": "沙特管道停运→布伦特破109美元、全球原油供应收紧→莫桑比克油气资产估值与东非LNG经济性同步抬升",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/13/oil-price-iran-war-strait-hormuz-saudi-pipeline.html",
+   "ts": "Mon, 14 Sep 2026 12:54:48 GMT"
+  },
+  {
    "cat": "macro",
-   "title": "沃什领衔G7央行超级周，加息预期升温",
-   "brief": "美联储周三决议打头，G7央行接连开会，市场关注沃什立场与加息预期扩散。",
-   "chain": "加息预期升温→美债利率上行压制美股高估值→A股算力链估值分母承压、情绪偏谨慎",
+   "title": "G7央行加息潮起 市场聚焦沃什与美联储",
+   "brief": "加息预期蔓延G7央行，美联储周三率先决议，随后多国央行接连决策，沃什立场成焦点。",
+   "chain": "G7加息预期升温→美债收益率上行压制美股AI高久期估值→A股算力链估值分母承压、情绪偏谨慎",
    "impact": 9,
    "source": "Bloomberg",
    "url": "https://www.bloomberg.com/news/articles/2026-09-12/all-eyes-on-warsh-as-rate-hike-fever-spreads-across-g7-central-banks",
@@ -22,203 +44,163 @@
   },
   {
    "cat": "macro",
-   "title": "央行9月15日开展5000亿买断式逆回购",
-   "brief": "央行以固定数量、利率招标方式投放5000亿元买断式逆回购，维护流动性充裕。",
-   "chain": "流动性投放→A股风险偏好获支撑→利好算力链等成长板块资金面",
-   "impact": 7,
+   "title": "现货黄金日内跌幅扩大至2%",
+   "brief": "现货黄金日内跌幅扩大至2%，报4259.35美元/盎司，避险与利率预期博弈下金价大幅回落。",
+   "chain": "金价跌2%主因利率预期上行而非避险→美股AI高久期票估值分母压力边际缓和→A股算力链情绪中性偏稳",
+   "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609143873482269.html",
-   "ts": "2026-09-14 17:02:06"
+   "url": "https://finance.eastmoney.com/a/202609143873661319.html",
+   "ts": "2026-09-14 21:09:36"
   },
   {
-   "cat": "macro",
-   "title": "前八月社融增量23.91万亿，M2增7.5%",
-   "brief": "8月末社融存量464.8万亿同比增7.2%，前八月社融增量23.91万亿，M2同比增7.5%。",
-   "chain": "社融与M2平稳→国内信用扩张温和→A股算力链融资环境中性偏暖",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609143873481470.html",
-   "ts": "2026-09-14 17:00:06"
-  },
-  {
-   "cat": "macro",
-   "title": "现货黄金日内跌1%至4304.9美元",
-   "brief": "现货黄金日内跌幅扩大至1%，报4304.9美元/盎司，白银同步跌2%。",
-   "chain": "加息预期升温推实际利率上行→压制美股AI高久期票估值分母→A股算力链情绪偏空",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609143873479443.html",
-   "ts": "2026-09-14 16:57:02"
-  },
-  {
-   "cat": "macro",
-   "title": "前八月人民币贷款增10.44万亿",
-   "brief": "央行数据显示前八个月人民币贷款增加10.44万亿元，住户贷款减少1.03万亿元。",
-   "chain": "信贷结构偏弱、居民去杠杆→内需修复偏慢→A股算力链依赖政策与出口链支撑",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609143873483920.html",
-   "ts": "2026-09-14 17:02:05"
-  },
-  {
-   "cat": "geo",
-   "title": "特朗普淡化中国实体助伊报道",
-   "brief": "特朗普淡化有关中国实体在袭击美军前帮助伊朗的报道，美伊博弈持续。",
-   "chain": "中美伊三角博弈升温→美股风险偏好受压→A股算力链受地缘不确定性扰动",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZF9XUXZXZ0J5UzkzN2pGQlpxQkI3dklSRmIyMDUzYWZqdzhZQXdYMlF5djdTNjAzcGUxRUVDdHdOU3hXWGlGb0J5bVAzTWRlWjNYaWV3eUczcHB2R3dudTBYZmRtZ3lOVy00ZUJycDJtZUlJMTZNaHRRVEFVRHdPUEpjSVhyTUpOd2Q4R2Z5ZGlscTdSNzd6VHRLSXJWMTc4NUlaZzAydWhRekFJdDF4R19nMmJhSVNsLWRLMUJTc2xOT0pU?oc=5",
-   "ts": "2026-09-14T00:50:00+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "胡塞武装也门推进，海湾国家两难",
-   "brief": "胡塞武装在也门推进，令海湾国家面临安全与外交上的艰难选择。",
-   "chain": "红海与中东风险外溢→美股避险情绪升温→A股算力链短期承压",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOX0JoY2VGb08xV0N2bWR6cnNzaFZoVm9MMGZ4WW1aa292SHNWTVBoVERfLW96ZVllX2thQjdUU1RMOTBvRkRoMGpDd2ZyMXVyb0t2bEFabVBJczM2SnhwM0w5c3diVnZiT1E4QnBxZ3YxaEVnYjE1cVJndExhaUloWENHQjlWdmtvUHRmNG1sSWtWQ3ZIRTJQUU5wQTFDaEw0MDVIdThHdnl5NnVCSTdHUmUwR3RPU0tXalFfSA?oc=5",
-   "ts": "2026-09-13T16:57:00+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "金砖通过联合声明吁中东最大克制",
-   "brief": "金砖国家通过联合声明，呼吁中东保持最大克制，避免局势升级。",
-   "chain": "多边呼吁降温→地缘风险溢价边际回落→美股与A股算力链情绪略获喘息",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZERlSkNRYWwycnZ4Y1Nwc1RXSXU3WTFLbmFLVnJGOWhfWjdvTzZiTGJVWVpSWHFWWXB1TTh0STE5QkM2VUlabV9DaENCYXJ2djY1OUhfVjUzbTZWdVVHbjRLTlBNLURPYnNlQU1WSzdYZWxzSk51b0ZQS0Y2N0hndGJPMnF3bW9MUjJSWk80cFkxZVUyXzRFVTdwVGtIQVF0S2Z6RkdqQWFOSGdWZnVV?oc=5",
-   "ts": "2026-09-12T12:13:53+00:00"
+   "cat": "ai",
+   "title": "AI巨头CEO联名呼吁放缓 美股AI股下挫",
+   "brief": "多家主要AI公司CEO联合呼吁放缓前沿开发，AI股应声下滑，市场对监管与节奏担忧升温。",
+   "chain": "AI放缓呼声→美股AI/芯片板块风险偏好回落→A股算力链短期情绪承压、关注国产替代逻辑",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html",
+   "ts": "Mon, 14 Sep 2026 10:56:37 GMT"
   },
   {
    "cat": "oil",
-   "title": "沙特关闭绕行霍尔木兹关键管道，油价涨",
-   "brief": "沙特关闭绕过霍尔木兹海峡的关键输油管道，国际油价应声上涨。",
-   "chain": "管道关闭收紧供应→Brent上行→莫桑比克油气项目售价与现金流受益、东非能源经营偏正面",
-   "impact": 9,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/13/oil-price-iran-war-strait-hormuz-saudi-pipeline.html",
-   "ts": "Mon, 14 Sep 2026 07:52:46 GMT"
+   "title": "沙特关键输油管道遇袭 主力运力停运数周",
+   "brief": "沙特横贯全境的东西输油管道上周遇袭受损，维修致主力运力停运数周，出口战略受冲击。",
+   "chain": "管道停运数周→原油供应收紧、油价获支撑→莫桑比克油气项目现金流与东非LNG议价能力改善",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609143873636842.html",
+   "ts": "2026-09-14 20:46:37"
   },
   {
-   "cat": "oil",
-   "title": "评论：油市熬过伊朗战争冲刺，进入马拉松",
-   "brief": "路透评论称油市已消化伊朗战争初期冲击，后续将进入更长期博弈阶段。",
-   "chain": "供应风险长期化→油价中枢抬升→莫桑比克LNG与油气项目中长期收益预期改善",
+   "cat": "tech",
+   "title": "英伟达等限制使用OpenAI与Anthropic最先进模型",
+   "brief": "英伟达、Palantir、博思艾伦等要求限制使用OpenAI与Anthropic最先进AI模型，安全顾虑升温。",
+   "chain": "大厂限制前沿模型使用→美股AI应用与芯片需求预期分化→A股算力链关注国产模型替代与安全合规链",
    "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYkNyZjhwWkFHcjR0aVV2b3lPNFROSy0tNDZBQVJpWE9JelJyVWhtNFJjWlY3OW56NmdXY2s3Q0luV1h1cGZnRXJiM0VzMWxqVDFROENnOEFFMHpPN2VfWXJYTjZ3TW1EWlZLdU16clZBN28wVlI4SXJYeWR1U3kzZlAyempIWXVhaC1LdWNKbVo3QS1YMjZucjZnd3FTdnNaWmpNd2phODkxTlFwcng2aWo3WjZhdUdCOXZBejRyaW5kdw?oc=5",
-   "ts": "2026-09-14T00:01:00+00:00"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609143873666395.html",
+   "ts": "2026-09-14 21:19:45"
   },
   {
-   "cat": "oil",
-   "title": "特朗普促乌停袭俄炼油厂，美柴油创纪录",
-   "brief": "特朗普呼吁乌克兰停止打击俄炼油厂，美国柴油价格升至纪录高位。",
-   "chain": "俄炼能受损+柴油紧张→成品油裂解价差走阔→东非燃料进口成本上升、经营承压",
+   "cat": "macro",
+   "title": "美债2年至10年期收益率触及9月11日高点",
+   "brief": "美国国债收益率小幅走高，2年期至10年期收益率触及9月11日高点，利率预期偏鹰。",
+   "chain": "美债收益率上行→美股AI高久期估值分母抬升、成长股承压→A股算力链估值与情绪同步受压",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609143873664575.html",
+   "ts": "2026-09-14 21:18:49"
+  },
+  {
+   "cat": "ai",
+   "title": "微软为未来AI模型设定行为限制",
+   "brief": "微软发布临时版AI模型行为准则，对未来自研模型设限，禁止协助制造武器等危险用途。",
+   "chain": "微软AI治理收紧→美股AI监管预期升温、头部模型商业化节奏受关注→A股AI合规与安全链获催化",
    "impact": 7,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/14/trump-ukraine-russia-diesel-prices-oil.html",
-   "ts": "Mon, 14 Sep 2026 07:22:01 GMT"
-  },
-  {
-   "cat": "oil",
-   "title": "非洲最大炼油厂开放公众持股",
-   "brief": "非洲最大炼油厂向公众开放所有权，引发散户投资者热烈追捧。",
-   "chain": "非洲炼能扩张→区域成品油供应改善→莫桑比克及东非燃料采购环境趋稳",
-   "impact": 5,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/energy/articles/africas-biggest-oil-refinery-opens-085534787.html",
-   "ts": "2026-09-14T08:55:34Z"
+   "url": "https://www.cnbc.com/2026/09/14/microsoft-ai-model-limits-anthropic-openai.html",
+   "ts": "Mon, 14 Sep 2026 13:09:31 GMT"
   },
   {
    "cat": "gas",
-   "title": "美国拟取消发电厂碳排放限制",
-   "brief": "美国环保署预计取消燃煤与燃气电厂近乎零排放要求，推翻2024年环保政策。",
-   "chain": "气电排放约束放松→美国天然气发电需求与Henry Hub气价获支撑→东非LNG长期需求预期偏暖",
+   "title": "油轮运输愈发艰难 成本持续攀升",
+   "brief": "航运市场报告称石油运输难度与成本持续上升，霍尔木兹局势令原油与LNG航运风险溢价走高。",
+   "chain": "航运成本上升→LNG与原油到岸价抬升、运费溢价扩大→莫桑比克东非LNG出口至亚洲的经济性受运费侵蚀",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYmJCUUMxaW05Wm0yazVud3pVRFlHLTJKai13QUcxaUhtX2dlTEJPcV9XOWZGSnRzdFRXejctZE1sUGZrcEd3Sy1JOUZxVktnQW9hVl9vbTVSdEhldXBEaUxQTlJRanQyWDFpQXNaTlE1UWUwaVgzMU8yTmF2dzFGYUNuUQ?oc=5",
+   "ts": "2026-09-14T04:33:00+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "英伟达客户集中度上升 前三大客户占44%",
+   "brief": "英伟达客户集中度持续上升，2027财年前六个月前三大直接客户合计贡献44%收入。",
+   "chain": "客户集中度上升→美股AI芯片需求可持续性受质疑→A股算力链关注国产芯片客户分散与订单稳定性",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609143873636731.html",
+   "ts": "2026-09-14 20:43:49"
+  },
+  {
+   "cat": "macro",
+   "title": "印度8月零售通胀4.8% 连续第10个月上升",
+   "brief": "印度8月零售通胀升至4.8%，连续第10个月上升，新兴市场通胀压力持续。",
+   "chain": "印度通胀连升→新兴市场利率与汇率承压、全球资金流向受扰→A股算力链外资情绪边际谨慎",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/14/india-inflation-august-iran-war-energy-el-nino.html",
+   "ts": "Mon, 14 Sep 2026 11:10:45 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达扩展CUDA-Q平台 推量子容错编排层",
+   "brief": "英伟达宣布扩展开源CUDA-Q平台，推出CUDA-Q Logical编排层，支持容错量子计算应用开发。",
+   "chain": "英伟达量子计算布局→美股AI基础设施叙事延伸至量子→A股量子计算与算力链主题获催化",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609143873482713.html",
-   "ts": "2026-09-14 17:01:32"
+   "url": "https://finance.eastmoney.com/a/202609143873661137.html",
+   "ts": "2026-09-14 21:06:47"
   },
   {
    "cat": "tech",
-   "title": "Q2全球半导体营收4250亿美元，环比增31.4%",
-   "brief": "Omdia报告称2026年二季度全球半导体营收达4250亿美元，环比增长31.4%。",
-   "chain": "半导体景气超预期→美股芯片股盈利上修→A股算力链与半导体设备材料同步受益",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609143873484756.html",
-   "ts": "2026-09-14 17:02:47"
-  },
-  {
-   "cat": "tech",
-   "title": "诺基亚股价单日跌8.8%",
-   "brief": "诺基亚股价下跌8.8%，创1月以来最大单日跌幅。",
-   "chain": "通信设备龙头重挫→美股科技硬件情绪走弱→A股通信与算力硬件链承压",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609143873479647.html",
-   "ts": "2026-09-14 16:58:27"
-  },
-  {
-   "cat": "tech",
-   "title": "甲骨文埃里森拟减持至多75亿美元",
-   "brief": "甲骨文创始人埃里森采用交易计划，拟出售至多75亿美元公司股票。",
-   "chain": "大股东减持信号→美股云与软件板块情绪受压→A股算力链风险偏好边际走弱",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/11/larry-ellison-50-million-trading-plan.html",
-   "ts": "Sat, 12 Sep 2026 01:36:02 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "多家CEO联名呼吁放缓，AI股下挫",
-   "brief": "多家大型科技CEO联合呼吁放缓AI发展，AI相关股票应声下滑。",
-   "chain": "AI监管与放缓预期升温→美股AI算力与芯片股回调→A股算力链情绪短期承压",
-   "impact": 9,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html",
-   "ts": "Mon, 14 Sep 2026 08:39:34 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "奥特曼解释AI业为何想放慢脚步",
-   "brief": "OpenAI的奥特曼称AI行业需要放慢，警告“我们可能失去控制”。",
-   "chain": "头部厂商主动降温→AI叙事与资本开支预期受扰→A股算力链估值波动加大",
-   "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/14/sam-altman-ai-slowdown-anthropic-amodei-musk.html",
-   "ts": "Mon, 14 Sep 2026 08:59:18 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "Anthropic CEO称中国是AI放缓最难难题",
-   "brief": "Anthropic的Amodei称中国是其提议的AI放缓方案中最棘手的难题。",
-   "chain": "中美AI治理分歧→美股AI芯片出口预期扰动→A股算力链国产替代逻辑强化",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/13/china-dilemma-ai-slowdown-anthropic.html",
-   "ts": "Sun, 13 Sep 2026 16:39:24 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "习近平称中国将牵头金砖AI合作",
-   "brief": "习近平表示中国将带头推动金砖国家在AI与科技领域合作。",
-   "chain": "金砖AI合作提速→中国AI生态外溢→A股算力链与国产AI应用获主题催化",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/13/china-xi-ai-tech-brics.html",
-   "ts": "Sun, 13 Sep 2026 16:38:45 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "智谱Z.ai融资50亿美元后股价跌超10%",
-   "brief": "Z.ai完成50亿美元融资、两个月内第二次大额募资，股价跌超10%。",
-   "chain": "AI融资密集但股价承压→一级市场热度与二级估值背离→A股算力链情绪偏谨慎",
+   "title": "甲骨文启动新一轮裁员",
+   "brief": "甲骨文启动新一轮裁员，部分团队裁员幅度达两位数百分比，云与企业软件业务承压。",
+   "chain": "甲骨文裁员→美股企业软件成本优化与云需求担忧→A股云计算与数据库替代链关注度提升",
    "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/14/zai-shares-tumble-second-major-raise-two-months-.html",
-   "ts": "Mon, 14 Sep 2026 03:03:58 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609143873663394.html",
+   "ts": "2026-09-14 21:15:06"
+  },
+  {
+   "cat": "macro",
+   "title": "美银上调标普500年底目标至7400点",
+   "brief": "美银将标普500指数年底目标从7100点上调至7400点，对美股盈利与估值前景更乐观。",
+   "chain": "美银上调目标→美股风险偏好获支撑、AI权重股受益→A股算力链情绪获正向传导",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609143873661489.html",
+   "ts": "2026-09-14 21:07:50"
+  },
+  {
+   "cat": "geo",
+   "title": "特朗普促乌克兰停止打击俄炼油厂 美柴油创纪录",
+   "brief": "特朗普敦促乌克兰停止打击俄罗斯炼油厂，美国柴油价格创纪录，能源与地缘博弈交织。",
+   "chain": "俄炼油受袭与美柴油创纪录→全球成品油供应紧张、油价获支撑→莫桑比克油气与东非LNG经济性改善",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/14/trump-ukraine-russia-diesel-prices-oil.html",
+   "ts": "Mon, 14 Sep 2026 12:36:20 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "首个AI+脑机接口医疗器械标准发布",
+   "brief": "国家药监局批准发布我国第三个脑机接口医疗器械标准，为全球首个采用AI处理脑电数据的产品标准。",
+   "chain": "AI+脑机接口标准落地→美股脑机与AI医疗主题获关注→A股脑机接口与AI医疗链获政策催化",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609143873649289.html",
+   "ts": "2026-09-14 21:03:46"
+  },
+  {
+   "cat": "tech",
+   "title": "Ciena承诺投入2亿美元加速数据中心架构",
+   "brief": "美股光通信概念股Ciena初始承诺投入2亿美元用于早期投资，加速下一代数据中心架构。",
+   "chain": "Ciena加码光通信投资→美股数据中心互联需求获验证→A股光模块与算力网络链获正向映射",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609143873662776.html",
+   "ts": "2026-09-14 21:10:23"
+  },
+  {
+   "cat": "macro",
+   "title": "国内商品期货夜盘原油涨超9% 沪金跌逾2%",
+   "brief": "国内商品期货夜盘开盘原油涨超9%，燃油、沥青跟涨，沪银跌2.8%、沪金跌逾2%。",
+   "chain": "原油大涨、贵金属回落→通胀预期与利率预期分化→A股算力链成本端承压、能源与化工链受益",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609143873645740.html",
+   "ts": "2026-09-14 21:01:30"
   }
  ]
 }
