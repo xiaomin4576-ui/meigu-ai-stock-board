@@ -1,0 +1,224 @@
+{
+ "asof": "2026-09-15",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-09-15T01:01+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 12,
+  "cluster_label": "",
+  "cluster_dropped": [],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "10年期美债收益率触及5%后回落",
+   "brief": "10年期美债收益率一度升破5%后回落，交易员等待美联储会议。利率高位对高估值成长股形成压力。",
+   "chain": "长端利率触5%→美股AI高久期票估值分母承压、风险偏好收缩→A股算力链情绪受抑",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/14/10-year-us-treasury-is-closing-in-on-5percent.html",
+   "ts": "Mon, 14 Sep 2026 17:00:23 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "本周市场聚焦美联储会议与数据",
+   "brief": "CNBC指出本周看点是一场关键的美联储会议及一系列经济数据，市场高度关注政策信号。",
+   "chain": "FOMC预期→美股风险偏好与贴现率定价→A股算力链跟随外围情绪波动",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/13/here-are-the-2-big-things-were-watching-in-this-weeks-stock-market.html",
+   "ts": "2026-09-13T16:57:43+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "美财政部拍卖短债 得标利率近4%",
+   "brief": "美财政部拍卖3个月期国债得标利率3.970%、6个月期4.060%，投标倍数稳健。",
+   "chain": "短端利率高企→美股资金成本与估值锚偏紧→A股算力链估值分母承压",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609143873784668.html",
+   "ts": "2026-09-14 23:33:57"
+  },
+  {
+   "cat": "macro",
+   "title": "美银上调标普500年底目标至7400点",
+   "brief": "美银Subramanian将标普500年底目标从7100点上调至7400点，看好后市。",
+   "chain": "看多美股→风险偏好回暖利好成长股→A股算力链情绪获正向映射",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609143873761465.html",
+   "ts": "2026-09-14 22:49:07"
+  },
+  {
+   "cat": "geo",
+   "title": "海湾国家取消与伊朗会议 胡塞袭沙特",
+   "brief": "海湾国家取消与伊朗的会晤，胡塞武装对沙特发动新一轮袭击，地区紧张升级。",
+   "chain": "中东冲突升级→美股避险情绪升温、能源股波动→A股算力链受风险偏好拖累",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUmxSZmUzZzdYUkJrQ2l3RzRTQklHdjFOWmVYZ2NDcmZmOW9UUVBoZkk0bC0wcHhveWNHNldiU2E0WV9PYkFtWGVaUUdMVUlieFBZMVRjVHFkTTZ6YjVWXzVLUlA2QXE2LURQczRJN010RGR1Y3Jkb0JpS1lhdF9fZVdJT0hMV3A5QXNNcllfalNoem0wS3VMNUlNQUgwbG9sUU1XN2R1aUpkaXZDekZ6bnlqN2RiN0t3X3d3?oc=5",
+   "ts": "2026-09-13T23:02:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "特朗普淡化中国实体助伊报道",
+   "brief": "特朗普淡化有关中国实体在致美军伤亡袭击前帮助伊朗的报道，避免事态扩大。",
+   "chain": "中美伊博弈→美股地缘风险溢价上升→A股算力链受外部不确定性扰动",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZF9XUXZXZ0J5UzkzN2pGQlpxQkI3dklSRmIyMDUzYWZqdzhZQXdYMlF5djdTNjAzcGUxRUVDdHdOU3hXWGlGb0J5bVAzTWRlWjNYaWV3eUczcHB2R3dudTBYZmRtZ3lOVy00ZUJycDJtZUlJMTZNaHRRVEFVRHdPUEpjSVhyTUpOd2Q4R2Z5ZGlscTdSNzd6VHRLSXJWMTc4NUlaZzAydWhRekFJdDF4R19nMmJhSVNsLWRLMUJTc2xOT0pU?oc=5",
+   "ts": "2026-09-14T00:50:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "欧盟同意延长对俄制裁7天",
+   "brief": "欧盟特使同意在续期前将对俄个人和公司制裁延长7天，维持对俄压力。",
+   "chain": "对俄制裁延续→美股能源与防务板块波动→A股算力链受地缘风险偏好影响",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609143873779116.html",
+   "ts": "2026-09-14 23:24:20"
+  },
+  {
+   "cat": "geo",
+   "title": "泽连斯基称可对等停袭俄能源设施",
+   "brief": "泽连斯基称若伙伴确保俄方停止袭击乌能源设施，乌方可对等停袭俄能源目标。",
+   "chain": "俄乌能源停袭磋商→油价风险溢价回落→美股能源股与通胀预期降温",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609153873798294.html",
+   "ts": "2026-09-15 00:39:54"
+  },
+  {
+   "cat": "oil",
+   "title": "沙特管道与船只遇袭 油价涨超2%",
+   "brief": "沙特输油管道及中东船只遇袭，国际油价上涨逾2%，供应风险升温。",
+   "chain": "中东供应受扰→Brent/WTI上行→莫桑比克油气售价与出口收益预期改善",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcXNvWlpHUEh2bzNITUYtX04zUG1vclFCeDZ1NVdQTkNXUk5OTmRESElsUXUyQjNsYVU1d2tEMFlNRjB1VXVnenR4UHZzd3F3dEZWR2tWSVZMREFiZXF6NjR5SlB5VmdaNXpTWHQ3UF9POFRGanpoR0NxZUV3ZUU4alAycW9mcGdLak5lQ2NXdlpHQ3I3eDVRM3JDWmI3SGdYUjZsbnJSaUVySHk3UFl4Y3AxVGFZbmg5?oc=5",
+   "ts": "2026-09-13T22:23:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "美战略石油储备降至1982年来最低",
+   "brief": "美国SPR原油库存上周减少约360万桶至2.85亿桶，创1982年以来最低。",
+   "chain": "SPR低位→补库需求支撑油价中枢→莫桑比克LNG/油气项目经济性受益",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609143873788115.html",
+   "ts": "2026-09-14 23:45:31"
+  },
+  {
+   "cat": "oil",
+   "title": "沙特寻求增加经霍尔木兹石油供应",
+   "brief": "消息人士称沙特正寻求进一步增加经霍尔木兹海峡的石油供应，本月已提高出口量。",
+   "chain": "沙特增供→霍尔木兹流量与油价波动→莫桑比克油气出口竞争与定价受影响",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609153873797933.html",
+   "ts": "2026-09-15 00:36:55"
+  },
+  {
+   "cat": "oil",
+   "title": "国际原油期货大幅回落",
+   "brief": "国际原油期货大幅回落，WTI报约100.99美元/桶、布伦特约105.40美元/桶，此前一度涨近5%。",
+   "chain": "油价冲高回落→Brent/WTI波动加剧→莫桑比克油气售价与现金流预期波动",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609153873799634.html",
+   "ts": "2026-09-15 00:55:14"
+  },
+  {
+   "cat": "gas",
+   "title": "预测市场押注汽油价创年内新高",
+   "brief": "预测市场交易员认为汽油价格将创下年内新高，能源成本压力受关注。",
+   "chain": "成品油价走高→LNG/天然气替代需求与经济性变化→莫桑比克气源出口受益",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/14/prediction-markets-traders-think-gas-prices-will-hit-new-highs-in-2026.html",
+   "ts": "Mon, 14 Sep 2026 15:49:39 GMT"
+  },
+  {
+   "cat": "gas",
+   "title": "国内夜盘燃油LPG等能化品大涨",
+   "brief": "国内商品夜盘燃油涨超4%，低硫燃油、沥青、LPG等涨超3%，能化品普涨。",
+   "chain": "能化品普涨→天然气/LPG价格联动走强→莫桑比克LNG出口定价环境改善",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609143873768482.html",
+   "ts": "2026-09-14 23:00:05"
+  },
+  {
+   "cat": "tech",
+   "title": "英伟达博通下挫 AI板块轮动",
+   "brief": "英伟达、博通在AI板块轮动中下挫，部分英国上市公司上涨，资金出现切换。",
+   "chain": "AI芯片股回调→美股半导体承压→A股算力链芯片与服务器板块跟随调整",
+   "impact": 8,
+   "source": "Yahoo Finance",
+   "url": "https://www.investors.com/news/ai-nvidia-broadcom-software-stocks-servicenow-workday-salesforce-micron/?src=A00220&amp;yptr=yahoo",
+   "ts": "2026-09-14T16:38:47Z"
+  },
+  {
+   "cat": "tech",
+   "title": "Z.ai融资50亿美元后股价跌超10%",
+   "brief": "Z.ai完成50亿美元融资、两个月内第二次大额募资后，股价下跌超10%。",
+   "chain": "AI公司融资后股价承压→美股AI板块情绪谨慎→A股算力链融资与估值受关注",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/14/zai-shares-tumble-second-major-raise-two-months-.html",
+   "ts": "Mon, 14 Sep 2026 03:03:58 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "诺和诺德更名Novo 重思战略",
+   "brief": "诺和诺德更名为Novo，CEO称在减肥药竞争中需重新思考战略。",
+   "chain": "减肥药竞争格局变化→美股医药板块波动→A股相关产业链情绪受牵动",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/14/novo-nordisk-rebrands-to-novo-ceo-mike-doustdar.html",
+   "ts": "Mon, 14 Sep 2026 15:21:47 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "欧洲太空初创融资挑战美国主导",
+   "brief": "欧洲太空初创企业大额融资，欧洲意在挑战美国在航天领域的主导地位。",
+   "chain": "欧洲航天投资升温→美股航天板块竞争加剧→A股商业航天链受关注",
+   "impact": 4,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/14/space-startups-funding-spacex.html",
+   "ts": "Mon, 14 Sep 2026 13:08:29 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Altman称AI行业想放慢：可能失控",
+   "brief": "OpenAI的Altman阐述AI行业为何及如何想放慢发展，称'我们可能失去控制'。",
+   "chain": "AI安全担忧升温→美股AI高久期票风险偏好承压→A股算力链情绪受抑",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/14/sam-altman-ai-slowdown-anthropic-amodei-musk.html",
+   "ts": "Mon, 14 Sep 2026 13:38:48 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "特朗普称无需更多AI监管 抨击Amodei",
+   "brief": "特朗普表示不需要更多AI监管，并抨击Anthropic CEO Amodei的放缓主张。",
+   "chain": "美AI监管分歧→美股AI政策不确定性→A股算力链受监管预期扰动",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/14/trump-ai-data-centers-anthropic-dario-amodei.html",
+   "ts": "Mon, 14 Sep 2026 16:08:15 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "中国称AI CEO放缓呼吁是散布恐慌",
+   "brief": "中国回应称AI CEO们呼吁放缓是'散布恐慌'，与美方立场形成对比。",
+   "chain": "中美AI治理分歧→美股AI板块政策风险→A股算力链自主可控逻辑强化",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/14/china-ai-slowdown-us-tech-ceos.html",
+   "ts": "Mon, 14 Sep 2026 13:18:23 GMT"
+  }
+ ]
+}
