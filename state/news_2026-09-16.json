@@ -1,0 +1,214 @@
+{
+ "asof": "2026-09-16",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-09-16T01:49+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 14,
+  "cluster_label": "",
+  "cluster_dropped": [],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "美联储料三年首次加息 市场屏息",
+   "brief": "市场预期美联储本次会议将加息，为三年来首次；交易员押注紧缩延续，全球风险资产承压。",
+   "chain": "加息预期升温→美债收益率与贴现率上行、压制美股高估值成长股→A股算力链估值分母承压、情绪偏谨慎",
+   "impact": 10,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/economy/policy/live/federal-reserve-meeting-live-updates-chairman-kevin-warsh-143452661.html",
+   "ts": "2026-09-15T14:34:52Z"
+  },
+  {
+   "cat": "macro",
+   "title": "10年期美债收益率创2007年来新高",
+   "brief": "交易员押注美联储加息，10年期美债收益率升至2007年以来最高，长端利率破位引发全球估值重定价。",
+   "chain": "长端利率破位→美股AI高久期票估值分母抬升、风险偏好回落→A股算力链承压，资金转向防御",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/15/10-year-treasury-yield-rises-to-highest-since-2007.html",
+   "ts": "Tue, 15 Sep 2026 17:33:27 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "10年期美债收益率破5% 全球韧性承压",
+   "brief": "10年期美债收益率14日盘中突破5%，为2023年10月以来首次，市场担忧全球金融韧性受考验。",
+   "chain": "实际利率上行→美股成长股贴现压力加大、避险与利率双杀→A股算力链情绪受抑，关注黄金对冲",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609163875138496.html",
+   "ts": "2026-09-16 01:03:56"
+  },
+  {
+   "cat": "macro",
+   "title": "贝森特：10年美债收益率反映赤字等因素",
+   "brief": "美国财长贝森特称10年期国债收益率反映包括赤字在内的诸多因素，为财政部发债与利率环境辩护。",
+   "chain": "财长淡化利率上行归因→市场解读财政赤字压力延续、长端利率易上难下→美股估值与A股算力链承压",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609163875129437.html",
+   "ts": "2026-09-16 00:02:12"
+  },
+  {
+   "cat": "macro",
+   "title": "美国20年期国债中标收益率5.420%",
+   "brief": "美国发行20年期国债中标收益率5.420%，高于发行前交易水平5.400%，长端需求偏弱信号。",
+   "chain": "长端标售需求疲软→美债利率上行压力、美股估值承压→A股算力链情绪偏空，黄金避险属性凸显",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609163875138954.html",
+   "ts": "2026-09-16 01:04:31"
+  },
+  {
+   "cat": "geo",
+   "title": "美以与阿拉伯指挥官德国会商伊朗战事",
+   "brief": "上周美国、以色列及数个阿拉伯国家高级军事指挥官在德国会面，讨论与伊朗的战争及地区紧张局势。",
+   "chain": "中东军事协调升级→美股风险偏好受压、能源与军工波动→A股算力链情绪受地缘扰动",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609163875132588.html",
+   "ts": "2026-09-16 00:27:44"
+  },
+  {
+   "cat": "geo",
+   "title": "美因涉伊朗对俄VTB银行新制裁",
+   "brief": "美国以涉嫌与伊朗关联为由，对俄罗斯VTB银行实施新一轮制裁，大国博弈与制裁网络交织。",
+   "chain": "制裁扩围→避险情绪与能源供应担忧升温、美股承压→A股算力链情绪受抑，关注黄金避险",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUV9iZ1hvNXptVGtUeEZ2X3Q1bkxtdm93Zm1neUNFdjlKM3Y2eElENzhEbHNpMFRRUXlGaWtUakU1al9wM3gtanR4R05saV9fWXVmNXlOWFUtQkpvRnJBbDdybE5CdVJtUmFRVDdLazdXRGljQUVVa0xpcUEzWHNpUEd5ZEhjOUlQMVMzY2hnamY1endIa0RZbFRlM3pKOUUx?oc=5",
+   "ts": "2026-09-14T21:12:07+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "俄称击中乌西部铁路与伊兹梅尔港油轮",
+   "brief": "俄罗斯表示其军队击中乌克兰西部铁路基础设施，并击中伊兹梅尔港一艘油轮，黑海航运风险上升。",
+   "chain": "黑海航运与能源设施遇袭→原油供应担忧、避险升温→A股算力链情绪受扰，能源链波动加大",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609153875121872.html",
+   "ts": "2026-09-15 23:35:31"
+  },
+  {
+   "cat": "geo",
+   "title": "伊斯坦布尔货币兑换处枪击致3死1伤",
+   "brief": "土耳其最大城市伊斯坦布尔法提赫区一家货币兑换处15日发生枪击，造成3死1伤，地区安全担忧升温。",
+   "chain": "地区安全事件→避险情绪小幅升温、土耳其资产波动→对A股算力链传导有限，情绪面偏谨慎",
+   "impact": 3,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609163875132868.html",
+   "ts": "2026-09-16 00:30:22"
+  },
+  {
+   "cat": "oil",
+   "title": "沙特取消部分原油货载 美油破106美元",
+   "brief": "沙特据报在管道关闭后取消部分原油货载，美国原油升破106美元，供应担忧推动油价急涨。",
+   "chain": "沙特货载取消+管道关闭→布伦特/WTI跳涨、供应风险溢价抬升→莫桑比克油气售价与东非采购成本同步走高",
+   "impact": 10,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/15/oil-extends-gains-following-houthi-strikes-on-saudi-arabia.html",
+   "ts": "Tue, 15 Sep 2026 17:41:41 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "美能源部长：沙特东西管道数日内恢复",
+   "brief": "美国能源部长赖特称沙特东西管道将很快恢复运行，预计数天内重新开放，为油价提供短暂缓冲。",
+   "chain": "管道数日内重启→油价供应溢价或短期回落、但风险未消→莫桑比克经营需按高波动油价做对冲",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609153875126744.html",
+   "ts": "2026-09-15 23:51:36"
+  },
+  {
+   "cat": "oil",
+   "title": "中国8月原油加工量升 燃料出口反弹",
+   "brief": "受伊朗战事影响，中国8月原油加工量上升，燃料出口同步反弹，亚洲炼油需求保持韧性。",
+   "chain": "中国炼油需求回升→支撑原油现货与成品油出口、油价中枢偏强→东非成品油进口成本与莫桑比克经营承压",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY3JiM0k1cEJ2SDhnVmNCbHJpeWlQWTJyWjVTUDlSX0dhM0I4MHAwOHltcFl6WW5RazFEWE0yYk1ja0hJcnE1cWpJYVZDZFp0cW1XeVpMeXFEc01veFFRRmNZeFhkSXBIeFphV0pYU3NGZjJNbzhfRlFrUk5Gc3puWVo2SllOZm5CM19xZ2dSWGV3aGpzdkdOTFpRVHVMNDRyMTB1WWJRSVFKbVV6YXRJNG9JZU1iMk9XRF9KMlFXUHdNZw?oc=5",
+   "ts": "2026-09-15T05:12:00+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "沙特管道关闭为短暂中断 数日恢复",
+   "brief": "美国能源部长对CNBC称，沙特管道关闭是短暂中断，将持续数天，天然气与原油供应冲击有限。",
+   "chain": "管道数日恢复→气价与油价供应溢价短期缓和、LNG现货波动收敛→莫桑比克LNG项目按稳定气价预期排产",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/15/saud-arabia-east-west-pipeline-iran-war-chris-wright.html",
+   "ts": "Tue, 15 Sep 2026 17:34:15 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "AWS巴林及一阿联酋云区因战损无法恢复",
+   "brief": "亚马逊AWS因战争损毁，无法恢复巴林及一个阿联酋云数据区的访问，中东云基础设施受冲击。",
+   "chain": "中东云区战损→美股云厂商区域收入与算力部署受扰→A股算力链关注中东算力外溢与国产替代",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcGhFMHZVNGthdVl1bjYza3ZOWVpRY3ZMS1JmZkgxVnJTWGRhZFdFS3JfYk1nX2Y1Nzl3RlZDN21lWFA3b0xUU1E3UkdZR0hPQXNXdG5seEhsQ0hUR1gxVnZCWHFpTXdQdGhGQkFKTFd0cW80QUNBdnpXYzdOX25zZEJpN2lkOW1IWVlnc0RZNDk0cGgzSTlNYXFaMS1EcUJTM0ZUUjlhS0FLV0NrbGtsM3BKOVlFOWdFUi1sbGQtWmRqX3ZsODdPczRYRUw?oc=5",
+   "ts": "2026-09-15T11:58:52+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "博通CEO：AI营收目标未变",
+   "brief": "博通CEO回应Anthropic放缓呼声，称AI营收目标没有改变，驳斥AI需求见顶担忧。",
+   "chain": "博通重申AI营收指引→缓解美股AI硬件需求见顶担忧、半导体情绪修复→A股算力链（光模块/PCB）情绪提振",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/14/broadcom-ceo-on-anthropics-slowdown-push-ai-revenue-targets-havent-changed.html",
+   "ts": "Mon, 14 Sep 2026 22:43:25 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "Cloudflare因智能体AI热潮创新高",
+   "brief": "Cloudflare股价在智能体AI（Agentic AI）热潮中触及高位并逼近关键转折点，云与边缘计算受追捧。",
+   "chain": "Agentic AI需求升温→美股云与边缘计算标的走强→A股算力链关注CDN/边缘推理相关映射",
+   "impact": 5,
+   "source": "Yahoo Finance",
+   "url": "https://www.investors.com/research/cloudflare-net-stock-ai-agents-2/?src=A00220&amp;yptr=yahoo",
+   "ts": "2026-09-15T17:24:12Z"
+  },
+  {
+   "cat": "ai",
+   "title": "谷歌发布Gemini 3.8实时对话模型",
+   "brief": "谷歌发布Gemini 3.8实时对话模型，推出Live与Live Extended Thinking两款，实时多模态能力再升级。",
+   "chain": "谷歌实时模型升级→美股AI应用与算力需求预期升温→A股算力链（推理算力/服务器）情绪受益",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609163875141796.html",
+   "ts": "2026-09-16 01:34:58"
+  },
+  {
+   "cat": "ai",
+   "title": "特朗普致电黄仁勋 称数据中心反对是骗局",
+   "brief": "特朗普在All-In峰会上致电英伟达黄仁勋，称对数据中心的反对是“骗局”，力挺AI基建扩张。",
+   "chain": "白宫力挺AI数据中心→美股AI基建与英伟达链情绪提振→A股算力链（IDC/电源/液冷）情绪受益",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/14/trump-phones-nvidia-huang-all-in-calls-data-center-opposition-hoax.html",
+   "ts": "Mon, 14 Sep 2026 21:32:03 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "特朗普抨击Anthropic CEO放缓AI呼吁",
+   "brief": "特朗普在社媒抨击Anthropic CEO放慢AI开发的呼吁，称其为“病态阴谋”，AI监管路线分歧公开化。",
+   "chain": "AI监管路线之争→美股AI政策不确定性上升、算力扩张预期分化→A股算力链情绪波动加大",
+   "impact": 6,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-14/trump-rejects-calls-for-ai-guardrails-blasts-anthropic-s-amodei",
+   "ts": "2026-09-14T16:03:38+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "马斯克呼吁顶级AI实验室互测模型",
+   "brief": "在放缓呼声升温之际，马斯克呼吁顶级AI实验室与中国公司互相测试对方模型，推动安全互评。",
+   "chain": "AI安全互测倡议→美股AI治理预期升温、算力扩张节奏受关注→A股算力链关注合规与国产模型进展",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/15/elon-musk-ai-safety-testing.html",
+   "ts": "Tue, 15 Sep 2026 16:14:29 GMT"
+  }
+ ]
+}
