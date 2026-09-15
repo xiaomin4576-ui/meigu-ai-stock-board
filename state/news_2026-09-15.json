@@ -1,35 +1,22 @@
 {
  "asof": "2026-09-15",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-09-15T20:11+08:00",
+ "generated_at": "2026-09-15T23:37+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 2,
-  "cluster_label": "中东/沙特/胡塞",
+  "cross_day_suppressed": 1,
+  "cluster_label": "伊朗/印巴",
   "cluster_dropped": [
-   "胡塞武装再袭沙特 霍尔木兹谈判停滞",
-   "亚洲油商看多油价 中东战争无速决迹象",
-   "阿曼称霍尔木兹遇袭油轮已拖往港口",
-   "美因涉伊朗对俄VTB银行新制裁"
+   "美因涉伊朗对俄VTB银行实施新制裁"
   ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "CNBC调查：美联储未来一年至少加息两次",
-   "brief": "CNBC调查显示受访者预期美联储未来一年至少加息两次，高油价是改变预期的主因，约四分之三受访者持此观点。",
-   "chain": "加息预期升温→美债收益率与贴现率上行→压制美股AI高久期估值→A股算力链情绪承压",
-   "impact": 9,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/09/15/cnbc-fed-survey-two-rate-hikes-seen-ahead.html",
-   "ts": "2026-09-15T11:10:05+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "美债收益率飙至2007年以来最高",
-   "brief": "美债遭抛售，10年期美债收益率升至2007年以来最高水平，加息预期升温推动债市走弱。",
-   "chain": "长端利率破位→美股成长股估值分母抬升→A股算力链风险偏好受抑",
+   "title": "美债10年期收益率创2007年以来新高",
+   "brief": "交易员押注美联储即将加息，美债遭抛售，10年期美债收益率升至2007年以来最高水平。",
+   "chain": "加息预期升温→美债收益率飙升→美股AI高久期成长股估值分母承压→A股算力链情绪受抑",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNa2swZ0ZXMUlmM25iamJCQWM5NWV1OG1yUHA0MWZwVkVyempxRGlyWGdXeDRuN25IYXdGb1J0a05HazdLSEtsZUNBNzlBWVA3cmtJVElCREdQeWx2amlXZnAxNHBFN1pZdnFVQ3NhYTBrbF9sMVhZM1Z2djlBUWdCcnkxNHJMMFJTOHJRSQ?oc=5",
@@ -37,109 +24,149 @@
   },
   {
    "cat": "macro",
-   "title": "沃什面临艰难投票 美联储料加息",
-   "brief": "交易员定价加息概率超92%，沃什在美联储准备加息之际面临艰难博弈，市场预期加息幅度或超75%。",
-   "chain": "加息路径确认→实际利率上行→美股AI高久期票承压→A股算力链跟随波动",
+   "title": "CNBC调查：美联储未来一年至少加息两次",
+   "brief": "CNBC调查显示受访者预期美联储未来一年至少加息两次，高油价被视为改变预期的主因。",
+   "chain": "加息预期上修→贴现率抬升压制美股估值→A股算力链风险偏好降温",
    "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/15/cnbc-fed-survey-two-rate-hikes-seen-ahead.html",
+   "ts": "2026-09-15T11:10:05+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "沃什面临美联储加息投票硬仗",
+   "brief": "交易员定价加息概率超92%，美联储主席沃什在预期加息背景下遭遇艰难投票博弈。",
+   "chain": "政策不确定性上升→美股波动加剧→A股算力链跟随风险偏好波动",
+   "impact": 7,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/09/14/counting-the-votes-warsh-faces-tough-battle-as-fed-girds-for-expected-rate-hike.html",
    "ts": "2026-09-14T18:50:32+00:00"
   },
   {
    "cat": "macro",
-   "title": "中国8月零售不及预期 投资下滑加深",
-   "brief": "中国8月社会消费品零售总额不及预期，投资下滑态势加深，给北京政策端带来更大压力。",
-   "chain": "内需数据走弱→稳增长政策预期升温→A股顺周期与算力链政策博弈加剧",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/15/china-august-retail-sales-industrial-output-investment-exports-.html",
-   "ts": "Tue, 15 Sep 2026 09:46:14 GMT"
+   "title": "美财长：财政部评估发放5000美元支票提议",
+   "brief": "美国财长贝森特表示，财政部正在评估有关向民众发放5000美元支票的提议。",
+   "chain": "财政刺激预期→通胀与利率路径扰动→美股估值分母波动→A股算力链情绪联动",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609153875112542.html",
+   "ts": "2026-09-15 23:22:01"
   },
   {
    "cat": "macro",
-   "title": "10年期美债收益率升至2007年来最高",
-   "brief": "美联储加息预期升温推动10年期美债收益率升至2007年以来最高，债市承压明显。",
-   "chain": "利率中枢上移→美股估值分母扩张→A股算力链情绪受利率压制",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/15/10-year-treasury-yield-rises-to-highest-since-2007.html",
-   "ts": "Tue, 15 Sep 2026 12:07:29 GMT"
+   "title": "美财政部拍卖六周期国债得标利率3.850%",
+   "brief": "美国财政部拍卖六周期国债，得标利率3.850%，投标倍数3.16，需求尚可。",
+   "chain": "短端利率高企→美元与融资成本维持高位→美股估值承压→A股算力链情绪偏谨慎",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609153875120170.html",
+   "ts": "2026-09-15 23:33:19"
   },
   {
    "cat": "geo",
-   "title": "中东袭击加剧 霍尔木兹海峡通行量骤降",
-   "brief": "中东袭击强度上升后，霍尔木兹海峡航运通行量明显下降，地区局势持续紧张。",
-   "chain": "海峡通行受阻→原油供应风险溢价上升→美股能源与航运波动→A股油气链情绪联动",
+   "title": "胡塞武装再袭沙特 霍尔木兹谈判停滞",
+   "brief": "胡塞武装再次袭击沙特目标，霍尔木兹海峡相关谈判陷入停滞，中东局势持续紧张。",
+   "chain": "中东冲突升级→避险情绪升温压制美股风险偏好→A股算力链情绪承压",
    "impact": 9,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUTFPRnZDMlUxdmU3RmpseHVGS2laWk4tZU0ySUhOSUdDMGlfQ3loQTBQZktUdW96ck0yNlctUWxVV2NYSHpDclc2YnI4cVFISWZXbjdlM1BDSC1vejJmR2Qtc0NjTTlxLVpxRmZXck5nQU9US1JUalB2cTNZd1Z4Y1Q1QkVQUkEySXNqZUxYV1VWLV8wbVJYTU85X3U0bmk3SXFnNm1uMDQ4TkYwMjV3a3ItZw?oc=5",
-   "ts": "2026-09-15T02:59:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYjU2YnlvRExQZkwtRGlRN2ljVC10RTVQRGI4NUhLSEladjEzeGltZlcxWXByODRyZDlyM3pvWGdSYVBIZXctNVZvQ2ZOX09PZ2ZsN0pWU216ZFUwUDRRS0RjQXV2QVpMWkVXRFJiZGRaVVZENkFMN3hmUlBSWWxWVENnWnFYVEFHMGVMeWYyX2V0b09TMU9Bb2M4ZmZDWTU2YVVpYUFFOUJCcmVTeHhtdEVla2hMbGR1UGc?oc=5",
+   "ts": "2026-09-15T00:04:00+00:00"
   },
   {
    "cat": "geo",
    "title": "伊朗外长将访华 五角大楼披露战争成本",
-   "brief": "伊朗外长将前往中国会谈，同时五角大楼披露对伊战争财政成本，外交与军事博弈并行。",
-   "chain": "外交博弈升温→中东局势不确定性延续→美股风险偏好受压→A股算力链情绪联动",
-   "impact": 7,
+   "brief": "伊朗外长将前往中国会谈，同时五角大楼披露对伊战争财政成本，外交博弈持续。",
+   "chain": "地缘外交博弈→避险与油价预期扰动→美股风险偏好波动→A股算力链情绪联动",
+   "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/09/15/us-iran-war-trump-hormuz-munitions-dod-costs-aircraft.html",
    "ts": "Tue, 15 Sep 2026 11:53:36 GMT"
   },
   {
    "cat": "geo",
-   "title": "伊朗总统称不能让美以锁定最高领袖",
-   "brief": "伊朗总统佩泽希齐扬回应最高领袖传闻，强调穆杰塔巴健在并履职，称不能让美以锁定最高领袖。",
-   "chain": "伊朗内政表态→中东地缘不确定性延续→美股避险情绪扰动→A股相关链条情绪波动",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609153874876162.html",
-   "ts": "2026-09-15 19:38:51"
+   "title": "美国首次确认已在太空部署武器",
+   "brief": "美空军部长表示美国拥有在轨太空控制武器，首次公开确认太空武器部署。",
+   "chain": "太空军事化→大国博弈升级→避险情绪扰动美股→A股算力链情绪联动",
+   "impact": 5,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/15/weapons-in-space-us-air-force-meink.html",
+   "ts": "2026-09-15T11:06:33+00:00"
   },
   {
    "cat": "oil",
-   "title": "胡塞袭沙特后布伦特原油逼近108美元",
-   "brief": "胡塞武装打击沙特后油价延续涨势，布伦特原油逼近每桶108美元，供应风险溢价上升。",
-   "chain": "沙特遇袭→布油逼近108美元→东非油气项目经济性改善→莫桑比克LNG与联合能源经营受益",
+   "title": "沙特管道停运数周 油价冲高至110美元",
+   "brief": "有报道称沙特一条输油管道将需数周才能重启，油价受此推动升向110美元。",
+   "chain": "沙特管道停运→原油供应收紧、Brent冲高→东非进口燃料成本上升，莫桑比克油气项目经济性改善",
    "impact": 9,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/15/oil-extends-gains-following-houthi-strikes-on-saudi-arabia.html",
-   "ts": "Tue, 15 Sep 2026 07:22:29 GMT"
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-13/latest-oil-market-news-and-analysis-for-sept-14",
+   "ts": "2026-09-14T14:00:49+00:00"
   },
   {
    "cat": "oil",
-   "title": "沙特抢修关键管道 油价安全网松动",
-   "brief": "沙特正加紧重启一条关键输油管道，油价的安全缓冲垫出现松动迹象。",
-   "chain": "管道抢修→短期供应扰动缓解预期→油价波动加大→莫桑比克油气经营需关注价格回落风险",
+   "title": "沙特延布港石油装载作业暂停",
+   "brief": "在东西管道此前遭袭后，沙特红海主要石油出口港延布石油装载作业已经暂停。",
+   "chain": "延布港停装→红海出口受阻、油价获支撑→东非燃料进口成本抬升，Union油气售价受益",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609153875091427.html",
+   "ts": "2026-09-15 22:54:06"
+  },
+  {
+   "cat": "oil",
+   "title": "国际油价持续走高 WTI涨3.43%",
+   "brief": "WTI原油期货涨3.43%报104.87美元/桶，布伦特涨2.70%报108.535美元/桶。",
+   "chain": "油价走高→Brent站上108美元→莫桑比克油气销售价格与项目回报改善",
    "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/15/oil-prices-saudi-arabia-east-west-pipeline-iran.html",
-   "ts": "Tue, 15 Sep 2026 11:25:12 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609153875108285.html",
+   "ts": "2026-09-15 23:15:07"
+  },
+  {
+   "cat": "oil",
+   "title": "丹格特炼厂启动非洲最大IPO",
+   "brief": "亿万富翁丹格特为其炼油厂启动“人民IPO”，为非洲规模最大的股票发行。",
+   "chain": "非洲炼能扩张→区域成品油供应格局变化→东非燃料进口与莫桑比克能源经营环境受关注",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNm15SzdOekVDNV9rUTlPanJOckRvYlVjbzNtRU1BVFlWLV9DUVFBRHIxQWwzbzZJNHNuUWt4VXpyM0piZVZCTjRXelNxMUN3ZHB4WXNuZmdoeTJvZkI5Mmp5azBwVGxRNU1qdEEwelJ4c3lCUGxORXRGUFkxckEwZFkwMjRIR3pUbnZhQnllUXp6ZVN2QllZeEg5LUhuVm9tdDhHZmhlTEt5RV8temxtSTJqb0RYWENfckZLTVV1RmlzNjQwdjBj?oc=5",
+   "ts": "2026-09-14T19:34:10+00:00"
   },
   {
    "cat": "gas",
-   "title": "美伊战争结束后中印巴LNG需求料反弹",
-   "brief": "路透报道称，美国与伊朗战争结束后，中国、印度和巴基斯坦的LNG需求预计将出现反弹。",
-   "chain": "战争结束预期→亚洲LNG需求回升→全球气价获支撑→莫桑比克LNG项目出口前景改善",
-   "impact": 8,
+   "title": "美伊战后中印巴LNG需求预计反弹",
+   "brief": "路透称美伊战争结束后，中国、印度和巴基斯坦的LNG需求预计将出现反弹。",
+   "chain": "亚洲LNG需求回升→全球气价获支撑→莫桑比克Rovuma/Cabo Delgado LNG出口前景改善",
+   "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQb19XZTBOamlRdWRZa2xJc2F1b0g2ZmlzU1BObHJlSXpldVdQVHR3T2JSWFVvUDEyWTk1Zm9RU3dCUmVmQXIyWjVBTkVpam8xVndOTTNjS3k3c0R1LVlDN09taHZHNDVTUU84TF9fZmNKWTZhQVVpeFJpVXBqb0w3TjB0V0ZDM3Q5aWFpZ1R3WVdaUl9hZURqcG5tOVhiaXIwQ3c4S2I2Q1lCMmZ6OGtqSzhVOA?oc=5",
    "ts": "2026-09-15T02:17:00+00:00"
   },
   {
    "cat": "gas",
-   "title": "贝克休斯：高利率下能源项目未见放缓",
-   "brief": "贝克休斯表示尽管利率上升，能源项目未见放缓，AI建设热潮正推升LNG需求。",
-   "chain": "AI数据中心用电→LNG需求上行→气价中枢获支撑→莫桑比克/东非LNG项目受益",
-   "impact": 7,
+   "title": "贝克休斯：AI建设推升LNG需求 能源项目不减",
+   "brief": "贝克休斯称高利率下能源项目未见放缓，AI数据中心建设正推升LNG需求。",
+   "chain": "AI数据中心用气增加→全球LNG需求走强→莫桑比克东非LNG项目长期需求面受益",
+   "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/09/14/baker-hughes-ceo-no-slowdown-in-energy-projects-despite-higher-rates-.html",
    "ts": "Mon, 14 Sep 2026 03:27:58 GMT"
   },
   {
+   "cat": "gas",
+   "title": "穆迪：美AI繁荣需1100亿美元新建电厂",
+   "brief": "穆迪称美国AI繁荣需新增1100亿美元发电装机，其中超30吉瓦来自天然气发电。",
+   "chain": "AI电力缺口→天然气发电需求上升→全球LNG景气度提升→东非LNG项目受益",
+   "impact": 6,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-14/us-ai-boom-needs-110-billion-of-new-power-plants-moody-s-says",
+   "ts": "2026-09-14T13:59:19+00:00"
+  },
+  {
    "cat": "tech",
    "title": "三星2.3亿美元投资英伟达AI芯片对手",
-   "brief": "三星在一轮2.3亿美元融资中支持英伟达AI芯片竞争对手，GPU替代方案持续升温。",
-   "chain": "GPU替代融资升温→AI芯片竞争格局生变→美股半导体板块分化→A股算力芯片链情绪联动",
+   "brief": "三星参与2.3亿美元融资，支持英伟达AI芯片竞争对手，GPU替代方案升温。",
+   "chain": "AI芯片竞争加剧→英伟达份额预期扰动→映射A股国产算力芯片替代链",
    "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/09/14/samsung-euclyd-ai-chip-funding.html",
@@ -147,43 +174,43 @@
   },
   {
    "cat": "tech",
-   "title": "博通CEO回应Anthropic放缓论：AI收入目标未变",
-   "brief": "博通CEO回应Anthropic的AI放缓呼吁，称公司AI收入目标并未改变。",
-   "chain": "AI需求指引不变→缓解数据中心放缓担忧→美股AI硬件情绪修复→A股算力链跟随",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/14/broadcom-ceo-on-anthropics-slowdown-push-ai-revenue-targets-havent-changed.html",
-   "ts": "Mon, 14 Sep 2026 22:43:25 GMT"
+   "title": "日立5.28亿美元在美建变压器工厂",
+   "brief": "日立投资5.28亿美元在密西西比州建设变压器工厂，深化对美国制造业承诺。",
+   "chain": "电网设备扩产→AI数据中心电力配套受益→映射A股变压器/电力设备链",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609153875102679.html",
+   "ts": "2026-09-15 23:03:24"
   },
   {
    "cat": "tech",
-   "title": "苹果在iPhone 18上市前测试新版Siri",
-   "brief": "苹果在iPhone 18本周上市前发布重新设计的Siri AI测试版，推进端侧AI体验。",
-   "chain": "端侧AI落地→消费电子换机预期升温→美股苹果链情绪改善→A股消费电子与算力链联动",
-   "impact": 6,
+   "title": "苹果发布改版Siri AI测试版",
+   "brief": "苹果在iPhone 18本周上市前发布重新设计的Siri AI测试版本。",
+   "chain": "苹果AI功能落地→消费电子与端侧AI预期升温→映射A股消费电子/端侧AI链",
+   "impact": 5,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/09/14/apple-releases-ios-27-redesigned-siri-ai.html",
    "ts": "Mon, 14 Sep 2026 19:05:40 GMT"
   },
   {
    "cat": "tech",
-   "title": "华为发布全球首个3D数据中心",
-   "brief": "华为发布全球首个3D数据中心，并发行《3D数据中心》专著、开放概要设计图库。",
-   "chain": "数据中心架构创新→算力基础设施升级→美股数据中心链关注→A股算力基建链情绪提振",
-   "impact": 6,
+   "title": "Meta推出Meta One订阅服务",
+   "brief": "Meta推出Meta One订阅服务，提供更高AI使用额度及增强表情相关功能。",
+   "chain": "订阅变现推进→美股科技盈利预期改善→映射A股AI应用与软件链",
+   "impact": 4,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609153874900462.html",
-   "ts": "2026-09-15 20:01:58"
+   "url": "https://finance.eastmoney.com/a/202609153875104159.html",
+   "ts": "2026-09-15 23:04:40"
   },
   {
    "cat": "ai",
-   "title": "特朗普猛烈抨击AI警告与数据中心反对声",
-   "brief": "特朗普对AI安全警告和数据中心反对声采取强硬立场，怒斥相关监管与反对意见。",
-   "chain": "AI监管博弈升温→数据中心扩张政策不确定性→美股AI基建情绪波动→A股算力链联动",
+   "title": "AI硬件股会否重演SaaS式抛售？",
+   "brief": "Anthropic安全警告打压数据中心股，但算力需求仍超供给，AI硬件抛售或过度。",
+   "chain": "AI安全担忧→数据中心股承压但需求仍强→映射A股算力硬件链情绪波动",
    "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/14/trump-ai-data-centers-anthropic-dario-amodei.html",
-   "ts": "Mon, 14 Sep 2026 21:15:56 GMT"
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/14/is-a-saaspocalypse-like-sell-off-coming-for-ai-hardware-stocks-not-so-fast.html",
+   "ts": "2026-09-14T18:43:44+00:00"
   }
  ]
 }
