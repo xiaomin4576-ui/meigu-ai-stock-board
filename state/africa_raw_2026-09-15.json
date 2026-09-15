@@ -1,12 +1,12 @@
 {
  "asof": "2026-09-15",
- "fetched_at": "2026-09-15T14:42+08:00",
+ "fetched_at": "2026-09-15T16:50+08:00",
  "meta": {
   "counts": {
    "TechCabal": 0,
    "Moonshot·TechCabal": 0,
    "Disrupt Africa": 10,
-   "Techpoint Africa": 20,
+   "Techpoint Africa": 0,
    "IT News Africa": 11,
    "TechAfrica News": 12,
    "Condia": 25,
@@ -18,11 +18,131 @@
    "中非科技·聚合": 21
   },
   "total": 60,
-  "ai_flagged": 16,
-  "aiinfra_flagged": 2,
-  "countries": 9
+  "ai_flagged": 18,
+  "aiinfra_flagged": 4,
+  "countries": 10
  },
  "items": [
+  {
+   "title": "BMA replaces e-mail with digital port system",
+   "brief": "The Border Management Authority launches a digital Port Health Management System at Durban Harbour.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/bma-replaces-e-mail-with-digital-port-system/P3gQ2qGAlky7nRD1",
+   "date": "Tue, 15 Sep 2026 10:42:03 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Beyon Connect and Rain Partner to Accelerate Digital Crypto Onboarding in Bahrain",
+   "brief": "Beyon Connect,  part of the Beyon Group , has announced the successful integration of Rain , a leading regional cryptocurrency exchange, into the revamped eKey 2.0 ecosystem. ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/15/beyon-connect-rain-digital-crypto-onboarding-bahrain/",
+   "date": "Tue, 15 Sep 2026 08:06:16 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Moro Hub Launches e-Invoicing Solution as UAE Prepares for 2027 Mandate",
+   "brief": "The Data Hub Integrated Solutions (Moro Hub) , a subsidiary of Digital DEWA, the digital arm of Dubai Electricity and Water Authority (DEWA), has launched its ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/15/moro-hub-launches-e-invoicing-solution-uae-2027-mandate/",
+   "date": "Tue, 15 Sep 2026 08:00:35 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Space42 and Viasat Sign Agreement to Establish Equatys Satellite Connectivity Platform",
+   "brief": "Space42,  the UAE-based AI-powered SpaceTech company, and Viasat, Inc.,  a global leader in satellite and secure communications, announced the signing of an agreement at World ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/15/space42-viasat-establish-equatys-satellite-connectivity-platform/",
+   "date": "Tue, 15 Sep 2026 07:50:59 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Vision Bank and Publicis Sapient Partner to Accelerate AI-Driven Banking Innovation in Saudi Arabia",
+   "brief": "Vision Bank,  the first Saudi Islamic bank powered by AI and regulated by the Saudi Central Bank (SAMA), and Publicis Sapient,  a technology company that ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/15/vision-bank-publicis-sapient-ai-banking-innovation-saudi-arabia/",
+   "date": "Tue, 15 Sep 2026 07:40:45 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "ITWeb TV Biz: Preparing for opportunity: How Titan Centre of Excellence uses AWS to boost SA's tech skills",
+   "brief": "When the only constant is change, helping people develop tech skills becomes a crucial mission.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/itweb-tv-biz-preparing-for-opportunity-how-titan-centre-of-excellence-uses-aws-to-boost-sas-tech-skills/kLgB1MezZKgq59N4",
+   "date": "Tue, 15 Sep 2026 09:31:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "AXIAN Telecom Rebrands as Yas Group, Unifying Corporate Identity Across Africa",
+   "brief": "AXIAN Telecom,  the pan-African group behind Yas, announced that it is adopting Yas Group  as its new corporate identity, replacing the AXIAN Telecom name across ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/15/axian-telecom-adopts-yas-group-as-new-corporate-identity-across-africa/",
+   "date": "Tue, 15 Sep 2026 07:30:19 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Madica expands into Algeria and Cameroon with five new African startup bets",
+   "brief": "Madica has made its first investments in Algeria and Cameroon, backing five African startups as it expands its pre-seed bets into overlooked markets.",
+   "source": "Condia",
+   "url": "https://thecondia.com/madica-invests-algeria-cameroon-five-african-startups/",
+   "date": "Tue, 15 Sep 2026 07:30:00 +0000",
+   "country": "🇩🇿 阿尔及利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "The Please Call Me millions: But wait, there’s more",
+   "brief": "Errol Elsdon offered a stake in a separate court case as security for funding Nkosana Makate’s Please Call Me battle, but the trust says he had no agreement with it.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/the-please-call-me-millions-but-wait-theres-more/raYAyqorDxKMJ38N",
+   "date": "Tue, 15 Sep 2026 09:20:59 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Somalia and UNDP Strengthen Cooperation on Digital Government and Transformation",
+   "brief": "The Minister of Communications and Technology of the Federal Government of Somalia , H.E. Mohamed Somali, received the newly appointed UNDP  Resident Representative to Somalia, Mr. ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/15/somalia-undp-strengthen-cooperation-on-digital-government-and-transformation/",
+   "date": "Tue, 15 Sep 2026 07:05:55 +0000",
+   "country": "🇲🇱 马里",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Quectel Announces Launch of Tarrius to Deliver Next-Generation Precision Positioning Solutions for Demanding Field Applications",
+   "brief": "Quectel Wireless Solutions, a global end-to-end IoT solutions provider, today announces the launch of Tarrius, a new precision technology solution focused on advancing spatial intelligence.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/quectel-announces-launch-of-tarrius-to-deliver-next-generation-precision-positioning-solutions-for-demanding-field-applications/Gb3BwMWaORkv2k6V",
+   "date": "Tue, 15 Sep 2026 09:00:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Lebara Officially Launches Mobile Services in Nigeria",
+   "brief": "Lebara Nigeria  has officially launched its telecommunications services in Nigeria, marking the company’s entry into the country’s mobile communications market. The company announced that customers ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/15/lebara-officially-launches-mobile-services-in-nigeria/",
+   "date": "Tue, 15 Sep 2026 06:58:18 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
   {
    "title": "Modern defence is connected. Cyber defence must be built in",
    "brief": "Project CLASSS, which aims to provide sovereign security solutions in a more integrated, synergistic way, is set to launch at the Africa Aerospace and Defence exhibition later this month.",
@@ -54,16 +174,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "How technology can boost patient safety and satisfaction",
-   "brief": "A next-generation nurse call system will improve the local healthcare sector by delivering higher quality care and boosting patient satisfaction through targeted communication and emergency prioritisation.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/how-technology-can-boost-patient-safety-and-satisfaction/LPwQ5MlbVxyvNgkj",
-   "date": "Tue, 15 Sep 2026 08:01:00 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Japan keen to support Zim industrialisation",
    "brief": "Ivan Zhakata Herald Correspondent JAPAN is keen to deepen economic cooperation with Zimbabwe, particularly in industrialisation and technology transfer, as the country moves towards achieving its Vision 2030 targets. The",
    "source": "Zimbabwe Situation",
@@ -76,7 +186,7 @@
   {
    "title": "Chinese bank helped Huawei spirit $1B out of London days after US indictment of the tech giant",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOenJMdmh2Tll1TXZZejV5N05YVFBhU0FQWURnVi1EQ3Zzb0ppbGR4dTk1dS1fZGhJdDZtU042ZnRqVTdVaHhwem9tSHZOaTVyVXVVeldWckRTa0RNUk5KZ2YyNG1LYTh1dWhXZ2ppXy0xX0xDUXZURlNmaGRGa3",
-   "source": "International Consortium of Investigative Journalists - ICIJ·聚合",
+   "source": "icij.org·聚合",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOenJMdmh2Tll1TXZZejV5N05YVFBhU0FQWURnVi1EQ3Zzb0ppbGR4dTk1dS1fZGhJdDZtU042ZnRqVTdVaHhwem9tSHZOaTVyVXVVeldWckRTa0RNUk5KZ2YyNG1LYTh1dWhXZ2ppXy0xX0xDUXZURlNmaGRGa3ZmVEVmMzNrcWY3a0UyblVWLVVMUHJueS03VGl3?oc=5",
    "date": "Mon, 14 Sep 2026 21:41:33 GMT",
    "country": null,
@@ -174,56 +284,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Fawry and DMS Integrate POS and Medical Systems to Streamline Digital Payments in Egypt",
-   "brief": "Fawry,  Egypt’s leading fintech company, announced its partnership with DMS,  a company specializing in software solutions and digital transformation for the healthcare, financial, and industrial ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/14/fawry-and-dms-integrate-pos-and-medical-systems-to-streamline-digital-payments-in-egypt/",
-   "date": "Mon, 14 Sep 2026 12:33:05 +0000",
-   "country": "🇪🇬 埃及",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Open Innovation AI and Dhow Engineering Partner to Advance Sovereign AI in Kuwait",
-   "brief": "Open Innovation Artificial Intelligence (“Open Innovation AI”)  and Dhow Engineering,  part of Dhow International Holding,  have formed a strategic partnership to accelerate the adoption of ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/14/open-innovation-ai-and-dhow-engineering-partner-to-advance-sovereign-ai-in-kuwait/",
-   "date": "Mon, 14 Sep 2026 12:26:56 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Cloudflare and OpenAI Partner on AI-Powered Vulnerability Discovery and Remediation",
-   "brief": "Cloudflare, Inc.,  the leading connectivity cloud company, announced Vulnerability Discovery and Remediation, available in early access through Cloudflare Managed Defense. Through the OpenAI  Daybreak Defense ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/14/cloudflare-and-openai-partner-on-ai-powered-vulnerability-discovery-and-remediation/",
-   "date": "Mon, 14 Sep 2026 12:22:24 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Salam and Dell Technologies Sign MoU to Expand Cloud and Edge AI in Saudi Arabia",
-   "brief": "Etihad Salam Telecom Company (Salam) , a leading telecommunications and information technology provider in Saudi Arabia, and Dell Technologies  have signed a Memorandum of Understanding (“MoU”) ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/14/salam-and-dell-technologies-sign-mou-to-expand-cloud-and-edge-ai-in-saudi-arabia/",
-   "date": "Mon, 14 Sep 2026 11:57:44 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Valu Jordan and Zbooni Partner to Expand Digital Commerce and BNPL in Jordan",
-   "brief": "Valu Jordan  a leading universal financial technology powerhouse in the Middle East and North Africa (MENA), and Zbooni Jordan,  a conversational e-commerce platform serving small ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/14/valu-jordan-and-zbooni-partner-to-expand-digital-commerce-and-bnpl-in-jordan/",
-   "date": "Mon, 14 Sep 2026 11:46:07 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Top ICT tenders: SITA sees activity surge",
    "brief": "The State Information Technology Agency dominates this week’s issue with four tenders on offer, with two on behalf of SAPS.",
    "source": "ITWeb Africa",
@@ -264,26 +324,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "EP.07 | S2 | What Will It Take to Get 900 Million+ Africans Online? GSMA’s Caroline Mbugua on Affordability, AI and Policy Reform",
-   "brief": "In this TechAfrica News podcast episode, Caroline Mbugua, HSC, Senior Director of Public Policy and Communications at GSMA, sat down with Akim Benamara, Founder of TechAfrica News, on the sidelines of MWC 2026 in Barcelo",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/14/ep-07-s2-what-will-it-take-to-get-900-million-africans-online-gsmas-caroline-mbugua-on-affordability-ai-and-policy-reform/",
-   "date": "Mon, 14 Sep 2026 10:25:15 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Angola’s Africell Secures $99.6 Million US EXIM Loan for Network Expansion",
-   "brief": "The Export-Import Bank of the United States (EXIM)  has announced a $99.6 million direct loan to Africell,  the only US-owned mobile network operator in Africa, ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/14/angolas-africell-secures-99-6-million-us-exim-loan-for-network-expansion/",
-   "date": "Mon, 14 Sep 2026 10:22:43 +0000",
-   "country": "🇦🇴 安哥拉",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "MultiChoice sees shift to DStv Stream, podcast-to-TV",
    "brief": "The company ponders podcast-to-TV, while shifting entertainment and live sport to its growing DStv Stream platform.",
    "source": "ITWeb Africa",
@@ -314,42 +354,12 @@
    "is_aiinfra": false
   },
   {
-   "title": "Neglecting ITAM governance is a growing business risk",
-   "brief": "ITAM governance is becoming a critical priority and many organisations still lack the policies and visibility to manage it, says Valene Nagiah, head of asset tracking and management at V-Track.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/neglecting-itam-governance-is-a-growing-business-risk/PmxVE7KEYegqQY85",
-   "date": "Mon, 14 Sep 2026 10:55:52 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Nominations open for ITWeb Brainstorm CIO of the Year Awards",
-   "brief": "Nominate an outstanding chief information officer for either the Enterprise or Public Sector CIO of the Year Award by 28 September.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/nominations-open-for-itweb-brainstorm-cio-of-the-year-awards/O2rQGMAEgXGMd1ea",
-   "date": "Mon, 14 Sep 2026 10:51:00 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Kenyan startup enters administration after raising nearly $200 million",
    "brief": "Twiga Foods' GT Flow Limited has entered administration after years of layoffs, debt, and a failed restructuring, as creditors move in.",
    "source": "Condia",
    "url": "https://thecondia.com/twiga-foods-administration-kenya/",
    "date": "Mon, 14 Sep 2026 08:12:19 +0000",
    "country": "🇰🇪 肯尼亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Case study: Smollan Technologies' Argility successfully completes world first – highly complex Google Workspace migration",
-   "brief": "Argility led the Smollan transition, migrating 9 064 users across 25 companies, 19+ countries, eight languages and 24 time zones over 547 days.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/case-study-smollan-technologies-argility-successfully-completes-world-first-highly-complex-google-workspace-migration/WnxpEv4Yy1m7V8XL",
-   "date": "Mon, 14 Sep 2026 10:05:00 +0200",
-   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -362,26 +372,6 @@
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
-  },
-  {
-   "title": "This second-time founder left his consulting business to make Nigeria’s mining data accessible",
-   "brief": "In this edition of After Hours, Anthony Adejuwon talks about his journey from running a construction consultancy to founding Urban Alert, a civic tech organisation focused on transparency in Africa’s mining sector.",
-   "source": "Techpoint Africa",
-   "url": "https://techpoint.africa/feature/after-hours-anthony-adejuwon/",
-   "date": "Mon, 14 Sep 2026 07:14:31 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Cassava and Vodafone bring Nvidia-powered AI data centre to Egypt",
-   "brief": "On Techpoint Digest, we discuss Cassava's $1 billion Egypt AI data centre, Côte d'Ivoire's first state data centre, Uber's promise that UberX drivers will not lose their jobs in South Africa, and the NCC's concern about ",
-   "source": "Techpoint Africa",
-   "url": "https://techpoint.africa/insight/techpoint-digest-1431/",
-   "date": "Mon, 14 Sep 2026 07:00:00 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": true,
-   "is_aiinfra": true
   },
   {
    "title": "What Nigerian creators need to join and get paid on the X Creator Program",
@@ -454,23 +444,13 @@
    "is_aiinfra": false
   },
   {
-   "title": "Building a thriving career as a program manager",
-   "brief": "Many people see program management as just ‘project management with a softer title’ but in reality, the role is much deeper. Esohe Igbinoba, Director of Programs at Businessfront, dispels some misconceptions and shares p",
-   "source": "Techpoint Africa",
-   "url": "https://techpoint.africa/feature/building-program-management-career/",
-   "date": "Fri, 11 Sep 2026 11:44:00 +0000",
+   "title": "AI Under Threat: Navigating Security Risks in a Rapidly Evolving Digital World",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxONXJ3c3M0RlZIaXVRNHpVMnNYTWpkd3ZHa09EYXlKLUFlbDhtYnF5VzJBX2RvNldyTzFGNDFXVEs3ZzBXNVlvZEVQcDJWMGZ6TDluR0NtaWlpbzU4dkhuVkJyY0ZvN0ZuR3VEUjhtWS1ac0JQOUY1UUpJM05LNz",
+   "source": "CNBC Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONXJ3c3M0RlZIaXVRNHpVMnNYTWpkd3ZHa09EYXlKLUFlbDhtYnF5VzJBX2RvNldyTzFGNDFXVEs3ZzBXNVlvZEVQcDJWMGZ6TDluR0NtaWlpbzU4dkhuVkJyY0ZvN0ZuR3VEUjhtWS1ac0JQOUY1UUpJM05LNzhSNjVMYm4xWG8zZ282TktXcXZHaVVqN1VTN001SlNwY0RLOVdueFRPUG9aMDBMd0ZkaGtKX1VzeGJNQ1dEckV1aw?oc=5",
+   "date": "Fri, 11 Sep 2026 12:01:28 GMT",
    "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Zambian fintech Zoyk gets BCC approval to take Zoykpay into DRC",
-   "brief": "On Techpoint Digest, we discuss Zambia's Zoyk receiving DRC payments approval, Lesaka profits increasing ahead of the Bank Zero deal, Ghana pushing to meet the 5G deadline, and X changing how creators get paid.",
-   "source": "Techpoint Africa",
-   "url": "https://techpoint.africa/insight/techpoint-digest-1430/",
-   "date": "Fri, 11 Sep 2026 07:00:00 +0000",
-   "country": "🇬🇭 加纳",
-   "is_ai": false,
+   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -490,36 +470,6 @@
    "url": "https://thecondia.com/uber-alternatives-nigeria-ride-hailing-apps/",
    "date": "Fri, 11 Sep 2026 01:28:23 +0000",
    "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "The Dangote Refinery IPO opens on 14 September. Here is where to place your subscription",
-   "brief": "When the Dangote Refinery IPO launches, Nigerian investors will get an opportunity to own a part of the largest single listed company on the Nigerian Exchange. This piece details how can you position yourself to take adv",
-   "source": "Techpoint Africa",
-   "url": "https://techpoint.africa/insight/dangote-refinery-ipo-opens/",
-   "date": "Thu, 10 Sep 2026 18:38:38 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "BluDive Calls for Greater Technology Ownership as GITEX Nigeria 2026 Spotlights Sovereign Innovation",
-   "brief": "Foremost Nigerian enterprise tech firm, BluDive Technologies Limited, has called...",
-   "source": "Techpoint Africa",
-   "url": "https://techpoint.africa/brandpress/bludive-calls-for-greater-technology-ownership-as-gitex-nigeria-2026-spotlights-sovereign-innovation/",
-   "date": "Thu, 10 Sep 2026 16:12:14 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "inDrive Records 96% Surge in App Installs as Passengers Embrace Fair Choice",
-   "brief": "inDrive, a global mobility and delivery services platform, is gaining...",
-   "source": "Techpoint Africa",
-   "url": "https://techpoint.africa/brandpress/indrive-records-96-surge-in-app-installs-as-passengers-embrace-fair-choice/",
-   "date": "Thu, 10 Sep 2026 14:31:43 +0000",
-   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -544,72 +494,12 @@
    "is_aiinfra": false
   },
   {
-   "title": "Mastercard and Busha Bring Trusted and Simpler Digital Asset Transfers to Nigeria",
-   "brief": "Mastercard has partnered with Busha, a pan-African digital asset exchange,...",
-   "source": "Techpoint Africa",
-   "url": "https://techpoint.africa/brandpress/mastercard-and-busha-bring-trusted-and-simpler-digital-asset-transfers-to-nigeria/",
-   "date": "Thu, 10 Sep 2026 12:00:00 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Police arrest Nigerian lady behind viral OPay shutdown tweet",
-   "brief": "After receiving a petition from OPay, the Nigerian Police National Cybercrime Centre (NPF NCC) has arrested a 27-year-old lady as the suspect behind the viral Opay shutdown rumour.",
-   "source": "Techpoint Africa",
-   "url": "https://techpoint.africa/news/lady-behind-viral-opay-tweet-arrested/",
-   "date": "Thu, 10 Sep 2026 11:36:27 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "How FairMoney’s 30M users stand against Nigeria’s oldest banks",
    "brief": "FairMoney’s rise to 30 million registered users shows how quickly Nigeria’s financial landscape is changing.",
    "source": "Condia",
    "url": "https://thecondia.com/fairmoneys-30m-users-against-nigerias-oldest-banks/",
    "date": "Thu, 10 Sep 2026 09:44:56 +0000",
    "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Infinix GT 50 Pro to Launch in Nigeria with Gaming-Focused Cooling Technology",
-   "brief": "Mobile gaming has come a long way. Today's smartphones can...",
-   "source": "Techpoint Africa",
-   "url": "https://techpoint.africa/brandpress/infinix-gt-50-pro-to-launch-in-nigeria-with-gaming-focused-cooling-technology/",
-   "date": "Thu, 10 Sep 2026 09:43:28 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Blockfest Africa Returns for Second Edition as Lagos Prepares for a Bigger Web3 Experience",
-   "brief": "Nigeria’s Web3 community is set for another major gathering as...",
-   "source": "Techpoint Africa",
-   "url": "https://techpoint.africa/brandpress/blockfest-africa-returns-for-second-edition-as-lagos-prepares-for-a-bigger-web3-experience/",
-   "date": "Thu, 10 Sep 2026 09:29:35 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Moat Academy Marks 10 Years of Building Software Talent, Highlights Global Alumni  Impact Ahead of Cohort 36",
-   "brief": "As Cohort 36 begins on November 9, 2026, the Lagos-based...",
-   "source": "Techpoint Africa",
-   "url": "https://techpoint.africa/brandpress/moat-academy-marks-10-years-of-building-software-talent/",
-   "date": "Thu, 10 Sep 2026 09:00:00 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Platnova Business Expands Tools to Simplify Financial Operations for Growing Companies",
-   "brief": "Platnova has rolled out a suite of tools under Platnova...",
-   "source": "Techpoint Africa",
-   "url": "https://techpoint.africa/brandpress/platnova-business-expands-tools-to-simplify-financial-operations-for-growing-companies/",
-   "date": "Thu, 10 Sep 2026 08:10:00 +0000",
-   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -621,6 +511,116 @@
    "date": "Thu, 10 Sep 2026 09:59:20 +0200",
    "country": null,
    "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Apple enters a crowded foldable smartphone market in China – can it beat Huawei?",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNeDNlcHE5S3d2U19NVzlqcm9PVkNoMlk2Z0tLNGVUY09lM0pfNURRTlRXNjNVaWxubWE5WDBqZF9Dc3pqcUg2Q3paS012NWpQb2ZyRFViSjZURjhmZENrUDlzUmJWLXFCdEtqcXp5dGw4ZWlTeDBwNXBTelJjYX",
+   "source": "South China Morning Post·聚合",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeDNlcHE5S3d2U19NVzlqcm9PVkNoMlk2Z0tLNGVUY09lM0pfNURRTlRXNjNVaWxubWE5WDBqZF9Dc3pqcUg2Q3paS012NWpQb2ZyRFViSjZURjhmZENrUDlzUmJWLXFCdEtqcXp5dGw4ZWlTeDBwNXBTelJjYXRVVFUxOFNxclJCS21kR3FrZFE0YkRnWlhQLUVkYWRGUlpZNzZVWFFuVWRlLU82cVhmbzN4eGEyenU0QkpBOHo3TmNmUmlw?oc=5",
+   "date": "Thu, 10 Sep 2026 07:13:25 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "A false sense of security",
+   "brief": "As ransomware evolves, backups have become the last line of defence, and the hardest to get right.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/a-false-sense-of-security/PmxVEMKEYgxvQY85",
+   "date": "Thu, 10 Sep 2026 09:11:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Data Centers: Gulf Capital Sets Its Sights on Africa’s AI",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxOdHRBZmhlVHJUSDZHdmFrdlpRT196bWd6aDJia2JSY0VRUEJoZWFtWWpXcnlmRmo0QWNQMWk4NWNxUjNDQUdPamd2X1NJRU9FWlJEVUs3UEl2elg0ZE9KRGVIV01FcTk3b0ZLbmdjTzI4MVZCSEltRmk5cndIQz",
+   "source": "Africa News Agency·聚合",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdHRBZmhlVHJUSDZHdmFrdlpRT196bWd6aDJia2JSY0VRUEJoZWFtWWpXcnlmRmo0QWNQMWk4NWNxUjNDQUdPamd2X1NJRU9FWlJEVUs3UEl2elg0ZE9KRGVIV01FcTk3b0ZLbmdjTzI4MVZCSEltRmk5cndIQzZJZE9KcnRjZHE2bXN5dDVneXQ?oc=5",
+   "date": "Thu, 10 Sep 2026 03:01:48 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": true
+  },
+  {
+   "title": "Racketeering conspiracy trial against Chinese tech giant Huawei begins in New York",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOd2M5azFMZFpjRTd5dEFvcWVpcHJCbVJfVmZ5SnhuUGQ1Mks5SG11bmhYMDQyTGhhc19qY0dyMVRsb3VNQjY5UVJIaUZQY0NNR2dTazFhRDZOdURPZHV5ekR0dW9keUt3WFBfM1h6MEZ3MG1HaE1FaS1EeDktOE",
+   "source": "AP News·聚合",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOd2M5azFMZFpjRTd5dEFvcWVpcHJCbVJfVmZ5SnhuUGQ1Mks5SG11bmhYMDQyTGhhc19qY0dyMVRsb3VNQjY5UVJIaUZQY0NNR2dTazFhRDZOdURPZHV5ekR0dW9keUt3WFBfM1h6MEZ3MG1HaE1FaS1EeDktOEZQZDVnRjNQdU1PVUtyUXVRR2MzVFdNUmsw?oc=5",
+   "date": "Wed, 09 Sep 2026 21:05:00 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "US beats China in its AI race to Africa as Egypt inks a $1 billion data center deal with the world’s most valuable company",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMnYtQWp4dW5vbnVzSnNfTkc0VkpSZDlUSkdQTVJBellQMHZ4dXUtQUVvamJKdnpaalNHTGRJcm1HVkpHcVJseXFSMGJ1dnlnQ1hsdXB1U0RJU1prUmdxXzlMR1NLVENFdTlUZVpVOTZ0RV9UVmxnclFldWdvOX",
+   "source": "Business Insider Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMnYtQWp4dW5vbnVzSnNfTkc0VkpSZDlUSkdQTVJBellQMHZ4dXUtQUVvamJKdnpaalNHTGRJcm1HVkpHcVJseXFSMGJ1dnlnQ1hsdXB1U0RJU1prUmdxXzlMR1NLVENFdTlUZVpVOTZ0RV9UVmxnclFldWdvOXZicHRmWnpfcTNEQ2FMRzJQS2tjUmU0SDNFbEtPVk12cE9jWmNnZFpWdnMtR2l6bE9DTUFsUGFJRnVKWVRJMTgtMjFwbjFEZ25nQ3pHbHhUc0NydURWeUo4MA?oc=5",
+   "date": "Wed, 09 Sep 2026 18:05:45 GMT",
+   "country": "🇪🇬 埃及",
+   "is_ai": true,
+   "is_aiinfra": true
+  },
+  {
+   "title": "Huawei Faces U.S. Criminal Trial Weeks Before Trump-Xi Meeting",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVGpRMnFXcXZoQkNZSVhJcUxIMjkxMFV5UGtaUEktUVpYbXdGS0JmeXl5Z3pwUVBlYzY4aXBLNHBIaWJBYU9HR0NxMUNWQU53MXV5bThfaVViN3gxTzlSb21NRTNOTTU5YXBlRzlUN0E2MFByVmZWcGN1T2x5Mn",
+   "source": "WSJ·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVGpRMnFXcXZoQkNZSVhJcUxIMjkxMFV5UGtaUEktUVpYbXdGS0JmeXl5Z3pwUVBlYzY4aXBLNHBIaWJBYU9HR0NxMUNWQU53MXV5bThfaVViN3gxTzlSb21NRTNOTTU5YXBlRzlUN0E2MFByVmZWcGN1T2x5MnV0UGx0Z2RDUmF6elJzTjJYaU56aEo3VHBoWnFjMUo5QXdSc0djdlUtRVlwRlY1UWRzanZGaG1oaEtV?oc=5",
+   "date": "Wed, 09 Sep 2026 17:27:00 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Egypt to build $1b AI data center with Nvidia tech as US squeezes out China",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUjctZ2ZJQ1REQXNVaW9nQ2hEUzBUMmVIbTBmMU5aT2lOMjFmUEQ0OThhTHhOcFpnLVp4T0pJdjdVWEpSY2RqRkNQeEs5ejdHSFpjeUNxdzBCSENVX2VfckhRaF9YUmVLQ3JPOW8zSllLSHlOMGdYRFY4SFZCV1",
+   "source": "The Times of Israel·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUjctZ2ZJQ1REQXNVaW9nQ2hEUzBUMmVIbTBmMU5aT2lOMjFmUEQ0OThhTHhOcFpnLVp4T0pJdjdVWEpSY2RqRkNQeEs5ejdHSFpjeUNxdzBCSENVX2VfckhRaF9YUmVLQ3JPOW8zSllLSHlOMGdYRFY4SFZCV1BzNlM3VHpNTjJYUFg4clRzU2lJTDlYMUVNMWYzQVV6UGV1UXV5MUYyUkbSAa4BQVVfeXFMT1g0eU5IOU1jYTcwQVV3UzY4SEtGR3puTmd6b0M2ZjRrcXNPV3R6ZHVrWk9CbFF0ckJITUtRRjJkSmRWN0NQN1V2V2t0bFY4MmlHS1NPZXNoZXh2WjJzRndYa2xuTFdPM1pWaldsUVRxdEtZUU5jU0VvMHZkNG9JNjF0U01EVXBaU0lUS3JtckktYzRGUXM1WW0xR1JVYVVDUWw3c1pReGZocXl2Wm5R?oc=5",
+   "date": "Wed, 09 Sep 2026 11:04:00 GMT",
+   "country": "🇪🇬 埃及",
+   "is_ai": true,
+   "is_aiinfra": true
+  },
+  {
+   "title": "Fintech platforms where Nigerians can buy Dangote Refinery IPO shares",
+   "brief": "Here are the fintech apps offering the IPO, how to prepare, and what Nigerian investors need to know.",
+   "source": "Condia",
+   "url": "https://thecondia.com/buy-dangote-refinery-shares-fintechs-nigeria/",
+   "date": "Wed, 09 Sep 2026 11:00:00 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "dLocal gets Enhanced Payment Service Provider licence from the Bank of Ghana",
+   "brief": "dLocal's Ghana subsidiary, dLocal Ghana Limited, has received an Enhanced Payment Service Provider (EPSP) licence from the Bank of Ghana.",
+   "source": "Condia",
+   "url": "https://thecondia.com/dlocal-ghana-epsp-license/",
+   "date": "Wed, 09 Sep 2026 10:34:03 +0000",
+   "country": "🇬🇭 加纳",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "TLG Capital backs Drive45 with $3 million to expand mobility across Nigeria",
+   "brief": "The deal combines TLG's private credit with a guarantee from Cascador, delivered in partnership with Morgan Stanley.",
+   "source": "Condia",
+   "url": "https://thecondia.com/tlg-capital-backs-drive45-with-3m/",
+   "date": "Wed, 09 Sep 2026 10:27:05 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "CreditChek kickstarts East Africa expansion with Algosys acquisition",
+   "brief": "Creditchek has acquired Uganda’s Algosys as the Nigerian fintech expands into East Africa and builds a broader lending infrastructure platform.",
+   "source": "Condia",
+   "url": "https://thecondia.com/creditchek-acquires-algosys/",
+   "date": "Wed, 09 Sep 2026 08:58:09 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
    "is_aiinfra": false
   }
  ]
