@@ -1,40 +1,63 @@
 {
  "asof": "2026-09-16",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-09-16T12:45+08:00",
+ "generated_at": "2026-09-16T14:43+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 2,
-  "cluster_label": "",
-  "cluster_dropped": [],
+  "cluster_label": "Anthropic/Meta/OpenAI",
+  "cluster_dropped": [
+   "OpenAI谷歌Anthropic商讨AI安全合作",
+   "黄仁勋与OpenAI等就AI安全分歧"
+  ],
   "backfilled": 0
  },
  "items": [
   {
-   "cat": "macro",
-   "title": "10年期美债收益率创2007年来新高",
-   "brief": "交易员押注美联储可能加息，10年期美债收益率升至2007年以来最高，长端利率重新定价。",
-   "chain": "长端利率飙升→美股AI高久期成长股估值分母承压、风险偏好收缩→A股算力链情绪受抑",
+   "cat": "geo",
+   "title": "伊朗击落美军MQ-9 格什姆岛爆炸",
+   "brief": "伊朗革命卫队16日凌晨在格什姆岛上空击落一架美军MQ-9无人机，称系击落的第52架同型机；此前该岛已传出多起爆炸。",
+   "chain": "美伊军事摩擦升级→避险情绪抬升、美股风险偏好承压→A股算力链短期情绪扰动、军工相对占优",
    "impact": 9,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/15/10-year-treasury-yield-rises-to-highest-since-2007.html",
-   "ts": "Tue, 15 Sep 2026 20:02:58 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609163875966338.html",
+   "ts": "2026-09-16 14:04:20"
   },
   {
-   "cat": "macro",
-   "title": "美财长贝森特周末将会晤何立峰",
-   "brief": "美财长贝森特本周末将与中国副总理何立峰会谈，市场关注中美经贸与关税沟通进展。",
-   "chain": "中美高层经贸接触→缓和预期提振美股风险偏好→映射A股出口链与自主可控链情绪",
+   "cat": "oil",
+   "title": "油价回落 美原油库存上升",
+   "brief": "美原油库存据报增加，叠加交易员评估沙特输油管道关闭影响，国际油价走低；美能源官员称该管道数日内可恢复。",
+   "chain": "库存上升+沙特管道数日内复运→Brent/WTI短期承压→莫桑比克LNG项目燃料与运费成本压力略缓，东非采购窗口改善",
    "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNb2MzcWFBOFZsSHhmdHo4dVJnckkxSHJTUGh1QXMyUlNZVTJhbWhVQWlsRXZpYUJQLVhNT1BhU1VUOGNKWno3ZERFMHV3QW5PVUppWGcxRmNXYnlpWnlkOUFYZjJWTXVjVHJRMUpZb2JtUWFTQ29tMFlZa3R0ZWhPRHZTS2l5SENMMXNZVXdsc3ZVMjVscXpGZFJwaGdIU0ZqUmNzdTExcENiQWhZQ29mVlhqSktwZnAtamJDUw?oc=5",
-   "ts": "2026-09-15T16:52:02+00:00"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/16/oil-prices-today-brent-wti-hormuz-iran-war.html",
+   "ts": "Wed, 16 Sep 2026 05:39:38 GMT"
   },
   {
    "cat": "macro",
-   "title": "调查：日本央行预计加息25基点",
-   "brief": "CNBC调查显示日本央行预计加息25个基点至三十年新高，全球套息交易与流动性受关注。",
-   "chain": "日央行加息→日元套息平仓风险扰动美股流动性→A股外资敏感板块承压",
+   "title": "美债收益率逼近5% 市场时钟滴答",
+   "brief": "10年期美债收益率逼近5%关口，分析认为当前尚不足以击穿市场，但风险累积、时间窗口在收窄。",
+   "chain": "长端利率逼近5%→美股AI高久期票估值分母承压→A股算力链估值与情绪受压制",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/16/10-year-treasury-yeilds-rise-impact-markets.html",
+   "ts": "Wed, 16 Sep 2026 05:28:01 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "英国通胀跳升至3.1% 能源推升",
+   "brief": "英国通胀因能源成本飙升升至3.1%，强化市场对英国央行政策路径的谨慎预期。",
+   "chain": "英通胀反弹→全球利率higher-for-longer预期升温→美股成长股承压→A股算力链情绪偏空",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html",
+   "ts": "Wed, 16 Sep 2026 06:40:44 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "日银料加息25基点 创三十年新高",
+   "brief": "CNBC调查显示日本央行预计加息25个基点至三十年高位，全球套息交易与流动性面临再定价。",
+   "chain": "日银加息→日元套息平仓、全球流动性收紧→美股科技股波动→A股算力链外资流向受扰",
    "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/09/16/boj-hike-rates-cnbc-survey.html",
@@ -42,183 +65,133 @@
   },
   {
    "cat": "macro",
-   "title": "英国就业市场疲软待央行决议",
-   "brief": "英国就业市场在央行利率决议前维持疲软，市场押注政策路径转向宽松。",
-   "chain": "英就业走弱→强化全球降息预期→利多美股估值分母→A股情绪偏暖",
-   "impact": 4,
+   "title": "美财长贝森特将会晤何立峰",
+   "brief": "美财长贝森特本周末将与中国副总理何立峰会谈，市场关注中美经贸与关税议题进展。",
+   "chain": "中美高层经贸对话→关税预期缓和、风险偏好修复→美股与A股算力链情绪边际改善",
+   "impact": 7,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOT0lBbDYxOGhrSXNYeGJvbUhXX1Y4UTRCSTZDZXBzaFBRaFdlUzRXX1VkNFhoNmxTSmdYaG4xcWhyV1JEblpESmZsT09zemllQWNodWY3anVPeFRxRkw3cnZKd09BQWNZTFlTclFFX3d4RUFlLVRpWUFHZmpPMmlUWDRVUl9qeENGTXc?oc=5",
-   "ts": "2026-09-15T06:05:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNb2MzcWFBOFZsSHhmdHo4dVJnckkxSHJTUGh1QXMyUlNZVTJhbWhVQWlsRXZpYUJQLVhNT1BhU1VUOGNKWno3ZERFMHV3QW5PVUppWGcxRmNXYnlpWnlkOUFYZjJWTXVjVHJRMUpZb2JtUWFTQ29tMFlZa3R0ZWhPRHZTS2l5SENMMXNZVXdsc3ZVMjVscXpGZFJwaGdIU0ZqUmNzdTExcENiQWhZQ29mVlhqSktwZnAtamJDUw?oc=5",
+   "ts": "2026-09-15T16:52:02+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "沙特称胡塞无人机袭麦加 胡塞否认",
+   "brief": "沙特称胡塞武装以无人机 targeting 麦加，伊朗支持的胡塞方面否认该指控，红海与也门局势持续紧张。",
+   "chain": "红海航运风险抬升→避险与油价溢价→美股风险偏好受压→A股算力链情绪扰动",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/16/us-iran-war-trump-hormuz.html",
+   "ts": "Wed, 16 Sep 2026 06:38:40 GMT"
+  },
+  {
+   "cat": "gas",
+   "title": "外资首席：中东战争将结束 明年或降息",
+   "brief": "野村、高盛、瑞银等外资首席经济学家在广州论坛判断中东战争将结束，并预计明年美联储可能降息。",
+   "chain": "中东局势缓和预期→全球LNG供应风险溢价回落→莫桑比克Cabo Delgado项目运营与东非气价环境改善",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609163875963274.html",
+   "ts": "2026-09-16 14:08:50"
+  },
+  {
+   "cat": "ai",
+   "title": "扎克伯格站队黄仁勋 AI安全之争",
+   "brief": "Meta CEO扎克伯格在AI安全与放缓争论中支持英伟达黄仁勋立场，与Anthropic、OpenAI观点分歧。",
+   "chain": "AI安全路线分歧→算力需求预期维持→美股AI芯片链情绪支撑→A股算力链映射偏多",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/15/meta-mark-zuckerberg-with-nvidia-huang-ai-safety-slowdown.html",
+   "ts": "Wed, 16 Sep 2026 01:56:47 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "高盛上调光模块需求 通信指数大涨",
+   "brief": "高盛大幅上调高速光模块需求预测，通信ETF标的指数大涨近5%，A股光通信板块走强。",
+   "chain": "光模块需求上修→美股AI硬件链景气验证→A股光模块/算力硬件链直接受益",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609163875990923.html",
+   "ts": "2026-09-16 14:39:54"
+  },
+  {
+   "cat": "tech",
+   "title": "全球半导体设备销售创新高",
+   "brief": "全球半导体设备销售额连创历史新高，机构预测2026年Q3收入有望超5000亿美元，设备ETF盘中大涨超6%。",
+   "chain": "设备销售创新高→美股半导体资本开支景气→A股半导体设备链情绪与订单预期上修",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609163875991531.html",
+   "ts": "2026-09-16 14:38:49"
+  },
+  {
+   "cat": "tech",
+   "title": "AWS称巴林与阿联酋设施无法恢复",
+   "brief": "亚马逊AWS表示在伊朗袭击六个月后，仍无法恢复巴林及阿联酋一处云数据区服务。",
+   "chain": "中东云基础设施受损→美股云厂商区域收入与可靠性承压→A股算力/云链关注度提升",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/15/aws-cant-restore-service-to-bahrain-uae-6-months-after-iran-strikes.html",
+   "ts": "Tue, 15 Sep 2026 19:04:46 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "苹果CEO红毯展示折叠屏iPhone Duo",
+   "brief": "苹果新任CEO特努斯在艾美奖红毯展示尚未发售的折叠新机iPhone Duo，屏幕表现引发热议。",
+   "chain": "折叠屏新机预热→美股苹果硬件创新预期→A股消费电子/折叠屏供应链关注度提升",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609163875980591.html",
+   "ts": "2026-09-16 14:29:45"
   },
   {
    "cat": "macro",
-   "title": "香港五年规划以黄金构建大宗生态",
-   "brief": "香港首个五年规划提出以黄金为切入点，构建大宗商品交易生态圈，强化离岸人民币枢纽。",
-   "chain": "央行购金/去美元化结构性信号→黄金避险与实际利率镜像→美股AI高久期票估值分母与A股算力情绪",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609163875896590.html",
-   "ts": "2026-09-16 12:26:13"
-  },
-  {
-   "cat": "geo",
-   "title": "伊朗格什姆岛传出多起爆炸",
-   "brief": "伊朗格什姆岛据报传出多起爆炸，IRNA援引当地消息，中东局势持续紧张。",
-   "chain": "中东冲突升级→避险情绪升温压制美股风险偏好→A股算力链情绪承压",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcWZBeGJLZWJoMXpTcmhaVVhRdm10Tm1UMWZJbUNna2VTb0todzRORVpBOElYdmVHdjlzRnVvWFZFOXM2emd3bXp5Q0NQeVRDeTNLQldWWU5oVS1mOHQtVjZ2YkQ5ZVBLM0NMTk5UZ19ZaFZJM241dWtoUEhsWVdsbE1zaFJEMk1NZjNRVkhXRlBMSUV3UHFDYU1aTTQyQUtnZ2hLaVplVGNWdUtyR3FjZm9yUVR0dmlMQ3Z1aVd3ME5VY0tUYkU0?oc=5",
-   "ts": "2026-09-15T22:23:36+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "埃及沙特强调红海航行安全",
-   "brief": "埃及总统塞西与沙特王储强调红海航行安全必要性，回应胡塞袭击与航运下滑。",
-   "chain": "红海安全受扰→航运与能源通道风险溢价上升→美股风险偏好与A股情绪受抑",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdF81Q3pKLVpkdWZZTXUyZnRJNVh3Mks2bmdUMnhIZzlYZVR5TnU2bDFXZnBObWFkeFpNMUVIOTBlMHBVTW9XNU9vdXhWaTRXMUZ4M2U0Y2FDQWRDSTFJTWpSc2ppMXdoQ0RyU29zUEdIOG9hY1FHdHMzR2c1c2RxVTZLbTVMQnp1d3o1OWptZVJ2SHZNZk42QmRrTTlKcElfUFhjdC0tQXVXQk5xaFVxQ09TZmoyVDlHY19qeWdmZ3hFQQ?oc=5",
-   "ts": "2026-09-15T13:01:45+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "也门民众南逃 胡塞袭击持续",
-   "brief": "胡塞武装持续袭击，也门民众大批南逃，联合国称冲突已致逾10万人流离失所。",
-   "chain": "也门冲突外溢→中东地缘风险溢价→美股避险、A股情绪偏谨慎",
+   "title": "邢自强：9月加息非新一轮紧缩起点",
+   "brief": "经济学家邢自强认为9月加息25基点更像防御性、风险管控式加息，不代表新一轮紧缩周期开启。",
+   "chain": "加息定性为防御性→利率见顶预期→美股成长股估值分母压力缓和→A股算力链情绪偏暖",
    "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcFYwcDlsVXJEZ0xaNDhtaGNtV1JHSTRyZ0RHckpiZVhYa1ozbHVkNHRUeS1wNVBqaWJJWE5xZ0Z1MlotSUlnX3JxcC1ZQi0xUDRnSUpabjJraWtzM3NCWk12UkJyVzBqRk12WGU3RnJUSzlWU2hzYzVLN3dzNE9FSlFYNjdDT29TdmNwTTV4THZFNEtUZEhxMlZ4TG0wTTFQbHB5X2d6NlNNRUU?oc=5",
-   "ts": "2026-09-15T14:30:16+00:00"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609163875989426.html",
+   "ts": "2026-09-16 14:37:36"
   },
   {
    "cat": "oil",
-   "title": "油价下跌 美原油库存上升",
-   "brief": "美原油库存据报上升，交易员权衡沙特管道关闭影响，油价走低。",
-   "chain": "库存上升+沙特管道短暂中断→油价短期承压→莫桑比克油气售价与东非经营现金流偏弱",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/16/oil-prices-today-brent-wti-hormuz-iran-war.html",
-   "ts": "Wed, 16 Sep 2026 04:22:01 GMT"
-  },
-  {
-   "cat": "oil",
-   "title": "美能源部长：沙特油管数日内恢复",
-   "brief": "美国能源部长称沙特阿拉伯石油管道应在数日内恢复上线，供应中断属短暂。",
-   "chain": "管道快速恢复→油价地缘溢价回落→莫桑比克/东非油气售价短期承压、经营节奏稳定",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWjVqU3FIVkpudnZrWWI3ZndxaldTN2FtV0lXR0JuSnIweGhPRDFYS0FPUWxxVG5YS1Rmb3J0QlBRZ0hucFgxX3hWc3JBWllZbDZLWkJ4STd6X1lUekNXeUd6OXNRZTJ5dEFQRmwzY2M4bUlLSmlHTkZzUWFFRkJCWTZSRlJ1TGtQNnNydFdGZ01uQmVtNWplOG9yLTFidlV6aG5jaE51SXRSSGVMUmdJTGh2M3pVdG5sWWM4SzBQcFlOdzA?oc=5",
-   "ts": "2026-09-15T16:55:32+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "ADNOC交易买入数百万桶伊拉克原油",
-   "brief": "ADNOC Trading据报买入数百万桶伊拉克原油，中东原油贸易流向出现新变化。",
-   "chain": "中东原油贸易活跃→Brent/WTI供需格局微调→莫桑比克LNG与东非油气竞争格局受关注",
+   "title": "ADNOC Trading购入数百万桶伊拉克原油",
+   "brief": "消息称ADNOC Trading买入数百万桶伊拉克原油，中东原油贸易流向出现新变化。",
+   "chain": "中东原油贸易活跃→Brent/WTI供需格局微调→莫桑比克东非采购与区域油价联动关注",
    "impact": 4,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcVctVzBuTWtQU01oYjJyMGRQNDlnYktuTlItaFRidlFFX3VZRHVUamZMc2tyd1l4YkhTQndtZlNyeGlwN0xsT1c3QmhnaWhqeE1kZUJGZTBwMkFrQ2RtU0tOdldHQWRCUlpjcDFrYXhlclU4Y05SRldPb21uSExkUTJYR1I5OXJHdWhWSzZwVFVMZGdwTDJzUHliazNMSFh3ZUZ0Vk8xUV9TWE5y?oc=5",
    "ts": "2026-09-15T13:46:07+00:00"
   },
   {
-   "cat": "gas",
-   "title": "沙特管道关闭属数日短暂中断",
-   "brief": "美国能源部长对CNBC称沙特管道关闭是短暂中断，将持续数日，气油市场关注供应恢复。",
-   "chain": "管道短暂中断→天然气/LNG供应扰动有限→莫桑比克Cabo Delgado LNG出口节奏影响可控",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/15/saud-arabia-east-west-pipeline-iran-war-chris-wright.html",
-   "ts": "Tue, 15 Sep 2026 18:29:56 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "中芯国际晶圆代工逼近三星",
-   "brief": "TrendForce报告显示中芯国际晶圆代工份额逼近三星，差距仅0.5个百分点，Q2前十大代工厂产值季增11%。",
-   "chain": "中芯份额提升→美股半导体竞争格局重估→映射A股晶圆代工与设备链",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609163875897015.html",
-   "ts": "2026-09-16 12:32:52"
-  },
-  {
-   "cat": "tech",
-   "title": "SK海力士与工会达成奖金协议",
-   "brief": "SK海力士与工会达成工资及集体谈判协议，利润分成奖金现金与股票各占一半。",
-   "chain": "存储大厂劳资落定→HBM/存储供应预期稳定→映射A股存储与算力硬件链",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609163875894394.html",
-   "ts": "2026-09-16 12:08:52"
-  },
-  {
-   "cat": "tech",
-   "title": "AWS无法恢复巴林与阿联酋云区",
-   "brief": "亚马逊AWS称因战争损毁，无法恢复巴林及一个阿联酋云数据区服务。",
-   "chain": "中东云基础设施受损→美股云厂商区域营收与可靠性受关注→映射A股云计算与数据中心链",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcGhFMHZVNGthdVl1bjYza3ZOWVpRY3ZMS1JmZkgxVnJTWGRhZFdFS3JfYk1nX2Y1Nzl3RlZDN21lWFA3b0xUU1E3UkdZR0hPQXNXdG5seEhsQ0hUR1gxVnZCWHFpTXdQdGhGQkFKTFd0cW80QUNBdnpXYzdOX25zZEJpN2lkOW1IWVlnc0RZNDk0cGgzSTlNYXFaMS1EcUJTM0ZUUjlhS0FLV0NrbGtsM3BKOVlFOWdFUi1sbGQtWmRqX3ZsODdPczRYRUw?oc=5",
-   "ts": "2026-09-15T11:58:52+00:00"
-  },
-  {
-   "cat": "tech",
-   "title": "波音与大韩航空敲定103架订单",
-   "brief": "波音与大韩航空最终敲定103架飞机订单，航空制造需求获支撑。",
-   "chain": "波音订单落地→美股航空制造链景气验证→映射A股大飞机与航空零部件链",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObWZwd2lERklzamhHY3NBNWVVQlY1N1ZrdDc3X1poWmJPZ3dYX19UOG5wTGtLT2NyVlRnNXNQWWZadWlnVDBDZ3d2SjNUSlZxczFYWVlJVDFBWmRhV3NlVENzcUdtei1GX0tZXzZpYnB5Q3hRalYtRFlYR0FxTERES1J3bnhnSm1yRUh3WWtWT3dRS2tTanN5SElfX05xRFVRYzJYU0FtTVVGNmFl?oc=5",
-   "ts": "2026-09-16T02:20:00+00:00"
-  },
-  {
    "cat": "ai",
-   "title": "扎克伯格站队黄仁勋AI安全论",
-   "brief": "Meta CEO扎克伯格在AI安全与放缓之争中站队英伟达黄仁勋，反对过度监管。",
-   "chain": "AI安全路线分歧→美股AI算力龙头政策风险缓和→映射A股算力链情绪偏暖",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/15/meta-mark-zuckerberg-with-nvidia-huang-ai-safety-slowdown.html",
-   "ts": "Wed, 16 Sep 2026 01:56:47 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "OpenAI谷歌Anthropic商讨AI安全合作",
-   "brief": "OpenAI、谷歌、Anthropic正讨论在AI安全问题上的合作，行业治理协调升温。",
-   "chain": "头部AI厂商安全协作→监管预期趋稳→美股AI成长股风险偏好改善→A股算力链受益",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/15/open-ai-google-anthropic-safety.html",
-   "ts": "Tue, 15 Sep 2026 19:13:30 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "豆包大模型2.1 Pro更新上线",
-   "brief": "火山引擎宣布Doubao-Seed-2.1-pro更新至0915版本，API已全量上线火山方舟。",
-   "chain": "国产大模型迭代→AI应用与算力需求提升→映射A股算力链与AI应用链",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609163875894236.html",
-   "ts": "2026-09-16 12:06:52"
-  },
-  {
-   "cat": "ai",
-   "title": "马斯克呼吁AI实验室互测模型",
-   "brief": "马斯克呼吁顶级AI实验室与中国公司互相测试模型，回应AI放缓争论。",
-   "chain": "AI安全互测倡议→中美AI治理博弈→美股AI龙头政策不确定性→A股算力链情绪分化",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/15/elon-musk-ai-safety-testing.html",
-   "ts": "Tue, 15 Sep 2026 23:25:43 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "香港推动全民AI培训",
-   "brief": "李家超施政报告提出香港推动全民AI培训，推出200多项培训课程及活动。",
-   "chain": "AI人才政策加码→区域AI产业生态完善→映射A股AI应用与算力链长期需求",
+   "title": "智谱完成50亿美元再融资 算力初具规模",
+   "brief": "智谱在电话交流会称以“小股大债”结构完成50亿美元再融资，算力已能支撑业务高速增长与更大模型研发。",
+   "chain": "国产大模型融资落地→算力需求验证→美股AI芯片链情绪支撑→A股算力链直接映射",
    "impact": 4,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609163875899216.html",
-   "ts": "2026-09-16 12:39:50"
+   "url": "https://finance.eastmoney.com/a/202609163875983062.html",
+   "ts": "2026-09-16 14:31:23"
+  },
+  {
+   "cat": "tech",
+   "title": "禾赛发布超高解析力激光雷达MT系列",
+   "brief": "禾赛在慕尼黑InterGEO2026发布超高空间解析力激光雷达MT系列，主打同类最小体积。",
+   "chain": "激光雷达新品发布→美股智能驾驶硬件链关注→A股激光雷达/智驾链情绪提振",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609163875991867.html",
+   "ts": "2026-09-16 14:41:25"
+  },
+  {
+   "cat": "gas",
+   "title": "美能源官员：沙特输油管道数日内复运",
+   "brief": "美国能源主管官员称沙特阿拉伯输油管道应能在数日内恢复上线，供应中断担忧缓解。",
+   "chain": "沙特管道复运→原油与LNG供应风险溢价回落→莫桑比克东非能源运营成本与气价环境改善",
+   "impact": 4,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWjVqU3FIVkpudnZrWWI3ZndxaldTN2FtV0lXR0JuSnIweGhPRDFYS0FPUWxxVG5YS1Rmb3J0QlBRZ0hucFgxX3hWc3JBWllZbDZLWkJ4STd6X1lUekNXeUd6OXNRZTJ5dEFQRmwzY2M4bUlLSmlHTkZzUWFFRkJCWTZSRlJ1TGtQNnNydFdGZ01uQmVtNWplOG9yLTFidlV6aG5jaE51SXRSSGVMUmdJTGh2M3pVdG5sWWM4SzBQcFlOdzA?oc=5",
+   "ts": "2026-09-15T16:55:32+00:00"
   }
  ]
 }
