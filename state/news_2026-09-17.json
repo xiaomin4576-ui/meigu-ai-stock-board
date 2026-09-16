@@ -1,0 +1,224 @@
+{
+ "asof": "2026-09-17",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-09-17T01:47+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 12,
+  "cluster_label": "",
+  "cluster_dropped": [],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "美联储决议日来袭 市场屏息以待",
+   "brief": "CNBC提示当日为美联储利率决议日，市场聚焦FOMC声明与主席表态，投资者普遍观望。",
+   "chain": "FOMC决议→利率路径影响美股估值分母→映射A股算力链风险偏好与外资流向",
+   "impact": 9,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/16/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
+   "ts": "2026-09-16T13:19:14+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "华尔街大多头Yardeni下调标普目标",
+   "brief": "Yardeni将标普500年末目标下调至7900点，理由是未来三到六个月经济下行风险上升。",
+   "chain": "经济下行风险上升→美股盈利预期与风险偏好承压→A股算力链情绪偏谨慎",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609163876429317.html",
+   "ts": "2026-09-16 23:53:54"
+  },
+  {
+   "cat": "macro",
+   "title": "加拿大央行纪要：贸易冲突添不确定性",
+   "brief": "加央行会议纪要显示，整体贸易不确定性令增长前景更不明朗，官员讨论关税升级对经济与通胀的影响。",
+   "chain": "贸易不确定性上升→全球增长预期与风险偏好受压→A股出口链与算力链情绪扰动",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609173876446739.html",
+   "ts": "2026-09-17 01:32:59"
+  },
+  {
+   "cat": "macro",
+   "title": "加央行：高油价蔓延或需加息",
+   "brief": "加央行纪要称若高油价蔓延至其他商品和服务，可能需要加息，并提及伊朗冲突推高汽油价格。",
+   "chain": "油价传导至核心通胀→加息预期升温→美股高久期AI票估值分母承压→A股算力链情绪受压",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609173876446819.html",
+   "ts": "2026-09-17 01:31:16"
+  },
+  {
+   "cat": "macro",
+   "title": "SEC主席：将针对加密货币提供确定性",
+   "brief": "SEC主席Atkins表示SEC将采取行动，为加密货币提供监管确定性，释放友好信号。",
+   "chain": "加密监管明朗→美股加密相关资产风险偏好改善→对A股算力链间接情绪偏暖",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609173876438651.html",
+   "ts": "2026-09-17 00:44:17"
+  },
+  {
+   "cat": "geo",
+   "title": "胡塞袭击令沙特承压 伊朗更胆大",
+   "brief": "路透报道胡塞武装连续袭击令沙特暴露、伊朗受鼓舞，中东局势持续紧张升级。",
+   "chain": "中东冲突升级→避险情绪升温压制美股风险偏好→A股算力链情绪承压",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU210dG1ONGRhN0FKOXF3WUpTLVowR3hJTGlsMVA2LVUtXzlacGVGbE5Hd3VLYktLOEgzYXdBZ3llMzFBdW1RMGJJaUxjRWJHSHRNZmh5T3l5RW9qTDE3Y1NRSFhnVjlEQXR0QzY4Ym0zdUc4MGxNdkZMT2NYVVU1eEtxcUtWYS0tdHpCcmJVXzdXRDZFQU1PeHVuc3I2bnUzb3NBR2pSN1V1YmhMSFFz?oc=5",
+   "ts": "2026-09-16T16:38:32+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "中国外长呼吁伊美克制重启谈判",
+   "brief": "中国最高外交官敦促伊朗与美国保持克制、恢复谈判，试图为紧张局势降温。",
+   "chain": "大国斡旋中东局势→地缘风险溢价波动→影响美股风险偏好与A股算力链情绪",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeURxZkdzcC1ZX3IxSWM5TTBLc3dZYXZrYlZhcXc4LXVDU3BKeEx5Y0xRWi04dUk3TE9LN0VGbjNLRlN6UXExckR0b1BZZGh6cEFiOEE0VlExSHh6Q29lcFlYX01ZaWlOT1E4Wl9aYnhORHRZcHFKZkJSWDZSd0NtOVhtMnU5dUpROW1aTkdYMVFWQmFIWUlZQ0dPVlhIZzU0dkktSXVzelAzU1BfR3c?oc=5",
+   "ts": "2026-09-16T13:34:05+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "乌方筹备泽连斯基与特朗普会晤",
+   "brief": "乌克兰外交部称乌美正筹备泽连斯基与特朗普的总统会晤，研究可能性及内容。",
+   "chain": "俄乌和谈预期升温→欧洲地缘风险溢价变化→影响美股风险偏好与A股情绪",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609163876430475.html",
+   "ts": "2026-09-16 23:58:10"
+  },
+  {
+   "cat": "geo",
+   "title": "巴基斯坦就印巴军舰碰撞提出抗议",
+   "brief": "巴基斯坦召见印度临时代办，就印度军舰与巴军舰相撞事件提出强烈抗议，印巴紧张。",
+   "chain": "印巴摩擦升温→南亚地缘风险溢价→对美股与A股算力链影响有限、情绪扰动",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609173876445490.html",
+   "ts": "2026-09-17 01:29:56"
+  },
+  {
+   "cat": "oil",
+   "title": "霍尔木兹海峡船舶通行仍为个位数",
+   "brief": "路透数据显示霍尔木兹海峡船舶通行量仍处个位数低位，原油航运持续受扰。",
+   "chain": "海峡通行受阻→原油供应与运费风险溢价支撑油价→莫桑比克油气经营需关注东非航线与成本",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQelJ4cHN6djhZQmdNUTcyTmwyNjRycVF0NVZrSkwtRFJwUUVLMVRidVJzODlKME1ITFJiQ1RWNzVxWThEWWlJY1A4LVNUWkVucU9oMlp5ZDZCVUlVeDRGYnQ2blhNb2dKSUdMUjZGVzhPc1dNTnJnaERnS1VpQ3dNcHB1d2wyOHgxaEh1clRwenliU00zWWgzVS1MVnRCTTJMT3Q3d1VFTFF2a2JjYkVhTUdKdDA?oc=5",
+   "ts": "2026-09-16T03:33:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "美称沙特受损管道数日内重启 油价回落",
+   "brief": "美国表示沙特受损输油管道将在数日内恢复运营，消息令油价回落。",
+   "chain": "管道重启预期→原油供应担忧缓解、油价承压→莫桑比克油气售价与出口收入短期偏空",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/16/oil-prices-today-brent-wti-hormuz-iran-war.html",
+   "ts": "Wed, 16 Sep 2026 17:03:21 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "Continental Resources开发委内瑞拉大油田",
+   "brief": "Continental Resources将在委内瑞拉开发大型油田区块，扩大拉美原油供应版图。",
+   "chain": "委内瑞拉增产预期→中长期原油供应增加、油价承压→莫桑比克油气需关注竞争与价格",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/16/continental-resources-to-develop-massive-oil-patch-in-venezuela-.html",
+   "ts": "Wed, 16 Sep 2026 17:35:25 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "阿塞拜疆2027预算油价设为65美元",
+   "brief": "阿塞拜疆财政部在2027年预算草案中将油价设定为每桶65美元，反映产油国价格预期。",
+   "chain": "产油国预算油价锚定65美元→中期油价预期区间参考→莫桑比克油气经营可作规划基准",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609173876446962.html",
+   "ts": "2026-09-17 01:40:49"
+  },
+  {
+   "cat": "gas",
+   "title": "燃油成本高企 美航司考虑削减航班",
+   "brief": "美联航与美国航空称因燃油价格高企，可能需在第四季度进一步削减运力。",
+   "chain": "航油成本高企→航空燃料需求与炼油利润受关注→莫桑比克油气需关注成品油与航煤需求变化",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609173876446629.html",
+   "ts": "2026-09-17 01:30:01"
+  },
+  {
+   "cat": "tech",
+   "title": "亚马逊下一代Trainium芯片差异化优势",
+   "brief": "亚马逊云服务高管称下一代Trainium AI芯片将具备非常明显的差异化优势。",
+   "chain": "自研AI芯片升级→云厂商算力成本与竞争格局变化→映射A股算力链芯片与服务器环节",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609173876438113.html",
+   "ts": "2026-09-17 00:38:00"
+  },
+  {
+   "cat": "tech",
+   "title": "韩国高校为三星SK海力士输送人才",
+   "brief": "韩国大学项目为三星与SK海力士提供直通培养路径，强化存储芯片人才供给。",
+   "chain": "存储人才与产能扩张→HBM/存储供给格局→映射A股存储与算力链配套环节",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/16/samsung-sk-hynix-ai-boom-students-university-programs.html",
+   "ts": "Wed, 16 Sep 2026 04:47:29 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "波音与韩国航空敲定103架飞机订单",
+   "brief": "波音与Korean Air最终敲定103架飞机订单，航空制造需求持续。",
+   "chain": "大额飞机订单→波音交付与供应链景气→映射A股航空制造与材料链情绪",
+   "impact": 4,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObWZwd2lERklzamhHY3NBNWVVQlY1N1ZrdDc3X1poWmJPZ3dYX19UOG5wTGtLT2NyVlRnNXNQWWZadWlnVDBDZ3d2SjNUSlZxczFYWVlJVDFBWmRhV3NlVENzcUdtei1GX0tZXzZpYnB5Q3hRalYtRFlYR0FxTERES1J3bnhnSm1yRUh3WWtWT3dRS2tTanN5SElfX05xRFVRYzJYU0FtTVVGNmFl?oc=5",
+   "ts": "2026-09-16T02:20:00+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "亚马逊拟在马里兰建海底电缆供电设施",
+   "brief": "亚马逊计划在马里兰州建设Fastnet海底电缆的供电设备设施，加码云与网络基础设施。",
+   "chain": "云与海缆基建投资→数据中心与网络扩容→映射A股算力链光通信与电力设备环节",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609173876446512.html",
+   "ts": "2026-09-17 01:29:11"
+  },
+  {
+   "cat": "ai",
+   "title": "谷歌与DeepMind成立研究所探索AGI",
+   "brief": "据报道谷歌与DeepMind成立研究所，探索通用人工智能（AGI）前沿方向。",
+   "chain": "AGI研发加码→美股AI龙头估值与叙事强化→映射A股算力链与AI应用情绪",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609173876444633.html",
+   "ts": "2026-09-17 01:22:34"
+  },
+  {
+   "cat": "ai",
+   "title": "Anthropic合并Claude协作与聊天功能",
+   "brief": "Anthropic将Claude的协作和聊天功能合并为一个应用程序，优化产品体验。",
+   "chain": "AI产品整合升级→大模型应用竞争加剧→映射A股AI应用与算力链情绪",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609173876435450.html",
+   "ts": "2026-09-17 00:20:57"
+  },
+  {
+   "cat": "ai",
+   "title": "OpenAI、GitHub在AI编程版权诉讼胜诉",
+   "brief": "据报道OpenAI与GitHub在AI编程工具版权诉讼中取得胜利，缓解法律风险。",
+   "chain": "AI版权诉讼胜诉→降低大模型合规不确定性→利好美股AI叙事与A股算力链情绪",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609173876443287.html",
+   "ts": "2026-09-17 01:08:12"
+  }
+ ]
+}
