@@ -1,28 +1,58 @@
 {
  "asof": "2026-09-19",
- "fetched_at": "2026-09-19T01:15+08:00",
+ "fetched_at": "2026-09-19T12:34+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
    "Moonshot·TechCabal": 10,
    "Disrupt Africa": 10,
    "Techpoint Africa": 0,
-   "IT News Africa": 0,
+   "IT News Africa": 11,
    "TechAfrica News": 12,
    "Condia": 25,
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
-   "Zimbabwe Situation": 1,
+   "Zimbabwe Situation": 3,
    "African Business": 1,
    "非洲科技·聚合": 12,
    "中非科技·聚合": 20
   },
   "total": 60,
-  "ai_flagged": 27,
+  "ai_flagged": 26,
   "aiinfra_flagged": 2,
   "countries": 6
  },
  "items": [
+  {
+   "title": "ZRP urged to fast-track smart policing as cybercrime threat grows",
+   "brief": "Peter Matika peter.matika@chronicle.co.zw THE Zimbabwe Republic Police (ZRP) must accelerate the adoption of smart policing and strengthen its capacity to combat cybercrime as criminals increasingly exploit technology to",
+   "source": "Zimbabwe Situation",
+   "url": "https://www.zimbabwesituation.com/news/zrp-urged-to-fast-track-smart-policing-as-cybercrime-threat-grows/",
+   "date": "Sat, 19 Sep 2026 04:01:04 +0000",
+   "country": "🇿🇼 津巴布韦",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Remarkable academic milestone: Father, son share graduation stage",
+   "brief": "Gibson Mhaka gibson.mhaka@bmetro.co.zw PRIDE, joy and plenty of emotion filled the air at the National University of Science and Technology (NUST) on Thursday when a Bulawayo family celebrated a moment few families ever ",
+   "source": "Zimbabwe Situation",
+   "url": "https://www.zimbabwesituation.com/news/remarkable-academic-milestone-father-son-share-graduation-stage/",
+   "date": "Sat, 19 Sep 2026 03:36:23 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Over 1 000 police cadets graduate",
+   "brief": "Peter Matika-Bulawayo Bureau THE Zimbabwe Republic Police must accelerate the adoption of smart policing and strengthen its capacity to combat cybercrime as criminals increasingly exploit technology to perpetrate offence",
+   "source": "Zimbabwe Situation",
+   "url": "https://www.zimbabwesituation.com/news/over-1-000-police-cadets-graduate/",
+   "date": "Sat, 19 Sep 2026 03:35:45 +0000",
+   "country": "🇿🇼 津巴布韦",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
   {
    "title": "Côte d’Ivoire Expands Electronic Signature Use to Support Paperless Administration",
    "brief": "Côte d’Ivoire is expanding the use of electronic signatures across public administration as part of efforts to reduce paperwork and accelerate administrative procedures. On Tuesday, ......",
@@ -60,6 +90,16 @@
    "url": "https://techafricanews.com/2026/09/18/buupass-safaribucks-cross-border-travel-payments-africa/",
    "date": "Fri, 18 Sep 2026 14:30:43 +0000",
    "country": "🇰🇪 肯尼亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Long Shadow of Sanctions: Huawei’s Trial and the Geopolitics of Technology",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxOTnM5dVhkZFBKUjJfdzJfZHFTeHo5cW80d1RmOGF2aVJWZ3FTZEh2eXlYeElqTms4RzU1eWZ5X3k0a2lxOW9tQkRxZmdKYWZyTHJRV1NVeHZwSEUzc1dQaldjLXU1R2lBSzYzWHQ4bEJ2bWh6M1ZwSklGNzE4R3",
+   "source": "Vocal·聚合",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTnM5dVhkZFBKUjJfdzJfZHFTeHo5cW80d1RmOGF2aVJWZ3FTZEh2eXlYeElqTms4RzU1eWZ5X3k0a2lxOW9tQkRxZmdKYWZyTHJRV1NVeHZwSEUzc1dQaldjLXU1R2lBSzYzWHQ4bEJ2bWh6M1ZwSklGNzE4R3pCcWpkVlVWOTl4MzhFSWxxb2tXODlNS1d5OFJLbw?oc=5",
+   "date": "Fri, 18 Sep 2026 14:27:24 GMT",
+   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -366,21 +406,11 @@
   {
    "title": "Huawei Says Chinese AI Too Early to Feel Risks",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxNVFNzNnNLaFFGaUx4OXpJSXRRSERoSXZuQVdzN2VDN0lYU0JlNnJXQ011U1JLc1BaX0V4Q2lZYzFOUjFlcnBYSS1CMDJDVDdlN1BsbkNreTJxYkJwT09WMnJJU3pNZFpzUXctaVFDNWhKOV9EeGpoMDNSbjBBaD",
-   "source": "technology.org·聚合",
+   "source": "Technology Org·聚合",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVFNzNnNLaFFGaUx4OXpJSXRRSERoSXZuQVdzN2VDN0lYU0JlNnJXQ011U1JLc1BaX0V4Q2lZYzFOUjFlcnBYSS1CMDJDVDdlN1BsbkNreTJxYkJwT09WMnJJU3pNZFpzUXctaVFDNWhKOV9EeGpoMDNSbjBBaDNmTkgzMA?oc=5",
    "date": "Fri, 18 Sep 2026 05:57:52 GMT",
    "country": null,
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Mnangagwa caps 2570 graduates at NUST",
-   "brief": "The National University of Science and Technology (NUST) graduated 2 570 students at its 32nd graduation ceremony, with 68 percent of the graduands receiving STEM qualifications as the university seeks to strengthen its ",
-   "source": "Zimbabwe Situation",
-   "url": "https://www.zimbabwesituation.com/news/mnangagwa-caps-2570-graduates-at-nust/",
-   "date": "Fri, 18 Sep 2026 05:09:37 +0000",
-   "country": null,
-   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -401,6 +431,16 @@
    "date": "Thu, 17 Sep 2026 17:46:00 GMT",
    "country": null,
    "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Dangote IPO tests Nigeria's fintech infrastructure as investor demand overwhelms platforms",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaVJsckZXVWNXbUxyZzBFc1JqQ2hweHBWTzVXcXhyeThaYVMtREhfTFpIcFR5RWx2dVc2Vk1sSWw0R3ZQVmhSSkhKV3F0QktDOFJnMDdIamxuU3FpLWlEZnlmMEVzei1PcTdfV0JkU3otUklHd09tOXQ2SG9xTk",
+   "source": "Reuters·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaVJsckZXVWNXbUxyZzBFc1JqQ2hweHBWTzVXcXhyeThaYVMtREhfTFpIcFR5RWx2dVc2Vk1sSWw0R3ZQVmhSSkhKV3F0QktDOFJnMDdIamxuU3FpLWlEZnlmMEVzei1PcTdfV0JkU3otUklHd09tOXQ2SG9xTkdoT21aTzRyMUFSbXJRRWU4TVBSRmppSjFkWjl5UDFSTGQzMm9STmRrT081STJqbHJ0R0NVeHdlSmYwcDREQjREYk5WMzg?oc=5",
+   "date": "Thu, 17 Sep 2026 16:22:38 GMT",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -454,16 +494,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "How Huawei plans to bypass US chip curbs with its latest technology",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQYkhHUU83UlZtbjJ3c0M0NHJNUGk1eUEzTUlDY1A1WkJwVTdsSmxVX2ZBTzl1bnBuLUlyVmcxTnVvYUd5SmhWcGZYZTBNTUEtdVVhQlVtazJ3SXk2VWhJX3ZkTUNVcW85Zkg4bXFXc3lWVS12LVVodjNDZWtDWD",
-   "source": "South China Morning Post·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYkhHUU83UlZtbjJ3c0M0NHJNUGk1eUEzTUlDY1A1WkJwVTdsSmxVX2ZBTzl1bnBuLUlyVmcxTnVvYUd5SmhWcGZYZTBNTUEtdVVhQlVtazJ3SXk2VWhJX3ZkTUNVcW85Zkg4bXFXc3lWVS12LVVodjNDZWtDWDFnUlppY0QySlM5Q25laGJfdUJCN0VqczlDa3EzMTFQSkpOdmE3R0t3N3JzcF9YbVhLdEFvbGVZVE9WMnc?oc=5",
-   "date": "Thu, 17 Sep 2026 12:00:07 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "China’s AI labs must accelerate development, says Huawei chair",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOSmFQWW4xZ2R2RGxnUUJVdXBHdy15dEVZaWlmaXVoOWxWUk5VNDBBMHBtU2hwZVNsek55cHRoZUFzN3FFdG9uOTZCWm8yQjZ3UkF1WjFQUDkwaHJYeTd4dzB4TVBKeXNwR0hmQm5UWXRJSVlwNXBpYUk5alFOQX",
    "source": "Financial Times·聚合",
@@ -478,7 +508,7 @@
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE9pOTh1aW5xZThBQVdPRmFtcDh5TUdPMFRFTnZmS0xpYjJFNV9WcEdUd3ZkSmRUTlBvSUhXRXQtQndSd01mOWpZUXFsUmNidUNIOXRVYU9MZVFDQ0Vidk9pSEJWNzdHUnkzVmJQZGYzaWppeC12SE1JZTBPdjRtUQ",
    "source": "WSJ·聚合",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9pOTh1aW5xZThBQVdPRmFtcDh5TUdPMFRFTnZmS0xpYjJFNV9WcEdUd3ZkSmRUTlBvSUhXRXQtQndSd01mOWpZUXFsUmNidUNIOXRVYU9MZVFDQ0Vidk9pSEJWNzdHUnkzVmJQZGYzaWppeC12SE1JZTBPdjRtUQ?oc=5",
-   "date": "Thu, 17 Sep 2026 10:30:56 GMT",
+   "date": "Thu, 17 Sep 2026 10:29:00 GMT",
    "country": null,
    "is_ai": true,
    "is_aiinfra": false
@@ -514,6 +544,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "China's Huawei says AI chip demand outstrips supply as it steps up Nvidia challenge",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQUUF2NV9DeFExYkFNQS1hQnZfTjFBY05sRjRmN3hMQkxoTmo0aEYtMnNyU3BnRUZPUzVtZGt6ZjE1ZWVsRldkWG1RMVUyaWpFWTg1Q3paeENVblNJUi1ITktZemVWRy1tbGc3OHd5QkFLT0Zya1UyOE13LW1XbT",
+   "source": "Reuters·聚合",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUUF2NV9DeFExYkFNQS1hQnZfTjFBY05sRjRmN3hMQkxoTmo0aEYtMnNyU3BnRUZPUzVtZGt6ZjE1ZWVsRldkWG1RMVUyaWpFWTg1Q3paeENVblNJUi1ITktZemVWRy1tbGc3OHd5QkFLT0Zya1UyOE13LW1XbTN4d002Zi1ReXJHRlZDNTZlUmh5cmFEcmhlNk9ET2JWZw?oc=5",
+   "date": "Thu, 17 Sep 2026 08:45:02 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
    "title": "Bad memory: How to manage the storage crisis",
    "brief": "Is software-defined storage a real way through the memory crisis, or does it just move the problem somewhere else?",
    "source": "ITWeb Africa",
@@ -524,19 +564,9 @@
    "is_aiinfra": false
   },
   {
-   "title": "China's Huawei says AI chip demand outstrips supply as it steps up Nvidia challenge",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQUUF2NV9DeFExYkFNQS1hQnZfTjFBY05sRjRmN3hMQkxoTmo0aEYtMnNyU3BnRUZPUzVtZGt6ZjE1ZWVsRldkWG1RMVUyaWpFWTg1Q3paeENVblNJUi1ITktZemVWRy1tbGc3OHd5QkFLT0Zya1UyOE13LW1XbT",
-   "source": "Reuters·聚合",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUUF2NV9DeFExYkFNQS1hQnZfTjFBY05sRjRmN3hMQkxoTmo0aEYtMnNyU3BnRUZPUzVtZGt6ZjE1ZWVsRldkWG1RMVUyaWpFWTg1Q3paeENVblNJUi1ITktZemVWRy1tbGc3OHd5QkFLT0Zya1UyOE13LW1XbTN4d002Zi1ReXJHRlZDNTZlUmh5cmFEcmhlNk9ET2JWZw?oc=5",
-   "date": "Thu, 17 Sep 2026 02:40:00 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
    "title": "Huawei unveils latest tech to boost AI power, curb China’s Nvidia reliance",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNS2xqNWNSTm9BZ3RSdHZMbFVIWWlDOF9tdnI1Y0cxeGg0QXlWaGxNdHh4RWY3c1FCS2Z1NTM3Z3Bmc3BWYnpQYWF0S0VEMUNGQVRSR0hZVTNkRXhZSEEtczl0cDlwSEZQS1VydnF0VXgyWVdKSU9JNGNVMUpZN0",
-   "source": "South China Morning Post·聚合",
+   "source": "scmp.com·聚合",
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNS2xqNWNSTm9BZ3RSdHZMbFVIWWlDOF9tdnI1Y0cxeGg0QXlWaGxNdHh4RWY3c1FCS2Z1NTM3Z3Bmc3BWYnpQYWF0S0VEMUNGQVRSR0hZVTNkRXhZSEEtczl0cDlwSEZQS1VydnF0VXgyWVdKSU9JNGNVMUpZN0NPR05GYWFYWW5ReEtFOTBxdHNjeTdpUWJrWkhCMDRIU2xmR1NzLXNkRnJKc2xwRFE4dUVhZndOVVVoYlpuSVVTOGItZnZt0gHEAUFVX3lxTE5Na002NS1PV2RKUk9NYVFwVDVXYUttN0YtX09SVVhjQXFQNFRUM2dOUm1UV2VmbGFkMHlWN2ktWlFIUE5SQW9VWVUzdFJCUF9IdERjT3BxM3J0NkNnNTlSTVFfaENSMEFFS1lOd001Yi1kOGQ3Z292ZG5xOGtUeUM0bFhnZUt5cWZjRllpRjRfM2J2d3dEcVM1a0RhUHkyRkVhNVZwaUp5RHFFT19tLVAxLWJ4N3ROVVRCcW9HX0dHRmQtRTc?oc=5",
    "date": "Thu, 17 Sep 2026 02:26:07 GMT",
    "country": null,
@@ -591,36 +621,6 @@
    "date": "Wed, 16 Sep 2026 15:03:43 +0000",
    "country": "🇳🇬 尼日利亚",
    "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Startup paying Egyptians for recyclable waste raises seed funding to scale collection network",
-   "brief": "Bekia has secured $765,000 in seed funding. The company plans to launch its first B2B software product, Bekia Next, in October 2026.",
-   "source": "Condia",
-   "url": "https://thecondia.com/bekia-seed-funding/",
-   "date": "Wed, 16 Sep 2026 14:16:45 +0000",
-   "country": "🇪🇬 埃及",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "China's Huawei forecasts billions of agents will dominate AI traffic by 2035",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUmNZcnR3ajkwaEx6LWxLSElZU3o0R3ZsZ0F2QWxNYVlCMWR1R2hmTl9ycm55dEVrSzdreGZ5MTdPNHF1WGJtaFpVczJBei1qLWI4R2NSWjdGWldQNnZXTWQtT1dnVTQtbzFuZnpvMllxRTM1UlJxRnlDOG4tdF",
-   "source": "Reuters·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUmNZcnR3ajkwaEx6LWxLSElZU3o0R3ZsZ0F2QWxNYVlCMWR1R2hmTl9ycm55dEVrSzdreGZ5MTdPNHF1WGJtaFpVczJBei1qLWI4R2NSWjdGWldQNnZXTWQtT1dnVTQtbzFuZnpvMllxRTM1UlJxRnlDOG4tdFJVTEJJUFROSXQwM2s4V0pWZ1NiUmNMZkZpVWtZeVJWZzFVNlJwV1hiRTlfa1A4OFNnOXY5ZU1BQ0JwdWduOFJ1RmhnQXc?oc=5",
-   "date": "Wed, 16 Sep 2026 12:59:45 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Bujeti is harnessing AI to become the virtual CFO for African businesses",
-   "brief": "Bujeti started with corporate cards. Now, it is using AI to help African businesses manage money, understand finances, and make better decisions.",
-   "source": "Condia",
-   "url": "https://thecondia.com/bujeti-virtual-cfo-african-businesses-ai/",
-   "date": "Wed, 16 Sep 2026 11:19:45 +0000",
-   "country": null,
-   "is_ai": true,
    "is_aiinfra": false
   }
  ]
