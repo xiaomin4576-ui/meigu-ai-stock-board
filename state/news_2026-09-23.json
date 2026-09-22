@@ -1,0 +1,197 @@
+{
+ "asof": "2026-09-23",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-09-23T01:48+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 9,
+  "cluster_label": "伊朗/俄罗斯/沙特",
+  "cluster_dropped": [
+   "普京与沙特王储呼吁霍尔木兹安全通行",
+   "法国酝酿霍尔木兹问题安理会新决议"
+  ],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "美联储巴尔金：劳动力市场平衡未过热",
+   "brief": "巴尔金称美国劳动力市场处于平衡状态、没有过热，也未看到消费者资产负债表明显紧张，只要就业健康消费就会延续。",
+   "chain": "就业不过热→加息紧迫性下降→美债利率与贴现率预期回落→利好美股高久期AI票→A股算力链情绪偏暖",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609233881619515.html",
+   "ts": "2026-09-23 01:11:11"
+  },
+  {
+   "cat": "macro",
+   "title": "巴尔金：尚不清楚是否需要进一步加息",
+   "brief": "美联储官员巴尔金表示目前尚不清楚是否需要进一步加息，延续对政策路径的观望基调。",
+   "chain": "加息路径不确定→短端利率与美元震荡→美股估值分母端压力缓和→A股算力链跟随风险偏好波动",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609233881615966.html",
+   "ts": "2026-09-23 00:51:50"
+  },
+  {
+   "cat": "macro",
+   "title": "美两年期国债收益率拍卖后升至4.766%",
+   "brief": "美国两年期国债收益率在拍卖后小幅上升1.34个基点，报4.766%，反映短端定价偏紧。",
+   "chain": "短端收益率上行→美股AI高久期票贴现分母抬升→压制估值扩张→A股算力链情绪承压",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609233881618496.html",
+   "ts": "2026-09-23 01:05:24"
+  },
+  {
+   "cat": "macro",
+   "title": "美联储隔夜逆回购使用规模4.53亿美元",
+   "brief": "周二美联储隔夜逆回购协议使用规模为4.53亿美元，处于极低水平，显示货币市场流动性环境。",
+   "chain": "RRP低位→银行体系流动性充裕→美元资金面偏松→支撑美股风险资产→间接利好A股算力链情绪",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609233881620060.html",
+   "ts": "2026-09-23 01:17:06"
+  },
+  {
+   "cat": "macro",
+   "title": "巴西下调2026年GDP预期至2%",
+   "brief": "巴西下调2026年GDP增速预期至2%（前值2.3%），2027年降至2.3%，同时下调2026年通胀预期至4.9%。",
+   "chain": "新兴市场增长下修→全球需求预期偏弱→大宗与风险偏好承压→对美股周期股偏空→A股算力链影响有限",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609233881621854.html",
+   "ts": "2026-09-23 01:30:55"
+  },
+  {
+   "cat": "geo",
+   "title": "特朗普联大演讲：威胁、外交与超级智能",
+   "brief": "特朗普在联合国大会发表讲话，涉及威胁、外交斡旋以及所谓“超级智能”等议题，阐述美国对外立场。",
+   "chain": "美方对外强硬表态→地缘不确定性抬升→避险与风险偏好反复→美股科技股波动→A股算力链情绪受扰",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPb05jNXUydzFHZ2tRUzBGUndIZFAxTW1jYUtVU3U5NzI1ZjRsckp2YXJuOG9KRE9hOTg1Q3B3b3U1ZC1jWmN1d2J0VU1OMkVfbElFRGhONElJd3I4UklnbVZHTExmT1g2dHFESmJhQWplNWlYUzZsU1ctMW9HRVBXVDJGazNhd1JDbWltQ0hEYmttU2hh?oc=5",
+   "ts": "2026-09-22T16:49:43+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "伊朗称美放松施压即重开霍尔木兹",
+   "brief": "伊朗表示若美国放松军事压力并解除封锁，愿重新开放霍尔木兹海峡，海峡通行仍处博弈之中。",
+   "chain": "海峡通行预期反复→地缘风险溢价波动→美股风险偏好与能源股联动→A股算力链情绪间接受扰",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNEdfLVlEeU1GTjFkdDRlZ2NCN19kT0tNTEdKTnJBM29mNGk4OW9EMURHRm9WTEljdFBQY3Y1OTB6VnJBMFRMclpzV2xrV0M4NVMzZld6MlFJeHB1Rnp3Y01aVDJ4STB0Vk80bVE5X2JGaHRPeXlHM1h0WExNNHRlWEhuZkhjWWF0ajJYMGxsX0l1djRWYzRJbUZnbkpTM0k2LWZiT1AtWHA1QnhuajhwOVhjOExkWmNOcjkwXzJJTWJUWWlUazVtTDhR?oc=5",
+   "ts": "2026-09-22T10:29:43+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "联合国：也门冲突升级更多人将逃离",
+   "brief": "联合国称也门战斗升级，预计更多也门民众将被迫逃离，地区人道与安全局势恶化。",
+   "chain": "也门战事升级→红海与曼德海峡航运风险上升→避险情绪抬升→美股风险偏好承压→A股算力链情绪偏弱",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbUVQVmpIbEpuQ3pZWWdBckpBR3F2NHV5d0IwT3M1RUdwNkNMMFpRUWctRzRVaUhld2ZvTXJnelRFNHZZOTNCSmlXVGtDcmttSzc2WHprZV9wODZZU3VwQVZYb3dnVk81MlhrQTF1eFJpN3RCWGFyclpEZFQzcGRpYk1VTW1tbmNPbVIxMnJlTGFBeEE4X1JmanJyRmhKMHgxak0wZDE2bnU?oc=5",
+   "ts": "2026-09-22T09:59:43+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "沙特重启东西向输油管道",
+   "brief": "消息人士称沙特已重启东西向输油管道，可绕开霍尔木兹海峡出口原油，提升供应弹性。",
+   "chain": "绕行管道重启→霍尔木兹受阻时供应缓冲增强→油价上行风险被部分对冲→对莫桑比克油气经营而言区域供应扰动溢价略降",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNmJidHFzNHlscWlnT2hsWFdKc1hNRFMxOWRnTTRQRHVHbV9tRTJySFJoOGFoZXdNdTIwMngxZlczRmY3dWJxWkNiWTRYclVyT0JoWXQyUHJpNThicmpUNDMwWjNqREdrYmw3Ty1peU9oaEtRdC1GWXE1S0o1eGlrWDZONDhqS0FDbWotZXV1LXBvTEhUWHdlT1BzYU5udjNKTTFXdk1hX0wwVk1yczRTdV94R0p4UUQ1bEViTXJ2S2pEaTVLTFlvdw?oc=5",
+   "ts": "2026-09-22T15:12:19+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "惠誉上调2027年油价与TTF气价预期",
+   "brief": "惠誉上调2027年石油及2026-2027年TTF天然气价格预期，维持2026年布伦特87美元/桶预期。",
+   "chain": "机构上调中长期油气价格→油价中枢预期抬升→支撑上游资本开支→利好莫桑比克LNG与东非油气项目经济性",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609233881609892.html",
+   "ts": "2026-09-23 00:09:52"
+  },
+  {
+   "cat": "oil",
+   "title": "法国呼吁欧盟放宽燃料质量标准",
+   "brief": "马克龙致信冯德莱恩，呼吁欧盟立即放松燃料质量标准等措施以压低能源价格，应对油价上涨风险。",
+   "chain": "欧洲压价诉求升温→燃料标准或松动→成品油与原油需求结构微调→油价高位震荡→莫桑比克油气出口价格环境偏强",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609233881606531.html",
+   "ts": "2026-09-23 00:00:21"
+  },
+  {
+   "cat": "oil",
+   "title": "油价走高 马赛现汽油车改装热潮",
+   "brief": "受油价持续走高影响，法国马赛越来越多车主将汽油车改装为可使用生物乙醇燃料，以降低用车成本。",
+   "chain": "高油价改变终端用能选择→生物燃料替代需求上升→原油需求边际承压→对莫桑比克油气长期需求预期略偏空",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609233881620830.html",
+   "ts": "2026-09-23 01:30:31"
+  },
+  {
+   "cat": "tech",
+   "title": "阿里发布新AI芯片与数据中心扩建计划",
+   "brief": "阿里巴巴公布新的AI芯片及数据中心扩建计划，股价随之大涨，加码算力基础设施布局。",
+   "chain": "阿里加码AI芯片与数据中心→国产算力资本开支扩张→映射A股算力链（芯片/服务器/IDC）→情绪与订单预期双升",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/22/alibaba-ai-alibabacloud-zhenwu-v900-.html",
+   "ts": "Tue, 22 Sep 2026 05:15:21 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "美光财报前突破早期买点",
+   "brief": "美光被列为IBD当日焦点股，股价升破早期买点，市场关注其即将公布的财报表现。",
+   "chain": "美光突破买点→存储芯片景气预期升温→映射A股存储与算力链→半导体周期情绪偏暖",
+   "impact": 6,
+   "source": "Yahoo Finance",
+   "url": "https://www.investors.com/research/ibd-stock-of-the-day/micron-stock-mu-buy-point-earnings/?src=A00220&amp;yptr=yahoo",
+   "ts": "2026-09-22T17:20:49Z"
+  },
+  {
+   "cat": "tech",
+   "title": "苹果开发新健身追踪器对标Whoop",
+   "brief": "苹果正在开发一款新的健身追踪器，旨在与Whoop竞争，继续拓展可穿戴健康硬件版图。",
+   "chain": "苹果拓展可穿戴硬件→消费电子供应链需求预期→映射A股果链与传感器环节→硬件创新情绪偏暖",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609233881611143.html",
+   "ts": "2026-09-23 00:23:04"
+  },
+  {
+   "cat": "tech",
+   "title": "特斯拉进军东南亚最大电动车市场",
+   "brief": "特斯拉在东南亚最大电动车市场采取行动，当地本土巨头正严阵以待，竞争格局生变。",
+   "chain": "特斯拉加码东南亚EV→区域电动车渗透加速→映射A股锂电与汽车零部件链→出海竞争情绪升温",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/22/tesla-vinfast-ev-vietnam.html",
+   "ts": "Tue, 22 Sep 2026 02:22:23 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Anthropic将推Claude Sonnet 5.5与Haiku 5.5",
+   "brief": "Anthropic称Claude Opus 5.5已在全平台上线，未来几周将推出Claude Sonnet 5.5与Haiku 5.5两款大模型。",
+   "chain": "大模型迭代加速→AI推理算力需求扩张→利好美股算力与云厂商→映射A股算力链（光模块/服务器）",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609233881612383.html",
+   "ts": "2026-09-23 00:31:15"
+  },
+  {
+   "cat": "ai",
+   "title": "OpenAI允许外部机构早期评估AI模型",
+   "brief": "OpenAI计划允许第三方机构在模型开发早期阶段审查其安全风险，回应外界对AI潜在危害的担忧。",
+   "chain": "AI安全治理前置→监管预期趋严但可控→利好合规头部模型厂商→映射A股AI治理与算力链情绪",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609233881618964.html",
+   "ts": "2026-09-23 01:07:29"
+  }
+ ]
+}
