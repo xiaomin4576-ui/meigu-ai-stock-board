@@ -1,6 +1,6 @@
 {
  "asof": "2026-09-22",
- "fetched_at": "2026-09-22T20:06+08:00",
+ "fetched_at": "2026-09-22T23:35+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -14,15 +14,95 @@
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 1,
-   "非洲科技·聚合": 9,
-   "中非科技·聚合": 18
+   "非洲科技·聚合": 8,
+   "中非科技·聚合": 19
   },
   "total": 60,
-  "ai_flagged": 17,
+  "ai_flagged": 16,
   "aiinfra_flagged": 1,
   "countries": 8
  },
  "items": [
+  {
+   "title": "Mastercard Launches Wallet Pay to Expand Digital Wallet Interoperability Globally",
+   "brief": "Mastercard  has introduced Mastercard Wallet Pay, a global portfolio of solutions designed to improve interoperability and expand digital payment capabilities for wallet providers across contactless ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/22/mastercard-launches-wallet-pay-expand-digital-wallet-interoperability/",
+   "date": "Tue, 22 Sep 2026 15:01:32 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "MTN Uganda Foundation Graduates 201 Young People in Digital and Vocational Skills",
+   "brief": "Uganda’s MTN Foundation,  in partnership with Smart Girls Foundation Uganda,  has celebrated the graduation of 201 young people who completed digital and vocational training programmes ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/22/mtn-uganda-foundation-graduates-201-young-people-digital-vocational-skills/",
+   "date": "Tue, 22 Sep 2026 14:54:04 +0000",
+   "country": "🇺🇬 乌干达",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Safaricom hits 1 million home internet users. Now comes the hard part",
+   "brief": "Safaricom, Kenya’s largest telecoms operator, has become the first internet service provider in the country to surpass one million fixed broadband subscribers. According to data from the Communications Authority of Kenya",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/09/22/safaricom-hits-1-million-home-internet-users-now-comes-the-hard-part/",
+   "date": "Tue, 22 Sep 2026 13:03:48 +0000",
+   "country": "🇰🇪 肯尼亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Kenya and Intel Partner to Expand AI Literacy Through Public Libraries",
+   "brief": "Kenya has partnered with Intel Corporation to expand artificial intelligence (AI) literacy through the country’s public library network under the AI for Citizens programme. The ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/22/kenya-and-intel-partner-to-expand-ai-literacy-through-public-libraries/",
+   "date": "Tue, 22 Sep 2026 12:55:42 +0000",
+   "country": "🇰🇪 肯尼亚",
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "DFC Joins AFC and Vision Invest in WIOCC Group Investment to Drive Africa’s Digital Infrastructure Expansion",
+   "brief": "WIOCC Group,  Africa’s leading carrier-neutral digital infrastructure platform, announced that the U.S. International Development Finance Corporation (DFC)  intends to join Africa Finance Corporation (AFC)  and ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/22/wiocc-dfc-afc-vision-invest-africa-digital-infrastructure/",
+   "date": "Tue, 22 Sep 2026 12:55:18 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Cell C CEO Mendes buys R20.8m in company shares",
+   "brief": "Jorge Mendes buys R20.8 million worth of shares, deepening his direct stake as the operator pursues its turnaround.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/cell-c-ceo-mendes-buys-r208m-in-company-shares/RgeVDvPRxKeMKJN3",
+   "date": "Tue, 22 Sep 2026 14:39:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Monzo EU CEO Michael Carney steps down to launch AI and robotics startup",
+   "brief": "Monzo's EU chief Michael Carney is stepping down to build an AI and robotics startup for people with disabilities, five months after Ireland's launch.",
+   "source": "Condia",
+   "url": "https://thecondia.com/monzo-eu-ceo-michael-carney-quits-startup/",
+   "date": "Tue, 22 Sep 2026 12:37:51 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Kenya Deploys Smart Boards to 178 Public Junior Schools in Nyeri",
+   "brief": "Kenya has begun deploying interactive smart boards and ICT equipment to public junior secondary schools in Nyeri County as part of efforts to expand digital ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/09/22/kenya-smart-boards-178-junior-schools-nyeri/",
+   "date": "Tue, 22 Sep 2026 12:25:30 +0000",
+   "country": "🇰🇪 肯尼亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
   {
    "title": "South Africa’s Pick n Pay names Spencer Sonn, CEO-Designate",
    "brief": "Pick n Pay has appointed Woolworths veteran Spencer Sonn as CEO-designate from February 2027, ahead of Sean Summers' 2028 handover.",
@@ -30,6 +110,16 @@
    "url": "https://thecondia.com/pick-n-pay-names-spencer-sonn-ceo-designate/",
    "date": "Tue, 22 Sep 2026 12:03:47 +0000",
    "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Huawei’s mobile chip narrows gap with Apple through Tau Scaling Law: Bernstein",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxOaUlyVW10XzZoZHBMY2VDZ3hHZlR3NUNMUUtLeEdYUnhHT3ViMTRfY2ZvVGRKdlJRTk5kUExGS2J0WHhMTy1QRHZGeE9UNGtDVDZWMFBTZ0w5UFdESmxwcTM2V0xyOVJzcHFxeDBwclA3UTFCRFhPdHdoNlB6WH",
+   "source": "SCMP·聚合",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaUlyVW10XzZoZHBMY2VDZ3hHZlR3NUNMUUtLeEdYUnhHT3ViMTRfY2ZvVGRKdlJRTk5kUExGS2J0WHhMTy1QRHZGeE9UNGtDVDZWMFBTZ0w5UFdESmxwcTM2V0xyOVJzcHFxeDBwclA3UTFCRFhPdHdoNlB6WHZJc2FtRHNIaGptMExWc0xISkNXYlZVUmRuTGNBSHFsOUpCVDhtbmtRa09RWnpmZnN0YUhCa18tU3otb0phbzdTVWlXaDhN0gHEAUFVX3lxTE9UbVp4eElDakNwdlMyRV8zMTFJQzh4eUpaNTlFSGcxaTFDNFl5YlJBTTcyQV9HS3VOOERjRWRFYmVydnZYRXF5Wkg0ZFQ5MVBQRkM0cElaOFprWjdqa09JTUF2OUR5VC1FRHdMSE1DbVpxQmxXeDN4dllVOG8xX3liWXRiTnIzVFNfbkkyWDNCZGZxTHVBNjNrLVR5dnMtTUNFX19lOHY5eWtxU1NRcGhwU1pKTnBDQUpZQ1J6RUY2bGhURVk?oc=5",
+   "date": "Tue, 22 Sep 2026 12:00:06 GMT",
+   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -204,6 +294,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "Building AI-powered cyber resilience across Africa with Absa’s Chief Security Office",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQZHZ1VmVndDVuVlhMUjJpMlBuSWdxSXg2bGRuMFI2eHVDbHdXbW02cWxNWmJQY01YTVB2N1NiUm5oZnNDbDFSZUN0V3hMVFpZc3JLMk4tejlLR1BkWVBNc1hBQUdtY05UemtOd3NkWUNIbmVzTHVQbDNEcW5LX1",
+   "source": "The Digital Banker·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZHZ1VmVndDVuVlhMUjJpMlBuSWdxSXg2bGRuMFI2eHVDbHdXbW02cWxNWmJQY01YTVB2N1NiUm5oZnNDbDFSZUN0V3hMVFpZc3JLMk4tejlLR1BkWVBNc1hBQUdtY05UemtOd3NkWUNIbmVzTHVQbDNEcW5LX1JWNEI3QmdIRzluVmNhQnNqZVM5Nk9rYU41Z2F5WUpZZjhqSUtRYVItWVFNUG5pcGVCd0xMWQ?oc=5",
+   "date": "Tue, 22 Sep 2026 08:04:08 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
    "title": "South Africa’s SAMDDRA Backs Competition Commission Draft Repair Guidelines",
    "brief": "The South African Mobile Devices Distributors and Repairers Association (SAMDDRA)  and its industry partners have backed the Competition Commission of South Africa ’s Draft Guidelines on ......",
    "source": "TechAfrica News",
@@ -224,62 +324,12 @@
    "is_aiinfra": false
   },
   {
-   "title": "Verto and Visa Launch Multi-Currency Corporate Cards for African Businesses",
-   "brief": "Verto,  a leading B2B global payments platform, announced the launch of its new Verto Card, in partnership with Visa,  marking a new chapter in how ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/22/verto-visa-launch-multi-currency-corporate-cards-african-businesses/",
-   "date": "Tue, 22 Sep 2026 07:41:55 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Egypt and NVIDIA Discuss AI Cooperation, Skills Development and Innovation",
-   "brief": "Egypt’s Ministry of Communications and Information Technology  has held discussions with NVIDIA  on expanding cooperation in artificial intelligence, data science, digital skills development and support ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/22/egypt-nvidia-discuss-ai-cooperation-skills-development-innovation/",
-   "date": "Tue, 22 Sep 2026 07:28:04 +0000",
-   "country": "🇪🇬 埃及",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Egypt’s NTI Partners Al-Riyada University to Boost Student Digital Skills",
-   "brief": "The National Telecommunication Institute (NTI) , under Egypt’s Ministry of Communications and Information Technology (MCIT) , has signed a cooperation protocol with Al-Riyada University for Science and ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/22/egypt-nti-partners-al-riyada-university-boost-student-digital-skills/",
-   "date": "Tue, 22 Sep 2026 07:17:02 +0000",
-   "country": "🇪🇬 埃及",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "The Please Call Me millions: So, who paid?",
    "brief": "Five different amounts, cited across hundreds of pages, are at the heart of the dispute over who actually funded Please Call Me inventor Nkosana Makate’s fight against Vodacom.",
    "source": "ITWeb Africa",
    "url": "https://www.itweb.co.za/article/the-please-call-me-millions-so-who-paid/xA9POvNE2KEqo4J8",
    "date": "Tue, 22 Sep 2026 09:13:00 +0200",
    "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "South Africa’s ZARU Stablecoin Goes Live on Arc With ZAR/USDC Onchain FX Pair",
-   "brief": "South Africa’s first institutional-grade rand (ZAR) stablecoin, ZAR Universal (ZARU) , has gone live on Arc  and launched as a founding currency pair on Circle StableFX, ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/22/south-africa-zaru-stablecoin-goes-live-arc-zar-usdc-onchain-fx/",
-   "date": "Tue, 22 Sep 2026 07:12:19 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "UNITEL Revenue Rises 17% to 274 Billion Kwanzas in H1 2026 as Data Use Surges",
-   "brief": "Angolan telecommunications operator UNITEL S.A.  recorded strong financial and operational growth in the first half of 2026, with revenue rising 17% year-on-year to 274 billion ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/09/22/unitel-revenue-rises-17-percent-274-billion-kwanzas-h1-2026/",
-   "date": "Tue, 22 Sep 2026 07:03:05 +0000",
-   "country": "🇦🇴 安哥拉",
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -444,16 +494,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Mission Mobile secures R500m funding",
-   "brief": "The backing will enable the company to extend its customer reach and develop additional propositions for mobile network operators.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/mission-mobile-secures-r500m-funding/VgZeyvJlp11MdjX9",
-   "date": "Mon, 21 Sep 2026 13:15:00 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Paymob raises $35 million pre-Series C to expand payments business across MENA",
    "brief": "Egypt's Paymob raised $35M led by Mubadala and EBRD to expand its payments business across MENA, as Gulf revenue grows sevenfold.",
    "source": "Condia",
@@ -484,16 +524,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Xiaomi 18: Everything to know about price, specs and features",
-   "brief": "Xiaomi has not confirmed the Xiaomi 18, but certification records and fresh leaks already show what the phone could bring.",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/09/21/xiaomi-18-price-release-date-specs-features/",
-   "date": "Mon, 21 Sep 2026 09:32:48 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Africa Go Green Fund doubles financing commitment to Spiro, adds $18 million",
    "brief": "Africa Go Green Fund has doubled its debt commitment to Spiro to $36M, adding $18M to fund e-motorcycle expansion in Uganda and Rwanda.",
    "source": "Condia",
@@ -506,7 +536,7 @@
   {
    "title": "Oil-rich Gulf kingdom exits China-led digital currency platform as Africa deepens its yuan payment links",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVHVnYkFPVFJXMHFNNzZIalVOZUVfZ2FoMmRiVmRFR0RJS200N19hUXFsUHE0X2FEekZUM0R3U2lmLWw3bWZ3d3BVVGtHSDNsTUhtdGVScVcwUzB5QVpHU0hlc2taaTF0RVg4Q1V4Sm96MDYtZEJpS2hQVF9HMU",
-   "source": "Business Insider Africa·聚合",
+   "source": "africa.businessinsider.com·聚合",
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVHVnYkFPVFJXMHFNNzZIalVOZUVfZ2FoMmRiVmRFR0RJS200N19hUXFsUHE0X2FEekZUM0R3U2lmLWw3bWZ3d3BVVGtHSDNsTUhtdGVScVcwUzB5QVpHU0hlc2taaTF0RVg4Q1V4Sm96MDYtZEJpS2hQVF9HMUtoaTFQdVpLTmljRExxbVRucDlZSHRDV1hXWnBJaWtBYzhDWnJWWnBZYjFORlBkeTBqdzVPRUtYSXc3LXNncE1GN2pPSUFKYlFHQWZJdldUa05YREtqVW90XzZQUQ?oc=5",
    "date": "Mon, 21 Sep 2026 05:11:12 GMT",
    "country": null,
@@ -591,36 +621,6 @@
    "date": "Fri, 18 Sep 2026 09:54:27 +0000",
    "country": "🇳🇬 尼日利亚",
    "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Smarter, faster and autonomous: AI reshapes MDR",
-   "brief": "AI can connect the different stages of the managed detection and response process into a continuous operational cycle.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/smarter-faster-and-autonomous-ai-reshapes-mdr/xA9POvNE2Dlqo4J8",
-   "date": "Fri, 18 Sep 2026 10:45:00 +0200",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Africa cannot secure agentic AI with yesterday’s security model",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxOUVlXdEJ1YWxoUXlxaExDSVdtZG1va05GUmt5Q0xQOEN4ZU1JaGlxcGNuVjdRb0NvdGR6T0gtcTNlUUJlbUl1STN0bldVZm1jR0hfRXktcEEtbTJNTlhfX2pvak96QTRDYmxzVGVjdUU5a09IQWJSbWNqbnNaZk",
-   "source": "Microsoft Source·聚合",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUVlXdEJ1YWxoUXlxaExDSVdtZG1va05GUmt5Q0xQOEN4ZU1JaGlxcGNuVjdRb0NvdGR6T0gtcTNlUUJlbUl1STN0bldVZm1jR0hfRXktcEEtbTJNTlhfX2pvak96QTRDYmxzVGVjdUU5a09IQWJSbWNqbnNaZkc1VEhnTVZpSEtSOVJqdG54UGo1RWp5TzV5SGdIZkxiSmtsYVl2SkhSMHB4b29IZFQ1Tg?oc=5",
-   "date": "Thu, 17 Sep 2026 19:09:50 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Chinese AI labs must accelerate development, says Huawei exec – fueling fears that a US AI slowdown would benefit China",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOUzU1aTkxXzBFOVgwVHBFOGdfaFVtMmd3ejlZN0xKSGVDQlN6V2ZoUHlVTFVkdmczcUN2cjFVZ2duYjFBTlZTeWRrb3V4elRQSnRmMUwyUVRTMFZ4WGVoZ2NWWWE2a2lRQUlNYnByOXczUUJ3dzFScXM0elhzcU",
-   "source": "New York Post·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUzU1aTkxXzBFOVgwVHBFOGdfaFVtMmd3ejlZN0xKSGVDQlN6V2ZoUHlVTFVkdmczcUN2cjFVZ2duYjFBTlZTeWRrb3V4elRQSnRmMUwyUVRTMFZ4WGVoZ2NWWWE2a2lRQUlNYnByOXczUUJ3dzFScXM0elhzcUtYLVd5cXVUT1g4dXE5WDRsX1VpN2ZpZnQ5N1J2bVpLSzg4Qmc?oc=5",
-   "date": "Thu, 17 Sep 2026 17:46:00 GMT",
-   "country": null,
-   "is_ai": true,
    "is_aiinfra": false
   }
  ]
