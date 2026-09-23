@@ -1,70 +1,150 @@
 {
  "asof": "2026-09-23",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-09-23T14:40+08:00",
+ "generated_at": "2026-09-23T16:44+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 3,
+  "cross_day_suppressed": 2,
   "cluster_label": "",
   "cluster_dropped": [],
   "backfilled": 0
  },
  "items": [
   {
+   "cat": "macro",
+   "title": "美联储Collins：加息后通胀或显著更高",
+   "brief": "美联储官员Collins在支持加息后警告通胀可能\"明显\"高于预期，强化higher-for-longer利率立场。",
+   "chain": "加息预期升温→美债收益率与美元走强→压制美股AI高久期估值→A股算力链情绪承压",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/23/federal-reserve-inflation-interest-rates-ecb.html",
+   "ts": "Wed, 23 Sep 2026 07:33:14 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "OECD：美联储欧央行今年各再加息一次",
+   "brief": "经合组织预计美联储和欧洲央行今年将各再加息一次，2027年维持利率稳定；日本央行2027年底前加息至2%。",
+   "chain": "加息路径确认→实际利率高位→美股成长股贴现率压力→A股算力链估值分母承压",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609233882448357.html",
+   "ts": "2026-09-23 16:09:01"
+  },
+  {
+   "cat": "macro",
+   "title": "金价疲软，长期高利率压制情绪",
+   "brief": "受higher-for-longer利率前景拖累，黄金走势乏力，避险与实际利率博弈主导金价。",
+   "chain": "高利率预期主导→金价承压反映实际利率高企→美股AI高久期票估值分母偏紧→A股算力链情绪偏谨慎",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVGROaTNUbzBNRWdvU1J1SVRKaURrN0FDVHMteG50VExEUUhKN3UyQ0pMZ3F0ZUtXRHoyc2c2aDgzRkFrTFhHR01OdVROSVBWVnRLWmhqSjNDdW5FVjdHeEptYW5fUFg1VFVnX0xXZURtemZqOVNqNmRqc19yVjdYX3BwM1I1T0M4VUIwdDNqdmxFcnlXX2pKS3VCNllNbEJTQkZxZTJkd1NpNDZwOGpBSw?oc=5",
+   "ts": "2026-09-23T04:53:00+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "OECD上调2026全球增速至2.9%",
+   "brief": "经合组织将2026年全球经济增长预期上调至2.9%，2027年预计3.0%，较6月下调0.1个百分点。",
+   "chain": "全球增长预期微升→风险偏好边际改善→利好美股周期与科技→A股算力链外需预期稳定",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609233882443548.html",
+   "ts": "2026-09-23 16:01:30"
+  },
+  {
+   "cat": "macro",
+   "title": "英国9月制造业PMI初值52超预期",
+   "brief": "英国9月制造业PMI初值报52，高于市场预估的51.5，显示制造业景气回升。",
+   "chain": "英国制造业回暖→欧洲需求边际改善→美股周期股情绪支撑→A股出口链预期微升",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609233882465790.html",
+   "ts": "2026-09-23 16:31:45"
+  },
+  {
    "cat": "geo",
-   "title": "伊朗提出重开霍尔木兹条件",
-   "brief": "伊朗就重开霍尔木兹海峡向美方提出条件，特朗普称协议或在中期选举后达成，美伊外交博弈持续。",
-   "chain": "美伊谈判预期升温→避险溢价回落、风险偏好修复→利好美股科技成长，映射A股算力链情绪回暖。",
-   "impact": 9,
+   "title": "伊朗提出霍尔木兹重开条件",
+   "brief": "伊朗就霍尔木兹海峡重开提出条件，特朗普称协议或在中选后达成，美伊谈判持续。",
+   "chain": "美伊谈判推进→中东地缘风险溢价回落→美股风险偏好改善→A股算力链情绪受益",
+   "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/09/23/us-iran-war-trump-hormuz.html",
    "ts": "Wed, 23 Sep 2026 05:37:48 GMT"
   },
   {
-   "cat": "oil",
-   "title": "油价回落1美元 供应前景改善",
-   "brief": "受供应前景改善及美伊谈判希望提振，油价下跌约1美元，市场对霍尔木兹供应中断担忧缓解。",
-   "chain": "美伊谈判进展→地缘溢价回落、油价承压→莫桑比克LNG项目经济性相对改善，东非油气经营风险溢价下降。",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeFhpNFFXWGZ2azRGVllBNXpwLXZQeTFySkY3Vi12SmpTNmMyY09oU3RMa3Rqb21pNUl0ZGhSbVBWQnZBOXdOb19xSlU3TnNra0F6OWowVHp5RHlSblJGTVhXandWeEFJaDBOTi1VcjdrSjVNeGVJZnVjeUJXM3NVYUgxZ28yQkVuWXNhc1pxd093NVVBTHZnWm40c01OS00zZHAwRWVR?oc=5",
-   "ts": "2026-09-23T01:44:00+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "美元触及两月高位 市场权衡加息",
-   "brief": "市场权衡加息预期与伊朗外交进展，美元指数升至两个月高位，非美货币普遍承压。",
-   "chain": "美元走强+加息预期→压制美股高久期AI成长股估值分母→A股算力链外资情绪承压。",
+   "cat": "geo",
+   "title": "泽连斯基称乌准备能源停火",
+   "brief": "泽连斯基表示乌克兰准备接受\"能源停火\"，并呼吁与普京、特朗普举行三方会谈。",
+   "chain": "俄乌能源停火预期→欧洲能源风险溢价下降→美股风险偏好改善→A股算力链情绪偏暖",
    "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ09vVklTVy1TeFR1N3AzZE9MUHJnb0dWeTVVUXJOS1N1dE1lT0ZSX1BSZ3RnMzVoVTdXTHhldmxGZkhCYkVTaHRMLWFrU2FUQVJhbzZHWld6TnZ5OFdXTGNDWXNUbTl1NE9qSmV5a3ZiQ0FUa3laZUdZVjRZZmNwazFoNDlKVHlkdEVQdzVLM01pb3M0S0x2VkFqN0dJRzhOLVZkenlmQzNxTVRVVm9reFRUN1psM1ZkbW1ycUhYU0VMM28?oc=5",
-   "ts": "2026-09-23T01:43:00+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "特朗普支持柴油出口禁令",
-   "brief": "燃油价格创纪录之际，特朗普表态支持柴油出口禁令，以平抑国内燃料成本。",
-   "chain": "出口禁令预期→美国成品油出口收缩、全球柴油供应趋紧→炼油利润与航运格局生变，间接影响东非燃料进口成本。",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRVVYazU2NVBYOUFueHpwS0lxNDJzbFgzYVhRZ1ZjcjRyTGdESUlaT0UzQ0MtbDcyYklsVkk0TVRseTZHUjI0dlU4UmhfVmhQNzEwVVAwY1FTMVFaSHByTDNXd19NUHc5bXRuMWYyaGhmbXBsRUo0TkQ5LVRBQm5ZbndBSEc1amtZR3BrN21XWkFsZw?oc=5",
-   "ts": "2026-09-22T23:22:15+00:00"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/23/ukraine-war-zelenskyy-putin-trump-russia.html",
+   "ts": "Wed, 23 Sep 2026 08:06:50 GMT"
   },
   {
    "cat": "geo",
-   "title": "欧盟续延对俄制裁 移除两富豪",
-   "brief": "欧盟续延对俄罗斯制裁，同时将俄富豪乌斯马诺夫和弗里德曼从制裁名单中移除。",
-   "chain": "对俄制裁延续→欧洲能源与地缘风险持续→避险情绪支撑黄金，压制美股风险偏好，A股算力链中性偏空。",
+   "title": "欧盟续签对俄制裁，移除两富豪",
+   "brief": "欧盟续签对俄罗斯制裁，同时将俄富豪Usmanov和Fridman从制裁名单中移除。",
+   "chain": "对俄制裁延续→俄能源出口受限预期→欧洲能源供应风险→美股能源板块波动→A股算力链间接情绪",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMnhFeHB1dlJzNUFaZkYzM0d3cFNyaDI3bFo3VjJFYW5wc0dhandneXlLVkstbVhfd0REaXJrUmx2TF9tRTd0QzdoTExocDNHSFhwVTlVRkZ6RzhKMU4yckMwNzEzS0xtalhQQl9vSkpBdjRxbUFVczFVc1NEQVJQM3R0NEdaQThjX0owTkdxbUcxb3JuM1c3XzNCVGN4dXV4OTNBeEQ3bURQWGxnRmdaVw?oc=5",
    "ts": "2026-09-22T17:37:37+00:00"
   },
   {
+   "cat": "geo",
+   "title": "特朗普-习近平峰会纳入AI安全议题",
+   "brief": "特朗普与习近平峰会讨论AI安全，但双方均不愿放缓AI发展步伐，中美博弈延续。",
+   "chain": "中美AI安全对话→科技管制预期分化→美股AI芯片情绪波动→A股算力链自主可控逻辑强化",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/23/trump-xi-meeting-ai-safety-chips-us-china-dialogue.html",
+   "ts": "Wed, 23 Sep 2026 07:48:58 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "油价下跌，供应前景改善",
+   "brief": "受供应前景改善及美伊谈判希望提振，油价下跌，市场关注中东局势缓和。",
+   "chain": "美伊谈判+供应改善→Brent承压回落→莫桑比克油气项目收入预期受油价下行拖累",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeFhpNFFXWGZ2azRGVllBNXpwLXZQeTFySkY3Vi12SmpTNmMyY09oU3RMa3Rqb21pNUl0ZGhSbVBWQnZBOXdOb19xSlU3TnNra0F6OWowVHp5RHlSblJGTVhXandWeEFJaDBOTi1VcjdrSjVNeGVJZnVjeUJXM3NVYUgxZ28yQkVuWXNhc1pxd093NVVBTHZnWm40c01OS00zZHAwRWVR?oc=5",
+   "ts": "2026-09-23T01:44:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "布伦特跌破99美元，美债收益率走低",
+   "brief": "布伦特原油跌破99美元/桶，带动美国国债收益率小幅走低，能源价格与利率联动。",
+   "chain": "Brent跌破99→通胀预期边际回落→美债收益率下行→莫桑比克LNG项目经济性相对改善",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html",
+   "ts": "Wed, 23 Sep 2026 07:11:41 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "特朗普支持柴油出口禁令",
+   "brief": "燃油价格创纪录之际，特朗普表态支持柴油出口禁令，可能影响全球成品油贸易流。",
+   "chain": "柴油出口禁令→全球成品油供应收紧→炼油利润波动→莫桑比克能源进口成本或上升",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRVVYazU2NVBYOUFueHpwS0lxNDJzbFgzYVhRZ1ZjcjRyTGdESUlaT0UzQ0MtbDcyYklsVkk0TVRseTZHUjI0dlU4UmhfVmhQNzEwVVAwY1FTMVFaSHByTDNXd19NUHc5bXRuMWYyaGhmbXBsRUo0TkQ5LVRBQm5ZbndBSEc1amtZR3BrN21XWkFsZw?oc=5",
+   "ts": "2026-09-22T23:22:15+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "韩国计划2035年前将中东原油依赖降至50%",
+   "brief": "韩国计划到2035年将中东原油进口依赖度降至50%，推动原油进口多元化。",
+   "chain": "韩国减少中东原油依赖→中东原油流向重构→亚洲原油贸易格局变化→莫桑比克油气出口竞争格局微调",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeE55dDdROVIwdjhlcVFjWnRFQmx0T3pxNldiUkE1eklicGwtRlFGMEljOFoxT01rMVdURzhrTlhCV3NxNnFpSGdSQUROSUROUjVRX3d1R0ZPSDh3RHFBNE1FV21oR0ZpU0pYbXNCRmotM2hna09KT24wX0ljWl8yS2dEU05wUVJSbjNQck04MzR5blJmamxSSVlzZFdWNUZNeVRxODBsbldaaVE4cFItSDY0eFFKYkJYbmRoUFQxX0dxaVlpSUE?oc=5",
+   "ts": "2026-09-23T00:42:00+00:00"
+  },
+  {
    "cat": "gas",
-   "title": "沙特阿美拟设天然气部门重组",
+   "title": "沙特阿美拟重组设立天然气部门",
    "brief": "沙特阿美计划进行组织重组，新设天然气部门，加码天然气业务布局。",
-   "chain": "阿美加码天然气→全球LNG供应格局生变、气价中期承压→莫桑比克/东非LNG项目面临更激烈竞争与定价压力。",
+   "chain": "阿美加码天然气→全球LNG供应竞争加剧→气价中长期承压→莫桑比克LNG项目面临更强竞争",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMWpkb3RQV3p1VmpBdlAwTHlnTVI2bkJRSW9hWDNHV1JqRFloLXNkV0pOVDR4aXRmNkpIMzFwS0xBMU9zMFRqVUF0VThLWndEeFlSc1NMVGVYc2NiSDVkb05mZVozNGp5RWRkcjNhY2N5amZwX19QT1NGemF4djVKSU51SjRDaWg5dTUwMFpkd243bWlyejFCQWNmY29EbTF1WG9QNGNoTVJBODRHakgwMW1fX2JfaHZI?oc=5",
@@ -72,153 +152,73 @@
   },
   {
    "cat": "gas",
-   "title": "伊朗南帕尔斯气田半数产能恢复",
-   "brief": "伊朗石油部规划副部长称，南帕尔斯气田受损产能的一半已恢复生产。",
-   "chain": "南帕尔斯产能恢复→中东天然气供应回升、气价承压→莫桑比克LNG出口面临中东气源竞争，东非经营需关注气价中枢下移。",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609233882379625.html",
-   "ts": "2026-09-23 14:23:07"
+   "title": "ETF资金流：COWZ大举吸金",
+   "brief": "每日ETF资金流数据显示COWZ基金大举吸纳资产，反映资金对特定策略的配置偏好。",
+   "chain": "资金流向ETF→能源相关配置变化→间接影响天然气板块情绪→莫桑比克LNG融资环境关注",
+   "impact": 3,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/options/articles/daily-etf-flows-cowz-gobbles-210028745.html",
+   "ts": "2026-09-21T21:00:28Z"
   },
   {
-   "cat": "ai",
-   "title": "戴蒙：超大规模AI支出明年或达1万亿",
-   "brief": "摩根大通CEO戴蒙称，超大规模云厂商的AI资本开支明年可能达到1万亿美元规模。",
-   "chain": "AI资本开支预期上修→利好美股算力/芯片链（英伟达、博通）→映射A股算力硬件、光模块、PCB链。",
-   "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/21/jamie-dimon-jpm-jpmorgan-indiaconference.html",
-   "ts": "Tue, 22 Sep 2026 01:30:01 GMT"
-  },
-  {
-   "cat": "ai",
+   "cat": "tech",
    "title": "阿里发布新AI芯片及数据中心计划",
-   "brief": "阿里巴巴公布新AI芯片与数据中心扩建计划，股价大涨，加码自研算力基础设施。",
-   "chain": "阿里自研AI芯片+数据中心扩张→强化国产算力叙事→利好A股算力链、国产芯片与IDC板块。",
+   "brief": "阿里巴巴公布新AI芯片和数据中心建设计划，股价大涨，加码AI基础设施投入。",
+   "chain": "阿里加码AI芯片与数据中心→国产算力链景气提升→映射A股算力/芯片链情绪走强",
    "impact": 8,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/09/22/alibaba-ai-alibabacloud-zhenwu-v900-.html",
    "ts": "Tue, 22 Sep 2026 05:15:21 GMT"
   },
   {
-   "cat": "ai",
-   "title": "Anthropic与OpenAI推出更便宜模型",
-   "brief": "在呼吁放缓AI开发后，Anthropic和OpenAI首次发布更低价模型，推动AI应用降本落地。",
-   "chain": "低价模型加速AI应用普及→利好美股AI应用与云厂商→映射A股AI应用、算力推理需求链。",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/22/anthropic-openai-cheaper-ai-models.html",
-   "ts": "Tue, 22 Sep 2026 19:43:21 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "奥特曼与阿莫代伊将出席安理会AI会议",
-   "brief": "OpenAI的奥特曼与Anthropic的阿莫代伊预计出席联合国安理会关于AI的会议，AI治理升温。",
-   "chain": "AI治理进入联合国议程→监管预期升温→对美股AI龙头估值形成扰动，A股算力链情绪中性。",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/22/altman-amodei-unga-ai-safety.html",
-   "ts": "Tue, 22 Sep 2026 17:30:27 GMT"
-  },
-  {
    "cat": "tech",
    "title": "高通发布面向AI的安卓芯片",
    "brief": "高通发布专为AI打造的安卓芯片，但内存短缺对智能手机市场构成压力。",
-   "chain": "高通AI芯片发布+内存短缺→利好AI手机链、存储涨价预期→映射A股存储、消费电子与AI终端链。",
-   "impact": 7,
+   "chain": "高通AI芯片发布→端侧AI算力升级→消费电子链预期改善→A股手机链与算力链情绪联动",
+   "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/09/22/qualcomm-releases-android-chip-built-for-ai-amid-memory-shortage.html",
    "ts": "Tue, 22 Sep 2026 21:09:17 GMT"
   },
   {
    "cat": "tech",
-   "title": "Arm大涨17% 上调20亿美元营收目标",
-   "brief": "Arm Holdings因雄心勃勃的20亿美元营收目标大涨17%，对冲基金看多情绪升温。",
-   "chain": "Arm营收目标上修→强化IP授权与AI芯片需求叙事→利好美股半导体，映射A股芯片设计、IP授权链。",
-   "impact": 7,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/arm-holdings-arm-soars-17-184855651.html",
-   "ts": "2026-09-21T18:48:55Z"
-  },
-  {
-   "cat": "tech",
-   "title": "思科遭下调目标价 股价跌5%",
+   "title": "思科股价跌5%，目标价被下调",
    "brief": "Piper Sandler因增长担忧下调思科目标价，思科股价下跌5%，此前夏季曾创纪录。",
-   "chain": "思科增长担忧→企业IT/网络设备需求承压信号→对美股科技硬件偏空，A股通信设备链情绪受抑。",
-   "impact": 6,
+   "chain": "思科增长担忧→企业IT支出预期谨慎→美股科技硬件承压→A股通信设备链情绪偏弱",
+   "impact": 5,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/09/22/cisco-stock-piper-sandler-price-target.html",
    "ts": "2026-09-22T19:21:11+00:00"
   },
   {
-   "cat": "macro",
-   "title": "全球银行业警告英国银行暴利税",
-   "brief": "全球银行业高管警告，若英国提高银行税负，将把投资转出英国，或损害伦敦金融中心地位。",
-   "chain": "英国加税预期→金融业资本外流担忧→压制欧洲金融股，对美股银行中性，A股金融链影响有限。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609233882387661.html",
-   "ts": "2026-09-23 14:32:05"
-  },
-  {
-   "cat": "macro",
-   "title": "丹麦央行上调2026年GDP预期至4%",
-   "brief": "丹麦央行预计2026年GDP增速为4.0%，较3月预测的1.8%大幅上修。",
-   "chain": "欧洲经济体增长预期上修→提振欧洲风险偏好→间接利好美股与全球周期股，A股影响中性。",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609233882387350.html",
-   "ts": "2026-09-23 14:31:31"
-  },
-  {
    "cat": "tech",
-   "title": "三星完成16GB LPDDR6验证",
-   "brief": "三星宣布率先在高通骁龙8 Elite Extreme Gen 6上完成16GB LPDDR6内存验证。",
-   "chain": "LPDDR6验证落地→利好AI手机与高端存储升级→映射A股存储、消费电子链。",
+   "title": "韩国太阳能股大涨，对华限制预期延续",
+   "brief": "市场预期对中国太阳能产业的限制措施将延续，韩国太阳能股大涨。",
+   "chain": "对华光伏限制预期→韩国太阳能股受益→A股光伏出口链承压→算力链间接情绪分化",
    "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609233882387981.html",
-   "ts": "2026-09-23 14:32:30"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/23/korean-solar-stocks-jump-as-curbs-on-china-expected-to-stay-in-place.html",
+   "ts": "Wed, 23 Sep 2026 03:08:23 GMT"
   },
   {
    "cat": "ai",
-   "title": "千问办公与SAP、Salesforce合作企业级Agent",
-   "brief": "云栖大会上，千问办公宣布与Salesforce、SAP中国共同探索办公Agent与企业管理系统的协同。",
-   "chain": "企业级AI Agent落地→利好美股企业软件（SAP、Salesforce）→映射A股AI应用、企业软件链。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609233882385629.html",
-   "ts": "2026-09-23 14:30:11"
+   "title": "Anthropic与OpenAI推出更便宜模型",
+   "brief": "Anthropic和OpenAI在呼吁放缓后首次发布更便宜的AI模型，降低使用门槛。",
+   "chain": "低价模型发布→AI应用成本下降→美股AI应用层受益→A股算力链推理需求预期提升",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/22/anthropic-openai-cheaper-ai-models.html",
+   "ts": "Tue, 22 Sep 2026 19:43:21 GMT"
   },
   {
-   "cat": "tech",
-   "title": "海目星超快激光切入AI算力硬件",
-   "brief": "海目星披露投资者关系记录，作为超快激光全链条装备企业，正切入AI算力硬件、半导体领域。",
-   "chain": "超快激光设备切入AI算力硬件→利好A股算力硬件、先进封装（TGV/CPO）链。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609233882388813.html",
-   "ts": "2026-09-23 14:36:14"
-  },
-  {
-   "cat": "tech",
-   "title": "普冉股份EEPROM批量用于数据中心",
-   "brief": "普冉股份称2Mbit EEPROM已有产品批量应用于高速宽带通信和数据中心，AI需求逐步体现。",
-   "chain": "EEPROM切入数据中心→AI相关存储需求兑现→利好A股存储、数据中心配套链。",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609233882388179.html",
-   "ts": "2026-09-23 14:33:58"
-  },
-  {
-   "cat": "macro",
-   "title": "沪深两市成交额超1.5万亿 缩量3483亿",
-   "brief": "沪深两市成交额超1.5万亿元，较上日此时缩量3483亿元，市场交投活跃度下降。",
-   "chain": "A股缩量→市场情绪转谨慎→算力链等高位板块资金承接力减弱，短期波动加大。",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609233882377593.html",
-   "ts": "2026-09-23 14:22:09"
+   "cat": "ai",
+   "title": "Altman与Amodei将出席安理会AI会议",
+   "brief": "OpenAI的Altman和Anthropic的Amodei预计将参加联合国安理会关于AI的会议。",
+   "chain": "AI治理进入安理会层级→监管预期升温→美股AI龙头情绪波动→A股算力链政策敏感度上升",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/22/altman-amodei-unga-ai-safety.html",
+   "ts": "Tue, 22 Sep 2026 17:30:27 GMT"
   }
  ]
 }
