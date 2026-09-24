@@ -290,6 +290,8 @@ jobs:
           else
             echo "ℹ️ 未配 BOARD_PASSWORD → 看板公开(无密码)"
           fi
+          # 英语课程只以密文入库。每次重建都验证密码一致并恢复子目录，避免被 rm -rf docs 清掉。
+          python3 english_release.py install --output "$DOCS/english/index.html"
           echo "✅ docs/ 组织完成,可上传 Pages"
 
       # 提交 state/(台账+数据,需累积以支撑复盘记分卡)。docs/ 不入库(纯 artifact 部署)。
@@ -345,6 +347,8 @@ jobs:
 
   # ---------------- 推送飞书卡片(独立 job,失败不影响部署)----------------
   notify:
+    # 网站栏目发布无需额外推送一份行情通知；日常早报保持原行为。
+    if: ${{ !contains(github.event.head_commit.message, '[skip notify]') }}
     needs: [build, deploy]
     runs-on: ubuntu-latest
     timeout-minutes: 5         # 防卡死:飞书推送超时自动失败
