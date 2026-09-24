@@ -1,6 +1,6 @@
 {
  "asof": "2026-09-24",
- "fetched_at": "2026-09-24T02:00+08:00",
+ "fetched_at": "2026-09-24T12:41+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -12,10 +12,10 @@
    "Condia": 25,
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
-   "Zimbabwe Situation": 0,
+   "Zimbabwe Situation": 1,
    "African Business": 1,
-   "非洲科技·聚合": 8,
-   "中非科技·聚合": 20
+   "非洲科技·聚合": 6,
+   "中非科技·聚合": 18
   },
   "total": 60,
   "ai_flagged": 13,
@@ -23,6 +23,16 @@
   "countries": 9
  },
  "items": [
+  {
+   "title": "New speed system for public service vehicles",
+   "brief": "Freeman Razemba-Senior Reporter THE Government yesterday launched the National Speed Monitoring System in Harare, a modern technology-driven initiative expected to enhance the enforcement of speed limits for public servi",
+   "source": "Zimbabwe Situation",
+   "url": "https://www.zimbabwesituation.com/news/new-speed-system-for-public-service-vehicles/",
+   "date": "Thu, 24 Sep 2026 03:10:11 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
   {
    "title": "Acumen backs Sun King with $5 million to expand solar access in Zambia",
    "brief": "The investment comes as Zambia tries to close a large electricity-access gap while reducing its dependence on hydropower.",
@@ -174,6 +184,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "China-Africa Dialogue Highlights TVET Cooperation, Digital Learning to Boost Youth Skills",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNd3IySzhTa3RNaVVDb0pCQzZhTHBzZG13dGp6WDRoM0hSUzNHbWhHVFlzWkZ0U2R1RWR4bVRxUnhoSUUxOGlZLUZycnpoQzFGV2Rhb29OYkstX0E0UnNjRUE3S25pSGNSVGdndFdUdEJzT1llWnJ6SUtyVlU0cl",
+   "source": "DNE Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNd3IySzhTa3RNaVVDb0pCQzZhTHBzZG13dGp6WDRoM0hSUzNHbWhHVFlzWkZ0U2R1RWR4bVRxUnhoSUUxOGlZLUZycnpoQzFGV2Rhb29OYkstX0E0UnNjRUE3S25pSGNSVGdndFdUdEJzT1llWnJ6SUtyVlU0clVBTVdGdzFHaU9jQ1Jma3pINXFJQzFXUFBoRGpKbzZaYmo5S0dqYVI1eVJ3ejlvdTJ3dGYtenFtd0NBdWlxUzJ1d2I?oc=5",
+   "date": "Wed, 23 Sep 2026 10:18:57 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "Submer and Intel Join Forces to Advance AI Infrastructure Across Middle East and Africa",
    "brief": "Submer,  a full-stack AI and HPC infrastructure provider, and Intel  announced a collaboration agreement covering artificial intelligence (AI) infrastructure, high-performance computing (HPC) and next-generation data ...",
    "source": "TechAfrica News",
@@ -199,16 +219,6 @@
    "source": "ITWeb Africa",
    "url": "https://www.itweb.co.za/article/bank-zero-reaches-break-even-after-nearly-five-years/LPwQ57lbVQzqNgkj",
    "date": "Wed, 23 Sep 2026 11:39:11 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "China-Africa Dialogue Highlights TVET Cooperation, Digital Learning to Boost Youth Skills",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNd3IySzhTa3RNaVVDb0pCQzZhTHBzZG13dGp6WDRoM0hSUzNHbWhHVFlzWkZ0U2R1RWR4bVRxUnhoSUUxOGlZLUZycnpoQzFGV2Rhb29OYkstX0E0UnNjRUE3S25pSGNSVGdndFdUdEJzT1llWnJ6SUtyVlU0cl",
-   "source": "DNE Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNd3IySzhTa3RNaVVDb0pCQzZhTHBzZG13dGp6WDRoM0hSUzNHbWhHVFlzWkZ0U2R1RWR4bVRxUnhoSUUxOGlZLUZycnpoQzFGV2Rhb29OYkstX0E0UnNjRUE3S25pSGNSVGdndFdUdEJzT1llWnJ6SUtyVlU0clVBTVdGdzFHaU9jQ1Jma3pINXFJQzFXUFBoRGpKbzZaYmo5S0dqYVI1eVJ3ejlvdTJ3dGYtenFtd0NBdWlxUzJ1d2I?oc=5",
-   "date": "Wed, 23 Sep 2026 09:30:50 GMT",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -495,9 +505,9 @@
   },
   {
    "title": "Huawei’s mobile chip narrows gap with Apple through Tau Scaling Law: Bernstein",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxOaUlyVW10XzZoZHBMY2VDZ3hHZlR3NUNMUUtLeEdYUnhHT3ViMTRfY2ZvVGRKdlJRTk5kUExGS2J0WHhMTy1QRHZGeE9UNGtDVDZWMFBTZ0w5UFdESmxwcTM2V0xyOVJzcHFxeDBwclA3UTFCRFhPdHdoNlB6WH",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPVG1aeHhJQ2pDcHZTMkVfMzExSUM4eHlKWjU5RUhnMWkxQzRZeWJSQU03MkFfR0t1TjhEY0VkRWJlcnZ2WEVxeVpINGRUOTFQUEZDNHBJWjhaa1o3amtPSU1BdjlEeVQtRUR3TEhNQ21acUJsV3gzeHZZVThvMV",
    "source": "South China Morning Post·聚合",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaUlyVW10XzZoZHBMY2VDZ3hHZlR3NUNMUUtLeEdYUnhHT3ViMTRfY2ZvVGRKdlJRTk5kUExGS2J0WHhMTy1QRHZGeE9UNGtDVDZWMFBTZ0w5UFdESmxwcTM2V0xyOVJzcHFxeDBwclA3UTFCRFhPdHdoNlB6WHZJc2FtRHNIaGptMExWc0xISkNXYlZVUmRuTGNBSHFsOUpCVDhtbmtRa09RWnpmZnN0YUhCa18tU3otb0phbzdTVWlXaDhN?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVG1aeHhJQ2pDcHZTMkVfMzExSUM4eHlKWjU5RUhnMWkxQzRZeWJSQU03MkFfR0t1TjhEY0VkRWJlcnZ2WEVxeVpINGRUOTFQUEZDNHBJWjhaa1o3amtPSU1BdjlEeVQtRUR3TEhNQ21acUJsV3gzeHZZVThvMV95Yll0Yk5yM1RTX25JMlgzQmRmcUx1QTYzay1UeXZzLU1DRV9fZTh2OXlrcVNTUXBocFNaSk5wQ0FKWUNSekVGNmxoVEVZ0gHEAUFVX3lxTE9UbVp4eElDakNwdlMyRV8zMTFJQzh4eUpaNTlFSGcxaTFDNFl5YlJBTTcyQV9HS3VOOERjRWRFYmVydnZYRXF5Wkg0ZFQ5MVBQRkM0cElaOFprWjdqa09JTUF2OUR5VC1FRHdMSE1DbVpxQmxXeDN4dllVOG8xX3liWXRiTnIzVFNfbkkyWDNCZGZxTHVBNjNrLVR5dnMtTUNFX19lOHY5eWtxU1NRcGhwU1pKTnBDQUpZQ1J6RUY2bGhURVk?oc=5",
    "date": "Tue, 22 Sep 2026 12:00:06 GMT",
    "country": null,
    "is_ai": false,
@@ -526,7 +536,7 @@
   {
    "title": "Africa’s AI Champion and the Making of a Digital Republic: Ethiopia’s Transformation into an Intelligence Age",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxNS3JwZTkwSDlFZm80Q1lpT0pNajdzWUFEQldFQjZKVEJobDFzdG5uZmFxVUt4MVJmeXJGRU9EbTU2NVJaNFZjMjNfS2tUQ0NOcXJsZlhVQXVPMTFpUEFCYU9DUVpqLXI1S3BHNUxMbjhDQTk2aldScjZMU3VUeU",
-   "source": "fanamc.com·聚合",
+   "source": "Fana Media Corporation S.C·聚合",
    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNS3JwZTkwSDlFZm80Q1lpT0pNajdzWUFEQldFQjZKVEJobDFzdG5uZmFxVUt4MVJmeXJGRU9EbTU2NVJaNFZjMjNfS2tUQ0NOcXJsZlhVQXVPMTFpUEFCYU9DUVpqLXI1S3BHNUxMbjhDQTk2aldScjZMU3VUeUF0XzZhSEpuY29tV0p5MnBQTTIzdUMyc0x3aVpwYmhKaXFkRHg0clZ6dGxWbkhoU050YmVlMUkzenhrV21sQVdGY0FLeEN5VVFsM015YmxkUUlFMUJwRw?oc=5",
    "date": "Tue, 22 Sep 2026 09:59:59 GMT",
    "country": "🇪🇹 埃塞俄比亚",
@@ -611,16 +621,6 @@
    "date": "Mon, 21 Sep 2026 15:22:55 +0000",
    "country": "🇳🇬 尼日利亚",
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Pierre Le Manh to Step Down as PMI President and CEO",
-   "brief": "Project Management Institute (PMI), the leading authority in project management, today announced that Pierre Le Manh has decided to step down as President and Chief Executive Officer, effective September 30, 2026. Johann",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/pierre-le-manh-to-step-down-as-pmi-president-and-ceo/8OKdWMDXLbBMbznQ",
-   "date": "Mon, 21 Sep 2026 14:45:00 +0200",
-   "country": null,
-   "is_ai": false,
    "is_aiinfra": false
   }
  ]

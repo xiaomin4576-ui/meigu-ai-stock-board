@@ -1,10 +1,10 @@
 {
  "asof": "2026-09-24",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-09-24T02:00+08:00",
+ "generated_at": "2026-09-24T12:41+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 13,
+  "cross_day_suppressed": 3,
   "cluster_label": "",
   "cluster_dropped": [],
   "backfilled": 0
@@ -12,213 +12,213 @@
  "items": [
   {
    "cat": "macro",
-   "title": "美5年期国债收益率2007年来首破5%",
-   "brief": "美国5年期国债收益率拍卖后升19基点报5.032%，为2007年以来首次突破5%，2年期同步升至4.895%。",
-   "chain": "长端利率破位→美股AI高久期票估值分母抬升、风险偏好承压→A股算力链情绪受抑",
-   "impact": 9,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609243882828637.html",
-   "ts": "2026-09-24 01:07:06"
-  },
-  {
-   "cat": "macro",
-   "title": "市场押注美联储10月加息",
-   "brief": "在Barr讲话与通胀读数偏热后，市场预期下一次美联储行动为10月加息，美元与短端利率走强。",
-   "chain": "加息预期升温→美股成长股贴现率上行、估值承压→A股算力链风险偏好回落",
+   "title": "10年期美债收益率飙至19年新高",
+   "brief": "10年期美债收益率急升至19年高位，通胀担忧与美联储紧缩预期是主因。",
+   "chain": "长端利率飙升→美股AI高久期票估值分母承压、风险偏好收缩→A股算力链情绪受抑",
    "impact": 9,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/23/market-sees-next-fed-hike-in-october-following-barr-comments-hot-inflation.html",
-   "ts": "Wed, 23 Sep 2026 17:14:13 GMT"
+   "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html",
+   "ts": "Wed, 23 Sep 2026 20:07:50 GMT"
   },
   {
    "cat": "macro",
-   "title": "美元指数创近两月新高",
-   "brief": "受美联储加息预期推动，美元指数升至近两个月高位，非美货币普遍承压。",
-   "chain": "美元走强→美股AI高久期票估值分母抬升→A股算力链外资情绪偏谨慎",
-   "impact": 8,
+   "title": "全球债市历史性一日：美债日债齐创数十年高位",
+   "brief": "10年期美债与日本国债收益率同日创数十年新高，全球利率中枢系统性上移。",
+   "chain": "全球无风险利率抬升→美股成长股贴现率上行、估值受压→A股算力/成长板块承压",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/24/japan-jgb-bond-yield-treasurys.html",
+   "ts": "Thu, 24 Sep 2026 04:06:54 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "美元跳升至近两月高位",
+   "brief": "受美联储政策前景与通胀担忧推动，美元指数升至近两个月高点。",
+   "chain": "美元走强→美股风险偏好与出口链承压、AI成长股估值受抑→A股算力链外资情绪偏谨慎",
+   "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ09vVklTVy1TeFR1N3AzZE9MUHJnb0dWeTVVUXJOS1N1dE1lT0ZSX1BSZ3RnMzVoVTdXTHhldmxGZkhCYkVTaHRMLWFrU2FUQVJhbzZHWld6TnZ5OFdXTGNDWXNUbTl1NE9qSmV5a3ZiQ0FUa3laZUdZVjRZZmNwazFoNDlKVHlkdEVQdzVLM01pb3M0S0x2VkFqN0dJRzhOLVZkenlmQzNxTVRVVm9reFRUN1psM1ZkbW1ycUhYU0VMM28?oc=5",
-   "ts": "2026-09-23T01:43:00+00:00"
+   "ts": "2026-09-23T19:49:06+00:00"
   },
   {
    "cat": "macro",
-   "title": "黄金跌1.73% 白银跌超4%",
-   "brief": "现货黄金跌1.73%报4283美元/盎司，现货白银日内跌超4%报64.36美元/盎司，实际利率上行压制贵金属。",
-   "chain": "实际利率上行主导→美股AI高久期票估值分母抬升、避险溢价回落→A股算力链情绪中性偏空",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609243882826280.html",
-   "ts": "2026-09-24 00:54:48"
-  },
-  {
-   "cat": "macro",
-   "title": "10年期美债收益率创2007年来最高 美股下挫",
-   "brief": "10年期美债收益率升至2007年以来最高，美股三大指数走低，市场等待特朗普-习近平会晤。",
-   "chain": "长端利率飙升→美股估值分母抬升、风险偏好承压→A股算力链情绪受抑",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSzB2Vlh0Nm9MZUlDRnA2S1pIMUJXWmZtdlZEVUdFRDV2WEJ1U3pLQnJKUFNBU3YyZGxXZ0trVk1tdm9lVFp0aEh5N0VpVUdOZDNWYjRzOTdUVW84bEYwYnZHNEQ1X213dHl5OGlpQWNSUEFkdXRpRC1rUTRDaDRBMFh2Zw?oc=5",
-   "ts": "2026-09-23T01:51:00+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "美2年期国债收益率升至2024年5月来最高",
-   "brief": "美国2年期国债收益率升11.82基点报4.895%，为2024年5月以来最高水平。",
-   "chain": "短端利率上行→美股成长股贴现率抬升→A股算力链估值情绪承压",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609243882825161.html",
-   "ts": "2026-09-24 00:32:05"
-  },
-  {
-   "cat": "geo",
-   "title": "伊朗总统联大誓言永不屈膝投降",
-   "brief": "伊朗总统佩泽希齐扬9月23日在联大一般性辩论发言，称伊朗永不低头、不会屈膝投降，并呼吁和平。",
-   "chain": "美伊对抗升级→美股风险偏好承压、能源避险溢价→A股算力链情绪受抑",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609243882831749.html",
-   "ts": "2026-09-24 01:43:16"
-  },
-  {
-   "cat": "geo",
-   "title": "特朗普会晤习近平 盟友摩擦添变数",
-   "brief": "特朗普与习近平会晤之际，美国与盟友的摩擦令其对华施压复杂化，市场关注贸易缓和前景。",
-   "chain": "中美博弈与贸易缓和预期→美股风险偏好与半导体出口链波动→A股算力链情绪敏感",
+   "title": "中美贸易休战延长两个月",
+   "brief": "美财长贝森特称中美贸易休战延长两个月，恰逢习近平开始国事访问。",
+   "chain": "关税休战延长→美股风险偏好边际改善、科技供应链扰动缓和→A股算力链与出口链情绪修复",
    "impact": 8,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/23/trump-xi-china-summit-allies.html",
-   "ts": "Wed, 23 Sep 2026 16:47:21 GMT"
+   "url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html",
+   "ts": "Thu, 24 Sep 2026 03:50:24 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "金价承压：美联储紧缩预期施压",
+   "brief": "美联储政策收紧前景压制金价，黄金走势平淡。",
+   "chain": "紧缩预期主导→实际利率上行压制金价、美股AI高久期票估值分母抬升→A股算力链情绪偏弱",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPenM1U09oVWJmVW8zbUtuN1ZLcWU1dGRKa1Rqdk1FU0k5QmVDSGRwcG9hR1NVVFVYOGhkSWpMdVF0aWFZMWx6TlNSWHZiajl5UWdzbWFZNmpGUW53MEhhbGgteHgtOGZGTzdlVGdWVjhWR2pMSzdJSWdCSmVTRHA4RVlCWS1tNU1NQU9QanFEQTRnNjhSSlhFQ052dEE?oc=5",
+   "ts": "2026-09-24T02:23:00+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "日本5年期国债收益率创历史新高",
+   "brief": "日本5年期国债收益率上升9个基点至2.365%，创历史新高。",
+   "chain": "日债利率上行→全球套息交易与风险资产承压、美股估值受抑→A股算力链外资流向偏谨慎",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609243883543363.html",
+   "ts": "2026-09-24 12:22:34"
+  },
+  {
+   "cat": "geo",
+   "title": "伊朗总统指特朗普霸凌、誓言不投降",
+   "brief": "伊朗总统佩泽希齐扬指责特朗普'霸凌心态'，誓言不屈服，美伊紧张持续。",
+   "chain": "美伊对抗升级→美股避险情绪升温、能源与防务板块波动→A股算力链风险偏好受抑",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMjhvWl9UZXFUYjJ2MHhOTWJvdFgxYUN2b1NuVXYtYTNwVXEzS0J6cVVrZTVBYWxmNHJTLUZ6SG55eFE4azRCZVZDUloyUnVtNE85dGp5Q2xDUmtOVEdVUl8wenVVdUZpWm5ONE5OQUhSYjd1VWNfNm9Ib3g0VjBqdXItY1pTdW5XekI5MFJOWGpoazl2Y29Zb2dMSWx6S2VRckFRVm1WVUlYUkQ1S0dGM3piVGZ6TjgyNGZXcWNFVWFxN2M?oc=5",
+   "ts": "2026-09-23T20:16:05+00:00"
   },
   {
    "cat": "geo",
    "title": "伊朗威胁瘫痪邻国机场",
-   "brief": "伊朗威胁若邻国停止伊朗航班，将瘫痪其机场，地区紧张进一步外溢。",
-   "chain": "中东局势外溢→美股避险情绪升温→A股算力链风险偏好承压",
-   "impact": 6,
+   "brief": "伊朗威胁若邻国停止伊朗航班，将瘫痪其机场，地区局势进一步紧张。",
+   "chain": "中东局势升温→美股避险情绪上行、油价风险溢价抬升→A股算力链情绪承压",
+   "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUlgwSXVrdWFYTVkxcldmZ09MajFXRHZzZ210YWlMSWZtZDc2RHEyb2I0VlljWWlpMkhtRm95OHdiZE5pU29qajhva3Z6N2lyVWR5ekFZclQ4UzBGdUhxZ0VnUFZJZFdIWTIxZ3J0WkJqUlZDeVBad0loM016eGFSWEpGZGxzMkJaZU10UHI1MjByS3hLNnNGRGxzOTV4ZXFYTmFTUXdTOU9IaEVGN25qaXN3U0piMEpFT1ItV0dhdUM0VG9QdWJfeXVn?oc=5",
    "ts": "2026-09-23T14:11:36+00:00"
   },
   {
    "cat": "geo",
-   "title": "韩国推动特朗普与朝鲜峰会",
-   "brief": "韩国推动特朗普与朝鲜举行峰会，视其为和平机会，半岛局势出现缓和迹象。",
-   "chain": "半岛缓和预期→美股风险偏好边际改善→A股算力链情绪中性偏多",
-   "impact": 5,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/09/23/lee-jae-myung-trump-kim-summit-north-korea.html",
-   "ts": "2026-09-23T09:22:51+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "国际油价涨幅缩窄 布油逼近98美元",
-   "brief": "WTI涨1.14%报91.55美元/桶，布伦特涨2.47%报97.77美元/桶，因美国拟实施柴油出口禁令消息。",
-   "chain": "柴油出口禁令预期→油价获支撑、成品油裂解价差走阔→莫桑比克油气销售与东非燃料成本承压",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609243882826894.html",
-   "ts": "2026-09-24 00:57:53"
-  },
-  {
-   "cat": "oil",
-   "title": "美国拟实施90天柴油出口禁令",
-   "brief": "五位知情人士称美国准备实施为期90天的柴油出口禁令，白宫官员随后称相关报道是假新闻。",
-   "chain": "柴油出口禁令预期→全球柴油供应收紧、油价波动加剧→莫桑比克东非燃料进口成本与炼化利润受扰",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609243882826363.html",
-   "ts": "2026-09-24 00:54:27"
-  },
-  {
-   "cat": "oil",
-   "title": "霍尔木兹海峡航运量低于10日均值",
-   "brief": "数据显示经霍尔木兹海峡的航运流量持续低于10日均值，中东原油运输受扰。",
-   "chain": "海峡航运受扰→原油运输溢价与油价上行风险→莫桑比克东非原油进口与航运成本承压",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMUxlOVZSaE9hZmRXV1NDeHlvUlBOaXZadHY3ZHJiOUF6MXVSN01uRWwxYUQxLUhjYVF0aGR5UHZyQXJGOWZWZjktdVBSYzAwZFJFd29aSTFhTGEzOU1nTnREcnd3dkJHS1l5ZHk1M045T3VQWnduUkFxOGt3bTRzUk9NQjZlTjVndGVVeVJveE5BYlJuUzRRYW5VNTY3T2x1MkhVdF9KRzJZZURoMG5UVDRIVm1LY1dIajZZLVlfUVZrOWpy?oc=5",
-   "ts": "2026-09-23T02:39:00+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "韩国拟2035年将中东原油依赖降至50%",
-   "brief": "韩国计划到2035年把对中东原油进口的依赖降至50%，推动进口来源多元化。",
-   "chain": "中东依赖下降→长期原油贸易流向重构→莫桑比克东非LNG与原油出口或迎替代需求",
+   "title": "加沙空袭致四人死亡 以军称击杀哈马斯财务负责人",
+   "brief": "加沙地带空袭造成四人死亡，以色列称已击杀哈马斯一名财务负责人。",
+   "chain": "加沙冲突持续→美股避险情绪与能源风险溢价波动→A股算力链风险偏好受抑",
    "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeE55dDdROVIwdjhlcVFjWnRFQmx0T3pxNldiUkE1eklicGwtRlFGMEljOFoxT01rMVdURzhrTlhCV3NxNnFpSGdSQUROSUROUjVRX3d1R0ZPSDh3RHFBNE1FV21oR0ZpU0pYbXNCRmotM2hna09KT24wX0ljWl8yS2dEU05wUVJSbjNQck04MzR5blJmamxSSVlzZFdWNUZNeVRxODBsbldaaVE4cFItSDY0eFFKYkJYbmRoUFQxX0dxaVlpSUE?oc=5",
-   "ts": "2026-09-23T00:42:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOb0g4R195Ync3Q29PRndqVFVqTWh2SzlrQWQ5VzdoWm94UmduS0VlOC01VzRzTktNU2FoYU5yVkctbXJxMENSOFE0WjUyZ1pqTWRTc1JwNnlXbUFLQmhOV05hSm11VWZzSHl0NmVkSl9xNEtDamxKU215ZVBtaGFBTUxMb2h4bzJnU1gtbEJoeEgtSUpSdHFGWWxlMVBMZVBL?oc=5",
+   "ts": "2026-09-23T12:15:59+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "特朗普加沙委员会提出24.5亿美元加沙计划",
+   "brief": "特朗普加沙委员会提出24.5亿美元加沙重建计划，但实施前景不明。",
+   "chain": "加沙重建方案推进→美股避险情绪边际缓和、中东风险溢价回落→A股算力链情绪中性偏暖",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVEN3dTZ4OF80SGwwTXpoYTA1dks2bjlIZk5KbVJPVFdGYTJXM0s5YVZwbWRKYW93ODZ6OHlWRFpHYVlqUTdnSDlTYzFuZXhRbnM5bHhwX3RBVXZFS29nOG9rTWNyX0hVZE1FUmhrQ01MLU9XODg2MjR0azNMRmVOcUt4RU0zYTlDZjJYV3ZsYmFhdGxxbzhBX2dGT21qbGxEbHE1T253R3lSRDhYUm1HQnhUWENYTXJyczk0d3Z2RWNHUQ?oc=5",
+   "ts": "2026-09-23T16:47:34+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "摩洛哥执政党议会选举赢得最多席位",
+   "brief": "摩洛哥内政部初步计票显示，真实性与现代党在议会选举中赢得最多席位。",
+   "chain": "摩洛哥政局延续→北非能源与投资环境稳定预期→对莫桑比克/东非能源经营间接中性",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609243883541174.html",
+   "ts": "2026-09-24 12:13:23"
+  },
+  {
+   "cat": "oil",
+   "title": "油价小幅走低 伊朗称愿外交止战",
+   "brief": "伊朗表示对外交结束战争持开放态度，油价小幅回落。",
+   "chain": "伊朗外交表态→油价风险溢价回落、Brent/WTI小幅走低→莫桑比克油气售价与东非经营情绪边际缓和",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOR1FxSEFPZkVpeHV0LS1WTURzc3lOWWM3d0dfTG1mQ0hBWmZiLWhia1FPbnUzdm5yMVhuZE1RenYyOTNqYmFqT2d5MzVtNE1IcHJCNGJ4aXU0US1Tc09OWnJINzRpQkFTWXdsczlhcE50N25wT052OUZhS21QOG9haGV4XzFTZnQ4NzNTWFlVbU1QcDRyZC0yejVxX1dabVZmWHMyMVM0dWE5RGpNWXZNVHBn?oc=5",
+   "ts": "2026-09-24T01:17:43+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "亚洲原油进口创伊朗战争以来最高 油价下跌",
+   "brief": "有报道称亚洲将进口伊朗战争以来最高量原油，油价应声下跌。",
+   "chain": "亚洲需求强劲但供应预期宽松→油价承压走低→莫桑比克油气出口价格与东非经营收入承压",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/24/oil-iran-crude-kepler-trump-us-un-.html",
+   "ts": "Thu, 24 Sep 2026 04:26:39 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "白宫否认考虑柴油出口禁令",
+   "brief": "白宫否认有关美国正考虑实施柴油出口禁令的报道。",
+   "chain": "柴油出口政策不确定性消除→成品油与原油价格波动收敛→莫桑比克/东非燃料进口成本预期趋稳",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdFJsaVEyZjZ1VGFYN2lDRE5Nc014bGJLNTVPanNXbUwxVDVNQS13TWJRMTVjcVpILUcxYnlnUWJiaFRXVGhPWGNEWExMNHBscHhTSEZmd0MwWnMyZFZmSmRfb056c3RqOWZtQTJhMUhRWUxIVTdRRDZLdkhOSXRRWEZRS0J4LXBuRWhnLVhVWTkxVlpVWGxOMEQ4Qnhpc1RHbmYxQnp4aDI0UQ?oc=5",
+   "ts": "2026-09-23T19:03:27+00:00"
   },
   {
    "cat": "gas",
-   "title": "微软2030年前中东投资4亿美元建连接",
-   "brief": "微软计划到2030年在中东投资4亿美元用于海底和陆地连接，扩展云计算与AI基础设施。",
-   "chain": "中东数字基建投资→区域电力与天然气需求上升→莫桑比克东非LNG长期需求预期改善",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609243882824871.html",
-   "ts": "2026-09-24 00:37:00"
+   "title": "泽连斯基警告：能源停火谈崩俄将迎痛苦冬季",
+   "brief": "泽连斯基警告若能源停火谈判失败，俄罗斯将面临痛苦冬季，欧洲天然气供应风险上升。",
+   "chain": "俄乌能源停火不确定→欧洲TTF气价风险溢价抬升→莫桑比克LNG对欧出口议价与东非项目情绪偏暖",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOd3MzYlZCZEgzcUlDYjZORWhrZEFaczhhdjlTV2tXYW9lcjk0V1BIZlpqNVM1d21rQU1GYi1vX1p2QWtLV2MtRFNUZ2VuZzRmSkNCUGZibHFPVjF1NjdBUkhrU2NmR3pzZk4wdDFSdFdfWkJfX19wdll1LUROTGVVTkF6RUQzSmZ2NXBsRi14WHJnZkJiajIxUXVfbnc5Wk5zRXBncjZhRHNveHl2Yl9MeE9GWHliX0dW?oc=5",
+   "ts": "2026-09-23T19:43:44+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "微软获Stifel上调至买入",
+   "brief": "Stifel将微软评级从持有上调至买入，此前该行对微软持罕见看空立场。",
+   "chain": "微软评级上调→美股软件与云板块情绪改善→A股云计算/算力链情绪获支撑",
+   "impact": 6,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/23/a-rare-microsoft-bear-warms-up-to-the-stock-heres-what-changed-their-mind.html",
+   "ts": "2026-09-23T19:53:16+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "中国AI芯片攻势向特朗普传递信号",
+   "brief": "中国AI芯片加速突破，向特朗普传递'你无法扼杀我们'的信号。",
+   "chain": "中国AI芯片自主推进→美股半导体出口管制担忧升温→A股算力链国产替代逻辑强化",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/24/trump-xi-china-summit-ai-export-control-nvidia-huawei-alibaba-.html",
+   "ts": "Thu, 24 Sep 2026 03:38:03 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "软银发债111亿美元押注OpenAI 股价大涨7%",
+   "brief": "软银发行111亿美元债券为OpenAI投资融资，股价跳涨逾7%。",
+   "chain": "软银加码OpenAI→美股AI基础设施与算力投资预期升温→A股算力链情绪获提振",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/24/softbank-shares-bond-issuance-openai.html",
+   "ts": "Thu, 24 Sep 2026 01:06:45 GMT"
   },
   {
    "cat": "tech",
    "title": "IonQ称量子计算获重大突破 股价大涨",
-   "brief": "量子计算公司IonQ称其离子阱测试成功，盘前股价大涨，量子计算商业化预期升温。",
-   "chain": "量子突破→美股前沿科技风险偏好升温→A股量子科技与算力链情绪受提振",
-   "impact": 6,
+   "brief": "IonQ宣布量子计算重大测试成功，盘前股价大幅上涨。",
+   "chain": "量子计算突破→美股前沿科技情绪升温、风险偏好改善→A股量子/算力概念情绪获提振",
+   "impact": 5,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/09/23/ionq-shares-rally-after-company-says-it-made-a-major-quantum-computing-breakthrough.html",
    "ts": "2026-09-23T12:35:15+00:00"
   },
   {
    "cat": "tech",
-   "title": "麦当劳股价下跌 公布门店升级大额支出计划",
-   "brief": "麦当劳公布对餐厅升级的大额支出计划，股价下跌，市场担忧资本开支拖累回报。",
-   "chain": "资本开支上升→美股消费股利润率承压→A股餐饮供应链情绪中性偏空",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/23/mcdonalds-investor-day-remodels-training-chicken-growth-plans.html",
-   "ts": "Wed, 23 Sep 2026 17:09:22 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "大豆、飞机与稀土：中美贸易休战脆弱",
-   "brief": "大豆、飞机与稀土贸易动向显示中美贸易休战脆弱，市场关注谈判进展。",
-   "chain": "中美贸易摩擦→美股半导体与出口链波动→A股稀土与算力链情绪敏感",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/23/trump-xi-summit-us-china-trade-rare-earth-soybean-plane.html",
-   "ts": "Wed, 23 Sep 2026 08:25:41 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "美监管机构加速起草加密规则",
-   "brief": "在Clarity Act于参议院搁置后，美国监管机构加速起草加密货币规则手册。",
-   "chain": "加密监管明朗化→美股加密相关资产波动→A股区块链与算力链情绪中性",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/22/clarity-act-crypto-rules-regulators.html",
-   "ts": "Tue, 22 Sep 2026 20:46:52 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "Meta推出AI代理Muse 引发市场热议",
-   "brief": "Meta新AI代理Muse在扎克伯格开发者大会前引发科技界与华尔街热议，被视为其ChatGPT时刻。",
-   "chain": "AI代理落地→美股AI应用与算力需求预期升温→A股算力链与AI应用情绪受提振",
-   "impact": 8,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/09/23/meta-is-having-a-chatgpt-moment-with-muse-what-is-it-and-what-makes-it-so-special.html",
-   "ts": "2026-09-23T16:22:24+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "并行科技拟采购GPU算力服务器不超7080万元",
-   "brief": "并行科技拟向关联方中科信控采购GPU算力服务器，合同金额预计不超过7080万元。",
-   "chain": "算力采购落地→A股算力链需求验证→美股AI芯片需求预期获支撑",
+   "title": "上半年全球AI眼镜出货量同比增263%",
+   "brief": "Counterpoint数据显示，2026年上半年全球AI眼镜出货量同比增长263%。",
+   "chain": "AI眼镜出货高增→美股消费电子与AI硬件链景气上行→A股AI硬件/消费电子链情绪获支撑",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609243882816034.html",
-   "ts": "2026-09-24 00:02:48"
+   "url": "https://finance.eastmoney.com/a/202609243883534264.html",
+   "ts": "2026-09-24 11:40:29"
+  },
+  {
+   "cat": "ai",
+   "title": "扎克伯格发布1299美元Meta VR眼镜与Muse吊坠",
+   "brief": "扎克伯格发布1299美元Meta VR眼镜及Muse Charm吊坠，推进AI代理战略。",
+   "chain": "Meta AI代理硬件落地→美股AI应用与硬件叙事升温→A股AI终端/算力链情绪获提振",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/23/mark-zuckerberg-1299-meta-vr-glasses-ai-agent.html",
+   "ts": "Thu, 24 Sep 2026 01:56:50 GMT"
   }
  ]
 }
