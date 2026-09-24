@@ -119,6 +119,7 @@ jobs:
       - name: 组织 Pages 站点到 docs/
         env:
           BOARD_PASSWORD: ${{ secrets.BOARD_PASSWORD }}   # 配了则加密看板(输密码才看),没配则公开
+          ENGLISH_PASSWORD: ${{ secrets.ENGLISH_PASSWORD }}
           OPS_PASSWORD: ${{ secrets.OPS_PASSWORD }}        # 运营看板独立管理员密码(不共享站点通行;独立 sessionStorage 键 lumora-admin)
           ENABLE_CNAME: ${{ vars.ENABLE_CNAME }}          # DNS 生效后设仓库变量=1 即绑定 andy4576.com
           DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}   # 更新按钮的触发凭证(fine-grained PAT,仅注入 docs 加密版)
@@ -186,7 +187,8 @@ jobs:
           if git clone --depth 1 -q https://github.com/xiaomin4576-ui/tongguang-ai-daily /tmp/tg 2>/dev/null && [ -d /tmp/tg/docs ]; then
             cp -r /tmp/tg/docs/. "$DOCS/tongguang/" && echo "📰 已镜像同光早报到 /tongguang($(find "$DOCS/tongguang" -type f | wc -l | tr -d ' ') 文件)"
           else
-            echo "⚠️ 同光镜像失败(不阻断部署)"
+            echo "::error::同光早报镜像失败，保留上一版线上站点，不发布缺失栏目"
+            exit 1
           fi
 
           # 5c2) 门户注入:宏观快线一行(过期标日期)+ 信源池真值(读 /tmp/tg/sources.json,读不到降级文案)

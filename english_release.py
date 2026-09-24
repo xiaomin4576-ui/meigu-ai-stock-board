@@ -21,6 +21,7 @@ def english_gate(gate):
     return (gate.replace("<script>\nconst DATA=", "<script>\n(()=>{\nconst DATA=")
             .replace("</script></body></html>", "})();\n</script></body></html>")
             .replace("进入看板", "进入英语学习")
+            .replace("此页受密码保护,请输入访问密码", "请输入英语版块的独立访问密码")
             .replace("仅研究示范 · 非投资建议", "Andy 英语日课 · 持续学习与复习")
             .replace("  /* 普通页 lumora-pass(通行8888);运营看板 lumora-admin(独立管理员密码,不共享) */", ""))
 
@@ -41,19 +42,19 @@ def package(html, password):
     if not password:
         raise ValueError("A password is required; plaintext releases are not allowed")
     course_data(html)
-    return english_gate(encrypt(html, password, "英语学习", "lumora-pass"))
+    return english_gate(encrypt(html, password, "英语学习", "lumora-english-pass"))
 
 
 def verify(gate, password):
     if not password:
-        raise ValueError("BOARD_PASSWORD is required to install English")
+        raise ValueError("ENGLISH_PASSWORD is required to install English")
     match = re.search(r'const DATA=(\{[^\n]+\});', gate)
     if not match:
         raise ValueError("English release must be an encrypted gate")
     blob = json.loads(match[1])
     expected = english_gate(GATE.replace("/*__BLOB__*/", match[1])
                             .replace("__SECTION__", "英语学习")
-                            .replace("__SKEY__", "lumora-pass"))
+                            .replace("__SKEY__", "lumora-english-pass"))
     if gate != expected or set(blob) != {"s", "i", "c", "n"} or blob["n"] != ITERS:
         raise ValueError("Unexpected English gate format")
     salt, iv, cipher = [base64.b64decode(blob[k], validate=True) for k in ("s", "i", "c")]
@@ -83,11 +84,11 @@ def main():
     deploy.add_argument("--release", type=Path, default=RELEASE)
     deploy.add_argument("--output", type=Path, default=ROOT / "docs/english/index.html")
     args = parser.parse_args()
-    password = os.environ.get("BOARD_PASSWORD", "")
+    password = os.environ.get("ENGLISH_PASSWORD", "")
     if args.command == "pack":
         if args.source.resolve().is_relative_to(ROOT):
             parser.error("Keep the plaintext English source outside this public repository")
-        password = password or getpass.getpass("Existing site access password: ")
+        password = password or getpass.getpass("English section password: ")
         gate = package(args.source.read_text(encoding="utf-8"), password)
         data = verify(gate, password)
         args.output.parent.mkdir(parents=True, exist_ok=True)

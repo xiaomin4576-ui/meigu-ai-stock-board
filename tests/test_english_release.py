@@ -21,6 +21,8 @@ class EnglishReleaseTest(unittest.TestCase):
         self.assertEqual(data["quiz"][0]["id"], "stable-question-id")
         self.assertNotIn("Private lesson content", self.gate)
         self.assertIn("(()=>{\nconst DATA=", self.gate)
+        self.assertIn("const SKEY='lumora-english-pass'", self.gate)
+        self.assertNotIn("getItem('lumora-pass')", self.gate)
 
     def test_missing_and_wrong_password_fail_closed(self):
         with self.assertRaises(ValueError):
