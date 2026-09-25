@@ -1,0 +1,207 @@
+{
+ "asof": "2026-09-26",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-09-26T02:07+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 13,
+  "cluster_label": "伊朗",
+  "cluster_dropped": [
+   "美伊谈判据悉进入技术磋商阶段",
+   "俄伊外长称伊朗冲突只能外交解决"
+  ],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "美债收益率续升 收官震荡一周",
+   "brief": "10年期美债收益率再度上行，为波动剧烈的一周收尾，长端利率维持多年高位。",
+   "chain": "长端利率高企→美股AI高久期票估值分母承压、风险偏好受抑→A股算力链情绪偏谨慎",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/25/treasury-yields-bonds-debt.html",
+   "ts": "Fri, 25 Sep 2026 17:38:25 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "10年期美债收益率创19年新高",
+   "brief": "10年期美债收益率触及2007年以来最高，部分投资者视其为买债机会。",
+   "chain": "实际利率抬升→压制美股成长股贴现估值→A股算力/成长板块承压",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/25/treasury-yield-buy-bonds.html",
+   "ts": "2026-09-25T16:40:09+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "历史警示：利率急升往往引发金融事故",
+   "brief": "报道称历史上利率如此快速上行时往往伴随金融体系断裂风险。",
+   "chain": "利率急升→美股风险偏好与流动性担忧升温→A股高估值算力链波动加大",
+   "impact": 7,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/24/history-shows-financial-calamities-occur-when-rates-rise-rapidly-like-this-something-always-breaks.html",
+   "ts": "2026-09-24T20:57:11+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "习近平特朗普白宫茶叙 丰富中美关系定位",
+   "brief": "两国元首同意丰富中美关系内涵，共同构建基于尊重的关系框架。",
+   "chain": "中美关系缓和信号→美股风险偏好改善、科技出口预期回暖→A股算力链情绪提振",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609263884347979.html",
+   "ts": "2026-09-26 00:57:45"
+  },
+  {
+   "cat": "macro",
+   "title": "欧央行管委警告避免主权债务危机",
+   "brief": "穆兰称必须采取一切措施避免主权债务危机，依赖欧央行干预是错误推理。",
+   "chain": "欧债风险担忧→全球风险偏好与利率波动→间接影响A股算力链情绪",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609263884347590.html",
+   "ts": "2026-09-26 00:28:18"
+  },
+  {
+   "cat": "macro",
+   "title": "美联储隔夜逆回购规模降至5.76亿美元",
+   "brief": "周五美联储隔夜逆回购协议使用规模为5.76亿美元，显示流动性缓冲极低。",
+   "chain": "RRP见底→货币市场流动性趋紧信号→美股资金面与A股风险偏好边际影响",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609263884348810.html",
+   "ts": "2026-09-26 01:26:30"
+  },
+  {
+   "cat": "geo",
+   "title": "特朗普称已与习近平通话谈伊朗战争",
+   "brief": "特朗普表示已就伊朗战争与习近平通话，显示大国就中东局势沟通。",
+   "chain": "大国介入中东→美股避险情绪与油价预期波动→A股算力链风险偏好受扰",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS3NaNENZd05ESDQwSFdrTGwyLUtGX3NzT1NiR0tzbWwtM282dHRxbkxLYTk2b1Rkd01xQldYM2ItTlNRV01wbnhDMWpZVkliRnBhMlFWYVg1VHh6bjRCVkQwVGFFamhhWWpJa0p5aHlVRkJpblI1UUZJeDN6VFg1Z1hhdGFBSklFN2ZyVjZ0b1IyNUpoMU5GN0tmTlZPMExVNFppU2ZSRGFwcW1QSElZaktmS3pXSElm?oc=5",
+   "ts": "2026-09-25T16:43:07+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "巴沙土外长会晤谴责对沙特设施袭击",
+   "brief": "巴基斯坦、沙特、土耳其外长在联大会晤，谴责对沙特民用和经济设施袭击。",
+   "chain": "中东阵营协调→地区局势与油价风险溢价→美股避险、A股情绪扰动",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609253884333482.html",
+   "ts": "2026-09-25 22:13:03"
+  },
+  {
+   "cat": "geo",
+   "title": "普京称是否出席APEC取决于国内形势",
+   "brief": "普京表示是否出席APEC峰会取决于俄罗斯国内形势。",
+   "chain": "俄外交动向→地缘不确定性→美股风险偏好与A股情绪边际影响",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609263884348540.html",
+   "ts": "2026-09-26 01:10:44"
+  },
+  {
+   "cat": "oil",
+   "title": "国际油价跌幅扩大 美油布油均跌超3%",
+   "brief": "WTI跌3.08%报91.69美元，布伦特跌3.38%报96.83美元，地缘溢价回落。",
+   "chain": "油价回落→布伦特走弱→莫桑比克油气售价与东非项目经济性短期承压",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609263884347171.html",
+   "ts": "2026-09-26 00:12:27"
+  },
+  {
+   "cat": "oil",
+   "title": "布伦特投机净多头减6.45万手",
+   "brief": "ICE数据显示截至9月22日当周布伦特原油投机净多头减少64,543手至218,114手。",
+   "chain": "多头减仓→油价上行动能减弱→莫桑比克LNG/油气远期定价预期趋谨慎",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609263884349051.html",
+   "ts": "2026-09-26 01:51:37"
+  },
+  {
+   "cat": "oil",
+   "title": "美国石油钻井总数升至455口",
+   "brief": "美国至9月25日当周石油钻井总数455口，前值452口，供应端小幅增加。",
+   "chain": "钻井增加→美国供应预期上升→油价承压→东非油气经营价格环境偏弱",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609263884348410.html",
+   "ts": "2026-09-26 01:05:28"
+  },
+  {
+   "cat": "gas",
+   "title": "霍尔木兹本周原油出口3370万桶",
+   "brief": "数据显示本周经霍尔木兹海峡原油出口达3370万桶，航运维持高位。",
+   "chain": "海峡通行量高→中东供应稳定→气价联动油价偏弱→莫桑比克LNG竞争与定价承压",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZXFDTzBxRUNwS0tCV0ZKaDI2Wm5RRXdCLVBYLW12YVdIeDZCX09tV3RKcEhHQ0xEM0JVMXZ1UWpiVW9wMDlkU2Y0b2ozbmZyX1I4RHhyUWphREs3NDFhaTJhcTRTbFRiY2lTV0RVMEo3RlM4X2pBRlB2Y1AtSENKSGs1VUNKZXJTSnVfLUZWMjdYZTgzOTdMenZ1bFhjejRoQXBYUWowN05OeWZ4ZGloS09GLU1aTFZtSE51Qk9hVTBlX2VwSUE?oc=5",
+   "ts": "2026-09-25T03:49:00+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "美官员称48小时约4000万桶石油过霍尔木兹",
+   "brief": "美国官员表示过去48小时约4000万桶石油通过霍尔木兹海峡。",
+   "chain": "海峡流量平稳→能源供应风险溢价回落→东非LNG项目融资与售价预期趋稳",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609263884348342.html",
+   "ts": "2026-09-26 01:06:07"
+  },
+  {
+   "cat": "tech",
+   "title": "中国AI芯片攻势 习近平向特朗普传话",
+   "brief": "报道称中国AI芯片加速突破，向美传递“无法被卡脖子”的信号。",
+   "chain": "中国芯片自主加速→美股半导体出口管制担忧→A股算力/国产芯片链情绪提振",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/24/trump-xi-china-summit-ai-export-control-nvidia-huawei-alibaba-.html",
+   "ts": "Thu, 24 Sep 2026 03:38:03 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "Solidigm拟2027年IPO 估值或达1500亿美元",
+   "brief": "SK海力士旗下Solidigm据悉计划2027年IPO，估值可能达1500亿美元。",
+   "chain": "存储巨头上市预期→美股半导体板块估值参照→A股存储/算力链情绪联动",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609263884347838.html",
+   "ts": "2026-09-26 00:50:52"
+  },
+  {
+   "cat": "tech",
+   "title": "甲骨文日本股价大涨7% 创纪录首季",
+   "brief": "甲骨文日本股价涨7%，创纪录财季首季业绩，逆母公司美股跌势。",
+   "chain": "云与企业软件需求强劲→美股软件板块分化→A股云计算链情绪参考",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/25/oracle-japan-shares-earnings.html",
+   "ts": "Fri, 25 Sep 2026 01:56:24 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "福特F-150底特律工厂停产近一周",
+   "brief": "备忘录显示福特最重要车型F-150在底特律地区工厂已停产近一周。",
+   "chain": "供应链中断→美股汽车板块承压→A股汽车零部件链情绪扰动",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609253884345891.html",
+   "ts": "2026-09-25 23:49:56"
+  },
+  {
+   "cat": "ai",
+   "title": "微软整合企业AI为单一应用 对标Anthropic",
+   "brief": "微软将企业AI打包进单一应用，试图与Anthropic竞争。",
+   "chain": "企业AI竞争加剧→美股软件/AI应用估值重估→A股AI应用与算力链情绪联动",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/25/microsoft-copilot-ai-coding-anthropic.html",
+   "ts": "Fri, 25 Sep 2026 15:51:25 GMT"
+  }
+ ]
+}
