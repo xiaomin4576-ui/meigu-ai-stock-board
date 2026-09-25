@@ -1,6 +1,6 @@
 {
  "asof": "2026-09-25",
- "fetched_at": "2026-09-25T02:00+08:00",
+ "fetched_at": "2026-09-25T12:51+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -9,30 +9,20 @@
    "Techpoint Africa": 0,
    "IT News Africa": 11,
    "TechAfrica News": 12,
-   "Condia": 25,
+   "Condia": 0,
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
-   "Zimbabwe Situation": 1,
+   "Zimbabwe Situation": 0,
    "African Business": 1,
-   "非洲科技·聚合": 7,
-   "中非科技·聚合": 18
+   "非洲科技·聚合": 6,
+   "中非科技·聚合": 17
   },
   "total": 60,
-  "ai_flagged": 14,
-  "aiinfra_flagged": 1,
-  "countries": 8
+  "ai_flagged": 20,
+  "aiinfra_flagged": 2,
+  "countries": 5
  },
  "items": [
-  {
-   "title": "Yellow Card appoints former Monzo executive Ross Everett as first Group CFO",
-   "brief": "Yellow Card has appointed Ross Everett, a former staff member of the UK digital bank Monzo, as its first Group Chief Financial Officer (CFO).",
-   "source": "Condia",
-   "url": "https://thecondia.com/yellow-card-appoints-ross-everett-cfo/",
-   "date": "Thu, 24 Sep 2026 15:37:03 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
   {
    "title": "Dar Ventures taps Plug and Play to expand startup programme across Africa",
    "brief": "The partnership will give the programme, DarE, access to Plug and Play’s global network of startups, investors and corporate partners.",
@@ -144,16 +134,6 @@
    "is_aiinfra": true
   },
   {
-   "title": "Bank of Kigali joins China’s CIPS payment network",
-   "brief": "Bank of Kigali is now the first East and Central African bank with direct access to China's CIPS, easing yuan settlements as trade with China grows.",
-   "source": "Condia",
-   "url": "https://thecondia.com/bank-of-kigali-joins-china-cips/",
-   "date": "Thu, 24 Sep 2026 12:54:52 +0000",
-   "country": "🇷🇼 卢旺达",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Valu Becomes noon Minutes’ Exclusive Payments Provider in Egypt",
    "brief": "Valu,  the leading universal financial technology powerhouse in the Middle East and North Africa (MENA), and noon Minutes, noon’s quick-commerce platform, announced a strategic partnership ......",
    "source": "TechAfrica News",
@@ -181,16 +161,6 @@
    "date": "Thu, 24 Sep 2026 12:01:05 +0000",
    "country": "🇳🇬 尼日利亚",
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "What if startups became Africa’s newest venture capitalists?",
-   "brief": "As early-stage African venture funding tightens, startup-to-startup investments like Terra Industries’ backing of Aeon could open new routes to capital and future exits.",
-   "source": "Condia",
-   "url": "https://thecondia.com/terra-aeon-african-startup-funding/",
-   "date": "Thu, 24 Sep 2026 11:36:27 +0000",
-   "country": null,
-   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -294,63 +264,13 @@
    "is_aiinfra": false
   },
   {
-   "title": "Inside Virgua: The Nigerian safety app turning smartphones into life-saving tools",
-   "brief": "Franklyn Eluagu built a decade-long career convincing people to trust things they hadn't seen. Now he's betting that same instinct on a personal safety app for Nigeria.",
-   "source": "Condia",
-   "url": "https://thecondia.com/virgua-nigerian-safety-app-with-life-saving-tools/",
-   "date": "Thu, 24 Sep 2026 08:00:00 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "New speed system for public service vehicles",
-   "brief": "Freeman Razemba-Senior Reporter THE Government yesterday launched the National Speed Monitoring System in Harare, a modern technology-driven initiative expected to enhance the enforcement of speed limits for public servi",
-   "source": "Zimbabwe Situation",
-   "url": "https://www.zimbabwesituation.com/news/new-speed-system-for-public-service-vehicles/",
-   "date": "Thu, 24 Sep 2026 03:10:11 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Algeria approves telecoms giant Djezzy to enter digital payments",
-   "brief": "Algeria's central bank has approved Djezzy Payments Services to establish a payment service provider, expanding the country's regulated digital payments market.",
-   "source": "Condia",
-   "url": "https://thecondia.com/algeria-approves-djezzy-payment-services-psp/",
-   "date": "Wed, 23 Sep 2026 13:59:37 +0000",
-   "country": "🇩🇿 阿尔及利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Mission Mobile raises $30.8M to scale smartphone financing in South Africa",
-   "brief": "Mission Mobile has secured up to R500 million ($30.8 million) in growth capital from DN Invest, a South African investment holding company.",
-   "source": "Condia",
-   "url": "https://thecondia.com/mission-mobile-funding-by-dn-invest/",
-   "date": "Wed, 23 Sep 2026 13:01:04 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Breakingviews - COMMENTARY: African fintech IPO is a lift for dreary London",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPS0ZGQmZkNUp5UmZxVU5sSGozblJtWVdTZWo2LXcxYmx1cC0zeFFuUGR1RFNjMVRyTk5yTFI3X1FvUFZXWUQ2bmczZ0ZfcVhYWFNieGtxTnpYVjQ1amxleVBkNzZibHIyZDhNSFlGdGZ5VTkyc3NkRGs5NVByVE",
+   "title": "Breakingviews - COMMENTARY: Huawei shifts from survivor to Nvidia challenger",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNTDBFbzNkNHVTTEdrUGdveG5CUWpqdWxmNVVqbThCcDBrLXFoTU5FZDVMM0RCSlZCUjNvSnVBWnRDNTZSQm1uVlJBZENLMWlCa2otNUV1SFhCeVRnQUFHRnZ5YldBb0UyUjlnTnpvbDZTRWNreGt6ZnNURVJ5M1",
    "source": "Reuters·聚合",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPS0ZGQmZkNUp5UmZxVU5sSGozblJtWVdTZWo2LXcxYmx1cC0zeFFuUGR1RFNjMVRyTk5yTFI3X1FvUFZXWUQ2bmczZ0ZfcVhYWFNieGtxTnpYVjQ1amxleVBkNzZibHIyZDhNSFlGdGZ5VTkyc3NkRGs5NVByVExETDJGVnBUdWlLR2w4bkdfelQxZFEzVE1EUnZvT20zZzU3a04yNQ?oc=5",
-   "date": "Wed, 23 Sep 2026 12:44:09 GMT",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTDBFbzNkNHVTTEdrUGdveG5CUWpqdWxmNVVqbThCcDBrLXFoTU5FZDVMM0RCSlZCUjNvSnVBWnRDNTZSQm1uVlJBZENLMWlCa2otNUV1SFhCeVRnQUFHRnZ5YldBb0UyUjlnTnpvbDZTRWNreGt6ZnNURVJ5M182VzNxNGhyYy1kdEEySFNTMHM2TW5KaVU0QTdBRUdxdWs2WlBr?oc=5",
+   "date": "Thu, 24 Sep 2026 02:01:00 GMT",
    "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Chari appoints former Visa executive Aurélien Pichon to board as independent director",
-   "brief": "Chari, the Moroccan B2B commerce and fintech company, has appointed Aurélien Pichon to its board as an independent director.",
-   "source": "Condia",
-   "url": "https://thecondia.com/chari-appoints-aurelien-pichon-board-director/",
-   "date": "Wed, 23 Sep 2026 11:29:19 +0000",
-   "country": null,
-   "is_ai": false,
+   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -371,16 +291,6 @@
    "date": "Wed, 23 Sep 2026 12:27:00 +0200",
    "country": null,
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "China-Africa Dialogue Highlights TVET Cooperation, Digital Learning to Boost Youth Skills",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNd3IySzhTa3RNaVVDb0pCQzZhTHBzZG13dGp6WDRoM0hSUzNHbWhHVFlzWkZ0U2R1RWR4bVRxUnhoSUUxOGlZLUZycnpoQzFGV2Rhb29OYkstX0E0UnNjRUE3S25pSGNSVGdndFdUdEJzT1llWnJ6SUtyVlU0cl",
-   "source": "DNE Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNd3IySzhTa3RNaVVDb0pCQzZhTHBzZG13dGp6WDRoM0hSUzNHbWhHVFlzWkZ0U2R1RWR4bVRxUnhoSUUxOGlZLUZycnpoQzFGV2Rhb29OYkstX0E0UnNjRUE3S25pSGNSVGdndFdUdEJzT1llWnJ6SUtyVlU0clVBTVdGdzFHaU9jQ1Jma3pINXFJQzFXUFBoRGpKbzZaYmo5S0dqYVI1eVJ3ejlvdTJ3dGYtenFtd0NBdWlxUzJ1d2I?oc=5",
-   "date": "Wed, 23 Sep 2026 10:18:57 GMT",
-   "country": null,
-   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -436,7 +346,7 @@
   {
    "title": "Africa Startup Congress 2027 Pitch Competition",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE55dGlONkpSMFU5WmdGb3F5cFFnRHZNRUk0VGVVU194ZUw0cFdFQ2laaXl4clBwTjJDeVNxUm1tYnVXT2sxREtZTU41WFVKZkVROVpENm1BdGtyby1OaERIeDlUb25uUWFiY25DN1BvUHhKT2h4ZDBLWDN3?oc=5\"",
-   "source": "menterprise.africa·聚合",
+   "source": "Menterprise Africa·聚合",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE55dGlONkpSMFU5WmdGb3F5cFFnRHZNRUk0VGVVU194ZUw0cFdFQ2laaXl4clBwTjJDeVNxUm1tYnVXT2sxREtZTU41WFVKZkVROVpENm1BdGtyby1OaERIeDlUb25uUWFiY25DN1BvUHhKT2h4ZDBLWDN3?oc=5",
    "date": "Wed, 23 Sep 2026 08:22:22 GMT",
    "country": null,
@@ -460,16 +370,6 @@
    "url": "https://www.itweb.co.za/article/sa-in-line-for-vivos-next-flagship-handsets/LPp6VMrBYkbMDKQz",
    "date": "Wed, 23 Sep 2026 09:54:42 +0200",
    "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "20 years after, Remita launches consumer super app to bring banking, investing and payments into one place",
-   "brief": "The app allows users connect and monitor accounts from different banks on one screen.",
-   "source": "Condia",
-   "url": "https://thecondia.com/remita-launches-super-app/",
-   "date": "Wed, 23 Sep 2026 07:39:10 +0000",
-   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -534,36 +434,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Flutterwave names Morounke Olufemi, Global CFO, as Mitesh Popat steps down",
-   "brief": "Flutterwave has appointed Morounke Olufemi as its new Global Chief Financial Officer, replacing Mitesh Popat, who is stepping down after two years in the role.",
-   "source": "Condia",
-   "url": "https://thecondia.com/flutterwave-appoints-morounke-olufemi-cfo/",
-   "date": "Tue, 22 Sep 2026 18:52:21 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "FairMoney fully redeems ₦5.86B Series 6 Commercial Paper",
-   "brief": "The Series 6 note was issued on December 23, 2025, carrying a 269-day tenor and a discount rate of 19.48%.",
-   "source": "Condia",
-   "url": "https://thecondia.com/fairmoney-fully-redeems-%e2%82%a65-86b-series-6-commercial-paper/",
-   "date": "Tue, 22 Sep 2026 18:19:37 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Luno acquires Kenyan fintech GTXN in founder Dan Kleinbaum’s second exit",
-   "brief": "Luno has acquired GTXN, a Kenyan cross-border payments provider, giving the crypto exchange licensed rails to settle enterprise transfers directly.",
-   "source": "Condia",
-   "url": "https://thecondia.com/luno-acquires-gtxn-kenya/",
-   "date": "Tue, 22 Sep 2026 16:43:01 +0000",
-   "country": "🇰🇪 肯尼亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "China–Africa partnership advances TVET transformation through digital learning",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPQlBoTzBQdDJCM1BUSTZzQTBuWndUOVRlX3U4TXdEdDJFdFpodmJxeXExa2lSVjE0bEctSFJPYk1rLW51dzVka0loVHE2MHFzQVBJTUl6dE00akNRdFR4cjZ5bUI1eGVUNXlZaUh3NzNvQUpxWWh3cnVscC0yTH",
    "source": "unesco.org·聚合",
@@ -574,29 +444,9 @@
    "is_aiinfra": false
   },
   {
-   "title": "Monzo EU CEO Michael Carney steps down to launch AI and robotics startup",
-   "brief": "Monzo's EU chief Michael Carney is stepping down to build an AI and robotics startup for people with disabilities, five months after Ireland's launch.",
-   "source": "Condia",
-   "url": "https://thecondia.com/monzo-eu-ceo-michael-carney-quits-startup/",
-   "date": "Tue, 22 Sep 2026 12:37:51 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "South Africa’s Pick n Pay names Spencer Sonn, CEO-Designate",
-   "brief": "Pick n Pay has appointed Woolworths veteran Spencer Sonn as CEO-designate from February 2027, ahead of Sean Summers' 2028 handover.",
-   "source": "Condia",
-   "url": "https://thecondia.com/pick-n-pay-names-spencer-sonn-ceo-designate/",
-   "date": "Tue, 22 Sep 2026 12:03:47 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Huawei’s mobile chip narrows gap with Apple through Tau Scaling Law: Bernstein",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxOaUlyVW10XzZoZHBMY2VDZ3hHZlR3NUNMUUtLeEdYUnhHT3ViMTRfY2ZvVGRKdlJRTk5kUExGS2J0WHhMTy1QRHZGeE9UNGtDVDZWMFBTZ0w5UFdESmxwcTM2V0xyOVJzcHFxeDBwclA3UTFCRFhPdHdoNlB6WH",
-   "source": "SCMP·聚合",
+   "source": "scmp.com·聚合",
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaUlyVW10XzZoZHBMY2VDZ3hHZlR3NUNMUUtLeEdYUnhHT3ViMTRfY2ZvVGRKdlJRTk5kUExGS2J0WHhMTy1QRHZGeE9UNGtDVDZWMFBTZ0w5UFdESmxwcTM2V0xyOVJzcHFxeDBwclA3UTFCRFhPdHdoNlB6WHZJc2FtRHNIaGptMExWc0xISkNXYlZVUmRuTGNBSHFsOUpCVDhtbmtRa09RWnpmZnN0YUhCa18tU3otb0phbzdTVWlXaDhN0gHEAUFVX3lxTE9UbVp4eElDakNwdlMyRV8zMTFJQzh4eUpaNTlFSGcxaTFDNFl5YlJBTTcyQV9HS3VOOERjRWRFYmVydnZYRXF5Wkg0ZFQ5MVBQRkM0cElaOFprWjdqa09JTUF2OUR5VC1FRHdMSE1DbVpxQmxXeDN4dllVOG8xX3liWXRiTnIzVFNfbkkyWDNCZGZxTHVBNjNrLVR5dnMtTUNFX19lOHY5eWtxU1NRcGhwU1pKTnBDQUpZQ1J6RUY2bGhURVk?oc=5",
    "date": "Tue, 22 Sep 2026 12:00:06 GMT",
    "country": null,
@@ -604,23 +454,173 @@
    "is_aiinfra": false
   },
   {
-   "title": "Zipline’s deal with Côte d’Ivoire will scale AI health logistics to 10 hubs, 12 million people",
-   "brief": "Côte d'Ivoire and Zipline will expand AI-powered drone health logistics from 1 to 10 hubs, backed by a $150M US award, reaching 12M people.",
-   "source": "Condia",
-   "url": "https://thecondia.com/cote-divoire-zipline-150-million-expansion/",
-   "date": "Tue, 22 Sep 2026 09:23:14 +0000",
-   "country": "🇨🇮 科特迪瓦",
+   "title": "The Please Call Me millions: So, who paid?",
+   "brief": "Five different amounts, cited across hundreds of pages, are at the heart of the dispute over who actually funded Please Call Me inventor Nkosana Makate’s fight against Vodacom.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/the-please-call-me-millions-so-who-paid/xA9POvNE2KEqo4J8",
+   "date": "Tue, 22 Sep 2026 09:13:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Security effectiveness falls despite increased spend",
+   "brief": "As demand for cyber security budgets grows, South Africa falls prey to the effectiveness paradox.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/security-effectiveness-falls-despite-increased-spend/kLgB17ezZjQM59N4",
+   "date": "Tue, 22 Sep 2026 08:40:04 +0200",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "The device decision that isn’t really about the device",
+   "brief": "AI PCs demand a new approach to procurement, data sovereignty and channel engagement.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/the-device-decision-that-isnt-really-about-the-device/o1Jr5MxPo1oMKdWL",
+   "date": "Tue, 22 Sep 2026 08:35:00 +0200",
+   "country": null,
    "is_ai": true,
    "is_aiinfra": false
   },
   {
-   "title": "Inside the compliance sprint that reshaped Nigeria’s fintech sector",
-   "brief": "Nigeria cleared the full 19-point plan and exited the FATF grey list in October 2025 but the CBN has maintained regulations that directly affect fintechs.",
-   "source": "Condia",
-   "url": "https://thecondia.com/fatf-cbn-fintech-regulation-nigeria/",
-   "date": "Tue, 22 Sep 2026 09:02:08 +0000",
-   "country": "🇳🇬 尼日利亚",
+   "title": "Africa Has the Technology to Achieve Food Security—Now It Needs Coordinated Deployment",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRzUxcHJPWlRaMmZ2NmJOSklVYUwtLWMtS3NaX3NQSzVYUVRILWZ1ajRoVkZIMmdObjJXN2VhOGI1SEhNSEswc1hYay1keFU1QW1INUlzOWNIeWFfeE5COUEzVlR3WEx5UE9zY0lLb1NQd3hQcFBkYkE5Nk1Lb3",
+   "source": "ipsnews.net·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRzUxcHJPWlRaMmZ2NmJOSklVYUwtLWMtS3NaX3NQSzVYUVRILWZ1ajRoVkZIMmdObjJXN2VhOGI1SEhNSEswc1hYay1keFU1QW1INUlzOWNIeWFfeE5COUEzVlR3WEx5UE9zY0lLb1NQd3hQcFBkYkE5Nk1Lb3V4WHl5SFdkc1VPc3pkeUc0N1AyUEpwUHRNMmotMXJ6U1g1U1FYX0w3SUtBZkFJZEdQSlZMOC00Z0ROTkpZ?oc=5",
+   "date": "Tue, 22 Sep 2026 04:38:34 GMT",
+   "country": null,
    "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Pierre Le Manh to Step Down as PMI President and CEO",
+   "brief": "Project Management Institute (PMI), the leading authority in project management, today announced that Pierre Le Manh has decided to step down as President and Chief Executive Officer, effective September 30, 2026. Johann",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/pierre-le-manh-to-step-down-as-pmi-president-and-ceo/8OKdWMDXLbBMbznQ",
+   "date": "Mon, 21 Sep 2026 14:45:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "South Africa showcases homegrown defence technology",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQbU5YMUh2Q0tkX25oWDY3Slc5bU93cEUzQmsxb29tcE9LbE1iX2Z4aGlmZ004MnNlUkNXVms5eGhMYTQ2UVJRX0dGMjFSQXJibW5yNm9iWUhrZUIwN2gwWVI2QkNKNUM1Q3A5dXJXLVBaUGxfdWpSM0hQNkYxWT",
+   "source": "africanews.com·聚合",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbU5YMUh2Q0tkX25oWDY3Slc5bU93cEUzQmsxb29tcE9LbE1iX2Z4aGlmZ004MnNlUkNXVms5eGhMYTQ2UVJRX0dGMjFSQXJibW5yNm9iWUhrZUIwN2gwWVI2QkNKNUM1Q3A5dXJXLVBaUGxfdWpSM0hQNkYxWTAtaXdrSENCOGQ0MUcxN1ZvbTJac1Vf0gGaAUFVX3lxTE5CR0NfMlFjS3RrZzg0RHVramJhdWo2STBWV0tQbUwtZ0V1dk9ydF9Kczg4R0JkbXNqN0RiQk5aekMyR3hRenB5MW1YdFdiSDhVLTFQU1gzYkMxN3lYbVQ2SGIxZXBHcE8xS19vS2h6WnhKel9FVlNaVXRGWk5YMVNjS3Mwd3JmbWZHU0NNUjNOaHE2Vk1XYVhnUXc?oc=5",
+   "date": "Mon, 21 Sep 2026 09:20:45 GMT",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Oil-rich Gulf kingdom exits China-led digital currency platform as Africa deepens its yuan payment links",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVHVnYkFPVFJXMHFNNzZIalVOZUVfZ2FoMmRiVmRFR0RJS200N19hUXFsUHE0X2FEekZUM0R3U2lmLWw3bWZ3d3BVVGtHSDNsTUhtdGVScVcwUzB5QVpHU0hlc2taaTF0RVg4Q1V4Sm96MDYtZEJpS2hQVF9HMU",
+   "source": "Business Insider Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVHVnYkFPVFJXMHFNNzZIalVOZUVfZ2FoMmRiVmRFR0RJS200N19hUXFsUHE0X2FEekZUM0R3U2lmLWw3bWZ3d3BVVGtHSDNsTUhtdGVScVcwUzB5QVpHU0hlc2taaTF0RVg4Q1V4Sm96MDYtZEJpS2hQVF9HMUtoaTFQdVpLTmljRExxbVRucDlZSHRDV1hXWnBJaWtBYzhDWnJWWnBZYjFORlBkeTBqdzVPRUtYSXc3LXNncE1GN2pPSUFKYlFHQWZJdldUa05YREtqVW90XzZQUQ?oc=5",
+   "date": "Mon, 21 Sep 2026 05:11:12 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "The Horn Of Africa States: Banking, Finance, And Fintech – OpEd",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOUGJDcG16RWZHTEZzTUk2N2pKUEM2RUtYV01IR043TnBKLTVqV2g3UWl2VUxvc2h4ckVNU3pOejZGTXppNUI0UFh5SXF0bWJKRXMxb0NaMHdWSkwwbVotekNnMGtCajBXcHcwdGllNGdTNEtGcjFrYkZYLVhDNy",
+   "source": "eurasiareview.com·聚合",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUGJDcG16RWZHTEZzTUk2N2pKUEM2RUtYV01IR043TnBKLTVqV2g3UWl2VUxvc2h4ckVNU3pOejZGTXppNUI0UFh5SXF0bWJKRXMxb0NaMHdWSkwwbVotekNnMGtCajBXcHcwdGllNGdTNEtGcjFrYkZYLVhDNy12SVhINkFxNTNVQTVSdjlzZjZBN3hnc19WMk5ZTG5DREk?oc=5",
+   "date": "Sun, 20 Sep 2026 21:44:57 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "WSO2 Agent Manager Brings Sovereign AI Governance to Enterprise Agent Sprawl",
+   "brief": "WSO2 today announced the general availability of WSO2 Agent Manager, an open control plane that governs AI agents across any framework, model, or deployment, helping enterprises put agents in production with confidence a",
+   "source": "IT News Africa",
+   "url": "https://www.itnewsafrica.com/2026/09/wso2-agent-manager-brings-sovereign-ai-governance-to-enterprise-agent-sprawl/",
+   "date": "Sun, 20 Sep 2026 20:26:35 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Why have US prosecutors labelled China’s Huawei a criminal enterprise?",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNUUdEQUk0WExjWTNkRThvb2tjSzFnZDlkdlpTb0M4WWhlWTM3VEJiMVYtVmlNZlR1U2xhVFJVZllpdk11aExKT2N0WlkyMnJTNWpCcEVJVWE0UUl4Uko4czBlczZSaFc0LTIwc2VtdGNtMVFvQnN0R1AwdUVMRE",
+   "source": "Al Jazeera·聚合",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUUdEQUk0WExjWTNkRThvb2tjSzFnZDlkdlpTb0M4WWhlWTM3VEJiMVYtVmlNZlR1U2xhVFJVZllpdk11aExKT2N0WlkyMnJTNWpCcEVJVWE0UUl4Uko4czBlczZSaFc0LTIwc2VtdGNtMVFvQnN0R1AwdUVMRE1HUWtsRnJZNlN1UVhyeW41WjhhZjBSMmNKX2NhQ1FrNW1XdHpSV3BOQzltQnN0cFHSAbMBQVVfeXFMTnAwMU92ZlV2Mm9TZEkzdHdyQUNFRTA1czl3Z0h3Z1R1Y243Y3V4TU5iZXFfY3h0SXhNSGlRRk01VmwwOWZ3aWh0NlhJT282YnVoRHY3WGpMX09EMVNFUjNVb0R2U3ZGWUtwMFhIZ2FRcHVTUlJnNHdveGNOaFR3MUt2ZllxTUdvWVVMRHVzQWRqeHh3UC16M3hPdV9tU0ktcnc3VHpPUmxHZi1vb0NoS1Y2a1E?oc=5",
+   "date": "Sun, 20 Sep 2026 16:02:25 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "MTN partners with UAE platform on African data center expansion",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOcy1xTjFOUVE2Q1hPVU9CZ0d2dWFLY2dfdGdSR3o0cmVGdVU0cTBRV1ptVWZXcWFteHNaVGtzcGl5T1E1RUpQY0xQWWNrd005dzJzRnVONTRNbmtqRDlhU3ktaUJ1bmd2VXVaVDBUQk41QXlORWpXcDcyQmgyUH",
+   "source": "Portal ERP·聚合",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcy1xTjFOUVE2Q1hPVU9CZ0d2dWFLY2dfdGdSR3o0cmVGdVU0cTBRV1ptVWZXcWFteHNaVGtzcGl5T1E1RUpQY0xQWWNrd005dzJzRnVONTRNbmtqRDlhU3ktaUJ1bmd2VXVaVDBUQk41QXlORWpXcDcyQmgyUHhWdTlOeDI1TV9McnNXblVOd1Fxcm9ZZG1HTTNZQ0o?oc=5",
+   "date": "Sun, 20 Sep 2026 04:53:08 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": true
+  },
+  {
+   "title": "US prosecutors accuse Huawei of ‘far-reaching criminal scheme’ spanning decades",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxPcTFCaGhLWDhEdzA2VkdHZzFibVpEb0xXT0VYQXFVTXU4MFhPcVctMVR4cE8xMXFvajJNWnB4TURhNmpDdE8ycE04bDdkUU12S2FzX255WW83MGtsT1lURFM2Yi1iUWNCQy1yY0gxVVZzZUxDZExjMVQtWEVURz",
+   "source": "International Consortium of Investigative Journalists - ICIJ·聚合",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcTFCaGhLWDhEdzA2VkdHZzFibVpEb0xXT0VYQXFVTXU4MFhPcVctMVR4cE8xMXFvajJNWnB4TURhNmpDdE8ycE04bDdkUU12S2FzX255WW83MGtsT1lURFM2Yi1iUWNCQy1yY0gxVVZzZUxDZExjMVQtWEVURzJVM3k3T0szdmtsNjRpLWhfS2V5ZUttT1FHSWdwaFlxMWNsLWFXTWJzY2dBcWtGbXJSN3BzYTFQcjRfa0JKME9lU1ZkRnhBb3Rn?oc=5",
+   "date": "Fri, 18 Sep 2026 17:28:45 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Living with drought: can technology save African agriculture?",
+   "brief": "",
+   "source": "African Business",
+   "url": "https://african.business/2026/09/technology-information/living-with-drought-can-technology-save-african-agriculture",
+   "date": "Fri, 18 Sep 2026 14:18:12 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Smarter, faster and autonomous: AI reshapes MDR",
+   "brief": "AI can connect the different stages of the managed detection and response process into a continuous operational cycle.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/smarter-faster-and-autonomous-ai-reshapes-mdr/xA9POvNE2Dlqo4J8",
+   "date": "Fri, 18 Sep 2026 10:45:00 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "China's Huawei says AI chip demand outstrips supply as it steps up Nvidia challenge",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQUUF2NV9DeFExYkFNQS1hQnZfTjFBY05sRjRmN3hMQkxoTmo0aEYtMnNyU3BnRUZPUzVtZGt6ZjE1ZWVsRldkWG1RMVUyaWpFWTg1Q3paeENVblNJUi1ITktZemVWRy1tbGc3OHd5QkFLT0Zya1UyOE13LW1XbT",
+   "source": "Reuters·聚合",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUUF2NV9DeFExYkFNQS1hQnZfTjFBY05sRjRmN3hMQkxoTmo0aEYtMnNyU3BnRUZPUzVtZGt6ZjE1ZWVsRldkWG1RMVUyaWpFWTg1Q3paeENVblNJUi1ITktZemVWRy1tbGc3OHd5QkFLT0Zya1UyOE13LW1XbTN4d002Zi1ReXJHRlZDNTZlUmh5cmFEcmhlNk9ET2JWZw?oc=5",
+   "date": "Fri, 18 Sep 2026 03:06:59 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Chinese AI labs must accelerate development, says Huawei exec – fueling fears that a US AI slowdown would benefit China",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOUzU1aTkxXzBFOVgwVHBFOGdfaFVtMmd3ejlZN0xKSGVDQlN6V2ZoUHlVTFVkdmczcUN2cjFVZ2duYjFBTlZTeWRrb3V4elRQSnRmMUwyUVRTMFZ4WGVoZ2NWWWE2a2lRQUlNYnByOXczUUJ3dzFScXM0elhzcU",
+   "source": "nypost.com·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUzU1aTkxXzBFOVgwVHBFOGdfaFVtMmd3ejlZN0xKSGVDQlN6V2ZoUHlVTFVkdmczcUN2cjFVZ2duYjFBTlZTeWRrb3V4elRQSnRmMUwyUVRTMFZ4WGVoZ2NWWWE2a2lRQUlNYnByOXczUUJ3dzFScXM0elhzcUtYLVd5cXVUT1g4dXE5WDRsX1VpN2ZpZnQ5N1J2bVpLSzg4Qmc?oc=5",
+   "date": "Thu, 17 Sep 2026 17:46:00 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Huawei plans Q1 2027 launch of new AI chip as it takes on Nvidia",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQQUZ5YWdUdGV1eTlQZkg2WktxODk3S0lLelNWZDdtVjY0YUgySWtGWGdJZTRlQ0hfUUVOQXFORXpsMnJsT1dxWHZEcWI0ZlROU05Ebmtqb2VUTDl5VVc2al9Va05CTERFNDhTd1A5N3dNMzA1c19TZjFDX2NRcF",
+   "source": "TechCrunch·聚合",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQUZ5YWdUdGV1eTlQZkg2WktxODk3S0lLelNWZDdtVjY0YUgySWtGWGdJZTRlQ0hfUUVOQXFORXpsMnJsT1dxWHZEcWI0ZlROU05Ebmtqb2VUTDl5VVc2al9Va05CTERFNDhTd1A5N3dNMzA1c19TZjFDX2NRcFFCY01nV1NrTFYyVTdVRm52T0dsY1g0enpNei0tUWhCeHVk?oc=5",
+   "date": "Thu, 17 Sep 2026 14:06:14 GMT",
+   "country": null,
+   "is_ai": true,
    "is_aiinfra": false
   }
  ]
