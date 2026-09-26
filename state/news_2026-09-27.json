@@ -1,0 +1,214 @@
+{
+ "asof": "2026-09-27",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-09-27T01:26+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 20,
+  "cluster_label": "",
+  "cluster_dropped": [],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "geo",
+   "title": "特朗普拒绝伊朗提议 美伊僵局升级",
+   "brief": "特朗普称拒绝伊朗提议，此前WSJ报道其否决和平方案；伊朗总统表示不再信任与美对话，伊方称不作出核让步。",
+   "chain": "美伊谈判破裂→中东风险溢价上升、避险情绪抬升→美股承压、A股算力链风险偏好受抑",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609263884413749.html",
+   "ts": "2026-09-26 21:53:37"
+  },
+  {
+   "cat": "oil",
+   "title": "沙特联盟拦截来袭弹体 油市紧盯霍尔木兹",
+   "brief": "特朗普拒绝伊朗有条件停火方案之际，沙特联盟拦截来袭弹体，海湾航运与原油运输风险升温。",
+   "chain": "海湾冲突升级→Brent风险溢价上行、航运保费抬升→东非LNG海运与莫桑比克项目物流成本承压",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/26/trump-rejects-irans-conditional-ceasefire-proposal-wsj-reports.html",
+   "ts": "Sat, 26 Sep 2026 15:05:38 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "债收益率飙升 科技股仍领涨",
+   "brief": "上周美债收益率持续走高，但Meta与微软领涨科技板块，市场对高久期资产定价出现分歧。",
+   "chain": "收益率上行→美股AI高久期票估值分母承压但资金仍流入→A股算力链情绪获支撑",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/26/meta-microsoft-led-tech-higher-this-week-despite-soaring-bond-yields.html",
+   "ts": "Sat, 26 Sep 2026 16:21:31 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "OpenAI扩大模型行为审查",
+   "brief": "在更多“失控代理”事件出现后，OpenAI扩大对模型行为的审查范围，AI治理与安全议题升温。",
+   "chain": "AI代理风险暴露→美股AI应用合规成本上升→A股算力链关注安全与治理配套",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/26/openai-agent-model-behavior-review.html",
+   "ts": "Sat, 26 Sep 2026 17:10:32 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "微软全面改版Copilot 股价大涨",
+   "brief": "微软对Copilot进行大幅改版升级，市场反应积极，公司股价应声上涨。",
+   "chain": "Copilot升级→微软AI商业化预期改善→A股AI应用与算力链映射受益",
+   "impact": 7,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/25/microsoft-gives-copilot-a-much-needed-overhaul-and-the-stock-deservedly-soars.html",
+   "ts": "2026-09-25T18:38:38+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "中美元首会晤 重形式轻实质",
+   "brief": "特朗普与习近平结束以场面为主的国家访问，实质成果有限，双方在贸易与地缘议题上仍存分歧。",
+   "chain": "中美峰会成果有限→美股对华敞口板块观望→A股算力链受贸易政策不确定性扰动",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/25/trump-xi-summit-takeaways.html",
+   "ts": "Fri, 25 Sep 2026 21:38:38 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "以军空袭黎南部真主党设施",
+   "brief": "以色列国防军称对黎巴嫩南部真主党一处武器储存设施发动空袭，黎以边境局势持续紧张。",
+   "chain": "黎以冲突延续→中东地缘风险溢价维持→美股能源与防务板块波动、A股情绪受扰",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609273884416662.html",
+   "ts": "2026-09-27 00:00:31"
+  },
+  {
+   "cat": "geo",
+   "title": "巴基斯坦检查站遭袭11死",
+   "brief": "巴基斯坦西北部开伯尔-普什图省一处警察检查站发生爆炸，造成至少11人死亡、18人受伤。",
+   "chain": "南亚安全事件→区域风险情绪上升→对美股直接影响有限、A股算力链情绪中性",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609273884417073.html",
+   "ts": "2026-09-27 00:20:13"
+  },
+  {
+   "cat": "macro",
+   "title": "习近平称中美可跨越修昔底德陷阱",
+   "brief": "习近平表示相信中美能够克服“修昔底德陷阱”，释放管控大国竞争、稳定双边关系的信号。",
+   "chain": "中美关系缓和信号→美股对华收入敞口改善→A股算力链外部环境边际转暖",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/26/xi-trump-thucydides-trap-us-china.html",
+   "ts": "Sat, 26 Sep 2026 05:00:01 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "小众AI芯片股翻倍 光速翻番",
+   "brief": "一只鲜为人知的AI芯片股股价翻倍，其新芯片将光学速度提升一倍，引发市场关注。",
+   "chain": "AI芯片性能突破→美股半导体板块情绪提振→A股光模块与算力芯片链映射",
+   "impact": 6,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/technology/ai/articles/little-known-ai-chip-stock-042916921.html",
+   "ts": "2026-09-23T04:29:16Z"
+  },
+  {
+   "cat": "ai",
+   "title": "投资者增配AI敞口的“缺失拼图”",
+   "brief": "有分析指出，某类资产或策略可能是投资者提升AI敞口所缺失的关键一环，引发配置讨论。",
+   "chain": "AI配置需求上升→美股AI主题资金流入→A股算力链获增量资金关注",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/26/ai-portfolios-may-need-china-to-grab-the-biggest-gains.html",
+   "ts": "Sat, 26 Sep 2026 15:00:01 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "特朗普称贝森特不出任AI沙皇",
+   "brief": "特朗普表示财长斯科特·贝森特不会担任AI事务负责人，白宫AI政策人事安排仍不明朗。",
+   "chain": "AI政策人事未定→美股AI监管预期模糊→A股算力链政策不确定性延续",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/25/trump-bessent-ai-czar.html",
+   "ts": "Fri, 25 Sep 2026 17:28:32 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "钻石价格跌至历史低点",
+   "brief": "供应过剩与实验室培育钻石替代品冲击下，天然钻石价格跌至纪录低位，奢侈品与矿业承压。",
+   "chain": "钻石价格走低→美股奢侈品与矿业板块承压→对A股算力链无直接传导",
+   "impact": 4,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/26/whats-behind-the-fall-of-diamond-prices-to-record-lows.html",
+   "ts": "Sat, 26 Sep 2026 13:09:33 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "爱彼与Swatch联名销售破纪录",
+   "brief": "爱彼表示与Swatch的Royal Pop联名款销售打破纪录，尽管奢侈品腕表市场低迷且面临关税压力。",
+   "chain": "联名款热销→美股消费与奢侈品板块分化→对A股算力链无直接传导",
+   "impact": 4,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/26/audemars-piguet-and-royal-pop-defy-luxury-watch-slump-and-tariffs.html",
+   "ts": "Sat, 26 Sep 2026 10:00:01 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "欧盟拟大增卫星发射 寻域外发射场",
+   "brief": "欧盟委员库比柳斯称，欧盟计划数年内大力增加卫星发射，并寻求在加拿大等域外地区开辟发射场。",
+   "chain": "欧盟太空自主提速→美股航天与防务板块受关注→A股卫星互联网链情绪映射",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609263884411982.html",
+   "ts": "2026-09-26 21:14:38"
+  },
+  {
+   "cat": "oil",
+   "title": "包钢中标中深水海上油田海工钢",
+   "brief": "包钢股份中标某央企首个中深水大型海上油田建设项目海工用H型钢采购项目。",
+   "chain": "海上油田建设推进→油气资本开支链条受益→对莫桑比克东非油气经营无直接传导",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609263884409744.html",
+   "ts": "2026-09-26 20:43:50"
+  },
+  {
+   "cat": "gas",
+   "title": "卡塔尔航空停飞A330 转投卢旺达航空",
+   "brief": "因伊朗战争持续，卡塔尔航空退役闲置A330并将飞行员转派至卢旺达航空，区域航空运力调整。",
+   "chain": "中东冲突拖累航空运力→东非航空与能源人员物流受扰→莫桑比克LNG项目人员运输承压",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZU95VVVfeElqRlJLSHBPWFg3bE0zRjdvVFNIWGxSZF8zcDB4R2poelQ2MUFWR3Y2Y2FlSEp2OVVBcjdxSC1jNWhDQVhHQlpMbnp3SlZKR0ZFT0t4LVVwTEVrOUhhN0taRkh1SHAzM2VfeG0wTjhTcG12RXJCLW9WUVltTGlFb2dUdGdINl9fUktFcGg1UEhuQlY3WlU1ZUxGdG10ZDA3RkozdmE4aW9PSC1qaFJfcFQ1M08zVERyMVJOV1BzWDFRT0NKMjk?oc=5",
+   "ts": "2026-09-25T13:33:43+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "伊朗总统称不再信任对美对话",
+   "brief": "伊朗总统佩泽希齐扬表示，鉴于每轮谈判后美国都发动袭击并制裁，伊朗不再信任与美国的对话。",
+   "chain": "美伊互信崩塌→中东地缘风险溢价维持→美股避险情绪抬升、A股算力链情绪受抑",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609263884416135.html",
+   "ts": "2026-09-26 23:40:38"
+  },
+  {
+   "cat": "macro",
+   "title": "Strive CEO称比特币可涨至无限",
+   "brief": "Strive CEO表示，随着美元债务危机爆发，比特币价格可能“涨至无限”，引发市场对法币信用的讨论。",
+   "chain": "美元信用担忧→避险与替代资产需求上升→美股加密概念波动、A股算力链情绪中性",
+   "impact": 4,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/crypto/articles/strive-ceo-bitcoin-could-infinity-015100441.html",
+   "ts": "2026-09-23T01:51:00Z"
+  },
+  {
+   "cat": "tech",
+   "title": "吉利与比亚迪竞逐超快充技术",
+   "brief": "吉利发布新一代智充技术，单枪峰值功率约2250千瓦，将补能技术竞争推向充电设施端。",
+   "chain": "超快充技术竞赛→美股充电与电力设备板块受关注→A股充电桩与功率半导体链映射",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609263884409657.html",
+   "ts": "2026-09-26 20:40:01"
+  }
+ ]
+}
