@@ -1,28 +1,38 @@
 {
  "asof": "2026-09-27",
- "fetched_at": "2026-09-27T01:26+08:00",
+ "fetched_at": "2026-09-27T13:15+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
    "Moonshot·TechCabal": 10,
    "Disrupt Africa": 10,
    "Techpoint Africa": 0,
-   "IT News Africa": 11,
+   "IT News Africa": 0,
    "TechAfrica News": 12,
    "Condia": 25,
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
-   "Zimbabwe Situation": 0,
+   "Zimbabwe Situation": 1,
    "African Business": 1,
    "非洲科技·聚合": 5,
-   "中非科技·聚合": 16
+   "中非科技·聚合": 15
   },
   "total": 60,
-  "ai_flagged": 18,
-  "aiinfra_flagged": 1,
+  "ai_flagged": 19,
+  "aiinfra_flagged": 0,
   "countries": 8
  },
  "items": [
+  {
+   "title": "Govt pursues traffic violators as 4m offences caught on camera",
+   "brief": "Debra Matabvu MORE than four million traffic violations have been captured by the new artificial intelligence (AI)-powered electronic traffic management system, with the authorities now pursuing offenders as the crackdow",
+   "source": "Zimbabwe Situation",
+   "url": "https://www.zimbabwesituation.com/news/govt-pursues-traffic-violators-as-4m-offences-caught-on-camera/",
+   "date": "Sun, 27 Sep 2026 04:42:49 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
   {
    "title": "How Nigerian creators actually make money: Beyond views in 2026",
    "brief": "Learn how Nigerian creators make money through brand deals, digital products, services, affiliate marketing and fan support beyond views.",
@@ -90,16 +100,6 @@
    "url": "https://thecondia.com/moviebox-pro-2026-safety-price-legal-guide/",
    "date": "Sat, 26 Sep 2026 13:20:19 +0000",
    "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Kenya Cyber Threats Hit 11 Billion as DDoS Attacks Double",
-   "brief": "Kenya cyber threats reached 11.12 billion in the year to June 2026, according to the country’s communications regulator. That is 29% more than the 8.62 billion events recorded a year earlier. The sharpest jump came from ",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/cybersecurity/kenya-cyber-threats-hit-11-billion/",
-   "date": "Sat, 26 Sep 2026 09:44:18 +0000",
-   "country": "🇰🇪 肯尼亚",
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -181,16 +181,6 @@
    "date": "Fri, 25 Sep 2026 12:46:06 +0000",
    "country": null,
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Bank Zero Turns a Profit as It Gains 500,000 Mukuru Customers",
-   "brief": "Bank Zero broke even in August 2026 as about 500,000 Mukuru customers began moving onto its platform. Here is what the milestone means for you and how alliance banking and new lending plans shape Bank Zero profitability ",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/industries/fintech_news/bank-zero-profit/",
-   "date": "Fri, 25 Sep 2026 12:28:11 +0000",
-   "country": null,
-   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -464,6 +454,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "24 startup founders in line to build Africa’s next $1 billion tech companies as Yango targets 6 countries for its next unicorns",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxPS3ZnbWtjM0lEVGFEN2N5UTd2SWR2dXpxM3JKbDEzMy1CS05ISnZCQzBGNEJCN2FWNHpIX051NGUxZzVGb245bjVQaFRUNlR6d1V1cGZ4LVM2RDNjNHNKaU5DQ0M2a0cyWW9oWk56Z0FwdWUzejJ6X0VrVWpKT3",
+   "source": "Business Insider Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPS3ZnbWtjM0lEVGFEN2N5UTd2SWR2dXpxM3JKbDEzMy1CS05ISnZCQzBGNEJCN2FWNHpIX051NGUxZzVGb245bjVQaFRUNlR6d1V1cGZ4LVM2RDNjNHNKaU5DQ0M2a0cyWW9oWk56Z0FwdWUzejJ6X0VrVWpKT3FPLTRsUFBlS1NUU0ktT3g4VUk2WVBPNFdlWkFlcG5ObWtkNlFzTS1rRGlCVGd1UXRzQk1qcmdRX1F3bHpPemRMalZDdi04Mks5aGRGVTlFdUJtZjRwT3NTYw?oc=5",
+   "date": "Thu, 24 Sep 2026 14:16:15 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "Could AI threaten humanity? 8 Africans weigh the risks",
    "brief": "As AI systems become more capable of reasoning and carrying out tasks with less human input, concerns are growing about what happens when humans can no longer fully control them.",
    "source": "TechCabal",
@@ -492,16 +492,6 @@
    "country": null,
    "is_ai": true,
    "is_aiinfra": false
-  },
-  {
-   "title": "R4.54B in a Week: Who Is Paying for Africa’s Fibre Build-Out?",
-   "brief": "In one week, Washington committed more than R4bn to African networks. The money flows into undersea cables, backbone fibre and data centres. We look at who is paying, what they expect in return and why broadband internet",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/mobile-and-telecoms/r4-54bn-in-a-week-who-is-paying-for-africas-fibre-build-out/",
-   "date": "Thu, 24 Sep 2026 12:56:22 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": true
   },
   {
    "title": "Bank of Kigali joins China’s CIPS payment network",
@@ -574,16 +564,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "African fintech IPO is a lift for dreary London",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWEkxMVlpNzM3dTZzb0ZRTy1EWExRWVVKWmVaSnF5X3lYV19Ja0dkZ0xVX0xSdFRwTUpNT1RSbmM2cHg3T2Vzc1ZBOWpONjVxdEdvRTFCUlNPXzRrUk91N3JrYVFxUXVMckVydHZ2STRnazBLRmFzYXlUcjJNRj",
-   "source": "Breakingviews·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWEkxMVlpNzM3dTZzb0ZRTy1EWExRWVVKWmVaSnF5X3lYV19Ja0dkZ0xVX0xSdFRwTUpNT1RSbmM2cHg3T2Vzc1ZBOWpONjVxdEdvRTFCUlNPXzRrUk91N3JrYVFxUXVMckVydHZ2STRnazBLRmFzYXlUcjJNRjg2eHh1Vm15bjF3TUZvNG1PU0lsd2gyN3UtUzJxMU9mclVTV2R4N3dNWVQ?oc=5",
-   "date": "Wed, 23 Sep 2026 12:44:09 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Chari appoints former Visa executive Aurélien Pichon to board as independent director",
    "brief": "Chari, the Moroccan B2B commerce and fintech company, has appointed Aurélien Pichon to its board as an independent director.",
    "source": "Condia",
@@ -619,6 +599,26 @@
    "source": "ITWeb Africa",
    "url": "https://www.itweb.co.za/article/cloud-security-is-not-measured-by-what-you-have-deployed-it-is-measured-at-2am/mYZRX79gbZbqOgA8",
    "date": "Wed, 23 Sep 2026 11:01:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Africa Startup Congress 2027 Pitch Competition",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE55dGlONkpSMFU5WmdGb3F5cFFnRHZNRUk0VGVVU194ZUw0cFdFQ2laaXl4clBwTjJDeVNxUm1tYnVXT2sxREtZTU41WFVKZkVROVpENm1BdGtyby1OaERIeDlUb25uUWFiY25DN1BvUHhKT2h4ZDBLWDN3?oc=5\"",
+   "source": "Menterprise Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE55dGlONkpSMFU5WmdGb3F5cFFnRHZNRUk0VGVVU194ZUw0cFdFQ2laaXl4clBwTjJDeVNxUm1tYnVXT2sxREtZTU41WFVKZkVROVpENm1BdGtyby1OaERIeDlUb25uUWFiY25DN1BvUHhKT2h4ZDBLWDN3?oc=5",
+   "date": "Wed, 23 Sep 2026 08:22:22 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "20 years after, Remita launches consumer super app to bring banking, investing and payments into one place",
+   "brief": "The app allows users connect and monitor accounts from different banks on one screen.",
+   "source": "Condia",
+   "url": "https://thecondia.com/remita-launches-super-app/",
+   "date": "Wed, 23 Sep 2026 07:39:10 +0000",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
