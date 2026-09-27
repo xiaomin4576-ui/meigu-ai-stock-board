@@ -1,0 +1,177 @@
+{
+ "asof": "2026-09-28",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-09-28T01:59+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 28,
+  "cluster_label": "伊朗/霍尔木兹",
+  "cluster_dropped": [
+   "伊朗称在霍尔木兹捕获美无人潜航器",
+   "伊朗外长称准备与美国打末日战"
+  ],
+  "backfilled": 2
+ },
+ "items": [
+  {
+   "cat": "geo",
+   "title": "特朗普拒绝伊朗开放霍尔木兹提案",
+   "brief": "伊朗提出开放霍尔木兹海峡并结束冲突的方案，特朗普予以拒绝，美伊谈判陷入僵局。",
+   "chain": "美伊谈判破裂→中东风险溢价上升压制美股风险偏好→A股算力链短期承压",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
+   "ts": "2026-09-26T01:59:00+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "本周市场聚焦美联储双重使命",
+   "brief": "CNBC列出本周四大看点：美联储双重使命两端均受关注，美光财报与礼来更新在列。",
+   "chain": "就业与通胀数据博弈→美股AI高久期估值分母波动→A股算力链情绪跟随",
+   "impact": 7,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/27/here-are-the-4-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+   "ts": "2026-09-27T16:16:43+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "AI服务器液冷订单火爆厂商扩产",
+   "brief": "AI服务器液冷订单排到2027年，营收增速超400%，产能赶不上交付，多家公司扩产。",
+   "chain": "液冷需求爆发→美股AI基础设施链景气验证→A股液冷/散热算力链直接受益",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609283884543310.html",
+   "ts": "2026-09-28 01:40:44"
+  },
+  {
+   "cat": "geo",
+   "title": "泽连斯基称俄袭击乌数据中心",
+   "brief": "俄夜间空袭致乌多地至少6人死亡，并袭击基辅多个大型数据中心，扎波罗热3人死亡。",
+   "chain": "俄乌冲突升级波及数据中心→美股AI基建安全溢价上升→A股算力链情绪扰动",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609283884539996.html",
+   "ts": "2026-09-28 00:25:21"
+  },
+  {
+   "cat": "gas",
+   "title": "卡塔尔分别与美伊谈判代表磋商",
+   "brief": "卡塔尔正分别与伊朗和美国谈判代表进行磋商，试图重启美伊谈判，但双方关键分歧巨大。",
+   "chain": "斡旋重启预期→中东LNG供应风险溢价边际缓和→莫桑比克LNG出口竞争窗口与东非气价预期改善",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609273884536496.html",
+   "ts": "2026-09-27 23:16:53"
+  },
+  {
+   "cat": "macro",
+   "title": "三季度新增专项债发行提速",
+   "brief": "截至9月27日，三季度各地新增专项债发行规模达12981.49亿元，为年内发行量最大季度。",
+   "chain": "专项债提速→基建与算力投资资金到位→A股算力/基建链中期需求支撑",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609283884541647.html",
+   "ts": "2026-09-28 01:20:00"
+  },
+  {
+   "cat": "tech",
+   "title": "SK海力士关注英特尔俄亥俄厂址",
+   "brief": "SK海力士正关注英特尔俄亥俄州厂址，美光或需留意，存储与晶圆产能布局生变。",
+   "chain": "存储产能再布局→美股半导体供应链重估→A股存储/封测链联动",
+   "impact": 6,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/technology/articles/sk-hynix-eyeing-intel-intc-043316388.html",
+   "ts": "2026-09-23T04:33:16Z"
+  },
+  {
+   "cat": "ai",
+   "title": "国内首部AI院线电影定档",
+   "brief": "博纳影业宣布首部AI超写实院线电影《三星堆：未来往事》定档2026年10月23日。",
+   "chain": "AI影视落地→美股AI应用叙事延伸→A股AI内容/传媒链催化",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609273884537830.html",
+   "ts": "2026-09-27 23:32:40"
+  },
+  {
+   "cat": "geo",
+   "title": "也门市场遭袭七人死亡",
+   "brief": "胡塞武装控制的卫生部称，也门一市场遭袭致七人死亡，地区冲突持续。",
+   "chain": "也门冲突延续→中东地缘风险溢价维持→A股算力链情绪中性偏空",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQjI3MkxLdHM5cEZjNElqWk1FbnN6bnFnN2Rzdm0teV9IM3lBYnVkNUJuci0xS281b0dlTVJwalJpOEZmNGc0RmJLeUhreUV0QWtybE9YZU8waUNsM1BybjdUR1hSQ0lNWmpPZktPQ2k5VksyZ0dhd3p0QTVDOWhrUGgxQzhIU3A0Y0tiaUpWS0JoZlZqUnJZbXBpOUwxeWxESG1pR1RtYW9aSmhHTE1XN21POGIxa05xcHJ2SDQ3RkxQbGc?oc=5",
+   "ts": "2026-09-27T11:04:46+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "瑞士公投否决更严格中立原则",
+   "brief": "瑞士9月27日公投否决更严格中立提案，该案若通过将禁止瑞士实施经济制裁或与北约合作。",
+   "chain": "瑞士维持制裁能力→去美元化与避险资产配置逻辑不变→黄金与美股AI估值分母中性",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609273884535856.html",
+   "ts": "2026-09-28 00:30:35"
+  },
+  {
+   "cat": "tech",
+   "title": "派拉蒙承诺好莱坞以拿下WBD",
+   "brief": "派拉蒙CEO David Ellison的反垄断和解缓解院线担忧，但收购WBD仍存疑问。",
+   "chain": "媒体并购推进→美股传媒板块整合预期→A股传媒链情绪外溢有限",
+   "impact": 4,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/25/paramount-hollywood-promises.html",
+   "ts": "2026-09-25T22:31:32+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "蓝领AI就业市场繁荣但数据中心遇阻",
+   "brief": "AI数据中心遭公众反对、多州放缓开发，但暖通、管道等蓝领岗位需求旺盛。",
+   "chain": "数据中心扩张受阻→美股AI基建节奏扰动→A股算力链中期需求节奏关注",
+   "impact": 5,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/26/blue-collar-jobs-ai-data-center-backlash.html",
+   "ts": "2026-09-26T13:43:42+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "华尔街资金重夺股市主导权",
+   "brief": "机构投资者重新成为股市驱动力，有机构视其为风险偏好的合理建设性信号。",
+   "chain": "机构风险偏好回升→美股AI成长股资金面改善→A股算力链情绪正向传导",
+   "impact": 5,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/27/institutional-investors-stocks-treaurys-retail-traders.html",
+   "ts": "2026-09-27T11:32:35+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "小众AI芯片股翻倍光学速度翻番",
+   "brief": "一只鲜为人知的AI芯片股股价翻倍，其新芯片将光学速度提升一倍。",
+   "chain": "AI芯片性能突破→美股半导体细分景气→A股光模块/算力链映射",
+   "impact": 5,
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/technology/ai/articles/little-known-ai-chip-stock-042916921.html",
+   "ts": "2026-09-23T04:29:16Z"
+  },
+  {
+   "cat": "geo",
+   "title": "沙特大穆夫提号召军队准备对胡塞作战",
+   "brief": "沙特最高宗教权威大穆夫提呼吁军队做好牺牲准备、打击也门胡塞武装，标志沙特对胡塞立场进一步强硬。",
+   "chain": "沙特-胡塞对抗升级→中东风险溢价与红海航运扰动→对莫桑比克LNG东向航运与区域安全环境构成间接压力",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTXZJVk41ZE5xYUdhR0dIQjd0eVNzaWlmNVd3VmNNZTEyc2dZOWlnZm1nYW9xU19UNTNia0ZLaDUya2xYcXpYRW1tcUJVa0phSUlfOU82SXJHZjc1WHJTUFV5MkNRZUJ0LXFOSG8zRUswZGtJbHktVkZPeGJKd1lUMVBldUlwbGlXOW5qYm1VbnhJVU9QQ0x3Z1ZtNVpjMTVRNXZOZTJvbHZyNjZINzBYc3hvYVpWRndIbldwWjBCUDhJMnhyWVNmTkhxVUU?oc=5",
+   "ts": "2026-09-26T01:19:47+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "世界首个紧凑型聚变装置BEST线圈盒批量交付",
+   "brief": "国机重装德阳基地完成BEST装置8件TF线圈盒批量件发运，为全球首个紧凑型聚变能实验装置关键部件。",
+   "chain": "聚变工程化提速→美股核聚变/电力设备主题情绪升温→映射A股可控核聚变与超导磁体产业链",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609273884513983.html",
+   "ts": "2026-09-27 21:55:00"
+  }
+ ]
+}
