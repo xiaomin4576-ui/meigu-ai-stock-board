@@ -1,5 +1,5 @@
 {
-  "asof": "2026-09-21",
+  "asof": "2026-09-28",
   "strategy": "current_tiered",
   "rule": "上升趋势(>MA200)回踩至结构支撑(强势档锚MA20/破位档锚MA50)入场·分档止损(强势-6%/破位-10%)·目标按R:R2.5反推·持有≤270日·扣往返成本0.2%·跳空穿止损按开盘成交",
   "universe": [
@@ -26,15 +26,15 @@
   ],
   "lookback": "5y",
   "horizon_days": 270,
-  "signals": 618,
+  "signals": 620,
   "per_stock_signals": {
     "NVDA": 35,
     "AVGO": 41,
     "TSM": 38,
-    "MU": 32,
+    "MU": 33,
     "MRVL": 28,
     "ANET": 42,
-    "CRDO": 32,
+    "CRDO": 33,
     "COHR": 29,
     "VRT": 35,
     "600522.SS": 25,
@@ -58,14 +58,14 @@
   "timeout_pct": 1,
   "avg_trade_return_pct": 2.2,
   "realized_rr": 2.31,
-  "per_trade_sharpe": 0.19,
-  "max_consecutive_losses": 11,
-  "gap_slippage_trades": 48,
+  "per_trade_sharpe": 0.18,
+  "max_consecutive_losses": 9,
+  "gap_slippage_trades": 49,
   "tx_cost_pct": 0.2,
   "per_year_win_rate": {
     "2022": {
-      "n": 27,
-      "win_rate": 22
+      "n": 26,
+      "win_rate": 19
     },
     "2023": {
       "n": 140,
@@ -80,7 +80,7 @@
       "win_rate": 48
     },
     "2026": {
-      "n": 120,
+      "n": 123,
       "win_rate": 27
     }
   },
