@@ -1,177 +1,216 @@
 {
  "asof": "2026-09-28",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-09-28T01:59+08:00",
+ "generated_at": "2026-09-28T13:18+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 28,
+  "cross_day_suppressed": 7,
   "cluster_label": "伊朗/霍尔木兹",
   "cluster_dropped": [
-   "伊朗称在霍尔木兹捕获美无人潜航器",
-   "伊朗外长称准备与美国打末日战"
+   "伊朗外长称准备与美'末日'战争"
   ],
-  "backfilled": 2
+  "backfilled": 0
  },
  "items": [
   {
+   "cat": "macro",
+   "title": "金价单日重挫逾2% 加息押注升温",
+   "brief": "受美联储加息押注升温与美元走强打压，金价单日跌超2%，避险与实际利率双重施压。",
+   "chain": "加息预期升温→实际利率上行、美元走强→压制美股AI高久期票估值分母→A股算力链风险偏好承压",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQenE0aVBHOTNMeURZcVZjN3J0S1RMZ2kzakFJYklBMXhZckhuTGxLVnVaa2pmZjg0MzJHMU1fOGwwY3pfWjBXYmZUcGYtUjMzOFB4UW9ydUdKZDNOU2JrTHotMk9qa1ZGNkZXdGs3b0NKcGhveU11cmZGOC0wbzM1WWVJSzk3bDAxLWs3QUxVSy02QQ?oc=5",
+   "ts": "2026-09-28T01:41:00+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "摩根大通维持看空美债久期",
+   "brief": "摩根大通称因非农数据与多头仓位技术面因素，维持看空美债久期，但看空倾向较前几周减弱。",
+   "chain": "看空久期→美债收益率易上难下→压制美股成长股估值→A股算力链情绪偏谨慎",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609283885073776.html",
+   "ts": "2026-09-28 13:13:12"
+  },
+  {
+   "cat": "macro",
+   "title": "法巴：美联储难重演22-23加息周期",
+   "brief": "法巴策略师称尽管市场预期还有两次加息，但9月加息不太可能开启类似2022-23的新一轮紧缩周期。",
+   "chain": "紧缩周期预期降温→利率路径不确定性下降→利好美股成长股分母端→A股算力链估值压力缓和",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609283885067634.html",
+   "ts": "2026-09-28 13:06:05"
+  },
+  {
+   "cat": "macro",
+   "title": "三菱日联大摩提前日本央行加息预期",
+   "brief": "三菱日联摩根士丹利证券将日本央行加息时点从2027年1月和6月提前至2026年12月和2027年4月。",
+   "chain": "日央行加息提前→日元套息交易逆转风险→全球风险资产波动→A股算力链外资流向受扰动",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609283885069890.html",
+   "ts": "2026-09-28 13:09:47"
+  },
+  {
+   "cat": "macro",
+   "title": "中国8月工业利润增速4.2% 年内最弱",
+   "brief": "中国8月工业企业利润同比增长4.2%，为今年以来最弱增速，反映内需与价格压力仍存。",
+   "chain": "工业利润走弱→A股盈利预期承压→算力链等成长板块需靠政策与AI资本开支对冲",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/28/china-posts-weakest-industrial-profit-growth-this-year-expanding-4point2percent-in-august-.html",
+   "ts": "Mon, 28 Sep 2026 04:04:16 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "国内金饰价格普遍回落",
+   "brief": "今日国内多家品牌足金饰品价格较周六下跌约14元，周生生、水贝克价跌22元，多数降至1272-1280元/克。",
+   "chain": "金价回落→实际利率与美元走强主导→美股AI高久期票估值分母压力→A股算力链情绪偏弱",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609283885059688.html",
+   "ts": "2026-09-28 12:59:09"
+  },
+  {
    "cat": "geo",
-   "title": "特朗普拒绝伊朗开放霍尔木兹提案",
-   "brief": "伊朗提出开放霍尔木兹海峡并结束冲突的方案，特朗普予以拒绝，美伊谈判陷入僵局。",
-   "chain": "美伊谈判破裂→中东风险溢价上升压制美股风险偏好→A股算力链短期承压",
+   "title": "特朗普拒绝伊朗开放霍尔木兹提议",
+   "brief": "特朗普拒绝伊朗提出的开放霍尔木兹海峡并结束冲突的方案，美伊谈判陷入僵局。",
+   "chain": "美伊僵局→中东风险溢价抬升→美股能源与军工受益、风险偏好受压→A股算力链情绪受抑",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
-   "ts": "2026-09-26T01:59:00+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "本周市场聚焦美联储双重使命",
-   "brief": "CNBC列出本周四大看点：美联储双重使命两端均受关注，美光财报与礼来更新在列。",
-   "chain": "就业与通胀数据博弈→美股AI高久期估值分母波动→A股算力链情绪跟随",
-   "impact": 7,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/09/27/here-are-the-4-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
-   "ts": "2026-09-27T16:16:43+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "AI服务器液冷订单火爆厂商扩产",
-   "brief": "AI服务器液冷订单排到2027年，营收增速超400%，产能赶不上交付，多家公司扩产。",
-   "chain": "液冷需求爆发→美股AI基础设施链景气验证→A股液冷/散热算力链直接受益",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609283884543310.html",
-   "ts": "2026-09-28 01:40:44"
+   "ts": "2026-09-26T20:26:25+00:00"
   },
   {
    "cat": "geo",
-   "title": "泽连斯基称俄袭击乌数据中心",
-   "brief": "俄夜间空袭致乌多地至少6人死亡，并袭击基辅多个大型数据中心，扎波罗热3人死亡。",
-   "chain": "俄乌冲突升级波及数据中心→美股AI基建安全溢价上升→A股算力链情绪扰动",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609283884539996.html",
-   "ts": "2026-09-28 00:25:21"
+   "title": "俄打击乌克兰最大移动运营商及数据中心",
+   "brief": "俄罗斯袭击乌克兰最大移动运营商并打击数据中心，乌方通信与数字基础设施受损。",
+   "chain": "俄乌冲突升级→欧洲风险溢价与能源担忧→美股风险偏好受压→A股算力链情绪受抑",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMzNYXzZmVUxfWFM4bHFTcUpnN0VKSDFxX3RtdmN6RzlSMXJOX04yQWxjOXByaGNTMmdPYnhpRGhKbEhIWGp5X0UzeFZKWnZ0S0dLVVdWTkJiX0doUkNEbjQxelIweHBIOEJmRU50TVRWLTludHN5RHh3U3Vhd1JucjNCWkZWZ0dkMEo3ZEpuLTVvdG9RdGl5MnE3T0lEaEVha1JfeGoyYU1sXzVYeml6QU11RnZ6Qnpla3NJYlhGTEpndTdnMFpB?oc=5",
+   "ts": "2026-09-27T14:25:43+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "特朗普称英国美军基地被捕者图谋大破坏",
+   "brief": "特朗普称在英国美军使用基地被捕的男子意图造成'重大破坏'，事件引发安全关注。",
+   "chain": "安全事件→地缘风险溢价上升→美股风险偏好受压→A股算力链情绪偏谨慎",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOThaUHcwMHZuZEY2dldUNjhYQ29PeWRJdEYxWFBPV3NEUUdSc0l4MkdhN3liTGdyNG9XaEhwWG8xRk8xR29JVlA0ZEV2ZXM3RVZCRDlPSHhzU29Pek9tZVREdUdvOHRXS1ZuaTR0TXVGV253bkplU1lNbG85WXRjYzcwV2ZSekFCa1gtR1RtV09zM3NYeF93?oc=5",
+   "ts": "2026-09-27T07:11:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "内塔尼亚胡周日访问阿布扎比",
+   "brief": "以色列官员称总理内塔尼亚胡周日访问阿布扎比，推动地区关系与加沙局势协调。",
+   "chain": "以阿互动→中东局势演变→油价与避险情绪波动→美股风险偏好与A股算力链情绪受牵动",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY0pGMVlCUkt6b01MNWJkNlc5WlA2dlV1bUs3MDl2LXhhWFU3MGVEenBLQk1SaHNSMU1LNlh1SUpDWUloTzROY0pvb3JnWjJOUmlFSXdiNDVEeXBsRDFZb3gyVUlOY1B3UWc2MVZFLXllN1BkVlV6SXNKWWx0ZVV2azFEOVRmSE84THhKX0lLZTMyanowSnNNb0ItOGc5blhxOVR6UDQwdXVpNVljMnpwbHJBRkEzYk9mQWc?oc=5",
+   "ts": "2026-09-27T20:01:43+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "布伦特涨2.7% 特朗普拒开霍尔木兹",
+   "brief": "特朗普拒绝伊朗重开霍尔木兹海峡提议后，布伦特原油上涨2.7%，中东供应风险溢价回升。",
+   "chain": "霍尔木兹受阻风险→布伦特上行→莫桑比克LNG项目经济性与东非能源投资吸引力提升",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/28/oil-price-today-wti-brent-trump-iran.html",
+   "ts": "Mon, 28 Sep 2026 04:16:27 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "中东9月石油出口回升 沙特增运",
+   "brief": "9月中东石油出口反弹，沙特阿拉伯提高装运量，抵消部分此前供应担忧。",
+   "chain": "中东出口回升→原油供应增加、油价上行受限→莫桑比克油气经营需关注价格波动",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdHV0WUlQdWJ2UVdjY2FzaFliQU1TaEEtYmJQUzVUbjUwcWJkNkhZSXYwV1BwbkFqY3Z6MVRkT21jbWhCUEg0eGY0TnFnY25XVjFiQzBMbE5yOXJlbzZVYVZ3UTJMc1BjLUFtb0FVaDRWVW9jRVFUZDQ0N2hGX19NREk0MHhZZVNSekNVb01JLWVPR0gzdm9fQ1ZTbFlHa2hYSDFBY2JpdkpmeDRFM0dpU0VmdHluNzZGbkpZ?oc=5",
+   "ts": "2026-09-28T00:17:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "美国将敲定大幅放松新车油耗标准",
+   "brief": "美国交通部定于28日出台乘用车与轻型卡车燃油新标，大幅放松油耗标准，或放缓电动化。",
+   "chain": "油耗标准放松→美国石油需求中期抬升→油价获支撑→莫桑比克油气项目需求面偏正面",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQVBRNVl3X3FfSjZmOTlqUEZsS0RlN2ZkQnU3cF9oSVA3SVhaUFVKdC1saW1UQ3hKQk5FUHpfUjE2MERFLXVyQU8zRktURUxjVnVzMHk4a3RlV2FKaUNITWxBWmsxdUxTd2VyNngtZzZHeWpfNGd1OXVldFhwMlRRbkFOOEJFSnBYbkZpV1BJUk05N0ZRUzdVYzMtVHBTbUxtbnNrYWJxcXBqY1h1QmgzWg?oc=5",
+   "ts": "2026-09-26T21:25:15+00:00"
   },
   {
    "cat": "gas",
-   "title": "卡塔尔分别与美伊谈判代表磋商",
-   "brief": "卡塔尔正分别与伊朗和美国谈判代表进行磋商，试图重启美伊谈判，但双方关键分歧巨大。",
-   "chain": "斡旋重启预期→中东LNG供应风险溢价边际缓和→莫桑比克LNG出口竞争窗口与东非气价预期改善",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609273884536496.html",
-   "ts": "2026-09-27 23:16:53"
-  },
-  {
-   "cat": "macro",
-   "title": "三季度新增专项债发行提速",
-   "brief": "截至9月27日，三季度各地新增专项债发行规模达12981.49亿元，为年内发行量最大季度。",
-   "chain": "专项债提速→基建与算力投资资金到位→A股算力/基建链中期需求支撑",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609283884541647.html",
-   "ts": "2026-09-28 01:20:00"
-  },
-  {
-   "cat": "tech",
-   "title": "SK海力士关注英特尔俄亥俄厂址",
-   "brief": "SK海力士正关注英特尔俄亥俄州厂址，美光或需留意，存储与晶圆产能布局生变。",
-   "chain": "存储产能再布局→美股半导体供应链重估→A股存储/封测链联动",
-   "impact": 6,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/technology/articles/sk-hynix-eyeing-intel-intc-043316388.html",
-   "ts": "2026-09-23T04:33:16Z"
-  },
-  {
-   "cat": "ai",
-   "title": "国内首部AI院线电影定档",
-   "brief": "博纳影业宣布首部AI超写实院线电影《三星堆：未来往事》定档2026年10月23日。",
-   "chain": "AI影视落地→美股AI应用叙事延伸→A股AI内容/传媒链催化",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609273884537830.html",
-   "ts": "2026-09-27 23:32:40"
-  },
-  {
-   "cat": "geo",
-   "title": "也门市场遭袭七人死亡",
-   "brief": "胡塞武装控制的卫生部称，也门一市场遭袭致七人死亡，地区冲突持续。",
-   "chain": "也门冲突延续→中东地缘风险溢价维持→A股算力链情绪中性偏空",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQjI3MkxLdHM5cEZjNElqWk1FbnN6bnFnN2Rzdm0teV9IM3lBYnVkNUJuci0xS281b0dlTVJwalJpOEZmNGc0RmJLeUhreUV0QWtybE9YZU8waUNsM1BybjdUR1hSQ0lNWmpPZktPQ2k5VksyZ0dhd3p0QTVDOWhrUGgxQzhIU3A0Y0tiaUpWS0JoZlZqUnJZbXBpOUwxeWxESG1pR1RtYW9aSmhHTE1XN21POGIxa05xcHJ2SDQ3RkxQbGc?oc=5",
-   "ts": "2026-09-27T11:04:46+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "瑞士公投否决更严格中立原则",
-   "brief": "瑞士9月27日公投否决更严格中立提案，该案若通过将禁止瑞士实施经济制裁或与北约合作。",
-   "chain": "瑞士维持制裁能力→去美元化与避险资产配置逻辑不变→黄金与美股AI估值分母中性",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609273884535856.html",
-   "ts": "2026-09-28 00:30:35"
-  },
-  {
-   "cat": "tech",
-   "title": "派拉蒙承诺好莱坞以拿下WBD",
-   "brief": "派拉蒙CEO David Ellison的反垄断和解缓解院线担忧，但收购WBD仍存疑问。",
-   "chain": "媒体并购推进→美股传媒板块整合预期→A股传媒链情绪外溢有限",
+   "title": "柴油价格飙升 电动卡车在欧更划算",
+   "brief": "环保组织称受伊朗相关柴油价格飙升影响，电动卡车在关键欧盟市场已比柴油车更便宜。",
+   "chain": "柴油价格飙升→欧洲燃料成本上升、LNG替代需求受关注→莫桑比克LNG对欧出口机会增加",
    "impact": 4,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/09/25/paramount-hollywood-promises.html",
-   "ts": "2026-09-25T22:31:32+00:00"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZVBWUjdTSkRRcUtpSUp6djB6M1NoZHpMQmlsRXBpU3R2Z0ZuT2dOa09tYzBoQ1hQbXFGbVJGa3c2TmFiZ0JaUF85cU15bXVOcTBKdUgyYWdoUGRJT1htcmZEN0NJMGJlT0JtWHBPQjZJeDhiMzlQWFBYWFl3WDRMNE5nem12bkFobF8yMFJMaTZ4bkZwRVVQbEUwZG5UY0lXR1VZTnRFNVhZSkcxYnkxT3hsQTZlOF9UaEt4Q1VTem1PUURnQjdFRWViN0QtSzBVb0tlcFFpUnFFSFBMMnc?oc=5",
+   "ts": "2026-09-27T22:02:38+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "台积电参股VIS新加坡晶圆厂投产即满产",
+   "brief": "台积电参股芯片制造商VIS在新加坡首座先进晶圆厂启用即满产，并已着眼建设第二座工厂。",
+   "chain": "AI基础设施需求旺盛→先进制程产能扩张→美股半导体链景气→A股算力链设备与材料受益",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609283885056676.html",
+   "ts": "2026-09-28 12:46:59"
+  },
+  {
+   "cat": "tech",
+   "title": "SpaceX准备首次将星舰送入轨道",
+   "brief": "SpaceX准备首次将星舰火箭送入轨道，标志其重型运载与商业航天能力再进一步。",
+   "chain": "星舰首飞→商业航天与卫星互联网加速→美股航天链情绪提振→A股卫星与算力链主题联动",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/28/spacex-prepares-to-send-starship-rocket-to-orbit-for-first-time.html",
+   "ts": "Mon, 28 Sep 2026 04:12:20 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "摩根大通下调特斯拉目标价至415美元",
+   "brief": "摩根大通将特斯拉目标价从445美元下调至415美元，反映对电动车竞争与需求的谨慎。",
+   "chain": "特斯拉目标价下调→美股电动车链情绪承压→A股新能源车与智驾链估值受牵动",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609283885055094.html",
+   "ts": "2026-09-28 12:37:53"
+  },
+  {
+   "cat": "tech",
+   "title": "全球网联汽车2035年将超10亿辆",
+   "brief": "Omdia预计全球网联汽车保有量2035年超10.5亿辆，较2025年的4.737亿辆翻倍以上。",
+   "chain": "网联汽车渗透率提升→车载芯片与软件需求增长→美股汽车科技链受益→A股智能汽车链联动",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609283885054450.html",
+   "ts": "2026-09-28 12:37:02"
   },
   {
    "cat": "ai",
-   "title": "蓝领AI就业市场繁荣但数据中心遇阻",
-   "brief": "AI数据中心遭公众反对、多州放缓开发，但暖通、管道等蓝领岗位需求旺盛。",
-   "chain": "数据中心扩张受阻→美股AI基建节奏扰动→A股算力链中期需求节奏关注",
-   "impact": 5,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/09/26/blue-collar-jobs-ai-data-center-backlash.html",
-   "ts": "2026-09-26T13:43:42+00:00"
+   "title": "Anthropic CEO将赴白宫会见特朗普",
+   "brief": "Anthropic CEO Amodei在错过国宴后，将于白宫与特朗普会面，AI政策与治理受关注。",
+   "chain": "AI巨头与白宫互动→AI监管与政策预期升温→美股AI龙头估值受牵动→A股算力链情绪联动",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/27/dario-amodei-set-to-have-dinner-with-trump-after-missing-state-dinner.html",
+   "ts": "Sun, 27 Sep 2026 19:13:27 GMT"
   },
   {
-   "cat": "macro",
-   "title": "华尔街资金重夺股市主导权",
-   "brief": "机构投资者重新成为股市驱动力，有机构视其为风险偏好的合理建设性信号。",
-   "chain": "机构风险偏好回升→美股AI成长股资金面改善→A股算力链情绪正向传导",
-   "impact": 5,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/09/27/institutional-investors-stocks-treaurys-retail-traders.html",
-   "ts": "2026-09-27T11:32:35+00:00"
-  },
-  {
-   "cat": "tech",
-   "title": "小众AI芯片股翻倍光学速度翻番",
-   "brief": "一只鲜为人知的AI芯片股股价翻倍，其新芯片将光学速度提升一倍。",
-   "chain": "AI芯片性能突破→美股半导体细分景气→A股光模块/算力链映射",
-   "impact": 5,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/technology/ai/articles/little-known-ai-chip-stock-042916921.html",
-   "ts": "2026-09-23T04:29:16Z"
-  },
-  {
-   "cat": "geo",
-   "title": "沙特大穆夫提号召军队准备对胡塞作战",
-   "brief": "沙特最高宗教权威大穆夫提呼吁军队做好牺牲准备、打击也门胡塞武装，标志沙特对胡塞立场进一步强硬。",
-   "chain": "沙特-胡塞对抗升级→中东风险溢价与红海航运扰动→对莫桑比克LNG东向航运与区域安全环境构成间接压力",
+   "cat": "ai",
+   "title": "MiniMax新模型M3.1-Flash-Preview上线",
+   "brief": "MiniMax上线文本模型M3.1-Flash-Preview并开启公测，支持原生多模态及百万上下文。",
+   "chain": "国产大模型迭代→AI应用与算力需求提升→美股AI链情绪联动→A股算力链与应用端受益",
    "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTXZJVk41ZE5xYUdhR0dIQjd0eVNzaWlmNVd3VmNNZTEyc2dZOWlnZm1nYW9xU19UNTNia0ZLaDUya2xYcXpYRW1tcUJVa0phSUlfOU82SXJHZjc1WHJTUFV5MkNRZUJ0LXFOSG8zRUswZGtJbHktVkZPeGJKd1lUMVBldUlwbGlXOW5qYm1VbnhJVU9QQ0x3Z1ZtNVpjMTVRNXZOZTJvbHZyNjZINzBYc3hvYVpWRndIbldwWjBCUDhJMnhyWVNmTkhxVUU?oc=5",
-   "ts": "2026-09-26T01:19:47+00:00"
-  },
-  {
-   "cat": "tech",
-   "title": "世界首个紧凑型聚变装置BEST线圈盒批量交付",
-   "brief": "国机重装德阳基地完成BEST装置8件TF线圈盒批量件发运，为全球首个紧凑型聚变能实验装置关键部件。",
-   "chain": "聚变工程化提速→美股核聚变/电力设备主题情绪升温→映射A股可控核聚变与超导磁体产业链",
-   "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609273884513983.html",
-   "ts": "2026-09-27 21:55:00"
+   "url": "https://finance.eastmoney.com/a/202609283885056519.html",
+   "ts": "2026-09-28 12:46:04"
   }
  ]
 }
