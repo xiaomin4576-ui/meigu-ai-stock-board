@@ -1,0 +1,224 @@
+{
+ "asof": "2026-09-30",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-09-30T00:57+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 11,
+  "cluster_label": "",
+  "cluster_dropped": [],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "美联储理事巴尔：可能需要继续加息",
+   "brief": "美联储理事巴尔称可能需要进一步政策调整、重新校准政策，预计下半年GDP增速较上半年2%略有回升。",
+   "chain": "鹰派表态→美债收益率上行压制美股高估值成长股→A股算力链估值分母承压、情绪偏空",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609303886832654.html",
+   "ts": "2026-09-30 00:42:43"
+  },
+  {
+   "cat": "macro",
+   "title": "美国消费者信心跌至2014年以来最低",
+   "brief": "受物价上涨与就业担忧加剧影响，美国消费者乐观情绪降至2014年以来最低水平。",
+   "chain": "消费信心走弱→美股消费与周期板块承压、衰退担忧升温→A股出口链与内需链情绪偏谨慎",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/29/consumer-optimism-slides-sharply-as-fears-escalate-over-rising-prices-and-jobs.html",
+   "ts": "Tue, 29 Sep 2026 16:52:00 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "欧元兑美元跌至1.1318 创逾一年新低",
+   "brief": "欧元兑美元跌至1.1318，创2025年5月以来新低，美元走强格局延续。",
+   "chain": "美元走强→美股跨国企业海外盈利折算承压、风险偏好受抑→A股外资流入与人民币汇率联动偏空",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609303886834896.html",
+   "ts": "2026-09-30 00:48:59"
+  },
+  {
+   "cat": "macro",
+   "title": "欧洲央行官员：不排除10月加息可能",
+   "brief": "欧洲央行Demarco称近期长期债券收益率上升令人担忧，不排除10月份加息的可能性。",
+   "chain": "欧央行鹰派→全球长端利率上行、美债联动走高→压制美股AI高久期估值、A股算力链情绪承压",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609293886826437.html",
+   "ts": "2026-09-29 23:56:50"
+  },
+  {
+   "cat": "macro",
+   "title": "法国计划2027年发行创纪录3400亿欧元债券",
+   "brief": "法国计划在2027年发行创纪录的3400亿欧元债券，财政融资规模显著扩张。",
+   "chain": "欧洲财政扩张→欧债供给压力与长端利率上行→全球利率中枢抬升，压制美股成长股与A股算力链估值",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609303886827783.html",
+   "ts": "2026-09-30 00:01:03"
+  },
+  {
+   "cat": "geo",
+   "title": "美军撤离伊拉克 留下伊朗填补真空",
+   "brief": "美军在驻留二十年后撤出伊拉克，为伊朗扩大地区影响力留下空间，中东格局生变。",
+   "chain": "中东权力真空→美股能源与防务板块波动加大、避险情绪升温→A股油气与军工链情绪受扰",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPalJlU2twR3RkNzhyVlFwZmJkZmg3RXQ3VEpxTFowU2dhY1pEeG8wZWlLQ2NVb0lNUERZQXRSdThEbWdxdGx6aExDVkFGNHdUVkZwRFlSclVvYWxEVk5wTFlYQVZmblBJUlcxZ180Sm9YdWtXNDZoZkVfYVQ5aDR1VTZIMGFRWnNsVEs5LVJWMkVXWmpaVnIzd2hBTzl5M1pIenM3c09RaW41aEVoOWRSRkNB?oc=5",
+   "ts": "2026-09-29T06:05:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "特朗普否认以解除制裁换伊朗核让步",
+   "brief": "特朗普否认曾提出以放松制裁换取伊朗在核问题上的让步，美伊谈判前景仍不明朗。",
+   "chain": "美伊博弈反复→美股风险偏好与油价波动加大→A股能源与航运链情绪受牵动",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLVF4LWZMa3hVb1J2cTVXVjRXdmh0RkFkMkY4MHVWVTVhQmZCQjJpT1l2QmExeFBXd3FRa256Z1Z1Z3k3UFQzOGY5VW1OSHBrcFVGQjkzVkdRaG1rc3FkR19CY3dhajI3cy0zOFZUb2tkTkRLUDN1aHdYd0tRMHM2ZVZiMk1Ld0dvZEhzX0JsblduWjdGa0dfZ3pzSDRqejRRdWZUY0RQUzA?oc=5",
+   "ts": "2026-09-29T03:15:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "鲁比奥称英国空军基地事件涉外国国家",
+   "brief": "美国国务卿鲁比奥表示英国空军基地发生的事件涉及某个外国国家，事件性质引发关注。",
+   "chain": "大国安全摩擦升级→美股避险情绪升温、防务板块受关注→A股军工链情绪获催化",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORFpiaUU2ZUhub0d4T044ZzdtZEhwSklBLXRIMk9RWk8wMUlSUElhV0FydEMyN3R4enJjVmttUS1Cb0xoeklqQmMwOG9Rb3F4Mzd1bmtXSHRVM0ZKSWE3X2oweDN3emF0SHpnXzhGbGJpSUg2Nk0wNlZlUTlLNl9SRU4tRWdqNHp2WHFpck5ha2s3SXhfNk0yREVTak1RQWM?oc=5",
+   "ts": "2026-09-29T10:25:41+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "摩洛哥国王任命首位女性首相",
+   "brief": "摩洛哥国王穆罕默德六世任命法蒂玛·扎赫拉·曼苏里为新任首相，系该国历史上首位女性首相。",
+   "chain": "北非政局新变化→对美股直接影响有限→关注非洲能源与基建投资环境的中长期信号",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609303886833386.html",
+   "ts": "2026-09-30 00:45:53"
+  },
+  {
+   "cat": "oil",
+   "title": "美国宣布释放最多4000万桶战略石油储备",
+   "brief": "美国宣布从战略石油储备中提供最多4000万桶原油以增加市场供应，国际油价应声下跌。",
+   "chain": "SPR释放增加供应→Brent/WTI承压回落→莫桑比克油气项目短期售价与现金流预期边际走弱",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609293886824468.html",
+   "ts": "2026-09-29 23:48:16"
+  },
+  {
+   "cat": "oil",
+   "title": "白宫敦促欧盟动用柴油应急库存",
+   "brief": "消息人士称白宫已敦促欧盟动用柴油应急库存，以降低全球柴油价格，成品油市场紧张受关注。",
+   "chain": "柴油供应博弈→全球成品油价格与炼油利润波动→东非柴油进口成本与莫桑比克作业燃料成本受影响",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609303886830962.html",
+   "ts": "2026-09-30 00:22:56"
+  },
+  {
+   "cat": "oil",
+   "title": "伊朗谈判降温 油价涨势熄火",
+   "brief": "美伊谈判进展令此前的地缘溢价回落，原油涨势明显降温。",
+   "chain": "地缘溢价回吐→Brent/WTI自高位回落→莫桑比克LNG与油气项目售价预期边际降温",
+   "impact": 7,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Iran-Talks-Take-the-Heat-Out-of-the-Oil-Rally.html",
+   "ts": "Tue, 29 Sep 2026 10:30:00 -0500"
+  },
+  {
+   "cat": "oil",
+   "title": "印度卢比跌破96关口 油价忧虑加深",
+   "brief": "受油价担忧加深影响，印度卢比跌至两个月低点，跌破96兑1美元关键关口。",
+   "chain": "高油价压制新兴市场货币→原油进口国需求与炼油利润承压→东非能源进口成本与区域汇率风险上升",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbHNTZW52Uy1FNUw2R1RIaEFLa2RMZ25fLUNZMHluYUVBbW9WbTFIV1oxUE82WmtKSnNBN2pDSEI5cnF5Q0d5bWgyeHViT0VaV1dXNzBKbVhDLUhWMmRmQURUdEZua2E5eEZiNDJEVkUyamphM1pfRHVOa1NFSFpTazMzNWlQeVBKazNwWTFCNkpOMFBDYTZSaFhOb29LY1F5VmhGYUNxR19VV1VGVHhBdUc1UXUyLVh2LXp6bzNQWQ?oc=5",
+   "ts": "2026-09-29T03:45:00+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "三个欧盟国家呼吁设定2040可再生能源新目标",
+   "brief": "三个欧盟成员国呼吁为2040年设定新的可再生能源目标，欧洲能源转型节奏受关注。",
+   "chain": "欧洲绿能目标加码→长期压制天然气需求预期、TTF气价承压→莫桑比克LNG长期买家与项目经济性受关注",
+   "impact": 6,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Three-EU-Nations-Call-for-New-2040-Renewable-Energy-Goal.html",
+   "ts": "Tue, 29 Sep 2026 09:30:00 -0500"
+  },
+  {
+   "cat": "tech",
+   "title": "三星向英伟达与KKR支持的AI基建公司注资10亿美元",
+   "brief": "三星将向英伟达和KKR支持的AI基础设施公司注入10亿美元，加码算力基建布局。",
+   "chain": "算力基建投资加码→美股AI硬件与半导体链获支撑→A股算力链（服务器/光模块/PCB）情绪获催化",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/29/samsung-investment-nvidia-kkr-ai-helix-digital.html",
+   "ts": "Tue, 29 Sep 2026 01:48:52 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "AMD一度跻身万亿美元俱乐部",
+   "brief": "AMD市值一度突破1万亿美元，Cramer称其强劲涨势尚未结束。",
+   "chain": "AI芯片龙头市值突破→美股半导体板块风险偏好抬升→A股算力芯片与国产替代链情绪获提振",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/28/jim-cramer-amd-lisa-su-agentic-ai.html",
+   "ts": "Mon, 28 Sep 2026 22:27:10 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "智能戒指厂商Oura因市场不确定性推迟IPO",
+   "brief": "智能戒指制造商Oura以市场不确定性为由推迟IPO，硬件初创融资环境受关注。",
+   "chain": "硬件IPO推迟→美股科技新股与消费电子板块情绪偏谨慎→A股消费电子链估值情绪边际承压",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/29/smart-ring-maker-oura-postpones-ipo-due-to-market-uncertainty.html",
+   "ts": "Tue, 29 Sep 2026 13:50:01 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "Meta在美国推出Facebook群组论坛应用",
+   "brief": "Meta Platforms在美国推出面向Facebook群组的论坛应用，继续拓展社交产品形态。",
+   "chain": "社交产品迭代→对美股Meta广告变现影响待观察→A股社交与传媒链情绪影响有限",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609303886827890.html",
+   "ts": "2026-09-30 00:01:54"
+  },
+  {
+   "cat": "ai",
+   "title": "OpenAI因安全担忧放弃发布新模型",
+   "brief": "OpenAI放弃发布即将推出的模型，安全担忧升级，引发对AI能力与治理节奏的关注。",
+   "chain": "头部模型发布推迟→美股AI叙事与算力需求预期短期受扰→A股算力链情绪边际承压",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/28/openai-abandons-plan-to-release-upcoming-model-as-safety-concerns-escalate.html",
+   "ts": "Mon, 28 Sep 2026 23:19:46 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "扎克伯格、Amodei等科技高管将会晤特朗普",
+   "brief": "扎克伯格、Amodei等科技高管定于周二与特朗普会面，AI政策与产业议题受关注。",
+   "chain": "AI政企对话升温→美股AI监管预期与产业政策走向受关注→A股AI应用与算力链情绪获催化",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/28/trump-ai-tech-lunch.html",
+   "ts": "Tue, 29 Sep 2026 10:21:33 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "议员拟推AI安全法案 禁递归技术",
+   "brief": "Khanna将提出AI安全法案，在保障措施到位前禁止“递归”技术，AI治理立法推进。",
+   "chain": "AI安全立法推进→美股AI公司合规成本与节奏受关注→A股AI治理与安全链主题获催化",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/28/khanna-ai-safety-bill.html",
+   "ts": "Mon, 28 Sep 2026 21:43:40 GMT"
+  }
+ ]
+}
