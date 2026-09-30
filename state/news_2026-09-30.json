@@ -1,140 +1,103 @@
 {
  "asof": "2026-09-30",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-09-30T17:52+08:00",
+ "generated_at": "2026-09-30T21:04+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 2,
-  "cluster_label": "",
-  "cluster_dropped": [],
+  "cluster_label": "伊拉克/伊朗",
+  "cluster_dropped": [
+   "美制裁13个涉伊朗武器采购实体",
+   "美军撤离伊拉克 恐留安全真空"
+  ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "美联储核心通胀指标周三公布",
-   "brief": "CNBC预告美联储最看重的通胀指标将于周三发布，市场关注其对后续利率路径的指引。",
-   "chain": "核心PCE数据→决定美债利率与降息预期→压制或提振美股AI高久期估值→传导A股算力链风险偏好",
-   "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/29/the-feds-main-inflation-measure-will-be-released-wednesday-heres-what-to-expect.html",
-   "ts": "Tue, 29 Sep 2026 20:51:43 GMT"
+   "title": "美8月核心PCE同比3.0% 低于预期",
+   "brief": "美国8月核心PCE环比0.2%、同比3.0%，均低于预估，通胀降温明显。市场削减美联储10月加息押注。",
+   "chain": "核心PCE低于预期→加息预期降温、美债收益率与贴现率下行→利好美股AI高久期成长股→A股算力链风险偏好抬升",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609303887868954.html",
+   "ts": "2026-09-30 20:31:06"
   },
   {
    "cat": "macro",
-   "title": "30年美债收益率触及2002年来最高",
-   "brief": "30年期美债收益率升至2002年以来最高后压力缓解，长端利率高企引发估值担忧。",
-   "chain": "长端利率冲高→美股AI成长股贴现分母抬升→A股算力链估值情绪承压",
-   "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/30/treasury-yields-bonds-selloff.html",
-   "ts": "Wed, 30 Sep 2026 06:46:19 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "预测市场押注9月非农超预期",
-   "brief": "预测市场交易者认为美国9月新增就业高于经济学家预期，押注就业继续强劲。",
-   "chain": "非农超预期→降息预期降温、利率上行→美股承压→A股算力链情绪受抑",
-   "impact": 7,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/09/29/prediction-market-traders-september-jobs-report-will-beat-estimates.html",
-   "ts": "2026-09-29T19:11:51+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "对冲基金持有美债占比创纪录",
-   "brief": "对冲基金在30万亿美元美债市场中持仓占比创历史新高，引发对市场脆弱性的担忧。",
-   "chain": "杠杆持仓集中→美债波动放大、利率风险上升→美股风险偏好与AI估值承压",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/30/us-treasury-market-is-relying-more-on-hedge-funds.html",
-   "ts": "Wed, 30 Sep 2026 00:19:09 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "中国9月制造业PMI结束两月收缩",
-   "brief": "中国9月工厂活动结束连续两个月的收缩，重回扩张区间。",
-   "chain": "中国制造业回暖→改善全球需求预期→利好A股顺周期与算力链基本面",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/30/china-manufacturing-exports-capacity-economy-.html",
-   "ts": "Wed, 30 Sep 2026 03:39:35 GMT"
-  },
-  {
-   "cat": "geo",
-   "title": "美军撤离伊拉克 留下伊朗扩张空间",
-   "brief": "美军结束二十年驻留撤出伊拉克，为伊朗及其代理人扩大影响打开缺口。",
-   "chain": "中东权力真空→地缘风险溢价上升→美股能源与防务波动→A股情绪扰动",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPalJlU2twR3RkNzhyVlFwZmJkZmg3RXQ3VEpxTFowU2dhY1pEeG8wZWlLQ2NVb0lNUERZQXRSdThEbWdxdGx6aExDVkFGNHdUVkZwRFlSclVvYWxEVk5wTFlYQVZmblBJUlcxZ180Sm9YdWtXNDZoZkVfYVQ5aDR1VTZIMGFRWnNsVEs5LVJWMkVXWmpaVnIzd2hBTzl5M1pIenM3c09RaW41aEVoOWRSRkNB?oc=5",
-   "ts": "2026-09-29T19:05:01+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "美制裁13个伊朗武器采购相关实体",
-   "brief": "美国对13个与伊朗武器采购相关的实体实施制裁，加大对伊施压。",
-   "chain": "美伊对抗升级→中东风险溢价→美股避险情绪→A股情绪面扰动",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWWZ2NlJ3d0swV0JKWFhhREdzNmxnUlhaSlE0eFlrbUhBZ3RBMXhQeEJSS1JCTnR2UV82cTA4YW4yUDR5YnNUd1FmN2M1Z1liMWhfNEJOUnFMLVYtTzFCMjFSTWJuaWlhUFdHc3lLVE9tMHZUWkRldzJXaFd3SDdqX1NIOXJxRTBFZF9FT1Fvalg1b25FWm1RVEYySkUzZS1nNHItOXMtVUVTQjVt?oc=5",
-   "ts": "2026-09-29T21:03:51+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "俄打击基辅数据中心 北约谴责",
-   "brief": "俄罗斯 targeting 基辅数据中心，北约谴责莫斯科不负责任的核言论。",
-   "chain": "俄乌冲突升级→欧洲风险与避险情绪→美股波动→A股情绪传导",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/30/ukraine-war-russia-nato-nuclear-kyiv.html",
-   "ts": "Wed, 30 Sep 2026 08:33:09 GMT"
-  },
-  {
-   "cat": "geo",
-   "title": "北京警告若欧盟限制中企将反制",
-   "brief": "中国警告若欧盟对中国企业施加限制，将采取报复措施。",
-   "chain": "中欧贸易摩擦→全球供应链担忧→美股跨国企业承压→A股出口链扰动",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/30/china-warns-europe-increases-trade-pressure.html",
-   "ts": "Wed, 30 Sep 2026 03:39:08 GMT"
-  },
-  {
-   "cat": "geo",
-   "title": "德及盟友警告须大幅削减预算以支撑欧洲防务",
-   "brief": "德国及盟友警告，为支撑欧洲防务必须进行大幅预算削减。",
-   "chain": "欧洲防务开支上升→财政压力与国防股波动→美股防务联动→A股军工情绪",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/30/eu-budget-germany-merz-defense-trump.html",
-   "ts": "Wed, 30 Sep 2026 09:11:44 GMT"
-  },
-  {
-   "cat": "oil",
-   "title": "国际油价拉升 美油布油均涨超1%",
-   "brief": "国际油价走高，WTI涨1.17%报90.43美元，布伦特涨1.33%报97.44美元。",
-   "chain": "油价上行→布伦特逼近97美元→提升莫桑比克油气项目经济性与东非LNG议价空间",
+   "title": "美9月ADP私营就业增9万 超预期",
+   "brief": "ADP数据显示美国9月私营就业增加9万人，高于预估7.4万，就业韧性仍强。数据后美债收益率小幅走高。",
+   "chain": "ADP超预期→就业韧性推迟降息、收益率上行→压制美股高估值成长股分母→A股算力链短期承压",
    "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609303887763532.html",
-   "ts": "2026-09-30 17:19:07"
+   "url": "https://finance.eastmoney.com/a/202609303887862044.html",
+   "ts": "2026-09-30 20:16:00"
   },
   {
-   "cat": "oil",
-   "title": "美伊谈判停滞 油价企稳",
-   "brief": "美伊谈判陷入停滞抵消供应恢复影响，油价企稳。",
-   "chain": "谈判停滞→供应风险溢价支撑油价→莫桑比克油气经营受益于价格中枢上移",
+   "cat": "macro",
+   "title": "美二季度实际GDP终值2.2% 超预期",
+   "brief": "美国第二季度实际GDP年化季率终值2.2%，高于预期1.5%和前值1.5%，经济韧性好于预期。",
+   "chain": "GDP上修→经济软着陆预期强化、利率维持高位→美股盈利支撑但估值受限→A股算力链中性偏暖",
    "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609303887869220.html",
+   "ts": "2026-09-30 20:30:50"
+  },
+  {
+   "cat": "macro",
+   "title": "现货黄金短线拉涨至4207美元",
+   "brief": "PCE数据公布后现货黄金短线拉涨，现涨0.62%报4207.75美元/盎司，实际利率回落与避险需求共振。",
+   "chain": "PCE降温压低实际利率与美元→金价获支撑，作为AI高久期票估值贴现的反向温度计→A股算力链情绪偏暖",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609303887871526.html",
+   "ts": "2026-09-30 20:32:10"
+  },
+  {
+   "cat": "macro",
+   "title": "美8月先期商品贸易逆差1326亿美元",
+   "brief": "美国8月先期商品贸易逆差1326亿美元，高于预估1150亿和前值1189亿，逆差扩大超预期。",
+   "chain": "贸易逆差扩大→净出口拖累GDP、美元承压→美股周期与出口板块承压→A股出口链情绪偏谨慎",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609303887874654.html",
+   "ts": "2026-09-30 20:35:17"
+  },
+  {
+   "cat": "geo",
+   "title": "伊朗称收到美方回应 美军撤出伊拉克",
+   "brief": "伊朗表示已收到美方对其最新提案的回应，同时华盛顿正从伊拉克撤军，美伊谈判与地区格局同步演变。",
+   "chain": "美伊谈判与美军撤离伊拉克→中东不确定性抬升避险与油价→美股能源军工波动→A股算力链受地缘风险偏好扰动",
+   "impact": 8,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbEZNSGlvd0hfTjdOVTQxTEVYczRjUjdId3NlSGJDSV90UVVjTGhjaFF2OS1xckpOWElrcWRoUXNPa29WTHhsLW9yWVc2N1REdXZONl9iZ2ZUSkNOQ0xndE16LWpMa3c3T2FHWE0yajBlek1La3hVeTVnWkpLc2hhTTRNMnVILWY0RG9VbzVVZnZGV0JmM3VJWkNhVmlfNDlVMThOSVNtNlR3cFJUekNpMVZ3aE03Zw?oc=5",
-   "ts": "2026-09-30T01:39:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR2hTZHg3aFBHZnJsWE56aHhkcXdubk5JOFFvRmhzb3lWQjFrd3NVbmJDOVk4SjBTSE4tSm1pbXJVUVFGSWxKdUMwV1JhcE83TVVhWC12ZkNBZThNaGRrLXNSZE9jUWEtbWxPV3hnRDlHcFBmaldvdjNHYUxyM3NiYS1iX3BjZVZYN0hfbWdMN0Y5SDJkVHhPOHh3?oc=5",
+   "ts": "2026-09-30T11:19:28+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "以官员称flydubai备降或系恐袭",
+   "brief": "以色列官员称一架flydubai航班备降事件可能为未遂恐怖袭击，相关调查正在进行。",
+   "chain": "疑似恐袭事件→中东航空与安全风险升温→美股航空与避险资产波动→A股算力链情绪受扰",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWnpLNmZJUXN6UzQ0RlhKSFhxT2xYMWZ1R1VwYVdZX3ZuZWFTYUZyV1VYTVhralA5Y0ROVjlNVl9XOGpTSWhEcGM3UE01WVA3clNKcm5KdDZ2dUY1U3FyODdsWkkzSWs2VW5NZUJWQXFYQ0dxamNudlljZl92REs3SnFXSEUzTEswdjh4NnRia2VWZGd2TGE2SmZ6VDBQTXpiRDM0SDZSZ29ubUZUd3Zsa0E4LTBoRmxpSDRjd0JkcmhYbkNV?oc=5",
+   "ts": "2026-09-30T12:07:14+00:00"
   },
   {
    "cat": "oil",
-   "title": "美国将从SPR借出至多4000万桶原油",
-   "brief": "美国将从战略石油储备借出至多4000万桶原油，为全球协议最后一批。",
-   "chain": "SPR释放→短期增加供应、压制油价上行→莫桑比克油气售价承压",
+   "title": "布伦特原油涨幅扩大至2% 报98.1美元",
+   "brief": "布伦特原油期货涨幅扩大至2%，报98.127美元/桶，美伊谈判停滞盖过供应恢复预期。",
+   "chain": "美伊谈判停滞推升油价→Brent逼近98美元→莫桑比克油气项目经济性改善，东非LNG与原油经营受益",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609303887879118.html",
+   "ts": "2026-09-30 20:49:38"
+  },
+  {
+   "cat": "oil",
+   "title": "美将从SPR借出至多4000万桶原油",
+   "brief": "美国宣布从战略石油储备借出至多4000万桶原油，为全球联合行动的最后一批，补充市场供应。",
+   "chain": "SPR释放增加短期供应→抑制油价上行斜率→莫桑比克油气售价弹性受限，但需求端仍稳健",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYzc4cTNMeUhoSHg2R2Mxa1hVMUtWb2xGbk92dHp0aWUzejZKbWVVbjBRb240dzRuX0dNVTMwbDVPOXRJbWJhT28xTEpwTGMyZEZKMXpSTlJFLTRVZkd6RDVzYk9vZFBKNkNEdE9ENFo0WDhXaWRTZ2Q0bzBpeEFRUDM5WF9JOFpBYmJ6U3ZkRnRtdFBUQmkzN0M3WEtsazI5TDFPNEl3eHViVGNuSlJHZzBVbFN6eXdrVVNYWmx2OA?oc=5",
@@ -142,83 +105,103 @@
   },
   {
    "cat": "oil",
-   "title": "小摩：中东石油出口恢复至战前九成",
-   "brief": "摩根大通报告显示，随沙特东西管道恢复，中东石油出口已回升至战前约九成。",
-   "chain": "中东供应恢复→油价上行受限→莫桑比克油气出口面临竞争性供应压力",
+   "title": "俄罗斯将柴油出口禁令延至10月31日",
+   "brief": "俄罗斯将柴油出口禁令延长至10月31日，继续收紧全球成品油供应，柴油裂解价差获支撑。",
+   "chain": "俄柴油出口禁令延长→全球馏分油供应收紧、炼油利润走强→东非成品油进口成本上升，莫桑比克经营承压",
    "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609303887793570.html",
-   "ts": "2026-09-30 17:41:15"
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Extends-Diesel-Export-Ban-Through-Oct-31.html",
+   "ts": "Wed, 30 Sep 2026 07:30:00 -0500"
+  },
+  {
+   "cat": "oil",
+   "title": "印度增中东原油进口 削减俄油",
+   "brief": "印度增加中东原油进口、削减俄罗斯原油采购量，贸易流向重塑，中东基准需求走强。",
+   "chain": "印度转向中东油→中东原油需求与运费走强→东非原油进口成本与航运格局受牵动，莫桑比克经营需关注",
+   "impact": 5,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Boosts-Middle-East-Oil-Imports-Cuts-Russian-Flows.html",
+   "ts": "Wed, 30 Sep 2026 03:30:00 -0500"
   },
   {
    "cat": "gas",
-   "title": "三星向英伟达与KKR支持的AI基础设施公司注资10亿美元",
-   "brief": "三星将向英伟达和KKR支持的AI基础设施公司投资10亿美元。",
-   "chain": "AI数据中心扩张→电力与天然气需求上升→利好全球LNG需求→东非LNG项目受益",
+   "title": "欧盟与加拿大探索LNG销售合作",
+   "brief": "欧盟与加拿大将探索新技术联系与液化天然气销售合作，欧洲寻求多元化气源、降低对俄依赖。",
+   "chain": "欧加LNG合作→全球LNG贸易流向重塑、TTF供应预期改善→东非LNG项目面临竞争，莫桑比克需抢抓长约窗口",
    "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/29/samsung-investment-nvidia-kkr-ai-helix-digital.html",
-   "ts": "Tue, 29 Sep 2026 01:48:52 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609303887877994.html",
+   "ts": "2026-09-30 20:43:34"
   },
   {
    "cat": "tech",
-   "title": "台积电据悉评估在得州潜在投资",
-   "brief": "台积电正评估在得克萨斯州扩大美国芯片产能的潜在投资，为亚利桑那2650亿美元承诺之外的新增。",
-   "chain": "台积电赴美扩产→半导体供应链再布局→美股芯片股与设备链→A股半导体设备国产替代",
+   "title": "美光财报盘后公布 交易员提前布局",
+   "brief": "美光科技财报将于盘后公布，期权交易员已提前布局，市场关注存储芯片周期与AI需求指引。",
+   "chain": "美光财报指引→存储芯片与AI算力需求风向标→映射A股存储与算力链（兆易创新、长江存储链）",
    "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609303887767715.html",
-   "ts": "2026-09-30 17:24:04"
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/30/micron-earnings-hit-wall-street-after-the-bell-heres-how-traders-are-positioned-into-the-report.html",
+   "ts": "2026-09-30T11:34:45+00:00"
   },
   {
    "cat": "tech",
-   "title": "盛美上海在手订单170.73亿元 同比增88.2%",
-   "brief": "盛美上海披露截至9月29日在手订单170.73亿元，同比增长88.2%。",
-   "chain": "设备订单高增→验证国内晶圆厂扩产→A股半导体设备链景气上行",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609303887779354.html",
-   "ts": "2026-09-30 17:28:55"
+   "title": "苹果硬件负责人Ternus愿景渐清晰",
+   "brief": "苹果硬件负责人John Ternus的产品愿景逐渐清晰，市场关注其对公司未来硬件路线的潜在影响。",
+   "chain": "苹果硬件路线预期→消费电子供应链景气度→映射A股果链（立讯精密、蓝思科技）",
+   "impact": 5,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/29/john-ternus-vision-for-apple-is-coming-into-view-and-we-like-what-we-see.html",
+   "ts": "2026-09-29T19:08:43+00:00"
   },
   {
    "cat": "tech",
-   "title": "伯恩斯坦给予多支光通信美股跑赢大盘",
-   "brief": "伯恩斯坦给予Lumentum、Coherent、Ciena等光通信股跑赢大盘评级。",
-   "chain": "光通信看多→AI数据中心互联需求确认→美股光模块走强→A股光通信链映射",
-   "impact": 7,
+   "title": "Jacobs获英伟达三年期SaaS合同",
+   "brief": "Jacobs被英伟达选中，为其美国大型研发设施部署数据中心数字孪生平台，协议为三年期SaaS合同。",
+   "chain": "英伟达数据中心扩张→数字孪生与算力基建需求→映射A股数据中心与算力基建链",
+   "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609303887790529.html",
-   "ts": "2026-09-30 17:34:23"
-  },
-  {
-   "cat": "tech",
-   "title": "复旦微电：工业级存储部分产品价格续涨",
-   "brief": "复旦微电称下游需求旺盛，工业级存储部分产品价格仍呈上升态势。",
-   "chain": "存储涨价→半导体周期上行→美股存储股联动→A股存储链景气",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609303887763263.html",
-   "ts": "2026-09-30 17:17:54"
-  },
-  {
-   "cat": "tech",
-   "title": "波音获美海军下一代战机合同 股价涨3%",
-   "brief": "波音获得美国海军开发下一代战斗机的合同，股价上涨3%。",
-   "chain": "防务订单落地→波音基本面改善→美股防务与航空链→A股军工情绪",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/29/boeing-fighter-contract-pentagon.html",
-   "ts": "Wed, 30 Sep 2026 08:51:44 GMT"
+   "url": "https://finance.eastmoney.com/a/202609303887880131.html",
+   "ts": "2026-09-30 20:49:38"
   },
   {
    "cat": "ai",
-   "title": "中国大模型首次进入OpenAI企业付费结算体系",
-   "brief": "Baseten宣布企业用户可在OpenAI编程工具Codex中使用Kimi K3，费用计入OpenAI采购。",
-   "chain": "中国模型接入OpenAI生态→验证国产模型商业化→利好A股AI应用与算力链",
-   "impact": 8,
+   "title": "特朗普会晤科技领袖 AI安全更不确定",
+   "brief": "特朗普与科技领袖会晤后，AI安全议题更显悬而未决，监管方向不明朗。",
+   "chain": "AI安全监管不确定→美股AI龙头政策风险溢价→A股算力链情绪受监管预期扰动",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/30/after-trump-meeting-with-tech-leaders-ai-safety-in-more-chaotic-state.html",
+   "ts": "Wed, 30 Sep 2026 12:28:50 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "特朗普称与科技领袖签AI'道德约束'协议",
+   "brief": "特朗普表示与科技领袖签署了一份'道德约束'的AI协议，但缺乏强制力，治理框架仍模糊。",
+   "chain": "AI自律协议缺乏强制力→监管预期偏松、短期利好AI商业化→A股算力链情绪偏暖",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/29/tech-white-house-ai-lunch-trump.html",
+   "ts": "Tue, 29 Sep 2026 21:18:27 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "AIB与Nebius签50MW AI数据中心协议",
+   "brief": "AIB Data Centers与AI云服务商Nebius达成协议，将在美国东南部提供50MW AI数据中心容量。",
+   "chain": "AI数据中心扩容→算力基础设施投资加速→映射A股IDC与算力租赁链（润泽科技、光环新网）",
+   "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202609303887794292.html",
-   "ts": "2026-09-30 17:43:31"
+   "url": "https://finance.eastmoney.com/a/202609303887864587.html",
+   "ts": "2026-09-30 20:20:11"
+  },
+  {
+   "cat": "ai",
+   "title": "OpenAI跟进个人AI代理市场",
+   "brief": "OpenAI跟随Meta进入火热的个人AI代理市场，但用户付费意愿仍待验证。",
+   "chain": "个人AI代理竞争升温→美股AI应用商业化预期→映射A股AI应用与Agent概念链",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/30/openai-follows-meta-into-the-red-hot-market-for-personal-agents.html",
+   "ts": "Wed, 30 Sep 2026 12:04:46 GMT"
   }
  ]
 }
