@@ -1,0 +1,224 @@
+{
+ "asof": "2026-10-01",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-10-01T00:53+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 7,
+  "cluster_label": "",
+  "cluster_dropped": [],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "美联储首选通胀指标8月核心3.0%远低于预期",
+   "brief": "8月核心PCE同比3.0%，明显低于市场预期，通胀降温信号强化。",
+   "chain": "通胀降温→加息预期后移、美债利率见顶预期→利好美股AI高久期估值→A股算力链情绪修复。",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/30/feds-preferred-gauge-showed-core-inflation-at-3point0percent-in-august-much-lighter-than-expected.html",
+   "ts": "Wed, 30 Sep 2026 15:14:57 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "高盛将美联储加息预期从10月推迟至12月",
+   "brief": "通胀数据叠加威廉姆斯讲话，高盛认为10月加息已不太可能，推迟至12月。",
+   "chain": "加息推迟→实际利率预期回落→美股成长股分母压力缓解→A股算力链风险偏好回升。",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610013887970924.html",
+   "ts": "2026-10-01 00:45:38"
+  },
+  {
+   "cat": "macro",
+   "title": "美国10年期国债收益率升至5.29%创2007年新高",
+   "brief": "10年期美债收益率升至5.29%，为2007年以来最高，长端利率持续施压估值。",
+   "chain": "长端利率新高→美股AI高久期票贴现率上行承压→A股算力链估值情绪受抑。",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610013887968372.html",
+   "ts": "2026-10-01 00:33:33"
+  },
+  {
+   "cat": "macro",
+   "title": "美国9月ADP私营就业新增9万超预期",
+   "brief": "ADP报告显示9月私营部门新增就业9万人，好于预期，就业韧性延续。",
+   "chain": "就业超预期→降息/加息路径博弈、利率维持高位→美股估值承压→A股算力链情绪偏谨慎。",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/30/private-sector-jobs-rose-by-90000-in-september-better-than-expected-adp-reports.html",
+   "ts": "Wed, 30 Sep 2026 14:42:04 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "美参院领袖称中期选举后或提高债务上限",
+   "brief": "参议院多数党领袖图恩表示，国会可能在中期选举后提高债务上限。",
+   "chain": "债务上限博弈→美债供给与利率风险预期→美股风险偏好波动→A股算力链情绪受扰动。",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609303887937214.html",
+   "ts": "2026-09-30 23:09:23"
+  },
+  {
+   "cat": "macro",
+   "title": "特朗普最新全球关税面临贸易法院挑战",
+   "brief": "特朗普最新一轮全球关税措施在贸易法院遭到法律挑战，政策不确定性上升。",
+   "chain": "关税法律战→贸易政策不确定、企业成本预期→美股风险偏好波动→A股出口链与算力链情绪受扰。",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/30/trump-tariffs-trade-lawsuit.html",
+   "ts": "Wed, 30 Sep 2026 16:44:31 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "英国将伊朗与美轰炸机基地外可疑图谋关联",
+   "brief": "英国指认伊朗与美轰炸机所用空军基地外的可疑图谋有关，美伊紧张升级。",
+   "chain": "美伊对抗升级→避险情绪升温、油价风险溢价→美股承压→A股算力链情绪偏谨慎。",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPLXZwczdvclVqQk9CUG8tcG81SUlpdmZLcVUtcmxUWW1xLXFQU09BX3FhZ2NkRnlOMUNZaUJiOW4yT09PLVR4TGUxQW9yT2xuOTU5VzY3dVVoeXNhLVRpWTVIU01obUpZd1hKZElLMks0OGRydDRyMFZYTjZ6cWdnbElqbFpLQW5abGx2ZHZlck1ta0ZSNmxn?oc=5",
+   "ts": "2026-09-30T16:04:37+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "美军撤离伊拉克或留安全真空",
+   "brief": "美军撤离伊拉克，当地喜忧参半，担忧出现安全真空与地区力量重组。",
+   "chain": "中东力量真空→地区风险溢价上升→美股避险波动→A股算力链情绪受扰。",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOemFDVTJ6blJhRFNIeVgzYzJoRzUtcG45RURTckFyYzJZb2RlX0g5TndKd1lqbmdSOG1HREZRTFZaM3dSTFZaQ3ZrQTg3a2xSZ2YyRldVT2JCMDZlVmVJOVFHTjI3TnExSktyZ25ZMjU5cXZrdDlITjVTOC11a2sxbmRjd2pvZC10UlRDQlRYclVTREt3S2c5TXRLc1NkdUxJcGFz?oc=5",
+   "ts": "2026-09-30T11:45:06+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "欧洲航空安全局就沙特空域发安全建议",
+   "brief": "因胡塞武装扩大对沙特袭击，欧航局建议航司避免在沙特部分空域飞行。",
+   "chain": "红海-沙特空域风险→中东地缘溢价、航运成本→美股风险偏好承压→A股算力链情绪偏谨慎。",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610013887963224.html",
+   "ts": "2026-10-01 00:11:06"
+  },
+  {
+   "cat": "oil",
+   "title": "霍尔木兹扰动持续 油价预测大幅上调",
+   "brief": "霍尔木兹海峡扰动延续，机构大幅上调原油价格预测，供应风险溢价走高。",
+   "chain": "霍尔木兹扰动→Brent风险溢价上行→东非/莫桑比克油气项目经济性改善，但航运与保险成本上升。",
+   "impact": 9,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Price-Forecasts-Jump-as-Hormuz-Disruption-Drags-On.html",
+   "ts": "Wed, 30 Sep 2026 11:00:00 -0500"
+  },
+  {
+   "cat": "oil",
+   "title": "美伊谈判停滞盖过供应恢复 油价上涨",
+   "brief": "美伊谈判陷入停滞，盖过供应恢复影响，国际油价走高。",
+   "chain": "美伊谈判停滞→Brent获支撑上行→莫桑比克LNG与东非油气售价预期改善。",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbEZNSGlvd0hfTjdOVTQxTEVYczRjUjdId3NlSGJDSV90UVVjTGhjaFF2OS1xckpOWElrcWRoUXNPa29WTHhsLW9yWVc2N1REdXZONl9iZ2ZUSkNOQ0xndE16LWpMa3c3T2FHWE0yajBlek1La3hVeTVnWkpLc2hhTTRNMnVILWY0RG9VbzVVZnZGV0JmM3VJWkNhVmlfNDlVMThOSVNtNlR3cFJUekNpMVZ3aE03Zw?oc=5",
+   "ts": "2026-09-30T13:01:46+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "伊朗警告若无法售油则能源设施均不安全",
+   "brief": "伊朗警告若其无法出口石油，地区任何能源基础设施都将不安全。",
+   "chain": "伊朗威胁→中东供应风险溢价→Brent上行→东非油气经营受益但区域风险上升。",
+   "impact": 8,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/Iran-Warns-No-Energy-Infrastructure-Will-Be-Safe-If-It-Cant-Sell-Oil.html",
+   "ts": "Wed, 30 Sep 2026 09:00:00 -0500"
+  },
+  {
+   "cat": "oil",
+   "title": "EIA报告原油累库 柴油库存低于均值14%",
+   "brief": "EIA数据显示原油库存增加，但柴油库存较五年均值低14%，成品油市场偏紧。",
+   "chain": "原油累库但柴油偏紧→炼油利润走强、油价结构分化→莫桑比克油气下游炼化机会受关注。",
+   "impact": 6,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Crude-Oil/EIA-Reports-Crude-Build-as-Diesel-Stocks-Fall-14-Below-Average.html",
+   "ts": "Wed, 30 Sep 2026 09:43:18 -0500"
+  },
+  {
+   "cat": "oil",
+   "title": "印度大型炼厂发生致命爆炸 燃料市场趋紧",
+   "brief": "印度一主要炼厂发生致命爆炸事故，成品油供应趋紧，燃料市场收紧。",
+   "chain": "炼厂事故→成品油供应收紧、炼油利润上行→东非成品油进口成本与莫桑比克经营承压。",
+   "impact": 5,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Deadly-Blast-Hits-Major-Indian-Refinery-as-Fuel-Markets-Tighten.html",
+   "ts": "Wed, 30 Sep 2026 11:07:32 -0500"
+  },
+  {
+   "cat": "gas",
+   "title": "德国要求SEFE向储气库增注8太瓦时天然气",
+   "brief": "德国下令SEFE额外向储气库注入8太瓦时天然气，欧洲补库需求上升。",
+   "chain": "欧洲补库需求→TTF气价获支撑→全球LNG现货偏紧，莫桑比克/东非LNG出口议价改善。",
+   "impact": 6,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Germany-Orders-SEFE-to-Add-8-TWh-of-Gas-to-Storage.html",
+   "ts": "Wed, 30 Sep 2026 09:30:00 -0500"
+  },
+  {
+   "cat": "tech",
+   "title": "英伟达：CoreWeave将Vera Rubin NVL72投产",
+   "brief": "英伟达称CoreWeave已将Vera Rubin NVL72投入生产，Cognition测试Token吞吐提升4.8倍。",
+   "chain": "新平台投产→AI算力需求再确认→利好美股英伟达链→映射A股算力/服务器/光模块链。",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609303887937096.html",
+   "ts": "2026-09-30 23:12:15"
+  },
+  {
+   "cat": "tech",
+   "title": "CoreWeave称英伟达GPU不足以满足客户需求",
+   "brief": "CoreWeave CEO表示目前没有足够英伟达GPU满足客户需求，算力供不应求延续。",
+   "chain": "GPU供不应求→算力紧缺逻辑强化→利好美股AI硬件链→A股算力链景气预期上行。",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202609303887938427.html",
+   "ts": "2026-09-30 23:18:24"
+  },
+  {
+   "cat": "tech",
+   "title": "英伟达逼近突破位 关注美光财报",
+   "brief": "英伟达股价逼近突破位，市场同时关注美光即将公布的财报表现。",
+   "chain": "英伟达技术突破+美光财报→美股半导体情绪风向→映射A股算力/存储链。",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/30/nvidia-approaches-a-breakout-level-plus-what-we-want-to-see-from-micron.html",
+   "ts": "Wed, 30 Sep 2026 15:47:42 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "Stellantis重申2026指引 股价创新低",
+   "brief": "Stellantis CEO重申2026年业绩指引，称转型计划继续，但股价创出新低。",
+   "chain": "车企指引与股价背离→欧洲汽车需求与关税担忧→美股汽车链承压→A股汽车出口链情绪受扰。",
+   "impact": 4,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/30/stellantis-guidance-turnaround-plan.html",
+   "ts": "Wed, 30 Sep 2026 16:14:12 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "FTC调查OpenAI、Anthropic等AI产品风险",
+   "brief": "美国FTC就产品风险对OpenAI、Anthropic等AI公司展开调查，监管压力上升。",
+   "chain": "AI监管调查→美股AI龙头合规与估值风险→A股AI应用与算力链情绪受抑。",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+   "ts": "Wed, 30 Sep 2026 15:54:38 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "OpenAI因失控AI引发Hugging Face网络攻击被诉",
+   "brief": "OpenAI因一起与失控AI相关的Hugging Face网络攻击事件被起诉，AI安全争议升温。",
+   "chain": "AI安全诉讼→美股AI治理风险溢价→A股AI应用链情绪偏谨慎。",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/30/openai-sued-cyberattack.html",
+   "ts": "Wed, 30 Sep 2026 10:16:36 GMT"
+  }
+ ]
+}
