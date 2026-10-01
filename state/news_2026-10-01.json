@@ -1,10 +1,10 @@
 {
  "asof": "2026-10-01",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-10-01T13:45+08:00",
+ "generated_at": "2026-10-01T15:48+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 2,
+  "cross_day_suppressed": 1,
   "cluster_label": "",
   "cluster_dropped": [],
   "backfilled": 0
@@ -12,19 +12,19 @@
  "items": [
   {
    "cat": "macro",
-   "title": "美联储核心PCE降至3.0% 低于预期",
-   "brief": "美联储最看重的通胀指标8月核心PCE同比3.0%，明显低于预期，强化降息预期。",
-   "chain": "通胀降温→美债利率下行、美股AI高久期票估值分母改善→A股算力链风险偏好抬升",
+   "title": "美10年期国债收益率升至5.33% 创2002年来新高",
+   "brief": "美国10年期国债收益率升至5.33%，创2002年以来最高，欧美国债收益率继续攀升，长端利率压力显著。",
+   "chain": "长端美债利率破位→美股AI高久期票估值分母承压、风险偏好收缩→A股算力链情绪受抑",
    "impact": 9,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/30/feds-preferred-gauge-showed-core-inflation-at-3point0percent-in-august-much-lighter-than-expected.html",
-   "ts": "Wed, 30 Sep 2026 15:14:57 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610013888227841.html",
+   "ts": "2026-10-01 15:26:01"
   },
   {
    "cat": "macro",
    "title": "德国通胀创近三年新高",
-   "brief": "德国通胀升至近三年最高水平，欧元区降息路径再添变数，欧央行政策两难。",
-   "chain": "欧通胀反弹→欧央行降息受限、欧元与欧债波动→间接压制全球风险偏好与A股外资情绪",
+   "brief": "德国通胀升至近三年最高水平，欧洲通胀压力回升，市场对欧央行政策路径重新定价。",
+   "chain": "欧通胀反弹→欧央行降息预期降温、欧债利率上行→全球风险资产贴现率抬升，压制A股成长风格",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNazk0TXpBNWs4Tnc3V21JZFhFQkJFWk5TcmVBcnRyekFjYWtrTWx5MmpmcWdsb1hCaERvUjU2bkpoTWhpMWQtQ0ctRndEdk1lUmc2bXVvcHpFUC1BNy1ONDBieHZWcUE1bmxtX2x0bVZMdW5ueUZvSDNlUy1wZ2RmUlA3am5hb0x5TnZBZ2s0Vm0tTUtRdHktQXVwMXhoR0hxOWtuV0hoYw?oc=5",
@@ -32,193 +32,193 @@
   },
   {
    "cat": "macro",
-   "title": "蓝佛安：研究制定增量政策扩内需",
-   "brief": "财政部部长蓝佛安表示要研究制定针对性强的增量政策，更加注重扩大国内有效需求。",
-   "chain": "财政加码预期→A股顺周期与内需板块情绪修复→算力链受益于整体风险偏好回暖",
-   "impact": 7,
+   "title": "高市早苗：经济政策非为操纵外汇",
+   "brief": "日本首相高市早苗表示日本经济政策并非旨在操纵外汇，回应外界对日元贬值的关注。",
+   "chain": "日元政策表态→美元兑日元与套息交易走向→影响全球流动性与A股外资风险偏好",
+   "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610013888208241.html",
-   "ts": "2026-10-01 12:48:30"
+   "url": "https://finance.eastmoney.com/a/202610013888229226.html",
+   "ts": "2026-10-01 15:35:15"
   },
   {
    "cat": "macro",
-   "title": "中央金融机构注资特别国债10月8日发行",
-   "brief": "财政部拟10月8日发行2026年中央金融机构注资特别国债（一期），5年期固定利率附息债。",
-   "chain": "特别国债发行→银行资本补充、流动性投放→A股金融与算力链资金面预期改善",
-   "impact": 6,
+   "title": "高市早苗：适当控制年度国债发行量",
+   "brief": "高市早苗称将综合初期预算与补充预算，适当控制年度国债总发行量，关注日本财政纪律。",
+   "chain": "日债发行节奏→日债收益率与日元走向→全球利率联动，间接影响A股估值环境",
+   "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610013888200557.html",
-   "ts": "2026-10-01 11:54:01"
+   "url": "https://finance.eastmoney.com/a/202610013888229183.html",
+   "ts": "2026-10-01 15:33:40"
   },
   {
    "cat": "macro",
-   "title": "美元指数升至两个月高点101.62",
-   "brief": "美元指数DXY上涨至两个月高点101.62，非美货币承压，全球资金流向美元资产。",
-   "chain": "美元走强→压制美股AI高久期票与新兴市场风险偏好→A股算力链外资流入承压",
+   "title": "房贷利息“国补”启动 财政增量政策将出",
+   "brief": "居民购房贷款财政贴息政策10月1日起正式落地，另一项财政增量政策亦将出台，扩内需信号明确。",
+   "chain": "财政贴息落地→地产与消费预期修复→A股地产链、内需消费板块情绪提振",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610013888204811.html",
-   "ts": "2026-10-01 12:31:39"
+   "url": "https://finance.eastmoney.com/a/202610013888224794.html",
+   "ts": "2026-10-01 15:08:04"
   },
   {
    "cat": "geo",
-   "title": "习近平国庆强化对台警告",
-   "brief": "国庆期间中国国家主席习近平强化对台警告，台海紧张信号在假期窗口释放。",
-   "chain": "台海紧张→美股半导体供应链风险溢价上升→A股算力链国产替代逻辑强化",
+   "title": "英国指认伊朗涉美空军基地附近图谋",
+   "brief": "英国将伊朗与美空军基地外可疑图谋相关联，英首相称伊朗在其中“扮演了角色”，美伊紧张升温。",
+   "chain": "美伊对抗升级→避险情绪与油价风险溢价抬升→美股承压、A股算力链情绪受抑",
    "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/01/china-golden-week-holiday-taiwan-consumption-travel.html",
-   "ts": "Thu, 01 Oct 2026 03:25:38 GMT"
-  },
-  {
-   "cat": "geo",
-   "title": "巴基斯坦空袭阿富汗致9死",
-   "brief": "巴基斯坦军方空袭阿富汗境内两地点，阿方称已致9死11伤，南亚局势骤然升温。",
-   "chain": "南亚冲突→区域风险溢价上升、避险情绪抬头→对A股影响偏情绪面、算力链中性",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610013888218889.html",
-   "ts": "2026-10-01 13:42:58"
-  },
-  {
-   "cat": "geo",
-   "title": "英国称伊朗涉空军基地袭击图谋",
-   "brief": "英国首相称有强烈迹象表明伊朗涉针对皇家空军费尔福德基地的可疑活动，伊方否认。",
-   "chain": "英伊对峙→中东地缘风险溢价维持→美股风险偏好受压、A股算力链情绪偏谨慎",
-   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPLXZwczdvclVqQk9CUG8tcG81SUlpdmZLcVUtcmxUWW1xLXFQU09BX3FhZ2NkRnlOMUNZaUJiOW4yT09PLVR4TGUxQW9yT2xuOTU5VzY3dVVoeXNhLVRpWTVIU01obUpZd1hKZElLMks0OGRydDRyMFZYTjZ6cWdnbElqbFpLQW5abGx2ZHZlck1ta0ZSNmxn?oc=5",
    "ts": "2026-09-30T16:19:05+00:00"
   },
   {
    "cat": "geo",
-   "title": "俄军击中乔尔诺莫斯克港货船",
-   "brief": "俄罗斯国防部称俄军击中乔尔诺莫斯克港一艘货船，黑海航运与粮食通道风险再起。",
-   "chain": "黑海冲突→航运与粮食价格波动、避险情绪→美股承压、A股算力链情绪中性偏空",
+   "title": "习近平强化台湾警告 国庆假期之际",
+   "brief": "中国国家主席习近平在国庆长假期间强化对台警告，台海地缘信号趋紧。",
+   "chain": "台海表态趋硬→亚太风险溢价上升→美股科技与A股算力链情绪双向波动",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/01/china-golden-week-holiday-taiwan-consumption-travel.html",
+   "ts": "Thu, 01 Oct 2026 03:25:38 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "俄称夜间摧毁330架乌无人机",
+   "brief": "俄国防部称俄军防空系统夜间在多个地区上空摧毁330架乌克兰无人机，俄乌冲突持续高强度。",
+   "chain": "俄乌无人机战升级→欧洲能源与防务风险溢价→间接扰动全球风险偏好与A股情绪",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610013888223946.html",
+   "ts": "2026-10-01 14:52:18"
+  },
+  {
+   "cat": "geo",
+   "title": "美启动“子午线计划”研究未来战争",
+   "brief": "美防长赫格塞思宣布启动“子午线计划”研究未来战争形态，马斯克参与领导，聚焦军事科技。",
+   "chain": "美军未来战争布局→国防科技与AI军事化预期→映射A股军工电子、算力链主题",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610013888212348.html",
-   "ts": "2026-10-01 13:18:51"
+   "url": "https://finance.eastmoney.com/a/202610013888223542.html",
+   "ts": "2026-10-01 14:32:48"
+  },
+  {
+   "cat": "oil",
+   "title": "布油重回100美元 欧美债收益率攀升",
+   "brief": "布伦特原油向上触及100美元/桶，WTI涨2%报92.26美元，欧美国债收益率继续攀升，纳指期货回吐涨幅。",
+   "chain": "布油破100→全球通胀与利率预期上行→莫桑比克油气项目现金流与东非LNG经济性改善",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610013888226985.html",
+   "ts": "2026-10-01 15:26:27"
   },
   {
    "cat": "oil",
    "title": "OPEC+周日会议料维持产量目标不变",
-   "brief": "消息人士称OPEC+产油国预计在周日会议上维持现有产量目标不变，供应端保持稳定。",
-   "chain": "OPEC+按兵不动→油价缺乏上行驱动、Brent承压→莫桑比克LNG项目成本与售价预期趋稳",
-   "impact": 8,
+   "brief": "消息人士称OPEC+产油国预计在周日会议上维持现有产量目标不变，供应政策保持稳定。",
+   "chain": "OPEC+按兵不动→油价获底部支撑但上行受限→莫桑比克油气售价与投资节奏趋稳",
+   "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaE14NjRXSUlvdDN4Q3cwYlBXYkd4dWhaN0hqNlVObWNKXy1Nd2gzUEgyUlNoS3hiSkxBN0JiLXIxX0xaMVJlRUd2MzBRaHVSSzJuNXBMLXRCSzBjUFI3b2FnVV82VDVnZ1ZPZ0c1UGNDY2xTYktBUkhfXy1VbGxJbldiU0Job0lmN1hQX2JONUFMMTZ4TVg2VS1rbldPNFpSQWdmOEdMMTlQQ2lWaDljQ2lnYzBLS1lOb21nTElYLUh3ZngyTjVz?oc=5",
    "ts": "2026-09-30T13:36:34+00:00"
   },
   {
    "cat": "oil",
-   "title": "布伦特跌至96美元 海湾出口恢复",
-   "brief": "海湾原油出口流量回升，布伦特原油回落至96美元，地缘溢价快速消退。",
-   "chain": "海湾出口恢复→Brent回落、油价风险溢价收窄→东非油气经营售价预期下修、需关注合同定价",
-   "impact": 8,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Tumbles-to-96-as-Gulf-Oil-Flows-Bounce-Back.html",
-   "ts": "Thu, 01 Oct 2026 00:17:00 -0500"
-  },
-  {
-   "cat": "oil",
-   "title": "特朗普考虑柴油出口禁令",
-   "brief": "特朗普称正考虑柴油出口禁令，但承认可能对汽油价格产生负面影响。",
-   "chain": "柴油出口限制→美国成品油裂解价差与全球柴油供应扰动→东非柴油进口成本与运营开支承压",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/30/trump-diesel-export-ban-gas.html",
-   "ts": "Wed, 30 Sep 2026 22:43:53 GMT"
-  },
-  {
-   "cat": "oil",
-   "title": "达拉斯联储：美国油气产量升但前景谨慎",
-   "brief": "达拉斯联储调查显示美国三季度油气产量上升，但生产商对价格前景持谨慎态度。",
-   "chain": "美产量上升+价格谨慎→全球油市供应宽松预期→莫桑比克油气项目回报预期偏保守",
-   "impact": 6,
+   "title": "达拉斯联储：美油气产量升 生产商忧价格",
+   "brief": "达拉斯联储调查显示美国三季度石油与天然气产量上升，但生产商对价格前景保持谨慎。",
+   "chain": "美产量上升+价格担忧→压制油价上行空间→莫桑比克LNG长期合同定价承压",
+   "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONkJmckhvcEF2eGlycEZxakpEWU9PdGhueEptR25MUXlsbkJMN0tiS2piSUlkeGtlNkxyaldDNUFNWjFlVGFIU1QzbnU1R1pXSWJnWTh2dDFhS1drZ0JRSHBLaTNJY0hwTXZ2c09hYXI4VlI0ZEhDdFpHRERnMWRTSDQxMHBXVWo1cVRVekpSSVkzQ0ZWMkhyWVRKNTRYc3U0X0pfY2VYNjFHZ0QwdGZQYWZjVENzUmt6MnI3ZlAyNzJpLWdQbDQ1NGd3?oc=5",
    "ts": "2026-09-30T16:34:02+00:00"
   },
   {
    "cat": "gas",
-   "title": "韩国总统对阿拉斯加LNG项目态度保留",
-   "brief": "韩国总统李在明在特朗普宣扬首尔参与后，对阿拉斯加LNG项目表达保留立场。",
-   "chain": "阿拉斯加LNG参与存疑→全球LNG长期供应格局生变→东非/莫桑比克LNG在亚洲市场竞争窗口或改善",
-   "impact": 7,
+   "title": "韩总统对阿拉斯加LNG项目态度保留",
+   "brief": "特朗普宣扬首尔参与阿拉斯加LNG项目后，韩国总统李在明对该项目表达保留态度，美韩能源合作存变数。",
+   "chain": "阿拉斯加LNG推进受阻→全球LNG供应增量预期下调→东非/莫桑比克LNG竞争格局相对改善",
+   "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/10/01/trump-south-korea-investment-alaska-lng-nuclear-power.html",
    "ts": "Thu, 01 Oct 2026 05:44:18 GMT"
   },
   {
-   "cat": "gas",
-   "title": "巴基斯坦与伊朗磋商LNG过霍尔木兹",
-   "brief": "巴基斯坦据悉正与伊朗磋商，以确保液化天然气安全通过霍尔木兹海峡。",
-   "chain": "霍尔木兹LNG通行安全受关注→全球LNG航运风险溢价上升→莫桑比克LNG东向航线相对受益",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610013888208559.html",
-   "ts": "2026-10-01 12:55:00"
-  },
-  {
-   "cat": "gas",
-   "title": "欧盟天然气紧张迫使重审甲烷规则",
-   "brief": "欧盟天然气供应紧张，迫使政策制定者重新审视甲烷排放规则，气源争夺加剧。",
-   "chain": "欧盟气紧→TTF气价与全球LNG现货需求走强→莫桑比克LNG对欧出口议价能力提升",
-   "impact": 6,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Natural-Gas/EU-Gas-Crunch-Forces-Rethink-of-Methane-Rules.html",
-   "ts": "Wed, 30 Sep 2026 18:00:00 -0500"
-  },
-  {
    "cat": "tech",
    "title": "美光财报超预期 数据中心收入暴增",
-   "brief": "美光科技财报超预期并给出强劲指引，数据中心收入同比暴增11倍，存储需求旺盛。",
-   "chain": "美光业绩超预期→美股半导体与AI硬件链走强→A股存储/算力链映射受益",
+   "brief": "美光科技第四财季业绩超预期并给出强劲指引，数据中心收入同比大增11倍，存储需求强劲。",
+   "chain": "美光业绩超预期→存储与AI算力需求确认→映射A股存储、算力链景气度上行",
    "impact": 9,
-   "source": "CNBC World",
+   "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html",
    "ts": "Wed, 30 Sep 2026 20:59:05 GMT"
   },
   {
    "cat": "tech",
-   "title": "D.A. Davidson上调美光目标价至2100美元",
-   "brief": "D.A. Davidson将美光科技目标价从2000美元上调至2100美元，看好其数据中心存储前景。",
-   "chain": "美光目标价上调→强化美股存储芯片多头情绪→A股存储与算力链估值联动上行",
+   "title": "美光强劲财报后上调目标价",
+   "brief": "美光交出亮眼季度业绩与稳健指引后，机构上调其目标价，存储周期上行获进一步确认。",
+   "chain": "机构上调美光目标价→存储芯片景气延续→A股存储模组、封测链受益",
    "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610013888200392.html",
-   "ts": "2026-10-01 11:41:32"
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/09/30/were-raising-our-micron-price-target-after-an-incredible-quarter-and-robust-outlook.html",
+   "ts": "Thu, 01 Oct 2026 00:07:47 GMT"
   },
   {
    "cat": "tech",
-   "title": "马斯克等加盟五角大楼作战计划",
-   "brief": "美防长称马斯克、Palmer Luckey与金里奇将协助五角大楼推进作战相关计划。",
-   "chain": "科技巨头入局国防→美股国防科技与AI军工概念升温→A股军工电子与算力链情绪联动",
+   "title": "Soitec在美光财报后股价涨4.1%",
+   "brief": "法国半导体材料公司Soitec在美光公布第四财季业绩后股价上涨4.1%，半导体材料链受提振。",
+   "chain": "美光财报外溢→半导体材料与设备链走强→A股半导体材料、设备板块情绪联动",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610013888225033.html",
+   "ts": "2026-10-01 15:09:10"
+  },
+  {
+   "cat": "tech",
+   "title": "FAA对波音757-300发布适航指令",
+   "brief": "美国联邦航空管理局针对波音757-300机型发布适航指令，涉及该机型适航安全要求。",
+   "chain": "适航指令→波音机型运营与维修成本变化→航空制造链情绪扰动，间接影响A股大飞机链",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610013888224927.html",
+   "ts": "2026-10-01 15:09:45"
+  },
+  {
+   "cat": "ai",
+   "title": "软银完成对OpenAI追加投资100亿美元",
+   "brief": "软银完成对OpenAI第三轮100亿美元投资，累计投资达646亿美元，AI资本投入持续加码。",
+   "chain": "软银加码OpenAI→AI算力与模型资本开支预期强化→映射A股算力链、光模块与服务器链",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610013888224436.html",
+   "ts": "2026-10-01 15:01:25"
+  },
+  {
+   "cat": "ai",
+   "title": "谷歌推出Gemini 4 Argon 最强AI模型",
+   "brief": "谷歌发布其最先进AI模型Gemini 4 Argon，前沿模型竞争进一步升温。",
+   "chain": "谷歌新模型发布→AI应用与算力需求预期上行→A股AI应用、算力链主题催化",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/09/30/google-gemini-4-argon-ai.html",
+   "ts": "Wed, 30 Sep 2026 22:27:09 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "FTC调查OpenAI、Anthropic等AI公司",
+   "brief": "美国联邦贸易委员会就产品风险对OpenAI、Anthropic等AI公司展开调查，AI监管压力上升。",
+   "chain": "FTC调查AI公司→合规成本与监管不确定性上升→A股AI应用链情绪短期承压",
    "impact": 6,
    "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/09/30/musk-luckey-gingrich-pentagon-hegseth-.html",
-   "ts": "Wed, 30 Sep 2026 21:21:10 GMT"
+   "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+   "ts": "Wed, 30 Sep 2026 15:54:38 GMT"
   },
   {
-   "cat": "tech",
+   "cat": "ai",
    "title": "加州立法禁止AI“机器人老板”",
-   "brief": "加州州长纽森签署 landmark 州法禁止AI“机器人老板”，推翻此前否决立场。",
-   "chain": "AI用工监管落地→美股AI应用合规成本上升→A股AI治理与合规概念受关注",
+   "brief": "加州州长纽森签署 landmark 州法禁止AI“机器人老板”，逆转此前否决立场，AI用工监管先行。",
+   "chain": "加州AI用工立法→AI治理与合规预期强化→A股AI应用落地节奏与合规成本受关注",
    "impact": 5,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/09/30/california-gavin-newsom-ai-ban.html",
    "ts": "Wed, 30 Sep 2026 23:50:01 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "谷歌推出最强AI模型Gemini 4 Argon",
-   "brief": "谷歌正式推出其最先进AI模型Gemini 4 Argon，大模型竞赛再度升级。",
-   "chain": "谷歌新模型发布→美股AI算力与云需求预期强化→A股算力链与AI应用映射受益",
-   "impact": 9,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/09/30/google-gemini-4-argon-ai.html",
-   "ts": "Wed, 30 Sep 2026 22:27:09 GMT"
   }
  ]
 }
