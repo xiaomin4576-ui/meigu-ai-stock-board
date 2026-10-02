@@ -1,28 +1,138 @@
 {
  "asof": "2026-10-02",
- "fetched_at": "2026-10-02T15:33+08:00",
+ "fetched_at": "2026-10-02T17:57+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
    "Moonshot·TechCabal": 10,
    "Disrupt Africa": 10,
    "Techpoint Africa": 0,
-   "IT News Africa": 11,
+   "IT News Africa": 0,
    "TechAfrica News": 12,
    "Condia": 25,
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 1,
-   "非洲科技·聚合": 7,
+   "非洲科技·聚合": 8,
    "中非科技·聚合": 11
   },
   "total": 60,
-  "ai_flagged": 16,
-  "aiinfra_flagged": 4,
-  "countries": 6
+  "ai_flagged": 22,
+  "aiinfra_flagged": 2,
+  "countries": 5
  },
  "items": [
+  {
+   "title": "Lesotho Concludes Validation of Electronic Transactions and Communications Bill",
+   "brief": "Lesotho’s Ministry of Information, Communications, Science, Technology and Innovation (MICSTI) , in partnership with the United Nations Development Programme (UNDP),  has concluded a two-day stakeholder validation ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/02/lesotho-concludes-validation-of-electronic-transactions-and-communications-bill/",
+   "date": "Fri, 02 Oct 2026 09:55:21 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "How Cyber Resilience Can Strengthen South Africa's Sovereign AI Ambitions",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE1TNExCVERid3BwZ0hfeXd0NGpRYnNxSWwwYkU3a1JxM2tuQWwzWkl0M0hqQllhOXRzUkgtcGJiRGpTQlM1S0dMZmxldmloSThNRjVKdWhsbHJBMFBWNEtENURUYXpTaG9RbjRWWjJPeVA?oc=5\" target=\"_bla",
+   "source": "ednews.africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1TNExCVERid3BwZ0hfeXd0NGpRYnNxSWwwYkU3a1JxM2tuQWwzWkl0M0hqQllhOXRzUkgtcGJiRGpTQlM1S0dMZmxldmloSThNRjVKdWhsbHJBMFBWNEtENURUYXpTaG9RbjRWWjJPeVA?oc=5",
+   "date": "Fri, 02 Oct 2026 09:44:05 GMT",
+   "country": "🇿🇦 南非",
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "BSG partner Alykhan Vira targets AI talent",
+   "brief": "The company expands its data and AI practice, as South African banks, insurers and telcos move AI projects from pilots into production.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/bsg-partner-alykhan-vira-targets-ai-talent/mQwkoM6Yy5173r9A",
+   "date": "Fri, 02 Oct 2026 11:41:00 +0200",
+   "country": "🇿🇦 南非",
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Replit acquires Egypt’s AI analytics startup Atta",
+   "brief": "A US-based AI coding startup has acquired Atta, an Egyptian-founded business analysis and charting company in undisclosed terms.",
+   "source": "Condia",
+   "url": "https://thecondia.com/replit-acquires-atta-egypts-ai-startup/",
+   "date": "Fri, 02 Oct 2026 08:46:46 +0000",
+   "country": "🇪🇬 埃及",
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Blu Label Discloses R74.5 Million in Director-Related Share Dealings",
+   "brief": "South African telecommunications and technology group Blu Label Unlimited Group  has disclosed two securities transactions involving associates of its directors and a director of one ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/02/blu-label-discloses-r74-5-million-in-director-related-share-dealings/",
+   "date": "Fri, 02 Oct 2026 08:39:32 +0000",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "UAE Startup MetisJean Launches Sovereign AI Platform for Businesses",
+   "brief": "MetisJean,  an ambitious tech startup, has launched in the United Arab Emirates with the goal of supplying the nation’s public and private sector organisations with ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/02/uae-startup-metisjean-launches-sovereign-ai-platform-for-businesses/",
+   "date": "Fri, 02 Oct 2026 08:07:58 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "UAE Launches First Commercial AI-Enabled Earth Observation Satellite",
+   "brief": "Altair-1, the first commercial satellite built in the UAE and integrated by Loft Orbital,  launched aboard the Transporter-18 rideshare mission with SpaceX  at 11:32 a.m., ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/02/uae-launches-first-commercial-ai-enabled-earth-observation-satellite/",
+   "date": "Fri, 02 Oct 2026 07:52:59 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Why executives still don’t trust their data – and how to fix it",
+   "brief": "A modern data foundation guarantees data is trusted, governed and understood long before it hits a report or feeds an AI model.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/why-executives-still-dont-trust-their-data-and-how-to-fix-it/LPwQ57lbVVZqNgkj",
+   "date": "Fri, 02 Oct 2026 09:47:19 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "MTN’s IHS Towers takeover advances as regulator demands fair access",
+   "brief": "The conditions address the deal’s central tension: MTN will own the tower infrastructure while continuing to compete with other mobile operators that use it.",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/02/mtn-ihs-towers-2-2-billion-deal-south-africa-competition-commission-approval/",
+   "date": "Fri, 02 Oct 2026 07:42:55 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Oman Expands Digital Skills Training Through Ericsson’s Digital Lab Programme",
+   "brief": "Held under the patronage of H.E. Dr. Saif bin Abdullah Al Haddabi, President of the Research and Innovation Authority, the inauguration brought together government, industry ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/02/oman-expands-digital-skills-training-through-ericssons-digital-lab-programme/",
+   "date": "Fri, 02 Oct 2026 07:38:30 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Hugging Face incident charged up interest in agentic AI, say pros",
+   "brief": "The incident has changed the narrative around enterprise AI without curbing enthusiasm for agentic AI, say experts.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/hugging-face-incident-charged-up-interest-in-agentic-ai-say-pros/DZQ587V8BBgqzXy2",
+   "date": "Fri, 02 Oct 2026 09:30:00 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
   {
    "title": "Nigeria Calls on Developers to Build Around New Digital Postcode System",
    "brief": "Nigeria has begun efforts to integrate its new National Digital Alphanumeric Postcode System into everyday digital services, with the government calling on businesses, developers and ......",
@@ -154,42 +264,12 @@
    "is_aiinfra": false
   },
   {
-   "title": "Vodafone Earns EcoVadis Platinum Medal for Third Consecutive Year",
-   "brief": "Vodafone  has received a Platinum medal from EcoVadis for the third consecutive year, scoring 88 out of 100 and placing in the top 1% of ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/01/vodafone-ecovadis-platinum-medal-third-year/",
-   "date": "Thu, 01 Oct 2026 13:41:21 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Pan-African fintech Kora adds stablecoins to its payment infrastructure",
    "brief": "For payment companies, stablecoins offer a potential alternative to move dollar-denominated value between markets.",
    "source": "TechCabal",
    "url": "https://techcabal.com/2026/10/01/kora-sees-stablecoins-as-a-way-around-cross-border-payment-costs/",
    "date": "Thu, 01 Oct 2026 13:23:20 +0000",
    "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Ethio Telecom Recognized for Digital Transformation Contribution",
-   "brief": "Ethiopia’s 132-year-old telecommunications operator, Ethio Telecom,  has been recognized for its contribution to the country’s digital transformation during the Stride Ethiopia 2.0 Summit. The recognition ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/01/ethio-telecom-digital-transformation-contribution/",
-   "date": "Thu, 01 Oct 2026 13:17:41 +0000",
-   "country": "🇪🇹 埃塞俄比亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "EthSwitch Unveils Unified Government Payment Platform",
-   "brief": "Ethiopia’s national payment switch, EthSwitch , has presented a Unified Government Payment Platform designed to bring fragmented public bill-payment channels onto a single interoperable network, as ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/01/ethswitch-unified-government-payment-platform/",
-   "date": "Thu, 01 Oct 2026 13:11:29 +0000",
-   "country": "🇪🇹 埃塞俄比亚",
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -204,29 +284,9 @@
    "is_aiinfra": false
   },
   {
-   "title": "Nigeria Launches National Cybersecurity Awareness Month 2026",
-   "brief": "The National Information Technology Development Agency (NITDA)  has officially launched National Cybersecurity Awareness Month 2026 under the theme “Together for a Safer Cyberspace.” The month-long ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/01/nigeria-launches-national-cybersecurity-awareness-month-2026/",
-   "date": "Thu, 01 Oct 2026 13:04:11 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "NaiTel and MEDUSA Sign Agreement to Strengthen Connectivity Between Jordan, Europe and North Africa",
-   "brief": "NaiTel,  the telecom arm of Aqaba Digital Hub (ADH) , and MEDUSA Submarine Cable System  have signed a strategic agreement to strengthen international connectivity between Jordan, ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/01/naitel-medusa-connectivity-jordan-europe-north-africa/",
-   "date": "Thu, 01 Oct 2026 12:57:39 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": true
-  },
-  {
    "title": "Chinese tech giant Huawei unveils Mate 90 series smartphones with flagship Tau chips adopting logic folding technology",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tMm5FNXBxODhMRFcwVVBMUjdxdTBHYzNOOXJIZy1iazljOS1JaE5nUUV4VWdzc1VVNG4zTEFuN0tyMHFMZk5TTmZVNlJJeWNuaDN5cXZKell6eEc4TlcybkhR?oc=5\" target=\"_blank\">Chinese tech gi",
-   "source": "globaltimes.cn·聚合",
+   "source": "Global Times·聚合",
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tMm5FNXBxODhMRFcwVVBMUjdxdTBHYzNOOXJIZy1iazljOS1JaE5nUUV4VWdzc1VVNG4zTEFuN0tyMHFMZk5TTmZVNlJJeWNuaDN5cXZKell6eEc4TlcybkhR?oc=5",
    "date": "Thu, 01 Oct 2026 12:34:00 GMT",
    "country": null,
@@ -250,6 +310,16 @@
    "url": "https://techcabal.com/2026/10/01/nigerias-healthcare-system-is-broken-who-fills-the-gaps/",
    "date": "Thu, 01 Oct 2026 12:20:24 +0000",
    "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "NetApp Recognizes Winners of 2026 North America Partner Awards",
+   "brief": "NetApp® (NASDAQ: NTAP), the Intelligent Data Infrastructure company, today announced at NetApp INSIGHT 2026 the winners of its North America Partner Awards for Fiscal Year 2026 (FY’26).",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/netapp-recognizes-winners-of-2026-north-america-partner-awards/8OKdWMDXLONMbznQ",
+   "date": "Thu, 01 Oct 2026 14:00:00 +0200",
+   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -344,16 +414,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Levy brothers buy R75.5m in Blu Label shares",
-   "brief": "The joint-CEOs acquire 10 million company shares worth R73.5 million through the close-out of a contract for difference.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/levy-brothers-buy-r755m-in-blu-label-shares/WnpNgM21ydN7VrGd",
-   "date": "Thu, 01 Oct 2026 10:54:09 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Nigeria rolls out digital postcodes for every building",
    "brief": "The system uses geographic information technology to pinpoint locations with far greater accuracy than the old six-digit numeric codes.",
    "source": "Condia",
@@ -384,16 +444,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "👨🏿‍🚀TechCabal Daily – Dangote’s cross-border IPO dash",
-   "brief": "In today's edition: Kenyans may soon be able to buy Dangote shares || Woolworths is mastering dark store strategy || JPMorgan hires Sub-Saharan African lead || Is the JSE catching tech startups young?",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/10/01/techcabal-daily-dangotes-cross-border-ipo-dash/",
-   "date": "Thu, 01 Oct 2026 06:02:16 +0000",
-   "country": "🇰🇪 肯尼亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Boomi Recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for API Management",
    "brief": "Boomi, the data activation company for AI, today announced it has been recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for API Management.",
    "source": "ITWeb Africa",
@@ -411,16 +461,6 @@
    "date": "Wed, 30 Sep 2026 14:19:29 +0000",
    "country": null,
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Mr Price cuts application estate by nearly 75% through cloud-led modernisation",
-   "brief": "Marilize Redelinghuys, head of retail modernisation at Mr Price Group, addresses the risks and challenges of modernising legacy applications for cloud at the ITWeb Cloud Summit.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/mr-price-cuts-application-estate-by-nearly-75-through-cloud-led-modernisation/nWJadvbN3E4vbjO1",
-   "date": "Wed, 30 Sep 2026 15:09:18 +0200",
-   "country": null,
-   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -476,7 +516,7 @@
   {
    "title": "DeepSeek opens tools to help Huawei chips supplant Nvidia in AI",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX2pDSnRWMTNZYUhBYnh2eHpWQklRVG1FSDJPYWF5WkI4VTM2VjQteGJTQjRNWjJ6Z3hpcVpiRGpKVjVubkNfeHFVYnY0ODIxbUJKNmFFTFVQUndibGstVDF0WnlMSTRlc0xVMWNlOFhnbEtURjRidE9GejFHdE",
-   "source": "scmp.com·聚合",
+   "source": "South China Morning Post·聚合",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX2pDSnRWMTNZYUhBYnh2eHpWQklRVG1FSDJPYWF5WkI4VTM2VjQteGJTQjRNWjJ6Z3hpcVpiRGpKVjVubkNfeHFVYnY0ODIxbUJKNmFFTFVQUndibGstVDF0WnlMSTRlc0xVMWNlOFhnbEtURjRidE9GejFHdEZBckxZYkZJSzFpNnhGZ0JiS1BSTUdoanBOSGZPd1d0M2FVLVRFalYzNDZRM2NkQ0xEVzN6Rk50OUd5VjQ2NnJwZE5JUTjSAcMBQVVfeXFMT09mUUVmbnlNV0NDZUVUbmE0X0ZKUTVUbkx0RkpseW1OWEZyVHVjSmF3cUNuVG9aNTljcVhSWTVoeldqeWtVczQ0OFcwRnFTSTBOeW93bkNNX2dZTzU2amlZSUFEa1AzV29mTS1IbDA3LTFjcGV4STVUa0E1NFRRU2g4S3JyNUV6aHRsRTVwWW1YX09mMnBxRUNMbmtrV2RmRURRR2l4djBwWm53SG9ta29FTkM2OXNfaVN3aXBBWUVIeHNF?oc=5",
    "date": "Wed, 30 Sep 2026 06:31:08 GMT",
    "country": null,
@@ -496,7 +536,7 @@
   {
    "title": "EU Governments Seek More Time to Remove High-Risk Chinese Telecom Equipment",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zQjNiVDZDTTlyQk9nLTIyTVlNTjdxdGJPZnhxY3pwY2NlSTI5TGl1X2pCNjBXMVlQMnRkenVUb3dBcURsVzJhVXI2ZFVqdnNMNGt6T2luNWM1Z0hBNzRFMzQxRzQ2Sk1Z?oc=5\" target=\"_blank\">EU Gove",
-   "source": "eutoday.net·聚合",
+   "source": "EU Today·聚合",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zQjNiVDZDTTlyQk9nLTIyTVlNTjdxdGJPZnhxY3pwY2NlSTI5TGl1X2pCNjBXMVlQMnRkenVUb3dBcURsVzJhVXI2ZFVqdnNMNGt6T2luNWM1Z0hBNzRFMzQxRzQ2Sk1Z?oc=5",
    "date": "Tue, 29 Sep 2026 20:13:05 GMT",
    "country": null,
@@ -544,16 +584,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "NetApp to Expand Partnership with SAP to Support SAP Cloud Infrastructure",
-   "brief": "NetApp, the intelligent Data Infrastructure company, today announced its intent to expand its long-standing partnership with SAP, with plans to explore deeper cloud-native integration of NetApp capabilities into SAP Clou",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/netapp-to-expand-partnership-with-sap-to-support-sap-cloud-infrastructure/xnklOvz1zaDq4Ymz",
-   "date": "Tue, 29 Sep 2026 19:30:00 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Who backed African startups the most in H1 2026? Here are the 8 most active investors",
    "brief": "The top eight investors of  African startups in the first half of 2026.",
    "source": "Condia",
@@ -589,36 +619,6 @@
    "source": "African Business",
    "url": "https://african.business/2026/09/long-reads/digital-economy-as-driver-of-growth",
    "date": "Tue, 29 Sep 2026 11:14:35 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "How OnePurze’s 20-country launch exposes the regulatory realities of cross-border fintech",
-   "brief": "OnePurze’s expansion across 20+ countries highlights the regulatory hurdles facing African fintechs. From CBN rules to BCEAO and Bank of Ghana mandates, partner licencing remains the key to cross-border settlement.",
-   "source": "Condia",
-   "url": "https://thecondia.com/onepurze-cross-border-fintech-regulations/",
-   "date": "Tue, 29 Sep 2026 09:19:33 +0000",
-   "country": "🇬🇭 加纳",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Grammy-nominated EarthGang warns of data center harm in Africa",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNYW5vYVBTWnd5UU1jUnQ3Nzdya3pjZWtlWmJKYW1WNkdxbi1TZGo3WlNoOTJ0NDdyUUhsNTY3MF9FWGZ3Y0otWExGSEo5OVREMk83NVRLYzBIR05wdGdFMXhDeC1kTnlXZmZreUR6bFJnVFY4TW40VU94Sk9YWl",
-   "source": "Connecting Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYW5vYVBTWnd5UU1jUnQ3Nzdya3pjZWtlWmJKYW1WNkdxbi1TZGo3WlNoOTJ0NDdyUUhsNTY3MF9FWGZ3Y0otWExGSEo5OVREMk83NVRLYzBIR05wdGdFMXhDeC1kTnlXZmZreUR6bFJnVFY4TW40VU94Sk9YWlRrNmEwLUVIQlJfTXJXamd6TEtRTFg2d2JwRnkwemdlVzBOWVZjdWlKVldyTDNt?oc=5",
-   "date": "Tue, 29 Sep 2026 09:18:24 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": true
-  },
-  {
-   "title": "Android levels playing field for SA retail sector",
-   "brief": "Brief body goes hereAndroid allows retailers to change who controls the pace of sales and customer interactions within stores.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/android-levels-playing-field-for-sa-retail-sector/mYZRXM9gbYVvOgA8",
-   "date": "Tue, 29 Sep 2026 09:36:08 +0200",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
