@@ -1,0 +1,224 @@
+{
+ "asof": "2026-10-03",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-10-03T00:42+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 11,
+  "cluster_label": "",
+  "cluster_dropped": [],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "9月非农仅增2.9万 失业率升至4.2%",
+   "brief": "美国9月新增就业仅2.9万，远低于预期，失业率升至4.2%，劳动力市场明显走弱。",
+   "chain": "就业走弱→强化降息预期、压低实际利率→利好美股AI高久期估值→A股算力链风险偏好回暖",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
+   "ts": "Fri, 02 Oct 2026 13:45:58 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "道明证券改口：美联储12月与3月加息",
+   "brief": "道明证券将美联储加息预期从10月/1月推迟至12月和3月，反映市场对政策路径重新定价。",
+   "chain": "加息预期后移→利率见顶预期升温→美股成长股分母压力缓解→A股算力链情绪偏暖",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610023888416044.html",
+   "ts": "2026-10-02 22:56:43"
+  },
+  {
+   "cat": "macro",
+   "title": "美2年5年期国债收益率重返非农前水平",
+   "brief": "美国2年期和5年期国债收益率跌幅收窄，回到非农数据公布前水平，债市消化就业数据。",
+   "chain": "收益率回补→贴现率短期企稳→美股AI高久期票估值中性→A股算力链跟随震荡",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610023888407424.html",
+   "ts": "2026-10-02 22:15:15"
+  },
+  {
+   "cat": "macro",
+   "title": "现货白银跌2% 黄金同步走低",
+   "brief": "现货白银日内跌幅扩大至2%报59.76美元/盎司，现货黄金同步跌1.12%，贵金属承压。",
+   "chain": "避险与降息预期降温→实际利率与美元反弹→压制美股AI高久期估值→A股算力链情绪偏谨慎",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610023888423591.html",
+   "ts": "2026-10-02 23:56:47"
+  },
+  {
+   "cat": "macro",
+   "title": "阿根廷国家风险指数创10个月新高",
+   "brief": "阿根廷国家风险指数升至650个基点，创10个月新高，新兴市场主权风险升温。",
+   "chain": "新兴市场风险溢价上行→美元避险需求增强→压制美股风险偏好→A股算力链外资情绪偏弱",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610033888424864.html",
+   "ts": "2026-10-03 00:35:40"
+  },
+  {
+   "cat": "geo",
+   "title": "油轮在霍尔木兹海峡遭不明发射物击中",
+   "brief": "英国海事贸易行动办公室通报，一艘油轮在霍尔木兹海峡内遭不明发射物击中，海峡安全风险骤升。",
+   "chain": "海峡遇袭→中东地缘风险溢价抬升→美股能源与航运波动加大→A股算力链受避险情绪扰动",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610033888424495.html",
+   "ts": "2026-10-03 00:15:11"
+  },
+  {
+   "cat": "geo",
+   "title": "沙特拟数周内对也门胡塞发动多线攻势",
+   "brief": "据报道沙特阿拉伯计划对也门胡塞武装发动攻势，预计未来几周启动多线进攻，中东局势或再升级。",
+   "chain": "沙特军事行动→红海与波斯湾风险溢价上升→美股避险与能源板块波动→A股算力链情绪承压",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610033888424791.html",
+   "ts": "2026-10-03 00:25:27"
+  },
+  {
+   "cat": "geo",
+   "title": "美财政部制裁哈马斯融资网络",
+   "brief": "美国财政部宣布对哈马斯融资网络实施制裁，加大对中东相关资金链的打压力度。",
+   "chain": "制裁升级→中东地缘紧张延续→美股风险偏好受抑→A股算力链情绪偏谨慎",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMkdRRkxGNHBqcFM5b0RNbjRMU2NXeXFWUXdselk3QVNzVkNqSWw1aWdJTjQyc0VWeFNqSjB3dGtjaWdpdHZuYzVxaVdKQmM4X0lMRC10UnlzRWFndmFWUVlrU2l4NG5nR2QyNnJ0Z3AwNE91QXlVV2IzNG5RcENFVTViWEw4ek5xank2YU80OGVGRWV5RGVOcXVwZi1xSXhzaElHMWxndFFqQXQ0Q01YeHFoSllfeTJ1TWJv?oc=5",
+   "ts": "2026-10-02T14:33:45+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "日本决定试验性购买乌克兰无人机",
+   "brief": "日本前防卫大臣透露，日本政府已决定试验性购买乌克兰主要无人机制造商产品，深化防务合作。",
+   "chain": "日乌防务合作→俄乌与亚太博弈联动→美股军工与科技板块受关注→A股无人机链情绪催化",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610023888422415.html",
+   "ts": "2026-10-02 23:46:56"
+  },
+  {
+   "cat": "geo",
+   "title": "美贸易代表：美印协议并非迫在眉睫",
+   "brief": "美贸易代表格里尔称，在莫迪与特朗普通话后，美印贸易协议并不'迫在眉睫'，谈判仍存变数。",
+   "chain": "美印贸易谈判延宕→关税不确定性延续→美股跨国企业承压→A股出口链情绪偏谨慎",
+   "impact": 4,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/02/us-india-trade-modi-trump-russia-oil.html",
+   "ts": "Fri, 02 Oct 2026 04:07:54 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "油价回落 Brent重回100美元下方",
+   "brief": "受可能释放柴油与原油库存消息影响，油价下跌，布伦特原油重回100美元/桶下方。",
+   "chain": "释储预期→油价短期承压回落→莫桑比克油气项目收入与投资节奏面临价格下行压力",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/02/oil-wti-brent-diesel-stock-release-europe.html",
+   "ts": "Fri, 02 Oct 2026 13:30:39 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "G7同意释放柴油与石油库存",
+   "brief": "在美国施压下，G7国家同意释放柴油和石油库存，以缓解欧洲与中东冲突造成的燃料供应紧张。",
+   "chain": "释储增加供给→压制原油与柴油价格→莫桑比克LNG与油气项目短期价格环境偏弱",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnMyRFpEcDhNOHlnU2NJT3F1R2M5QkEzMjJPaGRUYlZ1S2RYYmNMZ1pERlZINEtxMkJDTktfMThYeHZ0U2FDZjVoQ3l3eHViLVkyajQ0S1RfSDJ4QS1xTEgxNVlaZzJSSkVjLTJYM04tX3ZHUEVSY0VHdjJHUU45RHBRajVxQzA3emVQNXpvRG9XRVVVZUtSdUtveUN2WUp6RzhBeVQwQ0JzVk8zWWYzS1FCVUtTZ3UtNTllVzJrbTJyUC00?oc=5",
+   "ts": "2026-10-02T15:47:51+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "IEA署长比罗尔称油价开始下跌",
+   "brief": "国际能源署署长比罗尔表示油价开始下跌，呼应释储与供应改善预期。",
+   "chain": "油价下行预期→原油价格中枢下移→莫桑比克油气经营收入与预算承压",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610023888424043.html",
+   "ts": "2026-10-02 23:58:33"
+  },
+  {
+   "cat": "oil",
+   "title": "越南宜山炼厂锁定11月前原油供应",
+   "brief": "越南宜山炼厂已锁定至11月的原油供应，主要来自科威特，亚洲炼厂采购节奏稳定。",
+   "chain": "亚洲炼厂采购稳定→中东原油流向亚洲→对莫桑比克油气出口竞争格局影响有限",
+   "impact": 3,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRW5QbGxRTlVMMFN1SUl6SmlXX3hNV2NrZ1NlaWJxbmdwS3Z5LXhwVk0tQ0ctcnExVFlISlBiZ2ZFRzREbHRXMTFSUGlnd2l1N0IzcldCdDR4SFA4dWJ1Y1Ruc3FHTlEwQXAySGlqU0RycTlkWm9yMkZjRzJVQ0UtbVpPUXlDSEtaTEw3bkNkNUFnanpfVUlTbzhzYmxGSXktcWIwTXFBRExnZzNTbWdjc2VDR1BMelBkNnJEdXlyY0ZmdjE4dlJKVmhR?oc=5",
+   "ts": "2026-10-02T01:37:00+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "霍尔木兹LNG运输量创伊朗战争以来新高",
+   "brief": "经霍尔木兹海峡的LNG运输量升至伊朗战争爆发以来最高水平，卡塔尔气源外运明显恢复。",
+   "chain": "LNG运输恢复→全球气价供应压力缓解→莫桑比克Cabo Delgado LNG出口竞争加剧",
+   "impact": 7,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/LNG-Shipments-Through-Hormuz-Hit-Highest-Level-Since-Iran-War-Began.html",
+   "ts": "Fri, 02 Oct 2026 10:00:00 -0500"
+  },
+  {
+   "cat": "gas",
+   "title": "美在沙特与卡塔尔油气设施部署爱国者",
+   "brief": "美国部署爱国者防空系统保护沙特石油与卡塔尔天然气设施，凸显海湾能源基础设施安全风险。",
+   "chain": "海湾气源安全风险上升→TTF与亚洲LNG价格波动加大→莫桑比克东非气源战略价值提升",
+   "impact": 6,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Deploys-Patriots-to-Shield-Saudi-Oil-and-Qatari-Gas-Facilities.html",
+   "ts": "Fri, 02 Oct 2026 09:30:00 -0500"
+  },
+  {
+   "cat": "tech",
+   "title": "英伟达创历史新高 波音传利好",
+   "brief": "英伟达股价突破创历史新高，波音亦迎来更多好消息，科技与航空板块情绪偏强。",
+   "chain": "英伟达新高→美股AI算力主线强化→映射A股算力链与半导体设备情绪",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/02/nvidia-breaks-through-to-new-record-highs-plus-more-good-news-for-boeing.html",
+   "ts": "2026-10-02T15:31:51+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "特斯拉交付超预期 股价大涨5%",
+   "brief": "特斯拉公布好于预期的车辆交付报告，股价上涨5%，为近一个月最大涨幅。",
+   "chain": "交付超预期→美股电动车与智能驾驶情绪回暖→映射A股特斯拉产业链与锂电链",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/02/tesla-tsla-q3-2026-vehicle-delivery-production.html",
+   "ts": "Fri, 02 Oct 2026 16:16:25 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "谷歌发布最新AI模型 市场期待个人智能体",
+   "brief": "谷歌推出最新AI模型，但华尔街更期待其推出突破性的个人智能体产品。",
+   "chain": "谷歌模型迭代→美股AI应用竞争加剧→映射A股AI应用与算力链情绪",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/01/google-gemini-4-arrives-as-wall-street-shifts-to-personal-agents.html",
+   "ts": "Thu, 01 Oct 2026 19:43:04 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "微软前LinkedIn负责人Roslansky离职",
+   "brief": "前LinkedIn负责人Roslansky将离开微软，此前已有多位高管相继离职。",
+   "chain": "微软高管变动→市场关注其AI与云业务组织稳定性→映射A股云与软件链情绪",
+   "impact": 4,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/01/linkedin-chief-roslansky-microsoft-exit.html",
+   "ts": "Thu, 01 Oct 2026 19:36:42 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "国际刑警警告AI令网络攻击更快更难测",
+   "brief": "国际刑警组织警告，AI正使网络攻击速度更快、更难被检测，企业需加强防护。",
+   "chain": "AI安全风险上升→美股网络安全板块需求提升→映射A股网络安全与算力链",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/02/interpol-cyberattack-cyberthreat-agentic-ai.html",
+   "ts": "Fri, 02 Oct 2026 04:57:38 GMT"
+  }
+ ]
+}
