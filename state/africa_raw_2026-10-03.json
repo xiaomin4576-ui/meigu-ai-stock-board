@@ -1,48 +1,28 @@
 {
  "asof": "2026-10-03",
- "fetched_at": "2026-10-03T20:06+08:00",
+ "fetched_at": "2026-10-03T23:13+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
    "Moonshot·TechCabal": 10,
    "Disrupt Africa": 10,
    "Techpoint Africa": 0,
-   "IT News Africa": 0,
+   "IT News Africa": 11,
    "TechAfrica News": 12,
-   "Condia": 25,
+   "Condia": 0,
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 1,
-   "非洲科技·聚合": 5,
-   "中非科技·聚合": 12
+   "非洲科技·聚合": 6,
+   "中非科技·聚合": 13
   },
   "total": 60,
-  "ai_flagged": 23,
+  "ai_flagged": 22,
   "aiinfra_flagged": 4,
-  "countries": 8
+  "countries": 7
  },
  "items": [
-  {
-   "title": "Africa’s AI policy cannot be separated from its industrial policy",
-   "brief": "Africa’s AI future will depend on more than technology. Investments in infrastructure, skills and strong institutions will determine who benefits and who is left behind.",
-   "source": "Condia",
-   "url": "https://thecondia.com/ai-africa-industrial-policy/",
-   "date": "Sat, 03 Oct 2026 11:56:44 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Different Ways to Use ChatGPT For Free Without Paying A Subscription",
-   "brief": "Know the different ways to use ChatGPT for free without paying for a personal subscription.",
-   "source": "Condia",
-   "url": "https://thecondia.com/how-to-use-chatgpt-for-free/",
-   "date": "Sat, 03 Oct 2026 10:13:17 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
   {
    "title": "The $100 sandal that sparked a Ghanaian e-Commerce engine",
    "brief": "A thousand days of Cedisaver, an online marketplace designed to aggregate affordable clothing.",
@@ -90,26 +70,6 @@
    "url": "https://techafricanews.com/2026/10/02/ghana-launches-ncsam-2026-to-strengthen-digital-economy-security/",
    "date": "Fri, 02 Oct 2026 15:28:03 +0000",
    "country": "🇬🇭 加纳",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Satlyt raises $8m to turn satellites in orbit into data centres",
-   "brief": "Space-tech startup Satlyt, founded by former Google and SpaceX product manager has raised $8 million in seed funding.",
-   "source": "Condia",
-   "url": "https://thecondia.com/satlyt-raise-8m-for-data-centres/",
-   "date": "Fri, 02 Oct 2026 15:07:54 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": true
-  },
-  {
-   "title": "This startup turns used cooking oil into cash. It just raised $1m for growth",
-   "brief": "Ororo Waste has secured ₦1.4 billion ($1 million) from Rising Tide Africa to improve its collector network and cover hub operating costs.",
-   "source": "Condia",
-   "url": "https://thecondia.com/rising-tide-africa-funds-ororo-waste/",
-   "date": "Fri, 02 Oct 2026 14:04:48 +0000",
-   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -254,16 +214,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Replit acquires Egypt’s AI analytics startup Atta",
-   "brief": "A US-based AI coding startup has acquired Atta, an Egyptian-founded business analysis and charting company in undisclosed terms.",
-   "source": "Condia",
-   "url": "https://thecondia.com/replit-acquires-atta-egypts-ai-startup/",
-   "date": "Fri, 02 Oct 2026 08:46:46 +0000",
-   "country": "🇪🇬 埃及",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
    "title": "Blu Label Discloses R74.5 Million in Director-Related Share Dealings",
    "brief": "South African telecommunications and technology group Blu Label Unlimited Group  has disclosed two securities transactions involving associates of its directors and a director of one ......",
    "source": "TechAfrica News",
@@ -374,6 +324,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "Huawei Shelves AI Chip Exports as China Hits $12B [2026]",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPemcxWUlERVZ2eU1INWNzY3huaHYxbnZIR2VNcVU1cnRYeTZDZzlKa3lkb1dvclhqNjdvOG4zUXM2a1pJb2Npa1ZxaHBWYlQxcGc2SHZFTnBBOHlHZGVuWjlhS0xzSWxWekhKcF9rempqX3RCd0VBTllEZkRNRU",
+   "source": "tech-insider.org·聚合",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPemcxWUlERVZ2eU1INWNzY3huaHYxbnZIR2VNcVU1cnRYeTZDZzlKa3lkb1dvclhqNjdvOG4zUXM2a1pJb2Npa1ZxaHBWYlQxcGc2SHZFTnBBOHlHZGVuWjlhS0xzSWxWekhKcF9rempqX3RCd0VBTllEZkRNRU9oQnZxdw?oc=5",
+   "date": "Thu, 01 Oct 2026 12:34:07 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
    "title": "Chinese tech giant Huawei unveils Mate 90 series smartphones with flagship Tau chips adopting logic folding technology",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tMm5FNXBxODhMRFcwVVBMUjdxdTBHYzNOOXJIZy1iazljOS1JaE5nUUV4VWdzc1VVNG4zTEFuN0tyMHFMZk5TTmZVNlJJeWNuaDN5cXZKell6eEc4TlcybkhR?oc=5\" target=\"_blank\">Chinese tech gi",
    "source": "Global Times·聚合",
@@ -404,32 +364,12 @@
    "is_aiinfra": false
   },
   {
-   "title": "66 companies that have built digital Nigeria",
-   "brief": "From early mainframes, typewriters, and telephone exchanges to modern fintechs, cloud infrastructure, and diaspora platforms, explore the 66-year chronological relay race of the companies and institutions that built Nige",
-   "source": "Condia",
-   "url": "https://thecondia.com/66-companies-that-built-digital-nigeria/",
-   "date": "Thu, 01 Oct 2026 10:10:45 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Nigeria rolls out digital postcodes for every building",
-   "brief": "The system uses geographic information technology to pinpoint locations with far greater accuracy than the old six-digit numeric codes.",
-   "source": "Condia",
-   "url": "https://thecondia.com/nigeria-rolls-out-digital-postcodes-for-every-building/",
-   "date": "Thu, 01 Oct 2026 08:03:28 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Nigerian Civil Servants Give Government Ultimatum Ahead of October 2 Strike",
-   "brief": "Nigerian civil servants have given the Federal Government until September 30, 2026, to address their demands or face a three-day warning strike from October 2.",
-   "source": "Condia",
-   "url": "https://thecondia.com/nigerian-civil-servants-strike/",
-   "date": "Thu, 01 Oct 2026 07:46:59 +0000",
-   "country": "🇳🇬 尼日利亚",
+   "title": "Why Better Partnerships May Be the Missing Piece in U.S.–Africa Technology Collaboration",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxOYm1LVzFYVzRGZi1FbTNoS2Y4Z0I5NXZHOE15MzV3SmZyOW1tZDNqX0hRMWlpNklKcmJGRFFobUYyeUVuYmRPTHpUQnE5RmFITHFRNkxaWS10QUphUUNDMEZrNWN6dElDczNSajN1Y0pRemxfSVg4TXVIakNmVE",
+   "source": "BBN Times·聚合",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYm1LVzFYVzRGZi1FbTNoS2Y4Z0I5NXZHOE15MzV3SmZyOW1tZDNqX0hRMWlpNklKcmJGRFFobUYyeUVuYmRPTHpUQnE5RmFITHFRNkxaWS10QUphUUNDMEZrNWN6dElDczNSajN1Y0pRemxfSVg4TXVIakNmVE1zY0ZUNjZHMXhxUTlIcnFoaE1FdENkbUFfcWNvbGp3VDBHMmo4ZWxNRnRBazdkYTNrUzdGSzFvTmtRXzdWeg?oc=5",
+   "date": "Thu, 01 Oct 2026 10:29:19 GMT",
+   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -446,7 +386,7 @@
   {
    "title": "Huawei steps up Tau chip roll-out, with Mate XT 2 on track for 1 million sales",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNTUxfQ1pmVFpWaUFZT3dESndhS3FHYzV3ZEpTTVJrd0ZtUUFNSHBKa29ZUngwQ0lCQk5tTm9pcU9hQUNMSXpXNW1qQUpyU1pKaTdDZDBWT1oxQWlUa1JtWG5LdEZDejV6OG5teDJ3OHdJUUdid0wxRS1qMlhNVW",
-   "source": "South China Morning Post·聚合",
+   "source": "scmp.com·聚合",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTUxfQ1pmVFpWaUFZT3dESndhS3FHYzV3ZEpTTVJrd0ZtUUFNSHBKa29ZUngwQ0lCQk5tTm9pcU9hQUNMSXpXNW1qQUpyU1pKaTdDZDBWT1oxQWlUa1JtWG5LdEZDejV6OG5teDJ3OHdJUUdid0wxRS1qMlhNVWdleG9rUVdUV2ZSdnN2NGtsZ3RydzBJd2JQVWduWXlmTUJ2NlhzaUx0aTJ5Z19weVBrRmtfUdIBswFBVV95cUxNTUxfQ1pmVFpWaUFZT3dESndhS3FHYzV3ZEpTTVJrd0ZtUUFNSHBKa29ZUngwQ0lCQk5tTm9pcU9hQUNMSXpXNW1qQUpyU1pKaTdDZDBWT1oxQWlUa1JtWG5LdEZDejV6OG5teDJ3OHdJUUdid0wxRS1qMlhNVWdleG9rUVdUV2ZSdnN2NGtsZ3RydzBJd2JQVWduWXlmTUJ2NlhzaUx0aTJ5Z19weVBrRmtfUQ?oc=5",
    "date": "Thu, 01 Oct 2026 03:00:08 GMT",
    "country": null,
@@ -459,16 +399,6 @@
    "source": "ITWeb Africa",
    "url": "https://www.itweb.co.za/article/boomi-recognized-as-a-leader-in-the-2026-gartner-magic-quadrant-for-api-management/nWJadvbN3DBvbjO1",
    "date": "Wed, 30 Sep 2026 17:30:00 +0200",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "IFC commits up to $90m to Airtel Money’s London IPO",
-   "brief": "IFC will buy $90m worth of shares in Airtel Money as it prepares to go public mid-October 2026.",
-   "source": "Condia",
-   "url": "https://thecondia.com/ifc-buys-shares-in-airtel-money/",
-   "date": "Wed, 30 Sep 2026 14:19:29 +0000",
    "country": null,
    "is_ai": true,
    "is_aiinfra": false
@@ -494,26 +424,6 @@
    "is_aiinfra": true
   },
   {
-   "title": "NECO Result Is Out: How to Check Your NECO Result Online 2026",
-   "brief": "NECO 2026 SSCE results are out. Find out how to check your result online, buy a result checker token, fix common portal errors, understand your grades, and see the latest 2026 pass-rate figures.",
-   "source": "Condia",
-   "url": "https://thecondia.com/neco-result-checker/",
-   "date": "Wed, 30 Sep 2026 11:14:01 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "DeepSeek’s new Huawei partnership could reshape China’s AI chip race with Nvidia",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUVRzZ213Mzl4d29ZdU9nRHlrdDMxREdxMEtYWnRNb3RaVmk3NXd5TVFFYWZ1MEs4bnhYMnU2bl8yVUxDa0plNXBneWVxcjJIODlvRXhmNzBlc2V5czRLWFQ4SWw2UUdRSklYSjBoamtyaWYzNFBSbkNVeWRtRn",
-   "source": "WION·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUVRzZ213Mzl4d29ZdU9nRHlrdDMxREdxMEtYWnRNb3RaVmk3NXd5TVFFYWZ1MEs4bnhYMnU2bl8yVUxDa0plNXBneWVxcjJIODlvRXhmNzBlc2V5czRLWFQ4SWw2UUdRSklYSjBoamtyaWYzNFBSbkNVeWRtRnc1NlI4RjhjOEx5bmwxdlczT2M3bUZ6MmJDV0xuWEdmVGVsaXVkUVhRN3hXRGQ3ZzFJSk9pcUpjUGtsLTRhRWlfTkpuSHVSS1FSbtIBzgFBVV95cUxNZl9NT2dhNkpuNGJWYzdEcVp5N1hpRzg0blRkWHZvSFVmTWRJRkVkQUtuRG5UU2ZzWDZxdEFzVFJib3JwZU1IS2tMbldFaWM0aE96QnRfbUdFNTY3TW42ME5mQlJ1dC1FTndmLS1XUjdtZmtMWWdCVHVuVndPTkVFYmJCSnhRYi0zaWtoeVdlMUpTcG1TUTIxZ1g2MFJEbmpKVG8yTWVfRWxKXzdsdHhBMFQ5MFM3eDI3dWF6c0FoR3NmbGdDYndoTTJoUzFPdw?oc=5",
-   "date": "Wed, 30 Sep 2026 07:50:00 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
    "title": "Stop AI experimentation: Pilots are avoiding the real work",
    "brief": "Enterprise AI experimentation has become a form of avoidance as it is now becoming an excuse to postpone the decisions that actually matter.",
    "source": "ITWeb Africa",
@@ -526,7 +436,7 @@
   {
    "title": "DeepSeek opens tools to help Huawei chips supplant Nvidia in AI",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX2pDSnRWMTNZYUhBYnh2eHpWQklRVG1FSDJPYWF5WkI4VTM2VjQteGJTQjRNWjJ6Z3hpcVpiRGpKVjVubkNfeHFVYnY0ODIxbUJKNmFFTFVQUndibGstVDF0WnlMSTRlc0xVMWNlOFhnbEtURjRidE9GejFHdE",
-   "source": "South China Morning Post·聚合",
+   "source": "scmp.com·聚合",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX2pDSnRWMTNZYUhBYnh2eHpWQklRVG1FSDJPYWF5WkI4VTM2VjQteGJTQjRNWjJ6Z3hpcVpiRGpKVjVubkNfeHFVYnY0ODIxbUJKNmFFTFVQUndibGstVDF0WnlMSTRlc0xVMWNlOFhnbEtURjRidE9GejFHdEZBckxZYkZJSzFpNnhGZ0JiS1BSTUdoanBOSGZPd1d0M2FVLVRFalYzNDZRM2NkQ0xEVzN6Rk50OUd5VjQ2NnJwZE5JUTjSAcMBQVVfeXFMT09mUUVmbnlNV0NDZUVUbmE0X0ZKUTVUbkx0RkpseW1OWEZyVHVjSmF3cUNuVG9aNTljcVhSWTVoeldqeWtVczQ0OFcwRnFTSTBOeW93bkNNX2dZTzU2amlZSUFEa1AzV29mTS1IbDA3LTFjcGV4STVUa0E1NFRRU2g4S3JyNUV6aHRsRTVwWW1YX09mMnBxRUNMbmtrV2RmRURRR2l4djBwWm53SG9ta29FTkM2OXNfaVN3aXBBWUVIeHNF?oc=5",
    "date": "Wed, 30 Sep 2026 06:31:08 GMT",
    "country": null,
@@ -614,11 +524,101 @@
    "is_aiinfra": false
   },
   {
-   "title": "Who backed African startups the most in H1 2026? Here are the 8 most active investors",
-   "brief": "The top eight investors of  African startups in the first half of 2026.",
-   "source": "Condia",
-   "url": "https://thecondia.com/active-investors-in-african-startups/",
-   "date": "Tue, 29 Sep 2026 14:43:24 +0000",
+   "title": "Digital economy as driver of growth",
+   "brief": "",
+   "source": "African Business",
+   "url": "https://african.business/2026/09/long-reads/digital-economy-as-driver-of-growth",
+   "date": "Tue, 29 Sep 2026 11:14:35 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Grammy-nominated EarthGang warns of data center harm in Africa",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNYW5vYVBTWnd5UU1jUnQ3Nzdya3pjZWtlWmJKYW1WNkdxbi1TZGo3WlNoOTJ0NDdyUUhsNTY3MF9FWGZ3Y0otWExGSEo5OVREMk83NVRLYzBIR05wdGdFMXhDeC1kTnlXZmZreUR6bFJnVFY4TW40VU94Sk9YWl",
+   "source": "Connecting Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYW5vYVBTWnd5UU1jUnQ3Nzdya3pjZWtlWmJKYW1WNkdxbi1TZGo3WlNoOTJ0NDdyUUhsNTY3MF9FWGZ3Y0otWExGSEo5OVREMk83NVRLYzBIR05wdGdFMXhDeC1kTnlXZmZreUR6bFJnVFY4TW40VU94Sk9YWlRrNmEwLUVIQlJfTXJXamd6TEtRTFg2d2JwRnkwemdlVzBOWVZjdWlKVldyTDNt?oc=5",
+   "date": "Tue, 29 Sep 2026 09:18:24 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": true
+  },
+  {
+   "title": "Android levels playing field for SA retail sector",
+   "brief": "Brief body goes hereAndroid allows retailers to change who controls the pace of sales and customer interactions within stores.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/android-levels-playing-field-for-sa-retail-sector/mYZRXM9gbYVvOgA8",
+   "date": "Tue, 29 Sep 2026 09:36:08 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "OpenEvidence partners with Anthropic, Penn Medicine to expand physician access to AI across Africa and Asia",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbUZTemxMWjlhcWlCbFd5MC1NMktBcEtxRllhbHlSanVPZjMtVEVkZmxlaTJzcVJVWEthRnNac0JVTFItSnlCeEF0UXNwd2tpN3VIcE5NMjhLd1dTTVk4S2VwOTFRd2tsZUd2Q1dYbTVVQlhiYTlFTFZHSDJqLV",
+   "source": "Fierce Healthcare·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbUZTemxMWjlhcWlCbFd5MC1NMktBcEtxRllhbHlSanVPZjMtVEVkZmxlaTJzcVJVWEthRnNac0JVTFItSnlCeEF0UXNwd2tpN3VIcE5NMjhLd1dTTVk4S2VwOTFRd2tsZUd2Q1dYbTVVQlhiYTlFTFZHSDJqLVR5b2lQQlRZMzBoRXk1WndnMmVTdlhuVzlHalJMY1Q0M09zSVZhNHZfaDhVTXdnTTQwcWs0aVhsTXVFekwzc29VQnhLZw?oc=5",
+   "date": "Mon, 28 Sep 2026 17:50:00 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "‘I Hope Elon is Listening.’ South Africa Urges Musk on Starlink",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPMmNERHVHTjF3ckZmdGJsTDh2ZDN5akZaZkpIbUp6MXlBOEpRbWhNakhvWHc2NVBHcE5Sa0RIVGUtU1lJN2xXOGVlQkZmNUhWdVNfY3prekFPTmhYZEU3WEdXT2dDbDFmS3ZFZTZRSUxzOUNIVEhHNFEta1hTcH",
+   "source": "Bloomberg.com·聚合",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMmNERHVHTjF3ckZmdGJsTDh2ZDN5akZaZkpIbUp6MXlBOEpRbWhNakhvWHc2NVBHcE5Sa0RIVGUtU1lJN2xXOGVlQkZmNUhWdVNfY3prekFPTmhYZEU3WEdXT2dDbDFmS3ZFZTZRSUxzOUNIVEhHNFEta1hTcHgxVlp1ekE5X2tGaHh1cGRrc0R5X19nVFl5WTlpS1RsOE5SUEhWN2lsUkM3cUUwN2YyR2p3?oc=5",
+   "date": "Mon, 28 Sep 2026 16:24:34 GMT",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "How the DRC Is Using Mobile Phone Data to Fight Ebola",
+   "brief": "The DRC is using anonymised phone records to map how people travel during its largest Ebola outbreak. Here is how the method works, where it flagged risks early and why coverage gaps still limit the fight against the Bun",
+   "source": "IT News Africa",
+   "url": "https://www.itnewsafrica.com/mobile-and-telecoms/mobile-phone-data-ebola-outbreak/",
+   "date": "Sun, 27 Sep 2026 06:17:00 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Kenya Cyber Threats Hit 11 Billion as DDoS Attacks Double",
+   "brief": "Kenya cyber threats reached 11.12 billion in the year to June 2026, according to the country’s communications regulator. That is 29% more than the 8.62 billion events recorded a year earlier. The sharpest jump came from ",
+   "source": "IT News Africa",
+   "url": "https://www.itnewsafrica.com/cybersecurity/kenya-cyber-threats-hit-11-billion/",
+   "date": "Sat, 26 Sep 2026 09:44:18 +0000",
+   "country": "🇰🇪 肯尼亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Huawei",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE9aemtGNERCNVlHejdjbzR5VEdoazgyQWFTbF9sclFkbC1VaHJqVVJYZWJ5QkRJQkFVZHh3U2xJdGRyZkEzOUVrTEFYaGtyNUxo?oc=5\" target=\"_blank\">Huawei</a>&nbsp;&nbsp;<font color=\"#6f6",
+   "source": "Britannica·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9aemtGNERCNVlHejdjbzR5VEdoazgyQWFTbF9sclFkbC1VaHJqVVJYZWJ5QkRJQkFVZHh3U2xJdGRyZkEzOUVrTEFYaGtyNUxo?oc=5",
+   "date": "Sat, 26 Sep 2026 07:00:00 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Digital trade, AI inject new momentum into China-Africa ties",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE1BUld1U3d5XzJTRjdHN0RCakl3TDZHM0JURnAzVkhyNXZNVXQ3SjJjNDA2RTJ2d1hZVUhmWkpWa0RrejJld3htLURYYWZrWDBaT2N2VXh1SVNxYmNTWmgwOTE3V2s?oc=5\" target=\"_blank\">Digital trad",
+   "source": "People's Daily Online·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1BUld1U3d5XzJTRjdHN0RCakl3TDZHM0JURnAzVkhyNXZNVXQ3SjJjNDA2RTJ2d1hZVUhmWkpWa0RrejJld3htLURYYWZrWDBaT2N2VXh1SVNxYmNTWmgwOTE3V2s?oc=5",
+   "date": "Sat, 26 Sep 2026 01:51:00 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Bank Zero Turns a Profit as It Gains 500,000 Mukuru Customers",
+   "brief": "Bank Zero broke even in August 2026 as about 500,000 Mukuru customers began moving onto its platform. Here is what the milestone means for you and how alliance banking and new lending plans shape Bank Zero profitability ",
+   "source": "IT News Africa",
+   "url": "https://www.itnewsafrica.com/industries/fintech_news/bank-zero-profit/",
+   "date": "Fri, 25 Sep 2026 12:28:11 +0000",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
