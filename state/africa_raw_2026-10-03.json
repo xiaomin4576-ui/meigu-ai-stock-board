@@ -1,13 +1,13 @@
 {
  "asof": "2026-10-03",
- "fetched_at": "2026-10-03T15:07+08:00",
+ "fetched_at": "2026-10-03T17:19+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
    "Moonshot·TechCabal": 10,
    "Disrupt Africa": 10,
    "Techpoint Africa": 0,
-   "IT News Africa": 11,
+   "IT News Africa": 0,
    "TechAfrica News": 12,
    "Condia": 25,
    "ITWeb Africa": 25,
@@ -15,10 +15,10 @@
    "Zimbabwe Situation": 0,
    "African Business": 1,
    "非洲科技·聚合": 5,
-   "中非科技·聚合": 12
+   "中非科技·聚合": 13
   },
   "total": 60,
-  "ai_flagged": 21,
+  "ai_flagged": 22,
   "aiinfra_flagged": 4,
   "countries": 8
  },
@@ -296,7 +296,7 @@
   {
    "title": "Visa Launches Sixth Cohort of Africa FinTech Accelerator With 21 Companies From 9 Countries",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE1WOFRoOG1PRlNKZ3VDODd5YkNoTW9wbExkV2NXUnMtNWlVTFhFdFBRTC1jVlBmZXA5ZVRqb0NqQVVVaW5z?oc=5\" target=\"_blank\">Visa Launches Sixth Cohort of Africa FinTech Accelerato",
-   "source": "fintechgate.net·聚合",
+   "source": "بوابة التكنولوجيا المالية·聚合",
    "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1WOFRoOG1PRlNKZ3VDODd5YkNoTW9wbExkV2NXUnMtNWlVTFhFdFBRTC1jVlBmZXA5ZVRqb0NqQVVVaW5z?oc=5",
    "date": "Thu, 01 Oct 2026 17:09:34 GMT",
    "country": null,
@@ -356,7 +356,7 @@
   {
    "title": "Chinese tech giant Huawei unveils Mate 90 series smartphones with flagship Tau chips adopting logic folding technology",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tMm5FNXBxODhMRFcwVVBMUjdxdTBHYzNOOXJIZy1iazljOS1JaE5nUUV4VWdzc1VVNG4zTEFuN0tyMHFMZk5TTmZVNlJJeWNuaDN5cXZKell6eEc4TlcybkhR?oc=5\" target=\"_blank\">Chinese tech gi",
-   "source": "Global Times·聚合",
+   "source": "globaltimes.cn·聚合",
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tMm5FNXBxODhMRFcwVVBMUjdxdTBHYzNOOXJIZy1iazljOS1JaE5nUUV4VWdzc1VVNG4zTEFuN0tyMHFMZk5TTmZVNlJJeWNuaDN5cXZKell6eEc4TlcybkhR?oc=5",
    "date": "Thu, 01 Oct 2026 12:34:00 GMT",
    "country": null,
@@ -494,9 +494,19 @@
    "is_aiinfra": false
   },
   {
+   "title": "DeepSeek and Huawei Target a Key Source of Nvidia’s A.I. Dominance",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTFBSVnEtX2xUV3VfaDRUanAyY2Y0Q2o1WEZRM2hTVEFIRDg0SGIxYUtGR1lNbkpRaFgwS0NHSGdvOXNfaUpkMmxCTDZ0dEhuaWRjZkwxejNjTkU4LW9tMlpEUl9rUFF3MmFYZnRJY244UkFzNkZzZmtVcDZpY0JEQQ",
+   "source": "The New York Times·聚合",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBSVnEtX2xUV3VfaDRUanAyY2Y0Q2o1WEZRM2hTVEFIRDg0SGIxYUtGR1lNbkpRaFgwS0NHSGdvOXNfaUpkMmxCTDZ0dEhuaWRjZkwxejNjTkU4LW9tMlpEUl9rUFF3MmFYZnRJY244UkFzNkZzZmtVcDZpY0JEQQ?oc=5",
+   "date": "Wed, 30 Sep 2026 10:41:50 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
    "title": "DeepSeek’s new Huawei partnership could reshape China’s AI chip race with Nvidia",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUVRzZ213Mzl4d29ZdU9nRHlrdDMxREdxMEtYWnRNb3RaVmk3NXd5TVFFYWZ1MEs4bnhYMnU2bl8yVUxDa0plNXBneWVxcjJIODlvRXhmNzBlc2V5czRLWFQ4SWw2UUdRSklYSjBoamtyaWYzNFBSbkNVeWRtRn",
-   "source": "WION·聚合",
+   "source": "wionews.com·聚合",
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUVRzZ213Mzl4d29ZdU9nRHlrdDMxREdxMEtYWnRNb3RaVmk3NXd5TVFFYWZ1MEs4bnhYMnU2bl8yVUxDa0plNXBneWVxcjJIODlvRXhmNzBlc2V5czRLWFQ4SWw2UUdRSklYSjBoamtyaWYzNFBSbkNVeWRtRnc1NlI4RjhjOEx5bmwxdlczT2M3bUZ6MmJDV0xuWEdmVGVsaXVkUVhRN3hXRGQ3ZzFJSk9pcUpjUGtsLTRhRWlfTkpuSHVSS1FSbtIBzgFBVV95cUxNZl9NT2dhNkpuNGJWYzdEcVp5N1hpRzg0blRkWHZvSFVmTWRJRkVkQUtuRG5UU2ZzWDZxdEFzVFJib3JwZU1IS2tMbldFaWM0aE96QnRfbUdFNTY3TW42ME5mQlJ1dC1FTndmLS1XUjdtZmtMWWdCVHVuVndPTkVFYmJCSnhRYi0zaWtoeVdlMUpTcG1TUTIxZ1g2MFJEbmpKVG8yTWVfRWxKXzdsdHhBMFQ5MFM3eDI3dWF6c0FoR3NmbGdDYndoTTJoUzFPdw?oc=5",
    "date": "Wed, 30 Sep 2026 07:50:00 GMT",
    "country": null,
@@ -610,16 +620,6 @@
    "url": "https://thecondia.com/active-investors-in-african-startups/",
    "date": "Tue, 29 Sep 2026 14:43:24 +0000",
    "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "GTCO’s fintech is moving deeper into Nigeria’s payment infrastructure",
-   "brief": "GTCO’s HabariPay made ₦7.8bn in profit in H1 2026 as the fintech subsidiary expands its payment gateway, switching and infrastructure business.",
-   "source": "Condia",
-   "url": "https://thecondia.com/gtco-habaripay-nigeria-payment-infrastructure/",
-   "date": "Tue, 29 Sep 2026 14:18:21 +0000",
-   "country": "🇳🇬 尼日利亚",
    "is_ai": false,
    "is_aiinfra": false
   }
