@@ -1,6 +1,6 @@
 {
  "asof": "2026-10-04",
- "fetched_at": "2026-10-04T20:56+08:00",
+ "fetched_at": "2026-10-04T23:53+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -9,40 +9,20 @@
    "Techpoint Africa": 0,
    "IT News Africa": 0,
    "TechAfrica News": 12,
-   "Condia": 25,
+   "Condia": 0,
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 1,
-   "非洲科技·聚合": 5,
-   "中非科技·聚合": 14
+   "非洲科技·聚合": 0,
+   "中非科技·聚合": 0
   },
   "total": 60,
-  "ai_flagged": 23,
-  "aiinfra_flagged": 4,
+  "ai_flagged": 17,
+  "aiinfra_flagged": 2,
   "countries": 8
  },
  "items": [
-  {
-   "title": "Africa’s AI policy cannot be separated from its industrial policy",
-   "brief": "Africa’s AI future will depend on more than technology. Investments in infrastructure, skills and strong institutions will determine who benefits and who is left behind.",
-   "source": "Condia",
-   "url": "https://thecondia.com/ai-africa-industrial-policy/",
-   "date": "Sat, 03 Oct 2026 11:56:44 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Different Ways to Use ChatGPT For Free Without Paying A Subscription",
-   "brief": "Know the different ways to use ChatGPT for free without paying for a personal subscription.",
-   "source": "Condia",
-   "url": "https://thecondia.com/how-to-use-chatgpt-for-free/",
-   "date": "Sat, 03 Oct 2026 10:13:17 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
   {
    "title": "The $100 sandal that sparked a Ghanaian e-Commerce engine",
    "brief": "A thousand days of Cedisaver, an online marketplace designed to aggregate affordable clothing.",
@@ -90,26 +70,6 @@
    "url": "https://techafricanews.com/2026/10/02/ghana-launches-ncsam-2026-to-strengthen-digital-economy-security/",
    "date": "Fri, 02 Oct 2026 15:28:03 +0000",
    "country": "🇬🇭 加纳",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Satlyt raises $8m to turn satellites in orbit into data centres",
-   "brief": "Space-tech startup Satlyt, founded by former Google and SpaceX product manager has raised $8 million in seed funding.",
-   "source": "Condia",
-   "url": "https://thecondia.com/satlyt-raise-8m-for-data-centres/",
-   "date": "Fri, 02 Oct 2026 15:07:54 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": true
-  },
-  {
-   "title": "This startup turns used cooking oil into cash. It just raised $1m for growth",
-   "brief": "Ororo Waste has secured ₦1.4 billion ($1 million) from Rising Tide Africa to improve its collector network and cover hub operating costs.",
-   "source": "Condia",
-   "url": "https://thecondia.com/rising-tide-africa-funds-ororo-waste/",
-   "date": "Fri, 02 Oct 2026 14:04:48 +0000",
-   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -254,16 +214,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Replit acquires Egypt’s AI analytics startup Atta",
-   "brief": "A US-based AI coding startup has acquired Atta, an Egyptian-founded business analysis and charting company in undisclosed terms.",
-   "source": "Condia",
-   "url": "https://thecondia.com/replit-acquires-atta-egypts-ai-startup/",
-   "date": "Fri, 02 Oct 2026 08:46:46 +0000",
-   "country": "🇪🇬 埃及",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
    "title": "Blu Label Discloses R74.5 Million in Director-Related Share Dealings",
    "brief": "South African telecommunications and technology group Blu Label Unlimited Group  has disclosed two securities transactions involving associates of its directors and a director of one ......",
    "source": "TechAfrica News",
@@ -364,26 +314,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Huawei Shelves AI Chip Exports as China Hits $12B [2026]",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPemcxWUlERVZ2eU1INWNzY3huaHYxbnZIR2VNcVU1cnRYeTZDZzlKa3lkb1dvclhqNjdvOG4zUXM2a1pJb2Npa1ZxaHBWYlQxcGc2SHZFTnBBOHlHZGVuWjlhS0xzSWxWekhKcF9rempqX3RCd0VBTllEZkRNRU",
-   "source": "tech-insider.org·聚合",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPemcxWUlERVZ2eU1INWNzY3huaHYxbnZIR2VNcVU1cnRYeTZDZzlKa3lkb1dvclhqNjdvOG4zUXM2a1pJb2Npa1ZxaHBWYlQxcGc2SHZFTnBBOHlHZGVuWjlhS0xzSWxWekhKcF9rempqX3RCd0VBTllEZkRNRU9oQnZxdw?oc=5",
-   "date": "Thu, 01 Oct 2026 12:34:07 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Chinese tech giant Huawei unveils Mate 90 series smartphones with flagship Tau chips adopting logic folding technology",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tMm5FNXBxODhMRFcwVVBMUjdxdTBHYzNOOXJIZy1iazljOS1JaE5nUUV4VWdzc1VVNG4zTEFuN0tyMHFMZk5TTmZVNlJJeWNuaDN5cXZKell6eEc4TlcybkhR?oc=5\" target=\"_blank\">Chinese tech gi",
-   "source": "Global Times·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tMm5FNXBxODhMRFcwVVBMUjdxdTBHYzNOOXJIZy1iazljOS1JaE5nUUV4VWdzc1VVNG4zTEFuN0tyMHFMZk5TTmZVNlJJeWNuaDN5cXZKell6eEc4TlcybkhR?oc=5",
-   "date": "Thu, 01 Oct 2026 12:34:00 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "MTN’s IHS takeover deal gets CompCom approval",
    "brief": "The Competition Commission sets conditions for the approval of MTN’s proposed acquisition of tower operator IHS.",
    "source": "ITWeb Africa",
@@ -404,46 +334,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Why Better Partnerships May Be the Missing Piece in U.S.–Africa Technology Collaboration",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxOYm1LVzFYVzRGZi1FbTNoS2Y4Z0I5NXZHOE15MzV3SmZyOW1tZDNqX0hRMWlpNklKcmJGRFFobUYyeUVuYmRPTHpUQnE5RmFITHFRNkxaWS10QUphUUNDMEZrNWN6dElDczNSajN1Y0pRemxfSVg4TXVIakNmVE",
-   "source": "BBN Times·聚合",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYm1LVzFYVzRGZi1FbTNoS2Y4Z0I5NXZHOE15MzV3SmZyOW1tZDNqX0hRMWlpNklKcmJGRFFobUYyeUVuYmRPTHpUQnE5RmFITHFRNkxaWS10QUphUUNDMEZrNWN6dElDczNSajN1Y0pRemxfSVg4TXVIakNmVE1zY0ZUNjZHMXhxUTlIcnFoaE1FdENkbUFfcWNvbGp3VDBHMmo4ZWxNRnRBazdkYTNrUzdGSzFvTmtRXzdWeg?oc=5",
-   "date": "Thu, 01 Oct 2026 10:29:19 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "66 companies that have built digital Nigeria",
-   "brief": "From early mainframes, typewriters, and telephone exchanges to modern fintechs, cloud infrastructure, and diaspora platforms, explore the 66-year chronological relay race of the companies and institutions that built Nige",
-   "source": "Condia",
-   "url": "https://thecondia.com/66-companies-that-built-digital-nigeria/",
-   "date": "Thu, 01 Oct 2026 10:10:45 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Nigeria rolls out digital postcodes for every building",
-   "brief": "The system uses geographic information technology to pinpoint locations with far greater accuracy than the old six-digit numeric codes.",
-   "source": "Condia",
-   "url": "https://thecondia.com/nigeria-rolls-out-digital-postcodes-for-every-building/",
-   "date": "Thu, 01 Oct 2026 08:03:28 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Nigerian Civil Servants Give Government Ultimatum Ahead of October 2 Strike",
-   "brief": "Nigerian civil servants have given the Federal Government until September 30, 2026, to address their demands or face a three-day warning strike from October 2.",
-   "source": "Condia",
-   "url": "https://thecondia.com/nigerian-civil-servants-strike/",
-   "date": "Thu, 01 Oct 2026 07:46:59 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Balancing the AI revolution: Lessons from BRICS New Delhi Summit",
    "brief": "AI regulation should not slow innovation, but ensure it protects people and promotes fairness so that the benefits of AI are broadly shared.",
    "source": "ITWeb Africa",
@@ -454,31 +344,11 @@
    "is_aiinfra": false
   },
   {
-   "title": "Huawei steps up Tau chip roll-out, with Mate XT 2 on track for 1 million sales",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPc1pOa2w5V3ZPZkhMSUY5dk1sdU1lOXZCU2Jhb1VKcHlCM0o4TnZjQmY3cko3LS1ub2JJSEVLZnVyYzZ5azkwMVZOVkhCMFdtUEE2aTU3MnVjWXRxcWJ0OG04LVFkaW5hVGJWQVk5OUh4b3RjM3dJdWxuWFJ3Tk",
-   "source": "South China Morning Post·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc1pOa2w5V3ZPZkhMSUY5dk1sdU1lOXZCU2Jhb1VKcHlCM0o4TnZjQmY3cko3LS1ub2JJSEVLZnVyYzZ5azkwMVZOVkhCMFdtUEE2aTU3MnVjWXRxcWJ0OG04LVFkaW5hVGJWQVk5OUh4b3RjM3dJdWxuWFJ3Tk9NTVVEcVZVblhKTGhJdXZxakNFY0ZCZjJ3SjZqdjROVGZ6eEhvMUJ1YUl2c0xxb3Q2WS03VdIBswFBVV95cUxNTUxfQ1pmVFpWaUFZT3dESndhS3FHYzV3ZEpTTVJrd0ZtUUFNSHBKa29ZUngwQ0lCQk5tTm9pcU9hQUNMSXpXNW1qQUpyU1pKaTdDZDBWT1oxQWlUa1JtWG5LdEZDejV6OG5teDJ3OHdJUUdid0wxRS1qMlhNVWdleG9rUVdUV2ZSdnN2NGtsZ3RydzBJd2JQVWduWXlmTUJ2NlhzaUx0aTJ5Z19weVBrRmtfUQ?oc=5",
-   "date": "Thu, 01 Oct 2026 03:00:08 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Boomi Recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for API Management",
    "brief": "Boomi, the data activation company for AI, today announced it has been recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for API Management.",
    "source": "ITWeb Africa",
    "url": "https://www.itweb.co.za/article/boomi-recognized-as-a-leader-in-the-2026-gartner-magic-quadrant-for-api-management/nWJadvbN3DBvbjO1",
    "date": "Wed, 30 Sep 2026 17:30:00 +0200",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "IFC commits up to $90m to Airtel Money’s London IPO",
-   "brief": "IFC will buy $90m worth of shares in Airtel Money as it prepares to go public mid-October 2026.",
-   "source": "Condia",
-   "url": "https://thecondia.com/ifc-buys-shares-in-airtel-money/",
-   "date": "Wed, 30 Sep 2026 14:19:29 +0000",
    "country": null,
    "is_ai": true,
    "is_aiinfra": false
@@ -494,26 +364,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "USTDA backs AI-ready data center development in Nigeria",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPSUVUQUdsT3dtLWhUemJ1WTN6blI1LTNLbXAwQVlwX0M4Q1c1dnViVlBMcjZqQUo5NlhuWi1JTVlXWnp6cDRGZ2xfTGlWa0xHd0dRSHJOTmFEcDNkQ1RaOVdpekl1Y0RXUHNRc0VfY2VOYXhrMHF2T2szZEhsMG",
-   "source": "Africa Business Communities·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSUVUQUdsT3dtLWhUemJ1WTN6blI1LTNLbXAwQVlwX0M4Q1c1dnViVlBMcjZqQUo5NlhuWi1JTVlXWnp6cDRGZ2xfTGlWa0xHd0dRSHJOTmFEcDNkQ1RaOVdpekl1Y0RXUHNRc0VfY2VOYXhrMHF2T2szZEhsMGVYUHUxZGJ3Vld0c0hmRExjblJtOVFlWWYzT2xlZ0E1U3RUamNXeTZJekFFSlc2d3RKWFdRV3FzWDNPd0E?oc=5",
-   "date": "Wed, 30 Sep 2026 12:28:24 GMT",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": true,
-   "is_aiinfra": true
-  },
-  {
-   "title": "NECO Result Is Out: How to Check Your NECO Result Online 2026",
-   "brief": "NECO 2026 SSCE results are out. Find out how to check your result online, buy a result checker token, fix common portal errors, understand your grades, and see the latest 2026 pass-rate figures.",
-   "source": "Condia",
-   "url": "https://thecondia.com/neco-result-checker/",
-   "date": "Wed, 30 Sep 2026 11:14:01 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Stop AI experimentation: Pilots are avoiding the real work",
    "brief": "Enterprise AI experimentation has become a form of avoidance as it is now becoming an excuse to postpone the decisions that actually matter.",
    "source": "ITWeb Africa",
@@ -524,31 +374,11 @@
    "is_aiinfra": false
   },
   {
-   "title": "DeepSeek opens tools to help Huawei chips supplant Nvidia in AI",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX2pDSnRWMTNZYUhBYnh2eHpWQklRVG1FSDJPYWF5WkI4VTM2VjQteGJTQjRNWjJ6Z3hpcVpiRGpKVjVubkNfeHFVYnY0ODIxbUJKNmFFTFVQUndibGstVDF0WnlMSTRlc0xVMWNlOFhnbEtURjRidE9GejFHdE",
-   "source": "South China Morning Post·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX2pDSnRWMTNZYUhBYnh2eHpWQklRVG1FSDJPYWF5WkI4VTM2VjQteGJTQjRNWjJ6Z3hpcVpiRGpKVjVubkNfeHFVYnY0ODIxbUJKNmFFTFVQUndibGstVDF0WnlMSTRlc0xVMWNlOFhnbEtURjRidE9GejFHdEZBckxZYkZJSzFpNnhGZ0JiS1BSTUdoanBOSGZPd1d0M2FVLVRFalYzNDZRM2NkQ0xEVzN6Rk50OUd5VjQ2NnJwZE5JUTjSAcMBQVVfeXFMT09mUUVmbnlNV0NDZUVUbmE0X0ZKUTVUbkx0RkpseW1OWEZyVHVjSmF3cUNuVG9aNTljcVhSWTVoeldqeWtVczQ0OFcwRnFTSTBOeW93bkNNX2dZTzU2amlZSUFEa1AzV29mTS1IbDA3LTFjcGV4STVUa0E1NFRRU2g4S3JyNUV6aHRsRTVwWW1YX09mMnBxRUNMbmtrV2RmRURRR2l4djBwWm53SG9ta29FTkM2OXNfaVN3aXBBWUVIeHNF?oc=5",
-   "date": "Wed, 30 Sep 2026 06:31:08 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
    "title": "Murata Begins Mass Production of World’s Smallest 0201-inch Size Three-Terminal Low-ESL MLCCs",
    "brief": "Murata Manufacturing Co., Ltd. (TOKYO: 6981) (ISIN: JP3914400001) has begun mass production of the LLD series, the world’s smallest* three-terminal low-equivalent series inductance (ESL) multilayer ceramic capacitors (ML",
    "source": "ITWeb Africa",
    "url": "https://www.itweb.co.za/article/murata-begins-mass-production-of-worlds-smallest-0201-inch-size-three-terminal-low-esl-mlccs/JN1gP7OAXogqjL6m",
    "date": "Wed, 30 Sep 2026 04:00:00 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "EU Governments Seek More Time to Remove High-Risk Chinese Telecom Equipment",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zQjNiVDZDTTlyQk9nLTIyTVlNTjdxdGJPZnhxY3pwY2NlSTI5TGl1X2pCNjBXMVlQMnRkenVUb3dBcURsVzJhVXI2ZFVqdnNMNGt6T2luNWM1Z0hBNzRFMzQxRzQ2Sk1Z?oc=5\" target=\"_blank\">EU Gove",
-   "source": "EU Today·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zQjNiVDZDTTlyQk9nLTIyTVlNTjdxdGJPZnhxY3pwY2NlSTI5TGl1X2pCNjBXMVlQMnRkenVUb3dBcURsVzJhVXI2ZFVqdnNMNGt6T2luNWM1Z0hBNzRFMzQxRzQ2Sk1Z?oc=5",
-   "date": "Tue, 29 Sep 2026 20:13:05 GMT",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -614,11 +444,181 @@
    "is_aiinfra": false
   },
   {
-   "title": "Who backed African startups the most in H1 2026? Here are the 8 most active investors",
-   "brief": "The top eight investors of  African startups in the first half of 2026.",
-   "source": "Condia",
-   "url": "https://thecondia.com/active-investors-in-african-startups/",
-   "date": "Tue, 29 Sep 2026 14:43:24 +0000",
+   "title": "Digital economy as driver of growth",
+   "brief": "",
+   "source": "African Business",
+   "url": "https://african.business/2026/09/long-reads/digital-economy-as-driver-of-growth",
+   "date": "Tue, 29 Sep 2026 11:14:35 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Android levels playing field for SA retail sector",
+   "brief": "Brief body goes hereAndroid allows retailers to change who controls the pace of sales and customer interactions within stores.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/android-levels-playing-field-for-sa-retail-sector/mYZRXM9gbYVvOgA8",
+   "date": "Tue, 29 Sep 2026 09:36:08 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "The AI will see you now",
+   "brief": "AI is rewriting the HR rulebook, changing everything from recruitment through to exit. But this innovation is not without its risks.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/the-ai-will-see-you-now/o1Jr5qxPoAzqKdWL",
+   "date": "Fri, 25 Sep 2026 10:29:00 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Bad memory: How to manage the storage crisis",
+   "brief": "Is software-defined storage a real way through the memory crisis, or does it just move the problem somewhere else?",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/bad-memory-how-to-manage-the-storage-crisis/8OKdWqDXLeRqbznQ",
+   "date": "Thu, 17 Sep 2026 09:39:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "A false sense of security",
+   "brief": "As ransomware evolves, backups have become the last line of defence, and the hardest to get right.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/a-false-sense-of-security/PmxVEMKEYgxvQY85",
+   "date": "Thu, 10 Sep 2026 09:11:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Taking control of your digital destiny",
+   "brief": "Is a cloud sovereignty strategy really about control, or is it still just about where data lives?",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/taking-control-of-your-digital-destiny/DZQ58vV8m3kMzXy2",
+   "date": "Thu, 27 Aug 2026 09:01:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Moonshot by TechCabal unveils 2026 theme, “Courage & Conviction — Building for a New World”",
+   "brief": "Courage & Conviction, the theme for the fourth edition of Moonshot by TechCabal coming to the National Theatre in Lagos, Nigeria, on October 28 and 29, 2026.",
+   "source": "Moonshot·TechCabal",
+   "url": "https://techcabal.com/2026/05/29/moonshot-by-techcabal-unveils-2026-theme/",
+   "date": "Fri, 29 May 2026 13:27:31 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Grey joins Moonshot 2026 as headline sponsor",
+   "brief": "TechCabal is announcing Grey, the US-based global cross-border payments company serving nearly three million users across 70 countries, as the headline sponsor of Moonshot 2026, for the conference’s return on October 28 ",
+   "source": "Moonshot·TechCabal",
+   "url": "https://techcabal.com/2026/05/13/grey-joins-moonshot-2026-as-headline-sponsor/",
+   "date": "Wed, 13 May 2026 15:07:28 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Africa’s payments future will be built on collaboration, not competition",
+   "brief": "Collaboration, trust, and local relevance are what it would take to building Africa’s payments superhighway",
+   "source": "Moonshot·TechCabal",
+   "url": "https://techcabal.com/2025/10/23/africas-payments-future-will-be-built-on-collaboration-not-competition/",
+   "date": "Thu, 23 Oct 2025 13:39:21 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Here’s what it will take to support Africa’s $20 billion creative industry",
+   "brief": "Africa’s cultural and creative industries could contribute over $20 billion to GDP each year, yet only a fraction of that returns to creators due to weak business models and limited access to financing.",
+   "source": "Moonshot·TechCabal",
+   "url": "https://techcabal.com/2025/10/22/heres-what-it-will-take-to-support-africas-20-billion-creative-industry/",
+   "date": "Wed, 22 Oct 2025 12:29:30 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Build for African problems, not popular trends, Roqqu’s Israel Ololade tells founders",
+   "brief": "\"No one can build for Africans like Africans. Our taste bud is just very different,\" Ololade said.",
+   "source": "Moonshot·TechCabal",
+   "url": "https://techcabal.com/2025/10/22/roqqu-keynote-moonshot-by-techcabal/",
+   "date": "Wed, 22 Oct 2025 06:36:17 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Gozem is scaling across Francophone Africa, and they’re sharing how they did it",
+   "brief": "To scale across many markets like Gozem has, you need to centralise your operations and automate all processes, according to Gennate Hassad, the global head of financing at Gozem.",
+   "source": "Moonshot·TechCabal",
+   "url": "https://techcabal.com/2025/10/21/gozem-scaling-across-francophone-africa/",
+   "date": "Tue, 21 Oct 2025 14:53:15 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "After Moonshot: What to do with all that post-event energy",
+   "brief": "Every October, when Moonshot by TechCabal ends, I’m reminded that the real work starts after the applause fades. The panels, keynote speeches, and mixers create a kind of high, a temporary ecosystem of ideas and ambition",
+   "source": "Moonshot·TechCabal",
+   "url": "https://techcabal.com/2025/10/20/after-moonshot-what-to-do-with-all-energy/",
+   "date": "Mon, 20 Oct 2025 17:08:04 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Hyperbridge CTO wants African financial institutions to issue local stablecoins",
+   "brief": "Hyperbridge calls on African banks, fintechs, and mobile money operators to become issuers of locally pegged stablecoins.",
+   "source": "Moonshot·TechCabal",
+   "url": "https://techcabal.com/2025/10/20/hyperbridge-stablecoins-africa/",
+   "date": "Mon, 20 Oct 2025 13:02:47 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Nigeria has made progress since ‘Crypto Black Friday,’ but regulation remains insufficient",
+   "brief": "After years of stop-start regulation, Nigeria has made its intention clear that it is ready to bring its crypto sector, which has notoriously operated in a Wild West market, under its watchful eye.",
+   "source": "Moonshot·TechCabal",
+   "url": "https://techcabal.com/2025/10/18/since-crypto-black-friday-regulation-remains-insufficient/",
+   "date": "Sat, 18 Oct 2025 13:40:19 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "What Africa’s consumers are demanding and who’s delivering",
+   "brief": "African customers tend to want three things out of their digital products: convenience, affordability, and speed.",
+   "source": "Moonshot·TechCabal",
+   "url": "https://techcabal.com/2025/10/18/flutterwave-what-consumers-are-demanding/",
+   "date": "Sat, 18 Oct 2025 13:05:33 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "How Egyptian prop-tech startup Partment enables hassle-free 2nd home ownership",
+   "brief": "Egyptian prop-tech startup Partment is working to redefine second-home ownership and real estate investment via its “invest and experience” co-ownership platform. Founded in 2022, Partment offers users the chance to part",
+   "source": "Disrupt Africa",
+   "url": "https://old.disruptafrica.com/2024/01/23/how-egyptian-prop-tech-startup-partment-enables-hassle-free-2nd-home-ownership/",
+   "date": "Tue, 23 Jan 2024 06:00:39 +0000",
+   "country": "🇪🇬 埃及",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Announcing the $5M Core Africa Innovation Fund: Empowering Local Web3 Builders",
+   "brief": "Core DAO is excited to introduce the African Innovation Fund, a groundbreaking initiative to provide resources and networks to support local Web3 builders and projects across the African continent. This new fund is set t",
+   "source": "Disrupt Africa",
+   "url": "https://old.disruptafrica.com/2024/01/23/announcing-the-5m-core-africa-innovation-fund-empowering-local-web3-builders/",
+   "date": "Tue, 23 Jan 2024 04:00:13 +0000",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
