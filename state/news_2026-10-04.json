@@ -1,10 +1,10 @@
 {
  "asof": "2026-10-04",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-10-04T15:26+08:00",
+ "generated_at": "2026-10-04T17:58+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 10,
+  "cross_day_suppressed": 11,
   "cluster_label": "",
   "cluster_dropped": [],
   "backfilled": 0
@@ -13,8 +13,8 @@
   {
    "cat": "geo",
    "title": "伊朗议长：霍尔木兹海峡暂不重开",
-   "brief": "伊朗议会议长卡利巴夫10月4日称，在条件满足前霍尔木兹海峡不会重新开放，美方陷入绝望。",
-   "chain": "海峡封锁预期升温→避险与油价风险溢价抬升、压制美股风险偏好→A股算力链情绪承压",
+   "brief": "伊朗议会议长卡利巴夫10月4日称，在伊斯兰堡谅解备忘录条件满足前霍尔木兹海峡不会重新开放，美方已陷入绝望。",
+   "chain": "海峡封锁延续→全球原油海运风险溢价与油价上行→美股能源板块受益、成长股承压→A股算力链情绪受抑",
    "impact": 9,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202610043888542110.html",
@@ -22,89 +22,149 @@
   },
   {
    "cat": "oil",
-   "title": "伊拉克首次经霍尔木兹运出200万桶原油",
-   "brief": "伊拉克油轮公司10月3日证实，用大型油轮将200万桶原油运出霍尔木兹海峡向海外买家交货，为数十年来首次。",
-   "chain": "海峡通行受限下绕行交货→Brent风险溢价维持高位→东非LNG海运与莫桑比克项目物流成本上升",
+   "title": "一油轮在霍尔木兹附近遭射弹击中",
+   "brief": "英国海事贸易行动办公室称一艘油轮报告被不明射弹击中，机舱受损，船员安全，暂无环境影响报告。",
+   "chain": "油轮遇袭→霍尔木兹航运保险费与Brent风险溢价抬升→莫桑比克LNG海运绕行成本与东非油气外运风险上升",
    "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610043888532941.html",
-   "ts": "2026-10-04 11:43:24"
+   "url": "https://finance.eastmoney.com/a/202610043888545063.html",
+   "ts": "2026-10-04 15:51:12"
   },
   {
    "cat": "oil",
    "title": "OPEC+原则同意11月产量目标不变",
-   "brief": "OPEC+代表称已原则上达成协议，11月石油产量目标维持不变，延续现有减产节奏。",
-   "chain": "供给端不增量→油价下方有支撑、短期偏强震荡→莫桑比克油气售价与东非项目经济性受益",
-   "impact": 8,
+   "brief": "欧佩克+代表称已原则上达成协议，11月石油产量目标将维持不变，延续现有减产框架。",
+   "chain": "产量冻结→油价获底部支撑但缺乏上行动能→莫桑比克油气项目现金流预期稳定、东非LNG长约谈判偏中性",
+   "impact": 7,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202610043888541659.html",
    "ts": "2026-10-04 14:52:10"
   },
   {
+   "cat": "oil",
+   "title": "G7将释放柴油库存稳供应",
+   "brief": "因欧洲与中东战事制约燃料供应，G7国家将释放柴油库存以平抑市场。",
+   "chain": "柴油库存释放→成品油裂解价差回落、原油需求端获支撑→莫桑比克炼化与东非燃料进口成本压力略缓",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/02/diesel-oil-trump-europe-export-ban.html",
+   "ts": "Fri, 02 Oct 2026 19:25:36 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "沙特阿美利雅得设施附近起火冒烟",
+   "brief": "目击者称沙特阿美位于利雅得的设施附近出现火光与浓烟，事件原因与损失尚待确认。",
+   "chain": "阿美设施异动→市场对沙特原油出口稳定性担忧升温→油价短线波动、莫桑比克油气经营关注中东供应替代效应",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUmVOVEVCTVdITFV4aHd1aWM4aC1lZzBQTUIxcG9zSkU0ZXJKbHVRdTRWTUVsRWVsRmZHYlI2ZW01dnp3NlQ4WEV3Wnp0YXpVV2VCQ2RmeVBQQ3BUN0E3S1ZrRkw0ODdkVVJsSnFWWVM5YWVZZExacUlwdGRrc3h1LVJkNHNWY1dZS1F2UE1aR1JHYzNkX0ktS0RIQW4zX3RJUWV4eVBqVFd6X0t1?oc=5",
+   "ts": "2026-10-03T13:38:10+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "白氢能否复制绿氢未竟之路",
+   "brief": "分析指白氢（天然地质氢）在成本与勘探上或比绿氢更具商业化潜力，但规模化仍待验证。",
+   "chain": "白氢叙事升温→全球天然气/LNG长期替代预期生变→莫桑比克Rovuma与东非LNG项目需关注氢能竞争对气价长周期压制",
+   "impact": 4,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/Could-White-Hydrogen-Succeed-Where-Green-Hydrogen-Stumbled.html",
+   "ts": "Sat, 03 Oct 2026 16:00:00 -0500"
+  },
+  {
    "cat": "macro",
-   "title": "贝森特驳斥AI末日论 要求实验室担责",
-   "brief": "美财长贝森特10月4日批评AI生存风险警告危言耸听，呼吁AI行业自我约束并承担责任。",
-   "chain": "财长淡化AI监管风险→利好美股AI高久期估值分母→A股算力链风险偏好回暖",
-   "impact": 7,
+   "title": "Cramer：9月非农正合多头心意",
+   "brief": "CNBC评论称9月非农就业报告数据恰好符合股市多头期待，强化软着陆与降息预期。",
+   "chain": "非农温和→降息预期升温、实际利率下行→美股AI高久期票估值分母改善→A股算力链风险偏好抬升",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/02/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday.html",
+   "ts": "2026-10-02T13:13:28+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "贝森特驳斥AI末日论",
+   "brief": "美财长贝森特称AI生存风险警告纯属危言耸听，呼吁AI实验室自担责任、行业自律。",
+   "chain": "财长淡化AI监管风险→美股AI板块政策不确定性下降→A股算力链情绪获边际提振",
+   "impact": 6,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202610043888539433.html",
    "ts": "2026-10-04 13:50:43"
   },
   {
-   "cat": "ai",
-   "title": "美情报总监克莱顿出任白宫AI事务主管",
-   "brief": "特朗普任命国家情报总监杰伊·克莱顿为白宫人工智能事务主管，统筹AI政策。",
-   "chain": "AI政策权集中情报系统→美股AI监管不确定性上升→A股算力链关注合规与出口管制",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610043888541940.html",
-   "ts": "2026-10-04 15:02:51"
+   "cat": "macro",
+   "title": "债券抛售重灾板块或迎反弹",
+   "brief": "Mike Khouw指出公用事业板块在债市抛售中承压，但技术面显示其有望反弹。",
+   "chain": "长端利率高企压制高股息板块→公用事业超跌反弹预期→对A股算力链无直接传导，反映利率敏感资产轮动",
+   "impact": 4,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/02/the-sector-in-the-cross-hairs-of-the-bond-sell-off-looks-poised-for-a-bounce-says-mike-khouw.html",
+   "ts": "2026-10-02T15:34:28+00:00"
   },
   {
-   "cat": "ai",
-   "title": "白宫成立超级智能工作组",
-   "brief": "白宫设立特别工作组研究AI风险与机遇，并就联邦监管角色提建议，须120天内交报告。",
-   "chain": "监管框架酝酿→美股AI龙头面临合规成本预期→A股算力链政策对标情绪",
+   "cat": "macro",
+   "title": "土耳其投资基金泡沫如何破裂",
+   "brief": "路透解释性报道复盘土耳其投资基金泡沫破裂的成因与传导，警示新兴市场杠杆风险。",
+   "chain": "新兴市场杠杆风险暴露→美元资产避险需求上升→美股风险偏好边际承压→A股算力链外资流入节奏受扰",
+   "impact": 4,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZ0l1bkJFbVQwY0lWdXRvbmM1aUxFQUZVLWQwd1RPM1JINHhNLTZqLWY0cEFMb3RKVnFFbmQ2ZERnX0tuam9KdG90aW5RaGtsV0ZXOUd1WkdVNjUteXVTSHYxUTkwSWdZdnI3RXRmTEVMWEpyTXB0NF9GSnQ5UTNOU1V4ZWtLaUdTVFJQT1F5NG84cWdRVFZveXh3?oc=5",
+   "ts": "2026-10-02T14:57:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "基辅遭袭 第聂伯河北桥被无人机击中",
+   "brief": "当地时间10月4日，基辅横跨第聂伯河的北桥遭喷气式无人机袭击，袭击时桥上有车辆通行，暂无伤亡。",
+   "chain": "俄乌冲突升级→欧洲能源与防务风险溢价上升→美股军工受益、风险资产承压→A股算力链情绪受抑",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610043888549347.html",
+   "ts": "2026-10-04 16:45:11"
+  },
+  {
+   "cat": "geo",
+   "title": "胡塞称沙特空袭也门焦夫省",
+   "brief": "也门胡塞武装称沙特10月4日对焦夫省展开系列空袭，红海与也门局势持续紧张。",
+   "chain": "红海-也门冲突延续→航运绕行与中东风险溢价→油价获支撑、美股能源强于成长→A股算力链情绪偏弱",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610043888538218.html",
-   "ts": "2026-10-04 13:35:45"
+   "url": "https://finance.eastmoney.com/a/202610043888552189.html",
+   "ts": "2026-10-04 17:20:30"
   },
   {
-   "cat": "ai",
-   "title": "首个昇腾950测试基地北京通州落成",
-   "brief": "9月29日首套昇腾A5超节点商用局点启动，搭载昇腾950DT的Atlas 850E达成商用条件。",
-   "chain": "国产算力商用落地→强化A股算力链自主可控逻辑→对美股AI芯片出口管制形成对冲",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610043888536436.html",
-   "ts": "2026-10-04 12:41:47"
-  },
-  {
-   "cat": "ai",
-   "title": "离职员工爆料OpenAI风险意识不足",
-   "brief": "一名近期离职的OpenAI员工10月3日爆料前东家风险意识不足，呼吁AI业效仿航空核能多重防护。",
-   "chain": "AI安全治理争议升温→美股AI龙头声誉与监管风险→A股算力链情绪中性偏谨慎",
+   "cat": "geo",
+   "title": "卢拉团队指责美干预巴西大选",
+   "brief": "巴西10月4日举行总统选举首轮投票，卢拉竞选团队指责美国试图干预选举，美驻巴使领馆暂停线下服务。",
+   "chain": "巴西大选不确定性→拉美资产与大宗商品波动→美股新兴市场敞口承压→A股算力链受全球风险偏好扰动",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610043888541163.html",
-   "ts": "2026-10-04 14:38:37"
+   "url": "https://finance.eastmoney.com/a/202610043888540440.html",
+   "ts": "2026-10-04 14:16:37"
+  },
+  {
+   "cat": "geo",
+   "title": "拉脱维亚执政联盟议会选举领先",
+   "brief": "拉脱维亚中央选举委员会初步计票显示，总理库尔贝格斯所在“联合名单”联盟大幅领先。",
+   "chain": "拉脱维亚亲欧派领先→欧洲地缘风险边际缓和→欧元资产与美股风险偏好小幅改善→A股算力链情绪中性偏暖",
+   "impact": 3,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610043888539930.html",
+   "ts": "2026-10-04 14:10:04"
   },
   {
    "cat": "tech",
-   "title": "英伟达美光与就业数据驱动上周行情",
-   "brief": "CNBC复盘上周美股，英伟达、美光及超预期就业报告共同主导市场走势。",
-   "chain": "芯片与就业双驱动→美股半导体估值获支撑→A股算力链映射芯片与存储方向",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/10/03/how-nvidia-micron-and-a-surprising-jobs-report-drove-last-weeks-stock-action.html",
-   "ts": "Sat, 03 Oct 2026 15:06:10 GMT"
+   "title": "特朗普任命克莱顿为白宫AI事务主管",
+   "brief": "特朗普任命国家情报总监杰伊·克莱顿出任白宫人工智能事务主管，统筹AI政策与安全事务。",
+   "chain": "AI政策主管落定→美国AI监管与出口管制走向明朗化→美股AI芯片板块政策预期改善→A股算力链国产替代逻辑强化",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/03/trump-jay-clayton-ai-czar.html",
+   "ts": "Sun, 04 Oct 2026 09:25:01 GMT"
   },
   {
    "cat": "tech",
    "title": "特斯拉交付超预期 股价涨5%",
-   "brief": "特斯拉公布好于预期的车辆交付报告，股价当日上涨5%。",
-   "chain": "交付数据超预期→美股电动车与智驾链情绪修复→A股汽车电子与算力链联动",
+   "brief": "特斯拉公布好于预期的车辆交付报告，股价跳涨5%，市场关注其需求与产能节奏。",
+   "chain": "特斯拉交付超预期→美股电动车与自动驾驶产业链情绪回暖→A股新能源车与算力链（智驾芯片）联动受益",
    "impact": 6,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/10/02/tesla-tsla-q3-2026-vehicle-delivery-production.html",
@@ -112,113 +172,53 @@
   },
   {
    "cat": "tech",
-   "title": "Meta推出Muse可代客购物结账",
-   "brief": "Meta的Muse功能可替用户完成购物与结账流程，展示AI代理落地电商场景。",
-   "chain": "AI代理商业化落地→美股平台型科技股变现预期→A股AI应用与算力链情绪",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/10/03/meta-muse-shopping-ai-agent.html",
-   "ts": "Sat, 03 Oct 2026 12:00:01 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "特斯拉Cybercab奥斯汀首月遇阻",
-   "brief": "特斯拉Cybercab在奥斯汀运营首月表现坎坷，下一步扩张面临更大挑战。",
-   "chain": "Robotaxi扩张不及预期→美股自动驾驶估值承压→A股智驾链情绪偏谨慎",
+   "title": "特斯拉Cybercab奥斯汀首月坎坷",
+   "brief": "特斯拉Cybercab在奥斯汀运营首月表现波折，下一步扩张面临挑战，Robotaxi商业化仍待验证。",
+   "chain": "Robotaxi落地不及预期→美股自动驾驶估值承压→A股智驾与算力链短期情绪受抑",
    "impact": 5,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/10/03/tesla-cybercab-pressure-to-expand-after-rocky-first-month-in-austin.html",
    "ts": "Sat, 03 Oct 2026 20:29:07 GMT"
   },
   {
-   "cat": "gas",
-   "title": "G7将释放柴油库存应对供应紧张",
-   "brief": "G7国家将释放柴油库存，因欧洲与中东战事持续制约燃料供应。",
-   "chain": "成品油库存释放→短期压制柴油与原油裂解价差→东非燃料进口成本与莫桑比克运营成本边际缓解",
+   "cat": "tech",
+   "title": "Bitget遭3.88亿美元黑客攻击",
+   "brief": "加密交易所Bitget CEO向CNBC表示，遭3.88亿美元黑客攻击后预计难以追回大部分资金。",
+   "chain": "加密安全事件→数字资产风险偏好下降→美股加密概念股承压→A股算力链情绪无直接传导，区块链安全主题受关注",
+   "impact": 4,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/02/bitget-crypto-stolen-hack-recovery.html",
+   "ts": "Fri, 02 Oct 2026 06:03:23 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "白宫成立“超级智能工作组”",
+   "brief": "据华尔街日报，白宫成立特别工作组研究AI风险与机遇，并就联邦AI监管角色提出建议，须120天内提交报告。",
+   "chain": "白宫AI治理框架推进→美股AI板块监管路径清晰化→A股算力链政策对标与国产化预期升温",
    "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/02/diesel-oil-trump-europe-export-ban.html",
-   "ts": "Fri, 02 Oct 2026 19:25:36 GMT"
-  },
-  {
-   "cat": "gas",
-   "title": "白氢能否复制绿氢未竟之路",
-   "brief": "OilPrice分析白氢（天然氢）能否在绿氢受挫后取得成功，成为新气源方向。",
-   "chain": "天然氢勘探升温→中长期或改变天然气供给格局→莫桑比克LNG项目需关注替代气源竞争",
-   "impact": 4,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Energy-General/Could-White-Hydrogen-Succeed-Where-Green-Hydrogen-Stumbled.html",
-   "ts": "Sat, 03 Oct 2026 16:00:00 -0500"
-  },
-  {
-   "cat": "geo",
-   "title": "乌克兰机器人攻势暴露俄军软肋",
-   "brief": "乌克兰出人意料的机器人攻势，暴露出普京战争机器的一处脆弱环节。",
-   "chain": "俄乌战事技术化升级→欧洲防务与地缘风险溢价→美股军工与A股无人机链情绪",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/04/russia-ukraine-war-putin-zelenskyy-donbas-lyman.html",
-   "ts": "Sun, 04 Oct 2026 05:00:01 GMT"
-  },
-  {
-   "cat": "geo",
-   "title": "也门萨那一医院遭沙特空袭波及",
-   "brief": "10月3日沙特再次空袭胡塞控制的也门首都萨那，南部七十妇幼医院受波及，胡塞呼吁国际关注。",
-   "chain": "红海与也门局势升级→中东风险溢价与航运扰动→油价与东非航线成本上行",
-   "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610043888539091.html",
-   "ts": "2026-10-04 13:45:38"
+   "url": "https://finance.eastmoney.com/a/202610043888538218.html",
+   "ts": "2026-10-04 13:35:45"
   },
   {
-   "cat": "geo",
-   "title": "麦加 pact 成员将紧急磋商接触胡塞",
-   "brief": "巴基斯坦称麦加 pact 成员将就如何接触胡塞武装举行紧急会谈。",
-   "chain": "中东外交博弈升温→红海航运与油价风险溢价→东非能源物流不确定性上升",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWExYaGpkaTdfbjMzM1pEc1EzVFA4emhFbVFYbEpteVNRMU94cG1lOG9WclVRQjdiaHJoSjlwcFU1M2Qxcnl1VndaM0h0c3pvZDdtOHEzQjNvLWhOYVM2a2tSZUw1MzRTV01Wb0hRVWMyVnNIbHdTY282MGFsWURpSGJfcUhuRDJHRjBpMU5xVzVOT1F6UFkwTnN1NFo4ckxNc3hWbzllUFZBYWItNGJRZEdITnFZV3A4aHh6RllfR0NXZw?oc=5",
-   "ts": "2026-10-02T14:11:44+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "商务部就G20贸易部长会议答记者问",
-   "brief": "商务部发言人回应G20贸易部长会议，成员围绕反对粮食武器化、产能过剩、最惠国待遇等议题交换意见。",
-   "chain": "贸易规则博弈延续→美股出口链与关税敏感板块波动→A股外贸与产能链情绪",
+   "cat": "ai",
+   "title": "OpenAI离职员工爆料风险意识不足",
+   "brief": "一名近期离职的OpenAI员工爆料前东家风险意识不足，呼吁AI产业效仿航空或核能采取多重安全防护。",
+   "chain": "AI安全争议升温→美股AI龙头治理风险溢价上升→A股算力链情绪受抑、AI安全主题获关注",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610043888534289.html",
-   "ts": "2026-10-04 12:03:57"
+   "url": "https://finance.eastmoney.com/a/202610043888541163.html",
+   "ts": "2026-10-04 14:38:37"
   },
   {
-   "cat": "macro",
-   "title": "卢拉团队指责美试图干预巴西选举",
-   "brief": "巴西10月4日举行总统选举首轮投票，卢拉竞选团队指责美国试图干预选举，美澳使领馆以安全问题暂停服务。",
-   "chain": "巴西大选与美干预争议→美股对拉美资产风险偏好波动→A股大宗与农产品链情绪",
+   "cat": "ai",
+   "title": "Meta Muse可代用户购物结账",
+   "brief": "Meta推出Muse功能，可代用户完成购物与结账流程，展示AI代理在消费场景的落地。",
+   "chain": "AI代理商业化落地→美股AI应用与电商板块受益→A股算力链（推理算力需求）获增量逻辑",
    "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610043888540440.html",
-   "ts": "2026-10-04 14:16:37"
-  },
-  {
-   "cat": "macro",
-   "title": "拉脱维亚执政联盟议会选举领先",
-   "brief": "拉脱维亚中央选举委员会10月4日初步计票显示，总理所在联合名单政党联盟大幅领先。",
-   "chain": "欧洲政局边际稳定→欧元区风险溢价小幅回落→对美股与A股影响有限",
-   "impact": 3,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610043888539930.html",
-   "ts": "2026-10-04 14:10:04"
-  },
-  {
-   "cat": "oil",
-   "title": "厄瓜多尔跨国输油管道因火灾停运",
-   "brief": "厄瓜多尔国家石油公司10月3日通报，SOTE输油管道因纳波省泵站火灾暂停运营。",
-   "chain": "拉美原油供应短期中断→对Brent形成小幅支撑→莫桑比克油气售价边际受益",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610043888533127.html",
-   "ts": "2026-10-04 11:48:29"
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/03/meta-muse-shopping-ai-agent.html",
+   "ts": "Sat, 03 Oct 2026 12:00:01 GMT"
   }
  ]
 }
