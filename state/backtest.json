@@ -1,5 +1,5 @@
 {
-  "asof": "2026-09-28",
+  "asof": "2026-10-05",
   "strategy": "current_tiered",
   "rule": "上升趋势(>MA200)回踩至结构支撑(强势档锚MA20/破位档锚MA50)入场·分档止损(强势-6%/破位-10%)·目标按R:R2.5反推·持有≤270日·扣往返成本0.2%·跳空穿止损按开盘成交",
   "universe": [
@@ -58,8 +58,8 @@
   "timeout_pct": 1,
   "avg_trade_return_pct": 2.2,
   "realized_rr": 2.31,
-  "per_trade_sharpe": 0.18,
-  "max_consecutive_losses": 9,
+  "per_trade_sharpe": 0.19,
+  "max_consecutive_losses": 10,
   "gap_slippage_trades": 49,
   "tx_cost_pct": 0.2,
   "per_year_win_rate": {
@@ -81,7 +81,7 @@
     },
     "2026": {
       "n": 123,
-      "win_rate": 27
+      "win_rate": 28
     }
   },
   "caveat": "幸存者/牛市偏差:池为当前AI赢家,历史被美化,绝非未来更非高胜率；且本回测只测【机械规则骨架(入场/分档止损/R:R目标/持有)】,LLM逐票信号与目标价无法历史重放,不代表整套研判；A股涨跌停/T+1仅以'跳空穿止损按开盘成交'近似,规则为事前设定近似样本外但非严格walk-forward。"
