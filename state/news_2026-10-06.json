@@ -1,10 +1,10 @@
 {
  "asof": "2026-10-06",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-10-06T14:15+08:00",
+ "generated_at": "2026-10-06T16:08+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 10,
+  "cross_day_suppressed": 9,
   "cluster_label": "",
   "cluster_dropped": [],
   "backfilled": 0
@@ -12,79 +12,79 @@
  "items": [
   {
    "cat": "macro",
-   "title": "俄罗斯黄金涌入香港 制裁重塑金市",
-   "brief": "西方制裁下俄罗斯黄金大量流入香港，全球金条贸易格局被重画，去美元化与央行购金逻辑再受关注。",
-   "chain": "制裁推动黄金东移→强化去美元化与央行购金叙事→实际利率与美元承压利好黄金，反向压低AI高久期票贴现分母→A股算力链情绪偏暖",
-   "impact": 8,
+   "title": "美债收益率持平 市场静待FOMC纪要",
+   "brief": "美债收益率整体走平，投资者等待美联储FOMC会议纪要公布，以寻找利率路径线索。",
+   "chain": "FOMC纪要预期→美债利率与贴现率预期→美股AI高久期估值分母→A股算力链情绪",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/06/treasury-yields-fed-fomc-minutes.html",
+   "ts": "Tue, 06 Oct 2026 07:05:14 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "俄黄金涌入香港 制裁重塑金市",
+   "brief": "西方制裁重塑全球金条贸易格局，俄罗斯黄金大量流入香港，反映去美元化与央行购金的结构性趋势。",
+   "chain": "制裁推动黄金东移/去美元化→实际利率与美元信用镜像→美股AI成长股估值反向温度计→A股算力链情绪",
+   "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/10/06/russia-gold-hong-kong-china-western-sanctions.html",
    "ts": "Mon, 05 Oct 2026 23:14:39 GMT"
   },
   {
    "cat": "macro",
-   "title": "印度财长确认对美贸易陷入僵局",
-   "brief": "印度财长确认与美国贸易谈判陷入僵局，双方几无让步空间，关税与贸易政策不确定性上升。",
-   "chain": "美印贸易僵局→全球贸易摩擦升温压制风险偏好→美股出口链承压，映射A股出口/关税敏感板块情绪",
-   "impact": 7,
+   "title": "英前央行首席:英国如履薄冰",
+   "brief": "英国前央行首席经济学家警告英国经济处于'薄冰'之上，必须采取行动安抚金融市场。",
+   "chain": "英央行政策信誉担忧→英镑与英债风险溢价→全球风险偏好→美股与A股算力链情绪",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/06/burnham-healey-budget-tax-bonds-gilts.html",
+   "ts": "Tue, 06 Oct 2026 07:53:22 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "印度财长确认对美贸易僵局",
+   "brief": "印度财长确认与美国贸易谈判陷入僵局，双方几无'give and take'空间。",
+   "chain": "美印贸易僵局→关税与供应链不确定性→美股跨国企业盈利预期→A股出口链情绪",
+   "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/10/06/india-us-trade-deal-deal-sitharaman.html",
    "ts": "Tue, 06 Oct 2026 02:39:19 GMT"
   },
   {
    "cat": "macro",
-   "title": "世行上调东亚增长 警示AI集中风险",
-   "brief": "世界银行将东亚太平洋增长预期上调至4.5%，同时警告AI产业过度集中带来的结构性风险。",
-   "chain": "东亚增长上调+AI集中风险警示→美股AI龙头集中度担忧→A股算力链需警惕同质化拥挤",
+   "title": "特朗普放行染色柴油平抑油价",
+   "brief": "中期选举前美国燃油成本飙升，特朗普允许更便宜的染色柴油上高速公路以平抑油价。",
+   "chain": "柴油价格飙升→美通胀与运输成本→美联储利率路径预期→美股估值与A股算力链",
    "impact": 6,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/06/world-bank-east-asia-growth-inflation-ai-exports-.html",
-   "ts": "Tue, 06 Oct 2026 04:07:24 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "2029拐点：西方人口将开始萎缩",
-   "brief": "报告称西方人口约2029年起萎缩，公共财政压力加大，长期增长与债务可持续性受挑战。",
-   "chain": "人口萎缩→长期财政与需求承压→美股长期估值与利率预期受扰→A股内需与养老主题长期映射",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/05/aging-population-moodys-public-finances.html",
-   "ts": "Mon, 05 Oct 2026 05:00:01 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "CNBC：红色柴油将上美国公路",
-   "brief": "CNBC Daily Open指出红色（免税）柴油将进入美国公路，反映燃料税与柴油价格压力。",
-   "chain": "柴油税负与价格变化→运输成本与通胀预期→美股运输/工业链成本敏感，映射A股物流板块",
-   "impact": 4,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/06/daily-open-red-diesel-trump-midterms.html",
-   "ts": "Tue, 06 Oct 2026 06:06:35 GMT"
+   "url": "https://www.cnbc.com/2026/10/06/us-diesel-fuel-prices-iran-ukraine-energy-crisis-.html",
+   "ts": "Tue, 06 Oct 2026 07:05:36 GMT"
   },
   {
    "cat": "geo",
-   "title": "特朗普称伊朗可摧毁洛杉矶或圣迭戈",
-   "brief": "特朗普在竞选集会上称可让伊朗摧毁洛杉矶或圣迭戈，言论引发加州官员强烈反应，美伊紧张再升温。",
-   "chain": "美伊口水战升级→中东地缘风险溢价上升→美股风险偏好受压，映射A股避险与军工情绪",
+   "title": "沙特两座机场遭胡塞武装袭击",
+   "brief": "沙特民航局称10月5日晚吉达与奈季兰两座国际机场遭也门胡塞武装袭击，造成3人受伤及有限物质损失。",
+   "chain": "胡塞袭沙特机场→中东地缘风险溢价→美股风险偏好与能源板块→A股算力链情绪",
    "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610063888744863.html",
-   "ts": "2026-10-06 13:18:57"
+   "url": "https://finance.eastmoney.com/a/202610063888756533.html",
+   "ts": "2026-10-06 15:33:15"
   },
   {
    "cat": "geo",
-   "title": "俄莫斯科州遭无人机袭击 1死6伤",
-   "brief": "莫斯科州州长称该州遭乌克兰无人机袭击，造成1人死亡6人受伤，俄乌冲突向俄本土延伸。",
-   "chain": "俄乌冲突升级至俄本土→欧洲地缘风险与能源担忧→美股风险偏好受压，映射A股军工与能源安全链",
+   "title": "以防长令军队提升戒备",
+   "brief": "以色列国防部长卡茨称情报显示哈马斯计划在巴以冲突三周年之际发动袭击，已指示军队提升戒备。",
+   "chain": "以巴冲突三周年戒备→中东局势升级风险→美股避险情绪→A股算力链风险偏好",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610063888744294.html",
-   "ts": "2026-10-06 12:57:14"
+   "url": "https://finance.eastmoney.com/a/202610063888752764.html",
+   "ts": "2026-10-06 14:53:33"
   },
   {
    "cat": "geo",
-   "title": "德国总理：将加强北约东翼防务",
-   "brief": "德国总理默茨与立陶宛总理会谈后表示，德国将继续加强北约东翼防务并深化合作，含网络安全。",
-   "chain": "北约东翼防务强化→欧洲地缘对峙延续→美股防务板块受益，映射A股军工链情绪",
+   "title": "德国将加强北约东翼防务",
+   "brief": "德国总理默茨表示将继续加强北约东翼防务，并与立陶宛深化网络等领域合作。",
+   "chain": "北约东翼强化→俄欧对抗持续→美股防务与风险偏好→A股算力链情绪",
    "impact": 6,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202610063888749098.html",
@@ -92,119 +92,109 @@
   },
   {
    "cat": "geo",
-   "title": "胡塞武装称仍控制近期攻下区域",
-   "brief": "也门胡塞武装发言人称对所有近期攻下区域仍保持控制，反驳敌方宣扬的胜利，红海局势持续紧张。",
-   "chain": "红海胡塞局势未解→航运与能源通道风险溢价→美股航运/能源成本敏感，映射A股航运链",
+   "title": "俄军打击乌主要城市数据中心",
+   "brief": "俄国防部称夜间袭击打击了乌克兰多个主要城市的数据中心。",
+   "chain": "俄袭乌数据中心→基础设施战升级→美股科技风险偏好→A股算力链情绪",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610063888747839.html",
-   "ts": "2026-10-06 13:44:59"
-  },
-  {
-   "cat": "geo",
-   "title": "特朗普解释美军从英国撤走远程轰炸机",
-   "brief": "特朗普称因存在威胁，美国将远程轰炸机从英国转移，并解释相关安全考量。",
-   "chain": "美军战略资产调动→大国博弈与欧洲安全紧张→美股防务情绪升温，映射A股军工链",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/05/trump-bombers-uk-iran.html",
-   "ts": "Mon, 05 Oct 2026 20:53:33 GMT"
+   "url": "https://finance.eastmoney.com/a/202610063888750261.html",
+   "ts": "2026-10-06 14:19:55"
   },
   {
    "cat": "oil",
-   "title": "WTI原油期货向上触及90美元/桶",
-   "brief": "WTI原油期货日内上涨0.64%，向上触及90美元/桶关口，油价维持强势。",
-   "chain": "WTI触及90美元→油价高位支撑上游盈利与通胀预期→莫桑比克油气项目经济性改善，东非LNG议价能力增强",
+   "title": "布伦特原油跌破100美元/桶",
+   "brief": "国际油价快速下挫，布伦特原油期货跌破100美元/桶，WTI跌0.7%报88.81美元/桶。",
+   "chain": "油价跌破100→全球油气价格中枢下移→莫桑比克LNG项目经济性与东非能源收益承压",
    "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610063888744188.html",
-   "ts": "2026-10-06 12:54:14"
+   "url": "https://finance.eastmoney.com/a/202610063888750335.html",
+   "ts": "2026-10-06 14:18:24"
   },
   {
    "cat": "oil",
-   "title": "沙特阿美利雅得设施附近见火光烟雾",
-   "brief": "目击者称沙特阿美位于利雅得的设施附近出现火光与烟雾，具体原因与影响尚待确认。",
-   "chain": "阿美设施异动→中东供应风险溢价抬升油价→莫桑比克油气资产相对安全溢价上升，东非项目受关注",
+   "title": "沙特阿美:恢复全球石油储备或需两年",
+   "brief": "沙特阿美CEO纳赛尔称受美伊冲突持续影响，全球石油库存恢复可能需长达两年。",
+   "chain": "美伊冲突致库存恢复需两年→油价中期支撑→莫桑比克油气经营需关注供应紧平衡",
    "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUmVOVEVCTVdITFV4aHd1aWM4aC1lZzBQTUIxcG9zSkU0ZXJKbHVRdTRWTUVsRWVsRmZHYlI2ZW01dnp3NlQ4WEV3Wnp0YXpVV2VCQ2RmeVBQQ3BUN0E3S1ZrRkw0ODdkVVJsSnFWWVM5YWVZZExacUlwdGRrc3h1LVJkNHNWY1dZS1F2UE1aR1JHYzNkX0ktS0RIQW4zX3RJUWV4eVBqVFd6X0t1?oc=5",
-   "ts": "2026-10-03T13:38:10+00:00"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610063888755940.html",
+   "ts": "2026-10-06 15:25:04"
   },
   {
    "cat": "oil",
-   "title": "特朗普推迟染色柴油联邦燃料税",
-   "brief": "柴油价格升至6.32美元之际，特朗普推迟对染色柴油征收联邦燃料税，以缓解燃料成本压力。",
-   "chain": "柴油税推迟→短期压低美国燃料成本、缓解通胀→油价上行斜率受限，莫桑比克油气出口价格弹性略降",
+   "title": "李嘉诚家族扩张加拿大能源版图",
+   "brief": "长和与李氏家族作为单一最大股东，加拿大能源公司Cenovus Energy版图再度扩张。",
+   "chain": "加能源资产整合→北美油气供给格局→国际油价→莫桑比克东非能源经营参照",
    "impact": 5,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Defers-Federal-Fuel-Tax-on-Dyed-Diesel-as-Prices-Hit-632.html",
-   "ts": "Tue, 06 Oct 2026 00:15:08 -0500"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610063888751036.html",
+   "ts": "2026-10-06 14:28:00"
   },
   {
    "cat": "gas",
-   "title": "诺基亚CEO：无供应约束数据中心可快一倍",
-   "brief": "诺基亚CEO称若不受供应约束，数据中心建设速度可快一倍，凸显基础设施供给瓶颈。",
-   "chain": "数据中心供应瓶颈→电力与天然气需求预期上升→全球LNG需求获支撑，利好莫桑比克/东非LNG长期需求",
-   "impact": 6,
+   "title": "欧盟整合能源需求联合采购",
+   "brief": "欧盟委员会主席冯德莱恩称将成立工作组整合能源需求，委托市场运营商联合采购，并提高电力占比。",
+   "chain": "欧盟联合采购LNG→全球气价议价结构变化→莫桑比克LNG对欧出口机遇与竞争",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610063888753938.html",
+   "ts": "2026-10-06 15:17:59"
+  },
+  {
+   "cat": "gas",
+   "title": "世行上调东亚增长警示AI集中风险",
+   "brief": "世界银行将东亚太平洋增长预期上调至4.5%，同时警告AI产业集中度风险。",
+   "chain": "东亚增长上调→区域能源需求预期→LNG与天然气消费→莫桑比克东非气源需求侧",
+   "impact": 5,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/05/nokia-ai-data-center-buildout.html",
-   "ts": "Mon, 05 Oct 2026 22:00:01 GMT"
+   "url": "https://www.cnbc.com/2026/10/06/world-bank-east-asia-growth-inflation-ai-exports-.html",
+   "ts": "Tue, 06 Oct 2026 04:07:24 GMT"
   },
   {
    "cat": "tech",
-   "title": "高通回应与华为专利协议传言",
-   "brief": "高通称与华为达成多年期广泛专利交叉许可，回应称并非净支付方，且与逻辑折叠芯片技术无关。",
-   "chain": "高通华为专利和解→中美科技博弈边际缓和→美股半导体情绪改善，映射A股芯片与消费电子链",
+   "title": "英伟达200亿收购Groq面临诉讼",
+   "brief": "英伟达200亿美元收购Groq的交易面临诉讼，指控该初创公司股东权益被低估。",
+   "chain": "英伟达收购Groq遇诉→AI芯片整合与算力格局→美股半导体板块→A股算力链情绪",
    "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/05/nvidia-groq-deal-stockholder-lawsuit.html",
+   "ts": "Mon, 05 Oct 2026 15:46:49 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "高通回应与华为专利许可协议",
+   "brief": "高通称与华为达成多年期广泛专利许可协议，涵盖多领域交叉许可，并非净支付方。",
+   "chain": "高通华为专利协议→中美科技博弈边际缓和→美股半导体与A股芯片链情绪",
+   "impact": 6,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202610063888749464.html",
    "ts": "2026-10-06 14:06:37"
   },
   {
    "cat": "tech",
-   "title": "AMD CEO：存储芯片供应仍然紧张",
-   "brief": "AMD首席执行官表示存储芯片供应仍然紧张，未来几年需求非常高，供需缺口延续。",
-   "chain": "存储芯片紧缺→AI服务器与存储链景气延续→美股存储/半导体受益，映射A股存储芯片链",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610063888744013.html",
-   "ts": "2026-10-06 12:55:04"
-  },
-  {
-   "cat": "tech",
-   "title": "三星电机再获2800亿韩元MLCC大单",
-   "brief": "三星电机与全球大型企业签订AI服务器用MLCC大单，金额2800亿韩元，行业涨价缺货延续。",
-   "chain": "AI服务器MLCC大单→被动元件缺货涨价→美股电子元件链受益，映射A股MLCC及上游材料链",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610063888747051.html",
-   "ts": "2026-10-06 13:29:46"
-  },
-  {
-   "cat": "tech",
-   "title": "希捷东芝据悉竞购TDK硬盘磁头业务",
-   "brief": "希捷与东芝竞购TDK硬盘磁头业务，交易或达数十亿美元，意在跟上AI数据中心存储需求。",
-   "chain": "硬盘磁头并购→AI数据中心存储需求旺盛→美股存储硬件链受益，映射A股存储与磁材链",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610063888743996.html",
-   "ts": "2026-10-06 12:43:35"
-  },
-  {
-   "cat": "tech",
-   "title": "英伟达200亿美元Groq交易面临诉讼",
-   "brief": "英伟达200亿美元收购Groq的交易面临诉讼，指控该初创公司股东被低估对价。",
-   "chain": "英伟达并购诉讼→AI算力整合遇法律扰动→美股AI芯片情绪短期承压，映射A股算力链情绪",
-   "impact": 6,
+   "title": "诺基亚CEO:数据中心建设受供应制约",
+   "brief": "诺基亚CEO称若无供应约束，数据中心建设速度可快一倍，凸显供应链瓶颈。",
+   "chain": "数据中心供应瓶颈→AI基建硬件需求→美股通信设备板块→A股算力硬件链",
+   "impact": 5,
    "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/10/05/nvidia-groq-deal-stockholder-lawsuit.html",
-   "ts": "Mon, 05 Oct 2026 15:46:49 GMT"
+   "url": "https://www.cnbc.com/2026/10/05/nokia-ai-data-center-buildout.html",
+   "ts": "Mon, 05 Oct 2026 22:00:01 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "SpaceX股价升至6月来最高",
+   "brief": "SpaceX股价攀升至6月以来最高，马斯克重回万亿富翁行列。",
+   "chain": "SpaceX估值回升→商业航天与科技风险偏好→美股成长股→A股相关产业链情绪",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/05/spacex-stock-climbs-highest-since-june-returning-musk-to-trillionaire.html",
+   "ts": "Mon, 05 Oct 2026 20:10:13 GMT"
   },
   {
    "cat": "ai",
-   "title": "微软AI转型获华尔街认可  skeptic改口",
-   "brief": "华尔街奖励微软的AI转型，长期质疑者Melius的Reitzes称这只是开始，看好其AI前景。",
-   "chain": "微软AI转型获认可→美股软件AI叙事强化→映射A股AI应用与算力链情绪",
+   "title": "微软AI转型获华尔街认可",
+   "brief": "华尔街奖励微软的AI转型，长期质疑者Melius Research的Reitzes称这只是开始。",
+   "chain": "微软AI转型获认可→美股软件与AI应用估值→A股AI应用与算力链情绪",
    "impact": 8,
    "source": "CNBC",
    "url": "https://www.cnbc.com/investingclub/2026/10/05/wall-street-rewards-microsofts-ai-pivot-a-longtime-skeptic-flips-bullish.html",
@@ -213,12 +203,22 @@
   {
    "cat": "ai",
    "title": "纳德拉能否在AI时代再造微软",
-   "brief": "报道探讨纳德拉曾重塑微软一次，能否在AI时代再度完成转型，市场高度关注其战略。",
-   "chain": "微软AI战略受关注→美股AI龙头估值锚定→映射A股AI应用与云算力链",
+   "brief": "纳德拉曾重塑微软，市场关注其能否在AI时代再次带领公司完成转型。",
+   "chain": "微软AI战略叙事→美股AI龙头估值→A股算力与AI应用链情绪",
    "impact": 7,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/10/05/satya-nadella-reinvented-microsoft-once-can-he-do-it-in-the-ai-era.html",
    "ts": "Mon, 05 Oct 2026 17:40:13 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "软银系DayOne数据中心拟IPO募50亿",
+   "brief": "软银支持的DayOne数据中心计划在美IPO募资至多50亿美元，年底前上市。",
+   "chain": "数据中心IPO募资→AI算力基建资本开支→美股AI基建板块→A股算力链情绪",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610063888748614.html",
+   "ts": "2026-10-06 13:54:17"
   }
  ]
 }
