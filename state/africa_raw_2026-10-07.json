@@ -1,28 +1,208 @@
 {
  "asof": "2026-10-07",
- "fetched_at": "2026-10-07T15:46+08:00",
+ "fetched_at": "2026-10-07T18:27+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
    "Moonshot·TechCabal": 10,
    "Disrupt Africa": 10,
    "Techpoint Africa": 0,
-   "IT News Africa": 11,
+   "IT News Africa": 0,
    "TechAfrica News": 12,
    "Condia": 25,
-   "ITWeb Africa": 23,
+   "ITWeb Africa": 25,
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 2,
-   "非洲科技·聚合": 7,
+   "非洲科技·聚合": 8,
    "中非科技·聚合": 16
   },
   "total": 60,
-  "ai_flagged": 21,
-  "aiinfra_flagged": 6,
-  "countries": 5
+  "ai_flagged": 18,
+  "aiinfra_flagged": 3,
+  "countries": 6
  },
  "items": [
+  {
+   "title": "Oppo F35: What to know about the new budget phone",
+   "brief": "Oppo launched the Oppo F35 in India on October 5, 2026, with sales starting on October 11.",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/07/oppo-f35-release-date-price-specs/",
+   "date": "Wed, 07 Oct 2026 10:18:51 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "South Africa’s USAASA Publishes Framework for Universal Service and Access Fund",
+   "brief": "The Universal Service and Access Agency of South Africa (USAASA)  has published the Universal Service and Access Fund (USAF)  Manual under section 82(4)(d) of the ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/07/south-africas-usaasa-publishes-framework-for-universal-service-and-access-fund/",
+   "date": "Wed, 07 Oct 2026 10:06:39 +0000",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Niger and Algeria Launch Trans-Saharan Fibre Optic Backbone",
+   "brief": "Niger and Algeria have officially launched operations of a trans-Saharan fibre optic backbone linking the two countries, strengthening their digital connectivity and telecommunications cooperation. The ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/07/niger-and-algeria-launch-trans-saharan-fibre-optic-backbone/",
+   "date": "Wed, 07 Oct 2026 09:54:57 +0000",
+   "country": "🇩🇿 阿尔及利亚",
+   "is_ai": false,
+   "is_aiinfra": true
+  },
+  {
+   "title": "Etisalat Group Unveils New Identity as It Marks 50th Anniversary",
+   "brief": "Etisalat Group  has unveiled its identity for its 50th anniversary, reaffirming “etisalat” as the name it will carry forward as the company marks five decades ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/07/etisalat-group-unveils-new-identity-as-it-marks-50th-anniversary/",
+   "date": "Wed, 07 Oct 2026 09:50:30 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Vodacom commits R500m to WCape network",
+   "brief": "The mobile telephony group’s investment targets network expansion, 5G rollout in townships and energy-resilience projects.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/vodacom-commits-r500m-to-wcape-network/GxwQDM1DLm57lPVo",
+   "date": "Wed, 07 Oct 2026 11:25:39 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Taggit Asset Technologies launches Taggit Capture for simple, accurate asset register and audit management",
+   "brief": "Taggit Capture helps address common asset management challenges, including incomplete records, manual asset counts, spreadsheet errors, difficult asset identification and limited visibility over physical assets.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/taggit-asset-technologies-launches-taggit-capture-for-simple-accurate-asset-register-and-audit-management/j5alr7QAdg47pYQk",
+   "date": "Wed, 07 Oct 2026 11:07:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "vivo V80 Lite 5G brings 10 000mAh battery, rugged design to SA",
+   "brief": "The V-series smartphone combines a 10 000mAh-class battery, 5G connectivity, durability features, a high-brightness OLED display, Sony-powered imaging and AI tools.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/vivo-v80-lite-5g-brings-10-000mah-battery-rugged-design-to-sa/nWJad7bNRaZ7bjO1",
+   "date": "Wed, 07 Oct 2026 11:06:00 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Paratus Namibia launches Eutelsat’s OneWeb LEO connectivity",
+   "brief": "The Paratus Eutelsat OneWeb LEO service delivers high-speed, low-latency connectivity across Namibia, extending reliable connectivity to where traditional terrestrial services may be limited.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/paratus-namibia-launches-eutelsats-oneweb-leo-connectivity/lLn14MmQN51MJ6Aa",
+   "date": "Wed, 07 Oct 2026 11:05:00 +0200",
+   "country": "🇳🇦 纳米比亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "What your location tells the bank",
+   "brief": "Banks sit on a massive amount of data that can be enriched by making it spatial, says Esri South Africa.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/what-your-location-tells-the-bank/KWEBb7yLd8WvmRjO",
+   "date": "Wed, 07 Oct 2026 11:04:00 +0200",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Entelect is a preferred partner in the Claude Partner Network Services Track",
+   "brief": "Entelect brings Claude, powered by Anthropic, to enterprise software development.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/entelect-is-a-preferred-partner-in-the-claude-partner-network-services-track/O2rQGqAEW5mqd1ea",
+   "date": "Wed, 07 Oct 2026 11:03:00 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Four Microsoft dates before February. The cost is in the calendar",
+   "brief": "Four dated Microsoft changes between July and February will decide what your estate costs next year, says Johan Lamberts, MD of Ascent Technology.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/four-microsoft-dates-before-february-the-cost-is-in-the-calendar/WnxpE74YlaOMV8XL",
+   "date": "Wed, 07 Oct 2026 11:02:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Social engineering a growing cyber security headache for SA",
+   "brief": "WhatsApp account takeovers and AI voice cloning are driving social engineering losses in SA, according to Integrity360 and Check Point.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/social-engineering-a-growing-cyber-security-headache-for-sa/Kjlyr7wBQLBvk6am",
+   "date": "Wed, 07 Oct 2026 10:51:00 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Canva appoints reseller for African market",
+   "brief": "The global visual communication platform names Learning Curve as its first locally-based Canva partner in Africa.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/canva-appoints-reseller-for-african-market/mQwkoq6Y5GPM3r9A",
+   "date": "Wed, 07 Oct 2026 10:49:53 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Kenyan fintech Cloud9 gets $500k as part of its ongoing pre-seed round",
+   "brief": "Founded by former YC-backed founders, Cloud9 gets $500,000 from Alliance as part of an ongoing pre-seed round.",
+   "source": "Condia",
+   "url": "https://thecondia.com/alliance-gives-cloud9-500k-pre-seed/",
+   "date": "Wed, 07 Oct 2026 08:31:41 +0000",
+   "country": "🇰🇪 肯尼亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Starlink Expands Communities Program With New Shared-Internet Income Model",
+   "brief": "Starlink  is expanding its Starlink for Communities program with a new model that allows property owners and local operators to earn income by sharing a ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/07/starlink-expands-communities-program-with-new-shared-internet-income-model/",
+   "date": "Wed, 07 Oct 2026 08:22:16 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Kenya and UK Strengthen Cybersecurity Partnership to Protect Digital Economy",
+   "brief": "Kenya and the United Kingdom are strengthening their cybersecurity cooperation as both countries explore ways to protect Kenya’s growing digital economy and critical digital infrastructure. ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/07/kenya-and-uk-strengthen-cybersecurity-partnership-to-protect-digital-economy/",
+   "date": "Wed, 07 Oct 2026 08:16:57 +0000",
+   "country": "🇰🇪 肯尼亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Safaricom Launches Ziidi Shari’ah Money Market Fund for Ethical Investing in Kenya",
+   "brief": "Safaricom  and Gulfcap Investment Bank (GCIB)  have launched Ziidi Shari’ah Money Market Fund, expanding access to Shari’ah-compliant investment through a simple and accessible digital experience. ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/07/safaricom-launches-ziidi-shariah-money-market-fund-for-ethical-investing-in-kenya/",
+   "date": "Wed, 07 Oct 2026 08:09:25 +0000",
+   "country": "🇰🇪 肯尼亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Mastercard and Tamatem Partner to Expand Gaming Payments Across Middle East and Africa",
+   "brief": "Mastercard  and Tamatem,  one of MENA’s leading mobile games publishers backed by Abu Dhabi Investment Office (ADIO) and Abu Dhabi Gaming (ADG) have joined forces ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/07/mastercard-and-tamatem-partner-to-expand-gaming-payments-across-middle-east-and-africa/",
+   "date": "Wed, 07 Oct 2026 07:51:55 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
   {
    "title": "UAE’s Solutions+ and Saal.ai Partner to Accelerate Enterprise Data Transformation",
    "brief": "Solutions+  and Saal.ai  have signed a collaboration agreement to accelerate the adoption of enterprise data platform solutions. The agreement was signed at Ai Everything Abu ......",
@@ -54,33 +234,13 @@
    "is_aiinfra": false
   },
   {
-   "title": "Solid8, Saviynt helping SA businesses to safely ride the AI wave",
-   "brief": "AI agents are rapidly overtaking human identities, leaving security and compliance teams struggling to govern invisible entities.",
+   "title": "‘AI for good’ starts with affordances, not features",
+   "brief": "The affordance lens exposes the harms that capability-talk hides, as the most consequential governance risk in enterprise AI today is not a rogue chatbot.",
    "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/solid8-saviynt-helping-sa-businesses-to-safely-ride-the-ai-wave/rW1xL75nDb3MRk6m",
-   "date": "Wed, 07 Oct 2026 08:34:00 +0200",
+   "url": "https://www.itweb.co.za/article/ai-for-good-starts-with-affordances-not-features/4r1lyMR9PXY7pmda",
+   "date": "Wed, 07 Oct 2026 09:16:00 +0200",
    "country": null,
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "The sustainability equation for Africa's data centres",
-   "brief": "Sustainability in data centres means combining energy efficiency, power resilience, water management and cooling, says David Erwee, head of architecture at Datacentrix.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/the-sustainability-equation-for-africas-data-centres/8OKdWqDXONzqbznQ",
-   "date": "Wed, 07 Oct 2026 08:33:00 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": true
-  },
-  {
-   "title": "SARS is going digital",
-   "brief": "Building digital finance capability now can deliver immediate operational value while preparing businesses for a connected and data-driven future, says Stephen Howe, director at Times 3 Technologies.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/sars-is-going-digital/DZQ58MV8gV9vzXy2",
-   "date": "Wed, 07 Oct 2026 08:31:00 +0200",
-   "country": null,
-   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -111,6 +271,16 @@
    "date": "Wed, 07 Oct 2026 06:00:00 +0000",
    "country": null,
    "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Data Confidence & AI Readiness in Africa Report 2026",
+   "brief": "Insights from the Veeam/ITWeb survey on data recovery confidence, governance maturity and AI readiness of organisations in Africa.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/data-confidence-ai-readiness-in-africa-report-2026/G98YdMLGAow7X2PD",
+   "date": "Wed, 07 Oct 2026 08:00:00 +0200",
+   "country": null,
+   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -164,16 +334,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Capitec Limited Name Change: What It Means for SA’s Banking Future",
-   "brief": "South Africa’s largest bank by customer numbers has a new name. Capitec Bank Holdings Limited officially became Capitec Limited on 1 August 2026. Shareholders approved the change at the Annual General Meeting on 31 July.",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/industries/fintech_news/capitec-officially-becomes-capitec-limited/",
-   "date": "Tue, 06 Oct 2026 15:50:06 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Nigeria’s global hiring push must create jobs, not just train workers",
    "brief": "The economic opportunity depends on matching workers with international employers and turning their skills into reliable, well-paid contracts.",
    "source": "TechCabal",
@@ -204,46 +364,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Qatar’s Qai and MEEZA Deploy GPU Infrastructure for Secure AI Workloads",
-   "brief": "Qai,  Qatar’s artificial intelligence company, is deploying advanced GPU infrastructure with MEEZA , a provider of managed IT services and data centre facilities in Qatar, under ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/06/qatars-qai-and-meeza-deploy-gpu-infrastructure-for-secure-ai-workloads/",
-   "date": "Tue, 06 Oct 2026 13:50:11 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": true
-  },
-  {
-   "title": "Continent 8 Technologies Expands Into Africa With Johannesburg Data Centre",
-   "brief": "Continent 8 Technologies,  a leading provider of cutting-edge managed technology solutions designed for the global iGaming and online sports betting industry, announced its expansion into ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/06/continent-8-technologies-expands-into-africa-with-johannesburg-data-centre/",
-   "date": "Tue, 06 Oct 2026 13:30:22 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": true
-  },
-  {
-   "title": "Tunisia’s Orange and Focus Partner to Expand Local Cloud Services",
-   "brief": "Orange Tunisia  has partnered with Focus Tunisie  to expand Tunisian companies’ access to locally hosted and operated Cloud and infrastructure solutions as businesses increasingly seek ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/06/tunisias-orange-and-focus-partner-to-expand-local-cloud-services/",
-   "date": "Tue, 06 Oct 2026 13:14:55 +0000",
-   "country": "🇹🇳 突尼斯",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Keeping 80 000 promises",
-   "brief": "How Santa Shoebox uses SMS to connect donors, recipients and impact.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/keeping-80-000-promises/LPwQ5MlbODAvNgkj",
-   "date": "Tue, 06 Oct 2026 15:00:35 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "New Global Survey Finds Majority of VMware Users Are Choosing Alternative Paths for Cost Control, Roadmap Flexibility and Better Support",
    "brief": "Rimini Street, Inc. (Nasdaq: RMNI), the Software Support and Agentic AI ERP Company™ and the leading third-party support provider for Oracle, SAP and VMware software, today announced findings from the 2026 IT Virtualizat",
    "source": "ITWeb Africa",
@@ -251,26 +371,6 @@
    "date": "Tue, 06 Oct 2026 15:00:00 +0200",
    "country": null,
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Vodacom Western Cape Invests R500 Million to Expand 5G and Digital Connectivity",
-   "brief": "Vodacom  Western Cape is making bold strides towards digital inclusion through an investment of more than R500 million in network infrastructure during the current financial ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/06/vodacom-western-cape-invests-r500-million-to-expand-5g-and-digital-connectivity/",
-   "date": "Tue, 06 Oct 2026 12:54:15 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Wio Bank Becomes UAE’s First Issuer to Auto-Enable Mastercard Click to Pay",
-   "brief": "Wio Bank  has become the first issuer in the UAE to introduce auto-enablement of Click to Pay for its cards with Mastercard, providing online shoppers ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/06/wio-bank-becomes-uaes-first-issuer-to-auto-enable-mastercard-click-to-pay/",
-   "date": "Tue, 06 Oct 2026 12:42:32 +0000",
-   "country": null,
-   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -291,26 +391,6 @@
    "date": "Tue, 06 Oct 2026 11:54:13 +0000",
    "country": null,
    "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "UAE Launches National Vault Initiative to Strengthen Cyber Resilience",
-   "brief": "Dell Technologies,  the UAE Cyber Security Council (CSC)  and CPX  announced a strategic collaboration to advance the development of a National Vault initiative aimed at ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/06/uae-launches-national-vault-initiative-to-strengthen-cyber-resilience/",
-   "date": "Tue, 06 Oct 2026 11:42:01 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Tech Mahindra Partners With Google Cloud to Scale Agentic AI Readiness",
-   "brief": "Tech Mahindra,  a leading provider of AI-powered digital transformation and technology consulting solutions to enterprises across industries, announced an expansion of its agentic AI readiness ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/06/tech-mahindra-partners-with-google-cloud-to-scale-agentic-ai-readiness/",
-   "date": "Tue, 06 Oct 2026 11:33:39 +0000",
-   "country": null,
-   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -351,16 +431,6 @@
    "date": "Tue, 06 Oct 2026 11:14:44 +0000",
    "country": "🇳🇬 尼日利亚",
    "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Who owns the wealth beneath your feet? The AI engine exposing Nigeria’s ‘hidden’ miners",
-   "brief": "Across rural Nigeria, host communities watch heavy machinery dig up their land daily. But ask locals who hold the operational licence, what minerals are being extracted, or what community benefits they are legally owed—a",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/10/06/who-is-mining-your-land-minetrix-ai/",
-   "date": "Tue, 06 Oct 2026 11:13:23 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -410,46 +480,6 @@
    "url": "https://www.itweb.co.za/article/bookmakers-turn-up-heat-on-north-west-betting-licences/Olx4z7kaLdwq56km",
    "date": "Tue, 06 Oct 2026 11:25:40 +0200",
    "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Gole Cloud website goes live: Unlocking a new era of digital possibilities in Africa",
-   "brief": "Gole Cloud's new platform aims to make advanced cloud technology more approachable, dependable and relevant for African organisations.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/gole-cloud-website-goes-live-unlocking-a-new-era-of-digital-possibilities-in-africa/LPp6V7rBYpe7DKQz",
-   "date": "Tue, 06 Oct 2026 11:02:00 +0200",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Cyber security is everyone’s problem. Here’s how to build a security culture that lasts",
-   "brief": "The organisations that get security right are those that stop treating it as a technology problem and start treating it as a people problem, says Galix.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/cyber-security-is-everyones-problem-heres-how-to-build-a-security-culture-that-lasts/P3gQ2MGAlD3vnRD1",
-   "date": "Tue, 06 Oct 2026 11:01:00 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "CompCom opens up device repair market",
-   "brief": "The watchdog’s final guidelines will open up device repair markets, giving consumers choice and supporting independent repairers.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/compcom-opens-up-device-repair-market/kLgB17ezZ6oM59N4",
-   "date": "Tue, 06 Oct 2026 10:14:58 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Assess your business’s everyday audit readiness",
-   "brief": "Take the ITWeb and Global Micro survey, which explores how companies manage controls, evidence, accountability and corrective actions as part of their day-to-day GRC processes.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/assess-your-businesss-everyday-audit-readiness/KPNG8v8NaWRM4mwD",
-   "date": "Tue, 06 Oct 2026 09:48:53 +0200",
-   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -592,36 +622,6 @@
    "country": null,
    "is_ai": true,
    "is_aiinfra": false
-  },
-  {
-   "title": "Africa’s AI policy cannot be separated from its industrial policy",
-   "brief": "Africa’s AI future will depend on more than technology. Investments in infrastructure, skills and strong institutions will determine who benefits and who is left behind.",
-   "source": "Condia",
-   "url": "https://thecondia.com/ai-africa-industrial-policy/",
-   "date": "Sat, 03 Oct 2026 11:56:44 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Different Ways to Use ChatGPT For Free Without Paying A Subscription",
-   "brief": "Know the different ways to use ChatGPT for free without paying for a personal subscription.",
-   "source": "Condia",
-   "url": "https://thecondia.com/how-to-use-chatgpt-for-free/",
-   "date": "Sat, 03 Oct 2026 10:13:17 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Satlyt raises $8m to turn satellites in orbit into data centres",
-   "brief": "Space-tech startup Satlyt, founded by former Google and SpaceX product manager has raised $8 million in seed funding.",
-   "source": "Condia",
-   "url": "https://thecondia.com/satlyt-raise-8m-for-data-centres/",
-   "date": "Fri, 02 Oct 2026 15:07:54 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": true
   }
  ]
 }
