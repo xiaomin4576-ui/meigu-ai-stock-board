@@ -1,23 +1,23 @@
 {
  "asof": "2026-10-09",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-10-09T01:55+08:00",
+ "generated_at": "2026-10-09T03:28+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 11,
-  "cluster_label": "伊朗",
+  "cross_day_suppressed": 9,
+  "cluster_label": "伊朗/霍尔木兹",
   "cluster_dropped": [
    "美国对伊朗实施新一轮制裁",
-   "伊朗袭击油轮叠加飓风 油价跳涨"
+   "特朗普排除中期选举前打击伊朗 油价回落"
   ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "美联储穆萨莱姆：未来6-9个月应加息",
-   "brief": "美联储官员穆萨莱姆称需进一步收紧货币政策使通胀回到目标，未来6至9个月利率应当上调。",
-   "chain": "加息预期升温→美股AI高久期票估值分母承压、风险偏好回落→A股算力链情绪受抑",
+   "title": "美联储穆萨莱姆:未来6-9个月应加息",
+   "brief": "美联储官员穆萨莱姆表示需进一步收紧货币政策使通胀回到目标,未来6至9个月利率应当上调。",
+   "chain": "加息预期升温→美股AI高久期票估值分母承压→A股算力链情绪受抑",
    "impact": 8,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202610093890042963.html",
@@ -25,9 +25,9 @@
   },
   {
    "cat": "macro",
-   "title": "沃勒称需更多加息 10年期美债收益率微动",
-   "brief": "美联储沃勒表示还需更多加息，投资者等待30年期国债拍卖，10年期美债收益率基本持平。",
-   "chain": "加息信号强化→美股成长股贴现率上行、AI板块估值受压→A股算力链承压",
+   "title": "沃勒称需更多加息 10年期美债收益率持平",
+   "brief": "美联储沃勒称需更多加息,投资者等待30年期国债拍卖,10年期美债收益率变动不大。",
+   "chain": "加息信号+长债拍卖→美债利率高位→压制美股成长股估值→A股算力链承压",
    "impact": 7,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/10/08/us-treasury-yields-30-year-bond-auction.html",
@@ -35,99 +35,79 @@
   },
   {
    "cat": "macro",
-   "title": "美国抵押贷款利率连涨七周",
-   "brief": "美国30年期固定抵押贷款利率三年来首次连续七周上升，加剧住房负担能力危机。",
-   "chain": "房贷利率高企→美国地产与消费承压、利率维持高位→A股地产链与算力链风险偏好分化",
-   "impact": 6,
+   "title": "美国抵押贷款利率连续七周上涨",
+   "brief": "30年期固定抵押贷款利率三年来首次连续七周上升,加剧住房负担能力危机。",
+   "chain": "房贷利率高企→美国地产与消费承压→风险偏好走弱→间接压制A股情绪",
+   "impact": 5,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202610093890038397.html",
    "ts": "2026-10-09 01:13:26"
   },
   {
    "cat": "macro",
-   "title": "中国央行发布人民币汇率政策立场",
-   "brief": "人民银行发布人民币汇率政策立场文件，强调坚持市场在汇率形成中发挥决定性作用，贸易优势不靠汇率贬值。",
-   "chain": "汇率维稳信号→人民币资产预期稳定、外资风险偏好改善→利好A股算力链估值",
-   "impact": 6,
+   "title": "美财政部接受60亿美元回购投标",
+   "brief": "美国财政部接受60亿美元回购投标,全额达到本次操作上限。",
+   "chain": "财政流动性操作→短端美元流动性微调→对美股影响有限→A股中性",
+   "impact": 3,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610093890028524.html",
-   "ts": "2026-10-09 00:36:48"
-  },
-  {
-   "cat": "macro",
-   "title": "达利欧警告股市对债券收益率缓冲收窄",
-   "brief": "桥水创始人达利欧警告，股市对债券收益率上升的缓冲垫正在缩小，风险上升。",
-   "chain": "收益率上行+缓冲收窄→美股高估值AI票脆弱性上升→A股算力链情绪承压",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/08/ray-dalio-stocks-bond-yields.html",
-   "ts": "Thu, 08 Oct 2026 12:19:53 GMT"
+   "url": "https://finance.eastmoney.com/a/202610093890045833.html",
+   "ts": "2026-10-09 02:13:28"
   },
   {
    "cat": "geo",
-   "title": "特朗普：中期选举前不会攻击伊朗",
-   "brief": "特朗普8日称正与伊朗进行富有成效的会谈，绝不会在11月3日中期选举前攻击伊朗。",
-   "chain": "美伊冲突短期降温→美股风险偏好边际修复→A股算力链情绪获喘息",
+   "title": "特朗普称中期选举前不会攻击伊朗",
+   "brief": "特朗普表示美国不会在11月中期选举前对伊朗发动攻击。",
+   "chain": "地缘降温→美股风险偏好回升→利好A股算力链风险情绪",
    "impact": 9,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610093890026714.html",
-   "ts": "2026-10-09 00:28:16"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMmV2ZUhoRklKSzBPaFkzWHVFdkwxVDlVVU8tdDV2NXc4NEkxTjZSTVhoaklIeTlJX3BCUTFkRUREY1VDVGpTY1lhZEQ4OHgyRG81S0RLa0JJVEZHTWpiUFJVRy0xZmVSWEpVbDZsVFBSRzZ4bmw2RnhtMXlBelJ1Vi1GUnVuZ3htemdTdExuTktpQ2dKdzhFRmRMd0MwMlYtd3JPb1J0NVlKcVNtWUlNNHRoNVFWaFBWUHNTdg?oc=5",
+   "ts": "2026-10-08T17:22:39+00:00"
   },
   {
    "cat": "geo",
-   "title": "胡塞武装再袭沙特利雅得机场",
-   "brief": "胡塞武装8日称第二次用弹道导弹打击利雅得哈立德国王国际机场，并警告远离沙特石油设施。",
-   "chain": "中东冲突升级→美股避险情绪升温、能源股波动→A股算力链风险偏好受压",
+   "title": "乌称基辅遭袭 已致4死多伤",
+   "brief": "10月8日俄军袭击基辅,造成4人死亡、19人受伤,2人危重。",
+   "chain": "俄乌冲突升级→欧洲风险溢价上升→美股避险情绪→A股情绪承压",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610093890044221.html",
+   "ts": "2026-10-09 01:59:09"
+  },
+  {
+   "cat": "geo",
+   "title": "胡塞武装称第三次袭击沙特机场",
+   "brief": "胡塞武装称8日晚向利雅得机场发射两枚巡航导弹,并袭击纳季兰机场与空军基地。",
+   "chain": "红海-海湾局势升温→航运与油价风险溢价→美股能源波动→A股情绪扰动",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610093890047090.html",
+   "ts": "2026-10-09 03:12:21"
+  },
+  {
+   "cat": "oil",
+   "title": "WTI原油结算价涨至91.49美元",
+   "brief": "WTI原油期货结算价91.49美元/桶,上涨3.21美元,涨幅3.64%。",
+   "chain": "伊朗油轮遇袭+飓风威胁→油价跳涨→莫桑比克油气售价与现金流受益",
    "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610083890020041.html",
-   "ts": "2026-10-08 23:53:53"
-  },
-  {
-   "cat": "geo",
-   "title": "俄军袭击致基辅多处断电",
-   "brief": "乌克兰能源部通报，俄军8日袭击基辅供电电网设施，造成多处断电、公共交通受阻。",
-   "chain": "俄乌冲突持续→欧洲能源与避险情绪升温→A股算力链风险偏好边际承压",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610093890033391.html",
-   "ts": "2026-10-09 00:59:11"
+   "url": "https://finance.eastmoney.com/a/202610093890046129.html",
+   "ts": "2026-10-09 02:31:27"
   },
   {
    "cat": "oil",
-   "title": "WTI原油短线跳水 现涨2.9%",
-   "brief": "WTI原油期货短线跳水，现涨2.9%报90.9美元/桶，早前一度涨超5%。",
-   "chain": "油价高位震荡→莫桑比克油气项目现金流预期改善，东非能源经营景气度提升",
+   "title": "伊朗扬言封锁更多霍尔木兹航线 油轮风险升",
+   "brief": "伊朗誓言封锁更多霍尔木兹航线,油轮遇袭风险上升。",
+   "chain": "航运风险溢价→油价上行风险→东非LNG/油气运输成本与保险上升",
    "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610093890026247.html",
-   "ts": "2026-10-09 00:20:23"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOU2tXTF9qRnZpZjVabUdpX3Q5UVBCR18tb2JrR3dJUVVacUhyUURRQ05uZ2dKOVBMbHJLQmRmejB3TjhPSGpxUnFZOEdJNFJ0Q2k1aXNVQTZNVFYwV21YdUhmd2g0MnZqZm9ycGVfM21VLURfY1ZzOENSTUpxVTcxRmdpeS1ka1JhUU4tczc5RGpycmx5NWt6NjRJLThhc0VlRFRTS0p0X0N5bHFwbl9PaDQyZ25xdw?oc=5",
+   "ts": "2026-10-08T13:17:53+00:00"
   },
   {
    "cat": "oil",
-   "title": "中东局势紧张刺激国际油价大涨",
-   "brief": "受中东地缘局势再度紧张刺激，8日早间纽约与布伦特原油期货价格均一度涨超5%。",
-   "chain": "地缘溢价推升油价→莫桑比克油气出口收益预期上行，东非LNG项目经济性增强",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610083890019213.html",
-   "ts": "2026-10-08 23:48:45"
-  },
-  {
-   "cat": "oil",
-   "title": "白宫哈塞特：炼油厂正在恢复生产",
-   "brief": "白宫国家经济委员会主任哈塞特表示炼油厂正在恢复生产，缓解燃油供应压力的措施即将出台。",
-   "chain": "炼油恢复→成品油供应压力缓解、油价上行受限→莫桑比克油气经营成本压力边际缓和",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610093890042196.html",
-   "ts": "2026-10-09 01:34:32"
-  },
-  {
-   "cat": "oil",
-   "title": "瑞安航空：航空燃油成本或高企至2028年",
-   "brief": "瑞安航空CEO奥利里称，'高得离谱'的航空燃油成本可能持续到2028年。",
-   "chain": "航油成本长期高企→原油需求端支撑油价→莫桑比克油气中长期售价预期获支撑",
+   "title": "瑞安CEO:航空燃油高价或持续到2028年",
+   "brief": "瑞安航空O'Leary称'高得离谱'的航空燃油成本可能持续到2028年。",
+   "chain": "炼油利润与燃油需求强劲→油价中枢上移→莫桑比克油气中长期需求利好",
    "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbWZKUzZnT1ZUaVhPYXViX3l6TnZVYW94MlB5cG5IbjVYVGdSRmdiWkpTNWdxbnFYa3pLbkt1YWkyQUFiTGRtbGpoTW41cmpialRINlBucTMwX2RiTEdpUzM5MGI4c2FtVDE0dGUyazJNRnpPOUtPMjNYcDd0MEduam1yNWtfdUpPUFJjSE8yOHFuVWx2RWZUNHhpMkIwX0NtcHRsaFlwMnNxWmhSX1lScg?oc=5",
@@ -135,9 +115,9 @@
   },
   {
    "cat": "gas",
-   "title": "Equinor在挪威Gullfaks发现新天然气",
-   "brief": "Equinor在挪威已有40年历史的Gullfaks油田发现新的天然气资源。",
-   "chain": "欧洲气源供给增加→TTF气价承压→对莫桑比克LNG出口形成竞争，东非项目定价需关注",
+   "title": "Equinor在挪威Gullfaks老油田发现新气",
+   "brief": "Equinor在挪威40年历史的Gullfaks油田发现新天然气资源。",
+   "chain": "欧洲气源供给增加→TTF气价承压→对莫桑比克LNG出口竞争加剧",
    "impact": 5,
    "source": "OilPrice",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Equinor-Finds-New-Gas-at-Norways-40-Year-Old-Gullfaks-Field.html",
@@ -145,19 +125,19 @@
   },
   {
    "cat": "gas",
-   "title": "Equinor在Gullfaks South发现1030万桶油当量",
-   "brief": "Equinor在Gullfaks South发现高达1030万桶油当量资源，含油气。",
-   "chain": "欧洲油气储量增加→区域气价与油价供给预期宽松→莫桑比克LNG竞争格局边际变化",
-   "impact": 4,
+   "title": "虚拟电厂:无需新建的电网容量",
+   "brief": "虚拟电厂作为无需新建的电网容量正受关注。",
+   "chain": "电力需求管理→天然气发电需求结构变化→间接影响全球LNG需求",
+   "impact": 3,
    "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Equinor-Finds-Up-to-103-Million-Barrels-of-Oil-Equivalent-at-Gullfaks-South.html",
-   "ts": "Thu, 08 Oct 2026 11:00:00 -0500"
+   "url": "https://oilprice.com/Energy/Energy-General/Virtual-Power-Plants-The-Grid-Capacity-Nobody-Had-to-Build.html",
+   "ts": "Thu, 08 Oct 2026 14:00:00 -0500"
   },
   {
    "cat": "tech",
    "title": "纳指跌超1% 费城半导体指数跌逾3%",
-   "brief": "美股走低，纳指跌超1%，费城半导体指数跌超3%，英特尔、迈威尔跌超4%，英伟达跌2%。",
-   "chain": "半导体板块重挫→美股AI硬件链承压→A股算力链（芯片/服务器）情绪同步走弱",
+   "brief": "美股走低,纳指跌超1%,费城半导体指数跌超3%,英特尔、迈威尔跌超4%。",
+   "chain": "OpenAI营收不及预期→美股半导体承压→A股算力链情绪受抑",
    "impact": 8,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202610093890033731.html",
@@ -166,42 +146,62 @@
   {
    "cat": "tech",
    "title": "美股存储概念股大跌",
-   "brief": "闪迪跌超6%，SK海力士跌超5%，美光科技、希捷科技跌超4%，存储板块集体下挫。",
-   "chain": "存储芯片股大跌→美股半导体周期担忧升温→A股存储与算力链情绪承压",
-   "impact": 7,
+   "brief": "闪迪跌超6%,SK海力士跌超5%,美光、希捷跌超4%。",
+   "chain": "存储需求预期走弱→美股半导体承压→A股存储链情绪受抑",
+   "impact": 6,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202610093890036179.html",
    "ts": "2026-10-09 01:08:28"
   },
   {
    "cat": "tech",
-   "title": "苹果10月13日纽约举行产品发布会",
-   "brief": "苹果宣布将于10月13日在纽约举行名为'Welcome Home'的产品发布会。",
-   "chain": "苹果新品发布→美股消费电子与供应链预期升温→A股苹果链及消费电子板块受关注",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610093890022713.html",
-   "ts": "2026-10-09 00:03:02"
+   "title": "美暂停微软、Adobe绿卡劳工项目",
+   "brief": "美国在外籍劳工收紧行动中暂停微软、Adobe的绿卡劳工项目。",
+   "chain": "移民政策收紧→科技人才供给受限→美股科技用工成本上升→A股中性",
+   "impact": 4,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/08/microsoft-adobe-green-card-labor-suspension.html",
+   "ts": "Thu, 08 Oct 2026 18:52:59 GMT"
   },
   {
    "cat": "tech",
    "title": "亚马逊改版设备线 推高价Alexa平板",
-   "brief": "亚马逊重整老化设备产品线，推出更高价位的Alexa平板，砍掉低价Fire系列。",
-   "chain": "亚马逊硬件提价策略→美股消费电子与智能家居竞争格局变化→A股相关供应链情绪波动",
-   "impact": 5,
+   "brief": "亚马逊改版老旧设备线,推出更高价Alexa平板,砍掉低价Fire。",
+   "chain": "硬件提价策略→消费电子需求信号→映射A股消费电子链",
+   "impact": 3,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/10/08/amazon-alexa-tablet-release.html",
    "ts": "Thu, 08 Oct 2026 14:51:27 GMT"
   },
   {
-   "cat": "tech",
-   "title": "俄Yandex主要数据中心遭无人机袭击停运",
-   "brief": "俄罗斯互联网巨头Yandex在一处主要数据中心遭无人机袭击后暂停运营。",
-   "chain": "数据中心遇袭→云基础设施安全风险受关注→A股算力链与IDC安全主题情绪扰动",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html",
-   "ts": "Thu, 08 Oct 2026 09:40:36 GMT"
+   "cat": "ai",
+   "title": "OpenAI年化营收较预期少200亿美元",
+   "brief": "OpenAI告知投资者截至9月底年化收入近500亿美元,较此前信号少约200亿。",
+   "chain": "AI变现不及预期→美股AI算力链估值承压→A股算力链情绪受抑",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610093890030635.html",
+   "ts": "2026-10-09 00:45:55"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达、甲骨文等AI股因OpenAI营收报告下挫",
+   "brief": "OpenAI营收报告发布后,英伟达、甲骨文、CoreWeave等AI股下跌。",
+   "chain": "AI龙头营收预期下修→美股AI板块回调→A股算力链承压",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+   "ts": "Thu, 08 Oct 2026 18:18:31 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "OpenAI Codex开发者称GPT-6.1Sol超快模式推出",
+   "brief": "OpenAI Codex开发者称GPT-6.1Sol的超快模式(Ultrafast)正在推出。",
+   "chain": "模型能力升级→AI推理算力需求上升→利好A股算力链",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610093890046342.html",
+   "ts": "2026-10-09 02:40:27"
   }
  ]
 }
