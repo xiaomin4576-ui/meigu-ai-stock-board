@@ -1,28 +1,168 @@
 {
  "asof": "2026-10-08",
- "fetched_at": "2026-10-08T16:02+08:00",
+ "fetched_at": "2026-10-08T18:47+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
    "Moonshot·TechCabal": 10,
    "Disrupt Africa": 10,
    "Techpoint Africa": 0,
-   "IT News Africa": 11,
+   "IT News Africa": 0,
    "TechAfrica News": 12,
    "Condia": 25,
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 1,
-   "非洲科技·聚合": 11,
+   "非洲科技·聚合": 10,
    "中非科技·聚合": 16
   },
   "total": 60,
-  "ai_flagged": 19,
-  "aiinfra_flagged": 4,
-  "countries": 6
+  "ai_flagged": 18,
+  "aiinfra_flagged": 3,
+  "countries": 8
  },
  "items": [
+  {
+   "title": "Goodbye mango tree, hello AWS: The cloud sovereignty paradox behind Nigeria’s new postcode",
+   "brief": "Nigeria’s new digital postcode system promises to make buildings easier to find, improving deliveries and access to essential services. But that precision raises questions about where the national address database is sto",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/08/who-controls-nigeria-digital-postcode/",
+   "date": "Thu, 08 Oct 2026 10:43:23 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "M-KOPA Reaches 10 Million Customers as Revenue Jumps 45%",
+   "brief": "M-KOPA  has marked its 15th anniversary after reaching 10 million customers since its founding in 2011, while reporting record revenue of US$600 million for the ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/08/m-kopa-reaches-10-million-customers-revenue-jumps-45-percent/",
+   "date": "Thu, 08 Oct 2026 10:43:07 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Ghana Strengthens Cyber Resilience for Critical Infrastructure",
+   "brief": "Ghana is strengthening its focus on critical infrastructure cyber resilience, with the government calling for greater protection of the operational technology (OT) systems that support ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/08/ghana-strengthens-cyber-resilience-critical-infrastructure/",
+   "date": "Thu, 08 Oct 2026 10:25:59 +0000",
+   "country": "🇬🇭 加纳",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Opt-out registry arrives as marketers go social",
+   "brief": "Sixteen years after it was first mooted, the opt-out registry will be enforced from April 2027, with hefty fines for marketers that ignore it.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/opt-out-registry-arrives-as-marketers-go-social/G98YdqLGAxNMX2PD",
+   "date": "Thu, 08 Oct 2026 12:15:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "STELLARIX Appoints Ahmad Mokhles Aly El-Deen as Group CEO",
+   "brief": "AXIAN Telecom ’s STELLARIX  has appointed Ahmad Mokhles Aly El-Deen as Group CEO, with responsibility for leading the company’s operations across Madagascar, Senegal and Tanzania. In ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/08/stellarix-appoints-ahmad-mokhles-aly-el-deen-group-ceo/",
+   "date": "Thu, 08 Oct 2026 10:03:16 +0000",
+   "country": "🇹🇿 坦桑尼亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "NeoFleet Capital raises $4 million to finance taxi fleets across Africa and emerging markets",
+   "brief": "NeoFleet, a Cyprus-based mobility finance company that operates in Senegal, Côte d'Ivoire, and Peru, has raised a $4 million pre-seed round.",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/08/neofleet-raises-4-million/",
+   "date": "Thu, 08 Oct 2026 09:42:38 +0000",
+   "country": "🇸🇳 塞内加尔",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Paratus Namibia Launches Eutelsat OneWeb LEO Satellite Service Across Namibia",
+   "brief": "Paratus Namibia  launches Eutelsat ’s OneWeb Low Earth Orbit (LEO) satellite service in Namibia. The new service, designed to appeal countrywide to both the residential and ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/08/paratus-namibia-eutelsat-oneweb-leo-satellite-service/",
+   "date": "Thu, 08 Oct 2026 09:15:39 +0000",
+   "country": "🇳🇦 纳米比亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "DiData execs hit back at account of Campus deal",
+   "brief": "Former Dimension Data executives reject Jason Goodall’s Campus deal admission, saying it contradicts his sworn evidence.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/didata-execs-hit-back-at-account-of-campus-deal/RgeVDvPR3ojMKJN3",
+   "date": "Thu, 08 Oct 2026 11:13:23 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Beyond the Single Wholesale Network: How Africa Is Rethinking Infrastructure Sharing",
+   "brief": "Ghana is awarding 5G spectrum to the operators it once expected to wait for a single shared network. On 6 October, MTN Ghana received a notice ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/08/beyond-the-single-wholesale-network-how-africa-is-rethinking-infrastructure-sharing/",
+   "date": "Thu, 08 Oct 2026 08:59:10 +0000",
+   "country": "🇬🇭 加纳",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Mozambique Unveils ‘Internet for All’ Strategy to Expand Digital Inclusion",
+   "brief": "Mozambique is developing a Strategy and Implementation Plan for its “Internet for All” initiative to coordinate ongoing efforts to expand connectivity and digital inclusion across ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/08/mozambique-internet-for-all-strategy-digital-inclusion/",
+   "date": "Thu, 08 Oct 2026 08:57:00 +0000",
+   "country": "🇲🇿 莫桑比克",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Logitech sees Africa as major growth opportunity",
+   "brief": "The company steps up its African expansion, adding staff, growing its partner network and strengthening distribution.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/logitech-sees-africa-as-major-growth-opportunity/lwrKx73Y8Jbqmg1o",
+   "date": "Thu, 08 Oct 2026 10:42:12 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Numou and Comera Financial Holding Partner to Expand SME Financing and Payments in UAE",
+   "brief": "Numou, a subsidiary of ADGM,  and Comera Financial Holding (CFH),  part of Abu Dhabi’s Royal Group, have signed a partnership agreement to expand access to ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/08/numou-comera-financial-holding-sme-financing-payments-uae/",
+   "date": "Thu, 08 Oct 2026 08:12:56 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Cloudera and stc Group Partner to Advance Digital Transformation in Kuwait and Bahrain",
+   "brief": "Cloudera,  the only true hybrid platform for data, and analytics, and AI has partnered with stc group , a leading digital enabler, to support the regional ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/08/cloudera-stc-group-digital-transformation-kuwait-bahrain/",
+   "date": "Thu, 08 Oct 2026 08:07:07 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Mastercard and stc pay Bahrain Strengthen Digital Payments Support for SMEs",
+   "brief": "Mastercard  has strengthened its strategic collaboration with stc pay Bahrain,  one of the Kingdom’s leading digital wallets, to support the next phase of digital payments ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/08/mastercard-stc-pay-bahrain-digital-payments-smes/",
+   "date": "Thu, 08 Oct 2026 08:02:06 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
   {
    "title": "Short-term risk from AI and cyber security has spiked, warns Marsh Africa",
    "brief": "AI has changed every sector, and organisations are grappling with an increasingly complex cyber security threat landscape, says Marsh Africa.",
@@ -74,16 +214,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "CAMTEL Partners with SIC to Expand Fibre Connectivity Across Cameroon Housing Estates",
-   "brief": "Cameroon Telecommunications (CAMTEL)  has signed a framework partnership agreement with the Cameroon Real Estate Company (SIC)  to strengthen connectivity and digital infrastructure across SIC housing ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/08/camtel-sic-fibre-connectivity-cameroon-housing-estates/",
-   "date": "Thu, 08 Oct 2026 07:11:33 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Stop treating AWS like another data centre",
    "brief": "Like-for-like infrastructure is often the root cause of high cloud bills.",
    "source": "ITWeb Africa",
@@ -120,26 +250,6 @@
    "url": "https://www.itweb.co.za/article/ct2-takes-centre-stage-in-workonlines-cape-town-network/O2rQGMAEWpmMd1ea",
    "date": "Thu, 08 Oct 2026 08:33:00 +0200",
    "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "SonicWall MXDR enhances visibility and protection offerings for MSPs",
-   "brief": "SonicWall SonicSentry MXDR offers threat hunting, alert triage and active incident response across endpoints, clouds and local networks.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/sonicwall-mxdr-enhances-visibility-and-protection-offerings-for-msps/WnxpEv4YlDO7V8XL",
-   "date": "Thu, 08 Oct 2026 08:32:00 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "From street to scale: How payment innovation beats banking",
-   "brief": "The real problem isn't access to banking, it's the concentrated cashflow that prevents growth, says Abram Juice Ndlovu, supervisor for Kasi Sales at Altron FinTech.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/from-street-to-scale-how-payment-innovation-beats-banking/LPp6V7rBr4L7DKQz",
-   "date": "Thu, 08 Oct 2026 08:31:00 +0200",
-   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -194,13 +304,13 @@
    "is_aiinfra": false
   },
   {
-   "title": "Eye on Africa - Africa joins the data center backlash",
+   "title": "Africa joins the data centre backlash - Eye on Africa",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE0yQ3pVZERiU3Fyb3lnanEyUXVjbk1ZcU1EelFuN2NOZi10cVJ2Szc2NnU5TkZRSWZtNnlXNWF6SC12a1JqTW5DSUZPMEpFdFdVLUJ4Zk5sVGJOUDRJM0dISEZRTUI4QS1HV2YxSVp4RGswbEU?oc=5\" target=\"",
    "source": "France 24·聚合",
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0yQ3pVZERiU3Fyb3lnanEyUXVjbk1ZcU1EelFuN2NOZi10cVJ2Szc2NnU5TkZRSWZtNnlXNWF6SC12a1JqTW5DSUZPMEpFdFdVLUJ4Zk5sVGJOUDRJM0dISEZRTUI4QS1HV2YxSVp4RGswbEU?oc=5",
    "date": "Wed, 07 Oct 2026 20:37:55 GMT",
    "country": null,
-   "is_ai": true,
+   "is_ai": false,
    "is_aiinfra": true
   },
   {
@@ -304,43 +414,13 @@
    "is_aiinfra": false
   },
   {
-   "title": "Green ID Books Stop Being Valid on 31 March 2028 as Smart ID Moves into Bank Branches",
-   "brief": "South Africa’s green ID book now has an end date. From 31 March 2028, the booklet will no longer count as a valid identity document. Home Affairs Minister Leon Schreiber announced the deadline on 1 October 2026. He also ",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/enterprise/digital-transformation/green-id-books-stop-being-valid-2028/",
-   "date": "Wed, 07 Oct 2026 14:13:45 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Uganda Launches Child Online Protection Campaign to Promote Safer Internet Use",
-   "brief": "Uganda has launched a Child Online Protection Campaign aimed at promoting safer and more responsible internet use among children. The campaign was launched by the ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/07/uganda-launches-child-online-protection-campaign-to-promote-safer-internet-use/",
-   "date": "Wed, 07 Oct 2026 14:08:54 +0000",
-   "country": "🇺🇬 乌干达",
+   "title": "Hightouch Names Matthew Lubeck General Manager, EMEA",
+   "brief": "Hightouch, the leader in data and AI for marketing, has named Matthew Lubeck General Manager, EMEA. Based in London, Lubeck will lead all of Hightouch's go-to-market functions across EMEA as the company helps brands in t",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/hightouch-names-matthew-lubeck-general-manager-emea/GxwQD71DLA5vlPVo",
+   "date": "Wed, 07 Oct 2026 15:40:00 +0200",
+   "country": null,
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Guinea’s Orange Foundation and UNICEF Partner to Expand Digital Learning in 50 Schools",
-   "brief": "The Orange Guinea Foundation  and UNICEF  have signed a memorandum of understanding to expand access to digital learning and educational technology in Guinea. Signed on ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/07/guinea-orange-foundation-and-unicef-partner-to-expand-digital-learning-in-50-schools/",
-   "date": "Wed, 07 Oct 2026 13:21:52 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Ooredoo’s OFN and iQ Networks Sign Deal to Expand Fibre Connectivity Across Iraq",
-   "brief": "OFN, Ooredoo Group ’s international connectivity arm, and iQ Networks , a leading Iraqi fibre-optic infrastructure provider, have signed an agreement to the purchase multiple dark fibre ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/07/ooredoos-ofn-and-iq-networks-sign-deal-to-expand-fibre-connectivity-across-iraq/",
-   "date": "Wed, 07 Oct 2026 13:08:38 +0000",
-   "country": null,
-   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -351,26 +431,6 @@
    "date": "Wed, 07 Oct 2026 15:00:00 +0200",
    "country": null,
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Senegal Signs Deal to Launch Digital Equipment Assembly Complex in Diamniadio",
-   "brief": "Senegal has signed a memorandum of understanding with the World Investment and Business Council for Africa and Blue Cloud Softech Solutions as part of efforts ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/07/senegal-signs-deal-to-launch-digital-equipment-assembly-complex-in-diamniadio/",
-   "date": "Wed, 07 Oct 2026 12:56:28 +0000",
-   "country": "🇸🇳 塞内加尔",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Vodacom and SmartOps Launch Programme to Expand South Africa’s E-Hailing Economy",
-   "brief": "Vodacom South Africa  and SmartOps Fleet  have brought together partners from the technology, financial services, automotive and e-hailing sectors, in a new integrated programme designed ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/07/vodacom-and-smartops-launch-programme-to-expand-south-africas-e-hailing-economy/",
-   "date": "Wed, 07 Oct 2026 12:46:52 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -390,16 +450,6 @@
    "url": "https://thecondia.com/cbn-national-licence-announcement-delayed-reclassification/",
    "date": "Wed, 07 Oct 2026 11:36:09 +0000",
    "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Can code save onshore oil? Inside Heirs Energies’ $1.1 billion operational experiment",
-   "brief": "Heirs Energies combined real-time monitoring with security upgrades and field investment to revive OML 17, an oil asset plagued by theft and ageing infrastructure. Its recovery shows how technology can help restore produ",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/10/07/heirs-energies-oml-17-digital-operations/",
-   "date": "Wed, 07 Oct 2026 10:53:37 +0000",
-   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -424,16 +474,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Oppo F35: What to know about the new budget phone",
-   "brief": "Oppo launched the Oppo F35 in India on October 5, 2026, with sales starting on October 11.",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/10/07/oppo-f35-release-date-price-specs/",
-   "date": "Wed, 07 Oct 2026 10:18:51 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "AI takes the bench before the rulebook is ready",
    "brief": "Lawyers present hallucinated cases, a judge had ChatGPT reconcile car payments and another tested it on dubious citations, while experts say judges must stay accountable.",
    "source": "ITWeb Africa",
@@ -444,61 +484,11 @@
    "is_aiinfra": false
   },
   {
-   "title": "South Africa’s USAASA Publishes Framework for Universal Service and Access Fund",
-   "brief": "The Universal Service and Access Agency of South Africa (USAASA)  has published the Universal Service and Access Fund (USAF)  Manual under section 82(4)(d) of the ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/07/south-africas-usaasa-publishes-framework-for-universal-service-and-access-fund/",
-   "date": "Wed, 07 Oct 2026 10:06:39 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Niger and Algeria Launch Trans-Saharan Fibre Optic Backbone",
-   "brief": "Niger and Algeria have officially launched operations of a trans-Saharan fibre optic backbone linking the two countries, strengthening their digital connectivity and telecommunications cooperation. The ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/07/niger-and-algeria-launch-trans-saharan-fibre-optic-backbone/",
-   "date": "Wed, 07 Oct 2026 09:54:57 +0000",
-   "country": "🇩🇿 阿尔及利亚",
-   "is_ai": false,
-   "is_aiinfra": true
-  },
-  {
-   "title": "Etisalat Group Unveils New Identity as It Marks 50th Anniversary",
-   "brief": "Etisalat Group  has unveiled its identity for its 50th anniversary, reaffirming “etisalat” as the name it will carry forward as the company marks five decades ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/07/etisalat-group-unveils-new-identity-as-it-marks-50th-anniversary/",
-   "date": "Wed, 07 Oct 2026 09:50:30 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Vodacom commits R500m to WCape network",
    "brief": "The mobile telephony group’s investment targets network expansion, 5G rollout in townships and energy-resilience projects.",
    "source": "ITWeb Africa",
    "url": "https://www.itweb.co.za/article/vodacom-commits-r500m-to-wcape-network/GxwQDM1DLm57lPVo",
    "date": "Wed, 07 Oct 2026 11:25:39 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Social engineering a growing cyber security headache for SA",
-   "brief": "WhatsApp account takeovers and AI voice cloning are driving social engineering losses in SA, according to Integrity360 and Check Point.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/social-engineering-a-growing-cyber-security-headache-for-sa/Kjlyr7wBQLBvk6am",
-   "date": "Wed, 07 Oct 2026 10:51:00 +0200",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Canva appoints reseller for African market",
-   "brief": "The global visual communication platform names Learning Curve as its first locally-based Canva partner in Africa.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/canva-appoints-reseller-for-african-market/mQwkoq6Y5GPM3r9A",
-   "date": "Wed, 07 Oct 2026 10:49:53 +0200",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -540,26 +530,6 @@
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSU5SSEl4emR6cnlQQS03M1BLb0VsYmNkQzhTLUVtb3hLQm40eHFBR0tYTDRvUU5kVFJndHZCeFFxUGRMVVRaVnpOTVlzeTFxaHlwWjJCaG9lNnlUOU9pV2w3WGZVcTFxWFMzQUwtd0RlZWdWNTNMeUJORWpBVy1uNm0yVTJDSGFrRHZUak1IanlXMnF3TEVyekRrWU5jQ0N4b2FkdzJaeFNfSndKU215TkRsaw?oc=5",
    "date": "Wed, 07 Oct 2026 02:53:00 GMT",
    "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Startup, Kumasi: fighting food waste with premium drinks from cacao pulp",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNTnUtZ3YxOHl5SGh5amdsUkVxX3dWYkk1VHhZMl93X1ZTdUdfNzRIa0lzLTE3YUYwNUFWd1lGWDRSN09lMzM4UFg3akcyTExCMmlac3pUbnotbHg4WlFMZFlvQnhwaWVlNXBiVkhjNGRSTnBDZ3VZS21JRm1hWk",
-   "source": "Materia Rinnovabile | Renewable Matter·聚合",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTnUtZ3YxOHl5SGh5amdsUkVxX3dWYkk1VHhZMl93X1ZTdUdfNzRIa0lzLTE3YUYwNUFWd1lGWDRSN09lMzM4UFg3akcyTExCMmlac3pUbnotbHg4WlFMZFlvQnhwaWVlNXBiVkhjNGRSTnBDZ3VZS21JRm1hWkFhMFlkaEhjbFhaeHFaYktUSmlmMWU2Z2psbWtQMDNXMGFVY0IxcVdvaw?oc=5",
-   "date": "Tue, 06 Oct 2026 19:23:07 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Capitec Limited Name Change: What It Means for SA’s Banking Future",
-   "brief": "South Africa’s largest bank by customer numbers has a new name. Capitec Bank Holdings Limited officially became Capitec Limited on 1 August 2026. Shareholders approved the change at the Annual General Meeting on 31 July.",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/industries/fintech_news/capitec-officially-becomes-capitec-limited/",
-   "date": "Tue, 06 Oct 2026 15:50:06 +0000",
-   "country": "🇿🇦 南非",
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -619,6 +589,36 @@
    "source": "ITWeb Africa",
    "url": "https://www.itweb.co.za/article/the-future-of-it-talent-retention/DZQ587V8BdwqzXy2",
    "date": "Tue, 06 Oct 2026 09:12:12 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Huawei and Qualcomm Announce Broad Patent License Agreement",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE91UHhJZmQ2elJYUS1GUzdfc2RhTmR2eHlLaEdLSmdSREctaXFrQk1DY0t1eG5FbWZQVTVaMXhOcE5lQU4zMGlGY29qdHNjeW1NNXoyNkNmSjFjWmRqemwtRU9XWU05Z2cyOXpRbXM4c2dwRHlDdmtzUExn?oc=5\"",
+   "source": "Huawei·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE91UHhJZmQ2elJYUS1GUzdfc2RhTmR2eHlLaEdLSmdSREctaXFrQk1DY0t1eG5FbWZQVTVaMXhOcE5lQU4zMGlGY29qdHNjeW1NNXoyNkNmSjFjWmRqemwtRU9XWU05Z2cyOXpRbXM4c2dwRHlDdmtzUExn?oc=5",
+   "date": "Mon, 05 Oct 2026 18:26:26 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Did Africa Have Multi-Story \"Skyscrapers\" 2,800 Years Ago? New Research Suggests They Had The Technology",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNMk50QnJnQVBrM0J6TmhKbUNPZDlaaFRTUFN4S0xZdUNRZmMzR09xZ0tqSlFSSzhFZ0VwM2JES3VMOTV0c1lSd2dkSFg3c0RJVEpESWV5bWxoX0JscEZxcnp6RENxbFZ5UV80amptYloyeHBqcFZjMmhsV0hYSz",
+   "source": "IFLScience·聚合",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMk50QnJnQVBrM0J6TmhKbUNPZDlaaFRTUFN4S0xZdUNRZmMzR09xZ0tqSlFSSzhFZ0VwM2JES3VMOTV0c1lSd2dkSFg3c0RJVEpESWV5bWxoX0JscEZxcnp6RENxbFZ5UV80amptYloyeHBqcFZjMmhsV0hYSzA0REgzbEE2aXp0VjU3ZXc0ODZZRmVObnpKZnFtcUozcXNBR1NCT0c1bmhiQnBMT2ZsbFVnSG9kWDZ4dDIzYmQ4dGVYX1UyZk14UHAtU1c0UQ?oc=5",
+   "date": "Mon, 05 Oct 2026 10:07:53 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "The Foreignness of Africa’s Startup Ecosystem",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNdEduMWdQRUJKbVpwLXZBUFZWUkNPYWx0dUNFb3p6T2dhWVI5dF8zTWZ6WTNsVGF5cXFGYWhPbEpmZGRNbzA0ZW1KRmFvS1JtblM0VnNteUQ3NkJ4UTNGbF9ROGRzaWNTbnk1ZWQ3TUJBR1VGX19Qd2pvNVRick",
+   "source": "ProMarket·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdEduMWdQRUJKbVpwLXZBUFZWUkNPYWx0dUNFb3p6T2dhWVI5dF8zTWZ6WTNsVGF5cXFGYWhPbEpmZGRNbzA0ZW1KRmFvS1JtblM0VnNteUQ3NkJ4UTNGbF9ROGRzaWNTbnk1ZWQ3TUJBR1VGX19Qd2pvNVRick1TbEtuNmNkOERQdEE?oc=5",
+   "date": "Mon, 05 Oct 2026 10:00:00 GMT",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
