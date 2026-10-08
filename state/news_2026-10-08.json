@@ -1,224 +1,196 @@
 {
  "asof": "2026-10-08",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-10-08T13:57+08:00",
+ "generated_at": "2026-10-08T16:01+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 2,
-  "cluster_label": "",
-  "cluster_dropped": [],
+  "cluster_label": "伊朗/沙特/海湾",
+  "cluster_dropped": [
+   "沙特首都利雅得多地传出爆炸声"
+  ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "geo",
-   "title": "特朗普称无意与伊朗达成协议，美据报筹备大规模轰炸",
-   "brief": "特朗普表示不急于与伊朗达成协议，美方据报正为对伊朗大规模轰炸做准备，中东局势急剧升级。",
-   "chain": "美伊冲突升级→避险升温、美股风险偏好承压→A股算力链短期情绪受抑",
-   "impact": 9,
+   "title": "特朗普称无意与伊朗达成协议 美据报筹备大规模轰炸",
+   "brief": "特朗普表示不热衷于与伊朗达成协议，美方据报正为对伊大规模轰炸做准备，中东局势急剧升温。",
+   "chain": "美伊冲突升级→避险升温压制美股风险偏好→A股算力链短期承压、军工与油气链获资金关注",
+   "impact": 10,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/10/08/us-iran-war-trump-hormuz.html",
    "ts": "Thu, 08 Oct 2026 03:29:29 GMT"
   },
   {
    "cat": "oil",
-   "title": "伊朗加大对霍尔木兹油轮袭击，油价跳涨2%",
-   "brief": "伊朗加强针对霍尔木兹海峡油轮的袭击，WTI原油跳涨2%至90美元上方，供应担忧升温。",
-   "chain": "霍尔木兹油轮遇袭→油价上行风险溢价抬升→莫桑比克LNG项目经济性相对受益，但东非航运保险成本上升",
+   "title": "布伦特原油升破104美元 盘中涨超4%",
+   "brief": "受中东供应担忧与航运袭击持续影响，布伦特原油期货升破每桶104美元，WTI涨近4%报91.7美元。",
+   "chain": "霍尔木兹供应风险→油价冲高至104美元→莫桑比克LNG项目经济性提升、东非油气资产估值与现金流改善",
    "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610083889619137.html",
+   "ts": "2026-10-08 15:56:57"
+  },
+  {
+   "cat": "oil",
+   "title": "伊朗加强袭击霍尔木兹油轮 油价跳涨2%",
+   "brief": "伊朗加大对霍尔木兹海峡油轮的袭击力度，推动国际油价再度跳涨约2%，航运风险溢价走高。",
+   "chain": "油轮遇袭→原油与运费双升→莫桑比克经苏伊士/好望角航线成本上升，需关注东非出口物流扰动",
+   "impact": 8,
    "source": "OilPrice",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Iran-Steps-Up-Attacks-on-Hormuz-Tankers.html",
    "ts": "Thu, 08 Oct 2026 00:08:31 -0500"
   },
   {
    "cat": "macro",
-   "title": "美联储纪要：官员预计还将加息，但时点未明",
-   "brief": "美联储会议纪要显示官员认为仍需进一步加息，但未给出明确时间表，市场对利率路径存疑。",
-   "chain": "加息预期未消→美股AI高久期估值分母承压→A股算力链风险偏好受抑",
+   "title": "美联储纪要：官员预计还将加息 时点未定",
+   "brief": "美联储会议纪要显示官员认为仍需进一步加息，但未给出明确时间表，政策路径不确定性延续。",
+   "chain": "加息预期未消→美股高久期AI股估值分母承压→A股算力链情绪受抑、黄金受实际利率压制",
    "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html",
    "ts": "Wed, 07 Oct 2026 18:42:36 GMT"
   },
   {
-   "cat": "macro",
-   "title": "CNBC：又一次美联储加息在望，但何时？",
-   "brief": "CNBC每日综述指出市场预期美联储将再度加息，但时点不明，利率不确定性主导市场情绪。",
-   "chain": "加息悬念→美债利率高位震荡→压制A股成长股估值",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/08/fed-hike-inflation-samsung-lululemon-iea-oil.html",
-   "ts": "Thu, 08 Oct 2026 01:11:32 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "台积电9月营收再创纪录，AI需求持续旺盛",
-   "brief": "台积电9月销售额5118.6亿新台币，同比增长54.6%，AI芯片需求推动营收再创新高。",
-   "chain": "台积电营收超预期→验证AI算力需求强劲→利好A股算力链及半导体设备材料",
-   "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html",
-   "ts": "Thu, 08 Oct 2026 05:45:21 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "三星预计三季度营业利润创纪录达800亿美元",
-   "brief": "三星电子发布三季度初步业绩，受AI热潮推动，预计营业利润创纪录达800亿美元。",
-   "chain": "三星业绩爆表→存储与AI硬件景气确认→映射A股存储、封测及算力链",
-   "impact": 8,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html",
-   "ts": "2026-10-07T22:58:05+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "Apollo与银行洽谈为SpaceX 400亿美元英伟达GPU采购融资",
-   "brief": "Apollo与多家银行正洽谈为SpaceX采购400亿美元英伟达GPU提供融资，AI算力投资规模空前。",
-   "chain": "巨额GPU融资→AI基础设施投资加码→利好A股算力链及光模块、服务器",
-   "impact": 8,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/10/07/spacex-nvidia-chips-apollo-financing.html",
-   "ts": "Wed, 07 Oct 2026 21:16:24 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "Anthropic发布轻量级模型，运行成本降75%",
-   "brief": "Anthropic推出Claude Haiku轻量级模型，瞄准智能体任务，平均运行成本下降75%。",
-   "chain": "轻量模型降本→AI应用落地加速→利好A股AI应用及算力链",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610083889461365.html",
-   "ts": "2026-10-08 13:18:05"
-  },
-  {
    "cat": "gas",
-   "title": "谁为阿拉斯加LNG买单？",
-   "brief": "阿拉斯加LNG项目面临融资与承购难题，凸显全球LNG项目经济性挑战。",
-   "chain": "阿拉斯加LNG承购存疑→全球LNG供应增量不确定→莫桑比克LNG项目竞争格局相对有利",
+   "title": "阿拉斯加LNG项目谁来买单",
+   "brief": "阿拉斯加LNG项目融资与承购方仍不明朗，凸显全球LNG新增供给面临资金与长约落实难题。",
+   "chain": "LNG新项目融资受阻→全球气价中长期供给弹性受限→莫桑比克Rovuma LNG竞争窗口与议价空间改善",
    "impact": 6,
    "source": "OilPrice",
    "url": "https://oilprice.com/Energy/Natural-Gas/Who-Is-Going-to-Pay-for-Alaska-LNG.html",
    "ts": "Wed, 07 Oct 2026 18:00:00 -0500"
   },
   {
-   "cat": "oil",
-   "title": "全球库存耗尽为油价筑起更高底部",
-   "brief": "全球原油库存持续消耗，为油价提供更高底部支撑，供应缓冲减弱。",
-   "chain": "库存低位→油价底部抬升→莫桑比克油气业务收入预期改善",
-   "impact": 7,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Depleted-Global-Stocks-Set-Higher-Floor-Under-Oil-Prices.html",
-   "ts": "Wed, 07 Oct 2026 17:00:00 -0500"
-  },
-  {
-   "cat": "oil",
-   "title": "IEA将加速释放石油储备，仍有1亿桶待投放",
-   "brief": "国际能源署表示将加速释放战略石油储备，仍有1亿桶待投放以平抑油价。",
-   "chain": "IEA释储→短期增加供应、抑制油价涨幅→莫桑比克油气售价上行空间受限",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSWQwZFJidm90SFN2SzVMQVk2ZTZrVDI0LVhoWDloYnNCU2NuTE1ZUlZFM3dyZTFPaUptLXFZNlA2TTQtZFRFdXRDREdIZUtyWHhQbDQ4TDZOU1JpdjhENmxZLVdpU21ZaC1GcEFGT3MyZE5YX0FoZXJPUTM2TDNrTXpoTjRzUTh5V2VQdFlYTmFVTmtBYWIzR0hleXJ3RnZRNy1YTVRNQkxtSDF2OTZ1OUhYMkxFaGdNaUVSWnhxWQ?oc=5",
-   "ts": "2026-10-07T19:28:08+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "也门胡塞武装称用弹道导弹袭击利雅得机场",
-   "brief": "胡塞武装宣称对沙特利雅得机场发动弹道导弹袭击，沙特-胡塞紧张局势升级。",
-   "chain": "沙特-胡塞冲突升级→中东地缘风险溢价→美股承压、A股算力链情绪受抑",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPREc3b1M4OVVFbEtXWE45ZWpjeDNiNGpGVnZIdEJQSUU2R2dmdzF4V3hFZ1RMSlgyX0Fmc295aXo3bGtsbHpYSlM5MUVjLXJsM1ZISFV4NVFQN04wY0M4ZFRud3pzVUd2ZjN4S1dRSzNkenVacC1naWFmdUMtRUVYUlQ3MWY4dHRyOHRkTThCcUYxV0NFOU9qNE5fUW92RmlfYmk3Z0ZqWDlfc2VmNVhHS0tPX2k2Ql94SHlCeThTUzJBUQ?oc=5",
-   "ts": "2026-10-08T03:03:00+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "海湾股市因沙特-胡塞紧张局势升级而回落",
-   "brief": "沙特与胡塞武装紧张局势升级，海湾地区股市普遍下跌，市场避险情绪升温。",
-   "chain": "海湾股市回落→中东风险外溢→全球风险偏好承压，A股算力链受抑",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZ3ZoZm9mWnJZVmNoNFVQOUI4YWVkcFo3cV96cGlOYlNSQUl0cWdoQ0d2NFlCZ2R0cHFmTEZTZml0R19LM0VBNFE4YWJkVHoxV1lIUzQycUFIOWd3N2lsTTdWcjUtRXc5TWdUNVlPN1MyeUhUVFlGU1FFWnp2c2l5bzc3YktLSmxTUlJ3ZVJaQjRONXpteGZHSS04elBBRG9xVGladmF3RHdQS0ZV?oc=5",
-   "ts": "2026-10-07T13:27:31+00:00"
+   "cat": "tech",
+   "title": "台积电9月营收同比大增 AI驱动芯片需求",
+   "brief": "台积电9月销售额同比大幅增长，AI需求持续拉动先进制程与代工订单，验证算力景气。",
+   "chain": "台积电营收超预期→美股AI芯片链盈利确认→A股算力链（光模块/PCB/服务器）情绪提振",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html",
+   "ts": "Thu, 08 Oct 2026 06:50:42 GMT"
   },
   {
    "cat": "tech",
-   "title": "微软将售2599美元Surface Laptop Ultra，搭载英伟达AI芯片",
-   "brief": "微软推出搭载英伟达AI芯片的Surface Laptop Ultra，售价2599美元，AI PC加速落地。",
-   "chain": "AI PC新品→英伟达端侧AI渗透→利好A股AI PC及算力链",
-   "impact": 6,
+   "title": "三星预计三季度营业利润创纪录达800亿美元",
+   "brief": "三星电子发布三季度初步业绩，受AI热潮带动预计营业利润创纪录，存储需求强劲。",
+   "chain": "三星存储盈利爆发→美股半导体与HBM链景气确认→A股存储/封测链映射走强",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html",
+   "ts": "2026-10-07T22:58:05+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "Apollo与银行洽谈为SpaceX 400亿美元英伟达GPU采购融资",
+   "brief": "Apollo等机构正与银行洽谈，为SpaceX规模约400亿美元的英伟达GPU采购提供融资支持。",
+   "chain": "巨额GPU采购获融资→美股英伟达需求能见度提升→A股算力硬件与液冷/电源链受益",
+   "impact": 7,
    "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/10/07/microsoft-starts-taking-preorders-for-2599-surface-laptop-ultra.html",
-   "ts": "Wed, 07 Oct 2026 20:26:13 GMT"
+   "url": "https://www.cnbc.com/2026/10/07/spacex-nvidia-chips-apollo-financing.html",
+   "ts": "Wed, 07 Oct 2026 21:16:24 GMT"
   },
   {
    "cat": "ai",
-   "title": "Manus完成超5亿美元融资，博裕、IDG领投",
-   "brief": "AI初创Manus母公司蝴蝶效应完成超5亿美元融资，博裕投资、IDG资本领投，腾讯等老股东跟投。",
-   "chain": "AI智能体融资火热→AI应用商业化加速→利好A股AI应用及算力链",
+   "title": "AI初创Manus脱离Meta后首轮融资5亿美元",
+   "brief": "AI初创公司Manus完成与Meta分拆后的首轮融资，募资5亿美元，AI应用层投融资热度延续。",
+   "chain": "AI应用融资活跃→美股AI软件估值获支撑→A股AI应用与Agent概念情绪传导",
    "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/08/manus-fund-raise-meta-muse-tencent.html",
+   "ts": "Thu, 08 Oct 2026 06:59:59 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "策略师警告AI泡沫两年内破裂 标普或现2008年来最惨跌",
+   "brief": "伦敦一投行策略主管警告AI交易或很快结束，可能引发2008年金融危机以来最严重市场崩盘。",
+   "chain": "AI泡沫论升温→美股AI高估值票波动加大→A股算力链需警惕情绪面回撤风险",
+   "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610083889504944.html",
-   "ts": "2026-10-08 13:52:07"
+   "url": "https://finance.eastmoney.com/a/202610083889606989.html",
+   "ts": "2026-10-08 15:40:52"
   },
   {
    "cat": "macro",
-   "title": "道明考恩下调摩根大通评级至持有",
-   "brief": "投资银行道明考恩将摩根大通评级从买入下调至持有，目标价从400美元下调至370美元。",
-   "chain": "大行评级下调→金融股承压→反映利率高企下银行盈利担忧，间接压制A股情绪",
+   "title": "纽约期银日内跌2.19% 失守59美元",
+   "brief": "纽约期银日内下跌2.19%，跌破每盎司59美元，贵金属短线承压，反映实际利率与美元走强。",
+   "chain": "实际利率上行压制贵金属→美股AI高久期票估值分母承压→A股算力链情绪偏谨慎",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610083889501569.html",
-   "ts": "2026-10-08 13:49:06"
+   "url": "https://finance.eastmoney.com/a/202610083889622971.html",
+   "ts": "2026-10-08 15:58:11"
+  },
+  {
+   "cat": "macro",
+   "title": "ING：印度卢比外部环境依旧充满挑战",
+   "brief": "荷兰国际集团分析师称美联储持续收紧或令美元维持强势，卢比贬值压力加大并放大输入型通胀风险。",
+   "chain": "美元强势→新兴市场货币与风险资产承压→A股外资流向与出口链需关注汇率扰动",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610083889596990.html",
+   "ts": "2026-10-08 15:31:19"
+  },
+  {
+   "cat": "geo",
+   "title": "立陶宛拟提议欧盟禁止俄罗斯粮食过境",
+   "brief": "立陶宛计划提议欧盟禁止俄罗斯粮食过境，俄欧博弈延伸至农产品贸易领域。",
+   "chain": "俄欧制裁加码→欧洲供应链与通胀预期扰动→美股农产品与航运板块波动、A股相关贸易链关注",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610083889609922.html",
+   "ts": "2026-10-08 15:44:36"
   },
   {
    "cat": "tech",
-   "title": "美国会小组：Webull与中国关联构成国安风险，股价跌18%",
-   "brief": "美国国会小组认定Webull与中国关联构成国家安全风险，其股价应声下跌18%。",
-   "chain": "中概券商遭国安审查→中美金融脱钩担忧→A股券商及跨境业务情绪受抑",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/07/webull-china-national-security-risk-congress.html",
-   "ts": "Wed, 07 Oct 2026 13:46:28 GMT"
+   "title": "俄互联网巨头Yandex主要数据中心遭无人机袭击后停运",
+   "brief": "俄罗斯互联网巨头Yandex一处主要数据中心在遭无人机袭击后暂停运营，凸显基础设施安全风险。",
+   "chain": "数据中心遇袭→云与算力基础设施安全议题升温→美股IDC与网络安全链受关注、A股相关映射",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html",
+   "ts": "Thu, 08 Oct 2026 07:52:25 GMT"
   },
   {
    "cat": "ai",
-   "title": "分析师称Anthropic将是年度最荒谬IPO",
-   "brief": "有分析师批评Anthropic的IPO计划，称其将是年度最荒谬的IPO，引发AI估值争议。",
-   "chain": "AI估值争议→美股AI板块情绪波动→A股算力链风险偏好受扰",
+   "title": "厘清智能完成数亿元融资 蚂蚁连续两轮加码",
+   "brief": "Physical AI Infra平台公司厘清智能完成天使轮及天使+轮数亿元融资，蚂蚁集团连续两轮加码并领投。",
+   "chain": "Physical AI基础设施获投→国内具身智能与算力落地加速→A股机器人/算力链情绪提振",
    "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
-   "ts": "Wed, 07 Oct 2026 22:29:41 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610083889605344.html",
+   "ts": "2026-10-08 15:39:45"
+  },
+  {
+   "cat": "macro",
+   "title": "花旗：科技股将推动美企盈利超预期",
+   "brief": "花旗策略师称受科技股带动，预计美国三季度盈利超预期企业占比将高于二季度。",
+   "chain": "科技盈利超预期→美股AI权重股支撑指数→A股算力链业绩预期同步上修",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610083889608854.html",
+   "ts": "2026-10-08 15:42:54"
+  },
+  {
+   "cat": "oil",
+   "title": "大型石油公司开始关停墨西哥湾产量",
+   "brief": "受飓风或运营因素影响，大型石油公司开始关停墨西哥湾原油产量，短期供应收紧。",
+   "chain": "墨西哥湾减产→原油供应边际收紧支撑油价→莫桑比克油气售价与项目收益预期改善",
+   "impact": 6,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Big-Oil-Begins-Shutting-In-Gulf-of-Mexico-Production.html",
+   "ts": "Thu, 08 Oct 2026 03:00:00 -0500"
   },
   {
    "cat": "gas",
-   "title": "Kpler怀疑海湾产油国向伊朗支付安全通行费",
-   "brief": "Kpler怀疑海湾产油国向伊朗支付费用以换取霍尔木兹海峡安全通行，凸显航运风险。",
-   "chain": "霍尔木兹通行成本上升→LNG航运风险溢价→莫桑比克LNG东向航运保险成本或上升",
+   "title": "Kpler怀疑海湾产油国向伊朗付费换安全通行",
+   "brief": "Kpler称有迹象显示海湾产油国可能向伊朗支付费用以换取霍尔木兹安全通行，航运成本隐性上升。",
+   "chain": "通行费推高运输成本→LNG与原油到岸价上行→莫桑比克东非气源相对成本优势凸显",
    "impact": 6,
    "source": "OilPrice",
    "url": "https://oilprice.com/Energy/Crude-Oil/Kpler-Suspects-Gulf-Producers-Are-Paying-Iran-for-Safe-Passage.html",
    "ts": "Wed, 07 Oct 2026 19:00:00 -0500"
-  },
-  {
-   "cat": "macro",
-   "title": "沪指跌幅扩大至1%，创业板指跌3.35%",
-   "brief": "A股午后跌幅扩大，沪指跌1%，深成指跌2.2%，创业板指跌3.35%，超3600只个股下跌。",
-   "chain": "A股普跌→成长股承压→算力链情绪走弱，反映风险偏好收缩",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610083889506859.html",
-   "ts": "2026-10-08 13:53:08"
-  },
-  {
-   "cat": "tech",
-   "title": "台积电9月销售额5118.6亿台币，同比增长54.6%",
-   "brief": "台积电9月销售额5118.6亿元新台币，环比降0.6%，同比增长54.6%，前三季度营收增41.1%。",
-   "chain": "台积电营收强劲→AI芯片需求确认→利好A股半导体设备及算力链",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610083889474124.html",
-   "ts": "2026-10-08 13:32:33"
   }
  ]
 }
