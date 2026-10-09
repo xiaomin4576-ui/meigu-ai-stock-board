@@ -1,53 +1,43 @@
 {
  "asof": "2026-10-09",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-10-09T18:46+08:00",
+ "generated_at": "2026-10-09T21:50+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 6,
+  "cross_day_suppressed": 3,
   "cluster_label": "伊朗/沙特/胡塞",
   "cluster_dropped": [
-   "特朗普称中期选举前不会攻击伊朗",
-   "美国对伊朗影子舰队实施新制裁"
+   "特朗普称中期选举前不攻击伊朗",
+   "美对伊朗影子舰队实施新制裁"
   ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "geo",
-   "title": "胡塞袭利雅得机场 沙特联盟誓言强硬回应",
-   "brief": "伊朗支持的胡塞武装袭击利雅得哈立德国王国际机场，一名飞行员死亡、客机受损，沙特领导联盟誓言强硬回应。",
-   "chain": "中东冲突升级→避险情绪升温压制美股风险偏好→A股算力链短期承压、军工与油气链获关注",
+   "title": "胡塞袭利雅得机场致飞行员死亡",
+   "brief": "伊朗支持的胡塞武装袭击利雅得机场,一名飞行员及三名沙特公民死亡,沙特领导联军誓言强硬回应,战事升级。",
+   "chain": "中东战事升级→避险情绪与油价风险溢价抬升→美股承压、A股算力链情绪受抑",
    "impact": 9,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/10/09/saudi-us-iran-war-trump-hormuz.html",
-   "ts": "Fri, 09 Oct 2026 10:37:42 GMT"
+   "ts": "Fri, 09 Oct 2026 11:51:11 GMT"
   },
   {
-   "cat": "geo",
-   "title": "土耳其称俄乌加大黑海袭击力度",
-   "brief": "土耳其表示俄罗斯与乌克兰在入冬前加大黑海地区攻击，黑海航运与粮食、能源运输风险上升。",
-   "chain": "黑海冲突升温→航运与能源运输风险溢价上行→美股避险、A股航运与油气链波动",
-   "impact": 6,
+   "cat": "oil",
+   "title": "特朗普伊朗谈判表态令油价回落",
+   "brief": "特朗普就伊朗谈判释放缓和信号,缓解供应担忧,国际油价下跌,WTI随后收复1.5%跌幅报91.6美元。",
+   "chain": "美伊缓和预期→油价风险溢价回吐→莫桑比克东非油气经营短期气价联动走弱、出口窗口需盯紧",
+   "impact": 8,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeGpIUmFkT3JCSlBYSGViLUs1SXV1aGN2aE14MWRVQjc2UjlqVjFCS0EwNGx2R004WTFnRUEtaVlDTWZfU2htczhYWDl4OGd4TFNDSkdWR0c0NGZRX2s1NnRrWFhfZktvS3Fpcl9wSndkUk44VTVLaWdXZTE3dnd5MVFBczNHSmtHU3RPekUxaGtHWU1PRHdLS0xlU0kxeUdMZUMyeGJNYjhkUlpidmI3eV9SbmtMWmdITk5CZzZlOA?oc=5",
-   "ts": "2026-10-08T13:33:44+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "美东亚特使称市场高估台海冲突风险",
-   "brief": "美国东亚事务特使表示投资者对台海冲突风险定价过高，暗示局势可控。",
-   "chain": "台海风险溢价或被高估→美股科技风险偏好修复→A股算力链情绪获支撑",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/09/taiwan-trump-china-militia-boat-tsmc-.html",
-   "ts": "Fri, 09 Oct 2026 02:52:15 GMT"
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONW0wejJNQmpGTE9heFBmZG8wTWE5a010VFNMSDBqcThNXzBFTjZkbWF3NnpxSWxoVkRJSEhMcDk4VDh5OVp3bzlZNzdiS0pNTnd6aGkwQVZsU0JiOU9wb0k1ckN1V2ZUVl9sTFRuZnVhLXFlaDUwZGIxT2VxNW1RZUwyNlJ3c2ZxRkdONll5RVdtTnlfcDllN0pnLWE4VU1FblRvbHdkTkIwbHNk?oc=5",
+   "ts": "2026-10-09T02:28:00+00:00"
   },
   {
    "cat": "macro",
-   "title": "贝森特新顾问：美债收益率“非常高”但有望回落",
-   "brief": "美财长贝森特新任顾问Zervos称10年、30年期收益率处于24年高位但可望很快回落。",
-   "chain": "长端利率见顶预期→美股AI高久期票估值分母压力缓解→A股算力链估值情绪修复",
+   "title": "贝森特顾问称美债收益率将回落",
+   "brief": "贝森特新任顾问Zervos称当前收益率'非常高'但有望很快回落,此前10年、30年期美债收益率曾创24年新高。",
+   "chain": "长端利率见顶预期→美股AI高久期票估值分母压力缓解→A股算力链风险偏好修复",
    "impact": 8,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/10/08/treasury-yields-david-zervos.html",
@@ -55,153 +45,163 @@
   },
   {
    "cat": "macro",
-   "title": "沃勒称需进一步加息 市场等待30年期拍卖",
-   "brief": "美联储理事沃勒表示仍需进一步加息，10年期美债收益率变动不大，投资者等待30年期国债拍卖。",
-   "chain": "加息预期升温→美股成长股估值承压→A股算力链短期情绪受抑",
+   "title": "贝森特聘Shelton任顾问",
+   "brief": "美财长贝森特聘请特朗普争议性前美联储理事人选Judy Shelton担任顾问,释放货币政策人事信号。",
+   "chain": "美联储人事偏鹰/政治化预期→美债与美元波动→美股估值与A股外资情绪受扰动",
    "impact": 7,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/10/08/us-treasury-yields-30-year-bond-auction.html",
-   "ts": "2026-10-08T14:11:18+00:00"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html",
+   "ts": "Fri, 09 Oct 2026 13:09:19 GMT"
   },
   {
    "cat": "macro",
-   "title": "金价涨超1% 市场聚焦美联储前景",
-   "brief": "黄金上涨逾1%，投资者聚焦美联储政策前景，实际利率与降息路径预期主导金价。",
-   "chain": "利率预期主导金价→美股AI高久期票估值分母敏感→A股算力链情绪随风险偏好波动",
-   "impact": 6,
+   "title": "金价涨超1%受油价与美元走软提振",
+   "brief": "油价回落、美元走软推动金价上涨逾1%,贵金属避险与利率预期共振。",
+   "chain": "美元走软+实际利率预期下行→美股AI高久期票估值分母改善→A股算力链情绪偏暖",
+   "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVl80MTVLVXR1WWd1MGxyNFRNN1VaNlJ2WFNIeGlrLS1HTGwzc1pZZ3FqaFZyOFBZcDk0VGRnMzVvSUtiSGFyR3c2Z29Fa25XZk1xX0JlWGpJZVlNaEJhWXhoenc3enFGZGZ3QnVUaGg1U2ZTNE9GZGxfTDIyb3hoMl9ycTNsOHpHeWdKRXk1VmdZZ1VITnhMR29NQ3JYUmV4TXJpemVRaw?oc=5",
    "ts": "2026-10-09T01:58:00+00:00"
   },
   {
    "cat": "macro",
-   "title": "达利欧警告股市对债券收益率上行的缓冲在缩小",
-   "brief": "桥水创始人达利欧警告，随着债券收益率上升，股市抵御冲击的缓冲空间正在收窄。",
-   "chain": "利率上行侵蚀风险缓冲→美股估值承压、波动加大→A股算力链情绪传导偏谨慎",
+   "title": "现货白银突破61美元/盎司",
+   "brief": "现货白银突破61美元/盎司,日内涨超3%,纽约期银同步突破61美元,贵金属强势延续。",
+   "chain": "白银逼空式上涨反映实际利率与避险共振→美股风险偏好分化→A股有色与算力链情绪受牵动",
    "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/08/ray-dalio-stocks-bond-yields.html",
-   "ts": "Fri, 09 Oct 2026 06:16:19 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610093891510587.html",
+   "ts": "2026-10-09 21:43:10"
   },
   {
    "cat": "macro",
-   "title": "德国政府上调2026和2027年增长预测",
-   "brief": "德国政府上调2026年和2027年经济增长预测，欧洲经济前景边际改善。",
-   "chain": "欧洲增长预期改善→全球风险偏好回暖→美股与A股出口链情绪获支撑",
-   "impact": 4,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZmVoTW5PMWs0TDR0NkRqT1ZnclNyUExCU2Z1TWlhd1VhMmdoTVc5WWwwZVJVSUhkandjbmx6UXEydzk0MTN4V0ZkcHBZTmZSR0V5T05YRGo3Ry1NdHp6WHpqQzQ2MERoNjN3NGk4TEJaaDd1MGh5bjhoWUIxTTZpZUhxVzgzaGMxOUQtVEZKMy1rc3M0bnJSdUh2RzE?oc=5",
-   "ts": "2026-10-08T14:58:49+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "布伦特站稳100美元上方 霍尔木兹油轮流量创两月低",
-   "brief": "布伦特原油维持100美元上方，霍尔木兹海峡油轮通行量降至两个月低点，供应担忧持续。",
-   "chain": "霍尔木兹通行受阻→布伦特站稳100美元、油价风险溢价高企→莫桑比克油气项目收益预期改善但航运与保险成本上升",
-   "impact": 9,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html",
-   "ts": "Fri, 09 Oct 2026 00:03:51 -0500"
-  },
-  {
-   "cat": "oil",
-   "title": "特朗普涉伊朗谈判表态 油价回落",
-   "brief": "特朗普就伊朗谈判发表评论，缓解供应担忧，国际油价应声下跌。",
-   "chain": "美伊谈判预期升温→油价风险溢价回落→莫桑比克LNG与油气出口价格联动承压",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONW0wejJNQmpGTE9heFBmZG8wTWE5a010VFNMSDBqcThNXzBFTjZkbWF3NnpxSWxoVkRJSEhMcDk4VDh5OVp3bzlZNzdiS0pNTnd6aGkwQVZsU0JiOU9wb0k1ckN1V2ZUVl9sTFRuZnVhLXFlaDUwZGIxT2VxNW1RZUwyNlJ3c2ZxRkdONll5RVdtTnlfcDllN0pnLWE4VU1FblRvbHdkTkIwbHNk?oc=5",
-   "ts": "2026-10-09T02:28:00+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "亚洲抢囤原油并加速可再生能源应对伊朗战争",
-   "brief": "亚洲国家竞相增加原油储备并加快可再生能源布局，以应对伊朗战争带来的供应风险。",
-   "chain": "亚洲补库需求上升→原油现货与运费获支撑→东非油气项目对亚洲买家吸引力增强",
+   "title": "民调:多数美国人归咎特朗普政策推高物价",
+   "brief": "路透/益普索民调显示跨党派多数美国人将物价上涨归咎于特朗普政策,中期选举前政治压力上升。",
+   "chain": "通胀政治化→关税与财政政策不确定性→美股风险偏好与A股出口链预期承压",
    "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcW1Cd0Mwc1pJOUR1MFdlMWxHSzRESGx0anZnd0FyYzJZRVAteGFZOFNvSEdjYjNZREFINVprWFhiVmIyZkNrZlNBM25GaVgzMGo4OFJNdmE0LVdJbmYxSFJILTZzaXRhTlFxTXZNOGhWamREdTlYQTI4dXJycS1lMFF6VEgyUHo3c3NUeV93NmY3RXowVEp2andOcWVTMmZpZUFVYXZKcGg1cVlwRjlaOUxsQnQ?oc=5",
-   "ts": "2026-10-08T14:36:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaXotRVVHVGluZXJPazBzWGR5YjdFcjFVVWdvZS1Ib2FVNEJoSmdkcTAweHllQzR3STl3RHVZUkYzNy1hOWlPSGZIWG5pNEpvcXBpOGNNNmsxbG0tRllvSjVlRFVwalRsbnhxWV9pSm5Oby1pSzVtUnhYN0RwQmxDMFVmVWRaMXNoTmxGN1ZOb1dVUTY3M0dmS0dZbWh1X2t0RnAwUksyZDlWakFjQUl5TUFOLTBCTTFCYlFmV1J3?oc=5",
+   "ts": "2026-10-09T11:01:29+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "交易员下调加拿大央行加息押注",
+   "brief": "交易员将加拿大央行年底前加息概率从40%下调至27%,反映全球利率路径预期转鸽。",
+   "chain": "全球加息预期降温→美元与美债收益率边际走弱→美股与A股估值分母压力缓解",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610093891450244.html",
+   "ts": "2026-10-09 20:41:56"
+  },
+  {
+   "cat": "geo",
+   "title": "美东亚特使称市场高估台海冲突风险",
+   "brief": "美国东亚事务特使表示投资者对台海冲突风险定价过高,试图安抚市场对地缘风险的担忧。",
+   "chain": "台海风险溢价或被高估→美股科技供应链情绪缓和→A股算力链与半导体情绪修复",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/09/taiwan-trump-china-militia-boat-tsmc-.html",
+   "ts": "Fri, 09 Oct 2026 02:52:15 GMT"
   },
   {
    "cat": "oil",
-   "title": "中国短暂暂停后恢复10月成品油出口",
-   "brief": "四家贸易消息源称，中国在短暂暂停后恢复10月成品油出口，区域成品油供应改善。",
-   "chain": "中国成品油出口恢复→亚洲炼油利润与成品油价承压→对莫桑比克成品油进口成本影响有限",
+   "title": "亚洲炼厂弃购美油 超油轮运费飙至8200万美元",
+   "brief": "亚洲炼厂转向避开美国原油,超大型油轮运费飙升至8200万美元,原油航运成本急剧上升。",
+   "chain": "航运成本飙升→原油到岸价与炼厂利润受挤压→莫桑比克东非油气出口物流成本需重新评估",
+   "impact": 7,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Refiners-Ditch-US-Oil-as-Supertanker-Rates-Hit-82-Million.html",
+   "ts": "Fri, 09 Oct 2026 06:30:00 -0500"
+  },
+  {
+   "cat": "oil",
+   "title": "Energy Aspects称原油价格被低估",
+   "brief": "咨询机构Energy Aspects认为当前原油价格被低估,暗示供应风险与基本面支撑尚未充分定价。",
+   "chain": "机构看多油价→Brent/WTI存上行空间→莫桑比克东非油气项目经济性预期改善",
+   "impact": 6,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Crude-Oil-is-Underpriced-Energy-Aspects-Says.html",
+   "ts": "Fri, 09 Oct 2026 07:30:00 -0500"
+  },
+  {
+   "cat": "oil",
+   "title": "飓风Isaias扰乱美墨西哥湾石油生产",
+   "brief": "飓风Isaias扰乱美国墨西哥湾石油生产并威胁炼厂,美国原油供应端受冲击。",
+   "chain": "美湾供应中断→WTI短期上行→莫桑比克东非LNG与原油出口相对受益",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/09/hurricane-isaias-gulf-mexico-oil-refinery.html",
+   "ts": "Fri, 09 Oct 2026 13:18:07 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "中国将恢复10月成品油出口",
+   "brief": "四名贸易消息人士称,中国在短暂暂停后将恢复10月成品油出口,亚洲成品油供应预期改善。",
+   "chain": "中国成品油出口恢复→亚洲炼油利润与原油需求预期变化→东非油气市场联动有限",
    "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxON1hqTEMxUXNhdTUya2dwTlA2VVktRm9QeWlYcDRJWkFiaGg4aXhpcTBFcnJETDJUZDZQRHdIdVBiVFl6UFdNU0VCdFlTRHhaaVk3akVSazBsN3QwOXBSUHFjckM4TWc4LUtIdzNyc2kyM0RjclFNOG1QYkplX3ljOHBFR1NibFRwUS1QMHAyd3ZhZjZTZGtoMmVjbGsyUWdaQ01FV21jSFFiM1FrQ0U4eHRYOTRUZlRTeTRlRFJVOFh4RVk?oc=5",
    "ts": "2026-10-09T03:28:00+00:00"
   },
   {
-   "cat": "oil",
-   "title": "上期所调整燃料油、石油沥青期货交易限额",
-   "brief": "上期所自10月13日起调整燃料油、石油沥青期货相关合约交易限额，抑制过度投机。",
-   "chain": "交易限额收紧→国内能化期货投机降温→对莫桑比克油气实货经营无直接传导",
-   "impact": 3,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610093891362760.html",
-   "ts": "2026-10-09 18:28:41"
-  },
-  {
    "cat": "gas",
-   "title": "霍尔木兹危机致欧盟入冬前储气不足",
-   "brief": "霍尔木兹危机影响LNG运输，欧盟天然气库存进入冬季前低于正常水平，TTF气价风险偏上行。",
-   "chain": "霍尔木兹危机→LNG航运受阻、TTF气价上行→莫桑比克Cabo Delgado LNG对欧出口窗口与议价力增强",
+   "title": "伊朗革命卫队袭击霍尔木兹LPG油轮",
+   "brief": "伊朗革命卫队海军称一艘试图'非法'通过霍尔木兹海峡的液化石油气油轮成为袭击目标并发生大规模爆炸。",
+   "chain": "霍尔木兹LPG航运遇袭→LNG/LPG运费与气价风险溢价上升→莫桑比克东非LNG出口竞争力相对提升",
    "impact": 8,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Crisis-Leaves-EU-Gas-Storage-Short-Heading-Into-Winter.html",
-   "ts": "Fri, 09 Oct 2026 05:30:00 -0500"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610093891448753.html",
+   "ts": "2026-10-09 20:39:55"
   },
   {
    "cat": "gas",
-   "title": "澳大利亚接近敲定LNG出口商天然气保留计划",
-   "brief": "澳大利亚接近敲定针对LNG出口商的天然气保留计划，或限制其出口量，全球LNG供应趋紧。",
-   "chain": "澳LNG出口或受限→全球LNG现货趋紧、气价获支撑→莫桑比克LNG项目相对竞争力提升",
-   "impact": 6,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Australia-Close-to-Finalizing-Gas-Reservation-Plan-for-LNG-Exporters.html",
-   "ts": "Fri, 09 Oct 2026 04:30:00 -0500"
-  },
-  {
-   "cat": "gas",
-   "title": "Venture Global对葡萄牙Galp的LNG仲裁败诉",
-   "brief": "美国LNG出口商Venture Global在与葡萄牙Galp的仲裁中败诉，长协履约争议影响其信誉。",
-   "chain": "美LNG商履约风险上升→买家转向多元气源→莫桑比克LNG长期合同谈判或受益",
+   "title": "马国油将2027年股息提高19%至78亿美元",
+   "brief": "马来西亚国家石油Petronas将2027年股息提高19%至78亿美元,反映亚洲LNG业务现金流强劲。",
+   "chain": "亚洲LNG巨头现金流强劲→全球LNG供应与投资预期升温→莫桑比克东非LNG项目竞争与融资环境受关注",
    "impact": 5,
    "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Venture-Global-Loses-LNG-Arbitration-to-Portugals-Galp.html",
-   "ts": "Fri, 09 Oct 2026 03:00:00 -0500"
-  },
-  {
-   "cat": "gas",
-   "title": "斯洛伐克称国家天然气公司已为冬季做好准备",
-   "brief": "斯洛伐克经济部长称国家天然气公司SPP储气量达17.5太瓦时，已为冬季做好准备。",
-   "chain": "欧洲储气充足信号→TTF气价上行空间受限→莫桑比克LNG对欧出口溢价预期温和",
-   "impact": 3,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610093891362490.html",
-   "ts": "2026-10-09 18:26:03"
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Petronas-to-Raise-Malaysia-Dividend-19-to-78-Billion-for-2027.html",
+   "ts": "Fri, 09 Oct 2026 08:30:00 -0500"
   },
   {
    "cat": "tech",
-   "title": "OpenAI收入报告拖累英伟达、甲骨文等AI股下挫",
-   "brief": "受OpenAI收入相关报告影响，英伟达、甲骨文、CoreWeave等AI概念股集体下跌。",
-   "chain": "AI变现担忧→美股算力与云板块回调→A股算力链（光模块、服务器）情绪承压",
+   "title": "SpaceX收购频谱牌照重挫美电信股",
+   "brief": "SpaceX达成收购频谱牌照交易,AT&T、Verizon、T-Mobile股价大跌,电信板块承压。",
+   "chain": "卫星通信冲击传统电信→美股电信板块估值重估→A股卫星互联网与通信链情绪联动",
    "impact": 8,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
-   "ts": "Thu, 08 Oct 2026 21:19:14 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "SpaceX收购频谱牌照 电信三巨头股价重挫",
-   "brief": "SpaceX达成收购频谱牌照交易，AT&T、Verizon、T-Mobile股价大幅下挫，卫星通信竞争加剧。",
-   "chain": "卫星直连手机竞争升温→美股电信运营商承压→A股卫星互联网与通信设备链受关注",
-   "impact": 7,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/10/08/spacex-spectrum-license-att-verizon-tmobile.html",
    "ts": "Thu, 08 Oct 2026 22:55:46 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "苹果因需求疲软削减iPhone 18 Pro零部件产量",
+   "brief": "苹果盘初下跌2.7%,公司因需求疲软削减iPhone 18 Pro系列零部件产量,消费电子需求担忧升温。",
+   "chain": "苹果砍单→美股消费电子与供应链承压→A股果链与消费电子板块情绪受抑",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610093891494130.html",
+   "ts": "2026-10-09 21:32:21"
+  },
+  {
+   "cat": "tech",
+   "title": "美暂停微软Adobe绿卡劳工项目",
+   "brief": "美国在外国劳工收紧行动中暂停微软、Adobe参与绿卡劳工项目,科技人才引进受限。",
+   "chain": "科技移民收紧→美股科技公司人才成本上升→A股科技人才回流与国产替代预期",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/08/microsoft-adobe-green-card-labor-suspension.html",
+   "ts": "Thu, 08 Oct 2026 18:52:59 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "英伟达支持的澳洲AI公司Firmus撤回IPO",
+   "brief": "英伟达支持的澳大利亚AI公司Firmus因市场波动撤回历史性IPO,AI基础设施融资遇冷信号。",
+   "chain": "AI基建融资遇冷→美股AI算力投资情绪降温→A股算力链估值与融资预期承压",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/09/nvidia-ai-firmus-ipo-.html",
+   "ts": "Fri, 09 Oct 2026 03:51:15 GMT"
   }
  ]
 }
