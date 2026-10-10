@@ -1,24 +1,24 @@
 {
  "asof": "2026-10-10",
- "fetched_at": "2026-10-10T18:02+08:00",
+ "fetched_at": "2026-10-10T21:08+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
    "Moonshot·TechCabal": 10,
    "Disrupt Africa": 10,
    "Techpoint Africa": 0,
-   "IT News Africa": 11,
+   "IT News Africa": 0,
    "TechAfrica News": 12,
    "Condia": 25,
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 1,
-   "非洲科技·聚合": 11,
-   "中非科技·聚合": 17
+   "非洲科技·聚合": 12,
+   "中非科技·聚合": 16
   },
   "total": 60,
-  "ai_flagged": 14,
+  "ai_flagged": 15,
   "aiinfra_flagged": 1,
   "countries": 5
  },
@@ -364,16 +364,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "SARS eFiling Deadline Is 23 October: How to Spot the Tax-Season Phishing Scams",
-   "brief": "The SARS filing deadline for most salaried taxpayers is Friday, 23 October 2026. Scammers know this date too. Fake SARS emails, SMSes and eFiling pages are circulating as the deadline nears. This guide shows you how to f",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/cybersecurity/sars-efiling-deadline/",
-   "date": "Fri, 09 Oct 2026 06:24:00 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "👨🏿‍🚀TechCabal Daily – Moove-ing on",
    "brief": "In today's edition: PiggyVest, Class of 2016 || Moove exits Nigeria || SA offshore gambling plans || Who secured the bag? 💰",
    "source": "TechCabal",
@@ -411,16 +401,6 @@
    "date": "Thu, 08 Oct 2026 15:35:39 +0000",
    "country": "🇿🇦 南非",
    "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "ChatGPT in South Africa: How Students and Workers Use AI",
-   "brief": "More South Africans are turning to ChatGPT and other AI chatbots for study and work. We show how students and workers use them, what the data says about ChatGPT for students and what universities and employers should do ",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/artificial-intelligence/chatgpt-in-south-africa/",
-   "date": "Thu, 08 Oct 2026 15:05:03 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -604,22 +584,42 @@
    "is_aiinfra": false
   },
   {
-   "title": "Green ID Books Stop Being Valid on 31 March 2028 as Smart ID Moves into Bank Branches",
-   "brief": "South Africa’s green ID book now has an end date. From 31 March 2028, the booklet will no longer count as a valid identity document. Home Affairs Minister Leon Schreiber announced the deadline on 1 October 2026. He also ",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/enterprise/digital-transformation/green-id-books-stop-being-valid-2028/",
-   "date": "Wed, 07 Oct 2026 14:13:45 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "iQmetrix Launches Vendor Managed Inventory Integration with Valor Communication",
    "brief": "iQmetrix, the global provider of Intelligent Commerce Operating Systems for telecom, is launching a Vendor Managed Inventory integration with Valor Communication, a factory-direct wireless accessory manufacturer and dist",
    "source": "ITWeb Africa",
    "url": "https://www.itweb.co.za/article/iqmetrix-launches-vendor-managed-inventory-integration-with-valor-communication/wbrpO7g2ePrvDLZn",
    "date": "Wed, 07 Oct 2026 16:00:00 +0200",
    "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Hightouch Names Matthew Lubeck General Manager, EMEA",
+   "brief": "Hightouch, the leader in data and AI for marketing, has named Matthew Lubeck General Manager, EMEA. Based in London, Lubeck will lead all of Hightouch's go-to-market functions across EMEA as the company helps brands in t",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/hightouch-names-matthew-lubeck-general-manager-emea/GxwQD71DLA5vlPVo",
+   "date": "Wed, 07 Oct 2026 15:40:00 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "NTT DATA Opens AI Factory Munich Where Clients Can Validate their AI in a Live Environment",
+   "brief": "NTT DATA, a global leader in AI, digital business and technology services, today opened the NTT DATA AI Factory Munich, a real-world environment where clients can test how their AI applications will perform at scale befo",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/ntt-data-opens-ai-factory-munich-where-clients-can-validate-their-ai-in-a-live-environment/Pero37Z3VgWMQb6m",
+   "date": "Wed, 07 Oct 2026 15:00:00 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "The CBN announced a fintech licence shake-up in 2026, the process began a year earlier",
+   "brief": "In January 2026, a CBN director, Yemi Solaja told the Committee of Heads of Banks' Operations conference in Lagos that institutions including Moniepoint MFB, OPay, and Kuda Bank had already been upgraded.",
+   "source": "Condia",
+   "url": "https://thecondia.com/cbn-national-licence-announcement-delayed-reclassification/",
+   "date": "Wed, 07 Oct 2026 11:36:09 +0000",
+   "country": "🇳🇬 尼日利亚",
    "is_ai": false,
    "is_aiinfra": false
   }
