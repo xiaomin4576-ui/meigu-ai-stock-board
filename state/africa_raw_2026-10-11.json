@@ -1,13 +1,13 @@
 {
  "asof": "2026-10-11",
- "fetched_at": "2026-10-11T00:19+08:00",
+ "fetched_at": "2026-10-11T02:02+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
    "Moonshot·TechCabal": 10,
    "Disrupt Africa": 10,
    "Techpoint Africa": 0,
-   "IT News Africa": 11,
+   "IT News Africa": 0,
    "TechAfrica News": 12,
    "Condia": 25,
    "ITWeb Africa": 25,
@@ -15,24 +15,14 @@
    "Zimbabwe Situation": 0,
    "African Business": 1,
    "非洲科技·聚合": 12,
-   "中非科技·聚合": 18
+   "中非科技·聚合": 19
   },
   "total": 60,
-  "ai_flagged": 15,
+  "ai_flagged": 14,
   "aiinfra_flagged": 1,
-  "countries": 5
+  "countries": 4
  },
  "items": [
-  {
-   "title": "SA Petrol Hits R30 a Litre: EVs, Fleets and Hybrid Work",
-   "brief": "South Africa crossed a historic threshold on 7 October 2026. The inland price of Petrol 95 rose to R30.25 per litre. The Department of Mineral and Petroleum Resources confirmed increases of up to R3.33 per litre. The ran",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/general/south-africas-petrol-hits-r30-a-litre/",
-   "date": "Sat, 10 Oct 2026 16:05:21 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
   {
    "title": "The Nigerian founders who turned travel frustrations into a fintech",
    "brief": "Facing a backlog at the American Embassy in Lagos that threatened to run out of time for their interview window, Ayorinde and his team scrambled for help. Investor Kola Aina of Ventures Platform, which had backed the sta",
@@ -50,6 +40,16 @@
    "url": "https://thecondia.com/opay-files-for-us-ipo/",
    "date": "Sat, 10 Oct 2026 13:23:44 +0000",
    "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "China, Africa and the Fight Against Telecom Fraud",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPX3lsTlB1SmdWejJPMFVOZlctYUVjVWpSTWMzbWphX25id0RVUFFPUGFTQkp4V0JOcTVoSWJ2QVNTaTl1dk9md3Q3NXNKbEtqVFJzM0l5b3ZxaFFSZGUzNEsyMFN5SkZvNVY0TEZWOERSMlgxclV5MzQzOU1idk",
+   "source": "The China-Global South Project·聚合",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPX3lsTlB1SmdWejJPMFVOZlctYUVjVWpSTWMzbWphX25id0RVUFFPUGFTQkp4V0JOcTVoSWJ2QVNTaTl1dk9md3Q3NXNKbEtqVFJzM0l5b3ZxaFFSZGUzNEsyMFN5SkZvNVY0TEZWOERSMlgxclV5MzQzOU1idkRFZTF2aFRUbEJoR094NUJPMHk?oc=5",
+   "date": "Sat, 10 Oct 2026 10:58:47 GMT",
+   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -394,16 +394,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "SARS eFiling Deadline Is 23 October: How to Spot the Tax-Season Phishing Scams",
-   "brief": "The SARS filing deadline for most salaried taxpayers is Friday, 23 October 2026. Scammers know this date too. Fake SARS emails, SMSes and eFiling pages are circulating as the deadline nears. This guide shows you how to f",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/cybersecurity/sars-efiling-deadline/",
-   "date": "Fri, 09 Oct 2026 06:24:00 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "👨🏿‍🚀TechCabal Daily – Moove-ing on",
    "brief": "In today's edition: PiggyVest, Class of 2016 || Moove exits Nigeria || SA offshore gambling plans || Who secured the bag? 💰",
    "source": "TechCabal",
@@ -441,16 +431,6 @@
    "date": "Thu, 08 Oct 2026 15:35:39 +0000",
    "country": "🇿🇦 南非",
    "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "ChatGPT in South Africa: How Students and Workers Use AI",
-   "brief": "More South Africans are turning to ChatGPT and other AI chatbots for study and work. We show how students and workers use them, what the data says about ChatGPT for students and what universities and employers should do ",
-   "source": "IT News Africa",
-   "url": "https://www.itnewsafrica.com/artificial-intelligence/chatgpt-in-south-africa/",
-   "date": "Thu, 08 Oct 2026 15:05:03 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -501,16 +481,6 @@
    "date": "Thu, 08 Oct 2026 13:19:38 +0000",
    "country": null,
    "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Egyptian Startup ParlexAI Joins Sixth Cohort of Visa Africa FinTech Accelerator",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPWVBjaXlYY0VxaW1fWm9BY3U4aFgxRHVlVlcyZkN0QlMzLWlkUzVKUHVqM0V0SXdwVUhLbVlta2t6N05FRnQwRGFDR0owMTR6UlVlRlBham9qUVVCTUlwSVg2bnpWblVnc2l6Mml3bXIxdS1RZFNsYlNfNUUtRH",
-   "source": "entARABI·聚合",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWVBjaXlYY0VxaW1fWm9BY3U4aFgxRHVlVlcyZkN0QlMzLWlkUzVKUHVqM0V0SXdwVUhLbVlta2t6N05FRnQwRGFDR0owMTR6UlVlRlBham9qUVVCTUlwSVg2bnpWblVnc2l6Mml3bXIxdS1RZFNsYlNfNUUtRHZsTEIyZw?oc=5",
-   "date": "Thu, 08 Oct 2026 12:50:04 GMT",
-   "country": "🇪🇬 埃及",
-   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -621,6 +591,36 @@
    "date": "Wed, 07 Oct 2026 16:45:09 +0000",
    "country": "🇳🇬 尼日利亚",
    "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Why Huawei Is China’s Most Effective Tool of Soft Power",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNTko0NW9vZ1kzdlM3ZHFpOGxYV0E4TFl2cFBlYW5Hb0J0VWF4cWNPYmRsSzhEREpRMGw4ZXFuMnc4cFBRNXBoT2gyYzFvSUc2TUFUNDB5bXFKbzdITHEzSnJyTlhtbUd5blVvSUJEcXpDUWI2bGJpdzlZZkF3Mk",
+   "source": "The National Interest·聚合",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTko0NW9vZ1kzdlM3ZHFpOGxYV0E4TFl2cFBlYW5Hb0J0VWF4cWNPYmRsSzhEREpRMGw4ZXFuMnc4cFBRNXBoT2gyYzFvSUc2TUFUNDB5bXFKbzdITHEzSnJyTlhtbUd5blVvSUJEcXpDUWI2bGJpdzlZZkF3MkhKSlltVF9UWDZuUE9nNzY4U3FOcDJuRXlXeE5CYk83dw?oc=5",
+   "date": "Wed, 07 Oct 2026 15:27:11 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "iQmetrix Launches Vendor Managed Inventory Integration with Valor Communication",
+   "brief": "iQmetrix, the global provider of Intelligent Commerce Operating Systems for telecom, is launching a Vendor Managed Inventory integration with Valor Communication, a factory-direct wireless accessory manufacturer and dist",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/iqmetrix-launches-vendor-managed-inventory-integration-with-valor-communication/wbrpO7g2ePrvDLZn",
+   "date": "Wed, 07 Oct 2026 16:00:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Hightouch Names Matthew Lubeck General Manager, EMEA",
+   "brief": "Hightouch, the leader in data and AI for marketing, has named Matthew Lubeck General Manager, EMEA. Based in London, Lubeck will lead all of Hightouch's go-to-market functions across EMEA as the company helps brands in t",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/hightouch-names-matthew-lubeck-general-manager-emea/GxwQD71DLA5vlPVo",
+   "date": "Wed, 07 Oct 2026 15:40:00 +0200",
+   "country": null,
+   "is_ai": true,
    "is_aiinfra": false
   }
  ]
