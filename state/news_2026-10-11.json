@@ -1,22 +1,20 @@
 {
  "asof": "2026-10-11",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-10-11T15:51+08:00",
+ "generated_at": "2026-10-11T17:42+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 15,
-  "cluster_label": "伊朗/俄罗斯",
-  "cluster_dropped": [
-   "克宫称普京向特朗普转达伊朗战争方案"
-  ],
+  "cluster_label": "",
+  "cluster_dropped": [],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "geo",
-   "title": "胡塞袭击沙特机场致12死 十年来最重",
-   "brief": "胡塞武装袭击沙特机场造成12人死亡，为十年来对沙特最严重袭击，利雅得学校改线上、民航发警告。",
-   "chain": "沙特机场遇袭→中东风险溢价上升、美股避险情绪抬头→A股算力链短期承压，能源军工链获关注",
+   "title": "胡塞袭击沙特机场致12死 十年最重",
+   "brief": "胡塞武装袭击沙特机场造成12人死亡，为十年来对沙特最严重袭击，沙特称防空拦截弹库存告急。",
+   "chain": "沙特机场遇袭→中东风险溢价上升、美股避险情绪升温→A股算力链短期承压，资金转向防御。",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbV9hVGtMSXpTVDJ3c05vRW9SQ2lRLTg3cUlOeWxDc2w4amF5V2N2Ul9YazdxcHJGNDRwd3hlQi15a2ZGWWZoZnc1dlA5UkY3cU9PclVCNkh6SVkzQ25waEVRRlN2TVdES3lKV1VuVXN6QnJycWxtdkNOdUIwMTdTRE9fbko3Umt5d0huNVY1dW9ZcFpLSF9yczRGRHJfSWZhM1AtTkVzbVR4TlRUdzhIb19JN3o?oc=5",
@@ -25,18 +23,18 @@
   {
    "cat": "oil",
    "title": "油轮运价创纪录 石油危机变航运危机",
-   "brief": "油轮运价飙升至历史纪录，石油供应危机正演变为航运危机，运费成本大幅抬升。",
-   "chain": "运价飙升→原油与成品油到岸成本上升、Brent获支撑→莫桑比克LNG海运与东非油气物流成本抬升",
-   "impact": 8,
+   "brief": "油轮运价飙升至历史纪录，石油供应危机正演变为全球航运危机，运费成本大幅抬升。",
+   "chain": "运价飙升→原油与LNG运输成本上升、Brent风险溢价走强→莫桑比克LNG出口航运成本与保费上升，需重估东非项目经济性。",
+   "impact": 9,
    "source": "OilPrice",
    "url": "https://oilprice.com/Energy/Energy-General/Tanker-Rates-Soar-to-Record-as-Oil-Crisis-Becomes-Shipping-Crisis.html",
    "ts": "Sat, 10 Oct 2026 18:00:00 -0500"
   },
   {
    "cat": "macro",
-   "title": "特朗普称中期选举前不会攻击伊朗",
-   "brief": "特朗普表示美国不会在11月中期选举前对伊朗动武，短期缓和美伊军事冲突预期。",
-   "chain": "美伊降温→避险溢价回落、美股风险偏好修复→A股算力链情绪边际改善",
+   "title": "特朗普称中期选举前不攻击伊朗",
+   "brief": "特朗普表示美国不会在11月中期选举前攻击伊朗，短期缓和美伊军事冲突预期。",
+   "chain": "美伊降温→美股风险偏好修复、油价回落→A股算力链情绪回暖，但地缘不确定性仍存。",
    "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMmV2ZUhoRklKSzBPaFkzWHVFdkwxVDlVVU8tdDV2NXc4NEkxTjZSTVhoaklIeTlJX3BCUTFkRUREY1VDVGpTY1lhZEQ4OHgyRG81S0RLa0JJVEZHTWpiUFJVRy0xZmVSWEpVbDZsVFBSRzZ4bmw2RnhtMXlBelJ1Vi1GUnVuZ3htemdTdExuTktpQ2dKdzhFRmRMd0MwMlYtd3JPb1J0NVlKcVNtWUlNNHRoNVFWaFBWUHNTdg?oc=5",
@@ -45,18 +43,28 @@
   {
    "cat": "oil",
    "title": "紧急释储或耗尽全球最后供应缓冲",
-   "brief": "紧急释放战略石油储备可能耗尽全球仅存的供应缓冲，市场对后续断供的脆弱性上升。",
-   "chain": "释储耗尽缓冲→油价中期上行风险加大→莫桑比克油气项目议价与投资吸引力提升",
-   "impact": 7,
+   "brief": "紧急释放战略石油储备可能耗尽全球最后的供应缓冲，市场对供应中断的脆弱性上升。",
+   "chain": "释储耗尽缓冲→油价下行空间受限、中期易涨难跌→莫桑比克油气项目在供应紧张格局下战略价值提升。",
+   "impact": 8,
    "source": "OilPrice",
    "url": "https://oilprice.com/Energy/Crude-Oil/Emergency-Oil-Releases-Risk-Draining-the-Worlds-Last-Supply-Cushion.html",
    "ts": "Sat, 10 Oct 2026 18:00:00 -0500"
   },
   {
+   "cat": "gas",
+   "title": "伊朗战争助推清洁能源繁荣",
+   "brief": "伊朗战争推高化石能源风险，加速全球清洁能源投资与天然气替代需求。",
+   "chain": "地缘冲突→LNG与清洁能源需求上升、气价获支撑→莫桑比克罗武马LNG项目长期需求前景改善。",
+   "impact": 7,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/The-Iran-War-Is-Fueling-a-Boom-in-Clean-Energy.html",
+   "ts": "Sat, 10 Oct 2026 10:00:00 -0500"
+  },
+  {
    "cat": "macro",
    "title": "高盛警示意大利债券风险 赤字扩大",
-   "brief": "继法国之后高盛警示意大利债券风险，罗马赤字扩大引发欧元区财政可持续性担忧。",
-   "chain": "意债风险→欧元区财政担忧、避险资金流向美债黄金→A股算力链受全球风险偏好扰动",
+   "brief": "继法国之后，高盛警示意大利债券风险，罗马赤字扩大引发欧元区财政担忧。",
+   "chain": "意债风险→欧元区财政担忧、美债与黄金避险需求上升→A股算力链受海外流动性收紧预期压制。",
    "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/10/11/italy-government-bonds-sovereign-debt-giorgia-meloni.html",
@@ -64,143 +72,153 @@
   },
   {
    "cat": "ai",
-   "title": "英伟达据悉磋商收购或增资Reflection AI",
-   "brief": "英伟达正与开放权重模型开发商Reflection AI初步谈判，讨论收购或进一步增加投资。",
-   "chain": "英伟达加码AI模型层→强化算力需求叙事、利好美股AI链→映射A股算力/光模块/服务器链",
+   "title": "纳德拉：AI需要人类控制的紧急刹车",
+   "brief": "微软CEO纳德拉称AI需要人类可控的紧急刹车机制，呼吁行业治理与安全护栏。",
+   "chain": "AI治理信号→美股AI龙头监管风险预期升温→A股算力链关注合规与国产替代逻辑。",
    "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610113892045022.html",
-   "ts": "2026-10-11 14:13:30"
-  },
-  {
-   "cat": "gas",
-   "title": "世界石油理事会能源大会利雅得开幕",
-   "brief": "第25届世界石油理事会能源大会周日在利雅得开幕，沙特能源部确认，全球能源政策与供需成焦点。",
-   "chain": "能源大会聚焦供需→LNG与原油长期定价预期受关注→莫桑比克东非LNG项目融资与买家谈判窗口",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610113892048594.html",
-   "ts": "2026-10-11 15:15:09"
-  },
-  {
-   "cat": "tech",
-   "title": "马斯克称Terrafab工厂将重塑芯片制造",
-   "brief": "马斯克表示旗下公司凭定制设备专长，很可能找到比任何人都更好地制造芯片的方法。",
-   "chain": "马斯克进军芯片制造→扰动半导体代工格局预期→映射A股半导体设备/材料链情绪",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610113892045862.html",
-   "ts": "2026-10-11 14:31:30"
-  },
-  {
-   "cat": "ai",
-   "title": "纳德拉称AI需人类可控的紧急刹车",
-   "brief": "微软CEO纳德拉表示AI需要由人类掌控的紧急刹车机制，呼应AI治理与安全监管讨论。",
-   "chain": "AI安全治理升温→影响AI监管预期与算力投资节奏→A股算力链关注合规与国产替代",
-   "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/10/10/microsoft-satya-nadella-ai-emergency-brake-safety.html",
    "ts": "Sat, 10 Oct 2026 20:59:28 GMT"
   },
   {
-   "cat": "macro",
-   "title": "中共中央国务院印发发展新质生产力意见",
-   "brief": "中共中央、国务院印发《关于发展新质生产力的意见》，证监会召开专家座谈会，公募基金运作办法修订。",
-   "chain": "新质生产力政策加码→提振A股科技成长风险偏好→利好算力/半导体/高端制造链",
+   "cat": "tech",
+   "title": "工业富联遭美337调查 涉供电系统专利",
+   "brief": "美国ITC对工业富联及子公司启动337调查，涉及一项垂直供电系统专利权。",
+   "chain": "337调查→工业富联海外业务风险上升、美股AI硬件供应链关注→A股算力链服务器代工环节承压。",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610113892043722.html",
-   "ts": "2026-10-11 14:00:17"
+   "url": "https://finance.eastmoney.com/a/202610113892061575.html",
+   "ts": "2026-10-11 16:00:07"
   },
   {
    "cat": "geo",
-   "title": "俄称击中乌克兰南部一数据中心",
-   "brief": "俄国防部称无人机击中敖德萨一处乌军数据中心及切尔诺莫尔斯克港一艘军用物资货船。",
-   "chain": "俄乌打击数据中心→地缘升级、云基础设施风险受关注→A股算力链关注数据安全与冗余",
+   "title": "伊朗称不会在外国压力下放弃核技术",
+   "brief": "伊朗原子能组织主席表示不会在外国压力下放弃核技术，将继续大力推进核计划。",
+   "chain": "伊朗核强硬→中东地缘风险持续、油价获支撑→A股算力链受避险情绪扰动。",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610113892070487.html",
+   "ts": "2026-10-11 16:49:45"
+  },
+  {
+   "cat": "macro",
+   "title": "中信证券：高利率下跟踪AI投资周期拐点",
+   "brief": "中信证券称油价回稳、非农低于预期未改长债利率走高，私人部门投融资需求强劲。",
+   "chain": "长债利率高企→美股AI高久期估值承压→A股算力链需以景气与供给出清应对。",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610113892074984.html",
+   "ts": "2026-10-11 17:17:42"
+  },
+  {
+   "cat": "geo",
+   "title": "南海海域10月12日起军事训练",
+   "brief": "三亚海事局发布航行警告，10月12日至20日南海部分海域进行军事训练禁止驶入。",
+   "chain": "南海军演→台海/南海地缘紧张、美股风险偏好扰动→A股算力链短期情绪承压。",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610113892043444.html",
-   "ts": "2026-10-11 13:43:53"
+   "url": "https://finance.eastmoney.com/a/202610113892070376.html",
+   "ts": "2026-10-11 16:45:37"
   },
   {
    "cat": "oil",
-   "title": "特朗普称俄罗斯将向美国及全球供应柴油",
-   "brief": "特朗普表示俄罗斯将向美国和全球市场供应柴油，此举被指与对俄制裁法律相矛盾。",
-   "chain": "俄柴油入市→短期缓解成品油紧张、压制柴油裂解价差→莫桑比克油气经营关注成品油区域价差",
+   "title": "特朗普称俄罗斯将向美国供应柴油",
+   "brief": "特朗普表示俄罗斯将向美国及全球市场供应柴油，引发对俄制裁合规争议。",
+   "chain": "俄柴油入市→美国柴油价格与炼油利润承压、原油市场供应预期变化→莫桑比克油气经营关注成品油贸易流向。",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQU3RwVkZ4Mkg3Vy1fdGF2T2t4RmRLV3lQaU5LcXdnd3hKd21HRlZqR1dBTDlEbmNheE1MYVNjZldOLVlUd2lpMDdSaDd5c0tSUEpVRWJPLU1rTU9hSVhTYlF3Z2JPUlQydXgyb0VraVpvMUlwdHlFY2RoNEZ3WUE4Y0JjNnlHMV9VakFsdzMzOFFzUnQ3MlE?oc=5",
    "ts": "2026-10-09T15:43:00+00:00"
   },
   {
-   "cat": "tech",
-   "title": "中欧就混动汽车贸易达成谅解",
-   "brief": "中欧贸易投资磋商机制第二次例会结束，双方就混动汽车贸易达成符合世贸规则的谅解。",
-   "chain": "中欧混动谅解→缓解汽车出口摩擦、利好整车与零部件→映射A股新能源车链情绪",
+   "cat": "ai",
+   "title": "Qwen-Image-2.1Pro与Turbo API上线",
+   "brief": "千问AI平台宣布Qwen-Image-2.1Pro和Turbo API正式上线，开发者可接入使用。",
+   "chain": "国产大模型迭代→A股AI应用与算力需求预期升温→映射算力链与AI应用板块。",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610113892039770.html",
-   "ts": "2026-10-11 13:05:20"
+   "url": "https://finance.eastmoney.com/a/202610113892056432.html",
+   "ts": "2026-10-11 15:53:31"
+  },
+  {
+   "cat": "tech",
+   "title": "英伟达GPU无处不在 企业多渠道获取",
+   "brief": "英伟达GPU广泛部署，企业正通过多种渠道获取算力资源，供应紧张持续。",
+   "chain": "GPU需求旺盛→美股英伟达产业链景气延续→A股算力链服务器、光模块环节受益。",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/10/nvidia-gpus-are-everywhere-heres-how-companies-access-them.html",
+   "ts": "Sat, 10 Oct 2026 11:00:01 GMT"
   },
   {
    "cat": "macro",
-   "title": "美股周线上涨 财报与通胀数据在即",
-   "brief": "华尔街周线收涨，市场等待新一轮企业财报与通胀数据发布，情绪谨慎偏多。",
-   "chain": "财报与CPI临近→美股估值等待数据验证→A股算力链跟随海外风险偏好波动",
+   "title": "中信证券：港股基本面预期触底",
+   "brief": "中信证券研报称港股基本面预期已进入触底阶段，主要宽基指数盈利增速预期上修。",
+   "chain": "港股盈利触底→中国资产风险偏好修复→A股算力链与港股科技板块情绪联动。",
    "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0hWbFNBUlE5SFJjLVpMMnIwZzFpN2hVNEd2YkxlalYyVDRKTDZxcGJ0REJLUERXb0tlVVVreVZLMHFodlAtZlY0eDhuN2xiOHcybjM1c3gxMlBNTmZMWWdrdkhQOG9Pc2JRdTEwYXM5N181QmttRVEyRkdXTy1LT2J0ZVA4d2FXdjZZeGZwaGRaSUtDUXJUZXFjSU94cnprbTVUSXRpXzFtQzV2TWtpR1dNSjdaWVplUlE?oc=5",
-   "ts": "2026-10-09T23:33:00+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "OpenAI与Anthropic挖角特朗普政府官员",
-   "brief": "OpenAI和Anthropic招揽特朗普政府前官员，AI行业加紧争取华盛顿信任与政策话语权。",
-   "chain": "AI游说华盛顿→监管与采购政策预期升温→A股算力链关注国产AI政策红利",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/10/09/openai-anthropic-poach-trump-officials.html",
-   "ts": "Fri, 09 Oct 2026 13:49:54 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "华尔街力推数据中心成地产大赌注 风险累积",
-   "brief": "华尔街将数据中心包装为重大房地产投资标的，但相关风险正在不断累积。",
-   "chain": "数据中心地产化→AI基建融资扩张、利率敏感度上升→A股算力链关注IDC与电力配套",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/10/09/ai-data-centers-investing.html",
-   "ts": "Fri, 09 Oct 2026 15:08:20 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610113892075976.html",
+   "ts": "2026-10-11 17:38:46"
   },
   {
    "cat": "gas",
-   "title": "东南亚电力需求增长 弱电网成瓶颈",
-   "brief": "东南亚电力需求持续增长，但薄弱的电网基础设施可能制约供电与能源项目落地。",
-   "chain": "东南亚电网瓶颈→区域LNG发电需求与进口节奏受制约→莫桑比克东非LNG关注亚洲买家需求",
+   "title": "印度国家电力寻求伙伴建热电联产电厂",
+   "brief": "印度国家电力公司寻求权益合作伙伴建设热电联产电厂，扩大天然气发电需求。",
+   "chain": "印度天然气发电需求上升→亚洲LNG现货需求获支撑→莫桑比克东非LNG出口潜在买家增加。",
    "impact": 5,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Energy-General/Southeast-Asia-Needs-More-Power-But-Its-Weak-Grid-Could-Be-a-Problem.html",
-   "ts": "Sat, 10 Oct 2026 14:00:00 -0500"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610113892062330.html",
+   "ts": "2026-10-11 16:08:30"
   },
   {
-   "cat": "macro",
-   "title": "8月中国企业信用指数回升至161.32",
-   "brief": "市场监管总局数据显示8月中国企业信用指数161.32，较7月上升2.45点，金融制造业居前。",
-   "chain": "企业信用回升→国内基本面边际改善→A股风险偏好与算力链估值获支撑",
-   "impact": 4,
+   "cat": "geo",
+   "title": "吉布提沿海移民船倾覆致109死",
+   "brief": "国际移民组织称一艘载350人移民船在吉布提沿海倾覆，至少109人死亡、110多人失踪。",
+   "chain": "东非海域事故→红海/亚丁湾航运安全关注上升→莫桑比克东非能源运输航线风险提示。",
+   "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610113892048148.html",
-   "ts": "2026-10-11 15:00:43"
+   "url": "https://finance.eastmoney.com/a/202610113892075428.html",
+   "ts": "2026-10-11 17:31:30"
   },
   {
    "cat": "tech",
-   "title": "问界将继续长期全系搭载宁德时代电池",
-   "brief": "赛力斯与宁德时代签署长期战略合作深化协议，问界将继续长期全系搭载宁德时代电池。",
-   "chain": "赛力斯宁德深化绑定→强化动力电池供应链确定性→映射A股锂电与新能源车链",
-   "impact": 4,
+   "title": "东百集团3.16亿收购光探测芯片公司",
+   "brief": "东百集团全资子公司拟3.16亿元收购快灵光电52.67%股权，切入光探测芯片领域。",
+   "chain": "光探测芯片并购→A股半导体与光通信产业链整合→映射算力链光模块上游。",
+   "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610113892047812.html",
-   "ts": "2026-10-11 14:56:45"
+   "url": "https://finance.eastmoney.com/a/202610113892071469.html",
+   "ts": "2026-10-11 16:50:31"
+  },
+  {
+   "cat": "macro",
+   "title": "银河证券：新质生产力意见重塑A股",
+   "brief": "银河证券解读《关于发展新质生产力的意见》，称对A股兼具短期风险偏好修复与中长期估值重构价值。",
+   "chain": "顶层政策文件→A股风险偏好修复、科技成长估值重构→利好算力链与新质生产力主题。",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610113892075242.html",
+   "ts": "2026-10-11 17:30:21"
+  },
+  {
+   "cat": "ai",
+   "title": "AI代理可代购 Muse影响零售股",
+   "brief": "AI代理如Muse可替用户购物，改变零售消费模式，对零售股构成潜在冲击。",
+   "chain": "AI代理落地→美股零售与电商格局变化→A股AI应用与消费板块关注。",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/investingclub/2026/10/09/ai-agents-could-soon-shop-for-consumers-what-it-means-for-retail-stocks.html",
+   "ts": "Fri, 09 Oct 2026 14:15:38 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "美国柴油价格高企 增产措施未奏效",
+   "brief": "尽管特朗普采取措施增加供应，美国柴油价格仍维持高位，炼油利润承压。",
+   "chain": "柴油价格高企→炼油利润与通胀压力上升→莫桑比克油气经营关注成品油进口成本。",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSC1DZmo5R2daREU0YTBRSFBZTE04NW92WFQ3eXhLeGhiRlFyTEZBbHdWT2xuczBRYmtWcmlqMVJKTUo0Vk9KTEk1OU1jYUo1NlQ3Zi1KTzhmc1pmZkhQS01OajhXWHR1aWpQVEpuRTllX0RSd3ZmR3ZKMG51MlJRNGQtX3BkdUpfOHFGejVtbnhMUGlGNVdDa2lISkd5dFdmNWc3dFpRZnJuNGJ6M3duQ1pJcXo?oc=5",
+   "ts": "2026-10-09T16:18:51+00:00"
   }
  ]
 }
