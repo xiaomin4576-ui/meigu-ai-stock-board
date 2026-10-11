@@ -37,9 +37,9 @@
         "cn_rating": "买入",
         "rec_buy_ratio": 0.94,
         "eps_growth": 125.2,
-        "ev_ebitda": 27.7,
-        "fcf_yield": 2.29,
-        "market_cap": 5554568,
+        "ev_ebitda": 27.5,
+        "fcf_yield": 2.3,
+        "market_cap": 5525648,
         "forward_peg": 0.3,
         "consensus_src": "Finnhub"
       }
@@ -80,9 +80,9 @@
         "cn_rating": "买入",
         "rec_buy_ratio": 0.91,
         "eps_growth": 100.1,
-        "ev_ebitda": 39.5,
+        "ev_ebitda": 39.3,
         "fcf_yield": 2.28,
-        "market_cap": 1730870,
+        "market_cap": 1725858,
         "forward_peg": 0.29,
         "consensus_src": "Finnhub"
       }
@@ -166,9 +166,9 @@
         "cn_rating": "买入",
         "rec_buy_ratio": 0.91,
         "eps_growth": 878.8,
-        "ev_ebitda": 10.3,
-        "fcf_yield": 5.11,
-        "market_cap": 1154861,
+        "ev_ebitda": 10.4,
+        "fcf_yield": 5.07,
+        "market_cap": 1162145,
         "forward_peg": 0.03,
         "consensus_src": "Finnhub"
       }
@@ -202,14 +202,17 @@
         "target_low": null,
         "target_high": null,
         "rating": null,
-        "rating_mean": null,
-        "n_analysts": null,
+        "rating_mean": 1.88,
+        "n_analysts": 50,
         "fwd_pe": null,
         "ttm_pe": null,
+        "cn_rating": "买入",
+        "rec_buy_ratio": 0.86,
         "ev_ebitda": 65.0,
         "fcf_yield": 0.71,
         "market_cap": 241393,
-        "forward_peg": 0.89
+        "forward_peg": 0.89,
+        "consensus_src": "Finnhub"
       }
     },
     "ANET": {
@@ -248,9 +251,9 @@
         "cn_rating": "买入",
         "rec_buy_ratio": 0.94,
         "eps_growth": 24.7,
-        "ev_ebitda": 56.9,
-        "fcf_yield": 1.94,
-        "market_cap": 266081,
+        "ev_ebitda": 58.4,
+        "fcf_yield": 1.89,
+        "market_cap": 273358,
         "consensus_src": "Finnhub"
       }
     },
@@ -333,9 +336,9 @@
         "cn_rating": "买入",
         "rec_buy_ratio": 0.77,
         "eps_growth": 1617.2,
-        "ev_ebitda": 47.9,
-        "fcf_yield": 0.43,
-        "market_cap": 59210,
+        "ev_ebitda": 49.5,
+        "fcf_yield": 0.42,
+        "market_cap": 61221,
         "consensus_src": "Finnhub"
       }
     },
@@ -376,8 +379,8 @@
         "rec_buy_ratio": 0.89,
         "eps_growth": 111.2,
         "ev_ebitda": 39.5,
-        "fcf_yield": 3.12,
-        "market_cap": 93604,
+        "fcf_yield": 3.13,
+        "market_cap": 93467,
         "consensus_src": "Finnhub"
       }
     },
@@ -389,13 +392,13 @@
       "chg1d": -1.3,
       "m1": -10.6,
       "m3": -37.0,
-      "m6": 3.8,
-      "fromhi": -55.5,
-      "hi": 67.69,
-      "lo": 15.3,
+      "m6": 4.1,
+      "fromhi": -55.6,
+      "hi": 67.84,
+      "lo": 15.13,
       "ma20": 33.68,
       "ma50": 33.06,
-      "ma200": 32.61,
+      "ma200": 32.56,
       "vol": 52.3,
       "analyst": {
         "target_mean": null,
@@ -481,16 +484,16 @@
       },
       "news": [
         {
-          "title": "国家大基金持股概念下跌4.17%，主力资金净流出39股",
-          "pub": "证券时报网",
-          "url": "http://finance.eastmoney.com/a/202610083889677833.html",
-          "date": "2026-10-08"
-        },
-        {
           "title": "主力动向：10月9日特大单净流出68.84亿元",
           "pub": "证券时报网",
           "url": "http://finance.eastmoney.com/a/202610093891303156.html",
           "date": "2026-10-09"
+        },
+        {
+          "title": "国家大基金持股概念下跌4.17%，主力资金净流出39股",
+          "pub": "证券时报网",
+          "url": "http://finance.eastmoney.com/a/202610083889677833.html",
+          "date": "2026-10-08"
         },
         {
           "title": "电子行业10月8日资金流向日报",
