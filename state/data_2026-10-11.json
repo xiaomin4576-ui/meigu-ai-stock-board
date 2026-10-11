@@ -476,7 +476,12 @@
         "rating_mean": null
       },
       "earnings_date": "2026-10-31",
-      "quality": {},
+      "quality": {
+        "roe": 2.61,
+        "ocf_ps": 2.4249,
+        "gross_margin": null,
+        "period": "2026-06-30"
+      },
       "news": [
         {
           "title": "国家大基金持股概念下跌4.17%，主力资金净流出39股",
@@ -599,12 +604,6 @@
       },
       "news": [
         {
-          "title": "纳芯微688052.SH)：2026年中报净利润为6759.18万元",
-          "pub": "界面新闻",
-          "url": "http://finance.eastmoney.com/a/202608283857411936.html",
-          "date": "2026-08-28"
-        },
-        {
           "title": "A股冲高后震荡走低，尾盘跌幅略有收窄",
           "pub": "澎湃新闻",
           "url": "http://finance.eastmoney.com/a/202610083889594695.html",
@@ -615,6 +614,12 @@
           "pub": "证券时报网",
           "url": "http://finance.eastmoney.com/a/202610093891310968.html",
           "date": "2026-10-09"
+        },
+        {
+          "title": "纳芯微688052.SH)：2026年中报净利润为6759.18万元",
+          "pub": "界面新闻",
+          "url": "http://finance.eastmoney.com/a/202608283857411936.html",
+          "date": "2026-08-28"
         }
       ],
       "unlock": null
