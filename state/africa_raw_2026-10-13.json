@@ -1,6 +1,6 @@
 {
  "asof": "2026-10-13",
- "fetched_at": "2026-10-13T00:11+08:00",
+ "fetched_at": "2026-10-13T04:20+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -12,9 +12,9 @@
    "Condia": 25,
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
-   "Zimbabwe Situation": 0,
+   "Zimbabwe Situation": 1,
    "African Business": 2,
-   "非洲科技·聚合": 7,
+   "非洲科技·聚合": 0,
    "中非科技·聚合": 16
   },
   "total": 60,
@@ -23,6 +23,56 @@
   "countries": 8
  },
  "items": [
+  {
+   "title": "OPay targets $500M US IPO as H1 profit jumps 319%",
+   "brief": "OPay targets $500 million through a proposed New York IPO as revenue rises 136.5% and first half 2026 net profit jumps to $90.9 million.",
+   "source": "Condia",
+   "url": "https://thecondia.com/opay-targets-500m-us-ipo/",
+   "date": "Mon, 12 Oct 2026 18:18:35 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "The Next Battlefield May Be the Data Centre Down the Road",
+   "brief": "In the early hours of 8 October a drone set fire to a Yandex data centre in Sasovo, a town in Russia’s Ryazan region. Yandex told AFP that the facility had stopped operating entirely. The outage reached Yandex Cloud and ",
+   "source": "Zimbabwe Situation",
+   "url": "https://www.zimbabwesituation.com/news/the-next-battlefield-may-be-the-data-centre-down-the-road/",
+   "date": "Mon, 12 Oct 2026 17:36:40 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": true
+  },
+  {
+   "title": "If AI prompts can build your product, will African VCs still invest?",
+   "brief": "Six African investors explain what makes African AI startups fundable: local-language voice products, sticky software, licences and revenue.",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/12/african-ai-startups-vc-funding/",
+   "date": "Mon, 12 Oct 2026 17:19:52 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "TikTok users in northern Nigeria turn to VPNs as access disruption sparks legal challenge",
+   "brief": "TikTok users in northern Nigeria are turning to VPNs amid unexplained access disruptions, as a court case challenges the restrictions affecting four states.",
+   "source": "Condia",
+   "url": "https://thecondia.com/tiktok-disruption-northern-nigeria/",
+   "date": "Mon, 12 Oct 2026 16:23:47 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Huawei-backed AITO sets Europe launch for fall 2027 with 4 luxury SUVs",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE4xVlBfWVVZZ1ZmWWNUdFRTOUo3OXdvaGdJZ29HYjh0RkR2NzU0ZFNkUHY5bWpBSmR5cW5iTVdSRmZCbXUwbGhQWnpoS3JvS0kxMEttZVhrVU1RdkJjMjNKTldMQnVGdUpaTHNid01heWNDYTVfOTBNTzZ4Zlo?oc",
+   "source": "Electrek·聚合",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xVlBfWVVZZ1ZmWWNUdFRTOUo3OXdvaGdJZ29HYjh0RkR2NzU0ZFNkUHY5bWpBSmR5cW5iTVdSRmZCbXUwbGhQWnpoS3JvS0kxMEttZVhrVU1RdkJjMjNKTldMQnVGdUpaTHNid01heWNDYTVfOTBNTzZ4Zlo?oc=5",
+   "date": "Mon, 12 Oct 2026 14:48:00 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
   {
    "title": "Millions of Africans have internet coverage but are not online. Here’s why",
    "brief": "Millions of Africans live within reach of mobile broadband but remain offline. Ghana, Egypt, and Niger show why expanding coverage is only part of the solution: people also need affordable devices, trusted services and a",
@@ -384,16 +434,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "What a banker discovered when he started listening to farmers",
-   "brief": "Don’t get Watson Matsa started on farmers and banks, as we did. He talks on why banks don’t understand farmers from an insider point of view.",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/10/09/watson-matsa-banks-understand-african/",
-   "date": "Fri, 09 Oct 2026 11:18:29 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Local investors acquire South African travel tech platform LekkeSlaap",
    "brief": "A consortium of local investors has acquired LekkeSlaap, a South African travel startup. The financial terms of the deal remain undisclosed.",
    "source": "Condia",
@@ -514,16 +554,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Egyptian Startup ParlexAI Joins Sixth Cohort of Visa Africa FinTech Accelerator",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPWVBjaXlYY0VxaW1fWm9BY3U4aFgxRHVlVlcyZkN0QlMzLWlkUzVKUHVqM0V0SXdwVUhLbVlta2t6N05FRnQwRGFDR0owMTR6UlVlRlBham9qUVVCTUlwSVg2bnpWblVnc2l6Mml3bXIxdS1RZFNsYlNfNUUtRH",
-   "source": "entARABI·聚合",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWVBjaXlYY0VxaW1fWm9BY3U4aFgxRHVlVlcyZkN0QlMzLWlkUzVKUHVqM0V0SXdwVUhLbVlta2t6N05FRnQwRGFDR0owMTR6UlVlRlBham9qUVVCTUlwSVg2bnpWblVnc2l6Mml3bXIxdS1RZFNsYlNfNUUtRHZsTEIyZw?oc=5",
-   "date": "Thu, 08 Oct 2026 12:50:04 GMT",
-   "country": "🇪🇬 埃及",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
    "title": "iQmetrix Appoints Beniamin Longodor as Vice President of Global Growth",
    "brief": "iQmetrix, the global provider of Intelligent Commerce Operating Systems for telecom, today announced the appointment of Beniamin Longodor as Vice President of Global Growth.",
    "source": "ITWeb Africa",
@@ -574,26 +604,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "‘Interoperability Not Truly Free’: Fintech Experts On West Africa’s Instant-Payments Rollout",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxPT2oyVlRISzRwalhTZllTdnBwbjJrN1pTUlVKNHlkOG1HMHIzeUh6aWl3S1pXOVotSmFSVlVWVGF6ZTVhaVRPYTEwVEhkOUFfNmVUVUt3Zkd6X3UyZG1NV0FpcmtNNURCVjUtenhkZEpuWXd2Y1R5SUJDdzFjUW",
-   "source": "Forbes Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPT2oyVlRISzRwalhTZllTdnBwbjJrN1pTUlVKNHlkOG1HMHIzeUh6aWl3S1pXOVotSmFSVlVWVGF6ZTVhaVRPYTEwVEhkOUFfNmVUVUt3Zkd6X3UyZG1NV0FpcmtNNURCVjUtenhkZEpuWXd2Y1R5SUJDdzFjUWhVTkJXNFU2Zlk2Y09YeWRwdDBBLTU2RUFxSVYzUjhwNkFlcG9UTFczWTBJajJQOG1QbkFmRHRRWHBYM1d6TFBLQ0JVZW9rZ1haeWE0UUFQeU1fSWE1Qm90QzRmZ0dabUE?oc=5",
-   "date": "Thu, 08 Oct 2026 05:26:00 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Microsoft South Africa Technology Chief Asif Valley exits after decade spanning cloud, AI and digital skills",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxPbHBCVlFlU1czeGVPVFkwekZlV1FnY0hYRFNhdklSWlhWa2VYT1dReFplbzBVbVdVaGFSOERWbHN3SUdMeDRySVhOYWZfSFFGeHhNV1NhT3dhMGZ2aEE3cGtOd2xBbEQzcWdXQTRqYzNEaWs0dWhYeVVpSTNUNU",
-   "source": "EdTech Innovation Hub·聚合",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPbHBCVlFlU1czeGVPVFkwekZlV1FnY0hYRFNhdklSWlhWa2VYT1dReFplbzBVbVdVaGFSOERWbHN3SUdMeDRySVhOYWZfSFFGeHhNV1NhT3dhMGZ2aEE3cGtOd2xBbEQzcWdXQTRqYzNEaWs0dWhYeVVpSTNUNUFLQnlzV1l3UHkxUWNxLTF2dWdUUXczbWtlZkdHbmlOVTVHdGNtaWZmMHhPR3VCMnJDLWtHeGUxMVNZcVdZa0RweG4yYWJrV3duWExsZHFEREVDd1F3b19XN3NYN3d5Rkw1bThn?oc=5",
-   "date": "Wed, 07 Oct 2026 23:01:30 GMT",
-   "country": "🇿🇦 南非",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
    "title": "China’s threat to global internet is increasing",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxOZngtTHdGOFhwMnN0MnlwUGpvWHFYZUU4SUdsMEczQ1hlTnpndGpaWEdhYjRHajFjeWR1eHBuejhhQ1VnaVFYUWlEdjZYRVpTX2JnN3pLVDZrQmtYSEtadF8wNFZURkthd3dYcmpPVlhya3V4QXdqSEQwTzh0VW",
    "source": "Washington Times·聚合",
@@ -602,16 +612,6 @@
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
-  },
-  {
-   "title": "Africa joins the data centre backlash - Eye on Africa",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE0yQ3pVZERiU3Fyb3lnanEyUXVjbk1ZcU1EelFuN2NOZi10cVJ2Szc2NnU5TkZRSWZtNnlXNWF6SC12a1JqTW5DSUZPMEpFdFdVLUJ4Zk5sVGJOUDRJM0dISEZRTUI4QS1HV2YxSVp4RGswbEU?oc=5\" target=\"",
-   "source": "France 24·聚合",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0yQ3pVZERiU3Fyb3lnanEyUXVjbk1ZcU1EelFuN2NOZi10cVJ2Szc2NnU5TkZRSWZtNnlXNWF6SC12a1JqTW5DSUZPMEpFdFdVLUJ4Zk5sVGJOUDRJM0dISEZRTUI4QS1HV2YxSVp4RGswbEU?oc=5",
-   "date": "Wed, 07 Oct 2026 20:37:55 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": true
   },
   {
    "title": "The 2027 Ranking of Nigeria’s Top Universities Is Out",
