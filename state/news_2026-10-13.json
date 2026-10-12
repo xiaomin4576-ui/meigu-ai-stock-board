@@ -1,10 +1,10 @@
 {
  "asof": "2026-10-13",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-10-13T04:20+08:00",
+ "generated_at": "2026-10-13T05:55+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 10,
+  "cross_day_suppressed": 8,
   "cluster_label": "",
   "cluster_dropped": [],
   "backfilled": 0
@@ -12,19 +12,29 @@
  "items": [
   {
    "cat": "macro",
-   "title": "美联储哈玛克：利率需进一步上调",
-   "brief": "美联储哈玛克称当前政策限制性不足、通胀回归过慢，倾向更小幅度但更高频率加息，中性利率预期在FOMC中偏高。",
-   "chain": "鹰派加息信号→美股AI高久期票估值分母承压、风险偏好降温→A股算力链情绪短期受压",
+   "title": "美联储哈马克:仍需进一步收紧货币政策",
+   "brief": "美联储官员哈马克称仍需进一步收紧货币政策,但对加息步伐保持开放态度,并称通胀压力正从AI领域扩散至其他企业。",
+   "chain": "鹰派表态→美债利率与贴现率上行压力→压制美股AI高久期估值→A股算力链情绪承压",
    "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610133893045895.html",
-   "ts": "2026-10-13 00:44:19"
+   "url": "https://finance.eastmoney.com/a/202610133893073923.html",
+   "ts": "2026-10-13 05:36:48"
   },
   {
    "cat": "macro",
-   "title": "印度9月CPI升至5.54%逼近容忍上限",
-   "brief": "印度9月通胀跳升至5.54%，逼近央行容忍区间上沿，强化市场对进一步加息的预期。",
-   "chain": "新兴市场加息预期→全球资金成本抬升、美元偏强→压制A股算力链估值与外资风险偏好",
+   "title": "哈马克:或需更高利率防通胀心态固化",
+   "brief": "美联储哈马克表示可能需要更高利率,以避免'通胀心态'在市场中扎根,呼应其鹰派立场。",
+   "chain": "防通胀心态固化→利率维持高位更久→美股成长股估值分母承压→A股算力链风险偏好受抑",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html",
+   "ts": "Mon, 12 Oct 2026 17:15:21 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "印度9月CPI升至5.54% 逼近央行上限",
+   "brief": "印度9月通胀跳升至5.54%,接近印度央行容忍上限,强化进一步加息预期。",
+   "chain": "新兴市场通胀高企→全球利率中枢难降→压制风险资产估值→A股算力链外资情绪偏谨慎",
    "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdUxxMHVta3BKU2dCLTBRTU5iRm1Xd1gwWWNBTzI4djlyVmFnYWpyZzRJbFQtamt5WHVoaFhCd1lMLVRWMUxpaGw5WERwT3dWZGJvbmRxYjhVUE5pU1Y4NjRzX2lVN1BpXzlBckQxMW4tYmhkNnpKOVQtdUQwSFJKUUZHUThxbnNRYllBZGtGSTV3MXFWZkc4cjRVUHJyU2c2MkNiRWczUl9NTUpVQ2tiSFVjR090Wk9yNjU3NkR4ZklId2o1akswcXNhZ3ptdw?oc=5",
@@ -32,49 +42,49 @@
   },
   {
    "cat": "macro",
-   "title": "金价冲4000美元或成华尔街买点",
-   "brief": "有观点认为4000美元金价可能成为华尔街下一大买入机会，反映避险与实际利率博弈下的贵金属配置需求。",
-   "chain": "避险+去美元化驱动金价→美股AI高久期票估值分母反向温度计→A股算力链情绪偏谨慎",
+   "title": "COMEX黄金期货收跌0.48%",
+   "brief": "COMEX黄金期货收跌0.48%报4195.9美元/盎司,白银跌0.78%,美元走强压制金价。",
+   "chain": "美元指数上涨+实际利率预期抬升→金价避险溢价回落→美股AI高久期票估值分母压力略缓→A股算力链情绪中性",
    "impact": 5,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Metals/Gold/4000-Gold-Could-Be-Wall-Streets-Next-Big-Buying-Opportunity.html",
-   "ts": "Mon, 12 Oct 2026 14:00:00 -0500"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610133893067180.html",
+   "ts": "2026-10-13 05:06:38"
   },
   {
    "cat": "macro",
    "title": "美元指数12日上涨0.37%",
-   "brief": "美元指数收涨0.37%至102.590，欧元、英镑走弱，反映避险与利率预期支撑美元。",
-   "chain": "美元走强→美股AI成长股贴现分母抬升、风险偏好收敛→A股算力链外资流入承压",
-   "impact": 4,
+   "brief": "美元指数上涨0.37%收于102.590,欧元英镑走弱,美元走强压制贵金属与新兴市场资产。",
+   "chain": "美元走强→实际利率与贴现率抬升→美股AI成长股估值承压→A股算力链外资流入放缓",
+   "impact": 5,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202610133893059396.html",
    "ts": "2026-10-13 03:46:11"
   },
   {
    "cat": "geo",
-   "title": "沙特利雅得市区传出剧烈爆炸声",
-   "brief": "当地时间12日晚利雅得市区拉响防空警报并传出剧烈爆炸声，胡塞武装称再次袭击沙特机场与空军基地。",
-   "chain": "中东冲突升级→避险情绪推升油价与黄金、美股风险偏好受压→A股算力链短期情绪扰动",
-   "impact": 9,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610133893052885.html",
-   "ts": "2026-10-13 02:11:27"
+   "title": "沙特称仍遭无人机导弹袭击 胡塞升级攻势",
+   "brief": "沙特称无人机和导弹仍持续 targeting 王国,伊朗支持的胡塞武装加大袭击力度,利雅得机场遇袭后局势紧张。",
+   "chain": "中东冲突升级→避险情绪升温+油价风险溢价→美股能源与军工受益、成长股承压→A股算力链情绪受抑",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/12/us-iran-war-trump-hormuz-saudi.html",
+   "ts": "Mon, 12 Oct 2026 13:01:49 GMT"
   },
   {
    "cat": "geo",
-   "title": "乌克兰基辅遭袭致1死11伤",
-   "brief": "当地时间12日基辅遭遇袭击，已造成1人死亡、11人受伤，俄乌冲突持续发酵。",
-   "chain": "俄乌战事延续→欧洲能源与避险溢价抬升、美股风险偏好受压→A股算力链情绪偏弱",
+   "title": "英国再指认伊朗涉费尔福德基地事件",
+   "brief": "英国首相伯纳姆10月12日在议会称,皇家空军费尔福德基地事件'极有可能'由伊朗伊斯兰革命卫队协调策划,无视伊朗抗议。",
+   "chain": "英伊对抗升级→中东地缘风险溢价上升→美股避险与能源板块波动→A股算力链风险偏好承压",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610133893051791.html",
-   "ts": "2026-10-13 01:58:42"
+   "url": "https://finance.eastmoney.com/a/202610133893064858.html",
+   "ts": "2026-10-13 04:54:00"
   },
   {
    "cat": "geo",
    "title": "伊朗称将回复美方霍尔木兹提议",
-   "brief": "伊朗表示将在审查结束后回复美国就霍尔木兹问题提出的方案，海峡局势仍待观察。",
-   "chain": "霍尔木兹博弈悬而未决→原油地缘溢价维持、避险情绪支撑金价→A股算力链情绪谨慎",
+   "brief": "伊朗表示将在审查结束后回复美国就霍尔木兹海峡提案的回应,海峡局势仍存不确定性。",
+   "chain": "霍尔木兹谈判悬而未决→原油供应风险溢价维持→美股能源波动、成长股承压→A股算力链情绪谨慎",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZ2U1d1RUamtzYmRiN0tHUHhlclVaNVNLYTN4V05LTF90R0xjRTVhNS14WW1qRlhSYlZ5RzJOM3RSSGtxMGpLUDNZc0MyWmNaU0l6SVdpZm1WT295MTFYRWRDSXFRbE0yZlpBQTRpUDlJbHVoTHJOQmRBSVBNakdKTmw1QnV1RHc5b0xzZ212SHQwZmhSZ3JUQmlvZ21IY19yMFVURk8xMUtQcUxfRTNpLUZjMkp2dmRDWVVxa1VyTQ?oc=5",
@@ -82,19 +92,19 @@
   },
   {
    "cat": "geo",
-   "title": "英首相称伊朗革命卫队或涉英基地事件",
-   "brief": "英国首相伯纳姆称伊朗革命卫队很可能与RAF Fairford事件有关，英伊紧张升温。",
-   "chain": "英伊对抗升级→中东地缘风险溢价抬升、避险资产受捧→A股算力链情绪承压",
+   "title": "俄方称欧盟单边制裁非法将回应",
+   "brief": "俄罗斯常驻欧盟代表团10月12日回应欧盟当天通过的对俄制裁名单,称单边制裁非法且毫无根据,俄将进行回应。",
+   "chain": "俄欧制裁对抗升级→能源与大宗供应扰动预期→美股能源板块波动→A股算力链风险偏好受抑",
    "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWWJ0NVNWU296YXNLZ1BDNC11S1V3MW5uY1ViQ2M3VmZ4eVZVLWtTT2x4MG4zOGJncUVrOFFyZkcwekpYZXpWRWhvc0lxWkhveHU3MmV0VW03dEo1RmN4dzVhSVFWajBzMXlZVDFQWXRkQ3V3eFdVTDdadFpJNjFCVzVlQ05WMkYxZEpmelV6RDdBaWhSN19YVDJROXcySFo0anBOWTNQYk81TENDaUY4?oc=5",
-   "ts": "2026-10-12T17:12:25+00:00"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610133893060711.html",
+   "ts": "2026-10-13 04:06:38"
   },
   {
    "cat": "oil",
    "title": "WTI原油结算价涨2.06%至93.74美元",
-   "brief": "WTI原油期货结算价报93.74美元/桶，上涨1.89美元、涨幅2.06%，地缘冲突推升油价。",
-   "chain": "中东袭击推升油价→Brent/WTI走强、东非进口成本上升→莫桑比克油气项目经济性改善但运营成本承压",
+   "brief": "WTI原油期货结算价报93.74美元/桶,上涨1.89美元涨幅2.06%,中东局势推升油价。",
+   "chain": "中东袭击升级→油价风险溢价上行→莫桑比克油气项目现金流与售价预期改善,但东非进口燃料成本上升",
    "impact": 8,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202610133893058228.html",
@@ -102,9 +112,9 @@
   },
   {
    "cat": "oil",
-   "title": "俄副总理：或增加全球柴油供应",
-   "brief": "俄副总理诺瓦克称有可能增加全球市场柴油供应，年底俄柴油出口或达300-350万吨。",
-   "chain": "俄柴油增供→成品油价格承压、原油裂解价差收窄→莫桑比克燃料进口成本与炼化利润受影响",
+   "title": "俄副总理:俄或增加全球柴油供应",
+   "brief": "俄副总理诺瓦克称有可能在全球市场增加柴油供应,到年底俄柴油出口或达300-350万吨。",
+   "chain": "俄柴油增供→成品油供应宽松预期→油价上行受抑→莫桑比克燃料进口成本压力略缓",
    "impact": 6,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202610133893057739.html",
@@ -112,29 +122,19 @@
   },
   {
    "cat": "oil",
-   "title": "欧佩克+部长在利雅得会议期间会晤",
-   "brief": "欧佩克+部长在利雅得会议期间举行会晤，市场关注后续产量政策信号。",
-   "chain": "OPEC+政策预期→原油供给路径与油价方向→影响莫桑比克油气项目长期价格锚",
-   "impact": 6,
+   "title": "俄副总理:俄美已开始柴油交易谈判",
+   "brief": "俄罗斯副总理诺瓦克10月12日表示,俄美企业已开始就柴油供应交易进行谈判。",
+   "chain": "俄美柴油谈判→成品油贸易格局或变→油价波动加大→莫桑比克东非燃料采购渠道与成本存变数",
+   "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610133893048766.html",
-   "ts": "2026-10-13 01:15:30"
-  },
-  {
-   "cat": "oil",
-   "title": "卡塔尔下调11月海上原油OSP贴水",
-   "brief": "卡塔尔将11月海上原油官方售价定为较阿曼/迪拜基准贴水8美元/桶，陆上贴水7.50美元。",
-   "chain": "中东官价贴水走阔→亚洲原油现货竞争加剧、油价结构偏弱→莫桑比克油气售价参考承压",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610133893054958.html",
-   "ts": "2026-10-13 02:14:41"
+   "url": "https://finance.eastmoney.com/a/202610133893061095.html",
+   "ts": "2026-10-13 04:12:14"
   },
   {
    "cat": "gas",
-   "title": "欧洲储气低位或再迎高价天然气年",
-   "brief": "欧洲天然气库存降至低位，市场预计欧洲将再迎一年高价气，LNG现货价格获支撑。",
-   "chain": "欧洲补库需求强→TTF与LNG现货价格走高→莫桑比克Cabo Delgado LNG出口议价与东非项目吸引力提升",
+   "title": "欧洲天然气库存触低 高价或再持续一年",
+   "brief": "欧洲天然气储备降至低位,预计将迎来又一个高价年,供应紧张格局延续。",
+   "chain": "欧洲库存低位→TTF气价维持高位→全球LNG现货竞争加剧→莫桑比克Rovuma LNG项目经济性与东非气源议价力提升",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYUNxdUxmaThaQ0FLdXRxaWdHNE0tMm5OZjVZenR0X1h2cEtmODNEckpiejRHc0dtZXZnajFRZUQyLVo5ckgyR1lyTEN4YzdNNVo4OGptVC1QMkxUYUVGMDJzZnR0RXFZcXZ2NU9JMDNhVDlmLWQyMmhwZHVSRnRXWWVyTnBfX2Z3UXlxT3JRTnZ3R0xMRktqb0gwTWZRVXl4emZqU1NzWHMxX0hBeVE?oc=5",
@@ -142,9 +142,9 @@
   },
   {
    "cat": "tech",
-   "title": "微软加大自研AI芯片减少依赖英伟达",
-   "brief": "微软将更多依赖自研AI芯片，降低对英伟达的依赖，反映大厂算力自给趋势。",
-   "chain": "大厂自研芯片→英伟达份额预期受扰、AI硬件供应链重构→A股算力链国产替代与光模块情绪分化",
+   "title": "微软加大自研AI芯片 减少依赖英伟达",
+   "brief": "微软将更多依赖自研AI芯片,降低对英伟达的依赖,反映大厂算力自给趋势。",
+   "chain": "大厂自研芯片→英伟达份额与定价承压→美股AI硬件链分化→A股算力链国产替代逻辑受关注",
    "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/10/12/microsoft-will-mainly-use-its-maia-chips-for-ai-inference.html",
@@ -153,18 +153,38 @@
   {
    "cat": "tech",
    "title": "美股涨跌不一 存储板块走弱",
-   "brief": "道指涨0.38%、纳指跌0.44%，存储板块走弱，Meta涨超3%，英伟达、苹果等涨跌互现。",
-   "chain": "存储走弱+纳指回落→美股AI硬件情绪降温→A股存储与算力链短期承压",
-   "impact": 5,
+   "brief": "美股三大指数收盘涨跌不一,道指涨0.38%纳指跌0.44%,Meta涨超3%,存储板块走弱。",
+   "chain": "存储走弱+纳指回落→AI硬件链分化→A股存储与算力链情绪承压",
+   "impact": 6,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202610133893060236.html",
    "ts": "2026-10-13 04:00:36"
   },
   {
    "cat": "tech",
+   "title": "纳微半导体与英伟达合作800V电源板",
+   "brief": "纳微半导体与英伟达合作开发面向下一代AI基础设施的800V转12V电源转换板。",
+   "chain": "电源架构升级→AI数据中心供电链受益→美股功率半导体走强→A股电源与算力配套链映射",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610133893061678.html",
+   "ts": "2026-10-13 04:17:29"
+  },
+  {
+   "cat": "tech",
+   "title": "英特尔开始向客户提供GPU D系列样品",
+   "brief": "英特尔加速推进面向智能体AI时代的开放基础设施,开始向客户提供GPU D系列样品。",
+   "chain": "英特尔GPU入局→AI算力供给多元化→英伟达垄断预期松动→A股算力链竞争格局受关注",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610133893059241.html",
+   "ts": "2026-10-13 03:34:37"
+  },
+  {
+   "cat": "tech",
    "title": "IonQ以13亿美元全股票收购Elisity",
-   "brief": "量子计算公司IonQ将以最高13亿美元全股票交易收购网络安全公司Elisity。",
-   "chain": "量子+安全并购→美股科技并购活跃度提升→A股量子计算与网络安全主题情绪受提振",
+   "brief": "量子计算公司IonQ将以全股票方式收购网络安全公司Elisity,交易价值最高13亿美元。",
+   "chain": "量子+安全并购→科技板块整合活跃→美股量子计算概念波动→A股量子与安全链情绪受带动",
    "impact": 4,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/10/12/ionq-elisity-acquisition-cybersecurity.html",
@@ -173,8 +193,8 @@
   {
    "cat": "ai",
    "title": "Meta发布Muse Wonder AI模型",
-   "brief": "Meta推出Muse Wonder AI模型，测试用户付费意愿，加码AI商业化探索。",
-   "chain": "Meta新模型→美股AI应用变现预期升温→A股AI应用与算力链情绪获支撑",
+   "brief": "Meta推出Muse Wonder AI模型,测试用户付费意愿,加码AI商业化。",
+   "chain": "Meta新模型→AI应用变现探索→美股AI应用链情绪提振→A股AI应用与算力链映射",
    "impact": 6,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/10/12/meta-muse-wonder-ai-model-agent.html",
@@ -183,8 +203,8 @@
   {
    "cat": "ai",
    "title": "特朗普政府拟将AI测试机构人员调至白宫",
-   "brief": "特朗普政府计划将人工智能测试机构人员调至白宫，AI治理与监管架构面临调整。",
-   "chain": "AI监管权集中→美股AI政策不确定性上升→A股算力链关注国产AI治理与合规主线",
+   "brief": "特朗普政府计划将人工智能测试机构人员调至白宫,AI治理与监管架构面临调整。",
+   "chain": "AI监管架构调整→政策不确定性上升→美股AI板块风险偏好波动→A股AI治理与算力链情绪受关注",
    "impact": 5,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202610133893058142.html",
@@ -192,23 +212,13 @@
   },
   {
    "cat": "ai",
-   "title": "英特尔向客户提供GPU D系列样品",
-   "brief": "英特尔加速推进面向智能体AI时代的开放基础设施，开始向客户提供GPU D系列样品。",
-   "chain": "英特尔GPU入局→AI算力供给多元化、英伟达垄断预期松动→A股算力链国产GPU竞争格局受关注",
+   "title": "特朗普电网安全令或反噬美国AI繁荣",
+   "brief": "分析称特朗普的电网安全行政令可能反噬美国AI繁荣,电力供应成AI扩张瓶颈。",
+   "chain": "电网安全令→AI数据中心供电受限→美股AI基建链承压→A股算力链电力配套逻辑受关注",
    "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610133893059241.html",
-   "ts": "2026-10-13 03:34:37"
-  },
-  {
-   "cat": "ai",
-   "title": "a16z洽谈扩大TypeSafe AI融资股票供应",
-   "brief": "Andreessen Horowitz洽谈在初创公司TypeSafe AI融资中扩大股票供应，AI一级市场热度延续。",
-   "chain": "AI创投活跃→美股AI一级估值支撑二级情绪→A股AI主题风险偏好获提振",
-   "impact": 3,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610133893051582.html",
-   "ts": "2026-10-13 01:50:58"
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/Trumps-Grid-Security-Order-Could-Backfire-on-Americas-AI-Boom.html",
+   "ts": "Mon, 12 Oct 2026 13:00:00 -0500"
   }
  ]
 }
