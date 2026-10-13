@@ -1,6 +1,6 @@
 {
  "asof": "2026-10-14",
- "fetched_at": "2026-10-14T02:19+08:00",
+ "fetched_at": "2026-10-14T04:00+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -14,13 +14,13 @@
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 2,
-   "非洲科技·聚合": 8,
-   "中非科技·聚合": 17
+   "非洲科技·聚合": 10,
+   "中非科技·聚合": 18
   },
   "total": 60,
   "ai_flagged": 17,
-  "aiinfra_flagged": 1,
-  "countries": 6
+  "aiinfra_flagged": 2,
+  "countries": 7
  },
  "items": [
   {
@@ -49,6 +49,16 @@
    "source": "TechCabal",
    "url": "https://techcabal.com/2026/10/13/africa-bitcoin-corporation-boardroom-war/",
    "date": "Tue, 13 Oct 2026 15:36:21 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Africa's cyberthreats are growing faster than the global average",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPNnZaWW1VbWlpc3Fzb3FhczVFeXE4NmxVUzJ3c25jMFBBa1BpZU1YTjl5Zzh4emNGRGFFc2djc0hjZ0tkMFJIa2hrSkliS2l1b0dWOVFwUUY5Sk41eTZrcnlmbFVfaDhhWGJ1MU1GYzFQaXdjdjlZNUloVUF4M2",
+   "source": "Connecting Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNnZaWW1VbWlpc3Fzb3FhczVFeXE4NmxVUzJ3c25jMFBBa1BpZU1YTjl5Zzh4emNGRGFFc2djc0hjZ0tkMFJIa2hrSkliS2l1b0dWOVFwUUY5Sk41eTZrcnlmbFVfaDhhWGJ1MU1GYzFQaXdjdjlZNUloVUF4M2lLdmw4VHpFSVlUU0ttcHFsaWNEUWxrVVJVV0F0N3I5eW15Rmt1M19FVnJNXzZSTjk5aQ?oc=5",
+   "date": "Tue, 13 Oct 2026 15:33:45 GMT",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -189,16 +199,6 @@
    "source": "TechAfrica News",
    "url": "https://techafricanews.com/2026/10/13/airtel-africa-seychelles-digital-transformation-5g-investment/",
    "date": "Tue, 13 Oct 2026 12:31:36 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "AI-Powered Bond Rating Startup Says Open AI Debt Is Junk, Anthropic Is Barely Investment Grade",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWTg4dEZZdHVLZFRTY0NvcW5ZYVh6THV2VHNHNTlKZGVYT0ZySU5TZk5KdjcyV0Q0eGVRMWtJaEIxb2o2NHNtMDJweHJOV2RJVUtZS1hSX3k2MnJaRHhJa2JDWENiU25LYkR6VEhWdVV4dXhoUUthaUpXR1Fiel",
-   "source": "Forbes Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWTg4dEZZdHVLZFRTY0NvcW5ZYVh6THV2VHNHNTlKZGVYT0ZySU5TZk5KdjcyV0Q0eGVRMWtJaEIxb2o2NHNtMDJweHJOV2RJVUtZS1hSX3k2MnJaRHhJa2JDWENiU25LYkR6VEhWdVV4dXhoUUthaUpXR1FielRpRHhHOTlNY3d6cUlDVXExcUMwRjdaNDZJYkxnYXZDUVZON2JXRk5qdU5XOVRia19MWXFPSWpOdXQ5eFpUNDhfbXhKb2t4blVUdDkyWVQ2S0h0OGx0d2VlUmIzYXVSZm1EWG56VQ?oc=5",
-   "date": "Tue, 13 Oct 2026 12:27:33 GMT",
    "country": null,
    "is_ai": true,
    "is_aiinfra": false
@@ -354,6 +354,26 @@
    "is_aiinfra": false
   },
   {
+   "title": "FiveNines joins Nexus in Morocco AI data center project",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxOY3RiVzhydjlIVFBIc09MY0hPbDBQMkJGTURnXzdueFVMOGY1aTI2TUlSdnpCY2JTVENIRFZtYjNoMlRsd21FaXVhcUhSaUxHWkdrdW9OdldwS1N6YWlVaU9xc0o4OWxQd1JDekwtSWpUVHpHWGkyNGREZXJ4UE",
+   "source": "Connecting Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY3RiVzhydjlIVFBIc09MY0hPbDBQMkJGTURnXzdueFVMOGY1aTI2TUlSdnpCY2JTVENIRFZtYjNoMlRsd21FaXVhcUhSaUxHWkdrdW9OdldwS1N6YWlVaU9xc0o4OWxQd1JDekwtSWpUVHpHWGkyNGREZXJ4UEdaLWh2ZnVON3g1TlIwMzRDVl83MFc3SEJTVkZJOUx4dGJCZWZj?oc=5",
+   "date": "Tue, 13 Oct 2026 08:46:23 GMT",
+   "country": "🇲🇦 摩洛哥",
+   "is_ai": true,
+   "is_aiinfra": true
+  },
+  {
+   "title": "Nvidia Loses Ground to Huawei in China AI Chip Market",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPdTVaZDAyUHM3bmc3dnFWVUNCczBfQXdMTXBXeDFRN3BGUTRRRmhxSXJlNmhuOGdKVlNkR0lWajktNWRxMW8temlxbTJpbFd1M3JNUGRlM2Jmd0swd1N0WURidjBaZDdfRlprRHdjTG0zWHNtTTdrS2VkMG91OD",
+   "source": "StratNews Global·聚合",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdTVaZDAyUHM3bmc3dnFWVUNCczBfQXdMTXBXeDFRN3BGUTRRRmhxSXJlNmhuOGdKVlNkR0lWajktNWRxMW8temlxbTJpbFd1M3JNUGRlM2Jmd0swd1N0WURidjBaZDdfRlprRHdjTG0zWHNtTTdrS2VkMG91ODY4VTdSeC0xd2tkU2hHdC13?oc=5",
+   "date": "Tue, 13 Oct 2026 08:28:10 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
    "title": "DFA steps up fibre-to-the-business strategy",
    "brief": "Dark Fibre Africa shifts from network upgrades, to expanding its footprint by connecting more commercial properties.",
    "source": "ITWeb Africa",
@@ -439,6 +459,16 @@
    "source": "ITWeb Africa",
    "url": "https://www.itweb.co.za/article/last-call-for-cios-to-participate-in-itweb-brainstorm-2026-survey/LPwQ57lbOYRqNgkj",
    "date": "Tue, 13 Oct 2026 08:09:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Unlocking Cross-Border Fintech in West Africa",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTFBRTzBtMDdjUEVsd19pNnJuSFhCc3E0SWlGWUJKTlpMX1M5SzFIcFJRaVpoUHRWNFVwZmJCcS1FT3N6OEt3YUt1WWVMRWFROGZrRVR2cXVyQy1qYXVEc0k1Z3VucTkzbC05M1BaRm9ISWJOVjJBY2ptVVdYckE?oc",
+   "source": "Global Finance Magazine·聚合",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBRTzBtMDdjUEVsd19pNnJuSFhCc3E0SWlGWUJKTlpMX1M5SzFIcFJRaVpoUHRWNFVwZmJCcS1FT3N6OEt3YUt1WWVMRWFROGZrRVR2cXVyQy1qYXVEc0k1Z3VucTkzbC05M1BaRm9ISWJOVjJBY2ptVVdYckE?oc=5",
+   "date": "Tue, 13 Oct 2026 06:00:00 GMT",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -589,36 +619,6 @@
    "source": "TheStreet·聚合",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd2hsT25VQmFoMGZ0ZVRrYmFMM1pxMl8xeVJFZGVld1hKNEpISnFSQmtSZjdJY2dmdjlfbUVrTVVOMnBHZmxPSW5WaHpkTHpqUFY3TXp0ZDZhMFY5dnBHd2ZZeWxocGhTMWR0ZU9kcXZWdFhteDRRMDJxMTV4U1QxSk1EMWpZazlwcDhqNnpnNGs0OGRySDR5ZElR?oc=5",
    "date": "Fri, 09 Oct 2026 22:03:00 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "AI is making it easier to build games in Africa. Making money is still the hard part",
-   "brief": "AI is transforming African game development, but local studios must turn viral hits into sustainable businesses?",
-   "source": "Condia",
-   "url": "https://thecondia.com/ai-african-game-development-monetisation/",
-   "date": "Fri, 09 Oct 2026 16:00:00 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Local investors acquire South African travel tech platform LekkeSlaap",
-   "brief": "A consortium of local investors has acquired LekkeSlaap, a South African travel startup. The financial terms of the deal remain undisclosed.",
-   "source": "Condia",
-   "url": "https://thecondia.com/local-investors-acquire-lekkeslaap-travel-tech/",
-   "date": "Fri, 09 Oct 2026 11:00:00 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Inside Flutterwave CEO Olugbenga Agboola’s startup portfolio",
-   "brief": "Olugbenga Agboola’s Resilience17 portfolio spans fintech and startups in healthcare, defence, aviation, media and more across Africa.",
-   "source": "Condia",
-   "url": "https://thecondia.com/olugbenga-agboola-startup-investments-resilience17/",
-   "date": "Fri, 09 Oct 2026 08:21:00 +0000",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
