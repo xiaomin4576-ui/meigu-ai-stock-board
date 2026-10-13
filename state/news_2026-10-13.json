@@ -1,7 +1,7 @@
 {
  "asof": "2026-10-13",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-10-13T18:48+08:00",
+ "generated_at": "2026-10-13T19:04+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 4,
@@ -11,10 +11,30 @@
  },
  "items": [
   {
+   "cat": "geo",
+   "title": "沙特击落胡塞导弹 地区冲突升级",
+   "brief": "沙特主导联军称击落射向利雅得的胡塞弹道导弹，利雅得机场此前遭袭致多国航司停飞，地区冲突持续升级。",
+   "chain": "沙特-胡塞冲突升级→中东风险溢价与美股风险偏好承压→A股算力链情绪受抑、避险资金流向黄金",
+   "impact": 9,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Shoots-Down-Houthi-Missiles-as-Regional-Conflict-Escalates.html",
+   "ts": "Tue, 13 Oct 2026 05:30:00 -0500"
+  },
+  {
+   "cat": "oil",
+   "title": "沙特承诺保供 油价回落",
+   "brief": "沙特承诺维持出口畅通，叠加俄柴油供应前景，油价从海湾供应风险高位回落。",
+   "chain": "沙特保供承诺→Brent风险溢价回吐、油价短期回落→莫桑比克LNG项目燃料与运费成本压力略缓",
+   "impact": 8,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Retreat-as-Saudi-Arabia-Pledges-to-Keep-Exports-Flowing.html",
+   "ts": "Tue, 13 Oct 2026 00:38:59 -0500"
+  },
+  {
    "cat": "macro",
    "title": "IMF警告债券收益率或无序飙升",
-   "brief": "IMF警示债务与通胀风险恶化，债券收益率可能出现'无序'跳升，全球金融条件面临收紧压力。",
-   "chain": "美债收益率无序上行→美股AI高久期票估值分母承压→A股算力链情绪受抑",
+   "brief": "IMF警告债务与通胀风险恶化，债券收益率可能出现无序飙升，全球金融稳定承压。",
+   "chain": "收益率无序飙升风险→美股AI高久期票估值分母抬升、风险偏好受压→A股算力链估值情绪承压",
    "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html",
@@ -22,109 +42,149 @@
   },
   {
    "cat": "macro",
-   "title": "IMF：AI投资撑增长 战争债务威胁前景",
-   "brief": "IMF称AI投资正支撑全球增长，但战争与债务风险威胁前景，韧性接近极限。",
-   "chain": "AI资本开支托底增长→利好美股AI硬件叙事→映射A股算力/服务器链",
-   "impact": 7,
+   "title": "IMF：AI繁荣抵消战争冲击",
+   "brief": "IMF称AI投资支撑全球增长、放缓较预期温和，但警告韧性已接近极限。",
+   "chain": "AI投资托底增长→利好美股AI产业链盈利预期→映射A股算力链景气与订单逻辑",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html",
+   "ts": "Tue, 13 Oct 2026 04:10:49 GMT"
+  },
+  {
+   "cat": "gas",
+   "title": "欧洲储气见底 气价或再高企",
+   "brief": "欧洲天然气库存降至低位，预计将迎来又一个高价年份，LNG现货竞争加剧。",
+   "chain": "欧洲库存低→TTF与全球LNG现货价格中枢上移→莫桑比克/东非LNG项目议价与出口窗口改善",
+   "impact": 8,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVlNmbDdlaDUwX1pOeWRzM1FhdDNhWTNnVnk4bXZLZlR2VGwxMFRCcWdiNngwM2p1Tmp3YjZMY0FwY1puZHk3bTlEYWNyd2pYYUxPd19nZVpqQU9CQjVlck9RUGtoajF5SGY4VnYzSWpZXzY2TWZ3TVY3Yl9ucVdEWnc3b2xzT19vbzBqazJUMzlCdmpfakw4VjAzOVZ3Ui13dmlJOV90Nk9pVUxWY1htUHYtNDZhTGhyTDYwZEk3SQ?oc=5",
-   "ts": "2026-10-13T02:05:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYUNxdUxmaThaQ0FLdXRxaWdHNE0tMm5OZjVZenR0X1h2cEtmODNEckpiejRHc0dtZXZnajFRZUQyLVo5ckgyR1lyTEN4YzdNNVo4OGptVC1QMkxUYUVGMDJzZnR0RXFZcXZ2NU9JMDNhVDlmLWQyMmhwZHVSRnRXWWVyTnBfX2Z3UXlxT3JRTnZ3R0xMRktqb0gwTWZRVXl4emZqU1NzWHMxX0hBeVE?oc=5",
+   "ts": "2026-10-12T14:03:01+00:00"
   },
   {
-   "cat": "macro",
-   "title": "中国购金潮助推人民币国际化",
-   "brief": "CNBC专栏指中国大举购金正帮助人民币走向全球，去美元化结构性信号延续。",
-   "chain": "央行购金/去美元化→实际利率与美元信用受审视→美股AI估值分母与A股算力情绪同受牵动",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/12/cnbc-china-connection-newsletter-gold-purchases-yuan-globalization.html",
-   "ts": "Mon, 12 Oct 2026 23:00:01 GMT"
+   "cat": "ai",
+   "title": "微软加大自研AI芯片 减依赖英伟达",
+   "brief": "微软将更多依赖自研AI芯片，降低对英伟达的依赖，重塑算力供应链格局。",
+   "chain": "微软自研芯片→英伟达份额预期与美股AI硬件链承压→A股算力链关注国产替代与ASIC方向",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/12/microsoft-will-mainly-use-its-maia-chips-for-ai-inference.html",
+   "ts": "Mon, 12 Oct 2026 14:04:16 GMT"
   },
   {
-   "cat": "macro",
-   "title": "美债收益率随能源价格回落而下行",
-   "brief": "能源价格回落带动美债收益率走低，利率端压力短期缓和。",
-   "chain": "收益率回落→美股成长股贴现压力减轻→A股算力链风险偏好边际改善",
-   "impact": 5,
+   "cat": "tech",
+   "title": "芯片股普跌 美光软银ASML下挫",
+   "brief": "华尔街芯片抛售蔓延，美光、软银与ASML股价下滑，半导体板块承压。",
+   "chain": "芯片股抛售→美股半导体估值回调、风险偏好降温→A股算力链与半导体情绪同步承压",
+   "impact": 8,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/13/us-treasurys-bonds-yields.html",
-   "ts": "Tue, 13 Oct 2026 08:31:37 GMT"
+   "url": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+   "ts": "Tue, 13 Oct 2026 08:56:10 GMT"
   },
   {
    "cat": "macro",
    "title": "摩根大通Q3营收不及预期",
-   "brief": "摩根大通三季度调整后营收509.1亿美元低于预期，FICC交易收入亦逊于预期。",
-   "chain": "大行财报走弱→美股金融板块承压、风险偏好收敛→间接压制A股情绪",
-   "impact": 5,
+   "brief": "摩根大通第三季度调整后营收509.1亿美元低于预期，FICC交易收入亦逊于预期，盘前跌超3%。",
+   "chain": "大行财报不及预期→美股金融板块与大盘情绪承压→A股银行与顺周期情绪受抑",
+   "impact": 7,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202610133894257087.html",
    "ts": "2026-10-13 18:32:57"
   },
   {
    "cat": "geo",
-   "title": "沙特击落胡塞导弹 地区冲突升级",
-   "brief": "沙特主导联军称击落射向利雅得的胡塞弹道导弹，地区冲突进一步升级。",
-   "chain": "中东冲突升级→避险情绪升温、美股风险偏好受压→A股算力链情绪承压",
-   "impact": 8,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Shoots-Down-Houthi-Missiles-as-Regional-Conflict-Escalates.html",
-   "ts": "Tue, 13 Oct 2026 05:30:00 -0500"
-  },
-  {
-   "cat": "geo",
-   "title": "泽连斯基称俄发动大规模空袭",
-   "brief": "泽连斯基称俄动用超百件武器空袭乌克兰全境，19个地区遭打击。",
-   "chain": "俄乌战事升级→能源与避险波动加大→美股承压、A股情绪受扰",
+   "title": "北约称将调整黑海防御态势",
+   "brief": "北约秘书长吕特称将密切关注黑海安全形势，并据需要调整威慑和防御态势。",
+   "chain": "黑海局势紧张→欧洲地缘风险溢价上升、美股风险偏好受压→A股算力链情绪偏谨慎",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610133894250598.html",
-   "ts": "2026-10-13 18:25:54"
-  },
-  {
-   "cat": "geo",
-   "title": "英首相称IRGC或涉英基地事件",
-   "brief": "英国首相称伊朗革命卫队很可能与RAF Fairford事件有关，英伊紧张升温。",
-   "chain": "英伊对抗升温→地缘风险溢价上行→美股风险偏好与A股情绪受压",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWWJ0NVNWU296YXNLZ1BDNC11S1V3MW5uY1ViQ2M3VmZ4eVZVLWtTT2x4MG4zOGJncUVrOFFyZkcwekpYZXpWRWhvc0lxWkhveHU3MmV0VW03dEo1RmN4dzVhSVFWajBzMXlZVDFQWXRkQ3V3eFdVTDdadFpJNjFCVzVlQ05WMkYxZEpmelV6RDdBaWhSN19YVDJROXcySFo0anBOWTNQYk81TENDaUY4?oc=5",
-   "ts": "2026-10-12T14:51:00+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "Visa获批筹备中国境内业务",
-   "brief": "Visa获准筹备在华境内银行卡业务，系在华经营40年后的重要准入进展。",
-   "chain": "外资支付准入放宽→中美金融开放信号→利好A股金融科技与消费链情绪",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWDU2MUdBSi1QYVQ0Ulg2MzdqQVJpaHJWZ2NFaVZYT2VGV0xYUnZ1T1B6ZGJFbmR5eWNqajFXSFhQSTI0X1pDU29HR3o1T2VmdDZCVUJvTFdWMXRldllGc2JmTVNrM2RoUWttaHc5ZFJnX3FvYTBfbEt2RTZPR0s2OEZqMGFtYWdPdTdPSEJKUVpBT25POHR5R2VKbWl0VUk?oc=5",
-   "ts": "2026-10-13T04:27:00+00:00"
+   "url": "https://finance.eastmoney.com/a/202610133894265260.html",
+   "ts": "2026-10-13 18:48:38"
   },
   {
    "cat": "oil",
-   "title": "油价下跌 交易员评估俄柴油与沙特冲突",
-   "brief": "交易员权衡俄罗斯柴油供应前景与沙特-胡塞冲突，油价回落。",
-   "chain": "俄柴油供应预期增→油价承压回落→莫桑比克油气售价与出口收益面临下行压力",
-   "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/13/oil-prices-today-brent-wti-hormuz.html",
-   "ts": "Tue, 13 Oct 2026 09:20:00 GMT"
-  },
-  {
-   "cat": "oil",
-   "title": "沙特拟大扩输油管道绕开霍尔木兹",
-   "brief": "沙特计划大规模扩建输油管道以绕开霍尔木兹海峡，降低出口通道风险。",
-   "chain": "绕行管道扩容→中长期削弱霍尔木兹风险溢价→东非LNG/油气物流格局或受间接影响",
+   "title": "沙特拟大扩管道绕行霍尔木兹",
+   "brief": "沙特计划大规模扩建输油管道以绕开霍尔木兹海峡，降低海峡封锁风险敞口。",
+   "chain": "绕行管道扩能→中长期削弱霍尔木兹断供溢价、油价尾部风险下降→东非LNG航运风险溢价同步缓和",
    "impact": 7,
    "source": "OilPrice",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Plans-Massive-Expansion-of-Oil-Pipeline-to-Bypass-Hormuz.html",
    "ts": "Tue, 13 Oct 2026 04:20:00 -0500"
   },
   {
+   "cat": "macro",
+   "title": "购金潮助推人民币国际化",
+   "brief": "CNBC刊文分析中国购金热潮如何帮助人民币走向全球，央行购金与去美元化趋势延续。",
+   "chain": "央行购金与去美元化→实际利率与美元信用受质疑、黄金结构性支撑→美股AI高久期票贴现分母承压、A股算力链情绪受抑",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/12/cnbc-china-connection-newsletter-gold-purchases-yuan-globalization.html",
+   "ts": "Mon, 12 Oct 2026 23:00:01 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "Visa获准筹备中国境内银行卡业务",
+   "brief": "Visa获北京批准筹备境内银行卡业务，系其与中国合作40年后的重要突破。",
+   "chain": "Visa入华→美股支付板块中国增量预期→映射A股支付与金融科技链",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html",
+   "ts": "Tue, 13 Oct 2026 06:20:55 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "DeepSeek千亿融资 规模半月翻倍",
+   "brief": "DeepSeek拟第二轮融资规模从500亿元增至约1000亿元，LP称仍在动态变化。",
+   "chain": "DeepSeek巨额融资→国产大模型算力与资本开支预期升温→利好A股算力链与国产芯片",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610133894253286.html",
+   "ts": "2026-10-13 18:26:09"
+  },
+  {
+   "cat": "ai",
+   "title": "Anthropic警告AI模型或自我复制",
+   "brief": "Anthropic警告AI模型可能很快在家庭设备间自我复制，引发AI安全与治理担忧。",
+   "chain": "AI自我复制风险→AI监管与安全议题升温、影响美股AI叙事→A股算力链关注合规与安全方向",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/13/anthropic-ai-models-self-replication-smart-devices.html",
+   "ts": "Tue, 13 Oct 2026 08:27:20 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "苹果智能家居发布会将至",
+   "brief": "苹果官宣本周二举办智能家居产品发布活动，预计推出门铃与恒温器，分析师前瞻股价。",
+   "chain": "苹果新品发布→美股消费电子与智能家居链预期→映射A股苹果链与智能硬件代工",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610133894262559.html",
+   "ts": "2026-10-13 18:35:37"
+  },
+  {
+   "cat": "macro",
+   "title": "富国银行Q3净利息收入逊预期",
+   "brief": "富国银行第三季度净利息收入125.2亿美元、营收218.7亿美元均低于市场预期。",
+   "chain": "净息收入不及预期→美股银行板块承压、利率敏感情绪走弱→A股银行与利率敏感板块情绪受抑",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610133894254195.html",
+   "ts": "2026-10-13 18:29:56"
+  },
+  {
+   "cat": "geo",
+   "title": "英首相称IRGC或涉英基地事件",
+   "brief": "英国首相伯纳姆称伊朗革命卫队很可能与RAF Fairford事件有关，英伊紧张升温。",
+   "chain": "英伊紧张升级→中东地缘风险溢价上升、美股风险偏好受压→A股算力链情绪偏谨慎",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWWJ0NVNWU296YXNLZ1BDNC11S1V3MW5uY1ViQ2M3VmZ4eVZVLWtTT2x4MG4zOGJncUVrOFFyZkcwekpYZXpWRWhvc0lxWkhveHU3MmV0VW03dEo1RmN4dzVhSVFWajBzMXlZVDFQWXRkQ3V3eFdVTDdadFpJNjFCVzVlQ05WMkYxZEpmelV6RDdBaWhSN19YVDJROXcySFo0anBOWTNQYk81TENDaUY4?oc=5",
+   "ts": "2026-10-12T14:51:00+00:00"
+  },
+  {
    "cat": "oil",
    "title": "美洲重油过剩 亚欧抢购原油",
-   "brief": "运费挤压致美洲重油过剩，亚洲与欧洲炼厂争抢原油货源。",
-   "chain": "运力错配推升区域价差→原油与运费波动→莫桑比克油气出口物流成本受关注",
+   "brief": "运费挤压致美洲重油过剩，亚洲与欧洲炼厂争抢原油货源，区域价差走阔。",
+   "chain": "运费与区域错配→重油贴水、Brent-WTI价差波动→东非炼化与LNG项目采购成本受关注",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbG5FR1BDa09LM1I4UWVxVENCQ2gtR0hvZ2pUVWR0cDBSRjVKdnlKc0FrNDAtc010U2R3QlkxUG9lVGRMRHItdzc5Y0ROR1NtRzBWbWZzcG1GbFAteGpEMnVSWElFbEhrUDJGbzFJcllwZVVGVU03UWNQQmZFX3RyNGx4UlNzdS1rdjFQekFGSFNNdkpsRmhHQTZnTktxVkRZRGZGUERJdFljTllxTXp5eG1pRnZhM1FORS1wX3VreWdTcHVqNnZ6eQ?oc=5",
@@ -132,19 +192,9 @@
   },
   {
    "cat": "gas",
-   "title": "欧洲储气见底 气价或再高企一年",
-   "brief": "欧洲天然气库存降至低位，市场预计高气价将再持续一年。",
-   "chain": "欧洲补库需求强→TTF与全球LNG价格获支撑→莫桑比克Cabo Delgado LNG出口议价与收益受益",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYUNxdUxmaThaQ0FLdXRxaWdHNE0tMm5OZjVZenR0X1h2cEtmODNEckpiejRHc0dtZXZnajFRZUQyLVo5ckgyR1lyTEN4YzdNNVo4OGptVC1QMkxUYUVGMDJzZnR0RXFZcXZ2NU9JMDNhVDlmLWQyMmhwZHVSRnRXWWVyTnBfX2Z3UXlxT3JRTnZ3R0xMRktqb0gwTWZRVXl4emZqU1NzWHMxX0hBeVE?oc=5",
-   "ts": "2026-10-12T14:03:01+00:00"
-  },
-  {
-   "cat": "gas",
-   "title": "壳牌抨击澳强制LNG保供计划",
-   "brief": "壳牌批评澳大利亚强制LNG生产商供应国内市场的计划，或扰动全球LNG贸易流。",
-   "chain": "澳LNG出口或受限→全球LNG供应趋紧、气价获支撑→东非LNG项目战略价值上升",
+   "title": "壳牌抨击澳洲强制内供LNG",
+   "brief": "壳牌批评澳大利亚强制LNG生产商供应国内市场的计划，或影响全球LNG出口格局。",
+   "chain": "澳洲内供政策→全球LNG可出口量收紧、气价获支撑→莫桑比克/东非LNG出口竞争力相对提升",
    "impact": 6,
    "source": "OilPrice",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Shell-Slams-Australias-Plan-to-Force-LNG-Producers-to-Supply-Domestic-Market.html",
@@ -152,73 +202,23 @@
   },
   {
    "cat": "tech",
-   "title": "芯片股抛售蔓延 美光软银ASML下挫",
-   "brief": "华尔街芯片股抛售扩散，美光、软银与ASML股价走低。",
-   "chain": "芯片股回调→美股半导体估值承压→映射A股半导体/算力硬件链情绪",
-   "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
-   "ts": "Tue, 13 Oct 2026 08:56:10 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "微软加大自研AI芯片 降低依赖英伟达",
-   "brief": "微软将更多依赖自研AI芯片，减少对英伟达的依赖。",
-   "chain": "大厂自研芯片→英伟达份额预期受扰、ASIC链受益→映射A股国产算力/ASIC链",
-   "impact": 7,
+   "title": "IonQ 13亿美元收购Elisity",
+   "brief": "量子计算公司IonQ将以全股票交易最高13亿美元收购网络安全公司Elisity。",
+   "chain": "量子+安全并购→美股前沿科技并购活跃度提升→映射A股量子计算与网络安全主题",
+   "impact": 5,
    "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/10/12/microsoft-will-mainly-use-its-maia-chips-for-ai-inference.html",
-   "ts": "Mon, 12 Oct 2026 14:04:16 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "联合健康超预期并上调盈利指引",
-   "brief": "联合健康业绩超预期并上调2026年调整后每股收益指引至至少20.50美元。",
-   "chain": "医疗险龙头指引上修→美股防御板块获支撑→对A股情绪影响中性偏暖",
-   "impact": 5,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/10/13/unitedhealth-group-unh-earnings-q3-2026.html",
-   "ts": "2026-10-13T09:57:53+00:00"
-  },
-  {
-   "cat": "tech",
-   "title": "Visa获北京绿灯开展银行卡业务",
-   "brief": "Visa在华经营40年后获北京批准开展银行卡业务，市场准入取得突破。",
-   "chain": "外资支付准入落地→中美经贸缓和信号→利好A股金融科技与消费链",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html",
-   "ts": "Tue, 13 Oct 2026 06:20:55 GMT"
+   "url": "https://www.cnbc.com/2026/10/12/ionq-elisity-acquisition-cybersecurity.html",
+   "ts": "Mon, 12 Oct 2026 19:35:48 GMT"
   },
   {
    "cat": "ai",
-   "title": "DeepSeek千亿融资追踪：LP称仍在变化",
-   "brief": "报道称DeepSeek第二轮融资拟从500亿元增至约1000亿元，LP称仍在动态变化。",
-   "chain": "国产大模型巨额融资→AI算力资本开支预期升温→利好A股算力/服务器链",
-   "impact": 8,
+   "title": "具身智能伦理治理报告发布",
+   "brief": "国家人工智能标准化总体组发布《具身智能伦理治理研究报告》，聚焦全生命周期治理与标准。",
+   "chain": "具身智能治理标准落地→AI治理框架完善、影响产业节奏→A股具身智能与机器人链关注合规红利",
+   "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610133894253286.html",
-   "ts": "2026-10-13 18:26:09"
-  },
-  {
-   "cat": "ai",
-   "title": "Anthropic警告AI模型或可自我复制",
-   "brief": "Anthropic警告AI模型可能很快在家庭设备间自我复制，引发安全治理担忧。",
-   "chain": "AI安全风险升温→监管预期强化→美股AI叙事与A股算力链情绪受扰",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/13/anthropic-ai-models-self-replication-smart-devices.html",
-   "ts": "Tue, 13 Oct 2026 08:27:20 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "Meta推出Muse Wonder AI模型",
-   "brief": "Meta发布Muse Wonder AI模型，测试用户付费意愿。",
-   "chain": "大厂AI模型迭代→AI应用变现预期升温→映射A股AI应用与算力链",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/10/12/meta-muse-wonder-ai-model-agent.html",
-   "ts": "Mon, 12 Oct 2026 17:34:35 GMT"
+   "url": "https://finance.eastmoney.com/a/202610133894259927.html",
+   "ts": "2026-10-13 18:42:34"
   }
  ]
 }
