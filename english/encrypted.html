@@ -45,7 +45,7 @@ const DATA={"s": "kiiSaSQxpHPLMk9fX8Nqkg==", "i": "9LqiF6j2am610wkY", "c": "9UcQ
 const SKEY='lumora-english-pass';
 function prepareEnglish(html){
   const game=/<script>\s*\/\* Continuous voice practice\.[\s\S]*?<\/script>/;
-  return html.replace(game,()=>"<script src=\"/english/game-runtime.js?v=63ce493d8eb75907\" integrity=\"sha384-vaBhhc8mLojPTJx4BXstpt9gXt996In/Pb6N9zw/KMvwnbJSzWbwdcjc8vjzhjxG\" crossorigin=\"anonymous\"><\/script>");
+  return html.replace(game,()=>"<script src=\"/english/game-runtime.js?v=ae429f8eadf972d1\" integrity=\"sha384-rs+GazgCoyw/gdLi7qDQfEyOZv0LhN+DJPl2K49UcaPjYUuEIKtYBewtKwPNG7AZ\" crossorigin=\"anonymous\"><\/script>");
 }
 const b2a=b=>Uint8Array.from(atob(b),c=>c.charCodeAt(0));
 async function tryDecrypt(pw){
