@@ -4,6 +4,7 @@ import base64
 from pathlib import Path
 import tempfile
 import unittest
+from unittest import mock
 
 from cryptography.exceptions import InvalidTag
 from english_release import install, package, verify, envelope, refresh_runtime, english_gate, RUNTIME
@@ -44,6 +45,16 @@ class EnglishReleaseTest(unittest.TestCase):
         self.assertIn("document.write(prepareEnglish(html))", refreshed)
         with self.assertRaises(InvalidTag):
             verify(refreshed, "incorrect")
+
+    def test_next_runtime_update_can_refresh_the_previous_signed_shell(self):
+        previous_blob = envelope(self.gate)[0]
+        with mock.patch('english_release.RUNTIME') as runtime:
+            runtime.read_bytes.return_value = b'/* next reviewed game build */'
+            refreshed = refresh_runtime(self.gate)
+            self.assertNotEqual(refreshed, self.gate)
+            self.assertEqual(envelope(refreshed)[0], previous_blob)
+            self.assertEqual(verify(refreshed, "temporary-test-password")["quiz"][0]["id"], "stable-question-id")
+            self.assertEqual(refresh_runtime(refreshed), refreshed)
 
     def test_plaintext_or_appended_content_is_rejected(self):
         for invalid in (self.source, self.gate + self.source):
