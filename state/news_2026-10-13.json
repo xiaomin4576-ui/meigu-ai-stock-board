@@ -1,10 +1,10 @@
 {
  "asof": "2026-10-13",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-10-13T08:46+08:00",
+ "generated_at": "2026-10-13T11:47+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 8,
+  "cross_day_suppressed": 6,
   "cluster_label": "",
   "cluster_dropped": [],
   "backfilled": 0
@@ -13,108 +13,118 @@
   {
    "cat": "geo",
    "title": "沙特机场再遭导弹无人机袭击",
-   "brief": "沙特主要机场遭新一轮导弹与无人机打击，利雅得机场受扰，海湾贸易与航空保持谨慎。",
-   "chain": "沙特核心设施遇袭→中东风险溢价上升、美股风险偏好承压→A股算力链短期情绪扰动，避险资金流向黄金。",
+   "brief": "沙特主要机场遭第二波导弹与无人机打击，利雅得航空枢纽受扰，海湾贸易与航空运营转趋谨慎。",
+   "chain": "沙特核心产油国安防受冲击→美股能源与军工波动、风险偏好受压→A股算力链情绪短线承压",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbjQ4VHZvYkdYQm9yVEk1YjFFMmpzdkZlZURhdnpYUlNHTl9KMDZrbVFMSXB6WGRlU2ZIb2NnZm9yMjYwb2hYTnh0YnBrc2RkWWs0MzdxX01TUzllWERDajRXZHhxVXFIVmJhX0ljT0NWVHZMejdIdFhmWlZaOUFPQkVLUXZiN2hGVG1velpDX3FvTzY0VVhiQlpCQ1hoejRmSjhBZlVnYlNUcUlQOF9PeWVlMS0xT1RzS2Rlb1FUQlBwQQ?oc=5",
-   "ts": "2026-10-12T14:28:45+00:00"
+   "ts": "2026-10-12T13:17:00+00:00"
   },
   {
    "cat": "oil",
-   "title": "利雅得遇袭后石油高管缺席活动",
-   "brief": "利雅得机场袭击后，多名顶级石油高管被移出会议日程，海湾能源商务活动受扰。",
-   "chain": "海湾安全风险上升→原油地缘溢价支撑Brent→莫桑比克LNG项目融资与东非油气商务环境短期承压。",
+   "title": "沙特股市下挫 海湾贸易谨慎",
+   "brief": "第二起机场袭击后沙特股市下跌，海湾市场交投谨慎，能源资产风险溢价上升。",
+   "chain": "海湾风险溢价抬升→Brent获支撑但波动加大→莫桑比克LNG海运与保险成本或上行",
    "impact": 7,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObWQtMDRPN05hVWltQzRWWGdZLUVfT3lnZXNrVDBteWp6NWJfZEFBaEgzZEVVaGRUaXJuTVhSTXNBV29fcUFvZVcxV19yRnU1Sk9zM3p5MWcwYkNsaDI0bV9DeW9tc3NQamVDb3ZZeFpGb0hPRGk1N1gyMW9QU3VidVlZMVhZZlF0RWdMZy1KcFJIbDlDXzN6c0xHajFhWHVmckI0SVZuU3lFZTVKc3hWNEZ6eTZrYkk?oc=5",
-   "ts": "2026-10-12T09:19:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNDJseDNYUmxPQzZqWnBZM1hRbXJhaGQwdklnQVZBUWp3WEY2SUczaGpYejg3bXRDYzdDN3ctYzRVNVhBc05Rc084QzdOemRFX1l0a2J5TElELVFXUldBZEd6WVItdjVaeFZfWTVEdjJ5VGVkVmxiLVZ5ZWg3ckFLclRTcG1OaExuTnZXamxFcElNalR0SWlPUm5qY2lIa0dFQVJmc24wX0F2WG1nc3hnV3Z0dXEyN0pLWmhnRXJHeFVJTVU?oc=5",
+   "ts": "2026-10-12T13:44:30+00:00"
   },
   {
    "cat": "macro",
-   "title": "美联储Hammack：或需更高利率",
-   "brief": "克利夫兰联储主席Hammack称，为避免通胀心态固化，可能需要更高利率。",
-   "chain": "鹰派表态→美债收益率与贴现率上行、压制AI高久期估值→A股算力链估值分母承压。",
-   "impact": 8,
+   "title": "IMF警告债市收益率或无序飙升",
+   "brief": "IMF称债务与通胀风险恶化，债券收益率可能出现无序跳升，全球融资成本面临重定价。",
+   "chain": "长端利率无序上行风险→美股AI高久期估值分母受压→A股算力链估值情绪承压",
+   "impact": 9,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html",
-   "ts": "Mon, 12 Oct 2026 17:15:21 GMT"
+   "url": "https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html",
+   "ts": "Tue, 13 Oct 2026 03:19:43 GMT"
   },
   {
    "cat": "macro",
-   "title": "购金潮助推人民币国际化",
-   "brief": "CNBC中国连线指出，央行购金热潮正帮助人民币走向全球，去美元化结构性信号增强。",
-   "chain": "央行购金+去美元化→实际利率与美元信用受质疑、黄金获结构性支撑→美股AI估值分母反向温度计，A股算力链情绪受风险偏好牵引。",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/12/cnbc-china-connection-newsletter-gold-purchases-yuan-globalization.html",
-   "ts": "Mon, 12 Oct 2026 23:00:01 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "美银警告蓝色浪潮或致美股跌10%",
-   "brief": "民主党或拿下参众两院，美银警告蓝色浪潮恐令美股暴跌10%，市场关注中期选举风险。",
-   "chain": "中期选举不确定性→美股风险偏好与财政预期波动→A股算力链情绪受外围拖累。",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610133893095875.html",
-   "ts": "2026-10-13 08:43:52"
-  },
-  {
-   "cat": "macro",
-   "title": "印度9月通胀升至5.54%",
-   "brief": "印度9月CPI跳升至5.54%，逼近央行容忍上限，强化进一步加息理由。",
-   "chain": "印度通胀高企→新兴市场利率上行、资金成本抬升→对A股算力链影响间接，关注外资流向。",
-   "impact": 5,
+   "title": "印度9月CPI升至5.54%",
+   "brief": "印度9月通胀跳升至5.54%，逼近央行容忍上限，强化进一步加息预期。",
+   "chain": "印度加息预期升温→新兴市场资金成本上行→对A股影响有限、情绪偏中性",
+   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdUxxMHVta3BKU2dCLTBRTU5iRm1Xd1gwWWNBTzI4djlyVmFnYWpyZzRJbFQtamt5WHVoaFhCd1lMLVRWMUxpaGw5WERwT3dWZGJvbmRxYjhVUE5pU1Y4NjRzX2lVN1BpXzlBckQxMW4tYmhkNnpKOVQtdUQwSFJKUUZHUThxbnNRYllBZGtGSTV3MXFWZkc4cjRVUHJyU2c2MkNiRWczUl9NTUpVQ2tiSFVjR090Wk9yNjU3NkR4ZklId2o1akswcXNhZ3ptdw?oc=5",
    "ts": "2026-10-12T12:13:42+00:00"
   },
   {
    "cat": "macro",
-   "title": "澳洲9月商业信心指数降至-13",
-   "brief": "澳大利亚9月NAB商业信心指数为-13，前值-8，企业信心明显走弱。",
-   "chain": "澳洲信心走弱→全球需求预期偏软、大宗商品承压→对A股算力链影响有限，关注资源股联动。",
-   "impact": 4,
+   "title": "购金潮助推人民币国际化",
+   "brief": "CNBC中国连线指出，央行与民间购金热潮正帮助人民币走向全球，去美元化叙事延续。",
+   "chain": "央行购金+去美元化→实际利率与美元承压、利好黄金→美股AI高久期票估值分母边际改善→A股算力链情绪偏暖",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/12/cnbc-china-connection-newsletter-gold-purchases-yuan-globalization.html",
+   "ts": "Mon, 12 Oct 2026 23:00:01 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "央行批准威士筹备银行卡清算",
+   "brief": "中国人民银行批准威士信息技术（北京）筹备银行卡清算机构，需一年内完成筹备。",
+   "chain": "金融开放推进→外资支付机构入华→对美股支付板块情绪偏正面→A股金融科技链情绪提振",
+   "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610133893320596.html",
-   "ts": "2026-10-13 08:30:28"
+   "url": "https://finance.eastmoney.com/a/202610133893957451.html",
+   "ts": "2026-10-13 11:43:15"
   },
   {
    "cat": "geo",
-   "title": "英首相称IRGC或涉Fairford事件",
-   "brief": "英国首相Burnham称伊朗革命卫队很可能与RAF Fairford事件有关，英伊紧张升温。",
-   "chain": "英伊对抗升级→中东地缘风险溢价上升、美股避险情绪抬头→A股算力链短期情绪扰动。",
+   "title": "刚果（金）前总统组建反政府联盟",
+   "brief": "卡比拉在戈马宣布组建反政府政治军事联盟“国家重建阵线”，M23等武装进入领导层。",
+   "chain": "非洲中部安全风险上升→资源与能源项目地缘溢价抬升→对A股影响有限、关注非洲资源链",
    "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWWJ0NVNWU296YXNLZ1BDNC11S1V3MW5uY1ViQ2M3VmZ4eVZVLWtTT2x4MG4zOGJncUVrOFFyZkcwekpYZXpWRWhvc0lxWkhveHU3MmV0VW03dEo1RmN4dzVhSVFWajBzMXlZVDFQWXRkQ3V3eFdVTDdadFpJNjFCVzVlQ05WMkYxZEpmelV6RDdBaWhSN19YVDJROXcySFo0anBOWTNQYk81TENDaUY4?oc=5",
-   "ts": "2026-10-12T17:12:25+00:00"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610133893956689.html",
+   "ts": "2026-10-13 11:33:52"
   },
   {
    "cat": "geo",
    "title": "伊朗称将回复霍尔木兹提案",
-   "brief": "伊朗表示将在审查结束后回复美方关于霍尔木兹提案的回应，海峡局势仍待观察。",
-   "chain": "霍尔木兹外交博弈→原油供应不确定性支撑油价→莫桑比克LNG与东非油气经营需关注航运与保险成本。",
-   "impact": 6,
+   "brief": "伊朗表示将在审查结束后回复美方关于霍尔木兹的提案，海峡局势仍处博弈窗口。",
+   "chain": "霍尔木兹谈判不确定→油价地缘溢价维持→莫桑比克LNG绕行与运费风险需持续跟踪",
+   "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZ2U1d1RUamtzYmRiN0tHUHhlclVaNVNLYTN4V05LTF90R0xjRTVhNS14WW1qRlhSYlZ5RzJOM3RSSGtxMGpLUDNZc0MyWmNaU0l6SVdpZm1WT295MTFYRWRDSXFRbE0yZlpBQTRpUDlJbHVoTHJOQmRBSVBNakdKTmw1QnV1RHc5b0xzZ212SHQwZmhSZ3JUQmlvZ21IY19yMFVURk8xMUtQcUxfRTNpLUZjMkp2dmRDWVVxa1VyTQ?oc=5",
    "ts": "2026-10-12T10:47:09+00:00"
   },
   {
    "cat": "geo",
-   "title": "马斯克2.76亿美元成中期选举最大金主",
-   "brief": "马斯克向共和党团体捐赠2.76亿美元，成为2026中期选举已知最大捐款人。",
-   "chain": "选举资金格局变化→政策与监管预期波动、美股风险偏好受扰→A股算力链情绪间接承压。",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html",
-   "ts": "Mon, 12 Oct 2026 21:17:58 GMT"
+   "title": "英首相称IRGC或涉英基地事件",
+   "brief": "英国首相伯纳姆称伊朗革命卫队很可能与RAF Fairford事件有关，英伊紧张升温。",
+   "chain": "英伊对抗升级→中东风险溢价抬升→美股风险偏好受压→A股算力链情绪偏谨慎",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWWJ0NVNWU296YXNLZ1BDNC11S1V3MW5uY1ViQ2M3VmZ4eVZVLWtTT2x4MG4zOGJncUVrOFFyZkcwekpYZXpWRWhvc0lxWkhveHU3MmV0VW03dEo1RmN4dzVhSVFWajBzMXlZVDFQWXRkQ3V3eFdVTDdadFpJNjFCVzVlQ05WMkYxZEpmelV6RDdBaWhSN19YVDJROXcySFo0anBOWTNQYk81TENDaUY4?oc=5",
+   "ts": "2026-10-12T14:51:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "美国为何紧急求购俄柴油",
+   "brief": "最大产油国美国紧急求购俄罗斯柴油，反映其柴油结构性短缺与炼能瓶颈。",
+   "chain": "柴油紧张推升中间馏分价格→炼油利润走强、Brent获支撑→莫桑比克油气项目经济性边际改善",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610133893951443.html",
+   "ts": "2026-10-13 11:30:11"
+  },
+  {
+   "cat": "oil",
+   "title": "美盼柴油协议软化俄和谈",
+   "brief": "消息称美国希望以柴油协议软化莫斯科在和平谈判上的立场，能源与地缘挂钩。",
+   "chain": "柴油换和平谈判→俄油出口预期波动→油价方向不明→莫桑比克LNG长约谈判环境偏中性",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQY1h5ek9QWEw0bXVmSUpuTlA1MDlVNXg1SzlnSkpwT1BXLVZHVnNMT1k0V3pfaU8tVFhUcWw1TWl1SE9Kcm04T0RYNjlhbGdyaUFQZEtOU2x6NmtJOGVfYXFWaHY3b1R0TDA5SzVsSDg0UTU2M2NGZk50WEZRTHBTSnJVWTBGbUJ6RjlnWFp0WTl1bkdWYmNYcl9ISXFSNS10OTBUZmVwQXpKSkI5REN1YTdkbnE?oc=5",
+   "ts": "2026-10-12T19:21:00+00:00"
   },
   {
    "cat": "gas",
-   "title": "欧洲储气低位 气价或再高企一年",
-   "brief": "欧洲天然气库存降至低位，市场预计欧洲将迎来又一个高价年。",
-   "chain": "欧洲库存低→TTF气价维持高位、全球LNG争夺加剧→莫桑比克/东非LNG项目议价与出口窗口改善。",
+   "title": "欧洲储气低位 气价或再高企",
+   "brief": "欧洲天然气库存降至低位，市场预计将迎来又一个高价年份，LNG竞争加剧。",
+   "chain": "欧洲补库需求强→TTF与LNG现货价格获支撑→莫桑比克/东非LNG项目议价与出口窗口改善",
    "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYUNxdUxmaThaQ0FLdXRxaWdHNE0tMm5OZjVZenR0X1h2cEtmODNEckpiejRHc0dtZXZnajFRZUQyLVo5ckgyR1lyTEN4YzdNNVo4OGptVC1QMkxUYUVGMDJzZnR0RXFZcXZ2NU9JMDNhVDlmLWQyMmhwZHVSRnRXWWVyTnBfX2Z3UXlxT3JRTnZ3R0xMRktqb0gwTWZRVXl4emZqU1NzWHMxX0hBeVE?oc=5",
@@ -122,59 +132,69 @@
   },
   {
    "cat": "gas",
-   "title": "LNG短缺加深 全球煤炭需求上升",
-   "brief": "LNG供应短缺加深，推动全球煤炭需求上升，能源替代效应显现。",
-   "chain": "LNG短缺→气价高企、煤炭替代需求上升→莫桑比克LNG项目经济性提升，东非气源受关注。",
-   "impact": 6,
+   "title": "LNG短缺加深 全球煤炭需求升",
+   "brief": "LNG供应短缺加深，推动全球煤炭需求上升，气转煤替代逻辑强化。",
+   "chain": "LNG短缺→气价高企、煤炭替代需求升→莫桑比克LNG项目长期需求预期增强",
+   "impact": 7,
    "source": "OilPrice",
    "url": "https://oilprice.com/Energy/Natural-Gas/Global-Coal-Demand-Rises-as-LNG-Shortage-Deepens.html",
    "ts": "Mon, 12 Oct 2026 17:00:00 -0500"
   },
   {
    "cat": "tech",
-   "title": "微软加大自研AI芯片 减少依赖英伟达",
-   "brief": "微软将更多依赖自研AI芯片，降低对英伟达的依赖，算力供应链格局生变。",
-   "chain": "微软自研芯片→英伟达份额预期受扰、AI硬件链分化→映射A股算力链国产替代与服务器链情绪。",
+   "title": "SK海力士软银重挫 芯片抛售",
+   "brief": "亚洲科技股跟随华尔街芯片抛售，SK海力士与软银股价大跌，存储与AI硬件承压。",
+   "chain": "芯片抛售→美股半导体与AI硬件估值回调→A股存储、PCB与算力链情绪承压",
    "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+   "ts": "Tue, 13 Oct 2026 02:49:17 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "全球手机出货创14年新低",
+   "brief": "Counterpoint称AI基建挤占存储芯片供应，消费电子面临成本与供应双重压力，手机出货创14年新低。",
+   "chain": "存储挤占+手机需求弱→消费电子链承压→A股手机链与存储链分化、算力链相对占优",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610133893939892.html",
+   "ts": "2026-10-13 11:15:13"
+  },
+  {
+   "cat": "tech",
+   "title": "微软加大自研AI芯片降依赖英伟达",
+   "brief": "微软将更多依赖自研AI芯片，减少对英伟达的依赖，云厂商自研趋势强化。",
+   "chain": "云厂商自研芯片→英伟达份额预期承压→A股国产算力与自研芯片链获情绪催化",
+   "impact": 7,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/10/12/microsoft-will-mainly-use-its-maia-chips-for-ai-inference.html",
    "ts": "Mon, 12 Oct 2026 14:04:16 GMT"
   },
   {
    "cat": "tech",
-   "title": "韩国半导体展将展下一代内存",
-   "brief": "2026韩国半导体展14-16日举行，三星、SK海力士将展出下一代内存技术。",
-   "chain": "内存技术迭代→HBM与存储链景气预期升温→映射A股存储与算力硬件链。",
+   "title": "华为麒麟2027测试符合预期",
+   "brief": "华为称2027年麒麟芯片测试符合预期，未来逻辑折叠层数将按产品需求确定。",
+   "chain": "华为芯片进展→国产半导体自主链情绪提振→A股先进封装与设备链受益",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610133893316835.html",
-   "ts": "2026-10-13 08:19:59"
+   "url": "https://finance.eastmoney.com/a/202610133893955450.html",
+   "ts": "2026-10-13 11:33:23"
   },
   {
-   "cat": "tech",
-   "title": "SK海力士公布SSD用H-TPU",
-   "brief": "SK海力士公布用于SSD的紧凑型处理器H-TPU，将重复任务分配给约100个单元以降耗。",
-   "chain": "SSD处理器创新→存储与算力硬件效率提升→映射A股存储主控与算力链。",
-   "impact": 5,
+   "cat": "ai",
+   "title": "中国大模型Token消耗占65%",
+   "brief": "OpenRouter数据显示中国大模型狂揽全球Token消耗量65%，机构解读反超美国原因。",
+   "chain": "中国大模型调用量领先→国产算力与推理需求扩张→A股算力链与IDC、光模块受益",
+   "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610133893318887.html",
-   "ts": "2026-10-13 08:25:59"
-  },
-  {
-   "cat": "tech",
-   "title": "字节前高管深圳芯片公司B轮近20亿",
-   "brief": "蓝芯算力（深圳）完成B轮近20亿元融资，成立仅三年多，芯片赛道受资本追捧。",
-   "chain": "国产芯片融资升温→算力自主可控预期强化→映射A股算力芯片与国产替代链。",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610123892979230.html",
-   "ts": "2026-10-13 08:13:38"
+   "url": "https://finance.eastmoney.com/a/202610133893946894.html",
+   "ts": "2026-10-13 11:41:00"
   },
   {
    "cat": "ai",
    "title": "Meta发布Muse Wonder AI模型",
    "brief": "Meta推出Muse Wonder AI模型，测试用户付费意愿，AI商业化再进一步。",
-   "chain": "Meta新模型→AI应用变现预期升温、美股AI链情绪提振→映射A股AI应用与算力链。",
+   "chain": "AI模型商业化提速→美股AI应用与算力需求预期升温→A股AI应用与算力链情绪提振",
    "impact": 7,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/10/12/meta-muse-wonder-ai-model-agent.html",
@@ -182,43 +202,23 @@
   },
   {
    "cat": "ai",
-   "title": "AI进入生态战 巨头买公司买团队",
-   "brief": "AI竞争从少数股权投资转向买公司、买团队、买未来，巨头生态战升级。",
-   "chain": "巨头并购扩张→AI产业整合加速、算力需求上行→映射A股算力链与AI基础设施。",
+   "title": "IMF首席：未见AI生产力提升",
+   "brief": "IMF首席经济学家称尚未看到人工智能带来的生产力提升，AI回报兑现仍待观察。",
+   "chain": "AI生产力质疑→美股AI叙事估值面临检验→A股算力链情绪短线偏谨慎",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610123892854238.html",
-   "ts": "2026-10-13 08:25:15"
+   "url": "https://finance.eastmoney.com/a/202610133893940658.html",
+   "ts": "2026-10-13 11:14:06"
   },
   {
    "cat": "ai",
-   "title": "推理需求释放 算力租赁景气攀升",
-   "brief": "美国AI算力租赁呈短贵长便宜特征，短期现货价高达每吉瓦400-500亿美元/年，推理需求持续释放。",
-   "chain": "推理需求爆发→算力租赁价格高企、AI基础设施投资上行→映射A股算力租赁与服务器链。",
+   "title": "开源证券：MPO赛道高景气验证",
+   "brief": "开源证券称AI算力集群扩张下CPO/MPO光纤连接器订单密集催化，赛道高景气再获验证。",
+   "chain": "AI算力集群扩张→光连接需求上行→A股光模块与MPO链受益",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610133893188826.html",
-   "ts": "2026-10-13 08:16:18"
-  },
-  {
-   "cat": "ai",
-   "title": "IonQ以13亿美元收购Elisity",
-   "brief": "IonQ将以全股票交易收购网络安全公司Elisity，交易价值最高13亿美元。",
-   "chain": "量子+安全并购→AI与安全融合预期升温→映射A股量子科技与网络安全链。",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/10/12/ionq-elisity-acquisition-cybersecurity.html",
-   "ts": "Mon, 12 Oct 2026 19:35:48 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "AI安全守门人走向聚光灯",
-   "brief": "AI的安静安全守门人正步入聚光灯，AI治理与安全议题升温。",
-   "chain": "AI安全治理升温→监管预期影响AI商业化节奏→映射A股AI安全与合规链。",
-   "impact": 4,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/10/11/ais-quiet-safety-gatekeepers-are-stepping-into-the-spotlight.html",
-   "ts": "Sun, 11 Oct 2026 14:08:44 GMT"
+   "url": "https://finance.eastmoney.com/a/202610133893943681.html",
+   "ts": "2026-10-13 11:22:11"
   }
  ]
 }
