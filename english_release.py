@@ -20,7 +20,7 @@ RELEASE = ROOT / "english" / "encrypted.html"
 RUNTIME = ROOT / "english" / "game-runtime.js"
 
 
-def english_gate(gate, runtime=True):
+def english_gate(gate, runtime=True, runtime_tag=None):
     # Keep gate variables out of the restored application's global lexical scope.
     gate = (gate.replace("<script>\nconst DATA=", "<script>\n(()=>{\nconst DATA=")
             .replace("</script></body></html>", "})();\n</script></body></html>")
@@ -29,11 +29,13 @@ def english_gate(gate, runtime=True):
             .replace("仅研究示范 · 非投资建议", "Andy 英语日课 · 持续学习与复习")
             .replace("  /* 普通页 lumora-pass(通行8888);运营看板 lumora-admin(独立管理员密码,不共享) */", ""))
     if runtime:
-        code = RUNTIME.read_bytes()
-        version = hashlib.sha256(code).hexdigest()[:16]
-        integrity = base64.b64encode(hashlib.sha384(code).digest()).decode()
-        tag = (f'<script src="/english/game-runtime.js?v={version}" '
-               f'integrity="sha384-{integrity}" crossorigin="anonymous"></script>')
+        tag = runtime_tag
+        if tag is None:
+            code = RUNTIME.read_bytes()
+            version = hashlib.sha256(code).hexdigest()[:16]
+            integrity = base64.b64encode(hashlib.sha384(code).digest()).decode()
+            tag = (f'<script src="/english/game-runtime.js?v={version}" '
+                   f'integrity="sha384-{integrity}" crossorigin="anonymous"></script>')
         quoted_tag = json.dumps(tag).replace("</", "<\\/")
         loader = ("function prepareEnglish(html){\n"
                   "  const game=/<script>\\s*\\/\\* Continuous voice practice\\.[\\s\\S]*?<\\/script>/;\n"
@@ -52,7 +54,13 @@ def envelope(gate):
     template = (GATE.replace("/*__BLOB__*/", match[1])
                 .replace("__SECTION__", "英语学习")
                 .replace("__SKEY__", "lumora-english-pass"))
-    if (gate not in (english_gate(template), english_gate(template, runtime=False))
+    allowed = [english_gate(template), english_gate(template, runtime=False)]
+    previous = re.search(r'return html\.replace\(game,\(\)=>((?:"(?:[^"\\]|\\.)*"))\);', gate)
+    if previous:
+        tag = json.loads(previous[1])
+        if re.fullmatch(r'<script src="/english/game-runtime\.js\?v=[a-f0-9]{16}" integrity="sha384-[A-Za-z0-9+/]{64}" crossorigin="anonymous"></script>', tag):
+            allowed.append(english_gate(template, runtime_tag=tag))
+    if (gate not in allowed
             or set(blob) != {"s", "i", "c", "n"} or blob["n"] != ITERS):
         raise ValueError("Unexpected English gate format")
     return blob, template
@@ -97,7 +105,7 @@ def verify(gate, password):
 
 
 def install(release, output, password):
-    gate = release.read_text(encoding="utf-8")
+    gate = refresh_runtime(release.read_text(encoding="utf-8"))
     data = verify(gate, password)
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(gate, encoding="utf-8")
