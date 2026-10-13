@@ -7,7 +7,7 @@ let deck=[],groups=[],progress,prefs={learnedGroups:[]},config={},host=null,data
 let queue=[],index=0,results=[],roundId='',phase='home',status='',mode='all',group='',practice=true,training='warmup';
 let hinted=false,translationShown=false,tries=0,requestSerial=0,abort=null,nextTimer=null,blob=null,blobUrl=null,replay=null,token='',expires=0,ready=false,healthChecked=false;
 let continuous=false,completedCurrent=false,delayReject=null,speechWait=null;
-let recordedText='',lastAssessment=null,replaying=false;
+let recordedText='',lastAssessment=null,replaying=false,replayTimer=null,previousAudioSession=null;
 const current=()=>queue[index],busy=()=>continuous||['permission','demo','buffer','recording','encoding','assessing','hit','feedback'].includes(phase);
 const canListen=()=>!busy()||['recording','buffer'].includes(phase);
 const canReplay=()=>!!blobUrl&&!['permission','encoding','assessing'].includes(phase);
@@ -74,6 +74,7 @@ const controlsStyle=`<style>
 .game .game-reading-notice summary{cursor:pointer;min-height:44px;display:flex;align-items:center;justify-content:center}
 .game .game-reading-notice p{max-width:540px;margin:0 auto 14px}
 .game #game-speech-status:empty,.game #game-feedback:empty{display:none}
+.english-recording-player{display:block;width:min(100%,460px);margin:14px auto}
 @media(max-width:480px){.game .game-voice-controls{gap:20px}.game .game-reading{padding:16px 10px}.game .game-progress{font-size:.8rem}.game .game-reading .game-card{padding:6px}.game .game-score{padding:12px}.game .game-voice-controls .game-mic{width:88px;height:88px;min-height:88px}}
 </style>`;
 function scoreView(){
@@ -153,7 +154,17 @@ function resultView(){
  return `<section class="game-panel game-result"><div class="game-kicker">这一局，给开口的自己一点掌声</div><h1>${practice?'跟读练习完成':'本轮闯关完成'}</h1>${practice?'<p>本轮是跟读试玩，未进行发音评分；跟读完成不代表已经掌握。</p>':`<div class="game-stars" aria-label="${stars} 星">${'★'.repeat(stars)}${'☆'.repeat(3-stars)}</div><p>${passed} / ${queue.length} 个目标发音通过 · ${stars>=2?'本轮发音表现达标；还要在情景中使用并按时复习。':'继续新词也可以，薄弱词稍后再练。'}</p>`}<p>本轮${practice?'跟读 '+results.filter(x=>x.outcome==='practice').length:'通过 '+passed} 个目标。${practice?'可以针对本组词独立再读。':`${weak.length} 个未达标或未评分，${prompted.length} 个有提示通过、待独立再读。`}</p>${weak.length?`<h2>留待巩固</h2><ul class="game-weak-list">${weak.map(x=>`<li lang="en">${esc(deck.find(d=>d.id===x.id)?.text)} <span>${x.outcome==='uncertain'?'未评分，不算读错':x.outcome==='skip'?'稍后再读':'未达标'}</span></li>`).join('')}</ul>`:''}${practice?'<p class="game-next-step">下一阶段：遮住中文，试着不听示范独立朗读。评分可用时，通过后才会计入发音进度。</p>':'<p class="game-next-step">下一阶段：在情景中用自己的话说一句，再按到期安排巩固。</p>'}<div class="game-actions">${btn('again','继续下一组新词 →','class="game-start primary"')}${practice?btn('independent-next',ready?'本组独立朗读 · 自动评分':'本组独立朗读 · 不评分'):review.length?btn('review-round','复练本组需巩固词'):''}<a class="button" href="${scenarioHref}">情景运用 · ${esc(scenario?.title||'开口练习')}</a>${btn('home','返回游戏首页')}</div></section>`;
 }
 function paint(){if(!host?.isConnected)return;host.innerHTML=controlsStyle+(storageOK?'':'<p class="game-banner warning">浏览器未能保存记录，请先导出备份。</p>')+(phase==='home'?home():phase==='result'?resultView():card())+(phase==='result'&&blob?`${scoreView()}<div class="game-voice-controls">${replayControl()}</div><p class="game-replay-target">最后一次录音 · ${esc(recordedText)}</p>`:'')+`<p id="game-feedback" class="game-feedback ${phase==='hit'?'success':''}" role="status" aria-live="polite">${esc(status)}</p>`;}
-function stopReplay(){if(replay){replay.onended=null;replay.onerror=null;replay.pause();}replay=null;replaying=false;}
+function playbackSession(){
+ // Safari may keep its recording route after microphone use. Feature-detect
+ // the playback category and restore the previous category when replay stops.
+ try{const session=root.navigator?.audioSession;if(session){previousAudioSession=session.type;session.type='playback';}}catch{previousAudioSession=null;}
+}
+function stopReplay(){
+ clearTimeout(replayTimer);replayTimer=null;
+ if(replay){replay.onended=null;replay.onerror=null;replay.onplaying=null;replay.ontimeupdate=null;replay.onpause=null;replay.pause();replay.remove?.();}
+ replay=null;replaying=false;
+ if(previousAudioSession!==null){try{const session=root.navigator?.audioSession;if(session?.type==='playback')session.type=previousAudioSession;}catch{}previousAudioSession=null;}
+}
 // Clearing playback between targets must not release the prepared iOS microphone session.
 function clearPlayback({discardRecording=true}={}){
  if(speechWait){const wait=speechWait;speechWait=null;wait.reject(cancelled());}
@@ -232,9 +243,25 @@ function playRecording(){
  // advances it once; pending timers and stale assessment responses are cancelled.
  cancelPending({keepRecording:true});if(phase!=='result')phase='question';
  const player=new Audio(blobUrl);replay=player;replaying=true;
- const settle=failed=>{if(replay!==player)return;stopReplay();status=failed?'回放暂时不可用，请再点一次。':'回放结束。点麦克风继续读。';paint();};
- player.onended=()=>settle(false);player.onerror=()=>settle(true);
- status=`正在回放 ${recordedText}。麦克风已关闭，听完后点麦克风继续。`;paint();
+ player.muted=false;player.volume=1;player.preload='auto';player.playsInline=true;player.controls=true;
+ player.setAttribute?.('playsinline','');player.setAttribute?.('aria-label',`我的录音：${recordedText}`);player.className='english-recording-player';
+ const settle=failed=>{if(replay!==player)return;stopReplay();status=failed?'回放没有正常播放，请再点一次回放。若仍无声，请检查设备媒体音量和蓝牙输出。':'回放结束。点麦克风继续读。';paint();};
+ let advanced=0;
+ const watch=()=>{clearTimeout(replayTimer);replayTimer=setTimeout(()=>{if(replay===player)settle(true);},5000);};
+ const update=()=>{
+  if(replay!==player||player.paused)return;
+  const at=Number(player.currentTime)||0;
+  if(at>advanced+.02){advanced=at;watch();}
+  // The media event and currentTime, not a resolved play() Promise, establish playback.
+  status=`正在回放 ${recordedText} · ${at.toFixed(1)} 秒。麦克风已关闭。`;
+  const line=host?.querySelector('#game-feedback');if(line)line.textContent=status;
+ };
+ player.onplaying=()=>{if(replay!==player)return;watch();update();};player.ontimeupdate=update;
+ player.onpause=()=>{if(replay!==player||player.ended)return;clearTimeout(replayTimer);replayTimer=null;status='回放已暂停，可用下方播放器继续，或点麦克风继续读。';const line=host?.querySelector('#game-feedback');if(line)line.textContent=status;};
+ player.onended=()=>settle(!(Number(player.currentTime)>.05));player.onerror=()=>settle(true);
+ status=`正在准备回放 ${recordedText}…`;paint();
+ // Keep the native player outside the re-rendered card, with a real seek bar.
+ host?.insertAdjacentElement?.('afterend',player);playbackSession();watch();
  try{Promise.resolve(player.play()).catch(()=>settle(true));}catch{settle(true);}
 }
 function demo(serial,slow=false){
@@ -259,9 +286,12 @@ async function captureAudio(serial,keepSession){
  // A noisy room may prevent a clean silence boundary. The recorder still ends
  // at 12 seconds; send that bounded recording once and let the gateway judge it.
  // An energy detection or a timeout alone never counts as a pronunciation pass.
- if(blobUrl)URL.revokeObjectURL(blobUrl);
- blob=audio;blobUrl=URL.createObjectURL(audio);recordedText=item.text;lastAssessment=null;phase='encoding';status=completion.reason==='limit'?(practice?'已自动结束录音，正在记录本次练习…':'已自动结束录音，正在准备评分…'):'正在整理这次录音…';paint();
+ phase='encoding';status=completion.reason==='limit'?(practice?'已自动结束录音，正在记录本次练习…':'已自动结束录音，正在准备评分…'):'正在整理这次录音…';paint();
  const wav=await recorder.encode(audio);if(!valid(serial))throw cancelled();
+ // Replay the exact decoded PCM used for assessment, not the browser-specific
+ // MediaRecorder container (MP4/WebM), whose playback support can differ.
+ if(blobUrl)URL.revokeObjectURL(blobUrl);
+ blob=new Blob([wav.bytes],{type:'audio/wav'});blobUrl=URL.createObjectURL(blob);recordedText=item.text;lastAssessment=null;
  if(wav.duration<.25||wav.rms<.002)throw Error('这次声音太短或太轻，没算读错。靠近一点，再继续。');
  return wav;
 }
