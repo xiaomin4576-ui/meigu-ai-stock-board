@@ -82,8 +82,8 @@ function card(){
  return `<div class="game-progress"><span>${practice?'跟读试玩':'发音闯关'} · ${esc(item.group)}</span>${busy()?btn('pause','暂停'):btn('leave','保存退出')}<b>第 ${index+1} / ${queue.length} 题</b></div><div class="game-progress-track" role="progressbar" aria-label="本局进度" aria-valuemin="0" aria-valuemax="${queue.length}" aria-valuenow="${index}"><i style="width:${index/queue.length*100}%"></i></div>
  <section class="game-arena ${phase==='hit'?'hit':''}">${mascot()}<div class="game-card"><span class="game-kicker">${item.kind==='word'?'WORD · 单词':'PHRASE · 短语'}</span><h1 class="game-word" lang="en-US">${esc(item.text)}</h1>${item.ipa?`<p class="game-ipa" lang="en-US">${esc(item.ipa)}</p>`:''}${item.speechNote?`<p class="small">${esc(item.speechNote)}</p>`:''}${item.text==='bedroom'?'<p class="game-audio-credit">本词真人示范：<a href="https://commons.wikimedia.org/wiki/File:En-us-bedroom.ogg" target="_blank" rel="noopener noreferrer">Dvortygirl / Wikimedia Commons 原音</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a></p>':''}${training==='warmup'||translationShown?`<p class="game-translation">${esc(item.zh)}</p>`:btn('reveal-translation','查看中文（计入提示）',busy()?'disabled':'class="game-reveal"')}</div></section>
  <div class="game-actions">${btn('listen','▶ 听示范',canListen()?'':'disabled')}${btn('slow','慢速示范',canListen()?'':'disabled')}${speaking?btn('stop-listen','停止示范'):''}</div><p id="game-speech-status" class="small" aria-live="polite">${esc(speech.snapshot().message||'')}</p>
- <div class="game-actions">${btn('record',phase==='permission'?'正在开启麦克风…':phase==='demo'?'正在播放示范…':phase==='buffer'?'准备好，轮到你读…':phase==='recording'?'🎙 请朗读 · 读完自动下一词':phase==='encoding'?'正在处理录音…':phase==='assessing'?'正在评测…':phase==='hit'?'✓ 命中，自动下一词…':phase==='feedback'?'已记录，自动下一词…':tries||hinted?'🎙 继续连续读词':'🎙 直接读 · 开始连续练习',`class="game-mic ${phase==='recording'?'recording':''}" ${busy()||speaking?'disabled':''}`)}${phase==='recording'?btn('finish-recording','我读完了','class="game-finish-recording"'):''}${blob?btn('replay','听听我刚才的录音',busy()?'disabled':''):''}</div>
- ${practice?'<p class="small">读完稍作停顿，自动换下一个词。示范可随时按需听；环境有噪声时可点“我读完了”。本轮不上传、不评分，只记练习。</p>':'<p class="small">读完稍作停顿，自动评分并换词；未达标留待巩固，不强制重读。示范按需听，播放时关闭录音。环境有噪声时可点“我读完了”。可随时暂停；每次录音最长 12 秒，会发送到腾讯云评测。</p>'}
+ <div class="game-actions">${btn('record',phase==='permission'?'正在开启麦克风…':phase==='demo'?'正在播放示范…':phase==='buffer'?'准备好，轮到你读…':phase==='recording'?'🎙 请朗读 · 读完自动评分换词':phase==='encoding'?'正在处理录音…':phase==='assessing'?'正在评测…':phase==='hit'?'✓ 命中，自动下一词…':phase==='feedback'?'已记录，自动下一词…':index||tries?'🎙 继续连续读词':'🎙 直接读 · 开始连续练习',`class="game-mic ${phase==='recording'?'recording':''}" ${busy()||speaking?'disabled':''}`)}${blob?btn('replay','听听我刚才的录音',busy()?'disabled':''):''}</div>
+ ${practice?'<p class="small">点一次开始，直接朗读即可。读完稍作停顿，自动换下一个词，不用逐词点按钮。示范按需听。本轮不上传、不评分，只记练习。</p>':'<p class="small">点一次开始，直接朗读即可。读完稍作停顿，自动停录、评分并换词，不用逐词点按钮。未达标的词留待巩固。示范按需听，可随时暂停。每次录音最长 12 秒，会发送到腾讯云评测。</p>'}
  <div class="game-footer">${btn('skip','稍后再练',busy()?'disabled':'')}<span>${practice?`已练 ${results.filter(x=>x.outcome==='practice').length}`:`已命中 ${results.filter(x=>x.outcome==='pass').length}`} · ${tries?'本题已尝试 '+tries+' 次':'先听再读也可以'}</span></div>`;
 }
 function resultView(){
@@ -171,10 +171,12 @@ async function captureAudio(serial,keepSession){
  // Attach both handlers together: NO_SPEECH deliberately rejects result and exposes no Blob.
  const [audio,completion]=await Promise.all([capture.result,capture.completion]);
  if(!valid(serial))throw cancelled();
- if(completion.reason==='limit')throw Object.assign(Error('已到 12 秒，可能有环境声音或句子还没读完。这次未上传，也不算读错；安静后再继续。'),{code:'RECORDING_LIMIT'});
  if(completion.reason==='cancelled')throw cancelled();
  if(completion.speechDetected===false||completion.reason==='no_speech')throw Object.assign(Error('这次没有听到清楚的朗读，不上传、不算读错。准备好再继续。'),{code:'NO_SPEECH'});
- blob=audio;blobUrl=URL.createObjectURL(audio);phase='encoding';status='正在整理这次录音…';paint();
+ // A noisy room may prevent a clean silence boundary. The recorder still ends
+ // at 12 seconds; send that bounded recording once and let the gateway judge it.
+ // An energy detection or a timeout alone never counts as a pronunciation pass.
+ blob=audio;blobUrl=URL.createObjectURL(audio);phase='encoding';status=completion.reason==='limit'?'已自动结束录音，正在准备评分…':'正在整理这次录音…';paint();
  const wav=await recorder.encode(audio);if(!valid(serial))throw cancelled();
  if(wav.duration<.25||wav.rms<.002)throw Error('这次声音太短或太轻，没算读错。靠近一点，再继续。');
  return wav;
@@ -254,7 +256,6 @@ function handle(e){
  }break;
  case'stop-listen':if(continuous)pauseFlow('练习已暂停，麦克风已关闭。准备好后继续。');else{speech.stop('');paint();}break;
  case'record':record();break;
- case'finish-recording':if(phase==='recording')recorder.stop();break;
  case'pause':pauseFlow('练习已暂停，麦克风已关闭。准备好后继续；已通过的成绩已保存。');break;
  case'replay':if(blobUrl&&!busy()){speech.stop('');replay?.pause();replay=new Audio(blobUrl);replay.play().catch(()=>{status='回放暂时不可用，请再点一次。';paint();});}break;
  case'practiced':if(practice&&!busy())advance('practice');break;
