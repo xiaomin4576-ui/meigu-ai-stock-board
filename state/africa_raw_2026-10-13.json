@@ -1,6 +1,6 @@
 {
  "asof": "2026-10-13",
- "fetched_at": "2026-10-13T18:04+08:00",
+ "fetched_at": "2026-10-13T18:49+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -14,15 +14,25 @@
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 2,
-   "非洲科技·聚合": 7,
+   "非洲科技·聚合": 6,
    "中非科技·聚合": 18
   },
   "total": 60,
-  "ai_flagged": 11,
+  "ai_flagged": 12,
   "aiinfra_flagged": 0,
   "countries": 7
  },
  "items": [
+  {
+   "title": "South Africa’s Reserve Bank appoints fintech Wise as an authorised dealer in FX",
+   "brief": "SARB has formally appointed Wise as a Category Two Authorised Dealer in foreign exchange with limited authority.",
+   "source": "Condia",
+   "url": "https://thecondia.com/wise-gets-fx-regulatory-approval/",
+   "date": "Tue, 13 Oct 2026 10:08:40 +0000",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
   {
    "title": "Malatsi risks action over cellphone gambling crackdown",
    "brief": "A gambling law expert warns that using ICASA to restrict lawful betting could trigger a constitutional challenge.",
@@ -241,6 +251,16 @@
    "date": "Tue, 13 Oct 2026 08:09:00 +0200",
    "country": null,
    "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Nvidia's China AI-chip share falls as Huawei closes gap, report finds",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQakNuckZoYmwxVFJyQWQxWHhvNEtzM1lkcmEyOGZnVG90TW5jaWpLUXBac2ZQemxBblVhR2pHVnp0MFM5Nnk1WkNJak9INGw4Sm1ZcTEzWUlWWEdDUENsWUlDNlpoNFJTYzA1ZVdVbDVOUGVaYmdtbTRyUTNFQk",
+   "source": "Yahoo Finance·聚合",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQakNuckZoYmwxVFJyQWQxWHhvNEtzM1lkcmEyOGZnVG90TW5jaWpLUXBac2ZQemxBblVhR2pHVnp0MFM5Nnk1WkNJak9INGw4Sm1ZcTEzWUlWWEdDUENsWUlDNlpoNFJTYzA1ZVdVbDVOUGVaYmdtbTRyUTNFQk04NTN0Y2I2VVBWM3c2V0FUT0FDcl9oSmc?oc=5",
+   "date": "Tue, 13 Oct 2026 02:32:00 GMT",
+   "country": null,
+   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -600,26 +620,6 @@
    "url": "https://thecondia.com/lagos-life-game-viral-money/",
    "date": "Thu, 08 Oct 2026 14:34:03 +0000",
    "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Moove reportedly exits Nigeria after 6 years, offers ₦35B to customers",
-   "brief": "The move comes weeks after Uber ended its operations in Nigeria on September 2 after 12 years, a development that put Moove's original model under pressure.",
-   "source": "Condia",
-   "url": "https://thecondia.com/moove-reportedly-exits-nigeria-after-6-years/",
-   "date": "Thu, 08 Oct 2026 14:24:43 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "NeoFleet Capital raises $4m pre-seed to fund taxi fleets across Africa and the Global South",
-   "brief": "Mobility fintech NeoFleet Capital has secured a $4 million pre-seed round to expand its taxi fleet financing model and build infrastructure.",
-   "source": "Condia",
-   "url": "https://thecondia.com/neofleet-capital-raises-pre-seed/",
-   "date": "Thu, 08 Oct 2026 13:19:38 +0000",
-   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   }
