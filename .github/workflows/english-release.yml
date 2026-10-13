@@ -1,0 +1,102 @@
+name: 英语板块 · 正式发布
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - english/**
+      - english_release.py
+      - tests/test_english_release.py
+      - .github/workflows/english-release.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: english-release
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: 安装加密依赖与验证发布格式
+        run: |
+          python -m pip install --quiet cryptography
+          python -m unittest tests/test_english_release.py
+      - name: 找到最近成功的网站工件
+        id: baseline
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPOSITORY: ${{ github.repository }}
+        run: |
+          python - <<'PY'
+          import os, json, urllib.request
+          base = 'https://api.github.com/repos/' + os.environ['GH_REPOSITORY']
+          def get(path):
+              req = urllib.request.Request(base + path, headers={
+                  'Authorization': 'Bearer ' + os.environ['GH_TOKEN'],
+                  'Accept': 'application/vnd.github+json'})
+              with urllib.request.urlopen(req, timeout=15) as response:
+                  return json.load(response)
+          runs = get('/actions/workflows/daily-board.yml/runs?status=success&per_page=10')['workflow_runs']
+          for run in runs:
+              artifacts = get('/actions/runs/' + str(run['id']) + '/artifacts')['artifacts']
+              if any(item['name'] == 'github-pages' and not item['expired'] for item in artifacts):
+                  with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
+                      stream.write('run_id=' + str(run['id']) + '\n')
+                  print('Verified baseline website artifact found')
+                  break
+          else:
+              raise SystemExit('No retained successful website artifact; use the full website deployment')
+          PY
+      - uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: baseline
+          github-token: ${{ github.token }}
+          run-id: ${{ steps.baseline.outputs.run_id }}
+      - name: 更新英语栏目并验证正式评分连接
+        env:
+          ENGLISH_PASSWORD: ${{ secrets.ENGLISH_PASSWORD }}
+        run: |
+          mkdir _site
+          tar -xf baseline/artifact.tar -C _site
+          python - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          root = Path('_site')
+          before = {str(p.relative_to(root)): hashlib.sha256(p.read_bytes()).hexdigest()
+                    for p in root.rglob('*') if p.is_file() and not p.is_relative_to(root / 'english')}
+          Path('baseline-manifest.json').write_text(json.dumps(before))
+          PY
+          python english_release.py install --output _site/english/index.html
+          python english_release.py check-speech-login
+          python - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          root = Path('_site')
+          after = {str(p.relative_to(root)): hashlib.sha256(p.read_bytes()).hexdigest()
+                   for p in root.rglob('*') if p.is_file() and not p.is_relative_to(root / 'english')}
+          assert after == json.loads(Path('baseline-manifest.json').read_text()), 'Other website sections changed'
+          assert (root / 'CNAME').read_text().strip() == 'andy4576.com'
+          print('English release verified; other website sections and domain preserved')
+          PY
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: 正式部署
+        id: deployment
+        uses: actions/deploy-pages@v4

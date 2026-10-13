@@ -8,6 +8,9 @@ import json
 import os
 from pathlib import Path
 import re
+import urllib.request
+import urllib.error
+import datetime
 
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 from encrypt_board import GATE, ITERS, encrypt
@@ -102,6 +105,32 @@ def install(release, output, password):
     return data
 
 
+def check_speech_login(password):
+    if not password:
+        raise ValueError("ENGLISH_PASSWORD is required for connection verification")
+    # The same credential derivation used by the browser; never print it or upload audio.
+    credential = hashlib.sha256(('andy-english-speech-v1\0' + password).encode()).hexdigest()
+    request = urllib.request.Request(
+        'https://speech.andy4576.com/session',
+        data=json.dumps({'password': credential}).encode(),
+        headers={'Content-Type': 'application/json', 'Origin': 'https://andy4576.com'},
+        method='POST',
+    )
+    class NoRedirect(urllib.request.HTTPRedirectHandler):
+        def redirect_request(self, *args, **kwargs):
+            return None
+    try:
+        with urllib.request.build_opener(NoRedirect).open(request, timeout=10) as response:
+            session = json.load(response)
+        if not re.fullmatch(r'[a-f0-9]{64}', session.get('token', '')):
+            raise ValueError("Invalid connection response")
+        expires = datetime.datetime.fromisoformat(session.get('expiresAt', '').replace('Z', '+00:00'))
+        if expires <= datetime.datetime.now(datetime.timezone.utc):
+            raise ValueError("Connection is expired")
+    except Exception:
+        raise ValueError("Website-to-speech connection verification failed; no audio was uploaded") from None
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     commands = parser.add_subparsers(dest="command", required=True)
@@ -113,6 +142,7 @@ def main():
     deploy.add_argument("--output", type=Path, default=ROOT / "docs/english/index.html")
     refresh = commands.add_parser("refresh-runtime", help="Update public game code without changing encrypted course data")
     refresh.add_argument("--release", type=Path, default=RELEASE)
+    commands.add_parser("check-speech-login", help="Verify website scoring connection without uploading audio")
     args = parser.parse_args()
     if args.command == "refresh-runtime":
         gate = args.release.read_text(encoding="utf-8")
@@ -120,6 +150,11 @@ def main():
         print("English game shell updated; private ciphertext and password gate preserved")
         return
     password = os.environ.get("ENGLISH_PASSWORD", "")
+    if args.command == "check-speech-login":
+        verify(RELEASE.read_text(encoding="utf-8"), password)
+        check_speech_login(password)
+        print("Website scoring connection verified; no password, token or audio exported")
+        return
     if args.command == "pack":
         if args.source.resolve().is_relative_to(ROOT):
             parser.error("Keep the plaintext English source outside this public repository")
