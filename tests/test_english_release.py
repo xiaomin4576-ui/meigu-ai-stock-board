@@ -7,7 +7,9 @@ import unittest
 from unittest import mock
 
 from cryptography.exceptions import InvalidTag
-from english_release import install, package, verify, envelope, refresh_runtime, english_gate, RUNTIME
+from english_release import install, package, verify, envelope, refresh_runtime, english_gate, RUNTIME, decrypt_course_transport
+from encrypt_board import ITERS
+from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 
 
 class EnglishReleaseTest(unittest.TestCase):
@@ -55,6 +57,33 @@ class EnglishReleaseTest(unittest.TestCase):
             self.assertEqual(envelope(refreshed)[0], previous_blob)
             self.assertEqual(verify(refreshed, "temporary-test-password")["quiz"][0]["id"], "stable-question-id")
             self.assertEqual(refresh_runtime(refreshed), refreshed)
+
+    def test_operator_encrypted_content_is_repacked_privately_without_exporting_credentials(self):
+        password = 'temporary-test-password'
+        credential = hashlib.sha256(('andy-english-speech-v1\0' + password).encode()).hexdigest()
+        site_hash = hashlib.sha256(credential.encode()).hexdigest()
+        salt, iv = b's' * 16, b'i' * 12
+        key = hashlib.pbkdf2_hmac('sha256', ('andy-english-course-build-v1\0' + site_hash).encode(), salt, ITERS, 32)
+        cipher = AESGCM(key).encrypt(iv, self.source.encode(), None)
+        blob = {'version': 1, 'keyScheme': 'site-login-build-v1',
+                's': base64.b64encode(salt).decode(), 'i': base64.b64encode(iv).decode(),
+                'c': base64.b64encode(cipher).decode(), 'n': ITERS}
+        self.assertEqual(decrypt_course_transport(blob, password), self.source)
+        with self.assertRaises(InvalidTag):
+            decrypt_course_transport(blob, 'incorrect')
+        for patch in [{'n': 1}, {'keyScheme': 'other'}, {'version': 2}, {'i': ''}]:
+            with self.assertRaises(ValueError):
+                decrypt_course_transport({**blob, **patch}, password)
+        with tempfile.TemporaryDirectory() as tmp:
+            release, transport, output = [Path(tmp) / x for x in ('encrypted.html','course-update.enc.json','site/index.html')]
+            release.write_text(self.gate)
+            transport.write_text(json.dumps(blob))
+            install(release, output, password, transport=transport)
+            self.assertEqual(verify(output.read_text(), password)['quiz'][0]['id'], 'stable-question-id')
+            receipt = json.loads((output.parent / 'release.json').read_text())
+            self.assertEqual(receipt['pageSha256'], hashlib.sha256(output.read_bytes()).hexdigest())
+            self.assertNotIn(password, output.read_text())
+            self.assertNotIn(site_hash, transport.read_text())
 
     def test_plaintext_or_appended_content_is_rejected(self):
         for invalid in (self.source, self.gate + self.source):

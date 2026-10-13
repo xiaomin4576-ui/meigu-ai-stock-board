@@ -18,6 +18,7 @@ from encrypt_board import GATE, ITERS, encrypt
 ROOT = Path(__file__).resolve().parent
 RELEASE = ROOT / "english" / "encrypted.html"
 RUNTIME = ROOT / "english" / "game-runtime.js"
+TRANSPORT = ROOT / "english" / "course-update.enc.json"
 
 
 def english_gate(gate, runtime=True, runtime_tag=None):
@@ -104,12 +105,42 @@ def verify(gate, password):
     return course_data(html)
 
 
-def install(release, output, password):
-    gate = refresh_runtime(release.read_text(encoding="utf-8"))
+def decrypt_course_transport(blob, password):
+    if (not password or not isinstance(blob, dict)
+            or set(blob) != {'version', 'keyScheme', 's', 'i', 'c', 'n'}
+            or blob['version'] != 1 or blob['keyScheme'] != 'site-login-build-v1'
+            or blob['n'] != ITERS):
+        raise ValueError('Invalid encrypted course update')
+    salt, iv, cipher = [base64.b64decode(blob[k], validate=True) for k in ('s', 'i', 'c')]
+    if len(salt) != 16 or len(iv) != 12 or not 16 <= len(cipher) <= 2 * 1024 * 1024:
+        raise ValueError('Invalid encrypted update parameters')
+    credential = hashlib.sha256(('andy-english-speech-v1\0' + password).encode()).hexdigest()
+    site_hash = hashlib.sha256(credential.encode()).hexdigest()
+    key = hashlib.pbkdf2_hmac('sha256', ('andy-english-course-build-v1\0' + site_hash).encode(), salt, ITERS, 32)
+    html = AESGCM(key).decrypt(iv, cipher, None).decode()
+    course_data(html)
+    return html
+
+
+def install(release, output, password, transport=None):
+    if transport is None and release.resolve() == RELEASE.resolve() and TRANSPORT.is_file():
+        transport = TRANSPORT
+    if transport is not None:
+        html = decrypt_course_transport(json.loads(transport.read_text(encoding='utf-8')), password)
+        gate = package(html, password)
+    else:
+        gate = refresh_runtime(release.read_text(encoding="utf-8"))
     data = verify(gate, password)
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(gate, encoding="utf-8")
     (output.parent / "game-runtime.js").write_bytes(RUNTIME.read_bytes())
+    receipt = {'version': 1, 'batchId': data.get('batchId'),
+               'vocabularyCount': len(data.get('vocabulary', [])), 'quizCount': len(data.get('quiz', [])),
+               'unitCount': len(data.get('units', [])),
+               'pageSha256': hashlib.sha256(gate.encode()).hexdigest(),
+               'gameRuntimeSha256': hashlib.sha256(RUNTIME.read_bytes()).hexdigest(),
+               'sourceTransportSha256': hashlib.sha256(transport.read_bytes()).hexdigest() if transport is not None else None}
+    (output.parent / 'release.json').write_text(json.dumps(receipt) + '\n', encoding='utf-8')
     return data
 
 
