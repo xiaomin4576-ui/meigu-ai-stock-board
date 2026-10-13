@@ -1,10 +1,12 @@
 import json
+import hashlib
+import base64
 from pathlib import Path
 import tempfile
 import unittest
 
 from cryptography.exceptions import InvalidTag
-from english_release import install, package, verify
+from english_release import install, package, verify, envelope, refresh_runtime, english_gate, RUNTIME
 
 
 class EnglishReleaseTest(unittest.TestCase):
@@ -30,6 +32,19 @@ class EnglishReleaseTest(unittest.TestCase):
         with self.assertRaises(InvalidTag):
             verify(self.gate, "incorrect")
 
+    def test_runtime_upgrade_preserves_authenticated_ciphertext_and_private_content(self):
+        blob, template = envelope(self.gate)
+        legacy = english_gate(template, runtime=False)
+        refreshed = refresh_runtime(legacy)
+        self.assertEqual(envelope(refreshed)[0], blob)
+        self.assertEqual(verify(refreshed, "temporary-test-password"), verify(legacy, "temporary-test-password"))
+        self.assertNotIn("Private lesson content", refreshed)
+        integrity = base64.b64encode(hashlib.sha384(RUNTIME.read_bytes()).digest()).decode()
+        self.assertIn("sha384-" + integrity, refreshed)
+        self.assertIn("document.write(prepareEnglish(html))", refreshed)
+        with self.assertRaises(InvalidTag):
+            verify(refreshed, "incorrect")
+
     def test_plaintext_or_appended_content_is_rejected(self):
         for invalid in (self.source, self.gate + self.source):
             with self.assertRaises(ValueError):
@@ -41,6 +56,7 @@ class EnglishReleaseTest(unittest.TestCase):
             release.write_text(self.gate)
             install(release, output, "temporary-test-password")
             self.assertEqual(output.read_text(), self.gate)
+            self.assertEqual((output.parent / "game-runtime.js").read_bytes(), RUNTIME.read_bytes())
             output.unlink()
             install(release, output, "temporary-test-password")
             with self.assertRaises(InvalidTag):

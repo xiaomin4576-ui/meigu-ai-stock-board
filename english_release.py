@@ -14,16 +14,51 @@ from encrypt_board import GATE, ITERS, encrypt
 
 ROOT = Path(__file__).resolve().parent
 RELEASE = ROOT / "english" / "encrypted.html"
+RUNTIME = ROOT / "english" / "game-runtime.js"
 
 
-def english_gate(gate):
+def english_gate(gate, runtime=True):
     # Keep gate variables out of the restored application's global lexical scope.
-    return (gate.replace("<script>\nconst DATA=", "<script>\n(()=>{\nconst DATA=")
+    gate = (gate.replace("<script>\nconst DATA=", "<script>\n(()=>{\nconst DATA=")
             .replace("</script></body></html>", "})();\n</script></body></html>")
             .replace("进入看板", "进入英语学习")
             .replace("此页受密码保护,请输入访问密码", "请输入英语版块的独立访问密码")
             .replace("仅研究示范 · 非投资建议", "Andy 英语日课 · 持续学习与复习")
             .replace("  /* 普通页 lumora-pass(通行8888);运营看板 lumora-admin(独立管理员密码,不共享) */", ""))
+    if runtime:
+        code = RUNTIME.read_bytes()
+        version = hashlib.sha256(code).hexdigest()[:16]
+        integrity = base64.b64encode(hashlib.sha384(code).digest()).decode()
+        tag = (f'<script src="/english/game-runtime.js?v={version}" '
+               f'integrity="sha384-{integrity}" crossorigin="anonymous"></script>')
+        quoted_tag = json.dumps(tag).replace("</", "<\\/")
+        loader = ("function prepareEnglish(html){\n"
+                  "  const game=/<script>\\s*\\/\\* Continuous voice practice\\.[\\s\\S]*?<\\/script>/;\n"
+                  f"  return html.replace(game,()=>{quoted_tag});\n"
+                  "}\n")
+        gate = gate.replace("const b2a=b=>", loader + "const b2a=b=>")
+        gate = gate.replace("document.write(html)", "document.write(prepareEnglish(html))")
+    return gate
+
+
+def envelope(gate):
+    match = re.search(r'const DATA=(\{[^\n]+\});', gate)
+    if not match:
+        raise ValueError("English release must be an encrypted gate")
+    blob = json.loads(match[1])
+    template = (GATE.replace("/*__BLOB__*/", match[1])
+                .replace("__SECTION__", "英语学习")
+                .replace("__SKEY__", "lumora-english-pass"))
+    if (gate not in (english_gate(template), english_gate(template, runtime=False))
+            or set(blob) != {"s", "i", "c", "n"} or blob["n"] != ITERS):
+        raise ValueError("Unexpected English gate format")
+    return blob, template
+
+
+def refresh_runtime(gate):
+    # Update only the public application shell; private course ciphertext is unchanged.
+    _, template = envelope(gate)
+    return english_gate(template)
 
 
 def course_data(html):
@@ -48,15 +83,7 @@ def package(html, password):
 def verify(gate, password):
     if not password:
         raise ValueError("ENGLISH_PASSWORD is required to install English")
-    match = re.search(r'const DATA=(\{[^\n]+\});', gate)
-    if not match:
-        raise ValueError("English release must be an encrypted gate")
-    blob = json.loads(match[1])
-    expected = english_gate(GATE.replace("/*__BLOB__*/", match[1])
-                            .replace("__SECTION__", "英语学习")
-                            .replace("__SKEY__", "lumora-english-pass"))
-    if gate != expected or set(blob) != {"s", "i", "c", "n"} or blob["n"] != ITERS:
-        raise ValueError("Unexpected English gate format")
+    blob, _ = envelope(gate)
     salt, iv, cipher = [base64.b64decode(blob[k], validate=True) for k in ("s", "i", "c")]
     if len(salt) != 16 or len(iv) != 12:
         raise ValueError("Invalid encryption parameters")
@@ -71,6 +98,7 @@ def install(release, output, password):
     data = verify(gate, password)
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(gate, encoding="utf-8")
+    (output.parent / "game-runtime.js").write_bytes(RUNTIME.read_bytes())
     return data
 
 
@@ -83,7 +111,14 @@ def main():
     deploy = commands.add_parser("install")
     deploy.add_argument("--release", type=Path, default=RELEASE)
     deploy.add_argument("--output", type=Path, default=ROOT / "docs/english/index.html")
+    refresh = commands.add_parser("refresh-runtime", help="Update public game code without changing encrypted course data")
+    refresh.add_argument("--release", type=Path, default=RELEASE)
     args = parser.parse_args()
+    if args.command == "refresh-runtime":
+        gate = args.release.read_text(encoding="utf-8")
+        args.release.write_text(refresh_runtime(gate), encoding="utf-8")
+        print("English game shell updated; private ciphertext and password gate preserved")
+        return
     password = os.environ.get("ENGLISH_PASSWORD", "")
     if args.command == "pack":
         if args.source.resolve().is_relative_to(ROOT):
