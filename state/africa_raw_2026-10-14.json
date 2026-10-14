@@ -1,6 +1,6 @@
 {
  "asof": "2026-10-14",
- "fetched_at": "2026-10-14T04:00+08:00",
+ "fetched_at": "2026-10-14T12:48+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -12,23 +12,63 @@
    "Condia": 25,
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
-   "Zimbabwe Situation": 0,
+   "Zimbabwe Situation": 1,
    "African Business": 2,
-   "非洲科技·聚合": 10,
-   "中非科技·聚合": 18
+   "非洲科技·聚合": 8,
+   "中非科技·聚合": 17
   },
   "total": 60,
   "ai_flagged": 17,
-  "aiinfra_flagged": 2,
+  "aiinfra_flagged": 1,
   "countries": 7
  },
  "items": [
+  {
+   "title": "Kutsaga takes Zim tobacco tech global",
+   "brief": "Theseus Mauruki Shambare Herald Reporter KUTSAGA, Zimbabwe’s tobacco research and scientific development institution, is taking local research and technology to the international stage, with 10 scientific presentations s",
+   "source": "Zimbabwe Situation",
+   "url": "https://www.zimbabwesituation.com/news/kutsaga-takes-zim-tobacco-tech-global/",
+   "date": "Wed, 14 Oct 2026 04:09:29 +0000",
+   "country": "🇿🇼 津巴布韦",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "AI-Powered Bond Rating Startup Says Open AI Debt Is Junk, Anthropic Is Barely Investment Grade",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWTg4dEZZdHVLZFRTY0NvcW5ZYVh6THV2VHNHNTlKZGVYT0ZySU5TZk5KdjcyV0Q0eGVRMWtJaEIxb2o2NHNtMDJweHJOV2RJVUtZS1hSX3k2MnJaRHhJa2JDWENiU25LYkR6VEhWdVV4dXhoUUthaUpXR1Fiel",
+   "source": "Forbes Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWTg4dEZZdHVLZFRTY0NvcW5ZYVh6THV2VHNHNTlKZGVYT0ZySU5TZk5KdjcyV0Q0eGVRMWtJaEIxb2o2NHNtMDJweHJOV2RJVUtZS1hSX3k2MnJaRHhJa2JDWENiU25LYkR6VEhWdVV4dXhoUUthaUpXR1FielRpRHhHOTlNY3d6cUlDVXExcUMwRjdaNDZJYkxnYXZDUVZON2JXRk5qdU5XOVRia19MWXFPSWpOdXQ5eFpUNDhfbXhKb2t4blVUdDkyWVQ2S0h0OGx0d2VlUmIzYXVSZm1EWG56VQ?oc=5",
+   "date": "Tue, 13 Oct 2026 21:25:00 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Nvidia’s China AI Chip Share Drops to 34% as Huawei Gains Ground",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQaUxJdVNwblBhMC1rUU9TbGpZSW5OWFo5WmdHcGczYjBaeFJ0OWtKckV0dWRIUkR5LVJmRl8zTnI5UnlSSmhlM3R3MkdRUFNlZkRfY0RDLXdpd015N3Fqc0IwcHpmWjhFSXRnUkNVRVlXYWZuakpNaEVxOWY2LV",
+   "source": "Mexico Business News·聚合",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaUxJdVNwblBhMC1rUU9TbGpZSW5OWFo5WmdHcGczYjBaeFJ0OWtKckV0dWRIUkR5LVJmRl8zTnI5UnlSSmhlM3R3MkdRUFNlZkRfY0RDLXdpd015N3Fqc0IwcHpmWjhFSXRnUkNVRVlXYWZuakpNaEVxOWY2LVp2cUpiTDVfQ0FGa25yMW01dzZmeXpxamlNdEd0NmtZQkN6SWtUdw?oc=5",
+   "date": "Tue, 13 Oct 2026 20:37:01 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
   {
    "title": "CashAfrica brings mobile tap-to-pay to Chicken Republic outlets",
    "brief": "CashAfrica now enables customers make payments by tapping their smartphones on payment terminals at Chicken Republic outlets.",
    "source": "TechCabal",
    "url": "https://techcabal.com/2026/10/13/cashafrica-chicken-republic-partnership/",
    "date": "Tue, 13 Oct 2026 17:36:15 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Africa's cyberthreats are growing faster than the global average",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPNnZaWW1VbWlpc3Fzb3FhczVFeXE4NmxVUzJ3c25jMFBBa1BpZU1YTjl5Zzh4emNGRGFFc2djc0hjZ0tkMFJIa2hrSkliS2l1b0dWOVFwUUY5Sk41eTZrcnlmbFVfaDhhWGJ1MU1GYzFQaXdjdjlZNUloVUF4M2",
+   "source": "Connecting Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNnZaWW1VbWlpc3Fzb3FhczVFeXE4NmxVUzJ3c25jMFBBa1BpZU1YTjl5Zzh4emNGRGFFc2djc0hjZ0tkMFJIa2hrSkliS2l1b0dWOVFwUUY5Sk41eTZrcnlmbFVfaDhhWGJ1MU1GYzFQaXdjdjlZNUloVUF4M2lLdmw4VHpFSVlUU0ttcHFsaWNEUWxrVVJVV0F0N3I5eW15Rmt1M19FVnJNXzZSTjk5aQ?oc=5",
+   "date": "Tue, 13 Oct 2026 16:55:20 GMT",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -49,16 +89,6 @@
    "source": "TechCabal",
    "url": "https://techcabal.com/2026/10/13/africa-bitcoin-corporation-boardroom-war/",
    "date": "Tue, 13 Oct 2026 15:36:21 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Africa's cyberthreats are growing faster than the global average",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPNnZaWW1VbWlpc3Fzb3FhczVFeXE4NmxVUzJ3c25jMFBBa1BpZU1YTjl5Zzh4emNGRGFFc2djc0hjZ0tkMFJIa2hrSkliS2l1b0dWOVFwUUY5Sk41eTZrcnlmbFVfaDhhWGJ1MU1GYzFQaXdjdjlZNUloVUF4M2",
-   "source": "Connecting Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNnZaWW1VbWlpc3Fzb3FhczVFeXE4NmxVUzJ3c25jMFBBa1BpZU1YTjl5Zzh4emNGRGFFc2djc0hjZ0tkMFJIa2hrSkliS2l1b0dWOVFwUUY5Sk41eTZrcnlmbFVfaDhhWGJ1MU1GYzFQaXdjdjlZNUloVUF4M2lLdmw4VHpFSVlUU0ttcHFsaWNEUWxrVVJVV0F0N3I5eW15Rmt1M19FVnJNXzZSTjk5aQ?oc=5",
-   "date": "Tue, 13 Oct 2026 15:33:45 GMT",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -354,16 +384,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "FiveNines joins Nexus in Morocco AI data center project",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxOY3RiVzhydjlIVFBIc09MY0hPbDBQMkJGTURnXzdueFVMOGY1aTI2TUlSdnpCY2JTVENIRFZtYjNoMlRsd21FaXVhcUhSaUxHWkdrdW9OdldwS1N6YWlVaU9xc0o4OWxQd1JDekwtSWpUVHpHWGkyNGREZXJ4UE",
-   "source": "Connecting Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY3RiVzhydjlIVFBIc09MY0hPbDBQMkJGTURnXzdueFVMOGY1aTI2TUlSdnpCY2JTVENIRFZtYjNoMlRsd21FaXVhcUhSaUxHWkdrdW9OdldwS1N6YWlVaU9xc0o4OWxQd1JDekwtSWpUVHpHWGkyNGREZXJ4UEdaLWh2ZnVON3g1TlIwMzRDVl83MFc3SEJTVkZJOUx4dGJCZWZj?oc=5",
-   "date": "Tue, 13 Oct 2026 08:46:23 GMT",
-   "country": "🇲🇦 摩洛哥",
-   "is_ai": true,
-   "is_aiinfra": true
-  },
-  {
    "title": "Nvidia Loses Ground to Huawei in China AI Chip Market",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPdTVaZDAyUHM3bmc3dnFWVUNCczBfQXdMTXBXeDFRN3BGUTRRRmhxSXJlNmhuOGdKVlNkR0lWajktNWRxMW8temlxbTJpbFd1M3JNUGRlM2Jmd0swd1N0WURidjBaZDdfRlprRHdjTG0zWHNtTTdrS2VkMG91OD",
    "source": "StratNews Global·聚合",
@@ -524,16 +544,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Huawei-backed AITO sets Europe launch for fall 2027 with 4 luxury SUVs",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE4xVlBfWVVZZ1ZmWWNUdFRTOUo3OXdvaGdJZ29HYjh0RkR2NzU0ZFNkUHY5bWpBSmR5cW5iTVdSRmZCbXUwbGhQWnpoS3JvS0kxMEttZVhrVU1RdkJjMjNKTldMQnVGdUpaTHNid01heWNDYTVfOTBNTzZ4Zlo?oc",
-   "source": "Electrek·聚合",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xVlBfWVVZZ1ZmWWNUdFRTOUo3OXdvaGdJZ29HYjh0RkR2NzU0ZFNkUHY5bWpBSmR5cW5iTVdSRmZCbXUwbGhQWnpoS3JvS0kxMEttZVhrVU1RdkJjMjNKTldMQnVGdUpaTHNid01heWNDYTVfOTBNTzZ4Zlo?oc=5",
-   "date": "Mon, 12 Oct 2026 14:48:00 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
    "title": "Millions of Africans have internet coverage but are not online. Here’s why",
    "brief": "Millions of Africans live within reach of mobile broadband but remain offline. Ghana, Egypt, and Niger show why expanding coverage is only part of the solution: people also need affordable devices, trusted services and a",
    "source": "TechCabal",
@@ -609,16 +619,6 @@
    "source": "StreetInsider·聚合",
    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVVJHTWdnV3YtR09tUzVJcW5kNEVmOU4wNGhEdXhTbHRpX1NLNXVGYXU1eDk5SnBmcG9EUFdvUEU2Z3F5MlN6dXJnUzExVGNDUHg2bk5Gb1hXUVJMUmdmWml5UUtEYzQtV2YzNzF1Ukg5UTl2U3JuWC14ck51UGltVU5OakZvdGs4NS1hTjFCaTFKMXJ3MW1NN0N2Z0RVTjZjTk1UN3FUcUJsS01IMjI0TndjcWNOSFZyQVp5emo0V21UZDhkOW45TTdLQk5IUlpheWY4SXlR?oc=5",
    "date": "Sat, 10 Oct 2026 05:31:57 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Qualcomm-Huawei deal lands as U.S. tightens China tech rules",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPd2hsT25VQmFoMGZ0ZVRrYmFMM1pxMl8xeVJFZGVld1hKNEpISnFSQmtSZjdJY2dmdjlfbUVrTVVOMnBHZmxPSW5WaHpkTHpqUFY3TXp0ZDZhMFY5dnBHd2ZZeWxocGhTMWR0ZU9kcXZWdFhteDRRMDJxMTV4U1",
-   "source": "TheStreet·聚合",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd2hsT25VQmFoMGZ0ZVRrYmFMM1pxMl8xeVJFZGVld1hKNEpISnFSQmtSZjdJY2dmdjlfbUVrTVVOMnBHZmxPSW5WaHpkTHpqUFY3TXp0ZDZhMFY5dnBHd2ZZeWxocGhTMWR0ZU9kcXZWdFhteDRRMDJxMTV4U1QxSk1EMWpZazlwcDhqNnpnNGs0OGRySDR5ZElR?oc=5",
-   "date": "Fri, 09 Oct 2026 22:03:00 GMT",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
