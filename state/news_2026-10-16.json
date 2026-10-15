@@ -1,0 +1,224 @@
+{
+ "asof": "2026-10-16",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-10-16T01:56+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 9,
+  "cluster_label": "",
+  "cluster_dropped": [],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "geo",
+   "title": "美或动用巨型钻地弹 伊朗誓言继续抵抗",
+   "brief": "美方被曝考虑对伊朗使用GBU-57巨型钻地弹，伊朗表态将继续作战，美伊冲突持续升级。",
+   "chain": "美伊冲突升级→避险情绪升温压制美股风险偏好→A股算力链短期承压、军工与黄金板块获资金关注",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/15/us-iran-war-trump-hormuz.html",
+   "ts": "Thu, 15 Oct 2026 14:51:06 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "霍尔木兹海峡东部一油轮起火",
+   "brief": "伊朗海军称15日在霍尔木兹海峡东部海域发现一艘油轮起火，海峡航运风险再度抬升。",
+   "chain": "海峡油轮起火→Brent地缘风险溢价上行、油轮保险费率抬升→莫桑比克LNG海运成本与东非能源物流受扰动",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610163897315715.html",
+   "ts": "2026-10-16 00:24:50"
+  },
+  {
+   "cat": "oil",
+   "title": "IEA将紧急释放逾2000万桶柴油",
+   "brief": "国际能源署称将尽快释放超过2000万桶柴油，以缓解霍尔木兹航运中断造成的成品油紧张。",
+   "chain": "IEA释储→柴油裂解价差与原油近月价格获阶段性压制→莫桑比克成品油进口成本短期缓和",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/15/iea-diesel-price-ukraine-iran-oil.html",
+   "ts": "Thu, 15 Oct 2026 16:47:03 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "EIA：美国原油库存大降近900万桶",
+   "brief": "EIA数据显示美国原油库存下降近900万桶，降幅显著，反映供应端偏紧。",
+   "chain": "美原油去库→WTI/Brent获基本面支撑→东非油气项目经济性预期改善",
+   "impact": 6,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Crude-Oil/EIA-Says-US-Crude-Inventories-Down-Nearly-9-Million-Barrels.html",
+   "ts": "Thu, 15 Oct 2026 11:09:12 -0500"
+  },
+  {
+   "cat": "oil",
+   "title": "无人机袭击致俄梁赞炼油厂起火",
+   "brief": "俄梁赞地区州长称无人机袭击引发炼油厂火灾，俄炼油产能再受打击。",
+   "chain": "俄炼厂遇袭→俄成品油出口与全球柴油供应收紧→莫桑比克柴油进口价格承压",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQa0pBZjduSzRvUXQtRkNsY2RuSldmSVlKSThDLVhvbFYwOHlFclo3Ymt1VFptaERXV3h6Xy1ROHVMWWthTDluc1JzQTFHYk40MlNqSjBfSHBYSnVLbWhUWXAxbjJUTHdFZEhxdkRZdnhjbjBld2tSMXN2WDY4YVdxWmZVVkpuZF9IWERVQktOS0JkVkJDQl9XU1RNSDZ3WW0yZEJpNlQySXJtUG1NTGR1WGpQMA?oc=5",
+   "ts": "2026-10-15T07:07:42+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "伊朗船只遇袭 中东石油出口受威胁",
+   "brief": "伊朗船只遭袭致油轮通行放缓，中东石油出口面临威胁。",
+   "chain": "中东出口受威胁→油轮运价与原油风险溢价上行→东非油气采购与航运成本抬升",
+   "impact": 6,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/Iranian-Ship-Attacks-Threaten-Middle-East-Oil-Exports-as-Tanker-Traffic-Slows.html",
+   "ts": "Thu, 15 Oct 2026 09:00:00 -0500"
+  },
+  {
+   "cat": "oil",
+   "title": "委内瑞拉石油复苏 新钻机到位",
+   "brief": "新钻机抵达推动委内瑞拉石油产量恢复动能增强。",
+   "chain": "委内瑞拉增产→全球重油供应边际增加、部分对冲中东风险溢价→对莫桑比克气价影响有限",
+   "impact": 4,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Venezuelas-Oil-Recovery-Gains-Momentum-as-New-Drilling-Rigs-Arrive.html",
+   "ts": "Thu, 15 Oct 2026 12:00:00 -0500"
+  },
+  {
+   "cat": "gas",
+   "title": "联合国机构：霍尔木兹航运中断波及粮食",
+   "brief": "联合国机构称霍尔木兹航运中断已开始影响粮食收成与运输，能源与航运风险外溢至农业。",
+   "chain": "海峡航运中断→LNG与化肥海运受阻、气价风险溢价抬升→莫桑比克LNG出口航线与东非能源供应受关注",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN3pFV3J3TU44dzNxVVVjWUoyeVc3bVFpV3RVWEducVZZUFk0UXNBdzlEcnpxSGUycUw0cTIyLUFvYnNxc1BOU0lOOHJVM21tRFVrWVp5Q0pKRENxc01LcFpJbk1JS0k1ZndiMURRRVBySmJ0MUltS1RoM2JCN3d0V0t6WkhfT2U3UHU4QWhKb1M5eGRoUVpaVVVNT2hzNWlFT2hPSVRuQlQ2cURjdTBPOVd2UzRCc0JGcTVMWQ?oc=5",
+   "ts": "2026-10-15T09:01:43+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "经济学家：PPI偏热 美联储任务未完成",
+   "brief": "经济学家称最新PPI数据偏热，显示美联储抗通胀工作尚未结束，降息预期受抑。",
+   "chain": "PPI超预期→美债利率与美元走强、压制美股高久期AI估值→A股算力链情绪承压",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/15/pce-ppi-september-fed-reserve-rate-hike.html",
+   "ts": "Thu, 15 Oct 2026 15:37:59 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "美联储隔夜逆回购使用规模12.01亿美元",
+   "brief": "美联储周四隔夜逆回购协议使用规模为12.01亿美元，处于低位，反映货币市场流动性充裕。",
+   "chain": "RRP低位→美元流动性宽松、短端利率锚定→利好美股风险资产与A股算力链估值分母",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610163897327169.html",
+   "ts": "2026-10-16 01:17:35"
+  },
+  {
+   "cat": "macro",
+   "title": "美财政部驳斥IMF债务警告",
+   "brief": "美国财政部驳斥IMF关于美国债务的警告，并批评其预测方法。",
+   "chain": "美债可持续性争论→长端美债利率与美元信用预期波动→黄金避险与A股算力链估值受牵动",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/15/zervos-imf-us-debt-warning.html",
+   "ts": "Thu, 15 Oct 2026 13:42:32 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "美运通：信用卡逾期30天比率1.2%",
+   "brief": "美国运通称截至2026年9月30日消费者信用卡逾期30天初步比率为1.2%。",
+   "chain": "消费信贷逾期率→美国消费韧性信号→影响美股消费与金融板块、间接牵动A股出口链",
+   "impact": 3,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610163897314766.html",
+   "ts": "2026-10-16 00:08:45"
+  },
+  {
+   "cat": "macro",
+   "title": "IMF预测日本GDP明年或降至全球第6",
+   "brief": "IMF报告预测日本GDP将在2027年被印度和英国超越，全球排名由第四降至第六。",
+   "chain": "日本经济排名下滑→日元与日债吸引力变化、全球资金再配置→间接影响A股外资流向",
+   "impact": 3,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610163897314692.html",
+   "ts": "2026-10-16 00:15:38"
+  },
+  {
+   "cat": "geo",
+   "title": "胡塞武装袭击也门亚丁总统府",
+   "brief": "胡塞武装袭击也门亚丁总统府建筑群，也门总理未受伤。",
+   "chain": "也门冲突升级→红海与曼德海峡航运风险抬升→美股风险偏好受压、A股算力链情绪受扰",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPenN5Nk5reEJ3bHZicV9oSUR2N04zWUlyczJ1REFSbjFmZ0RPNEl1QzBKUUZjMnFrbzFvbE9YWjRCbVl1clRtNXFPZm9UanlhVmxUS09qYXhOYjJyeVRNRzZtdkVfeU5DalRNT1V4Q0E2MDU0Zno2ZWl5VERHd1BsZS0ya2lWQ0EtTngxbzVGdHNhc1RkZnhGRGxiSllsZzJqUjliamhmWmt3cVBfM1lzbS1vcmRPVHZkYVNhYTRB?oc=5",
+   "ts": "2026-10-15T15:36:55+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "胡塞再警告沙特领空机场不安全",
+   "brief": "胡塞武装发言人15日再次警告沙特领空和机场不安全，麦加与麦地那除外。",
+   "chain": "沙特空域风险→海湾局势与油价风险溢价抬升→美股能源板块波动、A股算力链风险偏好受压",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610163897312490.html",
+   "ts": "2026-10-16 00:06:33"
+  },
+  {
+   "cat": "geo",
+   "title": "普京称将回应乌攻击俄能源设施",
+   "brief": "普京10月15日表示，俄方将对乌克兰攻击俄炼油厂及物流能源设施作出回应。",
+   "chain": "俄乌能源设施互袭→原油与成品油供应风险抬升→美股能源波动、A股算力链情绪受抑",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610163897315514.html",
+   "ts": "2026-10-16 00:21:34"
+  },
+  {
+   "cat": "geo",
+   "title": "欧盟与海湾国家推迟沙特峰会",
+   "brief": "欧盟与海湾国家推迟原定在沙特举行的峰会，地区局势与外交节奏受影响。",
+   "chain": "峰会推迟→海湾地缘不确定性上升→美股风险偏好与A股算力链情绪边际承压",
+   "impact": 4,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOck10ZlptWXBhUE9nbDNFb1dWa0xGMXRRaC1wR29SZjVIbnVlMmJBZmI4ZzE3OG9RbjhCR0VjYUNVX0xyU0p0WkZFbEtfcjg3aFRyXzFSWjczRWU4WUx1NW9TWW1yZmNpUGQwLUdaNmlTSXdqMll5RVRzb3lZOWdPanhNNmN1QzFUNWMtUVktRzdFS0VQaGZSSW9CY18wSk9YVlNV?oc=5",
+   "ts": "2026-10-15T11:13:47+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "英伟达AMD戴尔因AI融资担忧遭抛售",
+   "brief": "全球科技股遭遇抛售，英伟达、AMD、戴尔因AI融资担忧大幅下挫。",
+   "chain": "AI融资担忧→美股AI硬件估值回调→A股算力链（服务器/光模块/PCB）情绪承压",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+   "ts": "Thu, 15 Oct 2026 16:19:09 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "CoreWeave信用违约掉期升至困境水平",
+   "brief": "CoreWeave信用违约掉期升至困境水平，投资者对AI相关债务的担忧加剧。",
+   "chain": "AI债务风险→美股AI基建融资成本抬升、估值承压→A股算力链风险偏好受抑",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html",
+   "ts": "Thu, 15 Oct 2026 16:52:16 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "存储股重挫 中国与2029过剩成隐忧",
+   "brief": "存储芯片股大幅下挫，市场担忧中国供应增长与2029年潜在供应过剩。",
+   "chain": "存储过剩担忧→美股半导体板块承压→A股存储与算力链情绪受拖累",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/15/memory-stocks-micron-sk-hynix-samsung-china.html",
+   "ts": "Thu, 15 Oct 2026 12:15:09 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "Anthropic三季度营收达168亿美元",
+   "brief": "Anthropic第三季度营收据称达168亿美元，IPO前业绩表现强劲。",
+   "chain": "AI龙头营收高增→验证AI商业化、支撑美股AI板块→A股算力链需求预期获提振",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
+   "ts": "Thu, 15 Oct 2026 03:48:58 GMT"
+  }
+ ]
+}
