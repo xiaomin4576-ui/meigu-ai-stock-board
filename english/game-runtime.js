@@ -1,3 +1,389 @@
+/* English game audio runtime · 20261015-demo-1 */
+/* Browser speech stays user-initiated; exported factory also supports isolated tests. */
+(function(root){
+  'use strict';
+  function spokenText(part){
+    return String(part.speechText || part.text || '').replace(/…|\.{3,}/g,' ').replace(/\s+/g,' ').trim();
+  }
+  function selectVoice(voices){
+    const english=voices.filter(v=>/^en(?:[-_]|$)/i.test(v.lang));
+    // Prefer ordinary reading voices over macOS novelty voices when equally available.
+    const preferred=v=>/\b(Samantha|Alex|Siri)\b|Microsoft.*Natural|Google.*English/i.test(v.name || '');
+    const novelty=v=>/^(Albert|Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Good News|Hysterical|Jester|Organ|Trinoids|Whisper|Zarvox)$/i.test(v.name || '');
+    // A novelty voice is not a pronunciation model. Never prefer one merely
+    // because it is en-US; use a normal English voice of another locale, or
+    // report that no suitable English voice is available.
+    const ordinary=english.filter(v=>!novelty(v));
+    const score=v=>(/^en[-_]US$/i.test(v.lang)?1000:0)+(v.localService?100:0)+(v.default?50:0)+(preferred(v)?25:0);
+    return ordinary.sort((a,b)=>score(b)-score(a))[0] || null;
+  }
+  const BEDROOM_DEMO='https://speech.andy4576.com/calibrate/audio/bedroom-human-us.mp3';
+  function createController({synth,Utterance,AudioPlayer=root.Audio,navigator:nav=root.navigator,document:doc=root.document,
+    demoUrl=BEDROOM_DEMO,attachPlayer=player=>doc?.body?.appendChild(player),onChange=()=>{},setTimer=setTimeout,clearTimer=clearTimeout}){
+    const supported=!!synth && typeof Utterance==='function' && typeof synth.speak==='function';
+    let active=null,mediaActive=false,timer=null,sequence=0,previousAudioSession=null;
+    let state={phase:'idle',key:null,mode:null,label:'',message:''};
+    function voiceInfo(){
+      if(!supported)return {available:false,label:'当前浏览器不支持带读，请用 Safari 或 Chrome 打开。'};
+      let voices=[];try{voices=synth.getVoices();}catch{}
+      const voice=selectVoice(voices);
+      if(!voice && voices.length)return {available:false,label:'设备尚无可用的英语声音，请添加英语语音，或打开词典听发音。'};
+      return {available:true,voice,label:voice?(/^en[-_]US$/i.test(voice.lang)?`美式英语 · ${voice.name}`:`英语 · ${voice.lang}（与美式音标可能略有不同）`):'系统英语 · 优先美式'};
+    }
+    const snapshot=()=>({...state,voiceInfo:voiceInfo()});
+    const emit=()=>onChange(snapshot());
+    function playbackSession(){
+      // 录音后 Safari 可能仍走录音声道；示范和回放都必须明确切到媒体播放。
+      try{const session=nav?.audioSession;if(session){previousAudioSession=session.type;session.type='playback';}}catch{previousAudioSession=null;}
+    }
+    function restoreSession(){
+      if(previousAudioSession!==null){try{if(nav?.audioSession?.type==='playback')nav.audioSession.type=previousAudioSession;}catch{}previousAudioSession=null;}
+    }
+    function release(){
+      sequence++;
+      if(timer!==null)clearTimer(timer);
+      timer=null;
+      // Detach first: some engines dispatch cancellation events synchronously.
+      if(active){
+        active.onstart=null;active.onplaying=null;active.onend=null;active.onended=null;active.onerror=null;active.ontimeupdate=null;active.onpause=null;
+        if(mediaActive){try{active.pause();active.remove?.();active.removeAttribute?.('src');active.load?.();}catch{}}
+        active=null;mediaActive=false;
+      }
+      if(supported)try{synth.cancel();}catch{}
+      restoreSession();
+    }
+    function stop(message='已停止。点听读可以再听一遍。'){
+      if(!active && state.phase==='idle' && !state.message)return;
+      release();state={phase:'idle',key:null,mode:null,label:'',message};emit();
+    }
+    function play({key,label,text,mode='normal'}){
+      if(active && state.key===key && state.mode===mode){stop();return;}
+      release();
+      if(doc?.hidden){state={phase:'error',key,mode,label,message:'请回到游戏页面，再点听示范。后台页面不会播放领读。'};emit();return;}
+      const fixedDemo=String(text||'').trim().toLowerCase()==='bedroom' && typeof AudioPlayer==='function';
+      const info=voiceInfo();
+      if((!info.available && !fixedDemo) || !text){state={phase:'error',key,mode,label,message:info.available?'这个词暂时无法朗读。':info.label};emit();return;}
+      const token=sequence;
+      const fail=message=>{if(token!==sequence)return;release();state={phase:'error',key,mode,label,message};emit();};
+      playbackSession();
+      if(fixedDemo){
+        try{
+          const player=new AudioPlayer(demoUrl);
+          active=player;mediaActive=true;
+          player.muted=false;player.volume=1;player.preload='auto';player.playsInline=true;player.controls=true;
+          player.setAttribute?.('playsinline','');player.setAttribute?.('aria-label','bedroom 真人美音示范');player.className='english-demo-player';
+          player.playbackRate=mode==='slow'?0.8:1;
+          state={phase:'loading',key,mode,label,message:'准备播放 bedroom 真人美音示范…'};emit();
+          let advanced=0;
+          const watch=()=>{clearTimer(timer);timer=setTimer(()=>fail('示范音未能继续播放，请再点一次。'),6000);};
+          player.onplaying=()=>{
+            if(token!==sequence)return;
+            watch();
+          };
+          player.ontimeupdate=()=>{
+            if(token!==sequence||player.paused)return;
+            const at=Number(player.currentTime)||0;
+            if(at>advanced+.02){advanced=at;watch();state={phase:'speaking',key,mode,label,message:`正在播放${mode==='slow'?'慢速':''}真人美音：bedroom · ${at.toFixed(1)} 秒`};emit();}
+          };
+          player.onpause=()=>{if(token!==sequence||player.ended||!advanced)return;clearTimer(timer);timer=null;state={phase:'loading',key,mode,label,message:'示范已暂停，可用播放器继续，或点停止示范。'};emit();};
+          player.onended=()=>{
+            if(token!==sequence)return;
+            if(!(Number(player.currentTime)>.05)){fail('示范没有正常播放，请再点一次。');return;}
+            release();
+            state={phase:'done',key,mode,label,message:'bedroom 真人示范已播完，轮到你读。来源：Dvortygirl / Wikimedia Commons，CC BY-SA 3.0。'};emit();
+          };
+          player.onerror=()=>fail('真人示范音暂时无法播放。请检查网络后再点一次。');
+          timer=setTimer(()=>fail('还没有听到示范音？请检查音量后再点一次。'),6000);
+          attachPlayer?.(player);
+          // Keep play() on the initiating click so iPad Safari can authorize audio.
+          Promise.resolve(player.play()).catch(()=>fail('请亲自点一下听读；若仍无声，请检查 Safari 音量。'));
+          return;
+        }catch{fail('真人示范音暂时无法播放。请稍后重试。');return;}
+      }
+      try{
+        const utterance=new Utterance(text);
+        let started=false;
+        active=utterance;
+        utterance.lang=info.voice?.lang || 'en-US';
+        if(info.voice)utterance.voice=info.voice;
+        utterance.rate=mode==='slow'?0.72:1;
+        utterance.pitch=1;utterance.volume=1;
+        state={phase:'loading',key,mode,label,message:`准备朗读 ${label}…`};emit();
+        utterance.onstart=()=>{
+          if(token!==sequence)return;
+          started=true;
+          clearTimer(timer);
+          state={phase:'speaking',key,mode,label,message:`${mode==='slow'?'慢读':'正在朗读'}：${label}`};emit();
+          timer=setTimer(()=>fail('朗读已停止。请再点一次，或打开词典听发音。'),Math.max(15000,text.length*500));
+        };
+        utterance.onend=()=>{
+          if(token!==sequence)return;
+          if(!started){fail('浏览器没有启动示范声音。请回到当前页面，再亲自点一次听示范。');return;}
+          release();
+          state={phase:'done',key,mode,label,message:`${label} 读完了，轮到你跟读。再点可重听。`};emit();
+        };
+        utterance.onerror=event=>{
+          const message=event.error==='not-allowed'?'请亲自点一下听读；若仍无声，请用 Safari 或 Chrome 打开。':'暂时无法播放。请重试，或打开词典听发音。';
+          fail(message);
+        };
+        timer=setTimer(()=>fail('还没有听到声音？请检查音量，再点听读；也可打开词典听发音。'),6000);
+        // No await or timer before speak: preserve the original mobile user gesture.
+        if(synth.paused)synth.resume();
+        synth.speak(utterance);
+      }catch{fail('暂时无法播放。请重试，或打开词典听发音。');}
+    }
+    const voicesChanged=()=>emit();
+    if(supported)synth.addEventListener?.('voiceschanged',voicesChanged);
+    return {play,stop,snapshot,dispose(){release();synth?.removeEventListener?.('voiceschanged',voicesChanged);}};
+  }
+  const api={spokenText,selectVoice,createController};
+  if(typeof module==='object' && module.exports)module.exports=api;
+  else root.EnglishSpeech=api;
+})(globalThis);
+
+(function(root){
+'use strict';
+function wavFromChannels(channels, rate){
+  if(!channels.length || !channels[0].length || !Number.isFinite(rate) || rate<8000)throw Error('没有录到声音，请再试一次。');
+  const frames=Math.min(channels[0].length,Math.floor(rate*12));
+  const length=Math.floor(frames*16000/rate), bytes=new Uint8Array(44+length*2),v=new DataView(bytes.buffer);
+  const str=(at,s)=>[...s].forEach((c,i)=>v.setUint8(at+i,c.charCodeAt(0)));
+  str(0,'RIFF');v.setUint32(4,36+length*2,true);str(8,'WAVE');str(12,'fmt ');v.setUint32(16,16,true);v.setUint16(20,1,true);v.setUint16(22,1,true);v.setUint32(24,16000,true);v.setUint32(28,32000,true);v.setUint16(32,2,true);v.setUint16(34,16,true);str(36,'data');v.setUint32(40,length*2,true);
+  let power=0;
+  for(let i=0;i<length;i++){
+    const start=i*rate/16000,end=(i+1)*rate/16000;let sum=0,weight=0;
+    for(let j=Math.floor(start);j<Math.min(frames,Math.ceil(end));j++){
+      const w=Math.min(end,j+1)-Math.max(start,j);let sample=0;
+      for(const channel of channels)sample+=channel[j]||0;
+      sum+=sample/channels.length*w;weight+=w;
+    }
+    const sample=Math.max(-1,Math.min(1,sum/(weight||1)));power+=sample*sample;v.setInt16(44+i*2,Math.round(sample*(sample<0?32768:32767)),true);
+  }
+  return {bytes,duration:length/16000,rms:Math.sqrt(power/(length||1))};
+}
+function rmsFromSamples(samples){
+  if(!samples?.length)return 0;
+  let sum=0;for(const value of samples){const sample=Number.isFinite(value)?value:0;sum+=sample*sample;}
+  return Math.sqrt(sum/samples.length);
+}
+
+// An energy endpoint detector, NOT a pronunciation score or a proof of speech.
+// Recording begins before detection, so the first consonant is never trimmed.
+function createEndDetector({kind='word',silenceMs=kind==='phrase'?1500:900,noSpeechMs=6500,maxMs=12000}={}){
+  silenceMs=Math.max(700,Math.min(2400,Number(silenceMs)||900));
+  noSpeechMs=Math.max(3000,Math.min(9000,Number(noSpeechMs)||6500));
+  maxMs=Math.min(12000,Math.max(noSpeechMs,Number(maxMs)||12000));
+  let elapsed=0,previous=0,noise=.0008,threshold=.004,voicedMs=0,lastVoice=0,detected=false,reason=null;
+  const snapshot=()=>({reason,speechDetected:detected,durationMs:elapsed,noiseFloor:noise,threshold});
+  function update(level,at){
+    if(reason)return snapshot();
+    elapsed=Math.max(elapsed,Number.isFinite(at)?at:elapsed);
+    const dt=Math.min(100,Math.max(0,elapsed-previous));previous=elapsed;
+    const rms=Number.isFinite(level)?Math.max(0,Math.min(1,level)):0;
+    threshold=Math.min(.025,Math.max(.004,noise*2.8+.001));
+    // Hysteresis preserves a quiet word ending. Only likely-quiet samples adapt
+    // the floor; loud continuous noise is never called a correct pronunciation.
+    const voiced=rms>=(detected?threshold*.6:threshold);
+    if(voiced){
+      voicedMs+=dt;lastVoice=elapsed;
+      if(voicedMs>=80)detected=true;
+    }else{
+      if(!detected){voicedMs=0;noise=Math.min(.008,noise*.94+rms*.06);}
+    }
+    if(!detected&&elapsed>=noSpeechMs)reason='no_speech';
+    else if(elapsed>=maxMs)reason=detected?'limit':'no_speech';
+    else if(detected&&elapsed-lastVoice>=silenceMs&&elapsed>=700)reason='silence';
+    return snapshot();
+  }
+  return {update,snapshot};
+}
+
+const captureError=(code,message)=>Object.assign(new Error(message),{code});
+const cancelled=()=>captureError('CANCELLED','录音已取消。');
+const noSpeech=()=>captureError('NO_SPEECH','没有听到清楚的声音，这次不算读错。准备好后再试一次。');
+function createRecorder({mediaDevices=root.navigator?.mediaDevices,Recorder=root.MediaRecorder,Context=root.AudioContext||root.webkitAudioContext,
+  setTimer=setTimeout,clearTimer=clearTimeout,now=()=>root.performance?.now?.()??Date.now(),onLimit=()=>{},onEnd=()=>{},
+  document:doc=root.document,eventTarget=root}={}){
+  let sessionSerial=0,captureSerial=0,stream=null,context=null,source=null,analyser=null,silentGain=null;
+  let acquiring=null,preparing=null,active=null,disposed=false;
+  const supported=()=>{
+    if(disposed)throw captureError('DISPOSED','录音器已关闭，请重新打开练习页面。');
+    if(!mediaDevices?.getUserMedia||!Recorder||!Context)throw captureError('UNSUPPORTED','此浏览器暂不支持录音，请使用 Safari 打开；也可以先听读练习。');
+  };
+  const enable=enabled=>stream?.getTracks().forEach(track=>{track.enabled=enabled;});
+  const usableStream=()=>stream&&stream.getTracks().some(track=>track.readyState!=='ended');
+  const clearCaptureTimers=capture=>{for(const key of ['timer','poll']){if(capture[key]!==null)clearTimer(capture[key]);capture[key]=null;}};
+  function detachRecorder(capture){
+    const r=capture.recorder;r.ondataavailable=null;r.onstop=null;r.onerror=null;
+    try{if(r.state!=='inactive')r.stop();}catch{}
+  }
+  function cancelCapture(error=cancelled()){
+    captureSerial++;
+    const capture=active;active=null;
+    if(!capture)return;
+    clearCaptureTimers(capture);detachRecorder(capture);enable(false);
+    capture.complete({reason:'cancelled',speechDetected:capture.detector?.snapshot().speechDetected||false,durationMs:Math.max(0,now()-capture.startedAt)});
+    capture.reject(error);
+  }
+  function closeSession(){
+    sessionSerial++;acquiring=null;preparing=null;
+    const oldStream=stream;stream=null;
+    oldStream?.getTracks().forEach(track=>{track.removeEventListener?.('ended',lostTrack);track.stop();});
+    for(const node of [source,analyser,silentGain]){try{node?.disconnect();}catch{}}
+    source=null;analyser=null;silentGain=null;
+    const oldContext=context;context=null;
+    try{const closed=oldContext?.close();closed?.catch?.(()=>{});}catch{}
+  }
+  function release(){cancelCapture();closeSession();}
+  function cancel(){release();}
+  function lostTrack(){
+    cancelCapture(captureError('MICROPHONE_LOST','麦克风已中断，准备好后重新开始。'));closeSession();
+  }
+  function acquire(){
+    if(usableStream())return Promise.resolve(stream);
+    if(acquiring)return acquiring;
+    const token=sessionSerial;
+    let permission;
+    try{permission=mediaDevices.getUserMedia({audio:{channelCount:1,echoCancellation:true,noiseSuppression:true},video:false});}
+    catch{permission=Promise.reject(captureError('MICROPHONE_DENIED','未能使用麦克风。请检查网站的麦克风权限，或选择直接跟读。'));}
+    const request=Promise.resolve(permission).then(next=>{
+      if(token!==sessionSerial){next.getTracks().forEach(track=>track.stop());throw cancelled();}
+      stream=next;enable(false);
+      stream.getTracks().forEach(track=>track.addEventListener?.('ended',lostTrack));
+      return next;
+    },error=>{
+      if(token!==sessionSerial)throw cancelled();
+      throw captureError('MICROPHONE_DENIED','未能使用麦克风。请检查网站的麦克风权限，或选择直接跟读。');
+    });
+    acquiring=request;
+    request.finally(()=>{if(acquiring===request)acquiring=null;}).catch(()=>{});
+    return request;
+  }
+  function unlock(){
+    supported();
+    // 只解锁播放上下文，不申请麦克风，避免示范时切入录音输出声道。
+    try{if(!context)context=new Context();return Promise.resolve(context.resume?.());}
+    catch{return Promise.reject(captureError('AUDIO_UNAVAILABLE','声音检测暂时无法启动，请重新点开始。'));}
+  }
+  function prepare(){
+    supported();
+    if(doc?.hidden)return Promise.reject(captureError('PAGE_HIDDEN','请回到练习页面后重新开始。'));
+    if(preparing)return preparing;
+    if(usableStream()&&analyser&&context&&context.state!=='closed')return Promise.resolve();
+    if(active)return Promise.reject(captureError('BUSY','上一段录音还没有结束。'));
+    const token=sessionSerial;
+    let unlock;
+    try{
+      // Intentionally synchronous with the user's first click, BEFORE waiting
+      // for the iOS permission prompt. Later questions reuse this audio context.
+      if(!context)context=new Context();
+      unlock=Promise.resolve(context.resume?.());
+    }catch{
+      closeSession();return Promise.reject(captureError('AUDIO_UNAVAILABLE','声音检测暂时无法启动，请重新点开始。'));
+    }
+    const pending=(async()=>{
+      try{
+        const [next]=await Promise.all([acquire(),unlock]);
+        if(token!==sessionSerial)throw cancelled();
+        if(!context.createMediaStreamSource||!context.createAnalyser)throw captureError('VAD_UNAVAILABLE','此浏览器暂不支持自动结束录音，请用 Safari 打开。');
+        source=context.createMediaStreamSource(next);analyser=context.createAnalyser();analyser.fftSize=2048;
+        if(!analyser.getFloatTimeDomainData&&!analyser.getByteTimeDomainData)throw captureError('VAD_UNAVAILABLE','此浏览器暂不支持自动结束录音，请用 Safari 打开。');
+        source.connect(analyser);
+        // A zero-gain output keeps the analysis graph running on Safari without
+        // ever playing microphone audio through the speakers.
+        if(context.createGain){silentGain=context.createGain();silentGain.gain.value=0;analyser.connect(silentGain);silentGain.connect(context.destination);}
+        enable(false);
+      }catch(error){if(token===sessionSerial)release();throw error?.code?error:captureError('AUDIO_UNAVAILABLE','声音检测暂时无法启动，请重新点开始。');}
+    })();
+    preparing=pending;pending.finally(()=>{if(preparing===pending)preparing=null;}).catch(()=>{});
+    return pending;
+  }
+  function end(reason='manual'){
+    const capture=active;if(!capture||capture.ending)return;
+    capture.ending=true;capture.reason=reason;capture.endedAt=now();clearCaptureTimers(capture);
+    try{capture.recorder.stop();}catch{
+      cancelCapture(captureError('RECORDING_FAILED','录音中断了，请再试一次。'));closeSession();return;
+    }
+    enable(false);
+    if(!capture.keepSession)closeSession();
+    const metadata={reason,speechDetected:capture.detector?.snapshot().speechDetected||false,durationMs:Math.max(0,capture.endedAt-capture.startedAt)};
+    try{onEnd(metadata);}catch{}
+    if(reason==='limit'){try{onLimit();}catch{}}
+  }
+  // Default start() retains the old manual API. The automatic flow explicitly
+  // opts into a prepared session; result is still a Blob and completion is
+  // metadata only. cancel/release always revoke the whole microphone session.
+  async function start({autoStop=false,keepSession=false,kind='word',silenceMs}={}){
+    supported();
+    if(doc?.hidden)throw captureError('PAGE_HIDDEN','请回到练习页面后重新开始。');
+    cancelCapture();const serial=++captureSerial;
+    if(autoStop)await prepare();else await acquire();
+    if(serial!==captureSerial||!usableStream())throw cancelled();
+    if(autoStop&&context.state==='suspended'){
+      try{await context.resume();}catch{release();throw captureError('AUDIO_UNAVAILABLE','声音检测暂时无法恢复，请重新点开始。');}
+      if(serial!==captureSerial||!usableStream())throw cancelled();
+    }
+    if(doc?.hidden){release();throw captureError('PAGE_HIDDEN','请回到练习页面后重新开始。');}
+    try{
+      const mime=['audio/mp4','audio/webm;codecs=opus','audio/webm'].find(m=>Recorder.isTypeSupported?.(m));
+      enable(true);const r=new Recorder(stream,mime?{mimeType:mime}:{});
+      let resolve,reject,complete;
+      const result=new Promise((yes,no)=>{resolve=yes;reject=no;});result.catch(()=>{});
+      const completion=new Promise(yes=>{complete=yes;});
+      const capture={recorder:r,chunks:[],resolve,reject,complete,autoStop,keepSession,detector:autoStop?createEndDetector({kind,silenceMs}):null,
+        startedAt:now(),endedAt:null,reason:'manual',ending:false,timer:null,poll:null};active=capture;
+      r.ondataavailable=e=>{if(active===capture&&e.data?.size)capture.chunks.push(e.data);};
+      r.onerror=()=>{if(active===capture){cancelCapture(captureError('RECORDING_FAILED','录音中断了，请再试一次。'));closeSession();}};
+      r.onstop=()=>{
+        if(active!==capture)return;
+        clearCaptureTimers(capture);active=null;enable(false);
+        if(!capture.keepSession&&stream)closeSession();
+        const detected=capture.detector?.snapshot().speechDetected||false;
+        const reason=capture.autoStop&&!detected?'no_speech':capture.reason;
+        const meta={reason,speechDetected:detected,durationMs:Math.max(0,(capture.endedAt??now())-capture.startedAt)};
+        capture.complete(meta);
+        if(reason==='no_speech'){capture.reject(noSpeech());return;}
+        const blob=new Blob(capture.chunks,{type:r.mimeType||mime||''});
+        if(!blob.size){capture.reject(captureError('NO_AUDIO','没有录到声音，请再试一次。'));return;}
+        capture.resolve(blob);
+      };
+      r.start();
+      capture.timer=setTimer(()=>{if(active===capture){end(autoStop&&!capture.detector.snapshot().speechDetected?'no_speech':'limit');}},12000);
+      if(autoStop){
+        const floats=analyser.getFloatTimeDomainData?new Float32Array(analyser.fftSize):null;
+        const bytes=floats?null:new Uint8Array(analyser.fftSize);
+        const tick=()=>{
+          if(active!==capture||capture.ending)return;
+          if(doc?.hidden){release();return;}
+          try{
+            let level;
+            if(floats){analyser.getFloatTimeDomainData(floats);level=rmsFromSamples(floats);}
+            else{analyser.getByteTimeDomainData(bytes);let sum=0;for(const b of bytes)sum+=((b-128)/128)**2;level=Math.sqrt(sum/bytes.length);}
+            const state=capture.detector.update(level,now()-capture.startedAt);
+            if(state.reason){end(state.reason);return;}
+            capture.poll=setTimer(tick,40);
+          }catch{cancelCapture(captureError('AUDIO_UNAVAILABLE','声音检测中断了，请重新开始。'));closeSession();}
+        };
+        capture.poll=setTimer(tick,40);
+      }
+      return {result,completion};
+    }catch(error){release();throw error;}
+  }
+  function stop(){end('manual');}
+  async function encode(blob){
+    const shared=context&&context.state!=='closed'?context:null;
+    const decoding=shared||new Context();
+    try{const buffer=await decoding.decodeAudioData(await blob.arrayBuffer());return wavFromChannels(Array.from({length:buffer.numberOfChannels},(_,i)=>buffer.getChannelData(i)),buffer.sampleRate);}
+    finally{if(!shared)await decoding.close();}
+  }
+  const hidden=()=>{if(doc?.hidden)release();};
+  doc?.addEventListener?.('visibilitychange',hidden);eventTarget?.addEventListener?.('pagehide',release);
+  function dispose(){disposed=true;release();doc?.removeEventListener?.('visibilitychange',hidden);eventTarget?.removeEventListener?.('pagehide',release);}
+  return {unlock,prepare,start,stop,cancel,release,encode,dispose,isPrepared:()=>!!(usableStream()&&analyser&&context&&context.state!=='closed')};
+}
+const api={wavFromChannels,rmsFromSamples,createEndDetector,createRecorder};if(typeof module==='object'&&module.exports)module.exports=api;else root.EnglishGameAudio=api;
+})(globalThis);
+
 /* Continuous voice practice. Only a confirmed gateway pass can score a hit. */
 (function(root){
 'use strict';
@@ -15,7 +401,8 @@ const canUseMic=()=>!busy()||['recording','hit','feedback'].includes(phase);
 const recorder=root.EnglishGameAudio.createRecorder();
 const cancelled=()=>Object.assign(Error('练习已暂停。'),{code:'CANCELLED'});
 const valid=serial=>serial===requestSerial&&!document.hidden&&!!host?.isConnected;
-const speech=root.EnglishSpeech.createController({synth:root.speechSynthesis,Utterance:root.SpeechSynthesisUtterance,onChange:s=>{
+const speech=root.EnglishSpeech.createController({synth:root.speechSynthesis,Utterance:root.SpeechSynthesisUtterance,
+ demoUrl:'/english/audio/bedroom-human-us.mp3',attachPlayer:player=>host?.insertAdjacentElement?.('afterend',player),onChange:s=>{
   if(speechWait&&s.key===speechWait.key){
    if(s.phase==='done'){const wait=speechWait;speechWait=null;wait.resolve();}
    else if(s.phase==='error'||s.phase==='idle'){const wait=speechWait;speechWait=null;wait.reject(Object.assign(Error(s.message||'示范未能播放。'),{code:'DEMO_UNAVAILABLE'}));}
@@ -74,7 +461,7 @@ const controlsStyle=`<style>
 .game .game-reading-notice summary{cursor:pointer;min-height:44px;display:flex;align-items:center;justify-content:center}
 .game .game-reading-notice p{max-width:540px;margin:0 auto 14px}
 .game #game-speech-status:empty,.game #game-feedback:empty{display:none}
-.english-recording-player{display:block;width:min(100%,460px);margin:14px auto}
+.english-recording-player,.english-demo-player{display:block;width:min(100%,460px);margin:14px auto}
 @media(max-width:480px){.game .game-voice-controls{gap:20px}.game .game-reading{padding:16px 10px}.game .game-progress{font-size:.8rem}.game .game-reading .game-card{padding:6px}.game .game-score{padding:12px}.game .game-voice-controls .game-mic{width:88px;height:88px;min-height:88px}}
 </style>`;
 function scoreView(){
@@ -318,11 +705,12 @@ async function record({example=null}={}){
  clearPlayback({discardRecording:false});abort?.abort();const serial=++requestSerial;continuous=true;
  phase='permission';status='请允许麦克风。每次朗读后稍作停顿，会自动结束录音。';
  // Keep this call in the click stack: AudioContext.resume must precede await on iOS.
- let prepared,exampleDone;try{prepared=recorder.prepare();if(example)exampleDone=demo(serial,example==='slow');}catch(e){pauseFlow(errorMessage(e));return;}paint();
+ let prepared,exampleDone;try{if(example){prepared=recorder.unlock?.();exampleDone=demo(serial,example==='slow');}else prepared=recorder.prepare();}catch(e){pauseFlow(errorMessage(e));return;}paint();
  try{
-  // Both microphone preparation and optional playback begin in the user's click stack.
-  // Recording stays disabled until the entire example and its tail buffer have ended.
+  // 音频解锁和示范从点击手势启动；示范结束后才申请麦克风。
   await Promise.all([prepared,exampleDone]);if(!valid(serial))return;
+  // 示范完成并恢复播放声道后才申请麦克风；不要同时开录音和领读。
+  if(example){await recorder.prepare();if(!valid(serial))return;}
   while(valid(serial)&&continuous&&current()){
    if(!practice)assertConnection();
    if(!valid(serial))return;
@@ -368,7 +756,7 @@ function handle(e){
  case'listen':case'slow':if(canListen()&&current()){
   const example=b.dataset.game==='slow'?'slow':'normal';
   if(continuous){pauseFlow('先听示范，再继续读本词。');record({example});}
-  else{hinted=true;persistRound();stopReplay();speech.play({key:current().id,label:current().text,text:current().text,mode:example});paint();}
+  else{hinted=true;persistRound();stopReplay();recorder.release();speech.play({key:current().id,label:current().text,text:current().text,mode:example});paint();}
  }break;
  case'stop-listen':if(continuous)pauseFlow('练习已暂停，麦克风已关闭。准备好后继续。');else{speech.stop('');paint();}break;
  case'record':useMic();break;

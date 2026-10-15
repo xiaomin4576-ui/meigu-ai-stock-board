@@ -18,6 +18,7 @@ from encrypt_board import GATE, ITERS, encrypt
 ROOT = Path(__file__).resolve().parent
 RELEASE = ROOT / "english" / "encrypted.html"
 RUNTIME = ROOT / "english" / "game-runtime.js"
+AUDIO = ROOT / "english" / "audio"
 TRANSPORT = ROOT / "english" / "course-update.enc.json"
 
 
@@ -134,11 +135,17 @@ def install(release, output, password, transport=None):
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(gate, encoding="utf-8")
     (output.parent / "game-runtime.js").write_bytes(RUNTIME.read_bytes())
+    # 公开授权的真人示范随主站发布，不依赖评分服务器是否可达。
+    audio_output = output.parent / "audio"
+    audio_output.mkdir(exist_ok=True)
+    for name in ('bedroom-human-us.mp3', 'ATTRIBUTION.md'):
+        (audio_output / name).write_bytes((AUDIO / name).read_bytes())
     receipt = {'version': 1, 'batchId': data.get('batchId'),
                'vocabularyCount': len(data.get('vocabulary', [])), 'quizCount': len(data.get('quiz', [])),
                'unitCount': len(data.get('units', [])),
                'pageSha256': hashlib.sha256(gate.encode()).hexdigest(),
                'gameRuntimeSha256': hashlib.sha256(RUNTIME.read_bytes()).hexdigest(),
+               'demoAudioSha256': hashlib.sha256((AUDIO / 'bedroom-human-us.mp3').read_bytes()).hexdigest(),
                'sourceTransportSha256': hashlib.sha256(transport.read_bytes()).hexdigest() if transport is not None else None}
     (output.parent / 'release.json').write_text(json.dumps(receipt) + '\n', encoding='utf-8')
     return data

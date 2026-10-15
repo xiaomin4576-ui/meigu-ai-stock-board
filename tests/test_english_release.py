@@ -7,7 +7,7 @@ import unittest
 from unittest import mock
 
 from cryptography.exceptions import InvalidTag
-from english_release import install, package, verify, envelope, refresh_runtime, english_gate, RUNTIME, decrypt_course_transport
+from english_release import install, package, verify, envelope, refresh_runtime, english_gate, RUNTIME, AUDIO, decrypt_course_transport
 from encrypt_board import ITERS
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 
@@ -97,6 +97,8 @@ class EnglishReleaseTest(unittest.TestCase):
             install(release, output, "temporary-test-password")
             self.assertEqual(output.read_text(), self.gate)
             self.assertEqual((output.parent / "game-runtime.js").read_bytes(), RUNTIME.read_bytes())
+            self.assertEqual((output.parent / "audio/bedroom-human-us.mp3").read_bytes(), (AUDIO / 'bedroom-human-us.mp3').read_bytes())
+            self.assertIn('CC BY-SA 3.0', (output.parent / 'audio/ATTRIBUTION.md').read_text())
             output.unlink()
             install(release, output, "temporary-test-password")
             with self.assertRaises(InvalidTag):
