@@ -1,6 +1,6 @@
 {
  "asof": "2026-10-15",
- "fetched_at": "2026-10-15T20:11+08:00",
+ "fetched_at": "2026-10-15T23:39+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -14,15 +14,145 @@
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 1,
-   "非洲科技·聚合": 10,
-   "中非科技·聚合": 19
+   "非洲科技·聚合": 11,
+   "中非科技·聚合": 18
   },
   "total": 60,
-  "ai_flagged": 19,
+  "ai_flagged": 20,
   "aiinfra_flagged": 0,
-  "countries": 10
+  "countries": 7
  },
  "items": [
+  {
+   "title": "Kaspersky’s African business is profitable. Now it wants bigger clients.",
+   "brief": "Kaspersky wants  to expand its business with banks, governments, and critical infrastructure operators as the growth of digital financial services creates more systems that need protection.",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/15/kaspersky-wants-bigger-clients/",
+   "date": "Thu, 15 Oct 2026 14:55:06 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "China investigates reported brake pedal bracket fracture in Huawei-backed Maextro EV",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxPamFKbUl4ZHQ1endraTZrRUU2VmdBZlNScDBqVjcyQlBJa2swY0RhZTBaYWZ5Rm04RjYwaHRRc3lJTDYzb21QdmFySkIwT1RCeGc3cDJVUVRWdE50eEJuUDgyYnZYS1I5bENfOHBDa3IwNDFYb3BnS1o4ZWtiS3",
+   "source": "Reuters·聚合",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPamFKbUl4ZHQ1endraTZrRUU2VmdBZlNScDBqVjcyQlBJa2swY0RhZTBaYWZ5Rm04RjYwaHRRc3lJTDYzb21QdmFySkIwT1RCeGc3cDJVUVRWdE50eEJuUDgyYnZYS1I5bENfOHBDa3IwNDFYb3BnS1o4ZWtiS3ZYMnFXOThZNlBfUEx4RlhhNlVNbDVPSjg0bW5IUDVlQllFLXpnenQybWdjV2g2WTFabk1PQmhjMFNlRjNpOHBhd1Jab0d2MjVWTHA1N1VUZw?oc=5",
+   "date": "Thu, 15 Oct 2026 14:53:45 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "How FNB digital banking is changing the way South Africans bank",
+   "brief": "FNB is bringing more services together to change how South Africans bank, from WhatsApp eWallet and eBucks to My Advisor and FNB Connect.",
+   "source": "Condia",
+   "url": "https://thecondia.com/fnb-digital-banking/",
+   "date": "Thu, 15 Oct 2026 14:31:01 +0000",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Nithio Invests in MAX as Series B3 Funding Round Reaches $29 Million",
+   "brief": "Nithio  has provided financing to MAX,  extending the Nigerian mobility company’s Series B3 funding round to $29 million as it expands its electric mobility solutions ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/15/nithio-invests-max-series-b3-funding-29-million/",
+   "date": "Thu, 15 Oct 2026 13:55:11 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "No screens, no server farms: Inside Alchymia’s holographic pocket computer",
+   "brief": "Alchymia AI is an applied research lab building foundational AI models engineered to produce high-level intelligence at a fraction of the compute and energy demanded by standard industry frameworks.",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/15/alchymia-ai-holographic-computer/",
+   "date": "Thu, 15 Oct 2026 13:45:28 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Uganda Cracks Down on Illegal Public Wi-Fi Resellers Nationwide",
+   "brief": "The Uganda Communications Commission (UCC)  has announced a nationwide enforcement exercise targeting unlicensed resellers of public Wi-Fi services operating across the country. The exercise follows ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/15/uganda-crackdown-illegal-public-wifi-resellers/",
+   "date": "Thu, 15 Oct 2026 13:45:01 +0000",
+   "country": "🇺🇬 乌干达",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Ooredoo Qatar Launches Country’s First 5G+ Mobile Network",
+   "brief": "Ooredoo Qatar  has launched what it describes as Qatar’s first 5G+ mobile network, marking a new phase in the country’s digital connectivity development and expanding ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/15/ooredoo-qatar-launches-countrys-first-5g-mobile-network/",
+   "date": "Thu, 15 Oct 2026 13:36:06 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Who Pays into Universal Service Funds When Satellite Joins the Market?",
+   "brief": "Universal Service Funds (USFs) rest on a simple arrangement. Licensed telecom operators pay a percentage of their revenue into a central fund, which finances connectivity ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/15/who-pays-into-universal-service-funds-when-satellite-joins-the-market/",
+   "date": "Thu, 15 Oct 2026 13:33:41 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "DE-CIX Launches Open-Source MCP Server for AI-Powered Network Management",
+   "brief": "DE-CIX,  a global Internet, Cloud and AI Exchange operator headquartered in Germany, has launched an open-source Model Context Protocol (MCP) server that allows businesses to ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/15/de-cix-open-source-mcp-server-ai-network-management/",
+   "date": "Thu, 15 Oct 2026 13:23:53 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Zain Jordan’s THE BUNKER Secures Tier III Gold Certification for Second Time",
+   "brief": "Zain Jordan  has announced that its Regional Centre for Data and Information Storage and Disaster Recovery, known as THE BUNKER, has received the Tier III ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/15/zain-jordan-the-bunker-tier-iii-gold-certification/",
+   "date": "Thu, 15 Oct 2026 13:17:40 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Ericsson Reports 7% Organic Sales Growth in Q3 2026 on Stronger Networks Demand",
+   "brief": "Ericsson  reported a 7% year-on-year increase in organic sales in the third quarter of 2026, driven primarily by higher sales in its Networks business, as ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/15/ericsson-7-percent-organic-sales-growth-q3-2026/",
+   "date": "Thu, 15 Oct 2026 13:10:40 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "SAFA puts referee training ahead of VAR rollout",
+   "brief": "The football governing body works to resolve the issues that delayed implementation of video assistant referee technology.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/safa-puts-referee-training-ahead-of-var-rollout/P3gQ2MGA688vnRD1",
+   "date": "Thu, 15 Oct 2026 14:31:52 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Nithio makes second African e-mobility bet, backing profitable Nigerian EV startup MAX",
+   "brief": "Nithio has invested in Nigerian electric mobility company MAX, extending its Series B3 round to $29 million.",
+   "source": "Condia",
+   "url": "https://thecondia.com/nithio-max-5m-series-b-investment/",
+   "date": "Thu, 15 Oct 2026 12:19:56 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
   {
    "title": "Uganda and South Korea Explore AI and Digital Transformation Partnership",
    "brief": "Uganda and South Korea are exploring expanded cooperation in digital transformation, with discussions focusing on artificial intelligence (AI), digital infrastructure, ICT skills development, innovation and ......",
@@ -30,6 +160,16 @@
    "url": "https://techafricanews.com/2026/10/15/uganda-south-korea-ai-digital-transformation-partnership/",
    "date": "Thu, 15 Oct 2026 12:03:26 +0000",
    "country": "🇺🇬 乌干达",
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Local insurers go solo amid AI policy vacuum",
+   "brief": "South African insurance providers are “quickly” catching up with banks in implementing AI tools for their operations, despite the lack of a National AI Policy.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/local-insurers-go-solo-amid-ai-policy-vacuum/o1Jr5MxP36rMKdWL",
+   "date": "Thu, 15 Oct 2026 13:21:07 +0200",
+   "country": "🇿🇦 南非",
    "is_ai": true,
    "is_aiinfra": false
   },
@@ -144,16 +284,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Zimbabwe’s Econet InfraCo Cuts Diesel Costs by 30% with AI Fuel Management",
-   "brief": "Econet InfraCo,  the tower infrastructure subsidiary of Econet Wireless Zimbabwe,  has becaome the first company in Africa to deploy an artificial intelligence (AI) solution to ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/15/zimbabwe-econet-infraco-cuts-diesel-costs-ai-fuel-management/",
-   "date": "Thu, 15 Oct 2026 09:51:53 +0000",
-   "country": "🇿🇼 津巴布韦",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
    "title": "R172m digital education deal gets shareholder nod",
    "brief": "The sale of Generation Education to an Old Mutual-managed fund follows weaker growth and a decline in the school group’s valuation.",
    "source": "ITWeb Africa",
@@ -184,32 +314,12 @@
    "is_aiinfra": false
   },
   {
-   "title": "Cascador and Sterling Bank Launch $200 Million Fund to Expand SME Lending in Nigeria",
-   "brief": "Nigeria’s Cascador accelerator has partnered with Sterling Bank  to launch a $200 million SME Credit Backstop Fund aimed at helping small and medium-sized enterprises (SMEs) ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/15/cascador-sterling-bank-200-million-sme-lending-fund-nigeria/",
-   "date": "Thu, 15 Oct 2026 08:57:11 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
    "title": "Ampath downplays data breach claims",
    "brief": "The pathology lab disputes claims that 80 million patient records were exposed in a cyber attack, as forensic investigations continue.",
    "source": "ITWeb Africa",
    "url": "https://www.itweb.co.za/article/ampath-downplays-data-breach-claims/8OKdWqDXOjmqbznQ",
    "date": "Thu, 15 Oct 2026 10:43:09 +0200",
    "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Vodacom Invests R1 Billion to Expand Network Coverage in South Africa’s KwaZulu-Natal",
-   "brief": "Vodacom  KwaZulu-Natal announced a strategic investment of R1 billion in network infrastructure for the 2027 financial year. At a time when South Africa’s second-most populous ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/15/vodacom-r1-billion-network-expansion-kwazulu-natal/",
-   "date": "Thu, 15 Oct 2026 07:14:38 +0000",
-   "country": "🇿🇦 南非",
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -224,16 +334,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Uganda Launches National Communication Policy 2026 for Digital Citizen Engagement",
-   "brief": "Uganda has launched its National Communication Policy 2026 to establish a coordinated approach to government communication, public engagement and the delivery of information to citizens. ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/15/uganda-launches-national-communication-policy-2026-for-digital-citizen-engagement/",
-   "date": "Thu, 15 Oct 2026 07:02:49 +0000",
-   "country": "🇺🇬 乌干达",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "From AI to Autonomous Networks: Mobileum Spark Highlights the Next Frontier of Telecom Intelligence",
    "brief": "Mobileum Inc. (\"Mobileum\"), a leading global provider of telecom analytics and network solutions, brought together telecom operators and industry leaders during its Mobileum Spark events series in Lisbon (Portugal) and F",
    "source": "ITWeb Africa",
@@ -241,16 +341,6 @@
    "date": "Thu, 15 Oct 2026 09:00:00 +0200",
    "country": null,
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Ecobank strengthens China-Africa payments as banks pursue new digital channels",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxNMkpNNmpId0NBZnIzdFp1R0FnR005NHk3ZlZkX3NqcnVjQzlhaDl5Vy1BeElTcW9IUWVCb3NmRXF0OHVyU1I2M1FxOEt6ZlhIbFN4M2dVN1FkOW9Rc3FNbGZlYW16VmZBOHU4OGpmZHpsZTkwYnJhUmxrUTdiWE",
-   "source": "The Asian Banker·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMkpNNmpId0NBZnIzdFp1R0FnR005NHk3ZlZkX3NqcnVjQzlhaDl5Vy1BeElTcW9IUWVCb3NmRXF0OHVyU1I2M1FxOEt6ZlhIbFN4M2dVN1FkOW9Rc3FNbGZlYW16VmZBOHU4OGpmZHpsZTkwYnJhUmxrUTdiWEhua0FwMFI1My1acG9OOWFvU3VnSzV4bE5GcVlvY1JJMjJvWDFDVUc5clB4V1oyN0FwM1VxRnJzdm1TVUhWeHRNSEtLLVo1UXdnZEpn?oc=5",
-   "date": "Thu, 15 Oct 2026 00:52:30 GMT",
-   "country": null,
-   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -324,16 +414,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Chad Validates National Data Governance Strategy to Advance Digital Sovereignty",
-   "brief": "Chad has validated its National Data Governance Strategy following a national workshop convened by the United Nations Economic Commission for Africa (ECA)  and the Ministry ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/14/chad-national-data-governance-strategy-digital-sovereignty/",
-   "date": "Wed, 14 Oct 2026 14:01:14 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Cascador, Sterling Bank launch $200m fund to help Nigerian SMEs access loans",
    "brief": "Cascador collaborates with Sterling Bank to launch a $200 million SME Credit Backstop Fund to help Nigerian small businesses get loans.",
    "source": "Condia",
@@ -354,41 +434,11 @@
    "is_aiinfra": false
   },
   {
-   "title": "Madagascar Partners with Orange to Strengthen Digital Skills and Vocational Training",
-   "brief": "Madagascar’s Ministry of Technical Education and Vocational Training (METFP)  has signed a partnership agreement with Orange Madagascar  to strengthen digital skills development and align vocational ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/14/madagascar-orange-digital-skills-vocational-training/",
-   "date": "Wed, 14 Oct 2026 13:30:45 +0000",
-   "country": "🇲🇬 马达加斯加",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Toluna Appoints Amy Fenton as Chief Executive Officer",
    "brief": "Toluna, a global leader in consumer insights and market research technology, today announces the appointment of Amy Fenton as Chief Executive Officer, effective October 15, 2026.",
    "source": "ITWeb Africa",
    "url": "https://www.itweb.co.za/article/toluna-appoints-amy-fenton-as-chief-executive-officer/Pero37Z3V4GMQb6m",
    "date": "Wed, 14 Oct 2026 15:30:00 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Tanzania’s TCRA Gives Telecom Providers 30 Days to Fix Infrastructure Faults",
-   "brief": "Tanzania’s Communications Regulatory Authority (TCRA)  has directed telecommunications service providers to rectify faults identified in their communication infrastructure within 30 days, following inspections that uncov",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/14/tanzania-tcra-telecom-providers-30-days-fix-infrastructure-faults/",
-   "date": "Wed, 14 Oct 2026 13:19:52 +0000",
-   "country": "🇹🇿 坦桑尼亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "iPhone Duo pre-order opens Friday, October 16: What you should know",
-   "brief": "Apple's first foldable iPhone starts at $1,999 in the US, and the first buyers get their phones on Friday, October 23.",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/10/14/iphone-duo-pre-order-october-16/",
-   "date": "Wed, 14 Oct 2026 13:03:57 +0000",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -424,52 +474,12 @@
    "is_aiinfra": false
   },
   {
-   "title": "Cascador and Sterling launch $200 million fund to derisk startup loans",
-   "brief": "Cascador and Sterling Bank have set up a $200 million fund to help Nigerian startups get bank loans by sharing the risk of borrowers defaulting.",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/10/14/cascador-sterling-startup-loans/",
-   "date": "Wed, 14 Oct 2026 11:41:44 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Who is Trademarks Global Concepts, the new majority owner of eTranzact?",
    "brief": "Trademarks Global Concepts has taken control of eTranzact after acquiring a 56.18% stake from Access Bank and other shareholders.",
    "source": "Condia",
    "url": "https://thecondia.com/trademarks-global-concepts-etranzact/",
    "date": "Wed, 14 Oct 2026 11:12:43 +0000",
    "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "SA streaming market faces affordability pressures",
-   "brief": "South Africa’s over-the-top video market is forecast to grow 7.6% annually to 2030, trailing Kenya and Nigeria, says PwC.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/sa-streaming-market-faces-affordability-pressures/WnxpEv4Ylrd7V8XL",
-   "date": "Wed, 14 Oct 2026 13:09:15 +0200",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "HPE SA MD President Ntuli steps down",
-   "brief": "President Ntuli decides to take a career break, as he considers the next chapter of his career, says the company.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/hpe-sa-md-president-ntuli-steps-down/KjlyrvwBQN1qk6am",
-   "date": "Wed, 14 Oct 2026 12:47:00 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "SA-made Milkor combat drone deployed in Middle East",
-   "brief": "South African defence manufacturer Milkor reports a growing order book, as it expands production capacity amid escalating regional conflicts.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/sa-made-milkor-combat-drone-deployed-in-middle-east/5yONPvErN9K7XWrb",
-   "date": "Wed, 14 Oct 2026 12:28:15 +0200",
-   "country": "🇿🇦 南非",
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -611,16 +621,6 @@
    "date": "Tue, 13 Oct 2026 15:00:00 +0200",
    "country": null,
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "NIBSS and Transactility Partnership Delivers National Payment Stack",
-   "brief": "Transactility, Inc. announced that the Nigeria Inter-Bank Settlement System (NIBSS), Nigeria’s central payment infrastructure operator, leveraged Transactility’s jPOS open-source technology for the rollout of the Nationa",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/nibss-and-transactility-partnership-delivers-national-payment-stack/o1Jr5qxP3JNqKdWL",
-   "date": "Tue, 13 Oct 2026 13:00:00 +0200",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
    "is_aiinfra": false
   }
  ]
