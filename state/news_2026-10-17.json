@@ -1,7 +1,7 @@
 {
  "asof": "2026-10-17",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-10-17T14:09+08:00",
+ "generated_at": "2026-10-17T15:58+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 3,
@@ -12,129 +12,149 @@
  "items": [
   {
    "cat": "geo",
-   "title": "伊朗升级霍尔木兹袭击，布伦特原油触及110美元",
-   "brief": "伊朗在霍尔木兹海峡袭击升级，乌克兰誓言打击俄炼油厂，布伦特原油一度触及110美元。",
-   "chain": "霍尔木兹冲突升级→油价冲高推升通胀预期、压制美股高久期AI成长股→A股算力链承压，能源链相对受益",
+   "title": "伊朗升级霍尔木兹袭击 布伦特原油触及110美元",
+   "brief": "伊朗加大霍尔木兹海峡袭击，乌克兰誓言打击俄炼厂，布伦特原油升至110美元，地缘风险溢价急升。",
+   "chain": "霍尔木兹冲突升级→油价冲高推升通胀预期、压制美股风险偏好→A股算力链承压，能源链相对受益",
    "impact": 10,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html",
    "ts": "Fri, 16 Oct 2026 20:02:21 GMT"
   },
   {
+   "cat": "oil",
+   "title": "沙特朱拜勒东北海域一油轮遭不明投射物击中",
+   "brief": "英国海上贸易行动办公室通报，沙特朱拜勒东北海域一艘油轮被不明投射物击中，船员全部安全撤离。",
+   "chain": "油轮遇袭→中东航运风险溢价上升、油价获支撑→东非LNG项目海运与保险成本抬升，需关注航线安全",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610173899040079.html",
+   "ts": "2026-10-17 14:37:36"
+  },
+  {
+   "cat": "macro",
+   "title": "美国2026财年赤字达1.99万亿美元创五年新高",
+   "brief": "美财政部数据显示2026财年联邦赤字1.99万亿美元，同比增2170亿，创五年最高，超市场预期。",
+   "chain": "赤字扩张→美债供给压力与期限溢价上行→美股高估值AI股贴现率承压→A股算力链情绪受抑",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610173899040221.html",
+   "ts": "2026-10-17 14:46:42"
+  },
+  {
+   "cat": "macro",
+   "title": "拉加德：应适度政策遏制通胀 战争带来上行风险",
+   "brief": "欧洲央行行长拉加德称战争带来通胀上行风险，财政可持续性是稳定支柱，能源冲击财政举措应临时定向。",
+   "chain": "欧央行偏鹰表态→全球利率高位维持→美股成长股估值分母受压→A股算力链风险偏好收敛",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610173899039938.html",
+   "ts": "2026-10-17 14:27:28"
+  },
+  {
+   "cat": "macro",
+   "title": "IMF秋季年会达成三项核心共识",
+   "brief": "IMF总裁格奥尔基耶娃在曼谷总结秋季年会，称会议围绕全球经济韧性达成三项核心共识。",
+   "chain": "全球政策协调信号→影响美元与风险资产定价→美股情绪边际稳定→A股外资风险偏好观察",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610173899043644.html",
+   "ts": "2026-10-17 15:36:13"
+  },
+  {
+   "cat": "macro",
+   "title": "IMF官员警告全球经济面临紧迫财政挑战",
+   "brief": "IMF财政事务部主任巴尔德斯称高债务、更高利率与公共支出需求叠加，几乎所有经济体面临紧迫财政挑战。",
+   "chain": "财政可持续性担忧→主权债利率上行压力→美股估值分母承压→A股算力链情绪偏谨慎",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610173899041392.html",
+   "ts": "2026-10-17 15:01:15"
+  },
+  {
+   "cat": "macro",
+   "title": "潘功胜会见多国央行行长",
+   "brief": "10月14-16日出席IMF/世行年会期间，潘功胜分别会见泰国、印尼、马来西亚等国央行行长。",
+   "chain": "央行间协调→人民币与区域金融合作预期→对A股外资流入偏正面→算力链受益于流动性预期",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610173899038468.html",
+   "ts": "2026-10-17 14:04:09"
+  },
+  {
    "cat": "geo",
    "title": "特朗普称不会对伊朗动用核武或派地面部队",
-   "brief": "特朗普表态不会对伊朗使用核武器、不派地面部队，为美伊冲突设定升级上限。",
-   "chain": "美方设升级上限→中东尾部风险略降、油价风险溢价收敛→美股风险偏好边际修复，A股算力链情绪缓和",
-   "impact": 8,
+   "brief": "特朗普表示不会对伊朗使用核武器、不派地面部队，市场解读为冲突升级存在自我约束。",
+   "chain": "冲突边界受限→油价风险溢价边际回落→美股风险偏好修复→A股算力链情绪减压",
+   "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/10/16/us-iran-war-trump-hormuz.html",
    "ts": "Fri, 16 Oct 2026 09:46:54 GMT"
   },
   {
+   "cat": "geo",
+   "title": "特朗普签署行政令豁免对俄多项制裁",
+   "brief": "白宫称特朗普16日签署行政令，豁免《2026年格雷厄姆制裁俄罗斯和伊朗法案》中多项对俄制裁。",
+   "chain": "对俄制裁松动→俄油供应预期增加、油价承压→美股能源板块分化→A股能源链情绪偏空",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610173899038868.html",
+   "ts": "2026-10-17 13:57:49"
+  },
+  {
+   "cat": "geo",
+   "title": "也门亚丁机场遭导弹袭击 沙特联盟拦截飞往延布导弹",
+   "brief": "导弹击中亚丁机场，沙特领导的联盟拦截一枚飞向延布的导弹，红海与也门局势持续紧张。",
+   "chain": "红海航运风险上升→油价与航运成本获支撑→东非LNG海运通道安全需持续评估",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPelJ6OUp1VFpwTmJ0Qm85TzRUS2ppU0swVFMydlJuTDZiS1Q1V2R6M1N4bmpfeTZ0aWNqd29XbGdDMm9IVllmLTZUazAxQWFzX3lsVlJBbHI4TVRfQVFrZlk5MkNqVzVCMU5XYkFwM3Fyb0pkbDk0bGo5N1dwQWJMMEo5aEhIeXpaS1J5TkRLVFZTem93Rl9rM2trUHZlaDQwSzVIQTB4UG1xelRQSU5wZ2I4X1N1V0VPUElsWHBIYVZvckhpYk9RZVhZaw?oc=5",
+   "ts": "2026-10-16T21:51:00+00:00"
+  },
+  {
    "cat": "oil",
-   "title": "地缘风险升温，油价卡在105美元",
-   "brief": "地缘风险持续累积，油价维持在105美元附近高位震荡。",
-   "chain": "地缘溢价支撑油价高位→Brent/WTI走强→莫桑比克油气项目现金流与东非LNG经济性改善",
-   "impact": 9,
+   "title": "美国拟从战略石油储备交换释放至多1700万桶原油",
+   "brief": "美国公开招标以交换方式从战略石油储备释放至多1700万桶原油，应对燃料紧张。",
+   "chain": "SPR释放→短期增加原油供应、抑制油价上行斜率→东非油气采购成本压力略缓",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeFNXdnRkamV3Q2plZzU5UHl3LUlPa2hxTVY1VTA5dXU2UXUxWG5DekxOY0ZrWlNobFBDNTRQR2xrTHRZbEJMZUd1dzRQSUd0ZmQ1TDRtTE9YcmRoRVEzUkhrQjhUX01DVk8zdU5saFJEc1NDUWFXcFhsbmFZRlQ0b1FGdm9nTnFGSDAwWUxVMDVJeHZXalROYmNNdlVJLWxxaEloOWtLWUsxOWlzbTFmSWhHMHVaRGM?oc=5",
+   "ts": "2026-10-16T21:36:21+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "油价受地缘风险支撑徘徊于105美元",
+   "brief": "地缘政治风险持续累积，油价在105美元附近僵持，市场对供应中断保持警惕。",
+   "chain": "油价高位僵持→炼油与航运利润受挤压→莫桑比克油气项目现金流预期改善但成本上升",
+   "impact": 7,
    "source": "OilPrice",
    "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Are-Stuck-at-105-as-Geopolitical-Risks-Mount.html",
    "ts": "Fri, 16 Oct 2026 11:13:00 -0500"
   },
   {
    "cat": "oil",
-   "title": "美国再投放1700万桶战略储备应对燃料危机",
-   "brief": "美国再度以互换方式投放1700万桶战略石油储备，应对燃料供应紧张。",
-   "chain": "SPR持续释放→短期增加原油供应、平抑油价上行斜率→东非采购与炼化成本压力略缓",
-   "impact": 7,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Offers-Another-17-Million-SPR-Barrels-as-Fuel-Crisis-Deepens.html",
-   "ts": "Fri, 16 Oct 2026 13:30:00 -0500"
-  },
-  {
-   "cat": "oil",
-   "title": "鲁比奥将访印度信实炼厂，美柴油价格飙升",
-   "brief": "美国柴油价格飙升之际，鲁比奥将访问印度信实古吉拉特炼厂。",
-   "chain": "美柴油紧张+外交斡旋→柴油裂解价差走阔→东非柴油进口成本上升，需关注莫桑比克物流燃料成本",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/16/marco-rubio-reliance-jamnagar-refinery.html",
-   "ts": "Fri, 16 Oct 2026 06:45:02 GMT"
-  },
-  {
-   "cat": "oil",
-   "title": "俄称柴油产能足以满足出口需求",
-   "brief": "俄副总理诺瓦克称柴油富余产量略低于往年，但仍可同时满足内需与出口。",
-   "chain": "俄柴油出口维持→全球柴油供应偏紧格局略缓→东非柴油进口价格压力边际减轻",
+   "title": "赤道几内亚产量暴跌85%后重修石油法",
+   "brief": "赤道几内亚原油产量暴跌85%，政府重写石油法以吸引投资，非洲油气格局生变。",
+   "chain": "非洲产油国产量萎缩→全球边际供应收紧→东非油气资产相对吸引力上升",
    "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610173899027545.html",
-   "ts": "2026-10-17 12:19:17"
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Equatorial-Guinea-Rewrites-Oil-Law-After-Production-Collapses-85.html",
+   "ts": "Fri, 16 Oct 2026 11:30:00 -0500"
   },
   {
    "cat": "gas",
-   "title": "挪威未开发油气前沿区重获关注",
-   "brief": "挪威尚未开发的油气前沿区块重新吸引投资兴趣。",
-   "chain": "欧洲气源开发升温→中期TTF供应预期改善→对莫桑比克LNG欧洲买家议价形成竞争压力",
+   "title": "Rystad：全球能源进口依赖度2034年见顶",
+   "brief": "Rystad Energy称全球能源进口依赖度将于2034年见顶，之后结构转向本地化与电气化。",
+   "chain": "长期进口依赖见顶→LNG需求增长窗口收窄→莫桑比克LNG项目需锁定亚洲长约",
    "impact": 5,
    "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Norways-Untapped-Oil-and-Gas-Frontier-Is-Drawing-Renewed-Interest.html",
-   "ts": "Fri, 16 Oct 2026 14:00:00 -0500"
-  },
-  {
-   "cat": "macro",
-   "title": "欧洲央行管委雷恩：警惕能源涨价引发二轮通胀",
-   "brief": "欧洲央行管委雷恩称将继续警惕能源价格上涨引发二轮通胀效应的风险。",
-   "chain": "能源推升通胀→欧央行降息受限、全球利率中枢偏高→压制美股AI高久期估值，A股算力链承压",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610173899038351.html",
-   "ts": "2026-10-17 14:01:23"
-  },
-  {
-   "cat": "macro",
-   "title": "央行行长潘功胜会见多国央行行长",
-   "brief": "潘功胜在IMF/世行年会期间会见泰国、印尼、马来西亚等国央行行长。",
-   "chain": "央行多边沟通→人民币与区域金融合作预期→利好A股风险偏好与外资流入预期",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610173899038468.html",
-   "ts": "2026-10-17 14:04:09"
-  },
-  {
-   "cat": "macro",
-   "title": "IMF总裁警示AI、通胀、高债务与气候风险",
-   "brief": "格奥尔基耶娃称年会讨论风险包括人工智能、通胀、高债务水平和气候变化恶化。",
-   "chain": "IMF警示多重风险→全球风险偏好承压→美股AI板块波动加大，A股算力链情绪受抑",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610173899037527.html",
-   "ts": "2026-10-17 13:42:50"
-  },
-  {
-   "cat": "macro",
-   "title": "特朗普豁免新法下部分对俄制裁与关税",
-   "brief": "特朗普在新法生效前豁免关键涉俄制裁与关税措施。",
-   "chain": "对俄制裁松动→能源与贸易格局变化、地缘溢价调整→影响美股能源与风险偏好，映射A股能源链",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUWRsWXNvbUVMb01QdTFTbEhpSGhZLVZYVXZramJkQjg2RXUzbXRaZjZlcnY1QTNoeU1zQzhhOEhwOFZVSkRySFFZNWI3RjZtUHJLaDhybEhWVzFBTF9uVlZjWlNSQk5aX25iZ0EySjRQYjR5aVRiM1VERjVFWmpTOTR0Y1ZhNUtaTHpTaWdZZVRPUmppTUJtYl9IZlhGQnM3WkVSNmRreVBjaDF5anFfSHhqN1ZUc2p3cjRoU0pyUzRkZjlBM05B?oc=5",
-   "ts": "2026-10-17T01:17:00+00:00"
+   "url": "https://oilprice.com/Energy/Energy-General/Global-Energy-Import-Dependence-Set-to-Peak-by-2034-Rystad-Says.html",
+   "ts": "Fri, 16 Oct 2026 17:00:00 -0500"
   },
   {
    "cat": "tech",
-   "title": "美科技股遭抛售，费半单周跌超11%",
-   "brief": "本周美股AI相关科技股再遭抛售，费城半导体指数周跌超11%，光通信、存储成重灾区。",
-   "chain": "AI硬件抛售→美股半导体估值收缩→直接映射A股算力链（光模块、存储、PCB）承压",
-   "impact": 9,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610173899036214.html",
-   "ts": "2026-10-17 13:24:44"
-  },
-  {
-   "cat": "tech",
-   "title": "恐慌指数VIX突破22，交易员看更高",
-   "brief": "AI股抛售推动VIX四个月来首次升破22，交易员押注进一步走高。",
-   "chain": "VIX飙升→美股风险偏好恶化、AI高久期票承压→A股算力链情绪同步走弱",
+   "title": "AI股抛售推VIX破22 四个月来首次",
+   "brief": "AI相关股票抛售推动VIX升至22上方，为四个月来首次，交易员押注波动率继续走高。",
+   "chain": "AI股抛售→VIX飙升、风险偏好收缩→美股科技承压→A股算力链情绪同步走弱",
    "impact": 8,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/10/16/wall-streets-fear-gauge-is-ripping-traders-see-it-going-even-higher.html",
@@ -142,9 +162,9 @@
   },
   {
    "cat": "tech",
-   "title": "CoreWeave股价重挫，债市亮红灯",
-   "brief": "CoreWeave债券收益率与CDS飙升，股价持续下挫，信用市场示警。",
-   "chain": "AI算力租赁商信用风险→美股AI基础设施融资链承压→A股算力租赁/IDC链情绪受挫",
+   "title": "CoreWeave股价重挫 债券收益率与CDS飙升",
+   "brief": "CoreWeave债券收益率与信用违约互换急升，股价下挫，市场担忧其债务融资模式。",
+   "chain": "AI算力租赁商信用利差走阔→美股AI基础设施融资成本上升→A股算力租赁链估值承压",
    "impact": 8,
    "source": "CNBC",
    "url": "https://www.cnbc.com/investingclub/2026/10/16/coreweave-credit-default-swaps.html",
@@ -152,9 +172,19 @@
   },
   {
    "cat": "tech",
-   "title": "特斯拉发布Roadster，与SpaceX联合开发",
-   "brief": "特斯拉发布延期已久的Roadster，由SpaceX参与开发，引发合并猜测。",
-   "chain": "特斯拉新品+合并猜想→美股科技叙事升温→映射A股特斯拉产业链与智能驾驶链",
+   "title": "AI缺钱风暴席卷市场 Meta财报迎信心大考",
+   "brief": "AI巨额投资可持续性遭质疑，科技股与部分能源股受波及，下周Meta财报成关键检验。",
+   "chain": "AI资本开支质疑→美股科技估值承压→A股算力链跟随波动，关注Meta指引",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610173899042855.html",
+   "ts": "2026-10-17 15:18:35"
+  },
+  {
+   "cat": "tech",
+   "title": "特斯拉发布与SpaceX合作开发的Roadster",
+   "brief": "特斯拉发布延期已久的Roadster跑车，由与SpaceX合作开发，引发两家公司合并猜测。",
+   "chain": "特斯拉新品与合并猜想→美股电动车与航天板块情绪→A股特斯拉供应链主题活跃",
    "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html",
@@ -163,8 +193,8 @@
   {
    "cat": "tech",
    "title": "苹果1999美元iPhone Duo测试品牌溢价",
-   "brief": "苹果推出1999美元iPhone Duo，考验其身份象征定价能力。",
-   "chain": "苹果高端定价策略→消费电子需求与毛利信号→映射A股苹果供应链",
+   "brief": "苹果推出1999美元iPhone Duo，考验其身份象征定价能力与高端需求韧性。",
+   "chain": "苹果高端定价→消费电子需求信号→美股硬件板块→A股苹果链订单预期",
    "impact": 5,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/10/16/apple-iphone-duo-demand-price.html",
@@ -172,19 +202,9 @@
   },
   {
    "cat": "ai",
-   "title": "黄仁勋称AI市场震荡将过去，密集访欧",
-   "brief": "英伟达CEO黄仁勋称AI板块震荡会过去，近期在欧洲高密度访问释放信心。",
-   "chain": "英伟达喊话稳信心→美股AI龙头情绪修复→A股算力链（光模块、服务器）情绪获支撑",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610173899025223.html",
-   "ts": "2026-10-17 12:10:34"
-  },
-  {
-   "cat": "ai",
-   "title": "克莱顿：AI“间谍”风险企业须警惕",
-   "brief": "前SEC主席克莱顿称AI放大针对美国数字基础设施的网络安全风险，企业须警惕。",
-   "chain": "AI安全风险上升→AI治理与合规需求增加→映射A股网络安全与AI安全链",
+   "title": "克莱顿：AI间谍活动是企业须警惕的现实",
+   "brief": "前SEC主席克莱顿称AI放大针对美国数字基础设施的网络安全风险，企业须保持警惕。",
+   "chain": "AI安全风险上升→网络安全支出预期增加→美股安全软件受益→A股网络安全链映射",
    "impact": 6,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/10/16/ai-espionage-openai-jay-clayton.html",
@@ -192,23 +212,13 @@
   },
   {
    "cat": "ai",
-   "title": "Anthropic联手METR与SecureBio评估AI风险",
-   "brief": "Anthropic引入非营利机构METR和SecureBio协助评估模型风险与安全实践。",
-   "chain": "AI安全评估制度化→AI治理赛道升温→映射A股AI安全与合规概念",
+   "title": "Anthropic引入METR与SecureBio评估AI风险",
+   "brief": "Anthropic聘请非营利机构METR与SecureBio协助评估模型风险与安全实践。",
+   "chain": "AI治理与安全评估制度化→头部模型合规成本上升→美股AI龙头分化→A股AI治理主题",
    "impact": 5,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/10/15/anthropic-metr-securebio-ai-safety-evaluators.html",
    "ts": "Fri, 16 Oct 2026 22:26:38 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "Anthropic研究：AI蠕虫或感染智能设备",
-   "brief": "Anthropic研究显示AI模型能力提升后或可像蠕虫般传播，威胁智能设备。",
-   "chain": "AI蠕虫风险→智能终端安全需求提升→映射A股物联网安全与AI治理链",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610173899025073.html",
-   "ts": "2026-10-17 11:59:46"
   }
  ]
 }
