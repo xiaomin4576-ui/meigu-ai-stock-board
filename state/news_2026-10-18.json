@@ -1,0 +1,207 @@
+{
+ "asof": "2026-10-18",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-10-18T00:42+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 17,
+  "cluster_label": "也门/沙特/胡塞",
+  "cluster_dropped": [
+   "沙特联军在利雅得等多地拦截4架无人机",
+   "也门胡塞武装释放159名被拘留者"
+  ],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "geo",
+   "title": "伊朗革命卫队称两艘油轮在霍尔木兹触雷",
+   "brief": "伊朗革命卫队称两艘油轮在霍尔木兹海峡触雷受损，海峡航运风险骤升，全球约两成海运原油经此通行。",
+   "chain": "霍尔木兹航运风险上升→油价风险溢价与美股能源板块波动→A股算力链受风险偏好压制",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZWFxZjNZNnY5cVR3VDhKUnNnV1JOcG1vOVB5dEZGdWRybEtqdE9YRWgwY0ZVSXZ0bHYzTWRpX2duSkxpTENtY0s0WW5jMzFUZlZIME16d0FpUXluV2ZGbFJ3alNZaDh0VVVSVFhOMWVIbEZTNVgyTVdwaXNLNXRrMjE4SjZvQXZtblNUNVVHSjFIUmlIaU41TGRHYmIzOUxoa25BODFKaG1FZw?oc=5",
+   "ts": "2026-10-17T13:36:11+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "埃克森美孚预警炼油利润增45亿美元",
+   "brief": "埃克森美孚称炼油利润率飙升将带来约45亿美元盈利提振，成品油裂解价差走阔信号明确。",
+   "chain": "炼油毛利走阔→支撑Brent/WTI价差与油企盈利→东非成品油进口成本与莫桑比克项目现金流偏正面",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTjlyZU82NGZleDhibTRDcWl1NzJId0JjZUpmMEVGZ1lRbzU2enR3WXV5a2xDME12TXdfYS1TaHJlMXh1bTIyNmNjbHVzNS1yb1laSVFHdWkxbnV4YTFyVXFVeGxzQktWV1ppWmZnQ1VHa2ljVVFrZjFOSHNqUjQ1U0lOTDJfTTRKT2FIWnRHRjg0MjhtXzlIYTJ2ZmdhUnJY?oc=5",
+   "ts": "2026-10-16T13:18:10+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "特朗普以国家利益豁免对俄新制裁与关税",
+   "brief": "特朗普援引国家利益豁免《格雷厄姆法案》下对俄广泛新制裁与关税，对俄政策转向松动。",
+   "chain": "对俄制裁松动→能源供应预期与风险溢价重估→美股能源与大宗波动→A股资源链情绪",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html",
+   "ts": "Sat, 17 Oct 2026 10:20:44 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "AI股重挫叠加通胀升温 资金寻找机会",
+   "brief": "AI板块大幅回调同时通胀数据升温，市场重新评估高久期成长股估值与降息路径。",
+   "chain": "通胀升温推高实际利率→压制美股AI高久期估值→A股算力链承压、关注分母端风险",
+   "impact": 8,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/investingclub/2026/10/17/ai-stocks-plunge-inflation-heats-up-where-were-still-finding-opportunities.html",
+   "ts": "Sat, 17 Oct 2026 15:42:34 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "俄官员称特朗普放松对俄制裁具历史意义",
+   "brief": "俄总统特别代表德米特里耶夫称美放松对俄制裁具历史意义，俄方将继续推进对美经济合作。",
+   "chain": "美俄关系缓和→制裁溢价下降→美股能源与欧洲资产重估→A股风险偏好边际改善",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610173899066334.html",
+   "ts": "2026-10-17 19:42:18"
+  },
+  {
+   "cat": "geo",
+   "title": "亚丁机场遭导弹袭击 沙特联军拦截袭延布导弹",
+   "brief": "也门亚丁机场遭导弹袭击，沙特主导联军拦截一枚飞向延布的导弹，红海与也门局势持续紧张。",
+   "chain": "红海—亚丁湾航运风险上升→油价与航运保险费率抬升→东非能源物流成本增加",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPelJ6OUp1VFpwTmJ0Qm85TzRUS2ppU0swVFMydlJuTDZiS1Q1V2R6M1N4bmpfeTZ0aWNqd29XbGdDMm9IVllmLTZUazAxQWFzX3lsVlJBbHI4TVRfQVFrZlk5MkNqVzVCMU5XYkFwM3Fyb0pkbDk0bGo5N1dwQWJMMEo5aEhIeXpaS1J5TkRLVFZTem93Rl9rM2trUHZlaDQwSzVIQTB4UG1xelRQSU5wZ2I4X1N1V0VPUElsWHBIYVZvckhpYk9RZVhZaw?oc=5",
+   "ts": "2026-10-16T21:51:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "泽连斯基称星链限速仅针对乌克兰",
+   "brief": "泽连斯基称乌方经欧盟对比测试掌握证据，星链限速仅在乌克兰境内生效，指向美方施压。",
+   "chain": "星链限速→乌军通信与无人机作战能力受损→美股卫星通信板块分化→A股卫星互联网链情绪",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610173899072023.html",
+   "ts": "2026-10-17 19:59:09"
+  },
+  {
+   "cat": "gas",
+   "title": "玻利维亚天然气储量枯竭 能源危机加深",
+   "brief": "玻利维亚天然气储量耗尽、产量下滑，能源危机加深，南美区域气源供应进一步收紧。",
+   "chain": "南美气源收缩→全球LNG现货边际趋紧、TTF/Henry Hub偏强→东非LNG项目议价与出口窗口改善",
+   "impact": 6,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/Bolivias-Energy-Crisis-Deepens-as-Natural-Gas-Reserves-Run-Dry.html",
+   "ts": "Sat, 17 Oct 2026 10:00:00 -0500"
+  },
+  {
+   "cat": "gas",
+   "title": "挪威未开发油气前沿重获投资关注",
+   "brief": "挪威未开发油气前沿区块重新吸引投资兴趣，欧洲气源多元化与供应安全议题升温。",
+   "chain": "欧洲本土气源开发提速→中期TTF价格中枢下移压力→东非LNG长期合约竞争加剧",
+   "impact": 5,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Norways-Untapped-Oil-and-Gas-Frontier-Is-Drawing-Renewed-Interest.html",
+   "ts": "Fri, 16 Oct 2026 14:00:00 -0500"
+  },
+  {
+   "cat": "oil",
+   "title": "油价飙升之际美国页岩钻机反而收缩",
+   "brief": "油价走高但美国页岩钻探商减少活动，资本纪律与成本压力抑制产量响应弹性。",
+   "chain": "页岩供给弹性下降→油价中枢获支撑→东非油气项目经济性改善、莫桑比克开发信心增强",
+   "impact": 6,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/US-Oil-Drillers-Back-Off-Even-As-Prices-Soar.html",
+   "ts": "Fri, 16 Oct 2026 12:29:00 -0500"
+  },
+  {
+   "cat": "tech",
+   "title": "韩国财长：半导体市场至少旺到明年",
+   "brief": "韩国财政部长表示半导体市场至少到明年仍将保持稳健，存储与芯片需求周期延续。",
+   "chain": "半导体景气延续→美股芯片股盈利预期稳固→A股半导体与算力硬件链受益",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/17/south-korea-semiconductor-outlook-lee-hyoung-il.html",
+   "ts": "Sat, 17 Oct 2026 16:31:29 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "苹果1999美元iPhone Duo考验品牌溢价",
+   "brief": "苹果推出1999美元iPhone Duo，以高价双形态产品测试其身份象征定价能力与需求弹性。",
+   "chain": "高端定价试水→苹果毛利率与消费电子需求信号→A股果链代工与零部件订单预期",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/16/apple-iphone-duo-demand-price.html",
+   "ts": "Fri, 16 Oct 2026 22:31:26 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "欧洲版SpaceX上市涨18% 星链限速引忧虑",
+   "brief": "欧洲对标SpaceX的火箭企业股价涨18%，乌克兰星链限速事件推升欧洲自主卫星通信需求。",
+   "chain": "卫星通信自主化加速→美股航天与通信板块分化→A股卫星互联网与火箭链催化",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/16/eutelsat-starshield-ukraine-spacex.html",
+   "ts": "Fri, 16 Oct 2026 15:45:35 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "软件业新整合者获伯克希尔大力背书",
+   "brief": "软件行业新晋整合者获伯克希尔大额投票信心，企业软件并购整合主题升温。",
+   "chain": "伯克希尔背书→企业软件并购估值抬升→美股软件板块走强→A股信创与软件服务情绪",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/17/bending-spoons-wants-to-revive-software-castoffs-berkshire-investing.html",
+   "ts": "Sat, 17 Oct 2026 15:11:30 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "黄仁勋伦敦行：带大额支票与直白讯息",
+   "brief": "黄仁勋在伦敦密集会晤并携大额投资承诺，传递AI算力需求与欧洲布局的直白信号。",
+   "chain": "英伟达欧洲扩张→美股AI算力龙头叙事强化→A股算力链（服务器/光模块/PCB）映射",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/16/nvidia-jensen-huang-london.html",
+   "ts": "Fri, 16 Oct 2026 11:33:44 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Anthropic引入METR与SecureBio评估风险",
+   "brief": "Anthropic委托非营利机构METR与SecureBio协助评估模型风险与安全实践，AI治理走向第三方化。",
+   "chain": "AI安全第三方评估→监管合规成本上升→美股AI龙头估值折价风险→A股AI应用合规链",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/15/anthropic-metr-securebio-ai-safety-evaluators.html",
+   "ts": "Fri, 16 Oct 2026 22:26:38 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "SpaceX AI政策负责人就Grok安全被质询",
+   "brief": "SpaceX的AI政策负责人遭纽约市议会质询，聚焦Grok安全与生成性化图像问题。",
+   "chain": "AI内容安全监管加压→美股AI平台合规风险→A股AI内容审核与安全链需求",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/16/spacex-policy-manger-to-testify-in-nyc-council-ai-safety-investigation.html",
+   "ts": "Fri, 16 Oct 2026 19:30:51 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "NBA收紧投注规则并用AI识别可疑下注",
+   "brief": "NBA收紧博彩限制并开发AI系统识别可疑投注，体育联盟AI风控落地案例。",
+   "chain": "AI风控落地体育博彩→美股博彩与数据服务商受益→A股AI风控应用链示范",
+   "impact": 4,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/16/nba-tightens-betting-rules-develops-ai-to-flag-suspicious-wagers.html",
+   "ts": "2026-10-16T17:50:50+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "中期选举资金盘点：民主党有现金 共和党有马斯克",
+   "brief": "中期选举资金格局显示民主党候选人现金充裕，共和党获马斯克巨额注资支持。",
+   "chain": "中期选举资金格局→政策不确定性定价→美股板块轮动→A股风险偏好间接影响",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html",
+   "ts": "Fri, 16 Oct 2026 21:49:13 GMT"
+  }
+ ]
+}
