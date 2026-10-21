@@ -1,0 +1,627 @@
+{
+ "asof": "2026-10-22",
+ "fetched_at": "2026-10-22T00:01+08:00",
+ "meta": {
+  "counts": {
+   "TechCabal": 10,
+   "Moonshot·TechCabal": 10,
+   "Disrupt Africa": 10,
+   "Techpoint Africa": 0,
+   "IT News Africa": 0,
+   "TechAfrica News": 12,
+   "Condia": 25,
+   "ITWeb Africa": 25,
+   "Club of Mozambique": 0,
+   "Zimbabwe Situation": 0,
+   "African Business": 2,
+   "非洲科技·聚合": 8,
+   "中非科技·聚合": 16
+  },
+  "total": 60,
+  "ai_flagged": 18,
+  "aiinfra_flagged": 1,
+  "countries": 7
+ },
+ "items": [
+  {
+   "title": "The Moniepoint alumni building their own startups",
+   "brief": "Moniepoint is beginning to produce its own crop of founders. This list profiles 16 of these former employees and the businesses they have gone on to build.",
+   "source": "Condia",
+   "url": "https://thecondia.com/moniepoint-alumni-startup-founders/",
+   "date": "Wed, 21 Oct 2026 14:46:34 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "African banks may be sitting on payment technology they aren’t fully using",
+   "brief": "“Technology is important, but modernisation should ultimately be driven by business priorities and opportunities,” Bautista said.",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/21/african-banks-payment-technology/",
+   "date": "Wed, 21 Oct 2026 14:40:10 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "EdfaPay and GoPravo Launch SDPay to Expand Digital Payments in Sudan",
+   "brief": "EdfaPay,  the Saudi payment technology company, and GoPravo , a Sudanese IT company, have officially launched the joint venture, SDPay, to provide and operate financial services ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/21/edfapay-gopravo-launch-sdpay-digital-payments-sudan/",
+   "date": "Wed, 21 Oct 2026 14:00:26 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Audit reveals 6 out of 8 top Nigerian government sites fail IPv6 readiness test",
+   "brief": "As millions of citizens rely on digital portals for taxes, identity cards, and business registration, independent testing reveals that key public infrastructure is lagging behind the internet’s global upgrade.",
+   "source": "Condia",
+   "url": "https://thecondia.com/nigerian-government-websites-fail-ipv6-standards/",
+   "date": "Wed, 21 Oct 2026 13:48:41 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Ericsson Projects 63% of UAE Smartphone Users Will Use AI Agents by 2030",
+   "brief": "AI agents could become significant new invisible network users by the end of the decade, with 63 percent of smartphone users in the UAE expected ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/21/ericsson-projects-63-of-uae-smartphone-users-will-use-ai-agents-by-2030/",
+   "date": "Wed, 21 Oct 2026 13:37:36 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Cassava Technologies Expands AI Factory With NVIDIA Nemotron Models",
+   "brief": "Cassava Technologies,  a global technology leader, has announced the expansion of its AI Factory capabilities with NVIDIA  Nemotron open models, helping enterprises and service providers ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/21/cassava-technologies-expands-ai-factory-nvidia-nemotron-models/",
+   "date": "Wed, 21 Oct 2026 13:29:25 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Mauritius’ SIL Partners With Tata Consultancy Services to Advance Digital Transformation",
+   "brief": "State Informatics Limited (SIL) , a Mauritius-based technology company, has signed a Memorandum of Understanding (MoU) with Tata Consultancy Services (TCS)  to advance digital transformation and ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/21/mauritius-sil-tata-consultancy-services-digital-transformation/",
+   "date": "Wed, 21 Oct 2026 13:24:18 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Online gambling tax still in consultation phase",
+   "brief": "South Africans will have to wait until February for government’s proposed national online gambling tax, says finance minister.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/online-gambling-tax-still-in-consultation-phase/Pero3MZ3VGnqQb6m",
+   "date": "Wed, 21 Oct 2026 15:02:20 +0200",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Minister promises ‘revised’ draft of crypto assets regulation",
+   "brief": "Finance minister Enoch Godongwana concedes a “different approach” will be required for crypto regulations, after the draft document prompts thousands of comments.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/minister-promises-revised-draft-of-crypto-assets-regulation/KA3WwMdzXE3vrydZ",
+   "date": "Wed, 21 Oct 2026 14:48:14 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Probe flags over 4K ‘ghosts’ drawing state salaries",
+   "brief": "Government’s “ghost worker” audit process flags 4 323 high-risk, suspicious cases in the payroll system, reveals National Treasury.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/probe-flags-over-4k-ghosts-drawing-state-salaries/lwrKxv3Y8ZWMmg1o",
+   "date": "Wed, 21 Oct 2026 14:37:18 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Will Africa’s AI Talent Find the Infrastructure It Needs at Home?",
+   "brief": "Workforce participation in advanced digital training across Sub-Saharan Africa is shifting at an unprecedented pace. According to the eighth annual Global Skills Report  published by ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/21/will-africas-ai-talent-find-the-infrastructure-it-needs-at-home/",
+   "date": "Wed, 21 Oct 2026 12:36:05 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Biometrics, verification curb social grant fraud",
+   "brief": "Biometric enrolment and beneficiary verification result in savings of R13.1 billion in the social grants system, reveals National Treasury.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/biometrics-verification-curb-social-grant-fraud/nWJad7bNRk27bjO1",
+   "date": "Wed, 21 Oct 2026 14:15:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Citizen services project MyMzansi gets R150m boost",
+   "brief": "National Treasury allocates R150 million to enhance the technical capabilities of the digital services unit leading MyMzansi’s development.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/citizen-services-project-mymzansi-gets-r150m-boost/lLn14MmQNEYMJ6Aa",
+   "date": "Wed, 21 Oct 2026 14:10:45 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "AI's role in transforming Africa's digital infrastructure",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQcF82SlB2dTc5VEI1VXpENVNISzZpVkZvY3BKbGhCai0tRFh2ODExXzZnUUc4c1B2WC1kTnBGNVI4STdUOEotYUlqNmdPQWlwRnlsdGFvSTE?oc=5\" target=\"_blank\">AI's role in transforming Af",
+   "source": "BBC·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQcF82SlB2dTc5VEI1VXpENVNISzZpVkZvY3BKbGhCai0tRFh2ODExXzZnUUc4c1B2WC1kTnBGNVI4STdUOEotYUlqNmdPQWlwRnlsdGFvSTE?oc=5",
+   "date": "Wed, 21 Oct 2026 11:33:11 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Chinese Technology Giants Reject Huawei’s Inferior AI Accelerators As They Show Affinity Towards RTX PRO 5500, Despite NVIDIA’s Uncertainty In Fulfilling Orders",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPSUgxQWJ2azdwU0ZZcWxDV3Z1MXBuUTVxcFRmb1FtdlBqUUtER3EwVDZOUk1TX1lsbm1VU24wTGJhYk9VcG51cWJCN2x6MzVjd3pJdG9aeXFzTXpCVDJGMUZXSlBJWTIteExWVkhFRFlQelM0cXFHdzl2NnNoRG",
+   "source": "Wccftech·聚合",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSUgxQWJ2azdwU0ZZcWxDV3Z1MXBuUTVxcFRmb1FtdlBqUUtER3EwVDZOUk1TX1lsbm1VU24wTGJhYk9VcG51cWJCN2x6MzVjd3pJdG9aeXFzTXpCVDJGMUZXSlBJWTIteExWVkhFRFlQelM0cXFHdzl2NnNoRGJtR3d2Q25CSzZFZldhaFJMUWhLcjJUbUhrcWJTakZPZ9IBowFBVV95cUxOc2dNSnN3aEhzWGJScUVvcmE4RFJmVHJzNEVzZmNiVFl1MmFsZE5aSktUUjVZWDdDTUZzakd4RFlGaW05MXZ3R0ZHcWFJT2VnTTVrMnN5YU5ESGxUbjhfWGRiQTF6STdiQVhiVng4OHlQeE1tMHpuTGVKT2pkWTQyeldRTWg1eXlFZDdyWlJmRldDVkZnZmJDUDhaazRFbEZURHZB?oc=5",
+   "date": "Wed, 21 Oct 2026 11:26:54 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "How curiosity took Victoria Abiodun from anatomy to crypto",
+   "brief": "Victoria Abiodun went from studying anatomy and doubting cryptocurrency to building Web3 startups and communities. Now, she is writing a book to make blockchain easier to understand and encourage builders to solve real-w",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/21/victoria-abiodun-anatomy-to-web3/",
+   "date": "Wed, 21 Oct 2026 11:06:32 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Bard Santner wants to turn Zimbabwe’s diaspora remittances into a banking business",
+   "brief": "Bard Santner is using its new microfinance banking licence to expand beyond remittances into savings, lending and financial services for Zimbabwe’s diaspora, targeting a $2.45 billion market.",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/21/bard-santner-diaspora-remittances/",
+   "date": "Wed, 21 Oct 2026 11:06:26 +0000",
+   "country": "🇿🇼 津巴布韦",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "SA firms set target for 500K youth digital jobs",
+   "brief": "Collective X’s youth employment target highlights the gap between digital skills training, employer demand and opportunities.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/sa-firms-set-target-for-500k-youth-digital-jobs/Olx4zMkaBEEv56km",
+   "date": "Wed, 21 Oct 2026 12:43:48 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "NITDA Launches Digital Literacy Dashboard as Nigeria Records 2.7 Million Training Achievements",
+   "brief": "Nigeria’s National Information Technology Development Agency (NITDA)  has launched the National Digital Literacy Dashboard to monitor the country’s digital literacy initiatives, improve coordination among training ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/21/nitda-digital-literacy-dashboard-2-7-million-training-achievements/",
+   "date": "Wed, 21 Oct 2026 10:43:10 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Nokia, T-Mobile and NVIDIA Complete First Live AI-RAN Call",
+   "brief": "Nokia,  T-Mobile  and NVIDIA  have completed what they describe as the world’s first AI-RAN call at a commercial cell site in Bellevue, Washington, marking a ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/21/nokia-t-mobile-and-nvidia-complete-first-live-ai-ran-call/",
+   "date": "Wed, 21 Oct 2026 10:37:14 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "MTN South Africa Partners With SANTACO to Expand Digital Financial Inclusion",
+   "brief": "MTN South Africa  has partnered with the South African National Taxi Council (SANTACO)  Western Cape and MTN MoMo  to expand digital and financial inclusion across ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/21/mtn-south-africa-partners-with-santaco-to-expand-digital-financial-inclusion/",
+   "date": "Wed, 21 Oct 2026 10:25:51 +0000",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Liquid, Microsoft launch solar-powered digital lab in Gqeberha",
+   "brief": "The lab has been launched at Fontein Full-Service School in Gqeberha, in partnership with Microsoft and the Department of Communications and Digital Technologies.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/liquid-microsoft-launch-solar-powered-digital-lab-in-gqeberha/xA9PO7NEbRLvo4J8",
+   "date": "Wed, 21 Oct 2026 12:15:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Gabon Launches Digital Platform to Modernize Parliamentary Work",
+   "brief": "Gabon’s National Agency for Digital Infrastructure and Frequencies (ANINF)  is supporting members of the National Assembly in adopting digital tools to modernize legislative work through ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/21/gabon-launches-digital-platform-to-modernize-parliamentary-work/",
+   "date": "Wed, 21 Oct 2026 10:14:41 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Famous Brands bets on AI, self-service terminals",
+   "brief": "The restaurant company pushes a digital experience, with its Munch point-of-sale, digital menus and self-service terminals.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/famous-brands-bets-on-ai-self-service-terminals/JN1gP7OAQGzqjL6m",
+   "date": "Wed, 21 Oct 2026 12:07:23 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Airtel Zambia Engages Finance Minister on Digital Financial Inclusion",
+   "brief": "Airtel Zambia PLC  has held discussions with Zambia’s Minister of Finance and National Planning,  Situmbeko Musokotwane, on strengthening collaboration to support the country’s economic transformation ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/21/airtel-zambia-finance-minister-digital-financial-inclusion/",
+   "date": "Wed, 21 Oct 2026 10:05:00 +0000",
+   "country": "🇿🇲 赞比亚",
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "AI has changed the speed and scale of cyber risks, but not the fundamentals",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNZWcxX1lwanZUU2FCdnlLMVZvVDJzTmVCTHp0dXhlX3UtamxfLUd0X0Y0eFhOdmcxUUlIVHg2N0VBdW9lZFZUcFR0RmEyZ2pWbDNEcTh0Z2hQTHFHenRKZEt4ODM0cU9qeFZyOVhTSWdMQm9fSVJDMjlVYUJxYU",
+   "source": "ITWeb Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZWcxX1lwanZUU2FCdnlLMVZvVDJzTmVCTHp0dXhlX3UtamxfLUd0X0Y0eFhOdmcxUUlIVHg2N0VBdW9lZFZUcFR0RmEyZ2pWbDNEcTh0Z2hQTHFHenRKZEt4ODM0cU9qeFZyOVhTSWdMQm9fSVJDMjlVYUJxYUVUbzIyaWFTd3RWUzM4S2VIZlNQcUl4N1BNMGFpQzZPM09tUmpUSU9CQ25SelByTXJhOUQ1VjZYdHB0RHNXZw?oc=5",
+   "date": "Wed, 21 Oct 2026 09:57:09 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "iOCO CEO draws no base salary, CFO earns R10.6m",
+   "brief": "Group CFO Ashona Kooblall received R10.6 million in remuneration, including R4.62 million in shares, while CEO Rhys Summerton received no base salary.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/ioco-ceo-draws-no-base-salary-cfo-earns-r106m/o1Jr5qxP3WpqKdWL",
+   "date": "Wed, 21 Oct 2026 11:36:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "World Bank Launches Digital Strategy to Expand Access and Create Jobs",
+   "brief": "The World Bank Group  has launched its first digital strategy, bringing together its public and private sector capabilities to help developing countries expand affordable digital ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/21/world-bank-digital-strategy-expand-access-create-jobs/",
+   "date": "Wed, 21 Oct 2026 08:19:38 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Redefine wheels solar across Cape properties",
+   "brief": "The multimillion-rand Cape Town solar power project will wheel 9 889MWh of renewable energy annually.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/redefine-wheels-solar-across-cape-properties/wbrpOqg2eK1MDLZn",
+   "date": "Wed, 21 Oct 2026 10:09:27 +0200",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "African VC is getting more selective. This investor shares what it takes to get an investor’s attention",
+   "brief": "Eunice Ajim explains why she is backing AI-enabled software in Africa, becoming more selective, and navigating a tougher venture capital market.",
+   "source": "Condia",
+   "url": "https://thecondia.com/eunice-ajim-african-vc-ai-enabled-software/",
+   "date": "Wed, 21 Oct 2026 08:00:10 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "UAE Partners Develop Framework for Designing Future 6G Networks",
+   "brief": "In a significant step toward the 2030 launch of 6G, etisalat UAE,  Khalifa University of Science and Technology  and New York University Abu Dhabi (NYUAD)  ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/10/21/uae-partners-framework-designing-future-6g-networks/",
+   "date": "Wed, 21 Oct 2026 07:43:39 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Take the audit readiness survey and stand a chance to win",
+   "brief": "Share your views in a five-minute survey and stand a chance to win a R3 000 Takealot voucher.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/take-the-audit-readiness-survey-and-stand-a-chance-to-win/RgeVDvPR3nbMKJN3",
+   "date": "Wed, 21 Oct 2026 09:35:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "👨🏿‍🚀TechCabal Daily – A MNT of fresh air",
+   "brief": "In today's edition: MNT-Halan share price rises 6.6% || Netflix lays off Africa content boss || Trading for NCBA shares suspended || Spiro launches e-bikes in Ghana",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/21/%f0%9f%91%a8%f0%9f%8f%bf%f0%9f%9a%80techcabal-daily-a-mnt-of-fresh-air/",
+   "date": "Wed, 21 Oct 2026 06:10:20 +0000",
+   "country": "🇬🇭 加纳",
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Grafana Labs Brings Faster Full-text Search and Smarter Data Optimization to Grafana Cloud at ObservabilityCON 2026",
+   "brief": "Grafana Labs, the company behind the open agentic observability cloud, today announced new releases at ObservabilityCON 2026 that help teams manage their telemetry in the AI era, finding the right log line in seconds and",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/grafana-labs-brings-faster-full-text-search-and-smarter-data-optimization-to-grafana-cloud-at-observabilitycon-2026/GxwQD71DL2dvlPVo",
+   "date": "Tue, 20 Oct 2026 19:00:00 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Grafana Labs Charts the Path to Agentic Operations with Watchers, Pages, and Agent Observability at ObservabilityCON 2026",
+   "brief": "Grafana Labs, the company behind the open agentic observability cloud, today announced new releases at ObservabilityCON 2026 that move Grafana Cloud towards agentic operations, including the general availability of Agent",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/grafana-labs-charts-the-path-to-agentic-operations-with-watchers-pages-and-agent-observability-at-observabilitycon-2026/mYZRXv9gn2eMOgA8",
+   "date": "Tue, 20 Oct 2026 19:00:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Eva Ngigi Sarwari, Equity’s head of payments, dies on business trip to China",
+   "brief": "They described the news as a “sudden and profound shock” and said they would make further updates as details became available.",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/20/eva-ngigi-sarwari-equity-dies-china/",
+   "date": "Tue, 20 Oct 2026 14:19:20 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "MNT-Halan shares jump 18% on Egyptian stock market debut after $150m IPO",
+   "brief": "MNT-Halan shares rose 18% on their Egyptian Exchange debut after a $150 million IPO drew heavy demand, valuing its listed Egyptian business at about $745 million.",
+   "source": "Condia",
+   "url": "https://thecondia.com/mnt-halan-shares-jump-egypt-ipo/",
+   "date": "Tue, 20 Oct 2026 13:43:58 +0000",
+   "country": "🇪🇬 埃及",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Artificial Intelligence: Could the Global Race for Billions Widen Inequality?",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaThWaGpPSWFlYklfMjZDclNGLXNrNmQ3QnVfYjJVUmVvRERURlRZVm9HM0d4TEljX1JDMTNIVGx5eXRrYWo2NUNjTXZhYjBnYUlDZ0FDYjNacURqOWNkTXF1VGVYWGkzanQ4SDFFWGZWVTZGVzZIdFJwMURfaU",
+   "source": "Africa News Agency·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaThWaGpPSWFlYklfMjZDclNGLXNrNmQ3QnVfYjJVUmVvRERURlRZVm9HM0d4TEljX1JDMTNIVGx5eXRrYWo2NUNjTXZhYjBnYUlDZ0FDYjNacURqOWNkTXF1VGVYWGkzanQ4SDFFWGZWVTZGVzZIdFJwMURfaU1oTFo1YWtXYkRDNkZuczc5Z2NiTi1mcmU3QmRfdVNyTmY0OU1kWDJIM25Lc3c?oc=5",
+   "date": "Tue, 20 Oct 2026 12:28:33 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Gabon’s first angel network is building more than a portfolio",
+   "brief": "Building a startup ecosystem takes more than funding. In Gabon, GAIN is working to bring together the investors, expertise and connections young businesses need to grow.",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/20/francophone-weekly-by-techcabal-045/",
+   "date": "Tue, 20 Oct 2026 11:34:00 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "A data centre is not a cloud platform: Why the distinction matters",
+   "brief": "Data centres and cloud platforms have been used interchangeably but are not the same thing. With the Central Bank of Nigeria requiring payment data to remain on local infrastructure by 2027, building local cloud platform",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/20/data-centre-cloud-platform-difference/",
+   "date": "Tue, 20 Oct 2026 11:00:00 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": true
+  },
+  {
+   "title": "NCC’s device verification tool exposes vulnerabilities in Nigeria’s mobile imports",
+   "brief": "The NCC’s new device verification tool helps buyers identify unapproved phones. But Nigeria’s import-dependent mobile market and fragmented distribution networks could complicate enforcement and leave consumers without c",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/20/device-verification-phones-nigeria/",
+   "date": "Tue, 20 Oct 2026 10:53:59 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "We need AI governance, not superintelligence hype",
+   "brief": "AI safety cannot become a private understanding between the tech and political elites, with oversight serving those it should scrutinise.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/we-need-ai-governance-not-superintelligence-hype/JN1gP7OAQWRqjL6m",
+   "date": "Tue, 20 Oct 2026 10:11:54 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "👨🏿‍🚀TechCabal Daily – Nedbank checks into Nairobi",
+   "brief": "In today's edition: Nedbank completes NCBA takeover || Why Onafriq shut down its Nigerian agent banking business || Union calls for Temu, Shein ban in SA || Camtel, Socadel to collaborate in Cameroon",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/20/%f0%9f%91%a8%f0%9f%8f%bf%f0%9f%9a%80techcabal-daily-nedbank-checks-into-nairobi/",
+   "date": "Tue, 20 Oct 2026 06:09:30 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "High spectrum costs squeeze African telecom investment and digital growth",
+   "brief": "African operators face a higher spectrum cost burden despite holding fewer frequencies than their global peers. Lower fees could unlock investment, but closing the continent’s connectivity gap requires measurable improve",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/20/spectrum-costs-african-telecom-investment/",
+   "date": "Tue, 20 Oct 2026 06:00:00 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Murata Develops World’s Smallest 008004-inch Size (0.25mm × 0.125mm) NTC Thermistor for Space-Constrained Temperature Sensing",
+   "brief": "Murata Manufacturing Co., Ltd. (TOKYO: 6981) (ISIN: JP3914400001) announces the development of the world’s smallest* 008004-inch size (0.25mm × 0.125mm) NTC thermistor, the NCU01 series.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/murata-develops-worlds-smallest-008004-inch-size-025mm-0125mm-ntc-thermistor-for-space-constrained-temperature-sensing/JBwEr7n3E4OM6Db2",
+   "date": "Tue, 20 Oct 2026 04:00:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Hologic Signs Definitive Agreement to Acquire Reveal Genomics",
+   "brief": "Hologic, a global leader in women’s health, today announced that it has signed a definitive agreement to acquire Reveal Genomics, a precision oncology company based in Barcelona, Spain, that develops advanced genomic dia",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/hologic-signs-definitive-agreement-to-acquire-reveal-genomics/KBpdg7pmwblMLEew",
+   "date": "Mon, 19 Oct 2026 21:30:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Beyond Ports: China’s Digital Networks of Influence in the Middle East and Africa",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxORDVsRnRSOVdLRXRpRDRmXzJFNFBhaGNFVHR0c2ZtVGF5YW9halczaVFPTHUzRmVVN2poTmxONDU5WTZMbU9LY1Q1Qjk5NHNmeC1IeHFWWVNZVmIyZFJ4UHlhNmRPaEdMNTZ3NWNrTXIzTXM1SjQtVVBQaC1sdF",
+   "source": "Middle East Institute·聚合",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORDVsRnRSOVdLRXRpRDRmXzJFNFBhaGNFVHR0c2ZtVGF5YW9halczaVFPTHUzRmVVN2poTmxONDU5WTZMbU9LY1Q1Qjk5NHNmeC1IeHFWWVNZVmIyZFJ4UHlhNmRPaEdMNTZ3NWNrTXIzTXM1SjQtVVBQaC1sdFlIR2hPanVlM2tQUUhFd3dyVTQyLVBGNUJZYUw1NVZiXzdsaEczWU1ob3B0eWda?oc=5",
+   "date": "Mon, 19 Oct 2026 16:22:32 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Shein and Temu Face Ban Campaign in South Africa as Unions Warn of Job Losses",
+   "brief": "South African trade unions are pushing to ban Shein and Temu over concerns about local manufacturing, retail competition and thousands of jobs potentially at risk by 2030.",
+   "source": "Condia",
+   "url": "https://thecondia.com/ban-shein-temu-south-africa/",
+   "date": "Mon, 19 Oct 2026 13:55:34 +0000",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Rimini Street to Report Third Quarter 2026 Financial Results on October 29, 2026",
+   "brief": "Rimini Street, Inc. (Nasdaq: RMNI), the Software Support and Agentic AI ERP Company™ and the leading third-party support provider for Oracle, SAP and VMware software, today announced it will report earnings after market ",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/rimini-street-to-report-third-quarter-2026-financial-results-on-october-29-2026/LPwQ5MlbOWkvNgkj",
+   "date": "Mon, 19 Oct 2026 15:00:00 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "The power of being seen: How Ore Badmus built a career across acting, dance and tech",
+   "brief": "From acting to tech, Ore Badmus shares how career pivots, starting over in the UK and embracing visibility, shaped her professional journey.",
+   "source": "Condia",
+   "url": "https://thecondia.com/the-power-of-being-seen-ore-badmus-career/",
+   "date": "Mon, 19 Oct 2026 09:00:00 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Artificial Intelligence (AI) course enrollments in South Africa rise 75%: Coursera’s Global Skills Report 2026",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxQaXRPdWpVcllYLUt2QVJrM0Z5LTNYTk9SRWI4MlN3NnZRS2o3OGllVUR5NVpxVFhPTm1BSld6ZEhJbExYR0s1RW9ya1RQZnV6YlF0UV96SGdPTWZabXNBcGZ0WmU5dTRGUk9nWXhBZThIOVM1SUdxTk0wX1JrbH",
+   "source": "pan african visions·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQaXRPdWpVcllYLUt2QVJrM0Z5LTNYTk9SRWI4MlN3NnZRS2o3OGllVUR5NVpxVFhPTm1BSld6ZEhJbExYR0s1RW9ya1RQZnV6YlF0UV96SGdPTWZabXNBcGZ0WmU5dTRGUk9nWXhBZThIOVM1SUdxTk0wX1JrbHhVMVJRTXhpVmZsUGxrMWluQzk2aXZxQlFqZUItMF9mVzZjWXlISEhWOEhsNkpqM2hBWTFHUmZVSW4yTkpheThhd1FhUnphNU1NSGRtSVdoVWZETUNTbVhrcVRpRjJI?oc=5",
+   "date": "Mon, 19 Oct 2026 06:01:09 GMT",
+   "country": "🇿🇦 南非",
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Apple HomeView vs Amazon Echo Show: which smart display is worth buying?",
+   "brief": "Apple HomeView takes on Amazon Echo Show with Siri AI, smart home controls and a personalised experience. But is it worth the higher price?",
+   "source": "Condia",
+   "url": "https://thecondia.com/apple-homeview-vs-amazon-echo-show/",
+   "date": "Sun, 18 Oct 2026 17:17:42 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "South Africa, China Launch Research Centre to Advance Africa’s Digital Transformation",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPb1l1cTJnbkFwbzRZTHdwc3l0cjF5cU4yaGZMMHM1T3lCMzU3S2VOZ0xENmI2UG5VQ0JBMkMtRDI0LTRsTjRfQ0RmVkNuUHYxZ05FSS01RzVfM1hpM1djUjlNZHRKend3VTcySTdRZ0kyZEs3TlUwbTl4MmhGcn",
+   "source": "DNE Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb1l1cTJnbkFwbzRZTHdwc3l0cjF5cU4yaGZMMHM1T3lCMzU3S2VOZ0xENmI2UG5VQ0JBMkMtRDI0LTRsTjRfQ0RmVkNuUHYxZ05FSS01RzVfM1hpM1djUjlNZHRKend3VTcySTdRZ0kyZEs3TlUwbTl4MmhGcnJ6V05qS0d4NnU1LWhaVHB2LTZsVWdwM1l0QUpEa3BZMkcwT0JhM09jVFRZR1RpdWcxMGZweVV2eTRKS2c?oc=5",
+   "date": "Sun, 18 Oct 2026 11:59:22 GMT",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "US Army turns to Morocco to test up to 15 anti-drone solutions, targeting new technology for soldiers within 180 days",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxPZTBKS0hiRzNnTmdhNmJzWjN1dXZyNFl5TDdHWGh1YnBjMURFQUkwUURSdXZaZXZQbXVnc2YtVkprVjdjWmVnVXUydlV1WDBhOWxxTzBHVmt3MU1yUjJJQ2k2RFRPQVB5Ykl1WUV0NzdESjI1aDdWUDc4OXl4UW",
+   "source": "Business Insider Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZTBKS0hiRzNnTmdhNmJzWjN1dXZyNFl5TDdHWGh1YnBjMURFQUkwUURSdXZaZXZQbXVnc2YtVkprVjdjWmVnVXUydlV1WDBhOWxxTzBHVmt3MU1yUjJJQ2k2RFRPQVB5Ykl1WUV0NzdESjI1aDdWUDc4OXl4UWVkUk5CblpZRDZwYUV1cllieE9pWVBRSFVqZjdKNk9zaGhsend3ams1clZuUnBYN0FZUkVzV0I3LVVvcHFEOEVzUGVlbzBuaUJfTFpabzVNdw?oc=5",
+   "date": "Sat, 17 Oct 2026 11:00:00 GMT",
+   "country": "🇲🇦 摩洛哥",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "What a doctor’s typing speed reveals about Africa’s voice AI gap",
+   "brief": "How a problem with medical documentation led Nigerian startup Intron to build voice technology for African languages.",
+   "source": "Condia",
+   "url": "https://thecondia.com/intron-african-language-voice-ai/",
+   "date": "Fri, 16 Oct 2026 16:00:00 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Artificial intelligence is coming to African schools",
+   "brief": "",
+   "source": "African Business",
+   "url": "https://african.business/2026/10/technology-information/artificial-intelligence-is-coming-to-african-schools",
+   "date": "Fri, 16 Oct 2026 15:50:28 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "PalmPay UK posts £21.3m loss after writing off £3.65m loan",
+   "brief": "PalmPay (UK) Limited recorded a £21.34m loss before tax in 2025, as investment impairments alongside a £3.65 million loan write-off weighed on its financial results.",
+   "source": "Condia",
+   "url": "https://thecondia.com/palmpay-uk-posts-21-3m-loss-3-65m-loan/",
+   "date": "Fri, 16 Oct 2026 15:26:11 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "South Africa’s largest telecom wanted control of Safaricom; now a Kenyan court battle threatens the deal",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdnhGVWFSQkdmbVFXZTJzcU9LaXJzRDJTUEpiS3h0V3MyY3k5QVBkQTI4OGllOTl3dWhxNUhfQnRCMnBzNE9ORVc1clpLcEJwS0pHNDIwWDVGaktRREJRd1FZdjVjRjFMWExUQVN4OXhLUzFZRlp3OExXOF8yTz",
+   "source": "Business Insider Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdnhGVWFSQkdmbVFXZTJzcU9LaXJzRDJTUEpiS3h0V3MyY3k5QVBkQTI4OGllOTl3dWhxNUhfQnRCMnBzNE9ORVc1clpLcEJwS0pHNDIwWDVGaktRREJRd1FZdjVjRjFMWExUQVN4OXhLUzFZRlp3OExXOF8yTzdqTFowRUYzQVJBY2NEWTBYM0J3aVpjYTNIMFdwVTk0clRjbThFY2Y3dUlfdWEtR0EtOXdHOGUwZFNsTVdvQ21mWVIwZEpjZkdEV09lbkhIYTZsYmRLNEg3dw?oc=5",
+   "date": "Fri, 16 Oct 2026 14:30:20 GMT",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "ASML eyes hybrid bonding, report finds, as Chinese firms adopt chip technique",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcFA0VTBpVmNTZVZJWWRyNktiMENJTHE4Ml9walZoM29UNGdyeTJIenhOLTcxWjQybXFrUFpmUnh6eG5ZY0pNZjY1aDJZTVNGUHJOYzFyXzNjVjVncHJKRUtWakxpZk5GUjRkdW03a3JLanFoYmllbEN0YWNRZE",
+   "source": "South China Morning Post·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcFA0VTBpVmNTZVZJWWRyNktiMENJTHE4Ml9walZoM29UNGdyeTJIenhOLTcxWjQybXFrUFpmUnh6eG5ZY0pNZjY1aDJZTVNGUHJOYzFyXzNjVjVncHJKRUtWakxpZk5GUjRkdW03a3JLanFoYmllbEN0YWNRZEJ0cFlTLUNCbUJRaFpzUTFaU0hzYlNjRTUydjd2MXI0b09LY2FzVWdYZ3QyajZiNWE2R28wWEsyWGJHNDUxTFhwV2hPRmZTal9fX3JXMDNiRVJ0ZlHSAdIBQVVfeXFMTzNiVjZQcmJCclVaTHdEZmNaYXNSUi1yQmNxQTlSaDNsUkswT0hESHVPazNVczkyZFJPNVBUTldaalN6dW94OHN2V2habW81S05KalQ5R0hpS29RVWNuQ2MwME13M1BaMXFIVHNrMkxDd3RSRDRuZWgxQ2d5cnpZVlllbkRQTG9kd0tfNlB1UzNxajNHNjhOclRvZWZjYWxOcmZER1kwTkZqYUxfR29td1BMUTVmTmtVUDU2b3hLSElaTk1MMm9GNDFjSmtqMmZHSER3?oc=5",
+   "date": "Fri, 16 Oct 2026 12:30:12 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Onafriq shuts down Baxi agent banking in Nigeria",
+   "brief": "Onafriq is shutting down its Nigerian agent banking division, Baxi, following severe macroeconomic headwinds, naira devaluation, and rising competition in offline agency banking.",
+   "source": "Condia",
+   "url": "https://thecondia.com/onafriq-shuts-down-baxi-agent-banking-in-nigeria/",
+   "date": "Fri, 16 Oct 2026 11:30:50 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  }
+ ]
+}
