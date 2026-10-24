@@ -1,21 +1,21 @@
 {
  "asof": "2026-10-24",
- "fetched_at": "2026-10-24T02:02+08:00",
+ "fetched_at": "2026-10-24T12:31+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
    "Moonshot·TechCabal": 10,
-   "Disrupt Africa": 0,
+   "Disrupt Africa": 10,
    "Techpoint Africa": 0,
    "IT News Africa": 0,
    "TechAfrica News": 12,
    "Condia": 25,
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
-   "Zimbabwe Situation": 1,
+   "Zimbabwe Situation": 2,
    "African Business": 3,
    "非洲科技·聚合": 9,
-   "中非科技·聚合": 17
+   "中非科技·聚合": 18
   },
   "total": 60,
   "ai_flagged": 18,
@@ -23,6 +23,16 @@
   "countries": 7
  },
  "items": [
+  {
+   "title": "Mines Ministry suspends walk-in services at Deputy Cadastre Registrar’s Office",
+   "brief": "The Ministry of Mines and Mining Development has temporarily suspended walk-in services at the Deputy Cadastre Registrar’s Office to accelerate the rollout of its digital mining title administration system. Permanent Sec",
+   "source": "Zimbabwe Situation",
+   "url": "https://www.zimbabwesituation.com/news/mines-ministry-suspends-walk-in-services-at-deputy-cadastre-registrars-office/",
+   "date": "Fri, 23 Oct 2026 19:15:24 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
   {
    "title": "Netflix vs Amazon Prime Video in Nigeria: Prices, Features and Which Is Better?",
    "brief": "Compare Netflix and Amazon Prime Video prices, features and content in Nigeria to find the better option for you.",
@@ -71,16 +81,6 @@
    "date": "Fri, 23 Oct 2026 14:09:15 GMT",
    "country": null,
    "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "PHP vulnerabilities update, ConnectWise AI spies, Africa cybercrime takedown",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQM3U4MmlSanhremthVGJzUVJrWGdvRDgtbWRQY1lhemlTSm9Ud0FqVnNjWUl1STZDRjFsYnVlc0xPZXBkdU4yZG1iYk9tcWI5eWxmX0hiQUNOU3ZQbFdUeDJkc1puWWNPbWZLOUo4TXA5NUhyQzVVTlluNG1zQz",
-   "source": "LinkedIn·聚合",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM3U4MmlSanhremthVGJzUVJrWGdvRDgtbWRQY1lhemlTSm9Ud0FqVnNjWUl1STZDRjFsYnVlc0xPZXBkdU4yZG1iYk9tcWI5eWxmX0hiQUNOU3ZQbFdUeDJkc1puWWNPbWZLOUo4TXA5NUhyQzVVTlluNG1zQzJfTDB1OWhoVDNpSWZjYjZjc0pNRjZmMndfSnF2UVpJeGRsRGV2bQ?oc=5",
-   "date": "Fri, 23 Oct 2026 13:55:00 GMT",
-   "country": null,
-   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -220,6 +220,16 @@
    "url": "https://techafricanews.com/2026/10/23/airtel-rwanda-ncsa-cybersecurity-skills-youth/",
    "date": "Fri, 23 Oct 2026 10:00:15 +0000",
    "country": "🇷🇼 卢旺达",
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Cybersecurity News: PHP vulnerabilities update, ConnectWise AI spies, Africa cybercrime takedown",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE9CMnpIcVNoSG0wNDJraUZVM05RWHdBenJqZmVDeTlNazVPSE96MmEwb1ZxZndUb1dPV3NIeTBwZ092WGVJZUkxbU5VQm9MNXhwV2syOGl5UFhQMUlxS1ZSZk1KQ3hkMWpkWXc?oc=5\" target=\"_blank\">Cybe",
+   "source": "CISO Series·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CMnpIcVNoSG0wNDJraUZVM05RWHdBenJqZmVDeTlNazVPSE96MmEwb1ZxZndUb1dPV3NIeTBwZ092WGVJZUkxbU5VQm9MNXhwV2syOGl5UFhQMUlxS1ZSZk1KQ3hkMWpkWXc?oc=5",
+   "date": "Fri, 23 Oct 2026 10:00:00 GMT",
+   "country": null,
    "is_ai": true,
    "is_aiinfra": false
   },
@@ -611,16 +621,6 @@
    "date": "Wed, 21 Oct 2026 16:03:00 +0200",
    "country": null,
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Audit reveals 6 out of 8 top Nigerian government sites fail IPv6 readiness test",
-   "brief": "As millions of citizens rely on digital portals for taxes, identity cards, and business registration, independent testing reveals that key public infrastructure is lagging behind the internet’s global upgrade.",
-   "source": "Condia",
-   "url": "https://thecondia.com/nigerian-government-websites-fail-ipv6-standards/",
-   "date": "Wed, 21 Oct 2026 13:48:41 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
    "is_aiinfra": false
   }
  ]
