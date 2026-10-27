@@ -1,22 +1,70 @@
 {
  "asof": "2026-10-27",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-10-27T17:12+08:00",
+ "generated_at": "2026-10-27T20:53+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 6,
-  "cluster_label": "以色列/伊朗",
-  "cluster_dropped": [
-   "Galp与Moeve因伊朗战争推高炼厂估值放弃合并"
-  ],
+  "cross_day_suppressed": 3,
+  "cluster_label": "",
+  "cluster_dropped": [],
   "backfilled": 0
  },
  "items": [
   {
+   "cat": "macro",
+   "title": "美联储料按兵不动，沃什或暗示加息路径",
+   "brief": "美联储本次会议预计维持利率不变，但新任主席沃什的表态可能指向后续加息，市场关注政策转向信号。",
+   "chain": "FOMC按兵不动但鹰派指引→美股AI高久期股贴现率承压、风险偏好收敛→A股算力链估值情绪受抑",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rates-kevin-warsh.html",
+   "ts": "Tue, 27 Oct 2026 11:06:22 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "美国9月耐用品订单环比增1.8%超预期",
+   "brief": "美国9月耐用品订单环比增长1.8%，高于预期的1.7%，显示制造业需求仍有韧性。",
+   "chain": "耐用品订单超预期→强化经济不弱、降息预期降温→美债利率上行压制成长股→A股算力链承压",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610273910334636.html",
+   "ts": "2026-10-27 20:30:33"
+  },
+  {
+   "cat": "macro",
+   "title": "ADP：近四周美国私营就业周均增1.68万",
+   "brief": "ADP数据显示截至10月10日四周内，美国私营部门就业平均每周增加16750人，劳动力市场温和扩张。",
+   "chain": "就业温和增长→美联储降息空间受限→美股估值分母偏紧→A股算力链情绪中性偏空",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610273910318262.html",
+   "ts": "2026-10-27 20:15:37"
+  },
+  {
+   "cat": "macro",
+   "title": "现货黄金突破4020美元/盎司",
+   "brief": "现货黄金站上4020美元/盎司，日内小幅上涨0.08%，避险与实际利率博弈下金价维持高位。",
+   "chain": "金价高位由避险与降息预期共同支撑→美股AI高久期票估值分母敏感度上升→A股算力链情绪随风险偏好波动",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610273910339445.html",
+   "ts": "2026-10-27 20:32:24"
+  },
+  {
+   "cat": "macro",
+   "title": "美2年期和5年期国债收益率触及日内高点",
+   "brief": "美国2年期与5年期国债收益率盘中触及日内高点，反映市场对美联储政策路径的重新定价。",
+   "chain": "短端利率上行→美股成长股贴现率抬升、AI板块承压→A股算力链估值情绪受抑",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610273910385846.html",
+   "ts": "2026-10-27 20:40:34"
+  },
+  {
    "cat": "geo",
-   "title": "以色列大选投票 内塔尼亚胡政治生涯临考",
-   "brief": "以色列自10月7日袭击后首次大选投票，内塔尼亚胡去留取决于选举结果，其此前暗示或重启对伊朗战争。",
-   "chain": "以色列政局不确定→中东风险溢价反复→美股能源与防务波动→A股算力链受风险偏好扰动",
+   "title": "以色列大选投票率创半世纪新高",
+   "brief": "以色列大选投票率为半个世纪以来最快，选民在战时对 Netanyahu 政府作出评判，结果牵动中东局势。",
+   "chain": "以选情与战时领导权更替→中东风险溢价重估→美股能源与防务板块波动→A股情绪间接传导",
    "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPT3lQVU9MdTNicEFJNm5HS2VmVmV4Mks3SGc4Um1XWDFBTjBPVHJUMzFUNGNicDItS0FGZ3gxelpIenRsTU5kZDhlRWJOUUowVFM4czRZdHRZSHV3LU5xa2xNQU9BTGVZVFlkRUFYT1dnTjRiYXQ4MUNZdXNMNVFQcXl2RUhYbnU0ZHVjcXExTjdaN2U4N28ycjBRZlVzRTA1eUNz?oc=5",
@@ -24,119 +72,79 @@
   },
   {
    "cat": "geo",
-   "title": "埃及批准军事支持沙特 应对胡塞袭击升级",
-   "brief": "胡塞袭击升级后，埃及批准对沙特提供军事支持，红海—也门局势进一步区域化。",
-   "chain": "红海冲突区域化→航运与能源风险溢价→美股风险偏好承压→A股算力链情绪受抑",
-   "impact": 7,
+   "title": "中国将派特使赴中东斡旋冲突外溢",
+   "brief": "中东冲突外溢背景下，中国将于近期派特使前往中东，推动局势降温与外交解决。",
+   "chain": "大国斡旋降温预期→地缘风险溢价回落→美股风险偏好修复→A股情绪偏暖",
+   "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaFIxVXVVYl90WFZodTB6bHpqOWN3aktZSHNDYTlaM3I5S1FoeU14U1NRVE1mVTJtSDV3ZHk1cHRiWDh6elBNamVIeE5tN2VvRDEyWXBPT1dyNW5KSXFyaE5PVEFOS1NyQW1CNkVVblN6SW1PeVg3aHQxY3B6WmhHU3cxM0gtdTNRLTY1NWo0R284RzQtSmVtTnRxVnR6MTVkNWVsU3djY1d2SURPNmo0N05CUFJZekpIUklNTmRxazZHVTNrbEFN?oc=5",
-   "ts": "2026-10-26T13:08:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVmZiSXVsLUdKMnk3anBIc0VMUmpabGtQZlh0YW0tWm9FNkJFT0dWNi1GWkFPMU1JUk5lTkZXWnBMR2hoYUE0dE1HNVF5MU9kRkJYUlNhWVdKX0pRbTk5ejU5ZXlpRVlwVEJqbFFXMldPb0lKelR1NHNVSTJac2pPdHd0amR6QTNBa250elZFRTgyRlRJb042d09mZnNabDBnNnN1ZkRMZGhkV0ZyMGFXVXhn?oc=5",
+   "ts": "2026-10-27T08:42:20+00:00"
   },
   {
    "cat": "geo",
-   "title": "俄导弹袭击哈尔科夫 致2死4伤",
-   "brief": "俄军导弹袭击乌克兰哈尔科夫，市长称2人死亡、4人受伤，俄乌战事持续。",
-   "chain": "俄乌战事延续→欧洲能源与防务风险→美股风险偏好扰动→A股算力链情绪传导",
-   "impact": 6,
+   "title": "俄导弹袭击哈尔科夫致2死4伤",
+   "brief": "俄罗斯导弹袭击乌克兰哈尔科夫，造成两人死亡、四人受伤，俄乌冲突持续。",
+   "chain": "俄乌冲突延续→欧洲能源与防务风险溢价维持→美股能源板块波动→A股情绪间接影响",
+   "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZGJtb2NGTFJkaUZINzFZYUo2T3RCS3REQ1ZCVWhSMGludTZfTldKTElPaUFXeWRudzBURUdxUVQ2MzlqamRhbGRFTnJtTTBoa281MFotY2JsaURvbUppWW1jeG9xbkpGMHdzY2NDVDBnbDg5MEtkY3ltQm9qZVREZEJlSjd0WllfNnM5N211cXg1ejVkZ3JyY3doSklkVW1hZFQ5V1ROQWlxRFlmWTNrNHktdHA?oc=5",
    "ts": "2026-10-26T18:01:43+00:00"
   },
   {
    "cat": "geo",
-   "title": "中俄重塑北极贸易 欧洲如何应对",
-   "brief": "中俄正改写北极贸易格局，欧洲寻求反制，涉及航道与地缘博弈。",
-   "chain": "北极航道博弈→全球贸易路线重构→美股物流与能源运输→A股航运链情绪",
+   "title": "俄乌局部停火启动但俄仍持续攻击",
+   "brief": "由 Melania Trump 斡旋的局部停火开始生效，但俄罗斯仍在持续攻击乌克兰，停火前景存疑。",
+   "chain": "局部停火落地但执行存疑→欧洲地缘风险溢价边际回落→美股风险偏好小幅修复→A股情绪中性",
    "impact": 5,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/27/arctic-shipping-china-and-russia-expand-grip-can-europe-fight-back.html",
-   "ts": "Tue, 27 Oct 2026 01:24:28 GMT"
+   "url": "https://www.cnbc.com/2026/10/27/russia-ukraine-zelenskyy-trump-putin-ceasefire.html",
+   "ts": "Tue, 27 Oct 2026 11:18:31 GMT"
   },
   {
-   "cat": "macro",
-   "title": "现货黄金失守3990美元 白银跌2%",
-   "brief": "现货黄金跌0.67%报3989.93美元/盎司，现货白银跌2.04%报52.85美元/盎司。",
-   "chain": "金价回落主因利率与美元走强而非避险→美股AI高久期票估值分母压力边际缓和→A股算力链情绪中性偏暖",
-   "impact": 7,
+   "cat": "oil",
+   "title": "胡塞武装称导弹打击沙特塔努拉角炼油厂",
+   "brief": "胡塞武装称27日向沙特东部塔努拉角炼油厂发射弹道导弹，导致该设施发生大规模火灾。",
+   "chain": "沙特炼油设施遇袭→原油供应风险溢价上升、Brent短期偏强→东非油气经营需警惕运费与保险成本抬升",
+   "impact": 8,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610273909936985.html",
-   "ts": "2026-10-27 16:54:58"
-  },
-  {
-   "cat": "macro",
-   "title": "房贷利率破7%成“新常态”",
-   "brief": "高通胀与投资者资金竞争推高长端利率，房贷利率站上7%被视为新常态。",
-   "chain": "长端利率高企→美股AI成长股贴现分母承压→A股算力链估值情绪受抑",
-   "impact": 6,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/make-it/2026/10/26/mortgage-rates-above-7percent-are-the-new-normalheres-why.html",
-   "ts": "2026-10-26T14:00:01+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "调查：日本央行本周料按兵不动但偏鹰",
-   "brief": "CNBC调查显示日本央行本周预计维持利率不变，但立场保持鹰派。",
-   "chain": "日央行偏鹰→日元与全球套息交易波动→美股流动性敏感板块→A股算力链外资情绪",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/27/boj-october-meeting-rate-cnbc-survey.html",
-   "ts": "Tue, 27 Oct 2026 00:17:44 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "中国工业利润三个月最强增长",
-   "brief": "中国工业利润录得三个月来最强增长，科技繁荣扩大经济分化。",
-   "chain": "中国工业利润改善→科技板块景气扩散→美股中概与半导体情绪→A股算力链基本面支撑",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/27/china-industrial-profits-september-ai-tech-exports-.html",
-   "ts": "Tue, 27 Oct 2026 03:34:08 GMT"
+   "url": "https://finance.eastmoney.com/a/202610273910386515.html",
+   "ts": "2026-10-27 20:44:16"
   },
   {
    "cat": "oil",
-   "title": "油价下跌 无视美或再打击伊朗威胁",
-   "brief": "尽管美国威胁对伊朗发动新打击，油价仍下跌，市场聚焦外交进展与供需。",
-   "chain": "地缘威胁未推高油价→Brent承压→莫桑比克油气项目收入预期偏中性，采购与对冲窗口改善",
+   "title": "外交希望对冲胡塞袭击，油价上涨",
+   "brief": "胡塞武装再度袭击与外交斡旋希望并存，油价在供应担忧与降温预期之间震荡上行。",
+   "chain": "袭击与外交拉锯→油价高位震荡→莫桑比克油气项目现金流预期改善但航运风险上升",
    "impact": 7,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Drop-Despite-Threat-of-New-US-Strikes-on-Iran.html",
-   "ts": "Tue, 27 Oct 2026 01:15:57 -0500"
-  },
-  {
-   "cat": "oil",
-   "title": "印度炼厂受123美元油价与弱卢比挤压",
-   "brief": "印度石油买家在123美元原油与疲弱卢比双重挤压下利润承压。",
-   "chain": "高油价+弱卢比压制亚洲炼厂需求→Brent需求侧走弱信号→东非LNG长期合同议价环境偏松",
-   "impact": 6,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Oil-Buyers-Squeezed-by-123-Crude-and-Weak-Rupee.html",
-   "ts": "Tue, 27 Oct 2026 02:30:00 -0500"
-  },
-  {
-   "cat": "oil",
-   "title": "阿联酋外海油污扩散 海滩关闭扩大",
-   "brief": "卫星图像显示阿联酋外海油污范围扩大，更多海滩被迫关闭。",
-   "chain": "海湾油污事件→原油航运与装运风险溢价→东非沿海油气作业环保警戒升级",
-   "impact": 4,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbHhFSkdqM0dlc3lWWVViWVlQMDNlNnRVQkxSUWttcWR5R19wV3dvclAyOGtmNVFZMEI2YVVheGVlLUlJNTB3bzZGeDlqRTEtMGZiRk5ZN0x1dWs4a2VNaElUUW1Yd0lxaFRpTjhtVDdael9uaEpHa2kxTllSWVRHSjVIMUVLQmJSNUlGZDF5S0JEOXJ0Rk5GR1lFN0thcWNqSW15RmVsMUFrOUpGeE9lMm1oNVZVNFdjaVQ2VFJielNUM29rMG1BZUd3?oc=5",
-   "ts": "2026-10-26T12:53:44+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOamRMeXF1dF9xaFlNcFlIalRnaGZBQUs2SUwtNThkNExtMzBQa2dYdExLbnJVckRGM3BpMWpjWkhGbEdQUGFHQ1FOWER6SUhadU04ams5RkNXR0tOVDdRTkExX2xnRWhCd3gxUl9icTE4Sk5nSHZFVU1vXzVidVRhOEdESWJCRGR2M3Z3NDVVY2JjZ1dQdjRGelQwTTVnakd6ckIzd2x4bEo5VnFnTjNRaHdNajdIZElQb2pnampYMDZnZW81OTR0NQ?oc=5",
+   "ts": "2026-10-27T00:37:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "Galp与Moeve因炼厂估值上升放弃合并",
+   "brief": "伊朗战争推升炼厂估值，Galp与Moeve放弃下游合并计划，反映炼油资产重估。",
+   "chain": "炼厂估值抬升→成品油裂解价差走强→东非成品油进口成本与炼化经营环境趋紧",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcUdmRHBJcVJmcko1NVpEVHRETC1hVFI2NFhYLXdvcFBuVFJxRFA3X0FmWWR2ZWFEelRWbHJfdDc5b3RhNFI4SzB1OXBLWkcwbnF0amRmTXJYVXFKa1Z1eFV5T3FZSzV6SWlxUUpMenZ1WG5hbzAybGFWb1luMU10NjVFbHBrM0d3UlEwVWVqanVfLThBTXRNbWxhZ0ZodjZRZHFsTXhkMUVaMVVaaS1xdzJQNXY?oc=5",
+   "ts": "2026-10-26T15:51:19+00:00"
   },
   {
    "cat": "gas",
-   "title": "IEA警告全球清洁能源供应链过度集中",
-   "brief": "IEA警告全球清洁能源供应链存在危险集中度，涉及关键环节供应安全。",
-   "chain": "供应链集中风险→LNG与清洁能源设备交付不确定性→莫桑比克LNG项目设备采购周期拉长",
-   "impact": 5,
+   "title": "塔努拉角火灾紧随阿美办公区与Shaybah遇袭",
+   "brief": "Ras Tanura 火灾发生在此前针对阿美办公区及 Shaybah 油田附近袭击之后，沙特能源设施安全风险上升。",
+   "chain": "沙特能源设施连环遇袭→LNG与伴生气供应风险溢价上升→东非天然气项目议价与安全成本抬升",
+   "impact": 7,
    "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Warns-of-Dangerous-Concentration-in-Global-Clean-Energy-Supply-Chains.html",
-   "ts": "Tue, 27 Oct 2026 03:30:00 -0500"
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Ras-Tanura-Fire-Follows-Attacks-on-Aramco-Offices-and-Near-Shaybah-Field.html",
+   "ts": "Tue, 27 Oct 2026 07:30:00 -0500"
   },
   {
    "cat": "tech",
-   "title": "英伟达拟30亿美元投资Meta 深化AI合作",
-   "brief": "英伟达将向Meta投资30亿美元，两大科技巨头深化AI合作伙伴关系。",
-   "chain": "英伟达加码Meta→美股AI硬件需求预期强化→A股算力链（光模块/服务器）情绪提振",
+   "title": "英伟达拟向Meta投资30亿美元深化AI合作",
+   "brief": "英伟达计划向Meta投资30亿美元，科技巨头进一步加深AI合作伙伴关系。",
+   "chain": "英伟达加码Meta→AI算力资本开支预期强化→美股AI硬件链受益→A股算力链（光模块/服务器）情绪提振",
    "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html",
@@ -144,73 +152,73 @@
   },
   {
    "cat": "tech",
-   "title": "微软向6万员工提供自愿买断 推AI效率",
-   "brief": "微软向6万名员工提供自愿离职买断方案，作为AI驱动效率提升的一部分。",
-   "chain": "微软AI提效裁员→美股软件利润率预期改善→A股企业软件与算力链情绪分化",
+   "title": "微软向6万员工提供自愿离职补偿",
+   "brief": "微软在AI推动效率提升背景下，向约6万名员工提供自愿买断方案，组织架构持续调整。",
+   "chain": "微软AI提效裁员→软件巨头利润率预期改善→美股科技板块分化→A股企业软件与算力链情绪中性",
    "impact": 6,
-   "source": "CNBC World",
+   "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
    "ts": "Tue, 27 Oct 2026 01:05:06 GMT"
   },
   {
    "cat": "tech",
-   "title": "汇丰营收不及预期 宣布10亿美元回购",
-   "brief": "汇丰控股营收低于预期，股价下挫，同时宣布最高10亿美元股份回购。",
-   "chain": "汇丰营收miss→全球银行盈利预期下修→美股金融板块情绪→A股银行链联动有限",
+   "title": "波音三季度亏损收窄，防务销售上升",
+   "brief": "波音第三季度亏损收窄，防务销售增长，但市场焦点仍在737 Max产能与交付。",
+   "chain": "波音亏损收窄→航空制造供应链预期修复→美股工业板块企稳→A股航空链情绪间接改善",
    "impact": 5,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/27/hsbc-third-quarter-profit-.html",
-   "ts": "Tue, 27 Oct 2026 08:28:01 GMT"
+   "url": "https://www.cnbc.com/2026/10/27/-boeing-ba-q3-2026-earnings.html",
+   "ts": "Tue, 27 Oct 2026 12:05:46 GMT"
   },
   {
    "cat": "tech",
-   "title": "苹果回应iPhone Duo折叠屏屏幕故障",
-   "brief": "用户报告新款折叠屏iPhone Duo屏幕损坏，苹果作出回应。",
-   "chain": "苹果折叠屏品控问题→消费电子供应链预期扰动→A股果链情绪承压",
+   "title": "苹果回应新款折叠屏iPhone Duo屏幕故障",
+   "brief": "针对用户反映的新款折叠屏iPhone Duo屏幕破损问题，苹果作出回应，硬件品控受关注。",
+   "chain": "折叠屏品控争议→消费电子供应链预期波动→美股苹果链承压→A股折叠屏与面板链情绪受扰",
    "impact": 5,
-   "source": "CNBC World",
+   "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/10/26/apple-responds-to-user-reports-of-broken-iphone-duo-screens.html",
-   "ts": "Mon, 26 Oct 2026 18:43:25 GMT"
+   "ts": "Tue, 27 Oct 2026 12:41:42 GMT"
   },
   {
    "cat": "ai",
-   "title": "Anthropic IPO或产生巨大“涓滴效应”",
-   "brief": "从华尔街到硅谷，Anthropic IPO被认为将产生广泛的涓滴效应。",
-   "chain": "Anthropic上市→AI一级市场估值锚定→美股AI板块情绪→A股算力链估值参照上移",
+   "title": "Anthropic IPO风险与治理结构引关注",
+   "brief": "Anthropic的IPO伴随特殊治理结构，创始人掌握较大权力，普通股东话语权有限，风险受审视。",
+   "chain": "Anthropic上市治理争议→AI独角兽估值定价与融资节奏受关注→美股AI板块情绪分化→A股算力链情绪间接传导",
    "impact": 7,
    "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html",
-   "ts": "Mon, 26 Oct 2026 22:50:07 GMT"
+   "url": "https://www.cnbc.com/2026/10/27/anthropic-five-surprising-risks-s1.html",
+   "ts": "Tue, 27 Oct 2026 11:00:01 GMT"
   },
   {
    "cat": "ai",
-   "title": "马斯克称200多家neocloud面临“孔雀鱼级死亡”",
-   "brief": "马斯克警告逾200家新型云厂商将面临残酷淘汰，AI算力供给过剩隐忧浮现。",
-   "chain": "neocloud淘汰预警→AI算力租赁价格与资本开支预期下修→美股AI基建股承压→A股算力链情绪降温",
-   "impact": 6,
+   "title": "马斯克称逾200家neocloud面临“孔雀鱼级死亡”",
+   "brief": "马斯克警告超过200家新型云服务商（neocloud）将面临生存危机，AI算力供给过剩担忧升温。",
+   "chain": "neocloud过剩预警→AI算力租赁价格与资本开支预期下修→美股AI基础设施承压→A股算力链情绪受抑",
+   "impact": 7,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html",
    "ts": "Mon, 26 Oct 2026 16:24:23 GMT"
   },
   {
    "cat": "ai",
-   "title": "AI交易裂痕 华尔街寻求对冲工具",
-   "brief": "AI交易出现裂痕，前Citadel量化师张宇翔的Hyperbolic打造“物理AI期货”对冲方案。",
-   "chain": "AI交易对冲需求上升→美股AI高久期票波动加大→A股算力链情绪谨慎",
-   "impact": 5,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/10/26/gpu-futures-ai-hedge-hyperbolic.html",
-   "ts": "2026-10-26T12:08:13+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "Fanatics联手OpenAI推AI购物推荐",
+   "title": "Fanatics联手OpenAI推出AI购物推荐",
    "brief": "Fanatics与OpenAI合作推出AI驱动的购物推荐功能，AI电商落地再进一步。",
-   "chain": "OpenAI电商落地→美股AI应用变现预期→A股AI应用与算力链情绪提振",
-   "impact": 4,
+   "chain": "OpenAI应用落地电商→AI商业化场景扩展→美股AI应用板块受益→A股AI应用与算力链情绪偏暖",
+   "impact": 5,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/10/26/fanatics-openai-codex-sports-merchandise-shopping.html",
    "ts": "Mon, 26 Oct 2026 15:05:13 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "AI制药走到哪一步？基金经理把脉",
+   "brief": "机构认为AI制药有望率先兑现业绩，AI产业定价逻辑从算力紧缺转向业绩兑现。",
+   "chain": "AI制药业绩兑现预期→AI应用估值重估→美股AI应用板块分化→A股AI医疗与算力链情绪受关注",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610273910328431.html",
+   "ts": "2026-10-27 20:11:21"
   }
  ]
 }
