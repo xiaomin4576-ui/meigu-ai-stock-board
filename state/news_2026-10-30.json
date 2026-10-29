@@ -1,0 +1,224 @@
+{
+ "asof": "2026-10-30",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-10-30T01:31+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 11,
+  "cluster_label": "",
+  "cluster_dropped": [],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "美联储宣布降息,古德拉克解读暂停信号",
+   "brief": "美联储宣布降息,双线资本创始人冈拉克在CNBC解读利率暂停前景及沃什减少投票会议安排。",
+   "chain": "美联储降息落地但路径趋谨慎→美股高久期AI成长股贴现率预期边际改善→A股算力链风险偏好修复",
+   "impact": 9,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/28/bond-investor-jeff-gundlach-talks-feds-rate-pause-with-cnbc.html",
+   "ts": "2026-10-28T19:05:30+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "特朗普再批美联储不愿降息",
+   "brief": "特朗普公开表示美联储不愿降息,延续对货币政策施压。",
+   "chain": "白宫施压美联储→市场对降息路径与联储独立性定价波动→美股利率敏感板块与A股算力链情绪扰动",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610303915075831.html",
+   "ts": "2026-10-30 01:23:45"
+  },
+  {
+   "cat": "macro",
+   "title": "美联储主席强硬表态通胀",
+   "brief": "美联储主席就通胀发表强硬言论,市场关注后续政策路径。",
+   "chain": "联储主席鹰派表态→美债利率与实际利率预期上行→压制美股AI高久期估值、传导A股算力链情绪",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/investingclub/2026/10/28/fed-chairman-talks-tough-on-inflation-plus-whats-behind-microns-big-rally.html",
+   "ts": "2026-10-28T19:17:35+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "美七年期国债中标收益率4.894%",
+   "brief": "美国财政部七年期国债中标收益率4.894%,投标倍数2.46,需求平稳。",
+   "chain": "长端利率定锚→美股AI成长股贴现分母与风险偏好→A股算力链估值情绪",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610303915072886.html",
+   "ts": "2026-10-30 01:03:56"
+  },
+  {
+   "cat": "macro",
+   "title": "美国抵押贷款利率连降两周至7.24%",
+   "brief": "美国抵押贷款利率连续第二周下降,报7.24%,反映利率端边际松动。",
+   "chain": "房贷利率回落→美国居民与地产链利率敏感度改善→对美股风险偏好温和正面、间接利好A股情绪",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610303915048042.html",
+   "ts": "2026-10-30 00:02:04"
+  },
+  {
+   "cat": "macro",
+   "title": "花旗下调欧元兑美元三月预测至1.105",
+   "brief": "花旗因欧洲尾部风险、美欧利差走阔及地缘推高能源价格担忧,下调欧元预测。",
+   "chain": "美欧利差走阔+地缘能源风险→美元偏强、欧元承压→美股跨国企业盈利与A股出口链汇率敏感",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610303915074789.html",
+   "ts": "2026-10-30 01:14:22"
+  },
+  {
+   "cat": "geo",
+   "title": "乌外长:泽连斯基愿与普京谈领土",
+   "brief": "乌克兰外长称泽连斯基愿与普京对话,磋商领土等最敏感核心议题,或推动元首会晤。",
+   "chain": "俄乌和谈预期升温→欧洲地缘风险溢价回落、美股风险偏好改善→A股算力链情绪偏正面",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610303915072698.html",
+   "ts": "2026-10-30 01:04:29"
+  },
+  {
+   "cat": "geo",
+   "title": "伊朗称收到美副总统信函未回应",
+   "brief": "伊朗方面确认收到美副总统万斯致信,尚未回应,美伊外交渠道仍存。",
+   "chain": "美伊外交接触→中东冲突降级预期→油价风险溢价与美股能源板块波动、间接影响A股情绪",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610303915055786.html",
+   "ts": "2026-10-30 00:18:58"
+  },
+  {
+   "cat": "geo",
+   "title": "韩国考虑向霍尔木兹部署军力",
+   "brief": "韩国称正考虑向霍尔木兹海峡部署包括飞机在内的选项,地区军事存在升级。",
+   "chain": "霍尔木兹军事化升温→中东航运与油价风险溢价→美股能源与航运股、A股相关链情绪",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOa0hrZWR2U1dyeG1NekMtUlJORFZ6M1dHUWNDbDFFWTU0bldwU3RwM0hEVGVDVExpeV9rLUtNOFMxdTVWX0pOa2d2Z2ZwZTBRM0pNSU5Md0RSWW82Zmkzb0JzemVjSUlQRTdDMExKZHpvbnRSaTItSVZ5VnBBcVVHSzg1eklqSnAtZF9DRm5UMFhibDJGMHQ4eGZXWGY0RllZMDdHZHhVb2h1WjJORzBEaGhBYk81ZGp1V3BxMWhETDNFQnptQllBS0cyMXY4ZkQz?oc=5",
+   "ts": "2026-10-29T06:45:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "胡塞称沙特空袭也门塔伊兹致12死",
+   "brief": "也门胡塞武装称沙特空袭塔伊兹省两栋民宅,造成至少12人死亡、3人重伤。",
+   "chain": "红海—也门冲突延续→中东地缘风险溢价与航运成本→美股能源航运板块、A股情绪扰动",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610303915048467.html",
+   "ts": "2026-10-30 00:05:07"
+  },
+  {
+   "cat": "geo",
+   "title": "以色列选委会要求查外国干预选举",
+   "brief": "以色列中央选举委员会主席要求辛贝特调查议会选举中涉嫌外国资金不当影响。",
+   "chain": "以色列政局不确定性→中东政策走向与美以关系变量→美股风险偏好与A股情绪间接影响",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610303915055588.html",
+   "ts": "2026-10-30 00:18:57"
+  },
+  {
+   "cat": "oil",
+   "title": "外交希望压过中东升级担忧,油价下跌",
+   "brief": "油价下跌,市场认为外交进展的希望盖过中东局势升级的担忧。",
+   "chain": "外交预期升温→Brent/WTI风险溢价回落→莫桑比克油气项目成本与售价环境边际改善",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdy1kTGwzTi1ZWVpiLUFTbF9HS0VGbXFnVWhMVzBfOUhieU95OGhLZnpZLTB3ckdrOEFMZms2UU1qYUMyY01yd3VOQmNhNGU4MmZvNE1uUzdqcXc0OWxLYlRRSk5NaU85cUdZYTd0a1d0QU93S0JfaTNMdlpVa3pMeVBUZnFtd0ZMVXhMWGhHejZOVjQtZlN2ekVsaTdWU2hCVE8xaTlpamEzXzQ?oc=5",
+   "ts": "2026-10-29T00:28:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "欧洲将释放4200万桶石油",
+   "brief": "欧洲计划释放4200万桶石油,以应对能源价格高企。",
+   "chain": "欧洲释储增加短期供给→油价承压→东非/莫桑比克油气售价与项目经济性偏空",
+   "impact": 7,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Europe-to-Release-42-Million-Barrels-of-Oil.html",
+   "ts": "Thu, 29 Oct 2026 12:30:00 -0500"
+  },
+  {
+   "cat": "oil",
+   "title": "从油价读海湾焦虑",
+   "brief": "路透通讯分析油价中反映的海湾地区焦虑情绪与市场定价。",
+   "chain": "海湾风险溢价嵌入油价→Brent波动加大→莫桑比克LNG/油气经营需对冲价格与航运风险",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTWc0WEJYUlFxU0NnSFFxNkk0X2JUanhWZl9qMlMyTnl4dnlaS1Zlbjd4VEdscXpQbVRwSWNMejdZakVHYVVsQWhRQmQwWWVObTNUVV83c3prVVFab25oVXpkTzd3SnJVYUdiZGFpSEljV3NxS2hwRDdzd3FzVzdFdWNiNUdHa3U1aDg1Qw?oc=5",
+   "ts": "2026-10-28T17:35:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "墨西哥首富抛售11.5亿美元石油股",
+   "brief": "墨西哥首富减持约11.5亿美元石油股,释放对油企估值谨慎信号。",
+   "chain": "大额减持石油股→油企估值情绪偏空→对莫桑比克油气资产融资与估值参照偏负面",
+   "impact": 4,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Mexicos-Richest-Man-Sells-115-Billion-in-Oil-Stocks.html",
+   "ts": "Thu, 29 Oct 2026 12:30:00 -0500"
+  },
+  {
+   "cat": "gas",
+   "title": "欧盟能源部长会聚焦天然气价格",
+   "brief": "欧盟能源部长会议29日举行,欧洲基准天然气期货突破每兆瓦时100欧元,供暖季成本承压。",
+   "chain": "欧洲气价破100欧元→TTF走高、全球LNG抢货→莫桑比克/东非LNG出口议价与需求窗口改善",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610303915072212.html",
+   "ts": "2026-10-30 01:03:34"
+  },
+  {
+   "cat": "gas",
+   "title": "卡塔尔能源购美LNG对冲霍尔木兹",
+   "brief": "卡塔尔能源买入美国等地LNG,以对冲未来霍尔木兹海峡中断风险。",
+   "chain": "海湾供应中断担忧→全球LNG贸易流重构、现货偏紧→东非/莫桑比克LNG战略地位与溢价上升",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT19OLUYzbVNkOXdLUFJnQWJpOHRJaDQ0Y3FyVWs5M1IyLTFIZmRsazhqakFvMlFPNnFTeEM1T0VTTnlHTjJyMjFsblVzMlduWlRNeFI0VjlZVXRwNUZGUTVFeWdTY0tLRzlaRWFKam9uU2lRREVFS0lTLXpQME9jR25LRjF5Z0lnZ2lqbV9ybjZfRlZldDRYXzB6UElVU08zVFduMzhCYjFTb25hWTBtNTA4dw?oc=5",
+   "ts": "2026-10-29T15:39:51+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "Alphabet财报后创纪录重挫拖累纳指",
+   "brief": "Alphabet业绩几乎全面不及预期,股价创财报后最大跌幅,拖累纳指期货。",
+   "chain": "科技巨头财报暴雷→美股AI资本开支叙事受挫→A股算力链与AI应用情绪承压",
+   "impact": 9,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/29/alphabet-nasdaq-futures-record-post-earnings-loss.html",
+   "ts": "Thu, 29 Oct 2026 11:41:06 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "Alphabet债务风险指标上升,AI举债担忧",
+   "brief": "Alphabet股价暴跌之际债务违约保护成本上升,市场再起对其举债支持AI支出的担忧。",
+   "chain": "AI资本开支靠举债→信用利差走阔、融资成本上升→美股AI链估值承压、传导A股算力链",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610303915071314.html",
+   "ts": "2026-10-30 00:51:09"
+  },
+  {
+   "cat": "tech",
+   "title": "ServiceNow暴跌25%,AI颠覆担忧重燃",
+   "brief": "ServiceNow财报后股价暴跌25%,市场担忧AI对企业软件商业模式的颠覆。",
+   "chain": "AI颠覆SaaS叙事→美股企业软件估值重估→A股软件与算力应用链情绪传导",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/29/servicenow-now-earnings-q3-2026.html",
+   "ts": "Thu, 29 Oct 2026 15:54:12 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "英伟达回应黄仁勋被中国资产盯上报道",
+   "brief": "英伟达称有关黄仁勋被中国资产针对、转移指控的报道已调查并被驳斥。",
+   "chain": "英伟达高管安全与出口合规扰动→美股AI芯片龙头风险溢价→A股算力链情绪敏感",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html",
+   "ts": "Thu, 29 Oct 2026 16:22:19 GMT"
+  }
+ ]
+}
