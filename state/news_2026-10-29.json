@@ -1,10 +1,10 @@
 {
  "asof": "2026-10-29",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-10-29T18:12+08:00",
+ "generated_at": "2026-10-29T21:55+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 2,
+  "cross_day_suppressed": 1,
   "cluster_label": "",
   "cluster_dropped": [],
   "backfilled": 0
@@ -12,189 +12,189 @@
  "items": [
   {
    "cat": "macro",
-   "title": "美联储按兵不动 沃什记者会释鹰派信号",
-   "brief": "美联储宣布维持利率不变，主席沃什在记者会上对通胀措辞强硬，并减少投票设定会议。",
-   "chain": "利率暂停+鹰派表态→美股高久期AI成长股贴现率压力不减→A股算力链估值情绪受抑",
+   "title": "美三季度GDP超预期增3.4% 通胀加速",
+   "brief": "美国三季度GDP年化增3.4%好于预期，但9月通胀加速，增长与物价压力并存。",
+   "chain": "增长强+通胀抬头→降息预期收敛、美债利率上行→压制美股AI高久期估值→A股算力链情绪承压",
    "impact": 9,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html",
-   "ts": "Wed, 28 Oct 2026 21:31:46 GMT"
+   "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
+   "ts": "Thu, 29 Oct 2026 13:50:36 GMT"
   },
   {
    "cat": "macro",
-   "title": "欧洲央行行长拉加德据悉将提前卸任",
-   "brief": "10月29日消息，欧洲央行行长拉加德将提前卸任，欧央行领导层面临提前更替。",
-   "chain": "欧央行人事不确定性→欧元与欧债波动、全球利率预期扰动→A股外资风险偏好边际承压",
+   "title": "新美联储通讯社：核心商品涨价需服务降温",
+   "brief": "Nick Timiraos指出9月核心PCE服务价格(除住房)环比涨0.37%、同比升至3.6%，若商品续涨则服务须更明显放缓。",
+   "chain": "通胀黏性信号→美联储降息路径更谨慎→美股成长股贴现率难降→A股算力链估值弹性受限",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610293914786485.html",
+   "ts": "2026-10-29 21:01:27"
+  },
+  {
+   "cat": "macro",
+   "title": "哈塞特：特朗普尊重美联储独立性 利率可更低",
+   "brief": "白宫国家经济委员会主任哈塞特称特朗普尊重美联储独立性，并认为利率可以更低。",
+   "chain": "白宫施压降息→市场计价更宽松路径→利多美股风险偏好→A股算力链情绪偏暖",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610293914397353.html",
-   "ts": "2026-10-29 18:01:58"
+   "url": "https://finance.eastmoney.com/a/202610293914897227.html",
+   "ts": "2026-10-29 21:52:13"
   },
   {
    "cat": "macro",
-   "title": "英国OBR预计2027年通胀均值3.4%",
-   "brief": "英国预算责任办公室预测2027年通胀平均3.4%，通胀黏性仍高于目标。",
-   "chain": "英国通胀黏性→全球降息节奏预期后移→美股估值分母与A股成长链情绪偏谨慎",
-   "impact": 5,
+   "title": "欧洲央行维持利率2.5%不变",
+   "brief": "欧洲央行连续按兵不动，存款机制利率维持2.50%，符合市场预期。",
+   "chain": "欧央行暂停→全球流动性边际稳定→对美股影响中性→A股算力链外部扰动有限",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html",
+   "ts": "Thu, 29 Oct 2026 13:41:39 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "英国OBR：2027年通胀均值预计3.4%",
+   "brief": "英国预算责任办公室预测2027年通胀平均3.4%，高于目标水平。",
+   "chain": "英国通胀黏性→英央行宽松受限→全球利率中枢偏高→压制高估值成长股",
+   "impact": 4,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVU1ZLWRfOWJKSjgzSzVnU0lRT1c0ZHZ4N1RNc2RKV3RHNEhiVFlRTEYtOXduN05ISVE1VDN6NXlMSUl4QXNtZ2dPRGNoLW5xeEhjeUZjdGQ3M2EwRHpmWnlPLWltVmN0d3Q3RWU1ekZRTFUwcTlLTjRvREtPUXZPS00tOXI1RGZEYkJ6VXItVnlNVzgzQWh3UUpR?oc=5",
    "ts": "2026-10-28T14:23:31+00:00"
   },
   {
-   "cat": "macro",
-   "title": "二十届五中全会公报发布",
-   "brief": "全会10月26日至29日在北京举行，习近平发表重要讲话，公报部署下一阶段政策方向。",
-   "chain": "五年规划政策定调→A股算力/科技产业政策预期升温→国产算力链主题催化",
+   "cat": "geo",
+   "title": "伊朗称最新调解方案“不可接受”",
+   "brief": "伊朗官员表示最新结束战争的调解提议中只有不可接受的方案，谈判前景受挫。",
+   "chain": "和谈受阻→中东风险溢价回升→美股风险偏好受压→A股算力链情绪扰动",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMTAtQ19McEJXRVg0bmN2S1JaMm9lX2VsbUpzSjZnZi1md09fZnBoREF1U2lKT25ybDRzR0lxcC13XzcxRU1UTFFFUXRzem9TVjdNMHA4cjVPel9Rdk02UHk4M1BDUXFZcGRyR0FqcnlhUDNtTFczdy1Nd0VNNktvM3V0bUEzNC1qdXNLQngwOE9HVGtydEFIa1hqdm5sWjRHVHNNaFVteUZSbnVwa2U0MWxvd2RleGJpaXIxeg?oc=5",
+   "ts": "2026-10-28T20:37:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "美防长解职高级军事规划官 特朗普淡化伊和谈",
+   "brief": "据报道赫格塞思解职美军高级规划官，特朗普同时淡化伊朗和平谈判前景。",
+   "chain": "美方军事人事变动+和谈降温→中东局势不确定性升→避险情绪扰动美股→A股情绪承压",
    "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610293914358276.html",
-   "ts": "2026-10-29 17:41:35"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/29/us-iran-war-trump-hormuz.html",
+   "ts": "Thu, 29 Oct 2026 12:06:03 GMT"
   },
   {
    "cat": "geo",
-   "title": "伊朗军方称霍尔木兹海峡暂不开放",
-   "brief": "10月29日伊朗军队发言人表示，在伊方条件满足前霍尔木兹海峡不会开放，并指责敌方意图。",
-   "chain": "海峡封锁延续→中东供应风险溢价支撑油价→美股能源板块偏强、A股算力链受风险偏好拖累",
-   "impact": 9,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610293914343772.html",
-   "ts": "2026-10-29 17:38:50"
-  },
-  {
-   "cat": "geo",
-   "title": "以色列大选内塔尼亚胡获续权路径",
-   "brief": "以色列选举结果给内塔尼亚胡留出继续掌权的路径，中东政局仍存变数。",
-   "chain": "以政局延续强硬路线→中东地缘风险不降→美股风险偏好与A股情绪受扰动",
+   "title": "以色列大选 内塔尼亚胡获续权路径",
+   "brief": "以色列选举结果给内塔尼亚胡留出继续掌权的路径，组阁前景仍待观察。",
+   "chain": "以政局延续→中东政策连续性增强→地缘风险溢价维持→影响美股风险偏好",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaUowdTlPaUFzb0tCdUQ3UzdYalJsS2ZEYWNvMUVtUzdKams0b051VWNIcXNPdG5wYlFzaWZIZVJfcVFTb192M3ozWk1kcW8wY1NNd1FSMzAzQ2FGTm9Mb0tfU21BenhMSXg5bFYxcXZqRlkzdHdESlZYVFlnLW82eUNZeER2SFU5ZXNzdExzLWxBYmtRTDRiMVFQQk1BYjB5dUdGQUEwb0pWYlA3VWluaA?oc=5",
-   "ts": "2026-10-28T17:55:59+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "土耳其警告俄乌勿再袭黑海船只",
-   "brief": "土耳其就俄乌对黑海船只的进一步袭击发出警告，黑海航运安全风险上升。",
-   "chain": "黑海航运风险→能源与粮食运输溢价→美股运输/能源波动、A股情绪偏防御",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTmI1bDFoNk1OMkN2bGpWazh3MmpIVHdTcnktNFFlT2FnQ1o2WXRhYkRqeVF3WGxTTHhNdFAwaFJ0d0dsaTdOaG0xazNmalBQLURoNW83VkptS2ZHUHR5MGQ3ODBHLUxKM3IwWXZBMERiOG1hVk1fRUlQdld5S0hneGZXS2hzckJsWEl4MXo1c1R1NnZ1WXhBZ2JyMFNfQTZvcnJIN295OWlJXzRSeWdVM3JLY0FWakNkTHBFSlJFYmhiVjlt?oc=5",
-   "ts": "2026-10-28T13:28:52+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "美防长据报解职最高军事规划官",
-   "brief": "赫格塞思据报解职美军最高军事规划官，特朗普淡化伊朗和谈进展。",
-   "chain": "美军高层人事动荡+和谈降温→中东不确定性上升→美股风险偏好承压、A股算力链情绪偏弱",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/29/us-iran-war-trump-hormuz.html",
-   "ts": "Thu, 29 Oct 2026 07:35:45 GMT"
+   "ts": "2026-10-28T17:25:00+00:00"
   },
   {
    "cat": "oil",
-   "title": "壳牌季度利润同比近翻倍",
-   "brief": "壳牌季度利润同比增长近一倍，炼油利润率飙升至历史高位。",
-   "chain": "炼油高景气→支撑油价与炼化盈利→东非油气经营参考炼化价差走强",
+   "title": "美伊重启和谈预期升温 油价回落",
+   "brief": "美伊和平努力重燃，缓解供应担忧，国际油价下跌。",
+   "chain": "和谈预期→Brent风险溢价回落→油价短期承压→东非油气项目现金流预期边际转弱",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/10/29/oil-price-today-wti-brent.html",
+   "ts": "Thu, 29 Oct 2026 13:52:10 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "布伦特原油跌2% 报109美元",
+   "brief": "布伦特原油期货跌幅扩大至2%报109.32美元/桶，WTI跌2.34%报100.38美元。",
+   "chain": "油价高位回落→炼化与航运成本压力缓和→莫桑比克油气售价预期下修、经营弹性收窄",
    "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202610293914846048.html",
+   "ts": "2026-10-29 21:21:12"
+  },
+  {
+   "cat": "oil",
+   "title": "壳牌季度利润近翻倍 炼油毛利创纪录",
+   "brief": "壳牌季度利润同比近翻倍，炼油利润率飙升至纪录高位。",
+   "chain": "炼油高景气→支撑原油需求与裂解价差→东非炼化与成品油贸易机会增多",
+   "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/10/29/shell-earnings-oil-q3.html",
    "ts": "Thu, 29 Oct 2026 09:36:41 GMT"
   },
   {
    "cat": "oil",
-   "title": "Phillips 66炼油强劲创季度纪录利润",
+   "title": "Phillips 66炼油强劲 季度利润创纪录",
    "brief": "Phillips 66凭借炼油业务强劲表现录得创纪录季度利润。",
-   "chain": "炼油利润创纪录→成品油价差走阔→莫桑比克油气下游价差环境偏有利",
-   "impact": 6,
+   "chain": "美国炼厂高利润→原油需求坚挺→对莫桑比克油气下游合作与定价形成支撑",
+   "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcFlWNWowWHgxSWhPRVdoRGpud1VHdVdJUGVSMkhVQ0F2RTJZb09lVHNPVjhwdWl6VGU4NVJjUjdNR2pERHV1ci1ickdBVzdIbmlBbVdLWHlRQW85TjMwQzVrcXFRYmc5TG52Skl1YzUtMHg0THVoWVp0bUxpSFZZc01PeTdJM3pmaDZXaWM1Wm1jNEx1RmFtOWdFdTRVRk1FVVQ5bGZteS1fdEkxclFaM1BoZGJDZVQxVmc?oc=5",
    "ts": "2026-10-28T19:35:02+00:00"
   },
   {
-   "cat": "oil",
-   "title": "油价下跌 和平希望抵消中东冲突担忧",
-   "brief": "受美伊重启和谈、和平希望升温影响，油价回落，部分抵消中东冲突升级担忧。",
-   "chain": "和谈预期→油价风险溢价回吐→东非油气售价短期承压、中期看海峡是否重开",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdy1kTGwzTi1ZWVpiLUFTbF9HS0VGbXFnVWhMVzBfOUhieU95OGhLZnpZLTB3ckdrOEFMZms2UU1qYUMyY01yd3VOQmNhNGU4MmZvNE1uUzdqcXc0OWxLYlRRSk5NaU85cUdZYTd0a1d0QU93S0JfaTNMdlpVa3pMeVBUZnFtd0ZMVXhMWGhHejZOVjQtZlN2ekVsaTdWU2hCVE8xaTlpamEzXzQ?oc=5",
-   "ts": "2026-10-29T00:28:00+00:00"
-  },
-  {
    "cat": "gas",
-   "title": "欧洲天然气价格触及每兆瓦时100欧元",
-   "brief": "欧洲气价自2022年能源危机以来首次触及100欧元，消费者与工业界承压。",
-   "chain": "欧洲气价飙升→LNG现货需求与价格走强→莫桑比克/东非LNG项目经济性改善",
-   "impact": 8,
+   "title": "欧洲天然气触及€100 创2022危机以来新高",
+   "brief": "欧洲气价突破每兆瓦时100欧元，为2022能源危机以来首次，消费者与工业承压。",
+   "chain": "欧气价飙升→全球LNG现货争夺加剧→东非/莫桑比克LNG长期合约议价力提升、项目经济性改善",
+   "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZmZZVVJDOHFvUk81TDltQmFoQmlUOTZqaGNLVEJ6UEtDMnY4VUlJd0dJVTlEZWpMX2Y3NHNOWF92QVpKUjBvdG5ybWZfYlFsNHpTOVRIUlFhWmgtcDRkNFVqdmd0ejhKTU5EWWRlRUd1bTMzM05tYjR3b0RMSHdQb2ZoVGtvQ2hDa0V2blR1bHdlRHdoZF9kbVByNlJPdVd6bTFwZW5lczBfU0p3RU1LZmpJOWtMcnhVWFkxbk9salA?oc=5",
    "ts": "2026-10-28T15:28:46+00:00"
   },
   {
-   "cat": "gas",
-   "title": "Equinor警告欧洲冬季气价或飙升",
-   "brief": "Equinor警告若遇寒冷天气，欧洲冬季天然气价格存在再度飙升风险。",
-   "chain": "冬季供应脆弱→TTF气价上行风险→东非LNG长期合同议价与出口前景受益",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcEt6cnhrTXVDSURqaGNVdGRlT1l4QzNJN3NHcDB0RHB5emRCTWhxYy1LZHVTdDhGbmxmNHBRNWFVR3RWd2lfTlF5bDBNd3lTSkRfTUJsSHZBQl83dldKWkNyemwwdzA4QkxOdGFEZ2VVdGNGOW5TbWZpMmY5M1JIaFg5YXNkRmRObF8wMWp3dDFEOHJhZjRSQTUwc0pGSU1vRFBsQ3lPMDVmTmZQM280S3huclJjdnBXdnpZTHNURGIzLUduMU1DM2tn?oc=5",
-   "ts": "2026-10-28T13:26:09+00:00"
-  },
-  {
-   "cat": "gas",
-   "title": "欧盟紧急应对冬季能源价格危机",
-   "brief": "欧盟加紧控制入冬前的能源价格危机，气价高企冲击居民与工业。",
-   "chain": "欧盟稳价措施→气价波动加剧→莫桑比克LNG对欧出口窗口与议价空间扩大",
-   "impact": 6,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/EU-Scrambles-to-Contain-Energy-Price-Crisis-Ahead-of-Winter.html",
-   "ts": "Thu, 29 Oct 2026 02:30:00 -0500"
-  },
-  {
    "cat": "tech",
-   "title": "Alphabet盘前跌10% 创财报后最大跌幅",
-   "brief": "Alphabet盘前下跌10%，或创财报后最大单日跌幅，2026年资本开支维持不变、2027年预计大增。",
-   "chain": "资本开支节奏与盈利失望→美股AI巨头估值承压→A股算力链情绪与订单预期受抑",
-   "impact": 8,
+   "title": "Alphabet财报后暴跌13% 史上最大单日跌幅",
+   "brief": "Alphabet盘初大跌13%，创上市以来最大单日跌幅，市值蒸发约5000亿美元。",
+   "chain": "搜索广告受AI冲击→美股科技权重承压→纳指走弱→A股算力链情绪受挫",
+   "impact": 9,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
-   "ts": "Thu, 29 Oct 2026 08:54:59 GMT"
+   "ts": "Thu, 29 Oct 2026 13:46:52 GMT"
   },
   {
    "cat": "tech",
-   "title": "微软云增长超预期 股价涨4%",
-   "brief": "微软云业务增长带动营收利润超预期，股价上涨4%。",
-   "chain": "云增长验证AI需求→美股软件/云板块偏强→A股算力与云产业链情绪提振",
+   "title": "甲骨文涨11% 长期营收指引缓解债务担忧",
+   "brief": "甲骨文因长期营收预测与融资安排明朗化，股价大涨11%，债务担忧缓解。",
+   "chain": "云基建订单能见度提升→利好美股软件/云板块→映射A股云计算与算力租赁链",
    "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
-   "ts": "Thu, 29 Oct 2026 06:03:35 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "三星电子创纪录利润 股价仍下滑",
-   "brief": "三星电子第三季度录得创纪录利润，但股价仍走低。",
-   "chain": "存储景气兑现但预期已满→美股半导体情绪分化→A股存储/半导体链跟随波动",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html",
-   "ts": "Thu, 29 Oct 2026 06:53:19 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "甲骨文股价涨11% 长期指引缓解债务担忧",
-   "brief": "甲骨文长期营收预测与融资安排明朗化，缓解债务担忧，股价大涨11%。",
-   "chain": "云基建融资担忧缓解→美股AI基础设施情绪修复→A股算力租赁/IDC链受益",
-   "impact": 6,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/10/28/oracle-forecast-growth-2030.html",
    "ts": "Wed, 28 Oct 2026 20:00:44 GMT"
   },
   {
+   "cat": "tech",
+   "title": "三星电子创纪录利润 股价仍下滑",
+   "brief": "三星电子三季度利润创纪录，但股价仍走低，市场对存储周期存疑。",
+   "chain": "存储高利润但股价承压→半导体周期分歧→映射A股存储与半导体设备链情绪",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html",
+   "ts": "Thu, 29 Oct 2026 06:53:19 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "苹果为Mac引入触控 逆转多年立场",
+   "brief": "苹果首次为Mac笔记本加入触屏，改变此前长期坚持的无触控立场。",
+   "chain": "硬件交互升级→拉动笔电换机与面板需求→映射A股消费电子与面板链",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/28/apple-mac-touchscreen-launch.html",
+   "ts": "Wed, 28 Oct 2026 22:04:19 GMT"
+  },
+  {
    "cat": "ai",
-   "title": "微软资本开支低于预期 新云股集体下挫",
-   "brief": "微软资本开支低于市场预期，CoreWeave等新云（neocloud）股票集体下跌。",
-   "chain": "AI资本开支预期下修→美股算力租赁估值承压→A股算力链订单与情绪受抑",
+   "title": "AI基建遇阻 谷歌微软推迟上调资本开支",
+   "brief": "谷歌与微软均未上调资本开支预测，AI基础设施建设节奏出现放缓迹象。",
+   "chain": "超大规模厂商capex预期下修→算力硬件订单能见度下降→直接压制A股算力链(光模块/服务器)",
+   "impact": 9,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html",
+   "ts": "Thu, 29 Oct 2026 12:10:29 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "微软资本开支不及预期 新云股集体下挫",
+   "brief": "微软资本开支低于预期，CoreWeave等neocloud概念股应声下跌。",
+   "chain": "AI算力租赁需求预期降温→美股AI基建股承压→映射A股IDC与算力租赁链",
    "impact": 7,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/10/28/neocloud-stocks-drop-after-microsoft-revises-capex-down.html",
@@ -202,23 +202,13 @@
   },
   {
    "cat": "ai",
-   "title": "启元机器人接入腾讯云WorkBuddy",
-   "brief": "10月29日启元机器人与腾讯云达成战略合作，联合打造云边端协同消费级个人机器人方案。",
-   "chain": "AI+机器人落地→美股AI应用叙事延伸→A股机器人/算力边缘链主题催化",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202610293914350238.html",
-   "ts": "2026-10-29 17:37:16"
-  },
-  {
-   "cat": "ai",
-   "title": "Anthropic公益结构或给IPO投资者带来风险",
-   "brief": "Anthropic的公益公司结构被认为给IPO投资者带来不寻常风险。",
-   "chain": "AI龙头治理结构风险→美股AI一级/二级估值定价受扰→A股AI主题情绪边际谨慎",
-   "impact": 4,
+   "title": "Alphabet财报逊色 AI开始侵蚀搜索",
+   "brief": "Alphabet财报几乎全面不及预期，被视为AI首次真正侵蚀其搜索业务的信号。",
+   "chain": "AI颠覆搜索商业模式→美股AI应用估值重估→A股AI应用与算力链情绪分化",
+   "impact": 7,
    "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/10/28/anthropic-pbc-what-its-structure-means-for-investors-.html",
-   "ts": "Wed, 28 Oct 2026 21:48:17 GMT"
+   "url": "https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html",
+   "ts": "Thu, 29 Oct 2026 12:09:47 GMT"
   }
  ]
 }
