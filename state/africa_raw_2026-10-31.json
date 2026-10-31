@@ -1,6 +1,6 @@
 {
  "asof": "2026-10-31",
- "fetched_at": "2026-10-31T15:32+08:00",
+ "fetched_at": "2026-10-31T17:50+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -8,27 +8,37 @@
    "Disrupt Africa": 10,
    "Techpoint Africa": 0,
    "IT News Africa": 0,
-   "TechAfrica News": 12,
+   "TechAfrica News": 0,
    "Condia": 25,
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 1,
-   "非洲科技·聚合": 5,
+   "非洲科技·聚合": 6,
    "中非科技·聚合": 16
   },
   "total": 60,
-  "ai_flagged": 14,
-  "aiinfra_flagged": 2,
-  "countries": 7
+  "ai_flagged": 13,
+  "aiinfra_flagged": 3,
+  "countries": 4
  },
  "items": [
   {
-   "title": "Yas Comores Supports Rural Financial Inclusion Through Dima Na Ulozi Project",
-   "brief": "Yas Comores  has reaffirmed its support for rural financial and digital inclusion in the Comoros through its sponsorship of the Dima Na Ulozi project, an ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/30/yas-comores-rural-financial-inclusion-dima-na-ulozi/",
-   "date": "Fri, 30 Oct 2026 15:22:32 +0000",
+   "title": "Information Regulator CIO scoops IT personality of the year award",
+   "brief": "Information Regulator CIO Tando Luyaba wins IT Personality, as two CIOs share top honours at the 2026 IITPSA President’s Awards.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/information-regulator-cio-scoops-it-personality-of-the-year-award/DZQ58vV8glEMzXy2",
+   "date": "Sat, 31 Oct 2026 10:30:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "OPay withdraws planned $304M US IPO after foreign inquiry",
+   "brief": "OPay Limited has withdrawn its planned New York Stock Exchange listing, citing an inquiry in a foreign jurisdiction it has not named. Reuters reported that the company had priced 16 million shares at $19 each, valuing it",
+   "source": "Condia",
+   "url": "https://thecondia.com/opay-withdraws-304m-us-ipo-unnamed-foreign-inquiry/",
+   "date": "Sat, 31 Oct 2026 07:45:30 +0000",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -50,36 +60,6 @@
    "url": "https://thecondia.com/firstbank-pointek-firstease-bnpl-phones-laptops/",
    "date": "Fri, 30 Oct 2026 14:00:16 +0000",
    "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "What the Arrival of Google Pay Means for Nigerian Consumers",
-   "brief": "For years, most card payments in Nigeria have required a physical card and a chip-and-PIN terminal. Contactless payments have remained a small part of the ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/30/what-the-arrival-of-google-pay-means-for-nigerian-consumers/",
-   "date": "Fri, 30 Oct 2026 13:58:54 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Kenya Rolls Out 30,000 Kilometres of Fibre Infrastructure Since 2022",
-   "brief": "Kenya has rolled out more than 30,000 kilometres of fibre-optic infrastructure since 2022, as the government steps up efforts to translate expanded connectivity into economic ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/30/kenya-rolls-out-30000-kilometres-fibre-infrastructure/",
-   "date": "Fri, 30 Oct 2026 13:48:36 +0000",
-   "country": "🇰🇪 肯尼亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Kenya ICT Authority Pushes Stronger National-County Collaboration on Digital Transformation",
-   "brief": "Kenya’s ICT Authority  participated in the Second ICT Sector Intergovernmental Consultative Forum in Naivasha, where national and county government officials discussed measures to accelerate digital ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/30/kenya-ict-authority-national-county-digital-transformation/",
-   "date": "Fri, 30 Oct 2026 13:45:35 +0000",
-   "country": "🇰🇪 肯尼亚",
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -114,31 +94,11 @@
    "is_aiinfra": false
   },
   {
-   "title": "ARABSAT and Es’hailSat Sign Strategic Satellite Partnership",
-   "brief": "The Arab Satellite Communications Organization (ARABSAT)  and Es’hailSat – Qatar Satellite Company- signed a strategic partnership agreement during the Arab Radio and Television Festival (ASBU Festival) ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/30/arabsat-eshailsat-strategic-satellite-partnership/",
-   "date": "Fri, 30 Oct 2026 11:33:17 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Binance hit by $6.3bn crypto-currency hack",
    "brief": "Binance suspends deposits and withdrawals after hackers targeted its wallets across 10 blockchains in a record-breaking crypto-currency heist.",
    "source": "ITWeb Africa",
    "url": "https://www.itweb.co.za/article/binance-hit-by-63bn-crypto-currency-hack/lwrKxq3Y8La7mg1o",
    "date": "Fri, 30 Oct 2026 13:23:00 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Cameroon Brings Together 100 Fintech Firms to Strengthen Digital Security",
-   "brief": "Cameroon is stepping up efforts to strengthen the security of its financial technology (fintech) sector, with around 100 companies gathering in Mbankomo, Centre Region, for ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/30/cameroon-100-fintech-firms-digital-security/",
-   "date": "Fri, 30 Oct 2026 11:13:41 +0000",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -154,16 +114,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Republic of Congo Telecom Networks Hit by Electricity and Diesel Shortages",
-   "brief": "The Regulatory Authority for Posts and Electronic Communications (ARPCE)  has reported widespread disruptions to electronic communications networks across the Republic of Congo, attributing the outages ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/30/republic-of-congo-telecom-networks-electricity-diesel-shortages/",
-   "date": "Fri, 30 Oct 2026 10:47:41 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "SAP beefs up Business AI Platform and Joule to drive agentic AI adoption",
    "brief": "SAP has made its Business AI Platform generally available and outlined an open strategy for third-party agents, alongside plans to run its tabular AI model on the International Space Station.",
    "source": "ITWeb Africa",
@@ -171,6 +121,16 @@
    "date": "Fri, 30 Oct 2026 12:43:07 +0200",
    "country": null,
    "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Best affordable cybersecurity courses for Africans in 2026",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWVEwSjRuWjlrSHp0TW5wbEEtR3pJUW5jRHAxX05MV3puRzZZUVNMc2cxMTNhVXIyUFNiMWkzMkZuNXVvLUphOTFucnBSU0MwNFQ1a0tIYXdBTDhPSGZxaXM0WG41a3dPUGRiZHlhREFseF8zRjM2MVRvRHUtcU",
+   "source": "Connecting Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWVEwSjRuWjlrSHp0TW5wbEEtR3pJUW5jRHAxX05MV3puRzZZUVNMc2cxMTNhVXIyUFNiMWkzMkZuNXVvLUphOTFucnBSU0MwNFQ1a0tIYXdBTDhPSGZxaXM0WG41a3dPUGRiZHlhREFseF8zRjM2MVRvRHUtcUhvV3BwTFdSeVNGMXV0a2MxX3dBejg1cGRCZUlYV1E5dDh2ZXhZOUtqMGk?oc=5",
+   "date": "Fri, 30 Oct 2026 09:59:18 GMT",
+   "country": null,
+   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -184,52 +144,12 @@
    "is_aiinfra": false
   },
   {
-   "title": "MTN Ghana Revenue Rises 33.5% to GHS23.2 Billion in Nine Months",
-   "brief": "Scancom PLC, which trades as MTN Ghana,  has reported a 33.5% year-on-year increase in service revenue to GHS23.2 billion for the nine months ended 30 ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/30/mtn-ghana-revenue-rises-33-5-percent-nine-months-2026/",
-   "date": "Fri, 30 Oct 2026 09:32:19 +0000",
-   "country": "🇬🇭 加纳",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "ITWeb TV: AI boom sends PC prices soaring across Africa",
    "brief": "Rising memory and component costs put pressure on PC shipments, with price-sensitive African markets particularly vulnerable, says IDC’s Isaac Ngatia.",
    "source": "ITWeb Africa",
    "url": "https://www.itweb.co.za/article/itweb-tv-ai-boom-sends-pc-prices-soaring-across-africa/mQwkoM6Y5lE73r9A",
    "date": "Fri, 30 Oct 2026 11:27:01 +0200",
    "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Airtel Uganda Adds 840 Sites in Two Years, Takes Network to the Skies With Starlink",
-   "brief": "Airtel Uganda  has expanded its telecommunications network by approximately 25% over the past two years, deploying 840 new sites and extending connectivity through satellite technology, ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/30/airtel-uganda-840-sites-starlink-network-expansion/",
-   "date": "Fri, 30 Oct 2026 09:21:34 +0000",
-   "country": "🇺🇬 乌干达",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Airtel Africa Hits Record Margins in H1 as Revenue Grows 28% and Customer Base Reaches 193.9 Million",
-   "brief": "Airtel Africa plc  has released its results for the half year ended 30 September 2026, reporting solid growth across its telecommunications and mobile money businesses. ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/30/airtel-africa-revenue-rises-28-percent-first-half-2026/",
-   "date": "Fri, 30 Oct 2026 09:05:46 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Zambia Partners With Huawei for AI Training Programme for Government Officials",
-   "brief": "SMART Zambia Institute , in partnership with Huawei Technologies  Zambia Limited, is set to launch a five-day Artificial Intelligence (AI) Empowerment Training Programme for government leaders ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/30/zambia-huawei-ai-training-government-officials/",
-   "date": "Fri, 30 Oct 2026 08:53:58 +0000",
-   "country": "🇿🇲 赞比亚",
    "is_ai": true,
    "is_aiinfra": false
   },
@@ -270,16 +190,6 @@
    "url": "https://thecondia.com/credpal-launches-atom-expands-into-investment/",
    "date": "Fri, 30 Oct 2026 08:02:39 +0000",
    "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Qashio Launches Global Pay to Reward Businesses for Cross-Border Payments",
-   "brief": "Qashio,  the global spend management solution, has launched Global Pay, a new international business payments product that lets companies earn rewards when paying suppliers overseas, ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/10/30/qashio-launches-global-pay-rewards-cross-border-payments/",
-   "date": "Fri, 30 Oct 2026 07:35:27 +0000",
-   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -424,13 +334,13 @@
    "is_aiinfra": false
   },
   {
-   "title": "Huawei presents upper 6 GHz active antenna unit at Decoding China",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxQRjNjMWF3T1M1NlJUUm56MS1Ua0ZCTnlRMWVXVEE4UDRQU2FWSnpycUJFdnAxZzMxREgyMVJac2xFd3g3Z2VvaE9aWDFqQVFMNGMzeVlMckVWNV96bF9QSGd4cXYwT1A1LUYzSGJfbmZxcm9ILUdjRWpZSlN2eV",
-   "source": "Telecompaper·聚合",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRjNjMWF3T1M1NlJUUm56MS1Ua0ZCTnlRMWVXVEE4UDRQU2FWSnpycUJFdnAxZzMxREgyMVJac2xFd3g3Z2VvaE9aWDFqQVFMNGMzeVlMckVWNV96bF9QSGd4cXYwT1A1LUYzSGJfbmZxcm9ILUdjRWpZSlN2eVV4Nm90cTNwcUhZZ0xvSUQya1dLRjN3cTQxa0JBS3VSNU5ORUZyeWRuc05iVFVM?oc=5",
-   "date": "Thu, 29 Oct 2026 13:23:32 GMT",
+   "title": "Bakare to Lead Airtel Africa Broadband in 14 Markets [2026]",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQa1BrWkhtSHlFRkZpUk5uZ2xHcEFrYk1aeWNRampZRTBiRVktZm5XTGs3cDFyQjVTaUwxcTM0RTd4Z3dRWEtxd1dlMy1ucExaWWlKZW9YY2ZsSlUzRi1LSE5FR3dCaEd1SHZlQ2VoOW5Xai1YVHRRd0Z3X2t6bX",
+   "source": "shattered.io·聚合",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQa1BrWkhtSHlFRkZpUk5uZ2xHcEFrYk1aeWNRampZRTBiRVktZm5XTGs3cDFyQjVTaUwxcTM0RTd4Z3dRWEtxd1dlMy1ucExaWWlKZW9YY2ZsSlUzRi1LSE5FR3dCaEd1SHZlQ2VoOW5Xai1YVHRRd0Z3X2t6bXBucUpNdl9JU0NSVXhjLQ?oc=5",
+   "date": "Thu, 29 Oct 2026 13:20:37 GMT",
    "country": null,
-   "is_ai": false,
+   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -504,11 +414,11 @@
    "is_aiinfra": false
   },
   {
-   "title": "Huawei begins defense in US criminal trial — South China Morning Post",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPYVZ1LWoyR1M5dXItNE9acVk2MXBqbS1RT3loNWt3UWpjU1NwcHhCblRJTWZlcHFydE13TEVPU0ZKZVV3N01vN0NldUIzLVM5QnY4VFA4Wi1uR04yZDBJNkdpSmM4czhZbXpnSkRuRU5sLXdwWFk0aWhjLUc2eG",
-   "source": "UA.NEWS·聚合",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYVZ1LWoyR1M5dXItNE9acVk2MXBqbS1RT3loNWt3UWpjU1NwcHhCblRJTWZlcHFydE13TEVPU0ZKZVV3N01vN0NldUIzLVM5QnY4VFA4Wi1uR04yZDBJNkdpSmM4czhZbXpnSkRuRU5sLXdwWFk0aWhjLUc2eGZ6VEFyQkh1UVhfUHRuLTFjd0dBbzdhWlIxNzBBbGhwU2V5MV94VVlpdlpJN2dUeHRMdW9R?oc=5",
-   "date": "Wed, 28 Oct 2026 20:40:26 GMT",
+   "title": "Who Still Governs Africa’s Internet Resources?",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE9XM3hrV3BXNnVsOHkyNjN5ckFRQzRDSnBWeXoxdVVzb2pyRThFcmQ1SlUxR1l6RUNfZmhteFppeGF4OTRaSk5NS0NlOEs5eWRHV3ltVW5uTGRYZlp4SzM0dk5NYWpwemRXY1VYRjNobE5la3hIVzFPeGdEUQ?oc=",
+   "source": "CircleID·聚合",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9XM3hrV3BXNnVsOHkyNjN5ckFRQzRDSnBWeXoxdVVzb2pyRThFcmQ1SlUxR1l6RUNfZmhteFppeGF4OTRaSk5NS0NlOEs5eWRHV3ltVW5uTGRYZlp4SzM0dk5NYWpwemRXY1VYRjNobE5la3hIVzFPeGdEUQ?oc=5",
+   "date": "Wed, 28 Oct 2026 23:10:14 GMT",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -554,6 +464,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "Shafaq News..Iraq signs Huawei deal to develop digital infrastructure",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNYUg2LTVsS0UxME92LVFlbWFoVzBGX2QtUDhrNkxHazZfU2hFelJONnlkQlIxUUs4NVlvZ1BOMmoxOFI2cEVRTzNWeDV1UzhHUVJOWXkyYzZpbHh3N2NOMnp5NDZRSFFYNUliVmFXV0ZtYlJpOXpIWmhOUXBjUX",
+   "source": "شفق نيوز·聚合",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYUg2LTVsS0UxME92LVFlbWFoVzBGX2QtUDhrNkxHazZfU2hFelJONnlkQlIxUUs4NVlvZ1BOMmoxOFI2cEVRTzNWeDV1UzhHUVJOWXkyYzZpbHh3N2NOMnp5NDZRSFFYNUliVmFXV0ZtYlJpOXpIWmhOUXBjUXlZUlhycUliZnQxNnpFNWRSMA?oc=5",
+   "date": "Wed, 28 Oct 2026 13:59:18 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "Sparxity Announces Multi-Million-Dollar Sparse-Native Computing Deployment at the Jülich Supercomputing Centre",
    "brief": "Sparxity (formerly SpiNNcloud), a leader in sparse-native computing, today announced the deployment of its sparse-native computing rack system at the Jülich Supercomputing Centre (JSC), one of Europe’s largest supercompu",
    "source": "ITWeb Africa",
@@ -580,16 +500,6 @@
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5LZ0FRd2RYNXY3aVh6Z3FXdVN1NzFGdVdLaEVPc1FxRG5tbVktNVE3dU9zSU1wS3JuWEQ0aW5jTS1sNUVYdWxKNUItR1JOTHJDNWszdTYxWDdsSWsybklpNzFFMk5ielBHVURyMGJlM1otNnk4THNEdmtObw?oc=5",
    "date": "Wed, 28 Oct 2026 10:27:00 GMT",
    "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "$20 billion US fintech Circle backs South African payments firm operating in 30 African markets",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSGdrS09ZN2UyN1Z2d2tYUUR6eEtXcWlfVHp0VkVZVUpUZ2hhRU1HVHIwVTdvaDE3bWl5Z0RtWnNweTRTS2xMUXdNd2xWNGRCOWVaT182aGNmNUtZNlp6ZS1tTldwRFZHYWJULVd6c2RHSkZoWl9tYWtKZEpSQU",
-   "source": "Business Insider Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSGdrS09ZN2UyN1Z2d2tYUUR6eEtXcWlfVHp0VkVZVUpUZ2hhRU1HVHIwVTdvaDE3bWl5Z0RtWnNweTRTS2xMUXdNd2xWNGRCOWVaT182aGNmNUtZNlp6ZS1tTldwRFZHYWJULVd6c2RHSkZoWl9tYWtKZEpSQU5TeFk3LTJIbWtLVmkweFl4eWlqbktzR0YyWDRJYV9KbHBUY1hXSnA4aktsMUF1OENYeE4zMk9rdHJiNFdPTkpMTzBLaXZqd3k2YXk2UGQ4bFlOQ1BtRlNSYmQ?oc=5",
-   "date": "Wed, 28 Oct 2026 09:10:32 GMT",
-   "country": "🇿🇦 南非",
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -622,6 +532,96 @@
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
+  },
+  {
+   "title": "NTT DATA Expands AI Factory Footprint Globally to Help Clients Scale AI from Pilots to Production",
+   "brief": "NTT DATA, a global leader in AI, digital business and technology services, today announced the global expansion of NTT DATA AI Factories, which provide hands-on environments where organizations can determine how priority",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/ntt-data-expands-ai-factory-footprint-globally-to-help-clients-scale-ai-from-pilots-to-production/o1Jr5MxP3kPMKdWL",
+   "date": "Tue, 27 Oct 2026 15:00:00 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Flourish Ventures backs Madica with $6 million",
+   "brief": "Madica has received $6 million from Flourish Ventures to extend its pilot by three years. The program will back 25 to 30 more African startups and track whether overlooked founders can deliver venture returns.",
+   "source": "Condia",
+   "url": "https://thecondia.com/madica-flourish-ventures-pre-seed-pilot-extension/",
+   "date": "Tue, 27 Oct 2026 11:40:20 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "South Africa’s CrissCross lands Circle Ventures investment to push stablecoin payments across Africa",
+   "brief": "Circle Ventures has made an undisclosed investment in CrissCross through its parent, Stitch Group. The South African firm will use it to scale stablecoin-powered cross-border payments across Africa.",
+   "source": "Condia",
+   "url": "https://thecondia.com/crisscross-circle-ventures-stablecoin-investment/",
+   "date": "Tue, 27 Oct 2026 11:08:59 +0000",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Former Nokia Technologies C-suite Executive Joins Sisvel to Lead Creation of New Ventures Unit",
+   "brief": "Stavros Kyris has joined Sisvel to lead the formation of Sisvel Ventures, which has a wide-ranging remit to explore opportunities outside of Sisvel’s core areas of business.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/former-nokia-technologies-c-suite-executive-joins-sisvel-to-lead-creation-of-new-ventures-unit/WnpNgq21VkAMVrGd",
+   "date": "Tue, 27 Oct 2026 10:04:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "BREAKING: Moniepoint to cut engineering, product roles in major restructuring",
+   "brief": "The changes come as the fintech expands beyond its established Nigerian operations and grows its presence in Kenya.",
+   "source": "Condia",
+   "url": "https://thecondia.com/moniepoint-to-cut-engineering-product-roles-in-major-restructuring/",
+   "date": "Mon, 26 Oct 2026 14:59:28 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Treasure Okure’s journey from UNILAG law student to marketing PiggyVest",
+   "brief": "Treasure Okure was a law student who needed a job. She became an assistant, a social media manager and now a content marketer at PiggyVest. She explains what each detour taught her.",
+   "source": "Condia",
+   "url": "https://thecondia.com/treasure-okure-journey-level-up/",
+   "date": "Mon, 26 Oct 2026 11:20:29 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Nigerian BNPL startup Klump shuts down after five years",
+   "brief": "Klump, the Nigerian BNPL startup that raised $1.2 million, has shut down after struggling with lending capital, slow integrations, and lender constraints.",
+   "source": "Condia",
+   "url": "https://thecondia.com/bnpl-startup-klump-shuts-down/",
+   "date": "Mon, 26 Oct 2026 09:16:18 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Tanzanian healthtech Medikea raises $1.2m pre-seed funding",
+   "brief": "Tanzanian healthtech startup Medikea has closed a $1.2 million pre-seed round. It is also opening two new clinics in Arusha and Morogoro, which brings its network to four.",
+   "source": "Condia",
+   "url": "https://thecondia.com/medikea-raises-1-2m-pre-seed-funding/",
+   "date": "Mon, 26 Oct 2026 07:30:00 +0000",
+   "country": "🇹🇿 坦桑尼亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "The data centre inquiry is really a test of King V",
+   "brief": "The instinct in most boardrooms is to read the Human Rights Commission's data centre inquiry as an operator problem.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/the-data-centre-inquiry-is-really-a-test-of-king-v/LPp6V7rBraj7DKQz",
+   "date": "Mon, 26 Oct 2026 08:59:20 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": true
   }
  ]
 }
