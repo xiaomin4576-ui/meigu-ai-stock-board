@@ -1,6 +1,6 @@
 {
  "asof": "2026-10-31",
- "fetched_at": "2026-10-31T02:52+08:00",
+ "fetched_at": "2026-10-31T13:30+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -12,13 +12,13 @@
    "Condia": 25,
    "ITWeb Africa": 25,
    "Club of Mozambique": 0,
-   "Zimbabwe Situation": 1,
+   "Zimbabwe Situation": 0,
    "African Business": 1,
-   "非洲科技·聚合": 7,
-   "中非科技·聚合": 15
+   "非洲科技·聚合": 6,
+   "中非科技·聚合": 16
   },
   "total": 60,
-  "ai_flagged": 15,
+  "ai_flagged": 16,
   "aiinfra_flagged": 2,
   "countries": 7
  },
@@ -99,16 +99,6 @@
    "source": "ITWeb Africa",
    "url": "https://www.itweb.co.za/article/ai-exacerbates-election-disinformation-say-experts/GxwQD71DL9WvlPVo",
    "date": "Fri, 30 Oct 2026 14:29:00 +0200",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "AI could have bigger economic impact than mobile money in Africa, tech leaders say",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdjlqLU5BVUdpeE1fbXh4ZlRHYTUwMnpxczV0eWlEVXlwZW9hTVlGdjF3U3V6Vk9TcldMSU5vX0xHY19RMktOS1I2R1J5RndoS2pLU095MVR2QVN5MWx4OU1Vemowb3BnMkl1bFQ3LWNuSHZ2Q20tUkJKUm5Rcm",
-   "source": "Capital FM Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdjlqLU5BVUdpeE1fbXh4ZlRHYTUwMnpxczV0eWlEVXlwZW9hTVlGdjF3U3V6Vk9TcldMSU5vX0xHY19RMktOS1I2R1J5RndoS2pLU095MVR2QVN5MWx4OU1Vemowb3BnMkl1bFQ3LWNuSHZ2Q20tUkJKUm5RcmpuX2NQbUZnd1BHUHlPNFNUOGs5b3IySUMwWVc1ZHJ6eklkd2dwTTN2d2lteWM?oc=5",
-   "date": "Fri, 30 Oct 2026 12:16:42 GMT",
    "country": null,
    "is_ai": true,
    "is_aiinfra": false
@@ -254,6 +244,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "African AI startups can’t hire the engineers they need, so they’re training their own",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aODBld1VuSEpXRlp3eXRxWG8xRGl5U2ZHOFhneXE2MlNpbHowYTBJZlROdEI2ZG9aUklYUEZIdG12cVFqaEZSZE9DcWM4OFN1TW1XeXk2U3ZwOWg2MF85RkpyUQ?oc=5\" target=\"_blank\">African AI st",
+   "source": "Techpoint Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aODBld1VuSEpXRlp3eXRxWG8xRGl5U2ZHOFhneXE2MlNpbHowYTBJZlROdEI2ZG9aUklYUEZIdG12cVFqaEZSZE9DcWM4OFN1TW1XeXk2U3ZwOWg2MF85RkpyUQ?oc=5",
+   "date": "Fri, 30 Oct 2026 08:16:19 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
    "title": "From salary splits to loans: How Grey plans to turn FX paychecks into credit",
    "brief": "Grey wants to turn foreign salary records into a path to credit for remote workers whose earnings traditional lenders struggle to assess.",
    "source": "TechCabal",
@@ -354,16 +354,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "‘Graduates must embrace digital, entrepreneurial skills’",
-   "brief": "Remember Deketeke Zimpapers Writer ACTING President Dr Kembo Mohadi has rallied graduates to complement their academic qualifications with digital literacy, critical thinking and entrepreneurial skills to remain competit",
-   "source": "Zimbabwe Situation",
-   "url": "https://www.zimbabwesituation.com/news/graduates-must-embrace-digital-entrepreneurial-skills/",
-   "date": "Fri, 30 Oct 2026 03:41:58 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "QCOM Gains Overnight After Patent Deal With China’s Huawei Covering AI Chip Tech",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYmJDdzBhMmk0U0ptQVEtRXdJYkFrZm5sM1l2czVnZE1aWkdCRG9mN2xSYzdtVWZUT09LemtwSXhWVkJxWUNlOUY0akNtaGFfeUUtUEJDalE2YUVKTXE5VWhUaXZLcnBHWDBvc3RfdHA2OHFydlllWFVoUHBTMF",
    "source": "Stocktwits·聚合",
@@ -444,11 +434,21 @@
    "is_aiinfra": false
   },
   {
+   "title": "Huawei presents upper 6 GHz active antenna unit at Decoding China",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxQRjNjMWF3T1M1NlJUUm56MS1Ua0ZCTnlRMWVXVEE4UDRQU2FWSnpycUJFdnAxZzMxREgyMVJac2xFd3g3Z2VvaE9aWDFqQVFMNGMzeVlMckVWNV96bF9QSGd4cXYwT1A1LUYzSGJfbmZxcm9ILUdjRWpZSlN2eV",
+   "source": "Telecompaper·聚合",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRjNjMWF3T1M1NlJUUm56MS1Ua0ZCTnlRMWVXVEE4UDRQU2FWSnpycUJFdnAxZzMxREgyMVJac2xFd3g3Z2VvaE9aWDFqQVFMNGMzeVlMckVWNV96bF9QSGd4cXYwT1A1LUYzSGJfbmZxcm9ILUdjRWpZSlN2eVV4Nm90cTNwcUhZZ0xvSUQya1dLRjN3cTQxa0JBS3VSNU5ORUZyeWRuc05iVFVM?oc=5",
+   "date": "Thu, 29 Oct 2026 13:23:32 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "Bakare to Lead Airtel Africa Broadband in 14 Markets [2026]",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQa1BrWkhtSHlFRkZpUk5uZ2xHcEFrYk1aeWNRampZRTBiRVktZm5XTGs3cDFyQjVTaUwxcTM0RTd4Z3dRWEtxd1dlMy1ucExaWWlKZW9YY2ZsSlUzRi1LSE5FR3dCaEd1SHZlQ2VoOW5Xai1YVHRRd0Z3X2t6bX",
    "source": "shattered.io·聚合",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQa1BrWkhtSHlFRkZpUk5uZ2xHcEFrYk1aeWNRampZRTBiRVktZm5XTGs3cDFyQjVTaUwxcTM0RTd4Z3dRWEtxd1dlMy1ucExaWWlKZW9YY2ZsSlUzRi1LSE5FR3dCaEd1SHZlQ2VoOW5Xai1YVHRRd0Z3X2t6bXBucUpNdl9JU0NSVXhjLQ?oc=5",
-   "date": "Thu, 29 Oct 2026 12:30:48 GMT",
+   "date": "Thu, 29 Oct 2026 13:20:37 GMT",
    "country": null,
    "is_ai": true,
    "is_aiinfra": false
@@ -524,11 +524,11 @@
    "is_aiinfra": false
   },
   {
-   "title": "Who Still Governs Africa’s Internet Resources?",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE9XM3hrV3BXNnVsOHkyNjN5ckFRQzRDSnBWeXoxdVVzb2pyRThFcmQ1SlUxR1l6RUNfZmhteFppeGF4OTRaSk5NS0NlOEs5eWRHV3ltVW5uTGRYZlp4SzM0dk5NYWpwemRXY1VYRjNobE5la3hIVzFPeGdEUQ?oc=",
-   "source": "CircleID·聚合",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9XM3hrV3BXNnVsOHkyNjN5ckFRQzRDSnBWeXoxdVVzb2pyRThFcmQ1SlUxR1l6RUNfZmhteFppeGF4OTRaSk5NS0NlOEs5eWRHV3ltVW5uTGRYZlp4SzM0dk5NYWpwemRXY1VYRjNobE5la3hIVzFPeGdEUQ?oc=5",
-   "date": "Wed, 28 Oct 2026 23:10:14 GMT",
+   "title": "Huawei begins defense in US criminal trial — South China Morning Post",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPYVZ1LWoyR1M5dXItNE9acVk2MXBqbS1RT3loNWt3UWpjU1NwcHhCblRJTWZlcHFydE13TEVPU0ZKZVV3N01vN0NldUIzLVM5QnY4VFA4Wi1uR04yZDBJNkdpSmM4czhZbXpnSkRuRU5sLXdwWFk0aWhjLUc2eG",
+   "source": "UA.NEWS·聚合",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYVZ1LWoyR1M5dXItNE9acVk2MXBqbS1RT3loNWt3UWpjU1NwcHhCblRJTWZlcHFydE13TEVPU0ZKZVV3N01vN0NldUIzLVM5QnY4VFA4Wi1uR04yZDBJNkdpSmM4czhZbXpnSkRuRU5sLXdwWFk0aWhjLUc2eGZ6VEFyQkh1UVhfUHRuLTFjd0dBbzdhWlIxNzBBbGhwU2V5MV94VVlpdlpJN2dUeHRMdW9R?oc=5",
+   "date": "Wed, 28 Oct 2026 20:40:26 GMT",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -559,16 +559,6 @@
    "source": "CNBC Africa·聚合",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUnVpU3ZlMTJKMlJ2eU0tcG45eDVKSlhVMjhyc0NIUUMzS1BzbHFmeE5HdVRlTVRPVlEwZ1lTMmJ5QVNiT2JYbW1OWkdCSHJmQ19GRFhjcUVRWTFsNUxqUkVZM29nUTJfMm5yUnE3SGRmVGEtaGJBM1lsTTN5LXFsS2s2Zm1LTUw1dllIU0ZBbDFSRTd5ZmpfS3lKVVg?oc=5",
    "date": "Wed, 28 Oct 2026 15:07:53 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Shafaq News..Iraq signs Huawei deal to develop digital infrastructure",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNNzZDYl8zaEJQb3kyOVhNcmdkODJoUnktRXcyazFPLTZBblFSUk1IQWJaNFAtWlR2Skh2VmJjaVR2c0pJOHppa29HN2VIejBLclFIdFhYM1lqbkE2ZDNuRHdCek5jcUxZZWs3R0RqdmVJMGZScm5US3Vkc2J0cU",
-   "source": "شفق نيوز·聚合",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNzZDYl8zaEJQb3kyOVhNcmdkODJoUnktRXcyazFPLTZBblFSUk1IQWJaNFAtWlR2Skh2VmJjaVR2c0pJOHppa29HN2VIejBLclFIdFhYM1lqbkE2ZDNuRHdCek5jcUxZZWs3R0RqdmVJMGZScm5US3Vkc2J0cUUzOTRlUG1USmc2dzR1OE9NVUVla19w?oc=5",
-   "date": "Wed, 28 Oct 2026 13:59:19 GMT",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -621,6 +611,16 @@
    "date": "Wed, 28 Oct 2026 08:55:48 +0200",
    "country": null,
    "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Honeywell launches new AI industrial system at Dangote refinery",
+   "brief": "Honeywell estimates that the system could bring more than $60 million in yearly benefits when the refinery runs at full capacity.",
+   "source": "Condia",
+   "url": "https://thecondia.com/dangote-refinery-launches-honeywell-ai-platform/",
+   "date": "Tue, 27 Oct 2026 16:29:17 +0000",
+   "country": null,
+   "is_ai": true,
    "is_aiinfra": false
   }
  ]
