@@ -1,6 +1,6 @@
 {
  "asof": "2026-11-01",
- "fetched_at": "2026-11-01T00:08+08:00",
+ "fetched_at": "2026-11-01T01:57+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -14,15 +14,35 @@
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 1,
-   "非洲科技·聚合": 4,
-   "中非科技·聚合": 18
+   "非洲科技·聚合": 5,
+   "中非科技·聚合": 16
   },
   "total": 60,
   "ai_flagged": 14,
   "aiinfra_flagged": 2,
-  "countries": 6
+  "countries": 7
  },
  "items": [
+  {
+   "title": "Verve plans phone tap-to-pay and AI agent payments, CEO says",
+   "brief": "Verve plans to let customers pay by tapping their phones and, eventually, to let AI assistants make payments on their behalf.",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/31/verve-ai-payment/",
+   "date": "Sat, 31 Oct 2026 17:13:49 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Intra-African payment rails are key to cutting cross-border friction, says Grey",
+   "brief": "Grey is building direct payment connections and currency pairs in African markets so cross-border transfers no longer use the dollar.",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/10/31/grey-ditch-the-dollar/",
+   "date": "Sat, 31 Oct 2026 17:12:57 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
   {
    "title": "Nigeria’s AI ambitions depend on building for local realities",
    "brief": "Nigeria’s AI progress will be judged by the local problems it solves, panellists said at “The State of AI in Nigeria\", a session at Moonshot by TechCabal.",
@@ -366,7 +386,7 @@
   {
    "title": "Africa needs cheaper AI to reap economic gains, says Enzi’s Udezue",
    "brief": "Udezue said reducing the cost of inference, the process through which AI models generate responses and perform tasks, was essential to making the technology affordable for businesses and individuals across the continent.",
-   "source": "TechCabal",
+   "source": "Moonshot·TechCabal",
    "url": "https://techcabal.com/2026/10/30/enzi-oji-udezue-cheaper-ai-africa/",
    "date": "Fri, 30 Oct 2026 06:54:48 +0000",
    "country": null,
@@ -384,16 +404,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "👨🏿‍🚀TechCabal Daily – Acecore wins $10,000 at Moonshot",
-   "brief": "In todays edition: Acecore wins $10,000 at Moonshot || Moonshot day 2 recap from Muktar’s POV || Herotel ordered to open up its fibre network || Banque du Caire shares are in high demand",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/10/30/techcabal-daily-acecore-wins-10000-at-moonshot/",
-   "date": "Fri, 30 Oct 2026 06:27:07 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Volkswagen: China is becoming a technology hub for global markets – with implications for Africa",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxOckdPeGhRTndjak5HSTU2Y2xYcDFTLU9vRlJvNFVUOUl4VmZzTFRSbjZNX3pnOGZPUHp0ekwyaDZTVXJhY0NYbHNFNHFKOHZUUFhQdHNrbHJNd0ZPWFlCNVNLLUlVZkNpYTRkRlRuVXhaNXloS1pZZXBjY3dPc0",
    "source": "Table.Briefings·聚合",
@@ -401,26 +411,6 @@
    "date": "Fri, 30 Oct 2026 04:12:22 GMT",
    "country": null,
    "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Inside Nigeria’s $7.5M Gates-backed AI scaling hub",
-   "brief": "At Moonshot by TechCabal 2026, the Nigeria AI Scaling Hub (NAISH) showcased five organisations developing artificial intelligence solutions for healthcare, agriculture, and local languages, underscoring how shared digita",
-   "source": "Moonshot·TechCabal",
-   "url": "https://techcabal.com/2026/10/29/nigeria-7-5m-gates-backed-ai-scaling-hub/",
-   "date": "Thu, 29 Oct 2026 22:51:34 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Cirquu opens AI business platform with subscriptions from $7 a month",
-   "brief": "Cirquu has opened its AI-powered business management platform to public sign-ups, offering African companies tools for sales.",
-   "source": "Moonshot·TechCabal",
-   "url": "https://techcabal.com/2026/10/29/cirquu-opens-ai-business-platform/",
-   "date": "Thu, 29 Oct 2026 19:47:26 +0000",
-   "country": null,
-   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -464,6 +454,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "Bakare to Lead Airtel Africa Broadband in 14 Markets [2026]",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQa1BrWkhtSHlFRkZpUk5uZ2xHcEFrYk1aeWNRampZRTBiRVktZm5XTGs3cDFyQjVTaUwxcTM0RTd4Z3dRWEtxd1dlMy1ucExaWWlKZW9YY2ZsSlUzRi1LSE5FR3dCaEd1SHZlQ2VoOW5Xai1YVHRRd0Z3X2t6bX",
+   "source": "shattered.io·聚合",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQa1BrWkhtSHlFRkZpUk5uZ2xHcEFrYk1aeWNRampZRTBiRVktZm5XTGs3cDFyQjVTaUwxcTM0RTd4Z3dRWEtxd1dlMy1ucExaWWlKZW9YY2ZsSlUzRi1LSE5FR3dCaEd1SHZlQ2VoOW5Xai1YVHRRd0Z3X2t6bXBucUpNdl9JU0NSVXhjLQ?oc=5",
+   "date": "Thu, 29 Oct 2026 13:20:37 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
    "title": "Intro to Africa's Startup Ecosystem",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOSHc1S0gzWE1WR2NjZVMzV0wyeXZLWkNTM1BhajI1RUswamdqbjBtZDF1SU83ZW5rYmRTdFdYZVltZkpjM1VqblgxNjNyNlBmRE4ySWdBMXNkbURnc2M4bkRvVGpUTm5NQldKMnRfc2w0UjNxQ3NLbWpXQVBtR2",
    "source": "The Recursive·聚合",
@@ -502,16 +502,6 @@
    "country": "🇲🇱 马里",
    "is_ai": false,
    "is_aiinfra": true
-  },
-  {
-   "title": "Volkswagen Extends China-Developed Technology to Southeast Asia, South America and Africa as Deliver",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxPeUNqNnZVek5pQURGdlZBNkU5U05mMkUyWG4wUkNmZVRJaXM3WU96UktwLU5NN0RCS0N3NmFaMUxkVXhjWVVGWE0yQVp1NkxWY3M1eUpuQ2Y2NVFuOFhqZFpLU3p4RTYtczVTdDg1QXdQUVgwVGtPZnZaMnNFRk",
-   "source": "ad-hoc-news.de·聚合",
-   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPeUNqNnZVek5pQURGdlZBNkU5U05mMkUyWG4wUkNmZVRJaXM3WU96UktwLU5NN0RCS0N3NmFaMUxkVXhjWVVGWE0yQVp1NkxWY3M1eUpuQ2Y2NVFuOFhqZFpLU3p4RTYtczVTdDg1QXdQUVgwVGtPZnZaMnNFRkVVclNqQllhS01vV3BiNHJ3Y1pIVVp3SmtxNlhMV3hLUVpOYUJiSDczck1mVmtSbDR5UVVtc0VZekpxeTlrdGRwWE44NEpwWHN3YjZsekZ4VFJHZ3p1TVV1VGxYV0RrcHZJQUdxV2pzUGp0WnZ6TVVFOTJtQndCM3c?oc=5",
-   "date": "Thu, 29 Oct 2026 06:40:29 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
   },
   {
    "title": "EIG and Acwa Announce Plenum Power, a Strategic Partnership to Invest in U.S. Power Infrastructure",
@@ -584,16 +574,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Why is Africa's tech startup funding slowing down?",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQUnVpU3ZlMTJKMlJ2eU0tcG45eDVKSlhVMjhyc0NIUUMzS1BzbHFmeE5HdVRlTVRPVlEwZ1lTMmJ5QVNiT2JYbW1OWkdCSHJmQ19GRFhjcUVRWTFsNUxqUkVZM29nUTJfMm5yUnE3SGRmVGEtaGJBM1lsTTN5LX",
-   "source": "CNBC Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUnVpU3ZlMTJKMlJ2eU0tcG45eDVKSlhVMjhyc0NIUUMzS1BzbHFmeE5HdVRlTVRPVlEwZ1lTMmJ5QVNiT2JYbW1OWkdCSHJmQ19GRFhjcUVRWTFsNUxqUkVZM29nUTJfMm5yUnE3SGRmVGEtaGJBM1lsTTN5LXFsS2s2Zm1LTUw1dllIU0ZBbDFSRTd5ZmpfS3lKVVg?oc=5",
-   "date": "Wed, 28 Oct 2026 15:07:53 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Sparxity Announces Multi-Million-Dollar Sparse-Native Computing Deployment at the Jülich Supercomputing Centre",
    "brief": "Sparxity (formerly SpiNNcloud), a leader in sparse-native computing, today announced the deployment of its sparse-native computing rack system at the Jülich Supercomputing Centre (JSC), one of Europe’s largest supercompu",
    "source": "ITWeb Africa",
@@ -619,6 +599,26 @@
    "source": "Automotive News·聚合",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5LZ0FRd2RYNXY3aVh6Z3FXdVN1NzFGdVdLaEVPc1FxRG5tbVktNVE3dU9zSU1wS3JuWEQ0aW5jTS1sNUVYdWxKNUItR1JOTHJDNWszdTYxWDdsSWsybklpNzFFMk5ielBHVURyMGJlM1otNnk4THNEdmtObw?oc=5",
    "date": "Wed, 28 Oct 2026 10:27:00 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "$20 billion US fintech Circle backs South African payments firm operating in 30 African markets",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSGdrS09ZN2UyN1Z2d2tYUUR6eEtXcWlfVHp0VkVZVUpUZ2hhRU1HVHIwVTdvaDE3bWl5Z0RtWnNweTRTS2xMUXdNd2xWNGRCOWVaT182aGNmNUtZNlp6ZS1tTldwRFZHYWJULVd6c2RHSkZoWl9tYWtKZEpSQU",
+   "source": "Business Insider Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSGdrS09ZN2UyN1Z2d2tYUUR6eEtXcWlfVHp0VkVZVUpUZ2hhRU1HVHIwVTdvaDE3bWl5Z0RtWnNweTRTS2xMUXdNd2xWNGRCOWVaT182aGNmNUtZNlp6ZS1tTldwRFZHYWJULVd6c2RHSkZoWl9tYWtKZEpSQU5TeFk3LTJIbWtLVmkweFl4eWlqbktzR0YyWDRJYV9KbHBUY1hXSnA4aktsMUF1OENYeE4zMk9rdHJiNFdPTkpMTzBLaXZqd3k2YXk2UGQ4bFlOQ1BtRlNSYmQ?oc=5",
+   "date": "Wed, 28 Oct 2026 09:10:32 GMT",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "CTEM crucial for mitigating fast-changing modern risk",
+   "brief": "Instead of relying on once-off or annual snapshots, organisations need to move towards continuous threat exposure management.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/ctem-crucial-for-mitigating-fast-changing-modern-risk/j5alrMQAdPoMpYQk",
+   "date": "Wed, 28 Oct 2026 08:55:48 +0200",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
