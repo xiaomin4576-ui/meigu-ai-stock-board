@@ -1,15 +1,717 @@
 {
  "asof": "2026-11-03",
- "fetched_at": "2026-11-03T00:36+08:00",
+ "fetched_at": "2026-11-03T04:48+08:00",
  "meta": {
   "counts": {
-   "finnhub": 0,
+   "finnhub": 40,
    "em": 40,
    "rss": 100
   },
-  "total": 115
+  "total": 152
  },
  "candidates": [
+  {
+   "title": "Trump focuses on Reflecting Pool in final public speech before midterms",
+   "summary": "Trump seemed to acknowledge that Democrats had an advantage heading into Election Day. \"But we gave this a very strong shot,\" he said.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/02/trump-midterm-election-speech-reflecting-pool.html",
+   "ts": "2026-11-02T20:29:00+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "2 of our banks are at the heart of this week's biggest tech deals",
+   "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/investingclub/2026/11/02/2-of-our-banks-are-at-the-heart-of-this-weeks-biggest-tech-deals.html",
+   "ts": "2026-11-02T19:15:55+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Prediction market traders now see nearly 75% chance of Democrats winning the Senate",
+   "summary": "Just a day before the midterms, Kalshi traders give Democrats a 74% of controlling the Senate.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/02/prediction-market-traders-now-see-nearly-75percent-chance-of-democrats-winning-the-senate.html",
+   "ts": "2026-11-02T19:15:26+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Texas governor race tightens in prediction markets, but Abbott remains favored",
+   "summary": "Prediction markets still show the Republican incumbent favored to win a fourth term, but the odds have narrowed in recent weeks.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/02/texas-governor-prediction-markets-abbott-hinojosa.html",
+   "ts": "2026-11-02T18:54:04+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Apple reports after the bell. Options traders expect a big move",
+   "summary": "Apple reports after the bell. Options traders expect a big move.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/02/apple-reports-after-the-bell-options-traders-expect-a-big-move.html",
+   "ts": "2026-11-02T18:19:03+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Options traders are getting anxious on Palantir and Apple ahead of earnings",
+   "summary": "Apple, Palantir puts were in demand ahead of earnings.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/02/options-traders-are-getting-anxious-on-palantir-and-apple-ahead-of-earnings.html",
+   "ts": "2026-11-02T18:16:02+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "FTSE 100 notches fourth straight day of gains as oil slides on US-Iran deal hopes - Reuters",
+   "summary": "FTSE 100 notches fourth straight day of gains as oil slides on US-Iran deal hopes  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPalhUUG9VTkRaNkpZM1BUTlpIYVM0WmJMU3UxZHpaSm5KRUhDdmNNTUVNbEJncFYyS1RqUVZmd2RaMUh3eUVINWt6Wm9WeGgzZmFoR2U1TzlnZ3dkUFVkdjJIclFHaEc2X2NWYnlLRnZGREs3RDg0WWdZbEJWc3d1RERMZHZESnhDb05HQXVlMjRCbnNxNVM4TFpvdzVPQ1hDMVlXVGpNMmx0Q0gzbXVFZGl3UERXYjllcmx5MUEyeGVHUQ?oc=5",
+   "ts": "2026-11-02T17:46:02+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Sectors bracing for a pivot as US midterm elections loom - Reuters",
+   "summary": "Sectors bracing for a pivot as US midterm elections loom  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNVM3bDhEOHNLQ3VJRDRGcEtyeXBhNUdsblBVUGQ3bDBWLXUxQXZMXzF6SmxxdWczMUpJcFRSR21RU2hRaHFTLUxGQ0xkcmFkWFVoQm1WaVVQeGROMXFCaTJTQ0xCRHhkMU9pc3k1MUVQTkFvMER3SEszZG5kNGswQkdRQVo2Z1ZONGxZb1FSWDNhWmlzTHA2R2VVQVdvNnpHSlE?oc=5",
+   "ts": "2026-11-02T17:17:11+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "TotalEnergies says Iran war could accelerate energy transition - Reuters",
+   "summary": "TotalEnergies says Iran war could accelerate energy transition  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcDNiSHhwUjBpRnJnUW4yZFM5NUp6QWlXOUJldXZ6ODRpZXdRbENpTFp3d2RJWG9tVVRTWXVzTDZQRjBLcXJOaU5EeWRBUTY2ZGJZQzJlaFVKaFJMckcwdkV2QTNSWFoyYkM4WFBlUEhwWThiS25XM2VObEJDalQyMmNLcmVPZXRBZmZNNVU3MWltVjRNNlZNcU1rcGFKLTNNWC05WDdhVGItRVpkTngxMw?oc=5",
+   "ts": "2026-11-02T17:16:12+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "CrowdStrike lands an upgrade, and Jim Cramer's advice on Apple ahead of earnings",
+   "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/investingclub/2026/11/02/crowdstrike-lands-an-upgrade-and-jim-cramers-advice-on-apple-ahead-of-earnings.html",
+   "ts": "2026-11-02T17:04:34+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Judge tosses DOJ case against ex-FBI officials accused of lying about Hunter Biden probe: Reports",
+   "summary": "Judge Zia Faruqui suggested the prosecution of ex-officials Nikki Floris and Bradley Benavides was rushed to come out ahead of the midterm election.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/02/fbi-hunter-biden-doj-case-dismissed.html",
+   "ts": "2026-11-02T16:42:12+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "We're trimming a rallying industrial stock, looking for its next catalyst post-spinoff",
+   "summary": "We're offsetting our Boeing purchase from earlier Monday.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/investingclub/2026/11/02/were-trimming-a-rallying-industrial-stock-looking-for-its-next-catalyst-post-spinoff.html",
+   "ts": "2026-11-02T16:19:36+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Yemen's Houthis say they launched drones towards Saudi Arabia's Dammam airport - Reuters",
+   "summary": "Yemen's Houthis say they launched drones towards Saudi Arabia's Dammam airport  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORzNEMlp2dXhWWEdwUkhIUUNNenRfR21MM3hCZjRBSnc5cTFpVVBqclhIMVMtMGI2aDMzTklBSU9paVZ3Q1FSMHU3T0J6RmxpR2VlUmx1YVZIZzZkSmFycXVUSWNwOTMycnhyMDd0MjNSY2VrVHRxUWcxYndmN2MwWVhlR1YyZ0VqM1VtR0dGT2FuSmtWYlVhSnU3Q3ZrWEpXd3lJX2tFWGllRGoyYnJSQkREWklvRzNiWDZiUXhFZEZzWXNRdUVzT2hR?oc=5",
+   "ts": "2026-11-02T16:16:54+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Freed from OPEC quotas, UAE says oil exports have risen as it hosts industry event - Reuters",
+   "summary": "Freed from OPEC quotas, UAE says oil exports have risen as it hosts industry event  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcnd0cjROV01YdUV5VG9tVnV6NVpybjJpa1E1TnFOV3g2V2xhMmpmcGJQdXctakdyMVVmZk9hbTZvYnZ6aDJ2RDhoSU12Z2NoYlBRekRWNmlrSWdlblpJa0tKelN5VjFVVUhDWV85enFsam91QXFRWVdUUzNEYmZSTDhaWVBRUFE2MTBVRFY5XzhvR2NDZXVXeXZROVoxdkJQcm91cnZqQUJEWmJLNkJ6R0UwLWJvYU5MQ21sNXZpeEN3S3c?oc=5",
+   "ts": "2026-11-02T16:05:19+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "China's Wang urges Middle East dialogue in meetings with Iranian, Saudi officials - Reuters",
+   "summary": "China's Wang urges Middle East dialogue in meetings with Iranian, Saudi officials  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNVJGdUotaWhuOVFjZ2VTVHZ5bkxnbmVXd3BUS0JEenI2QkpMYXJSVUxpUGJrNHpaMkFtZ244cE93RWhCWExKTmJFdm5FbFZEck14aVdnaW0tdU5DdHY0UUk3TkpqbW5vb1RzMW85Z1VkZHFBSnlRMkRVUTlxRDgyR2Z1N3BBSkRsdzI2Mm9WQmxjaFpiOUpqR3k5WjRZUVVZaUtGWGVscXhlS01PZjBUTWRMNHpIU28?oc=5",
+   "ts": "2026-11-02T15:42:50+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Stock market after midterm elections: What S&P 500 history shows",
+   "summary": "Midterms historically precede a strong year for the S&P 500. What to know if Democrats win back Congress",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
+   "ts": "2026-11-02T15:41:12+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Wall Street's Fear Index is doing something strange. Here's what it means for stocks",
+   "summary": "VIX deemed \"unreactive\" by options traders",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/02/wall-streets-fear-index-is-doing-something-strange-heres-what-it-means-for-stocks.html",
+   "ts": "2026-11-02T15:30:41+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Yemen's Houthis advance to within 80 km of Aden, sources say - Reuters",
+   "summary": "Yemen's Houthis advance to within 80 km of Aden, sources say  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYlRCZUUyWF9VckZ3NWJGbUV2Z3luSldoNGZIVk1zTkN4MEZ1ajdSZm4zYmNLYjhVbU5TQU9yYTU2YVVrSFY3QzNPU21wT2EwVlFlRG9mMGxkeG84RHptSzlsOUw3Zmd6SHRqZGdzM1UxQnpWZlZ4MFJSYTFTZ296c2U1T1NGZFBqd3hnazg3clVMUFJ4SWNzYUtjOVoxY2FHMHpzY3RKZkNudw?oc=5",
+   "ts": "2026-11-02T15:18:51+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Iran says contacts over ending war continue after talks finish with no breakthrough - Reuters",
+   "summary": "Iran says contacts over ending war continue after talks finish with no breakthrough  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLXhRTFk2aHFYY3VOMWFGdmFySFR5MTNxeWRRU1ZQM3RaWjg4ZFZlOTJHNDZjYmdCVjBOX0RweVAyWEI4T2dZMVFSbUt4bTc4NGlibnlTaDh2TUNydEdOQjZJSmt3RnRIbk1LNVJ4SlNkR0M3QWs3NnZwQ0JlMW5Ud0FaN29PaGcwdk1CbTZ1UUhjYkg5XzZwVmdwWGNnRnladzZVUEhBeTZScEZIMl9YZ0hUT01GcDdkMXFwcXF0Q3hkTEluSnpnb3F5RFA?oc=5",
+   "ts": "2026-11-02T15:15:24+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "COMMENTARY: Asia's crude oil imports back to pre-war levels but refined fuels lag - Reuters",
+   "summary": "COMMENTARY: Asia's crude oil imports back to pre-war levels but refined fuels lag  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUjRWdTdnRzAwR2xkSU04ZHlmbHh0eXg5Wm8xS1k5Q2hLYWRWbWdOVzd4ckZHcjZkYktZVHEyV29yQ25XNE9Ga0Y3TG5Dc3Awd054Y2o3MU5rLTNZNmRRTkZXVjdyZWJNYnM4bVczRU1RRmlqOW5JOVZCVWpJSXFDazBHWm5hUXhGb2FGS2xUN3Q5cFFQelVqazAxYXNDamdDZ0pINE5mQUE3VGhFdDcxZkZ4cUdSOFVQTWRsdXl6LXdMTUpIWnFLQ0VB?oc=5",
+   "ts": "2026-11-02T14:50:28+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "TotalEnergies CEO sees no gas shortage in Europe this winter - Reuters",
+   "summary": "TotalEnergies CEO sees no gas shortage in Europe this winter  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd2M2U1Z4ejdLX3c0WjZSMXFIbF9IbVpnX3c2cFVlMzdfa0lENEwtRzJJMHdzUVhmbnljMHhMVEZZUDZtelNSREpMZldfc092S1dFMUdzVzJjNTFxX09YaV9OalplOXZ4US13RGs5a29sUU5qMHlTclUwdGxQbFNYVlBZaUx2cGpocjdXOUwwMnlpWWMweDFPdGZ6MHVlS0J4TUItU21fUQ?oc=5",
+   "ts": "2026-11-02T14:15:43+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Oracle files to sell $20 billion in new stock, bonds to finance AI buildout",
+   "summary": "Oracle filed plans on Monday to issue stock new shares and more debt to finance its artificial intelligence buildout.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+   "ts": "2026-11-02T14:03:44+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "SNAPSHOT US stock index futures jump as oil falls about 6% - Reuters",
+   "summary": "SNAPSHOT US stock index futures jump as oil falls about 6%  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbnVDQzd0LTF3Vi1BMnJDLWpGaHNIMlJVTDNnVmplMzZnVjRxRTZUUTRsQkVvZ21EN3lXMzA4ZDJnOTQwc01ld2tqT1pGZVN6VmpuVWpzLVVMUU1qcDdnRFdEQUZoM0l6Ym9NYnhfWDctWkZnSC1fLUk0RGxtUmd3WU9zLXdhcTdGTkJvcUxaazZKZEliVjl3bVBfZldDajJMOXZtVkx0NVI4YWlwMkVFbXpMR0ZGQW9wOWxEcTM3QThSdk1fb2c?oc=5",
+   "ts": "2026-11-02T14:00:28+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
+   "summary": "Marvell makes its blockbuster deal for Lumentum official.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/investingclub/2026/11/02/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+   "ts": "2026-11-02T13:56:54+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "We're buying the dip in a stock after an expectations reset",
+   "summary": "We waited for the dust to settle after its earnings sell-off.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/investingclub/2026/11/02/were-buying-the-dip-in-a-stock-after-an-expectations-reset.html",
+   "ts": "2026-11-02T13:56:01+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Trump's Iran threat renews Gulf fears of a war it didn't choose - Reuters",
+   "summary": "Trump's Iran threat renews Gulf fears of a war it didn't choose  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVTJwa2lIdnVGZzJIX3NYSDNzLU9mUTU5MjVBeGFmbmNOR1NiQ1I0a0J6OGdnd2VhbHd5ZWZMakp3NzlwcFJ6OVZDcmc4T0FSQ2lORnltSk5md0psZ19nd3ZtRmE2Vlg3bHdBY3JQV3hMbko5NlFJY2dRVVRsTkJ3ajZVOFQ3clU1eHFBQnFUZUg1SV9takV2bVllN2ZVNHRuanMzLWh5REkzaU9vYWw4?oc=5",
+   "ts": "2026-11-02T12:42:02+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "US voters in a sour economic mood heading into midterm elections - Reuters",
+   "summary": "US voters in a sour economic mood heading into midterm elections  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUGRVbTNjVkVkWHA5anlUV0l1YUhUUjM2Zy1DOGg0T2l2V0Zqajl2TzVpUW5Wc2s1ZkF6eTRNSmNNMWZCUEZqM0ZjUHNKQ0NkZkNGdlY3U2xHcWhBTUdzcXBnd2p2Z0VjUWFiQ3JRYkdvbTR2NUdnZUlnZHU4ZjY0OTIxa0NSbGhXWE1Yc1A5VmZHQVQ3aEJzcHhHNFVqVTNFa3RKazBydW9TbnBEUlo0aEM4THZmQQ?oc=5",
+   "ts": "2026-11-02T11:40:08+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Saudi civil defence sounds all-clear after alerts in southern cities - Reuters",
+   "summary": "Saudi civil defence sounds all-clear after alerts in southern cities  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTmhEQmdqTzRHX3pXZXZRZC1WYXhvUHVtcTJEcS1UMUZWYnZUcTZtdS1fekpDdTNrWXJzSWp5LTBRUHpaTVdTOVlHeFZraWNiT1RnRmgtcTkxZ0pvaUR2VkRZV2d1ZVZTdjJMQklhcGlhbWR0aC1HV3I3bDdsRkN2dVpiZ1N5V3N1Z1pBSVExdlh1VldUSmNYWUV6SGhlV3UtMHZJMWtDRGR1ZkNWRWcyVTh6TlpCYmpxazc4?oc=5",
+   "ts": "2026-11-02T07:22:00+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Israeli strikes kill four people in Gaza, medics say - Reuters",
+   "summary": "Israeli strikes kill four people in Gaza, medics say  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNY19KZDAxQzZjOUlldUhfSTJfRlBVUXVhVXprMkw3UXBfX2ZTWDBCa1ExcVpCSXU5NHhiUDloQk9XX2JRXzBtTzM0XzlsTHI1Z3FMODJISDRoSTYyTmFyNTBHaHFvUGxzRlljU0NPRHprVjZiNFBRSWtXeGhueFlGX1NGRG9fTjBwS3hlZVdlNDM1ejlEWmt3TDRhSTBPbTFDSlZQMHJR?oc=5",
+   "ts": "2026-11-02T07:18:00+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Abu Dhabi's ADNOC, G42 sign deal with OpenAI as Sam Altman travels to UAE - Reuters",
+   "summary": "Abu Dhabi's ADNOC, G42 sign deal with OpenAI as Sam Altman travels to UAE  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTWMxZGNac0g1UDJOemxSbHJnU1g4cllCaWZxdzJEWVBIU2R6aG83R2RlMk9HV19ZTmYxSUMzRjBJU19pbXN6QWV6bHJCQXlJYlFRVEdEVFVQRFl3cTREcWlGUU5aOHc1VDRWQTIxZk0wWHo2a1F0MVZhTWp6VXRPUHQ4TjlONXE2LTc1UEVBY1VYYW56V3IyeFJnNWQwUnppaTNYc1ROTTgzZXN3WTg5SXJscm5BOHZD?oc=5",
+   "ts": "2026-11-02T06:40:00+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "World's energy supply buffers have been eroded, ADNOC CEO says - Reuters",
+   "summary": "World's energy supply buffers have been eroded, ADNOC CEO says  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVFJFQUd0MGpUMUdubkFVLWwzTHgwWmc1dlhDMzBWWjVYVnJGbTFiTndMWk9IclpjVWljUWlGTy1xUUN3VVRCLWRNeFluRGxQc3dFek52dVhvMU4zTGwtRDJtZWdDRnJRRFd4eUZiWDQtUnpkeFFOc1FRb1pJQ3BQNmptTDdKa0FWek5zSjdQcC1IcUZMTk1xNzdFQS1mQTd2WW11MmlGMTBIMmhyYURMVjltNmVWNi1Bc0JTLXhnTGg5TXk3YzYtb3Y2VQ?oc=5",
+   "ts": "2026-11-02T06:38:00+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Afghanistan asks US to act responsibly on deporting Afghan immigrants back home - Reuters",
+   "summary": "Afghanistan asks US to act responsibly on deporting Afghan immigrants back home  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOR3NBd1hhMXk1Ti1CaVBEbWNkc1JBS1BicFgxcE0tX0JsWEpxbW5vVkJYTVF2NnJOdkdHRkh3OFhpTnRhbXhzV09QVzMtd0NkSG1yanNOa21rQUIxSXZOVkM2dUdXX0J0WEVxN1NzVnVobDBQZUdFX0ZSeFhsSFhrSDRUYWhwWkhaeTZpaEkycnlnZDkwV0VaYXRINF9UTjFKWXFYUEQyZEtJQy00eWJxQ3BfaGw0Y2xwejZodmF0UXJ6U29ubFQ4?oc=5",
+   "ts": "2026-11-02T06:38:00+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Anthropic plans to sell $3.5 billion of shares to Japan investors in IPO, filing shows - Reuters",
+   "summary": "Anthropic plans to sell $3.5 billion of shares to Japan investors in IPO, filing shows  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOazUtcTBWVFNLd21jTk9YOFRDRHoyc2ZuV1haZ21JaUdIei1leFkxVVF5V0JpLXJGdV9raXhrV0k0bU1xM0g5TnR6cTA5dWNFZ3VVVUo1UHVyU3pUUWw0YjFreXNTZ3Q4TXdoazBwT1dxRU52bTkxMXlEbG95LVY1eUlLMGZHUk9hQUd4aVZxWkxMUzBMVmhELWNpaUhSaGR3V19UYy00R3UzMUVkWU80ZHl0aW9URGdlQ19RX2dmZHFreHNS?oc=5",
+   "ts": "2026-11-02T06:25:00+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Gold rises over 2% from one-year low on softer oil prices; US midterms in focus - Reuters",
+   "summary": "Gold rises over 2% from one-year low on softer oil prices; US midterms in focus  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOXFkdElkaE5fVGZ6eUVZUFZnZjNuaUFoM2pPZ1ZJeEY4bmN0Wm9zSTRwLWpHcjNjLWRLRklsOV95a21mWjZWckhUam5qTVZVUzVDdWEwQXVOVWlpaHpCMktPLU41TGNkZjI3MFM1azNvSEtUai1pUGFpNi1mZFhISlB3TXFUSWtseGlhYmRISUpuWXdlVU5mLTJPRQ?oc=5",
+   "ts": "2026-11-02T05:04:00+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "China's Xi says Middle East should not become battleground for great power rivalry - Reuters",
+   "summary": "China's Xi says Middle East should not become battleground for great power rivalry  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaldCWTJJZTNHNW8xTDdVZkxtWkdkazhTeWRnVWxsbFNKRU13RlhzdndMQ21JVC1KMzBXalQzZllxT2J3SkVGdmQtVXBVRGJ6Y2tEbFRiT29IWEVjZ0ZrUnlIcnVfTk9WTllKdWdnWkJFRXJwYjNsWmV6dm1rTXlZQnV4OHRaZ1V2WEpWNklNWGQ2WDd5a1hQT3QxQjllX2VO?oc=5",
+   "ts": "2026-11-02T04:32:00+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "New Zealand early voting surges ahead of November 7 election - Reuters",
+   "summary": "New Zealand early voting surges ahead of November 7 election  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQblpzVENyekNxMW1iVlpQQ0tXTDZsUHVLRkE1c2tGR21TRGxXMXUyUFV0MjVaeXJCTmRqM0c3V2ljM1FjdjN4S3N1eXpYVllnWTdrUHFVQUw0ZGdfbWlmX2hMejhjVENSaTNhRmJsXzExUDRQT2pZUVFicnJ1eWNQSWp6VGJmNzVjRFYtdnllTU1NaDh6RWRVc2liT2JLb3UyOHBMVEo4NDQySHZHVUZvbDNn?oc=5",
+   "ts": "2026-11-02T03:31:00+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Rupee ends little changed as traders stay cautious despite oil, dollar drop - Reuters",
+   "summary": "Rupee ends little changed as traders stay cautious despite oil, dollar drop  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeC1WaUFNMi1wWEN5WFRyenJJLUxoa0lkUGdFM1dOU3VkVUYyak9ZdWRVV3N0b1NPX0xFTjZ0NVRlNWpadXdGMVltUmxMcm1zcVdQdjQwMV9ialVNaGliVmhXOS1zTm5kNUp0VXlqTUpaVVRqUUhuX2xaRVpQWlFXbFlMS2EwNTJqYUZ3elRFLXUzcmtpaXhFMHlFTjBVaHJSMFVULUhrQVJlYWpaUnljMTVwSjA?oc=5",
+   "ts": "2026-11-02T02:57:00+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Reliance earnings, lower oil prices power India's Sensex to near two-month high - Reuters",
+   "summary": "Reliance earnings, lower oil prices power India's Sensex to near two-month high  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRV9nWF8tcV9tRkNYTENXRnRyTDhkcnRoZEJmMFJ1Wm1USDJwbDNxcEFuU0xNbE9JSnRJb2xScTBmWWVpZWJ5SmlhXzdBajNuSDhnOWdULWQ4UUZ2T3RRdjhpNWxZb08tcEQxR01tdks4dkhLTUN1WjJiZVFSa1JCbHBRdGVsZVZqNzFoQ2ZDdF9zbE9MeUlvRHhzZGRRM05SeGxlaFB1MFZjWVB3TVZjbTBfUlprRTZ2eTA3bFBFQVpLdw?oc=5",
+   "ts": "2026-11-02T02:42:00+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "US pushes to restore Russian gas sales to Europe via Ukraine, WSJ reports - Reuters",
+   "summary": "US pushes to restore Russian gas sales to Europe via Ukraine, WSJ reports  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMkQyS0lzcURKNWt5Rk9fQlRvMGx5ejJiMTBRSnFsdTA1SWl6cncxdHNHR28wWDdCelVyWVctTkx3TjB6T3pCaHBDdm5veGVtZnJQWnRGNXVIQlRpamRENktDTU5SQ0JtZGFyWGFNYloyTTg5LTM5eTVKaklmZWlqRTNBM1FHRGdPYW9HS05QWlg3aEU5cXFjbVNvbm1BeVZBSk94RWFQbW9Cc2RGTVlGejBsT1RNZ0hZdlE?oc=5",
+   "ts": "2026-11-02T02:19:00+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "Dollar declines ahead of US midterms as oil falls; bitcoin steadies after crypto theft - Reuters",
+   "summary": "Dollar declines ahead of US midterms as oil falls; bitcoin steadies after crypto theft  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPb2NfWVhRd1dsZXVELVl6emxWenVBSzdWTFVpcjlPaUtVNmgwbklnaHctbWF2VjdTTTJxQ3c4NzZZSGpSTG1QaThQQUZHY1RmeENqcTZNend0eDBla0dFNThjejRfM2dTdm1JYW9vd0duUnZFVUNWQUhETi1RVmZxNWxBZ2gzZEdBWTdGNnVqMmxVeUlKVUZPX0ttc3pnLUUxOGpoa1hpdVZNWWZrVkx6c3FoTkluMDRB?oc=5",
+   "ts": "2026-11-02T00:57:00+00:00",
+   "origin": "finnhub",
+   "age_days": 1
+  },
+  {
+   "title": "国际油价2日大幅下跌",
+   "summary": "【国际油价2日大幅下跌】截至当天收盘，纽约商品交易所12月交货的轻质原油期货价格下跌7.66美元，收于每桶96.46美元，跌幅为7.36%；1月交货的伦敦布伦特原油期货价格下跌8.66美元，收于每桶104.77美元，跌幅为7.63%。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919189197.html",
+   "ts": "2026-11-03 04:37:40",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "美国副总统万斯表示 对伊朗协议的前景感觉很好",
+   "summary": "美国副总统万斯表示，对伊朗协议的前景感觉很好。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919188691.html",
+   "ts": "2026-11-03 04:25:33",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "美元指数2日下跌",
+   "summary": "【美元指数2日下跌】衡量美元对六种主要货币的美元指数当天下跌0.16%，在汇市尾市收于101.719。截至纽约汇市尾市，1欧元兑换1.1194美元，高于前一交易日的1.1167美元；1英镑兑换1.3410美元，高于前一交易日的1.3394美元。1美元兑换157.91日元，高于前一交易日的157.37日元。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919187617.html",
+   "ts": "2026-11-03 04:16:21",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "俄方说卢甘斯克一辆公共汽车遭袭致1死8伤",
+   "summary": "【俄方说卢甘斯克一辆公共汽车遭袭致1死8伤】据俄新社2日报道，俄罗斯方面任命的卢甘斯克地区领导人帕谢奇尼克当天在社交媒体发文说，乌克兰武装部队一架无人机袭击了该地区一辆公共汽车，造成1人死亡、8人受伤。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919187775.html",
+   "ts": "2026-11-03 04:14:03",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "特朗普表示不会在中期选举后对伊朗发动打击",
+   "summary": "特朗普表示不会在中期选举后对伊朗发动打击。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919187378.html",
+   "ts": "2026-11-03 04:05:11",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "卡塔尔调解人员再赴德黑兰 将就潜在的美伊协议进行会谈",
+   "summary": "【卡塔尔调解人员再赴德黑兰 将就潜在的美伊协议进行会谈】一位了解会谈情况的官员表示，卡塔尔调解人员当地时间2日晚前往德黑兰，计划与伊朗外交部长阿拉格齐就美伊可能达成的协议进行会谈。消息人士称，在卡塔尔斡旋下，美伊谈判取得突破，相关程序性障碍已得到解决。不过，伊朗方面当天表示，伊美双方仍在通过调解人员交换信息，谈判涉及的问题较为复杂。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919187222.html",
+   "ts": "2026-11-03 04:04:06",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "卡塔尔与土耳其两国外长就缓和紧张局势的努力进行了讨论",
+   "summary": "卡塔尔与土耳其两国外长就缓和紧张局势的努力进行了讨论。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919186511.html",
+   "ts": "2026-11-03 03:57:13",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "纳斯达克100指数跌幅扩大至1%",
+   "summary": "纳斯达克100指数跌幅扩大至1%。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919185758.html",
+   "ts": "2026-11-03 03:43:45",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "特朗普：伊朗想达成协议 这有可能发生",
+   "summary": "【特朗普：伊朗想达成协议 这有可能发生】特朗普表示，油价将进一步下跌，因为美国正在伊朗问题上取得胜利。伊朗想达成协议，这有可能发生。伊朗最近还说他们不会拥有核武器。伊朗要求停止杀害其领导人，我们会照办。一切进展顺利，这就是油价下跌的原因。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919184886.html",
+   "ts": "2026-11-03 03:30:08",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "汇丰将GE Vernova的评级上调至“买入” 目标价定为1100美元",
+   "summary": "汇丰将GE Vernova的评级上调至“买入”，目标价定为1100美元。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919184442.html",
+   "ts": "2026-11-03 03:28:36",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "美国最高法院将苹果与Epic Games纠纷的口头辩论日期定在1月11日",
+   "summary": "美国最高法院将苹果与Epic Games纠纷的口头辩论日期定在1月11日。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919183940.html",
+   "ts": "2026-11-03 03:22:59",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "美国制造业加速扩张 生产指标创2021年以来新高",
+   "summary": "【美国制造业加速扩张 生产指标创2021年以来新高】美国供应管理学会(ISM)制造业指数10月上升1点至55.5，为逾四年来第二高水平。这一数据高于调查中的几乎所有经济学家预期。读数高于50表明制造业处于扩张状态。周一公布的数据显示，生产指标创2021年底以来最高水平。反映需求的新订单指标升至7月以来最高，并继续稳居扩张区间。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919183662.html",
+   "ts": "2026-11-03 03:12:55",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "纳指转跌 此前曾涨超1%",
+   "summary": "纳指转跌，此前曾涨超1%。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919183310.html",
+   "ts": "2026-11-03 03:00:53",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "据报道 伊朗与美国之间的信息交流没有新进展",
+   "summary": "据报道，伊朗与美国之间的信息交流没有新进展。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919183152.html",
+   "ts": "2026-11-03 02:56:07",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "马克·沃尔特据悉正考虑以约30亿美元的估值出售其F1凯迪拉克车队的部分股权",
+   "summary": "马克·沃尔特据悉正考虑以约30亿美元的估值出售其F1凯迪拉克车队的部分股权。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919182994.html",
+   "ts": "2026-11-03 02:49:43",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "甲骨文规模100亿美元的股票发售据悉获得了超额认购",
+   "summary": "甲骨文规模100亿美元的股票发售据悉获得了超额认购。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919182357.html",
+   "ts": "2026-11-03 02:44:01",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "也门胡塞武装称袭击沙特达曼机场",
+   "summary": "【也门胡塞武装称袭击沙特达曼机场】当地时间2日晚间，也门胡塞武装发表声明称，该组织在过去48小时内分两轮使用无人机袭击沙特阿拉伯达曼机场，并称袭击成功，导致机场航空交通运行中断。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919181360.html",
+   "ts": "2026-11-03 02:35:08",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "上期所原油期货2612合约夜盘收跌8.62% 沪金夜盘收涨1.18%",
+   "summary": "上期所原油期货2612合约夜盘收跌8.62%，报681元人民币/桶。沪金夜盘收涨1.18%，沪银收涨3.41%。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919180932.html",
+   "ts": "2026-11-03 02:33:40",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "哈萨克斯坦与俄罗斯一条输油管道因俄境内设施遭袭停运",
+   "summary": "【哈萨克斯坦与俄罗斯一条输油管道因俄境内设施遭袭停运】总台记者11月2日获悉，哈萨克斯坦能源部当天表示，连接哈萨克斯坦阿特劳市与俄罗斯萨马拉市的输油管道已暂停输油。哈萨克斯坦能源部称，当天凌晨，位于俄罗斯境内的萨马拉生产调度枢纽遭无人机袭击，导致该管道暂停运行。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919180141.html",
+   "ts": "2026-11-03 02:27:34",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "美联储隔夜逆回购协议周一使用规模为50.87亿美元（交易对手6家） 上个交易日报43.75亿美元",
+   "summary": "美联储隔夜逆回购协议（RRP）周一使用规模为50.87亿美元（交易对手6家），上个交易日报43.75亿美元。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919180276.html",
+   "ts": "2026-11-03 02:25:08",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "从“七日”到“两日” 霍尔木兹海峡能否恢复和平",
+   "summary": "【从“七日”到“两日” 霍尔木兹海峡能否恢复和平】伊朗外交部发言人巴加埃2日就地区局势、伊美关系等举行新闻发布会。巴加埃说，当前伊美间接互动的基础是伊朗此前提出的“七日计划”，即如果伊朗的条件得到满足，霍尔木兹海峡将在第七天前开放并恢复伊美谈判。但伊朗本着建设性做法，简化了这一机制，如果伊朗的合理要求得到美方执行，那么整个计划可以简化到两天时间，即第一天，美国将采取一系列履约措施；第二天，霍尔木兹海峡将开放，海峡交通将恢复到之前的状态。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919178349.html",
+   "ts": "2026-11-03 02:17:16",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "美国10年期国债收益率跌至9月10日以来的最低水平 报4.871%",
+   "summary": "美国10年期国债收益率跌至9月10日以来的最低水平，报4.871%。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919178215.html",
+   "ts": "2026-11-03 02:12:38",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "Anthropic计划通过RetailBook平台推出英国散户IPO",
+   "summary": "Anthropic计划通过RetailBook平台推出英国散户IPO。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919178145.html",
+   "ts": "2026-11-03 02:06:17",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "美国30年期国债收益率跌至9月9日以来的最低水平 跌幅达6.57个基点 报5.243%",
+   "summary": "美国30年期国债收益率跌至9月9日以来的最低水平，跌幅达6.57个基点，报5.243%。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919177383.html",
+   "ts": "2026-11-03 01:59:22",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "LME期铜收涨190美元",
+   "summary": "【LME期铜收涨190美元】LME期铜收涨190美元，报14345美元/吨。LME期铝收涨25美元，报3094美元/吨。LME期锌收涨50美元，报3892美元/吨。LME期铅收跌4美元，报1906美元/吨。LME期镍收涨285美元，报15556美元/吨。LME期锡收涨786美元，报49659美元/吨。LME期钴收涨15美元，报33525美元/吨。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919177263.html",
+   "ts": "2026-11-03 01:56:34",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "布油期货跌幅扩大至8%",
+   "summary": "【布油期货跌幅扩大至8%】国际油价持续走低，WTI原油期货价格跌7.73%，报96.076美元/桶；布伦特原油期货价格跌8.23%，报104.098美元/桶。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919177093.html",
+   "ts": "2026-11-03 01:52:55",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "法国央行行长：市场可能对财政情况反应过度 预算案大概率能通过",
+   "summary": "【法国央行行长：市场可能对财政情况反应过度 预算案大概率能通过】法国央行行长EmmanuelMoulin表示，投资者可能对法国面临的财政挑战反应过度，预算案在议会通过的可能性很大。Moulin表示，政府可以利用宪法第49.3条，在面临不信任投票的情况下强行通过预算案；或者在经过70天辩论后，行政部门可以通过一项名为Ordonnance的政令，使最初提交议会的草案生效。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919176929.html",
+   "ts": "2026-11-03 01:52:09",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "迈威尔科技跌幅扩大至10% 触及盘中低点",
+   "summary": "迈威尔科技跌幅扩大至10%，触及盘中低点。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919176812.html",
+   "ts": "2026-11-03 01:49:18",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "Meta据悉计划通过美元和欧元债券发行筹集至少200亿美元",
+   "summary": "Meta据悉计划通过美元和欧元债券发行筹集至少200亿美元。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919176054.html",
+   "ts": "2026-11-03 01:39:52",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "泽连斯基称俄军空袭人道援助点 已致18人死亡",
+   "summary": "【泽连斯基称俄军空袭人道援助点 已致18人死亡】当地时间11月2日，乌克兰总统泽连斯基通报，俄军当天上午对扎波罗热州科米舒瓦哈镇发动多轮航空炸弹袭击，一处用于发放人道主义物资的学校和平民避难掩体被击中。截至通报发布，袭击已造成18人死亡、5人受伤，现场搜救工作仍在进行。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919175335.html",
+   "ts": "2026-11-03 01:37:08",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "Snap在洛杉矶社交媒体危害审判进行期间与两名青少年原告达成了和解",
+   "summary": "Snap在洛杉矶社交媒体危害审判进行期间与两名青少年原告达成了和解。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919174682.html",
+   "ts": "2026-11-03 01:31:59",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "意大利交通部表示：特斯拉今年1月至10月在意大利的新车注册量同比增长20.69%",
+   "summary": "意大利交通部表示，特斯拉今年1月至10月在意大利的新车注册量同比增长20.69%。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919173984.html",
+   "ts": "2026-11-03 01:16:16",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "不锈钢夜盘收涨2.78%",
+   "summary": "【不锈钢夜盘收涨2.78%】国际铜夜盘收涨0.82%，沪铜收涨0.73%，沪铝收涨0.26%，沪锌收涨0.9%，沪铅收跌0.99%，沪镍收涨1.23%，沪锡收涨1.2%。氧化铝夜盘收涨0.61%，铝合金收涨0.57%。不锈钢夜盘收涨2.78%。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919173219.html",
+   "ts": "2026-11-03 01:03:15",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "哈塞特反驳AI融资担忧 称该行业不存在被全面抛售的风险",
+   "summary": "【哈塞特反驳AI融资担忧 称该行业不存在被全面抛售的风险】美国国家经济委员会主任凯文·哈塞特表示，AI是一个“资金非常充裕的生态系统”，该行业不存在“全面抛售”的风险。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919173038.html",
+   "ts": "2026-11-03 01:02:42",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "也门政府军称24小时内行动951次 约332名胡塞武装成员伤亡",
+   "summary": "【也门政府军称24小时内行动951次 约332名胡塞武装成员伤亡】也门政府军发言人马吉德当地时间2日晚间表示，过去24小时，政府军在“也门黎明”军事行动中进行了951次行动，目标包括胡塞武装人员集结点、军事部署、防御阵地、火力点及军事装备等。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919172235.html",
+   "ts": "2026-11-03 00:53:30",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "沙特联军称拦截一枚胡塞武装发射的弹道导弹",
+   "summary": "【沙特联军称拦截一枚胡塞武装发射的弹道导弹】当地时间3日，沙特阿拉伯主导的多国联军发言人图尔基·马利基表示，防空部队拦截并摧毁了一枚胡塞武装向南部地区发射的弹道导弹。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919170931.html",
+   "ts": "2026-11-03 00:48:03",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "欧洲主要股指收盘集体上涨",
+   "summary": "【欧洲主要股指收盘集体上涨】英国富时100指数涨0.29%，法国CAC40指数涨0.98%，德国DAX30指数涨0.64%，富时意大利MIB指数涨0.90%。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919170711.html",
+   "ts": "2026-11-03 00:41:46",
+   "origin": "em",
+   "age_days": 0
+  },
+  {
+   "title": "美国财政部拍卖国债 三个月期国债得标利率4.040% 六个月期国债得标利率4.150%",
+   "summary": "美国财政部拍卖三个月期国债，得标利率4.040%，投标倍数2.88；拍卖六个月期国债，得标利率4.150%，投标倍数2.89。",
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919170593.html",
+   "ts": "2026-11-03 00:34:25",
+   "origin": "em",
+   "age_days": 0
+  },
   {
    "title": "欧洲天然气价格跌幅扩大至10% 报93.55欧元/兆瓦时",
    "summary": "欧洲天然气价格跌幅扩大至10%，报93.55欧元/兆瓦时。",
@@ -29,407 +731,47 @@
    "age_days": 0
   },
   {
-   "title": "特朗普政府的司法部就加州选票争议向美国最高法院寻求介入",
-   "summary": "特朗普政府的司法部就加州选票争议向美国最高法院寻求介入。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611033919168696.html",
-   "ts": "2026-11-03 00:25:02",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "布油期货跌幅扩大至7%",
-   "summary": "【布油期货跌幅扩大至7%】国际油价走低，WTI原油期货价格跌6.76%，报97.079美元/桶；布伦特原油期货价格跌7.08%，报105.399美元/桶。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611033919167641.html",
-   "ts": "2026-11-03 00:21:21",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "伊朗外长：与美国的间接磋商“非常密集”",
-   "summary": "【伊朗外长：与美国的间接磋商“非常密集”】据伊朗伊斯兰共和国通讯社2日报道，伊朗外长阿拉格齐在接受采访时说，通过调解方卡塔尔和巴基斯坦进行的伊美间接磋商“非常密集”，伊方已提出自己的条件。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611033919166450.html",
-   "ts": "2026-11-03 00:19:56",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "冰箱变烤箱 欧洲多国超市冷柜再遭网络攻击",
-   "summary": "【冰箱变烤箱 欧洲多国超市冷柜再遭网络攻击】当地时间11月2日凌晨，瑞典、比利时、卢森堡、爱沙尼亚等欧洲多国超市遭到黑客攻击，冷藏和冷冻系统受到影响，冷柜温度被远程调高至50摄氏度，导致食品变质。这与上个月法国多个连锁超市发生的事件如出一辙。比利时检方今天表示，已就此启动刑事调查。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919164050.html",
-   "ts": "2026-11-03 00:13:59",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "美国中期选举今天投票",
-   "summary": "【美国中期选举今天投票】今天（11月3日），美国中期选举将迎来正式投票日。截至当地时间10月31日，已有创纪录的5000万人提前投票。此次选举被视为美国人对特朗普政府近两年执政表现的一次评分，也将影响共和党和民主党未来两年在国会的力量对比，以及在各州的影响力。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611033919164958.html",
-   "ts": "2026-11-03 00:13:01",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "也门胡塞武装表示：其以两架无人机袭击了沙特阿拉伯达曼机场 并称击中了吉赞机场的一架军用飞机",
-   "summary": "也门胡塞武装表示，其以两架无人机袭击了沙特阿拉伯达曼机场，并称击中了吉赞机场的一架军用飞机。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611033919164470.html",
-   "ts": "2026-11-03 00:09:41",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "高盛限制交易员和银行家使用某些人工智能工具",
-   "summary": "【高盛限制交易员和银行家使用某些人工智能工具】在对生产力和风险进行评估后，高盛禁止大多数员工使用专为编程设计的高级人工智能工具，此举引发部分人不满。数月来，高盛一直允许银行家在工作中使用AnthropicPBC的ClaudeCode和微软的GitHub。如今该行将仅限工程师使用这些工具。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611033919163572.html",
-   "ts": "2026-11-03 00:03:58",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "Meta Platforms计划发行美元和欧元计价债券",
-   "summary": "据报道，MetaPlatforms计划发行美元和欧元计价债券，召开固收投资者电话会议。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611033919162998.html",
-   "ts": "2026-11-03 00:02:29",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "Alphabet势将通过欧元债券发行筹集60亿欧元 付出更高溢价吸引买家",
-   "summary": "【Alphabet势将通过欧元债券发行筹集60亿欧元 付出更高溢价吸引买家】Alphabet势将通过今年第二次欧元债券发行筹集60亿欧元（67亿美元）。此前，对人工智能支出速度的担忧引发信用市场抛售，使得此次发债的收益率明显高于5月的那次发行。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611033919163411.html",
-   "ts": "2026-11-03 00:01:23",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "万事达股价上涨3% 续刷记录新高",
-   "summary": "万事达股价上涨3%，报656.820美元/股，总市值报5722亿美元，续刷记录新高。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611033919162714.html",
-   "ts": "2026-11-03 00:00:10",
-   "origin": "em",
-   "age_days": 0
-  },
-  {
-   "title": "特斯拉股价上涨3.5% 创7月中旬以来新高",
-   "summary": "特斯拉股价上涨3.5%，报413.925美元/股，总市值报1.64万亿美元，创7月中旬以来新高。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919161751.html",
-   "ts": "2026-11-02 23:58:38",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "Meta委任银行安排美元和欧元债券发行",
-   "summary": "【Meta委任银行安排美元和欧元债券发行】一位不愿具名的知情人士透露，Meta已委任银行着手安排发行五部分美元债券和六部分欧元债券。此次发行由花旗集团和摩根士丹利安排，Meta将于11月2日和11月3日举行投资者电话会议。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919158848.html",
-   "ts": "2026-11-02 23:53:44",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "俄主要云服务商遭网络攻击 或致近50万个俄网站访问异常",
-   "summary": "【俄主要云服务商遭网络攻击 或致近50万个俄网站访问异常】俄罗斯主要云服务商Beget当地时间11月2日通报称，其基础设施当天凌晨遭到大规模网络攻击，导致部分服务中断。攻击后果仍在评估，全面恢复时间尚无法给出。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919149021.html",
-   "ts": "2026-11-02 23:50:29",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "西藏那曲市巴青县发生4.2级地震 震源深度10千米",
-   "summary": "中国地震台网正式测定：11月02日23时35分在西藏那曲市巴青县（北纬32.38度，东经93.86度）发生4.2级地震，震源深度10千米。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919156269.html",
-   "ts": "2026-11-02 23:46:29",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "SpaceX股价涨幅扩大至5%",
-   "summary": "SpaceX股价涨幅扩大至5%，报141.395美元/股，总市值报1.92万亿美元。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919156066.html",
-   "ts": "2026-11-02 23:45:43",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "普京同伊朗最高国家安全委员会秘书通话 讨论中东局势",
-   "summary": "【普京同伊朗最高国家安全委员会秘书通话 讨论中东局势】总台记者11月2日获悉，俄罗斯总统普京与伊朗最高国家安全委员会秘书雷扎伊通话，讨论中东局势等议题。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919152059.html",
-   "ts": "2026-11-02 23:39:08",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "Anthropic前三季度美国市场营收235亿美元 国际市场营收98亿美元",
-   "summary": "【Anthropic前三季度美国市场营收235亿美元 国际市场营收98亿美元】SEC文件显示，2026年前三季度，Anthropic美国市场营收234.70亿美元，国际市场营收97.72亿美元，合计332.42亿美元。按收入模式划分，消费及按使用量计费收入263.06亿美元，订阅收入69.36亿美元。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919151160.html",
-   "ts": "2026-11-02 23:33:37",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "Anthropic未履行合同金额138亿美元 预计未来12个月确认75%",
-   "summary": "【Anthropic未履行合同金额138亿美元 预计未来12个月确认75%】Anthropic披露，截至2026年9月30日，Anthropic未履行合同义务（RemainingPerformanceObligations）金额达到138亿美元，公司预计其中约75%将在未来12个月确认为收入，其余部分此后确认。该指标主要包括递延收入及不可取消合同承诺对应的未来收入。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919151294.html",
-   "ts": "2026-11-02 23:33:08",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "Anthropic现金及短期投资合计1319亿美元 前三季度经营现金流转正",
-   "summary": "【Anthropic现金及短期投资合计1319亿美元 前三季度经营现金流转正】Anthropic披露，截至2026年9月30日，Anthropic持有现金及现金等价物956亿美元、短期投资363亿美元，另有148亿美元可用信贷额度。今年前三季度，公司经营活动产生现金流66亿美元。同期，公司累计未弥补亏损1562亿美元，其中1351亿美元来自可转换票据公允价值变动。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919151329.html",
-   "ts": "2026-11-02 23:32:27",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "美股三大股指均涨超1%",
-   "summary": "【美股三大股指均涨超1%】美股三大股指均涨超1%，亚马逊涨近5%，SK海力士涨超4%，英伟达、特斯拉、谷歌涨超2%。纳斯达克中国金龙指数涨超3%，小鹏汽车涨超8%。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919148825.html",
-   "ts": "2026-11-02 23:27:50",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "美伊谈判希望升温 欧洲能源股创6月以来最大跌幅",
-   "summary": "【美伊谈判希望升温 欧洲能源股创6月以来最大跌幅】随着华盛顿和德黑兰均释放愿通过谈判解决持续数月冲突的信号，油价下跌，欧洲能源股创6月中旬以来最大跌幅。欧洲能源股中，Equinor领跌，下跌5%；BP跌4.4%，壳牌跌3.1%，道达尔跌2.4%。欧洲斯托克600能源指数一度下跌2.9%，创6月15日以来最大跌幅。航空旅游股则因航空燃油价格有望下降而上涨，TUI涨5.6%，瑞安航空涨5.5%，汉莎航空涨4.2%。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919148988.html",
-   "ts": "2026-11-02 23:26:21",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "美股罗素2000指数上涨1.1%",
-   "summary": "美股罗素2000指数上涨1.1%。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919147734.html",
-   "ts": "2026-11-02 23:25:30",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "纳指、道琼斯指数涨幅扩大至1%",
-   "summary": "【纳指、道琼斯指数涨幅扩大至1%】明星科技股中亚马逊涨近5%，SK海力士、谷歌涨近3%，特斯拉、英伟达涨近2%。SpaceX股价上涨3.89%，博通股价上涨1.53%。费城半导体指数涨1.2%，报10797.68点。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919143283.html",
-   "ts": "2026-11-02 23:19:21",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "Anthropic客户净收入留存率达到900% 企业客户持续扩大Claude使用规模",
-   "summary": "【Anthropic客户净收入留存率达到900% 企业客户持续扩大Claude使用规模】Anthropic披露，截至2026年9月30日，公司净收入留存率（NRR）约为900%，反映现有客户持续扩大Claude使用规模。同期，超过50%的年收入贡献超过10万美元的客户同时使用ClaudePlatform及至少一款Anthropic自有应用，去年底这一比例约为30%。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919143061.html",
-   "ts": "2026-11-02 23:18:43",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "上海市政府常务会部署加快新型能源体系建设 更好服务全国统一大市场建设",
-   "summary": "【上海市政府常务会部署加快新型能源体系建设 更好服务全国统一大市场建设】市委副书记、市长朱忠明今天（11月2日）主持召开市政府常务会议，要求按照市委部署，加快上海新型能源体系建设，推动更好服务全国统一大市场建设重点措施落实。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919094731.html",
-   "ts": "2026-11-02 23:10:55",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "纳斯达克中国金龙指数涨超3%",
-   "summary": "【纳斯达克中国金龙指数涨超3%】11月2日，纳斯达克中国金龙指数涨超3%，震坤行涨16.46%，哔哩哔哩涨7.93%，小鹏汽车涨7.39%，亿航涨6.96%，海川证券涨6.07%。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919133447.html",
-   "ts": "2026-11-02 23:08:06",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "OpenAI将在佐治亚州提供最高1000兆瓦的需求响应能力",
-   "summary": "OpenAI将在佐治亚州提供最高1000兆瓦的需求响应能力。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919128352.html",
-   "ts": "2026-11-02 23:05:53",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "美元指数在ISM制造业数据后保持跌势 现下跌0.35% 报101.6",
-   "summary": "美元指数在ISM制造业数据后保持跌势，现下跌0.35%，报101.6。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919130034.html",
-   "ts": "2026-11-02 23:03:38",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "美国10月ISM制造业生产指数升至59 创2021年以来最高",
-   "summary": "美国10月ISM制造业生产指数升至59，创2021年以来最高。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919127519.html",
-   "ts": "2026-11-02 23:02:24",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "美国10月份ISM制造业指数升至55.5 预估为54.5",
-   "summary": "美国10月份ISM制造业指数升至55.5，预估为54.5。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919131154.html",
-   "ts": "2026-11-02 23:00:41",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "国内部分商品期货夜盘收盘 主力合约多数下跌",
-   "summary": "【国内部分商品期货夜盘收盘 主力合约多数下跌】截至23:00，国内部分商品期货夜盘收盘，主力合约多数下跌。跌幅方面，低硫燃油、沥青、燃油、纯苯跌超5%，LPG跌近5%，瓶片、苯乙烯、对二甲苯跌超4%，聚丙烯、PTA跌近4%，甲醇、短纤、塑料、乙二醇、丙烯跌超3%，丁二烯胶跌超2%，PVC跌近2%；涨幅方面，烧碱涨超1%，玻璃、胶版纸、20号胶、淀粉、玉米等小幅上涨。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919124493.html",
-   "ts": "2026-11-02 23:00:03",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "美债长端收益率集体回落 10年期收益率跌逾5个基点",
-   "summary": "【美债长端收益率集体回落 10年期收益率跌逾5个基点】美国国债收益率多数下行，其中10年期国债收益率报4.882%，下跌5.1个基点；20年期报5.283%，下跌5.7个基点；30年期报5.254%，下跌5.6个基点。7年期收益率下跌4.8个基点，报4.769%。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919120721.html",
-   "ts": "2026-11-02 22:56:06",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "费城半导体指数转跌",
-   "summary": "费城半导体指数转跌，迈威尔科技跌超6%，ARM、英特尔跌超2%，美光科技跌1.2%，台积电跌0.34%。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919122760.html",
-   "ts": "2026-11-02 22:55:52",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "亚马逊股价上涨4.4% 报250.795美元/股 总市值报2.71万亿美元",
-   "summary": "亚马逊股价上涨4.4%，报250.795美元/股，总市值报2.71万亿美元。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919120884.html",
-   "ts": "2026-11-02 22:55:42",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "道指涨幅扩大至1%",
-   "summary": "道指涨幅扩大至1%，纳斯达克综合指数涨0.79%，标普500指数涨0.59%。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919119697.html",
-   "ts": "2026-11-02 22:51:13",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "阿里巴巴涨逾5%",
-   "summary": "周一，阿里巴巴涨逾5%，报103.23美元。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919117240.html",
-   "ts": "2026-11-02 22:48:09",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "美国10月标普全球制造业PMI终值报54.9 预期56 前值56",
-   "summary": "美国10月标普全球制造业PMI终值报54.9，预期56，前值56。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919116758.html",
-   "ts": "2026-11-02 22:46:28",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
-   "title": "美国芯片股上涨 英伟达涨1.5%",
-   "summary": "【美国芯片股上涨 英伟达涨1.5%】11月2日，美国芯片股上涨，英伟达涨1.5%，SK海力士涨3.3%。德州仪器上涨1.9%，高通上涨2.6%。Tempus AI股价上涨6.2%。",
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919111992.html",
-   "ts": "2026-11-02 22:44:14",
-   "origin": "em",
-   "age_days": 1
-  },
-  {
    "title": "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1",
    "summary": "",
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
-   "ts": "Mon, 02 Nov 2026 16:13:00 GMT",
+   "ts": "Mon, 02 Nov 2026 17:52:01 GMT",
    "origin": "rss",
    "age_days": 1
   },
   {
-   "title": "Stock market after midterm elections: What S&P 500 history shows",
+   "title": "Intel foundry push faces critical test after stock's 45% plunge in October",
    "summary": "",
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
-   "ts": "Mon, 02 Nov 2026 15:41:12 GMT",
+   "url": "https://www.cnbc.com/2026/11/02/intel-foundry-faces-critical-test-after-stocks-45percent-plunge-in-october.html",
+   "ts": "Mon, 02 Nov 2026 20:20:34 GMT",
    "origin": "rss",
    "age_days": 1
   },
   {
-   "title": "Wall Street's Fear Index is doing something strange. Here's what it means for stocks",
+   "title": "DOJ asks Supreme Court to block California counting disputed mail-in ballots",
    "summary": "",
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/02/wall-streets-fear-index-is-doing-something-strange-heres-what-it-means-for-stocks.html",
-   "ts": "Mon, 02 Nov 2026 15:30:41 GMT",
+   "url": "https://www.cnbc.com/2026/11/02/supreme-court-california-mail-ballots-election.html",
+   "ts": "Mon, 02 Nov 2026 19:38:58 GMT",
    "origin": "rss",
    "age_days": 1
   },
   {
-   "title": "Marvell CEO touts 'enormous' opportunity in massive AI connectivity bet on Lumentum",
+   "title": "Lumentum CEO touts 'enormous' opportunity in massive AI connectivity deal with Marvell",
    "summary": "",
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/02/marvell-lumentum-ai-deal.html",
-   "ts": "Mon, 02 Nov 2026 16:03:51 GMT",
+   "ts": "Mon, 02 Nov 2026 19:32:15 GMT",
    "origin": "rss",
    "age_days": 1
   },
   {
-   "title": "Defense, healthcare, crypto and AI: How the midterm election could affect stocks",
+   "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
    "summary": "",
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/02/midterm-election-stocks-defense-healthcare-crypto-ai.html",
-   "ts": "Mon, 02 Nov 2026 13:23:58 GMT",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "Canada-India $5.5 billion bank takeover attracts opposition from workers, politicians",
-   "summary": "",
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/02/canada-india-bank-takeover-protest-workers.html",
-   "ts": "Mon, 02 Nov 2026 04:09:34 GMT",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "Crude prices slide as investors brace for a big week",
-   "summary": "",
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/02/crude-prices-crater-investors-brace-for-big-week.html",
-   "ts": "Mon, 02 Nov 2026 12:57:06 GMT",
+   "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+   "ts": "Mon, 02 Nov 2026 20:19:25 GMT",
    "origin": "rss",
    "age_days": 1
   },
@@ -443,11 +785,20 @@
    "age_days": 2
   },
   {
-   "title": "Crude oil dives to session low on Iran peace talk hopes ahead of midterms",
+   "title": "Defense, healthcare, crypto and AI: How the midterm election could affect stocks",
    "summary": "",
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
-   "ts": "Mon, 02 Nov 2026 16:25:45 GMT",
+   "url": "https://www.cnbc.com/2026/11/02/midterm-election-stocks-defense-healthcare-crypto-ai.html",
+   "ts": "Mon, 02 Nov 2026 18:59:48 GMT",
+   "origin": "rss",
+   "age_days": 1
+  },
+  {
+   "title": "Canada-India $5.5 billion bank takeover attracts opposition from workers, politicians",
+   "summary": "",
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/02/canada-india-bank-takeover-protest-workers.html",
+   "ts": "Mon, 02 Nov 2026 04:09:34 GMT",
    "origin": "rss",
    "age_days": 1
   },
@@ -488,20 +839,11 @@
    "age_days": 1
   },
   {
-   "title": "Ryanair CEO warns fares could rise by up to 20% next year",
+   "title": "Feeling isolated? Half of in-office workers describe their jobs as 'remote,' NY Fed survey finds",
    "summary": "",
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/02/ryanair-h1-earnings-iran-war-fuel-costs.html",
-   "ts": "Mon, 02 Nov 2026 14:14:18 GMT",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "Binance sees $3.64 billion in net outflows as withdrawals resume after massive hack",
-   "summary": "",
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/02/binance-outflow-hack-bitcoin.html",
-   "ts": "Mon, 02 Nov 2026 05:09:45 GMT",
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/02/remote-work-in-office-mandate-new-york-fed.html",
+   "ts": "Mon, 02 Nov 2026 20:44:00 GMT",
    "origin": "rss",
    "age_days": 1
   },
@@ -510,7 +852,16 @@
    "summary": "",
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/02/fanatics-nhl-hometown-remix-jerseys.html",
-   "ts": "Mon, 02 Nov 2026 16:00:06 GMT",
+   "ts": "Mon, 02 Nov 2026 17:28:16 GMT",
+   "origin": "rss",
+   "age_days": 1
+  },
+  {
+   "title": "Crude prices slide as investors brace for a big week",
+   "summary": "",
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/02/crude-prices-crater-investors-brace-for-big-week.html",
+   "ts": "Mon, 02 Nov 2026 12:57:06 GMT",
    "origin": "rss",
    "age_days": 1
   },
@@ -578,22 +929,58 @@
    "age_days": 2
   },
   {
-   "title": "Stocks started the week with promise but ended in despair. Our take on the big reversal",
+   "title": "Sanctioned Iranian Tanker Slips Past U.S. Blockade, Delivers Cargo to China",
    "summary": "",
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html",
-   "ts": "Sat, 31 Oct 2026 15:37:11 GMT",
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/Sanctioned-Iranian-Tanker-Slips-Past-US-Blockade-Delivers-Cargo-to-China.html",
+   "ts": "Mon, 02 Nov 2026 14:00:00 -0600",
    "origin": "rss",
-   "age_days": 3
+   "age_days": 1
   },
   {
-   "title": "Crypto industry pours more than $200 million into 2026 midterms to pressure Congress on favorable rules",
+   "title": "The 50-Year-Old Microplastics Warning That Has Come Back to Haunt the Industry",
    "summary": "",
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/10/31/crypto-industry-spends-more-than-200-million-to-sway-the-midterms.html",
-   "ts": "Sat, 31 Oct 2026 13:04:29 GMT",
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/The-50-Year-Old-Microplastics-Warning-That-Has-Come-Back-to-Haunt-the-Industry.html",
+   "ts": "Mon, 02 Nov 2026 13:00:00 -0600",
    "origin": "rss",
-   "age_days": 3
+   "age_days": 1
+  },
+  {
+   "title": "Rare Iranian Strike On Vessel Hundreds Of Miles From Strait Of Hormuz",
+   "summary": "",
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/Rare-Iranian-Strike-On-Vessel-Hundreds-Of-Miles-From-Strait-Of-Hormuz.html",
+   "ts": "Mon, 02 Nov 2026 12:00:00 -0600",
+   "origin": "rss",
+   "age_days": 1
+  },
+  {
+   "title": "TotalEnergies Now Sees Oil Demand Peaking Between 2035 and 2040",
+   "summary": "",
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-Now-Sees-Oil-Demand-Peaking-Between-2035-and-2040.html",
+   "ts": "Mon, 02 Nov 2026 11:30:00 -0600",
+   "origin": "rss",
+   "age_days": 1
+  },
+  {
+   "title": "Central Asia’s Power Grid Faces a Major Test as Winter Approaches",
+   "summary": "",
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/Central-Asias-Power-Grid-Faces-a-Major-Test-as-Winter-Approaches.html",
+   "ts": "Mon, 02 Nov 2026 11:00:00 -0600",
+   "origin": "rss",
+   "age_days": 1
+  },
+  {
+   "title": "Oil Prices Plunge 7% as U.S. and Iran Signal Room for Diplomacy",
+   "summary": "",
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-7-as-US-and-Iran-Signal-Room-for-Diplomacy.html",
+   "ts": "Mon, 02 Nov 2026 10:36:00 -0600",
+   "origin": "rss",
+   "age_days": 1
   },
   {
    "title": "U.S.-Backed Consortium Proposes $4.4 Billion LNG Terminal in Pakistan",
@@ -675,60 +1062,6 @@
    "ts": "Mon, 02 Nov 2026 04:00:00 -0600",
    "origin": "rss",
    "age_days": 1
-  },
-  {
-   "title": "Goldman Sachs Raises December Brent Oil Price Forecast to $105",
-   "summary": "",
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Raises-Brent-Oil-Price-Forecast-to-105.html",
-   "ts": "Mon, 02 Nov 2026 03:00:00 -0600",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "U.S. Pushes to Restore Russian Gas Flows to Europe",
-   "summary": "",
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Pushes-to-Restore-Russian-Gas-Flows-to-Europe.html",
-   "ts": "Mon, 02 Nov 2026 01:50:00 -0600",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "Oil Prices Slide 3% as Hopes for Iran Peace Deal Grow",
-   "summary": "",
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-3-as-Hopes-for-Iran-Peace-Deal-Grow.html",
-   "ts": "Mon, 02 Nov 2026 00:30:00 -0600",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "Why Is This Rare Earth Metal 346 Times More Expensive In America Than in China?",
-   "summary": "",
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Energy-General/Why-Is-This-Rare-Earth-Metal-346-Times-More-Expensive-In-America-Than-in-China.html",
-   "ts": "Sun, 01 Nov 2026 19:00:00 -0600",
-   "origin": "rss",
-   "age_days": 2
-  },
-  {
-   "title": "Oil Prices No Longer Follow Headlines",
-   "summary": "",
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-No-Longer-Follow-Headlines.html",
-   "ts": "Sun, 01 Nov 2026 18:00:00 -0600",
-   "origin": "rss",
-   "age_days": 2
-  },
-  {
-   "title": "Massive AI Data Center Sparks Backlash Despite Clean Energy Promises",
-   "summary": "",
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Energy-General/Massive-AI-Data-Center-Sparks-Backlash-Despite-Clean-Energy-Promises.html",
-   "ts": "Sun, 01 Nov 2026 14:00:00 -0600",
-   "origin": "rss",
-   "age_days": 2
   },
   {
    "title": "Trump promised to slash energy costs  — but gasoline, diesel and jet fuel all soared instead",
@@ -974,7 +1307,7 @@
    "age_days": 4
   },
   {
-   "title": "Exxon Increases Stake in Mozambique Gas Project Via Eni Swap - Bloomberg",
+   "title": "Exxon Increases Stake in Mozambique Gas Project Via Eni Swap - Bloomberg.com",
    "summary": "",
    "source": "莫桑东非能源·聚合",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSFlVaURULV9rSVVHa0RUamE0NnM5ZllERW5xT3VNVi1NU1htb0FMc2doOGJsOHNuSWRrNXJDN01Gckp0R3JuWHRFd2VNLTJ4RjA3UGJ1RWdIVHFuSWxWRHhxVS1ZcnEwZU1sZkZLMUFYbWRQbHBCX3ctZFFmNzRabnFQcDNBRWZEQ3F6T2tPOHMxdDN1NnhPdTFoNWZTWllJX2lUeUY5My1pOHIyRU9EMA?oc=5",

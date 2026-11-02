@@ -1,7 +1,7 @@
 {
  "asof": "2026-11-03",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-11-03T00:37+08:00",
+ "generated_at": "2026-11-03T04:48+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 5,
@@ -12,99 +12,139 @@
  "items": [
   {
    "cat": "macro",
-   "title": "美国中期选举今日正式投票",
-   "brief": "11月3日美国中期选举投票日，提前投票人数创纪录达5000万，被视为对特朗普政府近两年执政的评分，并影响国会格局。",
-   "chain": "选举结果→财政/关税/监管路径预期→美股风险偏好与板块轮动→A股出口链与自主可控情绪",
-   "impact": 9,
+   "title": "美国10月ISM制造业指数升至55.5",
+   "brief": "ISM制造业指数10月升1点至55.5，为逾四年次高，生产指标创2021年以来新高，高于几乎所有经济学家预期。",
+   "chain": "制造业景气超预期→美债收益率与降息预期再定价→美股周期与AI硬件需求预期→A股算力链出口/制造情绪",
+   "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611033919164958.html",
-   "ts": "2026-11-03 00:13:01"
+   "url": "https://finance.eastmoney.com/a/202611033919183662.html",
+   "ts": "2026-11-03 03:12:55"
   },
   {
    "cat": "macro",
-   "title": "英债10年期收益率盘中降10基点至5.18%",
-   "brief": "英国国债延续跌势，10年期收益率下行10个基点触及当日低点5.18%，反映避险买盘与利率预期摆动。",
-   "chain": "长端利率回落→美股AI高久期估值分母边际改善→A股算力链风险偏好传导",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611033919169859.html",
-   "ts": "2026-11-03 00:26:16"
-  },
-  {
-   "cat": "geo",
-   "title": "伊朗外长称伊美间接磋商非常密集",
-   "brief": "伊朗外长阿拉格齐称经卡塔尔、巴基斯坦调解的伊美间接磋商“非常密集”，伊方已提出自身条件。",
-   "chain": "谈判推进→中东冲突降级预期→美股能源权重与风险溢价回落→A股情绪面偏暖",
-   "impact": 9,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611033919166450.html",
-   "ts": "2026-11-03 00:19:56"
-  },
-  {
-   "cat": "geo",
-   "title": "胡塞武装称无人机袭击沙特两处机场",
-   "brief": "也门胡塞武装称以两架无人机袭击沙特达曼机场，并称击中吉赞机场一架军用飞机。",
-   "chain": "红海—海湾袭击→中东航运与能源设施风险溢价→美股防务走强、能源波动→A股军工情绪",
+   "title": "美10年期国债收益率跌至9月以来最低",
+   "brief": "10年期美债收益率跌至4.871%，为9月10日以来最低；30年期同步跌至5.243%，避险与降息预期升温。",
+   "chain": "长端利率下行→美股AI高久期票贴现分母改善→A股算力链风险偏好抬升",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611033919164470.html",
-   "ts": "2026-11-03 00:09:41"
+   "url": "https://finance.eastmoney.com/a/202611033919178215.html",
+   "ts": "2026-11-03 02:12:38"
+  },
+  {
+   "cat": "macro",
+   "title": "美元指数2日下跌0.16%",
+   "brief": "美元指数收于101.719，跌0.16%，欧元升至1.1194美元，英镑走强。",
+   "chain": "美元走弱→美债实际利率与黄金同向支撑→美股AI成长股估值分母减压→A股算力链外资情绪偏暖",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919187617.html",
+   "ts": "2026-11-03 04:16:21"
+  },
+  {
+   "cat": "macro",
+   "title": "沪金夜盘涨1.18% 沪银涨3.41%",
+   "brief": "上期所原油2612夜盘跌8.62%报681元/桶；沪金夜盘涨1.18%，沪银涨3.41%，贵金属避险与降息交易共振。",
+   "chain": "避险+实际利率下行驱动金价→美股AI高久期票估值分母与风险偏好镜像→A股算力链情绪传导",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919180932.html",
+   "ts": "2026-11-03 02:33:40"
+  },
+  {
+   "cat": "macro",
+   "title": "法央行行长：市场对财政反应过度",
+   "brief": "法国央行行长Moulin称投资者可能对法国财政挑战反应过度，预算案在议会通过可能性很大。",
+   "chain": "欧洲财政风险溢价回落→欧元区利率与欧元企稳→美股风险偏好边际改善→A股算力链外部环境",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919176929.html",
+   "ts": "2026-11-03 01:52:09"
   },
   {
    "cat": "geo",
-   "title": "普京与伊朗国安秘书通话讨论中东",
-   "brief": "俄总统普京11月2日与伊朗最高国家安全委员会秘书雷扎伊通话，讨论中东局势等议题。",
-   "chain": "俄伊协调→中东博弈格局延续→美股地缘风险溢价难消→A股避险与资源品情绪",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919152059.html",
-   "ts": "2026-11-02 23:39:08"
-  },
-  {
-   "cat": "oil",
-   "title": "布油期货跌幅扩大至7%",
-   "brief": "国际油价走低，WTI跌6.76%报97.08美元/桶，布伦特跌7.08%报105.40美元/桶。",
-   "chain": "油价急挫→Brent回落至105美元→莫桑比克油气售价与项目经济性短期承压，需关注谈判进展",
+   "title": "特朗普称中期选举后不打伊朗",
+   "brief": "特朗普表示不会在中期选举后对伊朗发动打击，并称伊朗想达成协议、油价将进一步下跌。",
+   "chain": "美伊冲突降级→美股风险溢价回落、能源股承压→A股算力链风险偏好修复",
    "impact": 9,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611033919167641.html",
-   "ts": "2026-11-03 00:21:21"
+   "url": "https://finance.eastmoney.com/a/202611033919187378.html",
+   "ts": "2026-11-03 04:05:11"
   },
   {
-   "cat": "oil",
-   "title": "美伊停战草案流传 油价跳水",
-   "brief": "市场流传结束美伊战争的草案提案，油价大幅下挫，投资者等待关键一周。",
-   "chain": "停战预期→油价风险溢价回吐→东非LNG/油气项目融资与销售窗口改善但短期价格承压",
-   "impact": 8,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-as-Draft-Proposal-to-End-US-Iran-War-is-Circulated.html",
-   "ts": "Mon, 02 Nov 2026 08:30:00 -0600"
+   "cat": "geo",
+   "title": "预测市场：民主党夺参院概率近75%",
+   "brief": "中期选举前一日，Kalshi交易者给出民主党控制参议院74%概率，市场押注国会翻蓝。",
+   "chain": "中期选举不确定性→美股板块轮动与政策预期重定价→A股算力链受风险偏好与关税预期牵引",
+   "impact": 7,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/02/prediction-market-traders-now-see-nearly-75percent-chance-of-democrats-winning-the-senate.html",
+   "ts": "2026-11-02T19:15:26+00:00"
   },
   {
-   "cat": "oil",
-   "title": "乌克兰称上周五以来袭击三座俄炼厂",
-   "brief": "乌克兰方面称自上周五以来已打击三座俄罗斯炼油厂，持续削弱俄炼能。",
-   "chain": "俄炼能受损→成品油与原油价差波动→莫桑比克油气经营关注柴油/成品油成本",
+   "cat": "geo",
+   "title": "胡塞武装推进至亚丁80公里内",
+   "brief": "消息人士称也门胡塞武装已推进至距亚丁80公里处，红海与曼德海峡航运风险上升。",
+   "chain": "红海航运风险→避险与运费溢价→美股能源与航运股分化→A股算力链供应链成本扰动",
    "impact": 6,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Has-Hit-Three-Russian-Refineries-Since-Friday.html",
-   "ts": "Mon, 02 Nov 2026 09:30:00 -0600"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYlRCZUUyWF9VckZ3NWJGbUV2Z3luSldoNGZIVk1zTkN4MEZ1ajdSZm4zYmNLYjhVbU5TQU9yYTU2YVVrSFY3QzNPU21wT2EwVlFlRG9mMGxkeG84RHptSzlsOUw3Zmd6SHRqZGdzM1UxQnpWZlZ4MFJSYTFTZ296c2U1T1NGZFBqd3hnazg3clVMUFJ4SWNzYUtjOVoxY2FHMHpzY3RKZkNudw?oc=5",
+   "ts": "2026-11-02T15:18:51+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "卢甘斯克公交遭无人机袭击1死8伤",
+   "brief": "俄方任命的卢甘斯克领导人称乌军无人机袭击一辆公共汽车，致1死8伤，俄乌冲突持续。",
+   "chain": "俄乌冲突延续→欧洲能源与避险溢价→美股防务与能源板块→A股算力链地缘风险溢价",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919187775.html",
+   "ts": "2026-11-03 04:14:03"
+  },
+  {
+   "cat": "oil",
+   "title": "国际油价2日大幅下跌",
+   "brief": "12月WTI跌7.36%收96.46美元/桶，1月布伦特跌8.66美元，美伊协议预期主导抛售。",
+   "chain": "美伊和谈预期→油价急挫→莫桑比克油气售价与联合能源收入预期承压，需关注东非项目经济性",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919189197.html",
+   "ts": "2026-11-03 04:37:40"
+  },
+  {
+   "cat": "oil",
+   "title": "阿联酋称脱离OPEC配额后出口上升",
+   "brief": "阿联酋表示摆脱OPEC配额约束后石油出口已上升，并正在主办行业活动。",
+   "chain": "OPEC+纪律松动→中期供应过剩压力→油价中枢下移→莫桑比克LNG与油气项目回报承压",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcnd0cjROV01YdUV5VG9tVnV6NVpybjJpa1E1TnFOV3g2V2xhMmpmcGJQdXctakdyMVVmZk9hbTZvYnZ6aDJ2RDhoSU12Z2NoYlBRekRWNmlrSWdlblpJa0tKelN5VjFVVUhDWV85enFsam91QXFRWVdUUzNEYmZSTDhaWVBRUFE2MTBVRFY5XzhvR2NDZXVXeXZROVoxdkJQcm91cnZqQUJEWmJLNkJ6R0UwLWJvYU5MQ21sNXZpeEN3S3c?oc=5",
+   "ts": "2026-11-02T16:05:19+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "哈俄输油管道因俄设施遇袭停运",
+   "brief": "哈萨克斯坦能源部称阿特劳至萨马拉输油管道11月2日凌晨因俄境内设施遭袭暂停输油。",
+   "chain": "管道供应中断→短期油价获支撑但被美伊和谈压制→东非油气经营关注供应扰动溢价",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919180141.html",
+   "ts": "2026-11-03 02:27:34"
   },
   {
    "cat": "gas",
-   "title": "欧洲天然气价格跌幅扩大至10%",
-   "brief": "欧洲天然气价格跌幅扩大至10%，报93.55欧元/兆瓦时，气价显著回落。",
-   "chain": "TTF大跌→全球LNG套利流向重估→东非/莫桑比克LNG长期合约议价与现货窗口受关注",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611033919169597.html",
-   "ts": "2026-11-03 00:26:34"
+   "title": "道达尔CEO：欧洲今冬无天然气短缺",
+   "brief": "TotalEnergies CEO表示欧洲今年冬季不会出现天然气短缺，供应保障充足。",
+   "chain": "欧洲气价预期趋稳→TTF回落→莫桑比克LNG长期合约议价与东非项目融资环境偏中性",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd2M2U1Z4ejdLX3c0WjZSMXFIbF9IbVpnX3c2cFVlMzdfa0lENEwtRzJJMHdzUVhmbnljMHhMVEZZUDZtelNSREpMZldfc092S1dFMUdzVzJjNTFxX09YaV9OalplOXZ4US13RGs5a29sUU5qMHlTclUwdGxQbFNYVlBZaUx2cGpocjdXOUwwMnlpWWMweDFPdGZ6MHVlS0J4TUItU21fUQ?oc=5",
+   "ts": "2026-11-02T14:15:43+00:00"
   },
   {
    "cat": "gas",
    "title": "美资财团拟在巴基斯坦建44亿美元LNG终端",
-   "brief": "美国支持的财团提议在巴基斯坦建设44亿美元LNG接收终端，拓展南亚气源进口通道。",
-   "chain": "南亚LNG需求扩容→全球LNG贸易流向与运费→莫桑比克LNG亚洲买家竞争格局变化",
+   "brief": "美国支持的财团提议在巴基斯坦建设44亿美元LNG接收终端，南亚LNG需求再扩张。",
+   "chain": "南亚LNG进口能力提升→全球LNG需求增量→莫桑比克Rovuma气源东向销售窗口扩大",
    "impact": 5,
    "source": "OilPrice",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Backed-Consortium-Proposes-44-Billion-LNG-Terminal-in-Pakistan.html",
@@ -112,83 +152,73 @@
   },
   {
    "cat": "tech",
-   "title": "Alphabet拟发欧元债筹60亿欧元",
-   "brief": "Alphabet将通过今年第二次欧元债券发行筹资60亿欧元，以更高溢价吸引买家，此前AI支出担忧引发信用市场抛售。",
-   "chain": "科技巨头加杠杆投AI→信用利差与资本开支信号→美股AI基建链→A股算力硬件映射",
+   "title": "英特尔代工业务迎关键考验",
+   "brief": "英特尔10月股价暴跌45%后代工战略面临关键检验，市场关注其先进制程客户进展。",
+   "chain": "英特尔代工受挫→美股半导体板块分化→A股算力链国产替代与设备材料链情绪",
    "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611033919163411.html",
-   "ts": "2026-11-03 00:01:23"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/02/intel-foundry-faces-critical-test-after-stocks-45percent-plunge-in-october.html",
+   "ts": "Mon, 02 Nov 2026 20:20:34 GMT"
   },
   {
    "cat": "tech",
-   "title": "Meta委任银行安排美元欧元债发行",
-   "brief": "Meta已委任花旗、摩根士丹利安排五部分美元债与六部分欧元债发行，11月2-3日路演。",
-   "chain": "Meta大额发债→AI资本开支融资需求→美股科技信用与估值→A股算力链情绪",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919158848.html",
-   "ts": "2026-11-02 23:53:44"
-  },
-  {
-   "cat": "tech",
-   "title": "特斯拉股价涨3.5%创7月中来新高",
-   "brief": "特斯拉涨3.5%报413.93美元，市值1.64万亿美元，创7月中旬以来新高。",
-   "chain": "特斯拉走强→美股成长风格回暖→A股新能源车与机器人产业链情绪",
+   "title": "美最高法1月11日审苹果Epic案",
+   "brief": "美国最高法院将苹果与Epic Games纠纷的口头辩论定在1月11日，涉及应用商店抽成规则。",
+   "chain": "应用商店规则待定→苹果服务收入预期波动→美股科技平台监管风险→A股应用生态链",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919161751.html",
-   "ts": "2026-11-02 23:58:38"
+   "url": "https://finance.eastmoney.com/a/202611033919183940.html",
+   "ts": "2026-11-03 03:22:59"
   },
   {
    "cat": "tech",
-   "title": "Marvell CEO看好AI互联大机会",
-   "brief": "Marvell CEO称在Lumentum上的大规模AI连接押注存在“巨大”机会，凸显光互联需求。",
-   "chain": "AI光互联需求→美股半导体互联链走强→A股光模块/CPO产业链映射",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/02/marvell-lumentum-ai-deal.html",
-   "ts": "Mon, 02 Nov 2026 16:03:51 GMT"
+   "title": "汇丰上调GE Vernova至买入",
+   "brief": "汇丰将GE Vernova评级上调至买入，目标价1100美元，看好电力设备与电网需求。",
+   "chain": "电力设备景气获背书→美股能源装备与电网投资链走强→A股电力设备/算力供电链映射",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611033919184442.html",
+   "ts": "2026-11-03 03:28:36"
+  },
+  {
+   "cat": "ai",
+   "title": "甲骨文拟发200亿美元股债融资AI",
+   "brief": "甲骨文提交文件拟发行新股与债券融资约200亿美元，用于人工智能基础设施建设。",
+   "chain": "AI资本开支融资扩张→美股AI基础设施与云资本开支预期→A股算力链服务器/IDC映射",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+   "ts": "2026-11-02T14:03:44+00:00"
   },
   {
    "cat": "ai",
    "title": "Anthropic三季度营收170亿美元",
-   "brief": "Anthropic修订S-1披露三季度营收170亿美元，采购承诺8954亿美元，显示AI需求与算力锁定规模。",
-   "chain": "AI营收与算力采购双高→美股AI算力链景气验证→A股服务器/光模块/电力链映射",
+   "brief": "Anthropic披露三季度营收170亿美元，修订版S-1显示采购承诺8954亿美元。",
+   "chain": "AI模型商业化提速→美股AI应用与算力需求预期→A股算力链与AI应用映射",
    "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
-   "ts": "Mon, 02 Nov 2026 16:13:00 GMT"
+   "ts": "Mon, 02 Nov 2026 17:52:01 GMT"
   },
   {
    "cat": "ai",
-   "title": "Anthropic客户净收入留存率约900%",
-   "brief": "截至2026年9月30日Anthropic净收入留存率约900%，企业客户持续扩大Claude使用规模。",
-   "chain": "企业AI渗透加速→美股AI软件估值支撑→A股AI应用与算力需求情绪",
+   "title": "Lumentum CEO谈与Marvell AI连接大单",
+   "brief": "Lumentum CEO称与Marvell的AI连接交易机会巨大，光互连需求成为算力瓶颈焦点。",
+   "chain": "AI光互连需求爆发→美股光模块与网络设备链→A股算力链光模块/CPO映射",
    "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611023919143061.html",
-   "ts": "2026-11-02 23:18:43"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/02/marvell-lumentum-ai-deal.html",
+   "ts": "Mon, 02 Nov 2026 19:32:15 GMT"
   },
   {
    "cat": "ai",
-   "title": "高盛限制员工使用部分AI工具",
-   "brief": "高盛评估生产力与风险后，禁止多数员工使用专为编程设计的高级AI工具，引发部分不满。",
-   "chain": "金融机构AI治理收紧→美股AI落地节奏与合规成本→A股AI应用合规链关注",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611033919163572.html",
-   "ts": "2026-11-03 00:03:58"
-  },
-  {
-   "cat": "ai",
-   "title": "Sam Altman突访韩国深化芯片合作",
-   "brief": "OpenAI的Sam Altman突访韩国，正值OpenAI推进芯片合作，韩国以创纪录预算瞄准主权AI模型。",
-   "chain": "AI芯片合作深化→美股AI算力供应链→A股半导体设备/存储链情绪",
+   "title": "韩国推主权AI模型创纪录预算",
+   "brief": "韩国以创纪录新预算瞄准“全球最高性能”主权AI模型，加码国家级AI算力投入。",
+   "chain": "主权AI算力竞赛→美股AI芯片需求预期→A股算力链国产芯片与服务器映射",
    "impact": 6,
    "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/02/openai-sam-altman-samsung-sk-south-korea.html",
-   "ts": "Mon, 02 Nov 2026 02:58:53 GMT"
+   "url": "https://www.cnbc.com/2026/11/02/south-korea-ai-spending-budget.html",
+   "ts": "Mon, 02 Nov 2026 06:02:03 GMT"
   }
  ]
 }
