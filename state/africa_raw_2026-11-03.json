@@ -1,6 +1,6 @@
 {
  "asof": "2026-11-03",
- "fetched_at": "2026-11-03T14:39+08:00",
+ "fetched_at": "2026-11-03T16:34+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -11,18 +11,138 @@
    "TechAfrica News": 12,
    "Condia": 25,
    "ITWeb Africa": 25,
-   "Club of Mozambique": 1,
+   "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 1,
    "非洲科技·聚合": 9,
-   "中非科技·聚合": 17
+   "中非科技·聚合": 16
   },
   "total": 60,
-  "ai_flagged": 16,
+  "ai_flagged": 15,
   "aiinfra_flagged": 2,
-  "countries": 6
+  "countries": 7
  },
  "items": [
+  {
+   "title": "Circle taps ex-Yellow Card executive Gillian Darko to lead Africa expansion",
+   "brief": "The move comes as Circle seeks to expand stablecoins’ use in cross-border payments, remittances, and business transactions across emerging economies.",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/03/circle-appoints-gillian-darko/",
+   "date": "Tue, 03 Nov 2026 08:29:59 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "NVIDIA and Cisco Unveil USFP Optical Technology for Next-Generation AI Factories",
+   "brief": "NVIDIA  and Cisco  have announced plans for Ultra-Dense Small Form Factor Pluggable (USFP), a new high-density 400Gb/s-per-lane optical module designed to equip the hardware ecosystem ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/11/03/nvidia-cisco-unveil-usfp-optical-technology-ai-factories/",
+   "date": "Tue, 03 Nov 2026 08:22:54 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Bahrain’s Mumtalakat and BENEFIT Partner to Explore Fintech Investment Opportunities",
+   "brief": "Bahrain Mumtalakat Holding Company (“Mumtalakat”) , the sovereign wealth fund of the Kingdom of Bahrain, and BENEFIT,  the Kingdom’s leading company in financial technology and electronic ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/11/03/bahrains-mumtalakat-and-benefit-partner-to-explore-fintech-investment-opportunities/",
+   "date": "Tue, 03 Nov 2026 07:58:19 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Turning data into measurable business value",
+   "brief": "A successful master data management programme must maintain an unbroken thread connecting strategic intent to technical execution.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/turning-data-into-measurable-business-value/LPp6V7rBrO17DKQz",
+   "date": "Tue, 03 Nov 2026 09:37:11 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Ghana Reaffirms Commitment to Press Freedom as MFWA Launches Journalist Safety Policy",
+   "brief": "Ghana’s Minister for Communication, Digital Technology and Innovations,  Samuel Nartey George, has reaffirmed the government’s commitment to protecting press freedom and holding individuals accountable for ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/11/03/ghana-press-freedom-mfwa-launches-journalist-safety-policy/",
+   "date": "Tue, 03 Nov 2026 07:30:23 +0000",
+   "country": "🇬🇭 加纳",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Rise of Fearless raises $1 million ahead of a relaunch",
+   "brief": "Rise of Fearless, a mobile battle royale inspired by the Battle of Adwa, has raised $1 million via a SAFE from Epic Edges Capital. Founder Kanessa Muluneh plans to relaunch the game after an upgrade.",
+   "source": "Condia",
+   "url": "https://thecondia.com/rise-of-fearless-raises-1m-epic-edges/",
+   "date": "Tue, 03 Nov 2026 07:30:00 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Mozambique’s INCM Equips School in Inhambane with 31 Internet-Connected Computers",
+   "brief": "Mozambique’s National Communications Institute (INCM)  has provided a computer room equipped with 31 internet-connected computers to a school in Inhambane Province, expanding access to digital ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/11/03/mozambique-incm-equips-inhambane-school-31-internet-connected-computers/",
+   "date": "Tue, 03 Nov 2026 07:24:40 +0000",
+   "country": "🇲🇿 莫桑比克",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Ghana Urges Africa to Shape Global Internet and AI Governance",
+   "brief": "Ghana’s Minister for Communication, Digital Technology and Innovations,  Samuel Nartey George, has called on African countries to take a more active role in shaping global ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/11/03/ghana-urges-africa-to-shape-global-internet-and-ai-governance/",
+   "date": "Tue, 03 Nov 2026 07:14:00 +0000",
+   "country": "🇬🇭 加纳",
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Beyond AI-assisted observability: Is Africa ready for autonomous IT operations?",
+   "brief": "Avior, the agentic AI application from SolarWinds, is designed to take on first-line IT operations work, freeing teams to become more strategic and proactively address the needs of their digital estates.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/beyond-ai-assisted-observability-is-africa-ready-for-autonomous-it-operations/P3gQ2MGA6ZZvnRD1",
+   "date": "Tue, 03 Nov 2026 08:35:18 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Software engineering quality is about more than finding bugs",
+   "brief": "Software testing is about understanding how the software behaves when people use it in unexpected ways, says Nelisiwe Mbense, QA lead at Retro Rabbit / SmarTek21.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/software-engineering-quality-is-about-more-than-finding-bugs/raYAyMor69J7J38N",
+   "date": "Tue, 03 Nov 2026 08:34:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "AI wave creates new ICT skills demand in SA",
+   "brief": "Demand for AI-related skills is soaring and ICT practitioners are embracing the technology in SA, according to results from the 2026 IITPSA ICT Skills Survey.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/ai-wave-creates-new-ict-skills-demand-in-sa/o1Jr5MxP3YnMKdWL",
+   "date": "Tue, 03 Nov 2026 08:33:00 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Wipro Intelligence: Proof over promise for SA enterprises",
+   "brief": "Wipro Intelligence embeds AI across build, run and optimise to deliver outcomes that clients can trust.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/wipro-intelligence-proof-over-promise-for-sa-enterprises/kYbe97XbjXpqAWpG",
+   "date": "Tue, 03 Nov 2026 08:32:00 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
   {
    "title": "👨🏿‍🚀TechCabal Daily – AGOA, going, gone",
    "brief": "In today's edition: SA, Rwanda lose AGOA privileges || BII bullish on Africa's frontier markets || Netflix: South African titles remain relevant || Global firms have a deadline to comply with Kenyan tax rules",
@@ -114,6 +234,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "Nvidia stock faces China setback as Huawei reaches 28% share",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNSGV3bjdaaWlkUmVrWlFqU0kzNktXdFo0QWsycTVXUnB0OUFRSDVISzEteXdWVEhPX05Vbk5ScjlMalVoMVgwczNHZ1dHdkZ0UlB2bTRuendFTGlzamRrMDRzQ3cyM3h0bTZvc09hb2Z3ZU9kX2JzN2VDS0pXTF",
+   "source": "ad-hoc-news.de·聚合",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSGV3bjdaaWlkUmVrWlFqU0kzNktXdFo0QWsycTVXUnB0OUFRSDVISzEteXdWVEhPX05Vbk5ScjlMalVoMVgwczNHZ1dHdkZ0UlB2bTRuendFTGlzamRrMDRzQ3cyM3h0bTZvc09hb2Z3ZU9kX2JzN2VDS0pXTFF5algyeGFhbHRVQTRBdzAxVXZuOExYRXIwQnI0UjZpbGQ4WGRwMHo3WjVwaU9tZXl0WlJUTEpLc204NEhyYjRYWQ?oc=5",
+   "date": "Mon, 02 Nov 2026 16:19:02 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
    "title": "FCMB and Mastercard Launch AgroPass to Expand Finance Access for Nigerian Farmers",
    "brief": "First City Monument Bank (FCMB)  and Mastercard  have launched AgroPass, a digital platform designed to expand access to finance, markets and agricultural services for smallholder ......",
    "source": "TechAfrica News",
@@ -131,16 +261,6 @@
    "date": "Mon, 02 Nov 2026 14:51:56 +0000",
    "country": null,
    "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Mozambique: 25 technicians trained in digital tools and rural business planning to improve access to finance",
-   "brief": "The Ministry of Agriculture, Environment and Fisheries (MAAP), through the National Directorate of Extension (DINAE), has trained 25 technicians in digitalisation and rural business planning, with the aim of improving sm",
-   "source": "Club of Mozambique",
-   "url": "https://clubofmozambique.com/news/mozambique-25-technicians-trained-in-digital-tools-and-rural-business-planning-to-improve-access-to-finance/",
-   "date": "Mon, 02 Nov 2026 14:41:42 +0000",
-   "country": "🇲🇿 莫桑比克",
-   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -244,26 +364,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "GSMA Re-Elects Gopal Vittal as Chair for 2027–2028 Term",
-   "brief": "The GSMA  Board of Directors has re-elected Gopal Vittal as Chair for the upcoming 2027-2028 Board term, until December 2028. Mr Vittal has served on ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/11/02/gsma-re-elects-gopal-vittal-chair-2027-2028-term/",
-   "date": "Mon, 02 Nov 2026 13:27:47 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "MTN CEO Ralph Mupita Re-Elected as GSMA Deputy Chair Until 2028",
-   "brief": "MTN Group  President and Chief Executive Officer Ralph Mupita has been re-elected by his peers on the GSMA  as a Deputy Chair, extending his term ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/11/02/mtn-ceo-ralph-mupita-re-elected-gsma-deputy-chair-2028/",
-   "date": "Mon, 02 Nov 2026 13:23:05 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "MTN Nigeria moves MoMo to new platform as fintech revenue falls 26%",
    "brief": "MTN Nigeria’s fintech revenue has yet to recover to pre-suspension levels after the company temporarily halted its airtime and data credit service between April and June 2026, even as it migrates mobile money customers t",
    "source": "TechCabal",
@@ -280,56 +380,6 @@
    "url": "https://techcabal.com/2026/11/02/inecs-ai-photo-problem-runs-deeper/",
    "date": "Mon, 02 Nov 2026 13:17:10 +0000",
    "country": "🇳🇬 尼日利亚",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "South Africa’s AI regulation problem is bigger than its delayed policy",
-   "brief": "South Africa’s revised AI policy must go beyond ethical principles to address regulatory capacity, consumer protection and the enforcement of rules governing artificial intelligence.",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/11/02/sa-ai-policy-enforcement-challenge/",
-   "date": "Mon, 02 Nov 2026 13:11:16 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Google Launches Digital And AI Skills Platform For Africa",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQTlFVaURYT2tUVnlSX2NjVmMyX2NjU2NUVzlRRVMxb05GTURINXh6ZHphUmM4eDYybHhERkZPdlNYLVl4Z2s1RFY0ME93UElFRVFKYWhJUW4xdURJMFlzZlkwWUpPMS1sdUtBclo0b2xRMnNoSWZaSTZOUzNTTV",
-   "source": "CIO Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTlFVaURYT2tUVnlSX2NjVmMyX2NjU2NUVzlRRVMxb05GTURINXh6ZHphUmM4eDYybHhERkZPdlNYLVl4Z2s1RFY0ME93UElFRVFKYWhJUW4xdURJMFlzZlkwWUpPMS1sdUtBclo0b2xRMnNoSWZaSTZOUzNTTVNiNE9pcDg1QQ?oc=5",
-   "date": "Mon, 02 Nov 2026 13:07:32 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "EASE Expands AI-Enabled Healthcare Equipment Financing Across African Markets",
-   "brief": "EASE Holdings BV,  the medical equipment-as-a-service provider, has secured US$9.5 million in additional equity from AAFC Group Inc, a U.S.-based investor in emerging-market asset-backed finance, ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/11/02/ease-expands-ai-enabled-healthcare-equipment-financing-africa/",
-   "date": "Mon, 02 Nov 2026 13:03:53 +0000",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Ericsson Launches 5G-Based System to Detect and Track Drones",
-   "brief": "Ericsson  has introduced its Integrated Sensing and Communication (ISAC) System, a new solution that uses existing mobile network infrastructure to detect and track low-flying, fast-moving ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/11/02/ericsson-launches-5g-system-detect-track-drones/",
-   "date": "Mon, 02 Nov 2026 12:53:16 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "South Africa’s OCS Partners with Digital Parks Africa to Expand Enterprise AI Infrastructure",
-   "brief": "Oxide Cloud Services (OCS) , a subsidiary of Data Sciences Corporation, is expanding its enterprise artificial intelligence (AI) services in South Africa through a collaboration with ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/11/02/south-africa-ocs-digital-parks-africa-enterprise-ai-infrastructure/",
-   "date": "Mon, 02 Nov 2026 12:44:10 +0000",
-   "country": "🇿🇦 南非",
    "is_ai": true,
    "is_aiinfra": false
   },
@@ -361,16 +411,6 @@
    "date": "Mon, 02 Nov 2026 13:09:42 +0200",
    "country": null,
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "eZAR opens rand stablecoin to SA public",
-   "brief": "The digital currency goes live, allowing partners to offer branded crypto wallets, while sharing returns generated by its money market reserves.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/ezar-opens-rand-stablecoin-to-sa-public/8OKdWMDXO8jMbznQ",
-   "date": "Mon, 02 Nov 2026 12:49:49 +0200",
-   "country": null,
-   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -444,26 +484,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "LockDown IT secures SA’s 2026 Local Government Elections",
-   "brief": "Defending democracy's digital footprint: LockDown IT secures the IEC for the 2026 Local Government Elections.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/lockdown-it-secures-sas-2026-local-government-elections/Pero3MZ3VzLqQb6m",
-   "date": "Mon, 02 Nov 2026 11:04:00 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Global SIS powerhouse Academia by Serosoft named among world’s top 500 by TIME, Statista – accelerating AI-driven digital transformation across African higher education",
-   "brief": "The company has been recognised among the Top 500 EdTech companies in the world in the TIME-Statista World’s Top EdTech Companies of 2026 ranking.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/global-sis-powerhouse-academia-by-serosoft-named-among-worlds-top-500-by-time-statista-accelerating-ai-driven-digital-transformation-across-african-higher-education/RgeVDqPR3527KJN3",
-   "date": "Mon, 02 Nov 2026 11:03:00 +0200",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
    "title": "Africa's AI startups have attracted $1.3bn. Now comes the hard part",
    "brief": "",
    "source": "African Business",
@@ -534,11 +554,11 @@
    "is_aiinfra": false
   },
   {
-   "title": "Who Still Governs Africa’s Internet Resources?",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE9XM3hrV3BXNnVsOHkyNjN5ckFRQzRDSnBWeXoxdVVzb2pyRThFcmQ1SlUxR1l6RUNfZmhteFppeGF4OTRaSk5NS0NlOEs5eWRHV3ltVW5uTGRYZlp4SzM0dk5NYWpwemRXY1VYRjNobE5la3hIVzFPeGdEUQ?oc=",
-   "source": "CircleID·聚合",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9XM3hrV3BXNnVsOHkyNjN5ckFRQzRDSnBWeXoxdVVzb2pyRThFcmQ1SlUxR1l6RUNfZmhteFppeGF4OTRaSk5NS0NlOEs5eWRHV3ltVW5uTGRYZlp4SzM0dk5NYWpwemRXY1VYRjNobE5la3hIVzFPeGdEUQ?oc=5",
-   "date": "Sun, 01 Nov 2026 03:51:56 GMT",
+   "title": "Trump administration to lend US$100 million to Africell, countering Huawei in Africa",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdHhsTXdnd3FLMjJXUDVVOFNwVmJjTmwwakFaNlo2YzcxMWV0bjJEQmxfSHlSZ1I2eERIekpISkhnOHJUdUhBODN6WFh2NWhraHppclRFYktnUTBHcWl5SnNiakRSSERsOEtPNmRHME14V3ByUU1JQTRnR0l1M2",
+   "source": "Awani International·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdHhsTXdnd3FLMjJXUDVVOFNwVmJjTmwwakFaNlo2YzcxMWV0bjJEQmxfSHlSZ1I2eERIekpISkhnOHJUdUhBODN6WFh2NWhraHppclRFYktnUTBHcWl5SnNiakRSSERsOEtPNmRHME14V3ByUU1JQTRnR0l1M21HSHRNSnljNm03SXFUQWIxQnF0NTZLMmNnSWRPQVJabGpDZmFCcEpFNXBETXBIcGZYU0JvUkxCbG8yaU5DSWRXWHFsUQ?oc=5",
+   "date": "Sat, 31 Oct 2026 22:33:40 GMT",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -564,11 +584,11 @@
    "is_aiinfra": false
   },
   {
-   "title": "Information Regulator CIO scoops IT personality of the year award",
-   "brief": "Information Regulator CIO Tando Luyaba wins IT Personality, as two CIOs share top honours at the 2026 IITPSA President’s Awards.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/information-regulator-cio-scoops-it-personality-of-the-year-award/DZQ58vV8glEMzXy2",
-   "date": "Sat, 31 Oct 2026 10:30:00 +0200",
+   "title": "US Fights To Counter China’s Telecom Push In Africa",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE42RU00RFptZ1BXMkoyRmhlUkpjOUhfTVNXNklmN2cweGxYdkRoX18tNVZJR25Rb0N2aUp4dTg4RTVKNktSbzFsWHM3NFVqbVFXY0tMSVlPRjNVMzdsbkJTYlV0OU5KdFl0TEtJZlNLZER1MkQ3UFJtdjU5ZG9iUQ",
+   "source": "LEADERSHIP Newspapers·聚合",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE42RU00RFptZ1BXMkoyRmhlUkpjOUhfTVNXNklmN2cweGxYdkRoX18tNVZJR25Rb0N2aUp4dTg4RTVKNktSbzFsWHM3NFVqbVFXY0tMSVlPRjNVMzdsbkJTYlV0OU5KdFl0TEtJZlNLZER1MkQ3UFJtdjU5ZG9iUQ?oc=5",
+   "date": "Sat, 31 Oct 2026 13:36:33 GMT",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -599,26 +619,6 @@
    "source": "ITWeb Africa",
    "url": "https://www.itweb.co.za/article/quectel-sues-telit-alleging-false-statements-cybersquatting-and-unfair-competition/wbrpOqg2e1PMDLZn",
    "date": "Fri, 30 Oct 2026 17:41:00 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Kenya Airways Selects PROS to Advance Offer Optimization and Support Growth Strategy",
-   "brief": "PROS, a leading provider of AI-powered solutions for airline commercial performance, today announced that Kenya Airways (KQ) is partnering with PROS to support the airline’s revenue optimization and growth strategy follo",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/kenya-airways-selects-pros-to-advance-offer-optimization-and-support-growth-strategy/VgZey7JlrjVqdjX9",
-   "date": "Fri, 30 Oct 2026 16:41:00 +0200",
-   "country": "🇰🇪 肯尼亚",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "FirstBank partners electronics retailer Pointek to push its BNPL product",
-   "brief": "FirstBank has partnered with Pointek to offer phones, laptops and appliances on its FirstEase BNPL product. Repayment runs up to six months at 3% interest.",
-   "source": "Condia",
-   "url": "https://thecondia.com/firstbank-pointek-firstease-bnpl-phones-laptops/",
-   "date": "Fri, 30 Oct 2026 14:00:16 +0000",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
