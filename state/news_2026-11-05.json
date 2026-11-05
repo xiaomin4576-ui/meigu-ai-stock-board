@@ -1,10 +1,10 @@
 {
  "asof": "2026-11-05",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-11-05T04:34+08:00",
+ "generated_at": "2026-11-05T14:35+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 7,
+  "cross_day_suppressed": 3,
   "cluster_label": "",
   "cluster_dropped": [],
   "backfilled": 0
@@ -12,19 +12,19 @@
  "items": [
   {
    "cat": "macro",
-   "title": "民主党赢国会 华尔街 rally 数据中心股跌",
-   "brief": "中期选举民主党大胜后美股上涨，但数据中心相关股票下挫，市场押注分裂政府减少政策冲击。",
-   "chain": "分裂国会→政策不确定性下降、风险偏好回升→美股AI高久期票分化，A股算力链情绪跟随但需防数据中心监管风险",
+   "title": "民主党中期选举大胜，市场押注政策冲击减少",
+   "brief": "民主党拿下国会两院，投资者认为分裂政府意味着政策不确定性下降，美股与风险资产走高。",
+   "chain": "分裂国会→政策冲击概率下降→美股风险偏好回升→A股算力链情绪面受益",
    "impact": 9,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbWpBY1VHMFd5a2tJXzM1RFFFQTl5Y09aVDgza095UkJKVzNnQ3F4VW1pMzBEazJKMGhlS21zUEdCLXJPOVhWdXRnZmlLRHliMDdqYmt2b2ZWYk5FeW85VnBSalpRd1E5b3BVSUZDU2VLMUNiQm41YWw1SUgxV2dWaUFZUkI2MllhY0Z5ZkZHcWNuQmdCaHBKbVRhck1meTRz?oc=5",
-   "ts": "2026-11-04T17:15:12+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQa19fZ0FrSFljZ2xPQlpBRmJ4NUFwcGZfME5lOGRNYnVKb2dtdldILTNDRHBwM3c1YzRiWVpXVUY1c3NzWVlINHAweEFjTUNaeTZwNjc3Q2swM2U4ZEk3SWJvdHJkVEQ4dUU4WEFnaEhoMDFONGhSd1I3TkthSkRmbWtQUzRBRjRuNGprcEEweUJTb3RXRktwaHZKMVlEM1RyaGZTVUluX3o5dXRlcElQVS1XVVVuTlE2?oc=5",
+   "ts": "2026-11-04T20:43:17+00:00"
   },
   {
    "cat": "macro",
-   "title": "民主党掌国会 金银跳涨美元走弱",
-   "brief": "民主党夺下国会后黄金白银大涨、美元下跌，避险与去美元化预期升温。",
-   "chain": "政治不确定性+财政扩张预期→实际利率下行、美元走弱→美股AI成长股贴现分母改善但风险偏好分化→A股算力链情绪偏暖",
+   "title": "民主党掌控国会，金银跳涨美元走弱",
+   "brief": "中期选举结果出炉后黄金白银上涨、美元回落，避险与政策不确定性交易主导贵金属。",
+   "chain": "选举不确定性+财政扩张预期→美元走弱、实际利率预期下移→美股AI高久期票估值分母改善→A股算力链情绪偏暖",
    "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/04/gold-silver-platinum-dollar-midterms.html",
@@ -32,183 +32,193 @@
   },
   {
    "cat": "macro",
-   "title": "现货黄金涨3.52% 白银涨5.28%",
-   "brief": "国际贵金属扩大涨幅，现货金报4068美元/盎司，白银报52.4美元/盎司。",
-   "chain": "避险+实际利率下行驱动→美股AI高久期票估值分母改善→A股算力链风险偏好传导偏正面",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611053922363414.html",
-   "ts": "2026-11-05 01:39:57"
+   "title": "英国央行三年来首次加息在即",
+   "brief": "英国央行准备启动三年来首次加息，全球利率路径再添变数。",
+   "chain": "BOE转鹰→全球利率中枢上移预期→压制美股高估值成长股→A股算力链估值情绪承压",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYXM1eE1qNm05dkg5WWJabktscTRfLXlCdktDcTJYRjYzR2RLUXc1UkdTZHFwSzNCV2NxQTdPT2JrRTVENFNOeTdiYWtFZzZ0dFowUXV1anpnSWZudktCR3FwZm9QMFhJUTJtckJfdlpQM21seG1BVEV0MWpfNXJOZjhhcEwzUG5XZ2FNRk9RS0JrSFU4bElfdTFB?oc=5",
+   "ts": "2026-11-05T00:03:00+00:00"
   },
   {
    "cat": "macro",
-   "title": "欧央行管委：通胀扩散则利率需上升",
-   "brief": "欧洲央行管委卡扎克斯称若通胀风险扩散利率需上调，可能逐步加息。",
-   "chain": "欧央行鹰派→全球利率中枢上移预期→美股AI成长股贴现分母承压→A股算力链估值情绪偏空",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611053922367852.html",
-   "ts": "2026-11-05 02:49:06"
-  },
-  {
-   "cat": "macro",
-   "title": "杰弗里斯拟立法终止关税与伊朗战争",
-   "brief": "众议院民主党领袖称将推动法案终止特朗普关税措施并结束伊朗战争。",
-   "chain": "关税与战争政策转向预期→美股风险偏好改善、通胀预期回落→A股出口链与算力链情绪偏暖",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611053922363385.html",
-   "ts": "2026-11-05 01:33:26"
+   "title": "白宫小组推迟美联储理事库克听证至12月",
+   "brief": "白宫相关小组将美联储理事Lisa Cook的听证延后至12月14日，美联储人事不确定性延长。",
+   "chain": "美联储人事悬而未决→货币政策独立性受关注→美股利率敏感板块波动→A股算力链情绪扰动",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html",
+   "ts": "Thu, 05 Nov 2026 01:11:26 GMT"
   },
   {
    "cat": "geo",
-   "title": "特朗普承认中期选举因伊朗战事失利",
-   "brief": "特朗普选后首次露面称失利很大程度因与伊朗冲突，但表示重来仍会作同样决定。",
-   "chain": "伊朗战事成政治包袱→美股国防与能源板块波动加大→A股军工与算力链情绪受地缘风险扰动",
+   "title": "伊朗革命卫队称霍尔木兹两油轮拖船起火",
+   "brief": "伊朗革命卫队表示霍尔木兹海峡两艘油轮及一艘拖船起火，海峡通航安全风险升温。",
+   "chain": "霍尔木兹海峡事故→原油航运风险溢价→美股能源板块波动→A股算力链影响有限",
    "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611053922367617.html",
-   "ts": "2026-11-05 02:30:46"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN2pHcmkxeDJDM184TXNiS2xIOUdXdHNrTXcyVHFKcUNGZEgtanhxTm9TR0UxWjA5cGlXSy12RVBLT3JYYVVBVEltbXFTNWtFT09OMVBIUkFEVlZiaW1mcVhPM3JfQ2tnZm1uRnJSQlVoX1FfNTl5bmh1c1pZMUJBVlVZeVdoWnlQMURoR0g0WVZYcjU4WDloZzRxMHh3Q24zMlRSYXV3MUFZTGxEQXM3NXNuNExxUQ?oc=5",
+   "ts": "2026-11-05T04:21:00+00:00"
   },
   {
    "cat": "geo",
-   "title": "土耳其议会将批准与沙特巴基斯坦防务 pact",
-   "brief": "胡塞袭击加剧之际，土耳其议会准备批准与沙特、巴基斯坦的三边防务协定。",
-   "chain": "中东安全格局重组→美股能源与国防板块风险溢价上升→A股军工链情绪受提振",
+   "title": "美国制裁印度土耳其涉伊实体与个人",
+   "brief": "美方以协助伊朗为由制裁印度、土耳其多家企业与个人，制裁外溢至第三方国家。",
+   "chain": "制裁扩围→中东博弈升级→美股风险偏好受压→A股算力链情绪面偏谨慎",
    "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORDg5Y29OampmTGVlcU05M3BFOUVIOGhxY0pwcHBtb2owY29CQTVvZ3FkQUVwblFaRHkwTWpfSjRhTk1FOHB5czhNYkx4THRja1I0ZlRsMFVTWFI1WWFWY3ZLTk5fTGJOZEN5bVlCaTFXN2ZIZnEtZUFmaHNzOU05dUpLaHBKSUJMRGJ2ZC1kMHRWYUlZNE4zRXp5THp3TU41V3plWFh3Q2ZrSGMwb3N2dFl6cWo3VXdBTHFYWHp1WUhRZlBTR2dqSWY0OA?oc=5",
-   "ts": "2026-11-04T14:09:44+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSEhmUWlhLUFxUEhVeEJxVXdwc3FtVndOSUg4YlNfQ2RyYUt2OUFlM200M1h3M3NLZEFpU2c1MHJza2JPV2dkWGRWU05sMlp2ZmRqVUxUa3Rvd2RSeGFyQXctSDZPYTNfUmEza1lLSEY5SUN2OUdmZkhHQW5tTTcza3FfbGZ2X1ZkZk5VWmVWWHRhLW9pZmx3QmJOSVJLdWR1OHRNaUJoQVVKZw?oc=5",
+   "ts": "2026-11-04T19:06:12+00:00"
   },
   {
    "cat": "geo",
-   "title": "乌无人机袭击俄南部Ozon仓储起火",
-   "brief": "乌克兰无人机打击致俄南部电商Ozon物流枢纽起火，俄乌冲突持续升级。",
-   "chain": "俄乌冲突升级→美股能源与国防波动→A股军工与算力链情绪受地缘扰动",
+   "title": "沙特与叙利亚防长签署防务合作协议",
+   "brief": "沙特与叙利亚国防部签署合作协议，中东地区力量重组持续推进。",
+   "chain": "中东格局重组→区域风险溢价变化→美股能源与防务板块反应→A股算力链间接影响",
    "impact": 5,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVjMwSG5rWWpTb3hLVHAyU2JRLXplaDlTaFlLVHBMTG5MOS00VzZ5Ni14clRRMlU2eWZ1dTlFeHJFNHlaTjYxTzNQVVFTNkRaVG5VX0JMTU14NHpINEFyMzhvZndNMHV1WWdSS29HYlotcmJOOF9laXlpMkMwUWcwTG1xLTdFVnFHRHk3V3JKd1l5ZzlWbElqZzNNM0M3cE9Vd2ZJa2VYNm9tcldkN0Fv?oc=5",
-   "ts": "2026-11-04T13:44:23+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQmUtR3gzU3paNkVHcE1aTUhvSXZ0YUVRdlpJak41aE1CMDdxLW1DUG5YOWI4cm1ZVTNabWcxR3hQNnlkRW5makZQeVhmRU1XcXZzN0VwMXpTaVQyeWo5SGFjYVQtUHlxXzEzUUxDdFd6WWl6TDNSanVycmhvVFRXTzNEd2lrS2JZSUNPZE5MajdJUEhKY1NjNnBMUzdBcFpnQ2dKTE5KVHJzd2lka3V1RW9KNFFUQkxGNnMyeVg3NDZsQQ?oc=5",
+   "ts": "2026-11-04T20:21:44+00:00"
   },
   {
    "cat": "geo",
-   "title": "欧盟举行涉乌会谈 讨论战后重建",
-   "brief": "欧盟在布鲁塞尔举行乌克兰问题多方会谈，重点讨论战后重建与经济发展。",
-   "chain": "重建预期升温→美股基建与材料板块受益→A股一带一路与建材链情绪偏暖",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611053922362139.html",
-   "ts": "2026-11-05 01:31:31"
+   "title": "布鲁金斯：特朗普若失势中俄或更强硬",
+   "brief": "布鲁金斯学会认为，若特朗普被视为走向下台，中俄可能采取更强势姿态。",
+   "chain": "美国政治弱化→大国博弈不确定性上升→美股风险溢价抬升→A股算力链情绪承压",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/05/trump-russia-china-summit-apec-midterms.html",
+   "ts": "Thu, 05 Nov 2026 05:58:33 GMT"
   },
   {
    "cat": "oil",
-   "title": "国际油价暴跌 WTI跌8.63% 布伦特跌9.06%",
-   "brief": "WTI报87.8美元、布伦特报94.2美元，油价因伊朗战争政治转向预期大幅下挫。",
-   "chain": "战争结束预期→油价急跌→莫桑比克油气售价与现金流承压，东非项目经济性需重估",
-   "impact": 9,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611053922363539.html",
-   "ts": "2026-11-05 01:42:56"
+   "title": "油价四连跌，伊朗战争升级风险预期降温",
+   "brief": "市场预期伊朗战争升级风险下降，国际油价连续第四个交易日下跌。",
+   "chain": "伊朗风险溢价回落→Brent/WTI走低→东非油气项目经济性短期承压、莫桑比克LNG售价联动下行",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdzM2c3YzcktwU285aS1QaVVzTk51WFR0UnpxMXlnaFdEd2RtZWYzMm81TDZQUTJZS0ZlLXFVV3ZhcGFibkdLZm9Remo3YjlhNHJTd1lxSXNMUFNzejhIMkt0TlFRXy1RZl9TdTkxbDhfdjQxUEIzcUhaYlpOMjZJSVViNmVPV0dRV0RmaTJ3dDJ3QUs4TTFleFlnZnNyUHhVYlQ5NldaZVRZRFd5dU5nVnRKVUQ0UFE?oc=5",
+   "ts": "2026-11-05T05:00:22+00:00"
   },
   {
    "cat": "oil",
-   "title": "阿联酋考虑建第三条霍尔木兹 bypass 管道",
-   "brief": "阿联酋权衡建设绕开霍尔木兹海峡的第三条输油管道，以降低海峡风险敞口。",
-   "chain": "绕行管道→中长期降低霍尔木兹溢价、油价风险溢价回落→莫桑比克LNG与油气出口竞争格局变化",
-   "impact": 6,
+   "title": "原油跌破90美元，万斯归咎伊朗战争拖累选情",
+   "brief": "原油价格跌破每桶90美元，万斯将共和党选举失利归因于伊朗战争。",
+   "chain": "油价跌破90→美国政治压力转向能源政策→莫桑比克油气经营需关注价格中枢下移",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html",
+   "ts": "Wed, 04 Nov 2026 20:14:52 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "民主党横扫国会，油价续跌搅动能源市场",
+   "brief": "民主党大胜后能源政策预期生变，油价延续跌势，能源市场重新定价。",
+   "chain": "美国能源政策转向预期→油价下行→东非LNG与油气项目长期合同定价环境变化",
+   "impact": 7,
    "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Crude-Oil/UAE-Weighs-Plans-for-Third-Strait-of-Hormuz-Bypass-Pipeline.html",
-   "ts": "Wed, 04 Nov 2026 14:00:00 -0600"
-  },
-  {
-   "cat": "oil",
-   "title": "美页岩油商Enduring拟40亿美元出售",
-   "brief": "美国页岩油生产商Enduring Resources IV所有方探索以超40亿美元估值出售公司。",
-   "chain": "页岩油资产并购活跃→中期供应弹性预期→油价中枢承压→莫桑比克油气项目融资与估值参照",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611053922370160.html",
-   "ts": "2026-11-05 03:49:04"
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Continue-to-Fall-as-Democratic-Sweep-Shakes-Energy-Markets.html",
+   "ts": "Thu, 05 Nov 2026 00:30:00 -0600"
   },
   {
    "cat": "gas",
-   "title": "极地涡旋威胁欧洲天然气储备",
-   "brief": "极地涡旋来袭，欧洲天然气库存面临快速消耗风险，TTF价格承压上行。",
-   "chain": "寒潮→欧洲LNG抢购、TTF走高→全球LNG现货分流，莫桑比克Cabo Delgado LNG出口议价窗口改善",
-   "impact": 7,
+   "title": "非洲LNG出口将激增175%，买家逃离霍尔木兹",
+   "brief": "买家规避霍尔木兹风险，非洲LNG出口预计大增175%，东非气源战略地位上升。",
+   "chain": "霍尔木兹风险→买家转向非洲气源→莫桑比克/东非LNG出口与议价能力提升",
+   "impact": 8,
    "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Natural-Gas/Polar-Vortex-Puts-Europes-Gas-Reserves-at-Risk.html",
-   "ts": "Wed, 04 Nov 2026 13:00:00 -0600"
+   "url": "https://oilprice.com/Energy/Natural-Gas/Africas-LNG-Exports-Set-to-Soar-175-as-Buyers-Flee-Hormuz.html",
+   "ts": "Wed, 04 Nov 2026 19:00:00 -0600"
   },
   {
    "cat": "tech",
-   "title": "选举消除不确定性 超大规模云与苹果大涨",
-   "brief": "中期选举结果消除投资者不确定性后，超大规模云厂商与苹果股价大涨。",
-   "chain": "政策不确定性消除→美股云计算与硬件龙头估值修复→A股算力链与消费电子链情绪偏暖",
+   "title": "高通财报指引疲弱，股价跌7%",
+   "brief": "内存短缺拖累智能手机销售，高通业绩指引不及预期，股价下挫7%。",
+   "chain": "存储短缺压制手机链→美股半导体分化→A股存储与消费电子链关注供给紧张",
    "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html",
-   "ts": "Wed, 04 Nov 2026 19:37:43 GMT"
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html",
+   "ts": "Wed, 04 Nov 2026 23:38:11 GMT"
   },
   {
    "cat": "tech",
-   "title": "AI数据中心股与SpaceX跌 得州州长选情生变",
-   "brief": "得州州长选举结果推升数据中心放缓风险，AI数据中心股与SpaceX下跌。",
-   "chain": "地方政治风险→美股AI基建资本开支预期下修→A股算力链（服务器/电力设备）情绪承压",
+   "title": "Snap三季度营收不及预期，股价跌超10%",
+   "brief": "Snap第三季度营收低于预期，股价盘中跌逾10%，广告业务承压。",
+   "chain": "广告需求疲软→美股社媒板块承压→A股传媒与AI应用链情绪受抑",
    "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
-   "ts": "Wed, 04 Nov 2026 14:43:57 GMT"
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/04/snap-q3-earnings-report-2026.html",
+   "ts": "Thu, 05 Nov 2026 00:14:47 GMT"
   },
   {
    "cat": "tech",
-   "title": "中国扩大海外矿业股权 收紧关键矿产掌控",
-   "brief": "中国扩大海外矿业持股，强化对关键矿产的控制，供应链博弈加剧。",
-   "chain": "关键矿产控制力上升→美股芯片与电池材料成本担忧→A股算力链上游材料自主可控逻辑强化",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/04/china-critical-minerals-rare-earths-trump-japan-export-control-.html",
-   "ts": "Wed, 04 Nov 2026 13:00:01 GMT"
+   "title": "Figma业绩超预期仍下跌，押注AI长期增长",
+   "brief": "Figma财报超预期但因加大AI投入、优先长期增长，股价下挫。",
+   "chain": "AI转型侵蚀短期利润→美股软件板块估值分化→A股企业软件链参考",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/04/figma-fig-q3-earnings-report-2026.html",
+   "ts": "Wed, 04 Nov 2026 23:02:39 GMT"
   },
   {
    "cat": "tech",
-   "title": "欧洲冰箱网络攻击瞄准血库",
-   "brief": "最新一轮欧洲制冷设备网络攻击波及血库，关键基础设施网络安全风险上升。",
-   "chain": "工控安全事件→美股网络安全板块受益→A股网络安全与算力链情绪偏暖",
-   "impact": 4,
+   "title": "芯片人才争夺战：商业机密与中国对手崛起",
+   "brief": "全球芯片行业人才争夺加剧，商业机密纠纷增多，中国竞争对手快速崛起。",
+   "chain": "芯片人才与管制博弈→美股半导体长期竞争格局变化→A股国产替代链受益",
+   "impact": 5,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/04/blood-bank-fridges-cyberattacks.html",
-   "ts": "Wed, 04 Nov 2026 14:15:32 GMT"
+   "url": "https://www.cnbc.com/2026/11/05/semiconductor-china-korea-talents-rivalry.html",
+   "ts": "Thu, 05 Nov 2026 03:53:18 GMT"
   },
   {
    "cat": "ai",
-   "title": "苹果下调员工AI使用限额与预算",
-   "brief": "苹果将部分工程师每日AI使用额度从300美元降至200美元，并削减内部AI预算以控支出。",
-   "chain": "AI内部支出收缩→美股AI应用变现预期降温→A股算力链（推理需求）情绪偏空",
+   "title": "大摩：民主党胜选不改AI资本开支大周期",
+   "brief": "摩根士丹利认为民主党掌控国会或给AI基建带来挑战，但AI资本开支大周期仍将延续。",
+   "chain": "政策扰动有限→美股AI资本开支延续→A股算力链（光模块/服务器）需求逻辑不变",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611053923433632.html",
+   "ts": "2026-11-05 14:24:48"
+  },
+  {
+   "cat": "ai",
+   "title": "阿里云超节点Day0适配Kimi K3.1 Pro",
+   "brief": "阿里云灵骏真武M890超节点完成月之暗面Kimi K3.1 Pro权重Day0适配，支持主流推理框架。",
+   "chain": "国产模型+国产算力适配提速→A股算力租赁与国产芯片链催化→美股AI硬件需求印证",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611053923409935.html",
+   "ts": "2026-11-05 13:59:05"
+  },
+  {
+   "cat": "ai",
+   "title": "算力租赁概念走高，青云科技20cm涨停",
+   "brief": "A股算力租赁板块持续走强，青云科技涨停，多只个股涨超10%。",
+   "chain": "算力需求预期升温→A股算力租赁链走强→映射美股AI基础设施景气",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611053922370086.html",
-   "ts": "2026-11-05 03:46:19"
+   "url": "https://finance.eastmoney.com/a/202611053923419467.html",
+   "ts": "2026-11-05 14:09:06"
   },
   {
    "cat": "ai",
-   "title": "中期选举多项公投否决数据中心",
-   "brief": "2026中期选举中除一项外所有数据中心相关公投均遭选民否决，AI基建落地阻力上升。",
-   "chain": "地方审批阻力→美股AI数据中心资本开支放缓预期→A股算力链（IDC/电力）情绪承压",
+   "title": "国产大模型迭代，港股通互联网ETF涨超7%",
+   "brief": "智谱API商业化超预期、MiniMax开源模型调用回升，国产大模型持续迭代。",
+   "chain": "国产模型商业化提速→港股互联网与AI应用走强→A股AI应用链情绪传导",
    "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611053923435641.html",
+   "ts": "2026-11-05 14:26:13"
+  },
+  {
+   "cat": "ai",
+   "title": "中期选举投票多项否决数据中心议案",
+   "brief": "2026中期选举中，除一项外所有涉及数据中心的公投议案均遭选民否决。",
+   "chain": "数据中心选址阻力上升→美股AI基建扩张节奏受关注→A股算力链中期需求预期扰动",
+   "impact": 5,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/04/data-center-ballot-measures-2026-midterm.html",
-   "ts": "Wed, 04 Nov 2026 19:51:18 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "CrowdStrike推kill switch拦截失控AI代理",
-   "brief": "CrowdStrike CEO称新kill switch可即时阻断失控AI代理，AI安全治理产品化。",
-   "chain": "AI安全需求落地→美股网络安全与AI治理板块受益→A股AI安全与算力链情绪偏暖",
-   "impact": 4,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/03/crowdstrikes-new-kill-switch-can-stop-rogue-ai-agents-in-their-tracks-ceo-says.html",
-   "ts": "Tue, 03 Nov 2026 23:37:07 GMT"
+   "ts": "Wed, 04 Nov 2026 22:29:51 GMT"
   }
  ]
 }
