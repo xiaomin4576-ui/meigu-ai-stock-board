@@ -1,6 +1,6 @@
 {
  "asof": "2026-11-05",
- "fetched_at": "2026-11-05T14:35+08:00",
+ "fetched_at": "2026-11-05T16:30+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -11,18 +11,108 @@
    "TechAfrica News": 12,
    "Condia": 25,
    "ITWeb Africa": 25,
-   "Club of Mozambique": 0,
+   "Club of Mozambique": 1,
    "Zimbabwe Situation": 1,
    "African Business": 1,
    "非洲科技·聚合": 8,
-   "中非科技·聚合": 14
+   "中非科技·聚合": 13
   },
   "total": 60,
-  "ai_flagged": 18,
+  "ai_flagged": 17,
   "aiinfra_flagged": 4,
-  "countries": 8
+  "countries": 11
  },
  "items": [
+  {
+   "title": "Paga expands Direct Debit access for businesses beyond its network",
+   "brief": "Paga is expanding its Direct Debit access to let businesses using Paga Engine collect recurring payments from accounts outside its network.",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/05/paga-engine-expands-direct-debit-access/",
+   "date": "Thu, 05 Nov 2026 08:15:07 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Flutterwave spent a decade moving money. Now it wants to keep more of it.",
+   "brief": "After stints at PayPal, GTBank, a tier-one Nigerian bank, and South Africa’s Standard Bank, Agboola was frustrated by how difficult it was for businesses to move money across African markets.",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/05/flutterwave-financial-infrastructure/",
+   "date": "Thu, 05 Nov 2026 08:09:26 +0000",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Samsung Pay Launches in Morocco with Mastercard Tokenization Technology",
+   "brief": "Mastercard  is supporting the launch of Samsung Pay  in Morocco, expanding consumer choice through secure, convenient mobile payments. Enabled by Mastercard’s tokenization technology, eligible Mastercard ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/11/05/samsung-pay-launches-in-morocco-with-mastercard-tokenization-technology/",
+   "date": "Thu, 05 Nov 2026 08:06:18 +0000",
+   "country": "🇲🇦 摩洛哥",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "MTN Uganda Revenue Rises 8.5% to Ush 2.88 Trillion in Nine Months",
+   "brief": "MTN Uganda Limited  has reported an 8.5% increase in revenue to Ush 2.88 trillion for the nine months ended 30 September 2026, supported by growth ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/11/05/mtn-uganda-revenue-rises-8-5-percent-to-ush-2-88-trillion-in-nine-months/",
+   "date": "Thu, 05 Nov 2026 07:52:49 +0000",
+   "country": "🇺🇬 乌干达",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Ethio telecom and ZTE Deploy Ethiopia’s First Pre-Commercial AI RAN Solution",
+   "brief": "ZTE Corporation,  a global leading provider of integrated information and communication technology solutions, has partnered with Ethio telecom  to deploy Ethiopia’s first pre-commercial AIR RAN ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/11/05/ethio-telecom-zte-deploy-ethiopias-first-pre-commercial-ai-ran-solution/",
+   "date": "Thu, 05 Nov 2026 07:43:29 +0000",
+   "country": "🇪🇹 埃塞俄比亚",
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Egypt’s NTI Partners with Nilesat to Develop Technical Skills",
+   "brief": "Egypt’s National Telecommunications Institute (NTI)  has signed a cooperation protocol with the Egyptian Satellite Company (Nilesat)  to develop specialised training programmes and strengthen the technical ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/11/05/egypts-nti-partners-with-nilesat-to-develop-technical-skills/",
+   "date": "Thu, 05 Nov 2026 07:36:21 +0000",
+   "country": "🇪🇬 埃及",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "South Sudan Regulators Sign MoU to Strengthen Fintech Cybersecurity",
+   "brief": "South Sudan’s National Communication Authority (NCA)  has signed a Memorandum of Understanding (MoU) with the Bank of South Sudan  to strengthen cooperation on cybersecurity, consumer ......",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/11/05/south-sudan-regulators-sign-mou-to-strengthen-fintech-cybersecurity/",
+   "date": "Thu, 05 Nov 2026 07:32:03 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Mozambique: New digital platform for fuel retailers launched by ARCOMOC at BCI, Maputo",
+   "brief": "Banco Comercial e de Investimentos (BCI) hosted the official launch of the new digital platform of the Association of Fuel Retailers of Mozambique (ARCOMOC) at its auditorium in Maputo on Monday, 2 November. The platform",
+   "source": "Club of Mozambique",
+   "url": "https://clubofmozambique.com/news/mozambique-new-digital-platform-for-fuel-retailers-launched-by-arcomoc-at-bci-maputo/",
+   "date": "Thu, 05 Nov 2026 07:07:23 +0000",
+   "country": "🇲🇿 莫桑比克",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Why you still need antivirus",
+   "brief": "If most attacks no longer involve malware, what exactly is antivirus protecting you from?",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/why-you-still-need-antivirus/Gb3Bw7Wa9Owq2k6V",
+   "date": "Thu, 05 Nov 2026 08:51:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
   {
    "title": "👨🏿‍🚀TechCabal Daily – A Chinese plot twist",
    "brief": "In today's edition: China inquiry prompted OPay to halt US IPO || Kenyan Treasury calls for cheaper bank loans || Africa’s credit rating agency to debut in 2027 || Helium Health raises $2.5 million",
@@ -72,6 +162,16 @@
    "country": null,
    "is_ai": false,
    "is_aiinfra": true
+  },
+  {
+   "title": "Can Africa’s FinTech Revolution Turn Financial Inclusion From a Carbon Burden Into a Climate Solution?",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxPVzJxZHhFSnJsQ2piSHozeTdZajl3RU43YWQ5WXJJZnJoYkdUUFRfRlEyTzQ0T0w4X1ZSQjd4c2ozXzdnUFpOeUxTMGdURm1ENlZMVTY3QW9iOWlFcld3YURHN09OMVdBX0hIMWFuUF82RllXeDJLRktCbTJic3",
+   "source": "Devdiscourse·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPVzJxZHhFSnJsQ2piSHozeTdZajl3RU43YWQ5WXJJZnJoYkdUUFRfRlEyTzQ0T0w4X1ZSQjd4c2ozXzdnUFpOeUxTMGdURm1ENlZMVTY3QW9iOWlFcld3YURHN09OMVdBX0hIMWFuUF82RllXeDJLRktCbTJic3g4S1gwdnd5T3REbWJ1ZkJza2QtRjBxREI2TDNTM3Z1Tmp0T3RSSDg5MWJNaTVjMkRqclktblhYNmR6czhpalBmVW9YRXFSeUZsS1FNeVVEa2h6b0pxZk1JRHV1RV9YRXo5dDFBNFlaOVdGN1HSAe8BQVVfeXFMUEw2bllSbkd6Slc3SlRfekRWTVBPcW44ZzUweEwzUUxwRXdDUVRWUHFnRHBKNXFHakJESExzSml2bHYyWmRUVEhkTjlUaXFJb28xZzNWM0FKbjBycFJJVkF3bjg1WldwZnk4V1NGWlJtQ1F0cVIwaUg2OTVITHBwSTFGd3A1NHV1X0hBSm05RWtmTlZsaFJIZS1rblBvSXJ1Uy1SMmdPTmVKUWVsblJ5aWFuQTBsRERHSGZRNnVuckxxemtlS1NXWmRwUW5EMXJrRHBpbDlKYlZxWC1ER1dVemdZeXZlVmRGVzVHOGN6SVk?oc=5",
+   "date": "Wed, 04 Nov 2026 18:26:52 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
   },
   {
    "title": "The 20-year experiment: Why IFC thinks African agritech has finally come of age",
@@ -264,16 +364,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Safaricom Creates KES 1.25 Trillion in Value for Kenyan Society in FY26",
-   "brief": "Safaricom  created KES 1.25 trillion in value for Kenyan society in the year to March 2026, up 10% from the previous year, according to the ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/11/04/safaricom-creates-kes-1-25-trillion-in-value-for-kenyan-society-in-fy26/",
-   "date": "Wed, 04 Nov 2026 08:56:49 +0000",
-   "country": "🇰🇪 肯尼亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "ANS Cuts IT Alert Noise by 83% with LogicMonitor Edwin AI",
    "brief": "LogicMonitor®, the AI-first platform for Autonomous IT, and ANS Group, a leading UK technology and managed services provider, today announced early results from ANS's deployment of Edwin AI, demonstrating how AI is helpi",
    "source": "ITWeb Africa",
@@ -284,72 +374,12 @@
    "is_aiinfra": false
   },
   {
-   "title": "Mastercard and INFINIOS Renew Partnership to Expand B2B Travel Payments Across MENA",
-   "brief": "Mastercard  has renewed its multi-year agreement with Bahrain-based fintech INFINIOS  to advance business-to-business (B2B) travel payments across the Middle East and North Africa region (MENA), ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/11/04/mastercard-infinios-renew-partnership-expand-b2b-travel-payments-mena/",
-   "date": "Wed, 04 Nov 2026 08:13:33 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "LogicMonitor Makes AI the Standard, Not the Upgrade",
    "brief": "LogicMonitor®, the AI-first platform for Autonomous IT, today announced new platform packages that make Edwin AI and LogicMonitor Digital Experience, including Synthetics and Internet Sonar, standard in every tier.",
    "source": "ITWeb Africa",
    "url": "https://www.itweb.co.za/article/logicmonitor-makes-ai-the-standard-not-the-upgrade/KA3WwMdzXpxvrydZ",
    "date": "Wed, 04 Nov 2026 10:00:00 +0200",
    "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Namelok Wireless Launches Community Internet Network in Kimuka, Kenya",
-   "brief": "Namelok Wireless  has launched a community network in Kimuka, along the Ngong–Suswa Road in Kenya, to expand access to affordable and reliable internet services for ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/11/04/namelok-wireless-launches-community-internet-network-in-kimuka-kenya/",
-   "date": "Wed, 04 Nov 2026 07:58:31 +0000",
-   "country": "🇰🇪 肯尼亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Mogo, ZTE and RSC Partner to Expand Affordable Smartphone Access in Kenya",
-   "brief": "Mogo  has partnered with ZTE Corporation  and its Kenyan phone distributor, RSC,  to expand access to affordable smartphones in Kenya through flexible device financing. Under ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/11/04/mogo-zte-rsc-partner-expand-affordable-smartphones-kenya/",
-   "date": "Wed, 04 Nov 2026 07:52:38 +0000",
-   "country": "🇰🇪 肯尼亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Airtel Tanzania Expands Network Coverage in Bagamoyo",
-   "brief": "Airtel Tanzania  is expanding its network coverage in Bagamoyo as part of efforts to extend connectivity to more communities and support local businesses and economic ......",
-   "source": "TechAfrica News",
-   "url": "https://techafricanews.com/2026/11/04/airtel-tanzania-expands-network-coverage-bagamoyo/",
-   "date": "Wed, 04 Nov 2026 07:41:09 +0000",
-   "country": "🇹🇿 坦桑尼亚",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Every fibre cut sets Nigeria’s digital economy back, but who pays?",
-   "brief": "These disruptions expose significant enforcement gaps, raising a central question of who ultimately pays when statutory protections fail to stop contractors and vandals from repeatedly severing the nation’s digital backb",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/11/04/fibre-cuts-and-nigerias-digital-economy/",
-   "date": "Wed, 04 Nov 2026 07:23:42 +0000",
-   "country": "🇳🇬 尼日利亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Airtel Nigeria puts its network map in subscribers’ hands",
-   "brief": "The feature, called Airtel Open Network, also allows customers to report poor network experiences directly to the telecom operator.",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/11/04/airtel-nigerias-app-to-show-nearby-sites/",
-   "date": "Wed, 04 Nov 2026 06:08:00 +0000",
-   "country": "🇳🇬 尼日利亚",
    "is_ai": true,
    "is_aiinfra": false
   },
@@ -369,16 +399,6 @@
    "source": "Condia",
    "url": "https://thecondia.com/temu-online-shopping-right-products/",
    "date": "Tue, 03 Nov 2026 21:47:50 +0000",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Tech banned on Aussie 5G networks to be deleted from this Chinese EV",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPcjN0d1lvclVCOHhPcE5VV1oyWUwxZThWWTJqQjVwSjRvd2ZHdjRtd0lIeXBRTFE1RGdRa1ZlbjNtSVliai1BNUpUR093MjV5N01MdXROamhUTm40b3JZb2FmSGlsZEdwTHk3TmRPaVZrYWk3TmxKeXVTOGV0Wk",
-   "source": "Drive·聚合",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcjN0d1lvclVCOHhPcE5VV1oyWUwxZThWWTJqQjVwSjRvd2ZHdjRtd0lIeXBRTFE1RGdRa1ZlbjNtSVliai1BNUpUR093MjV5N01MdXROamhUTm40b3JZb2FmSGlsZEdwTHk3TmRPaVZrYWk3TmxKeXVTOGV0WkxGX1JGX2NEcmZOTFY3S3BhN0JWeWxLN0VjNUJxbTg3bWxuazF6N29R?oc=5",
-   "date": "Tue, 03 Nov 2026 18:17:37 GMT",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -600,26 +620,6 @@
    "url": "https://thecondia.com/loan-apps-south-africa/",
    "date": "Mon, 02 Nov 2026 21:26:03 +0000",
    "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Africa’s Startup Puzzle",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE44OUFvNzF0MG8wQUdDZlhhVGpYd05id3Zqa1JVc1ZMa3VEM1g1OXhoRDVuYlNteW5oLXFoYTg1OE9rSGhBYm9IdnlWUGZoTnBrTEE3dXJsRGUwN2h5SDRTalNmQ1VObXFwOTZhZTdvUzRmSXVXWkpDUndWc1k?oc",
-   "source": "The University of Chicago Booth School of Business·聚合",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE44OUFvNzF0MG8wQUdDZlhhVGpYd05id3Zqa1JVc1ZMa3VEM1g1OXhoRDVuYlNteW5oLXFoYTg1OE9rSGhBYm9IdnlWUGZoTnBrTEE3dXJsRGUwN2h5SDRTalNmQ1VObXFwOTZhZTdvUzRmSXVXWkpDUndWc1k?oc=5",
-   "date": "Mon, 02 Nov 2026 20:07:44 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Nigeria’s stablecoin demand has scaled. Its liquidity hasn’t, says Obiex",
-   "brief": "Nigeria’s stablecoin market is far more efficient than it was in 2018 and 2019, but the supply behind it is still spread across many small sellers.",
-   "source": "Moonshot·TechCabal",
-   "url": "https://techcabal.com/2026/11/02/obiex-moonshot/",
-   "date": "Mon, 02 Nov 2026 17:48:42 +0000",
-   "country": "🇳🇬 尼日利亚",
    "is_ai": false,
    "is_aiinfra": false
   }
