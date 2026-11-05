@@ -1,0 +1,214 @@
+{
+ "asof": "2026-11-06",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-11-06T02:47+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 4,
+  "cluster_label": "",
+  "cluster_dropped": [],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "美联储官员Barkin：未来仍将加息但节奏渐进",
+   "brief": "里士满联储主席Barkin表示利率上行方向未变，但步伐将较为渐进，未给出具体时点。",
+   "chain": "加息预期未消→美股高久期成长股贴现率承压→A股算力链估值情绪受抑",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/05/barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace.html",
+   "ts": "Thu, 05 Nov 2026 16:34:33 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "美股史诗级抛售 科技股重灾 富豪单日蒸发1500亿美元",
+   "brief": "美股周四大幅下挫，道指标普纳指盘中最大跌幅显著，科技股领跌，前五大富豪单日财富缩水1500亿美元，马斯克损失近千亿。",
+   "chain": "科技股抛售→美股AI高久期票风险偏好收缩→A股算力链跟随情绪降温",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611063923916850.html",
+   "ts": "2026-11-06 00:45:26"
+  },
+  {
+   "cat": "macro",
+   "title": "美国两年期国债收益率单日下跌10个基点至4.48%",
+   "brief": "短端美债收益率当日大幅下行10个基点，2至5年期同步走低，反映降息或避险预期升温。",
+   "chain": "短端利率下行→美股成长股贴现分母改善→A股算力链估值端偏正面",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611063923928877.html",
+   "ts": "2026-11-06 01:51:11"
+  },
+  {
+   "cat": "macro",
+   "title": "美国30年期按揭利率降至7.18% 连降三周",
+   "brief": "房地美数据显示上周30年期抵押贷款利率7.18%，连续第三周回落，前值7.24%。",
+   "chain": "房贷利率回落→美国地产与消费敏感板块边际改善→对A股算力链传导有限",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611063923918540.html",
+   "ts": "2026-11-06 01:00:44"
+  },
+  {
+   "cat": "geo",
+   "title": "胡塞武装称无人机袭击沙特法赫德国王国际机场",
+   "brief": "也门胡塞武装称当地时间5日晚用无人机袭击沙特达曼法赫德国王国际机场，沙特方面未即时回应。",
+   "chain": "红海—海湾袭击升级→中东风险溢价抬升美股能源与航运板块→A股算力链受风险偏好扰动",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611063923929437.html",
+   "ts": "2026-11-06 02:01:28"
+  },
+  {
+   "cat": "geo",
+   "title": "美国对古巴实施新一轮制裁",
+   "brief": "美财政部11月5日将2名个人、6家企业、2艘船舶列入涉古巴制裁名单，并对既有对象追加制裁。",
+   "chain": "制裁扩围→地缘风险溢价与美元避险情绪→美股风险偏好边际受压→A股情绪间接扰动",
+   "impact": 4,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611063923929978.html",
+   "ts": "2026-11-06 02:12:29"
+  },
+  {
+   "cat": "geo",
+   "title": "巴拉圭众议院通过总统弹劾动议",
+   "brief": "巴拉圭众议院通过对总统圣地亚哥·佩尼亚的弹劾动议，政治不确定性上升。",
+   "chain": "拉美政治风险→区域资产与新兴市场情绪→对美股与A股算力链传导有限",
+   "impact": 3,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611063923924566.html",
+   "ts": "2026-11-06 01:26:31"
+  },
+  {
+   "cat": "oil",
+   "title": "伊朗在美封锁下向中印开放霍尔木兹海峡",
+   "brief": "伊朗宣布在美方封锁持续背景下对中印开放霍尔木兹海峡通行，海湾原油航运格局生变。",
+   "chain": "海峡通行分化→Brent短期波动加大、亚洲买家议价变化→东非LNG/油气项目需关注亚洲需求与航运成本",
+   "impact": 8,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/Iran-Opens-Strait-of-Hormuz-to-China-and-India-as-US-Blockade-Continues.html",
+   "ts": "Thu, 05 Nov 2026 10:00:00 -0600"
+  },
+  {
+   "cat": "oil",
+   "title": "圭亚那石油繁荣或缓解全球供应紧张",
+   "brief": "圭亚那产量快速攀升，有望在中长期补充全球原油供给、缓解供应缺口。",
+   "chain": "新增供给预期→中期Brent价格上行空间受限→莫桑比克油气项目需以成本竞争力应对宽松预期",
+   "impact": 6,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/Guyanas-Oil-Boom-Could-Ease-the-Global-Supply-Crunch.html",
+   "ts": "Thu, 05 Nov 2026 11:00:00 -0600"
+  },
+  {
+   "cat": "oil",
+   "title": "美国炼厂大幅转向非汽油产品",
+   "brief": "美国炼厂产品结构显著调整，汽油占比下降，反映需求与出口结构变化。",
+   "chain": "炼厂结构调整→成品油裂解价差与原油需求结构变化→东非成品油进口成本与炼化布局需重估",
+   "impact": 5,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/US-Refineries-Make-Dramatic-Shift-Away-From-Gasoline.html",
+   "ts": "Thu, 05 Nov 2026 12:00:00 -0600"
+  },
+  {
+   "cat": "gas",
+   "title": "欧盟不计划恢复采购俄罗斯天然气",
+   "brief": "欧盟明确暂无恢复俄气采购的安排，欧洲气源结构继续去俄化。",
+   "chain": "俄气缺席延续→TTF与全球LNG现货偏紧、亚洲抢货→莫桑比克LNG对欧销售窗口与议价能力增强",
+   "impact": 8,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/EU-Not-Planning-to-Resume-Russian-Gas-Purchases.html",
+   "ts": "Thu, 05 Nov 2026 09:30:00 -0600"
+  },
+  {
+   "cat": "gas",
+   "title": "土耳其推出5000亿美元能源计划 聚焦天然气与核能",
+   "brief": "土耳其公布5000亿美元能源投资蓝图，以天然气、太阳能与核能为支柱。",
+   "chain": "新兴市场需求扩张→全球LNG中长期需求预期上修→东非天然气项目潜在买家与议价环境改善",
+   "impact": 5,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Turkey-Unveils-500-Billion-Energy-Plan-Built-on-Gas-Solar-Nuclear.html",
+   "ts": "Thu, 05 Nov 2026 10:30:00 -0600"
+  },
+  {
+   "cat": "tech",
+   "title": "高通财报后跌9% 领跌选后芯片股抛售",
+   "brief": "高通公布业绩后股价下挫9%，带动大选后芯片板块整体走弱。",
+   "chain": "芯片股承压→美股半导体估值回调→A股算力链芯片与封测环节情绪联动",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html",
+   "ts": "Thu, 05 Nov 2026 15:24:47 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "谷歌投170亿美元建怀俄明州首个数据中心",
+   "brief": "谷歌承诺投入170亿美元在怀俄明州建设首个数据中心，并与多家能源企业合作供电。",
+   "chain": "数据中心资本开支扩张→美股云与电力设备受益→A股算力链IDC与电源配套映射",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611063923920247.html",
+   "ts": "2026-11-06 01:01:56"
+  },
+  {
+   "cat": "tech",
+   "title": "苹果一年多来首次发债 拟筹资约70亿美元",
+   "brief": "苹果计划发行投资级债券筹资约70亿美元，用于股票回购等，科技巨头发债潮延续。",
+   "chain": "巨头加杠杆回购→美股科技现金流与信用定价受关注→A股消费电子链情绪间接传导",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611063923912464.html",
+   "ts": "2026-11-06 00:19:41"
+  },
+  {
+   "cat": "tech",
+   "title": "SpaceX五年期CDS扩大至新高286.56基点",
+   "brief": "Markit数据显示SpaceX五年期信用违约互换上升24.5个基点至286.56，创历史新高。",
+   "chain": "信用利差走阔→美股高估值科技与航天资产风险溢价上升→A股算力链风险偏好边际受压",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611063923926462.html",
+   "ts": "2026-11-06 01:34:57"
+  },
+  {
+   "cat": "ai",
+   "title": "OpenAI发布GPT-6 Cyber网络安全专用模型",
+   "brief": "OpenAI推出专为授权安全研究设计的网络安全模型GPT-6 Cyber，聚焦攻防场景。",
+   "chain": "安全专用模型落地→美股网络安全与AI应用板块催化→A股算力链安全与推理需求映射",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611063923930291.html",
+   "ts": "2026-11-06 02:30:23"
+  },
+  {
+   "cat": "ai",
+   "title": "谷歌推出Gemini Omni 1.2 Flash视频生成模型",
+   "brief": "谷歌发布视频生成模型Gemini Omni 1.2 Flash，720p价格下调30%至每秒0.07美元并延长原生片段时长。",
+   "chain": "视频生成降价→美股AI应用与云推理需求扩张→A股算力链视频推理与带宽需求受益",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611063923923070.html",
+   "ts": "2026-11-06 01:08:50"
+  },
+  {
+   "cat": "ai",
+   "title": "Meta为个人AI智能体Muse上线语音聊天",
+   "brief": "Meta为其个人AI智能体Muse推出语音聊天功能，强化消费级AI交互入口。",
+   "chain": "消费级AI入口扩张→美股AI应用与终端生态受益→A股算力链端侧与语音交互映射",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611063923930345.html",
+   "ts": "2026-11-06 02:33:10"
+  },
+  {
+   "cat": "ai",
+   "title": "OpenAI承诺停止NDA并提数据中心政策建议",
+   "brief": "OpenAI在选举受挫后提出数据中心政策方案，承诺停止使用保密协议限制相关言论。",
+   "chain": "AI治理与数据中心政策博弈→美股AI基建扩张节奏受关注→A股算力链政策与能耗约束映射",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/05/openai-to-pay-for-data-center-power-after-election-shows-ai-concern.html",
+   "ts": "Thu, 05 Nov 2026 13:44:45 GMT"
+  }
+ ]
+}
