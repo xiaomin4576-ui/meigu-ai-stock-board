@@ -1,10 +1,10 @@
 {
  "asof": "2026-11-06",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-11-06T04:51+08:00",
+ "generated_at": "2026-11-06T14:31+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 6,
+  "cross_day_suppressed": 3,
   "cluster_label": "",
   "cluster_dropped": [],
   "backfilled": 0
@@ -12,8 +12,8 @@
  "items": [
   {
    "cat": "macro",
-   "title": "英国央行三年首次加息并警告继续",
-   "brief": "英国央行加息25基点至4%上方，为2023年来首次，并暗示后续或再加，英债收益率上行。",
+   "title": "英国央行三年来首次加息并暗示续加",
+   "brief": "英国央行加息25基点至4%以上，为2023年来首次，并警告后续或继续收紧，英国国债收益率上行。",
    "chain": "英央行转鹰→全球利率中枢上移压制美股AI高久期估值→A股算力链风险偏好承压",
    "impact": 8,
    "source": "Reuters",
@@ -22,49 +22,39 @@
   },
   {
    "cat": "macro",
-   "title": "美联储Barkin：加息将至但节奏渐进",
-   "brief": "里士满联储主席Barkin称未来利率上行但步伐温和，市场对政策路径重新定价。",
-   "chain": "官员鹰派表态→美债利率与贴现率预期抬升→压制美股成长股、传导A股算力估值",
+   "title": "民主党大胜后债务上限僵局风险升温",
+   "brief": "中期选举民主党横扫后，投资者开始定价债务上限对峙风险，财政不确定性上升。",
+   "chain": "债务上限对峙→美债风险溢价与波动率上行→美股估值承压、A股算力链情绪受抑",
    "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/05/barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace.html",
-   "ts": "Thu, 05 Nov 2026 16:34:33 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "美2至5年期国债收益率齐跌10基点",
-   "brief": "美短端国债收益率当日普跌10个基点，2年期降至4.48%，降息或避险预期升温。",
-   "chain": "短端利率下行→美股AI高久期票估值分母改善→利好A股算力链情绪",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611063923929749.html",
-   "ts": "2026-11-06 02:06:08"
-  },
-  {
-   "cat": "macro",
-   "title": "民主党大胜后债限对峙风险受关注",
-   "brief": "中期选举民主党横扫后，投资者关注债务上限谈判僵局风险，财政不确定性上升。",
-   "chain": "债限风险→美债波动与风险溢价上升→压制美股风险偏好、传导A股情绪",
-   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSFJkY2Voejd3d3ZVOXgxOEMtS3U3eXZFUUdDancxUDdiVEEtOW1HMXE2dFhfcTRzR292NTJBNUltNTNhRmVzdTdHLXUtMXoteGdFLTJZNVhlLUs0Zm5CT0lWMVFxM1o0aWxKVUloYnpVNUZZS2VyZmRfZlJRZEs1SWdPUEZ6aGFnbS1XWHRmeXFjS1hMSlFBOTVXWFdFekIwT2tfaU50eTBoVzY0OFk3M3dQQkRrU3B1OHpV?oc=5",
    "ts": "2026-11-05T16:38:33+00:00"
   },
   {
    "cat": "macro",
-   "title": "墨西哥央行降息25基点至6.25%",
-   "brief": "墨西哥央行将隔夜利率由6.50%下调至6.25%，延续新兴市场宽松路径。",
-   "chain": "新兴市场降息→全球流动性边际宽松→利好风险资产与A股算力链估值",
+   "title": "新华社：美股暴跌源于政治转向与AI过度投资",
+   "brief": "新华社分析称美股暴跌由中期选举政治风向变化触发，叠加AI过度投资风险积累。",
+   "chain": "政治转向+AI泡沫担忧→美股科技估值重估→A股算力链跟随调整",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611063924729138.html",
+   "ts": "2026-11-06 14:04:05"
+  },
+  {
+   "cat": "macro",
+   "title": "泰国通胀3.9%首破央行目标上限",
+   "brief": "受国际油价上涨与洪灾推高食品成本影响，泰国通胀三年多来首次突破央行目标区间上限。",
+   "chain": "亚洲通胀抬头→区域央行偏鹰、美元与利率预期扰动→A股算力链外资风险偏好",
    "impact": 4,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611063923932814.html",
-   "ts": "2026-11-06 03:00:03"
+   "url": "https://finance.eastmoney.com/a/202611063924749160.html",
+   "ts": "2026-11-06 14:28:15"
   },
   {
    "cat": "geo",
-   "title": "霍尔木兹海峡油轮遇袭，伊朗施压",
-   "brief": "美中期选举后伊朗持续施压，霍尔木兹海峡油轮遭袭，海湾航运安全风险骤升。",
-   "chain": "海峡遇袭→原油风险溢价与航运保费上升→美股能源股受益、A股算力链受避险扰动",
+   "title": "霍尔木兹海峡油轮遇袭，伊朗持续施压",
+   "brief": "美中期选举后伊朗继续加压，霍尔木兹海峡油轮遭袭，中东航运安全风险骤升。",
+   "chain": "海峡遇袭→油价风险溢价与航运保费上行→美股能源抗跌、A股算力链避险承压",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS25WaGR6RHltaldweFlqblRLWTQwanRGbVY4Vm5YZXBVdUVacG5DSTU3SXd1N00zTDROTTlYaGlnQzZPQUlmeUNPRlExc01kSUUwTFkwQUpWTWlXZEtkdTZmQktpWXUwcGt6dVBHbjkyb25ISjB1N0tOaWNJRHBoNk9iSzBJMURrM2dlemVvVnU5aHplVko3aGlQc296enRpdDlLNWJDWGtLWDZZVWc?oc=5",
@@ -72,59 +62,69 @@
   },
   {
    "cat": "geo",
-   "title": "内塔尼亚胡地位走弱，对手获组阁支持",
-   "brief": "以色列政坛变局，内塔尼亚胡对手获广泛支持尝试组阁，中东政策不确定性上升。",
-   "chain": "以政局变动→中东地缘风险重估→美股避险情绪升温、传导A股风险偏好",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONXl2TW1pRDd2eEFya2FTU0pkOWJWd3lFZG1PdUdSNlBWTVR5VGp3UWtLb2E0Ri1iTmt1SWhRckdOVVhkN2ItZ1Y2QlhjT2NrcGR0ZTg3MklhcENpZUFOM0I1SDRYdTZwMFlYeGMwMTM1SWF5ZzNnd2h4ZnJ1bC1BZWhlNDlYUXM3S3FRdXVyR1p3SE5GYUFoMm1wSWRYSlBYY3NkcTBpVklrTnZibm51eURCWkszdHBtdU9vYQ?oc=5",
-   "ts": "2026-11-05T15:43:14+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "塞尔维亚公布议会选举最终结果",
-   "brief": "塞尔维亚选举委员会公布最终计票，学生团体名单获约140席，具备独立组阁能力。",
-   "chain": "巴尔干政局变化→欧洲地缘风险边际重估→对美股影响有限、A股情绪中性",
-   "impact": 3,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611063923934963.html",
-   "ts": "2026-11-06 04:22:33"
-  },
-  {
-   "cat": "geo",
-   "title": "美国对古巴实施新一轮制裁",
-   "brief": "美财政部将2名个人、6家企业及2艘船舶列入涉古巴制裁名单并追加制裁。",
-   "chain": "对古巴制裁→拉美地缘摩擦升温→避险情绪小幅抬升、对A股算力链影响有限",
-   "impact": 3,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611063923929978.html",
-   "ts": "2026-11-06 02:12:29"
-  },
-  {
-   "cat": "oil",
-   "title": "国际油价大涨，布伦特突破90美元",
-   "brief": "12月WTI涨2.72%至90.52美元，布伦特涨3.67美元，中东局势推升风险溢价。",
-   "chain": "油价跳涨→Brent站上90美元→莫桑比克油气项目现金流与东非LNG经济性改善",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611063923935132.html",
-   "ts": "2026-11-06 04:26:49"
-  },
-  {
-   "cat": "oil",
-   "title": "沙特警告延布油港面临胡塞袭击风险",
-   "brief": "胡塞袭击持续，沙特警告延布石油枢纽存在潜在危险，红海供应风险上升。",
-   "chain": "延布港受威胁→原油供应风险溢价上行→东非油气资产战略价值提升",
+   "title": "伊朗经卡塔尔向美递交核提案",
+   "brief": "伊朗高级官员称已通过卡塔尔向美国转交核问题提案，为紧张局势留出外交窗口。",
+   "chain": "核谈信号→中东风险溢价短期回落→美股风险偏好修复、A股算力链情绪缓和",
    "impact": 7,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQR1J2UXI1T2psd21CTE9jNjdvWmZpaktQTVh0Vzg1VGNzZndWZVNab0JhcFNkMEZSRlF1R0d1Vm9EVmZVMDhfUThrOG84Q2VQaTZocklZaEV4end3cjBUYWFTTWxWZFc4WjBLV1MtOFQ3c0d1bHRvODdrQTFTT01MLVFvTlA1eXI3T3JnMzlXNmpXcGNsWE1KQ3hQRDZCRG8xZjBZMTJSRHZqMmNuVkFWZTVXLXRqdkoxaUlvQUVmcVoxTW9FdFE?oc=5",
-   "ts": "2026-11-05T11:33:52+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSlJZVlphdWhPcDNGc1E5eDVNdDdMQkJNTXVDS0RYSVRqaC1tblFqQy1FekRQdldnV0FsMU5RdnVHNEI3UEZWMC1MY1l5cnRtcjBlcDlpUXdvX0hXbV91S1UxajV1TEx1VmJ2SzNLNElXSjc3YkdmYWw4VGNXZEl5NXR4RFNjRXBxeEZMLWpBT1Z5X2JRc3NEdkdMZDljQ0dkZXZRbzc3U1NmNkhnaFN5QzNhVmRzSmhsM0Q5VzU3Mm11OWZBa3M1V1lvaw?oc=5",
+   "ts": "2026-11-05T19:48:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "乌克兰期待美中期选举后获新援助",
+   "brief": "乌部长称预期美国中期选举后获得新一轮支持，俄乌战事外援前景受关注。",
+   "chain": "援乌预期→欧洲地缘风险与防务支出预期→美股防务受益、A股算力链影响中性",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc3BIUVNjZ1pLUVNfRnZ6NDB3T1VIRktQUjJjUVl5OFEyRkpRVnlHSTFZQmFSOWxRek1VaHlrelFpUUtPU1BETUtTWUdBczBmNi1EUzlmbjV4SW1IRGlqOEE0NThVN2FCMjBnbkhzUURwVHFjTEctdUw4NUpsekNWZ0huLXNQT0lfbWt4UENrR0dVb0RGSHNlT0FtazRtRWZzYVd4MkcxTQ?oc=5",
+   "ts": "2026-11-05T20:23:43+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "以色列总统周日提名组阁人选",
+   "brief": "以色列总统承诺周日提名组阁候选人，以国内政局走向牵动中东局势。",
+   "chain": "以政局不确定→中东风险溢价反复→美股能源与避险资产波动、A股算力链情绪扰动",
+   "impact": 4,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONXl2TW1pRDd2eEFya2FTU0pkOWJWd3lFZG1PdUdSNlBWTVR5VGp3UWtLb2E0Ri1iTmt1SWhRckdOVVhkN2ItZ1Y2QlhjT2NrcGR0ZTg3MklhcENpZUFOM0I1SDRYdTZwMFlYeGMwMTM1SWF5ZzNnd2h4ZnJ1bC1BZWhlNDlYUXM3S3FRdXVyR1p3SE5GYUFoMm1wSWRYSlBYY3NkcTBpVklrTnZibm51eURCWkszdHBtdU9vYQ?oc=5",
+   "ts": "2026-11-05T20:46:13+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "油轮再遇袭但油价周线仍跌12%",
+   "brief": "尽管霍尔木兹再现油轮袭击，需求走弱与供应过剩迹象令油价周线仍重挫约12%。",
+   "chain": "袭击vs过剩→油价短期有底、周线大跌→莫桑比克油气售价与项目经济性承压",
+   "impact": 8,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-12-Weekly-Loss-Despite-Fresh-Tanker-Attacks.html",
+   "ts": "Fri, 06 Nov 2026 00:05:00 -0600"
+  },
+  {
+   "cat": "oil",
+   "title": "高油价抑制需求，供应过剩迹象显现",
+   "brief": "高油价开始压制需求，市场出现新的供应过剩信号，压制原油中期价格。",
+   "chain": "需求走弱+累库→Brent中期承压→东非LNG/油气项目回报预期下修",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQem82aUU3S0NZWXNNcXlreW9xS3J0UnpIcDNCWVdqS3NyclRxSUtWenpmMEhoNmp6amtNSG5ZYmpuMzc1TElxODVYTmVSZURrYjJsbVliVXlVSzNtM3J5TDBMNl9sQ0JSTmxKQ2RxVzc4RnMxX2lIZGp3Y3kwTFdrUndLZkFMN0JkN2xLTi02dDZjT0x1Wk0ySTMxZlpNZWRmX1F6ZDhR?oc=5",
+   "ts": "2026-11-06T02:04:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "Rapidan：美伊紧张或推油价破百",
+   "brief": "Rapidan Energy称美伊紧张重燃可能推动油价突破100美元，供应风险溢价回归。",
+   "chain": "美伊紧张→油价上行风险→莫桑比克油气售价与现金流短期受益",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/06/us-iran-war-trump-hormuz-oil-midterms.html",
+   "ts": "Fri, 06 Nov 2026 05:27:24 GMT"
   },
   {
    "cat": "oil",
    "title": "康菲石油超预期并提高股息",
-   "brief": "受益油价走高，康菲石油业绩超预期、利润翻倍至40亿美元并上调股息。",
-   "chain": "油企盈利改善→资本开支与分红上行→印证高油价环境利好莫桑比克油气经营",
+   "brief": "受益油价走高，康菲石油业绩超预期并上调股息，显示页岩巨头现金流稳健。",
+   "chain": "油企现金流强→资本纪律维持、供给克制→油价有支撑，利好东非油气估值",
    "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWmVXLVh5bHBBQWh5ZkFmckpmSkRNMVB2UGZwaDFuYVc1TE93TVZKcjl4c1lPSjVQb1doc1pJdm11S01RTGtwTDRUblRGVWp2M3hrb2ZLakV3R0poTGRjcmRyOEI2M2hNOEJFVllydTcyQ043WFVSRURkREJvZWxtaWJmaDJNRllnc3lPZllyM1JtMEhnY09NLWRpZzNuQWt0YU1jTFpCMlQ2UG1ZQVVtYVF5dUlZZw?oc=5",
@@ -132,83 +132,93 @@
   },
   {
    "cat": "gas",
-   "title": "美与土库曼探索里海新天然气路线",
-   "brief": "美国与土库曼斯坦探讨跨里海新天然气运输通道，或重塑中亚气源流向。",
-   "chain": "里海新气路→全球LNG供应格局边际变化→东非LNG项目面临竞争与机遇",
-   "impact": 4,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Energy-General/US-and-Turkmenistan-Explore-New-Gas-Routes-Across-the-Caspian.html",
-   "ts": "Thu, 05 Nov 2026 13:00:00 -0600"
+   "title": "十五五用电年增三个上海，算力拉动",
+   "brief": "国家能源局称十五五时期用电需求每年新增约三个上海用电量，算力等新负荷是重要拉动。",
+   "chain": "电力需求高增→气电调峰与LNG进口需求上行→东非LNG长期需求面利好",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611063924727983.html",
+   "ts": "2026-11-06 14:01:24"
   },
   {
    "cat": "tech",
-   "title": "AI股崩跌，芯片股与neocloud重挫",
-   "brief": "芯片股与新型云厂商大跌，纳指创2025年4月以来最差单日，AI交易遭遇剧烈回调。",
-   "chain": "AI硬件股杀跌→美股AI产业链估值收缩→A股算力链承压、关注错杀机会",
-   "impact": 9,
+   "title": "纳指抛售重挫亚洲芯片股",
+   "brief": "美股科技抛售蔓延，SK海力士、三星、软银、台积电等亚洲芯片股集体大跌。",
+   "chain": "美股芯片杀估值→亚洲半导体链同步回调→A股半导体/算力硬件承压",
+   "impact": 8,
    "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
+   "ts": "Fri, 06 Nov 2026 02:40:15 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "英伟达高通跌超9%，纳指创4月来最差",
+   "brief": "AI板块崩塌，英伟达与高通跌逾9%，纳指录得2025年4月以来最差单日。",
+   "chain": "AI硬件龙头重挫→美股科技估值下修→A股算力链硬件端情绪受压",
+   "impact": 8,
+   "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html",
-   "ts": "Thu, 05 Nov 2026 20:08:49 GMT"
+   "ts": "Thu, 05 Nov 2026 21:16:39 GMT"
   },
   {
    "cat": "tech",
-   "title": "标普下调宝马评级至A-展望负面",
-   "brief": "标普将宝马集团信用评级下调至A-，展望负面，欧洲汽车业承压。",
-   "chain": "车企评级下调→欧洲需求与盈利担忧→对美股影响有限、A股汽车链情绪偏弱",
-   "impact": 4,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611063923936492.html",
-   "ts": "2026-11-06 04:43:12"
+   "title": "科技七巨头单日蒸发1万亿美元",
+   "brief": "周四大跌中科技七巨头合计市值缩水约1万亿美元，为科技股暴跌最刺眼数据。",
+   "chain": "巨头市值蒸发→风险偏好骤降、资金撤离成长→A股算力链外资流出压力",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html",
+   "ts": "Thu, 05 Nov 2026 23:39:32 GMT"
   },
   {
    "cat": "tech",
-   "title": "Stellantis延长安大略工厂停产",
-   "brief": "Stellantis据悉延长加拿大温莎组装厂停产，北美汽车供应链再受扰动。",
-   "chain": "车企停产→北美汽车产量与零部件需求下滑→A股汽车零部件链承压",
-   "impact": 3,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611063923934011.html",
-   "ts": "2026-11-06 03:24:08"
+   "title": "中期选举后马斯克系市值蒸发4200亿",
+   "brief": "中期选举后特斯拉与SpaceX合计市值缩水超4200亿美元，马斯克系资产承压。",
+   "chain": "政策风向不利→特斯拉链与航天概念估值下修→A股相关供应链情绪受抑",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html",
+   "ts": "Fri, 06 Nov 2026 03:20:43 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "IREN称40亿美元年化收入因客户推迟",
+   "brief": "Neocloud厂商IREN表示因客户要求，约40亿美元年化收入确认被推迟，算力租赁需求节奏受疑。",
+   "chain": "算力租赁收入延后→AI基建订单节奏存疑→A股算力租赁/IDC链预期降温",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html",
+   "ts": "Thu, 05 Nov 2026 23:25:02 GMT"
   },
   {
    "cat": "ai",
-   "title": "OpenAI发布GPT-6 Cyber安全模型",
-   "brief": "OpenAI推出专为授权安全研究设计的网络安全模型GPT-6 Cyber，AI能力再升级。",
-   "chain": "新模型发布→AI安全与算力需求扩张→美股AI链受益、映射A股算力与安全链",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611063923930291.html",
-   "ts": "2026-11-06 02:30:23"
-  },
-  {
-   "cat": "ai",
-   "title": "民主党呼吁暂停国家数据中心建设",
-   "brief": "中期选举大胜后民主党高层呼吁“立即暂停国家数据中心”，AI基建面临政策阻力。",
-   "chain": "数据中心政策收紧→美股AI基建资本开支预期下修→A股算力链情绪受压",
-   "impact": 7,
+   "title": "民主党高层呼吁暂停新建数据中心",
+   "brief": "中期选举大胜后民主党高层呼吁收紧AI基建，喊出全国数据中心暂停令。",
+   "chain": "AI基建监管收紧→美股数据中心与电力链承压→A股算力链政策外溢风险",
+   "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html",
    "ts": "Thu, 05 Nov 2026 20:17:16 GMT"
   },
   {
    "cat": "ai",
-   "title": "OpenAI承诺停止NDA并提数据中心新政",
-   "brief": "选举受挫后OpenAI提出数据中心政策方案，承诺停止使用保密协议。",
-   "chain": "AI治理让步→数据中心扩张合规成本上升→美股AI基建节奏与A股算力链受关注",
-   "impact": 5,
+   "title": "选民因资源问题否决AI数据中心",
+   "brief": "多地选民因水资源等顾虑否决AI数据中心项目，用水计量难题加剧争议。",
+   "chain": "数据中心落地受阻→AI算力扩张放缓→A股算力链需求预期边际下修",
+   "impact": 6,
    "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/05/openai-to-pay-for-data-center-power-after-election-shows-ai-concern.html",
-   "ts": "Thu, 05 Nov 2026 13:44:45 GMT"
+   "url": "https://www.cnbc.com/2026/11/05/meta-spacex-ai-data-centers-use-millions-of-gallons-of-water-a-day.html",
+   "ts": "Thu, 05 Nov 2026 18:52:21 GMT"
   },
   {
    "cat": "ai",
-   "title": "Meta为个人AI智能体Muse加语音功能",
-   "brief": "Meta为其个人AI智能体Muse推出语音聊天功能，AI助手交互能力提升。",
-   "chain": "AI应用落地→推理算力需求增长→利好美股AI应用、映射A股算力链",
-   "impact": 4,
+   "title": "香港外汇基金三季度收入降83%，警示AI估值",
+   "brief": "香港外汇基金三季度投资收入环比降83%，总裁余伟文提示AI估值回调风险。",
+   "chain": "官方警示AI估值→成长股贴现风险上升→A股算力链估值情绪受压",
+   "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611063923930345.html",
-   "ts": "2026-11-06 02:33:10"
+   "url": "https://finance.eastmoney.com/a/202611063924716941.html",
+   "ts": "2026-11-06 13:50:54"
   }
  ]
 }
