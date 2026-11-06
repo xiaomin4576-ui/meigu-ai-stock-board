@@ -1,0 +1,224 @@
+{
+ "asof": "2026-11-07",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-11-07T01:59+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 9,
+  "cluster_label": "",
+  "cluster_dropped": [],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "美国10月非农新增16.5万远超预期",
+   "brief": "美国10月非农新增16.5万，远超预期，失业率降至4.1%，就业市场韧性超预期。",
+   "chain": "强就业→降息预期降温、美债收益率获支撑→美股AI高久期估值分母承压→A股算力链情绪偏谨慎",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
+   "ts": "Fri, 06 Nov 2026 16:06:59 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "民主党大胜令市场重估利率路径",
+   "brief": "民主党横扫选举结果出炉，市场重新评估美联储利率路径，政策不确定性上升。",
+   "chain": "政治格局变化→利率路径预期重定价→美股成长股估值波动→A股算力链风险偏好受扰动",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/06/oil-prices-interest-rates-midterms.html",
+   "ts": "Fri, 06 Nov 2026 12:30:40 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "联储行长：高通胀源于供应冲击与AI",
+   "brief": "圣路易斯联储行长穆萨莱姆称高通胀由供应冲击和AI基建推升，需警惕AI投资短期加剧通胀。",
+   "chain": "官员鹰派表态→AI资本开支被视作通胀源→美股AI板块估值与政策风险上升→A股算力链情绪承压",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611063925225467.html",
+   "ts": "2026-11-06 23:46:40"
+  },
+  {
+   "cat": "macro",
+   "title": "植田和男：基础通胀数十年来首达2%",
+   "brief": "日本央行行长植田和男表示基础通胀数十年来首次达到2%，但仍需更多努力。",
+   "chain": "日央行正常化预期→日元与全球套息交易波动→美股风险偏好扰动→A股算力链外资流向受影响",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611073925236687.html",
+   "ts": "2026-11-07 00:36:37"
+  },
+  {
+   "cat": "macro",
+   "title": "美债收益率小幅走低",
+   "brief": "美国10年期和30年期国债收益率触及当日低点，小幅走低。",
+   "chain": "长端利率回落→美股AI高久期票贴现分母改善→A股算力链估值情绪边际修复",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611073925244725.html",
+   "ts": "2026-11-07 01:44:32"
+  },
+  {
+   "cat": "geo",
+   "title": "伊朗战争外溢 巴林镇压教士",
+   "brief": "伊朗战争外溢效应显现，巴林加强对教士的镇压，海湾地区局势趋紧。",
+   "chain": "海湾局势紧张→中东风险溢价抬升→美股能源与防务板块受关注→A股算力链受避险情绪扰动",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb3pBXzVOVlNRSEJ6MG95Y3ZyQU1wc2VWMmU3RlQ1ZjlEdDd3alhQUzJ6Q18yNy1aVXYwcHV2YlVWLWFaWGxLMjdhenZqbjBFOVFVVnVWdTVibXI2dTBpSGc0aDg0akpQZXpDbWl0SmFEZHAxMEJfQWVpN1p1MGtjWUo2ZG9POUE5dXd4U3phMk1VTUFRVmRPeEtZQmNGUzZFYnNiZ2k3a1pmSHFtWnFz?oc=5",
+   "ts": "2026-11-06T13:57:49+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "普京与安全会议讨论乌克兰会谈",
+   "brief": "普京与俄罗斯安全会议就即将举行的乌克兰会谈进行讨论，外交动向受关注。",
+   "chain": "俄乌和谈预期→欧洲地缘风险溢价变化→美股风险偏好波动→A股算力链情绪随全球风险偏好摆动",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611073925244329.html",
+   "ts": "2026-11-07 01:29:28"
+  },
+  {
+   "cat": "geo",
+   "title": "IAEA警告乌克兰核设施安全风险",
+   "brief": "国际原子能机构总干事格罗西称乌克兰核设施周边军事活动增加，面临持续安全风险。",
+   "chain": "核安全风险升温→欧洲地缘不确定性上升→美股避险情绪抬头→A股算力链风险偏好受压",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611073925231032.html",
+   "ts": "2026-11-07 00:06:36"
+  },
+  {
+   "cat": "oil",
+   "title": "中期选举后油价料录得周线大跌",
+   "brief": "中期选举后投资者权衡伊朗冲突风险，油价料录得大幅周线下跌。",
+   "chain": "油价周线大跌→Brent/WTI走弱→莫桑比克油气售价与现金流承压，东非项目经济性需重估",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/06/oil-price-today-brent-wti.html",
+   "ts": "Fri, 06 Nov 2026 16:07:23 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "美伊紧张重燃或推油价破百",
+   "brief": "Rapidan Energy称美伊紧张局势重燃可能推动油价突破100美元。",
+   "chain": "美伊紧张→油价上行风险→莫桑比克LNG与油气收入潜在受益，但航运与保险成本上升",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/06/us-iran-war-trump-hormuz-oil-midterms.html",
+   "ts": "Fri, 06 Nov 2026 05:27:24 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "伊朗战争未止 油市已计入和平",
+   "brief": "分析称伊朗战争尚未结束，但石油交易员已在价格中计入和平预期。",
+   "chain": "和平预期计入价格→油价风险溢价回落→莫桑比克油气售价承压，需对冲价格下行风险",
+   "impact": 6,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/The-Iran-War-Isnt-Over-but-Oil-Traders-Are-Already-Pricing-In-Peace.html",
+   "ts": "Fri, 06 Nov 2026 09:28:00 -0600"
+  },
+  {
+   "cat": "oil",
+   "title": "法国从战略储备售出360万桶柴油",
+   "brief": "法国能源部表示已从战略储备中售出360万桶柴油，应对供应紧张。",
+   "chain": "欧洲释放柴油储备→成品油供应边际缓解→炼油利润与原油需求结构变化→莫桑比克油气经营关注成品油价差",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611063925229448.html",
+   "ts": "2026-11-06 23:58:36"
+  },
+  {
+   "cat": "gas",
+   "title": "挪威油气业缺新发现面临大幅下滑",
+   "brief": "挪威油气行业若无新发现将面临重大下滑，长期供应前景趋紧。",
+   "chain": "欧洲气源长期趋紧→TTF气价获支撑→莫桑比克/东非LNG对欧出口议价能力提升",
+   "impact": 6,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/Norways-Oil-and-Gas-Industry-Faces-a-Major-Decline-Without-New-Discoveries.html",
+   "ts": "Fri, 06 Nov 2026 11:00:00 -0600"
+  },
+  {
+   "cat": "tech",
+   "title": "微软逐步终止租用甲骨文AI算力",
+   "brief": "微软决定不续签合同，数月来逐步停用从甲骨文租用的AI算力，甲骨文股价转跌。",
+   "chain": "云厂商算力自建替代外租→甲骨文AI云收入预期下修→美股AI基建链分化→A股算力租赁链情绪受挫",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611073925244459.html",
+   "ts": "2026-11-07 01:37:33"
+  },
+  {
+   "cat": "tech",
+   "title": "纳指抛售重挫亚洲芯片股",
+   "brief": "纳斯达克抛售波及亚洲芯片股，SK海力士、三星、软银、台积电齐跌。",
+   "chain": "美股科技回调→亚洲半导体承压→A股算力链与存储芯片情绪同步走弱",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
+   "ts": "Fri, 06 Nov 2026 11:06:58 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "台积电据悉考虑生产先进存储芯片",
+   "brief": "台积电据悉正考虑生产先进存储芯片，以从AI支出中获取更大份额。",
+   "chain": "代工龙头切入存储→AI存储供给格局变化→美股存储链重估→A股存储与算力链映射",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611073925231824.html",
+   "ts": "2026-11-07 00:07:53"
+  },
+  {
+   "cat": "tech",
+   "title": "特斯拉明年在得州停产Cybertruck",
+   "brief": "马斯克称特斯拉明年将在得州停产Cybertruck，以扩产Cybercab。",
+   "chain": "产品线转向自动驾驶出租车→特斯拉资本开支重配→美股电动车链分化→A股智驾链情绪受关注",
+   "impact": 6,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html",
+   "ts": "2026-11-06T13:12:36+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "波音10月737 Max交付或仅32架",
+   "brief": "波音10月可能交付约32架737 Max，为近一年最低，打击现金流改善努力。",
+   "chain": "交付低迷→波音现金流承压→美股航空制造链走弱→A股航空供应链情绪受扰",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611073925238823.html",
+   "ts": "2026-11-07 00:52:34"
+  },
+  {
+   "cat": "ai",
+   "title": "OpenAI称无论选举结果都投AI数据中心",
+   "brief": "OpenAI首席财务官表示，无论选举结果如何，OpenAI都将持续投资AI数据中心。",
+   "chain": "AI资本开支确定性强化→美股算力基建链获支撑→A股数据中心与算力链情绪提振",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611073925235123.html",
+   "ts": "2026-11-07 00:27:52"
+  },
+  {
+   "cat": "ai",
+   "title": "Hassett：蓝潮不阻AI数据中心建设",
+   "brief": "Hassett称民主党胜选不会阻止AI数据中心建设，数据中心是特朗普AI战略关键部分。",
+   "chain": "政策层力挺AI基建→美股数据中心与电力链受益→A股算力基建链情绪获支撑",
+   "impact": 7,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/06/data-centers-ai-elections-hassett.html",
+   "ts": "2026-11-06T15:55:48+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "AI股抛售令Anthropic IPO预期降温",
+   "brief": "中期选举与AI股抛售后，Kalshi交易员下调Anthropic年底前宣布IPO的概率。",
+   "chain": "AI一级市场预期降温→美股AI板块估值承压→A股算力链风险偏好边际走弱",
+   "impact": 6,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/06/anthropic-ipo-kalshi-post-midterms-ai-sell-off.html",
+   "ts": "2026-11-06T15:42:41+00:00"
+  }
+ ]
+}
