@@ -1,6 +1,6 @@
 {
  "asof": "2026-11-07",
- "fetched_at": "2026-11-07T13:53+08:00",
+ "fetched_at": "2026-11-07T15:48+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -14,11 +14,11 @@
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 2,
-   "非洲科技·聚合": 9,
+   "非洲科技·聚合": 10,
    "中非科技·聚合": 12
   },
   "total": 60,
-  "ai_flagged": 22,
+  "ai_flagged": 23,
   "aiinfra_flagged": 3,
   "countries": 8
  },
@@ -170,16 +170,6 @@
    "url": "https://techafricanews.com/2026/11/06/vodacom-tanzania-net-profit-surges-182-7-percent-to-tzs117-8-billion-in-first-half/",
    "date": "Fri, 06 Nov 2026 12:26:48 +0000",
    "country": "🇹🇿 坦桑尼亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Across continents, toward a shared future: Zhejiang’s Jinhua steps up efforts to become a leading hub for cooperation with Africa",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxQVGxjX3VtaEJEbDNFZTRhTURYM1JTMmxZbjQtaUFYM0x2MnB1YWVhVnNPLVBDUUFHbUtvdS1FT2FRSFpqeGtCV1hWSW5IcUh1LW12QTJITlVGU0NhLUdrYWpqaHAyWlRTUXFMUlpVcFJKQzZIU3QzRVFHWEFOSH",
-   "source": "Daily News·聚合",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQVGxjX3VtaEJEbDNFZTRhTURYM1JTMmxZbjQtaUFYM0x2MnB1YWVhVnNPLVBDUUFHbUtvdS1FT2FRSFpqeGtCV1hWSW5IcUh1LW12QTJITlVGU0NhLUdrYWpqaHAyWlRTUXFMUlpVcFJKQzZIU3QzRVFHWEFOSHFiaVdoWjVILUlkeVVaUmJ1eHExU2tqcWN5MVNVQ0I0cWhWdUhfbTBLaVR4bmg1XzVETlZvZEVCZks4Q0Z1Rmd6WnltNVJQQzZfTTRPb3hsMW1hYWNVUEFqTzFJSjlFR1ExMTFHMTFudw?oc=5",
-   "date": "Fri, 06 Nov 2026 12:22:08 GMT",
-   "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -619,6 +609,16 @@
    "source": "ITWeb Africa",
    "url": "https://www.itweb.co.za/article/ans-cuts-it-alert-noise-by-83-with-logicmonitor-edwin-ai/RgeVDqPR3ka7KJN3",
    "date": "Wed, 04 Nov 2026 10:30:00 +0200",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "LogicMonitor Makes AI the Standard, Not the Upgrade",
+   "brief": "LogicMonitor®, the AI-first platform for Autonomous IT, today announced new platform packages that make Edwin AI and LogicMonitor Digital Experience, including Synthetics and Internet Sonar, standard in every tier.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/logicmonitor-makes-ai-the-standard-not-the-upgrade/KA3WwMdzXpxvrydZ",
+   "date": "Wed, 04 Nov 2026 10:00:00 +0200",
    "country": null,
    "is_ai": true,
    "is_aiinfra": false
