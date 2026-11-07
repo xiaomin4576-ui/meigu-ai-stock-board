@@ -1,6 +1,6 @@
 {
  "asof": "2026-11-07",
- "fetched_at": "2026-11-07T18:27+08:00",
+ "fetched_at": "2026-11-07T21:36+08:00",
  "blocks": {
   "美国宏观": {
    "非农新增(千人)": {
@@ -29,11 +29,7 @@
    "距FOMC天": 39
   },
   "中美利率": {
-   "美10Y%": 4.86,
-   "中10Y%": 1.5868,
-   "利差bp": 327,
-   "日期": "2026-11-06",
-   "源": "中债/美债官方口径"
+   "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'datacenter.eastmoney.com\\', port"
   },
   "大宗实时": {
    "纽约黄金": {
