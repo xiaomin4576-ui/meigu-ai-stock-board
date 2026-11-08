@@ -1,224 +1,167 @@
 {
  "asof": "2026-11-08",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-11-08T02:18+08:00",
+ "generated_at": "2026-11-08T13:56+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 11,
-  "cluster_label": "",
-  "cluster_dropped": [],
+  "cross_day_suppressed": 9,
+  "cluster_label": "伊朗",
+  "cluster_dropped": [
+   "中期选举后美伊战争升级风险仍高",
+   "美军组建特遣部队阻断伊朗跨境军运"
+  ],
   "backfilled": 0
  },
  "items": [
   {
-   "cat": "macro",
-   "title": "下周看点：美国CPI与地缘风险叠加AI抛售",
-   "brief": "美国科技股本周遭猛烈抛售，AI投资热潮面临政策与信心双重考验；下周美国CPI与地缘风险接踵而至。",
-   "chain": "CPI与地缘不确定性→美股AI高久期票风险偏好承压→A股算力链情绪跟随波动",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611083925563342.html",
-   "ts": "2026-11-08 02:00:26"
-  },
-  {
-   "cat": "macro",
-   "title": "金价自峰值回撤超30%",
-   "brief": "伦敦现货黄金1月逼近5600美元创高后震荡下行，10月单月跌6.8%，自峰值最大回撤超30%。",
-   "chain": "实际利率与避险溢价同步回落→美股AI高久期票估值分母压力缓和但风险偏好信号混乱→A股算力链情绪中性",
+   "cat": "geo",
+   "title": "以色列总统授权艾森科特组阁",
+   "brief": "以色列总统选择内塔尼亚胡的对手、前军方高层艾森科特尝试组建政府，以色列政局进入关键组阁期。",
+   "chain": "以色列政局重组→中东风险溢价与美以关系预期变化→美股风险偏好，映射A股军工与避险链情绪",
    "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611073925545533.html",
-   "ts": "2026-11-07 21:33:51"
-  },
-  {
-   "cat": "macro",
-   "title": "何立峰与美财长、贸易代表视频通话",
-   "brief": "周六重大事件汇总：商务部回应美制裁中企，何立峰与美国财长贝森特、贸易代表格里尔举行视频通话。",
-   "chain": "中美经贸高层沟通→关税与制裁预期边际缓和→A股出口链与算力硬件供应链情绪修复",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611073925547593.html",
-   "ts": "2026-11-07 21:39:50"
-  },
-  {
-   "cat": "macro",
-   "title": "五部门20项举措激活消费基建",
-   "brief": "五部门出台20项举措破解“消费基建”，以新需求引领新供给，增强国内大循环内生动力。",
-   "chain": "内需政策加码→美股中概消费情绪改善有限→A股消费与内需基建链受益",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611073925560450.html",
-   "ts": "2026-11-07 23:52:54"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVHIwVVZqTlgycHFJTEhPM3g1WU5oWWtKelZsNW5aUEphdmpDRC1STjMxQmYyYjR5dkNZUVFiVFBfZ3J1Nm9HN0RmM25pOUlTMWJkWGZuVktLV3h5QkNmdEtrbUt5X2NBYXFuZC04TzhPZUJWLWVJeWJMM256ZWIxRENRczhNdEtIa2I2aF85VzJUejZMa1ZvVEFSZXZCQWJtZU1nTnBvaVl4cmNJTEhfcWpCNTFjMmotS090TzE1eXc?oc=5",
+   "ts": "2026-11-07T22:49:13+00:00"
   },
   {
    "cat": "geo",
-   "title": "美军拟扩大海上封锁限制伊朗陆路贸易",
-   "brief": "路透独家：在海上封锁基础上，美军正寻求限制伊朗陆上商业往来，对伊施压进一步升级。",
-   "chain": "美伊对峙升级→避险与油价风险溢价抬升、美股风险偏好受压→A股算力链情绪承压",
-   "impact": 9,
+   "title": "美军拟扩大对伊朗陆路贸易封锁",
+   "brief": "路透独家：在海上封锁基础上，美军寻求限制伊朗陆上商贸通道，对伊施压进一步升级。",
+   "chain": "美伊封锁升级→中东地缘风险溢价抬升→美股能源与防务走强、成长股承压，映射A股算力链风险偏好",
+   "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTGRyZ1FFOWdNalpDbFdEeHZqc1JMNVVkekpWT3NULUU4N0hXTkN3MTQ5dlNSWjdhaUVCWlVUQVdhbkZrOEdDZ2FlNS1qOENqVnhOWGNYcmgtSU8xN3pHUjIzdDZ5akJZNzhnR3g4U0w5NjR1NUNka204MWRxak1WN056VUQ1MEhpNnpnaWVGSF90RlBMaTBWY1R5NFJDa3Q0SE1rMDhUUHRJZ01EMDJHdkhqMTY5aFU5TGd6WTNsekRoQkcyUkE?oc=5",
-   "ts": "2026-11-07T16:09:58+00:00"
+   "ts": "2026-11-07T13:36:00+00:00"
   },
   {
    "cat": "geo",
-   "title": "美中央司令部设“铁门”特遣队拦伊朗陆路军援",
-   "brief": "11月7日美中央司令部司令下令成立“铁门”特遣队，配合政府阻止伊朗经陆路运输先进武器。",
-   "chain": "中东军事部署升级→原油风险溢价与避险情绪上行→美股承压、A股算力链情绪受抑",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611073925548095.html",
-   "ts": "2026-11-07 21:52:19"
-  },
-  {
-   "cat": "geo",
-   "title": "俄乌互袭：乌多地能源设施遭大规模打击",
-   "brief": "俄国防部称在33个地区挫败乌军进攻并打击139个地区目标；乌称多地能源设施遭大规模袭击。",
-   "chain": "俄乌能源设施互袭→欧洲能源与避险溢价抬升→美股风险偏好受压、A股算力链情绪偏弱",
+   "title": "沙特联军称摧毁胡塞射向利雅得导弹",
+   "brief": "沙特主导联军称拦截摧毁两枚胡塞武装射向利雅得的导弹，利雅得传出剧烈爆炸声并拉响防空警报。",
+   "chain": "也门—沙特冲突升级→海湾地缘风险与航运担忧→美股风险偏好受压，映射A股避险与军工链",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611083925563167.html",
-   "ts": "2026-11-08 00:42:29"
+   "url": "https://finance.eastmoney.com/a/202611083925609429.html",
+   "ts": "2026-11-08 13:46:58"
   },
   {
    "cat": "geo",
-   "title": "也门胡塞称沙特空袭萨那附近致22死",
-   "brief": "胡塞武装控制的马西拉电视台称，萨那附近村庄遭沙特空袭，死亡人数升至22人，另有多人受伤。",
-   "chain": "红海与也门局势升温→航运与油价风险溢价上行→美股能源板块相对抗跌、A股算力链情绪偏弱",
+   "title": "波兰克拉科夫枪击被定性恐袭",
+   "brief": "波兰总理图斯克称克拉科夫枪击事件为恐怖袭击，全国哀悼，欧洲安全警戒升温。",
+   "chain": "欧洲恐袭→避险情绪与欧洲风险溢价上升→美股风险偏好边际走弱，映射A股避险链情绪",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611083925593186.html",
+   "ts": "2026-11-08 10:52:05"
+  },
+  {
+   "cat": "macro",
+   "title": "金价自峰值回撤超30% 机构下调目标价",
+   "brief": "2026年金价自1月近5600美元/盎司高点大幅回落，10月单月跌6.8%，国际机构大幅下调目标价。",
+   "chain": "实际利率与美元走强主导金价回撤→美股AI高久期估值分母压力缓解、风险偏好修复→A股算力链情绪偏暖",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611083925597140.html",
+   "ts": "2026-11-08 11:35:25"
+  },
+  {
+   "cat": "macro",
+   "title": "伯克希尔三季度净利降28% 现金再升",
+   "brief": "伯克希尔三季度运营利润小幅下滑、净利润明显下降，回购翻倍至约96亿美元并净卖出股票，现金储备再创新高。",
+   "chain": "巴菲特系现金为王、净卖出股票→美股风险偏好与估值信号偏谨慎→映射A股外资流向与蓝筹情绪",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611083925562714.html",
-   "ts": "2026-11-08 00:10:03"
-  },
-  {
-   "cat": "geo",
-   "title": "新西兰执政联盟获议会过半席位",
-   "brief": "新西兰选举委员会11月8日公布初步计票，国家党主导的现执政联盟赢得超半数席位。",
-   "chain": "新西兰政局延续→对美股与A股算力链直接影响有限→区域政策连续性利好乳业与贸易链",
-   "impact": 3,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611083925563285.html",
-   "ts": "2026-11-08 01:20:39"
+   "url": "https://finance.eastmoney.com/a/202611083925605561.html",
+   "ts": "2026-11-08 13:30:47"
   },
   {
    "cat": "oil",
-   "title": "伊拉克称将遵守OPEC+431万桶/日产量",
-   "brief": "伊拉克石油部表示将遵守OPEC+431万桶/日产量水平，提高上限需OPEC+一致同意，将继续争取明年增产。",
-   "chain": "OPEC+配额纪律维持→油价获底部支撑但上行受限→莫桑比克油气项目融资与长期售价预期趋稳",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611073925547953.html",
-   "ts": "2026-11-07 21:48:32"
-  },
-  {
-   "cat": "oil",
-   "title": "伊拉克外长警告中东或再陷战火",
-   "brief": "伊拉克外长称当前局势或令中东重燃战火，并指霍尔木兹海峡石油出口停滞已使伊拉克损失约600亿美元。",
-   "chain": "霍尔木兹出口受阻担忧→布伦特风险溢价上行→东非LNG与油气替代航线价值上升，莫桑比克项目议价力增强",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611073925547738.html",
-   "ts": "2026-11-07 21:46:05"
-  },
-  {
-   "cat": "oil",
-   "title": "海湾油轮疑遭导弹袭击致一名船员死亡",
-   "brief": "一艘油轮在海湾海域疑遭导弹袭击，一名船员死亡，海湾航运安全风险再度凸显。",
-   "chain": "海湾航运风险上升→油轮保费与油价溢价抬升→莫桑比克LNG海运路线相对安全，东非气源吸引力上升",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQlB2Sm9vTXA4Rlp1QWxROTNzaUJ5TG0teEFKRWs1cmY3VFZkZXd6RlVzQmxNTGcxcmwyMG9SOUZlRVdKS0o2V08xbzdaRW5sbGNBTDdpRUduU0xsQUV3czAybnlIU0FPQUs1ZFR1RE41U3BpZXhIeHFYeEI1b2RRamRWQnhpOUVESHM2TENjNS1XUQ?oc=5",
-   "ts": "2026-11-06T14:17:12+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "ONGC拟接管委内瑞拉油田追回5亿美元",
-   "brief": "印度ONGC推动接管委内瑞拉油田，以追回约5亿美元应收款项，涉及资产重组与权益回收。",
-   "chain": "委内瑞拉重油供应格局生变→全球重质原油流向调整→对莫桑比克轻质气源定价影响有限",
-   "impact": 4,
+   "title": "埃及拟引巨额投资重振油气产量",
+   "brief": "埃及寻求数十亿美元新投资以恢复石油与天然气产量，东地中海与北非油气供给格局受关注。",
+   "chain": "埃及增产引资→中东非原油供给预期改善、边际压制油价→莫桑比克东非油气需关注区域竞争与投资分流",
+   "impact": 5,
    "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/ONGC-Moves-to-Take-Over-Venezuelan-Oilfields-Recover-500-Million.html",
-   "ts": "Fri, 06 Nov 2026 11:30:00 -0600"
-  },
-  {
-   "cat": "gas",
-   "title": "泰国强调粮食能源安全推多元供应",
-   "brief": "泰国总理称粮食与能源供应总体稳定，将通过扩大生物燃料使用等多元供应体系应对外部风险。",
-   "chain": "东南亚寻求气源多元化→LNG现货采购与长约谈判活跃→东非莫桑比克LNG对亚洲买家吸引力上升",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611073925562274.html",
-   "ts": "2026-11-08 01:40:58"
+   "url": "https://oilprice.com/Energy/Energy-General/Egypt-Eyes-Billions-in-New-Investment-to-Revive-Oil-and-Gas-Production.html",
+   "ts": "Sat, 07 Nov 2026 14:00:00 -0600"
   },
   {
    "cat": "tech",
-   "title": "伯克希尔Q3营业利润127.1亿美元",
-   "brief": "伯克希尔第三季度营业利润127.1亿美元同比降5.8%，净利润221.12亿美元，单季回购96亿美元。",
-   "chain": "回购翻倍显示防御性资本配置→美股价值板块获支撑、成长股资金分流→A股算力链资金面偏中性",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611073925540523.html",
-   "ts": "2026-11-07 21:00:16"
-  },
-  {
-   "cat": "tech",
-   "title": "显卡价格连涨11日后急跌",
-   "brief": "受海外停产传闻刺激RTX 50系列连涨11个交易日，近日急跌，华强北显卡半天一个价。",
-   "chain": "显卡现货价格剧烈波动→美股GPU供应链预期反复→A股算力硬件与显卡渠道链波动加大",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611073925550783.html",
-   "ts": "2026-11-07 22:19:24"
-  },
-  {
-   "cat": "tech",
-   "title": "特斯拉将停产Cybertruck增产赛博出租车",
-   "brief": "马斯克宣布2027年中前后逐步停产Cybertruck，转而增产赛博出租车（Cybercab）。",
-   "chain": "特斯拉产品线转向自动驾驶出租车→美股自动驾驶叙事强化→A股智能驾驶与Robotaxi链映射",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611073925550576.html",
-   "ts": "2026-11-07 22:04:07"
-  },
-  {
-   "cat": "tech",
-   "title": "苹果披露机器人“大脑”研究进展",
-   "brief": "苹果研究团队11月4日在预印本平台披露机器人“大脑”研究进展，多家公司已布局该领域。",
-   "chain": "苹果切入具身智能大脑→美股机器人叙事升温→A股具身智能与机器人链情绪提振",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611073925551457.html",
-   "ts": "2026-11-07 22:26:19"
-  },
-  {
-   "cat": "ai",
-   "title": "中期选举与AI抛售后Anthropic IPO押注降温",
-   "brief": "Kalshi交易员下调Anthropic在12月前宣布IPO的概率，AI股票遭抛售拖累相关预期。",
-   "chain": "AI一级市场预期降温→美股AI高估值票承压→A股算力链估值情绪受抑",
+   "title": "科技股抛售后Anthropic推进IPO 估值缩水",
+   "brief": "美国科技股遭猛烈抛售后，Anthropic仍推进IPO，估值较投资者预期明显缩水。",
+   "chain": "AI龙头IPO估值下修→美股AI板块定价重估→映射A股算力链估值与情绪承压",
    "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611083925595248.html",
+   "ts": "2026-11-08 11:03:00"
+  },
+  {
+   "cat": "tech",
+   "title": "Meta首席战略官离职加盟Fireworks任CFO",
+   "brief": "Meta首席战略官Wehner离职，出任AI基础设施初创公司Fireworks的CFO。",
+   "chain": "大厂高管流向AI基建初创→美股AI基础设施融资热度延续→映射A股算力与AI基建链情绪",
+   "impact": 5,
    "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/06/anthropic-ipo-kalshi-post-midterms-ai-sell-off.html",
-   "ts": "2026-11-06T15:42:41+00:00"
+   "url": "https://www.cnbc.com/2026/11/07/dave-wehner-meta-fireworks-cfo.html",
+   "ts": "2026-11-07T17:51:16+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "伯克希尔三季度回购翻倍 净利下滑",
+   "brief": "伯克希尔三季度盈利下降，但回购规模翻倍以上，持续净卖出股票并抬高现金储备。",
+   "chain": "巨头回购加码、现金堆积→美股资金面与估值信号分化→映射A股蓝筹与外资偏好",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html",
+   "ts": "Sat, 07 Nov 2026 15:23:46 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "SpaceX称谷歌高管退出董事会",
+   "brief": "SpaceX表示谷歌高管Don Harrison已从公司董事会辞职。",
+   "chain": "航天与科技巨头人事变动→美股航天科技板块情绪小幅扰动→映射A股商业航天链情绪",
+   "impact": 3,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/06/tesdonald-harrison.html",
+   "ts": "Fri, 06 Nov 2026 22:30:22 GMT"
   },
   {
    "cat": "ai",
-   "title": "投资者预期Anthropic估值下调",
-   "brief": "投资者为Anthropic更低估值做准备，称1.5万亿美元估值“过于勉强”，AI泡沫担忧升温。",
-   "chain": "AI独角兽估值锚下移→美股AI板块估值分母重估→A股算力链估值承压",
-   "impact": 7,
+   "title": "中期选举示警数据中心 Anthropic IPO遇阻",
+   "brief": "中期选举结果对数据中心扩张释放负面信号，Anthropic推进IPO之际遭遇AI backlash。",
+   "chain": "数据中心政治阻力上升→美股AI算力资本开支预期受抑→映射A股算力链（服务器/光模块）情绪承压",
+   "impact": 8,
    "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html",
+   "ts": "Sat, 07 Nov 2026 13:00:01 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "投资者预期Anthropic估值下调 1.5万亿被指过高",
+   "brief": "投资者为Anthropic更低估值做准备，认为1.5万亿美元估值“过于勉强”。",
+   "chain": "AI独角兽估值预期下修→美股AI一级市场降温传导二级→映射A股AI应用与算力链估值情绪",
+   "impact": 7,
+   "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html",
    "ts": "Fri, 06 Nov 2026 21:07:07 GMT"
   },
   {
    "cat": "ai",
-   "title": "首都在线子公司增资加码算力赛道",
-   "brief": "首都在线子公司甘肃宸融增资引入投资方，公司放弃优先认购权，持股降至16.67%仍并表，约定2027年8月前重新控股。",
-   "chain": "A股算力基建资本运作活跃→映射国内算力链扩产节奏→对美股AI硬件需求形成呼应",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611073925561512.html",
-   "ts": "2026-11-08 01:02:30"
+   "title": "OpenAI、Arm、高通高管回应中期选举后AI抛售",
+   "brief": "OpenAI、Arm与高通高管就中期选举后AI板块抛售发表看法，市场关注AI叙事能否稳住。",
+   "chain": "AI龙头集体发声稳预期→美股AI板块情绪修复尝试→映射A股算力链风险偏好",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/06/tech-executives-ai-data-center-selloff-midterms.html",
+   "ts": "Fri, 06 Nov 2026 18:35:08 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "科技公司面临儿童安全诉讼 同时推AI进校园",
+   "brief": "科技企业一边面临儿童安全相关诉讼增加，一边推动AI进入学校，监管与落地并行。",
+   "chain": "AI进校园遇诉讼与监管压力→美股AI应用合规成本上升→映射A股AI教育应用链情绪",
+   "impact": 4,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html",
+   "ts": "Sat, 07 Nov 2026 12:00:01 GMT"
   }
  ]
 }
