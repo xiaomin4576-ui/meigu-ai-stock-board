@@ -1,6 +1,6 @@
 {
  "asof": "2026-11-08",
- "fetched_at": "2026-11-08T16:00+08:00",
+ "fetched_at": "2026-11-08T18:35+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -15,11 +15,11 @@
    "Zimbabwe Situation": 0,
    "African Business": 2,
    "非洲科技·聚合": 12,
-   "中非科技·聚合": 13
+   "中非科技·聚合": 14
   },
   "total": 60,
   "ai_flagged": 23,
-  "aiinfra_flagged": 3,
+  "aiinfra_flagged": 2,
   "countries": 8
  },
  "items": [
@@ -29,6 +29,16 @@
    "source": "https://tech-insider.org/·聚合",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQa2dzU0Z2b1o5TlRVc2ZBR1pzU0ZRWTFFX0FRSmtYRUhwbHB4Sm5WdG5qTWgweWZsRDVWOFpKSXFLM2NyOHlzWEMxNlpybi14NTJmMS0tQlQwSlIwYWFnNnJROThfUFFIZGdncUIwbVFpQ3FSZ1BOQ3RQVnlNSldkSFVybGhCNGNYal9LeVRBMHBhVHIz?oc=5",
    "date": "Sun, 08 Nov 2026 07:34:50 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Meet the founder who helped build Nvidia’s early cloud computing infrastructure before leaving the $5 trillion tech giant to bring AI computing power to Africa",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcnNTd2lfRWtCbTRLR0s5Umpja0RKU1R5VUMtSHNSd1ZVaGl5TjR4emtyLWYwRmtpek82WlpKZVdjZWlJcHFoREJaUXkxcGdobkxZOHpyeVNqdzlSN1dMbjVxMGFrbXFTV1FaYXJUQWZPVXR2QlZDSnptNHZTUU",
+   "source": "Business Insider Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcnNTd2lfRWtCbTRLR0s5Umpja0RKU1R5VUMtSHNSd1ZVaGl5TjR4emtyLWYwRmtpek82WlpKZVdjZWlJcHFoREJaUXkxcGdobkxZOHpyeVNqdzlSN1dMbjVxMGFrbXFTV1FaYXJUQWZPVXR2QlZDSnptNHZTUURGMVRMRTdOQ2U1Vk9ZRk0xc0tHRExpak5VWEtQWFVXVUpzTUxkSkhJTDFOMjg1a2tmZXlNc3BlVHg0a291M2MzNlFNS0tpVWpHQ1B6LVNialJGZEtyUjRsMVJ2Zw?oc=5",
+   "date": "Sun, 08 Nov 2026 07:22:45 GMT",
    "country": null,
    "is_ai": true,
    "is_aiinfra": false
@@ -602,16 +612,6 @@
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
-  },
-  {
-   "title": "Africa’s Data Centers: Plugged Into Progress",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPMDJTZEhEeTVCYXFUTlY3cWRKSVdFZU93R1FLSUtNeTZZb2p5VmU0MjduSHI4cHE4MFJ1NnJSZDR3a1pHd3RWeEJ2ZXdBbHJ4dm1lNVl4TjAzQk82dVJ4cWFJUm9fTnZ6b0FfNEFWYXFTTm5uMmUxb1BHN2NicV",
-   "source": "Forbes Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMDJTZEhEeTVCYXFUTlY3cWRKSVdFZU93R1FLSUtNeTZZb2p5VmU0MjduSHI4cHE4MFJ1NnJSZDR3a1pHd3RWeEJ2ZXdBbHJ4dm1lNVl4TjAzQk82dVJ4cWFJUm9fTnZ6b0FfNEFWYXFTTm5uMmUxb1BHN2NicVBaSmlRNDNKejRyel9yUGtCRjZHbXM?oc=5",
-   "date": "Wed, 04 Nov 2026 17:08:00 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": true
   },
   {
    "title": "Africa must prepare for AI-powered cyberthreats at scale",
