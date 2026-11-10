@@ -1,20 +1,32 @@
 {
  "asof": "2026-11-10",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-11-10T15:10+08:00",
+ "generated_at": "2026-11-10T16:51+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 0,
-  "cluster_label": "",
-  "cluster_dropped": [],
+  "cluster_label": "伊朗/霍尔木兹",
+  "cluster_dropped": [
+   "法国称不排除反制伊朗网攻"
+  ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
+   "title": "瑞银预计美联储再加息两次",
+   "brief": "瑞银研报称通胀压力将促使美联储2026年12月与2027年3月各加息25基点，但盈利强劲使美股涨势难终结。",
+   "chain": "加息预期升温→美股AI高久期股贴现率抬升、估值承压→A股算力链情绪受抑",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611103927351444.html",
+   "ts": "2026-11-10 16:43:43"
+  },
+  {
+   "cat": "macro",
    "title": "中国月度进口创五年最快增速",
-   "brief": "中国月度进口增速创五年新高，2026年贸易顺差突破1万亿美元，外需与内需信号并存。",
-   "chain": "中国进口走强→全球需求预期改善→美股周期与半导体出口链受益→A股算力链外需情绪偏暖",
+   "brief": "中国月度进口增速为五年来最快，2026年贸易顺差突破1万亿美元。",
+   "chain": "内需与进口回暖→全球需求预期改善、利好美股周期与半导体→映射A股算力链与出口链",
    "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html",
@@ -22,39 +34,39 @@
   },
   {
    "cat": "macro",
-   "title": "新加坡推出央行黄金托管服务",
-   "brief": "新加坡金管局面向海外央行及官方机构推出黄金托管，黄金存放于国家货币金库。",
-   "chain": "央行黄金托管扩容=去美元化结构性信号→实际利率与美元信用受关注→美股AI高久期估值分母承压→A股算力链情绪偏谨慎",
+   "title": "美国汽油价格跌破每加仑4美元",
+   "brief": "美国汽油价格自7月以来首次跌破每加仑4美元，能源通胀压力缓解。",
+   "chain": "油价回落压低通胀预期→利率路径偏松、利好美股成长估值→A股算力链风险偏好改善",
    "impact": 6,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611103927269930.html",
-   "ts": "2026-11-10 14:53:54"
+   "url": "https://finance.eastmoney.com/a/202611103927348093.html",
+   "ts": "2026-11-10 16:39:17"
   },
   {
    "cat": "macro",
-   "title": "欧央行管委：能源价格现积极信号",
-   "brief": "欧洲央行管委穆兰称能源价格出现积极信号，12月才能判断是否需要加息。",
-   "chain": "能源价格回落→欧元区通胀压力缓和→欧央行加息预期降温→全球利率分母稳定利好美股成长→A股算力链情绪中性偏暖",
+   "title": "VIX回落至20以下",
+   "brief": "随美股反弹，标普500波动率指数回落至20以下，数日前一度升至28。",
+   "chain": "波动率回落→美股风险偏好修复、AI成长股受益→A股算力链情绪同步回暖",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611103927272966.html",
-   "ts": "2026-11-10 14:56:56"
+   "url": "https://finance.eastmoney.com/a/202611103927335857.html",
+   "ts": "2026-11-10 16:32:06"
   },
   {
    "cat": "macro",
-   "title": "加纳掀起矿业改革风暴",
-   "brief": "非洲最大产金国加纳2025年以来强力推行矿业改革，涉及黄金开采与权益调整。",
-   "chain": "产金国政策扰动→黄金供给预期与避险溢价变化→美股AI估值贴现反向温度计→A股算力链情绪间接传导",
+   "title": "在岸人民币收报6.6682",
+   "brief": "11月10日在岸人民币兑美元收盘报6.6682，较上一交易日上涨53点。",
+   "chain": "人民币走强→外资风险偏好改善、北向资金偏暖→利好A股算力链估值",
    "impact": 4,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611103927272824.html",
-   "ts": "2026-11-10 14:58:57"
+   "url": "https://finance.eastmoney.com/a/202611103927337975.html",
+   "ts": "2026-11-10 16:32:00"
   },
   {
    "cat": "geo",
    "title": "特朗普称伊朗战争将较快结束",
-   "brief": "特朗普表示伊朗战争将“较快”结束，并淡化新一轮打击的可能性，中东局势现降温信号。",
-   "chain": "中东降温→避险溢价回落→美股风险偏好修复利好成长→A股算力链情绪偏暖",
+   "brief": "特朗普表示伊朗战争将“较快”结束，并淡化新一轮打击的可能性。",
+   "chain": "中东降温→美股风险溢价回落、能源股承压→A股算力链情绪修复",
    "impact": 9,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/10/trump-iran-war-hormuz-.html",
@@ -62,29 +74,39 @@
   },
   {
    "cat": "geo",
-   "title": "特朗普称倾向结束俄乌战争",
-   "brief": "美方斡旋和平谈判前，特朗普称有“强烈意愿”结束俄乌战争。",
-   "chain": "俄乌停火预期→欧洲能源与避险格局重塑→美股风险偏好改善→A股算力链情绪偏暖",
-   "impact": 7,
+   "title": "特朗普称俄乌有强烈停战意愿",
+   "brief": "美方斡旋和平谈判前，特朗普称俄乌有“强烈意愿”结束战争。",
+   "chain": "俄乌停火预期→欧洲能源与粮食风险溢价下降、美股风险偏好升→A股情绪偏暖",
+   "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/10/trump-russia-ukraine-abu-dhabi-war-talks.html",
    "ts": "Tue, 10 Nov 2026 04:46:37 GMT"
   },
   {
    "cat": "geo",
-   "title": "沙特联军拦截两枚胡塞导弹",
-   "brief": "沙特主导联军称拦截两枚射向利雅得的胡塞导弹，也门方向紧张延续。",
-   "chain": "红海与也门局势扰动→中东风险溢价反复→美股能源与防务板块波动→A股算力链情绪中性",
-   "impact": 5,
+   "title": "沙特联盟拦截两枚胡塞导弹",
+   "brief": "沙特主导联盟称拦截两枚射向利雅得的胡塞导弹，地区紧张持续。",
+   "chain": "红海与沙特本土风险升温→美股避险情绪抬头→A股算力链情绪边际承压",
+   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeEFMZHZXSnB4Q1RWMGxYRGJrYUFLdXBsc2ZGcmowbDhlNGVjMWxtOWt6bno5WWZnd2F2NVNncnJKdFM1bm1QU2RGQmNNOFBXampZcHpYLU1mdGxIRFJ4Z0drcHcyNHYtTmhVWEVlY0FldWp1d3ZoWlpoZXljR2w1b1lvb2pSR3owY2tnbUF2MDFYQXZlNUxsUUM1TGdaQ1lJZ3ZSUzl6cVp2czBFeTA3akRSS19vMTR3LW1qcGZGUExhbEJQTlpzSFdfNGc2dw?oc=5",
    "ts": "2026-11-10T01:53:00+00:00"
   },
   {
+   "cat": "geo",
+   "title": "美最高法院放行得州边境墙",
+   "brief": "美最高法院推翻下级法院裁决，为得州大本德地区边境墙项目复工开绿灯。",
+   "chain": "移民政策收紧→美股政策不确定性上升→对A股算力链传导有限",
+   "impact": 3,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611103927351821.html",
+   "ts": "2026-11-10 16:48:09"
+  },
+  {
    "cat": "oil",
-   "title": "油价跌破92美元 特朗普释克制信号",
-   "brief": "特朗普对伊朗释放克制信号，油价跌破92美元，市场回吐地缘溢价。",
-   "chain": "美伊降温→Brent回落至92美元下方→莫桑比克油气售价与现金流预期承压，东非项目经济性需重估",
+   "title": "油价跌破92美元",
+   "brief": "特朗普释放对伊朗克制信号，油价跌破92美元，市场回吐地缘溢价。",
+   "chain": "地缘溢价回吐→Brent/WTI走弱→莫桑比克油气售价与项目经济性短期承压",
    "impact": 9,
    "source": "OilPrice",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-Below-92-as-Trump-Signals-Restraint-on-Iran.html",
@@ -93,9 +115,9 @@
   {
    "cat": "oil",
    "title": "OPEC十月产量升至战前九成",
-   "brief": "路透调查显示OPEC十月产量升至战前水平的90%，供给持续恢复。",
-   "chain": "OPEC增产→原油供给宽松→油价中枢下移→莫桑比克LNG与油气销售价格联动承压",
-   "impact": 7,
+   "brief": "路透调查显示OPEC十月产量升至战前水平的90%，供应持续恢复。",
+   "chain": "供应回升→油价中枢下移→东非LNG与油气项目议价空间收窄",
+   "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcGJ3LUpzaXpKMGVQTkVDUmxmck5BRE9ycmRsR2ljV2x5ZmpoOW5UbW1WSE9XUnd5XzJsano5X0hPMU1DZW5Za2lsQ05Sa2NzWWNnTkpHdVc4ZmFvRnZ1WDRGVnVLaFNJVVdNSGhhYmRBaXZSSVNjc29qT2dUbnEtZ3JBNXdyQ01IaWxJRDJsZThnT29yUmxnSTh2dHFidnZBd2R6QU5nS182LUFjV1U0RXJqSVR2VXpicTBjalNR?oc=5",
    "ts": "2026-11-09T18:28:46+00:00"
@@ -103,18 +125,38 @@
   {
    "cat": "oil",
    "title": "沙特东西向输油管道遇袭",
-   "brief": "沙特国家媒体报道，麦地那地区东西向输油管道遭袭，出口通道风险上升。",
-   "chain": "沙特出口管道遇袭→短期油价风险溢价上行→东非油气经营需关注供应中断与运费波动",
-   "impact": 6,
+   "brief": "沙特国家媒体报道，麦地那地区东西向输油管道遭袭。",
+   "chain": "关键管道受袭→油价短线跳涨风险→莫桑比克经营需关注供应中断溢价",
+   "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeEtKMGZOdkpGT0I4d1dsaUtDQjlLSlhyV1o4M0Rqcm5KZHV4ZHhXeEdnTUwwV0x5eU1Ldmo1cFk0RG16SnFCMlZ0SkNlQzBmdkxPU2pmdmNqWmYwNEcwWGVVeEVNQVhqTnduTnZYNnVqZ3padlFRRkpGNGpYWHRRYVJsX0h3SXN6OFVaTWI2TGFfUVV2LVpLUGtydXppb0VFaDBNZy1YZ2pXWS1XSUxOTng3ZVpkZ18xd1E?oc=5",
    "ts": "2026-11-09T17:43:45+00:00"
   },
   {
+   "cat": "oil",
+   "title": "中东价格战预示战后过剩",
+   "brief": "评论称中东油价战预示冲突后供应过剩格局。",
+   "chain": "价格战与过剩预期→油价中期偏空→东非油气项目回报预期承压",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWWdUbTZOMkxOdnRzOHBPdHRWSFBmNG1jZnFISWQ0MVFaWEc1MUlkTjRuNlhSQzdMQWQxaXQzYTBOTGtBd0NkYnRNTFNHaDlNZ0xwVU1JODVSMFdLZnREeGttWWlEdmE3ZnJwODdnMG5iQnJwRlZBbDZvOEU5UjczRC1UcGo5S0p4U01KZWMzcVBjNEdnWW42clRaR1U5QXpoMHh1bnE0T2phU1I1OEpUVFJJUHN2LThoMFd3WGJR?oc=5",
+   "ts": "2026-11-09T12:01:48+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "阿联酋海滩检出漏油关闭",
+   "brief": "阿联酋霍尔法坎市检出漏油后关闭海滩，航运与环境风险受关注。",
+   "chain": "漏油事件→原油航运与保险成本上升→东非沿海作业环境风险警示",
+   "impact": 4,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQUhkQjhSb001ck9XMTZnQWN6amV0UGxsUE1tZVRsMG5jQ1g4UFUwWnJ4Y0JYRnhkUEd4ZExPUWxBeXZabFg5N0sxMm1ibm9lNDFjN3puNHVkb3hkczA0TVE3dVZ4SjEwd0cwNTJ0c0RCTVRlN3BvSzI2R0FzTVgtUXI2ZTRwZGlxRnJHaEtheWdMMkJLZkd1UWt2V0lNdzJQYzNTR080cnNOQTdYOVRtY05B?oc=5",
+   "ts": "2026-11-09T13:41:43+00:00"
+  },
+  {
    "cat": "gas",
-   "title": "霍尔木兹LNG通行量创开战来新高",
-   "brief": "经霍尔木兹海峡的LNG运输量升至伊朗战争爆发以来最高水平，气源航运回暖。",
-   "chain": "霍尔木兹LNG流量回升→全球LNG供应趋松、TTF与亚洲现货承压→莫桑比克LNG出口竞争加剧",
+   "title": "霍尔木兹LNG通行量创战后新高",
+   "brief": "经霍尔木兹海峡的LNG通行量升至伊朗战争爆发以来最高水平。",
+   "chain": "LNG航运恢复→全球气价供应压力缓解→莫桑比克LNG出口竞争加剧",
    "impact": 7,
    "source": "OilPrice",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Traffic-Through-Hormuz-Hits-Highest-Level-Since-Iran-War-Began.html",
@@ -123,8 +165,8 @@
   {
    "cat": "tech",
    "title": "台积电十月营收跳增",
-   "brief": "台积电10月销售额大幅增长，全球芯片景气延续，AI与先进制程需求强劲。",
-   "chain": "台积电营收超预期→确认AI芯片需求景气→美股半导体链受益→A股算力链与先进封装情绪提振",
+   "brief": "台积电十月销售额大幅增长，全球芯片景气延续。",
+   "chain": "芯片需求强劲→美股半导体链盈利上修→映射A股算力链与封测环节",
    "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/10/tsmcs-october-sales-.html",
@@ -132,83 +174,43 @@
   },
   {
    "cat": "tech",
-   "title": "大摩看多北美半导体 首选英伟达",
-   "brief": "摩根士丹利将北美半导体评级列为“吸引”，首选英伟达并看好博通。",
-   "chain": "大摩看多半导体→美股芯片板块资金流入→A股算力链与半导体设备情绪联动走强",
+   "title": "软银股价大涨14%",
+   "brief": "软银集团股价飙升14%，亚洲科技股跟随华尔街反弹。",
+   "chain": "亚洲科技股反弹→美股AI与半导体情绪修复→A股算力链风险偏好回升",
    "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611103927266836.html",
-   "ts": "2026-11-10 14:38:29"
-  },
-  {
-   "cat": "tech",
-   "title": "三星2027年初完成3DCube-H封装",
-   "brief": "三星计划2027年初完成下一代先进封装3DCube-H开发并推出首套设计工具包。",
-   "chain": "先进封装竞赛升级→HBM与AI芯片封装产能扩张→美股半导体设备受益→A股先进封装链情绪提振",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611103927276255.html",
-   "ts": "2026-11-10 15:04:43"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/10/ai-softbank-sk-hynix-samsung-wall-street-tech-stocks.html",
+   "ts": "Tue, 10 Nov 2026 08:06:29 GMT"
   },
   {
    "cat": "tech",
    "title": "软银二季度净亏70亿美元",
-   "brief": "科技股抛售拖累，软银第二季度转为70亿美元净亏损。",
-   "chain": "软银亏损→科技投资与数据中心支出审慎→美股AI基建融资情绪承压→A股算力链情绪偏谨慎",
+   "brief": "科技股抛售拖累，软银二季度转为70亿美元净亏损。",
+   "chain": "科技投资亏损→美股AI投融资情绪受抑→A股算力链估值承压",
    "impact": 6,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html",
-   "ts": "Tue, 10 Nov 2026 06:54:32 GMT"
+   "ts": "Tue, 10 Nov 2026 08:11:44 GMT"
   },
   {
    "cat": "tech",
    "title": "波音裁减商用飞机5%员工",
    "brief": "因增产慢于预期，波音计划裁减商用飞机部门5%的员工。",
-   "chain": "波音减产裁员→美国制造业与供应链景气走弱→美股工业板块承压→A股航空链情绪中性",
-   "impact": 4,
+   "chain": "制造与供应链承压→美股工业板块盈利下修→对A股算力链传导有限",
+   "impact": 5,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/11/09/boeing-layoffs-commercial-airplane.html",
    "ts": "2026-11-09T17:57:58+00:00"
   },
   {
-   "cat": "ai",
-   "title": "Anthropic发布新前沿模型",
-   "brief": "Anthropic在Amodei呼吁放缓后发布首批前沿模型，IPO预期升温。",
-   "chain": "前沿模型迭代→AI能力竞赛延续→美股AI应用与算力需求受益→A股算力链与AI应用情绪提振",
-   "impact": 8,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
-   "ts": "Mon, 09 Nov 2026 19:00:01 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "黄仁勋风波令英伟达承压",
-   "brief": "黄仁勋相关风波使英伟达未来面临风险，且公司尚无明确接班人选。",
-   "chain": "英伟达治理风险→美股AI龙头估值波动→A股算力链对英伟达供应链依赖情绪承压",
-   "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/09/jensen-huang-affair-nvidia-succession.html",
-   "ts": "Tue, 10 Nov 2026 06:52:30 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "CoreWeave面临“厄运循环”质疑",
-   "brief": "新云厂商信用风险盖过增长，CoreWeave直面“厄运循环”叙事质疑。",
-   "chain": "AI算力租赁信用风险→美股AI基建融资收紧担忧→A股算力链情绪偏谨慎",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/09/coreweave-debt-credit-risk-neoclouds.html",
-   "ts": "Mon, 09 Nov 2026 12:00:01 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "软银数据中心采购计37.3亿美元费用",
-   "brief": "软银为美国数据中心采购支出记录37.3亿美元费用，AI基建投入持续。",
-   "chain": "数据中心资本开支高企→AI基建投入延续→美股算力硬件受益→A股算力链与IDC情绪提振",
+   "cat": "tech",
+   "title": "禾赛Q3营收增34.3%",
+   "brief": "禾赛科技三季度营收10.68亿元同比增34.3%，激光雷达出货量增65.3%。",
+   "chain": "激光雷达放量→美股智能驾驶链情绪改善→映射A股激光雷达与算力链",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611103927268715.html",
-   "ts": "2026-11-10 14:47:24"
+   "url": "https://finance.eastmoney.com/a/202611103927347983.html",
+   "ts": "2026-11-10 16:37:48"
   }
  ]
 }
