@@ -1,30 +1,23 @@
 {
  "asof": "2026-11-11",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-11-11T02:43+08:00",
+ "generated_at": "2026-11-11T04:38+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 7,
-  "cluster_label": "",
-  "cluster_dropped": [],
+  "cluster_label": "伊朗",
+  "cluster_dropped": [
+   "鲁比奥向G7承诺持续重压伊朗",
+   "伊朗南帕尔斯气田平台起火人员撤离"
+  ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "通胀超预期 美联储官员暗示或加息50基点",
-   "brief": "10月CPI高于预期后，多位美联储官员为更大幅度加息留口，市场重新定价紧缩路径。",
-   "chain": "通胀超预期→加息预期升温→美股高久期AI股估值分母抬升、风险偏好受压→A股算力链情绪承压",
-   "impact": 9,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTXo5UzFWVEh5WllQOHNxS1Q2cERxOEM0X1QyN1dPX0R4XzdfT1BpajYxdi0xOEltNWh6cE15Z2ZvZ2dXV0Vwb3NkbWZ1VGQ2M2tvVVVSaWd6clhPcS1XUEU2QXE3c0tlLUhPX0c2emRnWVpwOGtoajlnSS1VRXRNZXFaNEpyVlVwcFVIOUdkT18yQ2t6a1psZGVlOFpiZl90QnVhcmxqQzNxNnlNSEdXcWpjcUdzYUNJSi1hcnl6ZEpUSUU?oc=5",
-   "ts": "2026-11-10T18:14:35+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "10月CPI超预期 市场剧烈震荡",
-   "brief": "10月通胀数据高于预期，利率与股市即时反应剧烈，紧缩担忧重燃。",
-   "chain": "CPI超预期→实际利率上行→美股成长股贴现率抬升→A股算力链估值承压",
+   "title": "美国10月CPI超预期 市场震荡",
+   "brief": "美国10月通胀数据高于预期，引发市场对美联储进一步加息的担忧，美股与美债承压。",
+   "chain": "CPI超预期→加息预期升温、美债收益率上行→美股AI高久期估值承压→A股算力链情绪受抑",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRGxVcWRPUjR6aDlqZEVjYjNScVg4MHpQRXQ0Z1VBLU5WbENmYi1XWlJUOWt3MFdlNGdJcVlaRjEtUzZUd0dYVXJDTEY2Ung1Nm9meGZfWFpUYnVPbElHQjJIaW9pVUQwWWY0czJsMEV0YkNTNmh0SDA5MVM3dVhaRUI1Q19JLTlIVFM3SHJKSEU3MmNZczROOExR?oc=5",
@@ -32,9 +25,19 @@
   },
   {
    "cat": "macro",
-   "title": "美联储洛根呼吁再加息两次 或快速推进",
-   "brief": "达拉斯联储主席洛根主张再升息两次、且可能较快落地，属鹰派官员表态。",
-   "chain": "鹰派表态→短端利率上行→美股AI高久期票承压→A股算力链情绪偏空",
+   "title": "美联储官员暗示或加息50基点",
+   "brief": "通胀超预期后，多位美联储官员为更大幅度加息打开大门，政策路径转向更鹰派。",
+   "chain": "鹰派表态→实际利率上行、贴现率抬升→压制美股成长股→A股算力链估值分母走高",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTXo5UzFWVEh5WllQOHNxS1Q2cERxOEM0X1QyN1dPX0R4XzdfT1BpajYxdi0xOEltNWh6cE15Z2ZvZ2dXV0Vwb3NkbWZ1VGQ2M2tvVVVSaWd6clhPcS1XUEU2QXE3c0tlLUhPX0c2emRnWVpwOGtoajlnSS1VRXRNZXFaNEpyVlVwcFVIOUdkT18yQ2t6a1psZGVlOFpiZl90QnVhcmxqQzNxNnlNSEdXcWpjcUdzYUNJSi1hcnl6ZEpUSUU?oc=5",
+   "ts": "2026-11-10T18:14:35+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "洛根呼吁再加息两次 或很快行动",
+   "brief": "达拉斯联储行长洛根主张再加息两次，并称可能快速推进，强化紧缩预期。",
+   "chain": "加息预期强化→美元与实际利率走强→美股AI板块承压→A股算力链风险偏好回落",
    "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZ0xfUlI5TmlGa3Z4Z0QtTF9FcVRjZ0hwNEFSOVNTX0otSERvdUdrZzBKazRheFd2Vlc3bWZhazZfY2haNFNKVi1WOWNnWWVfTmgyVk9iSXFqRTR3aHcwRV93UkF0ejRGVFdOdVR4N2NWalZkYkFhS3NTLWtsY1FjazJld1JBX0lBRmM4M1RhdHk3UDBjZFFWOUNQVm40bkU?oc=5",
@@ -42,9 +45,9 @@
   },
   {
    "cat": "macro",
-   "title": "美债遭猛烈抛售 通胀与鹰派言论动摇押注",
-   "brief": "通胀高于预期叠加官员警告加大升息，美债录得2025年4月以来最重抛售之一。",
-   "chain": "美债抛售→长端收益率跳升→美股估值分母抬升、AI成长股承压→A股算力链情绪受压",
+   "title": "美债遭猛烈抛售 通胀与鹰派言论冲击",
+   "brief": "通胀高于预期叠加官员警告加大升息，美债录得2025年4月以来最严重抛售之一。",
+   "chain": "美债抛售→10年期收益率逼近5%、贴现率抬升→美股高估值科技股承压→A股算力链情绪传导",
    "impact": 8,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202611113927721296.html",
@@ -52,19 +55,19 @@
   },
   {
    "cat": "macro",
-   "title": "10年期美债收益率重回5%",
-   "brief": "通胀数据与沃勒讲话推升加息预期，10年期美债收益率重返5%关口。",
-   "chain": "长端利率回5%→美股AI高久期估值承压→A股算力链风险偏好下行",
-   "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
-   "ts": "Tue, 10 Nov 2026 18:40:12 GMT"
+   "title": "施密德称当前利率并不抑制经济",
+   "brief": "堪萨斯城联储行长施密德表示利率相当宽松、并未限制经济，为继续紧缩提供理由。",
+   "chain": "官员称利率偏宽松→紧缩预期不减→美债收益率高企→美股AI估值承压→A股算力链情绪偏弱",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611113927727116.html",
+   "ts": "2026-11-11 04:27:30"
   },
   {
    "cat": "geo",
-   "title": "鲁比奥：无需对伊朗大规模作战 靠经济施压",
-   "brief": "美国务卿称凭经济施压即可，无需对伊大规模军事行动，冲突烈度预期降温。",
-   "chain": "美伊紧张降温→避险与油价溢价回落→美股风险偏好修复→A股算力链情绪边际改善",
+   "title": "鲁比奥称无需对伊朗大规模作战",
+   "brief": "鲁比奥表示凭借经济施压即可，无需对伊朗发动大规模军事行动，冲突升级预期降温。",
+   "chain": "美方淡化军事行动→中东风险溢价回落→美股风险偏好修复→A股算力链情绪边际改善",
    "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOek5yNnd3UkRRS2RHYjY5MlR1NU9KQnFWcW43RGV1VHI5Yzhxc3RseUstNnVCbXVlUTN3T1hTcE9RUEFGT0R6Q0JUTmQxNW1aX2lZM0RXZkNjLTgwdWQ5aFN1OGM2LTBLcV91MlBkdDE0a2VCQk5nNUdDOGo1ZHI2TW9Pa010QjlrcjQwU0htVjlTMlVOUXJ2cThHQ0JHY09rSHFyYVgtNzNhMXNVVzJ3UTZTb1R6cmM?oc=5",
@@ -72,49 +75,39 @@
   },
   {
    "cat": "geo",
-   "title": "特朗普看到乌克兰和平协议窗口 阿布扎比会谈前存疑",
-   "brief": "特朗普称乌和平存机会，但阿布扎比会谈前关键问题未解，谈判前景仍不确定。",
-   "chain": "俄乌和谈预期→欧洲能源与避险溢价波动→美股风险偏好改善→A股算力链情绪偏暖",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/10/trump-russia-ukraine-abu-dhabi-war-talks.html",
-   "ts": "Tue, 10 Nov 2026 11:52:54 GMT"
+   "title": "泽连斯基与芬兰总统通话谈三方会谈",
+   "brief": "泽连斯基与斯图布通话，就当日俄美乌三方会谈进程及后续协调交换意见。",
+   "chain": "俄乌谈判推进→欧洲地缘风险边际缓和→美股风险偏好改善→A股算力链情绪偏暖",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611113927722051.html",
+   "ts": "2026-11-11 03:00:21"
   },
   {
    "cat": "geo",
-   "title": "泽连斯基称欧洲应参与结束俄乌冲突谈判",
-   "brief": "泽连斯基表示欧洲应参与止战谈判及美欧对乌安全保障讨论，和谈框架仍在博弈。",
-   "chain": "和谈推进→地缘风险溢价回落→美股风险偏好回升→A股算力链情绪改善",
-   "impact": 6,
+   "title": "美军士兵涉俄间谍在英被捕",
+   "brief": "英国反恐警察称一名41岁美军士兵涉嫌从事与俄罗斯相关间谍活动被捕。",
+   "chain": "俄相关间谍案→美俄博弈升温→避险情绪扰动→美股风险偏好承压→A股算力链情绪偏谨慎",
+   "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611113927719144.html",
-   "ts": "2026-11-11 02:08:43"
-  },
-  {
-   "cat": "geo",
-   "title": "胡塞武装称打击沙特及也门境内多个目标",
-   "brief": "胡塞武装宣称对沙特及也门境内多个目标发动打击，红海—海湾局势再添扰动。",
-   "chain": "红海局势升温→航运与油价风险溢价上行→美股能源与运输板块分化→A股算力链影响有限",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611113927703714.html",
-   "ts": "2026-11-11 00:25:41"
+   "url": "https://finance.eastmoney.com/a/202611113927725558.html",
+   "ts": "2026-11-11 04:23:48"
   },
   {
    "cat": "oil",
-   "title": "伊朗革命卫队：一油轮在霍尔木兹海峡触雷起火",
-   "brief": "伊朗革命卫队称一艘油轮在霍尔木兹海峡触雷后起火，全球最关键原油通道受扰。",
-   "chain": "霍尔木兹油轮遇袭→Brent风险溢价上行→东非/莫桑比克油气采购与航运成本抬升、需关注供应中断",
-   "impact": 9,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611113927711083.html",
-   "ts": "2026-11-11 01:12:23"
+   "title": "油价跌至8月以来最低",
+   "brief": "原油价格回落至8月以来最低水平，市场对供应与需求的担忧主导走势。",
+   "chain": "油价走低→Brent/WTI下行→莫桑比克油气项目收入与投资回报承压，需关注成本与长约定价",
+   "impact": 8,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Oil-Falls-to-Lowest-Level-Since-August.html",
+   "ts": "Tue, 10 Nov 2026 10:34:00 -0600"
   },
   {
    "cat": "oil",
-   "title": "乌军打击致俄约30%炼油产能受扰",
-   "brief": "乌克兰对俄炼油设施打击令约三成炼能受影响，成品油供应趋紧。",
-   "chain": "俄炼能受损→成品油与原油价差走阔、油价偏强→莫桑比克油气售价与炼化采购成本双向影响",
+   "title": "乌军打击扰乱俄30%炼油产能",
+   "brief": "乌克兰对俄炼油设施打击导致约30%炼油产能受扰，成品油供应趋紧。",
+   "chain": "俄炼能受损→成品油裂解价差走阔、原油结构分化→东非进口成品油成本上升，莫桑比克经营成本承压",
    "impact": 7,
    "source": "OilPrice",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Ukrainian-Strikes-Disrupt-30-of-Russias-Oil-Refining-Capacity.html",
@@ -122,39 +115,39 @@
   },
   {
    "cat": "oil",
-   "title": "油价跌至8月以来最低",
-   "brief": "原油回落至8月以来低位，需求与地缘溢价双双走弱。",
-   "chain": "油价走低→Brent/WTI下行→莫桑比克油气销售收入与项目经济性承压",
+   "title": "美中期选举或重塑全球油气市场",
+   "brief": "美国中期选举格局变化可能影响能源政策与油气市场走向。",
+   "chain": "选举变局→美国油气政策不确定性→油价波动加大→莫桑比克LNG项目融资与长约环境受影响",
    "impact": 6,
    "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Oil-Falls-to-Lowest-Level-Since-August.html",
-   "ts": "Tue, 10 Nov 2026 10:34:00 -0600"
-  },
-  {
-   "cat": "oil",
-   "title": "EIA：2026年WTI均价预计88.29美元/桶",
-   "brief": "EIA月报微调2026年WTI均价预测至88.29美元/桶，美油需求预估持平。",
-   "chain": "官方油价预测微升→中期油价中枢持稳→莫桑比克油气中长期收入预期稳定",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611113927709164.html",
-   "ts": "2026-11-11 01:03:27"
-  },
-  {
-   "cat": "gas",
-   "title": "EIA：2026年美国天然气需求预计923亿立方英尺/日",
-   "brief": "EIA月报下调2026年美国天然气需求预估至923亿立方英尺/日，产量预估上调。",
-   "chain": "美气供应宽松→Henry Hub价格承压→全球LNG现货偏松，莫桑比克LNG出口议价空间受限",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611113927710080.html",
-   "ts": "2026-11-11 01:07:11"
+   "url": "https://oilprice.com/Energy/Energy-General/US-Midterm-Shake-Up-Could-Reshape-Global-Oil-and-Gas-Markets.html",
+   "ts": "Tue, 10 Nov 2026 13:00:00 -0600"
   },
   {
    "cat": "tech",
-   "title": "Anthropic推Office工具 微软跌3%",
-   "brief": "Anthropic推出Office类工具，微软股价跌幅扩大至3%，办公软件竞争加剧。",
-   "chain": "AI办公工具冲击→微软企业软件护城河受疑→美股软件板块承压→A股办公软件与算力链情绪分化",
+   "title": "英伟达连续第二日下跌 涉CEO丑闻",
+   "brief": "投资者权衡CEO与疑似间谍交往的后续影响，英伟达股价连续第二日走低。",
+   "chain": "英伟达丑闻发酵→美股AI芯片龙头承压→A股算力链（服务器/光模块/PCB）情绪受抑",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
+   "ts": "Tue, 10 Nov 2026 17:05:43 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "英伟达聘律所主导CEO事件调查",
+   "brief": "英伟达聘请Wachtell Lipton律所牵头对黄仁勋相关事件的调查，治理风险受关注。",
+   "chain": "律所介入调查→治理不确定性上升→美股半导体板块波动→A股算力链风险偏好受扰",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html",
+   "ts": "Tue, 10 Nov 2026 20:01:18 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "微软跌3% Anthropic推办公工具",
+   "brief": "Anthropic推出Office类AI工具后，微软股价跌幅扩大至3%，办公软件竞争升温。",
+   "chain": "AI办公竞争加剧→微软承压、软件板块分化→A股办公软件与AI应用链情绪受牵动",
    "impact": 7,
    "source": "东方财富·环球",
    "url": "https://finance.eastmoney.com/a/202611113927714294.html",
@@ -162,63 +155,53 @@
   },
   {
    "cat": "tech",
-   "title": "AMD发布第六代EPYC处理器",
-   "brief": "AMD推出第六代EPYC，定位AI与企业计算新时代，数据中心CPU竞争升级。",
-   "chain": "AMD新品→数据中心算力供给增强→美股半导体情绪提振→A股算力链与服务器产业链映射",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611113927713235.html",
-   "ts": "2026-11-11 01:30:37"
-  },
-  {
-   "cat": "tech",
-   "title": "摩根士丹利下调兆易创新评级至平配",
-   "brief": "大摩将兆易创新A股评级下调至平配，目标价259元，存储板块情绪受挫。",
-   "chain": "外资下调评级→A股存储芯片情绪承压→映射算力链上游存储环节估值受压",
+   "title": "西门子能源拟回购最高90亿欧元",
+   "brief": "西门子能源计划在2030年底前回购最高90亿欧元股票，释放资本回报信号。",
+   "chain": "大手笔回购→欧洲能源设备股获支撑→映射A股电力设备与燃机产业链情绪",
    "impact": 5,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611113927711649.html",
-   "ts": "2026-11-11 01:18:03"
+   "url": "https://finance.eastmoney.com/a/202611113927723041.html",
+   "ts": "2026-11-11 03:21:21"
   },
   {
    "cat": "ai",
-   "title": "英伟达连跌第二日 黄仁勋绯闻风波发酵",
-   "brief": "投资者权衡CEO黄仁勋与疑似间谍人员绯闻的后续影响，英伟达连续第二日下跌。",
-   "chain": "英伟达治理风险→美股AI龙头承压→A股算力链（光模块/服务器）情绪联动走弱",
+   "title": "Anthropic进军AI办公 与微软谷歌竞争",
+   "brief": "Anthropic推出系列工具将AI融入日常办公，IPO前与微软、谷歌竞争升温。",
+   "chain": "AI办公落地加速→美股软件巨头竞争格局生变→A股AI应用与办公软件链受催化",
    "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
-   "ts": "Tue, 10 Nov 2026 17:05:43 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611113927721829.html",
+   "ts": "2026-11-11 02:49:03"
   },
   {
    "cat": "ai",
-   "title": "黄仁勋绯闻令英伟达中国难题更复杂",
-   "brief": "CEO绯闻叠加中国情报疑云，令英伟达本已复杂的中国市场与出口问题更棘手。",
-   "chain": "对华业务不确定性上升→美股AI芯片龙头风险溢价抬升→A股算力链国产替代逻辑强化",
+   "title": "交易员押注Anthropic IPO首日大涨",
+   "brief": "永续合约交易员预计Anthropic历史性IPO将迎来首日上涨。",
+   "chain": "IPO预期升温→AI一级市场情绪回暖→美股AI板块风险偏好改善→A股算力链情绪偏暖",
    "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html",
-   "ts": "Tue, 10 Nov 2026 15:04:23 GMT"
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/10/traders-bet-on-a-pop-for-anthropics-historic-ipo.html",
+   "ts": "2026-11-10T19:51:18+00:00"
   },
   {
    "cat": "ai",
-   "title": "英伟达风波未撼动科技多头 间谍调查扩大",
-   "brief": "尽管英伟达绯闻与间谍调查扩大，科技股多头情绪未被击垮，芯片股反弹。",
-   "chain": "AI多头韧性→美股芯片情绪修复→A股算力链情绪获支撑",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/10/nvidia-scandal-fails-to-bring-down-the-tech-bulls-as-spy-investigation-widens.html",
-   "ts": "Tue, 10 Nov 2026 11:41:56 GMT"
+   "title": "Nscale考虑推迟350亿美元上市",
+   "brief": "AI股票遭抛售后，Nscale正考虑推迟其规模350亿美元的上市计划。",
+   "chain": "AI股抛售→IPO推迟→算力投资节奏存疑→美股AI基建链承压→A股算力链情绪受抑",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611113927722367.html",
+   "ts": "2026-11-11 03:09:12"
   },
   {
    "cat": "ai",
-   "title": "Cramer：Anthropic IPO或决定AI交易成败",
-   "brief": "Cramer认为Anthropic的IPO可能成为AI交易的关键分水岭，市场高度关注。",
-   "chain": "AI龙头IPO预期→美股AI板块估值锚重塑→A股算力链情绪与估值联动",
+   "title": "CFTC据称推迟批准AI算力期货",
+   "brief": "美国商品期货交易委员会据称推迟批准AI算力期货交易，算力金融化进程放缓。",
+   "chain": "算力期货推迟→算力定价工具缺位→美股AI基建预期降温→A股算力链情绪边际偏弱",
    "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/09/anthropic-ipo-ai-trade-jim-cramer.html",
-   "ts": "Mon, 09 Nov 2026 23:30:15 GMT"
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611113927724243.html",
+   "ts": "2026-11-11 04:02:14"
   }
  ]
 }
