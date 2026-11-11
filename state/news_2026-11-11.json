@@ -1,23 +1,20 @@
 {
  "asof": "2026-11-11",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-11-11T04:38+08:00",
+ "generated_at": "2026-11-11T14:02+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 7,
-  "cluster_label": "伊朗",
-  "cluster_dropped": [
-   "鲁比奥向G7承诺持续重压伊朗",
-   "伊朗南帕尔斯气田平台起火人员撤离"
-  ],
+  "cross_day_suppressed": 3,
+  "cluster_label": "",
+  "cluster_dropped": [],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "美国10月CPI超预期 市场震荡",
-   "brief": "美国10月通胀数据高于预期，引发市场对美联储进一步加息的担忧，美股与美债承压。",
-   "chain": "CPI超预期→加息预期升温、美债收益率上行→美股AI高久期估值承压→A股算力链情绪受抑",
+   "title": "美国10月CPI超预期，市场震荡",
+   "brief": "美国10月通胀数据高于预期，引发市场对美联储继续加息的担忧，美股承压。",
+   "chain": "通胀超预期→加息预期升温→美股AI高久期股估值分母抬升→A股算力链情绪承压",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRGxVcWRPUjR6aDlqZEVjYjNScVg4MHpQRXQ0Z1VBLU5WbENmYi1XWlJUOWt3MFdlNGdJcVlaRjEtUzZUd0dYVXJDTEY2Ung1Nm9meGZfWFpUYnVPbElHQjJIaW9pVUQwWWY0czJsMEV0YkNTNmh0SDA5MVM3dVhaRUI1Q19JLTlIVFM3SHJKSEU3MmNZczROOExR?oc=5",
@@ -25,19 +22,19 @@
   },
   {
    "cat": "macro",
-   "title": "美联储官员暗示或加息50基点",
-   "brief": "通胀超预期后，多位美联储官员为更大幅度加息打开大门，政策路径转向更鹰派。",
-   "chain": "鹰派表态→实际利率上行、贴现率抬升→压制美股成长股→A股算力链估值分母走高",
+   "title": "美联储官员暗示可能加息50基点",
+   "brief": "通胀恶化背景下，多位美联储官员表示不排除单次加息半个百分点。",
+   "chain": "加息幅度预期上修→美债利率上行→压制美股成长股估值→A股算力板块风险偏好收敛",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTXo5UzFWVEh5WllQOHNxS1Q2cERxOEM0X1QyN1dPX0R4XzdfT1BpajYxdi0xOEltNWh6cE15Z2ZvZ2dXV0Vwb3NkbWZ1VGQ2M2tvVVVSaWd6clhPcS1XUEU2QXE3c0tlLUhPX0c2emRnWVpwOGtoajlnSS1VRXRNZXFaNEpyVlVwcFVIOUdkT18yQ2t6a1psZGVlOFpiZl90QnVhcmxqQzNxNnlNSEdXcWpjcUdzYUNJSi1hcnl6ZEpUSUU?oc=5",
-   "ts": "2026-11-10T18:14:35+00:00"
+   "ts": "2026-11-10T20:42:14+00:00"
   },
   {
    "cat": "macro",
-   "title": "洛根呼吁再加息两次 或很快行动",
-   "brief": "达拉斯联储行长洛根主张再加息两次，并称可能快速推进，强化紧缩预期。",
-   "chain": "加息预期强化→美元与实际利率走强→美股AI板块承压→A股算力链风险偏好回落",
+   "title": "洛根呼吁再加息两次且可能很快",
+   "brief": "达拉斯联储主席洛根主张再升息两次，并称可能快速推进。",
+   "chain": "鹰派表态→实际利率上行→美股AI估值承压→A股算力链短期情绪偏弱",
    "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZ0xfUlI5TmlGa3Z4Z0QtTF9FcVRjZ0hwNEFSOVNTX0otSERvdUdrZzBKazRheFd2Vlc3bWZhazZfY2haNFNKVi1WOWNnWWVfTmgyVk9iSXFqRTR3aHcwRV93UkF0ejRGVFdOdVR4N2NWalZkYkFhS3NTLWtsY1FjazJld1JBX0lBRmM4M1RhdHk3UDBjZFFWOUNQVm40bkU?oc=5",
@@ -45,163 +42,183 @@
   },
   {
    "cat": "macro",
-   "title": "美债遭猛烈抛售 通胀与鹰派言论冲击",
-   "brief": "通胀高于预期叠加官员警告加大升息，美债录得2025年4月以来最严重抛售之一。",
-   "chain": "美债抛售→10年期收益率逼近5%、贴现率抬升→美股高估值科技股承压→A股算力链情绪传导",
+   "title": "10年期美债收益率重回5%",
+   "brief": "通胀数据与沃勒讲话推升加息预期，10年期美债收益率回升至5%。",
+   "chain": "长端利率破5%→贴现率抬升压制高久期AI股→A股算力链估值情绪受抑",
    "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611113927721296.html",
-   "ts": "2026-11-11 02:23:11"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
+   "ts": "Tue, 10 Nov 2026 21:06:07 GMT"
   },
   {
    "cat": "macro",
-   "title": "施密德称当前利率并不抑制经济",
-   "brief": "堪萨斯城联储行长施密德表示利率相当宽松、并未限制经济，为继续紧缩提供理由。",
-   "chain": "官员称利率偏宽松→紧缩预期不减→美债收益率高企→美股AI估值承压→A股算力链情绪偏弱",
+   "title": "高盛上调美联储加息路径预期",
+   "brief": "高盛预计美联储12月及2027年3月各加息25个基点，此前仅预测12月一次。",
+   "chain": "加息路径上修→美元与实际利率走强→美股成长股承压→A股算力链情绪偏空",
    "impact": 7,
    "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611113927727116.html",
-   "ts": "2026-11-11 04:27:30"
+   "url": "https://finance.eastmoney.com/a/202611113928311357.html",
+   "ts": "2026-11-11 13:52:11"
+  },
+  {
+   "cat": "macro",
+   "title": "白宫称将顶着中期选举反弹推进关税",
+   "brief": "中期选举因物价上涨出现反弹，白宫仍誓言推进关税政策。",
+   "chain": "关税延续→通胀黏性上升→美联储更鹰→美股承压并传导A股出口链与算力链",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/10/trump-tariffs-midterms-gary-cohn-inflation.html",
+   "ts": "Tue, 10 Nov 2026 21:45:46 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "新加坡欲抢占全球黄金市场更大份额",
+   "brief": "新加坡谋求在全球黄金交易中扩大份额，反映亚洲黄金枢纽竞争加剧。",
+   "chain": "黄金交易重心东移→去美元化结构性信号→美股风险偏好边际影响→A股算力链情绪中性",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/11/singapore-gold-market-vault-storage.html",
+   "ts": "Wed, 11 Nov 2026 02:46:56 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "霍尔木兹航运遇袭，油价反弹",
+   "brief": "霍尔木兹海峡航运遭袭，削弱美伊停火希望，原油价格回升。",
+   "chain": "海峡遇袭→油价风险溢价回升→美股能源板块受益、成长股承压→A股算力链情绪偏弱",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUDdYdlFvTWpsUDJOZkVpN1RNYmM1RlIwZUxzSGhrazVnMTJ1el9lT2lpc08yc2VrUjdyR0tSWjJIRVRMdXh2cmJDam5yY2d1QURuUFdvQkh1ZWJDdHFXbmZCejViSHhTYnl6YU1uMmEtS1NIcFU1dmhPQVZpN2R5Ykc1OVBrUXVhemRVa01TblQ5THN6eDBlOXl3Nm5qTEtKRjNDeVVraW1hRjUwZjQyclBwd1hCTlZvNkdaVVdlUDc?oc=5",
+   "ts": "2026-11-11T02:10:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "鲁比奥向G7承诺持续重压伊朗",
+   "brief": "鲁比奥在G7表示美国将继续对伊朗施加“毁灭性”代价。",
+   "chain": "制裁升级→中东风险溢价维持→美股避险情绪升温→A股算力链风险偏好收敛",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMm1PTnVENERxQ3laRzBVcGVRVkQ0eHVqMDZzRllQSU4tSFphMU1QS3RzSDVld29NUWVjZDkwWlQ2MXJXVng2bDEyLVFRaXY5c0E2VV9udlZUYlFUT2FpR25tSjdkTXdxSnBoYmsycXBUbTh6U3VVbTJ0anhqN2xjSllSYUFKeDRud25PdDBXS0xhcl8zSFFVdDVBcTNVWnRLVUgxR193cG5JRTNSWW1rTmlrMGNwcTYyOU1tVnVZRQ?oc=5",
+   "ts": "2026-11-10T16:38:24+00:00"
   },
   {
    "cat": "geo",
    "title": "鲁比奥称无需对伊朗大规模作战",
-   "brief": "鲁比奥表示凭借经济施压即可，无需对伊朗发动大规模军事行动，冲突升级预期降温。",
-   "chain": "美方淡化军事行动→中东风险溢价回落→美股风险偏好修复→A股算力链情绪边际改善",
-   "impact": 8,
+   "brief": "鲁比奥表示凭借经济施压即可，无需对伊朗发动大规模军事行动。",
+   "chain": "冲突降级信号→避险情绪缓和→美股风险偏好修复→A股算力链情绪边际改善",
+   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOek5yNnd3UkRRS2RHYjY5MlR1NU9KQnFWcW43RGV1VHI5Yzhxc3RseUstNnVCbXVlUTN3T1hTcE9RUEFGT0R6Q0JUTmQxNW1aX2lZM0RXZkNjLTgwdWQ5aFN1OGM2LTBLcV91MlBkdDE0a2VCQk5nNUdDOGo1ZHI2TW9Pa010QjlrcjQwU0htVjlTMlVOUXJ2cThHQ0JHY09rSHFyYVgtNzNhMXNVVzJ3UTZTb1R6cmM?oc=5",
-   "ts": "2026-11-10T16:27:43+00:00"
+   "ts": "2026-11-10T19:35:30+00:00"
   },
   {
    "cat": "geo",
-   "title": "泽连斯基与芬兰总统通话谈三方会谈",
-   "brief": "泽连斯基与斯图布通话，就当日俄美乌三方会谈进程及后续协调交换意见。",
-   "chain": "俄乌谈判推进→欧洲地缘风险边际缓和→美股风险偏好改善→A股算力链情绪偏暖",
-   "impact": 6,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611113927722051.html",
-   "ts": "2026-11-11 03:00:21"
-  },
-  {
-   "cat": "geo",
-   "title": "美军士兵涉俄间谍在英被捕",
-   "brief": "英国反恐警察称一名41岁美军士兵涉嫌从事与俄罗斯相关间谍活动被捕。",
-   "chain": "俄相关间谍案→美俄博弈升温→避险情绪扰动→美股风险偏好承压→A股算力链情绪偏谨慎",
+   "title": "美军人员在英国涉为俄从事间谍被捕",
+   "brief": "一名美国陆军成员在英国因涉嫌为俄罗斯从事间谍活动被捕。",
+   "chain": "大国博弈升温→避险情绪抬头→美股风险偏好受压→A股算力链情绪偏谨慎",
    "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611113927725558.html",
-   "ts": "2026-11-11 04:23:48"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQT0hNNGY0T0RDZVBLMGZlOW5iREJOMXN2VEt6VGV4aEo4Y2JoejZOa3VJMXJicWRvaUtnNE9pTG5iMzNfbGlpQjZPRVc0SW9zV0xiYjJJLU4wTW9OY25oUE5uMkkwRkxtd2NlOUZrVnJlVUVPX1ozcDdmVlNwbEh2WWxqSmNvRWZvTDF4X25jWURpUzFHUFAxWkNvUUtYbnhuLWdKZFIxMWxLS2tfWUY4?oc=5",
+   "ts": "2026-11-10T20:04:39+00:00"
   },
   {
    "cat": "oil",
-   "title": "油价跌至8月以来最低",
-   "brief": "原油价格回落至8月以来最低水平，市场对供应与需求的担忧主导走势。",
-   "chain": "油价走低→Brent/WTI下行→莫桑比克油气项目收入与投资回报承压，需关注成本与长约定价",
+   "title": "伊朗和平乐观情绪消退，油价上涨",
+   "brief": "美伊和谈希望减弱叠加供应扰动，国际油价走高。",
+   "chain": "和平预期消退→Brent风险溢价回升→东非油气经营售价环境改善但航运风险上升",
    "impact": 8,
    "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Oil-Falls-to-Lowest-Level-Since-August.html",
-   "ts": "Tue, 10 Nov 2026 10:34:00 -0600"
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rise-as-Iran-Peace-Optimism-Fades.html",
+   "ts": "Tue, 10 Nov 2026 23:45:00 -0600"
   },
   {
    "cat": "oil",
-   "title": "乌军打击扰乱俄30%炼油产能",
-   "brief": "乌克兰对俄炼油设施打击导致约30%炼油产能受扰，成品油供应趋紧。",
-   "chain": "俄炼能受损→成品油裂解价差走阔、原油结构分化→东非进口成品油成本上升，莫桑比克经营成本承压",
-   "impact": 7,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Ukrainian-Strikes-Disrupt-30-of-Russias-Oil-Refining-Capacity.html",
-   "ts": "Tue, 10 Nov 2026 12:00:00 -0600"
-  },
-  {
-   "cat": "oil",
-   "title": "美中期选举或重塑全球油气市场",
-   "brief": "美国中期选举格局变化可能影响能源政策与油气市场走向。",
-   "chain": "选举变局→美国油气政策不确定性→油价波动加大→莫桑比克LNG项目融资与长约环境受影响",
+   "title": "API显示美国原油与馏分油库存大增",
+   "brief": "API数据显示美国原油及馏分油库存大幅增加，反映供应宽松。",
+   "chain": "库存大增→WTI承压→全球油价中枢下移→莫桑比克油气售价与项目收益承压",
    "impact": 6,
    "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Energy-General/US-Midterm-Shake-Up-Could-Reshape-Global-Oil-and-Gas-Markets.html",
-   "ts": "Tue, 10 Nov 2026 13:00:00 -0600"
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/API-Shows-Sharp-Build-in-US-Crude-Oil-Distillate-Inventories.html",
+   "ts": "Tue, 10 Nov 2026 15:59:00 -0600"
+  },
+  {
+   "cat": "oil",
+   "title": "南苏丹招揽石油投资者",
+   "brief": "苏丹战事各方分食份额之际，南苏丹积极招揽石油投资。",
+   "chain": "东非上游投资活跃→区域油气供给预期上升→对莫桑比克油气竞争与资本分流有影响",
+   "impact": 5,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Crude-Oil/South-Sudan-Courts-Oil-Investors-as-Sudans-Warring-Forces-Take-Their-Share.html",
+   "ts": "Tue, 10 Nov 2026 18:00:00 -0600"
+  },
+  {
+   "cat": "gas",
+   "title": "波兰Orlen因交付违约终止卡塔尔LNG长约",
+   "brief": "波兰Orlen以交付失败为由终止与卡塔尔能源的长期LNG合同。",
+   "chain": "LNG长约违约→全球LNG现货流向与价格重估→东非LNG项目议价与买家信心受关注",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWWNsbHZIOFpSN0NER012RTNDdE9jRzFkWXRJZVY1X2hkVTlnUHhDcFNrVDU0Ul9yVXlvcHpfblFEYkYyNW9jRXA2OHNldXhuaEhQQTZYX3V0R1R5dFdVNkRNZFNrVWtWdHI3N0FrYVFFNEx1MlhBYkFJY1c0MEQ3Ym1RRzF0YWY2OWZWZmR0RlFYeU5YOWhlR0UycW9jODJDMjZob2VIR0JNcHd5dkFKSzZYYUpSYUJkcEtwMlRXZ3pPcHN2dWc?oc=5",
+   "ts": "2026-11-10T22:04:00+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "伊朗南帕尔斯气田平台火情已控制",
+   "brief": "伊朗方面称南帕尔斯天然气平台火灾已被控制。",
+   "chain": "南帕尔斯供应扰动缓和→TTF气价回落压力→对莫桑比克LNG出口价格形成间接压制",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTk9qU0hFcU1IcHpSaGVmeFh2QmVKM3VaaUlja3Vqb0ppbFlrQWhVMFZvTU1EV3dFUXBGSU5MZmNrb0hnQ2hKUlBHSTFaYXFnYWV2OTg3UnEtVVczRXlYN0ZrNUZVT05JTjBnXy1LZU41azlXMlRPbWxjbUkxNTRxa2k4TmxXbkh1a3VXeEFtY1ZuR2VpODliZXN0SGo?oc=5",
+   "ts": "2026-11-10T21:22:23+00:00"
   },
   {
    "cat": "tech",
-   "title": "英伟达连续第二日下跌 涉CEO丑闻",
-   "brief": "投资者权衡CEO与疑似间谍交往的后续影响，英伟达股价连续第二日走低。",
-   "chain": "英伟达丑闻发酵→美股AI芯片龙头承压→A股算力链（服务器/光模块/PCB）情绪受抑",
+   "title": "阿里拟分拆平头哥上市",
+   "brief": "阿里巴巴宣布计划将旗下芯片公司平头哥分拆上市，对标英伟达。",
+   "chain": "国产芯片资本化提速→美股半导体竞争格局受关注→映射A股算力芯片链情绪",
    "impact": 8,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
-   "ts": "Tue, 10 Nov 2026 17:05:43 GMT"
+   "url": "https://www.cnbc.com/2026/11/11/alibaba-pr.html",
+   "ts": "Wed, 11 Nov 2026 03:08:17 GMT"
   },
   {
    "cat": "tech",
-   "title": "英伟达聘律所主导CEO事件调查",
-   "brief": "英伟达聘请Wachtell Lipton律所牵头对黄仁勋相关事件的调查，治理风险受关注。",
-   "chain": "律所介入调查→治理不确定性上升→美股半导体板块波动→A股算力链风险偏好受扰",
-   "impact": 7,
+   "title": "CoreWeave营收超预期并上调指引",
+   "brief": "CoreWeave业绩超预期并上调指引，缓解市场对AI放缓的担忧。",
+   "chain": "AI云需求强劲→美股AI基础设施信心修复→A股算力租赁与光模块链受益",
+   "impact": 8,
    "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+   "ts": "Tue, 10 Nov 2026 23:16:15 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "存储厂商酝酿新一轮涨价，企业级先行",
+   "brief": "头部存储厂商已口头告知渠道企业级颗粒涨价意向，提价函待发。",
+   "chain": "存储涨价→美股存储与半导体景气上行→映射A股存储芯片链盈利预期改善",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611113928298848.html",
+   "ts": "2026-11-11 13:38:33"
+  },
+  {
+   "cat": "tech",
+   "title": "存储芯片概念拉升，普冉涨超10%",
+   "brief": "A股存储芯片板块震荡走强，普冉股份领涨超10%，多股跟涨。",
+   "chain": "存储涨价预期→A股存储链资金涌入→与美股半导体景气共振",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611113928309891.html",
+   "ts": "2026-11-11 13:48:42"
+  },
+  {
+   "cat": "tech",
+   "title": "英伟达聘律所牵头黄仁勋事件调查",
+   "brief": "英伟达聘请Wachtell Lipton主导对黄仁勋相关事件的内部调查。",
+   "chain": "公司治理风险→英伟达股价波动→映射A股算力链对龙头不确定性的敏感度",
+   "impact": 7,
+   "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html",
    "ts": "Tue, 10 Nov 2026 20:01:18 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "微软跌3% Anthropic推办公工具",
-   "brief": "Anthropic推出Office类AI工具后，微软股价跌幅扩大至3%，办公软件竞争升温。",
-   "chain": "AI办公竞争加剧→微软承压、软件板块分化→A股办公软件与AI应用链情绪受牵动",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611113927714294.html",
-   "ts": "2026-11-11 01:43:20"
-  },
-  {
-   "cat": "tech",
-   "title": "西门子能源拟回购最高90亿欧元",
-   "brief": "西门子能源计划在2030年底前回购最高90亿欧元股票，释放资本回报信号。",
-   "chain": "大手笔回购→欧洲能源设备股获支撑→映射A股电力设备与燃机产业链情绪",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611113927723041.html",
-   "ts": "2026-11-11 03:21:21"
-  },
-  {
-   "cat": "ai",
-   "title": "Anthropic进军AI办公 与微软谷歌竞争",
-   "brief": "Anthropic推出系列工具将AI融入日常办公，IPO前与微软、谷歌竞争升温。",
-   "chain": "AI办公落地加速→美股软件巨头竞争格局生变→A股AI应用与办公软件链受催化",
-   "impact": 8,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611113927721829.html",
-   "ts": "2026-11-11 02:49:03"
-  },
-  {
-   "cat": "ai",
-   "title": "交易员押注Anthropic IPO首日大涨",
-   "brief": "永续合约交易员预计Anthropic历史性IPO将迎来首日上涨。",
-   "chain": "IPO预期升温→AI一级市场情绪回暖→美股AI板块风险偏好改善→A股算力链情绪偏暖",
-   "impact": 7,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/10/traders-bet-on-a-pop-for-anthropics-historic-ipo.html",
-   "ts": "2026-11-10T19:51:18+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "Nscale考虑推迟350亿美元上市",
-   "brief": "AI股票遭抛售后，Nscale正考虑推迟其规模350亿美元的上市计划。",
-   "chain": "AI股抛售→IPO推迟→算力投资节奏存疑→美股AI基建链承压→A股算力链情绪受抑",
-   "impact": 7,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611113927722367.html",
-   "ts": "2026-11-11 03:09:12"
-  },
-  {
-   "cat": "ai",
-   "title": "CFTC据称推迟批准AI算力期货",
-   "brief": "美国商品期货交易委员会据称推迟批准AI算力期货交易，算力金融化进程放缓。",
-   "chain": "算力期货推迟→算力定价工具缺位→美股AI基建预期降温→A股算力链情绪边际偏弱",
-   "impact": 5,
-   "source": "东方财富·环球",
-   "url": "https://finance.eastmoney.com/a/202611113927724243.html",
-   "ts": "2026-11-11 04:02:14"
   }
  ]
 }
