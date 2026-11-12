@@ -1,0 +1,204 @@
+{
+ "asof": "2026-11-13",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-11-13T02:56+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 9,
+  "cluster_label": "",
+  "cluster_dropped": [],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "美10年期国债收益率日内升10基点至5.09%",
+   "brief": "美国10年期国债收益率单日跳升10个基点至5.09%，长端利率显著上行，反映通胀与财政担忧升温。",
+   "chain": "长端利率飙升→美股AI高久期成长股贴现率抬升、估值承压→A股算力链风险偏好受抑",
+   "impact": 9,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611133930037620.html",
+   "ts": "2026-11-13 00:57:54"
+  },
+  {
+   "cat": "macro",
+   "title": "金价跌3%创一年多新低，中东和平希望消退",
+   "brief": "受中东和平希望消退推升通胀担忧影响，金价单日跌3%至一年多低位，避险与实际利率逻辑反转。",
+   "chain": "避险溢价回落+实际利率上行主导→美股AI高久期票估值分母走高、风险偏好降温→A股算力链情绪承压",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc09mRGRCVmlxTnVTdDR2Y0ktNjVkZE1xUHhyTnZWUGZvbFZFS2hsTFk1SkVfNE82SVZlMTFXbUFtckZMaDIwbzA5RlgxWUxKbE5ZMGhrRkl1UWFrVG9ibW9mdWlGM0NYRTVlQnZramhHSTVadmtEaFhWMDRFY1dYVWRPX1RzNm9YNURTVUVzeGo2aEo4UzZReXRCVlQ0amhjVGFWTU1BVFVQR1k?oc=5",
+   "ts": "2026-11-12T03:40:00+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "美财政部拍卖250亿美元30年期国债，得标利率5.441%",
+   "brief": "30年期国债得标利率5.441%，投标倍数2.36低于前次2.54，需求走弱凸显长端供给压力。",
+   "chain": "长债需求疲软、利率高企→美股估值分母抬升压制成长股→A股算力链跟随风险偏好波动",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611133930044979.html",
+   "ts": "2026-11-13 02:03:51"
+  },
+  {
+   "cat": "macro",
+   "title": "美联储取消2027年10月FOMC利率会议安排",
+   "brief": "美联储更新2027年FOMC日程，取消10月利率会议，此前主席Warsh已宣布该会不投票利率。",
+   "chain": "FOMC日程调整释放政策框架信号→美股利率路径预期重估→A股算力链受全球流动性预期牵引",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611133930037468.html",
+   "ts": "2026-11-13 00:59:15"
+  },
+  {
+   "cat": "macro",
+   "title": "旧金山联储戴利：判断AI生产率影响为时尚早",
+   "brief": "戴利表示现在判断人工智能对生产率的影响何时到来还为时过早，淡化AI短期宏观效应。",
+   "chain": "官员淡化AI生产率红利→美股AI叙事估值支撑受质疑→A股算力链主题情绪边际降温",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611133930048463.html",
+   "ts": "2026-11-13 02:27:20"
+  },
+  {
+   "cat": "geo",
+   "title": "特朗普称“不需要与伊朗达成协议”",
+   "brief": "特朗普表态美国无需与伊朗达成协议，中东和平前景转淡，地缘风险溢价重新抬头。",
+   "chain": "美伊谈判破裂预期→美股风险偏好与能源板块波动→A股算力链受避险情绪扰动",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html",
+   "ts": "Thu, 12 Nov 2026 16:36:23 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "伊朗专家会议呼吁审议退出《不扩散核武器条约》",
+   "brief": "伊朗专家会议12日声明呼吁有关部门审议退出NPT，重新审视防御战略并建立威慑能力。",
+   "chain": "核不扩散框架松动、中东紧张升级→美股避险与能源波动加剧→A股算力链风险偏好承压",
+   "impact": 8,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611133930049116.html",
+   "ts": "2026-11-13 02:32:10"
+  },
+  {
+   "cat": "geo",
+   "title": "库什纳称俄乌多边谈判下周举行",
+   "brief": "特朗普女婿库什纳离开俄罗斯前表示，多边谈判将于下周举行，美俄会晤内容将影响后续谈判。",
+   "chain": "俄乌和谈推进预期→美股风险偏好边际改善→A股算力链情绪获支撑",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611133930048691.html",
+   "ts": "2026-11-13 02:35:16"
+  },
+  {
+   "cat": "geo",
+   "title": "乌警告Starshield新中断，美特使抵莫斯科",
+   "brief": "乌克兰警告星盾服务再现中断，同时美国特使抵莫斯科与普京会谈，战场与外交并行。",
+   "chain": "卫星通信受扰+和谈博弈→美股航天军工与风险偏好波动→A股算力链受地缘情绪牵引",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/12/starlink-starshield-ukraine-restrictions-spacex.html",
+   "ts": "Thu, 12 Nov 2026 11:23:04 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "特朗普称无需伊朗协议，Brent一度触及94美元",
+   "brief": "特朗普表态无需与伊朗达成协议后，布伦特原油一度冲上94美元，地缘溢价推升油价。",
+   "chain": "美伊僵局→Brent冲高94美元→东非油气资产价值与莫桑比克LNG经济性获支撑，但进口成本上升",
+   "impact": 9,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Briefly-Hits-94-After-Trump-Says-US-Has-No-Need-for-Iran-Deal.html",
+   "ts": "Thu, 12 Nov 2026 11:30:00 -0600"
+  },
+  {
+   "cat": "oil",
+   "title": "美上周EIA原油库存增466万桶远超预期",
+   "brief": "EIA数据显示上周原油库存增加466万桶，远超预期的减少85万桶，库欣库存亦增10.6万桶。",
+   "chain": "库存大幅累积→油价上行受基本面掣肘→莫桑比克油气销售价格弹性受限，需警惕需求走弱",
+   "impact": 7,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611133930038618.html",
+   "ts": "2026-11-13 01:04:19"
+  },
+  {
+   "cat": "oil",
+   "title": "上期所原油夜盘收涨1.65%",
+   "brief": "上期所原油期货2612合约夜盘收涨1.65%报617.90元/桶，跟随国际油价地缘溢价走强。",
+   "chain": "地缘溢价推升上海原油→亚洲进口成本抬升→东非油气对亚洲套利窗口与莫桑比克销售受益",
+   "impact": 6,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611133930048545.html",
+   "ts": "2026-11-13 02:32:30"
+  },
+  {
+   "cat": "gas",
+   "title": "意大利ENEL将数据中心纳入下一阶段业务计划",
+   "brief": "意大利国家电力公司ENEL表示将把数据中心纳入下一阶段业务计划，电力与算力需求绑定加深。",
+   "chain": "数据中心电力需求扩张→欧洲气电与LNG需求获结构性支撑→东非LNG长期承购谈判受益",
+   "impact": 5,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611133930043267.html",
+   "ts": "2026-11-13 01:48:27"
+  },
+  {
+   "cat": "tech",
+   "title": "克雷斯就任英伟达临时CEO，黄仁勋辞职",
+   "brief": "英伟达12日宣布CFO克雷斯出任临时CEO，联合创始人黄仁勋辞去总裁、CEO及董事职务，即刻生效。",
+   "chain": "英伟达高层突变→美股AI芯片龙头治理风险上升、估值波动→A股算力链国产替代与情绪双向传导",
+   "impact": 10,
+   "source": "东方财富·环球",
+   "url": "https://finance.eastmoney.com/a/202611123930020067.html",
+   "ts": "2026-11-13 00:40:43"
+  },
+  {
+   "cat": "tech",
+   "title": "黄仁勋涉间谍风波，推动收紧对华芯片管制",
+   "brief": "黄仁勋与疑似间谍的绯闻重燃收紧对华芯片出口管制的呼声，时点临近特朗普-习峰会。",
+   "chain": "对华芯片管制预期升温→美股半导体承压、国产替代逻辑强化→A股算力链自主可控受益",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-trump-jensen-chip-export-controls-china-xi-.html",
+   "ts": "Thu, 12 Nov 2026 07:50:34 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "黄仁勋离任阴影笼罩华尔街5000亿AI融资押注",
+   "brief": "黄仁勋退出英伟达令华尔街规模约5000亿美元的AI融资押注蒙上阴影，融资信心受考验。",
+   "chain": "AI融资信心动摇→美股AI资本开支链估值承压→A股算力链融资与订单预期受抑",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html",
+   "ts": "Thu, 12 Nov 2026 17:41:46 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "乌克兰防务科技初创估值达60亿美元",
+   "brief": "乌克兰一家防务科技初创公司估值升至60亿美元，投资者押注经实战检验的无人机技术。",
+   "chain": "战场验证无人机需求→美股防务科技受关注→A股无人机与军工电子链情绪联动",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/12/uforce-defense-tech-drones-warfare-ukraine.html",
+   "ts": "Thu, 12 Nov 2026 09:05:22 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "AI冲击咨询业计费工时与毕业生招聘管道",
+   "brief": "AI正侵蚀咨询业按小时计费模式及其毕业生招聘管道，行业商业模式面临重塑。",
+   "chain": "AI替代白领服务→美股咨询与专业服务估值重估→A股AI应用落地链主题受关注",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/12/ai-consulting-billable-hours-graduate-hiring.html",
+   "ts": "Thu, 12 Nov 2026 08:20:56 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达董事会危机会议前投资者情绪紧张",
+   "brief": "投资者静待英伟达董事会就CEO危机会议结果，市场对这家AI核心公司治理前景高度紧张。",
+   "chain": "AI龙头治理不确定性→美股AI板块波动放大→A股算力链跟随情绪高波动",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-boards-crisis-meeting.html",
+   "ts": "Thu, 12 Nov 2026 14:15:00 GMT"
+  }
+ ]
+}
