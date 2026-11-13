@@ -1,21 +1,30 @@
 {
  "asof": "2026-11-13",
- "fetched_at": "2026-11-13T19:14+08:00",
+ "fetched_at": "2026-11-13T22:58+08:00",
  "meta": {
   "counts": {
    "finnhub": 40,
    "em": 0,
    "rss": 100
   },
-  "total": 103
+  "total": 104
  },
  "candidates": [
   {
-   "title": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
-   "summary": "Commerce Secretary Lutnick will testify before the Senate Banking Committee following revelations about Jensen Huang's affair with an alleged Chinese spy.",
+   "title": "Jim Cramer's top 10 things to watch in the stock market Friday",
+   "summary": "Stock futures picked up some steam this morning.",
    "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
-   "ts": "2026-11-13T10:54:40+00:00",
+   "url": "https://www.cnbc.com/investingclub/2026/11/13/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday.html",
+   "ts": "2026-11-13T14:12:16+00:00",
+   "origin": "finnhub",
+   "age_days": 0
+  },
+  {
+   "title": "CFTC Chair Selig tells CNBC crypto industry is embracing agency rules as legislation hopes fade",
+   "summary": "The top U.S. commodities regulator in October announced proposed crypto rules to assert its jurisdiction over the asset class.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/13/cftc-chair-selig-crypto-industry-opting-into-agencys-crypto-rules-.html",
+   "ts": "2026-11-13T13:15:35+00:00",
    "origin": "finnhub",
    "age_days": 0
   },
@@ -24,7 +33,43 @@
    "summary": "IAEA increasingly concerned about Iranian enrichment plant, its report says  Reuters",
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcEw4cVpnMkIxMTVtZEJlQmN3OHlsLUxxZnQxMWlfV3VfWTBYeHA2VEpBVWxpZk9TejdSaDgzazdlQUlMZy00aEhmZS1GYnhpVmU1bzdQTWM2VUJqd2dOWWowa1VQSWppQVdYSi1PVm0zX2J1b1hFU1QwaGs5N3lDZkJ3bEY5OG9Tai15M3VoRXVycFVBWjYwWjQ5dUhDcEJ4SWFHSXZxNDg5b2k2OG1DUVBoTHBDWE84dmVfZXc4WQ?oc=5",
-   "ts": "2026-11-13T09:25:09+00:00",
+   "ts": "2026-11-13T12:47:28+00:00",
+   "origin": "finnhub",
+   "age_days": 0
+  },
+  {
+   "title": "World oil market is returning to surplus as Gulf exports recover, IEA says - Reuters",
+   "summary": "World oil market is returning to surplus as Gulf exports recover, IEA says  Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcWtzQXhRVUlUbWQ0VVloOTVjekFCcC1XQlNXNWNRcERHNDFEbnBNTTFhZjV3Qjk5bGxCaDhoRFE1Yi1mdGNoR3JCVXY5MmQ0ODVnUWRabHowUDhYSUNKOXV5X0lLQzRBbWNabUFMTzVlMzBNOUUyWTgyeUg1cW5sRjJtUHo3TldPOEY4S19xOGwwYjlkemFibktTVTltVF94WUg5ekdJczcyUlBHOHZ0V3EtdWdjU0JOVkY4?oc=5",
+   "ts": "2026-11-13T11:34:59+00:00",
+   "origin": "finnhub",
+   "age_days": 0
+  },
+  {
+   "title": "NHL’s next media deal will test the league’s strength",
+   "summary": "How do the world's biggest media companies judge the value of non-NFL rights? The NHL is giving us our first window into a new era in media values.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/13/nhls-next-media-deal-will-test-the-leagues-strength.html",
+   "ts": "2026-11-13T11:34:44+00:00",
+   "origin": "finnhub",
+   "age_days": 0
+  },
+  {
+   "title": "CNBC's Official NHL Team Valuations 2026: How the 32 franchises stack up",
+   "summary": "The average NHL team is worth $2.71 billion, 23% more than a year ago.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/13/cnbcs-official-nhl-team-valuations-2026-how-the-32-clubs-stack-up.html",
+   "ts": "2026-11-13T11:07:04+00:00",
+   "origin": "finnhub",
+   "age_days": 0
+  },
+  {
+   "title": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
+   "summary": "Commerce Secretary Lutnick will testify before the Senate Banking Committee following revelations about Jensen Huang's affair with an alleged Chinese spy.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
+   "ts": "2026-11-13T10:54:40+00:00",
    "origin": "finnhub",
    "age_days": 0
   },
@@ -326,56 +371,83 @@
    "age_days": 1
   },
   {
-   "title": "Abu Dhabi boosts Gulf markets as FAB shares advance - Reuters",
-   "summary": "Abu Dhabi boosts Gulf markets as FAB shares advance  Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObGNWY3AteW02UnJ1U3diVGdQLTFOUlJCU1M0UWZhQUdCbzhicnpLWXNpeWhHT1J0NkZWYzRzVm1nMUcxV2Q5MXJGOXNMTm4tT3FHM3F4d0s5VWU3UzZ0ZW1nb1YtTzh4SEIwQXExSU5DX0V3dHNvbWlvMGZKVlppZ0tib2xkOWpoWHljSXVVRnh1b2VneEd0NHhnbVNvQy1QV1pwOEVTTG9OempFYmc?oc=5",
-   "ts": "2026-11-12T13:17:46+00:00",
-   "origin": "finnhub",
-   "age_days": 1
+   "title": "Apple, Alphabet and Uber survived major founder transitions. Nvidia will be a harder test",
+   "summary": "",
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-founder-ceo-transition.html",
+   "ts": "Fri, 13 Nov 2026 12:44:20 GMT",
+   "origin": "rss",
+   "age_days": 0
   },
   {
-   "title": "Unions helped Democrats win big in 2026. Now they want action",
-   "summary": "Unions spent millions of dollars and mobilized thousands of members to get out the vote for Democrats in the midterm election. Now they want to see action.",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/12/democrats-unions-midterms-2026.html",
-   "ts": "2026-11-12T13:09:33+00:00",
-   "origin": "finnhub",
-   "age_days": 1
+   "title": "U.S. seizes $1.2 billion in cryptocurrency stolen from Binance",
+   "summary": "",
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/13/us-seizes-binance-hack-crypto.html",
+   "ts": "Fri, 13 Nov 2026 12:03:24 GMT",
+   "origin": "rss",
+   "age_days": 0
   },
   {
-   "title": "Oman monitors handling of oil tanker run aground off its coast - Reuters",
-   "summary": "Oman monitors handling of oil tanker run aground off its coast  Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOajlqak9wTzJCY2RvLTg2YTV6MFZDX3hSMUMxVUVEM3BDQXBVWG10dDM3SDJ0S2pzWmd5NU1BNTZYbTFPVHluME43UTZ0QTVTcllRcDhUdTJienpEcFZ4MmZucnlYRHFCWlMtVG5EUGU1N2pwZl9DTWl1M2lDZFBwRFNwWUtBbVJyWWc3LWZsYlNuYWk3WFRnR1M4cDVVTWZXRnZhMjVrT2h3TXl2d2FPNlR0UQ?oc=5",
-   "ts": "2026-11-12T13:00:09+00:00",
-   "origin": "finnhub",
-   "age_days": 1
+   "title": "I interviewed Huang at peak ‘Jensenmania.’ Three weeks later, Nvidia is grappling with a world without him",
+   "summary": "",
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/13/tech-download-jensen-huang-nvidia-departure-jensenmania.html",
+   "ts": "Fri, 13 Nov 2026 12:46:12 GMT",
+   "origin": "rss",
+   "age_days": 0
   },
   {
-   "title": "Saudi Arabia to hold delayed FII in October 2027 - Reuters",
-   "summary": "Saudi Arabia to hold delayed FII in October 2027  Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORDQ4VExjSGx0REdrNkk0ZERSMlBVNUhqWHpXbEJGd1JFeDgzYWxYaXllVVN6bTRXVk5uSllFT0Uwam9UWE0wYmxCV0lDUzFDRnRxY2UxQzJXYTFsQTJNTWtPUHVkeWhJUnVjYVpuZGJGRnVkY05ScW44aHN6dGpLTkItM1hka3BXYlk5OXRyQzRIN1Y5bklaWjMzcDg?oc=5",
-   "ts": "2026-11-12T12:33:53+00:00",
-   "origin": "finnhub",
-   "age_days": 1
+   "title": "Trump says he wants to ‘get Cuba done’ before leaving office, would consider military force",
+   "summary": "",
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/13/trump-cuba-us-military-force-iran.html",
+   "ts": "Fri, 13 Nov 2026 13:04:00 GMT",
+   "origin": "rss",
+   "age_days": 0
   },
   {
-   "title": "Can a new US Congress mean an end to the Iran war? - Reuters",
-   "summary": "Can a new US Congress mean an end to the Iran war?  Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdmRaejBnMHp1QkhibDEzU1hQLVhZZWlaeXV2d1dGcHF5OU1CbGUzTWtVYXpLT1hFcUh5SzVJbWg2eHZpRy1oU1IxZzByY2hhQmpyTDNHTUh4U1NVVE1DWktWMlU1ZUMtNy1xZk1TN3dXVzBXY1dXVDV2aFhuNURkTWpteWpUblljY3p0QjN3?oc=5",
-   "ts": "2026-11-12T11:42:53+00:00",
-   "origin": "finnhub",
-   "age_days": 1
+   "title": "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years",
+   "summary": "",
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html",
+   "ts": "Fri, 13 Nov 2026 14:02:52 GMT",
+   "origin": "rss",
+   "age_days": 0
   },
   {
-   "title": "Nvidia stock inches higher as investors continue to weigh Jensen Huang’s departure",
+   "title": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
+   "summary": "",
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html",
+   "ts": "Fri, 13 Nov 2026 14:22:07 GMT",
+   "origin": "rss",
+   "age_days": 0
+  },
+  {
+   "title": "Nvidia stock sinks 2% in fallout from Jensen Huang resignation",
    "summary": "",
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
-   "ts": "Fri, 13 Nov 2026 10:00:37 GMT",
+   "ts": "Fri, 13 Nov 2026 14:56:20 GMT",
+   "origin": "rss",
+   "age_days": 0
+  },
+  {
+   "title": "Russian crude production rebounds after Trump diesel deal, IEA says as oil markets return to surplus",
+   "summary": "",
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/13/russia-oil-exports-iea-diesel-deal.html",
+   "ts": "Fri, 13 Nov 2026 12:05:22 GMT",
+   "origin": "rss",
+   "age_days": 0
+  },
+  {
+   "title": "The world's super-rich are piling into alternative investments. Here's why",
+   "summary": "",
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/12/rich-wealth-alternative-assets-.html",
+   "ts": "Fri, 13 Nov 2026 02:25:02 GMT",
    "origin": "rss",
    "age_days": 0
   },
@@ -384,16 +456,7 @@
    "summary": "",
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/13/canada-stellantis-auto-trump-tariffs-jeep.html",
-   "ts": "Fri, 13 Nov 2026 09:45:04 GMT",
-   "origin": "rss",
-   "age_days": 0
-  },
-  {
-   "title": "Nvidia’s turmoil is prompting a rotation across chip stocks. Here's what we know",
-   "summary": "",
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-affairs-amd-broadcom-tsmc.html",
-   "ts": "Fri, 13 Nov 2026 08:27:07 GMT",
+   "ts": "Fri, 13 Nov 2026 14:24:57 GMT",
    "origin": "rss",
    "age_days": 0
   },
@@ -407,24 +470,6 @@
    "age_days": 0
   },
   {
-   "title": "Nvidia without Jensen Huang. What lies ahead for Asian chipmakers?",
-   "summary": "",
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/13/nvidia-without-jensen-huang-what-lies-ahead-for-asian-chipmakers-.html",
-   "ts": "Fri, 13 Nov 2026 07:29:15 GMT",
-   "origin": "rss",
-   "age_days": 0
-  },
-  {
-   "title": "Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion",
-   "summary": "",
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
-   "ts": "Fri, 13 Nov 2026 05:51:34 GMT",
-   "origin": "rss",
-   "age_days": 0
-  },
-  {
    "title": "Analysis: Nvidia’s leadership crisis tests the chipmaker’s role as the ‘central bank of AI’",
    "summary": "",
    "source": "CNBC World",
@@ -434,49 +479,40 @@
    "age_days": 1
   },
   {
-   "title": "Who is Colette Kress? Nvidia's finance chief steps in as interim CEO after Huang exit",
+   "title": "Jensen Huang scandal casts doubt on Nvidia’s AI dominance — how we got here",
    "summary": "",
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/12/colette-kress-nvidia-cfo-interim-ceo-candidate.html",
-   "ts": "Thu, 12 Nov 2026 18:36:30 GMT",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "The world's super-rich are piling into alternative investments. Here's why",
-   "summary": "",
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/12/rich-wealth-alternative-assets-.html",
-   "ts": "Fri, 13 Nov 2026 02:25:02 GMT",
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/13/jensen-huang-scandal-casts-doubt-on-nvidias-ai-dominance-how-we-got-here.html",
+   "ts": "Fri, 13 Nov 2026 14:01:24 GMT",
    "origin": "rss",
    "age_days": 0
   },
   {
-   "title": "Treasury yields rise as traders strengthen Fed rate hike bets",
+   "title": "Nvidia without Jensen Huang. What lies ahead for Asian chipmakers?",
    "summary": "",
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html",
-   "ts": "Fri, 13 Nov 2026 08:50:43 GMT",
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-without-jensen-huang-what-lies-ahead-for-asian-chipmakers-.html",
+   "ts": "Fri, 13 Nov 2026 07:29:15 GMT",
    "origin": "rss",
    "age_days": 0
   },
   {
-   "title": "Inside India newsletter: Trump's poll setback fuels hope for U.S.-India trade deal by year end",
+   "title": "Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion",
    "summary": "",
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/12/us-india-trade-tariffs-trump-modi.html",
-   "ts": "Wed, 11 Nov 2026 23:57:38 GMT",
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+   "ts": "Fri, 13 Nov 2026 05:51:34 GMT",
    "origin": "rss",
-   "age_days": 2
+   "age_days": 0
   },
   {
-   "title": "Trump says ‘we don’t need a deal with Iran’",
+   "title": "Nvidia’s turmoil is prompting a rotation across chip stocks. Here's what we know",
    "summary": "",
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html",
-   "ts": "Thu, 12 Nov 2026 20:34:31 GMT",
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-affairs-amd-broadcom-tsmc.html",
+   "ts": "Fri, 13 Nov 2026 08:27:07 GMT",
    "origin": "rss",
-   "age_days": 1
+   "age_days": 0
   },
   {
    "title": "Jim Cramer has three lingering questions about Anthropic ahead of its historic IPO",
@@ -506,22 +542,67 @@
    "age_days": 1
   },
   {
-   "title": "Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation",
+   "title": "How Global Energy Markets Survived Eight Months of Iran War Disruptions",
    "summary": "",
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html",
-   "ts": "Fri, 13 Nov 2026 04:07:44 GMT",
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/How-Global-Energy-Markets-Survived-Eight-Months-of-Iran-War-Disruptions.html",
+   "ts": "Fri, 13 Nov 2026 08:30:00 -0600",
    "origin": "rss",
    "age_days": 0
   },
   {
-   "title": "Jensen Huang's exit from Nvidia raises critical questions about the future of AI",
+   "title": "Pakistan Scrambles for LNG as Winter Gas Crisis Deepens",
    "summary": "",
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/12/jensen-huangs-exit-from-nvidia-raises-questions-about-future-of-ai.html",
-   "ts": "Thu, 12 Nov 2026 20:32:21 GMT",
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Scrambles-for-LNG-as-Winter-Gas-Crisis-Deepens.html",
+   "ts": "Fri, 13 Nov 2026 08:15:00 -0600",
    "origin": "rss",
-   "age_days": 1
+   "age_days": 0
+  },
+  {
+   "title": "Iran Says Gas Tanker Hit Mine in Strait of Hormuz",
+   "summary": "",
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-Gas-Tanker-Hit-Mine-in-Strait-of-Hormuz.html",
+   "ts": "Fri, 13 Nov 2026 06:45:00 -0600",
+   "origin": "rss",
+   "age_days": 0
+  },
+  {
+   "title": "Nvidia Spy Scandal Threatens the Gulf’s AI Ambitions",
+   "summary": "",
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/Nvidia-Spy-Scandal-Threatens-the-Gulfs-AI-Ambitions.html",
+   "ts": "Fri, 13 Nov 2026 06:30:00 -0600",
+   "origin": "rss",
+   "age_days": 0
+  },
+  {
+   "title": "Why Falling Oil Prices Won't Save America From Inflation",
+   "summary": "",
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/Why-Falling-Oil-Prices-Wont-Save-America-From-Inflation.html",
+   "ts": "Fri, 13 Nov 2026 06:30:00 -0600",
+   "origin": "rss",
+   "age_days": 0
+  },
+  {
+   "title": "WTI Stages Sharp Comeback as Middle East Supply Risks Intensify",
+   "summary": "",
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/WTI-Stages-Sharp-Comeback-as-Middle-East-Supply-Risks-Intensify.html",
+   "ts": "Fri, 13 Nov 2026 06:30:00 -0600",
+   "origin": "rss",
+   "age_days": 0
+  },
+  {
+   "title": "Asian Refiners Turn Back to Gulf Oil Despite War Risks",
+   "summary": "",
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Refiners-Turn-Back-to-Gulf-Oil-Despite-War-Risks.html",
+   "ts": "Fri, 13 Nov 2026 05:30:00 -0600",
+   "origin": "rss",
+   "age_days": 0
   },
   {
    "title": "India Seeks Private Investors for $910 Million Oil Reserve",
@@ -596,69 +677,6 @@
    "age_days": 1
   },
   {
-   "title": "$7 Billion in Oil Debt Has Nigerian Banks Holding Back Lending",
-   "summary": "",
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/7-Billion-in-Oil-Debt-Has-Nigerian-Banks-Holding-Back-Lending.html",
-   "ts": "Thu, 12 Nov 2026 14:30:00 -0600",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "Central Asia’s B20 Message to Washington: Let’s Make Deals",
-   "summary": "",
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Geopolitics/International/Central-Asias-B20-Message-to-Washington-Lets-Make-Deals.html",
-   "ts": "Thu, 12 Nov 2026 14:00:00 -0600",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "Record Car Prices Are Pushing American Drivers Deeper Into Debt",
-   "summary": "",
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Energy-General/Record-Car-Prices-Are-Pushing-American-Drivers-Deeper-Into-Debt.html",
-   "ts": "Thu, 12 Nov 2026 13:00:00 -0600",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "Argentina Could Overtake Chile as South America’s Top Lithium Producer by 2035",
-   "summary": "",
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Metals/Commodities/Argentina-Could-Overtake-Chile-as-South-Americas-Top-Lithium-Producer-by-2035.html",
-   "ts": "Thu, 12 Nov 2026 12:00:00 -0600",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "EIA Data Shows Builds in Crude, Gasoline and Distillates",
-   "summary": "",
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Crude-Oil/EIA-Data-Shows-Builds-in-Crude-Gasoline-and-Distillates.html",
-   "ts": "Thu, 12 Nov 2026 11:46:04 -0600",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "Brent Briefly Hits $96 After Trump Says U.S. Has No Need for Iran Deal",
-   "summary": "",
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Briefly-Hits-94-After-Trump-Says-US-Has-No-Need-for-Iran-Deal.html",
-   "ts": "Thu, 12 Nov 2026 11:30:00 -0600",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
-   "title": "Soaring Electricity Costs Force Britain to Rethink Its Green Agenda",
-   "summary": "",
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Energy-General/Soaring-Electricity-Costs-Force-Britain-to-Rethink-Its-Green-Agenda.html",
-   "ts": "Thu, 12 Nov 2026 11:00:00 -0600",
-   "origin": "rss",
-   "age_days": 1
-  },
-  {
    "title": "Bessent moved to military base amid 'growing threats' from Iran",
    "summary": "",
    "source": "CNBC Energy",
@@ -720,6 +738,33 @@
    "ts": "Mon, 09 Nov 2026 22:09:54 GMT",
    "origin": "rss",
    "age_days": 4
+  },
+  {
+   "title": "South American shipowner orders AHTS vessel from China",
+   "summary": "",
+   "source": "Offshore Energy",
+   "url": "https://www.offshore-energy.biz/2026/11/13/south-american-shipowner-orders-ahts-vessel-from-china",
+   "ts": "Fri, 13 Nov 2026 13:11:31 GMT",
+   "origin": "rss",
+   "age_days": 0
+  },
+  {
+   "title": "Orkney Islands’ first link to UK mainland nears offshore installation",
+   "summary": "",
+   "source": "Offshore Energy",
+   "url": "https://www.offshore-energy.biz/2026/11/13/orkney-islands-first-link-to-uk-mainland-nears-offshore-installation",
+   "ts": "Fri, 13 Nov 2026 12:04:13 GMT",
+   "origin": "rss",
+   "age_days": 0
+  },
+  {
+   "title": "Seaway7 kicks off cable installation work at Ørsted's Hornsea 3 offshore wind farm",
+   "summary": "",
+   "source": "Offshore Energy",
+   "url": "https://www.offshore-energy.biz/2026/11/13/seaway7-kicks-off-cable-installation-work-at-orsteds-hornsea-3-offshore-wind-farm",
+   "ts": "Fri, 13 Nov 2026 10:54:38 GMT",
+   "origin": "rss",
+   "age_days": 0
   },
   {
    "title": "Three bidders in the run for seismic surveys offshore Greece",
@@ -830,33 +875,6 @@
    "age_days": 2
   },
   {
-   "title": "WATCH: CETO parts start arriving at Port of Bilbao ahead of first stage water deployment",
-   "summary": "",
-   "source": "Offshore Energy",
-   "url": "https://www.offshore-energy.biz/2026/11/11/watch-ceto-parts-start-arriving-at-port-of-bilbao-ahead-of-first-stage-water-deployment",
-   "ts": "Wed, 11 Nov 2026 12:05:27 GMT",
-   "origin": "rss",
-   "age_days": 2
-  },
-  {
-   "title": "ADNOC widens its Asian footprint with decade-long LNG offtake deal",
-   "summary": "",
-   "source": "Offshore Energy",
-   "url": "https://www.offshore-energy.biz/2026/11/11/adnoc-widens-its-asian-footprint-with-decade-long-lng-offtake-deal",
-   "ts": "Wed, 11 Nov 2026 11:09:55 GMT",
-   "origin": "rss",
-   "age_days": 2
-  },
-  {
-   "title": "Main construction starts on central part of interconnection between Western Isles and UK",
-   "summary": "",
-   "source": "Offshore Energy",
-   "url": "https://www.offshore-energy.biz/2026/11/11/main-construction-starts-on-central-part-of-interconnection-between-western-isles-and-uk",
-   "ts": "Wed, 11 Nov 2026 10:25:12 GMT",
-   "origin": "rss",
-   "age_days": 2
-  },
-  {
    "title": "TotalEnergies (ENXTPA:TTE) Advances Mozambique LNG Project - Yahoo Finance",
    "summary": "",
    "source": "莫桑东非能源·聚合",
@@ -900,15 +918,6 @@
    "ts": "Mon, 09 Nov 2026 12:00:00 GMT",
    "origin": "rss",
    "age_days": 4
-  },
-  {
-   "title": "TotalEnergies Opens $4.5 Billion Local Business Opportunities as Mozambique LNG Engages Over 100 Companies in Pemba - pan african visions",
-   "summary": "",
-   "source": "莫桑东非能源·聚合",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSE9SNXk0cVo1YWxLWnByTENBNmtmcUR5MFN3dHlKeEIxNDFidXFNeVpMY0xsSUFqbnJSM3hLOWRWY1ZnME1Gd00xQTNsVm9tbzZBSHpDUW9zU2FVV3JmaEtQTTgwRUVjbENQRG5taFRpSzN2SWdaMjJpaHJpUEFJaTF1VUY4amN2Nk4xWVBVLUtMaENzcnVyZEs2d1lsWUFEaUl6OS1nbzJadFFkdW44SUhpLUw0U1hIRmNOZWRKR18zWlNJRE5XRHVnQUwxdjhTZ1I4SVJUOGJ5RXhzQ2pfV0FOeXRWWlMx?oc=5",
-   "ts": "Tue, 10 Nov 2026 18:54:51 GMT",
-   "origin": "rss",
-   "age_days": 3
   },
   {
    "title": "South African gas pipeline operator Rompco expects to finalise an agreement by January 2027 for a new LNG terminal involving Mozambique, Bloomberg reports - Newsquawk",
