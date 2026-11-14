@@ -1,0 +1,44 @@
+{
+ "asof": "2026-11-15",
+ "fetched_at": "2026-11-15T01:05+08:00",
+ "blocks": {
+  "美国宏观": {
+   "error": "ValueError(\"could not convert string to float: '-'\")"
+  },
+  "美联储政策": {
+   "EFFR%": 3.88,
+   "前值%": 3.88,
+   "日期": "2026-11-12",
+   "源": "纽约联储官方(EFFR,免key日更)",
+   "下次FOMC": "2026-12-16",
+   "距FOMC天": 31
+  },
+  "中美利率": {
+   "error": "AttributeError('bond_zh_us_rate 已在 1.20.41 更名为 bond_zh_us_yield_em，请改用 ak.bond_zh_us_yield"
+  },
+  "大宗实时": {
+   "纽约黄金": {
+    "价": 3886.21,
+    "涨跌%": 0.02,
+    "时间": "05:59:59 2026-11-14"
+   },
+   "纽约原油": {
+    "价": 88.98,
+    "涨跌%": 0.28,
+    "时间": "05:59:59 2026-11-14"
+   },
+   "美天然气": {
+    "价": 3.62,
+    "涨跌%": -3.44,
+    "时间": "05:59:58 2026-11-14"
+   },
+   "源": "腾讯外盘实时(金/油/气)"
+  },
+  "中国制造业": {
+   "error": "AttributeError('index_pmi_man_cx 已在 1.20.48 更名为 macro_china_pmi_manufacturing_cx，请改用 ak.ma"
+  },
+  "中国社融": {
+   "error": "AttributeError('macro_china_shrzgm 已在 1.20.42 更名为 macro_china_social_financing，请改用 ak.macr"
+  }
+ }
+}
