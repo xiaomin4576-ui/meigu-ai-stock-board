@@ -1,6 +1,6 @@
 {
  "asof": "2026-11-14",
- "fetched_at": "2026-11-14T18:41+08:00",
+ "fetched_at": "2026-11-14T21:52+08:00",
  "blocks": {
   "美国宏观": {
    "error": "ValueError(\"could not convert string to float: '-'\")"
@@ -35,11 +35,7 @@
    "源": "腾讯外盘实时(金/油/气)"
   },
   "中国制造业": {
-   "财新制造业PMI": 52.0,
-   "前值": 52.1,
-   "荣枯": "扩张",
-   "数据月份": "2026-10",
-   "源": "财新/标普(民间调查,月更;统计局官方PMI金十源已冻结故改用财新)"
+   "error": "AttributeError(\"module 'akshare' has no attribute 'index_pmi_man_cx'\")"
   },
   "中国社融": {
    "error": "AttributeError(\"module 'akshare' has no attribute 'macro_china_shrzgm'\")"
