@@ -1,6 +1,6 @@
 {
  "asof": "2026-11-15",
- "fetched_at": "2026-11-15T01:06+08:00",
+ "fetched_at": "2026-11-15T02:54+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -14,12 +14,12 @@
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 4,
-   "非洲科技·聚合": 7,
+   "非洲科技·聚合": 6,
    "中非科技·聚合": 13
   },
   "total": 60,
-  "ai_flagged": 25,
-  "aiinfra_flagged": 4,
+  "ai_flagged": 24,
+  "aiinfra_flagged": 3,
   "countries": 9
  },
  "items": [
@@ -232,16 +232,6 @@
    "country": "🇿🇦 南非",
    "is_ai": true,
    "is_aiinfra": false
-  },
-  {
-   "title": "OADC’s Ayotunde Coker on Africa’s AI-Ready Data Centres",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOajkyQmNxZEVOVHRteDZ1MnZwMUFPamltQlR2b1g4dzBxWFptTTJDN05YSXRPZng2bDEtam1tNlBKeTJfNUh0LUIybGxfQ3JTWVk2Z2dKSVR3YzRmRHp6SExnanpjUWlzNFc4am1hOGM5dmhuNlVFSFpZMUxvaH",
-   "source": "Data Centre Magazine·聚合",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOajkyQmNxZEVOVHRteDZ1MnZwMUFPamltQlR2b1g4dzBxWFptTTJDN05YSXRPZng2bDEtam1tNlBKeTJfNUh0LUIybGxfQ3JTWVk2Z2dKSVR3YzRmRHp6SExnanpjUWlzNFc4am1hOGM5dmhuNlVFSFpZMUxvaHlfQkttbXE3b25fUy1sVTJ6cXc1YlRJNW14SA?oc=5",
-   "date": "Fri, 13 Nov 2026 11:01:23 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": true
   },
   {
    "title": "ITWeb TV: FBI seizes $1.2bn in crypto stolen from Binance",
@@ -621,6 +611,16 @@
    "date": "Wed, 11 Nov 2026 09:58:43 GMT",
    "country": "🇿🇦 南非",
    "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Beyond the Big Funds: The UAE's expanding network of startup investors",
+   "brief": "",
+   "source": "African Business",
+   "url": "https://african.business/2026/11/innov-africa-deals/beyond-the-big-funds-the-uaes-expanding-network-of-startup-investors",
+   "date": "Wed, 11 Nov 2026 09:50:30 +0000",
+   "country": null,
+   "is_ai": false,
    "is_aiinfra": false
   }
  ]
