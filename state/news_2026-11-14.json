@@ -1,7 +1,7 @@
 {
  "asof": "2026-11-14",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-11-14T16:01+08:00",
+ "generated_at": "2026-11-14T18:41+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 3,
@@ -13,8 +13,8 @@
   {
    "cat": "geo",
    "title": "伊朗革命卫队称两艘油轮在霍尔木兹触雷",
-   "brief": "伊朗革命卫队称两艘油轮在霍尔木兹海峡遭水雷击中，海峡航运风险骤升。",
-   "chain": "霍尔木兹航运受阻→油价风险溢价上升→美股能源与航运板块波动→A股油气链情绪受扰",
+   "brief": "伊朗革命卫队称两艘油轮在霍尔木兹海峡遭水雷击中，海峡航运风险骤升，美伊紧张持续升级。",
+   "chain": "霍尔木兹航运受威胁→油价风险溢价上升、美股能源与航运板块波动→A股油气与航运链情绪联动",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWVUydG1mRVVtRzVScWR6N19NejF5VXVuUDlqaGxSSHdJN1hmYlBtZHRJMDNWbUJVSUMyRTBRM252dzFjSmtZOHlLYmg4Y2pqLXVrSndiS3dVLWVBa0tESWJtZW05MUprVkpXTE5sQXV0aXJRR1dQQ3FmWHk0SHpoSmQzRUZmRFZCaXdjLURicWxtRk1tSnZ1dEM2UTI1b1RmTzdwRw?oc=5",
@@ -22,9 +22,9 @@
   },
   {
    "cat": "oil",
-   "title": "布伦特原油因伊朗紧张重回96美元上方",
-   "brief": "伊朗局势升级推动布伦特原油回升至96美元上方，市场担忧供应中断。",
-   "chain": "伊朗紧张→布伦特破96美元→东非LNG项目成本与油价联动，莫桑比克油气收入预期改善",
+   "title": "布伦特原油因伊朗紧张重上96美元",
+   "brief": "伊朗局势升级推动布伦特原油回升至96美元上方，市场担忧霍尔木兹供应中断。",
+   "chain": "伊朗紧张推高风险溢价→布油站上96美元、LNG与运费同步走强→东非油气项目经济性改善但航运保险成本上升",
    "impact": 8,
    "source": "OilPrice",
    "url": "https://oilprice.com/Energy/Energy-General/Brent-Crude-Climbs-Back-Above-96-as-Iran-Tensions-Escalate.html",
@@ -33,38 +33,88 @@
   {
    "cat": "macro",
    "title": "贝森特与古尔斯比就能源冲击通胀分歧",
-   "brief": "美财长贝森特与美联储古尔斯比就能源冲击在通胀中的角色意见相左，政策路径存分歧。",
-   "chain": "能源通胀争论→美联储降息预期摇摆→美股高久期AI股估值承压→A股算力链情绪跟随",
-   "impact": 8,
+   "brief": "美财长贝森特与美联储古尔斯比对能源冲击在通胀中的角色看法分歧，政策路径不确定性上升。",
+   "chain": "能源通胀归因分歧→降息路径预期摇摆、美债利率与成长股估值承压→A股算力链风险偏好受抑",
+   "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWGl4M3I4cEx4Q1pteUwtd3I3OFBYWWFUU096V1Y3X2oxdl9KOFprODJXTEoxallGdk8tXzNuMzlWSXdjTTBFNjUxUHFwWmdVZTFHeTh0TEVYcWtNSXI2aUJkRFdKVFgtNmpWS01zTlhMS21ndThYQjY2bDhXSFpnV2c0Sl8wSzdBWnJzNmZVR05iUGdxU3BCUnBIYlcteEQtRkNMbDBQRF82QXVESmZSRGNvZG9yaGtfbm5QNHBTUE1jNjA?oc=5",
    "ts": "2026-11-13T15:40:04+00:00"
   },
   {
    "cat": "macro",
-   "title": "特朗普称周四将与普京习近平谈核裁军",
-   "brief": "白宫称特朗普将于周四与普京、习近平讨论核军控削减议题。",
-   "chain": "大国核军控磋商→地缘风险溢价边际缓和→美股风险偏好回暖→A股算力链情绪修复",
+   "title": "特朗普称周四与普京习近平谈核裁军",
+   "brief": "白宫称特朗普将于周四与普京、习近平讨论核军控削减，大国博弈进入高层对话窗口。",
+   "chain": "大国军控对话→地缘风险溢价边际缓和、美股风险偏好修复→A股算力链情绪偏暖",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPX1dzUndCOE42aUFUazd4SFcxMFVWUTl6VmRVOE5QR0ZjNWRXY19qWTVuRUthUXhDS3UybmZnQmFHSHVRV20wdXJwTUlKUTlGVU42N1B4bkVwSjI4bkdJeG94aFpxX01NUTdyWUJOUVZHSHlXZkxGZXlsTWhjSmUwRXoyRklMekIycXlEUk1pM1NpNjJp?oc=5",
    "ts": "2026-11-14T00:22:00+00:00"
   },
   {
-   "cat": "ai",
-   "title": "OpenAI推出ChatGPT钱包支持AI代理下单",
-   "brief": "OpenAI上线ChatGPT Wallet，允许其“dots”AI代理代用户完成购买。",
-   "chain": "AI代理支付落地→美股AI应用与支付链想象空间打开→A股AI应用/算力链情绪提振",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
-   "ts": "Fri, 13 Nov 2026 18:56:26 GMT"
+   "cat": "geo",
+   "title": "土耳其与卡塔尔签署共同防御协议",
+   "brief": "土耳其与卡塔尔签署共同防御协议，承诺遭袭时统一立场，中东安全格局重组。",
+   "chain": "中东防务结盟→地区风险溢价与能源供应不确定性上升→东非LNG买家与航运路线需重估",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTGE3d2YwNy1ONlliXzNCVDNiZU01WlB3YUdPMEZwOHJpNS1UWEtvZ3hhM1hWOGN2REsxbEw1SzNERlk3eTVfUTdlOEFJYVAwNXVjT25jczJDRE9iTE5DYjlxNnQ3UlJRVDlRdU1UeHhNZ1NUWnBVU2w2TjZLWTg5emhUZ2RVVXowVWZuMnBiTlhtWlhxUDkxODkzNVlfeGlGbVlYV0todlRQc1JZSXIyVXpsVU1WRDFFU2QxTA?oc=5",
+   "ts": "2026-11-13T18:58:37+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "也门胡塞称向沙特吉赞发射导弹",
+   "brief": "也门胡塞武装称向沙特吉赞地区沙特部队发射导弹，红海—沙特边境紧张再起。",
+   "chain": "红海紧张→航运绕行与保险费上升、油价获支撑→东非油气外运成本抬升",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPM1hhZ2pySkp3SHdfNllHQ2VsLUFteHIxRlFGVVR3QXFIbXJZX01HQkZ5Ml96SjBMSkJkOHh6TjNIakZkR3k5ME1WY0RyYTNBQkxvaF9qYTVtNm5GVEFqckVEalRReVdXUFJKZVhlSXEzcnotRFMyVVBMZllhdmJxUFBwRjByVExHbGhnR3luTDVqTlRxOG5TTjFVbmdBRmM?oc=5",
+   "ts": "2026-11-13T20:54:19+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "伊拉克转向卡车经叙利亚陆路出口原油",
+   "brief": "伊拉克重启经叙利亚的陆路卡车出口原油，寻求绕开霍尔木兹的替代通道。",
+   "chain": "陆路替代出口→中东原油外运路径多元化、短期油价影响有限→东非LNG物流参考意义有限",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQclRIYjhBLWw5LV85dEh1eWFKUXJ2ZU1xTlpwbmpPSmIzYUZKTzlvNEZvTldxQnE2V1V2WVFNTHJNNVg4SWhFeHM0a0pGSGtic3d0Zk1TVUhXQWwtaFJlZHlkNXFZUnZraUJhUUN3Y2hFMVRzY2ppLUN1SmlYRW9hU2ptaFZiWkRIR3MtdE1FemE0b3M5eXJ6bDBtY2wxc0dwMXJyN0VxLTNGMDlLUUZZ?oc=5",
+   "ts": "2026-11-13T13:27:43+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "伊拉克产量升至2019年来高位",
+   "brief": "伊拉克原油产量升至2019年以来最高，霍尔木兹流量回升，供应端压力显现。",
+   "chain": "伊拉克增产→全球原油供应宽松、油价上行受限→莫桑比克油气售价与项目回报承压",
+   "impact": 5,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-Oil-Production-Soars-to-2019-High-as-Hormuz-Flows-Surge.html",
+   "ts": "Fri, 13 Nov 2026 11:30:00 -0600"
+  },
+  {
+   "cat": "oil",
+   "title": "美延长航运法豁免90天",
+   "brief": "美国将航运法（琼斯法）豁免再延长90天，允许石油与大宗商品更自由流动。",
+   "chain": "航运豁免延长→美内贸油品物流成本下降、油价区域价差收窄→对东非气运影响中性",
+   "impact": 4,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ2lneWN6TzV1ZXctMUFVUlJSbVVDUG1vOWNYM1d2Z25QV1ZlSHdjSFVmblhtX1UzNEQySEYwdjZNZGw3VnZPc00yOTEtSWFsY25CRTRhaGZJM2tFamQ3cDl6YTEwbmJLQ1VmdHo2Y2hjVThnNjdiQTNfai1xTDhFcmFITF9WblV6Rlk1M0FnbDRFWXJjdXA5R19ERUZ2WjdyZmg4bUxPQ2RZcmhaUzZxRjIwQk5jTWw1cUwxVw?oc=5",
+   "ts": "2026-11-13T21:46:42+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "厄瓜多尔欲货币化生物多样性同时继续采油",
+   "brief": "厄瓜多尔寻求以生物多样性融资同时维持石油开采，资源国财政与环保平衡难题。",
+   "chain": "资源国融资模式→油气投资环境信号、对全球气价影响有限→对莫桑比克资源货币化有参照意义",
+   "impact": 3,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/14/ecuador-biodiversity-green-finance-oil.html",
+   "ts": "Sat, 14 Nov 2026 06:00:01 GMT"
   },
   {
    "cat": "tech",
-   "title": "英伟达市值跌破4万亿美元创去年7月来首次",
-   "brief": "受黄仁勋风波影响，英伟达市值自2025年7月以来首次收于4万亿美元下方。",
-   "chain": "英伟达市值回落→美股AI芯片龙头估值重估→A股算力链（光模块/服务器）承压",
+   "title": "英伟达市值跌破4万亿美元",
+   "brief": "黄仁勋风波后英伟达首次跌破4万亿美元市值，为2025年7月以来首次。",
+   "chain": "英伟达市值缩水→美股AI硬件龙头估值重估、费城半导体承压→A股算力链（光模块/服务器）情绪承压",
    "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
@@ -72,103 +122,63 @@
   },
   {
    "cat": "tech",
-   "title": "美官员称特朗普访华不打算提英伟达间谍议题",
-   "brief": "美国官员表示特朗普访华期间不计划提及英伟达相关间谍问题。",
-   "chain": "中美科技摩擦边际降温→美股半导体对华敞口预期改善→A股算力链国产替代节奏受关注",
+   "title": "美官员称特朗普访华不提英伟达间谍议题",
+   "brief": "美国官员称特朗普访华期间不计划提出英伟达与间谍相关问题，缓和部分政治压力。",
+   "chain": "政治风险暂缓→英伟达中国业务不确定性边际下降、美股芯片股情绪修复→A股算力链联动偏暖",
    "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
    "ts": "Sat, 14 Nov 2026 01:34:11 GMT"
   },
   {
+   "cat": "tech",
+   "title": "微软为大规模宕机道歉",
+   "brief": "微软就导致Outlook等365服务大面积中断的故障致歉，云服务可靠性再受质疑。",
+   "chain": "云服务宕机→企业软件与云可靠性担忧、微软股价短期扰动→A股云计算与信创链情绪分化",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+   "ts": "Sat, 14 Nov 2026 08:11:28 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "SpaceX星舰关键试飞发射",
+   "brief": "SpaceX发射星舰进行关键试飞，重型火箭能力再验证。",
+   "chain": "星舰试飞→商业航天与卫星互联网主题升温、美股航天概念活跃→A股商业航天链情绪提振",
+   "impact": 4,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/13/spacex-launches-starship-in-key-test-flight-of-massive-rocket.html",
+   "ts": "Sat, 14 Nov 2026 01:18:51 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "OpenAI推出ChatGPT钱包",
+   "brief": "OpenAI上线ChatGPT Wallet，允许其AI代理为用户完成购买，AI商业化落地再进一步。",
+   "chain": "AI代理支付落地→美股AI应用与支付概念受益、算力需求延续→A股AI应用与算力链情绪偏暖",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+   "ts": "Fri, 13 Nov 2026 18:56:26 GMT"
+  },
+  {
    "cat": "ai",
    "title": "美联储调查：AI风险成金融系统最大威胁",
-   "brief": "美联储调查显示，AI相关风险被视为金融系统面临的最大威胁。",
-   "chain": "AI金融风险警示→美股AI板块监管溢价上升→A股算力链估值情绪受抑",
-   "impact": 6,
+   "brief": "美联储调查显示AI风险被视为金融系统最大威胁，监管关注度上升。",
+   "chain": "AI系统性风险受关注→监管预期升温、美股AI板块估值波动→A股算力链风险偏好受抑",
+   "impact": 5,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
    "ts": "Fri, 13 Nov 2026 21:18:30 GMT"
   },
   {
-   "cat": "oil",
-   "title": "伊拉克产量升至2019年来高位霍尔木兹流量激增",
-   "brief": "伊拉克石油产量升至2019年以来最高，霍尔木兹海峡流量同步激增。",
-   "chain": "伊拉克增产+海峡流量高企→油价上行受限→东非LNG与莫桑比克油气售价弹性受抑",
-   "impact": 6,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-Oil-Production-Soars-to-2019-High-as-Hormuz-Flows-Surge.html",
-   "ts": "Fri, 13 Nov 2026 11:30:00 -0600"
-  },
-  {
-   "cat": "oil",
-   "title": "伊拉克转向卡车经叙利亚陆路出口石油",
-   "brief": "伊拉克重启经叙利亚的陆路通道，以卡车方式出口原油。",
-   "chain": "陆路替代出口→绕开海峡风险但成本上升→东非油气物流与区域价差受关注",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQclRIYjhBLWw5LV85dEh1eWFKUXJ2ZU1xTlpwbmpPSmIzYUZKTzlvNEZvTldxQnE2V1V2WVFNTHJNNVg4SWhFeHM0a0pGSGtic3d0Zk1TVUhXQWwtaFJlZHlkNXFZUnZraUJhUUN3Y2hFMVRzY2ppLUN1SmlYRW9hU2ptaFZiWkRIR3MtdE1FemE0b3M5eXJ6bDBtY2wxc0dwMXJyN0VxLTNGMDlLUUZZ?oc=5",
-   "ts": "2026-11-13T13:27:43+00:00"
-  },
-  {
-   "cat": "gas",
-   "title": "特朗普再延琼斯法案豁免90天",
-   "brief": "特朗普将琼斯法案豁免再延长90天，放宽美国沿海航运限制。",
-   "chain": "航运限制放宽→LNG与油品海运成本边际下降→东非LNG出口航运经济性略改善",
-   "impact": 5,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Extends-Jones-Act-Waiver-For-Another-90-Days.html",
-   "ts": "Fri, 13 Nov 2026 13:30:00 -0600"
-  },
-  {
-   "cat": "geo",
-   "title": "土耳其与卡塔尔签署共同防御协议",
-   "brief": "土耳其与卡塔尔签署共同防御协议，承诺对攻击采取统一立场。",
-   "chain": "中东防务结盟→地区风险格局重塑→美股能源与防务板块波动→A股情绪中性",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTGE3d2YwNy1ONlliXzNCVDNiZU01WlB3YUdPMEZwOHJpNS1UWEtvZ3hhM1hWOGN2REsxbEw1SzNERlk3eTVfUTdlOEFJYVAwNXVjT25jczJDRE9iTE5DYjlxNnQ3UlJRVDlRdU1UeHhNZ1NUWnBVU2w2TjZLWTg5emhUZ2RVVXowVWZuMnBiTlhtWlhxUDkxODkzNVlfeGlGbVlYV0todlRQc1JZSXIyVXpsVU1WRDFFU2QxTA?oc=5",
-   "ts": "2026-11-13T18:58:37+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "也门胡塞称向沙特吉赞部队发射导弹",
-   "brief": "也门胡塞武装称向沙特吉赞地区部队发射导弹，红海局势再趋紧张。",
-   "chain": "红海紧张→航运绕行成本上升→油价风险溢价支撑→东非油气运输成本抬升",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPM1hhZ2pySkp3SHdfNllHQ2VsLUFteHIxRlFGVVR3QXFIbXJZX01HQkZ5Ml96SjBMSkJkOHh6TjNIakZkR3k5ME1WY0RyYTNBQkxvaF9qYTVtNm5GVEFqckVEalRReVdXUFJKZVhlSXEzcnotRFMyVVBMZllhdmJxUFBwRjByVExHbGhnR3luTDVqTlRxOG5TTjFVbmdBRmM?oc=5",
-   "ts": "2026-11-13T20:54:19+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "贝森特称不会因死亡威胁退缩",
-   "brief": "美财长贝森特表示不会因受到死亡威胁而改变立场。",
-   "chain": "财长安全事件→政策连续性预期稳定→美股风险偏好影响有限→A股情绪中性",
+   "cat": "ai",
+   "title": "高盛欲两度参与Anthropic IPO",
+   "brief": "高盛在联合主承销Anthropic IPO同时，还争取管理其数十亿美元新增资金。",
+   "chain": "AI独角兽IPO升温→美股AI投融资活跃、券商受益→A股AI产业投融资情绪联动",
    "impact": 4,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ1dvSXJCYVVWa3A3ZlZZQ0hKWHB3bm1remdBSFFqd3VXUnpGQS1yMExEY3pGOUxDWWZaSGFad20tNEhfdVZabEdLbzVfSnJ4bm5QSVdQeFRCUzA0a2R4ZEY3dW54WjFVUVpWSHplbno5b184azJQZ2NYMTV2bjJKV3lONlJMWU9saEVWc1laT0lWQTByN1J3T2s2ZUlySFBmYXVZ?oc=5",
-   "ts": "2026-11-13T13:45:34+00:00"
-  },
-  {
-   "cat": "tech",
-   "title": "新加坡为何频现英伟达芯片对华之争",
-   "brief": "报道剖析新加坡在英伟达芯片对华出口争议中反复出现的角色。",
-   "chain": "芯片转口管制收紧→美股半导体对华营收预期承压→A股算力链国产替代逻辑强化",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-alice-spy-megaspeed-.html",
-   "ts": "Fri, 13 Nov 2026 07:15:01 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "哈塞特否认将离开白宫报道",
-   "brief": "国家经济委员会主任哈塞特否认有关其将离职的报道，称“不实”。",
-   "chain": "白宫经济团队稳定→政策预期少扰动→美股与A股情绪影响有限",
-   "impact": 3,
    "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/13/kevin-hassett-white-house-nec.html",
-   "ts": "2026-11-13T19:59:17+00:00"
+   "url": "https://www.cnbc.com/investingclub/2026/11/13/goldman-sachs-looks-to-cash-in-on-anthropics-ipo-twice-heres-how-and-who-else-wants-to.html",
+   "ts": "2026-11-13T18:44:05+00:00"
   }
  ]
 }
