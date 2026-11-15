@@ -1,150 +1,93 @@
 {
  "asof": "2026-11-15",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-11-15T02:53+08:00",
+ "generated_at": "2026-11-15T14:18+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 16,
-  "cluster_label": "",
-  "cluster_dropped": [],
-  "backfilled": 0
+  "cross_day_suppressed": 13,
+  "cluster_label": "伊朗/霍尔木兹",
+  "cluster_dropped": [
+   "伊朗筹备无油收入的预算",
+   "伊朗战争加速东南亚可再生能源推进"
+  ],
+  "backfilled": 2
  },
  "items": [
   {
    "cat": "geo",
-   "title": "伊朗海军称霍尔木兹海峡油轮触雷起火",
-   "brief": "伊朗海军称一艘油轮在霍尔木兹海峡触雷起火，海峡通航安全风险骤升。",
-   "chain": "霍尔木兹海峡通航风险上升→油价风险溢价抬升、美股能源板块波动→A股油气与航运链情绪受扰",
+   "title": "伊朗称霍尔木兹三艘油轮触雷起火",
+   "brief": "伊朗海军称三艘油轮在霍尔木兹海峡触雷起火，海峡航运风险骤升，为近期美伊冲突最新升级。",
+   "chain": "海峡遇袭→油价风险溢价与航运保费跳升→美股能源板块受益、成长股承压→A股算力链情绪受抑",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZWt1cHFualJEVktnTTVvd21uVnljc0FqR2dRaWpaRnYwZ3luZ2t1dUlJNVUtLTVlWHJFOS1ocDBlaVZsTFNZdjRMeldFVFE1Q0Jqem9FbU9fMmp1YTBUTUhqTmYzR3FJN1Z1Y1dHY2d0Yjlzb2lBR0JvNllyT3pScjI2SEpkbkhiYzZSWW9Tb3dwemdWaVVmMjBPbXZqd0hOZzdpRDVSZlVlbzBnV1BjMQ?oc=5",
-   "ts": "2026-11-14T10:31:30+00:00"
+   "ts": "2026-11-14T22:54:19+00:00"
   },
   {
    "cat": "oil",
-   "title": "伊朗革命卫队称两艘油轮在霍尔木兹触雷",
-   "brief": "伊朗革命卫队称两艘油轮在霍尔木兹海峡遭水雷击中，海峡航运与原油运输受威胁。",
-   "chain": "霍尔木兹油轮遇袭→Brent/WTI风险溢价上行、油轮运价走高→东非油气采购与物流成本承压",
+   "title": "IRGC称两艘油轮在霍尔木兹触雷",
+   "brief": "伊朗革命卫队称两艘油轮在霍尔木兹海峡遭水雷击中，与海军说法略有出入，海峡通行安全受威胁。",
+   "chain": "海峡布雷→Brent风险溢价上行、油轮绕行成本增→东非LNG海运与莫桑比克项目物流成本抬升",
    "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWVUydG1mRVVtRzVScWR6N19NejF5VXVuUDlqaGxSSHdJN1hmYlBtZHRJMDNWbUJVSUMyRTBRM252dzFjSmtZOHlLYmg4Y2pqLXVrSndiS3dVLWVBa0tESWJtZW05MUprVkpXTE5sQXV0aXJRR1dQQ3FmWHk0SHpoSmQzRUZmRFZCaXdjLURicWxtRk1tSnZ1dEM2UTI1b1RmTzdwRw?oc=5",
    "ts": "2026-11-13T21:14:55+00:00"
   },
   {
-   "cat": "tech",
-   "title": "英伟达告别黄仁勋，华盛顿余波刚开始",
-   "brief": "黄仁勋丑闻后英伟达领导层更替，美国政策与监管层面的连锁反应才刚展开。",
-   "chain": "英伟达管理层动荡→美股AI龙头估值与信心承压→A股算力链跟随情绪波动",
-   "impact": 9,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
-   "ts": "Fri, 13 Nov 2026 23:54:36 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "两大股东敦促英伟达董事会考虑黄仁勋回归",
-   "brief": "两名主要投资者呼吁英伟达董事会考虑让黄仁勋回归，公司治理争议持续发酵。",
-   "chain": "股东施压英伟达治理→美股AI芯片龙头不确定性上升→A股算力链风险偏好受抑",
-   "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
-   "ts": "Sat, 14 Nov 2026 17:46:06 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "ETF专家：英伟达动荡与民主党国会或重塑AI交易",
-   "brief": "ETF专家分析英伟达动荡与民主党掌控国会可能如何改变AI主题交易格局。",
-   "chain": "AI交易结构变化→美股AI板块资金再配置→A股算力链跟随主题轮动",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
-   "ts": "Sat, 14 Nov 2026 15:50:43 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "Anthropic七位联合创始人的来历",
-   "brief": "介绍Anthropic七位联合创始人背景，四位研究员、前记者、政策人士与工程师。",
-   "chain": "AI头部公司治理与团队→美股AI一级市场估值参考→A股AI应用链情绪",
-   "impact": 4,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/14/meet-the-seven-co-founders-of-anthropic.html",
-   "ts": "2026-11-14T12:00:01+00:00"
-  },
-  {
    "cat": "macro",
-   "title": "新加坡押注650亿美元于黄金未来",
-   "brief": "新加坡以650亿美元规模押注黄金前景，反映主权资金对贵金属的结构性配置。",
-   "chain": "主权资金增配黄金→实际利率与美元信用预期走弱→美股AI高久期估值分母承压、A股算力链情绪受抑",
+   "title": "新加坡650亿美元押注黄金未来",
+   "brief": "新加坡以650亿美元规模布局黄金，反映主权层面对去美元化与储备多元化的结构性押注。",
+   "chain": "央行购金结构性信号→实际利率与美元信用受质疑→美股AI高久期票估值分母承压→A股算力链情绪偏谨慎",
    "impact": 7,
    "source": "OilPrice",
    "url": "https://oilprice.com/Metals/Gold/Singapore-Makes-a-65-Billion-Bet-on-the-Future-of-Gold.html",
    "ts": "Sat, 14 Nov 2026 12:00:00 -0600"
   },
   {
-   "cat": "macro",
-   "title": "伯克希尔创历史新高，四季度涨19%",
-   "brief": "伯克希尔股价创纪录新高，第四季度累计上涨19%，防御性资金偏好上升。",
-   "chain": "资金流向防御资产→美股风险偏好分化→A股价值与红利链相对受益",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html",
-   "ts": "Sat, 14 Nov 2026 14:02:39 GMT"
-  },
-  {
-   "cat": "gas",
-   "title": "厄瓜多尔欲变现生物多样性同时继续采油",
-   "brief": "厄瓜多尔寻求在继续石油开采的同时将生物多样性货币化，拉美能源政策现新思路。",
-   "chain": "拉美油气政策调整→全球油气供给预期微变→对莫桑比克油气经营影响有限、关注新兴产油国竞争",
-   "impact": 3,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/14/ecuador-biodiversity-green-finance-oil.html",
-   "ts": "Sat, 14 Nov 2026 06:00:01 GMT"
-  },
-  {
-   "cat": "oil",
-   "title": "伊朗筹备无石油收入的预算",
-   "brief": "伊朗着手编制不含石油收入的预算，反映制裁与出口受阻下的财政压力。",
-   "chain": "伊朗石油出口受限→全球原油供给收紧预期→东非油气采购价格与供应稳定性受关注",
-   "impact": 5,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Energy-General/Iran-Braces-for-a-Budget-Without-Oil-Revenue.html",
-   "ts": "Fri, 13 Nov 2026 17:00:00 -0600"
-  },
-  {
-   "cat": "oil",
-   "title": "特朗普再将琼斯法案豁免延长90天",
-   "brief": "特朗普政府将琼斯法案豁免再延长90天，影响美国沿海原油与成品油航运格局。",
-   "chain": "琼斯法案豁免延长→美国内贸油运成本与流向变化→对东非油气物流间接影响有限",
-   "impact": 4,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Extends-Jones-Act-Waiver-For-Another-90-Days.html",
-   "ts": "Fri, 13 Nov 2026 13:30:00 -0600"
-  },
-  {
    "cat": "geo",
-   "title": "北京转向软实力，华盛顿扩大中亚关系",
-   "brief": "中国转向软实力布局，美国扩大在中亚的影响力，大国博弈向中亚延伸。",
-   "chain": "中美中亚博弈→美股能源与资源板块地缘溢价→A股一带一路与资源链情绪",
-   "impact": 5,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Geopolitics/Asia/Beijing-Turns-to-Soft-Power-as-Washington-Expands-Central-Asia-Ties.html",
-   "ts": "Fri, 13 Nov 2026 13:00:00 -0600"
-  },
-  {
-   "cat": "geo",
-   "title": "美空军回应英国基地上空疑似无人机活动",
-   "brief": "美国空军对英国一处空军基地上空疑似无人机活动作出回应，欧洲安全警戒升温。",
-   "chain": "欧洲基地安全事件→避险情绪小幅升温→美股防务板块与A股军工链受关注",
-   "impact": 4,
+   "title": "沙特联军拦截袭向利雅得导弹",
+   "brief": "沙特领导联军拦截飞向利雅得的导弹及东部省无人机，地区冲突外溢至海湾核心产油区。",
+   "chain": "海湾本土遇袭→中东风险溢价抬升→美股能源走强、风险资产承压→A股算力链避险情绪升温",
+   "impact": 7,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTkFnODI2ZmFiRTJzS3N4eXI5TzJqbXpFV3lUM29neFFnSFJJOVlQcDNZR3B3MmczQWlTNDA4ZE13bXpQcm9yQXdROXIzWjBCRnZHNzhwQkxldWtuREJ2Q1BvOFEzcTZRN2tpQkxwb3dCLUtvdzZiUEsxbGNvXzVmWTUzMTVvdHl5cjZBX2Y1VTJzZlFjUnZrMjFrVWZXTWltM1hoSkxDMThmdDdEckQ1NVJMbTE0dXFQYXJMM3NEVQ?oc=5",
-   "ts": "2026-11-13T22:34:42+00:00"
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOemlqVE1TdmREQ0t3TjczWnBWVGZ3TkxTc0ZPVC1fZFlrUDJCZC1KV0liZGdUTHBXZEZpWG9SNkJJSlBYSjVPbE1aUnNtWHl2eE1FbzlURGRwckdIT3R2NG9rVm1oX1V0VEZoWmYxM1dSbmhNc1BidnFLX19YRVU3Q2tzR1F5Vk1QX3dDNXVCeXZ6bmVES0lZNTBlR3E0Z1hJcXFyYXpMam80TGRWbURod1NsUXBwZldjdHFVejFwaWtmVmo3ZWYzYW5QMzk?oc=5",
+   "ts": "2026-11-15T02:58:00+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达领导层危机冲击AI交易",
+   "brief": "英伟达领导层动荡令AI交易承压，但标普500周涨2.5%、纳指收涨，市场分化明显。",
+   "chain": "英伟达治理危机→美股AI算力龙头估值波动→映射A股算力链（光模块/服务器/PCB）情绪联动",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
+   "ts": "2026-11-14T18:48:39+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达董事会称未选定黄仁勋继任者",
+   "brief": "英伟达董事会向CNBC表示尚未选定永久接替黄仁勋的猎头公司，继任悬念持续发酵。",
+   "chain": "继任不明→AI龙头战略连续性存疑→美股AI板块波动→A股算力链跟随风险偏好起伏",
+   "impact": 7,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html",
+   "ts": "2026-11-13T19:42:52+00:00"
   },
   {
    "cat": "tech",
-   "title": "卢特尼克因英伟达间谍丑闻受质询",
-   "brief": "卢特尼克因英伟达间谍丑闻面临质询，其子所在公司与该芯片商关系密切。",
-   "chain": "芯片政策官员涉丑闻→美股半导体监管不确定性→A股芯片自主链情绪受扰",
+   "title": "英伟达告别黄仁勋，华盛顿余波刚开始",
+   "brief": "黄仁勋离任英伟达后，华盛顿围绕芯片出口与监管的政治余波才刚展开。",
+   "chain": "人事变动叠加政策不确定性→美股半导体出口预期扰动→A股国产算力替代链受关注",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
+   "ts": "Fri, 13 Nov 2026 23:54:36 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "卢特尼克因英伟达间谍风波受质询",
+   "brief": "卢特尼克因英伟达间谍风波面临质询，其子所在公司与该芯片商关系深厚。",
+   "chain": "监管风波→美股芯片政策风险上升→A股半导体自主可控链情绪受提振",
    "impact": 6,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
@@ -152,23 +95,83 @@
   },
   {
    "cat": "tech",
-   "title": "GTA VI发售或重塑游戏与流媒体格局",
-   "brief": "Rockstar的GTA VI发售可能重塑游戏、流媒体乃至带薪休假安排。",
-   "chain": "重磅游戏发售→美股游戏与流媒体板块预期升温→A股游戏传媒链情绪",
+   "title": "SpaceX首次成功捕获星舰上级",
+   "brief": "星舰第15次试飞首次尝试并成功捕获上级，为马斯克公司历史性突破。",
+   "chain": "星舰复用突破→美股航天与卫星互联网叙事强化→A股商业航天链情绪催化",
+   "impact": 6,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html",
+   "ts": "2026-11-14T21:26:31+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "伯克希尔创历史新高，Q4涨19%",
+   "brief": "伯克希尔突破历史新高，第四季度累计上涨19%，防御性配置受资金追捧。",
+   "chain": "价值股走强→美股风格由成长向价值轮动→A股高股息与算力成长跷跷板效应",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html",
+   "ts": "Sat, 14 Nov 2026 14:02:39 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "厄瓜多尔欲货币化生物多样性同时继续采油",
+   "brief": "厄瓜多尔寻求以生物多样性变现，同时维持石油开采，拉美产油国财政与环保两难。",
+   "chain": "拉美供给政策摇摆→油价边际扰动有限→对莫桑比克经营影响中性",
+   "impact": 3,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/14/ecuador-biodiversity-green-finance-oil.html",
+   "ts": "Sat, 14 Nov 2026 06:00:01 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "哈马斯称高级指挥官遭以军空袭身亡",
+   "brief": "哈马斯称一名高级武装指挥官在以色列空袭中丧生，加沙局势再度紧张。",
+   "chain": "中东冲突延续→避险情绪与油价风险溢价支撑→美股风险偏好受压→A股算力链情绪偏弱",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYUhZd1pxN2d0N3pmR2RCbjhCQk9teURKLThfYzR0bC1rVWJpVGUwNkpJelBNeVNLY3hxS1B0c0p2bTk5VmhCeFVGUWpHSFVNdHFKZjcydUdYNDEyMThuQ3hTRmFNSTQ0Z05ZSWRSd1A3QnM3eTRjWkNJbkN2Z2E5M1FQaUdrdUtaYzVNcWtVMC1LOU1yUkpoUk82d0ZQejM5cDR3YXVqcE5xMlJkTVU2dGduMDdsUWp2UG5ERFZUZw?oc=5",
+   "ts": "2026-11-14T22:31:00+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "美航空管制网络故障后恢复航班",
+   "brief": "美国航空交通网络故障引发全国混乱，航班逐步恢复，暴露关键基础设施脆弱性。",
+   "chain": "基建故障→美股航空与交通板块短期扰动→对A股算力链传导有限",
+   "impact": 4,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTdvYllmb0pHUXVJVGNLUmFZb2I0WXpjZENubU52NW1nQlFJa1E4c3ZNTGhseUdiUzl0ZXJWa0pOSnR1ZDlRQk9FTHZlaWkyT0hLM1J3OW5tVUhIb0o4OWN5bDVVakF5T3lIanR1SVVMSkctSDlpb2loMWI2MENuWEIxTmhTcy1kZXdqSlRrdi1NMHlFSGtPRWEzdUFrMWR1c2wwNk9rRUUwOGpzajM0N1h2MndWVU9MYngyMVdudw?oc=5",
+   "ts": "2026-11-13T21:38:00+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "GTA VI发售或重塑游戏与流媒体",
+   "brief": "Rockstar《GTA VI》发售预期可能重塑游戏、流媒体乃至带薪休假产业格局。",
+   "chain": "爆款游戏预期→美股游戏与流媒体板块催化→A股游戏传媒链情绪联动",
    "impact": 4,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/14/gta-6-grand-theft-auto-launch.html",
    "ts": "Sat, 14 Nov 2026 14:54:22 GMT"
   },
   {
-   "cat": "macro",
-   "title": "美国空管网络故障致混乱后将恢复航班",
-   "brief": "美国空管网络故障引发航班混乱，交通部称将恢复运行，事件暴露基础设施脆弱性。",
-   "chain": "空管系统故障→美股航空与基建板块波动→A股空管与信创链关注度上升",
-   "impact": 4,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTdvYllmb0pHUXVJVGNLUmFZb2I0WXpjZENubU52NW1nQlFJa1E4c3ZNTGhseUdiUzl0ZXJWa0pOSnR1ZDlRQk9FTHZlaWkyT0hLM1J3OW5tVUhIb0o4OWN5bDVVakF5T3lIanR1SVVMSkctSDlpb2loMWI2MENuWEIxTmhTcy1kZXdqSlRrdi1NMHlFSGtPRWEzdUFrMWR1c2wwNk9rRUUwOGpzajM0N1h2MndWVU9MYngyMVdudw?oc=5",
-   "ts": "2026-11-13T21:38:00+00:00"
+   "cat": "tech",
+   "title": "美全国航班停飞源于承包商升级L3Harris系统",
+   "brief": "DOT部长Duffy称，全美航班地面停飞起因是承包商对L3Harris通信系统进行升级；FAA表示停飞根因仍未查明。",
+   "chain": "航空通信系统升级故障→暴露关键基础设施软件与硬件供应链风险→映射A股空管信息化、通信设备及国产替代链",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
+   "ts": "Sun, 15 Nov 2026 02:53:59 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "特朗普再延琼斯法案豁免90天",
+   "brief": "特朗普将《琼斯法案》豁免延长90天，继续放宽美国港口间船运限制，以缓解能源与货物运输压力。",
+   "chain": "豁免延长→美内贸油品与LNG海运成本下降、区域价差收窄→东非/莫桑比克油气外运租船与运费环境边际宽松",
+   "impact": 5,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Extends-Jones-Act-Waiver-For-Another-90-Days.html",
+   "ts": "Fri, 13 Nov 2026 13:30:00 -0600"
   }
  ]
 }
