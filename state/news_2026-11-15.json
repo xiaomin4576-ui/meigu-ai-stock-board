@@ -1,54 +1,43 @@
 {
  "asof": "2026-11-15",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-11-15T14:18+08:00",
+ "generated_at": "2026-11-15T16:27+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 13,
-  "cluster_label": "伊朗/霍尔木兹",
+  "cross_day_suppressed": 11,
+  "cluster_label": "伊朗/巴林",
   "cluster_dropped": [
-   "伊朗筹备无油收入的预算",
-   "伊朗战争加速东南亚可再生能源推进"
+   "伊朗战争加速东南亚可再生能源转型"
   ],
-  "backfilled": 2
+  "backfilled": 0
  },
  "items": [
   {
    "cat": "geo",
-   "title": "伊朗称霍尔木兹三艘油轮触雷起火",
-   "brief": "伊朗海军称三艘油轮在霍尔木兹海峡触雷起火，海峡航运风险骤升，为近期美伊冲突最新升级。",
-   "chain": "海峡遇袭→油价风险溢价与航运保费跳升→美股能源板块受益、成长股承压→A股算力链情绪受抑",
+   "title": "伊朗称袭击美军基地 巴林首启防空警报",
+   "brief": "伊朗宣布对美军基地发动攻击，巴林自去年9月以来首次发布威胁警报，海湾局势骤然升级。",
+   "chain": "海湾军事对抗升级→避险情绪升温压制美股风险偏好→A股算力链短期承压、资金转向防御",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS2FyaWZZTTd4ZWFoWFdoTnFNVmpjakdwQUVnZ0UtMEY5MFc1dEFBeGd4UmczdGh1ektRTHBjRGxBOVlVQy1XV3NOdV9MbWotQkNVa1NBdmJaUloya1VhR2FEUTN3QkgwZ1JRN00wME5tc243TmZHU20zdlpaUHR2Q2lyby0tUkJsR0w5N1lXclI4ZWI5RTdfbjB2d1hxMXVjOVp4MlJPOF9IcjIxSE1JWWx3?oc=5",
+   "ts": "2026-11-15T04:25:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "伊朗海军称霍尔木兹三艘油轮触雷起火",
+   "brief": "伊朗海军称三艘油轮在霍尔木兹海峡触雷起火，海峡通航风险陡增，原油供应担忧升温。",
+   "chain": "霍尔木兹通航受威胁→Brent风险溢价上行→东非LNG项目海运与保险成本抬升，莫桑比克出口经济性承压",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZWt1cHFualJEVktnTTVvd21uVnljc0FqR2dRaWpaRnYwZ3luZ2t1dUlJNVUtLTVlWHJFOS1ocDBlaVZsTFNZdjRMeldFVFE1Q0Jqem9FbU9fMmp1YTBUTUhqTmYzR3FJN1Z1Y1dHY2d0Yjlzb2lBR0JvNllyT3pScjI2SEpkbkhiYzZSWW9Tb3dwemdWaVVmMjBPbXZqd0hOZzdpRDVSZlVlbzBnV1BjMQ?oc=5",
    "ts": "2026-11-14T22:54:19+00:00"
   },
   {
-   "cat": "oil",
-   "title": "IRGC称两艘油轮在霍尔木兹触雷",
-   "brief": "伊朗革命卫队称两艘油轮在霍尔木兹海峡遭水雷击中，与海军说法略有出入，海峡通行安全受威胁。",
-   "chain": "海峡布雷→Brent风险溢价上行、油轮绕行成本增→东非LNG海运与莫桑比克项目物流成本抬升",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWVUydG1mRVVtRzVScWR6N19NejF5VXVuUDlqaGxSSHdJN1hmYlBtZHRJMDNWbUJVSUMyRTBRM252dzFjSmtZOHlLYmg4Y2pqLXVrSndiS3dVLWVBa0tESWJtZW05MUprVkpXTE5sQXV0aXJRR1dQQ3FmWHk0SHpoSmQzRUZmRFZCaXdjLURicWxtRk1tSnZ1dEM2UTI1b1RmTzdwRw?oc=5",
-   "ts": "2026-11-13T21:14:55+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "新加坡650亿美元押注黄金未来",
-   "brief": "新加坡以650亿美元规模布局黄金，反映主权层面对去美元化与储备多元化的结构性押注。",
-   "chain": "央行购金结构性信号→实际利率与美元信用受质疑→美股AI高久期票估值分母承压→A股算力链情绪偏谨慎",
-   "impact": 7,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Metals/Gold/Singapore-Makes-a-65-Billion-Bet-on-the-Future-of-Gold.html",
-   "ts": "Sat, 14 Nov 2026 12:00:00 -0600"
-  },
-  {
    "cat": "geo",
-   "title": "沙特联军拦截袭向利雅得导弹",
-   "brief": "沙特领导联军拦截飞向利雅得的导弹及东部省无人机，地区冲突外溢至海湾核心产油区。",
-   "chain": "海湾本土遇袭→中东风险溢价抬升→美股能源走强、风险资产承压→A股算力链避险情绪升温",
-   "impact": 7,
+   "title": "沙特联军拦截飞向利雅得的导弹与无人机",
+   "brief": "沙特主导联军称拦截了射向利雅得的导弹及东部省无人机，海湾多点冲突扩散。",
+   "chain": "海湾冲突面扩大→中东风险溢价与避险需求上升→美股能源与防务板块受益、成长股承压",
+   "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOemlqVE1TdmREQ0t3TjczWnBWVGZ3TkxTc0ZPVC1fZFlrUDJCZC1KV0liZGdUTHBXZEZpWG9SNkJJSlBYSjVPbE1aUnNtWHl2eE1FbzlURGRwckdIT3R2NG9rVm1oX1V0VEZoWmYxM1dSbmhNc1BidnFLX19YRVU3Q2tzR1F5Vk1QX3dDNXVCeXZ6bmVES0lZNTBlR3E0Z1hJcXFyYXpMam80TGRWbURod1NsUXBwZldjdHFVejFwaWtmVmo3ZWYzYW5QMzk?oc=5",
    "ts": "2026-11-15T02:58:00+00:00"
@@ -56,8 +45,8 @@
   {
    "cat": "ai",
    "title": "英伟达领导层危机冲击AI交易",
-   "brief": "英伟达领导层动荡令AI交易承压，但标普500周涨2.5%、纳指收涨，市场分化明显。",
-   "chain": "英伟达治理危机→美股AI算力龙头估值波动→映射A股算力链（光模块/服务器/PCB）情绪联动",
+   "brief": "英伟达管理层动荡令AI交易承压，但标普500周涨2.5%、纳指收涨，市场分化明显。",
+   "chain": "AI龙头治理风险→美股AI板块估值波动→A股算力链情绪与订单预期受扰动",
    "impact": 8,
    "source": "CNBC",
    "url": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
@@ -65,49 +54,59 @@
   },
   {
    "cat": "ai",
-   "title": "英伟达董事会称未选定黄仁勋继任者",
-   "brief": "英伟达董事会向CNBC表示尚未选定永久接替黄仁勋的猎头公司，继任悬念持续发酵。",
-   "chain": "继任不明→AI龙头战略连续性存疑→美股AI板块波动→A股算力链跟随风险偏好起伏",
-   "impact": 7,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html",
-   "ts": "2026-11-13T19:42:52+00:00"
-  },
-  {
-   "cat": "tech",
-   "title": "英伟达告别黄仁勋，华盛顿余波刚开始",
-   "brief": "黄仁勋离任英伟达后，华盛顿围绕芯片出口与监管的政治余波才刚展开。",
-   "chain": "人事变动叠加政策不确定性→美股半导体出口预期扰动→A股国产算力替代链受关注",
+   "title": "两大股东促英伟达董事会考虑黄仁勋回归",
+   "brief": "两名主要投资者敦促英伟达董事会考虑让黄仁勋回归，公司治理不确定性持续发酵。",
+   "chain": "管理层去留未定→美股AI核心资产定价波动→A股算力链跟随情绪反复",
    "impact": 7,
    "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
-   "ts": "Fri, 13 Nov 2026 23:54:36 GMT"
+   "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+   "ts": "Sat, 14 Nov 2026 17:46:06 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "新加坡650亿美元押注黄金未来",
+   "brief": "新加坡以650亿美元规模布局黄金，反映主权层面对贵金属战略配置的加码。",
+   "chain": "央行/主权购金结构性加码→实际利率与美元信用受审视→美股AI高久期估值分母承压、A股算力链情绪偏谨慎",
+   "impact": 7,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Metals/Gold/Singapore-Makes-a-65-Billion-Bet-on-the-Future-of-Gold.html",
+   "ts": "Sat, 14 Nov 2026 12:00:00 -0600"
   },
   {
    "cat": "tech",
-   "title": "卢特尼克因英伟达间谍风波受质询",
-   "brief": "卢特尼克因英伟达间谍风波面临质询，其子所在公司与该芯片商关系深厚。",
-   "chain": "监管风波→美股芯片政策风险上升→A股半导体自主可控链情绪受提振",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
-   "ts": "Fri, 13 Nov 2026 23:42:18 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "SpaceX首次成功捕获星舰上级",
-   "brief": "星舰第15次试飞首次尝试并成功捕获上级，为马斯克公司历史性突破。",
-   "chain": "星舰复用突破→美股航天与卫星互联网叙事强化→A股商业航天链情绪催化",
+   "title": "SpaceX星舰首次成功捕获上级火箭",
+   "brief": "星舰第15次试飞首次尝试并成功捕获上级火箭，可复用运载技术再进一步。",
+   "chain": "航天可复用突破→美股航天与卫星产业链情绪提振→A股商业航天/卫星互联网链映射",
    "impact": 6,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html",
    "ts": "2026-11-14T21:26:31+00:00"
   },
   {
+   "cat": "oil",
+   "title": "伊朗筹备无油收入的预算方案",
+   "brief": "受冲突与制裁影响，伊朗正编制不含石油收入的预算，财政承压凸显出口受阻。",
+   "chain": "伊朗出口受限→全球原油供给边际收紧、Brent获支撑→东非油气采购与LNG议价环境偏紧",
+   "impact": 6,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/Iran-Braces-for-a-Budget-Without-Oil-Revenue.html",
+   "ts": "Fri, 13 Nov 2026 17:00:00 -0600"
+  },
+  {
+   "cat": "tech",
+   "title": "卢特尼克因英伟达间谍风波受质询",
+   "brief": "卢特尼克因英伟达相关间谍风波面临质询，其子所在公司与该芯片商关系密切。",
+   "chain": "芯片出口与安全审查升温→美股半导体政策风险上升→A股算力链国产替代逻辑强化",
+   "impact": 6,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+   "ts": "Fri, 13 Nov 2026 23:42:18 GMT"
+  },
+  {
    "cat": "macro",
-   "title": "伯克希尔创历史新高，Q4涨19%",
-   "brief": "伯克希尔突破历史新高，第四季度累计上涨19%，防御性配置受资金追捧。",
-   "chain": "价值股走强→美股风格由成长向价值轮动→A股高股息与算力成长跷跷板效应",
+   "title": "伯克希尔创历史新高 四季度涨19%",
+   "brief": "伯克希尔股价突破历史高位，第四季度累计上涨19%，防御型价值资产受追捧。",
+   "chain": "资金流向防御价值→美股风格由成长向价值再平衡→A股算力链高估值品种承压",
    "impact": 5,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html",
@@ -115,63 +114,53 @@
   },
   {
    "cat": "oil",
-   "title": "厄瓜多尔欲货币化生物多样性同时继续采油",
-   "brief": "厄瓜多尔寻求以生物多样性变现，同时维持石油开采，拉美产油国财政与环保两难。",
-   "chain": "拉美供给政策摇摆→油价边际扰动有限→对莫桑比克经营影响中性",
-   "impact": 3,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/14/ecuador-biodiversity-green-finance-oil.html",
-   "ts": "Sat, 14 Nov 2026 06:00:01 GMT"
+   "title": "特朗普再延琼斯法案豁免90天",
+   "brief": "特朗普将琼斯法案豁免延长90天，放宽美国沿海航运限制，影响原油与成品油运输成本。",
+   "chain": "美沿海航运限制放宽→成品油跨区运输成本下降、区域价差收窄→东非成品油进口成本边际改善",
+   "impact": 5,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Extends-Jones-Act-Waiver-For-Another-90-Days.html",
+   "ts": "Fri, 13 Nov 2026 13:30:00 -0600"
   },
   {
    "cat": "geo",
-   "title": "哈马斯称高级指挥官遭以军空袭身亡",
-   "brief": "哈马斯称一名高级武装指挥官在以色列空袭中丧生，加沙局势再度紧张。",
-   "chain": "中东冲突延续→避险情绪与油价风险溢价支撑→美股风险偏好受压→A股算力链情绪偏弱",
-   "impact": 5,
+   "title": "以色列空袭加沙 哈马斯高级指挥官身亡",
+   "brief": "以色列在加沙空袭中击毙一名哈马斯高级指挥官，停火谈判前景再添变数。",
+   "chain": "中东停火受阻→地缘风险溢价维持→美股能源防务受益、风险资产承压",
+   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYUhZd1pxN2d0N3pmR2RCbjhCQk9teURKLThfYzR0bC1rVWJpVGUwNkpJelBNeVNLY3hxS1B0c0p2bTk5VmhCeFVGUWpHSFVNdHFKZjcydUdYNDEyMThuQ3hTRmFNSTQ0Z05ZSWRSd1A3QnM3eTRjWkNJbkN2Z2E5M1FQaUdrdUtaYzVNcWtVMC1LOU1yUkpoUk82d0ZQejM5cDR3YXVqcE5xMlJkTVU2dGduMDdsUWp2UG5ERFZUZw?oc=5",
    "ts": "2026-11-14T22:31:00+00:00"
   },
   {
-   "cat": "macro",
-   "title": "美航空管制网络故障后恢复航班",
-   "brief": "美国航空交通网络故障引发全国混乱，航班逐步恢复，暴露关键基础设施脆弱性。",
-   "chain": "基建故障→美股航空与交通板块短期扰动→对A股算力链传导有限",
-   "impact": 4,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTdvYllmb0pHUXVJVGNLUmFZb2I0WXpjZENubU52NW1nQlFJa1E4c3ZNTGhseUdiUzl0ZXJWa0pOSnR1ZDlRQk9FTHZlaWkyT0hLM1J3OW5tVUhIb0o4OWN5bDVVakF5T3lIanR1SVVMSkctSDlpb2loMWI2MENuWEIxTmhTcy1kZXdqSlRrdi1NMHlFSGtPRWEzdUFrMWR1c2wwNk9rRUUwOGpzajM0N1h2MndWVU9MYngyMVdudw?oc=5",
-   "ts": "2026-11-13T21:38:00+00:00"
-  },
-  {
    "cat": "tech",
-   "title": "GTA VI发售或重塑游戏与流媒体",
-   "brief": "Rockstar《GTA VI》发售预期可能重塑游戏、流媒体乃至带薪休假产业格局。",
-   "chain": "爆款游戏预期→美股游戏与流媒体板块催化→A股游戏传媒链情绪联动",
+   "title": "GTA VI发售或重塑游戏与流媒体格局",
+   "brief": "Rockstar《GTA VI》发售预期被认为将重塑游戏、流媒体乃至带薪休假消费格局。",
+   "chain": "重磅游戏发售→美股游戏与平台内容收入预期上修→A股游戏/传媒链情绪映射",
    "impact": 4,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/14/gta-6-grand-theft-auto-launch.html",
    "ts": "Sat, 14 Nov 2026 14:54:22 GMT"
   },
   {
-   "cat": "tech",
-   "title": "美全国航班停飞源于承包商升级L3Harris系统",
-   "brief": "DOT部长Duffy称，全美航班地面停飞起因是承包商对L3Harris通信系统进行升级；FAA表示停飞根因仍未查明。",
-   "chain": "航空通信系统升级故障→暴露关键基础设施软件与硬件供应链风险→映射A股空管信息化、通信设备及国产替代链",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
-   "ts": "Sun, 15 Nov 2026 02:53:59 GMT"
+   "cat": "macro",
+   "title": "CFTC主席称加密业转向拥抱机构规则",
+   "brief": "CFTC主席塞利格表示，在立法希望消退背景下加密行业正转向接受机构监管规则。",
+   "chain": "加密监管路径明朗化→美股加密相关资产风险偏好改善→A股区块链/数字资产概念情绪传导",
+   "impact": 4,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/13/cftc-chair-selig-crypto-industry-opting-into-agencys-crypto-rules-.html",
+   "ts": "Fri, 13 Nov 2026 20:07:30 GMT"
   },
   {
    "cat": "oil",
-   "title": "特朗普再延琼斯法案豁免90天",
-   "brief": "特朗普将《琼斯法案》豁免延长90天，继续放宽美国港口间船运限制，以缓解能源与货物运输压力。",
-   "chain": "豁免延长→美内贸油品与LNG海运成本下降、区域价差收窄→东非/莫桑比克油气外运租船与运费环境边际宽松",
-   "impact": 5,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Extends-Jones-Act-Waiver-For-Another-90-Days.html",
-   "ts": "Fri, 13 Nov 2026 13:30:00 -0600"
+   "title": "厄瓜多尔欲开发生物多样性同时继续采油",
+   "brief": "厄瓜多尔寻求将生物多样性货币化，同时维持石油开采，平衡财政与环保压力。",
+   "chain": "南美增产意愿维持→全球原油供给宽松边际→东非油气项目融资竞争加剧",
+   "impact": 3,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/14/ecuador-biodiversity-green-finance-oil.html",
+   "ts": "Sat, 14 Nov 2026 06:00:01 GMT"
   }
  ]
 }
