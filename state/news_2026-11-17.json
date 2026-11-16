@@ -1,160 +1,150 @@
 {
  "asof": "2026-11-17",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-11-17T00:29+08:00",
+ "generated_at": "2026-11-17T05:03+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 15,
+  "cross_day_suppressed": 6,
   "cluster_label": "",
   "cluster_dropped": [],
   "backfilled": 0
  },
  "items": [
   {
-   "cat": "geo",
-   "title": "伊朗称霍尔木兹海峡再有两艘油轮触雷",
-   "brief": "伊朗宣称又有两艘油轮在霍尔木兹海峡触雷，海峡航运风险骤升，全球约两成原油海运通道受威胁。",
-   "chain": "海峡遇袭→油价风险溢价抬升→美股能源板块与通胀预期上行→A股算力链承压于成本与风险偏好",
-   "impact": 9,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Claims-Two-More-Oil-Tankers-Hit-Mines-in-Strait-of-Hormuz.html",
-   "ts": "Mon, 16 Nov 2026 04:00:00 -0600"
-  },
-  {
-   "cat": "oil",
-   "title": "美原油回落至87美元，中东出口恢复",
-   "brief": "中东出口恢复叠加四季度供应过剩预期，美原油跌至87美元/桶，地缘溢价部分回吐。",
-   "chain": "供应过剩预期→Brent/WTI走弱→东非油气项目售价与现金流承压，莫桑比克LNG长约定价需盯紧",
-   "impact": 7,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
-   "ts": "2026-11-16T16:06:27+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "胡塞武装推进威胁沙特原油出口",
-   "brief": "胡塞在也门南岸夺取地盘逼近亚丁，沙特经红海方向的原油出口通道面临风险。",
-   "chain": "红海出口受威胁→油价上行风险→东非航运绕行成本升，莫桑比克LNG东向航线需重估",
-   "impact": 7,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Energy-General/Houthi-Advance-Puts-Saudi-Crude-Exports-at-Risk.html",
-   "ts": "Mon, 16 Nov 2026 10:00:00 -0600"
-  },
-  {
-   "cat": "gas",
-   "title": "美国LNG流量创纪录，全球气荒加深",
-   "brief": "美国LNG出口流量创历史新高，全球天然气供应危机加深，欧亚争夺货源。",
-   "chain": "美LNG创新高→TTF与亚洲现货价再平衡→东非LNG项目议价窗口打开，莫桑比克出口前景受益",
-   "impact": 7,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-LNG-Flows-Hit-Record-High-as-Global-Gas-Supply-Crisis-Deepens.html",
-   "ts": "Mon, 16 Nov 2026 06:30:00 -0600"
-  },
-  {
-   "cat": "gas",
-   "title": "欧气价回落：天气转暖叠加美LNG创纪录",
-   "brief": "欧洲天然气价格因天气转暖与美国LNG创纪录流入而下跌，供应紧张边际缓解。",
-   "chain": "欧气价走弱→全球LNG套利流向调整→莫桑比克对欧长约价格参考下移，需关注现货敞口",
-   "impact": 6,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Slumps-on-Milder-Weather-and-Record-US-LNG-Flows.html",
-   "ts": "Mon, 16 Nov 2026 08:30:00 -0600"
-  },
-  {
-   "cat": "gas",
-   "title": "欧洲从亚洲抽调LNG，但速度不够快",
-   "brief": "评论指出欧洲正从亚洲抽调LNG货源补充库存，但调运速度不足以完全填补缺口。",
-   "chain": "欧亚LNG争夺→TTF与JKM价差扩大→东非气源成边际补充，莫桑比克项目战略价值上升",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQazNSNGIxWE5oU0dkNG1ZY2hBelhzb2JmOUpWR3VPMkdZN1I3RmE1WEpXcUtpbGU3cnFETTgydzdtVTFQcDVYOGZmcmhVTHVYS1JFLUYyWjVUQTBHVHdFblFfQmxfSDBSUWViOTljeFFVSkdQYktVRS1peWZDRzE5eFhia0RvQnFtU3R4ZmxadDI5QzRiTzlnek9STTRDTGFibmxzZmstcVNEdw?oc=5",
-   "ts": "2026-11-16T01:24:25+00:00"
+   "cat": "macro",
+   "title": "美联储主席Warsh强调AI对经济重要性但称或令人失望",
+   "brief": "美联储主席Warsh公开表态AI对经济至关重要，但同时警告其效果可能不及预期，为AI叙事降温。",
+   "chain": "美联储主席对AI预期管理→美股AI高久期票风险偏好承压→A股算力链情绪短期受抑",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html",
+   "ts": "Mon, 16 Nov 2026 18:46:07 GMT"
   },
   {
    "cat": "macro",
-   "title": "美伊协议不确定施压卢比与印度债市",
-   "brief": "美伊协议前景不明朗令印度卢比与债券承压，市场同时关注美联储与印度央行利率路径。",
-   "chain": "美伊不确定→新兴市场汇率与债市波动→美股风险偏好受扰→A股算力链外资流向承压",
-   "impact": 6,
+   "title": "加拿大央行行长Macklem将于2027年任期结束后卸任",
+   "brief": "加拿大央行行长Macklem确认2027年任期届满后不再连任，央行领导层更替预期升温。",
+   "chain": "主要央行行长更替→北美利率路径不确定性上升→美股估值分母与A股外资风险偏好边际扰动",
+   "impact": 5,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMVNxZjdMUWpxX0k5UFljV1NLWVhkTW5lMnE0SVVsRjlVNml3N1BCWmt2NTgwV0RGZkNYam1yQ1N3MXRjUHJLME5jZmY0dERCNGo4Rl9rZjdKZldwajhnbmlTQ25PRzE4WndhUEFoS29fZmFDWVczMUZfRFRRa21MektCU0luRGJiNllsTnZiRmZHVUN1R0kwTlJsM2dCN2hlYzJyOXk0bUZRX29XajFHRkhubzk?oc=5",
-   "ts": "2026-11-16T01:32:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOExHMHhYSmZUdF9OVlBnTkQ4N29jLTA4RmFPa09hdTgzMHQ0UlhYRkZmcHU3S19ZckE1MURrQU43U3FQOU9ENTdGZHZBTUZvT2hNcExZcWVPTUUzWEhtX1BvX3lpXzVXQktFMTBybkRMaTdsM3FfVFZnYTlnUVhRSGRob2paU0JMcXA1NmxKUjI0UkRGQmVSbFhuOVliZDYwbFhXZ2ZnanpBR1lmOGc?oc=5",
+   "ts": "2026-11-16T17:16:38+00:00"
   },
   {
    "cat": "geo",
-   "title": "胡塞夺取也门南岸地盘，逼近亚丁",
-   "brief": "胡塞武装在也门南部海岸夺取地盘并逼近亚丁，红海—亚丁湾安全形势进一步恶化。",
-   "chain": "也门局势恶化→红海航运风险升→美股能源与航运板块波动→A股算力链受风险偏好拖累",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbllfNkZoYzF4U1ZLdmUtaGE2VnZsblBfeXMyV0xFSEVwcDRya3hzTG1jR2JVS08zYUFBR1laaGhkTVhyZ3hueTl5N1k5ZkFTc3V0blFaUm02WFd0Y2Y2bTR5Rm53XzhTZV8wYy1YWVRNQWo3Vjc5VF9GeXJMaU9zZnhOV3N4aDNkbmcyalJnenlReWFCamtKS0NPZWNLRV9EQ1A3SEVLeU9BNjBvYzd6VzNnQQ?oc=5",
-   "ts": "2026-11-16T14:11:22+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "中国确认习近平-特朗普-普京历史性峰会",
+   "title": "中国确认习-特朗普-普京历史性峰会",
    "brief": "中方确认习近平、特朗普、普京将举行历史性峰会，议程涵盖贸易、地缘与安全议题。",
-   "chain": "大国峰会→中美关系预期重定价→美股科技出口链敏感→A股算力链受管制预期牵动",
-   "impact": 8,
+   "chain": "大国峰会预期→美股风险偏好与关税路径重估→A股出口链/自主可控链情绪双向波动",
+   "impact": 9,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html",
    "ts": "Mon, 16 Nov 2026 08:38:16 GMT"
   },
   {
    "cat": "geo",
-   "title": "间谍丑闻与中期选举失利搅动特朗普亚洲行",
-   "brief": "间谍丑闻发酵叠加中期选举失利，特朗普亚洲之行承压，盟友与贸易议题不确定性上升。",
-   "chain": "美政治内耗→亚洲盟友关系与关税预期波动→美股出口链承压→A股算力链情绪受扰",
+   "title": "特朗普称或在中国与金正恩会面",
+   "brief": "特朗普表示可能借访华之机与朝鲜金正恩会晤，东北亚外交格局出现新变量。",
+   "chain": "东北亚外交缓和预期→美股风险偏好边际改善→A股地缘敏感板块情绪修复",
    "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOenFHNWhhY2RJR3NNRHFqQ1pSaXRHMVM2VEN1WURVVTJjRFNJbXp2WnlZcE5PLUlIOWpVS3YxWm93NlFkVnpKYy1HdkFYYV9qczhGM21ERmpMX1RUUU9hNnEtZzNjdV9vVDVHVks5VG9xYVBQYmdZR0RPUFJHNThLQWs5b0NwM2UwS0N0cXRzcTZiclRKdmRjSlJabU9YWjVwZWc?oc=5",
-   "ts": "2026-11-16T05:04:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb29EcDdndEN4TW9IeVFRVnVQTV9YVzNZVHUyT0F3aElTeTFQMFU2X05QUXR3c01hVVlrTEotZjVhU3YwNFZuTlUyZDVfM2pTTjNGTHR1Q25GalEtUFByZTFKLUd4TV84UU9vUngxd245SktvQ00tbWNOMDZ0WkRoVDV3OXh6UWxMZ0t3aWVuSC01U2VYclVHX2k1ZnpnTHFTSTh3bw?oc=5",
+   "ts": "2026-11-16T17:15:46+00:00"
   },
   {
    "cat": "geo",
-   "title": "爱沙尼亚称遭破坏企图后关闭对俄边境",
-   "brief": "北约成员爱沙尼亚在无人机厂商遭破坏企图后宣布关闭对俄边境，俄欧紧张升级。",
-   "chain": "俄欧紧张→欧洲防务与能源风险溢价→美股军工受益→A股算力链受避险情绪压制",
+   "title": "也门受挫后沙特更换军事指挥官",
+   "brief": "沙特在也门战事受挫后撤换军事指挥官，中东安全局势持续紧张。",
+   "chain": "中东军事指挥层变动→美股能源与防务板块风险溢价上升→A股军工链情绪受提振",
    "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/16/nato-estonia-russia-border-ukraine-war.html",
-   "ts": "Mon, 16 Nov 2026 10:44:02 GMT"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbllfNkZoYzF4U1ZLdmUtaGE2VnZsblBfeXMyV0xFSEVwcDRya3hzTG1jR2JVS08zYUFBR1laaGhkTVhyZ3hueTl5N1k5ZkFTc3V0blFaUm02WFd0Y2Y2bTR5Rm53XzhTZV8wYy1YWVRNQWo3Vjc5VF9GeXJMaU9zZnhOV3N4aDNkbmcyalJnenlReWFCamtKS0NPZWNLRV9EQ1A3SEVLeU9BNjBvYzd6VzNnQQ?oc=5",
+   "ts": "2026-11-16T15:49:18+00:00"
   },
   {
-   "cat": "geo",
-   "title": "乌克兰迎关键防务谈判周，俄军再袭",
-   "brief": "俄军新一轮袭击之际，乌克兰迎来关键防务谈判周，停火与军援前景待定。",
-   "chain": "俄乌僵持→欧洲能源与防务风险→美股军工与能源波动→A股算力链风险偏好受抑",
+   "cat": "oil",
+   "title": "美原油跌至87美元/桶，中东出口恢复",
+   "brief": "中东出口回升叠加四季度供应过剩预期，美原油回落至87美元/桶。",
+   "chain": "中东出口恢复+过剩预期→Brent/WTI走弱→莫桑比克油气售价与项目经济性承压",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
+   "ts": "2026-11-16T16:06:27+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "超大型油轮运价自纪录高位暴跌逾60%",
+   "brief": "超大型油轮(VLCC)运价从历史高点回落逾60%，原油航运紧张显著缓解。",
+   "chain": "VLCC运价暴跌→原油海运成本下降、到岸价趋稳→东非LNG/油气物流成本改善",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY0ZJYjdxQndHZmhXNXpBLTVhN0p2NmtoMXliTHZFeURJMU05VVpzQW16STBtZzNuMnUyelRkTzRPODgxR21pdm9YY2JIaUhPbmM2MVVDMVlPSkp5UjY1VjVkbVkzQmhmZGR5TXFiMTRuMkc1SWF5a1hVVGZQdUlFUjA0Y3Z6YnJtX1BKTkF3TXpuMXc5Nk9OMTRjTVp4eXAtanJkOA?oc=5",
+   "ts": "2026-11-16T14:53:43+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "胡塞武装推进威胁沙特原油出口",
+   "brief": "胡塞武装军事推进危及沙特原油出口通道，红海与霍尔木兹风险溢价再起。",
+   "chain": "胡塞推进威胁沙特出口→油价地缘溢价上行→莫桑比克油气售价短期获支撑",
+   "impact": 7,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/Houthi-Advance-Puts-Saudi-Crude-Exports-at-Risk.html",
+   "ts": "Mon, 16 Nov 2026 10:00:00 -0600"
+  },
+  {
+   "cat": "oil",
+   "title": "Diamondback以50亿美元收购Double Eagle二叠纪权益",
+   "brief": "Diamondback斥资50亿美元收购Double Eagle的Midland盆地权益，页岩整合加速。",
+   "chain": "页岩资产整合→美油供给弹性与资本开支预期变化→油价中期走向影响东非项目对标",
    "impact": 5,
    "source": "OilPrice",
-   "url": "https://oilprice.com/Geopolitics/Europe/Ukraine-Braces-for-Pivotal-Week-of-Defense-Talks-Amid-Fresh-Russian-Attacks.html",
-   "ts": "Mon, 16 Nov 2026 09:00:00 -0600"
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Diamondback-to-Buy-Double-Eagles-Midland-Stake-for-5-Billion.html",
+   "ts": "Mon, 16 Nov 2026 12:30:00 -0600"
   },
   {
-   "cat": "tech",
-   "title": "英伟达余波：美商务部堵中国数据中心漏洞",
-   "brief": "美商务部针对中国数据中心使用英伟达芯片的规避路径出手，出口管制进一步收紧。",
-   "chain": "管制收紧→英伟达中国收入预期下修→美股AI硬件承压→A股算力链国产替代逻辑强化",
-   "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
-   "ts": "Mon, 16 Nov 2026 16:19:27 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "英伟达股价承压，呼吁黄仁勋回归声浪升高",
-   "brief": "黄仁勋离职后英伟达股价承压，业界要求其回归CEO的呼声持续升温。",
-   "chain": "管理层动荡→英伟达估值与订单信心受扰→美股AI龙头波动→A股算力链跟随情绪",
+   "cat": "gas",
+   "title": "欧洲已消耗夏季天然气注入量的10%",
+   "brief": "欧洲储气库已动用今夏注入量的10%，冬季天然气供应缓冲收窄。",
+   "chain": "欧洲储气消耗加快→TTF气价上行压力→全球LNG现货趋紧、东非LNG项目议价环境改善",
    "impact": 7,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Europe-Has-Already-Drained-10-of-Its-Summer-Gas-Injections.html",
+   "ts": "Mon, 16 Nov 2026 10:30:00 -0600"
+  },
+  {
+   "cat": "gas",
+   "title": "土库曼斯坦冲刺年底完成TAPI管道关键段",
+   "brief": "土库曼斯坦加速推进TAPI天然气管道关键段，力争年底完工，中亚气源东输格局生变。",
+   "chain": "TAPI管道推进→亚洲天然气供应版图调整→东非LNG在亚洲市场的竞争与替代压力上升",
+   "impact": 5,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/Turkmenistan-Races-to-Complete-Key-TAPI-Pipeline-Section-by-Year-End.html",
+   "ts": "Mon, 16 Nov 2026 13:00:00 -0600"
+  },
+  {
+   "cat": "tech",
+   "title": "英伟达股价承压，呼吁黄仁勋回归CEO声浪升温",
+   "brief": "英伟达股价承压，市场与业内呼吁黄仁勋重返CEO的声浪持续升温。",
+   "chain": "英伟达管理层动荡→美股AI芯片龙头估值波动→A股算力链(服务器/光模块/PCB)情绪联动",
+   "impact": 9,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/16/morning-squawk-nvidia-share-calls-reinstate-huang-ceo.html",
    "ts": "Mon, 16 Nov 2026 13:14:21 GMT"
   },
   {
    "cat": "tech",
-   "title": "参议员促卢特尼克停止对华AI芯片销售",
-   "brief": "参议员Cantwell致信商务部长卢特尼克，要求在习特会前停止对华AI芯片销售。",
-   "chain": "对华芯片禁令呼声→英伟达合规风险升→美股AI硬件承压→A股算力链国产化受益",
+   "title": "消息称英伟达董事会未考虑让黄仁勋回归CEO",
+   "brief": "知情人士称英伟达董事会并未考虑请回黄仁勋任CEO，管理层过渡不确定性延续。",
+   "chain": "董事会否认回归→英伟达治理不确定性延续→美股AI硬件链与A股算力链波动加大",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+   "ts": "Mon, 16 Nov 2026 19:46:26 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "Cantwell促Lutnick停止对华AI芯片销售",
+   "brief": "参议员Cantwell在习特会前敦促商务部长Lutnick叫停对华AI芯片销售，出口管制再成焦点。",
+   "chain": "对华AI芯片管制呼声→美股芯片对华营收预期承压→A股国产算力替代链情绪受提振",
    "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/16/cantwell-lutnick-ai-chip-china.html",
@@ -162,43 +152,43 @@
   },
   {
    "cat": "tech",
-   "title": "英伟达临时CEO首份财报直面关键质疑",
-   "brief": "黄仁勋突然离职后，临时CEO Kress首份财报面临市场对战略与订单的关键追问。",
-   "chain": "财报不确定性→英伟达指引牵动AI资本开支预期→美股AI链波动→A股算力链联动",
-   "impact": 7,
+   "title": "航运成本上升，节日大件商品或更难买到",
+   "brief": "运输成本上涨令零售商对节日库存趋于谨慎，大件商品供应或趋紧。",
+   "chain": "航运成本上升→美股零售与物流利润率承压→A股出口链与航运板块分化",
+   "impact": 4,
    "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html",
+   "url": "https://www.cnbc.com/2026/11/16/holiday-big-ticket-inventory-shipping-costs.html",
    "ts": "2026-11-16T12:00:01+00:00"
   },
   {
    "cat": "ai",
-   "title": "Anthropic IPO指南：你需要知道的一切",
-   "brief": "Anthropic筹备IPO，市场关注其估值、算力投入与商业化路径。",
-   "chain": "AI独角兽上市→AI资本开支与估值锚重定价→美股AI板块情绪→A股算力链估值联动",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html",
-   "ts": "Mon, 16 Nov 2026 14:55:17 GMT"
+   "title": "Altimeter的Gerstner拟在Anthropic IPO投资50亿美元",
+   "brief": "Altimeter创始人Gerstner计划在Anthropic IPO中投入50亿美元，AI一级市场热度不减。",
+   "chain": "Anthropic巨额IPO认购→美股AI一级估值锚上移→A股AI应用与算力链估值情绪提振",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/16/altimeters-brad-gerstner-investing-5-billion-in-anthropic-ipo.html",
+   "ts": "Mon, 16 Nov 2026 19:11:41 GMT"
   },
   {
    "cat": "ai",
-   "title": "Anthropic的华尔街联络人：CFO Krishna Rao",
-   "brief": "Anthropic CFO Krishna Rao负责对接华尔街，为IPO与融资铺路。",
-   "chain": "AI融资推进→一级市场AI估值升温→美股AI板块情绪→A股算力链风险偏好抬升",
-   "impact": 5,
+   "title": "加州起诉OpenAI等AI模型失控问题",
+   "brief": "加州就AI模型失控风险起诉OpenAI及相关方，AI监管与治理压力升级。",
+   "chain": "AI监管诉讼升级→美股AI龙头合规成本与估值折价→A股AI治理/安全链关注度上升",
+   "impact": 6,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/16/anthropic-cfo-krishna-rao-ipo.html",
-   "ts": "Mon, 16 Nov 2026 16:08:16 GMT"
+   "url": "https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html",
+   "ts": "Mon, 16 Nov 2026 20:24:57 GMT"
   },
   {
-   "cat": "macro",
-   "title": "比特币跌至6.2万美元后小幅反弹",
-   "brief": "比特币跌破关键技术支撑引发清算瀑布，跌至6.2万美元后小幅反弹。",
-   "chain": "加密去杠杆→风险偏好收缩→美股高贝塔成长承压→A股算力链情绪受抑",
+   "cat": "ai",
+   "title": "OpenAI与四家独立评估机构签约强化安全",
+   "brief": "OpenAI与四家独立评估方达成协议，加强模型安全评估工作。",
+   "chain": "AI安全治理强化→美股AI龙头合规护城河预期→A股AI安全与评测链情绪受益",
    "impact": 5,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/16/bitcoin-slides-to-62000-following-liquidation-cascade-then-rebounds-slightly.html",
-   "ts": "2026-11-16T14:29:19+00:00"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/16/openai-independent-ai-safety-evaluators.html",
+   "ts": "Mon, 16 Nov 2026 18:11:00 GMT"
   }
  ]
 }

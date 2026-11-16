@@ -1,6 +1,6 @@
 {
  "asof": "2026-11-17",
- "fetched_at": "2026-11-17T00:29+08:00",
+ "fetched_at": "2026-11-17T05:03+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -11,18 +11,38 @@
    "TechAfrica News": 12,
    "Condia": 25,
    "ITWeb Africa": 25,
-   "Club of Mozambique": 0,
+   "Club of Mozambique": 1,
    "Zimbabwe Situation": 0,
    "African Business": 4,
-   "非洲科技·聚合": 10,
+   "非洲科技·聚合": 0,
    "中非科技·聚合": 13
   },
   "total": 60,
-  "ai_flagged": 21,
-  "aiinfra_flagged": 3,
+  "ai_flagged": 18,
+  "aiinfra_flagged": 2,
   "countries": 7
  },
  "items": [
+  {
+   "title": "Mozambique: President wants technology centre for defence, drone industries",
+   "brief": "The Mozambican president on Monday asked the Higher Institute of Defence Studies to plan the creation of a technology centre to establish a defence industry and produce military technology, such as drones, thereby reduci",
+   "source": "Club of Mozambique",
+   "url": "https://clubofmozambique.com/news/mozambique-president-wants-technology-centre-for-defence-drone-industries/",
+   "date": "Mon, 16 Nov 2026 18:39:57 +0000",
+   "country": "🇲🇿 莫桑比克",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Paystack is making a play for Nigeria’s onchain payment infrastructure",
+   "brief": "Paystack CEO Shola Akinlade has outlined how Global Stack, the company's financial infrastructure platform, will connect African payment rails to the Solana blockchain, as Paystack participates in the CBN's virtual asset",
+   "source": "Condia",
+   "url": "https://thecondia.com/paystack-african-payment-rails-solana/",
+   "date": "Mon, 16 Nov 2026 17:15:39 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
   {
    "title": "Jensen Huang: The anatomy of a scandal",
    "brief": "The scandal surrounding Nvidia’s former CEO Jensen Huang has exposed the risks of tying a company’s reputation too closely to its founder. Jessica Hope examines the fallout and what African tech founders can learn about ",
@@ -40,16 +60,6 @@
    "url": "https://techafricanews.com/2026/11/16/ericsson-and-gust-partner-to-advance-trusted-ai-research-in-kuwait/",
    "date": "Mon, 16 Nov 2026 15:10:12 +0000",
    "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Zimbabwean billionaire’s Cassava taps Silicon Valley’s Graphiant to secure African networks as it deploys 12,000 Nvidia GPUs across 5 countries in $720m expansion",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaU1abnJoOVlSbEIxNGhvOHZvSGdLcmpUTmhDa3RyeDVnSHFfRmkxdG93XzNuMm5Pb2t2WGZSMjU0aERtYUgwWnVHYzNoakdWLTd3VmlpanlwemFETGJQUWVmTnZYM3lHYWxHd3RwOUpselkxRXl0ZnJyaGx6OT",
-   "source": "Business Insider Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaU1abnJoOVlSbEIxNGhvOHZvSGdLcmpUTmhDa3RyeDVnSHFfRmkxdG93XzNuMm5Pb2t2WGZSMjU0aERtYUgwWnVHYzNoakdWLTd3VmlpanlwemFETGJQUWVmTnZYM3lHYWxHd3RwOUpselkxRXl0ZnJyaGx6OTJzVzBKWjZTVzBtcnlYTHNLdGstWFZqR3FHcG5WVmduTUxLaks4aEdJTE8ycnp0LXh0UDNhVnBrNDJ1Rm9UVzdYTXBJN3Z2VFVnbUVRdXRCRDN5TE84?oc=5",
-   "date": "Mon, 16 Nov 2026 15:08:38 GMT",
-   "country": "🇿🇼 津巴布韦",
    "is_ai": true,
    "is_aiinfra": false
   },
@@ -364,6 +374,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "(Hello Africa) Chinese technology empowers Kenya's electric motorcycle push",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE05QU92dUMtbkVqM2NwcW5yRE1obU0xX1czYzZUMjh5SEhjQ3Fta1JjWkJDYmJ3VHFyUk9uY0F6R3ZjWHlRWmVqZGZGT181ZnZlZ3N4SngzT1NpVFR2dFQwenpGbFUtbjFrd29SYzdzaEF3V2NwUlA5LVJDVWI?oc",
+   "source": "Xinhua·聚合",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE05QU92dUMtbkVqM2NwcW5yRE1obU0xX1czYzZUMjh5SEhjQ3Fta1JjWkJDYmJ3VHFyUk9uY0F6R3ZjWHlRWmVqZGZGT181ZnZlZ3N4SngzT1NpVFR2dFQwenpGbFUtbjFrd29SYzdzaEF3V2NwUlA5LVJDVWI?oc=5",
+   "date": "Sun, 15 Nov 2026 09:41:15 GMT",
+   "country": "🇰🇪 肯尼亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "Huawei Enjoy 100 Pro Max beats iPhone 17 Pro in China",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFA3WDBaMDJwZ2x2Y2w1U2dNNUwtMEZwWGo1Q2FvYTItR01yaW5tNUl2X0hLdHRDbnFKU2ZmYnd5bDNnbGU2aFgxY3FVMXhqVXdRbnJDYjNmb0VHa1ZMWDh4UjBFemp1b2h2ODZQUGhSMGs?oc=5\" target=\"_bla",
    "source": "Kursiv Media Узбекистан·聚合",
@@ -384,26 +404,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "President Ramaphosa arrives in California for high-level artificial intelligence learning visit to Silicon Valley",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdGo4THB6bnJmWWdUU0diMUc5WklRVjlaLXJyaXpMMFRLX09JT05JN040c202MjZVeHVsbTc0TWk2UjBWZmc2RktVODA2Y0NQQlVsLWR4NnFJd05CY3N0bXJTRFhTMnFkZkV5VHZUMHJwaGZTNldjbXNyRGM1Y1",
-   "source": "The Presidency·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdGo4THB6bnJmWWdUU0diMUc5WklRVjlaLXJyaXpMMFRLX09JT05JN040c202MjZVeHVsbTc0TWk2UjBWZmc2RktVODA2Y0NQQlVsLWR4NnFJd05CY3N0bXJTRFhTMnFkZkV5VHZUMHJwaGZTNldjbXNyRGM1Y1Y2S2dYV0xWMmN6M1laWlJ3clJsbVc0MGpzVWNTOWpKaTY5R3ZRZXlKZHRXVHUtZmtkOXBoR2ZZSW9ac0NuMnFwbXpzLU8zVVJjag?oc=5",
-   "date": "Sat, 14 Nov 2026 12:00:00 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Jensen Huang exit: new risk for Africa's 12,000-GPU plan",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTFBrMzROZkxVUkZjb0Rubmc3azl1ZHQ2ZFVFLXROVk1MOHd6TXdrRDZPUWM5dVQ0dmt1R1czQUdFRHVaSktaTzd0S0FGSy15ajE3Tmx2LUpIMUZxWW44SzJULThVd3RaWlR1anJnYmJsUlg3UQ?oc=5\" target=\"_",
-   "source": "DNE Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBrMzROZkxVUkZjb0Rubmc3azl1ZHQ2ZFVFLXROVk1MOHd6TXdrRDZPUWM5dVQ0dmt1R1czQUdFRHVaSktaTzd0S0FGSy15ajE3Tmx2LUpIMUZxWW44SzJULThVd3RaWlR1anJnYmJsUlg3UQ?oc=5",
-   "date": "Fri, 13 Nov 2026 22:43:00 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
    "title": "Black Friday 2026 shopping guide: Sales dates, where to shop and what to know",
    "brief": "Black Friday 2026 brings major sales across local and international stores, but knowing where to shop and how to spot genuine discounts can help you make smarter purchases.",
    "source": "Condia",
@@ -421,26 +421,6 @@
    "date": "Fri, 13 Nov 2026 18:08:55 GMT",
    "country": "🇿🇦 南非",
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Africa’s AI Startups Face A Cost Trap As Expenses Dwarf Earnings",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE5CdS1XSnJOV25QcmZpT251dldpbGY5dXU3cXJjRHd3T3MwdWJTMExVZ2pqVkJWbGFMYmVOR0QyTmxnSkpLQ1Y3ZUQ3c1ZwQkhpVjlnRFV3QzVNZ215ckluUXdyTEt1a1RPU3o1dUkxYlhfNzNrUjRhWXRR?oc=5\"",
-   "source": "WeeTracker·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5CdS1XSnJOV25QcmZpT251dldpbGY5dXU3cXJjRHd3T3MwdWJTMExVZ2pqVkJWbGFMYmVOR0QyTmxnSkpLQ1Y3ZUQ3c1ZwQkhpVjlnRFV3QzVNZ215ckluUXdyTEt1a1RPU3o1dUkxYlhfNzNrUjRhWXRR?oc=5",
-   "date": "Fri, 13 Nov 2026 17:59:39 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "IFC Invests in Ethiopian Fintech Kifiya to Expand Agricultural Financing Across Africa",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPaTZhS1VaTnlOZ1A5RWpLYThSdmhHZWQ0WDJNamhWNkVEcU9lVzhvZXF3dXNvdGlZVWRJYkJmNWJrRndqOGhkNlB0NGsybG4zXzBMLVN5dHh5R3Jqck9aNlR3VDRacWdCeUs0dXdfbHd4U2FHeDhheEZKVURsQn",
-   "source": "Tech In Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaTZhS1VaTnlOZ1A5RWpLYThSdmhHZWQ0WDJNamhWNkVEcU9lVzhvZXF3dXNvdGlZVWRJYkJmNWJrRndqOGhkNlB0NGsybG4zXzBMLVN5dHh5R3Jqck9aNlR3VDRacWdCeUs0dXdfbHd4U2FHeDhheEZKVURsQnhoWDgxSlBWbDNiNzhwcWlFZjI5Q3FZMk1ITkNWcFA4TnBTdVZCd0QwME03Nnk0bW5HWjF1REtFRm8?oc=5",
-   "date": "Fri, 13 Nov 2026 17:52:49 GMT",
-   "country": "🇪🇹 埃塞俄比亚",
-   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -474,16 +454,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Alice Huang held stakes in firms linked to banned Chinese tech giant Huawei: report",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPeUJsbk1mSXBBQ0NVemlZTlhxV05SZHdjVHJXcmo0NVVTNGFHYW94Y0tLaGxxUHRSLWRZd3JLUkR2YzdmVHRMdnVGdDNBOWQ5cS1SOFBWZ3ZER0dWWVgwN0QzY1BYNERiY1V5SzRPT2dldFAxLUhfem1OdENrMG",
-   "source": "Invezz·聚合",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeUJsbk1mSXBBQ0NVemlZTlhxV05SZHdjVHJXcmo0NVVTNGFHYW94Y0tLaGxxUHRSLWRZd3JLUkR2YzdmVHRMdnVGdDNBOWQ5cS1SOFBWZ3ZER0dWWVgwN0QzY1BYNERiY1V5SzRPT2dldFAxLUhfem1OdENrMGpORW5YdDhmVUFjbFMzdTFtUW9Xc1ZZQTlnTUVVZnRvQjdXT0IwV1liYVVvdlBWaDR4WGU3UGo4NmMzak9uaTZn?oc=5",
-   "date": "Fri, 13 Nov 2026 14:18:17 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "SASSETA invests R15m in Northlink College digitalisation hub",
    "brief": "The facility is intended to give students access to technology-enabled learning and training in fields including cyber security, cloud computing and AI.",
    "source": "ITWeb Africa",
@@ -492,16 +462,6 @@
    "country": null,
    "is_ai": true,
    "is_aiinfra": false
-  },
-  {
-   "title": "OADC’s Ayotunde Coker on Africa’s AI-Ready Data Centres",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOajkyQmNxZEVOVHRteDZ1MnZwMUFPamltQlR2b1g4dzBxWFptTTJDN05YSXRPZng2bDEtam1tNlBKeTJfNUh0LUIybGxfQ3JTWVk2Z2dKSVR3YzRmRHp6SExnanpjUWlzNFc4am1hOGM5dmhuNlVFSFpZMUxvaH",
-   "source": "Data Centre Magazine·聚合",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOajkyQmNxZEVOVHRteDZ1MnZwMUFPamltQlR2b1g4dzBxWFptTTJDN05YSXRPZng2bDEtam1tNlBKeTJfNUh0LUIybGxfQ3JTWVk2Z2dKSVR3YzRmRHp6SExnanpjUWlzNFc4am1hOGM5dmhuNlVFSFpZMUxvaHlfQkttbXE3b25fUy1sVTJ6cXc1YlRJNW14SA?oc=5",
-   "date": "Fri, 13 Nov 2026 11:01:23 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": true
   },
   {
    "title": "SA plans new centre to address SA’s digital skills and innovation gap",
@@ -621,6 +581,46 @@
    "date": "Wed, 11 Nov 2026 19:58:57 +0000",
    "country": "🇿🇦 南非",
    "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "T2 Mobile growth has stalled since its 2025 rebrand",
+   "brief": "T2 Mobile's post-rebrand subscriber recovery has stalled, with NCC data showing no net additions between July and September 2026 as competitors continued to expand.",
+   "source": "Condia",
+   "url": "https://thecondia.com/t2-mobile-subscriber-growth-stalls/",
+   "date": "Wed, 11 Nov 2026 14:02:22 +0000",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "TCL Donates Ultra-Low-Power Display System to the Youth Olympic Village, Bringing Advanced Display Technology to Everyday Use",
+   "brief": "TCL, a Worldwide Olympic and Paralympic Partner, donated an ultra-low-power display system powered by solar energy to Université Amadou Mahtar Mbow (UAM) in Senegal.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/tcl-donates-ultra-low-power-display-system-to-the-youth-olympic-village-bringing-advanced-display-technology-to-everyday-use/WnpNgq21E16MVrGd",
+   "date": "Wed, 11 Nov 2026 14:04:00 +0200",
+   "country": "🇸🇳 塞内加尔",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "African AI startups are starved of funding. Enza Capital is betting $60 million on them",
+   "brief": "Enza Capital raises $21 million in the first close of its third fund to back African AI startups and address the continent's venture funding gap.",
+   "source": "Condia",
+   "url": "https://thecondia.com/enza-capital-african-ai-fund/",
+   "date": "Wed, 11 Nov 2026 10:23:16 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Marseille 2026: Can the Mediterranean build its own future in artificial intelligence?",
+   "brief": "",
+   "source": "African Business",
+   "url": "https://african.business/2026/11/long-reads/marseille-2026-can-the-mediterranean-build-its-own-future-in-artificial-intelligence",
+   "date": "Wed, 11 Nov 2026 09:59:34 +0000",
+   "country": null,
+   "is_ai": true,
    "is_aiinfra": false
   }
  ]
