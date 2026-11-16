@@ -1,6 +1,6 @@
 {
  "asof": "2026-11-17",
- "fetched_at": "2026-11-17T05:03+08:00",
+ "fetched_at": "2026-11-17T07:04+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -14,13 +14,13 @@
    "Club of Mozambique": 1,
    "Zimbabwe Situation": 0,
    "African Business": 4,
-   "非洲科技·聚合": 0,
-   "中非科技·聚合": 13
+   "非洲科技·聚合": 11,
+   "中非科技·聚合": 0
   },
   "total": 60,
-  "ai_flagged": 18,
+  "ai_flagged": 21,
   "aiinfra_flagged": 2,
-  "countries": 7
+  "countries": 9
  },
  "items": [
   {
@@ -60,6 +60,16 @@
    "url": "https://techafricanews.com/2026/11/16/ericsson-and-gust-partner-to-advance-trusted-ai-research-in-kuwait/",
    "date": "Mon, 16 Nov 2026 15:10:12 +0000",
    "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Zimbabwean billionaire’s Cassava taps Silicon Valley’s Graphiant to secure African networks as it deploys 12,000 Nvidia GPUs across 5 countries in $720m expansion",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaU1abnJoOVlSbEIxNGhvOHZvSGdLcmpUTmhDa3RyeDVnSHFfRmkxdG93XzNuMm5Pb2t2WGZSMjU0aERtYUgwWnVHYzNoakdWLTd3VmlpanlwemFETGJQUWVmTnZYM3lHYWxHd3RwOUpselkxRXl0ZnJyaGx6OT",
+   "source": "Business Insider Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaU1abnJoOVlSbEIxNGhvOHZvSGdLcmpUTmhDa3RyeDVnSHFfRmkxdG93XzNuMm5Pb2t2WGZSMjU0aERtYUgwWnVHYzNoakdWLTd3VmlpanlwemFETGJQUWVmTnZYM3lHYWxHd3RwOUpselkxRXl0ZnJyaGx6OTJzVzBKWjZTVzBtcnlYTHNLdGstWFZqR3FHcG5WVmduTUxLaks4aEdJTE8ycnp0LXh0UDNhVnBrNDJ1Rm9UVzdYTXBJN3Z2VFVnbUVRdXRCRDN5TE84?oc=5",
+   "date": "Mon, 16 Nov 2026 15:08:38 GMT",
+   "country": "🇿🇼 津巴布韦",
    "is_ai": true,
    "is_aiinfra": false
   },
@@ -354,12 +364,32 @@
    "is_aiinfra": false
   },
   {
+   "title": "South Africa Telecoms at a Crossroads: Addressing Performance and Adoption Challenges",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFBmWGxmNG9kM0ZlZm5Va0NmMDlSRV9Kc2RmWHUxVmp3WnpHVHhlNlBRdU0zZDlhMHNNSWVpakphZi1BRWRHMVZpM2hYT2pqaUlCc25zYWV3Q0tyUHlBT09fU1JQTXN0bkNYdENFbXFB?oc=5\" target=\"_blank\"",
+   "source": "Ookla·聚合",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBmWGxmNG9kM0ZlZm5Va0NmMDlSRV9Kc2RmWHUxVmp3WnpHVHhlNlBRdU0zZDlhMHNNSWVpakphZi1BRWRHMVZpM2hYT2pqaUlCc25zYWV3Q0tyUHlBT09fU1JQTXN0bkNYdENFbXFB?oc=5",
+   "date": "Mon, 16 Nov 2026 05:19:23 GMT",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "Valu’s revenue climbs 36% to $99.6 million as portfolio sales drive earnings growth",
    "brief": "Valu recorded $99.6 million in gross revenue in the first nine months of 2026, up 36% year-on-year. Portfolio sale gains contributed $35.38 million, making them the company's largest individual revenue source.",
    "source": "Condia",
    "url": "https://thecondia.com/valu-revenue-growth-9m-2026/",
    "date": "Mon, 16 Nov 2026 05:00:00 +0000",
    "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Nasdaq South Africa Technology (^NQZA10T) charts, data and news",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE0xdDhUN1pJSnBHSU9TVzJ3QWhqaVBKejVVUGFWUW82U0JieG5ETWdGRmVYOEhkMGtRRktzTkxYeVF4R2xaS3JucU03bGdpWkpRbzgtVk96al92QQ?oc=5\" target=\"_blank\">Nasdaq South Africa Techn",
+   "source": "Yahoo Finance UK·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0xdDhUN1pJSnBHSU9TVzJ3QWhqaVBKejVVUGFWUW82U0JieG5ETWdGRmVYOEhkMGtRRktzTkxYeVF4R2xaS3JucU03bGdpWkpRbzgtVk96al92QQ?oc=5",
+   "date": "Sun, 15 Nov 2026 21:48:30 GMT",
+   "country": "🇿🇦 南非",
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -374,26 +404,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "(Hello Africa) Chinese technology empowers Kenya's electric motorcycle push",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE05QU92dUMtbkVqM2NwcW5yRE1obU0xX1czYzZUMjh5SEhjQ3Fta1JjWkJDYmJ3VHFyUk9uY0F6R3ZjWHlRWmVqZGZGT181ZnZlZ3N4SngzT1NpVFR2dFQwenpGbFUtbjFrd29SYzdzaEF3V2NwUlA5LVJDVWI?oc",
-   "source": "Xinhua·聚合",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE05QU92dUMtbkVqM2NwcW5yRE1obU0xX1czYzZUMjh5SEhjQ3Fta1JjWkJDYmJ3VHFyUk9uY0F6R3ZjWHlRWmVqZGZGT181ZnZlZ3N4SngzT1NpVFR2dFQwenpGbFUtbjFrd29SYzdzaEF3V2NwUlA5LVJDVWI?oc=5",
-   "date": "Sun, 15 Nov 2026 09:41:15 GMT",
-   "country": "🇰🇪 肯尼亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Huawei Enjoy 100 Pro Max beats iPhone 17 Pro in China",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFA3WDBaMDJwZ2x2Y2w1U2dNNUwtMEZwWGo1Q2FvYTItR01yaW5tNUl2X0hLdHRDbnFKU2ZmYnd5bDNnbGU2aFgxY3FVMXhqVXdRbnJDYjNmb0VHa1ZMWDh4UjBFemp1b2h2ODZQUGhSMGs?oc=5\" target=\"_bla",
-   "source": "Kursiv Media Узбекистан·聚合",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3WDBaMDJwZ2x2Y2w1U2dNNUwtMEZwWGo1Q2FvYTItR01yaW5tNUl2X0hLdHRDbnFKU2ZmYnd5bDNnbGU2aFgxY3FVMXhqVXdRbnJDYjNmb0VHa1ZMWDh4UjBFemp1b2h2ODZQUGhSMGs?oc=5",
-   "date": "Sun, 15 Nov 2026 06:49:50 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "How AyaHQ turned a failed startup into a founder-building business",
    "brief": "AyaHQ has been a stablecoin payments product, a remote-jobs marketplace, a training programme, a founder programme, and the operator of physical residencies in two countries.",
    "source": "TechCabal",
@@ -401,6 +411,26 @@
    "date": "Sat, 14 Nov 2026 12:00:20 +0000",
    "country": null,
    "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "President Ramaphosa arrives in California for high-level artificial intelligence learning visit to Silicon Valley",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdGo4THB6bnJmWWdUU0diMUc5WklRVjlaLXJyaXpMMFRLX09JT05JN040c202MjZVeHVsbTc0TWk2UjBWZmc2RktVODA2Y0NQQlVsLWR4NnFJd05CY3N0bXJTRFhTMnFkZkV5VHZUMHJwaGZTNldjbXNyRGM1Y1",
+   "source": "The Presidency·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdGo4THB6bnJmWWdUU0diMUc5WklRVjlaLXJyaXpMMFRLX09JT05JN040c202MjZVeHVsbTc0TWk2UjBWZmc2RktVODA2Y0NQQlVsLWR4NnFJd05CY3N0bXJTRFhTMnFkZkV5VHZUMHJwaGZTNldjbXNyRGM1Y1Y2S2dYV0xWMmN6M1laWlJ3clJsbVc0MGpzVWNTOWpKaTY5R3ZRZXlKZHRXVHUtZmtkOXBoR2ZZSW9ac0NuMnFwbXpzLU8zVVJjag?oc=5",
+   "date": "Sat, 14 Nov 2026 12:00:00 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Jensen Huang exit: new risk for Africa's 12,000-GPU plan",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTFBrMzROZkxVUkZjb0Rubmc3azl1ZHQ2ZFVFLXROVk1MOHd6TXdrRDZPUWM5dVQ0dmt1R1czQUdFRHVaSktaTzd0S0FGSy15ajE3Tmx2LUpIMUZxWW44SzJULThVd3RaWlR1anJnYmJsUlg3UQ?oc=5\" target=\"_",
+   "source": "DNE Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBrMzROZkxVUkZjb0Rubmc3azl1ZHQ2ZFVFLXROVk1MOHd6TXdrRDZPUWM5dVQ0dmt1R1czQUdFRHVaSktaTzd0S0FGSy15ajE3Tmx2LUpIMUZxWW44SzJULThVd3RaWlR1anJnYmJsUlg3UQ?oc=5",
+   "date": "Fri, 13 Nov 2026 22:43:00 GMT",
+   "country": null,
+   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -414,13 +444,23 @@
    "is_aiinfra": false
   },
   {
-   "title": "South Africa–China AI partnership could help Africa shape its digital future",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxNbm02ZEdVanBxTVp5aExsYk1QdGE1RUxmeFhHbVdVZng0ODgwcjJ0eGlBYVU0SG1HekJURTZ6SURYajUzRjRHZnNjMXpXWW5HSzlRSmo4a25Hc1dsTzgyUUh6VFFxNE1mOTFLQ0o2aXdhTktYN24tSWNsVFk4ZV",
-   "source": "BLiTZ - Fears None But God·聚合",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbm02ZEdVanBxTVp5aExsYk1QdGE1RUxmeFhHbVdVZng0ODgwcjJ0eGlBYVU0SG1HekJURTZ6SURYajUzRjRHZnNjMXpXWW5HSzlRSmo4a25Hc1dsTzgyUUh6VFFxNE1mOTFLQ0o2aXdhTktYN24tSWNsVFk4ZVFjQnZaaEktMmlNcnI3Zmx2bmhzR1JzSmhaYUkzME5Jb3F4aWNiWVIyUnZ0VFFIRnZwS19n?oc=5",
-   "date": "Fri, 13 Nov 2026 18:08:55 GMT",
-   "country": "🇿🇦 南非",
+   "title": "Africa’s AI Startups Face A Cost Trap As Expenses Dwarf Earnings",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE5CdS1XSnJOV25QcmZpT251dldpbGY5dXU3cXJjRHd3T3MwdWJTMExVZ2pqVkJWbGFMYmVOR0QyTmxnSkpLQ1Y3ZUQ3c1ZwQkhpVjlnRFV3QzVNZ215ckluUXdyTEt1a1RPU3o1dUkxYlhfNzNrUjRhWXRR?oc=5\"",
+   "source": "WeeTracker·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5CdS1XSnJOV25QcmZpT251dldpbGY5dXU3cXJjRHd3T3MwdWJTMExVZ2pqVkJWbGFMYmVOR0QyTmxnSkpLQ1Y3ZUQ3c1ZwQkhpVjlnRFV3QzVNZ215ckluUXdyTEt1a1RPU3o1dUkxYlhfNzNrUjRhWXRR?oc=5",
+   "date": "Fri, 13 Nov 2026 17:59:39 GMT",
+   "country": null,
    "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "IFC Invests in Ethiopian Fintech Kifiya to Expand Agricultural Financing Across Africa",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPaTZhS1VaTnlOZ1A5RWpLYThSdmhHZWQ0WDJNamhWNkVEcU9lVzhvZXF3dXNvdGlZVWRJYkJmNWJrRndqOGhkNlB0NGsybG4zXzBMLVN5dHh5R3Jqck9aNlR3VDRacWdCeUs0dXdfbHd4U2FHeDhheEZKVURsQn",
+   "source": "Tech In Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaTZhS1VaTnlOZ1A5RWpLYThSdmhHZWQ0WDJNamhWNkVEcU9lVzhvZXF3dXNvdGlZVWRJYkJmNWJrRndqOGhkNlB0NGsybG4zXzBMLVN5dHh5R3Jqck9aNlR3VDRacWdCeUs0dXdfbHd4U2FHeDhheEZKVURsQnhoWDgxSlBWbDNiNzhwcWlFZjI5Q3FZMk1ITkNWcFA4TnBTdVZCd0QwME03Nnk0bW5HWjF1REtFRm8?oc=5",
+   "date": "Fri, 13 Nov 2026 17:52:49 GMT",
+   "country": "🇪🇹 埃塞俄比亚",
+   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -464,24 +504,14 @@
    "is_aiinfra": false
   },
   {
-   "title": "SA plans new centre to address SA’s digital skills and innovation gap",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQQjNmMTRRZHQ4N2ZyMkQxNlkyeHd4TDJZaGxodTNZUTYzeHJXemVYUGFWVXJveTZ6dF9ETGRvQlh3TzhKbDl0QWdnOGxBWXJSNnBmNlBUY2JKZk9kbHVjZzRLWTRKNlR5RVV5WWNwVlJwOFBBdGhObFZRd0Z5YW",
-   "source": "SABC News·聚合",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQjNmMTRRZHQ4N2ZyMkQxNlkyeHd4TDJZaGxodTNZUTYzeHJXemVYUGFWVXJveTZ6dF9ETGRvQlh3TzhKbDl0QWdnOGxBWXJSNnBmNlBUY2JKZk9kbHVjZzRLWTRKNlR5RVV5WWNwVlJwOFBBdGhObFZRd0Z5YWwzQXI1ZXUyVFk1emZBV2w0ZldKT29xMXNZbmRBUnNMSlpxU0NiMjhn?oc=5",
-   "date": "Fri, 13 Nov 2026 08:29:37 GMT",
+   "title": "OADC’s Ayotunde Coker on Africa’s AI-Ready Data Centres",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOajkyQmNxZEVOVHRteDZ1MnZwMUFPamltQlR2b1g4dzBxWFptTTJDN05YSXRPZng2bDEtam1tNlBKeTJfNUh0LUIybGxfQ3JTWVk2Z2dKSVR3YzRmRHp6SExnanpjUWlzNFc4am1hOGM5dmhuNlVFSFpZMUxvaH",
+   "source": "Data Centre Magazine·聚合",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOajkyQmNxZEVOVHRteDZ1MnZwMUFPamltQlR2b1g4dzBxWFptTTJDN05YSXRPZng2bDEtam1tNlBKeTJfNUh0LUIybGxfQ3JTWVk2Z2dKSVR3YzRmRHp6SExnanpjUWlzNFc4am1hOGM5dmhuNlVFSFpZMUxvaHlfQkttbXE3b25fUy1sVTJ6cXc1YlRJNW14SA?oc=5",
+   "date": "Fri, 13 Nov 2026 11:01:23 GMT",
    "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "China Unicom and Huawei Build the Industry's First Dual Ten-Gigabit Smart Thermal Power Private Network",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1aUHFzRU0xRmZGeU5IVWlxMXZNZm90X2FRTjdUMThod3pmSUdpNEhXV2FoM0NqTDcxZlhLNkFGTEItb0hmdFlCWGFYNGZIb1JlNjBfZTFMUjZ0UnpjWnhQbXoyNndMdVVJRHhWTQ?oc=5\" target=\"_blank\">C",
-   "source": "Huawei·聚合",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1aUHFzRU0xRmZGeU5IVWlxMXZNZm90X2FRTjdUMThod3pmSUdpNEhXV2FoM0NqTDcxZlhLNkFGTEItb0hmdFlCWGFYNGZIb1JlNjBfZTFMUjZ0UnpjWnhQbXoyNndMdVVJRHhWTQ?oc=5",
-   "date": "Fri, 13 Nov 2026 08:12:54 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
+   "is_ai": true,
+   "is_aiinfra": true
   },
   {
    "title": "The three fates of AI: Convergent, divergent, deviant",
@@ -494,32 +524,12 @@
    "is_aiinfra": false
   },
   {
-   "title": "Alice Huang had stake in China data centre serving Huawei, says report",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxOZ3Z1RldPZDBNNzJmXy1jYVJDMjljN1hxMjFFWUgzaFFVNkhaWGhIWlVUQy1hLU43bWl1dlNqRzBmdVRYTFVTNm5UMjVWNXVOTlNtSDFhYXFDTTM1NXc5TVFDT01GMk9ZU2VCMlhLa2tWN1dZQXJheXUwbWNlR2",
-   "source": "Business Standard·聚合",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZ3Z1RldPZDBNNzJmXy1jYVJDMjljN1hxMjFFWUgzaFFVNkhaWGhIWlVUQy1hLU43bWl1dlNqRzBmdVRYTFVTNm5UMjVWNXVOTlNtSDFhYXFDTTM1NXc5TVFDT01GMk9ZU2VCMlhLa2tWN1dZQXJheXUwbWNlR2lOZ1ZqSTVnSVJlLVJKeU04TXU1ZEtiQktpOHRfMV9peUJrZDJGM2cwOHZoY1lGeFE3U1IyUm1ueWtGRUJuem9oUE8tQlNTYUlQYlVWQXNFZTjSAdQBQVVfeXFMTnBmU3kwQ0Y5YzdTTnVuUFFwUVNnLWRJVXNVbDlUTk9NU0tEc0FhVkJGR293a3dpZUNwVEpmcDdSc0JZMlZVNFk2TGdSVEgxV3FrZ3pBYXh3NGN2WTVzc2J1eDdTUWdOdE1PRUZtUGZPOUNHc2RTV3hNWWRpM1NrS1Jyc3ktam41eE4xVW5GSjBIeFZVRlNSNUdFb0VhWUw5VVVmYVozYXpVMERBT3lKZXVkVmRHbjNnZmFISTBTSGhKMnp3bTMwQ3JuSm45T3JFZ29XM3o?oc=5",
-   "date": "Fri, 13 Nov 2026 06:39:09 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": true
-  },
-  {
    "title": "Nvidia without Jensen Huang: What his exit means for Nigerian investors",
    "brief": "Nigerian investors who bought Nvidia as a hedge against naira depreciation are reassessing their positions after Jensen Huang’s resignation. Investors and analysts disagree on whether the company can sustain its value wi",
    "source": "Condia",
    "url": "https://thecondia.com/jensen-huang-nvidia-resignation-nigerian-investors/",
    "date": "Thu, 12 Nov 2026 16:33:19 +0000",
    "country": "🇳🇬 尼日利亚",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "South Africa And China Widen Cooperation In Artificial Intelligence",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOdXY4dkNCdlJ6Z0JfX01pTXFabUdleExDNTdsSEc2bFlLdm1yNENMeDR2dmtWaW1tZzM3TjdjR3VvbWZNMmpZeVJENlBsVXFUbDdTanFTTGV3QkJicHhpMkpqWlFFakZicVBtZHcxaXBwM1BSR2FoTmZDZzNpQU",
-   "source": "The Bulrushes·聚合",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdXY4dkNCdlJ6Z0JfX01pTXFabUdleExDNTdsSEc2bFlLdm1yNENMeDR2dmtWaW1tZzM3TjdjR3VvbWZNMmpZeVJENlBsVXFUbDdTanFTTGV3QkJicHhpMkpqWlFFakZicVBtZHcxaXBwM1BSR2FoTmZDZzNpQUI5R0R1Z1dJd00yT1ZKZzg2YTVnR2V0Qi1WRDVqeFIyc1NscmpBczF3aw?oc=5",
-   "date": "Thu, 12 Nov 2026 16:25:37 GMT",
-   "country": "🇿🇦 南非",
    "is_ai": true,
    "is_aiinfra": false
   },
@@ -564,16 +574,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Huawei",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE9aemtGNERCNVlHejdjbzR5VEdoazgyQWFTbF9sclFkbC1VaHJqVVJYZWJ5QkRJQkFVZHh3U2xJdGRyZkEzOUVrTEFYaGtyNUxo?oc=5\" target=\"_blank\">Huawei</a>&nbsp;&nbsp;<font color=\"#6f6",
-   "source": "Britannica·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9aemtGNERCNVlHejdjbzR5VEdoazgyQWFTbF9sclFkbC1VaHJqVVJYZWJ5QkRJQkFVZHh3U2xJdGRyZkEzOUVrTEFYaGtyNUxo?oc=5",
-   "date": "Thu, 12 Nov 2026 08:00:00 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "South Africa’s 30% ownership rule under fire as Sakeliga launches legal challenge against ICASA",
    "brief": "Business group Sakeliga wants a court to set aside ICASA’s May 2026 decision. It also wants the state to offer equity-equivalent alternatives to the 30% ownership requirement.",
    "source": "Condia",
@@ -604,21 +604,21 @@
    "is_aiinfra": false
   },
   {
-   "title": "African AI startups are starved of funding. Enza Capital is betting $60 million on them",
-   "brief": "Enza Capital raises $21 million in the first close of its third fund to back African AI startups and address the continent's venture funding gap.",
-   "source": "Condia",
-   "url": "https://thecondia.com/enza-capital-african-ai-fund/",
-   "date": "Wed, 11 Nov 2026 10:23:16 +0000",
+   "title": "OpenAI, Anthropic Bring AI Deeper Into Cloud Marketplaces",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOQ1pSZUJLYmRTbzJuTzJnYWh1eFEwRWswVlYyS1N6dDR4TWlBY2lrR2FMNVNMcEEzWFJsd3hOTnRjRy0zcXJJUmxhYnY3Sk9Odl9Hdnk4bFBQVlJXLXFCWDJYeGx2eVU1bU9ZakVaZjVWLXlnZDBLNzRVaDZXen",
+   "source": "CIO Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQ1pSZUJLYmRTbzJuTzJnYWh1eFEwRWswVlYyS1N6dDR4TWlBY2lrR2FMNVNMcEEzWFJsd3hOTnRjRy0zcXJJUmxhYnY3Sk9Odl9Hdnk4bFBQVlJXLXFCWDJYeGx2eVU1bU9ZakVaZjVWLXlnZDBLNzRVaDZXenc3RUM0RjA?oc=5",
+   "date": "Wed, 11 Nov 2026 11:50:29 GMT",
    "country": null,
    "is_ai": true,
    "is_aiinfra": false
   },
   {
-   "title": "Marseille 2026: Can the Mediterranean build its own future in artificial intelligence?",
-   "brief": "",
-   "source": "African Business",
-   "url": "https://african.business/2026/11/long-reads/marseille-2026-can-the-mediterranean-build-its-own-future-in-artificial-intelligence",
-   "date": "Wed, 11 Nov 2026 09:59:34 +0000",
+   "title": "African AI startups are starved of funding. Enza Capital is betting $60 million on them",
+   "brief": "Enza Capital raises $21 million in the first close of its third fund to back African AI startups and address the continent's venture funding gap.",
+   "source": "Condia",
+   "url": "https://thecondia.com/enza-capital-african-ai-fund/",
+   "date": "Wed, 11 Nov 2026 10:23:16 +0000",
    "country": null,
    "is_ai": true,
    "is_aiinfra": false
