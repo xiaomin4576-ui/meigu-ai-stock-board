@@ -1,5 +1,5 @@
 {
-  "asof": "2026-11-09",
+  "asof": "2026-11-16",
   "strategy": "current_tiered",
   "rule": "上升趋势(>MA200)回踩至结构支撑(强势档锚MA20/破位档锚MA50)入场·分档止损(强势-6%/破位-10%)·目标按R:R2.5反推·持有≤270日·扣往返成本0.2%·跳空穿止损按开盘成交",
   "universe": [
@@ -26,16 +26,16 @@
   ],
   "lookback": "5y",
   "horizon_days": 270,
-  "signals": 629,
+  "signals": 601,
   "per_stock_signals": {
     "NVDA": 39,
     "AVGO": 41,
-    "TSM": 40,
+    "TSM": 41,
     "MU": 34,
     "MRVL": 29,
-    "ANET": 42,
+    "ANET": 43,
     "CRDO": 33,
-    "COHR": 30,
+    "COHR": "数据不足",
     "VRT": 35,
     "600522.SS": 24,
     "688981.SS": 30,
@@ -52,15 +52,15 @@
   "win_rate_pct": 39,
   "win_rate_ci95": [
     35,
-    42
+    43
   ],
   "stopped_pct": 61,
   "timeout_pct": 0,
-  "avg_trade_return_pct": 2.0,
-  "realized_rr": 2.34,
-  "per_trade_sharpe": 0.17,
+  "avg_trade_return_pct": 2.1,
+  "realized_rr": 2.37,
+  "per_trade_sharpe": 0.18,
   "max_consecutive_losses": 12,
-  "gap_slippage_trades": 53,
+  "gap_slippage_trades": 48,
   "tx_cost_pct": 0.2,
   "per_year_win_rate": {
     "2022": {
@@ -68,20 +68,20 @@
       "win_rate": 13
     },
     "2023": {
-      "n": 140,
-      "win_rate": 41
+      "n": 136,
+      "win_rate": 42
     },
     "2024": {
-      "n": 162,
-      "win_rate": 40
+      "n": 151,
+      "win_rate": 41
     },
     "2025": {
-      "n": 171,
-      "win_rate": 49
+      "n": 164,
+      "win_rate": 47
     },
     "2026": {
-      "n": 133,
-      "win_rate": 27
+      "n": 127,
+      "win_rate": 26
     }
   },
   "caveat": "幸存者/牛市偏差:池为当前AI赢家,历史被美化,绝非未来更非高胜率；且本回测只测【机械规则骨架(入场/分档止损/R:R目标/持有)】,LLM逐票信号与目标价无法历史重放,不代表整套研判；A股涨跌停/T+1仅以'跳空穿止损按开盘成交'近似,规则为事前设定近似样本外但非严格walk-forward。"
