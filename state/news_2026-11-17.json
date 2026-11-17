@@ -1,13 +1,13 @@
 {
  "asof": "2026-11-17",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-11-17T17:46+08:00",
+ "generated_at": "2026-11-17T20:05+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 1,
   "cluster_label": "中东/伊朗/霍尔木兹",
   "cluster_dropped": [
-   "阿曼与伊朗商讨维护海上走廊，霍尔木兹袭击增多"
+   "伊朗与阿曼就霍尔木兹安全会谈，油轮袭击激增"
   ],
   "backfilled": 0
  },
@@ -15,18 +15,18 @@
   {
    "cat": "geo",
    "title": "伊朗威胁升级，第三艘美航母抵中东，霍尔木兹油轮遇袭",
-   "brief": "伊朗在美第三艘航母进入中东之际升级威胁，霍尔木兹海峡一艘油轮遭袭，地区紧张持续升温。",
-   "chain": "霍尔木兹风险溢价上升→美股能源与航运板块波动、风险偏好受压→A股算力链情绪受抑",
+   "brief": "伊朗与美方对峙升级，第三艘美国航母抵中东，霍尔木兹海峡一油轮遭袭，地区紧张加剧。",
+   "chain": "中东冲突升级→避险情绪升温压制美股风险偏好→A股算力链短期承压",
    "impact": 9,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/17/iran-war-trump-hormuz-oil-.html",
-   "ts": "Tue, 17 Nov 2026 05:51:13 GMT"
+   "ts": "Tue, 17 Nov 2026 11:22:54 GMT"
   },
   {
    "cat": "oil",
    "title": "全球供应过剩担忧盖过霍尔木兹袭击，油价下滑",
-   "brief": "尽管霍尔木兹袭击不断，市场对四季度供应过剩的预期主导，油价承压走低。",
-   "chain": "过剩预期压过地缘溢价→Brent/WTI走弱→莫桑比克LNG项目经济性与东非油气收益承压",
+   "brief": "尽管霍尔木兹油轮遇袭，全球石油供应过剩预期主导市场，油价承压下行。",
+   "chain": "供应过剩预期→Brent/WTI走弱→东非油气项目售价与现金流承压",
    "impact": 8,
    "source": "OilPrice",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-as-Global-Glut-Fears-Eclipse-Hormuz-Attacks.html",
@@ -35,8 +35,8 @@
   {
    "cat": "macro",
    "title": "金价跌至一年低点，美债收益率与美元施压",
-   "brief": "受美债收益率上行与美元走强打压，金价跌至一年低点，料创2015年以来最差年度表现。",
-   "chain": "实际利率与美元走强主导→压低美股AI高久期估值分母、风险偏好承压→A股算力链情绪偏弱",
+   "brief": "受美债收益率上行与美元走强压制，金价跌至一年低点，料创2015年来最差年度表现。",
+   "chain": "实际利率上行+美元走强→压制美股AI高久期估值分母→A股算力链情绪偏空",
    "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVkNEMWt0MEpVV2U4c0tCZEQ0N3FJRnBMWEFJRktVNVpBNGZ4RWFjVXA0TnR0VE8yam5OenZaaF9KWVhuc3RCQkZXWGlwb0pPRElEM0JoU0Rsb3BpX2ZTUjBLUG52SUM1V2RkcHRKLVdLR1ZmeXFISlplcTRQU0xJMzZHcFBFbUZPVWtYeGpqbWxKU1gtQjMxZXBMZU5rdldKOTRaWXpNSkZqd3MwajRHUzVvSVI2QTBOb1dJMGc3U3VzdTFP?oc=5",
@@ -44,143 +44,133 @@
   },
   {
    "cat": "tech",
-   "title": "英伟达财报前科技股走弱，股指下滑",
-   "brief": "英伟达财报公布前科技板块疲软拖累大盘，投资者观望情绪浓厚。",
-   "chain": "AI龙头财报前避险→美股科技/半导体承压→A股算力链跟随波动",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbHY5U3ZMUmhWeEViMkJTbW9ObHlQYWRWbmdxWDhXMUdaWFRvLVdRY01oaTJJb3lmOFBiaWpQMEFlTFk5R2ttRnBaT18zaF9Jbk9od2Rza0cyMXJ6Z3JlalJDdG9neTVhQ3pJRG05SE9NQUYxZkFvQmQ5bnVfTi13amFNOA?oc=5",
-   "ts": "2026-11-17T01:22:00+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "英伟达警告芯片买家涉华AI接入法律风险",
-   "brief": "据消息，英伟达就中国AI接入相关法律风险向芯片买家发出警告，出口合规压力上升。",
-   "chain": "对华AI管制趋严→美股AI芯片需求预期受扰→A股算力链国产替代逻辑强化",
+   "title": "英伟达警告芯片买家涉华AI访问法律风险",
+   "brief": "据CNBC消息，英伟达就中国AI访问相关法律风险向芯片买家发出警告。",
+   "chain": "出口管制风险升温→英伟达中国营收不确定性→A股算力链国产替代逻辑强化",
    "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html",
    "ts": "Tue, 17 Nov 2026 07:07:35 GMT"
   },
   {
-   "cat": "geo",
-   "title": "中国确认习近平-特朗普-普京历史性峰会",
-   "brief": "中方确认三国领导人将举行峰会，议程聚焦贸易、地缘与安全议题。",
-   "chain": "大国峰会预期→美股风险偏好与中概情绪波动→A股算力链受中美关系预期牵引",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html",
-   "ts": "Mon, 16 Nov 2026 08:38:16 GMT"
-  },
-  {
-   "cat": "oil",
-   "title": "美原油跌至87美元，中东出口恢复",
-   "brief": "中东出口回升叠加四季度供应过剩预测，美原油回落至每桶87美元。",
-   "chain": "供应恢复→油价下行→莫桑比克油气销售价格与东非项目回报承压",
-   "impact": 7,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
-   "ts": "2026-11-16T16:06:27+00:00"
-  },
-  {
    "cat": "ai",
-   "title": "Altimeter拟在Anthropic IPO中投资50亿美元",
-   "brief": "Altimeter的Gerstner计划在Anthropic上市时投入50亿美元，AI一级市场热度延续。",
-   "chain": "AI巨额融资→美股AI板块估值支撑→A股算力链情绪偏暖",
+   "title": "Altimeter拟向Anthropic IPO投资50亿美元",
+   "brief": "Altimeter的Gerstner计划在Anthropic IPO中投资50亿美元，AI融资热度延续。",
+   "chain": "AI一级市场融资活跃→支撑美股AI估值叙事→映射A股算力/AI应用链情绪",
    "impact": 7,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/16/altimeters-brad-gerstner-investing-5-billion-in-anthropic-ipo.html",
    "ts": "Mon, 16 Nov 2026 22:01:12 GMT"
   },
   {
-   "cat": "tech",
-   "title": "英伟达风波后，美商务部瞄准中国数据中心漏洞",
-   "brief": "美商务部针对中国数据中心使用英伟达芯片的合规漏洞采取行动，管制或收紧。",
-   "chain": "出口管制收紧→美股芯片对华营收预期下调→A股算力链国产替代受益",
+   "cat": "geo",
+   "title": "乌克兰重创普京克里米亚大桥，泽连斯基称前所未有",
+   "brief": "乌克兰对克里米亚大桥实施打击并造成破坏，泽连斯基称其为前所未有行动。",
+   "chain": "俄乌冲突升级→能源与避险波动→美股风险偏好受压，A股算力链情绪扰动",
    "impact": 7,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
-   "ts": "Mon, 16 Nov 2026 21:51:43 GMT"
+   "url": "https://www.cnbc.com/2026/11/17/kerch-bridge-ukraine-russia-putin-kyiv.html",
+   "ts": "Tue, 17 Nov 2026 11:27:33 GMT"
   },
   {
    "cat": "macro",
-   "title": "美债收益率持平，投资者等待零售数据",
-   "brief": "美债收益率整体走平，市场静待零售销售数据以判断消费与利率路径。",
-   "chain": "利率观望→美股估值分母稳定→A股算力链情绪中性",
+   "title": "美债收益率持平，市场等待零售销售数据",
+   "brief": "投资者等待零售销售数据发布，美债收益率整体走平，市场观望情绪浓。",
+   "chain": "零售数据待定→利率路径预期摇摆→影响美股估值分母与A股算力链情绪",
    "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/17/treasury-yields-bonds-inflation.html",
    "ts": "Tue, 17 Nov 2026 08:23:51 GMT"
   },
   {
-   "cat": "gas",
-   "title": "日本在东盟峰会提议亚洲石油安全工作组",
-   "brief": "日本在东盟峰会提出建立亚洲石油安全机制，强化区域能源供应保障合作。",
-   "chain": "区域能源安全合作升温→亚洲LNG/油气采购格局或调整→东非对亚洲气源出口机遇受关注",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX3diS1MwWjRwVl9fRjB5d0xxUWlLWlhERlZVZnFNT0ZvMTA2cnc0RGtRZ3ppNFY5SXFEX2t2MHNxMXY0SEhFNlE1Tk8wMUo5ckt4bzdWbVJxbnhXaS1Ddk43X05LbE9qaDI2T0xaN2k2bE43RTJ1Sml4NXp6cjM5OWZxZ1VFZ1ZEeU1MX1RCV1BYR0FJMXFZZlJ6d1pEZ1pic3UwSmxjUk1GclhOM2hiLW1GOWJtUElaa2hJSg?oc=5",
-   "ts": "2026-11-17T01:35:00+00:00"
+   "cat": "oil",
+   "title": "美原油跌至87美元，中东出口恢复施压",
+   "brief": "中东出口回升叠加四季度供应过剩预期，美原油价格回落至每桶87美元。",
+   "chain": "中东出口恢复→油价下行→东非油气销售价格与项目经济性承压",
+   "impact": 7,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
+   "ts": "2026-11-16T16:06:27+00:00"
   },
   {
-   "cat": "oil",
-   "title": "超大型油轮运价自历史高位暴跌逾60%",
-   "brief": "超大型油轮运价从纪录高位回落逾60%，反映航运紧张缓解。",
-   "chain": "油轮运价回落→原油运输成本下降、油价支撑减弱→东非油气物流成本改善",
+   "cat": "gas",
+   "title": "伊拉克Khor Mor气田因无人机飞越拉响警报",
+   "brief": "消息称伊拉克Khor Mor气田因无人机飞越启动警报，气田安全受关注。",
+   "chain": "中东气田安全风险→LNG/天然气供应扰动预期→东非LNG项目相对受益",
    "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY0ZJYjdxQndHZmhXNXpBLTVhN0p2NmtoMXliTHZFeURJMU05VVpzQW16STBtZzNuMnUyelRkTzRPODgxR21pdm9YY2JIaUhPbmM2MVVDMVlPSkp5UjY1VjVkbVkzQmhmZGR5TXFiMTRuMkc1SWF5a1hVVGZQdUlFUjA0Y3Z6YnJtX1BKTkF3TXpuMXc5Nk9OMTRjTVp4eXAtanJkOA?oc=5",
-   "ts": "2026-11-16T14:53:43+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVUt5bmRUTlVDTnpuTldnMGxkYkhzTnh1eENFNHlIOGw4ZGhUTmYxdHQ1Y1B1Z20xODB0MDYzT3Vud2FnUEYzSXh0a3JYVXZva1VwelN0UzZIZzNfRXVhWnc0N3VnLXlmT1Z4Wk9hZVRKUUxEQWNQWEw0WFVnMmRkX3lDamdsbjY3Q00td2VhSWt3YmpvU25hY19XV2R3WFU4dFVuN2NKTk9JOW5CQWtqTmFCXzJ2ek4wRWZPb1YtcWtCRjQ3YTctVk9B?oc=5",
+   "ts": "2026-11-16T22:25:31+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "科技股走弱拖累美股，英伟达财报前市场承压",
+   "brief": "英伟达财报发布前科技板块走弱，美股主要股指下滑。",
+   "chain": "科技股回调→英伟达财报成焦点→A股算力链跟随波动",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbHY5U3ZMUmhWeEViMkJTbW9ObHlQYWRWbmdxWDhXMUdaWFRvLVdRY01oaTJJb3lmOFBiaWpQMEFlTFk5R2ttRnBaT18zaF9Jbk9od2Rza0cyMXJ6Z3JlalJDdG9neTVhQ3pJRG05SE9NQUYxZkFvQmQ5bnVfTi13amFNOA?oc=5",
+   "ts": "2026-11-17T01:22:00+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "特朗普支持率维持32%职业生涯低位",
+   "brief": "路透/益普索民调显示特朗普支持率维持在32%的职业生涯低位。",
+   "chain": "政治不确定性上升→政策预期扰动→美股风险偏好与A股情绪边际影响",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRUpsOFJNT0Q1TUExNXF1cUJ6b1ExaTFpTFptdnluUVRMR1RvNDFkQlpLa3ZxeUxRM0kxOEJyQVJkeTJIOHBxTjhlQ05nUmp6dVQ2emVBclZ3TTJLbERHeUpRTkIwMmFLaG1VeVA1UU91Yk5UZFFaU2dZVFFCNzY1RXNTRjFCTHhpRGhWQksxQndNNHZZT1hGX1RQMGtVS25GNGQ4T2VmOHZmSHNl?oc=5",
+   "ts": "2026-11-16T22:23:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "中国确认习特普历史性峰会，议程受关注",
+   "brief": "中国确认习近平、特朗普、普京将举行历史性峰会，市场关注议程与大国博弈走向。",
+   "chain": "大国峰会预期→中美关系阶段性缓和想象→利好美股风险偏好与A股算力链",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html",
+   "ts": "Mon, 16 Nov 2026 08:38:16 GMT"
   },
   {
    "cat": "ai",
    "title": "OpenAI与四家独立评估机构签约强化安全",
-   "brief": "OpenAI与四家独立评估方达成协议，加强模型安全评估工作。",
-   "chain": "AI安全治理推进→美股AI监管风险边际缓和→A股算力链情绪中性偏暖",
-   "impact": 6,
+   "brief": "OpenAI与四家独立评估机构达成协议，以加强公司AI安全工作。",
+   "chain": "AI治理强化→监管预期升温→影响美股AI龙头估值与A股AI应用链",
+   "impact": 5,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/16/openai-independent-ai-safety-evaluators.html",
    "ts": "Mon, 16 Nov 2026 21:54:18 GMT"
   },
   {
    "cat": "tech",
-   "title": "德意志银行股价下挫，举报人曝爱泼斯坦付款等",
-   "brief": "举报人披露爱泼斯坦相关付款、特朗普税务泄露及俄罗斯押注，德银股价大跌。",
-   "chain": "欧资银行声誉风险→美股金融板块情绪受扰→A股算力链间接影响有限",
+   "title": "美机构称2024年已对英伟达伙伴Megaspeed展开调查",
+   "brief": "美国机构表示2024年已对英伟达合作伙伴Megaspeed启动调查，涉出口合规。",
+   "chain": "出口合规调查→英伟达供应链风险→A股算力链国产替代预期升温",
    "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/17/deutsche-bank-leak-epstein-trump.html",
-   "ts": "Tue, 17 Nov 2026 09:23:40 GMT"
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/17/megaspeed-investigation-nvidia-jensen-huang.html",
+   "ts": "Tue, 17 Nov 2026 06:59:42 GMT"
   },
   {
    "cat": "macro",
-   "title": "加拿大央行行长麦克勒姆将于2027年任期结束后卸任",
-   "brief": "加拿大央行行长麦克勒姆宣布任期于2027年结束后离任，政策连续性受关注。",
-   "chain": "央行人事变动→美股利率预期边际扰动→A股算力链影响有限",
-   "impact": 5,
+   "title": "加拿大央行行长Macklem将于2027年任期结束后卸任",
+   "brief": "加拿大央行行长Macklem宣布将在2027年任期结束时卸任。",
+   "chain": "央行人事变动→加元与利率预期扰动→对美股影响有限，A股情绪中性",
+   "impact": 4,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOExHMHhYSmZUdF9OVlBnTkQ4N29jLTA4RmFPa09hdTgzMHQ0UlhYRkZmcHU3S19ZckE1MURrQU43U3FQOU9ENTdGZHZBTUZvT2hNcExZcWVPTUUzWEhtX1BvX3lpXzVXQktFMTBybkRMaTdsM3FfVFZnYTlnUVhRSGRob2paU0JMcXA1NmxKUjI0UkRGQmVSbFhuOVliZDYwbFhXZ2ZnanpBR1lmOGc?oc=5",
    "ts": "2026-11-16T17:16:38+00:00"
   },
   {
    "cat": "gas",
-   "title": "乌干达首批石油推迟至2027年中，伊朗战事拖累设备",
-   "brief": "受伊朗战事影响设备交付，乌干达首批石油投产推迟至2027年中。",
-   "chain": "东非油气投产延后→区域供应增量推迟→莫桑比克项目相对竞争格局与时间窗口变化",
+   "title": "日本提议建“亚洲IEA”保障石油供应",
+   "brief": "日本在东盟峰会提议建立亚洲能源安全机制以保护石油供应。",
+   "chain": "亚洲能源安全合作→油气供应格局预期→东非LNG长期需求叙事受益",
    "impact": 5,
    "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Uganda-Pushes-First-Oil-to-Mid-2027-as-Iran-War-Holds-Up-Equipment.html",
-   "ts": "Mon, 16 Nov 2026 17:00:00 -0600"
-  },
-  {
-   "cat": "oil",
-   "title": "伊拉克为何快速推进雪佛龙收购140亿桶超级油田",
-   "brief": "伊拉克加速推进雪佛龙对140亿桶级超级油田的收购，重塑中东产能格局。",
-   "chain": "中东产能与外资合作扩大→中期油价供应端承压→东非油气招商与竞争加剧",
-   "impact": 5,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Energy-General/Why-Iraq-Just-Fast-Tracked-Chevrons-Takeover-Of-A-14-Billion-Barrel-Supergiant.html",
-   "ts": "Mon, 16 Nov 2026 19:00:00 -0600"
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Proposes-an-Asian-IEA-to-Protect-Oil-Supplies.html",
+   "ts": "Tue, 17 Nov 2026 02:45:00 -0600"
   }
  ]
 }
