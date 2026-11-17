@@ -1,6 +1,6 @@
 {
  "asof": "2026-11-18",
- "fetched_at": "2026-11-18T00:33+08:00",
+ "fetched_at": "2026-11-18T03:53+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -11,18 +11,38 @@
    "TechAfrica News": 12,
    "Condia": 25,
    "ITWeb Africa": 25,
-   "Club of Mozambique": 1,
+   "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 4,
-   "非洲科技·聚合": 7,
+   "非洲科技·聚合": 8,
    "中非科技·聚合": 13
   },
   "total": 60,
-  "ai_flagged": 20,
+  "ai_flagged": 21,
   "aiinfra_flagged": 4,
-  "countries": 11
+  "countries": 10
  },
  "items": [
+  {
+   "title": "AI Supercharges Cybercrime in Africa",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFA1Tm5URHIxY3g5UDBSRDlsMU5ackRZeGVrTldYd190RFVVYVpONnlLMmMtZmtQdDdpYUVScFoxR0RQeDYxdXNwU0ZLTEFzc2FZc3pzTUYxT1BKNXBveHBEOWVuYTJnX1RYSE4wVmZPS29XVWY1WTBlbTlB?oc=5\"",
+   "source": "Africa Defense Forum·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA1Tm5URHIxY3g5UDBSRDlsMU5ackRZeGVrTldYd190RFVVYVpONnlLMmMtZmtQdDdpYUVScFoxR0RQeDYxdXNwU0ZLTEFzc2FZc3pzTUYxT1BKNXBveHBEOWVuYTJnX1RYSE4wVmZPS29XVWY1WTBlbTlB?oc=5",
+   "date": "Tue, 17 Nov 2026 17:59:03 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "AI chip rule: new US curbs on 5 nations and data centres",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE5GNElRYUctQl9YLUU3UkVadUI3QWYzSzA0SWhIczhTWTR6T1kzcE84SllpemJVbmdMdmZzWGJSWFJzX1oxVE1fY1NqU1A2TWRfYTFwRVd3U3BSWHNJWFl4ZV9VUk9POVg3MzVQSUJ5cDlKbDU5N1RRb1VR?oc=5\"",
+   "source": "DNE Africa·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5GNElRYUctQl9YLUU3UkVadUI3QWYzSzA0SWhIczhTWTR6T1kzcE84SllpemJVbmdMdmZzWGJSWFJzX1oxVE1fY1NqU1A2TWRfYTFwRVd3U3BSWHNJWFl4ZV9VUk9POVg3MzVQSUJ5cDlKbDU5N1RRb1VR?oc=5",
+   "date": "Tue, 17 Nov 2026 16:12:00 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": true
+  },
   {
    "title": "Benin wants to be Africa’s AI testbed. Cybersecurity is its starting point",
    "brief": "Benin wants to become a testing ground for Africa’s artificial intelligence (AI) and cybersecurity innovations. Its strategy, according to Mahuna Akplogan, Benin’s Minister of Digital Transformation and Innovation, begin",
@@ -52,16 +72,6 @@
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
-  },
-  {
-   "title": "AI chip rule: new US curbs on 5 nations and data centres",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE5GNElRYUctQl9YLUU3UkVadUI3QWYzSzA0SWhIczhTWTR6T1kzcE84SllpemJVbmdMdmZzWGJSWFJzX1oxVE1fY1NqU1A2TWRfYTFwRVd3U3BSWHNJWFl4ZV9VUk9POVg3MzVQSUJ5cDlKbDU5N1RRb1VR?oc=5\"",
-   "source": "DNE Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5GNElRYUctQl9YLUU3UkVadUI3QWYzSzA0SWhIczhTWTR6T1kzcE84SllpemJVbmdMdmZzWGJSWFJzX1oxVE1fY1NqU1A2TWRfYTFwRVd3U3BSWHNJWFl4ZV9VUk9POVg3MzVQSUJ5cDlKbDU5N1RRb1VR?oc=5",
-   "date": "Tue, 17 Nov 2026 14:08:00 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": true
   },
   {
    "title": "AfDB backs €40 million fund targeting Francophone Africa founders",
@@ -94,16 +104,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Mozambique: Almost 40,000 cyber incidents reported in 2025",
-   "brief": "Almost 40,000 cyber incidents have been reported in 2025, mainly involving computer fraud and electronic payment scams, according to Mozambique’s National Institute of Information and Communication Technologies (INTIC). ",
-   "source": "Club of Mozambique",
-   "url": "https://clubofmozambique.com/news/mozambique-almost-40000-cyber-incidents-reported-in-2025/",
-   "date": "Tue, 17 Nov 2026 12:42:19 +0000",
-   "country": "🇲🇿 莫桑比克",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Nigerian media entrepreneur Chude Jideonwo backs Storipod, becomes board chair",
    "brief": "Nigerian media entrepreneur Chude Jideonwo has backed Storipod through the FourthMainland Fund and will serve as board chair as the platform expands its African creator economy business.",
    "source": "Condia",
@@ -124,7 +124,7 @@
    "is_aiinfra": false
   },
   {
-   "title": "Nigeria is buying more from China, can fintechs fix the cost of paying for it?",
+   "title": "Nigeria is buying more from China. Can fintechs fix the cost of paying for it?",
    "brief": "China accounted for 39.27% of Nigeria’s imports in H1 2026. As trade grows, Clea is betting that stablecoin infrastructure and local payment networks can help Nigerian businesses get money to suppliers faster.",
    "source": "Condia",
    "url": "https://thecondia.com/nigeria-china-imports-fintech-payment-delays/",
@@ -434,6 +434,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "South Africa ramps up AI ambitions with major US and China technology partnerships",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxORkhZeUdZeWZEczlpRDZPbjlucFk2aE01S0dXY3VtYml2c2pSckdWRTlOZHQzQjFFNm1fUEdxT1d5TUZra0RySUtLUWFOb3AxdVNrNmFCeThqbXhxa00tQUlVLUF2ZTFVTzlIZnJwZ192Z2FwdVo2MnF0eXY4TW",
+   "source": "themercury.co.za·聚合",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORkhZeUdZeWZEczlpRDZPbjlucFk2aE01S0dXY3VtYml2c2pSckdWRTlOZHQzQjFFNm1fUEdxT1d5TUZra0RySUtLUWFOb3AxdVNrNmFCeThqbXhxa00tQUlVLUF2ZTFVTzlIZnJwZ192Z2FwdVo2MnF0eXY4TWh4eDVrR3ZydGpRNE9ySk1FOUJ1OGFid1d6ajZGVUgyMGhPMjFqSHh2UUxCV19CbGJhNk9lOTQ3d3dLb3R4YS1VbV9USWV4TzRNbUpLQl82NU9vUXc?oc=5",
+   "date": "Mon, 16 Nov 2026 18:06:25 GMT",
+   "country": "🇿🇦 南非",
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
    "title": "Paystack is making a play for Nigeria’s onchain payment infrastructure",
    "brief": "Paystack CEO Shola Akinlade has outlined how Global Stack, the company's financial infrastructure platform, will connect African payment rails to the Solana blockchain, as Paystack participates in the CBN's virtual asset",
    "source": "Condia",
@@ -504,16 +514,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "South Africa ramps up AI ambitions with major US and China technology partnerships",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRWVCNF9ud0NVdXR3bHEycFFQRkRjbmZIQUl2VmFWOTctMl92cGgzYXhGbEFUZ2dBckoxdC1TVThfWlpCMzZCQlZEOV84ZTMxQ0k0QnFraURMQmZJWElDRXExbFZfQ19QVnJuckVQdTZWZ3RDQ0lHVzZKTWllS0",
-   "source": "IOL·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRWVCNF9ud0NVdXR3bHEycFFQRkRjbmZIQUl2VmFWOTctMl92cGgzYXhGbEFUZ2dBckoxdC1TVThfWlpCMzZCQlZEOV84ZTMxQ0k0QnFraURMQmZJWElDRXExbFZfQ19QVnJuckVQdTZWZ3RDQ0lHVzZKTWllS0lOMjQyVUNnUnc5SWpCeFdCT2JieUVWZXdGbkJvd25aSzFzUlB2MzM3SXlKeWhNS0F0dzZCVHpSenFzVC1PazlTODFqZlBKTFg5Sw?oc=5",
-   "date": "Mon, 16 Nov 2026 12:19:16 GMT",
-   "country": "🇿🇦 南非",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
    "title": "With 6% of its target trained, Nigeria earmarks $3 million to fix 3MTT’s job problem",
    "brief": "When the Nigerian government launched the 3 Million Technical Talent (3MTT) programme in 2023, it sought to build a workforce that could support the country’s digital economy, fill technical skills gaps and position Nige",
    "source": "TechCabal",
@@ -574,16 +574,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "(Hello Africa) Chinese technology empowers Kenya's electric motorcycle push",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE05QU92dUMtbkVqM2NwcW5yRE1obU0xX1czYzZUMjh5SEhjQ3Fta1JjWkJDYmJ3VHFyUk9uY0F6R3ZjWHlRWmVqZGZGT181ZnZlZ3N4SngzT1NpVFR2dFQwenpGbFUtbjFrd29SYzdzaEF3V2NwUlA5LVJDVWI?oc",
-   "source": "Xinhua·聚合",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE05QU92dUMtbkVqM2NwcW5yRE1obU0xX1czYzZUMjh5SEhjQ3Fta1JjWkJDYmJ3VHFyUk9uY0F6R3ZjWHlRWmVqZGZGT181ZnZlZ3N4SngzT1NpVFR2dFQwenpGbFUtbjFrd29SYzdzaEF3V2NwUlA5LVJDVWI?oc=5",
-   "date": "Sun, 15 Nov 2026 09:41:15 GMT",
-   "country": "🇰🇪 肯尼亚",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Huawei Enjoy 100 Pro Max beats iPhone 17 Pro in China",
    "brief": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFA3WDBaMDJwZ2x2Y2w1U2dNNUwtMEZwWGo1Q2FvYTItR01yaW5tNUl2X0hLdHRDbnFKU2ZmYnd5bDNnbGU2aFgxY3FVMXhqVXdRbnJDYjNmb0VHa1ZMWDh4UjBFemp1b2h2ODZQUGhSMGs?oc=5\" target=\"_bla",
    "source": "Kursiv Media Узбекистан·聚合",
@@ -620,6 +610,16 @@
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaTZhS1VaTnlOZ1A5RWpLYThSdmhHZWQ0WDJNamhWNkVEcU9lVzhvZXF3dXNvdGlZVWRJYkJmNWJrRndqOGhkNlB0NGsybG4zXzBMLVN5dHh5R3Jqck9aNlR3VDRacWdCeUs0dXdfbHd4U2FHeDhheEZKVURsQnhoWDgxSlBWbDNiNzhwcWlFZjI5Q3FZMk1ITkNWcFA4TnBTdVZCd0QwME03Nnk0bW5HWjF1REtFRm8?oc=5",
    "date": "Fri, 13 Nov 2026 17:52:49 GMT",
    "country": "🇪🇹 埃塞俄比亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Central Bank of Kenya grants Payaza payments license",
+   "brief": "Nigerian-founded fintech Payaza has secured full approval from the Central Bank of Kenya to operate as a payments business, strengthening its East African expansion strategy.",
+   "source": "Condia",
+   "url": "https://thecondia.com/payaza-central-bank-of-kenya-payments-license/",
+   "date": "Fri, 13 Nov 2026 17:40:42 +0000",
+   "country": "🇳🇬 尼日利亚",
    "is_ai": false,
    "is_aiinfra": false
   }
