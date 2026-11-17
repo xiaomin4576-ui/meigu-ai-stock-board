@@ -1,184 +1,167 @@
 {
  "asof": "2026-11-17",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-11-17T07:03+08:00",
+ "generated_at": "2026-11-17T15:50+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 4,
-  "cluster_label": "",
-  "cluster_dropped": [],
+  "cross_day_suppressed": 1,
+  "cluster_label": "中东/伊朗/霍尔木兹",
+  "cluster_dropped": [
+   "伊朗领导人因天然气短缺与战争困境忧心民意",
+   "乌干达首批石油推迟至2027年中，伊朗战争拖累设备"
+  ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "geo",
-   "title": "中美元首与普京将举行历史性峰会",
-   "brief": "中国确认习近平、特朗普、普京将举行历史性峰会，议程受关注。大国博弈进入高层对话窗口。",
-   "chain": "三巨头峰会→降低大国冲突尾部风险、影响风险偏好→映射A股算力链情绪与出口管制预期",
+   "title": "伊朗威胁升级，第三艘美航母抵中东，霍尔木兹油轮遇袭",
+   "brief": "伊朗在美第三艘航母抵达中东之际升级威胁，一艘油轮在霍尔木兹海峡遭袭，海湾局势骤然紧张。",
+   "chain": "霍尔木兹风险溢价上升→美股能源与航运板块波动、风险偏好受压→A股算力链情绪短期承压",
    "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/17/iran-war-trump-hormuz-oil-.html",
+   "ts": "Tue, 17 Nov 2026 05:51:13 GMT"
+  },
+  {
+   "cat": "oil",
+   "title": "油价下滑，全球过剩担忧盖过霍尔木兹袭击",
+   "brief": "尽管霍尔木兹发生袭击，全球供应过剩预期主导市场，油价继续走低，中东出口恢复削弱地缘溢价。",
+   "chain": "供应过剩压过地缘溢价→Brent/WTI走弱→莫桑比克LNG项目经济性与东非油气售价承压",
+   "impact": 8,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-as-Global-Glut-Fears-Eclipse-Hormuz-Attacks.html",
+   "ts": "Tue, 17 Nov 2026 00:10:00 -0600"
+  },
+  {
+   "cat": "macro",
+   "title": "金价跌至一年低点，美债收益率与美元施压",
+   "brief": "受美债收益率上行与美元走强打压，金价跌至一年低点，料创2015年以来最差年度表现。",
+   "chain": "实际利率上行+美元走强主导→美股AI高久期估值分母抬升、风险偏好受抑→A股算力链情绪偏弱",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVkNEMWt0MEpVV2U4c0tCZEQ0N3FJRnBMWEFJRktVNVpBNGZ4RWFjVXA0TnR0VE8yam5OenZaaF9KWVhuc3RCQkZXWGlwb0pPRElEM0JoU0Rsb3BpX2ZTUjBLUG52SUM1V2RkcHRKLVdLR1ZmeXFISlplcTRQU0xJMzZHcFBFbUZPVWtYeGpqbWxKU1gtQjMxZXBMZU5rdldKOTRaWXpNSkZqd3MwajRHUzVvSVI2QTBOb1dJMGc3U3VzdTFP?oc=5",
+   "ts": "2026-11-16T18:03:06+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达警告芯片买家：接入中国AI存法律风险",
+   "brief": "据CNBC消息，英伟达向芯片买家发出法律风险提示，涉及与中国AI相关的合规问题。",
+   "chain": "出口管制合规收紧→美股AI芯片链监管风险溢价上升→A股算力链国产替代逻辑强化",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html",
+   "ts": "Tue, 17 Nov 2026 07:07:35 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "中国确认习近平-特朗普-普京历史性峰会",
+   "brief": "中国确认将举行习近平、特朗普、普京三方峰会，议程备受关注，或涉及贸易与地缘议题。",
+   "chain": "大国峰会预期→美股风险偏好与中概情绪波动→A股算力链受中美关系预期牵引",
+   "impact": 8,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html",
    "ts": "Mon, 16 Nov 2026 08:38:16 GMT"
   },
   {
-   "cat": "tech",
-   "title": "美拟收紧对华AI芯片准入",
-   "brief": "路透：特朗普赴亚洲之际，美国将收紧中国获取AI芯片渠道。出口管制再度升级。",
-   "chain": "芯片管制升级→英伟达等对华营收承压、国产替代逻辑强化→映射A股算力/国产芯片链",
-   "impact": 9,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOFRscFU2Tnd4dkpNWURqN2NDcEg1eHBNUW9VTTd5YkRBNlA2eVJkV0xsWHpqNExCek4xTUY0VlU5TjJYM1ZJaWE3YkVNZndhUE5CamYyZlh3WGhRUHhUVzhDRW1IUkVTXzBBQ1hXMTkzM0tiNF9DZGpZcUlTb0xQOFBsVEM1VDhnV0taSlpYYTNsQUpyMnlKQzNSenU3alBia0ZJR1QyQ2hSX3g5bG1yX3d3dTBublY1?oc=5",
-   "ts": "2026-11-16T22:06:04+00:00"
-  },
-  {
    "cat": "ai",
-   "title": "英伟达黄仁勋离职后首份财报承压",
-   "brief": "黄仁勋突然离职后，临时CEO Kress首份财报面临关键质询。管理层动荡叠加业绩考验。",
-   "chain": "英伟达管理层动荡→AI算力龙头估值与订单能见度受考→映射A股算力链情绪",
-   "impact": 8,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html",
-   "ts": "2026-11-16T12:00:01+00:00"
+   "title": "Altimeter拟向Anthropic IPO投资50亿美元",
+   "brief": "Altimeter的Gerstner计划在Anthropic IPO中投资50亿美元，显示资本对AI头部公司热情不减。",
+   "chain": "AI一级市场巨额资金涌入→美股AI板块估值支撑→A股算力链与AI应用情绪联动",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/16/altimeters-brad-gerstner-investing-5-billion-in-anthropic-ipo.html",
+   "ts": "Mon, 16 Nov 2026 22:01:12 GMT"
   },
   {
    "cat": "oil",
-   "title": "中东出口恢复 美油回落至87美元",
-   "brief": "中东出口回升叠加四季度供应过剩预期，美原油跌至87美元/桶。",
-   "chain": "供应恢复+过剩预期→油价承压→莫桑比克油气项目现金流与东非售价参考偏空",
+   "title": "超大型油轮运价较纪录高位暴跌逾60%",
+   "brief": "超大型油轮(VLCC)运价从纪录高位回落逾60%，反映原油航运紧张缓解。",
+   "chain": "油轮运价暴跌→原油运输成本下降、油价地缘溢价消退→东非油气外运成本改善但售价承压",
    "impact": 7,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
-   "ts": "2026-11-16T16:06:27+00:00"
-  },
-  {
-   "cat": "gas",
-   "title": "欧洲已耗尽10%夏季天然气注入量",
-   "brief": "欧洲夏季储气注入已被消耗约10%，冬季供应缓冲收窄。",
-   "chain": "欧洲储气消耗加快→TTF气价获支撑→东非LNG长期合约议价与莫桑比克项目经济性偏正面",
-   "impact": 7,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Europe-Has-Already-Drained-10-of-Its-Summer-Gas-Injections.html",
-   "ts": "Mon, 16 Nov 2026 10:30:00 -0600"
-  },
-  {
-   "cat": "geo",
-   "title": "胡塞推进威胁沙特原油出口",
-   "brief": "胡塞武装推进，令沙特原油出口通道面临风险。红海—曼德海峡局势再紧。",
-   "chain": "红海航运风险→油价地缘溢价与运费上行→东非航运绕行、莫桑比克物流成本上升",
-   "impact": 7,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Energy-General/Houthi-Advance-Puts-Saudi-Crude-Exports-at-Risk.html",
-   "ts": "Mon, 16 Nov 2026 10:00:00 -0600"
-  },
-  {
-   "cat": "oil",
-   "title": "超大型油轮运价自高位暴跌逾60%",
-   "brief": "超大型油轮(VLCC)运价较纪录高位回落逾60%，航运紧张缓解。",
-   "chain": "油轮运价回落→原油到岸成本下降、运费溢价消退→东非进口与项目物流成本改善",
-   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY0ZJYjdxQndHZmhXNXpBLTVhN0p2NmtoMXliTHZFeURJMU05VVpzQW16STBtZzNuMnUyelRkTzRPODgxR21pdm9YY2JIaUhPbmM2MVVDMVlPSkp5UjY1VjVkbVkzQmhmZGR5TXFiMTRuMkc1SWF5a1hVVGZQdUlFUjA0Y3Z6YnJtX1BKTkF3TXpuMXc5Nk9OMTRjTVp4eXAtanJkOA?oc=5",
    "ts": "2026-11-16T14:53:43+00:00"
   },
   {
    "cat": "macro",
-   "title": "加拿大央行行长麦克勒姆2027年卸任",
-   "brief": "加拿大央行行长麦克勒姆宣布任期2027年结束后卸任。央行人事变动。",
-   "chain": "央行人事更替→政策连续性预期扰动→对美股影响有限，A股映射弱",
-   "impact": 5,
+   "title": "加拿大央行行长麦克勒姆将于2027年任期结束后卸任",
+   "brief": "加拿大央行行长麦克勒姆宣布将在2027年任期结束时卸任，引发对央行领导层接续的关注。",
+   "chain": "央行领导层更替预期→北美利率路径不确定性上升→美股与A股风险偏好边际扰动",
+   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOExHMHhYSmZUdF9OVlBnTkQ4N29jLTA4RmFPa09hdTgzMHQ0UlhYRkZmcHU3S19ZckE1MURrQU43U3FQOU9ENTdGZHZBTUZvT2hNcExZcWVPTUUzWEhtX1BvX3lpXzVXQktFMTBybkRMaTdsM3FfVFZnYTlnUVhRSGRob2paU0JMcXA1NmxKUjI0UkRGQmVSbFhuOVliZDYwbFhXZ2ZnanpBR1lmOGc?oc=5",
    "ts": "2026-11-16T17:16:38+00:00"
   },
   {
+   "cat": "ai",
+   "title": "美联储主席预见AI革命，需厘清其含义",
+   "brief": "分析称美联储主席认为AI革命将至，正评估其对经济与政策的影响。",
+   "chain": "央行关注AI生产率效应→影响利率路径预期→美股AI估值与A股算力链情绪联动",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
+   "ts": "Tue, 17 Nov 2026 00:42:33 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "美机构称2024年已对英伟达合作方Megaspeed展开调查",
+   "brief": "美国机构表示早在2024年即对英伟达合作方Megaspeed启动调查，涉及合规问题。",
+   "chain": "芯片供应链合规调查→美股AI硬件链监管风险→A股算力链国产替代预期升温",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/17/megaspeed-investigation-nvidia-jensen-huang.html",
+   "ts": "Tue, 17 Nov 2026 06:59:42 GMT"
+  },
+  {
    "cat": "geo",
-   "title": "特朗普称或在中国会晤金正恩",
-   "brief": "特朗普表示可能在中国与朝鲜金正恩会面。东北亚外交动向受关注。",
-   "chain": "朝美接触预期→东北亚地缘风险溢价边际缓和→对A股影响偏情绪面",
+   "title": "特朗普称或在中国与金正恩会面",
+   "brief": "特朗普表示可能在中国与朝鲜领导人金正恩会面，为区域外交增添变数。",
+   "chain": "朝美互动预期→东北亚地缘风险边际缓和→美股风险偏好与A股情绪小幅提振",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb29EcDdndEN4TW9IeVFRVnVQTV9YVzNZVHUyT0F3aElTeTFQMFU2X05QUXR3c01hVVlrTEotZjVhU3YwNFZuTlUyZDVfM2pTTjNGTHR1Q25GalEtUFByZTFKLUd4TV84UU9vUngxd245SktvQ00tbWNOMDZ0WkRoVDV3OXh6UWxMZ0t3aWVuSC01U2VYclVHX2k1ZnpnTHFTSTh3bw?oc=5",
-   "ts": "2026-11-16T17:15:46+00:00"
+   "ts": "2026-11-16T14:47:00+00:00"
   },
   {
    "cat": "oil",
-   "title": "伊朗在伊拉克代理人靠石油走私牟利",
-   "brief": "路透：伊朗在伊拉克的代理人通过石油走私获利数亿美元。制裁规避链条曝光。",
-   "chain": "走私与制裁规避→中东供应灰色流通、制裁执行扰动→东非合规采购与油价扰动",
+   "title": "伊拉克加速雪佛龙收购140亿桶超级油田",
+   "brief": "伊拉克快速推进雪佛龙对一处140亿桶储量超级油田的收购，重塑中东上游格局。",
+   "chain": "中东上游产能扩张→中期原油供应增加、油价承压→东非油气项目竞争加剧",
+   "impact": 6,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/Why-Iraq-Just-Fast-Tracked-Chevrons-Takeover-Of-A-14-Billion-Barrel-Supergiant.html",
+   "ts": "Mon, 16 Nov 2026 19:00:00 -0600"
+  },
+  {
+   "cat": "macro",
+   "title": "特朗普支持率维持32%职业生涯低位",
+   "brief": "路透/益普索民调显示特朗普支持率维持在32%的职业生涯低位，政治不确定性上升。",
+   "chain": "政治不确定性上升→美股政策预期波动→A股情绪边际扰动",
    "impact": 5,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUlTdkFxaWpmd0tNUXA5WXRMbmQydm9xVGtYVXYwbnAxVWx3QnZfOUdJS2YwUkFmRWV3TkRHclFKdEZzcFlKLUlGSXhQQ1VBZUFENE9pSWdzRHBsYzg1QVA5am4weVVXeUJHZzF3OGZuVnZ6dmZlbmxUZExnREs4NEMwUFFFMGRsN2N4VThtbUZFS21hblF2bXEzQk5pR3k4SDJBZVhLTDEtT0V3UHN0dnRpWkZKNEk?oc=5",
-   "ts": "2026-11-16T16:28:21+00:00"
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRUpsOFJNT0Q1TUExNXF1cUJ6b1ExaTFpTFptdnluUVRMR1RvNDFkQlpLa3ZxeUxRM0kxOEJyQVJkeTJIOHBxTjhlQ05nUmp6dVQ2emVBclZ3TTJLbERHeUpRTkIwMmFLaG1VeVA1UU91Yk5UZFFaU2dZVFFCNzY1RXNTRjFCTHhpRGhWQksxQndNNHZZT1hGX1RQMGtVS25GNGQ4T2VmOHZmSHNl?oc=5",
+   "ts": "2026-11-16T22:23:00+00:00"
   },
   {
-   "cat": "oil",
-   "title": "乌干达首批原油推迟至2027年中",
-   "brief": "受伊朗战争拖累设备交付，乌干达首批原油推迟至2027年中。东非产油节奏后移。",
-   "chain": "东非新供应延后→中期原油供给增量推迟→莫桑比克/东非区域能源格局与竞争节奏变化",
+   "cat": "tech",
+   "title": "美国最大电网运营商追赶数据中心热潮",
+   "brief": "美国最大电网运营商正加紧扩容以应对数据中心用电激增，电力瓶颈凸显。",
+   "chain": "数据中心电力瓶颈→美股AI基础设施与电力股受益→A股算力链电力配套主题联动",
    "impact": 5,
    "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Uganda-Pushes-First-Oil-to-Mid-2027-as-Iran-War-Holds-Up-Equipment.html",
-   "ts": "Mon, 16 Nov 2026 17:00:00 -0600"
-  },
-  {
-   "cat": "oil",
-   "title": "利比亚储量非洲第一 西方巨头却观望",
-   "brief": "利比亚拥有非洲最大石油储量，但西方大型油企投资意愿低迷。",
-   "chain": "非洲上游投资分化→资金或转向东非等稳定辖区→莫桑比克油气引资相对受益",
-   "impact": 5,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Libya-Has-Africas-Biggest-Oil-Reserves-but-Western-Majors-Arent-Biting.html",
-   "ts": "Mon, 16 Nov 2026 14:00:00 -0600"
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Americas-Biggest-Grid-Operator-Races-to-Keep-Up-With-Data-Center-Boom.html",
+   "ts": "Tue, 17 Nov 2026 01:30:00 -0600"
   },
   {
    "cat": "gas",
-   "title": "土库曼加速年底前完成TAPI管线段",
-   "brief": "土库曼斯坦力争年底前完成TAPI天然气管道关键段。中亚气东输推进。",
-   "chain": "中亚管道气供应增加→亚洲LNG现货竞争格局变化→东非LNG长期议价参考",
+   "title": "土库曼斯坦力争年底完成TAPI管道关键段",
+   "brief": "土库曼斯坦加速推进TAPI天然气管道关键段建设，力争年底完工。",
+   "chain": "中亚气源外输通道推进→全球LNG/管道气供应格局边际变化→东非LNG长期竞争格局受关注",
    "impact": 4,
    "source": "OilPrice",
    "url": "https://oilprice.com/Energy/Energy-General/Turkmenistan-Races-to-Complete-Key-TAPI-Pipeline-Section-by-Year-End.html",
    "ts": "Mon, 16 Nov 2026 13:00:00 -0600"
-  },
-  {
-   "cat": "tech",
-   "title": "美联航系统故障影响出港航班",
-   "brief": "美联航周一发生大范围系统故障，影响出港航班。航空IT稳定性受关注。",
-   "chain": "航司IT故障→运营中断、短期成本扰动→对A股影响有限",
-   "impact": 4,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html",
-   "ts": "2026-11-16T22:42:48+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "加州起诉OpenAI涉模型失控风险",
-   "brief": "加州就Hugging Face等AI模型失控风险起诉OpenAI。AI治理与责任监管升温。",
-   "chain": "AI监管诉讼升温→合规成本上升、头部模型商承压→映射A股AI治理/安全链",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html",
-   "ts": "Mon, 16 Nov 2026 22:11:09 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "Gerstner拟向Anthropic IPO投50亿美元",
-   "brief": "Altimeter的Gerstner计划在Anthropic IPO中投资50亿美元。AI一级市场热度延续。",
-   "chain": "AI巨额融资→算力与模型资本开支预期强化→映射A股算力链景气",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/16/altimeters-brad-gerstner-investing-5-billion-in-anthropic-ipo.html",
-   "ts": "Mon, 16 Nov 2026 22:01:12 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "比特币跌破6.2万后小幅反弹",
-   "brief": "比特币跌破关键支撑引发清算瀑布，跌至6.2万美元后小幅反弹。风险偏好走弱信号。",
-   "chain": "加密清算→高贝塔风险资产情绪转弱→映射A股算力链短期风险偏好",
-   "impact": 4,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/16/bitcoin-slides-to-62000-following-liquidation-cascade-then-rebounds-slightly.html",
-   "ts": "2026-11-16T14:29:19+00:00"
   }
  ]
 }
