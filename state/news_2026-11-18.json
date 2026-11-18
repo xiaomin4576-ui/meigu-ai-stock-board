@@ -1,7 +1,7 @@
 {
  "asof": "2026-11-18",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-11-18T17:06+08:00",
+ "generated_at": "2026-11-18T19:58+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 0,
@@ -13,58 +13,28 @@
   {
    "cat": "geo",
    "title": "特朗普抵华会晤习近平普京",
-   "brief": "特朗普抵达中国与习近平、普京举行历史性会晤，三方博弈进入关键节点。",
-   "chain": "中美俄峰会→风险偏好与关税预期波动→映射A股算力链与出口链情绪",
+   "brief": "特朗普抵达中国与习近平、普京举行历史性会晤，大国博弈进入新阶段。",
+   "chain": "中美俄峰会→风险偏好与关税预期重定价→映射A股出口链与算力链情绪",
    "impact": 9,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html",
-   "ts": "Wed, 18 Nov 2026 09:05:45 GMT"
+   "ts": "Wed, 18 Nov 2026 11:12:47 GMT"
   },
   {
    "cat": "geo",
-   "title": "伊朗袭击海湾多国美军基地",
-   "brief": "伊朗在外交努力之际仍袭击海湾国家美军基地，地区冲突持续升级。",
-   "chain": "美伊冲突升级→避险升温压制美股风险偏好→A股算力链承压",
+   "title": "伊朗打击科威特，海湾冲突扩大",
+   "brief": "美打击伊朗岛屿后，伊朗向科威特开火，海湾冲突范围扩大。",
+   "chain": "海湾冲突升级→美股避险、能源风险溢价→A股算力链承压",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMEJSYmJOTF9ISXdkYWVNd0Z3RnJvQnRjSlhEVWJ4bWo1UVVvblNOUnczc0FtOUlSODM5UzRNOUF5T3lIYTNrRVZKNEZTaVFQcnMwaG9JSWdnNkJmRVVtcTluWmFEU1k0dFVVVDJ4SWlEcUNpWEo1aktKYzFGblgxTldZSGVNRjV3N3VyMVNFelYxQ1d4Zlo3LXdQN2E4RUFuNjB4UWdYX1FxQ3pERUdCenJ3?oc=5",
    "ts": "2026-11-17T23:15:00+00:00"
   },
   {
-   "cat": "macro",
-   "title": "美零售销售显韧性",
-   "brief": "美国零售销售数据展现消费底层强度，尽管生活成本压力仍存。",
-   "chain": "消费韧性→降息预期收敛、美债利率偏强→压制A股高久期算力估值",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWXFYQzF0Y092amNQX1ZybEpWNGF0TkJ6SDY0eWtIenJRRWE2by1QSXROdzVLLUF3MjJqNGxyZkJVVWEzeUZGNXlIekdaT0pMUFRmd2pPbl9BZTRGZERFSnFOend6M0FKU3laSWdPdEpiWkw3TlVTejkwdFZaeHJyR3dTb2o5Y0toVnZaVkxIeWEwZw?oc=5",
-   "ts": "2026-11-17T18:28:52+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "英通胀创一年新高",
-   "brief": "英国通胀升至一年高位，但市场反而削减加息押注。",
-   "chain": "英通胀高企但加息预期降温→全球利率路径分歧→影响美股与A股风险偏好",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QVW9FYWgxOUQyeFFFdHRIdkVLWDZLem1MWFItOVZmQU1SODEtcEZ1Y3NsOGZXeUtNQVN5cElvSmVoNXFoZDFVZ0NlaHFmcmNuQ2w1SWJENDNNLWVVWHNNQUVXdnV0X1Z5M3E2bnJSSzRQd3FBR1FQMzh0dGRPdw?oc=5",
-   "ts": "2026-11-18T07:08:00+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "美联储Cook质疑白宫听证",
-   "brief": "美联储理事Cook律师称其或不参加白宫所谓不公平听证，央行独立性受关注。",
-   "chain": "美联储独立性争议→政策不确定性上升→压制美股估值与A股算力情绪",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdXVmUWZwVEJzR1RYSkxSV1RaeEZQZjRvSk5Ddl8wM0dLTThaSG10RzN5ZUFWYllEOUNicHJfSVpQdjlCY3RPcEdfNmFoU3ZFRHB6YkVvbWtKWEdOYjJ5dm1lQ19ONTByOTZEYVUtaG9pV2RySy1CMGJaaFEtU0piV0JFYUxFMHR5Tk5tSjV0ZmZWR3JSdGMzZV9wUmFoU01NclFEMkZfME1qQVFaRlE?oc=5",
-   "ts": "2026-11-17T18:49:27+00:00"
-  },
-  {
    "cat": "oil",
-   "title": "美原油库存增加油价回落",
-   "brief": "美国原油库存上升缓和供应风险，油价下跌。",
-   "chain": "库存增加→Brent/WTI走弱→东非油气销售价格与联合能源收入承压",
+   "title": "美国原油库存上升，油价回落",
+   "brief": "美国原油库存增加压制供应风险溢价，油价下跌。",
+   "chain": "库存上升→Brent/WTI回落→东非油气采购成本与售价短期承压",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbmp3REJQam1xdjkyMkpCN1JlSkotTnJNM0JEWDVFNmJqZ2FHbmNIN2E0V2twa2N3djBLTXlNNVJvcDJmZVNXMlBlQnk2VG1FTThnX0hQbVRqS2dKbVVBdXl6MWR5ZHo0S2VneWt2bUdwVjE4TnNxaHFLN0hHNU9IUVljVnNXLWJTeHdORFFJX3BfQXhPTThEbGFYQXhYaGNneHRHcVRGS2NyOFhxTzVN?oc=5",
@@ -72,103 +42,143 @@
   },
   {
    "cat": "oil",
-   "title": "美伊冲突升级油价反跌",
-   "brief": "美伊冲突加剧但油价仍下跌，显示基本面压制地缘溢价。",
-   "chain": "地缘溢价被库存与需求压制→油价偏弱→莫桑比克油气项目收益预期降温",
+   "title": "霍尔木兹小型船只贸易活跃",
+   "brief": "伊朗针对超级油轮，霍尔木兹小型船只贸易反而活跃。",
+   "chain": "航运风险上升→原油运输成本与油价溢价→莫桑比克LNG海运通道受扰",
    "impact": 6,
    "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Drop-Despite-Escalating-US-Iran-Conflict.html",
-   "ts": "Tue, 17 Nov 2026 23:55:00 -0600"
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Small-Vessel-Trade-Thrives-in-Hormuz-as-Iran-Targets-Supertankers.html",
+   "ts": "Wed, 18 Nov 2026 05:30:00 -0600"
   },
   {
    "cat": "gas",
-   "title": "欧洲抢购LNG冲击亚洲气价",
-   "brief": "欧洲LNG抢购潮向亚洲天然气市场传导冲击波。",
-   "chain": "欧亚LNG竞价→TTF与亚洲现货气价上行→东非LNG项目议价与出口窗口受益",
+   "title": "卡塔尔LNG扩张：更大但风险敞口未减",
+   "brief": "卡塔尔能源LNG扩产使其规模更大，但地缘与市场敞口并未降低。",
+   "chain": "卡塔尔扩产→全球LNG供给增加、气价承压→东非LNG项目竞争加剧",
    "impact": 7,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Energy-General/Europes-LNG-Scramble-Sends-Shockwaves-Through-Asian-Gas-Markets.html",
-   "ts": "Tue, 17 Nov 2026 18:00:00 -0600"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaDhzZEk3LWh5X255cUFCZWFpNExoVzBXQk1idWhGakprTjQtQ0xMbkhPZjluaThIeFF5NjVVYWcxNzExaVNpdHNLX1oxRlM5ejhYaU8xS0FYbW00LVZxdDI2M2JXRktNRmRjcEx0TjhwQy1DV0lYWHhzZ29FR1RoejJxeEVSZXNGdDVNU0F6REFKcnk2M3BOOU4zdnhkWUFEZ3BFdUJEM2ZPMk00NjFjNURWSTRydw?oc=5",
+   "ts": "2026-11-18T06:06:00+00:00"
   },
   {
    "cat": "gas",
-   "title": "阿曼外海天然气船遇袭弃船",
-   "brief": "一艘天然气运输船在阿曼外海被弹体击中，船员弃船。",
-   "chain": "霍尔木兹周边LNG航运风险→气价与运费上行→东非LNG航线安全溢价上升",
-   "impact": 6,
+   "title": "阿曼附近天然气船遭袭船员弃船",
+   "brief": "一艘天然气运输船在阿曼附近被弹体击中，船员弃船。",
+   "chain": "LNG船遇袭→气价与航运保费上行→莫桑比克LNG出口通道风险溢价升",
+   "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNU0ZTTkw2LWNabWNsdzBOM1FzRF9nWk45NHcybXI1RHk2RF8wZDRDeDRiNE9uT202T2RWRHRqd1AzcFg5LWtlY3M2dlo4eTIzZHRVaUZKX21FUE5tcVNzR2VnT3RWRHdXbmU4QXlRUmZzWFZIZVZ0M2hXeFR6RE1QM1U0OWlDMi1SLUQ2V2tBVDFlU3lxM2lpeXRNa21CNjFMQTlOZV9MekM0WWUtREZHWmZ4TGJUa2dhNUxObDBIcTRRSGgwSUg0MXVB?oc=5",
    "ts": "2026-11-17T18:46:04+00:00"
   },
   {
-   "cat": "tech",
-   "title": "日本10月出口增20.5%",
-   "brief": "日本10月出口超预期增长20.5%，受芯片出货强劲拉动。",
-   "chain": "芯片出口强劲→全球半导体景气验证→映射A股算力链与半导体设备",
-   "impact": 6,
+   "cat": "macro",
+   "title": "美国零售销售显韧性",
+   "brief": "美国零售销售显示消费基础仍强，尽管生活成本压力存在。",
+   "chain": "消费韧性→降息预期降温、美债利率偏强→压制A股算力链估值",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWXFYQzF0Y092amNQX1ZybEpWNGF0TkJ6SDY0eWtIenJRRWE2by1QSXROdzVLLUF3MjJqNGxyZkJVVWEzeUZGNXlIekdaT0pMUFRmd2pPbl9BZTRGZERFSnFOend6M0FKU3laSWdPdEpiWkw3TlVTejkwdFZaeHJyR3dTb2o5Y0toVnZaVkxIeWEwZw?oc=5",
+   "ts": "2026-11-17T18:28:52+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "英国通胀升至一年高位",
+   "brief": "英国通胀升至一年新高，但市场反而下调加息押注。",
+   "chain": "英通胀高企→全球利率路径分歧→美元与黄金避险联动",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QVW9FYWgxOUQyeFFFdHRIdkVLWDZLem1MWFItOVZmQU1SODEtcEZ1Y3NsOGZXeUtNQVN5cElvSmVoNXFoZDFVZ0NlaHFmcmNuQ2w1SWJENDNNLWVVWHNNQUVXdnV0X1Z5M3E2bnJSSzRQd3FBR1FQMzh0dGRPdw?oc=5",
+   "ts": "2026-11-18T07:08:00+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "美债收益率持稳待美联储纪要",
+   "brief": "投资者等待美联储会议纪要，美债收益率持稳。",
+   "chain": "纪要预期→实际利率与美元方向→黄金与AI高久期股估值分母",
+   "impact": 5,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/18/japan-exports-october-imports-chips.html",
-   "ts": "Wed, 18 Nov 2026 00:35:31 GMT"
+   "url": "https://www.cnbc.com/2026/11/18/treasury-yields-bonds-fed.html",
+   "ts": "Wed, 18 Nov 2026 09:32:43 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "美联储Cook律师称或不出席白宫听证",
+   "brief": "美联储理事Cook的律师称其可能不参加被指不公平的白宫听证。",
+   "chain": "美联储独立性争议→政策不确定性→黄金避险与实际利率预期波动",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdXVmUWZwVEJzR1RYSkxSV1RaeEZQZjRvSk5Ddl8wM0dLTThaSG10RzN5ZUFWYllEOUNicHJfSVpQdjlCY3RPcEdfNmFoU3ZFRHB6YkVvbWtKWEdOYjJ5dm1lQ19ONTByOTZEYVUtaG9pV2RySy1CMGJaaFEtU0piV0JFYUxFMHR5Tk5tSjV0ZmZWR3JSdGMzZV9wUmFoU01NclFEMkZfME1qQVFaRlE?oc=5",
+   "ts": "2026-11-17T18:49:27+00:00"
   },
   {
    "cat": "tech",
-   "title": "多行业大规模系统宕机",
-   "brief": "银行、航空、NSA与苹果等遭遇广泛宕机，影响面极广。",
-   "chain": "关键基础设施故障→科技可靠性担忧→A股算力与云基础设施情绪扰动",
-   "impact": 5,
+   "title": "英伟达财报提振股价与新云厂商",
+   "brief": "英伟达财报超预期，带动自身股价与新云厂商上涨，尽管黄仁勋风波未平。",
+   "chain": "英伟达业绩超预期→美股AI硬件链走强→映射A股算力/光模块链",
+   "impact": 9,
    "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html",
+   "ts": "Wed, 18 Nov 2026 10:58:22 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "分析师：英伟达财报超预期仍存不确定性",
+   "brief": "尽管财报超预期，分析师预计英伟达投资者仍面临不确定性。",
+   "chain": "业绩兑现但指引存疑→美股AI芯片波动→A股算力链情绪反复",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/18/nvidia-earnings-market-analysis.html",
+   "ts": "Wed, 18 Nov 2026 06:21:45 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "大规模宕机冲击银行航空NSA苹果",
+   "brief": "广泛宕机波及银行、航空、NSA与苹果，影响面广。",
+   "chain": "基础设施宕机→科技股风险偏好受挫→A股算力/云链情绪承压",
+   "impact": 6,
+   "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html",
    "ts": "Tue, 17 Nov 2026 22:03:57 GMT"
   },
   {
    "cat": "tech",
-   "title": "美新规威胁东南亚数据中心",
-   "brief": "东南亚数据中心繁荣依赖中国需求，美国新规令该管道面临风险。",
-   "chain": "美出口管制收紧→东南亚算力扩张受限→映射A股算力链出海逻辑",
-   "impact": 5,
+   "title": "东南亚数据中心热潮遇美新规风险",
+   "brief": "东南亚数据中心依赖中国需求，美国新规或威胁该管道。",
+   "chain": "美出口新规→东南亚算力扩张受限→映射A股算力出海链",
+   "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html",
    "ts": "Wed, 18 Nov 2026 08:09:43 GMT"
   },
   {
    "cat": "ai",
-   "title": "英伟达超预期但投资者存疑",
-   "brief": "分析师称尽管英伟达业绩超预期，投资者仍存不确定性。",
-   "chain": "英伟达业绩兑现但指引存疑→美股AI龙头估值分化→映射A股算力链情绪",
+   "title": "中国军方寻求英伟达先进芯片",
+   "brief": "国会委员会称中国军方寻求英伟达先进芯片以提升AI能力。",
+   "chain": "芯片管制争议→英伟达对华销售受限→A股国产算力替代链受益",
    "impact": 8,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/18/nvidia-earnings-market-analysis.html",
-   "ts": "Wed, 18 Nov 2026 06:21:45 GMT"
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/18/nvidia-chips-china-military-ai.html",
+   "ts": "2026-11-18T10:45:01+00:00"
   },
   {
    "cat": "ai",
-   "title": "Anthropic IPO定价或超区间",
-   "brief": "消息称Anthropic IPO定价可能高于70-78美元区间。",
-   "chain": "AI独角兽高估值上市→AI一级市场热度延续→提振A股算力与AI应用链",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
-   "ts": "Tue, 17 Nov 2026 14:34:48 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "摩根大通研发无人AI代理交易",
-   "brief": "摩根大通正研发不涉及人工的AI代理交易。",
-   "chain": "AI代理进入金融交易→美股金融科技叙事强化→映射A股AI+金融科技链",
+   "title": "摩根大通研发无人介入AI代理交易",
+   "brief": "摩根大通正研发无需人工介入的AI代理交易。",
+   "chain": "AI代理落地金融→美股金融科技叙事→映射A股AI应用链",
    "impact": 6,
-   "source": "CNBC World",
+   "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html",
    "ts": "Wed, 18 Nov 2026 06:18:11 GMT"
   },
   {
    "cat": "ai",
-   "title": "Hassabis新AI公司融资50亿",
-   "brief": "Demis Hassabis离开谷歌DeepMind后创立的AI公司融资50亿美元。",
-   "chain": "顶级AI人才创业吸金→AI资本开支预期强→映射A股算力链景气",
+   "title": "美股收低待英伟达财报，关注Anthropic",
+   "brief": "华尔街在英伟达财报前收低，焦点转向Anthropic亮相。",
+   "chain": "AI龙头财报前避险→美股AI板块波动→A股算力链跟随情绪",
    "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/17/isomorphic-labs-series-c-ai-drug-discovery-.html",
-   "ts": "Tue, 17 Nov 2026 13:58:07 GMT"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOemNySVhGbms1VkxVYXFsTFdtdVh1MjNQQk16Y1ZfNGFHMFhDRWUtZldZRzJzSWxpNlBLWVpTenJnU2FHZndaVUlEclFtQVNvTzJBWTNpM1p0N3dmWjlyMEFKbkowZkpSanhVcEVLUjZfOWxNcW5OZVFuLTNFNF93ZDd4b0wxX1VzNlJPODdqc0xob1ZrR0xuQkJ6bExvNDdQMk5saFVSdkVBZw?oc=5",
+   "ts": "2026-11-17T21:52:56+00:00"
   }
  ]
 }
