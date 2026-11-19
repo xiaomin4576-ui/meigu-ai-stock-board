@@ -1,10 +1,10 @@
 {
  "asof": "2026-11-19",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-11-19T17:30+08:00",
+ "generated_at": "2026-11-19T19:54+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 1,
+  "cross_day_suppressed": 0,
   "cluster_label": "",
   "cluster_dropped": [],
   "backfilled": 0
@@ -12,9 +12,9 @@
  "items": [
   {
    "cat": "macro",
-   "title": "美联储会议纪要：官员预期更多加息，担忧AI推升通胀",
-   "brief": "10月FOMC纪要显示官员倾向进一步加息，并讨论AI对通胀的潜在影响，政策路径偏鹰。",
-   "chain": "加息预期升温→美股AI高久期成长股贴现率上行、估值承压→A股算力链情绪受抑",
+   "title": "美联储纪要：官员预计继续加息并担忧AI推升通胀",
+   "brief": "美联储公布10月会议纪要，官员预期进一步加息，并讨论AI对通胀的潜在影响。",
+   "chain": "加息预期升温→美股AI高久期成长股贴现率上行、估值承压→A股算力链风险偏好受抑",
    "impact": 9,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
@@ -22,9 +22,9 @@
   },
   {
    "cat": "macro",
-   "title": "美独栋住宅开工反弹但趋势仍偏弱",
-   "brief": "美国独栋住宅开工回升，但整体房地产趋势依旧低迷，显示高利率对地产的压制未解。",
-   "chain": "地产数据偏弱→强化利率见顶预期→美股地产/利率敏感板块与A股地产链情绪边际改善",
+   "title": "美国独栋住宅开工反弹但趋势仍偏弱",
+   "brief": "美国独栋住宅开工数据回升，但整体房地产趋势依旧低迷。",
+   "chain": "地产数据弱→强化经济放缓与利率路径博弈→影响美股周期与A股地产链情绪",
    "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOHNvWXhTdjFvTnd2ZWpsdjVvM29QLWdyUzZOMWFTTjdHUEdTazZZMGxPWFdtZk9TdVZ5WlhJb2FPbmtQbURFd1pTWUlnSS1LTk54Wk1RY2FSRWJ5cGdHOGl3NEVBaEZlcWlJVW1LblcySGxZVjUtdFNuMUlNbmhiNHJiM2tYZUZpdHg2LVdiS3dTZ1RmVjZqZzlhaXJua2JMc2FORFdFMTlNZTRSTUZpbWFIMExWdnM?oc=5",
@@ -32,59 +32,59 @@
   },
   {
    "cat": "geo",
-   "title": "特朗普称美中可助结束乌克兰战争",
-   "brief": "特朗普在会晤习近平、随后与普京三方会谈前表示，美中有能力推动结束乌克兰战争。",
-   "chain": "大国协调促和谈预期→美股风险偏好回暖→A股地缘风险溢价收敛、出口链情绪修复",
-   "impact": 8,
+   "title": "特朗普、习近平、普京举行历史性会晤谈乌克兰与核武",
+   "brief": "三方就乌克兰战争与核军控举行历史性会谈并结束，为重大地缘进展。",
+   "chain": "大国峰会缓和预期→美股风险偏好与波动率改善→A股算力链情绪偏暖",
+   "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdzN3ZEpqNW0wZlBtajBvdU9pSzk1MG9RQ2NhVlBuaFMwaVZBWVhkLVNiMnZHTTBRS2J6Z2xkdWkxRERWakdCc0JBdGtUUlhVbHJlR2dMcVVTV0lCNWVGNi1XSG5zVTVrRW84V0JVZUhOVGhKT0FZMk1uRTd3anM1RFhPUWxWNFdQWFF2WjhhYVFCdnpPMGlLYThjMDExVC1fVFJfeFZ2ZXM?oc=5",
    "ts": "2026-11-18T23:05:00+00:00"
   },
   {
    "cat": "geo",
-   "title": "特朗普称美中俄“独特具备”削减核武条件",
-   "brief": "特朗普在历史性三方会晤上称美中俄在削减核武器议题上处于独特位置，释放大国军控信号。",
-   "chain": "大国军控缓和→美股避险需求下降→A股风险偏好与军工板块情绪分化",
+   "title": "胡塞导弹威胁利雅得致损，沙特联军证实",
+   "brief": "胡塞武装对利雅得方向发动导弹威胁并造成损害，沙特为首联军作出回应。",
+   "chain": "中东冲突升级→避险情绪升温、美股风险偏好受压→A股算力链承压",
    "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/19/trump-xi-putin-trilateral-meeting-china.html",
-   "ts": "Thu, 19 Nov 2026 09:18:14 GMT"
-  },
-  {
-   "cat": "geo",
-   "title": "胡塞导弹威胁利雅得致损，沙特联军回应",
-   "brief": "沙特领导联军称胡塞武装对利雅得的导弹威胁造成破坏，沙特南部多城一度发布警报。",
-   "chain": "中东冲突升级→美股能源与防务板块波动、避险情绪升温→A股能源安全链受关注",
-   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUUVVMURmUjNxMHVQNThNQkRiUElQbkhnNVJNdkdVejBqLVVIRU1hUl9DWDhpYlFVWUtFZlo5dGNOSnFqTFU5VE93bXdGY3NaOEVmSERoWlJNOWhQN25NN3E1bGF1MEprczBsWFlkOHBDTUVLM21CSFJydjFzUFFaM2ozQU8wSTdnSENadVQ2UTNmSWhOMFBHNE1ZaDB5MURkMFM0cHZuU1BySDl0ZlQ2aDBEUEdmNUE5MnNzTnl2T2VBaV9sWUQ2Zg?oc=5",
    "ts": "2026-11-19T03:19:00+00:00"
   },
   {
    "cat": "geo",
-   "title": "高市早苗访华遇冷，系2019年来日相首访",
-   "brief": "日本领导人高市早苗首次访华受到冷淡接待，中日关系氛围偏紧。",
-   "chain": "中日关系趋冷→美股亚洲供应链风险溢价上升→A股半导体材料/设备国产替代链受关注",
+   "title": "美防长在加拉加斯宣布美委军事伙伴协议",
+   "brief": "美国防长赫格塞思访问加拉加斯，宣布与委内瑞拉达成军事伙伴协议。",
+   "chain": "美委关系转向→影响全球重油供应预期→美股能源板块与A股情绪联动",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZV9uT1R6QjFJeHlkYmhUeTdIQ0F0Ync2akZibV9hdmhtNEZMelUzSkk1WlFTNTJUd2NKdC1ILW9rWHZJb3JZemxwT2dwNlc5QjNIYzlNS1kwVkt6aDl5aVl0VFdvRUNPYzBMeXJtMnM4YVJPWjdvSzZ6eWlQNXVFdGdhNkw3YzhpQ0V4Yk11dlFKS21RREIxZVcwUFJxS0xKZ25TMDE1bGtDRUJ2aUp2VVFBVkUtSDU1VXBLNENB?oc=5",
+   "ts": "2026-11-18T17:58:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "丹麦批准特朗普格陵兰安全协议",
+   "brief": "经数月外交紧张后，丹麦批准与特朗普政府关于格陵兰的安全协议。",
+   "chain": "北极地缘格局调整→避险与资源博弈升温→影响美股防务与A股相关情绪",
    "impact": 5,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/19/japan-china-trump-takaichi-taiwan-.html",
-   "ts": "Thu, 19 Nov 2026 07:38:29 GMT"
+   "url": "https://www.cnbc.com/2026/11/19/greenland-denmark-trump-security-military-bases.html",
+   "ts": "Thu, 19 Nov 2026 10:41:32 GMT"
   },
   {
    "cat": "oil",
-   "title": "中东航运遇袭抵消供应过剩，油价持稳",
-   "brief": "中东航运袭击事件对冲供应过剩预期，国际油价整体持稳，市场多空拉锯。",
-   "chain": "航运袭击支撑风险溢价→Brent短期获支撑但中期供应过剩压制→莫桑比克油气售价与出口窗口中性偏稳",
-   "impact": 7,
+   "title": "中东航运遇袭抵消供应过剩预期，油价上涨",
+   "brief": "中东航运袭击事件抵消供应过剩前景，推动原油价格走高。",
+   "chain": "航运遇袭→Brent短期获支撑但供应过剩压制中期→莫桑比克油气售价与运费风险上升",
+   "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMnV0bXBXX1ZzNHpkcHFmanlPQ2FmczM3Z2xCcXRqRjYwTVB6SlFhZ29vbGcyM3V5a3lOMHZ3OXprMDM0ang4RVEwQmhFMTZ2QU1GT2lQN0ZPUXQyZWJ4MHR1S0JQTmE5Y0Z5dkZlemdFU0V6TWFId0pZZlFtbHVzaU1EeVl1S2RiSFdrcE95d1ZqQW9NRWlZUFNHWU9QVHNXRlZiTmEtckdWZEpScFREcVpPQ0x3MDNQeFhiZHJHMUlVQXFRNkE?oc=5",
    "ts": "2026-11-19T02:47:00+00:00"
   },
   {
    "cat": "oil",
-   "title": "美收紧伊朗海上封锁，限制海上石油转运",
-   "brief": "美方通过海上石油转运限制进一步收紧对伊朗封锁，加大相关油轮合规风险。",
-   "chain": "伊朗出口受限→原油供应收紧支撑油价→东非油气经营需关注运费与合规成本上升",
+   "title": "美国收紧伊朗封锁，限制海上石油转运",
+   "brief": "美方通过海上石油转运限制措施收紧对伊朗的封锁，加大执法力度。",
+   "chain": "伊朗出口受限→油价获支撑→东非采购与航运成本及合规风险上升",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNS21BSEJXWHdIUGpZcWRtZm0tT084cTd5WFpvbFZUeE9wdHkyelI4Y2pFamp5YmY3S09BRm9zMWQ3VE5NcHVnSGZNM20yZ3B5NE1mXzZ4VVg3NUZ5RTVuQ2owQzE4MkxpaTBIcEhCNng4MDE1ZnpyTUVOMUVHVFdzcm14Mkl2TlNGZmNuVFQ1NFMwdGFOT1JSTEFURDNOQ005cWVaUG5ybmtyNWQyTW1QMG82SHhGQXNmb3VMTUtB?oc=5",
@@ -93,48 +93,48 @@
   {
    "cat": "oil",
    "title": "沙特超越阿联酋成印度第二大石油供应国",
-   "brief": "沙特升至印度第二大石油供应国，俄罗斯仍居首，亚洲原油贸易格局生变。",
-   "chain": "亚洲原油流向重塑→Brent/WTI价差与运费波动→莫桑比克LNG与原油出口竞争格局间接受影响",
+   "brief": "俄罗斯仍居首，沙特超越阿联酋升至印度第二大石油供应国。",
+   "chain": "印度采购结构变化→亚洲原油流向重塑→影响东非区域油品贸易格局",
    "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOGFFLXpheVdRTVdEZmh5dzNVdWpQR3RJRnJSbjZMMkNscHBaZWlNWTFLT0RpN3RGVU5xbHh1WFJoYTQyVGROQnRDcjZxaW9QaTZKZ2tkWGhDdUpRWnNHNXY5ay1PN3BZcmY2TFcxYnF0OFBtWUUxZzlfblZrZU9tVFZ6aDRaOFhuZjlyX3ctVS1wQ3h0VzFrRUd3eWNvRlJTakkxZjMtOWFsaVJjWDBLVnZ5aFV1QVMxb044M1pYbS0?oc=5",
    "ts": "2026-11-19T06:29:00+00:00"
   },
   {
-   "cat": "oil",
-   "title": "IEA：应对伊朗战争的安全举措或使2035年石油需求降4%",
-   "brief": "IEA称各国因伊朗战争采取的能源安全响应，可能令2035年全球石油需求下降约4%。",
-   "chain": "需求结构性下修→中期油价承压→东非油气项目长期需求假设需重估",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRlVLekJsV1lXTGsxOWFDNkJLTDZhV3JSeFRQWS1zNXlobWJ6cDB0dXdhUE5IZ2VBY3N1THJOdVFtNmhEcnVTcUpWS2x4cVJRV1BscHJ2cVRmbGxtUEJLd0xvRUhkYlpUZU1PcnZpUzJ5cWx5R3ZnWFN5VXdiWmkwczJpci1yQkpVWWtMNV9yY3JHc3NfNzc0V2R2ZWlkSDVaa3V1MUhJVUNoSV9MQl91ckE5c2J4c1c2VFlPSHBIYzAxX2RZYXpZ?oc=5",
-   "ts": "2026-11-19T05:05:00+00:00"
-  },
-  {
    "cat": "gas",
-   "title": "Orlen与卡塔尔能源洽谈新LNG协议",
-   "brief": "在合同终止数日后，Orlen与卡塔尔能源就新LNG协议展开谈判，欧洲气源采购格局调整。",
-   "chain": "欧洲LNG长约重签→TTF价格与全球LNG流向变化→东非LNG项目面临更激烈长约竞争",
+   "title": "Orlen与卡塔尔能源谈新LNG协议",
+   "brief": "在合同终止数日后，Orlen与卡塔尔能源就新LNG协议进行谈判。",
+   "chain": "LNG长约重构→TTF与亚洲气价预期波动→莫桑比克LNG长期合约议价环境受影响",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNN09ma2xvQVVUbWJDcFlLNWNXVUZJQmk4YnJNRkZIODF5VkNxX1BMemVKR3FxYTNMeEM1MEtGemYtQ0NrY2QwbWlDbV9YcGVrX3VuaUtXX040X2xET1JqckxHSWdUdUhXTE1YVE1lMUZabWotTnBlM2NFMDZrSFRZOGR4RTllNm5sUzM5ZkEwUm9jc0tYajk4U0RYYWxqaXJodW5rN1hMcWZ1WEtTZE5FQWRXQ2dMWVZYSWk0OTBCX2VUWkNONHQ0NWJYeWQ?oc=5",
    "ts": "2026-11-18T20:57:46+00:00"
   },
   {
+   "cat": "gas",
+   "title": "欧盟与议会同意将甲烷法规推迟两年",
+   "brief": "欧盟国家与议会达成一致，将甲烷监管实施推迟两年。",
+   "chain": "监管放宽→欧洲油气与LNG项目合规成本下降→东非天然气项目参照标准趋松",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWlc2MHpUb3VmbGltejJydzV6TVc3bVFyZTdEYVlkZmVKTVlwOVhyMHVyQnp5b21RTHIybHJ6WHl3c3pTNFhHTlRmOUpMVVdaaXZhZVlFeWtKbTZTbjdNdndrVWIwcVljRDVJM3dIdDFmaWM4YUZobldOZkJ2c3AzV19GT1NoaDdFcFhfUGZobEpKX2ZmQy1KUUhYQmF6U09XcnpDSWNtVUJzMzhEN1ZZOHJFZDcyWGllRFJpZVNmYw?oc=5",
+   "ts": "2026-11-19T10:30:00+00:00"
+  },
+  {
    "cat": "tech",
-   "title": "韩国凭AI芯片热潮成第四个出口破万亿美元国家",
-   "brief": "受AI芯片出口强劲拉动，韩国成为全球第四个年出口额突破1万亿美元的国家。",
-   "chain": "AI芯片外需强劲→美股半导体板块景气验证→A股算力链/存储链情绪提振",
+   "title": "韩国凭AI芯片热潮成第四个万亿美元出口国",
+   "brief": "受AI芯片出口强劲推动，韩国成为全球第四个出口额破万亿美元的国家。",
+   "chain": "AI芯片需求强→美股半导体景气确认→映射A股算力链与存储链",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYjJyUW83NEllOTVXWDNHUnY0UW85MjF2dzVVQ1NxOVBGaW1EY0trbjRZZU5zZWFLUnZnQ1RGUkhiM3ZmZVA2VUxZNm5UQlpJR2F2OXotX0EzOUJJdHNkZlhCUXVnM2xqaEZ1Zmh6R19sSmUyelZzSVJSSkVTZHBvd2ZUQkNJOFZPaEZ6amhLd1BGWlcxd2M4N0pLa0J5Z28taFE2M293Z1puMWViY3FhZDh6WXd4SjFsNzg0dkZ3?oc=5",
-   "ts": "2026-11-19T06:29:00+00:00"
+   "ts": "2026-11-19T07:48:22+00:00"
   },
   {
    "cat": "tech",
    "title": "英特尔18A先进制程签下首个外部客户",
-   "brief": "英特尔宣布其18A先进制程获得首个外部客户，代工业务取得关键突破。",
-   "chain": "英特尔代工获客→美股半导体竞争格局生变→A股先进制程/设备链情绪受催化",
+   "brief": "英特尔宣布其18A先进制程获得首个外部客户，代工业务取得进展。",
+   "chain": "代工竞争格局变化→美股半导体板块分化→影响A股先进制程与设备链情绪",
    "impact": 6,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/18/intel-first-18a-foundry-customer.html",
@@ -142,9 +142,9 @@
   },
   {
    "cat": "tech",
-   "title": "微软CEO称Outlook故障是“完美风暴”",
-   "brief": "纳德拉就Outlook大规模宕机致歉并解释成因，称多重因素叠加酿成“完美风暴”。",
-   "chain": "云服务可靠性受质疑→美股软件/云板块信任成本上升→A股云与信创链关注度提升",
+   "title": "微软CEO称Outlook宕机为完美风暴",
+   "brief": "微软CEO纳德拉就Outlook大规模宕机表态，解释故障成因。",
+   "chain": "云服务可靠性受关注→美股软件板块情绪扰动→A股云与信创链情绪传导",
    "impact": 4,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/18/microsoft-put-the-ai-threat-to-software-behind-it-then-came-the-outage.html",
@@ -153,19 +153,29 @@
   {
    "cat": "ai",
    "title": "Anthropic IPO募资超810亿美元创纪录",
-   "brief": "Anthropic完成史上最大规模IPO，募资逾810亿美元，超越SpaceX。",
-   "chain": "AI巨头巨额融资→美股AI板块估值锚上移、资金分流风险→A股算力链情绪与资金面双向影响",
+   "brief": "Anthropic完成超810亿美元IPO，为史上最大规模发行，超过SpaceX。",
+   "chain": "AI融资热潮→美股AI板块估值与资金面提振→A股算力链情绪偏暖",
    "impact": 9,
-   "source": "CNBC World",
+   "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
-   "ts": "Thu, 19 Nov 2026 01:13:20 GMT"
+   "ts": "Thu, 19 Nov 2026 11:21:20 GMT"
   },
   {
    "cat": "ai",
-   "title": "英伟达临时CEO Kress首次全员会喊话“向前走”",
-   "brief": "黄仁勋离任后，临时CEO Kress首次全员会呼吁员工向前看，并宣布加薪稳定军心。",
-   "chain": "英伟达管理层动荡→美股AI龙头治理风险溢价上升→A股算力链对英伟达订单稳定性存疑",
-   "impact": 8,
+   "title": "IEA：数据中心用电到2030年或翻倍",
+   "brief": "IEA称AI热潮推动下，全球数据中心用电量到2030年可能翻倍。",
+   "chain": "AI算力扩张→电力与基础设施需求上升→映射A股算力链与电力设备链",
+   "impact": 7,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/19/data-center-electricity-demand-iea.html",
+   "ts": "2026-11-19T10:14:03+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "英伟达临时CEO Kress首次全员会喊话前行",
+   "brief": "黄仁勋离任后，临时CEO Kress首次全员会鼓励员工前行并宣布加薪。",
+   "chain": "管理层变动→美股AI龙头治理不确定性→A股算力链情绪敏感",
+   "impact": 7,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html",
    "ts": "2026-11-18T19:09:48+00:00"
@@ -173,22 +183,12 @@
   {
    "cat": "ai",
    "title": "Palo Alto 45亿美元收购AI初创Applied Compute",
-   "brief": "Palo Alto宣布以45亿美元收购AI初创Applied Compute，财报后股价涨7%。",
-   "chain": "安全+AI并购落地→美股AI应用与安全板块估值提振→A股AI安全/应用链情绪传导",
+   "brief": "Palo Alto宣布以45亿美元收购AI初创Applied Compute，股价盘后涨7%。",
+   "chain": "AI安全并购升温→美股网络安全与AI板块提振→A股AI应用链情绪传导",
    "impact": 6,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html",
    "ts": "Thu, 19 Nov 2026 00:07:06 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "Booking设新企业部门，AI重塑旅行规划",
-   "brief": "Booking Holdings成立新企业业务部门，应对AI对旅行规划与分销模式的改造。",
-   "chain": "AI重塑行业格局→美股平台型企业估值分化→A股AI应用落地链关注度提升",
-   "impact": 4,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/18/booking-holdings-enterprise.html",
-   "ts": "Wed, 18 Nov 2026 12:55:01 GMT"
   }
  ]
 }

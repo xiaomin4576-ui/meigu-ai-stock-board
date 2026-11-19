@@ -415,7 +415,12 @@
         "rating_mean": null
       },
       "earnings_date": null,
-      "quality": {},
+      "quality": {
+        "roe": 9.97,
+        "ocf_ps": 0.6015,
+        "gross_margin": null,
+        "period": "2026-09-30"
+      },
       "news": [
         {
           "title": "11月19日盘后固定价格交易额8.37亿元",
@@ -519,12 +524,12 @@
         "target_low": null,
         "target_high": null,
         "cn_rating": "买入",
-        "n_analysts": 3,
-        "cn_reports_total": 45,
-        "fwd_pe": 106.7,
-        "eps_2026": 8.75,
-        "eps_2027": 18.62,
-        "eps_growth": 112.8,
+        "n_analysts": 4,
+        "cn_reports_total": 46,
+        "fwd_pe": 105.8,
+        "eps_2026": 8.83,
+        "eps_2027": 19.16,
+        "eps_growth": 117.0,
         "sector": "半导体",
         "rating": null,
         "rating_mean": null
