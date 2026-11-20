@@ -1,7 +1,7 @@
 {
  "asof": "2026-11-20",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-11-20T19:55+08:00",
+ "generated_at": "2026-11-20T23:49+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 0,
@@ -11,204 +11,214 @@
  },
  "items": [
   {
-   "cat": "geo",
-   "title": "特朗普称不急于就伊朗作决定",
-   "brief": "特朗普表示对伊朗决策不设时限、或留待明年，美伊军事对峙暂缓升级。",
-   "chain": "美伊紧张降温→避险溢价回落、美股风险偏好修复→A股算力链情绪减压",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQkkzQVk3M3pnOXRWVlFCMmVzUEN0alhCS0gzQUhYNkhCMDhCOUM0N0tmMFpZNVNKcnVNbktaYXV5MV9ERm13WHoxTEVtUGRMUkZwT3dJZmlRZ2pyRE1WMGoyZW1VcXVWdTVRTmxZV1RISHNXWE9YY1BUUC1EWlJWRWRsYzlGTXo0WmhjaUxiUnAyMDl2OU9mWmliYndLd0htWGVLYWFUUldMOUIzLV9TSnBB?oc=5",
-   "ts": "2026-11-19T21:36:16+00:00"
+   "cat": "ai",
+   "title": "Anthropic完成935亿美元IPO，承销商行使超额配售权",
+   "brief": "Anthropic以每股83美元发行11.27亿股，创纪录IPO，承销商全额行使超额配售权，募资总额达935亿美元。",
+   "chain": "AI龙头巨额IPO→为美股AI板块提供估值锚，但上市次日即破发→A股算力链情绪受抑，关注国产算力替代逻辑",
+   "impact": 9,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html",
+   "ts": "2026-11-20T13:31:39+00:00"
   },
   {
-   "cat": "geo",
-   "title": "普京为\"雅尔塔\"辩护 三方峰会引热议",
-   "brief": "普京在首次三方峰会上为自身主张辩护，峰会引发战后势力划分联想。",
-   "chain": "大国博弈格局重塑→美股地缘风险溢价抬升→A股算力链承压",
+   "cat": "ai",
+   "title": "Anthropic上市首日破发，AI抛售潮蔓延",
+   "brief": "Anthropic股票首个完整交易日开盘跌9%，AI板块整体遭抛售，科技股承压。",
+   "chain": "AI龙头破发→美股AI高估值票遭重估→A股算力链短期承压，关注情绪修复节奏",
    "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNS2RyVUFBbDcxYWtIYjFjd0NtUmhUMzJDSXZqbWhkTFNYYXkzU3kzRF9WZnBTTGphWmI0UmQzUFFMRk9WODN6ZmlGVk1QSXNBR01hdk93RG9SbWJrb3RObU40aWFNUjFNX1JLTnlXbmdqSmlZLUVOaWdtMFBqZVYwV3BhbmFlcS1TRTFRUnZ3YXlzN190M3dXa0QtazJ5d1NVT2huaDFGR29OSTgtVnNmLUxfVWx0R1BVeEE?oc=5",
-   "ts": "2026-11-19T15:25:08+00:00"
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
+   "ts": "Fri, 20 Nov 2026 14:32:47 GMT"
   },
   {
-   "cat": "geo",
-   "title": "索马里以\"入侵\"为由驱逐阿联酋大使",
-   "brief": "索马里下令阿联酋大使离境，指其侵犯主权，东非之角局势趋紧。",
-   "chain": "东非地缘摩擦→区域风险溢价上升→关注莫桑比克周边能源经营环境",
+   "cat": "ai",
+   "title": "软银创两年多最大单日跌幅，AI抛售冲击亚洲科技股",
+   "brief": "AI抛售潮波及亚洲科技股，软银遭遇两年多来最差单日表现。",
+   "chain": "AI抛售→亚洲科技股风险偏好下降→A股算力链与半导体板块联动承压",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html",
+   "ts": "Fri, 20 Nov 2026 07:23:06 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "Cursor考虑逐步淘汰中国AI模型",
+   "brief": "SpaceX子公司Cursor告知议员正考虑逐步淘汰中国AI模型，反映AI供应链地缘审查升温。",
+   "chain": "AI模型供应链审查→美股AI软件公司合规成本上升→A股国产大模型替代逻辑强化",
    "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html",
+   "ts": "Fri, 20 Nov 2026 14:07:24 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "沃什希望美联储官员少讲话，官员反而讲得更多",
+   "brief": "美联储主席沃什主张减少官员公开表态以降低市场噪音，但官员发言频率反升。",
+   "chain": "美联储沟通策略变化→影响利率预期波动率→美股高久期AI票估值分母敏感，传导A股算力链情绪",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html",
+   "ts": "Fri, 20 Nov 2026 15:20:54 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "标普500或连续第六日下跌",
+   "brief": "标普500指数迈向连续第六个交易日下跌，市场风险偏好持续走弱。",
+   "chain": "美股连跌→风险偏好收缩→A股算力链与成长股情绪承压，关注避险与黄金配置",
+   "impact": 7,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/investingclub/2026/11/19/sp-500-heads-for-6th-straight-decline-plus-jj-advances-two-key-products.html",
+   "ts": "2026-11-19T19:52:06+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "牛市新问题：聪明钱正在卖出",
+   "brief": "报道称机构资金（smart money）正在减仓，牛市面临资金面新压力。",
+   "chain": "聪明钱撤离→美股估值承压→A股外资流向与算力链风险偏好受抑",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/20/equity-issuance-bull-market-problem.html",
+   "ts": "Fri, 20 Nov 2026 14:15:29 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "英国零售销售超预期，政府吁家庭囤货",
+   "brief": "英国零售销售数据超预期，此前政府呼吁家庭储备物资，消费韧性显现。",
+   "chain": "英国消费数据强劲→欧洲利率预期偏鹰→全球风险资产估值分母承压，间接影响A股情绪",
+   "impact": 4,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVjlYSnNMZ21QZDdfVWF4TmlvUzF0UUxWdG9LVTNRaUNrX0dUMGltWmJraDU2OThiMmpKRnFHMnZ4bGEtRE4xU0NhTlNuOWVKT0NLU0NOY2puU2lycE51THdkSHFURF9mSEk5SzVYanhPWVVnbWZmcDlBdkJCN19qOGpIYVlac1ZYemEtNk9MWTZ6UjU2UU5RR1Zn?oc=5",
+   "ts": "2026-11-20T07:05:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "沙特联军打击也门港口，胡塞武装警告航空公司",
+   "brief": "沙特领导联军袭击也门港口，胡塞武装警告航空公司避开沙特领空，红海局势升级。",
+   "chain": "红海冲突升级→避险情绪升温、航运风险溢价上升→美股能源与防务板块受益，A股关注航运与军工链",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQUE1UEFGeklRZGtscWJhNkdxRWpyWHkwQ29IcVQ1Umc2VHlkWlJGZzZPTC00SFl2a3J0SXY3TGo0X0t2a3A5ckMzbmtZXy1mYzdoa0F5Vmo1TGFaU1RIbEZHak5iTi1oRXhWWF9CbWZ2QWFLRG1HSG5Rc1dSbHZlaGNNSDlvZ2RiekJzbnpqMC1aektLZU1MSHBWN25PYURzUGduTjhURQ?oc=5",
+   "ts": "2026-11-20T15:12:59+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "特朗普个人化外交在三方峰会上触及极限",
+   "brief": "特朗普的个人化外交风格在三方峰会上遭遇瓶颈，APEC成果有限。",
+   "chain": "大国外交不确定性→美股风险偏好波动→A股关注地缘敏感板块与出口链",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdERQSHBUWVRvbktIZEo4ZDFTS2FKNzZjRUwzamQ5VjkwUE9RQl9KSkoxdmJ2QmNnT2tzNkdKc2dYNjNNQ2Q3RVNERlB3X1NOa3FUTU5XdmNocGtRdWdSSzIyelZhd3Mwc0JEd0t6dXhicEd4TVRPclNPcy1TTkQwcFE5OVV1WFBrUmNEcWFRenA0TGJYMDh2OWMtaV9PZmd1LXJWa0hUMWU1bE5JSjcwTw?oc=5",
+   "ts": "2026-11-20T06:03:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "索马里以“入侵”为由驱逐阿联酋大使",
+   "brief": "索马里下令阿联酋大使离境，指其“入侵”，东非之角地缘紧张升温。",
+   "chain": "东非地缘紧张→影响区域安全与投资环境→对莫桑比克/东非能源经营构成区域风险溢价",
+   "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWEg3aWNsUnlnMDBWSmdjZGtyWjJrMXROTHFNMXlycC15MU14bzV1UjUwVVJzR1JFek53RDVnV05DSkdtZnVzLUpQdFEyMGFLbDdpZEc0MlNUNzFFVHV2YkxLMnlHd2hBUVA2M1BlaW5OT041Y0s1OERhT1o3YTRXZ2d6aUl4NGs2cFVyRnQ0VmhLOXJUMkRCQWpmZ3FYODMwTU1iekNoelc?oc=5",
    "ts": "2026-11-19T20:09:48+00:00"
   },
   {
    "cat": "geo",
-   "title": "荷兰召见俄大使 基辅使馆遭袭",
-   "brief": "基辅使馆遇袭后荷兰召见俄罗斯大使，欧洲对俄外交摩擦升级。",
-   "chain": "俄乌冲突外溢→欧洲风险溢价升→美股避险、A股算力链情绪受压",
+   "title": "荷兰召见俄大使，基辅使馆遭袭",
+   "brief": "基辅使馆遇袭后荷兰召见俄罗斯大使，俄乌冲突外交摩擦升级。",
+   "chain": "俄乌冲突升级→欧洲能源与避险情绪波动→美股防务受益，A股关注军工与能源安全链",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSlhpc3VjQlJUMS1pb2FxdTNFSFlNODl6NFB5RXlnMlljcXI5dGl0emdoTkpFNmRRWnJzOXhVakxhQWdWb1hvb2tnaFZkLWZoYUFTc1lEQ0VmOXBETkp6TDQ0Tk84QWhWWlVqUFM3bG0tVXk5YVVveU91TU1MUHpvdVk4TTdBLVQtZGs0enhlZ290bjUzbDRQU1liWmVpUQ?oc=5",
    "ts": "2026-11-19T18:49:39+00:00"
   },
   {
-   "cat": "macro",
-   "title": "美初请失业金微升 劳动力仍具韧性",
-   "brief": "美国上周初请失业金人数小幅上升，但劳动力市场整体保持韧性。",
-   "chain": "就业韧性→降息预期收敛、美债利率偏强→压制美股AI高久期估值→A股算力链承压",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUjdpV0lCY3lUWlhjZzVkdTNNa1hrazREdFRCMjFSRlpzYmpXNlpYeXdOeXJyZk44NGQwT0FuN1cxdWRyUWtLenNCTGNDSVM0NERhNW5PemtfbTI1UkFtcDdvUklKdjZZM2c4NTZlUVBlYVF5SVBubVFnbkhueHNTWDhLd1c4MVJLM2g1ekQ3bHo?oc=5",
-   "ts": "2026-11-19T17:06:57+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "日本核心通胀创年内新高",
-   "brief": "能源补贴到期推升物价，日本核心通胀升至今年最高。",
-   "chain": "日通胀升温→日央行加息预期、全球利率上行→美股AI估值分母抬升→A股算力链情绪受压",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
-   "ts": "Fri, 20 Nov 2026 01:49:03 GMT"
-  },
-  {
-   "cat": "macro",
-   "title": "特朗普施压国会年内通过农业法案",
-   "brief": "特朗普敦促国会在今年内通过农业法案，推动相关立法进程。",
-   "chain": "财政/补贴政策推进→农业与消费板块预期变化→对A股影响有限",
-   "impact": 4,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdnJlNUdSV2wtMnpOOTVFWlVLMThyVDV1M0lSLXJaZTlKQnJZQTJPbTNZc2REeW9kUENIeWJ1Vjh0VU9CY0o4Mmk3Z181YXdDbjlNZGZiRkk2M2FaZ0dDNmlZQUNfQjZ6R1hxaENNcEZENkZmWTZ4N2kzUFJXbjh1NWdYSXhKbzBEZUY4UA?oc=5",
-   "ts": "2026-11-19T16:22:30+00:00"
+   "cat": "oil",
+   "title": "WTI原油暴跌逾5%，全球供应过剩担忧加剧",
+   "brief": "WTI原油单日跌超5%，市场对全球石油供应过剩的担忧升温。",
+   "chain": "供应过剩担忧→油价下行→莫桑比克油气项目收入与投资回报承压，关注东非LNG经济性",
+   "impact": 8,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/WTI-Crude-Sinks-More-Than-5-as-Global-Oil-Glut-Fears-Grow.html",
+   "ts": "Fri, 20 Nov 2026 06:30:00 -0600"
   },
   {
    "cat": "oil",
-   "title": "胡塞袭利雅得 油价因供应担忧上涨",
-   "brief": "胡塞武装袭击利雅得引发供应担忧，国际油价上涨。",
-   "chain": "沙特遇袭→中东供应风险溢价推升Brent→东非油气经营短期受益于高价",
-   "impact": 8,
+   "title": "油价料连续第三周下跌，中东出口强劲",
+   "brief": "中东出口流量强劲，油价预计连续第三周走低。",
+   "chain": "中东出口强劲→油价承压→莫桑比克油气销售价格与项目现金流面临下行压力",
+   "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb3pQREZDSHE2RmNHdDdGdExDUXhYeWljc2VualVoQ09oQV90WnFQQlZkYW1rWnl5ODJ6N2haaVBDVUY4VmFvRmtLSlZKbU5kR1lHNklrUUR3X3JGc181OHZCUHpXalZFUllBZXVEczJPUUdZZUt1MmpsTEN0MkJGSDNCVHhoa25pZFBSb1lldS1US0VJNVNBWWN1U2VwQmd0WmlQR1RKWmgyS2lyUDVfNHdWeWhzaFhmZ1E?oc=5",
    "ts": "2026-11-20T02:00:00+00:00"
   },
   {
    "cat": "oil",
-   "title": "伊朗谋求重启石油出口 突破美封锁",
-   "brief": "伊朗寻求恢复石油出口，尽管面临美国海军封锁。",
-   "chain": "伊朗增供预期→油价中期承压→莫桑比克油气售价与项目经济性偏空",
-   "impact": 7,
+   "title": "中国自波斯湾原油进口升至战时高位",
+   "brief": "中国从波斯湾的原油进口量升至战时高位，反映亚洲需求与地缘采购结构变化。",
+   "chain": "波斯湾对华出口高企→支撑中东油价基准→莫桑比克油气需关注亚洲买家议价与航线",
+   "impact": 6,
    "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Moves-to-Restart-Oil-Exports-Despite-US-Naval-Blockade.html",
-   "ts": "Fri, 20 Nov 2026 03:00:00 -0600"
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Oil-Imports-from-Persian-Gulf-Jump-to-Wartime-High.html",
+   "ts": "Fri, 20 Nov 2026 09:36:00 -0600"
   },
   {
    "cat": "oil",
-   "title": "印度10月原油进口环比增超4%",
-   "brief": "印度10月原油进口量环比增长逾4%，亚洲需求保持坚挺。",
-   "chain": "亚洲需求走强→支撑Brent中枢→东非油气销售窗口偏正面",
+   "title": "伊拉克石油整顿引发与库尔德新对峙",
+   "brief": "伊拉克石油整顿行动与库尔德地区爆发新一轮对峙，影响区域供应预期。",
+   "chain": "伊拉克供应扰动→油价短期支撑→莫桑比克油气关注中东供应风险溢价",
    "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaC1ES29YSWdoUk4wWEo0X0o5bWgzQlZ4dnpyWi1XaUJCUlZmemFBNi1WUVVsVEIyX25uRlZrODM0R1BYVDlKc3MweWo2LWxEcDlzNWRuVm9sQmNPa2hMNVU3aHhoaHZ1ZktkUDctVnd2QldwalNyZ3NzSGY1OE1ndmo0RWw4aWJUNERPTmhqWUZoZUtHUFo0TXFRSUpjMGRhTTIwcUxyWEw2VE0?oc=5",
-   "ts": "2026-11-19T18:09:01+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "俄称击退乌无人机袭击炼油设施",
-   "brief": "俄罗斯称在鞑靼斯坦击退针对石油设施的乌克兰无人机袭击。",
-   "chain": "俄炼能受扰→成品油与原油供应收紧→油价获支撑、利好东非油气经营",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUXY4SS1DQy01LTV4VDEwYTVCV2hCeThSemNINHhHNFk2Zk1ZNGpIWVk1MFlyMUJwWGFlS1otZGRYSHpYYUlqQlZOMjRrQURxU29GNlhkTmJVU1l3VE1TTkR1dWhCM2dJT2QyUnRkR0dlRVE5eHhiUHBVSUVaa0ppOFJDb0I1M081eHhNQUd4WXhlWnJ6d0RYTVhWamRONXVFZmpjVGFuYmtTeG5FYXVkcXRFaVY1RnhobzYzZjNB?oc=5",
-   "ts": "2026-11-19T18:08:24+00:00"
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/Iraqs-Oil-Crackdown-Sparks-New-Showdown-With-Kurdistan.html",
+   "ts": "Fri, 20 Nov 2026 06:30:00 -0600"
   },
   {
    "cat": "gas",
-   "title": "加拿大谋求能源\"脱美\"通道",
-   "brief": "加拿大推进能源出口多元化，降低对美国市场依赖。",
-   "chain": "北美气源流向重构→全球LNG贸易格局微调→对东非LNG项目竞争格局影响有限",
-   "impact": 4,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Energy-General/Canada-Builds-an-Energy-Exit-From-the-US.html",
-   "ts": "Thu, 19 Nov 2026 19:00:00 -0600"
-  },
-  {
-   "cat": "tech",
-   "title": "AMD遭做空报告 涉中国敞口指控",
-   "brief": "做空机构指控AMD存在中国业务敞口，AMD股价大跌。",
-   "chain": "芯片出口管制担忧→美股半导体承压→映射A股国产算力替代链情绪",
+   "title": "欧洲夏季注气已消耗11%",
+   "brief": "欧洲已消耗今夏天然气注入量的11%，储气进度引发市场关注。",
+   "chain": "欧洲储气消耗→TTF气价敏感→全球LNG流向偏紧，莫桑比克LNG项目议价与出口窗口受益",
    "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html",
-   "ts": "Fri, 20 Nov 2026 00:08:34 GMT"
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Europe-Has-Already-Drained-11-of-Its-Summer-Gas-Injections.html",
+   "ts": "Fri, 20 Nov 2026 08:30:00 -0600"
   },
   {
    "cat": "tech",
-   "title": "Intuit 36.8亿美元出售Mailchimp",
-   "brief": "Intuit将Mailchimp以36.8亿美元出售给Bending Spoons。",
-   "chain": "企业软件资产重组→美股SaaS估值重估→对A股软件板块情绪偏中性",
-   "impact": 5,
+   "title": "参议院通过BAAJA许可改革法案，获AI与能源业支持",
+   "brief": "参议院通过BAAJA许可改革法案，简化能源与AI基础设施审批，获两业支持。",
+   "chain": "许可改革→AI数据中心与能源基建提速→美股电力与算力基建受益，A股关注电力设备与算力基建链",
+   "impact": 7,
    "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/19/intuit-mailchimp-sale-bending-spoons.html",
-   "ts": "Thu, 19 Nov 2026 21:40:31 GMT"
+   "url": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html",
+   "ts": "Fri, 20 Nov 2026 03:56:17 GMT"
   },
   {
    "cat": "tech",
-   "title": "特朗普撤换网络安全主管",
-   "brief": "大规模技术故障引发批评后，白宫撤换网络安全主管。",
-   "chain": "美政府IT治理动荡→科技监管不确定性→对A股算力链影响有限",
+   "title": "拉加德：欧盟基金应承担芯片厂与数据中心首损",
+   "brief": "拉加德建议欧盟基金在芯片厂与数据中心投资中承担第一损失，推动产业投资。",
+   "chain": "欧盟产业基金加码→欧洲半导体与数据中心投资提速→美股芯片设备受益，A股关注国产替代与设备链",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/20/lagarde-eu-data-center-funding.html",
+   "ts": "Fri, 20 Nov 2026 12:52:15 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "特朗普撤换网络安全主管，此前技术故障引批评",
+   "brief": "技术故障引发批评后，特朗普撤换网络安全主管，监管人事变动。",
+   "chain": "美网络安全人事变动→科技监管不确定性→美股科技板块情绪扰动，A股关注网络安全链",
    "impact": 4,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTElpWEVLdXdjWl9QOVBPcjRMRWcyN2xMVzdqQ1hSZjJxZTJEUk9QWmtyNldWTHRyUmNBaWFtSUJ5TndzRG9vTHR1bGR5eEZXNkNDbnNNQlRKcW9PdnZPc2VZMVJhOGxablFJeUpLM2UtU1pfXzhUaWVhNi1qeXk0ejFVVDZ3VGp6b01UdmlrMEZicFlqcU9BY2lfN25rWWRMR2p4RkZYdXFkdnJWMVAtSWZkdW5PNHBfTkdxNFRwRQ?oc=5",
    "ts": "2026-11-19T22:27:00+00:00"
   },
   {
-   "cat": "ai",
-   "title": "Anthropic逆势完成创纪录IPO",
-   "brief": "Anthropic在市场抛售与反AI情绪中完成创纪录IPO。",
-   "chain": "AI一级市场融资破冰→提振美股AI叙事→映射A股算力链风险偏好",
-   "impact": 9,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html",
-   "ts": "2026-11-20T11:00:01+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "Anthropic盘前跌6% AI抛售蔓延",
-   "brief": "AI板块抛售中Anthropic盘前跌6%，英伟达、AMD同步下挫。",
-   "chain": "AI龙头回调→美股AI估值承压→A股算力链短期情绪受压",
-   "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
-   "ts": "Fri, 20 Nov 2026 10:08:47 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "软银创两年多最大单日跌幅",
-   "brief": "AI抛售冲击亚洲科技股，软银遭遇两年多来最差单日表现。",
-   "chain": "亚洲AI资产抛售→全球AI风险偏好回落→A股算力链承压",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html",
-   "ts": "Fri, 20 Nov 2026 07:23:06 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "美批准向中企售逾87.9万颗AI芯片",
-   "brief": "美国商务部批准向中国公司出售超87.9万颗AI芯片。",
-   "chain": "芯片出口边际放松→美股芯片需求预期改善→利好A股算力链供给",
-   "impact": 7,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
-   "ts": "Fri, 20 Nov 2026 00:53:55 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "参院通过AI与能源许可改革法案",
-   "brief": "参议院通过获AI与能源行业支持的BAAJA许可改革法案。",
-   "chain": "AI基建审批提速→利好美股数据中心与电力链→映射A股算力配套链",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html",
-   "ts": "Fri, 20 Nov 2026 03:56:17 GMT"
+   "cat": "tech",
+   "title": "《GTA VI》全球发售，玩家涌入罪恶都市",
+   "brief": "《GTA VI》全球上线，玩家蜂拥，游戏与内容经济热度飙升。",
+   "chain": "爆款游戏发售→美股游戏与流媒体内容收入预期上升→A股关注游戏与内容产业链",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSW16SGs3dGF4bVZtOFhOOGx3MC1yTW9FX0V6eFU5dTcxRDNpaTk4MkdVclQtaWFmRXotWmNSTldHQ2F2VjVpZUg2UGwwb3FXUm9TRGRBa0tOejlwYXZOWTI5emZ1MHZSMHdXT1lQTl81T2NwdjFQU0hBSEg2bVJUdU1saWVxVTh0cXJpSlU3TWU5RV9QUUc5MHJMcjRoQXkwUHVpWkZaeXo1UQ?oc=5",
+   "ts": "2026-11-19T21:18:57+00:00"
   }
  ]
 }
