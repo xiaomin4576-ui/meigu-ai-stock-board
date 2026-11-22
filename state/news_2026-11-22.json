@@ -1,10 +1,10 @@
 {
  "asof": "2026-11-22",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-11-22T19:41+08:00",
+ "generated_at": "2026-11-22T22:58+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 22,
+  "cross_day_suppressed": 18,
   "cluster_label": "",
   "cluster_dropped": [],
   "backfilled": 0
@@ -12,19 +12,19 @@
  "items": [
   {
    "cat": "geo",
-   "title": "伊朗袭击巴林工业设施 防空拦截",
-   "brief": "巴林称伊朗袭击其工业设施，防空系统实施拦截；这是海湾地区冲突向第三国扩散的新进展。",
-   "chain": "海湾冲突扩至巴林→中东风险溢价抬升、美股风险偏好受压→A股算力链短期情绪承压",
-   "impact": 8,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTzltZHhpNzJyRTg4dE5kYUJSOUJ4azFWY2txckEtQUlGQVVfTEtIUUpWN3dHZWlocXlZWGFidVRIMjN3ZDM4d2xQWVZ0UFAxRm81TGFfbFNZRzMxTXJOemdzOHRNeWJOLXhEWF83a3N0a1hiR0FjbUE1eGZVX002eVpMNHJyX2JoVXp5bFdjcDJBYkhOWFE4a1AzN0hSRE1wTDFmNGxvaFR6TkR6bkd4a3FSSUU1anZp?oc=5",
-   "ts": "2026-11-21T19:15:00+00:00"
+   "title": "沙特巴林遭袭，伊朗称仍愿与美达成协议",
+   "brief": "沙特称击落胡塞武装无人机，巴林称伊朗袭击其工业设施；伊朗同时表示仍对外交解决持开放态度。",
+   "chain": "海湾冲突升级→避险情绪升温压制美股风险偏好→A股算力链短期承压、资金转向防御",
+   "impact": 9,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/22/saudi-houthi-bahrain-iran-attacks-araghchi-talks.html",
+   "ts": "2026-11-22T13:25:47+00:00"
   },
   {
-   "cat": "oil",
-   "title": "阿曼附近两起油轮事件 霍尔木兹以东船只触雷",
-   "brief": "英国海事机构报告阿曼附近两起油轮事件，伊朗称一船在霍尔木兹以东触雷，航运风险升温。",
-   "chain": "油轮遇袭→Brent风险溢价上行、运费与保险成本抬升→东非采购与航运成本压力增加",
+   "cat": "geo",
+   "title": "阿曼附近两起油轮事故，霍尔木兹以东船只触雷",
+   "brief": "英国海事机构报告阿曼附近两起油轮事件，伊朗称一艘船在霍尔木兹海峡以东触雷。",
+   "chain": "航运安全受威胁→油价风险溢价上升→莫桑比克LNG海运成本与东非供应路线风险抬升",
    "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQWE4czlabDhxX0p1R0pxTHh1TVdxWDVDWG1PeTFucUVvb0FIODBPUU5CcHNyekU3OU1QM3VuN3FjMmxCTm1uWXJUUnRmVWJYUDFkbFJHT080OUNzYkw5OW1hSGxxUUtKVFNLblFyZldZRmZ1RUhscnBaa1FoVkdpQ1Rocndtc25iWS1fY0ctTW05b1dOQTJoZ3VxWDhZZ1h0RjlPc3htR3FQQTBQbjYzQ29QOA?oc=5",
@@ -32,109 +32,59 @@
   },
   {
    "cat": "geo",
-   "title": "特朗普峰会风光 习近平强化筹码",
-   "brief": "报道称特朗普沉浸于峰会排场之际，习近平借峰会扩大影响力、强化谈判地位。",
-   "chain": "中美博弈格局变化→美股对关税/供应链预期重定价→A股自主可控与算力链受关注",
+   "title": "特朗普峰会造势之际，习近平强化博弈筹码",
+   "brief": "路透分析称特朗普沉浸峰会排场时，习近平正稳步增强在中美博弈中的谈判地位。",
+   "chain": "中美博弈天平变化→影响美股对华敞口与出口管制预期→映射A股自主可控/算力国产链",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWm1waHdJRVp4M2dKRlhKSHRHQmpEOFZZdGJRRndnR3ZXb0pmc1d6cUNmZWcwX3VwTHBzY1VMVmh3RDJBNVYtV2tDV1pDX25kNFhMWlE4a3N0RVpIMV80alNzRl9VQ0NMNF81UzVXTUJWVk1ZSmkwSFZDOHFNNHBLZ2RlNWloalpTOWs5UXFVQWJqenE4RGFXLWZRN1JlS1l6MnJlWQ?oc=5",
    "ts": "2026-11-21T09:12:54+00:00"
   },
   {
+   "cat": "geo",
+   "title": "西方以钨挑战中国关键矿产主导地位",
+   "brief": "评论指出西方正通过钨等不起眼矿产，试图削弱中国在关键矿产供应链的主导权。",
+   "chain": "关键矿产博弈→半导体/军工材料供应预期扰动→A股小金属与算力硬件材料链受益",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOMlRQcTdOLUU4SUtDTFBsaC1ncUJyTUNoRFRkNFNiWng5UFotbmFwTmxONjktMF9uT2RqM1JTZUswWXA0Q0pBZ29PcGVIMnFyckZkaGpGUUdQaHdjc0Etb2NoUUh3dXRtMlhMcG1WbXVwcXA4NkpTQmI2Wnc0emdXaXNXdTBrU3BVSDJGZ1FWRWpObmhFalpQcFlLMC1nLXE4SHd5T3RkU3FLc3dEX1BReVc1N0cxaHJCMHF5a3c5NEhuSWg2WHFYbGNsZ3VVSU52NkktaHZqanZRenJfUEE?oc=5",
+   "ts": "2026-11-21T10:57:48+00:00"
+  },
+  {
    "cat": "macro",
-   "title": "美财政部制裁伊朗石油收入“受托人”",
-   "brief": "美国财政部对代收伊朗石油收入的“受托人”实施制裁，收紧对伊石油资金链。",
-   "chain": "制裁收紧伊朗油出口→原油供给预期收紧、金价避险获支撑→A股能源与算力链情绪分化",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQV3NtX0JqMFVBeHBVcTdlV1ZTaXRRMUhnLV9YWmR3VEZqUHVwbFlnOTlFTlZtTTExbUhTNzBsWXR6YTNYQmdMdVg4VGJuTTRYR19wSHhSZUJaTlRxWWpFT0o3SGgzb2JrOXY4b2xMd3cxQ2VlbGZPUzFGU2hJNFJLLTV6YlZLdmlGbUNaY19jMDdMLXVLTGRiT2ZfR2dMY0JuNzc0UzE0akxlelRNNl9sYzhLMkFwczA?oc=5",
-   "ts": "2026-11-20T21:53:07+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "黄仁勋同意出席美参议院公开听证",
-   "brief": "据参议员助手，黄仁勋同意就相关议题出席美国参议院公开听证会作证。",
-   "chain": "AI芯片监管听证→英伟达政策不确定性、美股AI链波动→A股算力链情绪联动",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVXRKZGYxUkVSVnNCbGJHOG9wWjFSY1puTVMtdUMyeGg4VTFXR2xhRXd1ZmxYZ1g5QlBZRzljX1F0V1R5WERUOGdhb09IWXE0MTJXWXl3Z0F1czYyck1OT1NHc012Rm1PaDdXR1BQSkVRTkNqQkpCVUZZSUdTMnY1S1Zsa0kwYV8tai16c1Z3QnBwb0JZNjA5QXA1TkllMFhacFZMcm9MNHoyYU1LNHBlY2ZiN1lHUElQSURVSFo5aw?oc=5",
-   "ts": "2026-11-20T19:21:45+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "Anthropic获华尔街青睐 但一大不确定性悬顶",
-   "brief": "Tech Download称Anthropic赢得华尔街好感，但业务仍面临一项重大不确定性。",
-   "chain": "AI龙头估值分歧→美股AI板块风险偏好波动→A股算力链情绪传导",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/20/tech-download-anthropic-compute-access.html",
-   "ts": "Fri, 20 Nov 2026 12:00:02 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "科技股走弱 Anthropic上市次日转跌",
-   "brief": "科技板块整体走弱拖累Anthropic，其上市第二个交易日跌入负值区间。",
-   "chain": "AI新股破发→美股AI一级/二级估值降温→A股算力链估值情绪受压",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/20/tech-wreck-drags-anthropic-into-the-red-on-its-second-day-of-trading.html",
-   "ts": "Fri, 20 Nov 2026 11:26:37 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "AI热潮迫使全球电网大规模投资",
-   "brief": "AI算力扩张推动全球电网投资激增，电力基础设施成为AI瓶颈环节。",
-   "chain": "AI电力需求→美股电力设备/公用事业受益→A股电网与算力配套链映射",
-   "impact": 6,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Crude-Oil/AI-Boom-Forces-Massive-Investment-in-Power-Grids-Worldwide.html",
-   "ts": "Sat, 21 Nov 2026 18:00:00 -0600"
-  },
-  {
-   "cat": "tech",
-   "title": "特朗普称FBI数据库遭黑客攻击或有“正面解读”",
-   "brief": "特朗普就FBI数据库最新黑客入侵表态称或有正面一面，为近期第二起入侵事件。",
-   "chain": "美政府系统安全事件→网络安全支出预期上升→A股网安板块情绪催化",
-   "impact": 5,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/21/trump-fbi-database-hack.html",
-   "ts": "2026-11-21T16:57:34+00:00"
-  },
-  {
-   "cat": "tech",
-   "title": "欧洲网络薄弱环节是日常中小企业",
-   "brief": "报道指欧洲网络安全短板集中在缺乏防护的日常中小企业，成为攻击入口。",
-   "chain": "欧洲网安缺口→全球网安合规与支出上行→A股网络安全链受益预期",
-   "impact": 4,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/21/cyber-attacks-fridges-cybersecurity.html",
-   "ts": "Sat, 21 Nov 2026 06:00:02 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "量子计算首个现实回报或在能源领域",
-   "brief": "报道称量子计算的首个实际商业回报可能率先出现在能源行业而非药物研发。",
-   "chain": "量子+能源应用→美股量子与能源科技主题升温→A股量子科技链情绪映射",
-   "impact": 4,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/22/quantum-computing-energy-applications.html",
-   "ts": "Sun, 22 Nov 2026 06:00:01 GMT"
+   "title": "AI抛售引发避险，日元瑞郎走强美元回落",
+   "brief": "AI板块回调推动资金涌向避险货币，日元对美元涨0.7%，瑞郎终结八连跌。",
+   "chain": "AI高久期股杀估值→避险资金流向日元瑞郎、美元走弱→A股算力链情绪同步降温",
+   "impact": 8,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-20/ai-selloff-boosts-haven-demand-for-yen-franc-as-dollar-slips",
+   "ts": "2026-11-21T14:37:37+00:00"
   },
   {
    "cat": "macro",
    "title": "中期选举后预测市场监管之争升温",
-   "brief": "中期选举后，州与联邦围绕预测市场监管的博弈升温，合规边界待明确。",
-   "chain": "预测市场合规不确定→美股相关平台估值波动→A股影响有限、情绪层面",
-   "impact": 3,
+   "brief": "美国州与联邦围绕预测市场（事件合约）监管权限的争夺在中期选举后进一步激化。",
+   "chain": "监管不确定性上升→影响金融科技与交易平台估值→对A股影响有限、情绪面偏中性",
+   "impact": 4,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/21/prediction-market-regulation-kalshi-cftc.html",
    "ts": "Sat, 21 Nov 2026 13:12:41 GMT"
   },
   {
    "cat": "oil",
-   "title": "感恩节汽油价格或破纪录 尽管近期回落",
-   "brief": "尽管近期油价回落，感恩节期间美国汽油价格仍可能创纪录，终端消费承压。",
-   "chain": "汽油价格高企→美国需求与通胀预期扰动→东非成品油采购成本压力延续",
+   "title": "美财政部制裁伊朗石油收入“受托人”",
+   "brief": "美国财政部对代伊朗收取石油收入的中间人实施制裁，加大德黑兰资金链压力。",
+   "chain": "制裁收紧伊朗出口→边际支撑油价→莫桑比克油气项目对标价格环境偏有利",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQV3NtX0JqMFVBeHBVcTdlV1ZTaXRRMUhnLV9YWmR3VEZqUHVwbFlnOTlFTlZtTTExbUhTNzBsWXR6YTNYQmdMdVg4VGJuTTRYR19wSHhSZUJaTlRxWWpFT0o3SGgzb2JrOXY4b2xMd3cxQ2VlbGZPUzFGU2hJNFJLLTV6YlZLdmlGbUNaY19jMDdMLXVLTGRiT2ZfR2dMY0JuNzc0UzE0akxlelRNNl9sYzhLMkFwczA?oc=5",
+   "ts": "2026-11-20T21:53:07+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "感恩节汽油价格或逆势创纪录",
+   "brief": "尽管近期油价回落，机构预计感恩节期间美国汽油零售价仍可能刷新同期纪录。",
+   "chain": "成品油价格坚挺→炼油利润与原油需求信号偏强→东非油气销售窗口相对友好",
    "impact": 4,
    "source": "OilPrice",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Thanksgiving-Gas-Prices-Could-Break-a-Record-Despite-Recent-Plunge.html",
@@ -142,23 +92,73 @@
   },
   {
    "cat": "gas",
-   "title": "风电可使全天候太阳能成本降18%",
-   "brief": "Ember称风电与太阳能组合可将全天候供电成本降低约18%，利好可再生能源经济性。",
-   "chain": "风光成本下降→LNG长期需求预期边际承压→莫桑比克LNG项目长期竞争加剧",
-   "impact": 3,
+   "title": "AI热潮迫使全球电网大规模投资",
+   "brief": "AI数据中心用电激增，正推动各国对输配电网络进行大规模资本开支。",
+   "chain": "电力需求激增→天然气调峰与LNG需求中期抬升→莫桑比克LNG长期承购前景受益",
+   "impact": 6,
    "source": "OilPrice",
-   "url": "https://oilprice.com/Alternative-Energy/Wind-Power/Wind-Could-Cut-the-Cost-of-Round-the-Clock-Solar-Power-by-18-Ember-Says.html",
-   "ts": "Sat, 21 Nov 2026 16:00:00 -0600"
+   "url": "https://oilprice.com/Energy/Crude-Oil/AI-Boom-Forces-Massive-Investment-in-Power-Grids-Worldwide.html",
+   "ts": "Sat, 21 Nov 2026 18:00:00 -0600"
   },
   {
-   "cat": "macro",
-   "title": "比特币监管利好已兑现 后续何来上涨动力",
-   "brief": "分析称比特币监管利好逻辑已基本兑现，市场寻找新的上涨驱动。",
-   "chain": "加密监管预期出尽→美股风险资产情绪分化→A股影响有限",
-   "impact": 3,
+   "cat": "tech",
+   "title": "特朗普称与黄仁勋谈过，美对华芯片出口政策未变",
+   "brief": "特朗普称与黄仁勋讨论过相关议题，财长贝森特对CNBC表示英伟达对华芯片出口政策维持不变。",
+   "chain": "对华芯片管制维持现状→英伟达中国收入预期稳定→A股算力链国产替代逻辑延续",
+   "impact": 8,
    "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/20/bitcoin-price-catalysts-tokenization-regulation.html",
-   "ts": "Fri, 20 Nov 2026 18:07:18 GMT"
+   "url": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html",
+   "ts": "Fri, 20 Nov 2026 22:08:41 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "科技股抛售拖累Anthropic上市次日转跌",
+   "brief": "科技板块整体走弱，AI公司Anthropic在上市第二个交易日跌入负值区间。",
+   "chain": "AI新股破发→一级市场AI估值承压→A股AI应用与算力概念情绪受抑",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/20/tech-wreck-drags-anthropic-into-the-red-on-its-second-day-of-trading.html",
+   "ts": "Fri, 20 Nov 2026 11:26:37 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "Anthropic赢得华尔街青睐，但一大不确定性犹存",
+   "brief": "The Tech Download指出Anthropic获资本市场认可，但其商业模式仍存关键不确定因素。",
+   "chain": "AI龙头估值分歧→影响美股AI板块定价→传导A股AI应用链风险偏好",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/20/tech-download-anthropic-compute-access.html",
+   "ts": "Fri, 20 Nov 2026 12:00:02 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "欧洲网络安全软肋：被忽视的日常企业",
+   "brief": "报道指出欧洲网络安全最薄弱环节是大量未被重视的中小企业，成为攻击入口。",
+   "chain": "企业安全支出预期上升→利好网络安全软件商→A股网安板块情绪面偏正面",
+   "impact": 3,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/21/cyber-attacks-fridges-cybersecurity.html",
+   "ts": "Sat, 21 Nov 2026 06:00:02 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "量子计算首个现实回报或在能源领域",
+   "brief": "分析认为量子计算的首个实际商业价值可能率先出现在能源行业，而非药物研发。",
+   "chain": "量子+能源交叉落地→影响美股量子计算与能源科技估值→映射A股量子与电力信息化链",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/22/quantum-computing-energy-applications.html",
+   "ts": "Sun, 22 Nov 2026 06:00:01 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "比特币在Anthropic、SpaceX上市前现相同抛售模式",
+   "brief": "报道称比特币在两大IPO前出现与以往一致的抛售形态，市场关注后续走向。",
+   "chain": "风险资产联动抛售→加密与AI新股同受流动性挤压→A股算力链情绪偏谨慎",
+   "impact": 4,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/20/bitcoin-pre-ipo-selloff-pattern-anthropic-spacex.html",
+   "ts": "Fri, 20 Nov 2026 14:34:14 GMT"
   }
  ]
 }
