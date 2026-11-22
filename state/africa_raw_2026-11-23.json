@@ -1,6 +1,6 @@
 {
  "asof": "2026-11-23",
- "fetched_at": "2026-11-23T02:33+08:00",
+ "fetched_at": "2026-11-23T04:31+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -14,12 +14,12 @@
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 3,
-   "非洲科技·聚合": 8,
+   "非洲科技·聚合": 7,
    "中非科技·聚合": 16
   },
   "total": 60,
-  "ai_flagged": 23,
-  "aiinfra_flagged": 5,
+  "ai_flagged": 22,
+  "aiinfra_flagged": 4,
   "countries": 10
  },
  "items": [
@@ -42,16 +42,6 @@
    "country": "🇲🇱 马里",
    "is_ai": false,
    "is_aiinfra": false
-  },
-  {
-   "title": "Data centre tax threat: Trump warns US firms 2 days after SA",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE8wNEg1eUZwT3NiQThNS0pvUzVnOVdpY21hNzZWTzQ0QlozSjV1NUtQNUFqTXI4cGozRDNMbi1SWVZSc1VacnJlcmdJamt2TFZjRGRmeE5xcTNJeEc1aTlFc3R2WDNvUmJWTURDT0o4d0w?oc=5\" target=\"_bla",
-   "source": "DNE Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8wNEg1eUZwT3NiQThNS0pvUzVnOVdpY21hNzZWTzQ0QlozSjV1NUtQNUFqTXI4cGozRDNMbi1SWVZSc1VacnJlcmdJamt2TFZjRGRmeE5xcTNJeEc1aTlFc3R2WDNvUmJWTURDT0o4d0w?oc=5",
-   "date": "Sat, 21 Nov 2026 17:39:00 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": true
   },
   {
    "title": "Moniepoint MFB opens Northern regional headquarters in physical banking push",
@@ -91,6 +81,16 @@
    "date": "Fri, 20 Nov 2026 17:53:45 +0000",
    "country": null,
    "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Nasdaq South Africa Technology (^NQZA10T) Seasonal returns chart",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE5QNWNyRE1Vd2c0R3ZYSFFYWkJacHgyTVByTkhFdXlqcHB1eXdDV2FxTUJOTXJBUl9wN3FBbzIwUzBIS0VGemFjSl9NdHBHMERVYzl0Mnl5MlNUd3FTb3A0Ri1aYkk2akpHT0E?oc=5\" target=\"_blank\">Nasd",
+   "source": "Yahoo Finance UK·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5QNWNyRE1Vd2c0R3ZYSFFYWkJacHgyTVByTkhFdXlqcHB1eXdDV2FxTUJOTXJBUl9wN3FBbzIwUzBIS0VGemFjSl9NdHBHMERVYzl0Mnl5MlNUd3FTb3A0Ri1aYkk2akpHT0E?oc=5",
+   "date": "Fri, 20 Nov 2026 16:59:59 GMT",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -354,6 +354,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "Africa's Enterprise Technology Leaders Focus on Turning AI Potential into Business Value at Zensar CIS Converge 2026",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTzM1ME5NZEc3ZmUyUWRiU1BNUC1pWHR0S2FHWHIxV1FtUEpFUFViWi1LSjJaOWVlN1d3RF9obmdLS0dPODRibXgtUGEyNHVzNHhKV3RWdE10YWdyM2F5X0JBelhQZ3pKRzJ4dnh3RWJVcDdrUTdGcWR2NVJESG",
+   "source": "Yahoo Finance·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTzM1ME5NZEc3ZmUyUWRiU1BNUC1pWHR0S2FHWHIxV1FtUEpFUFViWi1LSjJaOWVlN1d3RF9obmdLS0dPODRibXgtUGEyNHVzNHhKV3RWdE10YWdyM2F5X0JBelhQZ3pKRzJ4dnh3RWJVcDdrUTdGcWR2NVJESGVuMkxxNGRpQXlPTzdKdlJ5VktHRGIxNWFFTnoxTlVHT3psTklqTk5BcmNBUGc?oc=5",
+   "date": "Fri, 20 Nov 2026 06:47:00 GMT",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
    "title": "With new app, GTCO is giving its iconic 737 brand a second life",
    "brief": "Ten years ago, Guaranty Trust Bank Plc, one of Nigeria’s largest banks, launched *737#, a USSD banking service that helped redefine how Nigerians accessed financial services beyond the brick-and-mortar of traditional ban",
    "source": "TechCabal",
@@ -424,22 +434,12 @@
    "is_aiinfra": false
   },
   {
-   "title": "US acts against Chinese telecoms firms hours after Trump-Xi meeting",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLXJiakY5MXZ5VWpoeXRaM1pUMm1rQVVHalp5TS1FNFRNMkg0Ti1vQlZEdlVJQWszTWZOZFFYVXRoMS01dUlyRWIxTElLMjhFSjdpakZuUUpWSHh1VXpqSlMwSnVCQ0E4WkNJRlFhQWdhcjI0XzZROFZKUGVYNX",
-   "source": "South China Morning Post·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLXJiakY5MXZ5VWpoeXRaM1pUMm1rQVVHalp5TS1FNFRNMkg0Ti1vQlZEdlVJQWszTWZOZFFYVXRoMS01dUlyRWIxTElLMjhFSjdpakZuUUpWSHh1VXpqSlMwSnVCQ0E4WkNJRlFhQWdhcjI0XzZROFZKUGVYNXJ4eFFBbThmNU04VFpucU1Pdi05QmdXYlFudmZaMjVJQUNTbkpsWjV1ZTJsMmxKNXlHcVBvOEx2UmpLSUNZ0gG7AUFVX3lxTE5Pdk02Wl9kVmxGZVNVclhJMkcwb1pjXzZwdDQ0NVVPVDFSYlprX18yRnNqb3F4RkMzeW1Uekg4VEFGbFkyOUdPemdzYlNrcHJ6MVJSZEpvQTg1eXVPbWRDcXhaYnZYVEtjeFJxNFFxam16NTV2V3B6YVBjNlBfa2Q3bmgtamVFSmNUYjdNMWVyb2txRVdtVHY0RkpNY2F6V0ZrclMyMW9NME00NGFIeUZ4NVB6bnB3VUVQU28?oc=5",
-   "date": "Thu, 19 Nov 2026 18:21:18 GMT",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Africa Tech Festival Awards 2026 shine spotlight on innovation driving Africa’s digital future",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxPbUFnTXNnaU5TbGFQUy1EbGJ0Nm1mRE5vOHpPRGZaM2xiSUZKTnBsdmItUzFFY2N3djlxUV9NOTViMzVJZDliTUhzemFPLTJ5NlVrMmtZUWttQ3QtRkRLUldvZ3hHVzVhSXZkSy1oRnFtajJRa19MNUNWdE5YQ3",
-   "source": "TradingView·聚合",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPbUFnTXNnaU5TbGFQUy1EbGJ0Nm1mRE5vOHpPRGZaM2xiSUZKTnBsdmItUzFFY2N3djlxUV9NOTViMzVJZDliTUhzemFPLTJ5NlVrMmtZUWttQ3QtRkRLUldvZ3hHVzVhSXZkSy1oRnFtajJRa19MNUNWdE5YQ3pheEN1M2ItX2k5d1lLbndZcHVuVjhhMk1wY0YydkpzOUpMdkZZRkRVeFJ3b3pmV0N0VDdLZ2ZpaGFLdzVUUnJ1QzM2bENPeTlrZzJsVjBQb3hoOUJjRUFrWWFOYVV6ZXpmWjdR?oc=5",
-   "date": "Thu, 19 Nov 2026 17:50:03 GMT",
-   "country": null,
+   "title": "8 Kenyan students to travel to China for Huawei tech programme",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQSzFmYXZRWEVuWVNiOEFWamd1UUpoNTdPY3htR1ZYVlpLRENXNVZWUVE2ME9mVkxtLUtYQ0IzNmJHUl91Sl9STGh4cEFVN29DUGk0Tk5kTW1KWEJMQ2FXN20zVDhzMW9uNlNrMlNfZVVQZG95U014M0FWUDBvZT",
+   "source": "Citizen Digital·聚合",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSzFmYXZRWEVuWVNiOEFWamd1UUpoNTdPY3htR1ZYVlpLRENXNVZWUVE2ME9mVkxtLUtYQ0IzNmJHUl91Sl9STGh4cEFVN29DUGk0Tk5kTW1KWEJMQ2FXN20zVDhzMW9uNlNrMlNfZVVQZG95U014M0FWUDBvZTJsbFZUOHF2YUlvUGoyc3dNcXhEa05DZjNWSjBGTkh1VDhaWG5kdg?oc=5",
+   "date": "Thu, 19 Nov 2026 19:02:01 GMT",
+   "country": "🇰🇪 肯尼亚",
    "is_ai": false,
    "is_aiinfra": false
   },
@@ -491,16 +491,6 @@
    "date": "Thu, 19 Nov 2026 16:32:00 +0200",
    "country": null,
    "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "360 Woman Africa at 10: Why women must move beyond using AI to building Africa’s technology future",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxPY0F6UngzR3IwNHJDT2dxbzVXRFhzcEV0NXUtcmZkZjZnSEZiLUpXei1maTZUVVFvSDNGWklxNnJXYWZuZmtFYnVGUkw5YkhFVEpwZjFXUGJCY0d5OWpBTVVjZ3ZNVHhHU09Vb1drd2VJNHYzXzZUYWhoRjI2S0",
-   "source": "TechCabal·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPY0F6UngzR3IwNHJDT2dxbzVXRFhzcEV0NXUtcmZkZjZnSEZiLUpXei1maTZUVVFvSDNGWklxNnJXYWZuZmtFYnVGUkw5YkhFVEpwZjFXUGJCY0d5OWpBTVVjZ3ZNVHhHU09Vb1drd2VJNHYzXzZUYWhoRjI2S0pDT2h1enlUUktlNXlXQzNXXzROZGZSaV9VTGt5ZjlrZzMwWDJXNVJHVkNMaDhnNEpVejhxN3QxckpfSGtLVEUyWnRsTkI1MXI4NjNR?oc=5",
-   "date": "Thu, 19 Nov 2026 14:20:25 GMT",
-   "country": null,
-   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -621,6 +611,16 @@
    "date": "Thu, 19 Nov 2026 02:54:18 +0000",
    "country": null,
    "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "What South African stores are discounting for Black Friday 2026, and when their sales end",
+   "brief": "Some South African stores like Takealot and Bash started Black Friday sales in October and will keep discounting past 27 November.",
+   "source": "Condia",
+   "url": "https://thecondia.com/black-friday-2026-south-africa/",
+   "date": "Thu, 19 Nov 2026 00:04:25 +0000",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
    "is_aiinfra": false
   }
  ]
