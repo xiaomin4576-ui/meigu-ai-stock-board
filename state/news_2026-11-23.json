@@ -1,0 +1,167 @@
+{
+ "asof": "2026-11-23",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-11-23T02:32+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 31,
+  "cluster_label": "伊朗/卡塔尔/巴林",
+  "cluster_dropped": [
+   "美方否认伊朗称导弹击伤F-16",
+   "卡塔尔代表团访德黑兰会谈"
+  ],
+  "backfilled": 7
+ },
+ "items": [
+  {
+   "cat": "geo",
+   "title": "巴林称伊朗袭击工业设施 防空拦截",
+   "brief": "巴林称伊朗袭击其工业设施，防空系统拦截来袭目标；海湾局势再度升温。",
+   "chain": "海湾冲突升级→避险情绪抬升、美股风险偏好受压→A股算力链短期承压",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTzltZHhpNzJyRTg4dE5kYUJSOUJ4azFWY2txckEtQUlGQVVfTEtIUUpWN3dHZWlocXlZWGFidVRIMjN3ZDM4d2xQWVZ0UFAxRm81TGFfbFNZRzMxTXJOemdzOHRNeWJOLXhEWF83a3N0a1hiR0FjbUE1eGZVX002eVpMNHJyX2JoVXp5bFdjcDJBYkhOWFE4a1AzN0hSRE1wTDFmNGxvaFR6TkR6bkd4a3FSSUU1anZp?oc=5",
+   "ts": "2026-11-21T19:15:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "以军加沙车辆遭袭致三人死亡",
+   "brief": "加沙卫生部称以军对一辆车辆的打击造成三人死亡，加沙局势持续紧张。",
+   "chain": "加沙冲突延续→中东地缘风险不减→美股避险与能源板块波动、A股情绪偏谨慎",
+   "impact": 4,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNER6Q2NPRk9TUmtuX1hhQ21MdEdsc05rT0FxZzE4RTczVDJqbjN1My04Zm4tUkd1aUJ4cDdXSTM3ZVl6UVg0S0hLTWs1d1pjLTRDcVgtM1dVeVNvWFZHd1g3NEZCdm5HMlR1U09Cd1JfWUg1cEQ0aUZSU19uSHowSWhEUERvNE5OM1NxTDR1T3VYV21rb25pX1NSOFdFcHlOd3VzYkpMT2VzMlYwRVVSMmFuc2J3SkZ5dUM3Z0M0YXEyZw?oc=5",
+   "ts": "2026-11-21T18:21:58+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "情报总监警告技术故障后仍有波折",
+   "brief": "国家情报总监Clayton在感恩节出行前警告技术故障后仍会有“波折”，此前多起故障扰乱航空。",
+   "chain": "关键基础设施故障频发→美股科技与航空板块风险溢价上升→A股算力链情绪受抑",
+   "impact": 5,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+   "ts": "2026-11-22T16:18:09+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "特朗普称FBI数据库遭黑客入侵",
+   "brief": "特朗普称FBI数据库最新遭黑客入侵或有“正面转机”，为近期第二次入侵。",
+   "chain": "美政府系统安全事件→美股网络安全板块获关注→A股信息安全链情绪联动",
+   "impact": 5,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/21/trump-fbi-database-hack.html",
+   "ts": "2026-11-21T16:57:34+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "Anthropic研究员称Claude解出黎曼猜想",
+   "brief": "数学家Levent Alpöge称借助Claude给出黎曼猜想的证明，引发AI数学能力热议。",
+   "chain": "AI推理能力突破叙事→美股AI龙头估值情绪提振→A股算力与AI应用链催化",
+   "impact": 6,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-21/anthropic-researcher-claims-to-solve-riemann-problem-with-claude",
+   "ts": "2026-11-21T16:08:28+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "谷歌签约50MW超热地热供电",
+   "brief": "谷歌在俄勒冈签署50兆瓦超热地热供电协议，为数据中心供能。",
+   "chain": "科技巨头锁定地热电力→AI数据中心能源需求升温→对莫桑比克油气商属长期替代竞争信号",
+   "impact": 4,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/Google-Backs-Superhot-Geothermal-in-50-MW-Oregon-Power-Deal.html",
+   "ts": "Sun, 22 Nov 2026 12:00:00 -0600"
+  },
+  {
+   "cat": "gas",
+   "title": "英国净零转型面临中国依赖问题",
+   "brief": "报道指英国净零革命在清洁能源供应链上高度依赖中国，存在战略风险。",
+   "chain": "欧洲能源转型供应链受制→LNG与清洁能源投资节奏受影响→东非LNG项目融资环境边际变化",
+   "impact": 3,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/Britains-Net-Zero-Revolution-Has-a-China-Problem.html",
+   "ts": "Sat, 21 Nov 2026 12:00:00 -0600"
+  },
+  {
+   "cat": "macro",
+   "title": "比特币监管利好出尽 后续何驱动",
+   "brief": "分析称比特币监管利好已被消化，市场寻找新的上涨驱动因素。",
+   "chain": "加密监管预期兑现→美股风险资产偏好分化→A股情绪中性、算力链无直接传导",
+   "impact": 3,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/20/bitcoin-price-catalysts-tokenization-regulation.html",
+   "ts": "Fri, 20 Nov 2026 18:07:18 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "GLP-1冲击叠加外卖竞争 披萨连锁承压",
+   "brief": "达美乐、棒约翰、必胜客面临需求走弱、外卖竞争加剧与饮食习惯变化，GLP-1用药只是压力之一。",
+   "chain": "消费需求走弱→美股餐饮消费板块盈利预期下修→映射A股餐饮供应链与消费复苏链情绪",
+   "impact": 4,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/22/pizza-chains-sales-glp-1-demand.html",
+   "ts": "2026-11-22T13:00:01+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "印度富豪PV Krishna Reddy募7.2亿美元私募信贷",
+   "brief": "私募信贷机构以多档跨资产结构支持MEIL收购，凸显印度私募信贷市场活跃。",
+   "chain": "私募信贷扩张→美股另类资管与信贷市场风险偏好→映射A股非银金融与跨境资本流动情绪",
+   "impact": 4,
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-20/billionaire-raises-720-million-private-credit-for-megha-buyout",
+   "ts": "2026-11-21T10:59:35+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "巴西前总统博索纳罗因肠梗阻住院",
+   "brief": "巴西前总统博索纳罗因肠梗阻入院治疗，事件发生于近日，或影响巴西政治情绪。",
+   "chain": "巴西政治不确定性→美股新兴市场风险偏好→映射A股拉美资源与农产品进口链情绪",
+   "impact": 3,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQnhGQzVqMUN5Z0VlenUyUE1IRndZMnpvNXRnbmkxRWdhMUZQSUJTX1FiVk5KN0JHN0RLQm4zRnJqWm4zQUkyOXQ1RENLU2xQN0dJbnZvc2hNbXJSTU9ic1BjLXA5VVZGZEVISUxPZk9Ibl9SaDZ5YVFvRUhSMi1fRVRkX0luUi1HSkh6RGdUM2pUVmZ0RlBPUXI3dU5NX0I1bEwteUlUOTUyYk9mWGNJekt2cGdCUDhZbHN6clJkNEhKQQ?oc=5",
+   "ts": "2026-11-20T23:15:48+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "中国借峰会扩大全球影响力",
+   "brief": "报道分析中国如何利用多边峰会拓展全球影响力，属大国博弈与外交布局观察。",
+   "chain": "中国外交扩张→美股地缘风险溢价与供应链重构预期→映射A股一带一路与自主可控链",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/21/china-xi-trump-putin-global-diplomacy-shenzhen.html",
+   "ts": "Sat, 21 Nov 2026 06:00:02 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "美航司取消国际头等舱 改推巨型商务舱",
+   "brief": "美国航司放弃国际头等舱，转而打造更大更豪华的商务舱套间，反映高端航空需求结构变化。",
+   "chain": "航司客舱结构升级→美股航空与高端出行消费→映射A股航空制造与客舱内饰供应链",
+   "impact": 4,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/21/us-airlines-first-class-business-class.html",
+   "ts": "2026-11-21T12:00:01+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "科技宕机催生“末日经济”新产业",
+   "brief": "频发的科技系统宕机正催生围绕灾备与业务连续性的新经济形态。",
+   "chain": "宕机风险上升→美股云计算与网络安全需求→映射A股信创与数据安全链",
+   "impact": 4,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/21/emergency-prep-spending-tech-outages.html",
+   "ts": "Sat, 21 Nov 2026 15:04:56 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "GTA VI发售引爆内容经济",
+   "brief": "GTA VI大规模发售带动内容创作与周边经济繁荣，游戏生态商业化加速。",
+   "chain": "游戏大作落地→美股游戏与内容平台变现预期→映射A股游戏与AI内容生成链",
+   "impact": 4,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/20/gta-vi-launch-streaming-content-economy.html",
+   "ts": "Fri, 20 Nov 2026 07:08:36 GMT"
+  }
+ ]
+}
