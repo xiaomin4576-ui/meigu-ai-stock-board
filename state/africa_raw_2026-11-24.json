@@ -1,6 +1,6 @@
 {
  "asof": "2026-11-24",
- "fetched_at": "2026-11-24T19:38+08:00",
+ "fetched_at": "2026-11-24T21:58+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -14,15 +14,35 @@
    "Club of Mozambique": 1,
    "Zimbabwe Situation": 2,
    "African Business": 3,
-   "非洲科技·聚合": 12,
+   "非洲科技·聚合": 13,
    "中非科技·聚合": 16
   },
   "total": 60,
   "ai_flagged": 25,
-  "aiinfra_flagged": 3,
+  "aiinfra_flagged": 2,
   "countries": 9
  },
  "items": [
+  {
+   "title": "Meta’s privacy scandal leaves Kenya chasing the wrong defendants",
+   "brief": "Meta faces a privacy probe in Kenya, but the companies and workers left to answer for its Ray-Ban glasses are already paying the price.",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/24/meta-and-sama-privacy-probe-kenya/",
+   "date": "Tue, 24 Nov 2026 13:30:17 +0000",
+   "country": "🇰🇪 肯尼亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "UK regulators wants AI agent startups to engage before launch",
+   "brief": "Four UK regulators have told firms building personal AI agents to meet their obligations before launch.",
+   "source": "Condia",
+   "url": "https://thecondia.com/uk-regulators-ai-agent-startups-engage/",
+   "date": "Tue, 24 Nov 2026 11:49:43 +0000",
+   "country": null,
+   "is_ai": true,
+   "is_aiinfra": false
+  },
   {
    "title": "Visa Expands Tokenized Contactless Payments Through Bank Apps in Egypt",
    "brief": "Visa,  a world leader in digital payments, announced the expansion of tokenized contactless payments in Egypt through participating banks’ own mobile applications. The service will ......",
@@ -31,6 +51,16 @@
    "date": "Tue, 24 Nov 2026 11:19:09 +0000",
    "country": "🇪🇬 埃及",
    "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "AI skills shortage drives EU firm’s SA expansion",
+   "brief": "European AI company Wonderful plans to more than double its presence in SA, amid growing enterprise AI demand.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/ai-skills-shortage-drives-eu-firms-sa-expansion/Olx4z7kaJEPq56km",
+   "date": "Tue, 24 Nov 2026 13:15:34 +0200",
+   "country": null,
+   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -244,6 +274,16 @@
    "is_aiinfra": false
   },
   {
+   "title": "Rethinking resilience: BOATech launches DRaaS at Equinix",
+   "brief": "Through Axiz's partner ecosystem, BOATech's DRaaS at Equinix Johannesburg gives organisations faster recovery and a broader resilience foundation.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/rethinking-resilience-boatech-launches-draas-at-equinix/JN1gP7OARnbqjL6m",
+   "date": "Tue, 24 Nov 2026 08:38:00 +0200",
+   "country": "🇿🇦 南非",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
    "title": "Nigeria wants to turn data protection into a 500,000-job pipeline",
    "brief": "Nigeria’s data protection regulator wants more mid-career professionals to step into the country’s growing privacy workforce, betting that local talent can fill a global shortage of certified experts.",
    "source": "TechCabal",
@@ -304,7 +344,7 @@
    "is_aiinfra": false
   },
   {
-   "title": "Last year, Nigerians paid ₦1.5B in UK Global Talent endorsement fees. 97% were not endorsed",
+   "title": "Last year, Nigerians paid ₦1.5B in UK Global Talent tech endorsement fees. 97% were not endorsed",
    "brief": "Home Office data analysed by Condia show Tech Nation endorsed 42 of 1,303 Nigerian applicants for the UK's Global Talent visa in 2025-26, the lowest success rate of any nationality",
    "source": "Condia",
    "url": "https://thecondia.com/tech-nation-global-talent-nigeria-success-rate/",
@@ -504,36 +544,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Nutanix focuses on systems integrators in partner programme expansion",
-   "brief": "Nutanix is expanding its FY27 Elevate Partner Programme to include systems integrators and consulting partners, with new referral, renewal and services incentives.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/nutanix-focuses-on-systems-integrators-in-partner-programme-expansion/dgp45vaBA2o7X9l8",
-   "date": "Mon, 23 Nov 2026 12:59:05 +0200",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "President gives govt 90 days to develop AI action plan",
-   "brief": "President Cyril Ramaphosa tasks his government with developing a national AI action plan, after exploration visit to Silicon Valley.",
-   "source": "ITWeb Africa",
-   "url": "https://www.itweb.co.za/article/president-gives-govt-90-days-to-develop-ai-action-plan/KzQenMjy1667Zd2r",
-   "date": "Mon, 23 Nov 2026 12:50:58 +0200",
-   "country": null,
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Africa wants AI. Can its startups afford to build it?",
-   "brief": "Nigeria and South Africa are more optimistic about artificial intelligence than the global average of 53%, according to a 2025 Google and Ipsos report. But turning that enthusiasm into a viable business is expensive.",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/11/23/high-cost-building-ai-africa/",
-   "date": "Mon, 23 Nov 2026 10:24:12 +0000",
-   "country": "🇿🇦 南非",
-   "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
    "title": "What two decades of building startups taught Opeyemi Awoyemi",
    "brief": "Opeyemi Awoyemi, who built Jobberman and Whogohost, reflects on two decades of founding, selling, investing and starting again with Ola CV.",
    "source": "Condia",
@@ -582,16 +592,6 @@
    "country": "🇲🇱 马里",
    "is_ai": false,
    "is_aiinfra": false
-  },
-  {
-   "title": "Data centre tax threat: Trump warns US firms 2 days after SA",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE8wNEg1eUZwT3NiQThNS0pvUzVnOVdpY21hNzZWTzQ0QlozSjV1NUtQNUFqTXI4cGozRDNMbi1SWVZSc1VacnJlcmdJamt2TFZjRGRmeE5xcTNJeEc1aTlFc3R2WDNvUmJWTURDT0o4d0w?oc=5\" target=\"_bla",
-   "source": "DNE Africa·聚合",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8wNEg1eUZwT3NiQThNS0pvUzVnOVdpY21hNzZWTzQ0QlozSjV1NUtQNUFqTXI4cGozRDNMbi1SWVZSc1VacnJlcmdJamt2TFZjRGRmeE5xcTNJeEc1aTlFc3R2WDNvUmJWTURDT0o4d0w?oc=5",
-   "date": "Sat, 21 Nov 2026 17:39:00 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": true
   },
   {
    "title": "LendPlus loan Kenya: App download, loan application, limits and repayment (2026 Guide)",

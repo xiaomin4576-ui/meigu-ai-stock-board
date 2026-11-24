@@ -1,22 +1,20 @@
 {
  "asof": "2026-11-24",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-11-24T19:38+08:00",
+ "generated_at": "2026-11-24T21:58+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 1,
-  "cluster_label": "伊朗/霍尔木兹",
-  "cluster_dropped": [
-   "美国制裁伊朗影子银行网络数十个实体"
-  ],
+  "cluster_label": "",
+  "cluster_dropped": [],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "纽约联储威廉姆斯:通胀将回落,利率或随时间上行",
-   "brief": "美联储重量级官员威廉姆斯表示对通胀回落至2%有信心,但暗示利率可能随时间走高。",
-   "chain": "美联储偏鹰表态→美债收益率与贴现率预期抬升→压制美股AI高久期估值→A股算力链风险偏好承压",
+   "title": "纽约联储威廉姆斯：通胀将回落，利率或随时间上行",
+   "brief": "美联储重量级官员威廉姆斯表示，随着通胀逐步靠近2%目标，利率可能在一段时间内走高。",
+   "chain": "美联储官员偏鹰表态→美债收益率与贴现率预期抬升→压制美股AI高久期估值→A股算力链情绪承压",
    "impact": 8,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
@@ -24,49 +22,59 @@
   },
   {
    "cat": "macro",
-   "title": "威廉姆斯通胀警告后美债收益率走低,市场等5年期招标",
-   "brief": "纽约联储威廉姆斯发出通胀警告后美债收益率反而下行,投资者等待5年期国债拍卖结果。",
-   "chain": "收益率下行→美股AI成长股贴现分母改善→A股算力链情绪偏暖,但需警惕通胀警告反复",
+   "title": "威廉姆斯通胀警告后美债收益率走低",
+   "brief": "纽约联储威廉姆斯发出通胀警告后，美债收益率下行，市场等待五年期国债拍卖结果。",
+   "chain": "通胀警告与收益率回落并存→利率路径不确定→美股AI成长股分母端波动→A股算力链跟随风险偏好",
    "impact": 6,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/24/treasury-yields-bonds-inflation.html",
-   "ts": "Tue, 24 Nov 2026 10:51:07 GMT"
+   "ts": "Tue, 24 Nov 2026 12:35:06 GMT"
   },
   {
    "cat": "geo",
-   "title": "伊朗称霍尔木兹三艘油轮触雷,美方护航仍遭袭",
-   "brief": "伊朗方面称三艘油轮在霍尔木兹海峡触雷,尽管有美军护航,美财政部同步扩大制裁。",
-   "chain": "海峡航运风险升级→油价地缘溢价与航运保费上行→美股能源板块波动→A股航运/油气链情绪扰动",
-   "impact": 9,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html",
-   "ts": "Tue, 24 Nov 2026 05:05:08 GMT"
-  },
-  {
-   "cat": "geo",
-   "title": "美小组称中国改变手法但仍遏制印度崛起",
-   "brief": "美国一委员会报告称中国调整策略但仍在阻挠印度崛起,凸显大国博弈。",
-   "chain": "中美印博弈→供应链与地缘风险溢价→美股跨国企业亚洲敞口受关注→A股相关出口链情绪扰动",
-   "impact": 4,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/24/us-china-thwarting-india-growth.html",
-   "ts": "Tue, 24 Nov 2026 04:27:38 GMT"
-  },
-  {
-   "cat": "oil",
-   "title": "供应增加抵消霍尔木兹威胁,油价触及三个月低点",
-   "brief": "尽管霍尔木兹海峡威胁持续,供应上升推动油价跌至三个月低点。",
-   "chain": "供应宽松压过地缘溢价→Brent/WTI走弱→莫桑比克油气项目售价与现金流承压,需关注成本对冲",
+   "title": "油价触及三个月低点后因霍尔木兹威胁回升",
+   "brief": "原油一度跌至三个月低位，因霍尔木兹海峡相关威胁消息而收复部分跌幅。",
+   "chain": "霍尔木兹威胁→布伦特风险溢价回升→东非LNG与莫桑比克油气外运安全溢价上升",
    "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMDQ4RU9qMFd6TWl0WkFDUGVsdk5Gb3Q1dURMcjcwbGxUV3ItdjhZUGdQUTBZOVUyZEZlRzdmSEtjM3EwQTNUam1nRVZNdXFRbmNfeHhpUnNVQjNPbjNyOGtSZHVnNEZmbnpJdC1VdVA5X25rWndhMnZqemNGVWdVU1Y5OE8ybExyT2xLelF6dnZsNkM0OU55b1dKc1NuNF9sWkVGSGZJaUNxLXc4eEdGZTl3LUtFTDFuUUE?oc=5",
    "ts": "2026-11-24T02:56:00+00:00"
   },
   {
+   "cat": "geo",
+   "title": "俄指爱沙尼亚敌对行动“濒临开战”",
+   "brief": "俄罗斯指控北约成员国爱沙尼亚采取敌对行动，称其濒临引发公开战争。",
+   "chain": "俄北约紧张升级→避险情绪升温→美股风险偏好受压→A股算力链情绪扰动",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/24/russia-estonia-ukraine-war-nato-finland.html",
+   "ts": "Tue, 24 Nov 2026 13:42:55 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "以色列空袭加沙击杀哈马斯高级安全官员",
+   "brief": "以色列在加沙空袭中击杀一名哈马斯高级安全官员，地区局势持续紧张。",
+   "chain": "中东冲突延续→避险与油价风险溢价支撑→美股能源与防务板块分化→A股情绪扰动",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQzdHQ2gzSWhrMmF1X2lxVWVyTVdvQXg1QTVjcUJ6bXVxd0htbC1qSV9HbGg1aU4xdzlwaE41TlNWd3dDRng2NllYN1BMaktmX1JaU1A2RURQa0h5OHlBMS15Um1vRVlIVjRmY3F5RVhJXy1IWUpPbTJGNG4zV3ZJOHp6NTE3UG1wUUJDeWJJbVlUSEpBcHE0bF94UHhNT0ZpVVVIUWdscUZXSDJFT3QxZHQyaU45bGdDTnVmTEhjQnM4UUpLX0E?oc=5",
+   "ts": "2026-11-24T00:20:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "美国制裁伊朗影子银行网络数十个关联方",
+   "brief": "美国对与伊朗影子银行网络相关的数十个实体和个人实施制裁。",
+   "chain": "对伊制裁加码→中东原油出口与航运受限预期→油价风险溢价→东非能源经营关注供应扰动",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxON2NaMVlXcGRFQ3BpRFVieGtVRzR4bXFtTXRTRnpSV3JmNzY1REhheG5xNlV5MlptZ1lIM1BQWUhGcTBZNWpHckdxZG1kWUZoZUdxSnRneHJhVzBpUzg0ZGpXQ1lQblItbHg5WXpNUXBqbHpWZ0NqZzdQZEdhNTZKbDZXaHNydXhYM05hd2YtY1lvU0JkVnJBQ3diRVNDV210Z0pZdm5mRnMtUEk4TTNkOXNDMGpvbmpD?oc=5",
+   "ts": "2026-11-23T19:38:00+00:00"
+  },
+  {
    "cat": "oil",
-   "title": "中印2026年俄油进口料创纪录但需求见顶",
-   "brief": "中国与印度2026年俄罗斯原油进口预计创纪录,但整体需求被认为已见顶。",
-   "chain": "俄油流向亚洲→全球原油贸易格局重塑→油价中期承压→东非LNG/油气项目需盯亚洲需求拐点",
+   "title": "中印2026年俄油进口料创新高但需求见顶",
+   "brief": "中国和印度2026年俄罗斯原油进口预计创纪录，但整体需求被看作接近峰值。",
+   "chain": "俄油东流创纪录→全球原油贸易流向重塑→布伦特价差波动→莫桑比克油气出口竞争格局变化",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZEl6LThLbVZLWTlSU3lNdHJLa2dnanBPQjdqRGdaeDd2bGU4VmpzVnRRZ1VETzdRelFLWnI0QVVkUE0tUUE0TDkyR2lpcEMzUGNFS09iWW1LREpvOHJkb25Fdkd2MWFSYWZQRkwwbGpQR21sYkxvRXI5ZHBJTGcxTzVDdGNWdjktUFQ2OTRsYmlUSEkyRU5qUWJKeTNkbF9FX2dYNTJsdXN1RlBsVDZVc3EzUGxOeFNZNm53?oc=5",
@@ -74,20 +82,40 @@
   },
   {
    "cat": "oil",
-   "title": "伊拉克总理令石油部接管库尔德控制区油田",
-   "brief": "伊拉克总理下令石油部管理库尔德控制区油田,中央与库区资源争夺升级。",
-   "chain": "伊拉克产量与出口管理权变动→中东原油供应预期扰动→油价短期波动→对莫桑比克经营影响有限",
+   "title": "伊拉克总理令部委接管库区油田，库尔德拒绝",
+   "brief": "伊拉克总理下令由部委管理库尔德控制区油田，库尔德方面拒绝该举措。",
+   "chain": "伊拉克库区油田管理权争端→原油供应不确定性→油价短期支撑→东非油气经营关注供应风险",
    "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQT0ttY1ZZa0d3ajhmMUVZYmhrdHNGd0E4aC0wQWswZzc0UkFrcndsZ3pJUkJQMVF3Rlp0cjdGdkc2bG5XY093OWx6QWdtQVlJMVpRN2QzUUZicGRBZEROT2JUZEdQUTRpWHBpYzNXMVVwN1FQbmZpVmZfTm1leHQzclpZSkdsRk9MWHBzZEpaSlFoVjd0QzZQMnl2SDladHhlTzFmYkhmT2xPSlRTc2o2VmY2ZThoQ0dxbl94NXAxaXFWTHBNb1V6bzhXRTFPQQ?oc=5",
-   "ts": "2026-11-24T11:11:30+00:00"
+   "ts": "2026-11-24T13:22:53+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "霍尔木兹水雷说法下油价维持三月低位",
+   "brief": "尽管出现霍尔木兹水雷相关说法，油价仍徘徊在三个月低点附近。",
+   "chain": "水雷说法未推高油价→市场对供应扰动钝化→布伦特维持低位→莫桑比克油气售价承压",
+   "impact": 5,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Hold-Near-Three-Month-Lows-Despite-Hormuz-Mine-Claims.html",
+   "ts": "Tue, 24 Nov 2026 01:05:00 -0600"
   },
   {
    "cat": "gas",
-   "title": "日本电价飙升,拟加大LNG采购",
-   "brief": "日本因电力价格飙升准备加大LNG采购力度,亚洲气源需求走强。",
-   "chain": "亚洲LNG需求上升→JKM/TTF气价获支撑→东非LNG项目长期承购协议议价环境改善",
+   "title": "寒潮威胁储备，欧洲天然气价格攀升",
+   "brief": "寒潮天气威胁已消耗的天然气储备，欧洲气价上涨。",
+   "chain": "欧洲寒潮+储备偏低→TTF气价上行→全球LNG现货竞争加剧→东非LNG项目议价环境改善",
    "impact": 7,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Climb-as-Cold-Snap-Threatens-Depleted-Reserves.html",
+   "ts": "Tue, 24 Nov 2026 05:45:00 -0600"
+  },
+  {
+   "cat": "gas",
+   "title": "日本电价飙升，拟加大LNG采购",
+   "brief": "日本电力价格飙升，日本准备扩大LNG采购规模。",
+   "chain": "日本LNG需求上升→亚洲现货LNG价格获支撑→全球气源争夺→莫桑比克LNG出口窗口受益",
+   "impact": 6,
    "source": "OilPrice",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Poised-to-Ramp-Up-LNG-Buying-as-Power-Prices-Surge.html",
    "ts": "Tue, 24 Nov 2026 04:35:00 -0600"
@@ -95,18 +123,18 @@
   {
    "cat": "gas",
    "title": "Equinor锁定40年来最长天然气供应协议",
-   "brief": "Equinor签署40年来最长期天然气供应协议,凸显欧洲对长期气源的锁定需求。",
-   "chain": "欧洲长期购气锁定→TTF远期曲线趋稳→全球LNG长约竞争加剧→莫桑比克LNG需抢长约窗口",
-   "impact": 6,
+   "brief": "Equinor签署40年来最长的天然气供应协议，锁定长期气源。",
+   "chain": "长期气源锁定→欧洲LNG长约格局强化→现货气价波动加大→东非LNG长约谈判参考",
+   "impact": 5,
    "source": "OilPrice",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Equinor-Locks-In-Longest-Gas-Supply-Deal-in-40-Years.html",
    "ts": "Tue, 24 Nov 2026 03:25:00 -0600"
   },
   {
    "cat": "tech",
-   "title": "美将Megaspeed列入贸易黑名单,涉出口管制",
-   "brief": "美国以出口管制担忧为由将Megaspeed列入贸易黑名单,与英伟达争议相关。",
-   "chain": "芯片出口管制扩围→美股半导体供应链风险→A股算力链国产替代逻辑强化",
+   "title": "美国将Megaspeed列入贸易黑名单",
+   "brief": "美国以出口管制担忧为由将Megaspeed列入贸易黑名单，正值英伟达相关争议。",
+   "chain": "出口管制扩围→半导体供应链受限→美股芯片板块承压→A股算力链国产替代逻辑强化",
    "impact": 7,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html",
@@ -114,39 +142,39 @@
   },
   {
    "cat": "tech",
-   "title": "CrowdStrike CEO为440亿美元收购Zscaler辩护",
-   "brief": "CrowdStrike CEO称440亿美元收购Zscaler是制胜组合,回应市场质疑。",
-   "chain": "网络安全巨头整合→美股软件板块估值重估→A股网络安全/信创链情绪联动",
+   "title": "马来西亚总理：美芯片管制不影响对华关系",
+   "brief": "马来西亚总理表示，美国芯片出口管制不会影响马来西亚与中国的关系。",
+   "chain": "东南亚芯片供应链立场→出口管制执行不确定性→美股半导体海外营收预期→A股算力链供应链关注",
    "impact": 5,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-deal-ceo-george-kurtz.html",
-   "ts": "2026-11-23T23:53:20+00:00"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeWNUQk1SOTZNZDhzU0FhWnNfb0NEbnZYSWlCXzhkajZzNHFlSTNOcENKVFUzRTFsUjRoZ0FoMXZCZ0JxX2tMTXZfQUpfYzcxZ0ZSREZKTmdRTGJmblBmbWlXOGJEOExxc3N2VVFPYWotTlVWRWw4S1N2b3RlV0k5d3d2UHpNSEp6ei1lOWc5aFRWWVQ4M2hia2JXRHB6RGZqbVdjMm5pNjIxb19scmMzd2t6VQ?oc=5",
+   "ts": "2026-11-24T03:16:00+00:00"
   },
   {
    "cat": "tech",
-   "title": "赛诺菲收购Insmed,三年最大医药并购",
-   "brief": "赛诺菲同意收购Insmed,后者股价大涨14%,为三年来最大医药并购。",
-   "chain": "大型药企并购回暖→美股医疗板块活跃→A股创新药并购预期升温",
+   "title": "百思买同店销售增6.1%，五年最高",
+   "brief": "百思买可比销售增长6.1%，为五年来最高水平。",
+   "chain": "消费电子需求回暖→美股零售与硬件板块情绪改善→A股消费电子链映射",
    "impact": 4,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html",
-   "ts": "Tue, 24 Nov 2026 10:50:26 GMT"
+   "url": "https://www.cnbc.com/2026/11/24/best-buy-bby-q3-2027-earnings.html",
+   "ts": "Tue, 24 Nov 2026 12:57:35 GMT"
   },
   {
    "cat": "ai",
-   "title": "黄仁勋回归涨势后英伟达盘前跌逾5%",
-   "brief": "黄仁勋回归引发的英伟达涨势后,股价盘前回落逾5%,市场消化治理疑虑。",
-   "chain": "英伟达波动加剧→美股AI交易情绪反复→A股算力链跟随震荡,关注龙头指引",
+   "title": "英伟达盘前跌超5%，黄仁勋回归涨势回吐",
+   "brief": "黄仁勋回归引发的涨势未能延续，英伟达盘前下跌超过5%。",
+   "chain": "AI龙头回吐→美股AI交易降温→算力硬件估值波动→A股算力链情绪跟随",
    "impact": 8,
-   "source": "CNBC World",
+   "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html",
-   "ts": "Tue, 24 Nov 2026 10:45:52 GMT"
+   "ts": "Tue, 24 Nov 2026 12:42:55 GMT"
   },
   {
    "cat": "ai",
-   "title": "Anthropic推出Claude Ship加速代码交付",
-   "brief": "Anthropic发布Claude Ship工具,帮助开发者更快交付代码,扩展AI编程能力。",
-   "chain": "AI编程工具迭代→美股AI应用层竞争加剧→A股AI应用/软件链映射",
+   "title": "Anthropic推出Claude Ship助开发者加速交付代码",
+   "brief": "Anthropic发布Claude Ship工具，帮助开发者更快交付代码。",
+   "chain": "AI编程工具迭代→企业软件效率提升→美股AI应用层受益→A股AI应用与算力需求映射",
    "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVURIRFNoWllBMDkzLVhtNFloSkdUTFZ2ZmZWN2pMMm52ckI0N1dXT3pVX0VDa3NZYW1YNW5NMVlVdkJCSXVTTGJVc0RxVVNndnhCdTA2dDRIVFIyempCd0MxTEc4SzJoTHJsZGVNTTNDRUlmN1RWb0tzRWRzX2RBZzFkLTlFQkF3VllOUV9ReHg0VHQ4cWtld3psMWpiYTVDZER3UUJ0cXpseWpj?oc=5",
@@ -154,19 +182,9 @@
   },
   {
    "cat": "ai",
-   "title": "亚马逊收购AI初创Decart芯片软件并招揽创始人",
-   "brief": "亚马逊收购AI初创公司Decart的芯片软件业务并聘用其创始人,强化自研算力。",
-   "chain": "云巨头自研芯片加码→美股AI基础设施资本开支上行→A股算力/芯片链受益预期",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/23/amazon-decarts-ai-acquisition.html",
-   "ts": "Mon, 23 Nov 2026 19:34:38 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "Signal等企业限制AI代理以控客户风险",
-   "brief": "Signal加入美联航与银行行列,限制AI代理使用以降低客户风险。",
-   "chain": "AI代理合规收紧→美股AI落地节奏受审视→A股AI应用链需关注监管风险",
+   "title": "Signal联合美联航等限制AI代理以控风险",
+   "brief": "Signal与美联航、银行等机构限制AI代理使用，以降低客户风险。",
+   "chain": "AI代理应用受限→企业AI落地节奏放缓→美股AI软件板块分化→A股AI应用链关注合规",
    "impact": 4,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/24/signal-airlines-banks-ai-limit.html",
