@@ -1,20 +1,22 @@
 {
  "asof": "2026-11-24",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-11-24T09:14+08:00",
+ "generated_at": "2026-11-24T17:47+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 2,
-  "cluster_label": "",
-  "cluster_dropped": [],
+  "cross_day_suppressed": 1,
+  "cluster_label": "伊朗/霍尔木兹",
+  "cluster_dropped": [
+   "美国制裁伊朗影子银行网络数十个实体"
+  ],
   "backfilled": 0
  },
  "items": [
   {
    "cat": "macro",
-   "title": "美联储威廉姆斯：利率或需'逐步'走高以压通胀",
-   "brief": "纽约联储主席威廉姆斯表示，随着时间推移利率可能需进一步上调以让通胀回到2%目标，对通胀达标表达信心。",
-   "chain": "美联储官员放鹰→美债利率与贴现率预期上移→压制美股AI高久期估值→A股算力链情绪承压",
+   "title": "美联储威廉姆斯:通胀将回落,利率或随时间上行",
+   "brief": "美联储重量级官员威廉姆斯表示有信心通胀向2%目标靠近,但利率可能'随时间'走高。",
+   "chain": "美联储官员偏鹰表态→美债利率与贴现率预期抬升→压制美股AI高久期估值→A股算力链情绪承压",
    "impact": 8,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
@@ -23,38 +25,28 @@
   {
    "cat": "macro",
    "title": "五只能扛住12月美联储加息的能源股",
-   "brief": "OilPrice盘点在12月美联储可能加息背景下仍具防御性的五只能源股，聚焦现金流与股息韧性。",
-   "chain": "加息预期升温→能源股现金流防御属性受青睐→资金从高估值成长转向价值→A股高股息能源链相对受益",
+   "brief": "分析列出在12月美联储可能加息情形下仍具防御性的五只能源股。",
+   "chain": "加息预期升温→能源股现金流防御属性受青睐→美股风格由成长转价值→A股高股息与算力链分化",
    "impact": 5,
    "source": "OilPrice",
    "url": "https://oilprice.com/Energy/Energy-General/5-Energy-Stocks-That-Can-Shrug-Off-a-December-Fed-Rate-Hike.html",
    "ts": "Mon, 23 Nov 2026 16:00:00 -0600"
   },
   {
-   "cat": "macro",
-   "title": "华尔街'恐慌指数'闪现买入信号",
-   "brief": "上周五VIX大幅飙升，历史经验显示此类恐慌跳升或预示买入机会。",
-   "chain": "VIX飙升后回落→风险偏好修复→利好美股成长与AI板块反弹→A股算力链情绪同步回暖",
-   "impact": 5,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/23/wall-streets-fear-gauge-just-flashed-a-buy-sign.html",
-   "ts": "2026-11-23T14:14:28+00:00"
+   "cat": "geo",
+   "title": "伊朗称霍尔木兹三艘油轮触雷,美方护航仍遭袭",
+   "brief": "伊朗称霍尔木兹海峡三艘油轮触雷,尽管有美军护航;美财政部同步扩大制裁。",
+   "chain": "海峡通航风险升级→原油风险溢价与航运保费上行→美股能源板块波动→A股油气与航运链情绪扰动",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html",
+   "ts": "Tue, 24 Nov 2026 05:05:08 GMT"
   },
   {
    "cat": "geo",
-   "title": "美制裁数十个与伊朗影子银行网络相关实体",
-   "brief": "美国对与伊朗影子银行网络相关的数十个实体实施制裁，加大金融施压。",
-   "chain": "美对伊金融制裁升级→中东风险溢价与油价扰动→美股能源板块波动→A股油气链情绪受牵动",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxON2NaMVlXcGRFQ3BpRFVieGtVRzR4bXFtTXRTRnpSV3JmNzY1REhheG5xNlV5MlptZ1lIM1BQWUhGcTBZNWpHckdxZG1kWUZoZUdxSnRneHJhVzBpUzg0ZGpXQ1lQblItbHg5WXpNUXBqbHpWZ0NqZzdQZEdhNTZKbDZXaHNydXhYM05hd2YtY1lvU0JkVnJBQ3diRVNDV210Z0pZdm5mRnMtUEk4TTNkOXNDMGpvbmpD?oc=5",
-   "ts": "2026-11-23T19:39:43+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "美方正讨论为叙利亚部队提供军事训练",
-   "brief": "据独家报道，美国正讨论对叙利亚武装力量进行军事训练，深化中东介入。",
-   "chain": "美扩大中东军事介入→地区地缘风险溢价上升→美股风险偏好与能源股波动→A股情绪受扰",
+   "title": "美方讨论为叙利亚部队提供军事训练",
+   "brief": "独家报道称美国正讨论向叙利亚武装力量提供军事训练,深化中东介入。",
+   "chain": "美中东军事介入扩大→地区风险溢价→美股防务与能源板块敏感→A股军工情绪联动",
    "impact": 5,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNd2tMTDZEYUhaR0lYVlhOTVpicEV6a3VJN2RSV1pVdXMxRmJwQkFUd1hzNWZEa0pSUkJaQ0l6SVNjM1pfMllVR2hNV2FNb2FZUTNuclJzLTdkenNHU3RncUJKUzRKcWswcTJkRkRQZjBuU0h3dDJBdlV0V25nU2xpQlA5UWFnMkZSZnlFMXRsbmQ?oc=5",
@@ -62,79 +54,79 @@
   },
   {
    "cat": "geo",
-   "title": "以军空袭加沙致至少3死含联合国机构员工",
-   "brief": "以色列对加沙发动空袭，造成至少三人死亡，其中包括一名联合国近东救济工程处工作人员。",
-   "chain": "加沙冲突持续→中东地缘风险不散→油价风险溢价与避险情绪→美股与A股风险偏好受压",
-   "impact": 5,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaFR0Y0tNMTl0MmFKSU02ZGd1MElscXdzQnlya2RHU3cyN3dFaUdOeVVPNTQzMjVobjk4WGxsdGtQcDYzbkpvcm42RXdlTVlUb1pvV3lJaW95OHBrSXU4bjdwWXRQMnhTZkVieER1ZVE5cVVWYVJQek1qeWRlOGstYlU5RnVoX0FXRXdfQ2ZQb1NLekZKXzF2X2hxQS1hRURFR1lRSG1mXy1iNTc1OWtULTVRZlpxRXg0M0l2VW13QUR0Zm8?oc=5",
-   "ts": "2026-11-23T14:58:37+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "墨西哥与中国同意设工作组促进贸易",
-   "brief": "墨西哥与中国同意建立工作组以推动双边贸易，寻求在关税摩擦下拓展合作。",
-   "chain": "中墨贸易机制化→缓解部分关税与供应链摩擦→利好跨境制造与出口链→A股相关出口板块情绪改善",
+   "title": "韩国紧急升空战机应对俄军机逼近",
+   "brief": "俄罗斯军机飞近韩国沿海,韩方短暂紧急出动战机并发出警告。",
+   "chain": "东北亚军事摩擦→避险情绪升温→美股风险偏好边际回落→A股军工与避险资产联动",
    "impact": 4,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNGQzdEcwdnZKUC05dU4zQWZFRkRKV0tmVTM1d0oxeU5ldlM0Ukk4RVhlZTNPZXZtQ2tGejdIa1V1SEdvLUx5VHJ6dGxDWlhya041NE9MckZkOEFzbjNneGhwMzFDOXhrWGx3c0JFMFg1NnhnaURuYVNpRWRIakNqbWxueHlYeU1zY3ZLYkVtZTVoX1JEV2N0Ug?oc=5",
-   "ts": "2026-11-23T16:47:48+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVnMyeTNTLWNPT1JoWVRGdTZmb2hnVi1USk9WNldKUVNfVWkzRk5RSjI5UlVIYkprbnEtOFplWGdpd2JoWmtZeEVZQTF6TGJJU0tEZXhsYVVNaHl1OVlfOF9sc3lHUUdzNXBpeHNqUTF0ZXY2VTcxbHEwbHluRF9sR3N0WnR1T3R1cmRKa1FDSnpOeGJwVVIyN0NhYmF4QmlyZHZjT2JNXzB4ZlY1cTJRNVZtTTluY3lYbmd0TEtlXzA3WUZwTVk3Uw?oc=5",
+   "ts": "2026-11-23T23:25:00+00:00"
   },
   {
    "cat": "oil",
-   "title": "康菲石油44.3亿美元退出挪威 售予Vaar能源",
-   "brief": "康菲石油将以44.3亿美元把挪威业务出售给Vaar Energi，收缩欧洲上游布局。",
-   "chain": "油企资产重组→反映上游资本配置转向→对全球油价影响有限→对莫桑比克东非油气经营提示资产轮动机会",
+   "title": "供应增加抵消霍尔木兹威胁,油价逼近三个月低点",
+   "brief": "供应上升盖过霍尔木兹海峡威胁,油价徘徊于近三个月低位。",
+   "chain": "供应宽松主导→Brent/WTI承压→东非油气项目售价与现金流预期偏弱→莫桑比克LNG经济性需盯气价联动",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMDQ4RU9qMFd6TWl0WkFDUGVsdk5Gb3Q1dURMcjcwbGxUV3ItdjhZUGdQUTBZOVUyZEZlRzdmSEtjM3EwQTNUam1nRVZNdXFRbmNfeHhpUnNVQjNPbjNyOGtSZHVnNEZmbnpJdC1VdVA5X25rWndhMnZqemNGVWdVU1Y5OE8ybExyT2xLelF6dnZsNkM0OU55b1dKc1NuNF9sWkVGSGZJaUNxLXc4eEdGZTl3LUtFTDFuUUE?oc=5",
+   "ts": "2026-11-24T02:56:00+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "伊拉克总理令石油部接管库区油田",
+   "brief": "伊拉克总理下令石油部管理库尔德安全区控制下的油田,中央与库区资源博弈升温。",
+   "chain": "伊拉克北部产量与出口归属生变→中东原油供应不确定性→油价短期扰动→东非采购与销售窗口需关注",
    "impact": 5,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/ConocoPhillips-to-Exit-Norway-in-443-Billion-Deal-with-Vaar-Energi.html",
-   "ts": "Mon, 23 Nov 2026 13:30:00 -0600"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQT0ttY1ZZa0d3ajhmMUVZYmhrdHNGd0E4aC0wQWswZzc0UkFrcndsZ3pJUkJQMVF3Rlp0cjdGdkc2bG5XY093OWx6QWdtQVlJMVpRN2QzUUZicGRBZEROT2JUZEdQUTRpWHBpYzNXMVVwN1FQbmZpVmZfTm1leHQzclpZSkdsRk9MWHBzZEpaSlFoVjd0QzZQMnl2SDladHhlTzFmYkhmT2xPSlRTc2o2VmY2ZThoQ0dxbl94NXAxaXFWTHBNb1V6bzhXRTFPQQ?oc=5",
+   "ts": "2026-11-24T08:34:45+00:00"
   },
   {
    "cat": "oil",
-   "title": "美国炼厂'淹掉'了自身汽油利润",
-   "brief": "OilPrice分析美国炼厂在汽油裂解利润上的自我侵蚀，炼油经济性承压。",
-   "chain": "炼油利润走弱→成品油与原油价差收窄→油价结构分化→对莫桑比克油气下游与炼化合作影响偏中性",
+   "title": "中东原油出口走低,伊朗僵局被指'虚假'",
+   "brief": "评论指出中东原油出口呈下降趋势,而伊朗僵局实为表面文章。",
+   "chain": "中东出口结构性下滑→中期油价底部支撑→东非油气销售窗口与LNG长约谈判受益",
    "impact": 4,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Americas-Refiners-Drowned-Their-Own-Gasoline-Windfall.html",
-   "ts": "Mon, 23 Nov 2026 19:00:00 -0600"
-  },
-  {
-   "cat": "oil",
-   "title": "巴基斯坦与伊朗推进能源合作",
-   "brief": "巴基斯坦与伊朗寻求加强能源领域合作，涉及跨境能源供应与贸易。",
-   "chain": "南亚能源合作升温→区域原油与天然气流向调整→对全球油价边际影响小→对东非LNG竞争格局影响有限",
-   "impact": 3,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-and-Iran-Move-to-Boost-Energy-Cooperation.html",
-   "ts": "Mon, 23 Nov 2026 14:30:00 -0600"
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVzZpMHFTclFHbWV5MGFQbmJCOHhtaS02NUQyVmFmU09tZHVJRXZCeHRNWTFNQ0hVenFvQ1JnS2p0aHd0LVFjRE5KTi0tQkVZdElhcko2YXRmWnpkbGtkc0lJX0JjVGtXSE1TbWwyVklTcHVrSWNaTExxT1hYV3JEdG92Ny03TEFNWEJ0Q1hIY2lReVVlZHhkRS0zUUlkZkFiTHhiV0UwVF9RMVdxS2RlS1pseXBJQ3ZwaDBqak5zd29Hd3NGYW5nNUVfZERkR0pI?oc=5",
+   "ts": "2026-11-24T06:28:55+00:00"
   },
   {
    "cat": "gas",
-   "title": "电池会否在数据中心取代燃气轮机",
-   "brief": "OilPrice探讨电池储能是否会在数据中心供电中取代燃气轮机，牵动天然气发电需求预期。",
-   "chain": "数据中心供电技术路线之争→影响天然气发电长期需求预期→LNG价格中期承压→对莫桑比克LNG出口长期需求构成变量",
-   "impact": 5,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Will-Batteries-Kill-Off-Gas-Turbines-at-Data-Centers.html",
-   "ts": "Mon, 23 Nov 2026 15:00:00 -0600"
-  },
-  {
-   "cat": "tech",
-   "title": "CrowdStrike以440亿美元收购Zscaler",
-   "brief": "CrowdStrike宣布以440亿美元收购Zscaler，称AI加剧网络攻击推动安全整合。",
-   "chain": "网络安全大并购→AI安全需求升温→利好美股软件安全板块→映射A股网络安全与信创链",
+   "title": "Equinor签下40年来最长天然气供应协议",
+   "brief": "Equinor锁定其40年来期限最长的天然气供应合同,强化长期气源绑定。",
+   "chain": "长期气源锁定→欧洲TTF远期曲线趋稳→全球LNG长约竞争加剧→莫桑比克LNG长约议价需提速",
    "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-aquisition-ai-cyberattacks.html",
-   "ts": "Mon, 23 Nov 2026 21:04:03 GMT"
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Equinor-Locks-In-Longest-Gas-Supply-Deal-in-40-Years.html",
+   "ts": "Tue, 24 Nov 2026 03:25:00 -0600"
   },
   {
    "cat": "tech",
-   "title": "亚马逊收购AI初创Decart芯片软件并招揽创始人",
-   "brief": "亚马逊将收购AI初创公司Decart的芯片软件业务并聘用其创始人，强化自研芯片能力。",
-   "chain": "云巨头加码自研AI芯片软件→强化算力自主→利好美股云与半导体链→映射A股算力与芯片链",
+   "title": "美将Megaspeed列入贸易黑名单,涉出口管制",
+   "brief": "美国以出口管制关切为由将Megaspeed列入贸易黑名单,与英伟达争议相关。",
+   "chain": "对华出口管制再加码→英伟达合规与出货预期受扰→美股芯片板块承压→A股算力链国产替代逻辑强化",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html",
+   "ts": "Tue, 24 Nov 2026 02:37:39 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "CrowdStrike CEO为440亿美元收购Zscaler辩护",
+   "brief": "CrowdStrike CEO称440亿美元收购Zscaler是'制胜组合',回应市场质疑。",
+   "chain": "网络安全大并购→软件板块估值与整合风险受关注→美股SaaS情绪波动→A股网络安全链情绪联动",
+   "impact": 5,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-deal-ceo-george-kurtz.html",
+   "ts": "2026-11-23T23:53:20+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "亚马逊收购AI初创Decart芯片软件并招入创始人",
+   "brief": "亚马逊收购AI初创公司Decart的芯片软件资产并聘用其创始人,强化自研算力。",
+   "chain": "云巨头自研芯片软件补强→AI基础设施资本开支延续→美股云与半导体受益→A股算力硬件链映射",
    "impact": 5,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/23/amazon-decarts-ai-acquisition.html",
@@ -142,63 +134,53 @@
   },
   {
    "cat": "tech",
-   "title": "亚马逊送货无人机撞断密歇根光缆遭FAA调查",
-   "brief": "亚马逊送货无人机撞上密歇根州光纤电缆与车库，FAA展开调查。",
-   "chain": "无人机事故引发监管审查→拖慢物流自动化落地→对美股科技影响有限→A股无人机链情绪小幅承压",
+   "title": "亚马逊送货无人机撞线缆,遭FAA调查",
+   "brief": "亚马逊送货无人机在密歇根撞上光纤线缆与车库,FAA展开调查。",
+   "chain": "无人机配送安全受查→亚马逊物流创新节奏受扰→美股电商物流情绪小幅承压→A股低空经济链情绪扰动",
    "impact": 3,
-   "source": "CNBC World",
+   "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/23/amazon-drone-crash-michigan-faa-investigation.html",
    "ts": "Tue, 24 Nov 2026 00:56:10 GMT"
   },
   {
    "cat": "ai",
-   "title": "黄仁勋重返英伟达任CEO 股价暴涨31%",
-   "brief": "黄仁勋被重新任命为英伟达CEO，公司股价单日飙升31%，重振AI交易信心。",
-   "chain": "英伟达CEO回归→AI算力龙头信心修复→美股AI板块反弹→映射A股算力链（光模块/服务器/PCB）情绪回暖",
-   "impact": 9,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-   "ts": "Mon, 23 Nov 2026 21:08:05 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "亚洲英伟达合作与供应股随黄仁勋回归大涨",
-   "brief": "黄仁勋回归后，亚洲的英伟达合作伙伴与供应商股票集体跳涨。",
-   "chain": "英伟达供应链情绪外溢→亚洲半导体与硬件股走强→映射A股算力硬件与封测链受益",
-   "impact": 7,
+   "title": "黄仁勋回归涨势熄火,英伟达盘前跌4%",
+   "brief": "黄仁勋回归引发的反弹迅速降温,英伟达盘前下跌4%,市场重估治理风险。",
+   "chain": "AI龙头治理与人事不确定性→美股AI交易波动放大→A股算力链跟随情绪回调",
+   "impact": 8,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html",
-   "ts": "Tue, 24 Nov 2026 00:53:29 GMT"
+   "url": "https://www.cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html",
+   "ts": "Tue, 24 Nov 2026 09:41:02 GMT"
   },
   {
    "cat": "ai",
-   "title": "亚洲多国出手托市 应对AI板块下挫",
-   "brief": "AI相关股票下跌拖累市场，亚洲多国正研究措施支撑股市。",
-   "chain": "AI板块回调引发政策托市→稳定亚洲风险偏好→对美股AI情绪形成支撑→A股算力链获政策底预期",
+   "title": "分析师:黄仁勋'大到不能炒',英伟达治理受关注",
+   "brief": "分析师称黄仁勋地位'大到不能炒',英伟达公司治理结构成为焦点。",
+   "chain": "治理风险定价→AI龙头风险溢价上升→美股AI板块波动→A股算力链情绪敏感",
    "impact": 6,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/23/asia-markets-kospi-taiwan-china-csi300.html",
-   "ts": "Mon, 23 Nov 2026 06:50:48 GMT"
+   "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-governance.html",
+   "ts": "Tue, 24 Nov 2026 08:35:16 GMT"
   },
   {
    "cat": "ai",
-   "title": "中国连接通讯：AI竞赛从机器人蔓延至智能手机",
-   "brief": "CNBC中国连接通讯指出，AI竞赛正从机器人扩展到智能手机终端。",
-   "chain": "AI向终端渗透→拉动手机与边缘算力需求→利好美股芯片与消费电子→映射A股消费电子与端侧AI链",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/23/cnbcs-the-china-connection-newsletter-ai-race-spreads-to-smartphones.html",
-   "ts": "Mon, 23 Nov 2026 23:00:01 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "AI在亚洲加速落地 但收益衡量仍存难题",
-   "brief": "AI在亚洲企业加速采用，但如何量化其经济收益仍是挑战。",
-   "chain": "AI落地加速但变现存疑→影响AI资本开支可持续性预期→美股AI板块分化→A股算力链关注订单兑现",
+   "title": "Signal联合美联航等限制AI代理以控风险",
+   "brief": "Signal与美联航及银行等因客户风险限制AI代理使用,AI落地合规趋严。",
+   "chain": "AI代理合规收紧→企业AI部署节奏放缓→美股AI应用层预期降温→A股AI应用链情绪承压",
    "impact": 4,
    "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/24/signal-airlines-banks-ai-limit.html",
+   "ts": "Tue, 24 Nov 2026 07:25:41 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "亚洲AI采用率上升,但收益衡量仍困难",
+   "brief": "亚洲企业AI采用持续增长,但如何量化AI带来的实际收益仍存挑战。",
+   "chain": "AI落地提速但ROI难测→美股AI应用叙事分化→A股算力与应用链需看真实订单验证",
+   "impact": 3,
+   "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/24/aws-asia-gains-roi.html",
-   "ts": "Mon, 23 Nov 2026 23:42:27 GMT"
+   "ts": "Tue, 24 Nov 2026 05:07:16 GMT"
   }
  ]
 }
