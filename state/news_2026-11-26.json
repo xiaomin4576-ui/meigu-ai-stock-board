@@ -1,0 +1,194 @@
+{
+ "asof": "2026-11-26",
+ "generated_by": "deepseek-chat",
+ "generated_at": "2026-11-26T01:41+08:00",
+ "guard": {
+  "url_dups_dropped": 0,
+  "cross_day_suppressed": 9,
+  "cluster_label": "",
+  "cluster_dropped": [],
+  "backfilled": 0
+ },
+ "items": [
+  {
+   "cat": "macro",
+   "title": "美联储首选通胀指标10月升至3.8%",
+   "brief": "美联储偏好的通胀指标10月加速至3.8%，推高市场对2027年政策路径的博弈，利率预期重新定价。",
+   "chain": "核心通胀反弹→降息预期后移、美债实际利率上行→压制美股AI高久期估值→A股算力链情绪承压",
+   "impact": 9,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
+   "ts": "Wed, 25 Nov 2026 14:18:45 GMT"
+  },
+  {
+   "cat": "macro",
+   "title": "美国三季度GDP大幅上修、通胀扩散",
+   "brief": "美国三季度经济增速被大幅上修，同时通胀呈扩散态势，强化经济韧性与利率维持高位的组合。",
+   "chain": "增长上修+通胀扩散→利率higher-for-longer→美股成长股贴现率抬升→A股算力链估值受压",
+   "impact": 8,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNalBrRjhRWHdhRDduMzduLU1kN1lGVFpzNFllX0RzdjJXMjdtajRZS1l1dms2MFJFbkhJQmx3Qzgydi1nTTJnQ1JPLUtoa1R5LWZjWjItUXJhXzhoZG51NU9ENzVBQjVSZWFpdHlqbV9PSkVncWtjUlptdXhjd0ZKRXZ6d2Y1dw?oc=5",
+   "ts": "2026-11-25T16:15:17+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "美国拟对14个贸易伙伴加征新关税",
+   "brief": "美国提议对中国、欧盟等14个贸易伙伴加征新关税，贸易摩擦范围扩大，供应链与出口预期受扰。",
+   "chain": "关税扩围→风险偏好下降、成本上升→美股硬件与出口链承压→A股算力硬件国产替代逻辑强化",
+   "impact": 8,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html",
+   "ts": "Wed, 25 Nov 2026 16:02:52 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "伊朗称霍尔木兹海峡船只触雷",
+   "brief": "伊朗称霍尔木兹海峡有船只触雷，警告过往船舶须协调通行，海峡航运风险骤升。",
+   "chain": "海峡通行受扰→原油风险溢价上升、航运保费走高→美股能源板块获支撑→A股油运链情绪升温",
+   "impact": 9,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSmFmdlRJUnlMaVRFNERwb2YxLVVObG9leTlORFRtOTAyd2pvMTNuOGM5d0diMzNUb1NHaDVWOGlTeWg3bmcwU21BdHRHZlB6a0VDeXlNcUtYMDBiZUpyVFRyMkhIQjlpemZIeGVQNEdXb2hCOHZwYW5VZUt4V3MySnpZWUViYTA5MEp2eDlBbGNoVjB5dk5CcHdZR3NyUjZIVlV3d0s2Z3BUMTQ?oc=5",
+   "ts": "2026-11-25T10:11:44+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "乌称袭俄炼厂，俄威胁报复",
+   "brief": "乌克兰要求普京停止抱怨其炼厂遭袭，俄罗斯承诺报复，俄乌能源设施互攻持续升级。",
+   "chain": "俄炼厂遇袭→成品油供应扰动预期→美股能源与炼化分化→A股油气链受地缘溢价带动",
+   "impact": 7,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/25/ukraine-putin-russia-oil-refinery-attacks.html",
+   "ts": "Wed, 25 Nov 2026 09:18:37 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "胡塞袭击沙特PIF大楼致11伤",
+   "brief": "胡塞武装袭击沙特主权财富基金PIF大楼，造成11人受伤，红海与海湾地区紧张再起。",
+   "chain": "海湾袭击→中东风险溢价抬升→美股风险偏好受压→A股避险与能源链情绪波动",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/25/us-iran-war-trump-hormuz-houthi-saudi-pif-tower.html",
+   "ts": "Wed, 25 Nov 2026 02:36:43 GMT"
+  },
+  {
+   "cat": "geo",
+   "title": "意大利谴责乌袭击利比亚俄船只",
+   "brief": "意大利就乌克兰袭击利比亚境内俄罗斯船只提出谴责，地中海能源与航运安全议题升温。",
+   "chain": "地中海航运受扰→能源运输风险溢价→美股能源板块波动→A股油运链情绪受牵动",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRGl5eGplZXIyMktvQUNpVzZ6LV84eU50Qnp6dzZiWEhScWZzaXZuVzVjdTNVZWlHQXVINHQ1SzRRZnRvZHRQWDZyLXJZRXlUQ3JZbkZZR0lTQWJ2RGE4S1pySVFSekZ3QnZWOFJOd1hwUkJKNkxMSF9oM2ZxM2s4VV9UMG5TRGkyRlIyRFFWcUd5a3RwSzZyZzR3NmQ?oc=5",
+   "ts": "2026-11-25T10:29:43+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "哈萨克斯坦加入伊拉克争取OPEC+更高配额",
+   "brief": "哈萨克斯坦与伊拉克一道推动OPEC+给予更高产能评级，配额博弈升温，增产预期扰动市场。",
+   "chain": "配额博弈→OPEC+供给纪律松动预期→油价承压→莫桑比克油气项目售价与收益预期受抑",
+   "impact": 7,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Kazakhstan-Joins-Iraq-in-Pushing-OPEC-for-a-Higher-Capacity-Rating.html",
+   "ts": "Wed, 25 Nov 2026 11:30:00 -0600"
+  },
+  {
+   "cat": "oil",
+   "title": "美资牵头收购卢克石油境外油气资产",
+   "brief": "以美国富豪Boehly为首的投资团拟收购卢克石油俄罗斯境外油气资产，美开发金融公司参与。",
+   "chain": "资产易手→俄油海外供给格局重塑→油价影响中性偏空→东非油气资产估值参照变化",
+   "impact": 6,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/25/investors-led-by-todd-boehly-to-buy-lukoil-oil-and-gas-assets-outside-russia.html",
+   "ts": "2026-11-25T16:00:45+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "易捷航空利润暴跌，燃油成本飙升",
+   "brief": "易捷航空在Apollo收购前利润大幅下滑，燃油成本高企是主因，反映油价对下游的挤压。",
+   "chain": "燃油成本高企→航司盈利承压→印证油价高位→莫桑比克油气销售端价格环境偏强",
+   "impact": 4,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOGI2RTlyaGxFazYyTHNnZXpVZkhKYk1BZTdfUWRmOEJFbGp1UUFSV253a2xZZW9WMW5oaGpScjdaMUNyeFJWQXVYdXJDZXNTak9EbFdDdTFaSFZpQVNwZFJ5dk9mVTZNQ25HMXZfSjIzc09mZUdEMUVIbFkwdnIzQTBMS0F6VmNKc0g0RTlhdHh4b1dUaEdLd1VZOExSVE91blRqWFlKTWNGZDN0aG1V?oc=5",
+   "ts": "2026-11-25T07:14:00+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "美国外交推动跨里海天然气管道",
+   "brief": "美国外交斡旋重燃跨里海天然气管道希望，中亚气源绕俄外输路径或获推进。",
+   "chain": "跨里海管道推进→欧洲LNG/管道气供应多元化→TTF价格预期趋稳→东非LNG长期竞争格局受关注",
+   "impact": 6,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/US-Diplomatic-Push-Revives-Hopes-for-Trans-Caspian-Gas-Pipeline.html",
+   "ts": "Wed, 25 Nov 2026 11:00:00 -0600"
+  },
+  {
+   "cat": "tech",
+   "title": "英伟达领跌科技股，AI担忧回归",
+   "brief": "英伟达等AI相关股票下挫，投资者重新权衡AI支出、通胀与更高利率，科技板块承压。",
+   "chain": "AI资本开支疑虑+利率上行→美股AI硬件估值回调→A股算力链跟随情绪降温",
+   "impact": 8,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html",
+   "ts": "2026-11-25T17:10:17+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "AI债务市场震荡，英伟达关键融资方回归",
+   "brief": "AI相关债务市场出现波动，英伟达重要融资合作方回归，AI基建融资链条受关注。",
+   "chain": "AI债务融资波动→算力扩张资金成本上升→美股AI基建链承压→A股算力租赁与硬件情绪受扰",
+   "impact": 7,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-ai-credit-markets.html",
+   "ts": "Tue, 24 Nov 2026 21:52:05 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "黄仁勋称英伟达无需继任计划",
+   "brief": "黄仁勋向员工表示英伟达不需要继任安排，回应外界对公司治理与领导层稳定性的关注。",
+   "chain": "治理表态→稳定英伟达长期预期→美股AI龙头情绪修复有限→A股算力链观望",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html",
+   "ts": "Wed, 25 Nov 2026 14:29:50 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "预测市场：州级数据中心禁令概率上升",
+   "brief": "Kalshi交易者认为各州实施数据中心暂停令的概率偏大，民主党胜选后监管风险升温。",
+   "chain": "数据中心监管风险→AI基建扩张受限预期→美股算力基建股承压→A股IDC与算力链情绪受抑",
+   "impact": 5,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/25/kalshi-traders-say-the-odds-of-states-imposing-data-center-moratoriums-is-more-likely-than-not.html",
+   "ts": "2026-11-25T15:18:29+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "Anthropic股价破发拖累AI交易",
+   "brief": "Anthropic上市后股价低于发行价，对其他AI标的形成压制，AI板块估值分化加剧。",
+   "chain": "AI龙头破发→一级/二级AI估值重估→美股AI板块风险偏好下降→A股AI应用链情绪承压",
+   "impact": 7,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/investingclub/2026/11/25/anthropics-stock-has-been-a-clunker-post-ipo-why-that-matters-for-the-ai-trade.html",
+   "ts": "2026-11-25T16:05:25+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "Anthropic上市造就5100名纸面百万富翁",
+   "brief": "Anthropic IPO使约5100名员工成为纸面百万富翁，专家提示突然致富的流动性与税务风险。",
+   "chain": "AI造富效应→人才与资本向AI集中→美股AI板块叙事延续→A股AI人才与算力需求预期",
+   "impact": 4,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/25/anthropic-ipo-employee-millionaires-sudden-wealth.html",
+   "ts": "2026-11-25T16:32:55+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "Meta借Instagram推广Muse个人AI代理",
+   "brief": "Meta利用Instagram为旗下Muse个人AI代理导流以提振广告，AI代理商业化落地加速。",
+   "chain": "AI代理落地→广告变现效率提升→美股Meta等应用端受益→A股AI应用与营销链映射",
+   "impact": 4,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/24/meta-instagram-muse-ad-revenue.html",
+   "ts": "Tue, 24 Nov 2026 20:37:40 GMT"
+  }
+ ]
+}
