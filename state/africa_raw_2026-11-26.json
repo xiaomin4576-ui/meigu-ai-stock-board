@@ -1,6 +1,6 @@
 {
  "asof": "2026-11-26",
- "fetched_at": "2026-11-26T01:41+08:00",
+ "fetched_at": "2026-11-26T04:31+08:00",
  "meta": {
   "counts": {
    "TechCabal": 10,
@@ -14,11 +14,11 @@
    "Club of Mozambique": 0,
    "Zimbabwe Situation": 0,
    "African Business": 3,
-   "非洲科技·聚合": 13,
-   "中非科技·聚合": 22
+   "非洲科技·聚合": 0,
+   "中非科技·聚合": 21
   },
   "total": 60,
-  "ai_flagged": 12,
+  "ai_flagged": 11,
   "aiinfra_flagged": 1,
   "countries": 10
  },
@@ -71,16 +71,6 @@
    "date": "Wed, 25 Nov 2026 14:54:24 +0000",
    "country": null,
    "is_ai": true,
-   "is_aiinfra": false
-  },
-  {
-   "title": "2027 Africa Digital Trust Insights Survey",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFBTYkNXd3VDMGxXaE0wa3VHQzNlV05qZWp2UTFWZ1NRS1FYV0VvLU5oZUJRN3VYVDYzQVlIUW53b0FiZkNBZGRjYW1WS29kcWZPNk10Z1lhZl9laThRMlNSR3pSX0VfcndYMjJuMkgwdFF6QTY5?oc=5\" target=",
-   "source": "PwC·聚合",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBTYkNXd3VDMGxXaE0wa3VHQzNlV05qZWp2UTFWZ1NRS1FYV0VvLU5oZUJRN3VYVDYzQVlIUW53b0FiZkNBZGRjYW1WS29kcWZPNk10Z1lhZl9laThRMlNSR3pSX0VfcndYMjJuMkgwdFF6QTY5?oc=5",
-   "date": "Wed, 25 Nov 2026 14:33:59 GMT",
-   "country": null,
-   "is_ai": false,
    "is_aiinfra": false
   },
   {
@@ -374,16 +364,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Huawei Found Guilty of US Criminal Charges in Landmark Case",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOcXF1dllwcm1uOWZNWUZIVGMyeTVzTURuTl9aUy1lOUliTVhOZ0NqdzVjc2xYYmZCMjd1cU42V1R6T3MwRDhiVGtrMGs3OU1abS1Wb0hsLTBrZVZ1NlQzU2VaenhFcjR6ZzZQMFZGQWotejdiQ1Z3SUx4cF8xb1",
-   "source": "Bloomberg.com·聚合",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcXF1dllwcm1uOWZNWUZIVGMyeTVzTURuTl9aUy1lOUliTVhOZ0NqdzVjc2xYYmZCMjd1cU42V1R6T3MwRDhiVGtrMGs3OU1abS1Wb0hsLTBrZVZ1NlQzU2VaenhFcjR6ZzZQMFZGQWotejdiQ1Z3SUx4cF8xb1pJaFhna2JZa1JtVHdwUGFmZHJwQzJUR0pNN00yeEEtOVQ2RjE0N2c5R2w5dnZfTGJz?oc=5",
-   "date": "Wed, 25 Nov 2026 07:36:00 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "Meta Launches US$700,000 AI Grant to Support Innovation Across Africa and Middle East",
    "brief": "Meta  has announced a US$700,000 AI Impact Grant and launched an AI Impact Hub to support artificial intelligence (AI) innovation, skills development and the adoption ......",
    "source": "TechAfrica News",
@@ -444,21 +424,31 @@
    "is_aiinfra": false
   },
   {
-   "title": "China's Huawei says US conviction 'without legal or factual merit'",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPUm9qc1ZuODdGeEtTaVAzSnZLM2lhek9SQ2oweHZBbXhpTE9kajdGN21jeGRUXzdCLWczelAtM2dCWUVaUXZCYTlnOHl6QWtqcEZpcl9GNGZjQW00a3VHbWQ0aUVSZ253Yy1VTzZ1eGhrUGw3UGl2ZTFmTkYyMG",
-   "source": "France 24·聚合",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUm9qc1ZuODdGeEtTaVAzSnZLM2lhek9SQ2oweHZBbXhpTE9kajdGN21jeGRUXzdCLWczelAtM2dCWUVaUXZCYTlnOHl6QWtqcEZpcl9GNGZjQW00a3VHbWQ0aUVSZ253Yy1VTzZ1eGhrUGw3UGl2ZTFmTkYyMGxhYVZTSWN5M3dpRlRfZUlSWkFhMlljelVxNWNxcG9lM1hZY1k3aEM4MzN1QTh1YWdRaw?oc=5",
-   "date": "Wed, 25 Nov 2026 02:35:15 GMT",
+   "title": "US jury convicts Huawei of violating sanctions, stealing trade secrets",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPTWl3dDhwR3FZYjRkcm9rUzN5RG1Qek9NdHNjNW9FQTRyN25zQ21teXpJMGJoc3ExVEU0N3lGN0dFaHdhbXRpLVZQc1pBVnlQaWNueDRaOGdQNGZqSnY1QXdqbHl5Z3BlWjVUZHhFSW1wenJxTGcxUS1LU0VfU3",
+   "source": "DW.com·聚合",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTWl3dDhwR3FZYjRkcm9rUzN5RG1Qek9NdHNjNW9FQTRyN25zQ21teXpJMGJoc3ExVEU0N3lGN0dFaHdhbXRpLVZQc1pBVnlQaWNueDRaOGdQNGZqSnY1QXdqbHl5Z3BlWjVUZHhFSW1wenJxTGcxUS1LU0VfU3hIZWJxQmM5Wm5fR01OZ200c1B4ZDlnLXhUVNIBmAFBVV95cUxOLVlhdUpLRW1wWGpDN2xXTnVSUktITEVJZHJ0ZDBkUXRuWGV3S0drQUkyTHpaVkJEaEtYWlZUMmxmbE5DcUtxMWpxaU9ZZ09ySEZnSEtFaFk0U1h6eGlRSF9FLUJMVzlfV0FoYXVlSVVFbGhHMGFzTmxIR0ozRUVxdi1LMktyLWszOVBhQU1VWUhZYm9DVlh6MA?oc=5",
+   "date": "Wed, 25 Nov 2026 02:03:53 GMT",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
   },
   {
-   "title": "US jury convicts Huawei of violating sanctions, stealing trade secrets",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPTWl3dDhwR3FZYjRkcm9rUzN5RG1Qek9NdHNjNW9FQTRyN25zQ21teXpJMGJoc3ExVEU0N3lGN0dFaHdhbXRpLVZQc1pBVnlQaWNueDRaOGdQNGZqSnY1QXdqbHl5Z3BlWjVUZHhFSW1wenJxTGcxUS1LU0VfU3",
-   "source": "Deutsche Welle·聚合",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTWl3dDhwR3FZYjRkcm9rUzN5RG1Qek9NdHNjNW9FQTRyN25zQ21teXpJMGJoc3ExVEU0N3lGN0dFaHdhbXRpLVZQc1pBVnlQaWNueDRaOGdQNGZqSnY1QXdqbHl5Z3BlWjVUZHhFSW1wenJxTGcxUS1LU0VfU3hIZWJxQmM5Wm5fR01OZ200c1B4ZDlnLXhUVNIBmAFBVV95cUxOLVlhdUpLRW1wWGpDN2xXTnVSUktITEVJZHJ0ZDBkUXRuWGV3S0drQUkyTHpaVkJEaEtYWlZUMmxmbE5DcUtxMWpxaU9ZZ09ySEZnSEtFaFk0U1h6eGlRSF9FLUJMVzlfV0FoYXVlSVVFbGhHMGFzTmxIR0ozRUVxdi1LMktyLWszOVBhQU1VWUhZYm9DVlh6MA?oc=5",
-   "date": "Wed, 25 Nov 2026 02:03:53 GMT",
+   "title": "Chinese tech giant Huawei found guilty of conspiracy to steal trade secrets",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdFI1VzlDbmp2bUxGQjZBb192T2NxWTdDaGhaUVhnOVdPdkhLb1B4NVpOZkdOa3JsbTY4bmwtdW5YWTR6M3c1dnhWQkQzWlNNQnNtWTJobUUzb01Nb0V5SXpfdG13Q3ZRLWNXZjFtR25SU1pWUWxXMEgwY1JJQ3",
+   "source": "Politico·聚合",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdFI1VzlDbmp2bUxGQjZBb192T2NxWTdDaGhaUVhnOVdPdkhLb1B4NVpOZkdOa3JsbTY4bmwtdW5YWTR6M3c1dnhWQkQzWlNNQnNtWTJobUUzb01Nb0V5SXpfdG13Q3ZRLWNXZjFtR25SU1pWUWxXMEgwY1JJQ3FNbDk1MzIzYV9kbHUzRWJvWENtYnlGUVBHRjlsSkdtTDdENXZwcmFVR3JkZ1RBMk9nbkUwZmhMVGRjSHRHYms3LUlBLXM?oc=5",
+   "date": "Wed, 25 Nov 2026 00:42:00 GMT",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Watch China's Huawei v. the US: A Short History in 10 Minutes",
+   "brief": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNVXdWOVVrdk11bGszVndWV0g0ZjV2YVViY2R4WGVFUlVmZ19XQlRZY1pwSDh6TUZwa0tCU0JfV080dDVOOWg2OFZsSkllUlFFRmxOT19PYl9RdG1ycm55SHNwRXhSejdzdWRld3lEVm14ZE1oemU0a1pBb0dSLW",
+   "source": "Bloomberg·聚合",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVXdWOVVrdk11bGszVndWV0g0ZjV2YVViY2R4WGVFUlVmZ19XQlRZY1pwSDh6TUZwa0tCU0JfV080dDVOOWg2OFZsSkllUlFFRmxOT19PYl9RdG1ycm55SHNwRXhSejdzdWRld3lEVm14ZE1oemU0a1pBb0dSLW5NaTEtb1BJTURZc1luRjZ1YXhCZFNrWnZpZFU2MG9GeUlXN21yNDFwMlJBMjdK?oc=5",
+   "date": "Wed, 25 Nov 2026 00:00:00 GMT",
    "country": null,
    "is_ai": false,
    "is_aiinfra": false
@@ -471,16 +461,6 @@
    "date": "Tue, 24 Nov 2026 22:41:00 GMT",
    "country": null,
    "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Huawei Convicted in US as Chinese Tech Giant Emerges as Nvidia Rival",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPMUtlM0kyQzY4N1dkczNyRUdnaUJmX1k5MDl2Vk5mY1B6NUpjZ0h4bnJsNThXYXhWWVQ2RUV0WndqRzdJdklPRWZ2QWY1a1JoeVpJc0s5cXI1dW5wUklBOEpqVEdrZE5GOTlxbU10Q2xTVzQtVkptVEhFZ0dZY0",
-   "source": "Newsweek·聚合",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMUtlM0kyQzY4N1dkczNyRUdnaUJmX1k5MDl2Vk5mY1B6NUpjZ0h4bnJsNThXYXhWWVQ2RUV0WndqRzdJdklPRWZ2QWY1a1JoeVpJc0s5cXI1dW5wUklBOEpqVEdrZE5GOTlxbU10Q2xTVzQtVkptVEhFZ0dZY0pDR0lZOGYxRVRpd2RZS3ZpYjlvdGJsUGQ4Q3c4d0NzTVF6eS1ZSg?oc=5",
-   "date": "Tue, 24 Nov 2026 22:36:00 GMT",
-   "country": null,
-   "is_ai": true,
    "is_aiinfra": false
   },
   {
@@ -554,36 +534,6 @@
    "is_aiinfra": false
   },
   {
-   "title": "Nasdaq South Africa Technology (^NQZA10T) components",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yZVM5X0tLT1BJUmc3MDZoTTBvNjlaQVQzRWU5OW5nb3M2RXdGTXd6SktQTk5rMjZOckM2cnpTZkJlU09TYjRzQUNXSF9BcmhkcGhwVEhjLTdwRDVyMVpUVlozTDVob3lW?oc=5\" target=\"_blank\">Nasdaq ",
-   "source": "Yahoo Finance UK·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yZVM5X0tLT1BJUmc3MDZoTTBvNjlaQVQzRWU5OW5nb3M2RXdGTXd6SktQTk5rMjZOckM2cnpTZkJlU09TYjRzQUNXSF9BcmhkcGhwVEhjLTdwRDVyMVpUVlozTDVob3lW?oc=5",
-   "date": "Tue, 24 Nov 2026 18:00:11 GMT",
-   "country": "🇿🇦 南非",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Tunisia Allocates TND76 Million to Extend Telecom Coverage to Underserved Areas",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxOWW15SUhqNU1iamR5RGVhWV9GSmlxMXgwN0xJaXZpZEV0Q3BPd2k5d1JCNm0tNm02S1VoZXFES1NJWG0wVnItb3JiVFpkZmt5S0dRcXQ1TDl1LV9rS1Y1U01BV0pWVlV4aUZlMzhTeHF0dXNBNWdLWGFiUTJ1Wk",
-   "source": "TechAfrica News·聚合",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWW15SUhqNU1iamR5RGVhWV9GSmlxMXgwN0xJaXZpZEV0Q3BPd2k5d1JCNm0tNm02S1VoZXFES1NJWG0wVnItb3JiVFpkZmt5S0dRcXQ1TDl1LV9rS1Y1U01BV0pWVlV4aUZlMzhTeHF0dXNBNWdLWGFiUTJ1WkxuSXgtYW9JX2w3Zk42UzczMV9GUzFOSVNJeGp1Wl9LaVhIWTFMN3ZiVHBsM1d5WWtuaHEzcVlBLTdrbUE?oc=5",
-   "date": "Tue, 24 Nov 2026 15:48:08 GMT",
-   "country": "🇹🇳 突尼斯",
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
-   "title": "Russia Uses Digital Tools to Recruit Africans",
-   "brief": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQNURYa3I1ZlB4WFZFbWFTNVFobGYySzBMUWhTNDU3WHpzb1phVEUtXzNSNFBnbWJMZmtLTjN6NjAwbTRlbXZ5eDhYMmtzcFB4a2FDZU52RmtyTW1qbjVLNFgzOUJWcVlyd2w4YmtUcmt0MTlNX1JXSkJRZGJ1dW",
-   "source": "Africa Defense Forum·聚合",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNURYa3I1ZlB4WFZFbWFTNVFobGYySzBMUWhTNDU3WHpzb1phVEUtXzNSNFBnbWJMZmtLTjN6NjAwbTRlbXZ5eDhYMmtzcFB4a2FDZU52RmtyTW1qbjVLNFgzOUJWcVlyd2w4YmtUcmt0MTlNX1JXSkJRZGJ1dWxjaF9rbUpadw?oc=5",
-   "date": "Tue, 24 Nov 2026 15:46:50 GMT",
-   "country": null,
-   "is_ai": false,
-   "is_aiinfra": false
-  },
-  {
    "title": "MTN Benin’s $215 million plan is running into a good problem with customers’ demand for more data",
    "brief": "A jump in traffic is forcing MTN Benin to spend faster than planned. Getting customers onto 5G will take more than building the network in the Republic of Benin.",
    "source": "TechCabal",
@@ -621,6 +571,56 @@
    "date": "Tue, 24 Nov 2026 11:49:43 +0000",
    "country": null,
    "is_ai": true,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Payaza acquires Seesail to expand across Africa",
+   "brief": "Payaza's ShopAza acquires Ghanaian startup Seesail to expand its e-commerce footprint and help African businesses sell and manage operations online.",
+   "source": "Condia",
+   "url": "https://thecondia.com/shopaza-acquires-seesail-to-expand-across-africa/",
+   "date": "Tue, 24 Nov 2026 07:52:30 +0000",
+   "country": "🇬🇭 加纳",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Creating an intelligent identity infrastructure layer",
+   "brief": "It’s time to turn the compliance burden from a cost centre into a competitive advantage.",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/creating-an-intelligent-identity-infrastructure-layer/LPp6VMrBl6RMDKQz",
+   "date": "Tue, 24 Nov 2026 09:26:57 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "TOURISE and Skift Release New Global Report on Building Tourism’s Next Generation Workforce",
+   "brief": "TOURISE, in collaboration with Skift, today released a new report, “The Talent Imperative: How Travel and Tourism Will Build Its Next Generation Workforce.”",
+   "source": "ITWeb Africa",
+   "url": "https://www.itweb.co.za/article/tourise-and-skift-release-new-global-report-on-building-tourisms-next-generation-workforce/VgZeyvJlDe6MdjX9",
+   "date": "Mon, 23 Nov 2026 21:45:00 +0200",
+   "country": null,
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "Last year, Nigerians paid ₦1.5B in UK Global Talent tech endorsement fees. 97% were not endorsed",
+   "brief": "Home Office data analysed by Condia show Tech Nation endorsed 42 of 1,303 Nigerian applicants for the UK's Global Talent visa in 2025-26, the lowest success rate of any nationality",
+   "source": "Condia",
+   "url": "https://thecondia.com/tech-nation-global-talent-nigeria-success-rate/",
+   "date": "Mon, 23 Nov 2026 18:16:45 +0000",
+   "country": "🇳🇬 尼日利亚",
+   "is_ai": false,
+   "is_aiinfra": false
+  },
+  {
+   "title": "After 11 years of failed tap-to-pay bets, Visa turns to Transsion",
+   "brief": "Visa’s new memorandum with TECNO and itel maker Transsion looks like a shortcut to African smartphone dominance. In reality, it is a high-stakes gamble to fix a decade-old contactless payments problem.",
+   "source": "Condia",
+   "url": "https://thecondia.com/visa-transsion-africa-tap-to-pay-contactless-payments/",
+   "date": "Mon, 23 Nov 2026 15:22:18 +0000",
+   "country": null,
+   "is_ai": false,
    "is_aiinfra": false
   }
  ]
