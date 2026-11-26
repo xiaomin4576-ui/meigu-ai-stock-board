@@ -1,7 +1,7 @@
 {
  "asof": "2026-11-26",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-11-26T18:04+08:00",
+ "generated_at": "2026-11-26T20:52+08:00",
  "guard": {
   "url_dups_dropped": 0,
   "cross_day_suppressed": 0,
@@ -12,9 +12,9 @@
  "items": [
   {
    "cat": "geo",
-   "title": "伊朗称水雷袭击船只，霍尔木兹供应担忧持续",
-   "brief": "伊朗宣称以水雷袭击船只，霍尔木兹海峡航运风险升温，油价反应平淡但供应担忧未消。",
-   "chain": "霍尔木兹航运风险→原油供应溢价与美股能源板块→A股油气与航运链情绪",
+   "title": "伊朗称霍尔木兹海峡水雷击中船只，油价回落但供应担忧未消",
+   "brief": "伊朗宣称霍尔木兹海峡有水雷击中船只，油价在供应担忧中回落；海峡航运风险仍受关注。",
+   "chain": "霍尔木兹航运风险→原油风险溢价与美股能源板块波动→A股油气与航运链情绪",
    "impact": 9,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWHpfX3p2RFoxU2l0SGZVbVdSejdGYkc0NFpERWlxVEtab0pQbGd1NUtqQ3c0cXprdWItUF9fRmVVVElET3BNbklnbElwaC1UZ0xoNnd4dE9Wb2dFVDFGN2JyQ3YyUVhfTWxsNGFWNFNURG5kX1pMdVBtb2QyLXFMaXZPM0ZPdGdud1hWdHFuTEpNQXBtdUh6RmpWcW1jelhTU0JHdmp3dWphb0hB?oc=5",
@@ -22,29 +22,49 @@
   },
   {
    "cat": "oil",
-   "title": "霍尔木兹水雷袭击震动市场，油价反弹",
-   "brief": "霍尔木兹水雷袭击事件令全球油市震荡，油价上行，交易员重估海湾供应中断风险。",
-   "chain": "海峡袭击→Brent风险溢价抬升→东非采购成本与莫桑比克项目现金流承压",
+   "title": "伊朗称一LNG运输船在霍尔木兹触雷爆炸",
+   "brief": "伊朗方面称一艘LNG运输船在霍尔木兹海峡触雷爆炸，加剧海湾航运与能源供应担忧。",
+   "chain": "霍尔木兹LNG船遇袭→气价与油价风险溢价上行→东非LNG航线与莫桑比克项目外运风险上升",
    "impact": 8,
    "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Rallies-as-Hormuz-Mine-Strikes-Rattle-Global-Markets.html",
-   "ts": "Wed, 25 Nov 2026 23:18:59 -0600"
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-LNG-Carrier-Exploded-After-Hitting-a-Mine-in-Hormuz.html",
+   "ts": "Thu, 26 Nov 2026 06:30:00 -0600"
   },
   {
-   "cat": "macro",
-   "title": "美联储调查：经济续增、通胀仍黏",
-   "brief": "美联储褐皮书显示近几周经济继续增长但通胀顽固，强化利率维持高位的预期。",
-   "chain": "通胀黏性→降息预期降温、美股估值分母承压→A股算力链风险偏好受抑",
+   "cat": "ai",
+   "title": "美芯片管制与蒸馏打击威胁中国AI模型开发",
+   "brief": "消息人士称美国芯片出口管制与对模型蒸馏的打击，正威胁中国AI模型研发进度。",
+   "chain": "美对华芯片与蒸馏限制→英伟达中国收入与美股AI算力预期承压→A股国产算力与模型自研链受益",
    "impact": 8,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZm5vWXNOWWIxaUVxUEVsRDBCWmpwYmd6eWJMLW1tcnJMVmxvR08ybXFaYWlFcVZ2YU1fYk9hbWotWlBXTzVValBHSFFzNjM1QlpyVWNCXzFPTFRZMUtWeHp0SThmaWxRMTVYVXp3UlM2R3pKQnVNS2hiZ1VERU9EVnFGNlA5dGZEa1NtZ1o5REVxM3ZzX2ZpOXRaN0lydzlDZk1VQ2FlS212U3dw?oc=5",
-   "ts": "2026-11-25T20:42:46+00:00"
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSHo5VjlHR1l4UkdCSmFGNUd6WVlZNXlwZXl6Yk5oYUFnTm9ISC1ZSWdmbi1aZ3R1b1Q3bXhpaXVoSXRaNy1hcWdSWHdCd2RFVGx6WlhYN25pZXI4Q2xHWGpQVkJYN2MwTk1ma2NERnBKTHhBUXpHSElLeFdwdEpVZFZZcWhxMm1QUEVpeHRYSXczYXNJelJTUWtHdEkxSGpud2NxeV90R0VjTXVkTmE4U0JRZWVRM1RFUmt3UGhIbw?oc=5",
+   "ts": "2026-11-26T07:19:00+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "标普警告或因治理风险下调英伟达信用评级",
+   "brief": "标普全球称英伟达管理与治理风险上升，信用评级可能被下调一档。",
+   "chain": "英伟达治理风险→美股AI龙头估值与信用溢价承压→A股算力链龙头情绪受抑",
+   "impact": 7,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html",
+   "ts": "2026-11-26T02:57:32+00:00"
   },
   {
    "cat": "macro",
-   "title": "美国意外对巴西商品加征新关税",
-   "brief": "美方提议对巴西进口加征新关税，含飞机10%关税，贸易摩擦再起。",
-   "chain": "关税升级→美股航空与工业成本上升、风险偏好走弱→A股出口链承压",
+   "title": "韩国央行加息并上调2027年增长预期",
+   "brief": "韩国央行宣布加息，同时上调2027年经济增长展望，政策偏鹰。",
+   "chain": "韩国央行加息→亚洲利率与风险偏好边际收紧→A股外资流向与成长股估值承压",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSTJjdUdXNzZ0QVUtZS1QMGowZkw1ellJM1ZkZUMzYVQ1OVp5ME5vQnRTMHgyYm9YVFRxcm11TkdSUmJ6RV9nYlY0YnkzZnhuNkNWa0g0MmNQVDhNMTRiYVN0M1lUbERad1Rqb1h0U3BCa2RJam5DVXBXUk8zNy1CNDlVaXQwRE56Ykl6NjhXTy1Bc21Lbm1sc214UlNVLUdOajVQWlprbG1mRnlIQVNyaWpNSDFBa0Fo?oc=5",
+   "ts": "2026-11-26T01:05:00+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "美国拟对巴西进口加征新关税，飞机征10%",
+   "brief": "美国出人意料提议对巴西进口商品加征关税，其中飞机税率10%，贸易摩擦再起。",
+   "chain": "美对巴西关税→美股航空与跨国供应链成本上升→A股出口链与航空制造情绪扰动",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTGZ4TFg5REgyY0VnandHQjZIMFN1cnNBOEJVQTBDaU1IWDFLVUxmdHFTXzRLVnVKc3pHd3lTYk9lRHZBOWV1Skd5V0VzVU05ZDRjZXdZekl5cWFneWI2b3ptS09taEhjNzZIcGhuWVdydDk5cnpkcElkMUdTZkJjTjROT09sOG5adVUxNVpNeGp5UmxaaHl2bzh6TklXMlp2eVQyVW9idi1QV25LcnpIeFBjMEF4RzNNbkNIU3JOUlN6WWVqSjRtTlFZMA?oc=5",
@@ -52,29 +72,29 @@
   },
   {
    "cat": "macro",
-   "title": "美关税威胁施压伙伴国加快签贸易协议",
-   "brief": "美国加征关税威胁迫使贸易伙伴加速谈判签约，全球贸易格局再调整。",
-   "chain": "关税施压→美股跨国企业不确定性上升→A股外贸与供应链板块波动",
-   "impact": 7,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
-   "ts": "Thu, 26 Nov 2026 10:02:44 GMT"
+   "title": "美股上涨，交易员淡化最新一轮美国关税冲击",
+   "brief": "投资者消化最新美国关税举措，美股走高，市场风险偏好暂稳。",
+   "chain": "关税冲击被消化→美股风险偏好回升→A股出口与算力链情绪偏暖",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUWRTQ2N0czgwTVhPdVhvZDUzeDNDRUJ6cFd0MWx1N05aSTJHaUlOdTQ5X2xieEVueHJ3VTRrb0ppNEtzbFVBRm1fU3VvV0xpMWVlUWg3c0NvWXJxS2ZabkwwejhwenhCVmhYRUdweUwwdHhTTWd1bTh2QlR1dFpvVDFHVQ?oc=5",
+   "ts": "2026-11-26T01:35:00+00:00"
   },
   {
    "cat": "macro",
-   "title": "韩国央行加息并上调2027增长预期",
-   "brief": "韩国央行加息并上调明年增长展望，显示亚洲货币政策分化、经济韧性尚存。",
-   "chain": "韩加息→亚洲利率上行、美元资产相对吸引力变化→A股外资流向与算力链估值",
-   "impact": 6,
+   "title": "美元涨势因感恩节暂歇",
+   "brief": "美元此前走强后在感恩节假期暂停，汇市交投趋淡。",
+   "chain": "美元涨势暂歇→美债利率与美元见顶预期→A股外资流入与成长股估值边际改善",
+   "impact": 5,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSTJjdUdXNzZ0QVUtZS1QMGowZkw1ellJM1ZkZUMzYVQ1OVp5ME5vQnRTMHgyYm9YVFRxcm11TkdSUmJ6RV9nYlY0YnkzZnhuNkNWa0g0MmNQVDhNMTRiYVN0M1lUbERad1Rqb1h0U3BCa2RJam5DVXBXUk8zNy1CNDlVaXQwRE56Ykl6NjhXTy1Bc21Lbm1sc214UlNVLUdOajVQWlprbG1mRnlIQVNyaWpNSDFBa0Fo?oc=5",
-   "ts": "2026-11-26T01:05:00+00:00"
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeGRxVzhWY18xWGQzRlVEbmZBbU9lcnR5WEpveVIybFY3X0I5bVNXN2Q2NWZUTUl6eGJYQUZoeHEwSFJqYzhGZDV4Yk9OV29Qc0dXSXFEbm9PY09FQlhNWVlQb2ZEN0FlelZvQVJyT2N3WU42X3phd3ZYVVczQ0RORDFwaW5vd0NxTnozeEpYU3VIVF9NcGtGYng0VWRnT0hk?oc=5",
+   "ts": "2026-11-26T01:44:00+00:00"
   },
   {
    "cat": "geo",
-   "title": "特朗普与北约促俄避免扩大乌克兰战争",
-   "brief": "特朗普与北约秘书长呼吁俄罗斯避免使乌克兰战争升级，地缘紧张持续。",
-   "chain": "俄乌局势→美股避险情绪与能源溢价→A股军工与能源安全链",
+   "title": "特朗普与北约秘书长敦促俄罗斯避免扩大乌克兰战争",
+   "brief": "特朗普与北约秘书长呼吁俄方避免采取扩大乌克兰战争的动作，局势仍紧张。",
+   "chain": "俄乌局势紧张→美股能源与防务板块波动→A股军工与能源安全链情绪",
    "impact": 7,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcVE1ZllSR0xRNHFVUjR0WWJjQXF2MllxbUV3WUQ2Vno2WFFCbzkyODBvWjE1WmtscC1rdkVLdVJXUDhUUXFiMDZQbS01akV2UjhQQUFwMWp2aWdrdm5ZQy11b0tvX3BkSVU1WmdUV2J4N2l0UF9tcHVqRzBuWkxhRUVsU1FtMTl1aEhRWkx3RFI2VDlraEhKemFOV0ZEX0todDFpTTBsTndhZk0zclNaWk5lNA?oc=5",
@@ -82,110 +102,70 @@
   },
   {
    "cat": "geo",
-   "title": "俄军弹道导弹袭击基辅",
-   "brief": "俄军以弹道导弹打击基辅，市长通报袭击，俄乌冲突烈度上升。",
-   "chain": "基辅遇袭→欧洲地缘风险溢价、避险资产走强→A股军工与黄金链情绪",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOUhrdXc0NFhybXpCcmF1VjM2RlFseVBqOW0xdXJBQlZWT0w5TmZRTjFTbEpjWTVlZHBmMHZMQ0tVcm5OMnk5RjhKWklxQlFfY1hDQTB4dmZNQWwwd2tLb0xLNGRNbUpNXzNCZGw0Sm1fNlhkSEUzNUZvQ2hkVHNOMGhOOFJlSnZJcXQ4UldFb01FY2J2YmpLUW1NTi1rWnRBb3c?oc=5",
-   "ts": "2026-11-25T22:07:09+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "金正恩呼吁扩充核武库",
-   "brief": "朝鲜领导人金正恩要求扩大核武库，称其地位“永不改变”，半岛紧张升温。",
-   "chain": "半岛核风险→美股避险与防务板块→A股军工链情绪",
-   "impact": 6,
+   "title": "金正恩呼吁扩充核武库，称地位不会改变",
+   "brief": "朝鲜领导人金正恩要求扩大核武库，并称朝鲜核地位不会改变。",
+   "chain": "朝鲜核扩张→东北亚地缘风险升温→A股军工与避险资产情绪",
+   "impact": 5,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/26/north-korea-kim-nuclear-weapons-expansion.html",
    "ts": "Thu, 26 Nov 2026 05:50:34 GMT"
   },
   {
-   "cat": "oil",
-   "title": "Boehly签美方支持换股协议收购卢克石油海外资产",
-   "brief": "亿万富翁Boehly在美方支持下以换股协议收购卢克石油国际资产，俄油资产易主。",
-   "chain": "俄油资产重组→全球原油供应格局微调→东非油源多元化与采购议价空间",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM05VWXNudnhTWW1BY2VFUHpZRzdNSjU4TG1Ob3NYZTRKM0tNUWNGQmxyNEp6NW0yTEJWaTZabF9UNW9CUUZTclBhaGpnQmZ6WVRZTVhqS3dpOTBsZEtaOGZnMzFPQlR5MDRpZThJNmU0cXc5Q0trMDNhdWtxVjV4V1lMYzYyR1RHU0lBNDdWZDlzOWxBN1J1Wm0xWlJkNEVMaVNXUXdQcTRuUHlvczlnMTd1VGRWQQ?oc=5",
-   "ts": "2026-11-25T22:54:57+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "美国钻机数持稳，原油产量连续第五周创纪录",
-   "brief": "美国活跃钻机数持平，原油产量连续第五周刷新纪录，供应端持续宽松。",
-   "chain": "美产量创纪录→WTI上行受限→莫桑比克油气项目价格环境偏中性",
-   "impact": 6,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Crude-Oil/US-Rig-Count-Holds-Steady-as-Oil-Production-Hits-Fifth-Straight-Record.html",
-   "ts": "Wed, 25 Nov 2026 15:06:52 -0600"
-  },
-  {
-   "cat": "oil",
-   "title": "利比亚拟推新一轮石油招标，安全风险犹存",
-   "brief": "利比亚计划启动新一轮石油区块招标，尽管安全风险上升，非洲供应潜力受关注。",
-   "chain": "利比亚增产预期→中期油价承压→东非油气竞争与投资分流",
+   "cat": "geo",
+   "title": "中国国防部促日本停止在南海挑起争端",
+   "brief": "中国国防部敦促日本停止在南海问题上挑动争端，中日围绕地区局势摩擦升温。",
+   "chain": "南海摩擦升温→亚太地缘风险溢价→A股军工与航运链情绪",
    "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbUJVQ2JZcnNsSFBFOTVuU0tTUjZUOHpSNFhpMXFkOVIxR0NFSUJ5d0F4a3BVa1BRcXdIUldMZjFKd1lMV2c3VjYxRHZEWnpvOTY2UE92dXowSUh6U00xRHpVYm52Y3VYQklTaVNQWFJBdFVFNUxxSk9uX2R6X25qNjkzNE1LOUM1a011ZmpUd29sMHI2OTdyNmJrSVFScmNUTkl3WFhfc0h4N3ZHZkctRnlWNFRncUg1Wi13SHVDU0ZldkE?oc=5",
+   "ts": "2026-11-26T09:41:22+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "以色列在加沙击毙九人，含哈马斯任命部长",
+   "brief": "以色列在加沙行动中击毙九人，其中包括一名哈马斯任命的部长，停火前景再受考验。",
+   "chain": "加沙冲突升级→中东地缘风险溢价→A股军工与能源安全链情绪",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNzFiM29KUVhvZHZUYTV1SWtlLXNYbXg3ZzRodFVmanZkNzJsczZ4UldfRkNkSW1fVDhMaTFYOW9ETUxXaXFKcktCTThoYnBYS21mVjQxYkNWM19MR1h0WHNSdjlGenRTNkExU2RKU0ZKNUhCRWR0OVU2VmFqTUJHeE5QMVNybDE4Qk1WTmp5VGgyWDV0NjhaM3h4Ulp1bWZDUThnSlI0TFMwMnQzNk5KQnZXVTRCUUxvc2FLbmlDYVREeHpwOUpV?oc=5",
+   "ts": "2026-11-26T10:49:17+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "土库曼斯坦TAPI百亿美元天然气管道接近重大节点",
+   "brief": "土库曼斯坦TAPI天然气管道项目接近重要里程碑，南亚气源格局或生变。",
+   "chain": "TAPI管道推进→亚洲天然气供应格局调整→对莫桑比克东非LNG出口竞争与定价形成参照",
+   "impact": 5,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Turkmenistan-Nears-Major-Milestone-in-10-Billion-TAPI-Gas-Pipeline.html",
+   "ts": "Thu, 26 Nov 2026 05:40:00 -0600"
+  },
+  {
+   "cat": "oil",
+   "title": "利比亚拟启动新一轮石油招标，安全风险仍高",
+   "brief": "利比亚计划在安全风险上升背景下启动新一轮石油区块招标，意在提升产量。",
+   "chain": "利比亚增产招标→中期原油供给预期增加→对莫桑比克油气经营构成远期供给竞争",
+   "impact": 4,
    "source": "OilPrice",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Libya-Plans-New-Oil-Bidding-Rounds-Despite-Mounting-Security-Risks.html",
    "ts": "Thu, 26 Nov 2026 02:30:00 -0600"
   },
   {
-   "cat": "gas",
-   "title": "拉美握有AI所需铜与能源，基建是考验",
-   "brief": "拉美拥有AI建设所需的铜与能源资源，但基础设施瓶颈成为关键制约。",
-   "chain": "拉美能源基建→全球LNG与电力供应格局→东非天然气项目融资与出口竞争",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/26/latin-america-copper-energy-ai-investment.html",
-   "ts": "Thu, 26 Nov 2026 08:59:11 GMT"
-  },
-  {
    "cat": "tech",
-   "title": "标普警告或因治理风险下调英伟达评级",
-   "brief": "标普全球警告英伟达信用评级或因管理层与治理风险上升而被下调一档。",
-   "chain": "英伟达治理风险→美股AI龙头信用与估值承压→A股算力链情绪传导",
-   "impact": 8,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html",
-   "ts": "2026-11-26T02:57:32+00:00"
-  },
-  {
-   "cat": "tech",
-   "title": "美收紧对华AI芯片，英伟达卖家寻新买家",
-   "brief": "美国限制中国获取AI芯片，英伟达相关芯片卖家转向寻找新买家，出口管制影响显现。",
-   "chain": "芯片出口管制→英伟达中国收入受限、美股半导体承压→A股国产算力替代链受益",
-   "impact": 8,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/25/nvidia-china-ai-chip-remote-access.html",
-   "ts": "Wed, 25 Nov 2026 17:28:24 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "穆迪：黄仁勋复职缓解不确定性，评级不变",
-   "brief": "穆迪称黄仁勋恢复英伟达CEO职务缓解治理不确定性，评级维持不变。",
-   "chain": "治理不确定性缓解→美股AI龙头风险溢价回落→A股算力链情绪修复",
+   "title": "SpaceX获FCC批准部署百万颗轨道数据中心卫星",
+   "brief": "SpaceX获美国FCC批准部署多达100万颗轨道数据中心卫星，太空算力基础设施推进。",
+   "chain": "轨道数据中心获批→美股太空与算力基础设施主题升温→A股卫星互联网与算力链映射",
    "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUS1rM3pwcGFXMVd1NGhiVUhHaDBya083NEptQnh0a1VObDlwSnRsbkQtamU1UHhLQzg1eW1lTlh4LUVoRDBHZDh5T0NyMTl6THBpNWtwVFZhX2c4cXdlbEFTS1BjMnR2aHc2dElrNF9VZTFSY3Y2V3hKU29qZ2ItRGtMXzkzNzc4bXhMYm1FSS1GM0xpMDd2LWVJckN4R1M3SkEtbWxyV0V3ay1ZeHVLVzJHS0pXZG9EVzVVTw?oc=5",
-   "ts": "2026-11-25T22:22:05+00:00"
-  },
-  {
-   "cat": "tech",
-   "title": "美批准SpaceX部署百万颗卫星用于太空数据中心",
-   "brief": "美国授权SpaceX部署多达百万颗卫星，用于太空数据中心，算力基础设施向轨道延伸。",
-   "chain": "太空数据中心→美股卫星与算力基建主题→A股卫星互联网与算力链映射",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVk5uRnprd285MEw5V2prcHR6bXljVGN4cUZuOHA4eHJUZkFzOVFnS1QtYnZaal8yYUYxa0t1cW84WjVzQWpub0czSGxUblh3STB6WnZxcThWZUxNRDk2emliZ0tfTmk5U3YxY3FZRXdEYWNyb2VMTmlkZE5RNWZHOS12OWdjSkpNdzhGU0Z4NWo3VmpSZHNXWGNJZUFpZjl2T2xuUkRKRXBpOTFqVFdFLXFvV0xHd1czWDFKbFU3OWFGU21B?oc=5",
-   "ts": "2026-11-25T20:44:01+00:00"
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+   "ts": "Thu, 26 Nov 2026 02:35:39 GMT"
   },
   {
    "cat": "tech",
    "title": "欧洲最大卫星工厂开业，挑战星链",
-   "brief": "欧洲最大卫星工厂开业，力图与马斯克星链竞争，卫星互联网格局生变。",
-   "chain": "欧洲卫星产能扩张→美股星链竞争格局→A股卫星互联网链情绪",
-   "impact": 5,
+   "brief": "欧洲最大卫星工厂开业，意在打造本土星座以对标马斯克的星链。",
+   "chain": "欧洲卫星产能扩张→美股卫星通信竞争格局变化→A股卫星互联网链情绪",
+   "impact": 4,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/26/starlink-satellites-aerospacelab-factory-belgium.html",
    "ts": "Thu, 26 Nov 2026 07:45:05 GMT"
@@ -193,32 +173,42 @@
   {
    "cat": "ai",
    "title": "AI股抛售加深，午后反弹收窄跌幅",
-   "brief": "AI相关股票抛售加剧，但午后买盘反弹使跌幅受限，市场情绪仍脆弱。",
-   "chain": "AI股回调→美股高久期成长股估值承压→A股算力链跟随波动",
-   "impact": 8,
+   "brief": "AI相关股票抛售一度加深，午后买盘令跌幅明显收窄，市场情绪仍脆弱。",
+   "chain": "AI股抛售→美股高久期成长股估值承压→A股算力链情绪同步波动",
+   "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMmNMM0doWElDVk9BdjNGZnJHakNCUFg1blQzSlk0eW9zeVduV3ZKcEtJd0hpUkxDMVhnRE9rY1lLUzF1eENZaFh0SUNKbmRjanN3YWtZakZud2RYUnlSRkk5b1RZT2VfbFJPXzhZVEVyYnFnRHBwYVlGdFQzaEt2Z2VjaGVXWUE0Qmd5bjZYandmR2M2QXBSY2tKem80OGNlSzh3?oc=5",
    "ts": "2026-11-25T23:39:08+00:00"
   },
   {
    "cat": "ai",
-   "title": "全球股市反弹，投资者淡化关税与AI忧虑",
-   "brief": "全球股市回升，投资者淡化美国关税与AI板块担忧，逢低买入情绪回暖。",
-   "chain": "风险偏好修复→美股AI板块企稳→A股算力链情绪回暖",
-   "impact": 7,
+   "title": "英伟达卖家寻找新买家，美限制中国AI芯片准入",
+   "brief": "消息称美国收紧中国获取AI芯片渠道后，英伟达相关卖家正寻找新的买家。",
+   "chain": "美限制中国AI芯片准入→英伟达渠道与收入预期承压→A股国产算力替代链受益",
+   "impact": 6,
    "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html",
-   "ts": "Thu, 26 Nov 2026 09:51:40 GMT"
+   "url": "https://www.cnbc.com/2026/11/25/nvidia-china-ai-chip-remote-access.html",
+   "ts": "Wed, 25 Nov 2026 17:28:24 GMT"
   },
   {
-   "cat": "ai",
-   "title": "关税乱局叠加科技痛楚，投资者再受冲击",
-   "brief": "关税政策混乱叠加科技股走弱，波动 weary 的投资者再遭冲击，市场震荡加剧。",
-   "chain": "关税+科技双压→美股波动率上升、AI估值承压→A股算力链风险偏好下行",
-   "impact": 7,
+   "cat": "macro",
+   "title": "特朗普拟对印度加征关税，与竞争国对比",
+   "brief": "报道梳理特朗普拟对印度加征关税的方案，并与其它竞争出口国税率作对比。",
+   "chain": "美对印关税→美股跨国供应链成本与新兴市场资金流向→A股出口替代链情绪",
+   "impact": 5,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZGd2TDZySmQ2VXE4QUhfUG1OOGU3S3l4eWVDMGFKLWNVRlp1dE1zYnNmOUNYTGpQeGZtS3RrWC11R0x0aEo2YnBsU2Y1NTEwT2V2eF9fQmhfLXc1ekFmajRGUWg0NVZheFBtUy15RWd6NkpsZzFSZTY1M1FIYjI5b2htVWVYemdvRDQyTUFQbw?oc=5",
-   "ts": "2026-11-25T20:50:19+00:00"
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNazJTSjI3dk40ZnhoM2ZJR2N2eXp0NUFoaWUxNUI4NW9wV19YWEtpd24tS0t5YnFHV2YzSkRmSXdiTnR6cjRuMTROY1d1VlQ2NUR3UjNNMUJkeU5XQVBOeUQ1VnVTQmtQU3BVOUNndHdyeUhvWDcxdmRHMGtheVJCREs4UzdCWS1VVDQwcmdQYWtILXltMHRhN1UxeTVtdGhuMFhpemlOdDRkLTB5?oc=5",
+   "ts": "2026-11-26T11:10:56+00:00"
+  },
+  {
+   "cat": "macro",
+   "title": "美国关税威胁施压伙伴国加快签署贸易协议",
+   "brief": "美国加征关税的威胁正迫使贸易伙伴加快与美国签署贸易协议。",
+   "chain": "关税施压促谈→全球贸易格局重排→A股出口链与汇率预期扰动",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
+   "ts": "Thu, 26 Nov 2026 12:46:55 GMT"
   }
  ]
 }
