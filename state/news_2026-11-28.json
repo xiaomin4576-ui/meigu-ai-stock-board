@@ -1,10 +1,10 @@
 {
  "asof": "2026-11-28",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-11-28T01:03+08:00",
+ "generated_at": "2026-11-28T03:59+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 19,
+  "cross_day_suppressed": 16,
   "cluster_label": "",
   "cluster_dropped": [],
   "backfilled": 0
@@ -13,8 +13,8 @@
   {
    "cat": "geo",
    "title": "伊朗警告海湾军事存在 韩国扩大海军角色",
-   "brief": "伊朗就海湾地区外国军事存在发出警告，韩国准备扩大其海军角色，海湾紧张局势持续升温。",
-   "chain": "海湾军事对峙升温→避险情绪抬升美股波动率→压制A股算力链风险偏好",
+   "brief": "伊朗就海湾地区外国军事存在发出警告，韩国准备扩大海军部署，海湾紧张局势升温。",
+   "chain": "海湾军事对峙升温→避险情绪抬升美股波动、能源风险溢价→A股算力链情绪承压",
    "impact": 8,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNjgyMVEwOUJRYll3NXdiU29vVVlmcGMxc3VhTGdEZ3BaZzZ0bUFtemt1c01oMXhjcHlJMEoxVWppTFV2YU12Qk4xRjlzVTNZaEVyR0dBZGtRNEdvaGhCTHhPY2VEVTUtZUw3a3dGekV4VTZkYmp3ZzFjVmxMRnliRmhwZmJOdkZhS3dBNWVfVkU4SjdObjF4WFY4Mmo4ZDlGWFcxYTZnMmVDUXN3NTVPY2lObHZlRFd0aXhjbTR0NXkwWkFkSHVr?oc=5",
@@ -22,169 +22,59 @@
   },
   {
    "cat": "geo",
-   "title": "特朗普促普京停战 欧洲备战美军削减",
-   "brief": "特朗普呼吁普京结束侵略，同时欧洲为美国可能削减驻军做准备，俄乌与美欧安全格局同步生变。",
-   "chain": "俄乌与美欧防务格局生变→避险与欧洲防务股重估→影响A股风险偏好与出口链",
-   "impact": 7,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Geopolitics/Europe/Trump-Urges-Putin-to-End-Aggression-as-Europe-Braces-for-US-Military-Cuts.html",
-   "ts": "Fri, 27 Nov 2026 09:00:00 -0600"
+   "title": "特朗普称普京可出席G20",
+   "brief": "特朗普表示若普京愿意可来G20，释放大国接触信号，俄乌外交走向受关注。",
+   "chain": "俄乌外交松动预期→欧洲风险溢价与能源预期波动→A股情绪中性偏暖",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUjY3Sm9MUkZXUEQyNDc3MFdwRlFBaWcyWkpxbDRYT21RVFYySkgtUm9WeFNFb1lZUU9lM1BqbDBWLW5VLW9PR1ZvMjFxVHZNX2Q2b01rNXdVQUJIYmZ5ZHd4eEI1RkI3dlctelgwODgwczQta2ZWZEpDU2Jwa29MT21ZMlJ1clVNMkM0?oc=5",
+   "ts": "2026-11-27T00:35:00+00:00"
   },
   {
    "cat": "geo",
-   "title": "特朗普支持伊拉克总理强化国家权威",
-   "brief": "特朗普表态支持伊拉克领导人扩大国家权威，中东政治格局与美伊博弈出现新变量。",
-   "chain": "美伊在伊拉克博弈→中东风险溢价扰动油价与美股→间接影响A股能源与算力链情绪",
+   "title": "哈马斯领导人之子在以色列打击中幸存",
+   "brief": "哈马斯称其领导人之子在以色列袭击中幸存，中东冲突持续发酵。",
+   "chain": "中东冲突延续→避险与油价风险溢价→美股能源板块与A股情绪扰动",
    "impact": 5,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdE9aRmVNN0dTb3V4aExjamVrY0F0X3hVb3g5ZWZZY1B1bVNzb2wwQkFXdi1ka3d2RFk1M1FDVGdUSXkwLTlRU3p0Q0RsRHM4cUsxcm5JOVFUN1U5bF9hYWtBVzZRYmhSVHEyaW8tZExhLVhfZmhZWHRXZzRTTXlONm9wTjRwNkxfY2MxVjZUUExpTGdqMU1jSDVxNXRNclIxa1hsRXcxTzhycGcxbW9vRDV0czJ4dw?oc=5",
-   "ts": "2026-11-27T13:11:44+00:00"
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQXhxUTlzbVROVWJBME9JOGtIQnZUczNMMXdBTUV0QlByWWRCWThyeXlfcDA0T2MyaHlVbFlFSW0wbkpjbGd1WXVjQkZQaDNuZFM1VFkxaU9fN2lXUGtwa0xmQ0xHZHVaYko0M3FfVmdmd0l1LUpJOVhrNF9vTzk2OUJ0bVB4MU9JNnFCWFdESncyd0NBbHJodGpyUlRLNXRRRjhDYXJTRQ?oc=5",
+   "ts": "2026-11-27T18:33:44+00:00"
   },
   {
    "cat": "geo",
-   "title": "西班牙大选或拉近马德里与特朗普政府",
-   "brief": "西班牙选举结果可能使马德里更靠近特朗普治下的华盛顿，欧洲政治版图与美欧关系面临调整。",
-   "chain": "欧洲政治右转→美欧贸易与防务关系重估→影响全球风险偏好与A股出口链",
+   "title": "西班牙大选或拉近马德里与华盛顿",
+   "brief": "西班牙大选结果可能使马德里更靠近特朗普政府，欧洲政治格局或生变。",
+   "chain": "欧洲政治右转→欧美贸易与防务预期变化→美股欧股风险偏好与A股出口链",
    "impact": 4,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/27/spain-election-trump-sanchez.html",
    "ts": "Fri, 27 Nov 2026 13:00:42 GMT"
   },
   {
-   "cat": "oil",
-   "title": "燃油价格飙升 更多航空公司面临破产",
-   "brief": "油价与航空燃油价格高企正把更多航空公司推向破产边缘，行业成本压力集中爆发。",
-   "chain": "燃油成本飙升→航司破产风险上升→印证原油高位，莫桑比克油气项目经济性受益但东非航运成本承压",
+   "cat": "macro",
+   "title": "金价回吐涨幅 美联储加息风险犹存",
+   "brief": "金价削减涨幅，美联储加息风险仍在，但有望录得三周来首次周线上涨。",
+   "chain": "加息预期压制实际利率→美股AI高久期估值分母承压→A股算力链情绪偏谨慎",
    "impact": 7,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Energy/Energy-General/Soaring-Fuel-Prices-Threaten-to-Push-More-Airlines-Into-Bankruptcy.html",
-   "ts": "Fri, 27 Nov 2026 11:00:00 -0600"
-  },
-  {
-   "cat": "oil",
-   "title": "全球柴油市场2027年二季度将现短缺",
-   "brief": "机构预计全球柴油市场将在2027年第二季度转为短缺，炼油利润与中间馏分油供应趋紧。",
-   "chain": "柴油中期短缺预期→支撑炼油毛利与原油需求→东非柴油进口成本中期上行，Union需提前锁定供应",
-   "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLUh5OURIMC1MRmNIM3pMa2ZMUnBhZjl4TjRVUWl6QTg4Mk9FdXluQWVubzNSOUNMUmROMGdnWGp2Wlp3Y1NxdFdaQ0tubFFoZTVlS3hydlBkcDJUWURvLVZKamppQTlvSm8yYkV0NE5rRlp6TVUtSzNsOUtGYUJtR1pWMl94TjA5UFRta3lPVldBaGtxQm95Wng2UVlwckszVVhaTHFYQ044cjNPQUE?oc=5",
-   "ts": "2026-11-27T12:25:44+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "油价飙升 印尼考虑多年首次上调补贴燃油价",
-   "brief": "油价上涨迫使印尼考虑多年来首次上调补贴燃油价格，新兴市场能源补贴压力显现。",
-   "chain": "油价高企→新兴市场补贴难以为继→亚洲需求与油价承压，间接影响东非油气定价环境",
-   "impact": 5,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Surge-Pushes-Indonesia-to-Mull-First-Subsidized-Fuel-Price-Hike-in-Years.html",
-   "ts": "Fri, 27 Nov 2026 10:30:00 -0600"
-  },
-  {
-   "cat": "gas",
-   "title": "美卡塔尔助委内瑞拉清偿开发银行欠款",
-   "brief": "美国与卡塔尔将协助委内瑞拉清偿地区开发银行欠款，卡塔尔以能源金融杠杆扩大拉美影响力。",
-   "chain": "卡塔尔能源金融扩张→全球LNG卖方格局微调→对莫桑比克LNG竞争与东非气源议价影响有限偏中性",
-   "impact": 4,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYnZ1a0tWZGRjN19GNkZNS0JoYmlDZGNHSkVZMmM1d2xsTEN1QmhsNkZtWVZfelZCUzdid05hSkVYa0hNVmpRazY0MUtWdWJQR2FydkFUeWtqZUotbXVvQ1JPVWg2Y0tGdWZOQ0hHUkNLRGh6Nm5SMjBNVldmRm1YZU1iaG5DSjdaSmFTcXpIdDZwUExwOFQzNWxSMk1QV1NaWWVONy02Y2FSa2xZbV8wUWMtd0h1clBxZ01aYTdpd0xYYjZMXzVrVQ?oc=5",
-   "ts": "2026-11-26T21:29:03+00:00"
-  },
-  {
-   "cat": "tech",
-   "title": "SpaceX股价涨4% 马斯克扩大股票捐赠",
-   "brief": "科技股 rally 中SpaceX股价上涨4%，马斯克称将扩大对特朗普账户的股票捐赠。",
-   "chain": "科技股情绪回暖→太空与硬件产业链估值修复→映射A股商业航天与卫星链",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html",
-   "ts": "Fri, 27 Nov 2026 10:20:39 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "莱茵金属收敛增长目标 欧洲扩军遇阻",
-   "brief": "欧洲防务龙头莱茵金属下调增长雄心，欧洲再武装热潮遭遇产能与预算瓶颈。",
-   "chain": "欧洲防务扩张放缓→军工订单预期降温→影响A股军工与高端制造出口链情绪",
-   "impact": 5,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/27/rheinmetall-stock-cmd-guidance-sales.html",
-   "ts": "Fri, 27 Nov 2026 13:08:07 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "英伟达CEO黄仁勋现身Denny's引关注",
-   "brief": "Denny's以“你的卡座在等你”欢迎黄仁勋回归，市场聚焦英伟达动向与AI硬件景气。",
-   "chain": "英伟达话题热度→AI硬件龙头情绪→映射A股算力链与服务器供应链",
-   "impact": 4,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/26/dennys-jensen-huang-nvidia.html",
-   "ts": "Thu, 26 Nov 2026 03:13:43 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "中国电动车企称机器人1-2年内可做家务",
-   "brief": "一家中国电动车企业称家用机器人有望在1-2年内承担家务，人形机器人落地预期升温。",
-   "chain": "人形机器人落地预期→硬件与传感器需求→映射A股机器人及算力链",
-   "impact": 4,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/26/china-ev-xpeng-humanoid-robots-household-chores.html",
-   "ts": "Thu, 26 Nov 2026 07:30:11 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "AI购物代理走红 亚马逊等平台设限",
-   "brief": "AI购物代理正迎来爆发，但亚马逊及越来越多网站设限，可能抑制其成长空间。",
-   "chain": "AI代理商业化遇平台壁垒→影响AI应用变现预期→映射A股AI应用与电商链",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/27/ai-shopping-agents-retailer-blocks.html",
-   "ts": "Fri, 27 Nov 2026 16:43:14 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "黑色星期五关注清单 Anthropic冲击IPO价",
-   "brief": "黑色星期五美股有望创纪录，市场关注Anthropic能否重回IPO发行价。",
-   "chain": "AI龙头IPO定价受关注→AI板块估值锚→映射A股AI算力与应用情绪",
-   "impact": 5,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/investingclub/2026/11/27/top-10-things-to-watch-in-the-stock-market-on-black-friday.html",
-   "ts": "2026-11-27T14:28:36+00:00"
-  },
-  {
-   "cat": "ai",
-   "title": "万斯称已获保证黄仁勋未被司法部调查",
-   "brief": "美国副总统万斯称已获保证英伟达CEO黄仁勋未受司法部调查，缓解AI芯片龙头监管疑虑。",
-   "chain": "AI芯片龙头监管疑虑缓解→英伟达估值风险下降→利好A股算力链情绪",
-   "impact": 4,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html",
-   "ts": "Wed, 25 Nov 2026 21:00:08 GMT"
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYW55b1BZTkM4emFaZmljMEIzZlBhd2duLWJnRlpMaVA1UnBMaXpEQTdYU0JQUF93QWRkMEV0ZHlaUFhJM3JwTkVLSFNQcDhJSW43VEJ3ME9uQmVvaXpaVkV6eG1CWnBISXFncTVTQjI0NElBcUZDTXlNZEw0S0RCSGxFa25EX29sYzJVZHJmREFnckNW?oc=5",
+   "ts": "2026-11-27T03:28:00+00:00"
   },
   {
    "cat": "macro",
-   "title": "特朗普称周三大跌一度令他“担忧”",
-   "brief": "特朗普表示周三大跌一度让他感到担忧，随后股市收复失地，总统对市场波动罕见置评。",
-   "chain": "总统置评市场波动→政策托底预期升温→影响美股风险偏好与A股情绪",
+   "title": "印度称印美贸易协议接近完成",
+   "brief": "印度部长表示印美贸易协议接近敲定，关税与市场准入谈判取得进展。",
+   "chain": "贸易协议落地预期→美股跨国企业盈利改善→A股出口与供应链链受益",
    "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWHRXZnN1TmZVRDJ6VUJtNjhuRm85eGlQVmdGNGQ0SC0yeHlPVUlKSksyLVNZa0VqRGdqUWVtaW1oNHhjQldDdHlKYnZ0TVgtbkpEcmJfVEcyTUxnNkNYeEdaYXlWUmQwcnhyLUtrUERoYnhIdnVxV3lFeUhza21Wc3U2WW9yd2loWmpxeXE4SG9OT2Rlai1reWtSemRkYnlBZndLaFVNOHJHeDF4ZkVmckpqSzZSbElNZHpfdUFLTTBsOW9C?oc=5",
-   "ts": "2026-11-27T00:25:00+00:00"
-  },
-  {
-   "cat": "macro",
-   "title": "通胀促使消费者寻低价 利好黑五销售",
-   "brief": "通胀压力下消费者转向性价比，零售商仍预期假日消费强劲，黑色星期五销售有望受益。",
-   "chain": "通胀下消费韧性→零售与消费股分化→映射A股消费与出口链",
-   "impact": 5,
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html",
-   "ts": "2026-11-27T11:00:01+00:00"
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMkR3N0t3ZmV1SDk5LWNGa3hCcXVleWpPVFpORzVUZnUtYUJoUXQ2eFEzN3ZrQjcxMHhCaXk0NzY4M2NkSFNic1Q2aGJYZlZoYnFlSG5iU0NQX1dUNWZzci1xTU10bm5UbGRYSWkzdno1c3dDRlpZWjVxNjRaWkF5ZzlJdGxsUlJpWUFTbDZCN0d4bFlqN3NNOG4xdy1zZy05TmxNZTlR?oc=5",
+   "ts": "2026-11-27T05:21:00+00:00"
   },
   {
    "cat": "macro",
    "title": "欧盟领导人未能打破1.7万亿预算僵局",
-   "brief": "欧盟领导人未能就1.7万亿欧元预算打破僵局，政治压力上升，财政协调受阻。",
-   "chain": "欧盟财政僵局→欧洲增长与欧元承压→影响全球风险偏好与A股出口链",
+   "brief": "欧盟领导人未能就1.7万亿欧元预算达成一致，政治压力上升。",
+   "chain": "欧盟财政僵局→欧洲增长与防务支出预期受抑→美股欧股风险偏好与A股出口链",
    "impact": 5,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/27/eu-budget-2028-2034-deadlock.html",
@@ -192,23 +82,123 @@
   },
   {
    "cat": "macro",
-   "title": "全球股市反弹 投资者无视关税与AI担忧",
-   "brief": "全球股市上涨，投资者淡化美国关税与AI泡沫担忧，逢低买入情绪回暖。",
-   "chain": "风险偏好回升→美股与AI板块反弹→映射A股算力链情绪修复",
-   "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html",
-   "ts": "Thu, 26 Nov 2026 12:22:25 GMT"
+   "title": "通胀促使消费者寻低价 利好黑五销售",
+   "brief": "通胀压力下消费者转向性价比，零售商仍预期假日消费强劲。",
+   "chain": "通胀黏性+消费韧性→美股零售板块分化→A股消费出口链情绪",
+   "impact": 4,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html",
+   "ts": "2026-11-27T11:00:01+00:00"
   },
   {
-   "cat": "macro",
-   "title": "科技股反弹带动股指期货 收官波动一周",
-   "brief": "科技股反弹推动股指期货上行，为波动剧烈的一周收官，市场情绪边际改善。",
-   "chain": "科技股领涨→纳指与AI权重修复→映射A股算力链风险偏好",
+   "cat": "oil",
+   "title": "OPEC+承压 伊拉克寻求提高配额",
+   "brief": "伊拉克推动提高产量配额，OPEC+内部压力上升，减产纪律面临考验。",
+   "chain": "配额博弈→油价短期承压、中期看供给纪律→莫桑比克油气售价与投资节奏受影响",
+   "impact": 8,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Faces-Growing-Pressure-As-Iraq-Pushes-for-Higher-Quota.html",
+   "ts": "Fri, 27 Nov 2026 11:30:00 -0600"
+  },
+  {
+   "cat": "oil",
+   "title": "市场预期的石油过剩愈发难现",
+   "brief": "此前普遍预期的原油供应过剩正变得难以实现，供需格局偏紧。",
+   "chain": "过剩预期落空→油价获支撑→东非LNG与油气项目经济性改善",
+   "impact": 7,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Crude-Oil/The-Oil-Glut-Everyone-Expected-Is-Looking-Increasingly-Elusive.html",
+   "ts": "Fri, 27 Nov 2026 11:04:00 -0600"
+  },
+  {
+   "cat": "oil",
+   "title": "全球柴油市场2027年二季度将现短缺",
+   "brief": "预计全球柴油市场将在2027年二季度转为短缺，炼油利润受关注。",
+   "chain": "柴油短缺预期→炼油毛利走强→莫桑比克燃料进口成本与炼化经营承压",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLUh5OURIMC1MRmNIM3pMa2ZMUnBhZjl4TjRVUWl6QTg4Mk9FdXluQWVubzNSOUNMUmROMGdnWGp2Wlp3Y1NxdFdaQ0tubFFoZTVlS3hydlBkcDJUWURvLVZKamppQTlvSm8yYkV0NE5rRlp6TVUtSzNsOUtGYUJtR1pWMl94TjA5UFRta3lPVldBaGtxQm95Wng2UVlwckszVVhaTHFYQ044cjNPQUE?oc=5",
+   "ts": "2026-11-27T12:25:44+00:00"
+  },
+  {
+   "cat": "oil",
+   "title": "燃油价格飙升或推更多航司破产",
+   "brief": "航空燃油成本高企，更多航空公司面临破产风险，燃料成本传导加剧。",
+   "chain": "航油成本上升→油价高位维持→东非航空与能源物流成本抬升",
+   "impact": 5,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Energy/Energy-General/Soaring-Fuel-Prices-Threaten-to-Push-More-Airlines-Into-Bankruptcy.html",
+   "ts": "Fri, 27 Nov 2026 11:00:00 -0600"
+  },
+  {
+   "cat": "gas",
+   "title": "Norse Atlantic破产 伊朗战争推高燃油成本",
+   "brief": "Norse Atlantic因融资失败申请破产并停飞，伊朗战争推高燃油成本为主因之一。",
+   "chain": "燃油成本飙升致航司破产→油价高位→莫桑比克能源运输与经营成本上升",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUFZ5amdzZG00RTRadGk1NlNDb0JFeTNseGJid3dwNWtNTFBvaVQ1LVdnSUs1Rkk3Uy1tTlNDVVBmMkRkV1QxU3lGcHR2ZzU0bG9PMlM4OXphZHpVVVBXNS14WnRNX2xsWEZrSXV4TjRHUlZFWUlEYldEY1NFZlRqa2xjNUE2T0l5cWJ3MTU4aGo3Qk91WVcwdHdtZWdkTEZ2bWdnUGxrVHdOYmZ4ZDVMOGtWc2U5S2ZuM1FjRQ?oc=5",
+   "ts": "2026-11-27T07:39:00+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "莱茵金属收敛增长雄心 欧洲扩军遇阻",
+   "brief": "莱茵金属下调增长目标，欧洲防务扩军热潮遭遇瓶颈。",
+   "chain": "欧洲防务扩张放缓→美股防务板块预期降温→A股军工链情绪受影响",
+   "impact": 5,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/27/rheinmetall-stock-cmd-guidance-sales.html",
+   "ts": "Fri, 27 Nov 2026 13:08:07 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "奔驰拟在华设新合资公司供应零部件",
+   "brief": "梅赛德斯-奔驰计划在中国设立新合资企业，实现本地汽车零部件供应。",
+   "chain": "车企本地化供应链→美股欧股汽车板块→A股汽车零部件链受益",
+   "impact": 4,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMERGcVA5cHpNLW4wZ3lvOEJLVFlBX1RVNHdlaVFFbUp2cHNqeFNoVkhseUlJTVZtWGJVSnVjMEoyNy1ZZ0NDb2lBZ3M5WDVwMDZNRjAwOERIUzREcHBtNTVuS0ZaWWR3ZGF5Y1VsYWFYTVF1U1ZFOTYtN2FkV3dKLUtlLXJmdU1qMVJ1bDVjZWIzUEcyTUF3Ny01ak1pM0taUl9kY3ZPOVU?oc=5",
+   "ts": "2026-11-27T02:21:00+00:00"
+  },
+  {
+   "cat": "tech",
+   "title": "黑客入侵美空军旗舰云平台Cloud One",
+   "brief": "黑客攻破美国空军旗舰云计算平台Cloud One，网络安全风险凸显。",
+   "chain": "云平台安全事件→美股云与网络安全板块关注→A股网络安全链情绪",
+   "impact": 4,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5",
+   "ts": "2026-11-27T11:46:24+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "黄仁勋回归未能缓解AI焦虑 逢低买入",
+   "brief": "黄仁勋回归仅带来短暂AI反弹，市场波动持续，机构借弱势加仓。",
+   "chain": "AI情绪反复→美股AI芯片估值波动→A股算力链情绪跟随",
+   "impact": 7,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/investingclub/2026/11/27/jensen-huangs-return-did-little-to-ease-ai-jitters-we-bought-on-weakness.html",
+   "ts": "2026-11-27T18:46:20+00:00"
+  },
+  {
+   "cat": "ai",
+   "title": "AI购物代理兴起 亚马逊等平台设限",
+   "brief": "AI购物代理快速发展，但亚马逊等越来越多网站设限，或抑制其扩张。",
+   "chain": "AI代理落地遇平台壁垒→美股电商与AI应用预期分化→A股AI应用链情绪",
+   "impact": 5,
+   "source": "CNBC Tech",
+   "url": "https://www.cnbc.com/2026/11/27/ai-shopping-agents-retailer-blocks.html",
+   "ts": "Fri, 27 Nov 2026 16:43:14 GMT"
+  },
+  {
+   "cat": "ai",
+   "title": "中国车企称机器人1-2年内可做家务",
+   "brief": "中国电动车企业称家用机器人有望在1-2年内承担家务，人形机器人落地提速。",
+   "chain": "人形机器人落地预期→美股机器人概念→A股机器人链情绪提振",
    "impact": 4,
    "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/27/tech-rally-lifts-stock-futures-to-wrap-up-a-volatile-week-of-trading.html",
-   "ts": "Fri, 27 Nov 2026 11:55:41 GMT"
+   "url": "https://www.cnbc.com/2026/11/26/china-ev-xpeng-humanoid-robots-household-chores.html",
+   "ts": "Thu, 26 Nov 2026 07:30:11 GMT"
   }
  ]
 }
