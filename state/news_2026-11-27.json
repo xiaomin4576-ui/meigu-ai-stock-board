@@ -1,216 +1,174 @@
 {
  "asof": "2026-11-27",
  "generated_by": "deepseek-chat",
- "generated_at": "2026-11-27T06:36+08:00",
+ "generated_at": "2026-11-27T16:15+08:00",
  "guard": {
   "url_dups_dropped": 0,
-  "cross_day_suppressed": 7,
-  "cluster_label": "伊朗/霍尔木兹",
-  "cluster_dropped": [
-   "科威特设施遇袭两意大利人死亡 伊朗否认参与"
-  ],
+  "cross_day_suppressed": 6,
+  "cluster_label": "",
+  "cluster_dropped": [],
   "backfilled": 0
  },
  "items": [
   {
-   "cat": "geo",
-   "title": "霍尔木兹附近两油轮触雷 伊朗革命卫队称系水雷袭击",
-   "brief": "伊朗革命卫队称两艘油轮在阿曼哈萨卜附近海域触雷，霍尔木兹航运安全风险升温。",
-   "chain": "海峡遇袭→原油风险溢价与航运保费上行→美股能源板块获支撑、成长股承压→A股算力链情绪受抑",
-   "impact": 9,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcHNnYmJXdWlaS3JfaTRfQUhza0lkR0lSNjhWNVJoY1Mxd3VSVVZyOHV0R0xZbHl2TS1FX2VROGg0bmg1dHFUbG9ZckxfT2lSaFotSmNFczlabFRHWjZZUEYycHA3S0tXN0p4cHFvbjUyam9IcDBwYkFBSTJfbFZwLTVickFLaFU0bTYxeHI3eHVGTmQyV3ozMTQzWm4tWGduQi00RHJoclptRnlsQjJqdTdMTU9yX2w0OXRmanYtUndOZmtaSy1JdmRuRzg?oc=5",
-   "ts": "2026-11-26T12:06:18+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "霍尔木兹油轮通行量逆势回升 袭击加剧未阻航运",
-   "brief": "尽管袭击升级，霍尔木兹海峡油轮流量仍小幅上升，市场对供应中断担忧暂未兑现。",
-   "chain": "通行回升→Brent风险溢价回落→东非LNG项目海运与保险成本仍需警惕，莫桑比克经营关注运费",
-   "impact": 7,
-   "source": "OilPrice",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Tanker-Traffic-at-Hormuz-Ticks-Up-Despite-Intensified-Attacks.html",
-   "ts": "Thu, 26 Nov 2026 10:30:00 -0600"
-  },
-  {
-   "cat": "oil",
-   "title": "OPEC+产能争议未解 周日会议议2027配额",
-   "brief": "消息称OPEC+成员国在产能基准上分歧持续，周日会议将讨论2027年产量配额。",
-   "chain": "配额分歧→中期油价方向不明→莫桑比克油气项目定价与投资节奏需盯紧OPEC+决议",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRWNNN09tM1phcUhhRlFRRTlHaW0yYU5fQUxJUVFEZjl5cEdhaHRnOGNwRkl6QUZTWEhNeU16Vnk5bHhNQ3JSd0FXNDlHZkdDVTV4ZkVsbUpQUFV4VWdobEhfdlpHOUt4SEJadFRpNHlYZTZRZFdBaEZKYnUyTHJ0eHlyWjE1a1FjenhuYWtoZHJJSHVPYVhjSlprNF81NkNiMlpQNUpBcy1kcHd3eEFaRjZHczhHV3RIWlJRaHZOQlBXUQ?oc=5",
-   "ts": "2026-11-26T13:02:42+00:00"
-  },
-  {
-   "cat": "oil",
-   "title": "沙特阿美吉赞炼厂遇袭 一工人死亡部分停产",
-   "brief": "沙特阿美吉赞炼厂遭袭致一名工人死亡、部分作业暂停，中东能源设施安全再受关注。",
-   "chain": "炼厂停产→成品油与原油短期供应扰动→油价获支撑→东非炼化与进口成本承压",
-   "impact": 7,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORnNINWJlUzU0bDVSQ1Z5TWhtZTl1dzVxa01lbWhiMTg0bjBKZzQtbld6RmpIQ3NOSkctT29wTmdmR3VCcHpMbzdBQUdQSU0wVWItQU1COHhCS1BzYnpoOTJsRzl2TWp0aVNNZWVpZVFhS2cwWXVtNnA0bzRfUXNTRTJRTEVHem5BY2V2SURxZG9Vb3VkT3FNa1RuR3RfZWJQUE15WTdGaVFudnJaeVJIdVhXdE9PcWFuY2c?oc=5",
-   "ts": "2026-11-26T20:56:28+00:00"
-  },
-  {
    "cat": "macro",
-   "title": "特朗普要求调查三季度GDP大幅上修",
-   "brief": "三季度GDP数据被大幅上修后，特朗普称存在“创纪录错误”并要求调查，数据公信力受质疑。",
-   "chain": "数据争议→美联储政策路径预期扰动→美股风险偏好波动→A股算力链情绪跟随",
-   "impact": 6,
+   "title": "美三季度GDP大幅上修 特朗普要求调查",
+   "brief": "美国三季度GDP数据被大幅上修，特朗普称存在'创纪录错误'并要求调查，数据发布时点临近中期选举引发争议。",
+   "chain": "GDP上修+政治争议→美债利率与降息预期波动→美股高久期AI票估值分母受压→A股算力链情绪跟随",
+   "impact": 7,
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html",
    "ts": "2026-11-26T17:57:32+00:00"
   },
   {
    "cat": "macro",
-   "title": "欧盟拟提名西班牙德科斯出任ECB下任行长",
-   "brief": "欧盟国家拟提名西班牙央行行长德科斯接掌欧洲央行，货币政策延续性受关注。",
-   "chain": "ECB人事→欧元区利率路径预期→美股与美元资产相对吸引力→A股外资流向",
+   "title": "德科斯将获提名出任欧洲央行行长",
+   "brief": "欧盟国家拟提名西班牙的德科斯接掌欧洲央行，欧元区货币政策人事格局将定。",
+   "chain": "ECB新行长人选→欧元区利率路径预期→美元与全球流动性→美股与A股风险偏好",
    "impact": 6,
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOV8wZkxRVTY5U0ZQeVZwSGtCMVZJTjV2d2t5TlhsSVoxQmpLRXI4OTV1R0QwQkV1QmZma3BDN0lrOEJTNGFVeloyeE5HbnhmWDZfR1VrbzN5TzZrck5WTTlKNTBaeFhVbDd4RldhY0hZMnFsczlsTURLY0FpWWgzeE5YVVc2NUZqMy1KbldQVDJfcUtsVEhINHF2emJ5SEFrMXozWUdTM3BFQQ?oc=5",
    "ts": "2026-11-26T14:57:22+00:00"
   },
   {
-   "cat": "geo",
-   "title": "乌克兰称俄军袭击敖德萨附近两艘粮船",
-   "brief": "乌方称俄罗斯打击敖德萨港口附近两艘运粮船，黑海粮食与航运风险上升。",
-   "chain": "黑海航运风险→粮食与运费上行→美股通胀预期扰动→A股农业与航运链关注",
-   "impact": 6,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYlR6OVYzNjI0N0hVQ2FsMVFSWU13djRFWmZDLUFQSUNoOFdWZ2RSdlZuLVZvbjc3bDlwWGlrN3NLMnktVFQtTndObHZZQVBFTjRGSkY0SmJVSkVteFYyY2RXRDNfRkdlQ1VNVWtkbjBQZmgtbXhpYTFXOElWeDYxNVlHdUlwVnhDV28xZlJoSC1GQ0tjcGRvXzZjNnpvZ2l4SHNqS1pLaFpaUQ?oc=5",
-   "ts": "2026-11-26T12:30:05+00:00"
-  },
-  {
-   "cat": "geo",
-   "title": "特朗普与北约秘书长就俄袭乌能源设施发警告",
-   "brief": "俄加大对乌能源基础设施打击，特朗普与北约秘书长吕特对俄发出警告。",
-   "chain": "俄乌能源战升级→欧洲能源价格与避险情绪→美股能源与防务受益→A股算力链情绪承压",
-   "impact": 6,
-   "source": "CNBC World",
-   "url": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html",
-   "ts": "Thu, 26 Nov 2026 16:12:47 GMT"
-  },
-  {
-   "cat": "geo",
-   "title": "克宫指乌试图将冲突扩至地中海与波罗的海",
-   "brief": "克里姆林宫指责乌克兰试图把冲突范围扩大到地中海和波罗的海，局势外溢担忧升温。",
-   "chain": "冲突外溢→航运与能源通道风险溢价→美股避险升温→A股风险偏好受抑",
+   "cat": "macro",
+   "title": "股市企稳 美元料录第三个月上涨",
+   "brief": "经历震荡一月后全球股市寻得支撑，美元有望连续第三个月走强。",
+   "chain": "美元走强+风险偏好修复→美股估值与外资流向→A股算力链资金面",
    "impact": 5,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNkZDUllJVFY3eXN6WHo2ckVKVlc0QUlMdUpITVdwSnR3aVVMY3J1Qm44dDNSczF0M0FETnpkcjdFUGlhaHFkY3F4YzZQdkZHa041UzItOTZwa2VHWXc4TWx3RE1tTGdLdkZxNHRiUEtLSG1hUkdKbFd2aV8xSlh4ZFNweWxNN1VSaEVNMERhcVcyY202WXVFWGdxS2w1a0l5TkVTcDFQSGc4ZkxvaEF1ZzN4NDA0ano0V014YWJPRFdvV1E?oc=5",
-   "ts": "2026-11-26T12:18:46+00:00"
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeDB1T1E2SVA0LVpuZFR6d2d5dWFobkEwdkN5aFVmZUZKN1pSVWExbEJzWlZhV0tKcklRQ09yZlFTZklkLTBNSGFwbHBfbHR2SWZoQTdXcWtFdEViWGdQamN2a0JjWjZ4M0Mydmlpc1lrQUdYaFBNVkFBdTQ4djVpbjZrRQ?oc=5",
+   "ts": "2026-11-27T02:01:00+00:00"
   },
   {
    "cat": "geo",
-   "title": "伊拉克关闭库尔德地区通往叙利亚伊朗两口岸",
-   "brief": "伊拉克关闭库尔德自治区与叙利亚、伊朗的两处边境口岸，地区紧张与中央-库尔德矛盾升温。",
-   "chain": "口岸关闭→中东物流与原油出口扰动→油价风险溢价→东非能源运输成本关注",
+   "title": "伊朗警告海湾军事存在 韩国扩海军角色",
+   "brief": "伊朗就海湾地区外国军事存在发出警告，韩国正准备扩大其海军角色，海湾紧张升温。",
+   "chain": "海湾军事对峙→避险情绪与油价风险溢价→美股能源与AI板块分化→A股算力链情绪",
+   "impact": 7,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNjgyMVEwOUJRYll3NXdiU29vVVlmcGMxc3VhTGdEZ3BaZzZ0bUFtemt1c01oMXhjcHlJMEoxVWppTFV2YU12Qk4xRjlzVTNZaEVyR0dBZGtRNEdvaGhCTHhPY2VEVTUtZUw3a3dGekV4VTZkYmp3ZzFjVmxMRnliRmhwZmJOdkZhS3dBNWVfVkU4SjdObjF4WFY4Mmo4ZDlGWFcxYTZnMmVDUXN3NTVPY2lObHZlRFd0aXhjbTR0NXkwWkFkSHVr?oc=5",
+   "ts": "2026-11-27T05:12:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "特朗普称要求普京收缩欧洲军事行动",
+   "brief": "特朗普表示已要求普京'收回'在欧洲的军事侵略，俄乌局势外交博弈持续。",
+   "chain": "俄乌外交信号→欧洲能源与避险资产→美股风险偏好→A股算力链情绪",
+   "impact": 6,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLTBqZDFmdVZMYUhDSHRObmlwNXBGNXRpXzdBVnBTc2hZTk54NU9BYThqQUswalJPMklvaGhHNmJiNW5venFCYk1FbjdNQUdJU1RISjlXbGtpc0lWektRUThRNEhOdFdSZ3B3cGZTSlk5blFMWnhGOGNfaEFjbzBha29XdlNxTXUzemUzR1FIc0FPc0kybGZLSmp5OVNNSGRLOXNZM21pd0Fac2prOVoxcC1rMnFIUQ?oc=5",
+   "ts": "2026-11-26T15:47:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "埃尔多安完成土耳其对麦加防务协议批准",
+   "brief": "埃尔多安完成土耳其对麦加防务协议的批准程序，中东安全联盟格局生变。",
+   "chain": "中东防务联盟重组→地区风险溢价→美股能源与防务板块→A股情绪",
+   "impact": 5,
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmJEdmR5Wl9uZTZKS1R2ckJXekhkX1AwSVZpSHhkODcweDNmTVRva2JDdjRWcjNvYk4yeXNkQWw3ZTVnMUpWUTBjYXNWOTVCY2Y1emVTdGFjazhoR1ltaXF6WTNvMEVqSUdaNTI3VzU4U3dMNkROYVlDMTR5NHhpdGhuZjl4VnZGTzFTNHRXMDdnSXVmdXhpODl6YjVabXVoa0NlMVFsOW94OUw1clJ2UUpR?oc=5",
+   "ts": "2026-11-27T05:22:00+00:00"
+  },
+  {
+   "cat": "geo",
+   "title": "几内亚比绍推迟选举 军政府延长过渡",
+   "brief": "几内亚比绍推迟选举，政变后军政府主导的过渡期再延长一年。",
+   "chain": "西非政治不稳→区域油气投资风险溢价→对东非能源经营参照意义",
    "impact": 4,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLXo4cXNsVjIzOVYyWnIxR1JOUjY5UUkzU0xCSXc2ampKcnhKajJ2VjdjWWdzSkY3QlV5Z0xNQkd1aUtKUWh6d19mMXlsTEc5RTk3T0NvbkJyM2Y4VWZ5bW9sRFhUX2Q4aGx5dGhLLXVLb0VDWDFaSGQ0eGZaZVRacTVlWkx1eVYwZEwwUWNSZEFpVGlQbVA5dkRGWXVmeHlpYzE5VFB3NVo5TzBmWHk1YXZjZmN2XzZjdS0w?oc=5",
-   "ts": "2026-11-26T17:32:41+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxON3Rhd2R2U1BBMjNIc1JzRDVaVWwyZG0zdjVEQ2tNS2pFMWJtc3Bkdl9sSGlKT3dyMkc5ekhtdHNPX01yanBrYS14d1k4NFNyUURJbVF1Vi1KZElMZmRUR0ttWnZkdDYtSjZGNEc0OThCdmhnQVhkRXpTMlZCR2htY2dnY1FBNEcwdE9veW95SzRhUmg2Z00zWDB6dnhsS3otTXpnOEtuVjk0MWRPcVNOR0NaUFQ0S2N3TXdFOWEwekpKNU1Gd0d2Vg?oc=5",
+   "ts": "2026-11-26T17:14:09+00:00"
   },
   {
-   "cat": "geo",
-   "title": "德国警方逮捕两名伊拉克人 涉科隆犹太教堂炸弹图谋",
-   "brief": "德国警方逮捕两名伊拉克籍嫌疑人，涉嫌策划袭击科隆犹太教堂，欧洲安全警戒升高。",
-   "chain": "欧洲安全事件→避险情绪升温→美股风险偏好受压→A股情绪间接承压",
-   "impact": 4,
+   "cat": "oil",
+   "title": "美施压委内瑞拉伊拉克考虑退出OPEC",
+   "brief": "消息称美国推动委内瑞拉与伊拉克考虑退出OPEC，或动摇OPEC+凝聚力。",
+   "chain": "OPEC+裂痕→原油供给预期与Brent方向→莫桑比克油气项目价格环境与东非经营",
+   "impact": 8,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONnk2X1RfVHc3VF8ybnZCVzdIbjFrdTNMbzI2SXhxVW9VTGx4RV94OV8zdU9yRzJPS1daUUZzMXBKM0o5aW1HMklsR1Y5OUlxMEhWTVpNX0tXclphbWhDcE1kb050ekVqaWtrcEpyenZQdS1MWlE2ZVp3ZjNJUjg4ay1HM2VPa0l3emJ0MHpGNHFmdUhsWGIwRXdfMUFuRlBWNDZSNXNzcE9kTkFLd2VnREE1Vl8zOVU0REpaT3o5dkhtTElF?oc=5",
-   "ts": "2026-11-26T12:28:28+00:00"
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeVZ6VDRqcUU2ZDJ1UWdyUmYwNXRPMHAzR0pjRk8zLTJqYlF6YTVFV1Q5V3ZKV1IzZ0NDN2tKdkNxVmUtSmxpNnBNVmkzRWp5NkZ4SFdkaXZ6Zy1hUlhIUkdOY3ozaWVCLVI3M1FaRE9CQVZacHZ0c0tGM3AtUlFWaVR1Tnp4T084eVFjWDIxbVJQa1F0Z1RQRUdkU0YzdnZWMWJWNHRMT0JiQ1NHeDJF?oc=5",
+   "ts": "2026-11-27T06:02:00+00:00"
   },
   {
-   "cat": "geo",
-   "title": "土耳其2028年大选 执政联盟推埃尔多安参选",
-   "brief": "土耳其副总统称大选定于2028年举行，执政联盟已就埃尔多安候选人资格达成一致。",
-   "chain": "土耳其政局→新兴市场资产与里拉预期→美股EM敞口→A股一带一路链关注",
-   "impact": 3,
+   "cat": "oil",
+   "title": "沙特阿美吉赞炼厂遇袭 一死部分停产",
+   "brief": "沙特阿美吉赞炼厂遭袭击致一名工人死亡，部分作业停摆，中东供应风险上升。",
+   "chain": "炼厂遇袭→原油风险溢价与Brent上行→东非LNG/油气经营成本与售价联动",
+   "impact": 7,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOWczelB1MldEZ2RSX1luOHBST0ZrMGtNMl81TTgwVE5fQTZtNnJxeElKMmlzSmdnLVpVTDRfVjluMVZSa09QaTluWGk5X2VTcEw2aFlPcmx1VmlsVHd5eUFMaWM4Nm5EX29OYlhlMzZyZW9fMmcxLUxkZ2kycGFiLWtQbU1jSVBsbWRwM3p0RDFEUU8yXzVOOGM5T3pRTWx0ZDZkTmptem0teU1WVjZCdk5lcDFpZ2F2UU1mbTVHOHJqRWVnRUFYdmR3?oc=5",
-   "ts": "2026-11-26T17:41:43+00:00"
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORnNINWJlUzU0bDVSQ1Z5TWhtZTl1dzVxa01lbWhiMTg0bjBKZzQtbld6RmpIQ3NOSkctT29wTmdmR3VCcHpMbzdBQUdQSU0wVWItQU1COHhCS1BzYnpoOTJsRzl2TWp0aVNNZWVpZVFhS2cwWXVtNnA0bzRfUXNTRTJRTEVHem5BY2V2SURxZG9Vb3VkT3FNa1RuR3RfZWJQUE15WTdGaVFudnJaeVJIdVhXdE9PcWFuY2c?oc=5",
+   "ts": "2026-11-26T20:56:28+00:00"
   },
   {
-   "cat": "geo",
-   "title": "阿根廷参议院拟暂停初选 利好米莱连任",
-   "brief": "阿根廷参议院准备暂停初选程序，被视为有利于米莱竞选连任，市场改革预期升温。",
-   "chain": "阿根廷政治→EM资产风险偏好→美股新兴市场敞口→A股拉美贸易链",
-   "impact": 3,
+   "cat": "oil",
+   "title": "供应担忧下油价有望终结三周连跌",
+   "brief": "受供应担忧推动，油价有望结束连续三周下跌走势。",
+   "chain": "供应担忧→Brent/WTI反弹→莫桑比克油气销售价格与项目经济性改善",
+   "impact": 6,
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOME12Z2hWeXJDdjhYQll0TW9vYWFaMzgwdWdBQ05BR3k4ckdrdFo3SkdfOXZrOGVXU1VUOTNtYXRXWEJBYlExUllERjdYRGxqR3lCelZyQTJxd0o2Q1VacWw0Sk5QajJWbGlDaDV1Y2hjWDE4dEVjNFpSQXdhQWg4MmFydGdDMEhmQjI2TjNiMUliZ1hBX1lXaDBoRlN0RHoxeUpxV3JuMkU2TmFncHhfWXdyOFNaUlVrUC1NZnlSS0NoRFE?oc=5",
-   "ts": "2026-11-26T16:11:15+00:00"
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTzVQVzE5aGdzbGVhNEUtVl94M0V3RjN5Rks4UDU0U0plazFDcjFnUTBMMHBvdk9BRzFaVHljSXk1ZFdzSjlRTVRXNGZ0cnRyUWRRbFJaRjBsVWNFbDZqSnQ0cHo0TW5fRDlwMWlKWDI3V2ROcnlXczVET1RqSXR6UGtZSTZ0OTQtY1YwaG1yYTRwQnZ6TW43azNGNTFqMmpkNFhtbVJwRnVkVERhR1NnSlFIMzExZw?oc=5",
+   "ts": "2026-11-27T01:55:00+00:00"
+  },
+  {
+   "cat": "gas",
+   "title": "澳通过里程碑法律 预留天然气供内需",
+   "brief": "澳大利亚通过标志性法律，为国内消费者预留天然气，或压缩LNG出口。",
+   "chain": "澳LNG出口受限→全球LNG/TTF偏紧→东非(莫桑比克)Rovuma项目议价与出口窗口受益",
+   "impact": 7,
+   "source": "OilPrice",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Australia-Passes-Landmark-Law-to-Reserve-Gas-for-Domestic-Consumers.html",
+   "ts": "Fri, 27 Nov 2026 01:30:00 -0600"
   },
   {
    "cat": "tech",
-   "title": "英伟达芯片买家被要求排除中国租户方可购GPU",
-   "brief": "消息称英伟达芯片买家须排除中国租户才能采购GPU，出口管制进一步收紧。",
-   "chain": "管制收紧→英伟达中国需求受限→美股AI硬件承压→A股算力链国产替代逻辑强化",
-   "impact": 8,
+   "title": "SAP据报拟因AI裁员至少万人",
+   "brief": "德国软件巨头SAP据报在AI转型中考虑裁减至少1万个岗位。",
+   "chain": "企业软件AI替代人力→美股软件板块盈利预期→A股算力与企业软件链",
+   "impact": 6,
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html",
+   "ts": "Fri, 27 Nov 2026 07:15:44 GMT"
+  },
+  {
+   "cat": "tech",
+   "title": "英伟达芯片买家被要求排除中国租户",
+   "brief": "消息称英伟达芯片买家被要求排除中国租户方可采购GPU，出口管制趋严。",
+   "chain": "GPU采购限制→美股AI硬件需求结构变化→A股算力链国产替代逻辑强化",
+   "impact": 7,
    "source": "CNBC World",
    "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html",
    "ts": "Thu, 26 Nov 2026 17:04:54 GMT"
   },
   {
    "cat": "tech",
-   "title": "科技股下挫后收窄跌幅 Anthropic IPO后难回发行价",
-   "brief": "科技股盘中重挫但收盘远离低点，Anthropic上市后挣扎回升至发行价上方。",
-   "chain": "科技股波动→AI估值分歧→美股高久期成长承压→A股算力链情绪跟随",
-   "impact": 6,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html",
-   "ts": "Wed, 25 Nov 2026 21:04:57 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "全球股市反弹 投资者无视关税与AI担忧抄底",
-   "brief": "全球股市上涨，投资者淡化美国关税与AI忧虑，逢低买入意愿回升。",
-   "chain": "风险偏好修复→美股科技反弹→A股算力链情绪回暖",
+   "title": "中国工厂利润回升 AI繁荣挑赢家",
+   "brief": "中国工业利润恢复增长，但AI热潮正在挑选赢家，行业分化明显。",
+   "chain": "中国工业利润+AI分化→美股对华敞口重估→A股算力与制造链结构机会",
    "impact": 5,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html",
-   "ts": "Thu, 26 Nov 2026 12:22:25 GMT"
-  },
-  {
-   "cat": "tech",
-   "title": "挪威大西洋航空停飞并警示破产风险",
-   "brief": "挪威大西洋航空暂停全部航班并警告可能申请破产，股价暴跌。",
-   "chain": "航司破产→航空业信用与需求担忧→美股运输板块承压→A股航空链情绪",
-   "impact": 4,
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNelVSdGZIMFMxelZ3SVpNZHYyYzRTZWN4S010bExkN0lmVVk5eng2VWp0VUszQXhGVDF5TUFxTDQzSXFuNmxHazV3d1VSR1BWMFRIeFBMQzJDeUM0RG5Cazhya0dpdDA2ZzJDSnd0WGVvVGItS0ttemdLUGhUbUwwbjBWbUk2VktZQUxsa0haX290d21lVFg5Ri1UZ0FkcFo1ZUpnSUNTd1ZudHJWYnQ5T0U4X0w2aExZRXBSOE9ETlEwa2ljRmxF?oc=5",
-   "ts": "2026-11-26T13:58:06+00:00"
+   "source": "CNBC World",
+   "url": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html",
+   "ts": "Fri, 27 Nov 2026 06:09:51 GMT"
   },
   {
    "cat": "ai",
-   "title": "拉美铜与能源支撑AI建设 基建成关键考验",
-   "brief": "拉美拥有AI建设所需的铜与能源资源，但基础设施瓶颈成为落地关键考验。",
-   "chain": "AI基建资源需求→铜与能源长期需求→美股AI产业链→A股算力链上游资源受益",
+   "title": "拉美握AI所需铜与能源 基建是考验",
+   "brief": "拉美拥有AI建设所需的铜与能源资源，但基础设施成为落地瓶颈。",
+   "chain": "AI基建资源约束→美股AI资本开支预期→A股算力链上游资源与设备",
    "impact": 5,
-   "source": "CNBC World",
+   "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/26/latin-america-copper-energy-ai-investment.html",
    "ts": "Thu, 26 Nov 2026 08:59:11 GMT"
   },
   {
    "cat": "ai",
-   "title": "中国电动车企称机器人1-2年内可做家务",
-   "brief": "一家中国电动车企业称家用机器人有望在1-2年内承担家务，具身智能落地预期升温。",
-   "chain": "具身智能进展→AI应用落地预期→美股机器人概念→A股机器人链情绪提振",
+   "title": "中企称机器人1-2年内可做家务",
+   "brief": "一家中国电动车企业称机器人有望在1-2年内承担家务，人形机器人落地提速。",
+   "chain": "人形机器人进展→美股AI应用预期→A股机器人/算力链情绪",
    "impact": 4,
    "source": "CNBC Tech",
    "url": "https://www.cnbc.com/2026/11/26/china-ev-xpeng-humanoid-robots-household-chores.html",
    "ts": "Thu, 26 Nov 2026 07:30:11 GMT"
-  },
-  {
-   "cat": "ai",
-   "title": "万斯称已获保证黄仁勋未被司法部调查",
-   "brief": "美国副总统万斯表示已获保证英伟达CEO黄仁勋未受司法部调查，缓解市场疑虑。",
-   "chain": "监管疑虑缓解→英伟达治理风险下降→美股AI硬件情绪修复→A股算力链跟随",
-   "impact": 4,
-   "source": "CNBC Tech",
-   "url": "https://www.cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html",
-   "ts": "Wed, 25 Nov 2026 21:00:08 GMT"
   }
  ]
 }
